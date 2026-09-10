@@ -44,7 +44,7 @@ export default function ProductsPage() {
       <Section>
         <ProductEcosystem />
       </Section>
-      <Section className="bg-bg-alt pt-0">
+      <Section className="pt-0">
         <ContactCta />
       </Section>
     </>

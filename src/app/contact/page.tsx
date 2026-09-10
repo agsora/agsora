@@ -24,66 +24,62 @@ export default function ContactPage() {
       />
 
       <Section>
-        <Container>
-          <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-10">
+        <Container className="max-w-6xl">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-12">
             <div className="lg:col-span-2">
               <Reveal>
-                <div className="rounded-2xl border border-surface-border bg-bg-alt p-7">
-                  <h3 className="text-lg font-semibold text-navy">
-                    Informasi Kontak
-                  </h3>
-                  <div className="mt-6 space-y-5">
-                    <div className="flex items-start gap-3">
-                      <Mail className="mt-0.5 h-5 w-5 text-blue" />
-                      <div>
-                        <p className="text-xs text-muted-2">Email</p>
-                        <a
-                          href={`mailto:${siteConfig.email}`}
-                          className="focus-ring text-sm font-medium text-navy hover:text-blue"
-                        >
-                          {siteConfig.email}
-                        </a>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <MessageCircle className="mt-0.5 h-5 w-5 text-blue" />
-                      <div>
-                        <p className="text-xs text-muted-2">WhatsApp</p>
-                        <a
-                          href={siteConfig.whatsapp.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="focus-ring text-sm font-medium text-navy hover:text-blue"
-                        >
-                          Chat dengan tim kami
-                        </a>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <MapPin className="mt-0.5 h-5 w-5 text-blue" />
-                      <div>
-                        <p className="text-xs text-muted-2">Website</p>
-                        <p className="text-sm font-medium text-navy">
-                          {siteConfig.domain}
-                        </p>
-                      </div>
+                <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+                  Informasi Kontak
+                </p>
+                <div className="mt-6 divide-y divide-line border-y border-line">
+                  <div className="flex items-start gap-3 py-4">
+                    <Mail className="mt-0.5 h-4 w-4 text-ink-subtle" />
+                    <div>
+                      <p className="text-[11px] text-ink-subtle">Email</p>
+                      <a
+                        href={`mailto:${siteConfig.email}`}
+                        className="focus-ring text-[14px] text-ink transition-colors hover:text-accent"
+                      >
+                        {siteConfig.email}
+                      </a>
                     </div>
                   </div>
-
-                  <div className="mt-7 rounded-xl border border-surface-border bg-white p-4">
-                    <p className="text-xs leading-relaxed text-muted">
-                      Untuk kebutuhan enterprise atau multi-cabang, tim kami
-                      akan menjadwalkan sesi diskusi untuk merancang
-                      arsitektur yang tepat bagi organisasi Anda.
-                    </p>
+                  <div className="flex items-start gap-3 py-4">
+                    <MessageCircle className="mt-0.5 h-4 w-4 text-ink-subtle" />
+                    <div>
+                      <p className="text-[11px] text-ink-subtle">WhatsApp</p>
+                      <a
+                        href={siteConfig.whatsapp.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="focus-ring text-[14px] text-ink transition-colors hover:text-accent"
+                      >
+                        Chat dengan tim kami
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3 py-4">
+                    <MapPin className="mt-0.5 h-4 w-4 text-ink-subtle" />
+                    <div>
+                      <p className="text-[11px] text-ink-subtle">Website</p>
+                      <p className="text-[14px] text-ink">
+                        {siteConfig.domain}
+                      </p>
+                    </div>
                   </div>
                 </div>
+
+                <p className="mt-6 text-[12px] leading-relaxed text-ink-subtle">
+                  Untuk kebutuhan enterprise atau multi-cabang, tim kami akan
+                  menjadwalkan sesi diskusi untuk merancang arsitektur yang
+                  tepat bagi organisasi Anda.
+                </p>
               </Reveal>
             </div>
 
             <div className="lg:col-span-3">
               <Reveal delay={0.1}>
-                <div className="rounded-2xl border border-surface-border bg-white p-7 shadow-soft">
+                <div className="rounded-lg border border-line bg-surface-1 p-7">
                   <ContactForm />
                 </div>
               </Reveal>

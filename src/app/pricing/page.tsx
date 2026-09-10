@@ -35,7 +35,7 @@ export default function PricingPage() {
         </Container>
       </Section>
 
-      <Section className="bg-bg-alt">
+      <Section className="border-y border-line bg-surface-1">
         <Container>
           <SectionHeading
             eyebrow="SaaS Products"

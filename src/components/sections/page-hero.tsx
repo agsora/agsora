@@ -14,15 +14,14 @@ export function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <div className="relative overflow-hidden bg-mesh bg-grid pb-16 pt-14 md:pb-20 md:pt-20">
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-white" />
-      <Container>
+    <div className="glow-top relative overflow-hidden border-b border-line pb-16 pt-16 md:pb-20 md:pt-20">
+      <Container className="max-w-6xl">
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h1 className="mt-5 max-w-3xl text-3xl font-bold tracking-tight text-navy sm:text-4xl md:text-5xl">
+        <h1 className="headline mt-5 max-w-3xl text-[34px] font-semibold text-ink sm:text-[42px] md:text-[48px]">
           {title}
         </h1>
         {description ? (
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
+          <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-ink-muted">
             {description}
           </p>
         ) : null}

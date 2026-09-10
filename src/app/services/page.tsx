@@ -23,7 +23,7 @@ export default function ServicesPage() {
       <Section>
         <ServicesGrid />
       </Section>
-      <Section className="bg-bg-alt">
+      <Section className="border-y border-line bg-surface-1">
         <HowWeWork />
       </Section>
       <Section className="pt-0">

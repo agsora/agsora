@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { services } from "@/config/services";
 import { Container } from "@/components/ui/container";
@@ -13,7 +12,7 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
   const items = compact ? services.slice(0, 6) : services;
 
   return (
-    <Container>
+    <Container className="max-w-6xl">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <SectionHeading
           eyebrow="Custom Development"
@@ -21,50 +20,38 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
           description="Dari website sederhana hingga sistem enterprise — tim AG·SORA merancang solusi yang sesuai dengan proses kerja Anda."
         />
         {compact ? (
-          <Button href="/services" variant="outline" className="shrink-0">
+          <Button href="/services" variant="outline" size="sm" className="shrink-0">
             Lihat Semua Layanan
           </Button>
         ) : null}
       </div>
 
-      <RevealGroup className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <RevealGroup className="mt-14 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
         {items.map((service) => {
           const Icon = service.icon;
           return (
             <RevealItem key={service.id}>
-              <motion.div
-                whileHover={{ y: -6 }}
-                transition={{ duration: 0.25, ease: "easeOut" }}
-                className="group relative h-full overflow-hidden rounded-2xl border border-surface-border bg-white p-6 shadow-soft"
+              <Link
+                href={service.href}
+                className="focus-ring group flex h-full flex-col border-b border-r border-line p-7 transition-colors hover:bg-surface-1"
               >
-                <div className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-brand-soft opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                <div className="relative">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-bg-soft text-blue">
-                    <Icon className="h-5 w-5" />
-                  </div>
-                  <h3 className="mt-4 text-lg font-semibold text-navy">
-                    {service.title}
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
-                    {service.description}
-                  </p>
-                  <div className="mt-5 flex items-center justify-between">
-                    <p className="text-xs text-muted-2">
-                      Mulai dari{" "}
-                      <span className="font-semibold text-navy">
-                        {service.startingFrom}
-                      </span>
-                    </p>
-                    <Link
-                      href={service.href}
-                      className="focus-ring flex h-8 w-8 items-center justify-center rounded-full border border-surface-border text-navy transition-colors group-hover:border-blue/40 group-hover:text-blue"
-                      aria-label={`Lihat harga ${service.title}`}
-                    >
-                      <ArrowUpRight className="h-4 w-4" />
-                    </Link>
-                  </div>
+                <div className="flex items-start justify-between">
+                  <Icon className="h-5 w-5 text-ink-subtle transition-colors group-hover:text-accent" />
+                  <ArrowUpRight className="h-4 w-4 text-ink-subtle opacity-0 transition-opacity group-hover:opacity-100" />
                 </div>
-              </motion.div>
+                <h3 className="mt-6 text-[15px] font-medium text-ink">
+                  {service.title}
+                </h3>
+                <p className="mt-2 flex-1 text-[13px] leading-relaxed text-ink-muted">
+                  {service.description}
+                </p>
+                <p className="mt-6 text-[12px] text-ink-subtle">
+                  Mulai dari{" "}
+                  <span className="tabular-nums text-ink-muted">
+                    {service.startingFrom}
+                  </span>
+                </p>
+              </Link>
             </RevealItem>
           );
         })}

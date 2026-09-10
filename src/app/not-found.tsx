@@ -1,33 +1,30 @@
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import { RibbonLogo } from "@/components/ribbon-logo";
 
 export default function NotFound() {
   return (
-    <div className="relative flex min-h-[70vh] items-center overflow-hidden bg-mesh bg-grid">
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-white" />
-      <Container className="text-center">
-        <div className="mx-auto flex justify-center">
-          <RibbonLogo className="h-12 w-12" />
-        </div>
-        <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-blue">
-          404
-        </p>
-        <h1 className="mt-3 text-3xl font-bold tracking-tight text-navy sm:text-4xl">
-          Halaman tidak ditemukan
-        </h1>
-        <p className="mx-auto mt-4 max-w-md text-base text-muted">
-          Halaman yang Anda cari mungkin sudah dipindahkan atau tidak
-          tersedia. Mari kembali ke beranda AG·SORA.
-        </p>
-        <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-          <Button href="/" size="lg" icon={<ArrowRight className="h-4 w-4" />}>
-            Kembali ke Beranda
-          </Button>
-          <Button href="/contact" size="lg" variant="outline">
-            Hubungi Kami
-          </Button>
+    <div className="glow-top relative flex min-h-[70vh] items-center overflow-hidden">
+      <Container className="max-w-6xl">
+        <div className="max-w-lg">
+          <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+            Error 404
+          </p>
+          <h1 className="headline mt-5 text-[34px] font-semibold text-ink sm:text-[42px]">
+            Halaman tidak ditemukan
+          </h1>
+          <p className="mt-5 text-[15px] leading-relaxed text-ink-muted">
+            Halaman yang Anda cari mungkin sudah dipindahkan atau tidak
+            tersedia.
+          </p>
+          <div className="mt-9 flex flex-col gap-2.5 sm:flex-row">
+            <Button href="/" icon={<ArrowRight className="h-4 w-4" />}>
+              Kembali ke Beranda
+            </Button>
+            <Button href="/contact" variant="outline">
+              Hubungi Kami
+            </Button>
+          </div>
         </div>
       </Container>
     </div>

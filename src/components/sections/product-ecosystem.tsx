@@ -10,7 +10,7 @@ export function ProductEcosystem({ compact = false }: { compact?: boolean }) {
   const items = compact ? products.slice(0, 3) : products;
 
   return (
-    <Container>
+    <Container className="max-w-6xl">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <SectionHeading
           eyebrow="Product Ecosystem"
@@ -18,13 +18,13 @@ export function ProductEcosystem({ compact = false }: { compact?: boolean }) {
           description="Bukan sekadar jasa development — AG·SORA juga menghadirkan produk software yang terus dikembangkan dan didukung penuh."
         />
         {compact ? (
-          <Button href="/products" variant="outline" className="shrink-0">
+          <Button href="/products" variant="outline" size="sm" className="shrink-0">
             Lihat Semua Produk
           </Button>
         ) : null}
       </div>
 
-      <div className="mt-12 flex flex-col gap-6">
+      <div className="mt-14 flex flex-col gap-4">
         {items.map((product, i) => (
           <ProductCard product={product} index={i} key={product.id} />
         ))}

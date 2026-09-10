@@ -6,7 +6,6 @@ import { ContactCta } from "@/components/sections/contact-cta";
 import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { valueProps } from "@/config/process";
 import { siteConfig } from "@/config/site";
-import { CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About",
@@ -25,7 +24,7 @@ export default function AboutPage() {
       />
 
       <Section>
-        <Container>
+        <Container className="max-w-6xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
             <Reveal>
               <SectionHeading
@@ -35,11 +34,11 @@ export default function AboutPage() {
               />
             </Reveal>
             <Reveal delay={0.1}>
-              <div className="rounded-2xl border border-surface-border bg-bg-alt p-7">
-                <p className="text-xs font-semibold uppercase tracking-wide text-muted-2">
+              <div className="rounded-lg border border-line bg-surface-1 p-7">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
                   Brand Personality
                 </p>
-                <div className="mt-4 flex flex-wrap gap-2">
+                <div className="mt-5 flex flex-wrap gap-2">
                   {[
                     "Intelligent",
                     "Trusted",
@@ -52,7 +51,7 @@ export default function AboutPage() {
                   ].map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full border border-surface-border bg-white px-3 py-1.5 text-xs font-medium text-navy-2"
+                      className="rounded-md border border-line bg-surface-2 px-2.5 py-1.5 text-[12px] text-ink-muted"
                     >
                       {tag}
                     </span>
@@ -64,23 +63,23 @@ export default function AboutPage() {
         </Container>
       </Section>
 
-      <Section className="bg-bg-alt">
-        <Container>
+      <Section className="border-y border-line bg-surface-1">
+        <Container className="max-w-6xl">
           <SectionHeading
             eyebrow="What We Believe"
             title="Prinsip yang memandu setiap sistem yang kami bangun"
-            align="center"
-            className="mx-auto"
           />
-          <RevealGroup className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
-            {valueProps.map((v) => (
+          <RevealGroup className="mt-14 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
+            {valueProps.map((v, i) => (
               <RevealItem key={v.title}>
-                <div className="h-full rounded-2xl border border-surface-border bg-white p-6">
-                  <CheckCircle2 className="h-5 w-5 text-blue" />
-                  <h3 className="mt-4 text-base font-semibold text-navy">
+                <div className="border-t border-line pt-5">
+                  <span className="text-[11px] tabular-nums text-ink-subtle">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-3 text-[14px] font-medium text-ink">
                     {v.title}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                  <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
                     {v.description}
                   </p>
                 </div>

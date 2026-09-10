@@ -22,7 +22,7 @@ export default function IndustriesPage() {
       <Section>
         <IndustriesGrid />
       </Section>
-      <Section className="bg-bg-alt pt-0">
+      <Section className="pt-0">
         <ContactCta />
       </Section>
     </>

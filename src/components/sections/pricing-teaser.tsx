@@ -12,44 +12,49 @@ const saasFrom = products[0].tiers[0];
 
 export function PricingTeaser() {
   return (
-    <Container>
+    <Container className="max-w-6xl">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <SectionHeading
           eyebrow="Launch Pricing"
           title="Accessible technology for growing businesses"
-          description="Simple needs start small. Complex systems scale with your business. Ini gambaran harga mulai dari — detail lengkap ada di halaman Pricing."
+          description="Simple needs start small. Complex systems scale with your business."
         />
-        <Button href="/pricing" variant="outline" className="shrink-0" icon={<ArrowRight className="h-4 w-4" />}>
+        <Button
+          href="/pricing"
+          variant="outline"
+          size="sm"
+          className="shrink-0"
+          icon={<ArrowRight className="h-3.5 w-3.5" />}
+        >
           Lihat Semua Harga
         </Button>
       </div>
 
-      <RevealGroup className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <RevealGroup className="mt-14 grid grid-cols-1 border-t border-line sm:grid-cols-2 lg:grid-cols-4 lg:border-l">
         {highlights.map((item) => (
           <RevealItem key={item.id}>
-            <div className="flex h-full flex-col justify-between rounded-2xl border border-surface-border bg-white p-5">
-              <p className="text-sm font-medium text-navy-2">{item.name}</p>
-              <div>
-                <p className="mt-4 text-xs text-muted-2">Mulai dari</p>
-                <p className="mt-1 text-xl font-bold text-navy">
-                  {item.price}
-                  {item.unit ? (
-                    <span className="ml-1 text-sm font-medium text-muted-2">
-                      {item.unit}
-                    </span>
-                  ) : null}
-                </p>
-              </div>
+            <div className="h-full border-b border-line px-6 py-6 lg:border-r">
+              <p className="text-[13px] text-ink-muted">{item.name}</p>
+              <p className="mt-4 text-[11px] text-ink-subtle">Mulai dari</p>
+              <p className="mt-1 text-[20px] font-semibold tabular-nums text-ink">
+                {item.price}
+                {item.unit ? (
+                  <span className="text-[13px] font-normal text-ink-subtle">
+                    {" "}
+                    {item.unit}
+                  </span>
+                ) : null}
+              </p>
             </div>
           </RevealItem>
         ))}
       </RevealGroup>
 
-      <Reveal delay={0.15}>
-        <div className="mt-6 flex flex-col items-center justify-between gap-4 rounded-2xl border border-surface-border bg-bg-alt p-6 sm:flex-row">
-          <p className="text-sm text-muted">
+      <Reveal delay={0.12}>
+        <div className="mt-8 flex flex-col items-start justify-between gap-4 rounded-lg border border-line bg-surface-1 px-6 py-5 sm:flex-row sm:items-center">
+          <p className="text-[13px] text-ink-muted">
             Produk SaaS AG·SORA mulai dari{" "}
-            <span className="font-semibold text-navy">
+            <span className="tabular-nums text-ink">
               {saasFrom.price}
               {saasFrom.period}
             </span>{" "}

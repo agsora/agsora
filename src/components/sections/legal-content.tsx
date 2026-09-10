@@ -13,18 +13,20 @@ export function LegalContent({
   sections: LegalSection[];
 }) {
   return (
-    <Container>
-      <div className="mx-auto max-w-3xl">
-        <p className="text-sm text-muted-2">Terakhir diperbarui: {updatedAt}</p>
-        <div className="mt-8 space-y-10">
+    <Container className="max-w-6xl">
+      <div className="max-w-3xl">
+        <p className="text-[12px] text-ink-subtle">
+          Terakhir diperbarui: {updatedAt}
+        </p>
+        <div className="mt-10 space-y-10">
           {sections.map((section) => (
             <div key={section.title}>
-              <h2 className="text-xl font-semibold text-navy">
+              <h2 className="text-[15px] font-semibold text-ink">
                 {section.title}
               </h2>
               <div className="mt-3 space-y-3">
                 {section.body.map((p, i) => (
-                  <p key={i} className="text-sm leading-relaxed text-muted">
+                  <p key={i} className="text-[14px] leading-relaxed text-ink-muted">
                     {p}
                   </p>
                 ))}

@@ -12,13 +12,15 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h3 className="text-sm font-semibold text-navy">{title}</h3>
+      <h3 className="text-[11px] font-medium uppercase tracking-[0.18em] text-ink-subtle">
+        {title}
+      </h3>
       <ul className="mt-4 space-y-2.5">
         {links.map((link) => (
           <li key={link.href}>
             <Link
               href={link.href}
-              className="focus-ring text-sm text-muted transition-colors hover:text-blue"
+              className="focus-ring text-[13px] text-ink-muted transition-colors hover:text-ink"
             >
               {link.label}
             </Link>
@@ -31,37 +33,37 @@ function FooterColumn({
 
 export function Footer() {
   return (
-    <footer className="border-t border-surface-border bg-bg-alt">
-      <div className="mx-auto max-w-7xl container-px py-16">
+    <footer className="border-t border-line bg-surface-0">
+      <div className="mx-auto max-w-6xl container-px py-16">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-6">
-          <div className="col-span-2 md:col-span-2">
+          <div className="col-span-2">
             <Link href="/" className="focus-ring flex items-center gap-2.5">
-              <RibbonLogo className="h-8 w-8" />
-              <span className="text-lg font-bold tracking-tight text-navy">
-                AG<span className="text-blue">·</span>SORA
+              <RibbonLogo className="h-7 w-7" />
+              <span className="text-[15px] font-semibold tracking-tight text-ink">
+                AG<span className="text-ink-subtle">·</span>SORA
               </span>
             </Link>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
+            <p className="mt-4 max-w-[15rem] text-[13px] leading-relaxed text-ink-muted">
               {siteConfig.tagline}
             </p>
-            <div className="mt-5 flex items-center gap-3">
+            <div className="mt-6 flex items-center gap-2">
               <a
                 href={siteConfig.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram AGSORA"
-                className="focus-ring flex h-9 w-9 items-center justify-center rounded-full border border-surface-border text-navy transition-colors hover:border-blue/40 hover:text-blue"
+                className="focus-ring flex h-8 w-8 items-center justify-center rounded-md border border-line text-ink-muted transition-colors hover:border-line-strong hover:text-ink"
               >
-                <InstagramIcon className="h-4 w-4" />
+                <InstagramIcon className="h-3.5 w-3.5" />
               </a>
               <a
                 href={siteConfig.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn AGSORA"
-                className="focus-ring flex h-9 w-9 items-center justify-center rounded-full border border-surface-border text-navy transition-colors hover:border-blue/40 hover:text-blue"
+                className="focus-ring flex h-8 w-8 items-center justify-center rounded-md border border-line text-ink-muted transition-colors hover:border-line-strong hover:text-ink"
               >
-                <LinkedinIcon className="h-4 w-4" />
+                <LinkedinIcon className="h-3.5 w-3.5" />
               </a>
             </div>
           </div>
@@ -72,10 +74,9 @@ export function Footer() {
           <FooterColumn title="Legal" links={footerNav.legal} />
         </div>
 
-        <div className="mt-12 flex flex-col gap-3 border-t border-surface-border pt-8 text-xs text-muted-2 md:flex-row md:items-center md:justify-between">
+        <div className="mt-14 flex flex-col gap-2 border-t border-line pt-8 text-[12px] text-ink-subtle md:flex-row md:items-center md:justify-between">
           <p>
-            &copy; {new Date().getFullYear()} {siteConfig.legalName}. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} {siteConfig.legalName}
           </p>
           <p>{siteConfig.domain}</p>
         </div>

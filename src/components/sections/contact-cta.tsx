@@ -5,26 +5,18 @@ import { Reveal } from "@/components/motion/reveal";
 
 export function ContactCta() {
   return (
-    <Container>
+    <Container className="max-w-6xl">
       <Reveal>
-        <div className="relative overflow-hidden rounded-3xl bg-navy px-6 py-16 text-center text-white sm:px-12 md:py-20">
-          <div
-            className="pointer-events-none absolute inset-0 opacity-40"
-            style={{
-              background:
-                "radial-gradient(50% 60% at 50% 0%, rgba(43,98,246,0.35) 0%, rgba(43,98,246,0) 70%)",
-            }}
-          />
+        <div className="glow-top relative overflow-hidden rounded-lg border border-line bg-surface-1 px-6 py-16 text-center md:py-20">
           <div className="relative">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-              Siap membangun sistem yang tumbuh
-              <br className="hidden sm:block" /> bersama bisnis Anda?
+            <h2 className="headline mx-auto max-w-2xl text-[30px] font-semibold text-ink sm:text-[38px]">
+              Siap membangun sistem yang tumbuh bersama bisnis Anda?
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-white/70">
-              Diskusikan kebutuhan Anda dengan tim AG·SORA — tanpa biaya, tanpa
-              komitmen.
+            <p className="mx-auto mt-5 max-w-md text-[14px] leading-relaxed text-ink-muted">
+              Diskusikan kebutuhan Anda dengan tim AG·SORA — tanpa biaya,
+              tanpa komitmen.
             </p>
-            <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+            <div className="mt-9 flex flex-col justify-center gap-2.5 sm:flex-row">
               <Button
                 href="/contact"
                 size="lg"
@@ -32,7 +24,7 @@ export function ContactCta() {
               >
                 Konsultasi Gratis
               </Button>
-              <Button href="/pricing" size="lg" variant="outline" className="border-white/20 bg-transparent text-white hover:border-white/40">
+              <Button href="/pricing" size="lg" variant="outline">
                 Request Proposal
               </Button>
             </div>

@@ -15,20 +15,22 @@ export default function Home() {
       <Section>
         <ServicesGrid compact />
       </Section>
-      <Section className="bg-bg-alt">
+      <Section className="border-y border-line bg-surface-1">
         <ProductEcosystem compact />
       </Section>
-      <WhyAgsora />
       <Section>
+        <WhyAgsora />
+      </Section>
+      <Section className="border-y border-line bg-surface-1">
         <HowWeWork />
       </Section>
-      <Section className="bg-bg-alt">
+      <Section>
         <IndustriesGrid />
       </Section>
-      <Section>
+      <Section className="border-y border-line bg-surface-1">
         <PricingTeaser />
       </Section>
-      <Section className="bg-bg-alt pt-0">
+      <Section className="pt-0">
         <ContactCta />
       </Section>
     </>

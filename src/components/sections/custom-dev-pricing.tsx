@@ -3,27 +3,20 @@ import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 
 export function CustomDevPricing() {
   return (
-    <RevealGroup className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    <RevealGroup className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
       {customDevPricing.map((item) => (
         <RevealItem key={item.id}>
           <div
             id={item.id}
-            className="scroll-mt-28 flex h-full flex-col justify-between rounded-2xl border border-surface-border bg-white p-5 transition-colors hover:border-blue/30"
+            className="flex h-full scroll-mt-24 items-baseline justify-between border-b border-r border-line px-6 py-5"
           >
-            <p className="text-sm font-medium text-navy-2">{item.name}</p>
-            <div className="mt-4 flex items-baseline gap-1">
-              <span className="text-xs text-muted-2">
-                {item.price === "Custom Quote" ? "" : "Mulai"}
-              </span>
-            </div>
-            <p className="mt-1 text-xl font-bold text-navy">
+            <span className="text-[13px] text-ink-muted">{item.name}</span>
+            <span className="whitespace-nowrap pl-4 text-[13px] tabular-nums text-ink">
               {item.price}
               {item.unit ? (
-                <span className="ml-1 text-sm font-medium text-muted-2">
-                  {item.unit}
-                </span>
+                <span className="text-ink-subtle"> {item.unit}</span>
               ) : null}
-            </p>
+            </span>
           </div>
         </RevealItem>
       ))}

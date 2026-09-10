@@ -27,8 +27,10 @@ const budgetRanges = [
 ];
 
 function inputClass() {
-  return "focus-ring w-full rounded-xl border border-surface-border bg-white px-4 py-3 text-sm text-navy placeholder:text-muted-2 transition-colors focus:border-blue/50";
+  return "focus-ring w-full rounded-md border border-line bg-surface-0 px-3.5 py-2.5 text-[14px] text-ink placeholder:text-ink-subtle transition-colors hover:border-line-strong focus:border-accent";
 }
+
+const labelClass = "mb-2 block text-[12px] font-medium text-ink-muted";
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -58,31 +60,31 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-5 sm:grid-cols-2">
       <div>
-        <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-navy-2">
+        <label htmlFor="name" className={labelClass}>
           Nama
         </label>
         <input required id="name" name="name" className={inputClass()} placeholder="Nama lengkap" />
       </div>
       <div>
-        <label htmlFor="company" className="mb-1.5 block text-sm font-medium text-navy-2">
+        <label htmlFor="company" className={labelClass}>
           Perusahaan
         </label>
         <input id="company" name="company" className={inputClass()} placeholder="Nama perusahaan" />
       </div>
       <div>
-        <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-navy-2">
+        <label htmlFor="email" className={labelClass}>
           Email
         </label>
         <input required type="email" id="email" name="email" className={inputClass()} placeholder="nama@perusahaan.com" />
       </div>
       <div>
-        <label htmlFor="phone" className="mb-1.5 block text-sm font-medium text-navy-2">
+        <label htmlFor="phone" className={labelClass}>
           WhatsApp
         </label>
         <input required id="phone" name="phone" className={inputClass()} placeholder="08xx-xxxx-xxxx" />
       </div>
       <div>
-        <label htmlFor="need" className="mb-1.5 block text-sm font-medium text-navy-2">
+        <label htmlFor="need" className={labelClass}>
           Jenis kebutuhan
         </label>
         <select required id="need" name="need" defaultValue="" className={inputClass()}>
@@ -97,7 +99,7 @@ export function ContactForm() {
         </select>
       </div>
       <div>
-        <label htmlFor="budget" className="mb-1.5 block text-sm font-medium text-navy-2">
+        <label htmlFor="budget" className={labelClass}>
           Budget range
         </label>
         <select required id="budget" name="budget" defaultValue="" className={inputClass()}>
@@ -112,7 +114,7 @@ export function ContactForm() {
         </select>
       </div>
       <div className="sm:col-span-2">
-        <label htmlFor="description" className="mb-1.5 block text-sm font-medium text-navy-2">
+        <label htmlFor="description" className={labelClass}>
           Deskripsi project
         </label>
         <textarea
@@ -128,13 +130,13 @@ export function ContactForm() {
       <div className="sm:col-span-2">
         <button
           type="submit"
-          className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-blue to-cyan px-6 py-3.5 text-sm font-semibold text-white shadow-[0_8px_20px_-6px_rgba(43,98,246,0.5)] transition-transform hover:-translate-y-0.5 sm:w-auto"
+          className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-md bg-ink px-5 py-3 text-[14px] font-medium text-surface-0 transition-colors hover:bg-white sm:w-auto"
         >
           Kirim via WhatsApp
           <Send className="h-4 w-4" />
         </button>
         {submitted ? (
-          <p className="mt-3 text-sm text-blue">
+          <p className="mt-3 text-[13px] text-accent">
             Terima kasih! Pesan Anda telah disiapkan di WhatsApp — silakan
             kirim untuk menyelesaikan permintaan konsultasi.
           </p>

@@ -2,23 +2,20 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import type { ComponentPropsWithoutRef, ElementType, ReactNode } from "react";
 
-type Variant = "primary" | "secondary" | "ghost" | "outline";
-type Size = "md" | "lg" | "sm";
+type Variant = "primary" | "secondary" | "outline" | "ghost";
+type Size = "sm" | "md" | "lg";
 
 const variantClasses: Record<Variant, string> = {
-  primary:
-    "bg-gradient-to-r from-blue to-cyan text-white shadow-[0_8px_20px_-6px_rgba(43,98,246,0.5)] hover:shadow-[0_12px_28px_-6px_rgba(43,98,246,0.6)] hover:-translate-y-0.5",
-  secondary:
-    "bg-navy text-white hover:bg-navy-2 hover:-translate-y-0.5",
-  outline:
-    "border border-surface-border bg-white text-navy hover:border-blue/40 hover:-translate-y-0.5",
-  ghost: "text-navy hover:bg-bg-soft",
+  primary: "bg-ink text-surface-0 hover:bg-white",
+  secondary: "bg-surface-2 text-ink border border-line-strong hover:bg-surface-3",
+  outline: "border border-line-strong text-ink hover:border-ink-subtle hover:bg-surface-1",
+  ghost: "text-ink-muted hover:text-ink hover:bg-surface-1",
 };
 
 const sizeClasses: Record<Size, string> = {
-  sm: "text-sm px-4 py-2",
-  md: "text-sm px-5 py-3",
-  lg: "text-base px-7 py-3.5",
+  sm: "text-[13px] px-3.5 py-2",
+  md: "text-sm px-4 py-2.5",
+  lg: "text-[15px] px-5 py-3",
 };
 
 type ButtonProps = {
@@ -42,7 +39,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const classes = cn(
-    "focus-ring inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-all duration-200 ease-out",
+    "focus-ring inline-flex items-center justify-center gap-2 rounded-md font-medium transition-colors duration-150",
     variantClasses[variant],
     sizeClasses[size],
     className
