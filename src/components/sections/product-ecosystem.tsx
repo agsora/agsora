@@ -24,7 +24,7 @@ export function ProductEcosystem({ compact = false }: { compact?: boolean }) {
         ) : null}
       </div>
 
-      <div className="mt-14 flex flex-col gap-4">
+      <div className="mt-14 flex flex-col gap-16">
         {items.map((product, i) => (
           <ProductCard product={product} index={i} key={product.id} />
         ))}

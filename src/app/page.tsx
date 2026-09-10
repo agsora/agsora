@@ -1,6 +1,7 @@
 import { Hero } from "@/components/sections/hero";
 import { ServicesGrid } from "@/components/sections/services-grid";
-import { ProductEcosystem } from "@/components/sections/product-ecosystem";
+import { ProductSwitcher } from "@/components/sections/product-switcher";
+import { SystemIntegration } from "@/components/sections/system-integration";
 import { WhyAgsora } from "@/components/sections/why-agsora";
 import { HowWeWork } from "@/components/sections/how-we-work";
 import { IndustriesGrid } from "@/components/sections/industries-grid";
@@ -16,21 +17,24 @@ export default function Home() {
         <ServicesGrid compact />
       </Section>
       <Section className="border-y border-line bg-surface-1">
-        <ProductEcosystem compact />
+        <ProductSwitcher />
       </Section>
       <Section>
+        <SystemIntegration />
+      </Section>
+      <Section className="border-y border-line bg-surface-1">
         <WhyAgsora />
       </Section>
-      <Section className="border-y border-line bg-surface-1">
+      <Section>
         <HowWeWork />
       </Section>
-      <Section>
+      <Section className="border-y border-line bg-surface-1">
         <IndustriesGrid />
       </Section>
-      <Section className="border-y border-line bg-surface-1">
+      <Section>
         <PricingTeaser />
       </Section>
-      <Section className="pt-0">
+      <Section className="border-t border-line bg-surface-1 pt-20 md:pt-28">
         <ContactCta />
       </Section>
     </>
