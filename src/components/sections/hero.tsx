@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -14,42 +15,29 @@ export function Hero() {
       <Container className="max-w-6xl">
         <div className="grid items-center gap-16 lg:grid-cols-[1fr_0.9fr] lg:gap-12">
           <div>
+            <p className="flex items-center gap-2.5 text-[12px] text-ink-subtle">
+              <span className="h-1 w-1 rounded-full bg-accent" />
+              Build smarter systems. Grow without limits.
+            </p>
+
+            {/* No entrance animation: this is the LCP element, and opacity:0 delays LCP. */}
+            <h1 className="headline mt-6 text-[36px] font-semibold text-ink sm:text-[46px] md:text-[54px]">
+              Software house Indonesia untuk{" "}
+              <span className="text-ink-subtle">
+                sistem bisnis yang terintegrasi.
+              </span>
+            </h1>
+
+            <p className="mt-7 max-w-lg text-[16px] leading-relaxed text-ink-muted">
+              PT Agsora Teknologi Indonesia membangun custom software, ERP, POS,
+              HRIS, dan CRM — serta produk SaaS siap pakai — agar perusahaan
+              Anda bekerja lebih efisien, terintegrasi, dan scalable.
+            </p>
+
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease }}
-              className="flex items-center gap-2.5 text-[12px] text-ink-subtle"
-            >
-              <span className="h-1 w-1 rounded-full bg-accent" />
-              PT Agsora Teknologi Indonesia
-            </motion.div>
-
-            <motion.h1
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.06, ease }}
-              className="headline mt-6 text-[40px] font-semibold text-ink sm:text-[52px] md:text-[60px]"
-            >
-              Build smarter systems.
-              <br />
-              <span className="text-ink-subtle">Grow without limits.</span>
-            </motion.h1>
-
-            <motion.p
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.12, ease }}
-              className="mt-7 max-w-lg text-[16px] leading-relaxed text-ink-muted"
-            >
-              AG·SORA membangun software, sistem bisnis, dan produk digital
-              yang membantu perusahaan bekerja lebih efisien, terintegrasi,
-              dan scalable.
-            </motion.p>
-
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.18, ease }}
+              transition={{ duration: 0.5, delay: 0.1, ease }}
               className="mt-9 flex flex-col gap-2.5 sm:flex-row"
             >
               <Button
@@ -64,20 +52,25 @@ export function Hero() {
               </Button>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-14 border-t border-line pt-6"
-            >
+            <div className="mt-14 border-t border-line pt-6">
               <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
                 Dua lini layanan
               </p>
-              <div className="mt-3 flex flex-wrap gap-x-8 gap-y-2 text-[13px] text-ink-muted">
-                <span>Custom Development</span>
-                <span>Proprietary SaaS Products</span>
+              <div className="mt-3 flex flex-wrap gap-x-8 gap-y-2 text-[13px]">
+                <Link
+                  href="/services"
+                  className="focus-ring text-ink-muted transition-colors hover:text-ink"
+                >
+                  Custom Development
+                </Link>
+                <Link
+                  href="/products"
+                  className="focus-ring text-ink-muted transition-colors hover:text-ink"
+                >
+                  Proprietary SaaS Products
+                </Link>
               </div>
-            </motion.div>
+            </div>
           </div>
 
           <motion.div

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -9,6 +10,7 @@ import { PostCard } from "@/components/sections/post-card";
 import { ContactCta } from "@/components/sections/contact-cta";
 import {
   blogPosts,
+  coverUrl,
   formatPostDate,
   getPostBySlug,
   getRelatedPosts,
@@ -28,6 +30,8 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
   if (!post) return {};
 
+  const ogImage = coverUrl(post.cover.src, 1200);
+
   return {
     title: post.title,
     description: post.excerpt,
@@ -37,7 +41,15 @@ export async function generateMetadata({
       title: post.title,
       description: post.excerpt,
       publishedTime: post.publishedAt,
+      section: post.category,
       url: `${siteConfig.url}/blog/${post.slug}`,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: post.cover.alt }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [ogImage],
     },
   };
 }
@@ -55,16 +67,53 @@ export default async function BlogPostPage({
 
   const schema = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    description: post.excerpt,
-    datePublished: post.publishedAt,
-    dateModified: post.publishedAt,
-    articleSection: post.category,
-    inLanguage: "id-ID",
-    author: { "@type": "Organization", name: siteConfig.legalName },
-    publisher: { "@type": "Organization", name: siteConfig.legalName },
-    mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.excerpt,
+        image: coverUrl(post.cover.src, 1200),
+        datePublished: post.publishedAt,
+        dateModified: post.publishedAt,
+        articleSection: post.category,
+        wordCount: post.body.reduce((n, b) => {
+          const text =
+            b.type === "ul" || b.type === "ol"
+              ? b.items.join(" ")
+              : b.type === "callout"
+                ? `${b.title} ${b.text}`
+                : b.text;
+          return n + text.split(/\s+/).length;
+        }, 0),
+        inLanguage: "id-ID",
+        author: { "@type": "Organization", name: siteConfig.legalName },
+        publisher: { "@type": "Organization", name: siteConfig.legalName },
+        mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Beranda",
+            item: siteConfig.url,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Blog",
+            item: `${siteConfig.url}/blog`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: post.title,
+            item: `${siteConfig.url}/blog/${post.slug}`,
+          },
+        ],
+      },
+    ],
   };
 
   return (
@@ -102,9 +151,22 @@ export default async function BlogPostPage({
         </Container>
       </div>
 
+      <Container className="max-w-6xl">
+        <figure className="relative mt-10 aspect-[21/9] overflow-hidden rounded-lg border border-line bg-surface-2">
+          <Image
+            src={post.cover.src}
+            alt={post.cover.alt}
+            fill
+            sizes="(max-width: 1024px) 100vw, 1152px"
+            preload
+            className="object-cover"
+          />
+        </figure>
+      </Container>
+
       <Section>
         <Container className="max-w-6xl">
-          <PostBody blocks={post.body} />
+          <PostBody blocks={post.body} postSlug={post.slug} />
         </Container>
       </Section>
 

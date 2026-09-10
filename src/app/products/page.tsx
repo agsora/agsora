@@ -6,12 +6,14 @@ import { ContactCta } from "@/components/sections/contact-cta";
 import { products } from "@/config/products";
 import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
-  title: "Products",
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Produk SaaS: POS, ERP, HR, CRM & Inventory",
   description:
-    "AG·SORA POS, ERP, HR, CRM, dan Inventory — produk SaaS siap pakai untuk mengelola operasional bisnis Anda.",
-  alternates: { canonical: "/products" },
-};
+    "AG·SORA POS, ERP, HR, CRM, dan Inventory — software bisnis siap pakai dengan paket berlangganan mulai Rp99.000 per bulan.",
+  path: "/products",
+});
 
 const productsSchema = products.map((p) => ({
   "@context": "https://schema.org",
@@ -37,6 +39,7 @@ export default function ProductsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
       />
       <PageHero
+        breadcrumb={{ name: "Products", href: "/products" }}
         eyebrow="Product Ecosystem"
         title="Produk software AG·SORA untuk operasional yang lebih ringan"
         description="Setiap produk dirancang agar mudah digunakan sejak hari pertama, dengan paket yang bisa disesuaikan seiring pertumbuhan bisnis Anda."

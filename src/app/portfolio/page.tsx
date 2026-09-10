@@ -6,12 +6,14 @@ import { ContactCta } from "@/components/sections/contact-cta";
 import { Reveal } from "@/components/motion/reveal";
 import { FolderKanban, Cog, Layers, Rocket, TrendingUp } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Portfolio / Case Studies",
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Portfolio & Case Study",
   description:
-    "Case study AG·SORA akan segera hadir — dokumentasi project, teknologi, dan hasil implementasi nyata.",
-  alternates: { canonical: "/portfolio" },
-};
+    "Case study AG·SORA sedang disiapkan: konteks masalah, pendekatan solusi, teknologi, dan hasil implementasi yang terverifikasi.",
+  path: "/portfolio",
+});
 
 const frameworkSteps = [
   { icon: FolderKanban, title: "Problem", description: "Tantangan bisnis yang dihadapi klien." },
@@ -25,6 +27,7 @@ export default function PortfolioPage() {
   return (
     <>
       <PageHero
+        breadcrumb={{ name: "Portfolio", href: "/portfolio" }}
         eyebrow="Portfolio"
         title="Case Study Coming Soon"
         description="Kami sedang menyiapkan dokumentasi project AG·SORA secara transparan — lengkap dengan konteks masalah, pendekatan solusi, dan hasil nyata. Setiap case study akan mengikuti kerangka berikut."

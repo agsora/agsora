@@ -9,17 +9,20 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { valueProps } from "@/config/process";
 import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
-  title: "About",
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Tentang Kami",
   description:
-    "AG·SORA adalah perusahaan teknologi Indonesia yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital.",
-  alternates: { canonical: "/about" },
-};
+    "PT Agsora Teknologi Indonesia adalah software house yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
+        breadcrumb={{ name: "About", href: "/about" }}
         eyebrow="About AG·SORA"
         title="Perusahaan teknologi yang membangun fondasi digital bisnis Indonesia"
         description={`${siteConfig.legalName} adalah perusahaan teknologi yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital — melalui layanan custom development dan produk SaaS proprietary.`}

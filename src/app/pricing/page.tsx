@@ -8,18 +8,21 @@ import { PricingDisclaimer } from "@/components/sections/pricing-disclaimer";
 import { ContactCta } from "@/components/sections/contact-cta";
 import { Faq, FaqSchema } from "@/components/sections/faq";
 
-export const metadata: Metadata = {
-  title: "Launch Pricing",
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Harga Pembuatan Software & Aplikasi",
   description:
-    "Harga mulai dari untuk custom development dan produk SaaS AG·SORA — accessible technology for growing businesses.",
-  alternates: { canonical: "/pricing" },
-};
+    "Harga jasa pembuatan website, aplikasi, ERP, POS, HRIS, dan custom software mulai dari Rp2.500.000. Paket SaaS mulai Rp99.000/bulan.",
+  path: "/pricing",
+});
 
 export default function PricingPage() {
   return (
     <>
       <FaqSchema />
       <PageHero
+        breadcrumb={{ name: "Pricing", href: "/pricing" }}
         eyebrow="Launch Pricing"
         title="Accessible technology for growing businesses"
         description="Simple needs start small. Complex systems scale with your business. Semua harga di bawah adalah harga mulai dari."

@@ -5,11 +5,13 @@ import { LegalContent, type LegalSection } from "@/components/sections/legal-con
 import { LegalCta } from "@/components/sections/legal-cta";
 import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
   title: "Privacy Policy",
   description: `Kebijakan privasi ${siteConfig.brandMark} mengenai pengumpulan, penggunaan, dan perlindungan data pengguna.`,
-  alternates: { canonical: "/privacy-policy" },
-};
+  path: "/privacy-policy",
+});
 
 const sections: LegalSection[] = [
   {
@@ -61,7 +63,11 @@ const sections: LegalSection[] = [
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <PageHero eyebrow="Legal" title="Privacy Policy" />
+      <PageHero
+        breadcrumb={{ name: "Privacy Policy", href: "/privacy-policy" }}
+        eyebrow="Legal"
+        title="Privacy Policy"
+      />
       <Section>
         <LegalContent updatedAt="10 September 2026" sections={sections} />
       </Section>

@@ -1,6 +1,13 @@
 import type { Block } from "@/config/blog";
+import { RelatedServices } from "@/components/sections/related-services";
 
-export function PostBody({ blocks }: { blocks: Block[] }) {
+export function PostBody({
+  blocks,
+  postSlug,
+}: {
+  blocks: Block[];
+  postSlug?: string;
+}) {
   return (
     <div className="max-w-2xl">
       {blocks.map((block, i) => {
@@ -75,6 +82,7 @@ export function PostBody({ blocks }: { blocks: Block[] }) {
             );
         }
       })}
+      {postSlug ? <RelatedServices postSlug={postSlug} /> : null}
     </div>
   );
 }

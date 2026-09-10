@@ -1,21 +1,47 @@
 import { Container } from "@/components/ui/container";
 import { Eyebrow } from "@/components/ui/section";
+import {
+  Breadcrumbs,
+  breadcrumbSchema,
+  type Crumb,
+} from "@/components/ui/breadcrumbs";
 import type { ReactNode } from "react";
 
 export function PageHero({
   eyebrow,
   title,
   description,
+  breadcrumb,
   children,
 }: {
   eyebrow: string;
   title: ReactNode;
   description?: ReactNode;
+  /** The current page; renders a Beranda → page trail plus BreadcrumbList schema. */
+  breadcrumb?: Crumb;
   children?: ReactNode;
 }) {
+  const crumbs = breadcrumb ? [{ name: "Beranda", href: "/" }, breadcrumb] : null;
+
   return (
-    <div className="glow-top relative overflow-hidden border-b border-line pb-16 pt-16 md:pb-20 md:pt-20">
+    <div className="glow-top relative overflow-hidden border-b border-line pb-16 pt-14 md:pb-20 md:pt-16">
+      {crumbs ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              ...breadcrumbSchema(crumbs),
+            }),
+          }}
+        />
+      ) : null}
       <Container className="max-w-6xl">
+        {crumbs ? (
+          <div className="mb-10">
+            <Breadcrumbs items={crumbs} />
+          </div>
+        ) : null}
         <Eyebrow>{eyebrow}</Eyebrow>
         <h1 className="headline mt-5 max-w-3xl text-[34px] font-semibold text-ink sm:text-[42px] md:text-[48px]">
           {title}

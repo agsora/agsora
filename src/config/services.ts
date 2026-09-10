@@ -29,7 +29,7 @@ export const services: Service[] = [
       "Sistem bisnis yang dirancang khusus mengikuti proses kerja perusahaan Anda, bukan sebaliknya.",
     icon: Code2,
     startingFrom: "Rp8.000.000",
-    href: "/pricing#custom-software",
+    href: "/services/custom-software",
   },
   {
     id: "website",
@@ -38,7 +38,7 @@ export const services: Service[] = [
       "Website company profile hingga platform enterprise dengan performa dan SEO yang solid.",
     icon: Globe,
     startingFrom: "Rp3.500.000",
-    href: "/pricing#website",
+    href: "/services/website",
   },
   {
     id: "mobile",
@@ -47,7 +47,7 @@ export const services: Service[] = [
       "Aplikasi iOS & Android untuk memperluas jangkauan layanan dan operasional lapangan.",
     icon: Smartphone,
     startingFrom: "Rp10.000.000",
-    href: "/pricing#mobile",
+    href: "/services/mobile",
   },
   {
     id: "erp",
@@ -56,7 +56,7 @@ export const services: Service[] = [
       "Integrasikan keuangan, inventori, produksi, dan operasional dalam satu sistem terpadu.",
     icon: Network,
     startingFrom: "Rp15.000.000",
-    href: "/pricing#erp",
+    href: "/services/erp",
   },
   {
     id: "pos",
@@ -65,7 +65,7 @@ export const services: Service[] = [
       "Sistem kasir dan penjualan yang cepat, andal, dan terhubung langsung dengan laporan bisnis.",
     icon: ShoppingCart,
     startingFrom: "Rp6.000.000",
-    href: "/pricing#pos",
+    href: "/services/pos",
   },
   {
     id: "hris",
@@ -74,7 +74,7 @@ export const services: Service[] = [
       "Kelola data karyawan, absensi, payroll, dan performa dalam satu platform HR digital.",
     icon: Users,
     startingFrom: "Rp7.500.000",
-    href: "/pricing#hris",
+    href: "/services/hris",
   },
   {
     id: "crm",
@@ -83,7 +83,7 @@ export const services: Service[] = [
       "Pantau pipeline penjualan, relasi pelanggan, dan tim sales secara real-time.",
     icon: UserCircle2,
     startingFrom: "Rp7.500.000",
-    href: "/pricing#crm",
+    href: "/services/crm",
   },
   {
     id: "dashboard",
@@ -92,7 +92,7 @@ export const services: Service[] = [
       "Visualisasi data bisnis yang membantu pengambilan keputusan lebih cepat dan akurat.",
     icon: LayoutDashboard,
     startingFrom: "Rp4.000.000",
-    href: "/pricing#dashboard",
+    href: "/services/dashboard",
   },
   {
     id: "ai-automation",
@@ -101,7 +101,7 @@ export const services: Service[] = [
       "Otomatisasi proses berulang dengan AI — dari customer service hingga operasional internal.",
     icon: Bot,
     startingFrom: "Rp5.000.000",
-    href: "/pricing#ai-automation",
+    href: "/services/ai-automation",
   },
   {
     id: "api-integration",
@@ -110,6 +110,6 @@ export const services: Service[] = [
       "Hubungkan sistem internal dengan payment gateway, marketplace, dan layanan pihak ketiga.",
     icon: Plug,
     startingFrom: "Rp3.000.000",
-    href: "/pricing#api-integration",
+    href: "/services/api-integration",
   },
 ];

@@ -8,12 +8,14 @@ import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { getSortedPosts } from "@/config/blog";
 import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
-  title: "Blog",
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Blog: Panduan Sistem Bisnis & Software",
   description:
-    "Catatan praktis seputar sistem bisnis, ERP, POS, HRIS, dan pengembangan software untuk perusahaan di Indonesia.",
-  alternates: { canonical: "/blog" },
-};
+    "Panduan praktis seputar ERP, POS, HRIS, custom software, dan transformasi digital untuk pemilik bisnis dan tim operasional di Indonesia.",
+  path: "/blog",
+});
 
 export default function BlogPage() {
   const posts = getSortedPosts();
@@ -40,6 +42,7 @@ export default function BlogPage() {
       />
 
       <PageHero
+        breadcrumb={{ name: "Blog", href: "/blog" }}
         eyebrow="Blog"
         title="Catatan tentang membangun sistem bisnis"
         description="Hal-hal praktis yang kami temui saat merancang dan menerapkan sistem — ditulis untuk pemilik bisnis dan tim operasional, bukan hanya untuk developer."
@@ -48,9 +51,10 @@ export default function BlogPage() {
       <Section>
         <Container className="max-w-6xl">
           <RevealGroup className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
-            {posts.map((post) => (
+            {posts.map((post, i) => (
               <RevealItem key={post.slug}>
-                <PostCard post={post} />
+                {/* First row is above the fold — eager-load for LCP. */}
+                <PostCard post={post} priority={i < 3} />
               </RevealItem>
             ))}
           </RevealGroup>

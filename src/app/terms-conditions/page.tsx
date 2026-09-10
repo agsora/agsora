@@ -5,11 +5,13 @@ import { LegalContent, type LegalSection } from "@/components/sections/legal-con
 import { LegalCta } from "@/components/sections/legal-cta";
 import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
   title: "Terms & Conditions",
   description: `Syarat dan ketentuan penggunaan layanan dan produk ${siteConfig.brandMark}.`,
-  alternates: { canonical: "/terms-conditions" },
-};
+  path: "/terms-conditions",
+});
 
 const sections: LegalSection[] = [
   {
@@ -61,7 +63,11 @@ const sections: LegalSection[] = [
 export default function TermsConditionsPage() {
   return (
     <>
-      <PageHero eyebrow="Legal" title="Terms & Conditions" />
+      <PageHero
+        breadcrumb={{ name: "Terms & Conditions", href: "/terms-conditions" }}
+        eyebrow="Legal"
+        title="Terms & Conditions"
+      />
       <Section>
         <LegalContent updatedAt="10 September 2026" sections={sections} />
       </Section>

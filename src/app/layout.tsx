@@ -31,9 +31,6 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: siteConfig.legalName }],
   creator: siteConfig.legalName,
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     type: "website",
     locale: "id_ID",
@@ -53,15 +50,42 @@ export const viewport: Viewport = {
   themeColor: "#08090d",
 };
 
+// `sameAs` is intentionally absent: it asserts that the listed profiles belong
+// to this organisation, and the social URLs in siteConfig are unverified
+// placeholders. Add it back once the real profile URLs exist.
 const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: siteConfig.legalName,
-  alternateName: siteConfig.brandMark,
-  url: siteConfig.url,
-  description: siteConfig.description,
-  email: siteConfig.email,
-  sameAs: [siteConfig.social.instagram, siteConfig.social.linkedin],
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${siteConfig.url}/#organization`,
+      name: siteConfig.legalName,
+      alternateName: siteConfig.brandMark,
+      url: siteConfig.url,
+      logo: `${siteConfig.url}/apple-icon`,
+      description: siteConfig.description,
+      email: siteConfig.email,
+      areaServed: { "@type": "Country", name: "Indonesia" },
+      knowsAbout: [
+        "Custom Software Development",
+        "Enterprise Resource Planning (ERP)",
+        "Point of Sale (POS)",
+        "Human Resource Information System (HRIS)",
+        "Customer Relationship Management (CRM)",
+        "Mobile Application Development",
+        "API Integration",
+        "AI Automation",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteConfig.url}/#website`,
+      url: siteConfig.url,
+      name: siteConfig.brandMark,
+      inLanguage: "id-ID",
+      publisher: { "@id": `${siteConfig.url}/#organization` },
+    },
+  ],
 };
 
 export default function RootLayout({

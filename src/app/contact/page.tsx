@@ -7,17 +7,20 @@ import { ContactForm } from "@/components/sections/contact-form";
 import { Reveal } from "@/components/motion/reveal";
 import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
-  title: "Contact",
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Konsultasi Gratis",
   description:
-    "Diskusikan kebutuhan sistem bisnis Anda dengan tim AG·SORA — konsultasi gratis, tanpa komitmen.",
-  alternates: { canonical: "/contact" },
-};
+    "Hubungi AG·SORA untuk konsultasi gratis seputar pembuatan software, ERP, POS, HRIS, atau website. Tanpa biaya dan tanpa komitmen.",
+  path: "/contact",
+});
 
 export default function ContactPage() {
   return (
     <>
       <PageHero
+        breadcrumb={{ name: "Contact", href: "/contact" }}
         eyebrow="Contact"
         title="Mari diskusikan kebutuhan sistem bisnis Anda"
         description="Isi form berikut dan tim AG·SORA akan menghubungi Anda untuk konsultasi gratis mengenai kebutuhan project Anda."

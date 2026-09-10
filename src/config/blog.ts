@@ -25,6 +25,13 @@ export type BlogCategory =
   | "Teknologi"
   | "Panduan Memilih";
 
+export type BlogCover = {
+  /** Unsplash CDN base URL, without sizing params — those are added per use. */
+  src: string;
+  /** Describes the photo for screen readers and image search. */
+  alt: string;
+};
+
 export type BlogPost = {
   slug: string;
   title: string;
@@ -32,8 +39,64 @@ export type BlogPost = {
   category: BlogCategory;
   publishedAt: string; // ISO date
   readingMinutes: number;
+  cover: BlogCover;
   body: Block[];
 };
+
+/**
+ * Cover photos, hotlinked from the Unsplash CDN. Every URL below was verified
+ * to return HTTP 200 at the time of writing.
+ *
+ * Replace these with AG·SORA's own photography when it exists — stock imagery
+ * is a placeholder, and original photos perform better in image search.
+ */
+const covers: Record<string, BlogCover> = {
+  "tanda-bisnis-anda-sudah-butuh-erp": {
+    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    alt: "Layar laptop menampilkan grafik dan laporan analitik bisnis",
+  },
+  "custom-software-vs-software-jadi": {
+    src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
+    alt: "Meja kerja dengan laptop yang menampilkan baris kode program",
+  },
+  "memilih-sistem-pos-multi-outlet": {
+    src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+    alt: "Transaksi pembayaran di mesin kasir sebuah toko retail",
+  },
+  "kesalahan-umum-implementasi-hris": {
+    src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    alt: "Tim karyawan sedang berdiskusi bersama di ruang rapat kantor",
+  },
+  "menghitung-biaya-sebenarnya-project-software": {
+    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja",
+  },
+  "biaya-tersembunyi-data-silo": {
+    src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    alt: "Dashboard berisi beberapa grafik data yang ditampilkan berdampingan",
+  },
+  "persiapan-migrasi-data-sistem-baru": {
+    src: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d",
+    alt: "Deretan perangkat server tempat data perusahaan disimpan",
+  },
+  "memulai-ai-automation-untuk-operasional": {
+    src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+    alt: "Gedung perkantoran modern dengan fasad kaca dilihat dari bawah",
+  },
+  "checklist-memilih-software-house": {
+    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    alt: "Dua orang berdiskusi sambil menunjuk dokumen dalam pertemuan bisnis",
+  },
+  "kenapa-project-software-gagal": {
+    src: "https://images.unsplash.com/photo-1552664730-d307ca884978",
+    alt: "Tim proyek berkolaborasi di sekitar meja kerja dengan catatan tertempel",
+  },
+};
+
+/** Builds a sized, optimised Unsplash CDN URL. */
+export function coverUrl(src: string, width: number) {
+  return `${src}?auto=format&fit=crop&q=75&w=${width}`;
+}
 
 export const blogCategories: BlogCategory[] = [
   "Strategi Bisnis",
@@ -44,7 +107,9 @@ export const blogCategories: BlogCategory[] = [
   "Panduan Memilih",
 ];
 
-export const blogPosts: BlogPost[] = [
+type PostSource = Omit<BlogPost, "cover">;
+
+const postSources: PostSource[] = [
   {
     slug: "tanda-bisnis-anda-sudah-butuh-erp",
     title: "7 Tanda Bisnis Anda Sudah Butuh ERP",
@@ -578,6 +643,14 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 ];
+
+export const blogPosts: BlogPost[] = postSources.map((post) => {
+  const cover = covers[post.slug];
+  if (!cover) {
+    throw new Error(`Blog post "${post.slug}" has no cover image defined.`);
+  }
+  return { ...post, cover };
+});
 
 export function getPostBySlug(slug: string) {
   return blogPosts.find((post) => post.slug === slug);

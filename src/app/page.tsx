@@ -8,6 +8,14 @@ import { IndustriesGrid } from "@/components/sections/industries-grid";
 import { PricingTeaser } from "@/components/sections/pricing-teaser";
 import { ContactCta } from "@/components/sections/contact-cta";
 import { Section } from "@/components/ui/section";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  absoluteTitle: "Software House Indonesia untuk ERP, POS & HRIS | AG·SORA",
+  description:
+    "Software house Indonesia yang membangun custom software, ERP, POS, HRIS, dan CRM, plus produk SaaS siap pakai. Konsultasi gratis untuk bisnis Anda.",
+  path: "/",
+});
 
 export default function Home() {
   return (
