@@ -3,6 +3,8 @@ import { PageHero } from "@/components/sections/page-hero";
 import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
 import { ContactCta } from "@/components/sections/contact-cta";
+import { Principles } from "@/components/sections/principles";
+import { Commitments } from "@/components/sections/commitments";
 import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { valueProps } from "@/config/process";
 import { siteConfig } from "@/config/site";
@@ -87,6 +89,14 @@ export default function AboutPage() {
             ))}
           </RevealGroup>
         </Container>
+      </Section>
+
+      <Section>
+        <Principles />
+      </Section>
+
+      <Section className="border-y border-line bg-surface-1">
+        <Commitments />
       </Section>
 
       <Section className="pt-0">

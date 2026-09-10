@@ -6,6 +6,7 @@ import { CustomDevPricing } from "@/components/sections/custom-dev-pricing";
 import { SaasPricing } from "@/components/sections/saas-pricing";
 import { PricingDisclaimer } from "@/components/sections/pricing-disclaimer";
 import { ContactCta } from "@/components/sections/contact-cta";
+import { Faq, FaqSchema } from "@/components/sections/faq";
 
 export const metadata: Metadata = {
   title: "Launch Pricing",
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <>
+      <FaqSchema />
       <PageHero
         eyebrow="Launch Pricing"
         title="Accessible technology for growing businesses"
@@ -49,9 +51,15 @@ export default function PricingPage() {
       </Section>
 
       <Section>
-        <Container>
+        <Container className="max-w-6xl">
           <PricingDisclaimer />
         </Container>
+      </Section>
+
+      <Section className="border-t border-line pt-0">
+        <div className="pt-20 md:pt-28">
+          <Faq />
+        </div>
       </Section>
 
       <Section className="pt-0">
