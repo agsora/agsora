@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { Section } from "@/components/ui/section";
 import { LegalContent, type LegalSection } from "@/components/sections/legal-content";
+import { LegalCta } from "@/components/sections/legal-cta";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -63,6 +64,9 @@ export default function TermsConditionsPage() {
       <PageHero eyebrow="Legal" title="Terms & Conditions" />
       <Section>
         <LegalContent updatedAt="10 September 2026" sections={sections} />
+      </Section>
+      <Section className="pt-0">
+        <LegalCta />
       </Section>
     </>
   );
