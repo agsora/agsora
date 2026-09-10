@@ -31,6 +31,7 @@ export const mainNav: NavLink[] = [
   { label: "Industries", href: "/industries" },
   { label: "Pricing", href: "/pricing" },
   { label: "Portfolio", href: "/portfolio" },
+  { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
@@ -57,6 +58,7 @@ export const footerNav = {
   company: [
     { label: "Industries", href: "/industries" },
     { label: "Pricing", href: "/pricing" },
+    { label: "Blog", href: "/blog" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
   ],

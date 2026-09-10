@@ -19,15 +19,6 @@
   /* Accent — used sparingly */
   --accent: #6b92ff;
   --accent-deep: #4d7cfe;
-  --accent-cyan: #35d6ec;
-  --accent-dim: rgba(107, 146, 255, 0.12);
-
-  /* The brand gradient is reserved for the logo mark and rare highlights */
-  --gradient-brand: linear-gradient(120deg, #4d7cfe 0%, #35d6ec 100%);
-
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
 }
 
 @theme inline {
@@ -42,7 +33,6 @@
   --color-ink-subtle: var(--ink-subtle);
   --color-accent: var(--accent);
   --color-accent-deep: var(--accent-deep);
-  --color-accent-cyan: var(--accent-cyan);
   --font-sans: var(--font-body);
 }
 
@@ -88,13 +78,6 @@ body {
   line-height: 1.05;
 }
 
-.text-gradient {
-  background: var(--gradient-brand);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 /* A single, very subtle radial glow. Replaces the old mesh + grid stack. */
 .glow-top {
   position: relative;
@@ -123,11 +106,6 @@ body {
 }
 .animate-fade-in {
   animation: fadeIn 0.25s ease-out;
-}
-
-/* Hairline rule used to separate major sections */
-.hairline {
-  border-top: 1px solid var(--line);
 }
 
 .focus-ring {
