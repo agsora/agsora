@@ -12,6 +12,7 @@ export function PageHero({
   title,
   description,
   breadcrumb,
+  trail,
   children,
 }: {
   eyebrow: string;
@@ -19,9 +20,12 @@ export function PageHero({
   description?: ReactNode;
   /** The current page; renders a Beranda → page trail plus BreadcrumbList schema. */
   breadcrumb?: Crumb;
+  /** Full trail after Beranda, for pages nested deeper than one level. Overrides `breadcrumb`. */
+  trail?: Crumb[];
   children?: ReactNode;
 }) {
-  const crumbs = breadcrumb ? [{ name: "Beranda", href: "/" }, breadcrumb] : null;
+  const after = trail ?? (breadcrumb ? [breadcrumb] : null);
+  const crumbs = after ? [{ name: "Beranda", href: "/" }, ...after] : null;
 
   return (
     <div className="glow-top relative overflow-hidden border-b border-line pb-16 pt-14 md:pb-20 md:pt-16">

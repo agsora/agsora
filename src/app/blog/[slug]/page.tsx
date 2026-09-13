@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { PostBody } from "@/components/sections/post-body";
@@ -12,8 +12,9 @@ import {
   blogPosts,
   coverUrl,
   formatPostDate,
+  getAdjacentPosts,
   getPostBySlug,
-  getRelatedPosts,
+  getRecommendedPosts,
 } from "@/config/blog";
 import { siteConfig } from "@/config/site";
 
@@ -63,7 +64,8 @@ export default async function BlogPostPage({
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const related = getRelatedPosts(slug);
+  const recommended = getRecommendedPosts(slug);
+  const { newer, older } = getAdjacentPosts(slug);
 
   const schema = {
     "@context": "https://schema.org",
@@ -76,15 +78,8 @@ export default async function BlogPostPage({
         datePublished: post.publishedAt,
         dateModified: post.publishedAt,
         articleSection: post.category,
-        wordCount: post.body.reduce((n, b) => {
-          const text =
-            b.type === "ul" || b.type === "ol"
-              ? b.items.join(" ")
-              : b.type === "callout"
-                ? `${b.title} ${b.text}`
-                : b.text;
-          return n + text.split(/\s+/).length;
-        }, 0),
+        wordCount: post.wordCount,
+        keywords: post.tags.join(", "),
         inLanguage: "id-ID",
         author: { "@type": "Organization", name: siteConfig.legalName },
         publisher: { "@type": "Organization", name: siteConfig.legalName },
@@ -170,14 +165,57 @@ export default async function BlogPostPage({
         </Container>
       </Section>
 
-      {related.length ? (
-        <Section className="border-t border-line pt-16 md:pt-20">
+      {newer || older ? (
+        <Container className="max-w-6xl">
+          <nav
+            aria-label="Artikel sebelum dan sesudahnya"
+            className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2"
+          >
+            {older ? (
+              <Link
+                href={`/blog/${older.slug}`}
+                className="focus-ring group flex flex-col gap-2 border-b border-r border-line p-6 transition-colors hover:bg-surface-1"
+              >
+                <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
+                  <ArrowLeft className="h-3 w-3" />
+                  Artikel sebelumnya
+                </span>
+                <span className="text-[14px] leading-snug text-ink">
+                  {older.title}
+                </span>
+              </Link>
+            ) : (
+              <div className="hidden border-b border-r border-line sm:block" />
+            )}
+            {newer ? (
+              <Link
+                href={`/blog/${newer.slug}`}
+                className="focus-ring group flex flex-col gap-2 border-b border-r border-line p-6 text-left transition-colors hover:bg-surface-1 sm:items-end sm:text-right"
+              >
+                <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
+                  Artikel berikutnya
+                  <ArrowRight className="h-3 w-3" />
+                </span>
+                <span className="text-[14px] leading-snug text-ink">
+                  {newer.title}
+                </span>
+              </Link>
+            ) : null}
+          </nav>
+        </Container>
+      ) : null}
+
+      {recommended.length ? (
+        <Section className="pt-16 md:pt-20">
           <Container className="max-w-6xl">
-            <h2 className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
-              Artikel lainnya
+            <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+              Rekomendasi untuk Anda
+            </p>
+            <h2 className="headline mt-3 text-[22px] font-semibold text-ink sm:text-[26px]">
+              Bacaan yang berkaitan dengan topik ini
             </h2>
             <div className="mt-8 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
-              {related.map((item) => (
+              {recommended.map((item) => (
                 <PostCard key={item.slug} post={item} />
               ))}
             </div>

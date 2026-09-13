@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    // Page 1 of the archive is /blog; never let a second URL compete with it.
+    return [{ source: "/blog/page/1", destination: "/blog", permanent: true }];
+  },
 };
 
 export default nextConfig;

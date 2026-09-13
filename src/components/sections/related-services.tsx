@@ -2,15 +2,65 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { services } from "@/config/services";
 import { serviceDetails } from "@/config/service-details";
+import { getPostBySlug, type BlogTag } from "@/config/blog";
+
+const MAX_SERVICES = 3;
 
 /**
- * Links a blog post to the service pages that cite it — the inverse of
- * `serviceDetails[...].relatedPosts`, so the link graph runs both ways.
+ * Which service page an article tag points readers toward.
+ *
+ * Deliberately partial: some tags describe a topic no service fits (e.g.
+ * "karyawan" on a change-management article is not an HRIS lead), and an
+ * article with no fitting service is better off with no box than a wrong one.
+ */
+const tagToService: Partial<Record<BlogTag, string>> = {
+  erp: "erp",
+  inventori: "erp",
+  keuangan: "erp",
+  pos: "pos",
+  pembayaran: "pos",
+  hris: "hris",
+  payroll: "hris",
+  crm: "crm",
+  sales: "crm",
+  pelanggan: "crm",
+  website: "website",
+  seo: "website",
+  ecommerce: "website",
+  mobile: "mobile",
+  api: "api-integration",
+  integrasi: "api-integration",
+  ai: "ai-automation",
+  otomasi: "ai-automation",
+  pelaporan: "dashboard",
+  "custom-software": "custom-software",
+  // Capabilities lists deployment, backup, and access control under custom
+  // development; clinic/school systems are bespoke builds, not a SaaS product.
+  infrastruktur: "custom-software",
+  keamanan: "custom-software",
+  industri: "custom-software",
+};
+
+/**
+ * Links an article to the service pages it supports. Services that explicitly
+ * list the article come first; the rest are inferred from its tags, so every
+ * article gets a path to a commercial page without hand-maintained lists.
  */
 export function RelatedServices({ postSlug }: { postSlug: string }) {
-  const related = services.filter((service) =>
-    serviceDetails[service.id]?.relatedPosts.includes(postSlug)
-  );
+  const post = getPostBySlug(postSlug);
+  if (!post) return null;
+
+  const explicit = services
+    .filter((s) => serviceDetails[s.id]?.relatedPosts.includes(postSlug))
+    .map((s) => s.id);
+  const fromTags = post.tags
+    .map((tag) => tagToService[tag])
+    .filter((id): id is string => Boolean(id));
+
+  const ids = [...new Set([...explicit, ...fromTags])].slice(0, MAX_SERVICES);
+  const related = ids
+    .map((id) => services.find((s) => s.id === id))
+    .filter((s): s is (typeof services)[number] => Boolean(s && serviceDetails[s.id]));
   if (!related.length) return null;
 
   return (
