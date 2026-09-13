@@ -101,6 +101,26 @@ export const body: Block[] = [
     type: "p",
     text: "Siapkan prosedur cadangan, misalnya menerima pembayaran tunai sementara atau meminta pelanggan menunggu sebentar sampai koneksi pulih. Pastikan kasir tahu cara memverifikasi apakah pembayaran benar-benar berhasil sebelum melepas barang, meski dalam kondisi koneksi tidak stabil.",
   },
+  { type: "h2", text: "Keamanan akun dan perangkat penerima pembayaran" },
+  {
+    type: "p",
+    text: "Akun penyedia layanan pembayaran yang terhubung ke kode QR bisnis Anda perlu dilindungi seketat akun perbankan, karena pada dasarnya akun itu adalah pintu masuk ke arus kas usaha Anda. Gunakan kata sandi yang kuat dan berbeda dari akun lain, aktifkan verifikasi dua langkah jika tersedia, dan batasi siapa saja yang memiliki akses untuk mengubah pengaturan akun tersebut. Perangkat yang dipakai untuk menampilkan kode QR atau menerima notifikasi pembayaran juga sebaiknya diberi kunci layar dan tidak dibiarkan tersambung ke jaringan Wi-Fi publik yang tidak terpercaya.",
+  },
+  { type: "h2", text: "Menyiapkan cadangan saat sistem utama bermasalah" },
+  {
+    type: "p",
+    text: "Gangguan teknis bisa terjadi pada penyedia layanan pembayaran, jaringan internet toko, atau sistem kasir itu sendiri, dan bisnis tetap perlu berjalan selama gangguan tersebut berlangsung. Siapkan rencana cadangan yang jelas dan sudah dilatihkan ke kasir: apakah menggunakan kode QR statis cadangan yang tidak bergantung pada koneksi sistem kasir, menerima pembayaran tunai sementara, atau mencatat transaksi secara manual untuk dimasukkan ke sistem begitu koneksi pulih. Tanpa rencana cadangan yang jelas, gangguan singkat bisa berubah menjadi kekacauan di lantai toko dan pelanggan yang kecewa.",
+  },
+  { type: "h2", text: "Menyesuaikan dengan metode pembayaran nontunai lainnya" },
+  {
+    type: "p",
+    text: "QRIS bukan satu-satunya metode pembayaran nontunai yang mungkin diminta pelanggan. Kartu debit, kartu kredit, dan dompet digital lain di luar QRIS mungkin juga perlu didukung tergantung profil pelanggan bisnis Anda. Prinsip yang sama tetap berlaku untuk semua metode ini: hindari konfirmasi berdasarkan tampilan layar semata, pastikan setiap metode terhubung ke sistem kasir sedapat mungkin, dan cocokkan dana yang diterima secara rutin terhadap catatan transaksi di sistem.",
+  },
+  { type: "h3", text: "Apakah biaya transaksi QRIS bisa dibebankan ke pelanggan?" },
+  {
+    type: "p",
+    text: "Ketentuan mengenai hal ini bisa berbeda tergantung kebijakan penyedia layanan pembayaran dan aturan yang berlaku bagi merchant, dan dapat berubah dari waktu ke waktu. Periksa langsung ketentuan terbaru dari penyedia layanan pembayaran Anda sebelum memutuskan untuk membebankan biaya transaksi kepada pelanggan, agar kebijakan yang diterapkan toko Anda tetap sesuai aturan yang berlaku.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

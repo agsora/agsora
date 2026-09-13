@@ -81,6 +81,29 @@ export const body: Block[] = [
     type: "p",
     text: "Penilaian kinerja seharusnya tidak berhenti pada angka atau predikat, melainkan menjadi dasar untuk merencanakan pengembangan karyawan ke depannya — pelatihan apa yang dibutuhkan, keterampilan apa yang perlu diasah. Sistem yang menghubungkan hasil penilaian dengan rencana pengembangan membuat proses ini terasa lebih bermakna bagi karyawan, bukan sekadar formalitas administratif tahunan.",
   },
+  { type: "h2", text: "Menangani ketidaksepakatan atas hasil penilaian" },
+  {
+    type: "p",
+    text: "Sekuat apa pun sistem yang dirancang, akan selalu ada momen di mana karyawan tidak sepakat dengan hasil penilaiannya. Sediakan jalur resmi bagi karyawan untuk mengajukan keberatan, disertai proses peninjauan oleh pihak yang tidak terlibat langsung dalam penilaian awal — misalnya HR atau atasan dari atasan langsung. Jalur keberatan yang jelas membuat karyawan merasa didengar, bahkan ketika hasil akhirnya tidak berubah.",
+  },
+  {
+    type: "p",
+    text: "Tanpa jalur resmi seperti ini, keberatan karyawan sering kali hanya berhenti di percakapan informal yang tidak terdokumentasi, meninggalkan rasa tidak puas yang terus terbawa meski tidak pernah disampaikan secara formal ke pihak yang berwenang menindaklanjutinya.",
+  },
+  { type: "h2", text: "Menilai peran yang hasilnya sulit diukur angka" },
+  {
+    type: "p",
+    text: "Tidak semua peran punya target yang mudah dikuantifikasi seperti angka penjualan atau jumlah unit yang diproduksi. Peran seperti staf layanan pelanggan, admin, atau bagian kreatif membutuhkan kombinasi indikator kualitatif yang tetap konkret — misalnya jumlah keluhan yang berhasil diselesaikan dengan baik, ketepatan waktu penyelesaian tugas, atau kualitas hasil kerja yang dinilai berdasarkan kriteria yang sudah disepakati sejak awal, bukan sekadar kesan umum atasan.",
+  },
+  {
+    type: "p",
+    text: "Kuncinya adalah tetap mendefinisikan seperti apa hasil kerja yang baik untuk peran tersebut secara sekonkret mungkin, meski tidak selalu bisa dinyatakan dalam satu angka tunggal, sehingga penilaian tetap punya dasar yang jelas dan bisa dijelaskan ketika dipertanyakan.",
+  },
+  { type: "h3", text: "Apakah penilaian kinerja perlu dikaitkan langsung dengan besaran kenaikan gaji?" },
+  {
+    type: "p",
+    text: "Banyak perusahaan mengaitkan keduanya, tetapi keterkaitan yang terlalu kaku dan otomatis bisa membuat sesi penilaian terasa menegangkan dan mengurangi keterbukaan karyawan untuk mendiskusikan kekurangannya secara jujur. Sebagian organisasi memilih memisahkan percakapan tentang pengembangan kinerja dari percakapan tentang kompensasi, meski keduanya tetap saling terhubung dalam jangka panjang.",
+  },
   { type: "h2", text: "Langkah merancang penilaian yang lebih objektif" },
   {
     type: "ol",

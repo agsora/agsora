@@ -108,6 +108,38 @@ export const body: Block[] = [
     type: "p",
     text: "Mulailah dengan bertanya apa yang paling sering membuat Anda khawatir atau penasaran tentang bisnis Anda sehari-hari. Pertanyaan-pertanyaan itu biasanya menunjuk langsung ke laporan yang paling bernilai untuk dipantau secara rutin.",
   },
+  { type: "h2", text: "Kesalahan umum dalam membaca laporan harian" },
+  {
+    type: "p",
+    text: "Salah satu kesalahan yang sering terjadi adalah bereaksi berlebihan terhadap fluktuasi angka harian yang sebenarnya masih dalam rentang wajar. Penjualan yang turun dibanding hari sebelumnya tidak selalu berarti ada masalah — bisa jadi memang hari itu secara historis selalu lebih sepi, misalnya karena faktor cuaca atau hari kerja biasa yang bukan musim ramai. Membandingkan dengan periode yang benar-benar setara, bukan sekadar hari sebelumnya, membantu membedakan fluktuasi normal dari sinyal masalah yang sungguhan.",
+  },
+  {
+    type: "p",
+    text: "Kesalahan lain adalah hanya melihat angka total tanpa pernah menelusuri lebih dalam apa yang ada di baliknya. Total penjualan yang terlihat stabil bisa saja menyembunyikan pergeseran signifikan di dalamnya — misalnya satu produk andalan yang penjualannya menurun tajam, tapi tertutupi oleh kenaikan di produk lain sehingga totalnya terlihat baik-baik saja. Sesekali menelusuri detail di balik angka ringkasan tetap penting, meski tidak perlu dilakukan setiap hari untuk semua laporan.",
+  },
+  { type: "h2", text: "Melibatkan tim, bukan hanya pemilik bisnis" },
+  {
+    type: "p",
+    text: "Laporan harian sering kali hanya dipantau oleh pemilik atau manajer, padahal staf di lapangan — kasir, kepala gudang, atau supervisor shift — adalah pihak yang paling langsung bersentuhan dengan apa yang sebenarnya terjadi di balik angka-angka tersebut. Membagikan laporan yang relevan kepada mereka, bukan hanya kepada pemilik, membuat tanggung jawab menjaga performa harian tidak bertumpu pada satu orang saja.",
+  },
+  {
+    type: "p",
+    text: "Misalnya, laporan selisih kas per shift akan jauh lebih bermakna jika kasir yang bersangkutan juga bisa melihatnya secara langsung, bukan hanya diberi tahu belakangan ketika sudah ada masalah. Rasa memiliki terhadap angka yang mereka hasilkan sendiri cenderung mendorong kedisiplinan yang lebih baik dibanding sekadar diawasi dari jauh oleh pemilik yang jarang berada di lokasi.",
+  },
+  { type: "h3", text: "Apakah laporan harian sebaiknya dibagikan ke semua staf?" },
+  {
+    type: "p",
+    text: "Tidak semua laporan perlu dibagikan secara luas — beberapa data seperti margin keuntungan mungkin memang sebaiknya dibatasi hanya untuk pemilik atau manajer senior. Namun laporan operasional yang berkaitan langsung dengan tanggung jawab staf tertentu, seperti selisih kas atau stok yang menipis, akan jauh lebih bermanfaat jika staf terkait juga memiliki akses untuk melihatnya sendiri.",
+  },
+  { type: "h2", text: "Menyesuaikan ambang batas peringatan otomatis" },
+  {
+    type: "p",
+    text: "Selain laporan yang dibuka secara aktif, beberapa sistem bisa mengirim peringatan otomatis ketika angka tertentu melewati ambang batas yang ditetapkan — misalnya stok yang turun di bawah jumlah tertentu, atau jumlah pembatalan transaksi yang melonjak dibanding hari biasa. Peringatan semacam ini membantu menangkap masalah bahkan di hari-hari ketika pemilik atau manajer tidak sempat membuka laporan secara menyeluruh karena kesibukan lain.",
+  },
+  {
+    type: "p",
+    text: "Ambang batas ini perlu ditetapkan dengan hati-hati agar tidak terlalu sering memicu peringatan untuk hal-hal yang sebenarnya masih wajar, karena peringatan yang terlalu sering justru akan diabaikan begitu saja seperti halnya laporan yang terlalu banyak. Mulailah dengan ambang batas yang cukup longgar, lalu sesuaikan secara bertahap berdasarkan pengalaman aktual — jika suatu ambang batas ternyata tidak pernah relevan atau terlalu sering salah menandai kondisi normal sebagai masalah.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

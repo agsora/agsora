@@ -84,6 +84,24 @@ export const body: Block[] = [
     type: "p",
     text: "Siapkan prosedur yang jelas untuk menangani situasi ketika AI ternyata memberikan informasi yang keliru atau membuat janji yang tidak seharusnya kepada pelanggan. Tentukan siapa yang berwenang membatalkan atau mengoreksi kesalahan tersebut, dan bagaimana cara mengomunikasikannya kepada pihak yang terdampak secara transparan.",
   },
+  { type: "h2", text: "Bias yang terwarisi dari data pelatihan" },
+  {
+    type: "p",
+    text: "Model AI belajar dari data yang sangat besar jumlahnya, dan data tersebut membawa pola-pola yang ada di dalamnya — termasuk bias yang mungkin tidak disadari oleh siapa pun yang menyusun data tersebut. Ketika AI dipakai untuk pekerjaan seperti menyaring kandidat kerja atau menilai kelayakan calon mitra bisnis, bias semacam ini bisa berakibat pada keputusan yang secara sistematis kurang adil bagi kelompok tertentu, tanpa ada yang secara sengaja merancangnya demikian.",
+  },
+  {
+    type: "p",
+    text: "Karena sulit mengetahui persis bias apa yang mungkin terbawa dalam sebuah model, pendekatan paling aman adalah tetap memperlakukan keluaran AI sebagai masukan awal yang perlu ditinjau manusia, bukan sebagai keputusan final yang langsung dieksekusi. Untuk proses yang berdampak pada peluang seseorang — pekerjaan, kredit, atau layanan penting lainnya — audit berkala terhadap pola keputusan yang dihasilkan AI membantu mengenali kejanggalan sebelum berkembang menjadi masalah yang lebih besar dan sulit diperbaiki.",
+  },
+  { type: "h2", text: "Menyusun kebijakan pemakaian AI yang realistis" },
+  {
+    type: "p",
+    text: "Kebijakan pemakaian AI yang efektif tidak perlu berupa dokumen hukum yang panjang dan rumit. Yang lebih penting adalah kejelasan tentang tiga hal: alat AI apa saja yang boleh dipakai karyawan, jenis data apa yang sama sekali tidak boleh dimasukkan ke dalamnya, dan pekerjaan seperti apa yang tetap membutuhkan tinjauan manusia sebelum hasilnya dipakai. Kebijakan yang terlalu ketat dan sulit dipatuhi justru berisiko diabaikan diam-diam oleh karyawan, sementara kebijakan yang terlalu longgar tidak memberikan perlindungan yang berarti.",
+  },
+  {
+    type: "p",
+    text: "Libatkan perwakilan dari berbagai tim saat menyusun kebijakan ini, karena kebutuhan dan risiko pemakaian AI bisa sangat berbeda antara tim customer service, tim keuangan, dan tim pemasaran. Kebijakan yang disusun sepihak oleh satu tim saja sering kali tidak realistis diterapkan di tim lain yang memiliki konteks kerja berbeda, dan akhirnya hanya menjadi dokumen formalitas yang tidak benar-benar diikuti sehari-hari.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah AI generatif aman dipakai untuk komunikasi resmi dengan pelanggan?" },
   {

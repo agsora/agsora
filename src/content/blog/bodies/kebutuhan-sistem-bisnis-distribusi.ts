@@ -108,6 +108,43 @@ export const body: Block[] = [
     type: "p",
     text: "Libatkan mereka dalam proses pemilihan dan pengujian aplikasi, tunjukkan manfaat langsung bagi mereka seperti tidak perlu lagi membawa daftar harga cetak yang tebal, dan berikan pelatihan yang sabar dengan pendampingan di lapangan pada minggu-minggu awal.",
   },
+  { type: "h2", text: "Retur barang dan klaim dari pelanggan" },
+  {
+    type: "p",
+    text: "Barang yang dikembalikan pelanggan — karena rusak saat pengiriman, salah kirim, atau alasan lain — perlu proses pencatatan yang jelas agar stok dan piutang tetap akurat. Tanpa proses retur yang terstruktur, barang yang sudah dikembalikan bisa saja masih tercatat sebagai terjual di sistem, sementara faktur untuk barang tersebut belum juga disesuaikan, membuat catatan piutang pelanggan tidak mencerminkan kondisi sebenarnya.",
+  },
+  {
+    type: "p",
+    text: "Sistem yang menangani retur dengan baik mencatat alasan pengembalian, mengembalikan barang yang masih layak jual ke stok yang sesuai, dan secara otomatis menyesuaikan faktur atau menerbitkan nota kredit untuk pelanggan. Data alasan retur yang terkumpul dari waktu ke waktu juga berguna untuk mengevaluasi kualitas pengiriman atau menemukan produk tertentu yang lebih sering bermasalah dibanding yang lain, sehingga bisa ditindaklanjuti bersama pemasok terkait.",
+  },
+  { type: "h2", text: "Perencanaan pembelian berdasarkan data penjualan" },
+  {
+    type: "p",
+    text: "Keputusan membeli stok baru dari pemasok sering kali masih didasarkan pada perkiraan kasar atau kebiasaan lama, bukan data penjualan aktual. Akibatnya, sebagian produk menumpuk di gudang karena dibeli terlalu banyak, sementara produk lain yang sebenarnya laris justru sering kehabisan stok karena pembelian ulang tidak dilakukan tepat waktu.",
+  },
+  {
+    type: "p",
+    text: "Dengan riwayat penjualan yang tercatat rapi per produk dan per gudang, perencanaan pembelian bisa didasarkan pada pola permintaan yang sebenarnya terjadi, termasuk memperhitungkan waktu yang dibutuhkan pemasok untuk mengirim barang setelah pesanan dibuat. Distributor yang bisa melihat kombinasi stok saat ini, kecepatan penjualan, dan waktu pengiriman pemasok dalam satu tampilan memiliki dasar yang jauh lebih kuat untuk menentukan kapan dan berapa banyak harus memesan ulang.",
+  },
+  { type: "h2", text: "Menangani produk dengan varian yang banyak" },
+  {
+    type: "p",
+    text: "Distributor yang menjual produk dengan banyak varian — ukuran, warna, atau kemasan berbeda — menghadapi tantangan tambahan dalam mengelola stok, karena setiap varian pada dasarnya adalah item stok yang terpisah dengan pola permintaan yang bisa sangat berbeda satu sama lain. Sistem yang bisa melacak stok hingga level varian, bukan hanya di level produk induk, membantu mencegah situasi di mana produk secara umum terlihat tersedia di laporan padahal varian spesifik yang diminta pelanggan sebenarnya sudah habis.",
+  },
+  { type: "h3", text: "Bagaimana menangani pemasok yang pengirimannya sering terlambat?" },
+  {
+    type: "p",
+    text: "Catat riwayat waktu pengiriman aktual dari setiap pemasok dibandingkan dengan waktu yang dijanjikan. Data ini membantu menentukan titik pemesanan ulang yang lebih realistis untuk pemasok yang riwayatnya sering meleset, sehingga stok pengaman yang disiapkan bisa disesuaikan dengan tingkat keandalan pemasok tersebut, bukan disamaratakan untuk semua pemasok.",
+  },
+  { type: "h2", text: "Menangani promo dan potongan harga musiman" },
+  {
+    type: "p",
+    text: "Selain harga standar dan diskon bertingkat berdasarkan jumlah pembelian, distributor sering menjalankan promo terbatas waktu — potongan harga khusus untuk produk tertentu selama periode tertentu, atau bonus barang untuk pembelian dalam jumlah besar. Jika promo semacam ini hanya diingat lewat memo internal atau grup pesan singkat, sales lapangan bisa saja terlambat mengetahui promo sudah berakhir dan tetap menawarkannya ke pelanggan, atau sebaliknya tidak menawarkan promo yang sebenarnya masih berlaku.",
+  },
+  {
+    type: "p",
+    text: "Sistem yang bisa mengatur periode berlaku promo secara otomatis — kapan mulai dan kapan berakhir, untuk produk dan kategori pelanggan mana saja — memastikan setiap sales melihat harga yang sama dan benar-benar berlaku pada saat itu, tanpa perlu mengandalkan komunikasi manual yang rawan terlewat atau disalahpahami di lapangan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

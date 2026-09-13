@@ -97,6 +97,33 @@ export const body: Block[] = [
       "Diskusikan skenario pengakhiran kerja sama sebelum project selesai",
     ],
   },
+  { type: "h2", text: "Menangani perubahan ruang lingkup di tengah jalan" },
+  {
+    type: "p",
+    text: "Hampir setiap project software mengalami perubahan kebutuhan di tengah perjalanan — ini bukan tanda kegagalan perencanaan, melainkan realitas yang wajar ketika klien semakin memahami kebutuhannya seiring project berjalan. Masalahnya bukan pada perubahan itu sendiri, melainkan pada bagaimana perubahan tersebut ditangani. Kontrak yang baik mencantumkan mekanisme formal untuk mengajukan perubahan ruang lingkup: siapa yang berwenang menyetujuinya, bagaimana dampaknya terhadap waktu dan biaya dihitung, dan berapa lama waktu yang dibutuhkan untuk mengevaluasi permintaan tersebut sebelum dikerjakan.",
+  },
+  {
+    type: "p",
+    text: "Tanpa mekanisme ini, perubahan kecil yang diminta secara informal lewat pesan singkat bisa menumpuk menjadi beban kerja signifikan yang tidak pernah tercatat resmi — vendor merasa dieksploitasi karena terus mengerjakan permintaan tambahan tanpa kompensasi yang jelas, sementara klien merasa wajar karena “kan cuma perubahan kecil”. Setiap permintaan perubahan, sekecil apa pun, sebaiknya melalui proses pencatatan resmi meski prosesnya bisa dibuat sederhana dan cepat, agar kedua belah pihak punya catatan yang sama tentang apa yang sudah disepakati.",
+  },
+  { type: "h2", text: "Struktur pembayaran yang melindungi kedua belah pihak" },
+  {
+    type: "p",
+    text: "Skema pembayaran di muka penuh berisiko bagi klien jika vendor tidak menyelesaikan pekerjaan sesuai janji, sementara skema pembayaran penuh di akhir berisiko bagi vendor jika klien menunda atau menolak membayar setelah pekerjaan selesai. Skema termin yang mengikat pembayaran pada pencapaian tahap tertentu — misalnya setelah desain disetujui, setelah fitur inti berfungsi, dan setelah pengujian selesai — memberi keseimbangan yang lebih adil bagi kedua belah pihak, sekaligus memberi insentif bagi vendor untuk terus menunjukkan kemajuan yang nyata dan terukur.",
+  },
+  {
+    type: "p",
+    text: "Cantumkan juga konsekuensi yang jelas jika pembayaran terlambat dari jadwal yang disepakati, misalnya penghentian sementara pekerjaan setelah keterlambatan melewati batas waktu tertentu. Ketentuan ini melindungi vendor dari situasi di mana mereka terus mengerjakan project tanpa kepastian pembayaran, sekaligus memberi klien insentif yang jelas untuk membayar tepat waktu sesuai kesepakatan yang telah ditandatangani bersama.",
+  },
+  { type: "h2", text: "Garansi dan tanggung jawab setelah peluncuran" },
+  {
+    type: "p",
+    text: "Kontrak sebaiknya membedakan dengan jelas antara masa perbaikan bug — periode setelah peluncuran di mana vendor memperbaiki cacat yang ditemukan tanpa biaya tambahan — dengan layanan pemeliharaan berbayar setelah masa tersebut berakhir. Tanpa batasan yang jelas, klien bisa berasumsi semua permintaan perbaikan dan penambahan kecil termasuk dalam garansi gratis, sementara vendor menganggap sebagian besar permintaan tersebut sebagai pekerjaan baru yang harus dibayar terpisah.",
+  },
+  {
+    type: "p",
+    text: "Definisikan juga dengan spesifik apa yang termasuk “bug” dan apa yang termasuk “fitur baru” dalam konteks kontrak tersebut, karena batas antara keduanya sering menjadi area abu-abu yang memicu perdebatan. Sebuah perilaku sistem yang tidak sesuai dengan dokumen ruang lingkup awal biasanya jelas termasuk bug, tetapi permintaan agar sistem berperilaku berbeda dari yang awalnya disepakati — meski terasa seperti “perbaikan kecil” bagi klien — sebenarnya lebih tepat dikategorikan sebagai permintaan fitur baru.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah wajib menggunakan pengacara untuk semua kontrak software?" },
   {

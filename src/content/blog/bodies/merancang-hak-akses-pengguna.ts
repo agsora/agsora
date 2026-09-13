@@ -108,6 +108,34 @@ export const body: Block[] = [
     type: "p",
     text: "Siapkan mekanisme akses darurat sementara yang membutuhkan persetujuan dan otomatis berakhir setelah periode tertentu, alih-alih memberikan akses permanen yang lebih luas hanya karena situasi darurat sesekali.",
   },
+  { type: "h2", text: "Menangani perubahan peran dan mutasi karyawan" },
+  {
+    type: "p",
+    text: "Karyawan yang pindah dari satu divisi ke divisi lain adalah salah satu momen paling rawan dalam pengelolaan hak akses. Akses lama yang seharusnya dicabut sering kali dibiarkan begitu saja karena prosesnya tidak melibatkan langkah eksplisit untuk meninjau ulang hak akses saat mutasi terjadi, sementara akses baru sesuai peran barunya ditambahkan di atasnya. Hasilnya, karyawan tersebut lama-kelamaan mengumpulkan akses dari berbagai peran yang pernah dijalaninya, jauh melebihi yang dibutuhkan posisi terkininya.",
+  },
+  {
+    type: "p",
+    text: "Jadikan peninjauan hak akses sebagai bagian resmi dari proses mutasi internal, bukan langkah tambahan yang mudah terlewat. Idealnya, akses lama dicabut lebih dulu sebelum akses baru diberikan, dengan atasan baru yang menyetujui akses apa saja yang benar-benar dibutuhkan di peran barunya.",
+  },
+  { type: "h2", text: "Peran ganda dan pengecualian" },
+  {
+    type: "p",
+    text: "Tidak semua orang cocok dengan satu peran standar secara sempurna. Ada karyawan yang menjalankan dua fungsi sekaligus, misalnya staf yang merangkap tugas kasir dan pencatatan stok gudang. Sistem hak akses yang baik sebaiknya mendukung kombinasi beberapa peran untuk satu pengguna, alih-alih memaksa Anda membuat peran baru yang sangat spesifik untuk setiap kombinasi tugas yang mungkin muncul.",
+  },
+  {
+    type: "p",
+    text: "Untuk pengecualian yang benar-benar unik dan tidak berulang, pemberian akses tambahan secara individual masih bisa diterima selama tetap tercatat dan disetujui secara resmi, dengan catatan alasan pemberiannya. Yang perlu dihindari adalah pengecualian yang menjadi kebiasaan tanpa dokumentasi, karena lama-kelamaan struktur peran yang rapi akan kehilangan maknanya.",
+  },
+  { type: "h2", text: "Menguji hak akses sebelum diterapkan penuh" },
+  {
+    type: "p",
+    text: "Sebelum menerapkan struktur peran baru ke seluruh organisasi, uji coba dulu pada satu tim atau divisi kecil selama beberapa minggu. Ini membantu menemukan celah dalam desain peran — misalnya ada tugas rutin yang ternyata tidak bisa dijalankan karena aksesnya terlalu ketat — sebelum masalah tersebut dialami oleh seluruh organisasi sekaligus dan menimbulkan keluhan yang lebih luas.",
+  },
+  { type: "h3", text: "Bagaimana cara mengetahui hak akses seseorang sudah terlalu longgar?" },
+  {
+    type: "p",
+    text: "Bandingkan hak akses yang dimiliki dengan tugas yang benar-benar dijalankan sehari-hari. Jika seseorang memiliki akses untuk menghapus data atau menyetujui transaksi besar padahal pekerjaannya sehari-hari tidak pernah membutuhkan itu, kemungkinan besar aksesnya perlu ditinjau ulang dan disesuaikan dengan kebutuhan aktualnya.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

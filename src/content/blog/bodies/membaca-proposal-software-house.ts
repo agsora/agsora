@@ -112,6 +112,31 @@ export const body: Block[] = [
     type: "p",
     text: "Umumnya ya, karena detail menunjukkan pemahaman yang lebih mendalam. Tapi periksa juga apakah detailnya relevan dan bukan sekadar dokumen panjang berisi istilah teknis yang tidak menjelaskan apa pun secara konkret tentang apa yang akan Anda terima.",
   },
+  { type: "h2", text: "Periksa klausul kepemilikan kode dan data" },
+  {
+    type: "p",
+    text: "Salah satu bagian yang paling sering terlewat saat membaca proposal adalah siapa yang memiliki kode sumber dan data setelah project selesai. Sebagian software house secara default menyerahkan kepemilikan penuh kepada klien setelah pelunasan, tapi sebagian lain hanya memberikan lisensi pemakaian sementara kode tetap menjadi milik vendor. Perbedaan ini sangat menentukan: jika suatu saat Anda ingin pindah vendor untuk pemeliharaan atau pengembangan lanjutan, kepemilikan kode yang jelas membuat perpindahan itu mungkin dilakukan. Tanpa kejelasan ini, Anda bisa terjebak bergantung pada satu vendor selamanya, meski hubungan kerja sama sudah tidak lagi terasa nyaman.",
+  },
+  { type: "h2", text: "Pahami siapa yang akan mengerjakan project Anda" },
+  {
+    type: "p",
+    text: "Proposal sering ditulis dan dipresentasikan oleh orang yang paling senior di perusahaan software house tersebut, tapi pengerjaan sehari-hari belum tentu dilakukan oleh orang yang sama. Tanyakan secara spesifik siapa yang akan menjadi penanggung jawab teknis project Anda, berapa lama pengalaman mereka, dan apakah mereka akan tetap berada di tim yang sama sepanjang project berjalan. Pergantian anggota tim di tengah jalan — terutama jika terjadi berkali-kali — bisa memperlambat project secara signifikan karena pengetahuan tentang kebutuhan Anda harus dibangun ulang dari awal oleh orang yang baru bergabung.",
+  },
+  { type: "h2", text: "Perhatikan realistis tidaknya estimasi waktu pengerjaan" },
+  {
+    type: "p",
+    text: "Waspadai proposal yang menjanjikan waktu pengerjaan sangat singkat untuk ruang lingkup yang sebenarnya kompleks. Estimasi waktu yang terlalu optimis sering berujung pada keterlambatan yang pada akhirnya merugikan Anda juga, karena rencana bisnis yang bergantung pada tanggal peluncuran ikut mundur mengikutinya. Bandingkan estimasi waktu antar proposal untuk ruang lingkup yang setara, dan tanyakan dasar perhitungan dari estimasi tersebut — apakah berdasarkan pengalaman mengerjakan project serupa sebelumnya, atau sekadar perkiraan kasar supaya proposal terlihat lebih menarik di atas kertas.",
+  },
+  { type: "h2", text: "Baca ketentuan garansi dan terminasi kontrak" },
+  {
+    type: "p",
+    text: "Proposal yang baik menjelaskan dengan jelas apa yang terjadi jika ada pihak yang ingin menghentikan kerja sama sebelum project selesai — baik karena vendor tidak mampu memenuhi tenggat, atau karena kebutuhan bisnis Anda berubah drastis di tengah jalan. Periksa juga masa garansi setelah sistem diluncurkan: berapa lama masa berlakunya, apa saja yang tercakup di dalamnya, dan apakah perbaikan bug termasuk gratis atau justru dikenakan biaya tambahan. Ketentuan yang tidak jelas di bagian ini sering menjadi sumber perselisihan paling besar ketika hubungan kerja sama ternyata tidak berjalan semulus yang dibayangkan.",
+  },
+  { type: "h3", text: "Apakah wajar meminta referensi dari klien sebelumnya?" },
+  {
+    type: "p",
+    text: "Sangat wajar, dan sebaiknya selalu dilakukan untuk project bernilai besar. Vendor yang memiliki rekam jejak baik biasanya tidak keberatan menghubungkan Anda dengan klien sebelumnya yang bisa memberi gambaran nyata tentang cara kerja mereka sehari-hari. Kalau vendor enggan memberikan referensi sama sekali tanpa alasan yang masuk akal, jadikan itu sebagai salah satu pertimbangan tambahan sebelum memutuskan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

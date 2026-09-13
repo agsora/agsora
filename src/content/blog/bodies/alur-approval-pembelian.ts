@@ -123,6 +123,43 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk pembelian rutin seperti langganan atau pasokan tetap, pertimbangkan persetujuan anggaran tahunan sekali di awal, sehingga transaksi bulanan berikutnya tidak perlu melalui persetujuan berulang selama masih sesuai dengan yang disetujui.",
   },
+  { type: "h2", text: "Jejak audit yang bisa dipertanggungjawabkan" },
+  {
+    type: "p",
+    text: "Setiap pengajuan yang melewati alur persetujuan sebaiknya meninggalkan jejak yang jelas: siapa yang mengajukan, siapa yang menyetujui, kapan setiap langkah terjadi, dan catatan apa pun yang ditambahkan di sepanjang proses. Jejak ini bukan sekadar formalitas administratif — ketika audit internal atau eksternal bertanya mengapa sebuah pembelian besar disetujui, jawabannya harus bisa ditelusuri dalam hitungan menit, bukan dengan mencari-cari email lama atau bertanya ke orang yang mungkin sudah lupa detailnya.",
+  },
+  {
+    type: "p",
+    text: "Jejak audit yang rapi juga melindungi penyetuju itu sendiri. Ketika keputusan pembelian dipertanyakan di kemudian hari — misalnya karena harga yang ternyata lebih mahal dari pasar, atau pemasok yang bermasalah — penyetuju bisa menunjukkan pertimbangan apa yang tersedia saat itu, bukan disalahkan berdasarkan informasi yang baru diketahui belakangan. Ini mengubah persetujuan dari sekadar formalitas menjadi keputusan yang bisa dipertanggungjawabkan.",
+  },
+  { type: "h2", text: "Menangani pengajuan yang ditolak" },
+  {
+    type: "p",
+    text: "Alur persetujuan yang sehat bukan hanya soal menyetujui, tapi juga soal menolak dengan cara yang jelas dan membangun. Penolakan tanpa alasan membuat pengaju bingung harus memperbaiki apa, dan sering berujung pada pengajuan ulang yang sama persis karena tidak tahu bagian mana yang bermasalah. Setiap penolakan sebaiknya disertai alasan singkat — nilainya melebihi anggaran, spesifikasi kurang jelas, atau pemasok belum terverifikasi — sehingga pengaju bisa memperbaiki dan mengajukan kembali dengan tepat.",
+  },
+  {
+    type: "p",
+    text: "Perlu juga dibedakan antara penolakan permanen dan penolakan yang sebenarnya hanya butuh informasi tambahan. Banyak sistem yang hanya mengenal dua status — disetujui atau ditolak — padahal status ketiga seperti “butuh klarifikasi” akan jauh lebih membantu, karena pengajuan tetap berada di tangan pengaju untuk dilengkapi, bukan mati begitu saja dan harus dibuat ulang dari awal.",
+  },
+  { type: "h2", text: "Melibatkan tim di awal, bukan memaksakan dari atas" },
+  {
+    type: "p",
+    text: "Alur persetujuan yang dirancang tanpa melibatkan orang-orang yang akan menjalankannya sehari-hari cenderung gagal dipatuhi. Kepala divisi yang terbiasa membeli kebutuhan operasional secara cepat akan mencari cara memutar jika aturan baru terasa menghambat tanpa alasan yang mereka pahami. Libatkan perwakilan dari divisi yang paling sering mengajukan pembelian saat merancang batas nominal dan jumlah tingkat persetujuan, sehingga aturan yang dihasilkan realistis dengan cara kerja mereka, bukan sekadar kebijakan yang diturunkan dari atas tanpa konteks lapangan.",
+  },
+  {
+    type: "p",
+    text: "Setelah alur baru diterapkan, beri masa transisi di mana tim keuangan atau admin sistem aktif membantu karyawan yang masih bingung dengan proses baru, alih-alih langsung menolak pengajuan yang tidak sesuai format tanpa penjelasan. Kepatuhan terhadap alur persetujuan tumbuh lebih cepat ketika karyawan merasa dibantu memahami sistem baru, bukan sekadar diawasi lebih ketat.",
+  },
+  { type: "h2", text: "Meninjau ulang batas nominal secara berkala" },
+  {
+    type: "p",
+    text: "Batas nominal yang ditetapkan di awal jarang cocok selamanya. Seiring bisnis tumbuh, biaya operasional naik, dan volume pembelian bertambah, batas yang dulu terasa wajar bisa menjadi terlalu ketat sehingga pembelian rutin yang sebenarnya kecil mulai ikut tersangkut di tingkat persetujuan yang lebih tinggi dari seharusnya. Tinjau ulang batas nominal ini setidaknya sekali dalam setahun, dibandingkan dengan data waktu tunggu dan volume pengajuan di setiap tingkat, untuk memastikan strukturnya masih sesuai dengan skala bisnis saat ini.",
+  },
+  { type: "h3", text: "Bagaimana jika penyetuju tidak pernah merespons pengajuan?" },
+  {
+    type: "p",
+    text: "Tetapkan batas waktu wajar untuk setiap tingkat persetujuan, misalnya dua hari kerja untuk pembelian rutin. Jika batas waktu ini terlewati tanpa tindakan, sistem sebaiknya mengirim pengingat otomatis, lalu meningkatkan eskalasi ke penyetuju pengganti jika tetap tidak ada respons. Tanpa mekanisme ini, pengajuan bisa tertahan tanpa batas waktu yang jelas hanya karena satu orang lupa membukanya.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

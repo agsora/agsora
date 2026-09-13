@@ -96,6 +96,29 @@ export const body: Block[] = [
       "Tinjau dan sesuaikan program berdasarkan data yang terkumpul",
     ],
   },
+  { type: "h2", text: "Kesalahan umum saat merancang program loyalitas" },
+  {
+    type: "p",
+    text: "Kesalahan paling umum adalah meniru mentah-mentah program loyalitas milik bisnis lain tanpa mempertimbangkan apakah mekanismenya benar-benar cocok dengan pola belanja pelanggan sendiri. Program poin yang bagus untuk minimarket dengan transaksi kecil dan sering belum tentu cocok diterapkan di toko furnitur dengan transaksi besar tapi jarang — pelanggan furnitur mungkin hanya berbelanja sekali dalam beberapa tahun, sehingga insentif untuk “kembali lagi demi poin” hampir tidak relevan bagi mereka.",
+  },
+  {
+    type: "p",
+    text: "Kesalahan lain adalah membuat mekanisme yang terlalu rumit sehingga pelanggan sendiri kebingungan memahami cara kerjanya — berapa poin yang didapat, kapan bisa ditukar, apa saja syaratnya. Program yang sulit dipahami cenderung diabaikan pelanggan meski sebenarnya menawarkan nilai yang cukup baik. Kesederhanaan mekanisme, bahkan jika berarti keuntungan yang ditawarkan sedikit lebih kecil, sering menghasilkan partisipasi yang jauh lebih tinggi dibanding program yang kompleks namun membingungkan.",
+  },
+  { type: "h2", text: "Mendorong partisipasi awal pelanggan" },
+  {
+    type: "p",
+    text: "Program loyalitas hanya efektif jika pelanggan benar-benar mendaftar dan aktif menggunakannya. Proses pendaftaran yang rumit — formulir panjang, syarat berbelit, atau kewajiban mengunduh aplikasi terpisah — sering menjadi penghalang terbesar, bahkan bagi pelanggan yang sebenarnya tertarik bergabung. Buat proses pendaftaran sesederhana mungkin, idealnya bisa dilakukan langsung di kasir saat transaksi berlangsung, tanpa membebani pelanggan dengan langkah tambahan yang terasa merepotkan.",
+  },
+  {
+    type: "p",
+    text: "Latih staf kasir untuk menawarkan pendaftaran secara konsisten kepada setiap pelanggan baru, bukan hanya sesekali ketika sedang tidak sibuk. Konsistensi ini sering menjadi pembeda antara program yang berkembang pesat dan program yang stagnan bertahun-tahun karena jarang ditawarkan secara aktif kepada pelanggan yang berpotensi tertarik bergabung.",
+  },
+  { type: "h2", text: "Menyeimbangkan insentif jangka pendek dan loyalitas jangka panjang" },
+  {
+    type: "p",
+    text: "Diskon besar yang diberikan segera setelah pendaftaran memang efektif menarik banyak orang bergabung dengan cepat, tetapi belum tentu menciptakan loyalitas yang bertahan lama. Pelanggan yang bergabung semata-mata demi diskon awal sering tidak kembali lagi setelah insentif tersebut habis digunakan. Pertimbangkan struktur yang memberi keuntungan lebih besar secara bertahap seiring konsistensi belanja, sehingga insentif justru mendorong kebiasaan belanja jangka panjang, bukan hanya transaksi satu kali di awal pendaftaran.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah program loyalitas cocok untuk semua jenis bisnis retail?" },
   {

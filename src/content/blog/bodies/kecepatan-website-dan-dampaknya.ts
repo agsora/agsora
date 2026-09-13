@@ -118,6 +118,42 @@ export const body: Block[] = [
     type: "p",
     text: "Hosting yang kurang memadai bisa menjadi salah satu faktor, tetapi sering kali penyebab utama justru ada di sisi konten dan kode website itu sendiri — gambar yang tidak dioptimalkan atau skrip yang berlebihan. Perbaiki dulu faktor-faktor ini sebelum berasumsi masalahnya di hosting.",
   },
+  { type: "h2", text: "Peran hosting dan pengiriman konten" },
+  {
+    type: "p",
+    text: "Setelah gambar dan skrip dioptimalkan, lokasi dan kapasitas server tempat website disimpan tetap berpengaruh terhadap kecepatan yang dirasakan pengunjung. Server yang berlokasi jauh dari mayoritas pengunjung akan menambah waktu yang dibutuhkan data untuk berpindah bolak-balik, meski sebenarnya perbedaan waktu ini bisa banyak dikurangi dengan jaringan pengiriman konten yang menyimpan salinan aset website di banyak lokasi berbeda, sehingga pengunjung mengambil data dari titik yang secara geografis paling dekat dengannya.",
+  },
+  {
+    type: "p",
+    text: "Kapasitas hosting juga menentukan bagaimana website merespons saat pengunjung sedang ramai-ramainya, misalnya saat sedang ada promosi besar. Website yang terasa cukup cepat dalam kondisi normal bisa melambat drastis justru pada momen yang paling penting — ketika trafik sedang tinggi dan seharusnya setiap detik kecepatan benar-benar berarti bagi konversi penjualan.",
+  },
+  { type: "h2", text: "Kesalahan umum saat mencoba mempercepat website" },
+  {
+    type: "p",
+    text: "Salah satu kesalahan yang sering terjadi adalah berfokus mengejar skor sempurna di alat pengujian kecepatan tanpa mempertimbangkan dampaknya pada pengalaman pengguna yang sebenarnya. Menghapus elemen visual yang sebenarnya membantu konversi, seperti foto produk berkualitas atau video penjelasan singkat, demi mengejar angka skor yang lebih tinggi, bisa jadi kontraproduktif jika pada akhirnya justru mengurangi kepercayaan pengunjung terhadap produk yang ditawarkan.",
+  },
+  {
+    type: "p",
+    text: "Kesalahan lain adalah melakukan optimasi hanya sekali di awal peluncuran lalu menganggap masalahnya sudah selesai selamanya. Setiap kali tim marketing menambahkan skrip pelacakan baru, atau tim konten mengunggah gambar baru tanpa dikompresi, kecepatan website perlahan kembali menurun tanpa disadari, sampai suatu saat performanya sudah jauh lebih lambat dibanding saat pertama kali diluncurkan tanpa ada yang benar-benar menyadari kapan penurunannya mulai terjadi.",
+  },
+  {
+    type: "p",
+    text: "Terlalu bergantung pada satu alat pengujian saja juga bisa menyesatkan. Skor yang bagus di satu alat pengujian tidak selalu mencerminkan pengalaman nyata di semua jenis perangkat dan kondisi jaringan yang dipakai pengunjung sesungguhnya. Membandingkan hasil dari beberapa sumber, termasuk data pengguna nyata dari Search Console, memberikan gambaran yang jauh lebih dapat dipercaya dibanding mengandalkan satu angka tunggal saja.",
+  },
+  { type: "h3", text: "Apakah menggunakan CDN selalu diperlukan untuk website bisnis?" },
+  {
+    type: "p",
+    text: "Tidak selalu wajib, tapi sangat membantu jika pengunjung Anda tersebar di berbagai wilayah geografis yang cukup jauh dari lokasi server utama. Untuk website dengan pengunjung yang mayoritas berasal dari satu wilayah yang dekat dengan lokasi server, manfaatnya mungkin tidak terlalu terasa signifikan dibanding upaya mengoptimalkan gambar dan skrip terlebih dahulu.",
+  },
+  { type: "h2", text: "Dampak kecepatan terhadap efektivitas iklan berbayar" },
+  {
+    type: "p",
+    text: "Ketika mendatangkan pengunjung lewat iklan berbayar, setiap klik yang diarahkan ke halaman yang lambat pada dasarnya adalah anggaran iklan yang berpotensi terbuang percuma. Pengunjung yang sudah mengklik iklan dan menunjukkan minat, lalu menutup halaman karena terlalu lama dimuat, tetap terhitung sebagai biaya yang sudah dikeluarkan tanpa peluang untuk benar-benar berkonversi menjadi pelanggan.",
+  },
+  {
+    type: "p",
+    text: "Platform iklan besar juga umumnya mempertimbangkan kualitas dan kecepatan halaman tujuan sebagai salah satu faktor yang memengaruhi biaya dan penayangan iklan. Halaman tujuan yang lambat bukan hanya merugikan dari sisi pengalaman pengunjung, tapi juga bisa membuat kampanye iklan menjadi kurang efisien dibanding jika halaman tujuannya dioptimalkan dengan baik sejak awal.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

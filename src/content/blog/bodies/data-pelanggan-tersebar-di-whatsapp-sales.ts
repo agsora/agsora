@@ -108,6 +108,33 @@ export const body: Block[] = [
     type: "p",
     text: "Jelaskan manfaatnya bagi mereka juga — perlindungan hukum jika ada perselisihan dengan pelanggan, dan kemudahan tidak perlu mencampur kontak pribadi dengan kontak kerja. Libatkan sales dalam proses transisi agar mereka merasa dilibatkan, bukan dipaksa.",
   },
+  { type: "h2", text: "Bukan hanya soal sales yang resign" },
+  {
+    type: "p",
+    text: "Risiko data pelanggan yang tersebar di WhatsApp pribadi tidak hanya muncul saat sales keluar dari perusahaan. Sales yang sedang cuti panjang, sakit, atau sekadar sedang tidak bisa dihubungi karena alasan pribadi juga membuat pelanggan yang mereka tangani tidak terlayani sementara waktu, karena tidak ada orang lain di perusahaan yang punya akses ke riwayat percakapan dan konteks hubungan dengan pelanggan tersebut. Ketergantungan pada satu orang untuk satu hubungan pelanggan adalah risiko operasional, terlepas dari alasan mengapa orang itu sedang tidak tersedia.",
+  },
+  {
+    type: "p",
+    text: "Ponsel yang hilang, rusak, atau dicuri juga membawa risiko yang sama seriusnya. Jika seluruh riwayat komunikasi dan kontak pelanggan hanya ada di satu perangkat fisik tanpa cadangan di sistem perusahaan, kejadian sesederhana ponsel jatuh ke selokan bisa menghapus hubungan bisnis yang dibangun bertahun-tahun dalam sekejap.",
+  },
+  { type: "h2", text: "Peran manajer dalam masa transisi" },
+  {
+    type: "p",
+    text: "Perubahan kebiasaan komunikasi tidak akan berjalan tanpa dukungan aktif dari manajer sales, bukan hanya instruksi dari manajemen puncak. Manajer perlu memberi contoh langsung dengan memakai nomor dan sistem resmi dalam interaksinya sendiri, meninjau ringkasan percakapan yang dicatat sales di CRM secara rutin, dan memberi umpan balik yang membangun ketika ringkasan yang dicatat terlalu singkat atau tidak informatif untuk ditelusuri di kemudian hari.",
+  },
+  {
+    type: "p",
+    text: "Tanpa keterlibatan manajer, kebijakan baru ini mudah terasa seperti aturan di atas kertas yang tidak benar-benar ditegakkan, dan sales secara perlahan akan kembali ke kebiasaan lama karena merasa tidak ada yang benar-benar memantau kepatuhannya.",
+  },
+  { type: "h2", text: "Menjaga kepercayaan pelanggan selama transisi" },
+  {
+    type: "p",
+    text: "Pelanggan yang sudah terbiasa berkomunikasi dengan sales tertentu lewat nomor pribadi bisa merasa canggung atau curiga ketika tiba-tiba diminta beralih ke nomor perusahaan yang tidak mereka kenal. Perkenalkan perubahan ini dengan konteks yang jelas — misalnya menjelaskan bahwa ini adalah peningkatan layanan agar pelanggan bisa tetap terhubung dengan perusahaan meski ada pergantian tim di kemudian hari — bukan sekadar pemberitahuan singkat tanpa penjelasan.",
+  },
+  {
+    type: "p",
+    text: "Sales yang menangani pelanggan tersebut sebaiknya tetap menjadi orang yang memperkenalkan nomor baru secara personal, bukan digantikan begitu saja oleh pesan otomatis dari nomor yang belum pernah dilihat pelanggan sebelumnya. Kontinuitas hubungan personal ini penting dijaga meski infrastrukturnya berubah.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

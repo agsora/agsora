@@ -102,6 +102,42 @@ export const body: Block[] = [
     type: "p",
     text: "Pertimbangkan melakukan audit keamanan oleh pihak yang berpengalaman, yang bisa menguji aplikasi secara sistematis untuk menemukan celah yang mungkin ada. Untuk aplikasi yang sudah lama berjalan tanpa pernah diaudit, langkah ini sangat disarankan sebelum masalah benar-benar terjadi.",
   },
+  { type: "h2", text: "Kesalahan umum yang mempermudah serangan" },
+  {
+    type: "p",
+    text: "Selain celah teknis yang dibahas di atas, ada kebiasaan pengembangan yang sering luput dari perhatian tapi sama berbahayanya. Kredensial basis data atau kunci akses layanan pihak ketiga yang ditulis langsung di dalam kode program, misalnya, sering tidak sengaja ikut terunggah ke repositori kode yang bisa diakses banyak orang. Sekali kredensial semacam ini bocor, mengubahnya kembali menjadi aman butuh proses yang jauh lebih merepotkan dibanding jika sejak awal disimpan terpisah dari kode sebagai variabel lingkungan yang tidak pernah ikut tersimpan di riwayat kode.",
+  },
+  {
+    type: "p",
+    text: "Kesalahan umum lain adalah memberikan hak akses yang lebih luas dari yang sebenarnya dibutuhkan, hanya karena lebih praktis saat pengembangan berlangsung. Akun yang dipakai aplikasi untuk terhubung ke basis data, misalnya, sering diberi wewenang penuh untuk mengubah dan menghapus data apa pun, padahal sebagian besar operasi sehari-hari hanya membutuhkan izin membaca dan menulis data tertentu saja. Prinsip memberikan akses seminimal mungkin sesuai kebutuhan — bukan seluas mungkin demi kepraktisan — membatasi seberapa jauh kerusakan yang bisa terjadi jika satu bagian sistem berhasil disusupi.",
+  },
+  {
+    type: "p",
+    text: "Pesan kesalahan yang terlalu detail juga kerap menjadi celah yang tidak disadari. Ketika sistem menampilkan pesan error lengkap dengan struktur basis data atau jalur berkas internal setiap kali ada kegagalan, informasi ini justru mempermudah pihak yang ingin mencari celah untuk memahami cara kerja sistem dari dalam. Pesan kesalahan yang ditampilkan kepada pengguna sebaiknya bersifat umum dan tidak membocorkan detail teknis, sementara detail lengkapnya cukup dicatat di log internal yang hanya bisa diakses tim pengembang.",
+  },
+  { type: "h2", text: "Menyiapkan rencana sebelum insiden benar-benar terjadi" },
+  {
+    type: "p",
+    text: "Sebaik apa pun perlindungan yang dibangun, kemungkinan terjadinya insiden keamanan tidak pernah benar-benar nol. Yang membedakan perusahaan yang menangani insiden dengan baik dari yang kelabakan bukan soal apakah insiden itu pernah terjadi, melainkan apakah ada rencana yang sudah dipikirkan sebelumnya tentang siapa yang harus dihubungi, langkah apa yang harus segera diambil, dan bagaimana mengomunikasikan situasi kepada pihak yang terdampak.",
+  },
+  {
+    type: "ul",
+    items: [
+      "Tentukan siapa yang bertanggung jawab mengambil keputusan pertama saat insiden terdeteksi",
+      "Siapkan langkah untuk mengisolasi bagian sistem yang terdampak agar masalah tidak menyebar lebih luas",
+      "Tetapkan cara mengganti kredensial yang berpotensi bocor secepat mungkin",
+      "Rencanakan bagaimana dan kapan pengguna yang terdampak perlu diberi tahu",
+    ],
+  },
+  {
+    type: "p",
+    text: "Tanpa rencana semacam ini, insiden yang sebenarnya bisa ditangani dalam hitungan jam bisa membutuhkan waktu berhari-hari hanya karena tidak ada yang tahu harus mulai dari mana atau siapa yang berwenang mengambil tindakan. Latihan sederhana membayangkan skenario insiden dan mendiskusikan responsnya bersama tim, bahkan sebelum insiden nyata terjadi, sudah cukup membantu memperjelas peran masing-masing saat situasi sebenarnya datang.",
+  },
+  { type: "h3", text: "Apakah memasang firewall dan antivirus saja sudah cukup?" },
+  {
+    type: "p",
+    text: "Tidak. Firewall dan antivirus melindungi lapisan jaringan dan perangkat, tetapi sebagian besar celah yang dibahas di artikel ini — pemeriksaan hak akses yang lemah, validasi input yang kurang, atau kredensial yang tersimpan sembarangan — terjadi di level kode aplikasi itu sendiri, jauh dari jangkauan perlindungan firewall maupun antivirus. Keduanya tetap perlu ada sebagai lapisan pertahanan tambahan, tapi tidak bisa menggantikan kebutuhan membangun keamanan langsung ke dalam arsitektur aplikasi sejak awal.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

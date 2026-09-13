@@ -116,6 +116,33 @@ export const body: Block[] = [
     type: "p",
     text: "Simpan riwayat perubahan data sehingga bisa ditelusuri dan dikoreksi jika terjadi kesalahan. Untuk data yang berisiko tinggi, tambahkan langkah konfirmasi sebelum perubahan benar-benar tersimpan.",
   },
+  { type: "h2", text: "Menghubungkan self-service dengan alur persetujuan atasan" },
+  {
+    type: "p",
+    text: "Layanan mandiri karyawan tidak berarti menghilangkan peran atasan dalam keputusan yang memang membutuhkan pertimbangan mereka, seperti pengajuan cuti atau klaim biaya. Yang berubah adalah bagaimana persetujuan itu terjadi: atasan menerima notifikasi langsung di aplikasi, bisa melihat konteks lengkap seperti sisa cuti tim secara keseluruhan, dan menyetujui atau menolak dalam hitungan detik tanpa perlu membuka spreadsheet terpisah atau menunggu formulir kertas diserahkan secara fisik.",
+  },
+  {
+    type: "p",
+    text: "Bagi atasan yang sering bepergian atau bekerja di lokasi berbeda, kemampuan menyetujui pengajuan langsung dari ponsel sama pentingnya dengan kemudahan yang dirasakan karyawan itu sendiri. Alur persetujuan yang hanya bisa diakses dari komputer kantor akan menciptakan kemacetan baru yang justru meniadakan manfaat kecepatan yang ditawarkan layanan mandiri.",
+  },
+  { type: "h2", text: "Data yang konsisten mengurangi kesalahan penggajian" },
+  {
+    type: "p",
+    text: "Ketika data cuti, lembur, dan kehadiran diinput manual dari berbagai sumber — catatan kertas, pesan WhatsApp, ingatan supervisor — proses penggajian menjadi rawan kesalahan, dan kesalahan pada gaji adalah salah satu hal yang paling cepat merusak kepercayaan karyawan terhadap perusahaan. Ketika karyawan mengajukan dan melihat sendiri data cuti serta kehadirannya secara real-time melalui sistem yang sama, kemungkinan terjadinya selisih antara catatan HR dan pemahaman karyawan tentang haknya sendiri jauh berkurang.",
+  },
+  {
+    type: "p",
+    text: "Ini juga mengurangi jenis pertanyaan yang paling menegangkan bagi HR untuk dijawab: karyawan yang mempertanyakan mengapa gajinya berbeda dari perkiraan mereka. Ketika data yang dipakai untuk menghitung gaji sama persis dengan yang bisa dilihat karyawan kapan saja di aplikasi, perbedaan seperti ini jauh lebih jarang terjadi, dan ketika terjadi pun lebih mudah ditelusuri sumbernya.",
+  },
+  { type: "h2", text: "Menentukan skala penerapan sesuai ukuran tim" },
+  {
+    type: "p",
+    text: "Perusahaan dengan tim kecil mungkin tergoda menganggap layanan mandiri sebagai fitur yang hanya relevan untuk perusahaan besar dengan ratusan karyawan. Padahal, justru di tim kecil di mana satu atau dua orang merangkap seluruh fungsi HR sekaligus administrasi umum, waktu yang terhemat dari mengurangi pertanyaan rutin terasa jauh lebih berarti secara proporsional, karena tidak ada tim besar untuk menyerap beban kerja tersebut.",
+  },
+  {
+    type: "p",
+    text: "Untuk tim kecil, mulai dari fitur yang paling sederhana — melihat sisa cuti dan mengajukan izin — sudah cukup memberi dampak nyata, tanpa perlu langsung menerapkan seluruh modul yang tersedia sekaligus.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -102,6 +102,24 @@ export const body: Block[] = [
       "Data master yang belum rapi sebelum sistem diterapkan",
     ],
   },
+  { type: "h2", text: "Melacak asal bahan dan jejak produksi (traceability)" },
+  {
+    type: "p",
+    text: "Ketika ada keluhan pelanggan tentang kualitas produk, atau ketika satu batch bahan baku ternyata bermasalah, kemampuan menelusuri batch produksi mana saja yang memakai bahan tersebut menjadi sangat berharga. Tanpa pelacakan ini, perusahaan terpaksa menarik seluruh stok produk yang beredar karena tidak bisa mempersempit ke batch spesifik yang benar-benar terdampak — jauh lebih mahal dan merepotkan dibanding jika penelusuran bisa dilakukan dengan presisi.",
+  },
+  {
+    type: "p",
+    text: "Mencatat nomor batch bahan baku saat diterima, dan menghubungkannya dengan perintah kerja yang memakainya, memungkinkan penelusuran dua arah: dari bahan baku ke produk jadi mana saja yang memakainya, atau sebaliknya dari keluhan produk jadi kembali ke batch bahan baku asalnya. Untuk industri makanan, farmasi, atau kosmetik, kemampuan ini sering menjadi bagian dari ketentuan yang harus dipenuhi, bukan sekadar nilai tambah opsional.",
+  },
+  { type: "h2", text: "Perawatan mesin dan downtime tak terduga" },
+  {
+    type: "p",
+    text: "Mesin yang tiba-tiba rusak di tengah jadwal produksi yang padat bisa mengacaukan seluruh rencana pengiriman ke pelanggan. Mencatat riwayat perawatan setiap mesin — kapan terakhir diservis, komponen apa yang pernah diganti, dan pola kerusakan yang berulang — membantu tim teknik beralih dari perawatan reaktif yang hanya bertindak setelah mesin rusak, menjadi perawatan terjadwal yang mengurangi risiko kerusakan mendadak di tengah proses produksi.",
+  },
+  {
+    type: "p",
+    text: "Sistem yang menampilkan jadwal perawatan berdampingan dengan jadwal produksi memudahkan perencana produksi menghindari benturan — misalnya menjadwalkan perawatan rutin di waktu permintaan produksi sedang rendah, bukan memaksakan mesin terus berjalan tanpa jeda sampai akhirnya rusak di saat yang paling tidak tepat.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Berapa lama biasanya implementasi sistem produksi berlangsung?" },
   {

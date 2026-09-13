@@ -102,6 +102,26 @@ export const body: Block[] = [
     type: "p",
     text: "Tetapkan kebijakan retensi data yang jelas sesuai kebutuhan hukum, seperti kewajiban penyimpanan dokumen ketenagakerjaan tertentu untuk periode waktu tertentu. Setelah periode itu berakhir, pertimbangkan menghapus atau mengarsipkan data tersebut secara aman sesuai kebijakan yang sudah ditetapkan.",
   },
+  { type: "h2", text: "Perhatikan keamanan data saat bekerja dengan pihak ketiga" },
+  {
+    type: "p",
+    text: "Data karyawan sering perlu dibagikan ke pihak ketiga untuk keperluan tertentu, seperti penyedia asuransi kesehatan, lembaga penyalur gaji, atau konsultan pajak. Sebelum membagikan data ke pihak mana pun, pastikan ada kesepakatan tertulis yang mengatur bagaimana pihak tersebut wajib menjaga kerahasiaan dan keamanan data yang diterima, serta batasan penggunaan data tersebut hanya untuk keperluan yang disepakati. Tanggung jawab menjaga data tidak sepenuhnya berpindah begitu data dibagikan ke pihak lain — perusahaan Anda tetap perlu memastikan mitra tersebut memiliki standar keamanan yang memadai.",
+  },
+  { type: "h2", text: "Amankan perangkat kerja, bukan hanya sistemnya" },
+  {
+    type: "p",
+    text: "Sistem yang aman bisa menjadi tidak berguna jika perangkat yang dipakai mengaksesnya justru rentan — laptop tanpa kata sandi, ponsel pribadi yang dipakai membuka data perusahaan tanpa kendali, atau kebiasaan meninggalkan layar tetap terbuka saat meninggalkan meja kerja. Terapkan kebijakan dasar keamanan perangkat bagi siapa pun yang mengakses data karyawan: kunci layar otomatis, kata sandi perangkat yang kuat, dan pembatasan mengunduh data ke perangkat pribadi yang tidak terkelola oleh perusahaan.",
+  },
+  { type: "h2", text: "Libatkan karyawan dalam transparansi pengelolaan data mereka" },
+  {
+    type: "p",
+    text: "Karyawan berhak mengetahui data apa saja yang dikumpulkan tentang mereka, untuk tujuan apa data itu dipakai, dan kepada siapa saja data tersebut mungkin dibagikan. Sediakan cara yang mudah bagi karyawan untuk melihat dan mengoreksi data mereka sendiri jika ada kesalahan, dan komunikasikan kebijakan privasi perusahaan secara jelas sejak awal masa kerja. Transparansi seperti ini bukan hanya kewajiban, tapi juga membangun kepercayaan karyawan terhadap cara perusahaan mengelola informasi pribadi mereka.",
+  },
+  { type: "h3", text: "Apa bedanya enkripsi saat disimpan dan saat dikirim?" },
+  {
+    type: "p",
+    text: "Enkripsi saat disimpan melindungi data ketika berada di server atau database, sehingga tidak bisa dibaca meski penyimpanan itu berhasil diakses pihak yang tidak berwenang. Enkripsi saat dikirim melindungi data selagi berpindah antar sistem, misalnya dari perangkat karyawan ke server perusahaan, sehingga tidak bisa disadap di tengah jalan. Keduanya perlu diterapkan bersamaan karena melindungi data pada tahap yang berbeda.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

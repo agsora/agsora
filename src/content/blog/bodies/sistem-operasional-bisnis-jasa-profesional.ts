@@ -92,6 +92,35 @@ export const body: Block[] = [
       "Kembangkan gambaran kapasitas tim untuk mendukung keputusan menerima project",
     ],
   },
+  { type: "h2", text: "Mengelola perubahan ruang lingkup (scope creep)" },
+  {
+    type: "p",
+    text: "Hampir setiap project jasa profesional mengalami permintaan tambahan di tengah jalan — klien meminta satu revisi lagi, satu fitur tambahan, atau satu putaran diskusi ekstra yang sebenarnya di luar kesepakatan awal. Masalahnya bukan pada permintaan itu sendiri, tetapi pada kebiasaan tim langsung mengerjakannya demi menjaga hubungan baik dengan klien, tanpa ada proses persetujuan yang jelas soal apakah pekerjaan tambahan ini akan ditagih terpisah atau tidak.",
+  },
+  {
+    type: "p",
+    text: "Sistem yang mewajibkan setiap permintaan di luar ruang lingkup awal dicatat dan disetujui sebelum dikerjakan — meski hanya lewat persetujuan cepat via chat yang terdokumentasi — memberi tim dasar yang jelas untuk menagih pekerjaan tambahan tersebut nantinya, sekaligus memberi klien transparansi soal kenapa tagihan akhir bisa berbeda dari penawaran awal.",
+  },
+  { type: "h2", text: "Kolaborasi dan dokumentasi antar anggota tim" },
+  {
+    type: "p",
+    text: "Project jasa profesional jarang dikerjakan satu orang dari awal sampai akhir. Ketika beberapa orang bergantian menangani bagian yang berbeda dari project yang sama, catatan tentang keputusan yang sudah diambil, revisi yang sudah disetujui klien, dan status terkini pekerjaan perlu tersimpan di satu tempat yang bisa diakses semua orang yang terlibat — bukan tersebar di percakapan pribadi atau ingatan masing-masing anggota tim.",
+  },
+  {
+    type: "p",
+    text: "Tanpa dokumentasi yang terpusat seperti ini, pergantian anggota tim di tengah project — karena cuti, resign, atau sekadar pembagian ulang beban kerja — sering menyebabkan pekerjaan mundur karena orang baru harus menebak-nebak konteks yang seharusnya sudah tercatat rapi sejak awal.",
+  },
+  { type: "h2", text: "Kesalahan umum dalam penerapan" },
+  {
+    type: "ul",
+    items: [
+      "Mewajibkan pencatatan waktu yang rumit sehingga tim malah menghindarinya",
+      "Tidak menghubungkan pencatatan waktu dengan proses penagihan sama sekali",
+      "Membiarkan pekerjaan di luar ruang lingkup dikerjakan tanpa persetujuan tertulis",
+      "Tidak meninjau laporan profitabilitas secara rutin setelah data mulai terkumpul",
+      "Menyimpan catatan project di percakapan pribadi, bukan di sistem bersama",
+    ],
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Bagaimana mendorong tim yang enggan mencatat waktu kerja secara rutin?" },
   {

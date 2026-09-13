@@ -97,6 +97,24 @@ export const body: Block[] = [
     type: "p",
     text: "Hitung siklus bekerja paling baik ketika menjadi bagian rutin pekerjaan staf gudang atau toko, bukan tugas tambahan yang dianggap mengganggu. Jelaskan kepada tim bahwa proses ini membantu menemukan masalah lebih cepat, yang pada akhirnya memudahkan pekerjaan mereka sendiri — daripada harus menghadapi penghitungan besar yang melelahkan setahun sekali.",
   },
+  { type: "h2", text: "Teknologi yang mempermudah hitung siklus" },
+  {
+    type: "p",
+    text: "Menghitung dengan kertas dan pena masih bisa dilakukan, tetapi memindahkan hasilnya ke sistem secara manual membuka celah kesalahan ketik dan menambah waktu kerja yang sebenarnya tidak perlu. Pemindai barcode atau aplikasi hitung di ponsel yang langsung mencocokkan barang dengan data sistem mempercepat proses penghitungan sekaligus mengurangi kesalahan pencatatan dibanding menulis di kertas lalu menyalinnya ulang ke komputer.",
+  },
+  {
+    type: "p",
+    text: "Untuk gudang dengan jumlah SKU yang besar, kemampuan sistem menghasilkan daftar hitung yang sudah terurut berdasarkan lokasi rak juga menghemat waktu petugas — mereka berjalan mengikuti urutan lokasi yang logis, bukan bolak-balik mencari barang yang tersebar acak di daftar.",
+  },
+  { type: "h2", text: "Menangani banyak lokasi atau gudang" },
+  {
+    type: "p",
+    text: "Bisnis dengan lebih dari satu toko atau gudang menghadapi tantangan tambahan: jadwal hitung siklus perlu disusun per lokasi, dan hasilnya perlu bisa dibandingkan antar lokasi untuk melihat apakah ada pola selisih yang muncul konsisten di satu lokasi tertentu tetapi tidak di lokasi lain. Pola seperti ini sering menjadi petunjuk penting — misalnya menunjukkan masalah prosedur di satu cabang spesifik, bukan masalah sistemik yang berlaku di semua lokasi.",
+  },
+  {
+    type: "p",
+    text: "Sistem yang terpusat memudahkan manajemen memantau kepatuhan jadwal hitung di seluruh lokasi sekaligus, alih-alih harus menanyakan satu per satu ke setiap kepala toko atau kepala gudang apakah jadwal hitung mereka sudah dijalankan sesuai rencana.",
+  },
   { type: "h2", text: "Langkah menerapkan hitung siklus" },
   {
     type: "ol",

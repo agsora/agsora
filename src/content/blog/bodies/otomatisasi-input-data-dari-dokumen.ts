@@ -86,6 +86,29 @@ export const body: Block[] = [
     type: "p",
     text: "Pemasok kadang mengubah template faktur mereka tanpa pemberitahuan, yang bisa membuat sistem otomatisasi gagal membaca dengan benar untuk sementara. Pantau tingkat akurasi secara berkala, dan siapkan mekanisme agar sistem bisa “belajar” format baru dengan cepat setelah beberapa contoh diperiksa dan dikoreksi manual.",
   },
+  { type: "h2", text: "Menangani dokumen multi-halaman dan lampiran" },
+  {
+    type: "p",
+    text: "Tidak semua dokumen sesederhana satu faktur satu halaman. Sebagian pemasok mengirim satu berkas PDF berisi beberapa faktur sekaligus, atau melampirkan surat jalan dan bukti pengiriman dalam berkas yang sama. Sistem otomatisasi perlu mampu memisahkan setiap dokumen di dalam satu berkas gabungan, mengenali mana yang merupakan dokumen utama dan mana yang lampiran pendukung, sebelum data masing-masing bisa diambil dengan benar.",
+  },
+  {
+    type: "p",
+    text: "Jika sistem yang dipakai belum mendukung pemisahan otomatis seperti ini, langkah sementara yang lebih realistis adalah meminta staf memisahkan berkas gabungan menjadi dokumen tunggal sebelum diproses sistem — masih jauh lebih cepat dibanding mengetik ulang seluruh isinya secara manual satu per satu.",
+  },
+  { type: "h2", text: "Mengukur laba atas investasi otomatisasi" },
+  {
+    type: "p",
+    text: "Sebelum memperluas cakupan otomatisasi ke lebih banyak jenis dokumen, hitung dengan jujur berapa waktu staf yang benar-benar terhemat dibanding biaya berlangganan atau biaya pengembangan sistem yang dipakai. Untuk volume dokumen yang kecil, terkadang biaya lisensi layanan otomatisasi justru lebih besar dari waktu yang dihemat, sehingga tetap memproses manual bisa jadi pilihan yang lebih masuk akal untuk saat itu.",
+  },
+  {
+    type: "p",
+    text: "Perhitungan ini sebaiknya ditinjau ulang secara berkala, karena volume dokumen yang terus bertambah seiring pertumbuhan bisnis bisa mengubah kalkulasi yang tadinya belum menguntungkan menjadi jauh lebih layak di kemudian hari.",
+  },
+  { type: "h3", text: "Bagaimana menangani dokumen dari pemasok baru yang belum pernah dikenali sistem?" },
+  {
+    type: "p",
+    text: "Dokumen dari pemasok baru biasanya akan ditandai dengan tingkat keyakinan rendah pada percobaan pertama, karena sistem belum pernah mempelajari formatnya. Setelah beberapa dokumen dari pemasok yang sama diperiksa dan dikoreksi manual, sebagian besar sistem otomatisasi modern akan mulai mengenali pola formatnya dan tingkat akurasinya meningkat untuk dokumen berikutnya dari pemasok tersebut.",
+  },
   { type: "h2", text: "Langkah menerapkan otomatisasi input dokumen" },
   {
     type: "ol",

@@ -101,6 +101,38 @@ export const body: Block[] = [
     type: "p",
     text: "Sebagian marketplace memang memiliki keterbatasan dalam hal ini. Untuk kasus seperti ini, pertimbangkan pembaruan stok manual terjadwal dengan frekuensi yang cukup sering, sambil tetap mengutamakan integrasi otomatis untuk saluran-saluran yang mendukungnya.",
   },
+  { type: "h2", text: "Retur dan tukar barang lintas saluran" },
+  {
+    type: "p",
+    text: "Barang yang dibeli lewat marketplace kadang diretur langsung ke toko fisik terdekat karena pelanggan merasa lebih praktis, sementara barang yang dibeli di toko fisik kadang ingin ditukar ukurannya lewat customer service online. Jika proses retur ini tidak tercatat kembali ke sumber stok yang sama, barang yang sebenarnya sudah kembali ke gudang bisa terlihat seolah masih di tangan pelanggan, atau sebaliknya, stok bertambah dua kali karena tercatat di dua sistem berbeda.",
+  },
+  {
+    type: "p",
+    text: "Tetapkan alur retur yang jelas: siapa yang berwenang menerima barang retur dari saluran mana pun, ke mana barang tersebut harus diperiksa kondisinya, dan kapan stok resmi diperbarui setelah retur disetujui. Barang retur yang kondisinya masih layak jual sebaiknya segera masuk kembali ke stok yang bisa dijual, bukan tertahan berhari-hari di sudut gudang tanpa status yang jelas di sistem.",
+  },
+  { type: "h2", text: "Integrasi langsung vs platform penghubung pihak ketiga" },
+  {
+    type: "p",
+    text: "Integrasi langsung ke API setiap marketplace memberi kendali penuh atas bagaimana data dipertukarkan, tetapi berarti tim Anda perlu membangun dan memelihara koneksi terpisah untuk setiap platform, termasuk menyesuaikan diri setiap kali marketplace mengubah spesifikasi API mereka. Untuk bisnis yang hanya berjualan di satu atau dua marketplace, pendekatan ini sering kali cukup terkendali.",
+  },
+  {
+    type: "p",
+    text: "Platform penghubung pihak ketiga, di sisi lain, sudah menyediakan koneksi siap pakai ke banyak marketplace sekaligus dan biasanya menangani sendiri perubahan spesifikasi API dari masing-masing platform. Trade-off-nya adalah biaya langganan bulanan dan ketergantungan pada penyedia layanan tersebut. Untuk bisnis yang berjualan di banyak marketplace sekaligus, biaya langganan ini sering kali masih lebih murah dibanding biaya membangun dan memelihara integrasi sendiri untuk setiap platform.",
+  },
+  { type: "h2", text: "Produk bundel butuh perhitungan stok yang berbeda" },
+  {
+    type: "p",
+    text: "Paket atau bundel — misalnya satu set berisi tiga produk berbeda yang dijual sebagai satu unit — tidak bisa diperlakukan sebagai satu item stok yang berdiri sendiri. Ketika satu bundel terjual, stok dari setiap komponen penyusunnya perlu berkurang sesuai jumlah masing-masing, bukan hanya stok bundelnya saja yang berkurang. Jika sistem tidak menangani logika ini dengan benar, komponen yang sebenarnya sudah menipis bisa terus terjual lewat bundel tanpa terdeteksi sampai akhirnya benar-benar habis mendadak.",
+  },
+  {
+    type: "p",
+    text: "Pastikan sistem stok Anda mendukung konsep produk komposit seperti ini, di mana ketersediaan bundel dihitung otomatis berdasarkan stok komponen yang paling sedikit tersisa. Dengan begitu, bundel yang salah satu komponennya sudah habis akan otomatis ditandai tidak tersedia di semua saluran, alih-alih terus ditampilkan sebagai bisa dibeli padahal tidak bisa dipenuhi.",
+  },
+  { type: "h3", text: "Apakah produk yang hanya dijual di satu saluran tertentu tetap perlu masuk sistem stok terpusat?" },
+  {
+    type: "p",
+    text: "Sebaiknya tetap dimasukkan, meski hanya dijual di satu saluran. Mencatat semua produk dalam satu sumber stok, termasuk yang eksklusif untuk saluran tertentu, memudahkan pelaporan gabungan dan mencegah kebingungan di kemudian hari jika suatu saat produk tersebut mulai dijual di saluran lain juga.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

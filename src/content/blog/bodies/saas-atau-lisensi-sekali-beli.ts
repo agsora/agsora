@@ -99,6 +99,24 @@ export const body: Block[] = [
       "Pertimbangkan opsi hibrida jika tersedia dan sesuai kebutuhan",
     ],
   },
+  { type: "h2", text: "Keamanan data pada masing-masing model" },
+  {
+    type: "p",
+    text: "Pada model berlangganan, keamanan data sepenuhnya bergantung pada standar dan praktik penyedia layanan — Anda perlu memeriksa bagaimana mereka mengenkripsi data, siapa saja yang punya akses ke server mereka, dan langkah apa yang mereka ambil jika terjadi insiden keamanan. Tanyakan secara spesifik tentang sertifikasi keamanan yang mereka miliki dan lokasi penyimpanan data, terutama jika bisnis Anda menangani data pelanggan yang sensitif.",
+  },
+  {
+    type: "p",
+    text: "Pada model lisensi sekali beli dengan server sendiri, keamanan data sepenuhnya menjadi tanggung jawab tim internal Anda. Ini memberi kendali lebih besar, tetapi juga berarti kesalahan konfigurasi, kelalaian memperbarui sistem keamanan, atau server yang kurang terawat menjadi risiko yang harus ditanggung sendiri tanpa bisa dilimpahkan ke pihak penyedia software. Pertimbangkan dengan jujur apakah tim internal Anda benar-benar memiliki kapasitas untuk menjaga keamanan ini secara berkelanjutan, bukan hanya di awal implementasi.",
+  },
+  { type: "h2", text: "Kapan biaya berlangganan mulai terasa memberatkan" },
+  {
+    type: "p",
+    text: "Biaya berlangganan yang terasa wajar di awal bisa perlahan membengkak seiring waktu tanpa disadari, terutama ketika tim bertambah, kebutuhan modul tambahan muncul, atau penyedia menaikkan harga di pembaruan kontrak tahunan berikutnya. Tinjau tagihan berlangganan Anda secara berkala, bukan hanya sekali saat pertama kali berlangganan, dan bandingkan apakah nilai yang didapat masih sepadan dengan biaya yang terus dikeluarkan setiap periode.",
+  },
+  {
+    type: "p",
+    text: "Jika biaya berlangganan mulai mendekati atau bahkan melampaui perkiraan biaya lisensi sekali beli untuk skala operasional Anda saat ini, itu adalah sinyal yang layak dipertimbangkan untuk mengevaluasi ulang model yang dipakai — bukan berarti harus segera berpindah, tetapi setidaknya membuka diskusi dengan penyedia atau mempertimbangkan alternatif lain yang tersedia di pasar.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Model mana yang lebih umum dipilih bisnis kecil di Indonesia saat ini?" },
   {

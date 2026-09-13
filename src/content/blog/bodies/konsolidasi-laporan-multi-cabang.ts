@@ -113,6 +113,38 @@ export const body: Block[] = [
     type: "p",
     text: "Idealnya ya, karena ini paling menyederhanakan proses konsolidasi. Jika tidak memungkinkan karena alasan tertentu, pastikan setidaknya struktur data dan format ekspornya bisa dipetakan dengan konsisten ke sistem pusat.",
   },
+  { type: "h2", text: "Menangani penyesuaian setelah periode ditutup" },
+  {
+    type: "p",
+    text: "Meski periode sudah ditutup dan terkunci, terkadang kesalahan pencatatan baru ditemukan setelahnya — misalnya transaksi yang salah kategori atau angka yang tertukar antar cabang. Mengizinkan perubahan bebas pada data yang sudah ditutup akan merusak keandalan laporan yang sudah dipakai untuk pengambilan keputusan, tapi melarang koreksi sama sekali juga tidak realistis karena kesalahan memang bisa terjadi.",
+  },
+  {
+    type: "p",
+    text: "Solusi yang lebih baik adalah menyediakan mekanisme jurnal penyesuaian yang tercatat terpisah dan jelas tertaut ke periode aslinya, lengkap dengan catatan alasan koreksi dan siapa yang melakukannya. Dengan cara ini, laporan periode yang sudah ditutup tetap utuh sebagai catatan historis, sementara koreksi yang diperlukan tetap bisa dilakukan secara transparan dan bisa ditelusuri kembali kapan pun dibutuhkan.",
+  },
+  { type: "h2", text: "Automasi dengan pengawasan tetap diperlukan" },
+  {
+    type: "p",
+    text: "Automasi konsolidasi mengurangi banyak pekerjaan manual, tapi bukan berarti prosesnya bisa sepenuhnya dilepas tanpa pengawasan. Perubahan struktur bisnis — cabang baru yang dibuka, kategori produk baru yang diperkenalkan, atau perubahan cara pencatatan tertentu — perlu ditinjau agar aturan konsolidasi otomatis tetap relevan dan tidak diam-diam menghasilkan angka yang keliru tanpa disadari siapa pun.",
+  },
+  {
+    type: "p",
+    text: "Sisihkan waktu secara berkala, misalnya setiap triwulan, untuk meninjau ulang apakah aturan eliminasi transaksi antar cabang dan pemetaan kategori masih sesuai dengan kondisi bisnis yang sebenarnya. Bisnis yang terus berkembang dan berubah membutuhkan aturan konsolidasi yang ikut disesuaikan, bukan aturan yang ditetapkan sekali di awal lalu dibiarkan begitu saja bertahun-tahun.",
+  },
+  { type: "h3", text: "Bagaimana menangani cabang baru yang baru dibuka?" },
+  {
+    type: "p",
+    text: "Terapkan struktur akun dan kategori yang sudah seragam sejak cabang tersebut mulai beroperasi, bukan menunggu sampai beberapa bulan berjalan baru menyesuaikan. Cabang baru yang sejak awal mengikuti standar pencatatan yang sama akan langsung bisa dikonsolidasikan tanpa pekerjaan tambahan menyesuaikan data historisnya di kemudian hari.",
+  },
+  { type: "h2", text: "Melibatkan auditor atau akuntan eksternal" },
+  {
+    type: "p",
+    text: "Banyak bisnis dengan beberapa cabang tetap membutuhkan akuntan atau auditor eksternal untuk keperluan pajak tahunan atau tinjauan keuangan berkala. Laporan gabungan yang sudah rapi dan konsisten strukturnya jauh mempermudah pekerjaan pihak eksternal ini, dibanding harus menyerahkan tumpukan file Excel terpisah dari setiap cabang yang formatnya berbeda-beda dan harus disusun ulang dari awal oleh pihak luar.",
+  },
+  {
+    type: "p",
+    text: "Berikan akses yang sesuai kepada auditor atau akuntan eksternal untuk melihat detail transaksi di balik angka ringkasan bila diperlukan, tanpa harus melalui proses permintaan data manual yang memakan waktu setiap kali ada pertanyaan. Kemudahan ini juga mempercepat proses tinjauan tahunan yang biasanya sudah cukup menyita waktu tim keuangan internal di tengah kesibukan operasional rutin lainnya.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

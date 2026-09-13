@@ -106,6 +106,33 @@ export const body: Block[] = [
     type: "p",
     text: "Bergantung pada kapasitas penyimpanan perangkat dan volume data yang dihasilkan. Untuk sebagian besar kasus penggunaan, data offline dirancang untuk tersinkron dalam hitungan menit hingga jam begitu koneksi kembali tersedia, bukan dirancang untuk bertahan offline dalam waktu yang sangat lama.",
   },
+  { type: "h2", text: "Menentukan data apa saja yang perlu disimpan lokal" },
+  {
+    type: "p",
+    text: "Tidak semua data perlu disimpan di perangkat saat offline. Menyimpan seluruh basis data pelanggan atau seluruh riwayat transaksi di ponsel setiap petugas lapangan tidak hanya boros ruang penyimpanan, tapi juga menambah risiko keamanan jika perangkat tersebut hilang. Tentukan secara spesifik data mana yang benar-benar dibutuhkan untuk menyelesaikan tugas di lokasi — misalnya hanya data pelanggan yang dijadwalkan dikunjungi hari itu, bukan seluruh basis data pelanggan perusahaan.",
+  },
+  {
+    type: "p",
+    text: "Pendekatan ini disebut sinkronisasi selektif, dan membutuhkan perencanaan sejak tahap desain sistem: aplikasi perlu tahu data mana yang relevan untuk setiap pengguna berdasarkan tugas mereka, mengunduhnya saat masih ada koneksi, lalu bekerja dari salinan lokal tersebut selama offline sebelum menyinkronkan kembali hasil pekerjaan begitu sinyal tersedia.",
+  },
+  { type: "h2", text: "Menangani kegagalan sinkronisasi" },
+  {
+    type: "p",
+    text: "Sinkronisasi data dari perangkat kembali ke server tidak selalu berjalan mulus — koneksi bisa terputus di tengah proses upload, atau server sedang mengalami gangguan tepat saat perangkat mencoba mengirim data yang tertunda. Aplikasi yang andal perlu mendeteksi kegagalan seperti ini dan mencoba lagi secara otomatis tanpa kehilangan data yang sudah dicatat, alih-alih menganggap data tersebut sudah terkirim padahal sebenarnya gagal di tengah jalan.",
+  },
+  {
+    type: "p",
+    text: "Sediakan juga cara bagi pengguna atau administrator untuk melihat status sinkronisasi secara jelas — data mana yang sudah berhasil dikirim, dan mana yang masih tertunda menunggu koneksi atau percobaan ulang. Tanpa visibilitas ini, masalah sinkronisasi yang gagal bisa tidak disadari selama berhari-hari, dan ketika akhirnya ketahuan, data yang hilang sudah sulit direkonstruksi.",
+  },
+  { type: "h2", text: "Ilustrasi: sistem kasir di area dengan listrik dan sinyal tidak stabil" },
+  {
+    type: "p",
+    text: "Bayangkan sebuah toko ritel di kawasan yang sesekali mengalami gangguan sinyal internet, meski jarang berlangsung lama. Dengan sistem kasir yang sepenuhnya bergantung pada koneksi, setiap kali sinyal terputus, transaksi terhenti total dan pelanggan yang sedang antre harus menunggu atau bahkan membatalkan pembelian karena kasir tidak bisa memprosesnya sama sekali.",
+  },
+  {
+    type: "p",
+    text: "Dengan sistem kasir yang mendukung mode offline, transaksi tetap bisa dicatat secara lokal selama gangguan berlangsung — struk tetap bisa dicetak, dan stok tetap berkurang sesuai penjualan yang terjadi. Begitu koneksi kembali, seluruh transaksi yang tertunda tersinkron otomatis ke sistem pusat tanpa perlu campur tangan manual dari kasir maupun pemilik toko.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

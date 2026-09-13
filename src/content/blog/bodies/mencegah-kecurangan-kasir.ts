@@ -129,6 +129,26 @@ export const body: Block[] = [
     type: "p",
     text: "Tidak ada angka yang berlaku universal. Tinjau margin produk Anda dan tetapkan batas yang tidak mengancam profitabilitas jika diberikan tanpa persetujuan, misalnya diskon kecil untuk kompensasi ketidaknyamanan pelanggan. Sesuaikan setelah melihat pola pemakaian selama beberapa minggu.",
   },
+  { type: "h2", text: "Tanda peringatan di luar data transaksi" },
+  {
+    type: "p",
+    text: "Tidak semua indikasi kecurangan muncul dari angka di laporan. Perubahan gaya hidup yang mencolok dan tidak sesuai dengan penghasilan, keengganan mengambil cuti atau libur dalam waktu lama, atau justru terlalu bersemangat menangani shift tertentu sendirian tanpa mau digantikan, semuanya layak diperhatikan sebagai konteks tambahan. Tanda-tanda ini bukan bukti, dan tidak boleh langsung dijadikan tuduhan — tapi jika muncul bersamaan dengan pola mencurigakan di laporan pengecualian, kombinasi keduanya jauh lebih layak ditelusuri lebih dalam dibanding masing-masing dilihat secara terpisah.",
+  },
+  { type: "h2", text: "Menyusun prosedur eskalasi saat kecurigaan muncul" },
+  {
+    type: "p",
+    text: "Menemukan pola yang mencurigakan hanya bermanfaat jika ada langkah yang jelas setelahnya. Tetapkan sejak awal siapa yang berwenang menindaklanjuti temuan dari laporan pengecualian, bagaimana proses verifikasi dilakukan sebelum menuduh siapa pun secara langsung, dan bagaimana percakapan dengan karyawan yang bersangkutan seharusnya berlangsung. Menuduh secara terburu-buru berdasarkan data yang belum sepenuhnya diverifikasi bisa merusak kepercayaan tim dan berisiko menimbulkan masalah baru, sementara membiarkan temuan begitu saja tanpa tindak lanjut membuat seluruh sistem pelaporan menjadi sia-sia.",
+  },
+  { type: "h2", text: "Melibatkan supplier dan proses penerimaan barang" },
+  {
+    type: "p",
+    text: "Kecurangan tidak selalu terjadi di meja kasir. Selisih stok juga bisa berasal dari proses penerimaan barang dari supplier — jumlah yang diterima tidak dicocokkan dengan jumlah yang tertulis di nota pengiriman, atau barang yang diterima dalam kondisi kurang baik tetap dicatat sebagai stok penuh tanpa catatan pengecualian. Terapkan prosedur penerimaan barang yang mengharuskan penghitungan ulang secara fisik dan pencatatan selisih di sistem, bukan sekadar mempercayai angka yang tertulis di dokumen pengiriman dari pihak luar.",
+  },
+  { type: "h3", text: "Apa yang sebaiknya dilakukan jika kecurangan sudah terlanjur ditemukan?" },
+  {
+    type: "p",
+    text: "Kumpulkan bukti dari sistem terlebih dahulu — jejak audit, laporan pengecualian, dan rekaman kamera jika tersedia — sebelum melakukan konfrontasi langsung dengan karyawan yang bersangkutan. Tangani situasi ini secara konsisten mengikuti kebijakan internal yang sudah ditetapkan, dan pastikan prosesnya adil serta terdokumentasi dengan baik, sehingga keputusan yang diambil bisa dipertanggungjawabkan jika dipertanyakan di kemudian hari.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

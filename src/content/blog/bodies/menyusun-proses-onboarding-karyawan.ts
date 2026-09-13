@@ -118,6 +118,34 @@ export const body: Block[] = [
     type: "p",
     text: "Ya, meski skalanya bisa disederhanakan. Bahkan perusahaan dengan beberapa karyawan tetap mendapat manfaat dari daftar periksa sederhana yang memastikan tidak ada hal penting yang terlewat saat karyawan baru bergabung.",
   },
+  { type: "h2", text: "Orientasi budaya, bukan hanya orientasi administratif" },
+  {
+    type: "p",
+    text: "Banyak proses onboarding berhenti di urusan administratif: mengisi formulir, menerima peralatan, mendengarkan penjelasan kebijakan cuti. Yang sering terlewat adalah orientasi terhadap budaya kerja sehari-hari — bagaimana tim biasa berkomunikasi, seberapa formal rapat internal biasanya berlangsung, atau kebiasaan tidak tertulis tentang jam mulai kerja yang sebenarnya berbeda dari jam yang tertulis di kontrak.",
+  },
+  {
+    type: "p",
+    text: "Karyawan baru yang memahami budaya kerja sejak awal akan lebih cepat merasa nyaman berkontribusi dan berpendapat dalam diskusi tim, dibanding yang masih meraba-raba norma yang tidak pernah dijelaskan secara eksplisit. Sisipkan sesi singkat tentang budaya kerja tim ke dalam jadwal minggu pertama, idealnya disampaikan oleh anggota tim biasa, bukan hanya oleh atasan atau HR.",
+  },
+  { type: "h2", text: "Target minggu pertama yang realistis" },
+  {
+    type: "p",
+    text: "Menetapkan target yang terlalu ambisius untuk minggu pertama sering membuat karyawan baru merasa tertekan sebelum benar-benar memahami cara kerja perusahaan. Target yang lebih realistis untuk periode awal adalah memahami alur kerja tim, mengenal orang-orang kunci yang akan sering berinteraksi dengannya, dan menyelesaikan satu atau dua tugas kecil yang memberi rasa pencapaian tanpa risiko besar jika terjadi kesalahan.",
+  },
+  {
+    type: "p",
+    text: "Atasan langsung sebaiknya menyepakati target minggu pertama ini secara eksplisit bersama karyawan baru, bukan membiarkannya menebak sendiri apa yang diharapkan. Target yang jelas juga memudahkan atasan mengevaluasi apakah proses adaptasi berjalan sesuai rencana atau ada hal yang perlu dibantu lebih lanjut.",
+  },
+  { type: "h2", text: "Menyiapkan tim yang sudah ada, bukan hanya karyawan baru" },
+  {
+    type: "p",
+    text: "Onboarding yang baik juga memperhatikan sisi tim yang sudah ada. Beri tahu tim beberapa hari sebelumnya bahwa akan ada anggota baru, jelaskan perannya secara singkat, dan ingatkan tim untuk menyambut dengan ramah di hari pertama. Tim yang tidak diberi tahu sebelumnya bisa bersikap acuh tak acuh bukan karena tidak peduli, melainkan karena tidak menyadari ada orang baru yang perlu disambut dan dibantu beradaptasi.",
+  },
+  { type: "h3", text: "Bagaimana jika karyawan baru bekerja secara remote atau di lokasi berbeda?" },
+  {
+    type: "p",
+    text: "Prinsipnya tetap sama, hanya pelaksanaannya perlu disesuaikan: akun dan akses sistem tetap harus siap sebelum hari pertama, perangkat kerja dikirim lebih awal agar tiba tepat waktu, dan sesi perkenalan dengan tim dilakukan lewat panggilan video terjadwal. Pendamping (buddy) menjadi lebih penting lagi untuk karyawan remote karena mereka tidak bisa sekadar menoleh ke meja sebelah untuk bertanya hal kecil.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

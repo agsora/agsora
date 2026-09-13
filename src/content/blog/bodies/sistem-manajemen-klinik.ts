@@ -172,6 +172,11 @@ export const body: Block[] = [
     type: "p",
     text: "Tanggung jawab tetap berada di pihak klinik sebagai pengendali data, meski sistem dikelola vendor. Pastikan ada perjanjian tertulis dengan vendor tentang keamanan, kerahasiaan, dan apa yang terjadi terhadap data jika kerja sama berakhir.",
   },
+  { type: "h3", text: "Bagaimana menangani pasien yang datang tanpa membawa kartu identitas atau kartu berobat?" },
+  {
+    type: "p",
+    text: "Pencarian data pasien sebaiknya tidak hanya mengandalkan nomor kartu, tetapi juga bisa berdasarkan nama, tanggal lahir, atau nomor telepon yang pernah didaftarkan sebelumnya. Ini penting karena pasien sering lupa membawa kartu, terutama untuk kunjungan lanjutan yang jaraknya sudah cukup lama dari kunjungan pertama.",
+  },
   { type: "h2", text: "Memilih antara membangun sendiri atau memakai produk siap pakai" },
   {
     type: "p",

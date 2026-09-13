@@ -104,6 +104,43 @@ export const body: Block[] = [
     type: "p",
     text: "Bergantung pada kompleksitas kedua sistem yang dihubungkan dan kualitas dokumentasi API yang tersedia. Integrasi sederhana antara dua sistem populer dengan dokumentasi lengkap biasanya lebih terjangkau dibanding integrasi dengan sistem lama yang dokumentasinya minim.",
   },
+  { type: "h2", text: "Jenis-jenis API yang mungkin Anda temui" },
+  {
+    type: "p",
+    text: "Tidak semua API dibuat dengan cara yang sama, meski tujuannya serupa. Sebagian vendor menyediakan API terbuka yang dokumentasinya bisa diakses siapa saja secara publik di internet, sehingga pengembang mana pun bisa mempelajarinya tanpa perlu izin khusus terlebih dahulu. Sebagian lain menyediakan API tertutup yang hanya dibuka untuk mitra tertentu, biasanya disertai perjanjian kerja sama dan proses persetujuan sebelum akses diberikan.",
+  },
+  {
+    type: "p",
+    text: "Ada juga perbedaan dalam cara API dibayar. Sebagian layanan menyediakan API secara gratis sebagai bagian dari langganan yang sudah Anda bayar, sebagian lain mengenakan biaya tambahan berdasarkan jumlah permintaan yang dikirim setiap bulan. Saat mengevaluasi vendor, tanyakan secara spesifik skema biayanya, karena integrasi yang volumenya besar bisa membuat biaya API menjadi komponen yang cukup signifikan dalam total biaya kepemilikan sistem.",
+  },
+  { type: "h2", text: "Keamanan dalam integrasi API" },
+  {
+    type: "p",
+    text: "Setiap kali dua sistem saling terhubung lewat API, ada jalur baru yang perlu diamankan. Akses ke API biasanya dikendalikan lewat kunci atau token khusus yang harus dijaga kerahasiaannya seperti kata sandi — jika kunci ini bocor atau tersebar tanpa sengaja, misalnya tertinggal di kode yang dibagikan secara terbuka, pihak yang tidak berwenang bisa saja mengakses data yang mengalir lewat integrasi tersebut.",
+  },
+  {
+    type: "p",
+    text: "Tanyakan kepada vendor bagaimana mereka mengelola akses ini: apakah setiap integrasi punya kunci terpisah yang bisa dicabut secara individual tanpa mengganggu integrasi lain, dan apakah ada catatan aktivitas yang bisa ditelusuri jika terjadi sesuatu yang mencurigakan. Pemilik bisnis tidak perlu memahami detail teknis kriptografinya, tetapi perlu memastikan pertanyaan keamanan dasar ini sudah dijawab sebelum integrasi berjalan dengan data pelanggan atau data keuangan yang sensitif.",
+  },
+  { type: "h2", text: "Ilustrasi: keputusan yang salah karena tidak bertanya" },
+  {
+    type: "p",
+    text: "Sebuah bisnis ritel dengan banyak cabang memutuskan membeli sistem kasir baru tanpa menanyakan ketersediaan API sama sekali, karena harganya menarik dan fiturnya terlihat lengkap di demo penjualan. Belakangan, saat mereka ingin menghubungkan data penjualan dari sistem kasir ke software akuntansi yang sudah dipakai bertahun-tahun, ternyata sistem kasir baru itu tidak menyediakan cara otomatis untuk mengeluarkan data — satu-satunya opsi adalah mengekspor file setiap hari secara manual dan mengimpornya satu per satu.",
+  },
+  {
+    type: "p",
+    text: "Kejadian ini bisa dihindari sepenuhnya jika pertanyaan tentang API diajukan sejak sesi demo pertama. Bandingkan dengan bisnis lain yang secara khusus menanyakan hal ini sebelum membeli, memilih sistem kasir dengan API yang terdokumentasi jelas, dan berhasil menghubungkan data penjualan ke software akuntansi mereka secara otomatis sejak hari pertama sistem berjalan.",
+  },
+  { type: "h2", text: "Peran developer atau vendor teknis Anda" },
+  {
+    type: "p",
+    text: "Anda sebagai pemilik bisnis tidak perlu bisa menulis kode untuk memanfaatkan API, tetapi perlu memiliki akses ke seseorang — baik staf internal maupun vendor — yang bisa menerjemahkan kebutuhan bisnis Anda menjadi implementasi teknis yang berjalan. Peran ini penting sejak tahap evaluasi vendor, bukan baru dilibatkan setelah kontrak diteken, karena mereka bisa membantu menilai apakah dokumentasi API benar-benar memadai atau ternyata banyak celah yang baru terasa saat implementasi sudah berjalan.",
+  },
+  { type: "h3", text: "Apakah saya perlu menyewa developer khusus untuk mengelola API?" },
+  {
+    type: "p",
+    text: "Untuk kebutuhan integrasi yang sederhana dan jumlahnya sedikit, vendor sistem yang Anda pakai biasanya sudah menyediakan tim yang bisa membantu proses ini sebagai bagian dari layanan implementasi. Developer khusus internal lebih relevan ketika bisnis Anda memiliki banyak sistem yang perlu terus-menerus dihubungkan dan disesuaikan seiring waktu.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

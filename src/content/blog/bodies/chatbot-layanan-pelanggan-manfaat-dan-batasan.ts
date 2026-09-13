@@ -172,6 +172,33 @@ export const body: Block[] = [
     type: "p",
     text: "Banyak layanan chatbot siap pakai kini tersedia dengan biaya berlangganan yang terjangkau, cocok untuk kebutuhan yang relatif umum. Chatbot yang dibangun khusus lebih masuk akal ketika Anda membutuhkan integrasi mendalam dengan sistem internal — misalnya mengecek stok real-time atau status pesanan langsung dari database Anda — yang sulit dilakukan layanan generik.",
   },
+  { type: "h2", text: "Menentukan nada bicara chatbot" },
+  {
+    type: "p",
+    text: "Chatbot yang menjawab dengan nada yang tidak sesuai karakter bisnis Anda bisa terasa janggal, bahkan mengganggu, meski jawabannya secara teknis benar. Sebuah bisnis dengan citra santai dan akrab mungkin ingin chatbotnya menyapa dengan bahasa yang lebih kasual, sementara bisnis di sektor yang lebih formal seperti keuangan atau kesehatan membutuhkan nada yang lebih hati-hati dan profesional. Tuliskan panduan nada bicara ini secara eksplisit sebelum chatbot dikonfigurasi, sama seperti Anda menuliskan panduan nada bicara untuk tim customer service manusia.",
+  },
+  {
+    type: "p",
+    text: "Nada bicara ini juga perlu konsisten di seluruh percakapan, termasuk saat menyampaikan berita yang kurang menyenangkan — pesanan yang tertunda, stok yang habis, atau permintaan yang tidak bisa dipenuhi. Chatbot yang tetap sopan dan jelas saat menyampaikan kabar buruk jauh lebih membantu dibanding chatbot yang hanya pandai berbasa-basi saat semuanya berjalan lancar.",
+  },
+  { type: "h2", text: "Menyiapkan tim untuk bekerja berdampingan dengan chatbot" },
+  {
+    type: "p",
+    text: "Kehadiran chatbot mengubah pekerjaan tim customer service, bukan menghilangkannya. Tim yang dulu menjawab pertanyaan sederhana berulang kali kini lebih banyak menangani kasus yang dieskalasi dari chatbot — kasus yang cenderung lebih rumit dan lebih membutuhkan kesabaran, karena pelanggan yang sampai ke tahap ini biasanya sudah mencoba mencari jawaban sendiri lebih dulu lewat chatbot dan belum berhasil.",
+  },
+  {
+    type: "p",
+    text: "Siapkan tim untuk transisi ini dengan pelatihan tambahan tentang cara menangani pelanggan yang sudah terlanjur frustrasi sebelum sampai ke mereka, serta akses penuh ke riwayat percakapan sebelumnya dengan chatbot agar mereka tidak perlu bertanya ulang hal yang sudah disampaikan pelanggan. Tanpa persiapan ini, tim bisa merasa kewalahan menangani kasus yang secara rata-rata menjadi lebih berat setelah chatbot menyaring pertanyaan yang mudah.",
+  },
+  { type: "h2", text: "Menangani eskalasi yang berulang dari topik yang sama" },
+  {
+    type: "p",
+    text: "Jika satu topik tertentu terus-menerus dieskalasikan ke manusia meski sudah ada dalam cakupan chatbot, ini adalah sinyal penting yang sering diabaikan. Penyebabnya bisa beragam: jawaban chatbot untuk topik itu kurang jelas, pelanggan mengajukan variasi pertanyaan yang belum terpikirkan sebelumnya, atau topik tersebut memang secara alami selalu membutuhkan pertimbangan kasus per kasus yang tidak bisa distandardisasi.",
+  },
+  {
+    type: "p",
+    text: "Lacak topik-topik yang paling sering dieskalasikan secara berkala, dan gunakan data ini untuk terus memperbaiki cakupan chatbot dari waktu ke waktu. Perbaikan bertahap seperti ini jauh lebih realistis dibanding berharap chatbot langsung sempurna sejak hari pertama diluncurkan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

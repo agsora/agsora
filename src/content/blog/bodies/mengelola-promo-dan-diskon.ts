@@ -103,6 +103,26 @@ export const body: Block[] = [
     type: "p",
     text: "Sistem yang menerapkan promo secara otomatis berdasarkan aturan tetap, dikombinasikan dengan jejak audit yang mencatat setiap transaksi bermasalah, secara signifikan mengurangi peluang penyalahgunaan dibanding mengandalkan kejujuran dan ingatan kasir semata.",
   },
+  { type: "h2", text: "Jaga konsistensi promo di semua saluran penjualan" },
+  {
+    type: "p",
+    text: "Bisnis yang berjualan lewat toko fisik sekaligus platform online perlu memastikan aturan promo diterapkan secara konsisten di semua saluran tersebut. Promo yang hanya berlaku di satu saluran tapi tidak dikomunikasikan dengan jelas sering menimbulkan kebingungan pelanggan dan keluhan yang sebenarnya bisa dihindari. Jika sistem kasir dan platform online terhubung ke katalog produk yang sama, perubahan aturan promo cukup dilakukan sekali dan otomatis berlaku di semua tempat, mengurangi risiko satu saluran terlewat saat promo diperbarui atau dihentikan.",
+  },
+  { type: "h2", text: "Kelola stok selama promo berlangsung" },
+  {
+    type: "p",
+    text: "Promo yang sukses menarik pelanggan bisa membuat stok produk tertentu habis jauh lebih cepat dari perkiraan. Pantau tingkat stok produk yang sedang dipromosikan secara lebih ketat dibanding hari biasa, dan siapkan keputusan sejak awal tentang apa yang akan dilakukan jika stok habis di tengah periode promo — apakah promo dihentikan untuk produk tersebut, atau pelanggan diberi opsi lain sebagai penukar. Kehabisan stok tanpa rencana yang jelas bisa mengecewakan pelanggan yang datang khusus karena promo tersebut dan merusak kepercayaan mereka terhadap toko Anda.",
+  },
+  { type: "h2", text: "Komunikasikan syarat dan ketentuan dengan jelas" },
+  {
+    type: "p",
+    text: "Kekecewaan pelanggan sering muncul bukan karena promonya kurang menarik, melainkan karena syarat dan ketentuannya tidak dikomunikasikan dengan jelas sejak awal — misalnya batasan jumlah pembelian per pelanggan, produk tertentu yang dikecualikan dari promo, atau periode berlaku yang ternyata sudah berakhir. Pastikan syarat ini tertulis jelas di materi promosi dan juga tersedia bagi kasir untuk dijelaskan dengan cepat dan konsisten ketika ada pelanggan yang bertanya di kasir.",
+  },
+  { type: "h3", text: "Bagaimana cara menghindari pelanggan yang menyalahgunakan promo?" },
+  {
+    type: "p",
+    text: "Batasi jumlah penggunaan promo per pelanggan atau per transaksi langsung di dalam aturan sistem, terutama untuk promo dengan potongan besar yang rentan disalahgunakan. Untuk promo member, pastikan verifikasi keanggotaan dilakukan secara konsisten oleh kasir, dan gunakan laporan penggunaan promo untuk mendeteksi pola pemakaian yang tidak wajar dari akun tertentu.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

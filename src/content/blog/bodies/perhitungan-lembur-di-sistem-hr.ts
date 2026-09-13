@@ -91,6 +91,33 @@ export const body: Block[] = [
       "Tampilkan rincian perhitungan yang transparan di slip gaji karyawan",
     ],
   },
+  { type: "h2", text: "Kesalahan umum saat menerapkan sistem lembur otomatis" },
+  {
+    type: "p",
+    text: "Salah satu kesalahan yang paling sering terjadi adalah memindahkan kebijakan lama yang sebenarnya sudah usang ke dalam sistem baru tanpa meninjaunya kembali terlebih dahulu. Banyak perusahaan memiliki kebiasaan lembur yang berjalan bertahun-tahun tanpa pernah didokumentasikan ulang, sehingga ketika tim IT atau vendor sistem meminta “aturan lembur yang berlaku”, yang diberikan justru campuran antara kebijakan resmi lama dan kebiasaan tidak tertulis yang berkembang di lapangan. Hasilnya adalah rumus yang secara teknis berjalan dengan benar, tetapi tidak benar-benar mencerminkan apa yang seharusnya diterima karyawan.",
+  },
+  {
+    type: "p",
+    text: "Kesalahan kedua adalah terburu-buru mematikan sistem lama sebelum sistem baru benar-benar teruji. Tekanan untuk segera “go live” sering membuat masa uji paralel dipersingkat atau bahkan dilewati sama sekali, padahal justru di masa itulah sebagian besar kesalahan konfigurasi ditemukan. Kesalahan ketiga adalah tidak melibatkan perwakilan karyawan atau serikat pekerja saat menyusun ulang kebijakan lembur, padahal merekalah yang paling memahami pola kerja nyata di lapangan dan bisa membantu mengenali skenario yang mungkin terlewat oleh tim HR maupun tim IT.",
+  },
+  { type: "h2", text: "Menangani kasus khusus: shift bergilir dan karyawan paruh waktu" },
+  {
+    type: "p",
+    text: "Karyawan dengan shift bergilir sering menjadi sumber kerumitan tersendiri karena jam kerja normal mereka bisa berbeda setiap minggu, sehingga definisi “jam lembur” pun ikut bergeser tergantung jadwal shift yang berlaku saat itu. Sistem yang hanya mengenal satu pola jam kerja tetap untuk seluruh karyawan akan salah menghitung lembur bagi kelompok ini. Pastikan sistem mampu mengenali jadwal shift masing-masing karyawan secara individual, bukan menyamaratakan semua orang dengan satu jam kerja normal yang sama.",
+  },
+  {
+    type: "p",
+    text: "Karyawan paruh waktu juga memerlukan perhatian khusus. Ada perusahaan yang menghitung lembur paruh waktu berdasarkan jam kerja normal penuh waktu, padahal jam kerja normal karyawan tersebut sebenarnya lebih pendek — sehingga jam kerja yang sebenarnya sudah melebihi kontrak paruh waktunya belum tentu terhitung sebagai lembur oleh sistem jika acuannya keliru. Tinjau kembali bagaimana kontrak kerja paruh waktu mendefinisikan jam kerja normal, dan pastikan definisi itulah yang menjadi dasar perhitungan lembur di sistem, bukan asumsi umum yang berlaku untuk karyawan tetap.",
+  },
+  { type: "h2", text: "Melibatkan atasan langsung dalam proses persetujuan" },
+  {
+    type: "p",
+    text: "Atasan langsung memiliki posisi penting dalam sistem lembur karena merekalah yang paling memahami apakah pekerjaan tambahan tersebut benar-benar dibutuhkan atau sekadar kebiasaan yang berulang tanpa alasan jelas. Sistem persetujuan berjenjang yang melibatkan atasan langsung sebelum lembur disetujui membantu menyaring pengajuan yang tidak perlu, sekaligus memberi kesempatan bagi atasan untuk mempertimbangkan alternatif lain, seperti mengatur ulang pembagian tugas di dalam tim, sebelum benar-benar menyetujui tambahan jam kerja.",
+  },
+  {
+    type: "p",
+    text: "Namun, proses persetujuan yang terlalu berbelit juga bisa menjadi masalah tersendiri — jika atasan sulit dihubungi atau lambat merespons, karyawan yang sudah terlanjur bekerja lembur akhirnya tetap melakukannya tanpa persetujuan resmi karena kebutuhan operasional mendesak. Pastikan proses persetujuan cukup cepat dan sederhana untuk dijalankan, misalnya melalui notifikasi di ponsel yang bisa disetujui dalam hitungan menit, sehingga alur formal ini tidak malah menjadi hambatan yang membuat karyawan mengabaikannya.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah aturan lembur sama untuk semua jenis industri?" },
   {
@@ -101,6 +128,16 @@ export const body: Block[] = [
   {
     type: "p",
     text: "Ini menunjukkan perlunya sosialisasi ulang tentang prosedur pengajuan lembur, dan kemungkinan perlu ditinjau apakah beban kerja karyawan tersebut memang membutuhkan penyesuaian jadwal atau penambahan tenaga kerja, alih-alih terus mengandalkan lembur yang tidak tercatat resmi.",
+  },
+  { type: "h3", text: "Apakah lembur bisa diganti dengan hari libur pengganti, bukan uang?" },
+  {
+    type: "p",
+    text: "Tergantung pada kebijakan internal perusahaan dan ketentuan yang berlaku, sebagian perusahaan memang menawarkan opsi ini sebagai alternatif selain pembayaran tunai. Jika opsi ini diterapkan, pastikan sistem mampu mencatat saldo hari libur pengganti secara terpisah dari cuti tahunan biasa, agar tidak tercampur dan membingungkan karyawan maupun tim HR saat menghitung sisa hak cuti.",
+  },
+  { type: "h3", text: "Apa yang harus dilakukan jika kesalahan perhitungan baru ditemukan setelah slip gaji dibagikan?" },
+  {
+    type: "p",
+    text: "Segera informasikan kepada karyawan yang terdampak secara transparan begitu kesalahan ditemukan, jelaskan penyebabnya, dan lakukan koreksi pada periode gaji berikutnya atau melalui pembayaran susulan jika nilainya cukup signifikan. Menunda atau menutupi kesalahan semacam ini jauh lebih merusak kepercayaan karyawan dibanding kesalahan itu sendiri, karena karyawan biasanya bisa memaklumi kekeliruan teknis selama ditangani secara jujur dan cepat.",
   },
   { type: "h2", text: "Penutup" },
   {

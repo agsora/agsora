@@ -103,6 +103,26 @@ export const body: Block[] = [
     type: "p",
     text: "Pendekatan personal sering lebih efektif dibanding memaksakan aturan umum. Pahami kekhawatiran spesifik mereka, libatkan mereka secara khusus dalam proses, dan jika memungkinkan, manfaatkan pengalaman dan pengaruh mereka untuk membantu meyakinkan rekan-rekan lain setelah mereka sendiri mulai nyaman dengan sistem baru.",
   },
+  { type: "h2", text: "Rancang pelatihan berdasarkan peran, bukan generik" },
+  {
+    type: "p",
+    text: "Pelatihan satu arah yang menjelaskan seluruh fitur sistem kepada semua orang sekaligus sering membuat peserta kewalahan dan kesulitan mengingat bagian mana yang benar-benar relevan dengan pekerjaan mereka sehari-hari. Susun materi pelatihan berdasarkan peran masing-masing — bagian penjualan hanya perlu fokus pada modul yang mereka pakai setiap hari, bagian gudang pada modul yang berbeda lagi. Pelatihan yang relevan dan langsung bisa dipraktikkan pada pekerjaan nyata jauh lebih mudah diserap dibanding sesi umum yang mencakup semua hal sekaligus tanpa konteks yang jelas.",
+  },
+  { type: "h2", text: "Rayakan kemajuan kecil selama masa transisi" },
+  {
+    type: "p",
+    text: "Masa transisi yang panjang dan terasa berat bisa membuat tim kehilangan semangat jika tidak ada tanda-tanda kemajuan yang terlihat. Tunjukkan secara konkret setiap perbaikan yang mulai terlihat, sekecil apa pun — misalnya satu proses yang sebelumnya butuh waktu lama kini selesai lebih cepat, atau satu masalah data yang sering terjadi kini sudah tidak muncul lagi. Mengakui kemajuan ini secara terbuka membantu tim melihat bahwa usaha beradaptasi mereka benar-benar membuahkan hasil, bukan sekadar beban tambahan tanpa manfaat yang jelas.",
+  },
+  { type: "h2", text: "Perhatikan perbedaan tingkat kenyamanan terhadap teknologi" },
+  {
+    type: "p",
+    text: "Tidak semua anggota tim memiliki tingkat kenyamanan yang sama terhadap teknologi baru, dan ini bukan semata soal usia meski sering dikaitkan dengan itu. Sebagian orang butuh lebih banyak waktu berlatih langsung sebelum merasa percaya diri, sementara yang lain bisa beradaptasi dengan cepat hanya dari membaca panduan singkat. Sediakan beberapa format pendampingan — sesi tatap muka, panduan tertulis, video singkat — sehingga setiap orang bisa belajar dengan cara yang paling sesuai untuk mereka, alih-alih memaksakan satu format pelatihan untuk semua orang.",
+  },
+  { type: "h3", text: "Apakah wajar jika sebagian tim masih membutuhkan bantuan setelah masa transisi resmi berakhir?" },
+  {
+    type: "p",
+    text: "Wajar, terutama untuk anggota tim yang jarang berinteraksi langsung dengan sistem atau baru bergabung setelah pelatihan awal selesai dilakukan. Sediakan sumber bantuan yang tetap bisa diakses kapan saja setelah masa transisi resmi berakhir, seperti panduan tertulis atau kontak yang bisa dihubungi, sehingga dukungan tidak sepenuhnya hilang begitu tanggal transisi resmi terlewati.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

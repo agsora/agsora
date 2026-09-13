@@ -98,6 +98,26 @@ export const body: Block[] = [
     type: "p",
     text: "Telusuri akar penyebabnya dengan jujur — apakah karena sistemnya yang kurang tepat, proses yang belum disesuaikan dengan baik, atau kurangnya pelatihan dan dukungan bagi pengguna. Hasil evaluasi yang jujur, meski tidak menyenangkan, jauh lebih berguna dibanding menutupi masalah demi menjaga citra project.",
   },
+  { type: "h2", text: "Hindari mengukur terlalu banyak hal sekaligus" },
+  {
+    type: "p",
+    text: "Ada godaan untuk memantau puluhan metrik sekaligus begitu sistem baru berjalan, tapi terlalu banyak ukuran justru membuat perhatian tim terpecah dan sulit menentukan mana yang benar-benar penting untuk ditindaklanjuti. Pilih segelintir metrik utama yang paling langsung terkait dengan tujuan awal project, pantau itu secara konsisten, dan tambahkan metrik lain hanya jika benar-benar dibutuhkan untuk menjawab pertanyaan spesifik yang muncul di kemudian hari. Fokus pada sedikit ukuran yang benar jauh lebih berguna dibanding banyak ukuran yang tidak pernah benar-benar ditinjau.",
+  },
+  { type: "h2", text: "Waspadai metrik yang bisa menyesatkan" },
+  {
+    type: "p",
+    text: "Tidak semua angka yang terlihat membaik benar-benar mencerminkan perbaikan yang sesungguhnya. Waktu tutup buku yang lebih singkat bisa jadi bukan karena proses yang lebih efisien, melainkan karena tim melewatkan langkah verifikasi tertentu demi mengejar kecepatan. Sebelum menyimpulkan sebuah metrik menunjukkan keberhasilan, periksa juga apakah kualitas hasil kerja di baliknya tetap terjaga, dan konfirmasi temuan kuantitatif dengan masukan langsung dari orang yang benar-benar menjalankan proses tersebut sehari-hari.",
+  },
+  { type: "h2", text: "Dokumentasikan hasil evaluasi secara formal" },
+  {
+    type: "p",
+    text: "Evaluasi yang hanya dibicarakan secara lisan di rapat mudah terlupakan dan sulit dijadikan rujukan di masa depan. Susun hasil evaluasi dalam dokumen ringkas yang mencantumkan kondisi awal, hasil yang dicapai, dan analisis singkat mengapa hasilnya seperti itu. Dokumentasi ini bukan hanya berguna untuk melaporkan kepada direksi, tapi juga menjadi rujukan berharga ketika perusahaan merencanakan project sistem berikutnya di masa depan, sehingga pelajaran yang didapat tidak hilang begitu saja seiring waktu.",
+  },
+  { type: "h3", text: "Apakah metrik keberhasilan harus sama untuk setiap modul ERP?" },
+  {
+    type: "p",
+    text: "Tidak. Setiap modul biasanya menyelesaikan masalah yang berbeda, sehingga ukuran keberhasilannya pun sebaiknya disesuaikan secara spesifik. Modul akuntansi mungkin diukur dari kecepatan tutup buku, sementara modul gudang lebih tepat diukur dari akurasi stok. Menyamaratakan metrik untuk semua modul justru bisa membuat evaluasi kehilangan makna karena tidak benar-benar relevan dengan masalah yang ingin diselesaikan modul tersebut.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -104,6 +104,38 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk klien dengan struktur sangat besar, pertimbangkan mencatat hierarki organisasi klien secara lebih detail di CRM, termasuk departemen mana yang terlibat dan bagaimana hubungan antar kontak tersebut, agar tim sales memiliki peta yang jelas saat menavigasi proses persetujuan yang kompleks.",
   },
+  { type: "h2", text: "Integrasi dengan alat komunikasi yang sudah dipakai tim" },
+  {
+    type: "p",
+    text: "Sales B2B menghabiskan sebagian besar waktunya di email dan kalender untuk mengatur pertemuan, mengirim penawaran, dan menindaklanjuti diskusi yang sedang berjalan. Jika CRM berdiri terpisah dari alat-alat ini, sales harus bolak-balik mencatat ulang secara manual apa yang sudah dikirim lewat email ke dalam sistem CRM — pekerjaan tambahan yang membosankan dan gampang terlewat di tengah kesibukan, sampai akhirnya catatan di CRM tertinggal jauh dari kenyataan yang sebenarnya terjadi.",
+  },
+  {
+    type: "p",
+    text: "CRM yang terhubung dengan email dan kalender secara otomatis mencatat korespondensi dan jadwal pertemuan ke dalam riwayat kontak yang relevan, tanpa sales perlu menyalin ulang secara manual. Ini bukan sekadar soal kenyamanan — data yang tercatat otomatis jauh lebih lengkap dan akurat dibanding data yang bergantung pada kedisiplinan sales mengingat untuk mencatatnya sendiri setiap kali selesai berkomunikasi dengan klien.",
+  },
+  { type: "h2", text: "Mengukur performa sales dengan data, bukan asumsi" },
+  {
+    type: "p",
+    text: "Tanpa data yang terstruktur, menilai performa sales cenderung bergantung pada kesan subjektif — siapa yang terlihat paling sibuk, atau siapa yang paling sering melaporkan progres secara lisan. Dengan riwayat pipeline yang tercatat rapi di CRM, manajer bisa melihat data yang lebih objektif: berapa lama rata-rata waktu yang dibutuhkan sales tertentu untuk memindahkan peluang dari satu tahap ke tahap berikutnya, di tahap mana peluang paling sering gagal berlanjut, dan pola apa yang membedakan sales dengan tingkat keberhasilan lebih tinggi dari yang lain.",
+  },
+  {
+    type: "p",
+    text: "Data semacam ini juga membantu coaching yang lebih tepat sasaran. Alih-alih memberikan arahan umum yang berlaku sama untuk semua orang, manajer bisa melihat secara spesifik di tahap mana seorang sales sering tersendat dan memberikan bimbingan yang relevan dengan tantangan yang benar-benar mereka hadapi, bukan sekadar dorongan semangat yang tidak menyasar akar masalahnya.",
+  },
+  { type: "h3", text: "Bagaimana menangani sales yang enggan mencatat aktivitas di CRM?" },
+  {
+    type: "p",
+    text: "Penolakan semacam ini sering muncul ketika CRM terasa seperti pekerjaan pencatatan tambahan tanpa manfaat langsung bagi sales itu sendiri. Integrasi otomatis dengan email dan kalender mengurangi beban pencatatan manual secara signifikan, dan menunjukkan manfaat nyata bagi sales sendiri — seperti pengingat follow-up yang tidak lagi terlewat, atau riwayat lengkap yang membantu saat harus mengambil alih akun rekan yang sedang cuti — biasanya jauh lebih efektif dibanding sekadar mewajibkan pencatatan tanpa penjelasan manfaatnya.",
+  },
+  { type: "h2", text: "Menjaga kualitas data kontak dari waktu ke waktu" },
+  {
+    type: "p",
+    text: "CRM yang dipakai bertahun-tahun cenderung terisi kontak duplikat, jabatan yang sudah tidak berlaku karena orangnya sudah pindah perusahaan, atau catatan perusahaan yang tercatat dua kali dengan penulisan nama yang sedikit berbeda. Data yang berantakan semacam ini membuat sales ragu terhadap keakuratan informasi yang mereka lihat, dan pada akhirnya kembali mengandalkan ingatan pribadi ketimbang mempercayai apa yang tertulis di sistem — persis masalah yang seharusnya diselesaikan oleh CRM sejak awal.",
+  },
+  {
+    type: "p",
+    text: "Tetapkan aturan sederhana untuk menjaga kebersihan data: siapa yang bertanggung jawab memperbarui informasi kontak setelah mengetahui perubahan, bagaimana menangani kontak yang ternyata sudah pindah kerja, dan jadwal rutin untuk meninjau ulang akun-akun yang sudah lama tidak ada aktivitas apa pun. Kebiasaan kecil semacam ini, jika dilakukan konsisten, jauh lebih efektif dibanding proyek besar membersihkan data sekaligus setahun sekali setelah semuanya sudah terlanjur kacau.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

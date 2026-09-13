@@ -104,6 +104,44 @@ export const body: Block[] = [
     type: "p",
     text: "Bisa, terutama jika sistem sejak awal dibangun dengan API yang terstruktur baik. Bagian data dan logika bisnis yang sudah ada bisa dipakai kembali, sehingga pengembangan aplikasi mobile di kemudian hari tidak perlu dimulai sepenuhnya dari nol.",
   },
+  { type: "h2", text: "Progressive Web App: jalan tengah yang sering terlewat" },
+  {
+    type: "p",
+    text: "Di antara aplikasi web biasa dan aplikasi mobile native, ada pendekatan yang disebut progressive web app — aplikasi web yang dibangun dengan teknik khusus sehingga bisa dipasang ke layar utama ponsel, berjalan dalam tampilan layar penuh tanpa bilah alamat browser, dan tetap menyimpan sebagian data untuk diakses meski koneksi sedang terputus sebentar. Pendekatan ini sering luput dari pertimbangan karena kurang dikenal, padahal untuk banyak kasus penggunaan bisa memberi pengalaman yang terasa seperti aplikasi native dengan biaya pengembangan yang jauh lebih dekat ke aplikasi web.",
+  },
+  {
+    type: "p",
+    text: "Batasannya tetap ada: akses ke fitur perangkat seperti notifikasi push dan sensor tertentu masih lebih terbatas dibanding aplikasi native, dan sebagian pengguna iPhone mengalami pengalaman yang sedikit berbeda dibanding pengguna Android karena dukungan teknologi ini tidak selalu identik di kedua platform. Namun untuk bisnis dengan anggaran terbatas yang tetap ingin pengalaman mirip aplikasi tanpa proses pengajuan ke toko aplikasi, opsi ini layak didiskusikan dengan tim pengembang sebelum memutuskan membangun aplikasi native penuh.",
+  },
+  { type: "h2", text: "Dampak proses toko aplikasi terhadap kecepatan rilis" },
+  {
+    type: "p",
+    text: "Salah satu perbedaan yang sering diremehkan antara aplikasi web dan mobile adalah kecepatan merilis perbaikan. Ketika ditemukan kesalahan kecil pada aplikasi web, perbaikan bisa langsung diterapkan ke server dan semua pengguna otomatis mendapat versi terbaru saat membuka browser mereka berikutnya. Aplikasi mobile native harus melewati proses peninjauan di toko aplikasi setiap kali ada pembaruan, yang bisa memakan waktu beberapa hari, dan pengguna masih harus mengunduh pembaruan itu secara manual — sebagian bahkan menunda memperbarui aplikasi mereka selama berbulan-bulan.",
+  },
+  {
+    type: "p",
+    text: "Bagi bisnis yang operasionalnya membutuhkan perbaikan cepat — misalnya menyesuaikan harga atau memperbaiki kesalahan penghitungan yang baru ditemukan — pertimbangan kecepatan rilis ini sama pentingnya dengan pertimbangan fitur saat memilih bentuk aplikasi yang tepat.",
+  },
+  { type: "h2", text: "Menyatukan data di balik dua bentuk aplikasi yang berbeda" },
+  {
+    type: "p",
+    text: "Ketika sebuah bisnis akhirnya membangun aplikasi web dan mobile sekaligus, tantangan terbesar bukan pada tampilan masing-masing, melainkan memastikan keduanya benar-benar mengambil data dari sumber yang sama. Jika aplikasi web dan mobile dibangun terpisah dengan basis data masing-masing, data bisa menjadi tidak sinkron — stok yang terlihat di aplikasi mobile mandor lapangan berbeda dengan yang tercatat di dashboard kantor, misalnya.",
+  },
+  {
+    type: "p",
+    text: "Merancang satu sistem inti dengan API yang melayani baik aplikasi web maupun mobile sejak awal mencegah masalah ini. Pendekatan ini juga membuat penambahan bentuk aplikasi baru di masa depan — misalnya aplikasi mobile tambahan untuk mitra eksternal — menjadi jauh lebih murah, karena logika bisnis inti dan datanya sudah tersedia dan tinggal dihubungkan.",
+  },
+  { type: "h2", text: "Pertanyaan yang sering muncul" },
+  { type: "h3", text: "Apakah progressive web app bisa menggantikan aplikasi mobile native sepenuhnya?" },
+  {
+    type: "p",
+    text: "Untuk sebagian besar kebutuhan bisnis internal, bisa. Namun jika aplikasi Anda ditujukan untuk pelanggan umum dan kehadiran di Play Store atau App Store penting untuk kepercayaan dan penemuan pengguna baru, aplikasi native tetap punya nilai tersendiri yang tidak sepenuhnya tergantikan.",
+  },
+  { type: "h3", text: "Apakah membangun aplikasi mobile untuk Android saja sudah cukup di Indonesia?" },
+  {
+    type: "p",
+    text: "Untuk aplikasi internal dengan pengguna yang perangkatnya bisa dipastikan atau bahkan disediakan perusahaan, membangun untuk Android saja bisa menjadi pilihan yang masuk akal untuk menghemat biaya. Untuk aplikasi yang ditujukan ke pelanggan umum, pertimbangkan proporsi pengguna iPhone di segmen pasar Anda sebelum memutuskan hanya membangun satu platform.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -121,6 +121,38 @@ export const body: Block[] = [
     type: "p",
     text: "Bisa, terutama jika sejak awal dibangun dengan platform dan struktur yang fleksibel untuk pengembangan. Diskusikan rencana pertumbuhan ini dengan vendor sejak awal agar keputusan teknis yang diambil tidak menyulitkan pengembangan di masa depan.",
   },
+  { type: "h2", text: "Kesalahan umum saat memilih di antara keduanya" },
+  {
+    type: "p",
+    text: "Kesalahan yang paling sering terjadi adalah membangun website lengkap dengan banyak halaman hanya karena terasa lebih “profesional”, padahal sebagian besar halaman tersebut akhirnya kosong atau berisi konten seadanya yang jarang diperbarui. Website dengan sepuluh halaman yang sembilan di antaranya jarang dibuka pengunjung justru bisa terkesan kurang meyakinkan dibanding satu landing page yang fokus dan dirawat dengan baik.",
+  },
+  {
+    type: "p",
+    text: "Kesalahan sebaliknya juga sama merugikannya: memaksakan semua penawaran ke dalam satu landing page tunggal ketika sebenarnya bisnis sudah punya beberapa layanan berbeda dengan target audiens yang berbeda pula. Pengunjung yang datang mencari satu layanan spesifik tapi harus menggulir melewati penjelasan panjang tentang layanan lain yang tidak relevan baginya cenderung kehilangan minat sebelum sampai ke bagian yang sebenarnya ia cari.",
+  },
+  { type: "h2", text: "Peran SEO dalam masing-masing pilihan" },
+  {
+    type: "p",
+    text: "Landing page tunggal secara alami hanya bisa menargetkan sejumlah kecil kata kunci pencarian yang berkaitan langsung dengan satu penawaran utamanya. Ini bukan masalah jika sumber trafik utama memang berasal dari iklan berbayar atau tautan langsung, tapi menjadi keterbatasan nyata jika tujuannya adalah ditemukan secara organik oleh banyak calon pelanggan dengan kebutuhan pencarian yang beragam.",
+  },
+  {
+    type: "p",
+    text: "Website lengkap dengan halaman-halaman yang masing-masing membahas topik spesifik secara mendalam memiliki peluang jauh lebih besar untuk muncul di hasil pencarian untuk berbagai kata kunci berbeda. Setiap halaman layanan atau artikel blog pada dasarnya menjadi pintu masuk tersendiri bagi calon pelanggan yang mencari topik tertentu, sesuatu yang tidak bisa ditandingi oleh satu landing page tunggal betapapun baiknya halaman itu dirancang.",
+  },
+  { type: "h3", text: "Apakah landing page bisa dioptimalkan untuk SEO juga?" },
+  {
+    type: "p",
+    text: "Bisa, dan tetap perlu diperhatikan dasar-dasar SEO seperti judul halaman yang jelas dan struktur konten yang rapi. Namun jangkauannya tetap terbatas dibanding website lengkap, karena satu halaman secara alami hanya bisa mewakili satu topik utama dengan baik, sementara pencarian pengguna di internet sangat beragam variasi kata kuncinya.",
+  },
+  { type: "h2", text: "Siapa yang bertanggung jawab merawat setelah selesai dibangun" },
+  {
+    type: "p",
+    text: "Baik landing page maupun website lengkap sama-sama membutuhkan seseorang yang bertanggung jawab merawatnya setelah selesai dibangun — memperbarui informasi yang sudah usang, menambahkan konten baru, atau memastikan tautan dan formulir masih berfungsi dengan baik. Website lengkap dengan lebih banyak halaman jelas membutuhkan komitmen perawatan yang lebih besar dibanding satu landing page tunggal yang relatif lebih mudah dipantau sendirian.",
+  },
+  {
+    type: "p",
+    text: "Sebelum memutuskan membangun website lengkap, pertimbangkan dengan jujur apakah memang ada orang atau tim yang bisa konsisten meluangkan waktu untuk merawatnya ke depan. Website lengkap yang dibangun megah di awal tapi tidak pernah diperbarui setelahnya justru bisa memberi kesan sebaliknya dari yang diharapkan — terkesan ditinggalkan, bukan terkesan profesional dan terpercaya seperti tujuan awal dibangunnya.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

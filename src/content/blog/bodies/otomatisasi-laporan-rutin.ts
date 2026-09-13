@@ -84,6 +84,29 @@ export const body: Block[] = [
     type: "p",
     text: "Kebutuhan bisnis akan terus berubah, dan laporan yang sudah diotomatiskan perlu tetap fleksibel untuk disesuaikan ketika ada metrik baru yang dibutuhkan atau metrik lama yang sudah tidak relevan lagi. Rancang sistem otomatisasi dengan mempertimbangkan kemudahan penyesuaian di masa depan, bukan sistem yang kaku dan sulit diubah begitu sudah berjalan.",
   },
+  { type: "h2", text: "Akses dan kerahasiaan laporan otomatis" },
+  {
+    type: "p",
+    text: "Laporan yang tadinya disusun manual biasanya melewati satu orang yang secara alami menjadi penyaring — ia tahu laporan ini hanya untuk manajemen, bukan untuk disebar ke grup yang lebih luas. Ketika proses dibuat otomatis dan terjadwal, penyaring manual ini hilang, sehingga daftar penerima dan hak akses terhadap laporan perlu ditetapkan secara eksplisit di dalam sistem, bukan mengandalkan kehati-hatian seseorang seperti sebelumnya.",
+  },
+  {
+    type: "p",
+    text: "Tinjau juga siapa saja yang berwenang mengubah pengaturan otomatisasi itu sendiri — daftar penerima, jadwal pengiriman, atau metrik yang ditampilkan. Tanpa batasan yang jelas, perubahan kecil yang dilakukan sembarangan bisa membuat laporan sensitif tanpa sengaja terkirim ke pihak yang seharusnya tidak menerimanya.",
+  },
+  { type: "h2", text: "Melatih tim membaca laporan otomatis" },
+  {
+    type: "p",
+    text: "Otomatisasi laporan kadang mengubah format tampilan dari yang biasa dilihat tim secara manual di spreadsheet. Luangkan waktu untuk menjelaskan kepada penerima laporan bagaimana membaca format baru ini, terutama jika ada perubahan pada cara metrik dikelompokkan atau ditampilkan dibanding format lama yang sudah mereka kenal bertahun-tahun.",
+  },
+  {
+    type: "p",
+    text: "Tanpa penjelasan ini, sebagian penerima mungkin salah menafsirkan angka pada laporan baru, atau justru mengabaikannya sama sekali karena terasa asing dibanding kebiasaan lama, meski isinya sebenarnya lebih akurat dan lebih cepat tersedia dibanding proses manual sebelumnya.",
+  },
+  { type: "h3", text: "Apakah laporan otomatis bisa disesuaikan tampilannya untuk penerima yang berbeda?" },
+  {
+    type: "p",
+    text: "Bisa, tergantung kemampuan sistem yang dipakai. Manajemen puncak mungkin hanya perlu ringkasan tingkat tinggi, sementara kepala toko membutuhkan rincian lebih detail untuk tokonya sendiri. Merancang beberapa versi tampilan dari satu sumber data yang sama lebih efisien dibanding membuat laporan terpisah sepenuhnya untuk setiap kelompok penerima.",
+  },
   { type: "h2", text: "Langkah memulai otomatisasi laporan" },
   {
     type: "ol",

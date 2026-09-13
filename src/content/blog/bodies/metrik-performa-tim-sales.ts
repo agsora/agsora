@@ -111,6 +111,34 @@ export const body: Block[] = [
     type: "p",
     text: "Framing sangat menentukan penerimaan tim. Sampaikan metrik ini sebagai alat untuk membantu mereka mencapai target lebih mudah dan mengidentifikasi di mana bantuan dibutuhkan, bukan sebagai alat pengawasan semata. Libatkan sales dalam mendiskusikan metrik apa yang menurut mereka relevan.",
   },
+  { type: "h2", text: "Metrik untuk kualitas prospek, bukan hanya jumlahnya" },
+  {
+    type: "p",
+    text: "Jumlah peluang baru yang banyak tidak selalu berarti baik jika sebagian besar berasal dari prospek yang sebenarnya tidak sesuai profil pelanggan ideal. Perhatikan juga tingkat konversi dari peluang baru menuju transaksi yang benar-benar ditutup — jika angka ini rendah meski jumlah peluang tinggi, kemungkinan sumber prospek yang dipakai tim perlu ditinjau ulang, bukan sekadar mendorong tim untuk mencari lebih banyak lagi peluang dari sumber yang sama.",
+  },
+  {
+    type: "p",
+    text: "Sebagian tim juga memantau dari mana asal peluang yang paling sering berujung pada transaksi — apakah dari referensi pelanggan lama, dari pameran, atau dari pencarian aktif sales sendiri. Informasi ini membantu mengarahkan waktu dan sumber daya tim ke saluran yang selama ini paling efektif, alih-alih membagi rata usaha ke semua saluran tanpa mempertimbangkan mana yang sebenarnya menghasilkan.",
+  },
+  { type: "h2", text: "Alasan kalah yang tercatat dengan jujur" },
+  {
+    type: "p",
+    text: "Ketika sebuah peluang gagal ditutup, mencatat alasannya secara spesifik — kalah harga, kalah fitur, prospek menunda keputusan, atau prospek memilih tidak melakukan apa pun — memberi wawasan yang jauh lebih berguna dibanding sekadar menandai peluang tersebut sebagai “hilang” tanpa penjelasan. Pola alasan kalah yang berulang bisa menunjukkan masalah yang lebih besar, misalnya penawaran yang secara konsisten kalah bersaing di segmen harga tertentu.",
+  },
+  {
+    type: "p",
+    text: "Data alasan kalah ini paling berguna ketika dicatat sesegera mungkin setelah keputusan diketahui, saat detailnya masih segar di ingatan sales. Mencatatnya belakangan, apalagi di akhir bulan sekaligus untuk semua peluang yang hilang, cenderung menghasilkan alasan yang digeneralisasi dan kurang akurat.",
+  },
+  { type: "h2", text: "Menghindari metrik yang saling bertentangan" },
+  {
+    type: "p",
+    text: "Kadang metrik yang ditetapkan tanpa dipikirkan matang justru saling bertentangan satu sama lain. Mengejar jumlah transaksi sebanyak-banyaknya bisa mendorong sales menerima diskon berlebihan yang akhirnya menggerus margin, sementara mengejar margin setinggi mungkin bisa membuat sales terlalu kaku bernegosiasi hingga kehilangan transaksi yang sebenarnya masih menguntungkan. Tinjau apakah kombinasi metrik yang dipakai justru menciptakan insentif yang saling berlawanan sebelum menerapkannya secara luas ke seluruh tim.",
+  },
+  { type: "h3", text: "Berapa banyak metrik yang idealnya dipantau sekaligus?" },
+  {
+    type: "p",
+    text: "Terlalu banyak metrik sekaligus justru membuat tim bingung mana yang harus diprioritaskan. Sebagian besar tim sudah cukup terbantu dengan memantau sekitar empat sampai enam metrik inti yang benar-benar relevan dengan siklus penjualan mereka, dibanding mencoba melacak puluhan angka yang sebagian besar tidak pernah benar-benar ditindaklanjuti.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
