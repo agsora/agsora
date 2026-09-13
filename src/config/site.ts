@@ -10,11 +10,11 @@ export const siteConfig = {
   email: "hello@agsora.tech",
   whatsapp: {
     display: "WhatsApp",
-    // NOTE: replace with the real business number when available.
-    href: "https://wa.me/6280000000000",
+    href: "https://wa.me/6282318681524",
   },
   social: {
     instagram: "https://instagram.com/agsora.tech",
+    facebook: "https://facebook.com/agsora.tech",
     linkedin: "https://linkedin.com/company/agsora",
     tiktok: "https://tiktok.com/@agsora.tech",
   },

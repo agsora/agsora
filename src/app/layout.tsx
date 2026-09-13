@@ -55,9 +55,8 @@ export const viewport: Viewport = {
   themeColor: "#08090d",
 };
 
-// `sameAs` is intentionally absent: it asserts that the listed profiles belong
-// to this organisation, and the social URLs in siteConfig are unverified
-// placeholders. Add it back once the real profile URLs exist.
+// LinkedIn is excluded: unlike Instagram/Facebook/TikTok it hasn't been
+// confirmed as a live, active profile for this business.
 const organizationSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -70,6 +69,11 @@ const organizationSchema = {
       logo: `${siteConfig.url}/apple-icon`,
       description: siteConfig.description,
       email: siteConfig.email,
+      sameAs: [
+        siteConfig.social.instagram,
+        siteConfig.social.facebook,
+        siteConfig.social.tiktok,
+      ],
       areaServed: { "@type": "Country", name: "Indonesia" },
       knowsAbout: [
         "Custom Software Development",

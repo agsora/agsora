@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { InstagramIcon, LinkedinIcon } from "@/components/social-icons";
+import { InstagramIcon, FacebookIcon, TiktokIcon } from "@/components/social-icons";
 import { footerNav, siteConfig } from "@/config/site";
 import { RibbonLogo } from "@/components/ribbon-logo";
 
@@ -57,13 +57,22 @@ export function Footer() {
                 <InstagramIcon className="h-3.5 w-3.5" />
               </a>
               <a
-                href={siteConfig.social.linkedin}
+                href={siteConfig.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn AGSORA"
+                aria-label="Facebook AGSORA"
                 className="focus-ring flex h-8 w-8 items-center justify-center rounded-md border border-line text-ink-muted transition-colors hover:border-line-strong hover:text-ink"
               >
-                <LinkedinIcon className="h-3.5 w-3.5" />
+                <FacebookIcon className="h-3.5 w-3.5" />
+              </a>
+              <a
+                href={siteConfig.social.tiktok}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok AGSORA"
+                className="focus-ring flex h-8 w-8 items-center justify-center rounded-md border border-line text-ink-muted transition-colors hover:border-line-strong hover:text-ink"
+              >
+                <TiktokIcon className="h-3.5 w-3.5" />
               </a>
             </div>
           </div>
