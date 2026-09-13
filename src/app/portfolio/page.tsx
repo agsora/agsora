@@ -1,27 +1,21 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { PageHero } from "@/components/sections/page-hero";
+import { ClientLogos } from "@/components/sections/client-logos";
 import { Container } from "@/components/ui/container";
-import { Section } from "@/components/ui/section";
+import { Section, SectionHeading } from "@/components/ui/section";
 import { ContactCta } from "@/components/sections/contact-cta";
 import { Reveal } from "@/components/motion/reveal";
-import { FolderKanban, Cog, Layers, Rocket, TrendingUp } from "lucide-react";
+import { portfolioProjects } from "@/config/portfolio";
 
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Portfolio & Case Study",
+  title: "Portfolio & Capability Showcase",
   description:
-    "Case study AG·SORA sedang disiapkan: konteks masalah, pendekatan solusi, teknologi, dan hasil implementasi yang terverifikasi.",
+    "Contoh implementasi ERP, landing page, dan e-commerce yang dikerjakan tim AG·SORA, plus daftar klien yang pernah kami bantu.",
   path: "/portfolio",
 });
-
-const frameworkSteps = [
-  { icon: FolderKanban, title: "Problem", description: "Tantangan bisnis yang dihadapi klien." },
-  { icon: Cog, title: "Solution", description: "Pendekatan dan arsitektur sistem yang dirancang." },
-  { icon: Layers, title: "Technology", description: "Stack teknologi yang digunakan dalam implementasi." },
-  { icon: Rocket, title: "Implementation", description: "Proses build, deploy, dan adopsi oleh tim klien." },
-  { icon: TrendingUp, title: "Outcome", description: "Dampak dan efisiensi yang dihasilkan." },
-];
 
 export default function PortfolioPage() {
   return (
@@ -29,38 +23,110 @@ export default function PortfolioPage() {
       <PageHero
         breadcrumb={{ name: "Portfolio", href: "/portfolio" }}
         eyebrow="Portfolio"
-        title="Case Study Coming Soon"
-        description="Kami sedang menyiapkan dokumentasi project AG·SORA secara transparan — lengkap dengan konteks masalah, pendekatan solusi, dan hasil nyata. Setiap case study akan mengikuti kerangka berikut."
+        title="Contoh kerja dan kapasitas tim kami"
+        description="Bagian ini menampilkan capability showcase — implementasi yang dikerjakan tim internal untuk mendemonstrasikan pendekatan dan kualitas build, bukan case study klien dengan metrik bisnis terverifikasi. Case study klien dengan hasil terukur akan tayang setelah data dan persetujuan tersedia."
       />
 
-      <Section>
+      <Section className="pt-0">
+        <ClientLogos />
+      </Section>
+
+      <Section className="border-t border-line pt-16">
         <Container className="max-w-6xl">
-          <div className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-5">
-            {frameworkSteps.map((s, i) => (
-              <Reveal key={s.title} delay={i * 0.06}>
-                <div className="h-full border-b border-r border-line p-6">
-                  <s.icon className="h-[18px] w-[18px] text-ink-subtle" />
-                  <h3 className="mt-5 text-[14px] font-medium text-ink">
-                    {s.title}
+          <SectionHeading
+            eyebrow="Capability Showcase"
+            title="Implementasi yang pernah kami bangun"
+          />
+
+          <div className="mt-14 space-y-20">
+            {portfolioProjects.map((project, i) => (
+              <Reveal key={project.slug} delay={i * 0.05}>
+                <article className="border-t border-line pt-10">
+                  <div className="flex flex-wrap items-center gap-3">
+                    <span className="text-[11px] uppercase tracking-[0.18em] text-accent">
+                      {project.category}
+                    </span>
+                    {project.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="rounded-md border border-line bg-surface-1 px-2 py-1 text-[11px] text-ink-subtle"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <h3 className="headline mt-4 text-[22px] font-semibold text-ink sm:text-[26px]">
+                    {project.title}
                   </h3>
-                  <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
-                    {s.description}
+                  <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-ink-muted">
+                    {project.tagline}
                   </p>
-                </div>
+
+                  <div className="mt-8 grid gap-8 lg:grid-cols-2">
+                    <div>
+                      <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
+                        Problem
+                      </p>
+                      <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
+                        {project.problem}
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
+                        Solution
+                      </p>
+                      <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
+                        {project.solution}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="mt-8">
+                    <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
+                      Fitur utama
+                    </p>
+                    <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
+                      {project.features.map((feature) => (
+                        <li
+                          key={feature}
+                          className="flex items-start gap-2.5 text-[13px] leading-relaxed text-ink-muted"
+                        >
+                          <span className="mt-[7px] h-1 w-1 shrink-0 rounded-full bg-accent" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <p className="mt-6 text-[12px] text-ink-subtle">
+                    Tech stack: {project.tech}
+                  </p>
+
+                  <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    {project.images.map((img) => (
+                      <figure
+                        key={img.src}
+                        className="overflow-hidden rounded-lg border border-line bg-surface-1"
+                      >
+                        <div className="relative aspect-[16/10]">
+                          <Image
+                            src={img.src}
+                            alt={img.caption}
+                            fill
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                            className="object-cover object-top"
+                          />
+                        </div>
+                        <figcaption className="border-t border-line px-3 py-2 text-[11px] leading-relaxed text-ink-subtle">
+                          {img.caption}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                </article>
               </Reveal>
             ))}
           </div>
-
-          <Reveal delay={0.2}>
-            <div className="mt-10 rounded-lg border border-dashed border-line bg-surface-1 p-10 text-center">
-              <p className="mx-auto max-w-xl text-[13px] leading-relaxed text-ink-muted">
-                Belum ada case study yang dapat dipublikasikan saat ini. Kami
-                tidak menampilkan klien, testimoni, atau hasil fiktif — setiap
-                case study akan tayang setelah data dan persetujuan klien
-                tersedia.
-              </p>
-            </div>
-          </Reveal>
         </Container>
       </Section>
 

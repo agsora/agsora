@@ -1,4 +1,5 @@
 import { Hero } from "@/components/sections/hero";
+import { ClientLogos } from "@/components/sections/client-logos";
 import { PathChooser } from "@/components/sections/path-chooser";
 import { ServicesGrid } from "@/components/sections/services-grid";
 import { ProductSwitcher } from "@/components/sections/product-switcher";
@@ -34,6 +35,9 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Section className="pt-0">
+        <ClientLogos />
+      </Section>
       <PathChooser />
       <Section>
         <ServicesGrid compact />
