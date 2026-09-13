@@ -143,16 +143,34 @@ export const commitments: Commitment[] = [
 export type Faq = {
   question: string;
   answer: string;
+  /** Also shown on the homepage — the doubts that most often stop a prospect. */
+  featured?: boolean;
 };
+
+/**
+ * Low-risk assurances shown directly under the homepage hero, in the slot
+ * where sites usually put a client-logo bar. AG·SORA has no client logos to
+ * show, so this uses things a prospect can verify or hold AG·SORA to instead.
+ * Each one is already stated elsewhere on the site — keep them in sync with
+ * `commitments` and the pricing page.
+ */
+export const assurances: string[] = [
+  "Konsultasi gratis",
+  "Harga dipublikasikan",
+  "Ruang lingkup tertulis",
+  "Dokumentasi & pelatihan",
+];
 
 export const faqs: Faq[] = [
   {
     question: "Berapa lama waktu pengerjaan sebuah project?",
+    featured: true,
     answer:
       "Bergantung pada ruang lingkupnya. Yang paling memengaruhi timeline adalah jumlah modul, kompleksitas alur approval, banyaknya integrasi ke sistem lain, dan kesiapan data yang akan dimigrasi. Estimasi timeline yang spesifik kami sampaikan dalam proposal setelah kebutuhan dipetakan.",
   },
   {
     question: "Apakah source code menjadi milik kami?",
+    featured: true,
     answer:
       "Untuk project custom development, skema kepemilikan source code mengikuti kesepakatan tertulis di kontrak masing-masing project. Untuk produk SaaS AG·SORA, source code tetap milik AG·SORA dan Anda memperoleh hak penggunaan sesuai paket langganan.",
   },
@@ -168,21 +186,25 @@ export const faqs: Faq[] = [
   },
   {
     question: "Lebih baik pakai produk SaaS atau custom development?",
+    featured: true,
     answer:
       "Jika proses bisnis Anda relatif standar dan ingin segera berjalan, produk SaaS AG·SORA lebih cepat dan lebih ringan biayanya. Custom development lebih tepat ketika alur kerja Anda spesifik, butuh integrasi khusus, atau sistem harus mengikuti aturan internal yang tidak umum.",
   },
   {
     question: "Apakah ada biaya setelah sistem selesai?",
+    featured: true,
     answer:
       "Sistem yang sudah berjalan tetap membutuhkan pemeliharaan. Paket maintenance mulai dari Rp750.000 per bulan, mencakup perbaikan bug dan dukungan teknis. Biaya pihak ketiga seperti domain, hosting, atau lisensi API berada di luar itu kecuali dinyatakan lain.",
   },
   {
     question: "Apakah AG·SORA menangani bisnis kecil?",
+    featured: true,
     answer:
       "Ya. Kebutuhan sederhana bisa dimulai dari ruang lingkup kecil — landing page atau sistem kasir — lalu dikembangkan bertahap. Kami tidak mengharuskan sebuah project dimulai dari paket besar.",
   },
   {
     question: "Bagaimana proses memulai kerja sama?",
+    featured: true,
     answer:
       "Dimulai dari sesi konsultasi gratis untuk memahami kebutuhan dan kendala Anda. Setelah itu kami menyusun proposal berisi ruang lingkup, estimasi timeline, dan biaya. Pengerjaan baru dimulai setelah proposal disepakati.",
   },

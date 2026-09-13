@@ -13,10 +13,10 @@ export function HowWeWork() {
         title="Proses kerja yang jelas, dari ide hingga sistem berjalan"
       />
 
-      <div className="relative mt-14">
+      <div className="relative mt-10 sm:mt-14">
         <div className="absolute left-0 right-0 top-[5px] hidden h-px bg-line md:block" />
 
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-5 md:gap-6">
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-5 md:gap-6">
           {processSteps.map((step, i) => (
             <motion.div
               key={step.step}

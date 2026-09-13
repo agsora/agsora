@@ -108,6 +108,23 @@ body {
   animation: fadeIn 0.25s ease-out;
 }
 
+@keyframes flowDown {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    top: calc(100% - 6px);
+    opacity: 0;
+  }
+}
+
 .focus-ring {
   outline: none;
 }

@@ -3,6 +3,7 @@ import { PageHero } from "@/components/sections/page-hero";
 import { Section } from "@/components/ui/section";
 import { ProductEcosystem } from "@/components/sections/product-ecosystem";
 import { ContactCta } from "@/components/sections/contact-cta";
+import { SystemIntegration } from "@/components/sections/system-integration";
 import { products } from "@/config/products";
 import { siteConfig } from "@/config/site";
 
@@ -46,6 +47,9 @@ export default function ProductsPage() {
       />
       <Section>
         <ProductEcosystem />
+      </Section>
+      <Section className="border-t border-line">
+        <SystemIntegration />
       </Section>
       <Section className="pt-0">
         <ContactCta />

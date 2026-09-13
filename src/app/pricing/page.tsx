@@ -59,7 +59,7 @@ export default function PricingPage() {
         </Container>
       </Section>
 
-      <Section className="border-t border-line pt-0">
+      <Section id="faq" className="scroll-mt-16 border-t border-line pt-0">
         <div className="pt-20 md:pt-28">
           <Faq />
         </div>

@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -11,7 +10,7 @@ const ease = [0.22, 1, 0.36, 1] as const;
 
 export function Hero() {
   return (
-    <section className="glow-top relative overflow-hidden border-b border-line pb-20 pt-20 md:pb-28 md:pt-28">
+    <section className="glow-top relative overflow-hidden border-b border-line pb-16 pt-14 md:pb-24 md:pt-20">
       <Container className="max-w-6xl">
         <div className="grid items-center gap-16 lg:grid-cols-[1fr_0.9fr] lg:gap-12">
           <div>
@@ -38,7 +37,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1, ease }}
-              className="mt-9 flex flex-col gap-2.5 sm:flex-row"
+              className="mt-8 flex flex-col gap-2.5 sm:flex-row"
             >
               <Button
                 href="/contact"
@@ -51,26 +50,6 @@ export function Hero() {
                 Lihat Solusi
               </Button>
             </motion.div>
-
-            <div className="mt-14 border-t border-line pt-6">
-              <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
-                Dua lini layanan
-              </p>
-              <div className="mt-3 flex flex-wrap gap-x-8 gap-y-2 text-[13px]">
-                <Link
-                  href="/services"
-                  className="focus-ring text-ink-muted transition-colors hover:text-ink"
-                >
-                  Custom Development
-                </Link>
-                <Link
-                  href="/products"
-                  className="focus-ring text-ink-muted transition-colors hover:text-ink"
-                >
-                  Proprietary SaaS Products
-                </Link>
-              </div>
-            </div>
           </div>
 
           <motion.div

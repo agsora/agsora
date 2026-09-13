@@ -40,7 +40,50 @@ export function SystemIntegration() {
         description="Setiap modul AG·SORA berbicara dengan modul lain — dan dengan layanan pihak ketiga yang sudah Anda pakai."
       />
 
-      <div className="mt-14 overflow-hidden rounded-lg border border-line bg-surface-1">
+      {/* Below lg the 900-wide viewBox scales labels down to ~4px, so smaller
+          screens get the readable stacked version underneath instead. */}
+      <div className="mt-10 rounded-lg border border-line bg-surface-1 p-5 lg:hidden">
+        <div className="grid grid-cols-3 gap-2">
+          {nodes.map((n) => (
+            <div
+              key={n.label}
+              className="rounded-md border border-line-strong bg-surface-2 px-2 py-2 text-center text-[12px] text-ink"
+            >
+              {n.label}
+            </div>
+          ))}
+        </div>
+
+        <div className="relative mx-auto h-8 w-px bg-accent/40">
+          {!reduced ? (
+            <span className="absolute left-1/2 top-0 h-1.5 w-1.5 -translate-x-1/2 animate-[flowDown_1.8s_ease-in-out_infinite] rounded-full bg-[#35d6ec]" />
+          ) : null}
+        </div>
+
+        <div className="rounded-md border border-accent/45 bg-surface-2 px-4 py-3 text-center">
+          <p className="text-[14px] font-semibold text-ink">AG·SORA Core</p>
+          <p className="mt-0.5 text-[11px] text-ink-subtle">API &amp; Data Layer</p>
+        </div>
+
+        <div className="relative mx-auto h-8 w-px bg-accent/40">
+          {!reduced ? (
+            <span className="absolute left-1/2 top-0 h-1.5 w-1.5 -translate-x-1/2 animate-[flowDown_1.8s_ease-in-out_0.9s_infinite] rounded-full bg-[#35d6ec]" />
+          ) : null}
+        </div>
+
+        <div className="grid grid-cols-2 gap-2">
+          {externals.map((n) => (
+            <div
+              key={n.label}
+              className="rounded-md border border-dashed border-line px-2 py-2 text-center text-[12px] text-ink-subtle"
+            >
+              {n.label}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-14 hidden overflow-hidden rounded-lg border border-line bg-surface-1 lg:block">
         <svg
           viewBox={`0 0 ${W} ${H}`}
           className="h-auto w-full"
