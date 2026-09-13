@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import type { Block } from "@/config/blog";
 import { RelatedServices } from "@/components/sections/related-services";
 
@@ -78,6 +80,27 @@ export function PostBody({
                 <p className="mt-2 text-[14px] leading-relaxed text-ink-muted">
                   {block.text}
                 </p>
+              </div>
+            );
+          case "cta":
+            return (
+              <div
+                key={i}
+                className="glow-top relative mt-12 overflow-hidden rounded-lg border border-line-strong bg-surface-1 p-6 sm:p-7"
+              >
+                <p className="relative text-[17px] font-semibold leading-snug text-ink">
+                  {block.title}
+                </p>
+                <p className="relative mt-2.5 text-[14px] leading-relaxed text-ink-muted">
+                  {block.text}
+                </p>
+                <Link
+                  href={block.href}
+                  className="focus-ring relative mt-5 inline-flex items-center gap-2 rounded-md bg-ink px-4 py-2.5 text-[14px] font-medium text-surface-0 transition-colors hover:bg-white"
+                >
+                  {block.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
               </div>
             );
         }

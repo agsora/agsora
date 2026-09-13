@@ -1,0 +1,128 @@
+import type { Block } from "@/config/blog";
+
+export const body: Block[] = [
+  {
+    type: "p",
+    text: "Kepala produksi ditanya berapa biaya sebenarnya untuk memproduksi satu batch produk andalan mereka. Ia menjawab dengan angka perkiraan yang sudah dipakai bertahun-tahun, tanpa benar-benar tahu apakah bahan yang terbuang, waktu mesin yang menganggur, atau produk cacat sudah diperhitungkan di dalamnya. Ternyata setelah dihitung ulang secara detail, margin produk andalan itu jauh lebih tipis dari yang selama ini diyakini semua orang.",
+  },
+  {
+    type: "p",
+    text: "Pabrik skala menengah biasanya sudah melewati tahap ketika semua bisa diatur lewat catatan manual dan ingatan kepala produksi, tetapi belum membutuhkan sistem sebesar yang dipakai perusahaan multinasional dengan ribuan karyawan. Di titik pertumbuhan ini, pilihan sistem produksi yang tepat sangat menentukan kelancaran operasional dan akurasi perhitungan biaya ke depannya.",
+  },
+  { type: "h2", text: "Ringkasan" },
+  {
+    type: "ul",
+    items: [
+      "Daftar bahan (bill of materials) yang akurat adalah fondasi seluruh sistem produksi",
+      "Perencanaan kebutuhan bahan mencegah produksi berhenti karena bahan habis mendadak",
+      "Catat sisa bahan dan produk cacat untuk mengetahui biaya produksi yang sebenarnya",
+      "Kontrol kualitas di titik pemeriksaan tertentu membantu menemukan masalah lebih awal",
+      "Mulai dari data master yang rapi sebelum membangun modul yang lebih kompleks",
+    ],
+  },
+  { type: "h2", text: "Tantangan khas pabrik skala menengah" },
+  {
+    type: "p",
+    text: "Berbeda dengan pabrik kecil yang segalanya masih bisa diawasi langsung oleh pemiliknya, pabrik skala menengah sudah memiliki cukup banyak karyawan dan volume produksi sehingga pengawasan langsung tidak lagi memungkinkan. Namun mereka juga belum memiliki sumber daya untuk sistem enterprise yang sangat kompleks dan mahal seperti perusahaan besar. Kebutuhan mereka adalah sistem yang cukup kuat untuk menangani kompleksitas produksi, tapi tetap bisa diterapkan dan dikelola dengan sumber daya yang terbatas.",
+  },
+  { type: "h2", text: "Daftar bahan (bill of materials)" },
+  {
+    type: "p",
+    text: "Fondasi paling mendasar dari sistem produksi adalah daftar bahan: komponen dan bahan baku apa saja, dan berapa jumlah masing-masing, yang dibutuhkan untuk menghasilkan satu unit produk jadi. Tanpa daftar bahan yang akurat dan selalu diperbarui, perhitungan kebutuhan bahan untuk produksi mendatang, biaya produksi aktual, dan level stok yang diperlukan akan selalu meleset dari kenyataan.",
+  },
+  { type: "h2", text: "Perencanaan kebutuhan bahan" },
+  {
+    type: "p",
+    text: "Berdasarkan pesanan yang masuk dan rencana produksi ke depan, sistem yang baik dapat menghitung secara otomatis bahan apa saja yang dibutuhkan, membandingkannya dengan stok yang tersedia saat ini, dan menunjukkan dengan jelas apa yang perlu dibeli serta kapan waktu yang tepat untuk memesannya. Ini mencegah produksi berhenti mendadak karena bahan tertentu habis tanpa peringatan, sekaligus mengurangi risiko stok bahan yang menumpuk berlebihan dan mengikat modal kerja secara tidak perlu.",
+  },
+  { type: "h2", text: "Perintah kerja dan pelacakan produksi" },
+  {
+    type: "ul",
+    items: [
+      "Perintah kerja yang jelas menjelaskan produk apa, berapa jumlahnya, dan target waktu penyelesaian",
+      "Pengambilan bahan baku dari gudang yang tercatat secara spesifik per perintah kerja",
+      "Status produksi yang terlihat jelas di setiap tahapan prosesnya",
+      "Hasil produksi, termasuk jumlah produk cacat dan sisa bahan yang tidak terpakai",
+    ],
+  },
+  {
+    type: "callout",
+    title: "Catat sisa bahan dan produk cacat dengan teliti",
+    text: "Produk cacat dan bahan yang terbuang selama proses produksi sering kali tidak tercatat dengan baik karena dianggap terlalu kecil untuk diperhatikan secara khusus. Padahal tanpa catatan yang akurat ini, biaya produksi yang sebenarnya tidak akan pernah benar-benar terlihat, dan masalah kualitas yang berulang-ulang akan sangat sulit ditemukan akar penyebabnya.",
+  },
+  { type: "h2", text: "Biaya produksi yang realistis" },
+  {
+    type: "p",
+    text: "Dengan data pemakaian bahan, waktu kerja karyawan, dan biaya tidak langsung yang tercatat secara konsisten, perusahaan bisa menghitung biaya produksi per unit dengan jauh lebih akurat dibanding sekadar estimasi kasar yang diwariskan turun-temurun. Informasi ini sangat penting untuk menetapkan harga jual yang tepat dan menilai produk mana yang sebenarnya paling menguntungkan bagi bisnis — yang kadang berbeda jauh dari asumsi yang selama ini dipegang.",
+  },
+  { type: "h2", text: "Kontrol kualitas di titik yang tepat" },
+  {
+    type: "p",
+    text: "Menetapkan titik pemeriksaan kualitas pada tahapan tertentu selama proses produksi, dengan hasil pemeriksaan yang tercatat secara sistematis, membantu menemukan masalah kualitas lebih awal — sebelum produk cacat tersebut sampai ke tangan pelanggan dan merusak reputasi bisnis. Riwayat pemeriksaan kualitas ini juga sangat membantu menelusuri penyebab akar masalah ketika keluhan pelanggan mulai muncul di kemudian hari.",
+  },
+  { type: "h2", text: "Ilustrasi: menemukan margin yang sebenarnya" },
+  {
+    type: "p",
+    text: "Bayangkan sebuah pabrik pengolahan makanan yang memproduksi beberapa varian produk. Selama bertahun-tahun, mereka menetapkan harga jual berdasarkan perkiraan biaya bahan baku saja, tanpa memperhitungkan bahan yang terbuang selama proses atau produk yang gagal memenuhi standar kualitas. Setelah menerapkan sistem yang mencatat pemakaian bahan aktual dan produk cacat secara detail, mereka menemukan bahwa satu varian produk yang selama ini dianggap paling menguntungkan ternyata memiliki tingkat pemborosan bahan yang jauh lebih tinggi dari varian lainnya.",
+  },
+  {
+    type: "p",
+    text: "Temuan ini mendorong mereka untuk meninjau ulang proses produksi varian tersebut, menemukan bahwa mesin tertentu perlu dikalibrasi ulang, dan setelah diperbaiki, tingkat pemborosan bahan turun signifikan — langsung berdampak pada margin keuntungan produk tersebut tanpa perlu menaikkan harga jual sama sekali.",
+  },
+  { type: "h2", text: "Mulai dari data master yang rapi" },
+  {
+    type: "p",
+    text: "Seperti halnya implementasi sistem bisnis lainnya, keberhasilan sistem produksi sangat bergantung pada data master yang rapi dan konsisten: kode bahan yang seragam, daftar bahan yang akurat untuk setiap produk, dan satuan pengukuran yang konsisten di seluruh sistem. Menyiapkan data ini sering memakan waktu jauh lebih lama dari perkiraan awal, jadi mulailah pekerjaan ini sejak dini, jauh sebelum sistem baru benar-benar diluncurkan.",
+  },
+  { type: "h2", text: "Mengelola kapasitas mesin dan tenaga kerja" },
+  {
+    type: "p",
+    text: "Selain bahan baku, kapasitas mesin dan ketersediaan tenaga kerja juga menjadi faktor pembatas dalam perencanaan produksi. Sistem yang bisa menunjukkan kapasitas yang tersedia dibandingkan dengan rencana produksi membantu menghindari penjadwalan yang tidak realistis, yang pada akhirnya hanya akan menyebabkan keterlambatan pengiriman kepada pelanggan.",
+  },
+  { type: "h2", text: "Langkah menerapkan sistem produksi" },
+  {
+    type: "ol",
+    items: [
+      "Susun dan verifikasi daftar bahan untuk setiap produk yang diproduksi",
+      "Rapikan data master bahan baku dengan kode dan satuan yang konsisten",
+      "Terapkan pencatatan perintah kerja dan pengambilan bahan per produksi",
+      "Tetapkan titik pemeriksaan kualitas di tahapan produksi yang kritis",
+      "Bangun kemampuan menghitung biaya produksi aktual per unit",
+      "Gunakan data untuk meninjau ulang harga jual dan efisiensi produksi",
+    ],
+  },
+  { type: "h2", text: "Kesalahan umum dalam penerapan" },
+  {
+    type: "ul",
+    items: [
+      "Tidak mencatat produk cacat dan bahan terbuang secara konsisten",
+      "Daftar bahan yang tidak diperbarui saat resep produk berubah",
+      "Mengabaikan kapasitas mesin dan tenaga kerja dalam perencanaan",
+      "Tidak melakukan pemeriksaan kualitas di tahapan produksi yang kritis",
+      "Data master yang belum rapi sebelum sistem diterapkan",
+    ],
+  },
+  { type: "h2", text: "Pertanyaan yang sering muncul" },
+  { type: "h3", text: "Berapa lama biasanya implementasi sistem produksi berlangsung?" },
+  {
+    type: "p",
+    text: "Bergantung pada kompleksitas produk dan kerapian data yang sudah ada. Perusahaan dengan daftar bahan yang sudah terdokumentasi dengan baik bisa bergerak lebih cepat dibanding yang masih mengandalkan pengetahuan tidak tertulis dari karyawan senior.",
+  },
+  { type: "h3", text: "Apakah perlu mengubah seluruh proses produksi untuk menerapkan sistem baru?" },
+  {
+    type: "p",
+    text: "Tidak harus. Sistem yang baik dirancang untuk mencatat dan mendukung proses yang sudah berjalan, bukan memaksa perusahaan mengubah total cara kerjanya. Namun beberapa penyesuaian kecil pada alur pencatatan biasanya tetap diperlukan agar data yang dihasilkan akurat.",
+  },
+  { type: "h2", text: "Penutup" },
+  {
+    type: "p",
+    text: "Sistem produksi yang tepat untuk pabrik skala menengah memberi visibilitas yang selama ini hilang: berapa sebenarnya biaya produksi setiap produk, di mana pemborosan terjadi, dan kapan bahan perlu dipesan ulang. Dengan fondasi data master yang rapi dan pencatatan yang konsisten, keputusan bisnis bisa diambil berdasarkan angka nyata, bukan lagi perkiraan yang diwariskan turun-temurun.",
+  },
+  {
+    type: "cta",
+    title: "Tahu berapa biaya produksi sebenarnya dari setiap produk Anda?",
+    text: "Diskusikan kebutuhan sistem produksi untuk pabrik Anda bersama tim AG·SORA.",
+    href: "/contact",
+    label: "Konsultasi Gratis",
+  },
+];

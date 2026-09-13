@@ -1,9 +1,12 @@
 /**
  * Blog content model and queries.
  *
- * Articles live in `src/content/blog/batch-*.ts` as structured blocks rather
- * than markdown, so the whole blog stays type-checked with no parsing
- * dependency and no build config.
+ * Article metadata lives in `src/content/blog/meta.ts`; article text lives
+ * as structured blocks in `src/content/blog/bodies/*.ts`, one file per slug,
+ * indexed by `src/content/blog/bodies/index.ts`. Structured blocks rather
+ * than markdown keep the whole blog type-checked with no parsing dependency
+ * and no build config. The split keeps metadata (dates, tags, covers) easy
+ * to scan and edit separately from long-form article text.
  *
  * Editorial rule: articles must not contain invented statistics, fabricated
  * case studies, or named clients. Where a claim would need a source, the
@@ -12,12 +15,8 @@
  * restate figures that may have changed.
  */
 
-import { posts as batch01 } from "@/content/blog/batch-01";
-import { posts as batch02 } from "@/content/blog/batch-02";
-import { posts as batch03 } from "@/content/blog/batch-03";
-import { posts as batch04 } from "@/content/blog/batch-04";
-import { posts as batch05 } from "@/content/blog/batch-05";
-import { posts as batch06 } from "@/content/blog/batch-06";
+import { meta } from "@/content/blog/meta";
+import { bodies } from "@/content/blog/bodies";
 
 export type Block =
   | { type: "p"; text: string }
@@ -25,7 +24,9 @@ export type Block =
   | { type: "h3"; text: string }
   | { type: "ul"; items: string[] }
   | { type: "ol"; items: string[] }
-  | { type: "callout"; title: string; text: string };
+  | { type: "callout"; title: string; text: string }
+  /** Closing call to action. `href` must be an internal path. */
+  | { type: "cta"; title: string; text: string; href: `/${string}`; label: string };
 
 export type BlogCategory =
   | "Strategi Bisnis"
@@ -88,6 +89,22 @@ export type BlogCover = {
   alt: string;
 };
 
+export type BlogProductId = "pos" | "erp" | "hr" | "crm" | "inventory";
+
+/** Article metadata, kept apart from the article text in src/content/blog/meta.ts. */
+export type PostMeta = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  category: BlogCategory;
+  publishedAt: string; // ISO date
+  tags: BlogTag[];
+  featured?: boolean;
+  /** Product cards shown under the article, rendered from config/products.ts. */
+  products?: BlogProductId[];
+  cover: BlogCover;
+};
+
 /** An article as authored in a content batch file. */
 export type PostSource = {
   slug: string;
@@ -116,24 +133,22 @@ function countWords(body: Block[]) {
     const text =
       block.type === "ul" || block.type === "ol"
         ? block.items.join(" ")
-        : block.type === "callout"
+        : block.type === "callout" || block.type === "cta"
           ? `${block.title} ${block.text}`
           : block.text;
     return n + text.split(/\s+/).filter(Boolean).length;
   }, 0);
 }
 
-export const blogPosts: BlogPost[] = [
-  ...batch01,
-  ...batch02,
-  ...batch03,
-  ...batch04,
-  ...batch05,
-  ...batch06,
-].map((post) => {
-  const wordCount = countWords(post.body);
+export const blogPosts: BlogPost[] = meta.map((post) => {
+  const body = bodies[post.slug];
+  if (!body) {
+    throw new Error(`No article body found for slug "${post.slug}" — add src/content/blog/bodies/${post.slug}.ts`);
+  }
+  const wordCount = countWords(body);
   return {
     ...post,
+    body,
     wordCount,
     readingMinutes: Math.max(2, Math.ceil(wordCount / WORDS_PER_MINUTE)),
   };
@@ -150,6 +165,13 @@ export const blogPosts: BlogPost[] = [
       throw new Error(`Blog slug "page" collides with the /blog/page/[n] route`);
     }
     seen.add(post.slug);
+  }
+  const bodySlugs = new Set(Object.keys(bodies));
+  const metaSlugs = new Set(meta.map((m) => m.slug));
+  for (const slug of bodySlugs) {
+    if (!metaSlugs.has(slug)) {
+      throw new Error(`src/content/blog/bodies/${slug}.ts has no matching entry in meta.ts`);
+    }
   }
 }
 
