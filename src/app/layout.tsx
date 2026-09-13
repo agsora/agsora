@@ -44,6 +44,11 @@ export const metadata: Metadata = {
     title: `${siteConfig.brandMark} — ${siteConfig.tagline}`,
     description: siteConfig.description,
   },
+  // Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION in Vercel env vars once the
+  // property is added in Google Search Console — avoids hardcoding a token.
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
 };
 
 export const viewport: Viewport = {

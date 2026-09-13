@@ -2,8 +2,8 @@ export const siteConfig = {
   name: "AGSORA",
   brandMark: "AG·SORA",
   legalName: "PT Agsora Teknologi Indonesia",
-  domain: "agsora.tech",
-  url: "https://agsora.tech",
+  domain: "www.agsora.tech",
+  url: "https://www.agsora.tech",
   tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
   description:
     "AG·SORA membangun software, sistem bisnis, dan produk digital yang membantu perusahaan bekerja lebih efisien, terintegrasi, dan scalable — dari custom development hingga produk SaaS siap pakai.",
