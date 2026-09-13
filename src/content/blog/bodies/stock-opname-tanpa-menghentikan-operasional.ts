@@ -149,6 +149,29 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk sebagian besar bisnis, hitung siklus yang konsisten bisa menggantikan kebutuhan stock opname tahunan besar-besaran. Namun beberapa kebutuhan pelaporan keuangan atau audit mungkin tetap mensyaratkan verifikasi menyeluruh pada tanggal tertentu — periksa kebutuhan spesifik bisnis Anda.",
   },
+  { type: "h2", text: "Menangani barang retur dan konsinyasi" },
+  {
+    type: "p",
+    text: "Barang yang sedang dalam proses retur ke pemasok, atau barang konsinyasi yang secara hukum masih milik pihak lain meski berada secara fisik di gudang Anda, sering menjadi sumber kebingungan saat hitung siklus. Petugas yang tidak diberi panduan jelas bisa saja mencatatnya sebagai stok milik sendiri, padahal statusnya berbeda dan seharusnya dihitung serta dilaporkan secara terpisah dari stok reguler.",
+  },
+  {
+    type: "p",
+    text: "Tandai lokasi penyimpanan barang retur dan konsinyasi secara terpisah dari rak stok normal, dan pastikan prosedur hitung siklus menjelaskan secara eksplisit bagaimana kategori barang ini seharusnya dicatat. Tanpa pemisahan yang jelas, laporan stok bisa terlihat akurat secara angka tapi sebenarnya mencampuradukkan kepemilikan yang berbeda — masalah yang biasanya baru terlihat saat rekonsiliasi dengan pemasok atau pemilik barang konsinyasi dilakukan.",
+  },
+  { type: "h2", text: "Melatih petugas agar hasil hitung konsisten" },
+  {
+    type: "p",
+    text: "Akurasi hitung siklus sangat bergantung pada konsistensi cara petugas menghitung, terutama ketika lebih dari satu orang bergantian melakukannya. Perbedaan kebiasaan — satu petugas menghitung dus utuh sebagai satu unit sementara yang lain membuka dan menghitung isinya satu per satu, atau perbedaan cara menangani barang yang rusak kemasan — bisa menghasilkan selisih yang sebenarnya bukan karena kehilangan barang, melainkan karena perbedaan metode hitung semata.",
+  },
+  {
+    type: "p",
+    text: "Sediakan panduan singkat dan konsisten tentang cara menghitung untuk setiap jenis kemasan atau satuan barang, dan luangkan waktu mendampingi petugas baru pada beberapa sesi hitung pertama mereka sebelum melepasnya bekerja sendiri. Investasi kecil di pelatihan awal ini mencegah selisih semu yang justru menghabiskan waktu tim untuk menyelidiki masalah yang sebenarnya tidak pernah ada.",
+  },
+  { type: "h2", text: "Menjadikan hasil hitung sebagai bahan evaluasi rutin" },
+  {
+    type: "p",
+    text: "Data selisih dari hitung siklus akan sia-sia jika hanya disimpan sebagai angka tanpa pernah ditinjau ulang secara berkala. Luangkan waktu setiap bulan untuk melihat kategori barang mana yang paling sering mengalami selisih, apakah ada pola berdasarkan waktu, lokasi, atau petugas tertentu, dan apakah tindakan perbaikan yang sudah dilakukan sebelumnya benar-benar berdampak pada penurunan selisih di periode berikutnya. Evaluasi rutin seperti ini mengubah hitung siklus dari sekadar aktivitas administratif menjadi alat perbaikan operasional yang berkelanjutan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

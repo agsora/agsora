@@ -149,6 +149,15 @@ export const body: Block[] = [
     type: "p",
     text: "Kumpulkan bukti dari sistem terlebih dahulu — jejak audit, laporan pengecualian, dan rekaman kamera jika tersedia — sebelum melakukan konfrontasi langsung dengan karyawan yang bersangkutan. Tangani situasi ini secara konsisten mengikuti kebijakan internal yang sudah ditetapkan, dan pastikan prosesnya adil serta terdokumentasi dengan baik, sehingga keputusan yang diambil bisa dipertanggungjawabkan jika dipertanyakan di kemudian hari.",
   },
+  { type: "h2", text: "Mengevaluasi kontrol setelah diterapkan" },
+  {
+    type: "p",
+    text: "Menerapkan kontrol sistem bukan pekerjaan yang selesai sekali lalu dibiarkan berjalan sendiri selamanya. Setelah beberapa bulan berjalan, tinjau kembali apakah batas persetujuan yang ditetapkan masih relevan, apakah laporan pengecualian benar-benar rutin diperiksa oleh pihak yang bertanggung jawab, dan apakah ada celah baru yang muncul seiring perubahan cara operasional toko — misalnya penambahan metode pembayaran baru atau kanal penjualan tambahan yang belum tercakup dalam kontrol yang ada.",
+  },
+  {
+    type: "p",
+    text: "Libatkan juga masukan dari kasir dan supervisor yang menjalankan kontrol ini sehari-hari. Mereka sering menyadari lebih dulu jika suatu aturan terlalu menghambat operasional normal, atau justru menemukan celah yang belum terpikirkan saat kontrol pertama kali dirancang. Kontrol yang terus disesuaikan berdasarkan pengalaman aktual di lapangan jauh lebih efektif dibanding aturan yang ditetapkan sekali di atas kertas tanpa pernah ditinjau ulang.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -118,6 +118,24 @@ export const body: Block[] = [
     type: "p",
     text: "Tidak. Setiap modul biasanya menyelesaikan masalah yang berbeda, sehingga ukuran keberhasilannya pun sebaiknya disesuaikan secara spesifik. Modul akuntansi mungkin diukur dari kecepatan tutup buku, sementara modul gudang lebih tepat diukur dari akurasi stok. Menyamaratakan metrik untuk semua modul justru bisa membuat evaluasi kehilangan makna karena tidak benar-benar relevan dengan masalah yang ingin diselesaikan modul tersebut.",
   },
+  { type: "h2", text: "Pisahkan keberhasilan teknis dari keberhasilan bisnis" },
+  {
+    type: "p",
+    text: "Sistem bisa saja berjalan tanpa error, uptime-nya tinggi, dan tim IT melaporkan implementasi teknis berhasil sepenuhnya — tapi itu belum tentu berarti bisnis benar-benar diuntungkan. Keberhasilan teknis mengukur apakah sistemnya berfungsi sebagaimana mestinya: data tersimpan dengan benar, laporan bisa dibuka tanpa kendala, integrasi antar modul berjalan lancar. Keberhasilan bisnis mengukur sesuatu yang berbeda: apakah keputusan yang diambil manajemen sekarang lebih cepat dan lebih tepat karena data yang tersedia, apakah pelanggan merasakan layanan yang lebih baik, apakah biaya operasional benar-benar turun.",
+  },
+  {
+    type: "p",
+    text: "Kedua jenis keberhasilan ini perlu dilaporkan secara terpisah kepada pemangku kepentingan yang berbeda. Tim IT dan vendor biasanya lebih fokus melaporkan sisi teknis, sementara direksi dan pemilik bisnis jauh lebih tertarik pada dampak nyata terhadap operasional dan angka bisnis. Sebuah project bisa saja dinyatakan sukses secara teknis oleh tim yang mengerjakannya, namun tetap dianggap gagal oleh direksi jika tidak ada perubahan nyata yang mereka rasakan pada cara bisnis berjalan sehari-hari. Menyadari perbedaan ini sejak awal membantu semua pihak menilai project dengan ukuran yang tepat, bukan saling berbicara dalam bahasa yang berbeda saat membahas hasil yang sama.",
+  },
+  { type: "h2", text: "Hitung juga biaya yang tidak lagi dikeluarkan" },
+  {
+    type: "p",
+    text: "Selain mengukur perbaikan yang terlihat langsung seperti kecepatan proses atau akurasi data, jangan lupakan biaya-biaya yang sebenarnya sudah berhenti dikeluarkan setelah sistem baru berjalan namun jarang disadari karena sifatnya tidak terlihat secara eksplisit di laporan keuangan. Biaya lembur untuk mengejar tutup buku yang molor, biaya kesalahan pengiriman akibat data stok yang keliru, waktu kerja yang sebelumnya habis untuk mencocokkan data dari beberapa spreadsheet berbeda — semua ini adalah biaya nyata yang berkurang meski tidak muncul sebagai satu baris tersendiri di laporan mana pun.",
+  },
+  {
+    type: "p",
+    text: "Mengidentifikasi dan mendokumentasikan pengurangan biaya tersembunyi ini memberi gambaran yang jauh lebih lengkap tentang nilai investasi sistem dibanding hanya melihat metrik operasional di permukaan. Ini juga sangat membantu ketika perusahaan perlu menjustifikasi investasi serupa di kemudian hari, karena ada bukti konkret bahwa biaya-biaya tersembunyi semacam ini benar-benar bisa dikurangi melalui sistem yang tepat, bukan sekadar janji di atas kertas proposal.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

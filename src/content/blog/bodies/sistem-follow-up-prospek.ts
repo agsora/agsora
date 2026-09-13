@@ -106,6 +106,47 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk penjualan dengan nilai kecil dan volume tinggi, email otomatis bisa efektif sebagai pengingat awal. Untuk penjualan bernilai besar, kombinasikan dengan sentuhan personal dari sales, karena prospek besar biasanya mengharapkan perhatian yang lebih individual.",
   },
+  { type: "h2", text: "Prioritaskan prospek, jangan perlakukan semua sama" },
+  {
+    type: "p",
+    text: "Tidak semua prospek layak mendapat perhatian yang sama besarnya. Prospek yang aktif merespons, sudah menanyakan harga secara spesifik, dan cocok dengan profil pelanggan ideal Anda jauh lebih berharga untuk difollow-up secara intensif dibanding prospek yang baru sekadar mengisi formulir tanpa interaksi lanjutan. Tanpa cara membedakan keduanya, sales sering menghabiskan waktu yang sama untuk prospek yang hampir pasti tidak akan membeli dan prospek yang sebenarnya sudah siap deal.",
+  },
+  {
+    type: "p",
+    text: "Penilaian prospek tidak harus rumit. Kombinasi sederhana seperti seberapa cepat prospek merespons, apakah mereka sudah menanyakan detail teknis atau harga, dan apakah kebutuhan mereka cocok dengan yang Anda tawarkan sudah cukup untuk mengelompokkan prospek ke dalam beberapa tingkat prioritas. Prospek prioritas tinggi mendapat follow-up lebih cepat dan lebih sering; prospek prioritas rendah tetap ditindaklanjuti, tapi dengan ritme yang lebih longgar sehingga sales bisa fokus ke peluang yang lebih besar kemungkinannya untuk menutup penjualan.",
+  },
+  { type: "h2", text: "Kecepatan respons pertama menentukan banyak hal" },
+  {
+    type: "p",
+    text: "Prospek yang baru saja menunjukkan minat — mengisi formulir, mengirim pesan, atau bertanya lewat media sosial — berada dalam kondisi paling reseptif tepat setelah mereka melakukan aksi tersebut. Semakin lama jeda sebelum ada yang merespons, semakin besar peluang minat itu mendingin atau prospek sudah terlanjur menghubungi kompetitor yang lebih sigap. Ini terutama berlaku untuk prospek yang membandingkan beberapa penyedia sekaligus, di mana yang merespons lebih dulu sering mendapat keuntungan psikologis sebagai pilihan pertama yang dipertimbangkan.",
+  },
+  {
+    type: "p",
+    text: "Pantau waktu rata-rata dari prospek masuk sampai kontak pertama sebagai metrik tersendiri, terpisah dari metrik follow-up lanjutan. Bisnis yang menetapkan target respons awal — misalnya dalam hitungan jam, bukan hari — dan benar-benar memantau kepatuhannya, biasanya melihat perbedaan nyata pada tingkat konversi prospek menjadi pelanggan.",
+  },
+  { type: "h2", text: "Follow-up yang konsisten di berbagai kanal" },
+  {
+    type: "p",
+    text: "Prospek modern berpindah-pindah kanal komunikasi — bertanya lewat WhatsApp, lalu membalas email, lalu menghubungi lewat telepon untuk hal yang urgent. Jika riwayat percakapan tidak tercatat di satu tempat yang sama, sales berisiko mengulang pertanyaan yang sudah dijawab di kanal lain, atau lebih buruk, mengirim pesan follow-up yang bertentangan dengan apa yang sudah disepakati di percakapan sebelumnya melalui kanal berbeda.",
+  },
+  {
+    type: "p",
+    text: "Sistem yang mencatat interaksi dari semua kanal dalam satu riwayat per prospek memastikan siapa pun yang menghubungi prospek berikutnya — baik sales yang sama maupun rekan yang menggantikan sementara — punya gambaran lengkap tanpa harus bertanya ke prospek “sebelumnya sudah dibahas apa saja ya?”. Pengalaman berpindah kanal yang mulus seperti ini juga membuat prospek merasa dilayani oleh satu tim yang terorganisir, bukan beberapa orang yang tidak saling tahu.",
+  },
+  { type: "h2", text: "Menangani prospek yang bilang \"belum sekarang\"" },
+  {
+    type: "p",
+    text: "Tidak semua prospek yang belum membeli berarti sudah hilang selamanya. Banyak yang sebenarnya tertarik tapi belum punya anggaran, belum waktu yang tepat, atau masih menunggu persetujuan internal di perusahaan mereka. Menandai prospek ini sebagai “gagal” dan berhenti menindaklanjuti sama saja membuang peluang yang mungkin baru matang beberapa bulan kemudian.",
+  },
+  {
+    type: "p",
+    text: "Alih-alih follow-up intensif seperti prospek aktif, prospek kategori ini cocok dengan ritme yang lebih jarang namun tetap terjadwal — misalnya dihubungi kembali setiap beberapa bulan, atau saat ada penawaran atau perkembangan produk yang relevan dengan kebutuhan mereka sebelumnya. Sistem yang mengingatkan kapan waktunya menghubungi kembali kelompok prospek ini mencegah mereka benar-benar terlupakan sampai akhirnya beralih ke penyedia lain karena tidak pernah dihubungi lagi.",
+  },
+  { type: "h2", text: "Selaraskan pemasaran dan penjualan" },
+  {
+    type: "p",
+    text: "Prospek yang datang dari kampanye pemasaran sering terputus konteksnya begitu masuk ke tangan sales — sales tidak tahu iklan atau konten apa yang membuat prospek tertarik, sehingga follow-up pertama terasa generik dan tidak menyambung dengan minat spesifik yang sudah ditunjukkan prospek sebelumnya. Menghubungkan data dari sumber pemasaran dengan sistem follow-up sales memungkinkan percakapan pertama langsung relevan dengan apa yang mendorong prospek tersebut menghubungi Anda.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

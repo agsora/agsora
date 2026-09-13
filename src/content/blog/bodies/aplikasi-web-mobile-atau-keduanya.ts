@@ -142,6 +142,15 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk aplikasi internal dengan pengguna yang perangkatnya bisa dipastikan atau bahkan disediakan perusahaan, membangun untuk Android saja bisa menjadi pilihan yang masuk akal untuk menghemat biaya. Untuk aplikasi yang ditujukan ke pelanggan umum, pertimbangkan proporsi pengguna iPhone di segmen pasar Anda sebelum memutuskan hanya membangun satu platform.",
   },
+  { type: "h2", text: "Menguji pengalaman di berbagai perangkat" },
+  {
+    type: "p",
+    text: "Baik aplikasi web maupun mobile perlu diuji di lebih dari satu jenis perangkat sebelum dianggap siap dipakai secara luas. Untuk aplikasi web, ini berarti memastikan tampilan tetap rapi dan fungsional di berbagai ukuran layar — dari laptop kantor beresolusi besar hingga ponsel dengan layar kecil — karena pengguna yang sama mungkin membuka sistem yang sama dari perangkat yang berbeda tergantung situasi. Tombol yang terlalu kecil untuk disentuh di layar ponsel, atau tabel data yang terpotong dan tidak bisa digulir dengan nyaman, adalah masalah yang sering baru terlihat saat pengujian nyata di perangkat sungguhan, bukan hanya di layar simulasi milik pengembang.",
+  },
+  {
+    type: "p",
+    text: "Untuk aplikasi mobile, pengujian di berbagai merek dan usia perangkat sama pentingnya, karena tidak semua pengguna memakai ponsel keluaran terbaru dengan spesifikasi tinggi. Aplikasi yang terasa mulus di ponsel flagship milik pengembang bisa terasa lambat atau bahkan gagal berjalan sama sekali di ponsel dengan kapasitas memori lebih terbatas yang justru dipakai sebagian besar karyawan lapangan. Sisihkan waktu pengujian khusus dengan perangkat yang benar-benar mewakili kondisi pengguna akhir, bukan hanya perangkat terbaik yang kebetulan tersedia di tim pengembang, sebelum aplikasi dirilis secara luas kepada seluruh tim.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -131,6 +131,24 @@ export const body: Block[] = [
     type: "p",
     text: "Tidak harus. Sistem yang baik dirancang untuk mencatat dan mendukung proses yang sudah berjalan, bukan memaksa perusahaan mengubah total cara kerjanya. Namun beberapa penyesuaian kecil pada alur pencatatan biasanya tetap diperlukan agar data yang dihasilkan akurat.",
   },
+  { type: "h2", text: "Menghubungkan produksi dengan penjualan dan pembelian" },
+  {
+    type: "p",
+    text: "Sistem produksi yang berdiri terpisah dari data penjualan dan pembelian sering membuat perencanaan produksi didasarkan pada perkiraan kasar, bukan permintaan yang sebenarnya. Tim produksi memproduksi berdasarkan kebiasaan atau instruksi lisan, sementara tim penjualan tidak tahu persis kapan barang pesanan pelanggan akan selesai, dan tim pembelian memesan bahan baku tanpa gambaran jelas tentang rencana produksi ke depan.",
+  },
+  {
+    type: "p",
+    text: "Ketika data pesanan penjualan, rencana produksi, dan kebutuhan pembelian bahan baku saling terhubung dalam satu sistem, perencanaan produksi bisa lebih selaras dengan permintaan yang sebenarnya masuk, bukan sekadar mengikuti jadwal produksi rutin yang sudah berjalan bertahun-tahun tanpa evaluasi. Tim penjualan juga bisa memberi estimasi waktu pengiriman yang lebih realistis kepada pelanggan karena tahu persis posisi antrean produksi saat ini, alih-alih memberi janji yang sering meleset karena tidak mengetahui kondisi lantai produksi yang sebenarnya.",
+  },
+  { type: "h2", text: "Perencanaan produksi untuk permintaan musiman" },
+  {
+    type: "p",
+    text: "Banyak pabrik menghadapi pola permintaan yang naik turun mengikuti musim tertentu, hari besar, atau siklus bisnis pelanggan utama mereka. Tanpa data historis produksi dan penjualan yang tersimpan rapi, perencanaan untuk periode puncak sering kali hanya mengandalkan perkiraan kasar dari pengalaman, yang berisiko meleset cukup jauh — baik kekurangan kapasitas saat permintaan tinggi, maupun kelebihan stok yang mengendap saat permintaan kembali normal.",
+  },
+  {
+    type: "p",
+    text: "Sistem yang menyimpan riwayat produksi dan penjualan dari periode-periode sebelumnya memberi dasar yang lebih konkret untuk merencanakan kapasitas dan pembelian bahan baku menjelang periode puncak berikutnya, mengurangi ketergantungan pada ingatan atau firasat semata dalam mengambil keputusan yang berdampak besar pada arus kas dan kepuasan pelanggan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

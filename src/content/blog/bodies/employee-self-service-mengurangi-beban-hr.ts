@@ -143,6 +143,15 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk tim kecil, mulai dari fitur yang paling sederhana — melihat sisa cuti dan mengajukan izin — sudah cukup memberi dampak nyata, tanpa perlu langsung menerapkan seluruh modul yang tersedia sekaligus.",
   },
+  { type: "h2", text: "Menjaga fitur tetap relevan seiring pertumbuhan tim" },
+  {
+    type: "p",
+    text: "Kebutuhan layanan mandiri karyawan di perusahaan dengan dua puluh orang akan terasa berbeda dibanding perusahaan yang sama setelah tumbuh menjadi dua ratus orang. Fitur yang dulu cukup sederhana — misalnya satu jenis formulir cuti untuk semua orang — mungkin perlu disesuaikan lagi ketika perusahaan mulai punya banyak jenis jabatan dengan aturan cuti atau tunjangan yang berbeda-beda. Jangan menganggap sistem layanan mandiri sebagai proyek yang selesai sekali dibangun; tinjau ulang secara berkala apakah aturan dan fiturnya masih relevan dengan struktur organisasi yang sudah berkembang.",
+  },
+  {
+    type: "p",
+    text: "Perubahan kebijakan perusahaan juga perlu segera tercermin di sistem layanan mandiri, bukan hanya diumumkan lewat memo internal yang mudah terlewat. Jika kebijakan cuti berubah tapi sistem masih menampilkan aturan lama, karyawan akan bingung ketika pengajuannya ditolak dengan alasan yang tidak sesuai dengan apa yang mereka baca di aplikasi. Tetapkan tanggung jawab yang jelas — biasanya di tim HR — untuk memastikan setiap perubahan kebijakan langsung diperbarui di sistem pada hari yang sama kebijakan itu mulai berlaku, sehingga karyawan selalu melihat informasi yang akurat.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

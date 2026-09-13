@@ -121,6 +121,33 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk dasar-dasar seperti yang dijelaskan di artikel ini, banyak bisnis bisa mengerjakannya sendiri atau bersama tim pengembang website mereka. Jasa profesional lebih relevan untuk strategi yang lebih kompleks atau persaingan kata kunci yang sangat ketat.",
   },
+  { type: "h2", text: "Data terstruktur (schema markup)" },
+  {
+    type: "p",
+    text: "Data terstruktur adalah kode tambahan di balik layar yang menjelaskan kepada mesin pencari secara eksplisit apa arti sebuah informasi di halaman Anda — bahwa deretan angka tertentu adalah nomor telepon, bahwa satu blok teks adalah alamat kantor, atau bahwa halaman tersebut berisi jawaban atas pertanyaan tertentu. Tanpa data terstruktur, mesin pencari tetap bisa membaca halaman, tapi harus menebak-nebak konteksnya; dengan data terstruktur, konteks itu dinyatakan secara jelas.",
+  },
+  {
+    type: "p",
+    text: "Manfaat yang paling terasa bagi bisnis adalah tampilan hasil pencarian yang lebih kaya — misalnya bintang ulasan, daftar pertanyaan umum yang bisa diperluas langsung di halaman hasil pencarian, atau informasi jam operasional yang muncul tanpa pengunjung perlu membuka website Anda dulu. Tampilan seperti ini membuat halaman Anda lebih menonjol dibanding hasil pencarian lain yang polos, dan cenderung meningkatkan rasio orang yang mengklik untuk masuk ke website Anda.",
+  },
+  { type: "h2", text: "Kehadiran di Google Business Profile" },
+  {
+    type: "p",
+    text: "Untuk bisnis yang melayani area geografis tertentu atau punya lokasi fisik yang bisa dikunjungi, Google Business Profile sering menjadi elemen SEO yang dampaknya terasa jauh lebih cepat dibanding optimasi website itu sendiri. Profil ini muncul di peta dan panel samping hasil pencarian ketika seseorang mencari layanan dengan konteks lokasi, terlepas dari seberapa kuat peringkat website Anda di hasil pencarian biasa.",
+  },
+  {
+    type: "p",
+    text: "Lengkapi profil dengan kategori bisnis yang tepat, jam operasional yang akurat, foto yang mewakili bisnis Anda, dan tanggapi ulasan yang masuk secara rutin. Konsistensi informasi — nama, alamat, nomor telepon — antara Google Business Profile dan website Anda juga ikut membantu mesin pencari memvalidasi bahwa bisnis Anda memang benar-benar ada dan terpercaya di lokasi yang disebutkan.",
+  },
+  { type: "h2", text: "Tautan dari website lain (backlink)" },
+  {
+    type: "p",
+    text: "Selain elemen di dalam website Anda sendiri, mesin pencari juga mempertimbangkan seberapa banyak dan seberapa relevan website lain yang menautkan ke website Anda. Tautan dari website yang relevan dan terpercaya berfungsi sebagai semacam pengakuan bahwa konten Anda layak dirujuk. Cara paling wajar mendapatkannya adalah dengan membuat konten yang benar-benar bermanfaat sehingga orang lain terdorong menautkannya secara sukarela — misalnya panduan mendalam, data yang berguna, atau opini ahli yang dikutip pihak lain.",
+  },
+  {
+    type: "p",
+    text: "Hindari membeli tautan secara massal dari layanan yang menjanjikan ratusan backlink instan; praktik ini sering justru merugikan karena mesin pencari mampu mengenali pola tautan yang tidak wajar. Cara yang lebih berkelanjutan adalah membangun hubungan dengan mitra bisnis, asosiasi industri, atau media lokal yang secara alami bisa menautkan ke website Anda ketika relevan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

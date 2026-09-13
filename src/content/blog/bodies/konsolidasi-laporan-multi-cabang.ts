@@ -145,6 +145,24 @@ export const body: Block[] = [
     type: "p",
     text: "Berikan akses yang sesuai kepada auditor atau akuntan eksternal untuk melihat detail transaksi di balik angka ringkasan bila diperlukan, tanpa harus melalui proses permintaan data manual yang memakan waktu setiap kali ada pertanyaan. Kemudahan ini juga mempercepat proses tinjauan tahunan yang biasanya sudah cukup menyita waktu tim keuangan internal di tengah kesibukan operasional rutin lainnya.",
   },
+  { type: "h2", text: "Mata uang dan pajak berbeda antar lokasi" },
+  {
+    type: "p",
+    text: "Bisnis yang cabangnya tersebar di beberapa kota atau bahkan lintas negara sering menghadapi lapisan kerumitan tambahan: tarif pajak daerah yang berbeda, atau bahkan mata uang transaksi yang tidak sama. Laporan gabungan yang mengabaikan perbedaan ini akan menghasilkan angka yang secara teknis terjumlah, tapi secara substansi menyesatkan — membandingkan pendapatan yang dikenakan tarif pajak berbeda seolah-olah setara begitu saja.",
+  },
+  {
+    type: "p",
+    text: "Sistem konsolidasi yang baik perlu menyimpan konteks asal setiap transaksi, bukan sekadar angka akhirnya saja. Dengan begitu, laporan gabungan tetap bisa menampilkan total yang benar, sekaligus memungkinkan analisis yang memperhitungkan perbedaan tarif pajak atau nilai tukar ketika diperlukan, tanpa harus menelusuri ulang dokumen asli dari setiap cabang satu per satu.",
+  },
+  { type: "h2", text: "Dashboard real-time versus laporan periode" },
+  {
+    type: "p",
+    text: "Ada perbedaan penting antara melihat angka konsolidasi secara real-time di dashboard dan menunggu laporan resmi setelah periode ditutup. Dashboard real-time berguna untuk memantau tren dan mendeteksi anomali sedini mungkin, tapi angkanya masih bisa berubah karena transaksi hari berjalan belum sepenuhnya final dan penyesuaian masih mungkin terjadi.",
+  },
+  {
+    type: "p",
+    text: "Laporan resmi setelah periode ditutup dan dikunci adalah versi yang seharusnya dipakai untuk pengambilan keputusan formal, pelaporan ke pihak eksternal, atau perbandingan performa antar cabang yang membutuhkan angka final. Jangan mencampuradukkan kedua jenis laporan ini — jelaskan kepada semua pengguna sistem mana yang bersifat indikatif dan mana yang bersifat final, agar tidak muncul kebingungan ketika angka dashboard hari ini ternyata sedikit berbeda dari laporan resmi bulan tersebut setelah ditutup.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

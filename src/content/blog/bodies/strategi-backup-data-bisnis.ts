@@ -125,6 +125,38 @@ export const body: Block[] = [
     type: "p",
     text: "Minimal setiap tiga hingga enam bulan untuk sebagian besar bisnis, dan setiap kali ada perubahan signifikan pada sistem atau infrastruktur. Untuk sistem yang sangat kritis, uji lebih sering bisa dipertimbangkan.",
   },
+  { type: "h2", text: "Enkripsi backup, bukan hanya data asli" },
+  {
+    type: "p",
+    text: "Perusahaan yang sudah mengenkripsi data di server utama kadang lupa bahwa salinan backup-nya perlu perlindungan yang setara. Backup yang tersimpan tanpa enkripsi — terutama yang dikirim ke penyimpanan eksternal atau layanan cloud pihak ketiga — menjadi celah keamanan tersendiri. Jika media penyimpanan backup hilang, dicuri, atau diakses pihak yang tidak berwenang, data sensitif pelanggan dan bisnis bisa bocor meski sistem utama Anda sendiri tetap aman.",
+  },
+  {
+    type: "p",
+    text: "Pastikan data terenkripsi baik saat dikirim ke lokasi backup maupun saat tersimpan di sana, dan kelola kunci enkripsi secara terpisah dari media penyimpanan backup itu sendiri. Menyimpan kunci enkripsi di tempat yang sama dengan file yang dienkripsi sama saja dengan mengunci pintu tapi meninggalkan kuncinya menggantung di gagang pintu tersebut.",
+  },
+  { type: "h2", text: "Jangan simpan semuanya selamanya" },
+  {
+    type: "p",
+    text: "Menyimpan setiap versi backup tanpa batas waktu terdengar aman, tetapi dalam praktiknya menimbulkan masalah tersendiri: biaya penyimpanan yang terus membengkak, dan proses pencarian versi yang tepat saat pemulihan menjadi lebih rumit karena terlalu banyak pilihan. Di sisi lain, kebijakan retensi juga perlu mempertimbangkan kebutuhan bisnis dan hukum — beberapa jenis dokumen mungkin perlu disimpan untuk periode tertentu sesuai kebutuhan audit atau kontrak dengan klien.",
+  },
+  {
+    type: "p",
+    text: "Tetapkan kebijakan retensi yang jelas: berapa lama backup harian disimpan sebelum digantikan yang baru, berapa banyak backup mingguan atau bulanan yang tetap dipertahankan sebagai arsip jangka panjang. Kebijakan ini sebaiknya didiskusikan dengan bagian yang memahami kebutuhan hukum dan operasional bisnis Anda, bukan sekadar keputusan teknis semata yang dibuat sepihak oleh tim IT.",
+  },
+  { type: "h2", text: "Backup untuk aplikasi dan layanan pihak ketiga" },
+  {
+    type: "p",
+    text: "Banyak bisnis kini bergantung pada berbagai aplikasi berbasis cloud — sistem akuntansi, CRM, platform e-commerce — yang datanya tersimpan di server penyedia layanan tersebut, bukan di infrastruktur milik bisnis sendiri. Asumsi bahwa penyedia layanan ini otomatis menjamin backup yang memadai untuk kebutuhan Anda sering kali keliru; sebagian besar layanan memang punya mekanisme pemulihan bencana untuk melindungi infrastruktur mereka sendiri, tapi itu berbeda dengan memberi Anda kemampuan memulihkan data yang tidak sengaja terhapus atau rusak akibat kesalahan pengguna.",
+  },
+  {
+    type: "p",
+    text: "Periksa apakah setiap aplikasi penting yang dipakai bisnis Anda menyediakan fitur ekspor data secara mandiri, dan pertimbangkan untuk mengekspor data penting secara berkala sebagai salinan tambahan yang Anda kendalikan sendiri. Ini terutama penting untuk data yang jika hilang akan sangat sulit direkonstruksi, seperti riwayat transaksi pelanggan atau catatan komunikasi penting dengan klien.",
+  },
+  { type: "h2", text: "Dokumentasikan rencana pemulihan, bukan hanya jadwal backup" },
+  {
+    type: "p",
+    text: "Memiliki backup yang lengkap tidak banyak membantu jika, saat insiden terjadi, tidak ada yang tahu persis langkah-langkah untuk memulihkannya. Dokumentasikan urutan langkah pemulihan secara tertulis — sistem mana yang perlu dipulihkan lebih dulu, siapa yang punya akses untuk melakukannya, dan kepada siapa harus melapor jika prosesnya menemui kendala — sehingga siapa pun yang tersedia saat insiden terjadi bisa mengikuti langkahnya tanpa harus menunggu satu orang tertentu yang kebetulan sedang tidak bisa dihubungi.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

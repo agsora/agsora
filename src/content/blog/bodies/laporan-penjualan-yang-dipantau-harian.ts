@@ -140,6 +140,24 @@ export const body: Block[] = [
     type: "p",
     text: "Ambang batas ini perlu ditetapkan dengan hati-hati agar tidak terlalu sering memicu peringatan untuk hal-hal yang sebenarnya masih wajar, karena peringatan yang terlalu sering justru akan diabaikan begitu saja seperti halnya laporan yang terlalu banyak. Mulailah dengan ambang batas yang cukup longgar, lalu sesuaikan secara bertahap berdasarkan pengalaman aktual — jika suatu ambang batas ternyata tidak pernah relevan atau terlalu sering salah menandai kondisi normal sebagai masalah.",
   },
+  { type: "h2", text: "Menjadikan pemantauan sebagai kebiasaan, bukan tugas tambahan" },
+  {
+    type: "p",
+    text: "Laporan yang tepat sekalipun tidak akan berguna jika akhirnya jarang dibuka karena dianggap sebagai tugas tambahan di tengah kesibukan operasional. Kaitkan pemantauan laporan dengan rutinitas yang sudah ada — misalnya sebagai bagian dari briefing singkat sebelum toko buka, atau sebagai langkah pertama sebelum memeriksa email di pagi hari. Kebiasaan yang menempel pada rutinitas yang sudah berjalan jauh lebih mudah dipertahankan dibanding kebiasaan baru yang berdiri sendiri dan mudah terlupakan saat sedang sibuk.",
+  },
+  {
+    type: "p",
+    text: "Konsistensi lebih penting daripada kedalaman analisis setiap kali membaca laporan. Memeriksa lima laporan inti selama dua menit setiap hari secara konsisten selama sebulan akan memberi gambaran yang jauh lebih akurat tentang kondisi bisnis dibanding menganalisis mendalam sekali sebulan lalu tidak membukanya lagi sampai bulan berikutnya.",
+  },
+  { type: "h2", text: "Menyesuaikan laporan seiring pertumbuhan bisnis" },
+  {
+    type: "p",
+    text: "Laporan yang relevan saat bisnis masih kecil bisa berubah kebutuhannya seiring bisnis berkembang — bertambahnya outlet, jenis produk, atau jumlah staf yang terlibat dalam operasional harian. Laporan penjualan per cabang yang dulu tidak diperlukan karena hanya ada satu lokasi, misalnya, menjadi laporan inti begitu cabang kedua dibuka.",
+  },
+  {
+    type: "p",
+    text: "Jadwalkan peninjauan ulang terhadap pilihan laporan harian setiap beberapa bulan, bukan hanya di awal ketika sistem pertama kali diterapkan. Pertanyaan bisnis yang paling penting untuk dijawab setiap hari bisa bergeser seiring waktu, dan laporan yang dipantau sebaiknya ikut bergeser mengikutinya, bukan dibiarkan tetap sama seperti saat pertama kali ditetapkan bertahun-tahun lalu.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

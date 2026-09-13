@@ -153,6 +153,24 @@ export const body: Block[] = [
     type: "p",
     text: "Sebelum memutuskan membangun website lengkap, pertimbangkan dengan jujur apakah memang ada orang atau tim yang bisa konsisten meluangkan waktu untuk merawatnya ke depan. Website lengkap yang dibangun megah di awal tapi tidak pernah diperbarui setelahnya justru bisa memberi kesan sebaliknya dari yang diharapkan — terkesan ditinggalkan, bukan terkesan profesional dan terpercaya seperti tujuan awal dibangunnya.",
   },
+  { type: "h2", text: "Pengaruh terhadap kecepatan dan pengalaman pengunjung" },
+  {
+    type: "p",
+    text: "Landing page yang hanya terdiri dari satu halaman biasanya lebih mudah dibuat cepat dimuat, karena elemen yang perlu dioptimalkan jauh lebih sedikit dibanding website lengkap dengan banyak halaman dan berbagai jenis konten. Kecepatan ini penting terutama untuk kampanye iklan berbayar, di mana pengunjung yang harus menunggu lama sebelum halaman termuat cenderung meninggalkan halaman sebelum sempat melihat penawaran Anda.",
+  },
+  {
+    type: "p",
+    text: "Website lengkap tetap bisa dibuat cepat, tapi membutuhkan perhatian lebih pada optimasi gambar, struktur navigasi, dan performa di setiap halaman secara konsisten. Semakin banyak halaman dan fitur yang ditambahkan seiring waktu, semakin besar pula risiko performa situs melambat jika tidak dipantau dan dirawat secara berkala oleh pihak yang bertanggung jawab.",
+  },
+  { type: "h2", text: "Menyesuaikan pilihan dengan anggaran pemasaran" },
+  {
+    type: "p",
+    text: "Anggaran pemasaran yang tersedia juga layak dipertimbangkan saat memilih antara keduanya. Jika sebagian besar anggaran dialokasikan untuk iklan berbayar dengan target audiens yang sudah jelas, landing page yang fokus biasanya memberikan hasil yang lebih terukur per rupiah yang dikeluarkan, karena setiap pengunjung diarahkan langsung ke satu tujuan tanpa distraksi.",
+  },
+  {
+    type: "p",
+    text: "Sebaliknya, jika strategi pemasaran mengandalkan pencarian organik jangka panjang yang dibangun bertahap melalui konten dan optimasi mesin pencari, investasi pada website lengkap akan lebih masuk akal meski hasilnya baru terasa signifikan setelah beberapa waktu. Kedua pendekatan ini sama-sama valid — yang penting adalah memilih sesuai dengan bagaimana calon pelanggan Anda sebenarnya ditemukan dan diyakinkan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -130,6 +130,33 @@ export const body: Block[] = [
     type: "p",
     text: "Ini bisa ditangani dengan menghubungkan setiap sumber lewat integrasi yang sesuai, atau mempertimbangkan menyatukan sistem-sistem tersebut jika jumlahnya sudah terlalu banyak untuk dihubungkan satu per satu secara efisien.",
   },
+  { type: "h2", text: "Pilih visualisasi yang sesuai dengan jenis data" },
+  {
+    type: "p",
+    text: "Tabel angka yang padat sering kali lebih sulit dicerna dibanding grafik sederhana yang menunjukkan tren dengan jelas dalam sekali lihat. Saat merancang ulang laporan menjelang otomatisasi, pertimbangkan jenis visualisasi yang paling sesuai untuk setiap metrik — grafik garis untuk tren dari waktu ke waktu, grafik batang untuk perbandingan antar kategori, dan tabel hanya untuk data rinci yang memang perlu dibaca angka per angka oleh penerimanya.",
+  },
+  {
+    type: "p",
+    text: "Hindari godaan untuk memasukkan terlalu banyak jenis grafik sekaligus hanya karena sistem otomatisasi mampu menghasilkannya dengan mudah. Laporan yang penuh dengan visualisasi yang tidak semuanya penting justru membuat pembacanya kesulitan menemukan informasi yang benar-benar relevan dengan cepat, yang sebenarnya bertentangan dengan tujuan awal otomatisasi ini dibuat.",
+  },
+  { type: "h2", text: "Menggabungkan data dari banyak cabang atau anak usaha" },
+  {
+    type: "p",
+    text: "Bisnis dengan beberapa cabang atau anak usaha sering menghadapi tantangan tambahan: setiap unit mungkin mencatat data dengan sedikit perbedaan konvensi, atau bahkan memakai sistem yang berbeda satu sama lain karena sejarah pertumbuhan bisnis yang tidak seragam. Sebelum laporan gabungan bisa diotomatiskan dengan andal, perbedaan-perbedaan kecil ini perlu diselaraskan lebih dulu — misalnya penamaan kategori produk yang sama tapi ditulis berbeda di setiap cabang.",
+  },
+  {
+    type: "p",
+    text: "Proses penyelarasan ini sering kali memakan waktu lebih lama dibanding pembuatan laporan itu sendiri, tetapi hasilnya sepadan: begitu selesai, laporan gabungan lintas cabang bisa dihasilkan secara konsisten tanpa staf pusat harus menghubungi setiap cabang satu per satu untuk menanyakan data terbaru setiap minggu.",
+  },
+  { type: "h2", text: "Mengukur apakah laporan otomatis benar-benar dibaca" },
+  {
+    type: "p",
+    text: "Otomatisasi memastikan laporan terkirim tepat waktu, tetapi tidak menjamin laporan tersebut benar-benar dibaca dan dipakai untuk mengambil keputusan. Sesekali, tanyakan langsung kepada penerima apakah mereka masih membutuhkan laporan tersebut dan bagian mana yang paling sering mereka lihat. Beberapa sistem juga memungkinkan pelacakan sederhana seperti kapan sebuah laporan atau dashboard terakhir dibuka oleh penerimanya.",
+  },
+  {
+    type: "p",
+    text: "Laporan yang terus terkirim otomatis selama bertahun-tahun tanpa ada yang benar-benar membacanya adalah pemborosan yang mudah luput dari perhatian justru karena prosesnya sudah berjalan otomatis dan tidak lagi membutuhkan usaha aktif dari siapa pun. Tinjau daftar laporan otomatis yang berjalan secara berkala, dan hentikan yang ternyata sudah tidak relevan lagi bagi penerimanya, sehingga daftar laporan yang dipelihara tim tetap ramping dan setiap laporan yang tersisa benar-benar punya pembaca yang jelas.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

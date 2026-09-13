@@ -139,6 +139,15 @@ export const body: Block[] = [
     type: "p",
     text: "Terlalu banyak metrik sekaligus justru membuat tim bingung mana yang harus diprioritaskan. Sebagian besar tim sudah cukup terbantu dengan memantau sekitar empat sampai enam metrik inti yang benar-benar relevan dengan siklus penjualan mereka, dibanding mencoba melacak puluhan angka yang sebagian besar tidak pernah benar-benar ditindaklanjuti.",
   },
+  { type: "h2", text: "Kecepatan respons terhadap prospek baru" },
+  {
+    type: "p",
+    text: "Salah satu metrik yang sering luput dari perhatian adalah berapa lama waktu yang dibutuhkan sales untuk merespons prospek baru setelah mereka pertama kali menunjukkan minat. Prospek yang baru saja mengisi formulir atau bertanya lewat pesan biasanya sedang berada di puncak ketertarikannya, dan minat itu cenderung memudar cukup cepat seiring waktu berlalu tanpa ada tindak lanjut. Sales yang merespons dalam hitungan menit memiliki peluang jauh lebih besar untuk melanjutkan percakapan dibanding yang baru membalas keesokan harinya setelah prospek mulai kehilangan minat atau sudah menemukan alternatif lain.",
+  },
+  {
+    type: "p",
+    text: "Pantau rata-rata waktu respons ini sebagai metrik tersendiri, terpisah dari metrik konversi antar tahap pipeline, karena keduanya mengukur hal yang berbeda meski saling berkaitan. Jika waktu respons rata-rata tim ternyata cukup lambat, pertimbangkan apakah masalahnya ada di jumlah beban kerja sales yang terlalu banyak, proses distribusi prospek baru yang kurang efisien, atau sekadar kebiasaan kerja yang perlu diperbaiki. Perbaikan pada metrik ini sering memberi dampak yang terasa cukup cepat dibanding perbaikan pada tahap pipeline yang lebih panjang dan kompleks.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

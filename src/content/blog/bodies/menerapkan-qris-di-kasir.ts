@@ -121,6 +121,24 @@ export const body: Block[] = [
     type: "p",
     text: "Ketentuan mengenai hal ini bisa berbeda tergantung kebijakan penyedia layanan pembayaran dan aturan yang berlaku bagi merchant, dan dapat berubah dari waktu ke waktu. Periksa langsung ketentuan terbaru dari penyedia layanan pembayaran Anda sebelum memutuskan untuk membebankan biaya transaksi kepada pelanggan, agar kebijakan yang diterapkan toko Anda tetap sesuai aturan yang berlaku.",
   },
+  { type: "h2", text: "Menyiapkan tim untuk pertanyaan dan komplain pelanggan" },
+  {
+    type: "p",
+    text: "Pelanggan yang terbiasa dengan QRIS di satu tempat kadang menemui perilaku sedikit berbeda di tempat lain — batas nominal transaksi, aplikasi pembayaran tertentu yang tidak terbaca, atau kode QR yang tidak bisa dipindai karena pencahayaan kurang baik. Kasir yang tidak siap menghadapi situasi semacam ini bisa terlihat gugup di depan pelanggan, yang pada akhirnya memberi kesan kurang profesional meski masalahnya sebenarnya teknis dan wajar terjadi.",
+  },
+  {
+    type: "p",
+    text: "Siapkan panduan singkat yang bisa diakses cepat oleh kasir untuk situasi-situasi umum ini, termasuk kontak yang bisa dihubungi jika masalah tidak terselesaikan dengan langkah standar. Pelanggan cenderung lebih memaklumi kendala teknis jika kasir menanganinya dengan tenang dan percaya diri, dibanding jika kasir terlihat kebingungan dan tidak tahu harus berbuat apa.",
+  },
+  { type: "h2", text: "Memantau tren pemakaian metode pembayaran dari waktu ke waktu" },
+  {
+    type: "p",
+    text: "Selain memastikan setiap transaksi tercatat dengan benar, data pembayaran digital juga bisa memberi wawasan yang berguna untuk perencanaan bisnis. Memantau bagaimana proporsi pemakaian QRIS dibanding metode pembayaran lain bergeser dari waktu ke waktu membantu Anda memahami preferensi pelanggan yang terus berubah, dan menyesuaikan strategi — misalnya apakah perlu menambah opsi pembayaran baru atau justru menyederhanakan yang sudah ada karena jarang dipakai.",
+  },
+  {
+    type: "p",
+    text: "Wawasan semacam ini hanya bisa didapat jika data pembayaran tercatat rapi dan konsisten sejak awal, sekali lagi menegaskan pentingnya integrasi yang baik antara sistem kasir dan penyedia layanan pembayaran, bukan sekadar mencatat manual sebagai catatan terpisah yang sulit dianalisis lebih lanjut di kemudian hari.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -119,6 +119,24 @@ export const body: Block[] = [
     type: "p",
     text: "Diskon besar yang diberikan segera setelah pendaftaran memang efektif menarik banyak orang bergabung dengan cepat, tetapi belum tentu menciptakan loyalitas yang bertahan lama. Pelanggan yang bergabung semata-mata demi diskon awal sering tidak kembali lagi setelah insentif tersebut habis digunakan. Pertimbangkan struktur yang memberi keuntungan lebih besar secara bertahap seiring konsistensi belanja, sehingga insentif justru mendorong kebiasaan belanja jangka panjang, bukan hanya transaksi satu kali di awal pendaftaran.",
   },
+  { type: "h2", text: "Melibatkan staf garis depan dalam desain program" },
+  {
+    type: "p",
+    text: "Staf kasir dan pelayan toko adalah pihak yang paling sering berhadapan langsung dengan reaksi pelanggan terhadap program loyalitas — keluhan tentang mekanisme yang membingungkan, pertanyaan yang berulang tentang cara kerja poin, atau usulan yang muncul spontan dari percakapan sehari-hari dengan pelanggan. Melibatkan mereka saat merancang atau merevisi program sering menghasilkan masukan praktis yang tidak terlihat dari data transaksi semata.",
+  },
+  {
+    type: "p",
+    text: "Selain itu, staf yang merasa dilibatkan dalam perancangan program cenderung lebih bersemangat menawarkannya kepada pelanggan baru, dibanding program yang terasa dipaksakan begitu saja dari manajemen tanpa mempertimbangkan realitas yang mereka hadapi setiap hari di lapangan.",
+  },
+  { type: "h2", text: "Menangani penipuan dan penyalahgunaan poin" },
+  {
+    type: "p",
+    text: "Program dengan nilai poin yang cukup besar berpotensi menarik penyalahgunaan — mulai dari pelanggan yang mendaftar dengan banyak akun berbeda untuk mengumpulkan bonus pendaftaran berulang kali, sampai potensi kecurangan internal oleh staf yang punya akses ke sistem poin. Sistem yang terintegrasi dengan kasir setidaknya membantu mendeteksi pola transaksi yang janggal, seperti penambahan poin tanpa transaksi pembelian yang sesuai.",
+  },
+  {
+    type: "p",
+    text: "Tetapkan batas wajar untuk hal-hal yang rawan disalahgunakan, seperti jumlah akun yang boleh didaftarkan dengan nomor telepon atau alamat yang sama, dan tinjau secara berkala transaksi dengan pola tidak biasa yang melibatkan penukaran poin dalam jumlah besar. Kewaspadaan yang wajar ini menjaga agar program tetap menguntungkan tanpa perlu menjadi terlalu curiga terhadap pelanggan yang jujur.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah program loyalitas cocok untuk semua jenis bisnis retail?" },
   {

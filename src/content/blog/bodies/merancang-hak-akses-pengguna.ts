@@ -136,6 +136,15 @@ export const body: Block[] = [
     type: "p",
     text: "Bandingkan hak akses yang dimiliki dengan tugas yang benar-benar dijalankan sehari-hari. Jika seseorang memiliki akses untuk menghapus data atau menyetujui transaksi besar padahal pekerjaannya sehari-hari tidak pernah membutuhkan itu, kemungkinan besar aksesnya perlu ditinjau ulang dan disesuaikan dengan kebutuhan aktualnya.",
   },
+  { type: "h2", text: "Dokumentasikan struktur peran, jangan simpan hanya di kepala satu orang" },
+  {
+    type: "p",
+    text: "Struktur hak akses yang dirancang dengan cermat sering kali hanya benar-benar dipahami secara utuh oleh satu orang — biasanya admin IT yang membangunnya sejak awal. Ketika orang tersebut cuti panjang, resign, atau sekadar lupa detail keputusan yang diambil bertahun-tahun lalu, perusahaan kehilangan pemahaman tentang mengapa suatu peran dirancang seperti itu, dan perubahan berikutnya menjadi tebak-tebakan yang berisiko merusak struktur yang sebenarnya sudah cukup baik.",
+  },
+  {
+    type: "p",
+    text: "Buat dokumentasi sederhana yang mencatat setiap peran yang ada, hak akses apa saja yang melekat padanya, dan alasan singkat mengapa akses tersebut diberikan seperti itu. Dokumentasi ini tidak perlu rumit atau formal — cukup catatan yang bisa dipahami oleh siapa pun yang menggantikan peran admin di kemudian hari, dan diperbarui setiap kali ada perubahan signifikan pada struktur peran. Ketiadaan dokumentasi semacam ini adalah salah satu alasan mengapa banyak perusahaan akhirnya membiarkan hak akses menjadi longgar dari waktu ke waktu — bukan karena sengaja mengabaikan, melainkan karena tidak ada lagi yang benar-benar memahami rancangan aslinya untuk bisa mempertahankannya dengan konsisten.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

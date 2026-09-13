@@ -123,6 +123,24 @@ export const body: Block[] = [
     type: "p",
     text: "Batasi jumlah penggunaan promo per pelanggan atau per transaksi langsung di dalam aturan sistem, terutama untuk promo dengan potongan besar yang rentan disalahgunakan. Untuk promo member, pastikan verifikasi keanggotaan dilakukan secara konsisten oleh kasir, dan gunakan laporan penggunaan promo untuk mendeteksi pola pemakaian yang tidak wajar dari akun tertentu.",
   },
+  { type: "h2", text: "Mempersiapkan kasir dan staf sebelum promo diluncurkan" },
+  {
+    type: "p",
+    text: "Sebaik apa pun aturan promo dirancang di sistem, staf yang berhadapan langsung dengan pelanggan tetap perlu memahami logikanya — bukan hanya cara memprosesnya di kasir, tapi juga alasan di balik syarat dan ketentuan tertentu, sehingga mereka bisa menjawab pertanyaan pelanggan dengan yakin tanpa harus bolak-balik bertanya ke supervisor. Briefing singkat sebelum promo dimulai, meski hanya beberapa menit, sering membuat perbedaan besar pada kelancaran pelaksanaan di lapangan.",
+  },
+  {
+    type: "p",
+    text: "Ini terutama penting untuk promo dengan mekanisme yang agak rumit, seperti kombinasi produk tertentu atau syarat minimum belanja bertingkat. Kasir yang tidak sepenuhnya memahami mekanismenya cenderung membuat kesalahan saat menjelaskan ke pelanggan, yang ujungnya bisa menimbulkan kekecewaan atau bahkan perselisihan kecil di meja kasir yang sebenarnya bisa dihindari dengan persiapan yang memadai.",
+  },
+  { type: "h2", text: "Mendokumentasikan setiap promo sebagai arsip pembelajaran" },
+  {
+    type: "p",
+    text: "Setiap promo yang pernah dijalankan, baik yang berhasil maupun yang kurang sesuai harapan, sebaiknya didokumentasikan secara ringkas: mekanisme yang dipakai, periode berlaku, dan catatan hasil evaluasinya. Arsip ini menjadi referensi berharga ketika merencanakan promo serupa di masa depan, sehingga Anda tidak perlu menebak ulang dari nol atau mengulang kesalahan yang sama yang sebenarnya sudah pernah dipelajari sebelumnya.",
+  },
+  {
+    type: "p",
+    text: "Seiring waktu, arsip promo ini juga membantu mengenali pola musiman atau jenis mekanisme yang cenderung lebih efektif untuk bisnis Anda secara spesifik — sesuatu yang sulit disimpulkan hanya dari mengingat-ingat pengalaman tanpa catatan yang terstruktur. Bisnis yang mendokumentasikan promonya dengan disiplin pada akhirnya membangun basis pengetahuan sendiri yang semakin tajam dari satu periode promosi ke periode berikutnya.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -124,6 +124,15 @@ export const body: Block[] = [
     type: "p",
     text: "Definisikan juga dengan spesifik apa yang termasuk “bug” dan apa yang termasuk “fitur baru” dalam konteks kontrak tersebut, karena batas antara keduanya sering menjadi area abu-abu yang memicu perdebatan. Sebuah perilaku sistem yang tidak sesuai dengan dokumen ruang lingkup awal biasanya jelas termasuk bug, tetapi permintaan agar sistem berperilaku berbeda dari yang awalnya disepakati — meski terasa seperti “perbaikan kecil” bagi klien — sebenarnya lebih tepat dikategorikan sebagai permintaan fitur baru.",
   },
+  { type: "h2", text: "Hukum yang berlaku dan penyelesaian sengketa" },
+  {
+    type: "p",
+    text: "Untuk kerja sama dengan vendor dari luar negeri, atau bahkan antar kota dengan sistem peradilan yang berbeda kecepatannya, kontrak sebaiknya menyatakan dengan jelas hukum negara atau yurisdiksi mana yang berlaku jika terjadi sengketa, dan mekanisme penyelesaian apa yang akan ditempuh lebih dulu — musyawarah, mediasi, arbitrase, atau langsung ke jalur pengadilan. Tanpa ketentuan ini, sengketa yang muncul bisa terjebak dalam perdebatan tentang yurisdiksi mana yang berwenang, sebelum masalah utamanya sendiri sempat dibahas.",
+  },
+  {
+    type: "p",
+    text: "Mencantumkan jalur mediasi atau arbitrase sebagai langkah yang wajib ditempuh sebelum ke pengadilan sering kali lebih efisien bagi kedua belah pihak, karena prosesnya biasanya lebih cepat dan biayanya lebih terkendali dibanding proses pengadilan formal yang bisa memakan waktu bertahun-tahun untuk sengketa bisnis yang kompleks.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah wajib menggunakan pengacara untuk semua kontrak software?" },
   {

@@ -133,6 +133,15 @@ export const body: Block[] = [
     type: "p",
     text: "Sebaiknya tetap dimasukkan, meski hanya dijual di satu saluran. Mencatat semua produk dalam satu sumber stok, termasuk yang eksklusif untuk saluran tertentu, memudahkan pelaporan gabungan dan mencegah kebingungan di kemudian hari jika suatu saat produk tersebut mulai dijual di saluran lain juga.",
   },
+  { type: "h2", text: "Opname stok fisik tetap wajib meski sudah terintegrasi" },
+  {
+    type: "p",
+    text: "Sistem yang terintegrasi dengan baik sering membuat pemilik bisnis merasa angka stok di layar pasti sudah akurat, sampai suatu saat opname fisik menemukan selisih yang tidak bisa dijelaskan. Integrasi antar saluran menjaga agar angka stok konsisten di semua sistem, tapi tidak bisa mendeteksi barang yang hilang karena kesalahan pencatatan penerimaan, kerusakan yang belum dilaporkan, atau kekeliruan saat mengambil barang dari rak yang salah. Semua sistem hanya akan seakurat data yang dimasukkan ke dalamnya — kalau ada kesalahan di titik pencatatan manapun, kesalahan itu ikut tersinkronkan ke semua saluran dengan rapi.",
+  },
+  {
+    type: "p",
+    text: "Jadwalkan opname stok fisik secara rutin, baik penuh maupun bertahap per kategori produk, dan bandingkan hasilnya dengan angka yang tercatat di sistem. Selisih yang ditemukan perlu ditelusuri penyebabnya, bukan sekadar disesuaikan begitu saja di sistem tanpa investigasi lebih lanjut, karena pola selisih yang berulang di produk atau lokasi tertentu biasanya menandakan ada masalah proses yang lebih mendasar — entah di penerimaan barang, penataan gudang, atau kedisiplinan pencatatan tim yang menangani stok sehari-hari.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

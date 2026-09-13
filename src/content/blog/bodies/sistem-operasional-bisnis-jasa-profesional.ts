@@ -132,6 +132,15 @@ export const body: Block[] = [
     type: "p",
     text: "Manfaatnya tetap terasa bahkan untuk tim kecil, terutama untuk memastikan setiap project yang dikerjakan benar-benar menguntungkan. Skalanya bisa disesuaikan — tidak perlu sistem yang rumit untuk tim dengan jumlah orang yang masih sedikit.",
   },
+  { type: "h2", text: "Standarisasi pekerjaan berulang tanpa mematikan fleksibilitas" },
+  {
+    type: "p",
+    text: "Banyak project jasa profesional terlihat unik di permukaan, tetapi sebenarnya mengandung tahapan yang berulang dari satu klien ke klien lain — proses onboarding klien baru, struktur dasar proposal, atau urutan langkah dalam mengerjakan jenis project tertentu. Tanpa checklist atau template standar untuk tahapan berulang ini, setiap anggota tim cenderung mengerjakannya dengan caranya sendiri, dan kualitas hasil akhir jadi bergantung pada siapa yang kebetulan menangani project tersebut.",
+  },
+  {
+    type: "p",
+    text: "Template dan checklist untuk tahapan yang benar-benar berulang bukan berarti mematikan kreativitas atau fleksibilitas dalam mengerjakan project. Justru sebaliknya — dengan bagian rutin sudah terstandarisasi dan tidak perlu dipikirkan ulang dari nol setiap kali, tim punya lebih banyak ruang dan waktu untuk fokus pada bagian project yang benar-benar membutuhkan pemikiran khusus dan keahlian personal mereka. Sistem yang menyimpan template ini dan memudahkan tim menerapkannya ke project baru membantu menjaga konsistensi kualitas, terutama saat tim bertambah besar dan tidak semua orang punya pengalaman yang sama.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

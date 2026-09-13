@@ -160,6 +160,15 @@ export const body: Block[] = [
     type: "p",
     text: "Tetapkan batas waktu wajar untuk setiap tingkat persetujuan, misalnya dua hari kerja untuk pembelian rutin. Jika batas waktu ini terlewati tanpa tindakan, sistem sebaiknya mengirim pengingat otomatis, lalu meningkatkan eskalasi ke penyetuju pengganti jika tetap tidak ada respons. Tanpa mekanisme ini, pengajuan bisa tertahan tanpa batas waktu yang jelas hanya karena satu orang lupa membukanya.",
   },
+  { type: "h2", text: "Menyelaraskan approval dengan evaluasi pemasok" },
+  {
+    type: "p",
+    text: "Alur persetujuan sering dirancang seolah-olah hanya soal nilai rupiah, padahal keputusan membeli dari pemasok tertentu juga membawa risiko tersendiri yang layak dipertimbangkan dalam proses yang sama. Pemasok baru yang belum pernah bertransaksi dengan perusahaan idealnya melewati pemeriksaan dasar — legalitas usaha, riwayat pengiriman jika tersedia referensinya, dan kejelasan syarat pembayaran — sebelum pesanan pertama dibuat, bukan setelah barang sudah dikirim dan ternyata bermasalah. Menggabungkan pemeriksaan pemasok ke dalam alur persetujuan, alih-alih menjadikannya proses terpisah yang mudah terlewat, memastikan setiap pembelian dari pemasok baru otomatis melalui langkah verifikasi ini tanpa bergantung pada inisiatif orang per orang untuk mengingatnya.",
+  },
+  {
+    type: "p",
+    text: "Untuk pemasok yang sudah lama bekerja sama dan terbukti dapat diandalkan, alur persetujuan sebaiknya tidak memperlakukan mereka sama ketatnya dengan pemasok baru yang belum punya rekam jejak. Sistem yang menyimpan riwayat transaksi dengan setiap pemasok — ketepatan waktu pengiriman, kesesuaian kualitas, dan konsistensi harga dari waktu ke waktu — memberi penyetuju konteks yang jauh lebih kaya dibanding sekadar melihat nominal pengajuan. Pembelian rutin dari pemasok dengan rekam jejak baik bisa diberi jalur persetujuan yang lebih ringkas, sementara pemasok dengan riwayat bermasalah otomatis mendapat pengawasan lebih ketat pada pengajuan berikutnya.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

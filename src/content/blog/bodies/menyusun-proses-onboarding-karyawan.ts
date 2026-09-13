@@ -146,6 +146,15 @@ export const body: Block[] = [
     type: "p",
     text: "Prinsipnya tetap sama, hanya pelaksanaannya perlu disesuaikan: akun dan akses sistem tetap harus siap sebelum hari pertama, perangkat kerja dikirim lebih awal agar tiba tepat waktu, dan sesi perkenalan dengan tim dilakukan lewat panggilan video terjadwal. Pendamping (buddy) menjadi lebih penting lagi untuk karyawan remote karena mereka tidak bisa sekadar menoleh ke meja sebelah untuk bertanya hal kecil.",
   },
+  { type: "h2", text: "Evaluasi ulang di titik 30, 60, dan 90 hari" },
+  {
+    type: "p",
+    text: "Onboarding sering dianggap selesai begitu minggu pertama berlalu, padahal proses adaptasi karyawan baru sesungguhnya berlangsung jauh lebih panjang. Jadwalkan percakapan singkat dan terstruktur dengan atasan langsung pada titik 30, 60, dan 90 hari sejak bergabung, masing-masing dengan fokus yang berbeda: di hari ke-30 lebih ke memastikan hal-hal dasar sudah beres dan tidak ada hambatan yang mengganjal, di hari ke-60 mulai membahas kualitas kontribusi dan area yang perlu diperkuat, dan di hari ke-90 mengevaluasi apakah ekspektasi awal saat perekrutan sudah sesuai dengan kenyataan pekerjaan sehari-hari.",
+  },
+  {
+    type: "p",
+    text: "Percakapan bertahap seperti ini jauh lebih efektif dibanding menunggu evaluasi kinerja tahunan pertama, karena masalah kecil yang muncul di awal bisa segera dibahas dan diperbaiki sebelum sempat membesar atau membuat karyawan baru terlanjur kecewa dan mempertimbangkan untuk keluar. Ini juga memberi kesempatan bagi karyawan baru untuk menyampaikan kekhawatiran mereka sendiri secara jujur, dalam forum yang memang disediakan khusus untuk itu, alih-alih memendamnya sampai akhirnya memilih resign tanpa penjelasan yang jelas.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

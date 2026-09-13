@@ -143,6 +143,24 @@ export const body: Block[] = [
     type: "p",
     text: "Manfaatnya paling terasa pada volume tinggi, tetapi bisnis dengan volume sedang yang stafnya terbatas juga bisa merasakan manfaat signifikan, terutama jika waktu staf tersebut lebih berharga dipakai untuk pekerjaan lain yang membutuhkan penilaian manusia.",
   },
+  { type: "h2", text: "Siapa yang bertanggung jawab meninjau hasil ekstraksi" },
+  {
+    type: "p",
+    text: "Otomatisasi yang berjalan tanpa pemilik yang jelas cenderung terbengkalai begitu masalah kecil muncul. Tentukan sejak awal siapa yang bertanggung jawab memeriksa data berkeyakinan rendah, siapa yang berwenang mengoreksi kesalahan pembacaan, dan siapa yang memantau tingkat akurasi dari waktu ke waktu. Tanpa kejelasan ini, antrean dokumen yang perlu ditinjau manual bisa menumpuk tanpa ada yang benar-benar merasa itu tugasnya, sampai akhirnya menumpuk menjadi masalah yang lebih besar dari proses manual yang digantikannya.",
+  },
+  {
+    type: "p",
+    text: "Tanggung jawab ini tidak harus dipegang satu orang penuh waktu — untuk volume yang belum terlalu besar, cukup dijadikan bagian dari tugas harian staf admin yang sudah ada, dengan waktu khusus yang dialokasikan setiap hari untuk meninjau dokumen yang ditandai sistem. Yang penting bukan besarnya alokasi waktu, melainkan kejelasan bahwa tugas ini benar-benar menjadi milik seseorang.",
+  },
+  { type: "h2", text: "Menangani dokumen dalam mata uang atau bahasa berbeda" },
+  {
+    type: "p",
+    text: "Bisnis yang berhubungan dengan pemasok atau pelanggan dari luar negeri sering menerima dokumen dalam bahasa asing atau dengan format mata uang dan tanggal yang berbeda dari konvensi lokal. Sistem otomatisasi perlu dikonfigurasi untuk mengenali variasi ini — misalnya format tanggal hari-bulan-tahun versus bulan-hari-tahun, atau simbol mata uang yang berbeda-beda — agar tidak salah menafsirkan angka yang sebenarnya sudah jelas bagi manusia yang membacanya secara langsung.",
+  },
+  {
+    type: "p",
+    text: "Untuk volume dokumen asing yang masih kecil, sering kali lebih realistis memperlakukannya sebagai pengecualian yang ditinjau manual sejak awal, dibanding memaksakan sistem mengenali seluruh variasi format yang mungkin muncul dari berbagai negara. Perluas cakupan otomatisasi ke dokumen asing hanya setelah volumenya benar-benar cukup besar untuk membenarkan usaha konfigurasi tambahan tersebut.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

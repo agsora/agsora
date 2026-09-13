@@ -137,6 +137,20 @@ export const body: Block[] = [
     type: "p",
     text: "Sangat wajar, dan sebaiknya selalu dilakukan untuk project bernilai besar. Vendor yang memiliki rekam jejak baik biasanya tidak keberatan menghubungkan Anda dengan klien sebelumnya yang bisa memberi gambaran nyata tentang cara kerja mereka sehari-hari. Kalau vendor enggan memberikan referensi sama sekali tanpa alasan yang masuk akal, jadikan itu sebagai salah satu pertimbangan tambahan sebelum memutuskan.",
   },
+  { type: "h2", text: "Perhatikan bahasa yang terlalu umum atau ambigu" },
+  {
+    type: "p",
+    text: "Frasa seperti “sistem yang user-friendly” atau “dashboard yang lengkap” terdengar meyakinkan tapi sebenarnya tidak menjelaskan apa pun secara konkret tentang apa yang akan Anda terima. Proposal yang baik menerjemahkan klaim semacam ini menjadi hal yang bisa diverifikasi: fitur apa saja yang termasuk dalam dashboard tersebut, laporan apa yang bisa dihasilkan, dan bagaimana bentuknya secara spesifik.",
+  },
+  {
+    type: "p",
+    text: "Jika Anda menemukan proposal yang penuh dengan bahasa umum semacam ini tanpa penjelasan konkret di baliknya, itu tanda untuk meminta klarifikasi lebih lanjut sebelum menandatangani apa pun. Vendor yang benar-benar memahami kebutuhan Anda biasanya bisa menjelaskan dengan detail yang jauh lebih spesifik, karena mereka sudah memikirkan bagaimana sistem tersebut akan benar-benar dipakai dalam operasional sehari-hari bisnis Anda.",
+  },
+  { type: "h2", text: "Bandingkan lebih dari sekadar dua proposal" },
+  {
+    type: "p",
+    text: "Membandingkan hanya dua proposal membuat Anda rentan menganggap salah satunya sebagai patokan “normal” padahal keduanya sama-sama tidak ideal. Mengumpulkan setidaknya tiga proposal dari vendor yang berbeda memberi gambaran yang lebih jelas tentang kisaran harga yang wajar untuk ruang lingkup pekerjaan yang Anda butuhkan, sekaligus membantu mengidentifikasi proposal yang menyimpang jauh dari kewajaran — baik karena terlalu murah maupun terlalu mahal untuk cakupan yang sebenarnya setara.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -122,6 +122,15 @@ export const body: Block[] = [
     type: "p",
     text: "Enkripsi saat disimpan melindungi data ketika berada di server atau database, sehingga tidak bisa dibaca meski penyimpanan itu berhasil diakses pihak yang tidak berwenang. Enkripsi saat dikirim melindungi data selagi berpindah antar sistem, misalnya dari perangkat karyawan ke server perusahaan, sehingga tidak bisa disadap di tengah jalan. Keduanya perlu diterapkan bersamaan karena melindungi data pada tahap yang berbeda.",
   },
+  { type: "h2", text: "Audit hak akses secara berkala, bukan hanya saat setup awal" },
+  {
+    type: "p",
+    text: "Hak akses yang ditetapkan dengan rapi saat sistem pertama kali dipasang cenderung perlahan menjadi longgar seiring waktu. Karyawan pindah divisi tapi akses lamanya tidak pernah dicabut, staf magang yang sudah selesai masa kerjanya masih tercatat sebagai pengguna aktif, atau seorang manajer yang dulu pernah menangani proyek lintas divisi masih bisa melihat data tim yang sebenarnya sudah tidak lagi menjadi tanggung jawabnya. Tanpa peninjauan berkala, daftar siapa yang bisa mengakses apa akan semakin jauh dari kondisi yang seharusnya, dan celah keamanan ini biasanya baru disadari setelah insiden benar-benar terjadi.",
+  },
+  {
+    type: "p",
+    text: "Jadwalkan audit hak akses secara rutin, misalnya setiap enam bulan sekali, di mana penanggung jawab sistem meninjau ulang daftar pengguna aktif dan tingkat akses masing-masing, lalu mencocokkannya dengan peran dan status kerja mereka saat ini. Cabut akses yang sudah tidak relevan, turunkan tingkat akses yang ternyata terlalu luas dibanding kebutuhan sebenarnya, dan pastikan proses offboarding karyawan yang resign atau pindah divisi selalu mencakup langkah pencabutan akses sebagai bagian standar, bukan langkah tambahan yang mudah terlewat di tengah kesibukan administrasi lainnya.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

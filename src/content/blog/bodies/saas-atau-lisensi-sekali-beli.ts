@@ -117,6 +117,24 @@ export const body: Block[] = [
     type: "p",
     text: "Jika biaya berlangganan mulai mendekati atau bahkan melampaui perkiraan biaya lisensi sekali beli untuk skala operasional Anda saat ini, itu adalah sinyal yang layak dipertimbangkan untuk mengevaluasi ulang model yang dipakai — bukan berarti harus segera berpindah, tetapi setidaknya membuka diskusi dengan penyedia atau mempertimbangkan alternatif lain yang tersedia di pasar.",
   },
+  { type: "h2", text: "Mempertimbangkan kebutuhan kustomisasi" },
+  {
+    type: "p",
+    text: "Bisnis dengan proses kerja yang cukup unik dan berbeda dari standar umum industri sering menghadapi keterbatasan pada layanan berlangganan, yang biasanya dirancang untuk melayani banyak pelanggan sekaligus dengan fitur yang relatif seragam. Permintaan kustomisasi khusus untuk satu pelanggan jarang dilayani penyedia SaaS, atau jika bisa, biayanya sering jauh lebih mahal dibanding memodifikasi sistem berbasis lisensi yang kodenya bisa diubah langsung sesuai kebutuhan.",
+  },
+  {
+    type: "p",
+    text: "Sebelum memutuskan, petakan dengan jujur seberapa besar proses bisnis Anda benar-benar unik dibanding proses standar yang sudah dilayani baik oleh kebanyakan software di pasaran. Banyak bisnis yang merasa proses mereka sangat khas, padahal sebenarnya bisa disesuaikan dengan fitur konfigurasi yang sudah tersedia di layanan berlangganan tanpa perlu kustomisasi mendalam yang mahal.",
+  },
+  { type: "h2", text: "Dampak migrasi terhadap alur kerja tim" },
+  {
+    type: "p",
+    text: "Berpindah dari satu sistem ke sistem lain, terlepas dari model lisensinya, selalu membawa periode transisi di mana tim perlu beradaptasi dengan antarmuka dan alur kerja baru. Periode ini sering memperlambat produktivitas untuk sementara waktu, dan sebaiknya diperhitungkan sebagai bagian dari biaya keputusan, bukan sekadar biaya lisensi atau langganan yang tertera di kontrak semata.",
+  },
+  {
+    type: "p",
+    text: "Rencanakan waktu migrasi pada periode yang relatif tidak sibuk bagi bisnis Anda, sediakan pelatihan yang memadai bagi tim, dan jika memungkinkan, jalankan sistem lama dan baru secara paralel untuk sementara waktu sebelum sepenuhnya beralih, agar operasional tidak terganggu jika ada kendala tak terduga yang muncul di sistem baru.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Model mana yang lebih umum dipilih bisnis kecil di Indonesia saat ini?" },
   {

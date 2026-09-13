@@ -135,6 +135,24 @@ export const body: Block[] = [
     type: "p",
     text: "Sales yang menangani pelanggan tersebut sebaiknya tetap menjadi orang yang memperkenalkan nomor baru secara personal, bukan digantikan begitu saja oleh pesan otomatis dari nomor yang belum pernah dilihat pelanggan sebelumnya. Kontinuitas hubungan personal ini penting dijaga meski infrastrukturnya berubah.",
   },
+  { type: "h2", text: "Mengukur kepatuhan tim terhadap sistem baru" },
+  {
+    type: "p",
+    text: "Memindahkan komunikasi ke nomor resmi dan mewajibkan pencatatan di CRM tidak banyak berarti jika kepatuhannya tidak pernah benar-benar dipantau. Tinjau secara berkala berapa proporsi sales yang konsisten mencatat ringkasan percakapan di sistem dibanding yang masih mengandalkan ingatan atau catatan pribadi. Data ini membantu membedakan mana yang benar-benar butuh pelatihan ulang, dan mana yang mungkin butuh alasan tambahan untuk memahami kenapa kebiasaan ini penting bagi mereka sendiri, bukan hanya bagi perusahaan.",
+  },
+  {
+    type: "p",
+    text: "Pantau juga kualitas ringkasan yang dicatat, bukan hanya kuantitasnya. Ringkasan seperti “sudah dihubungi” tidak memberi nilai apa pun dibanding ringkasan yang menyebutkan kebutuhan spesifik pelanggan, keberatan yang disampaikan, dan langkah selanjutnya yang disepakati. Berikan contoh konkret tentang seperti apa ringkasan yang baik kepada tim sales, sehingga standarnya jelas dan tidak diserahkan pada interpretasi masing-masing orang.",
+  },
+  { type: "h2", text: "Menangani pelanggan yang berpindah cabang atau sales" },
+  {
+    type: "p",
+    text: "Bisnis dengan banyak cabang atau area penjualan sering menghadapi situasi di mana satu pelanggan pernah berhubungan dengan lebih dari satu sales — misalnya karena pindah domisili, atau karena awalnya dihubungi tim marketing sebelum diserahkan ke sales area. Tanpa sistem yang terpusat, riwayat pelanggan ini bisa terpecah di beberapa ponsel berbeda, membuat sales yang menangani belakangan tidak tahu apa yang sudah pernah dibicarakan sebelumnya dan berisiko mengulang pertanyaan atau penawaran yang sama kepada pelanggan yang sama.",
+  },
+  {
+    type: "p",
+    text: "Dengan riwayat percakapan yang tersimpan terpusat, serah terima pelanggan antar cabang atau antar sales menjadi jauh lebih mulus. Sales baru yang menerima pelanggan pindahan bisa langsung membaca konteks lengkap sebelum menghubungi, sehingga pelanggan merasa dilayani secara konsisten meski orang yang menanganinya berganti, bukan merasa harus menjelaskan ulang kebutuhannya dari awal setiap kali ada pergantian.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

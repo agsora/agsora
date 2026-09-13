@@ -127,6 +127,24 @@ export const body: Block[] = [
     type: "p",
     text: "Jelaskan manfaatnya bagi atasan itu sendiri — penilaian yang didukung catatan jauh lebih mudah dipertahankan ketika dipertanyakan karyawan, dan mengurangi beban mengingat-ingat semuanya di akhir tahun. Sistem yang memudahkan pencatatan singkat, misalnya lewat ponsel, juga membantu mengurangi resistensi.",
   },
+  { type: "h2", text: "Menilai karyawan yang belum genap satu periode penuh" },
+  {
+    type: "p",
+    text: "Karyawan yang baru bergabung di pertengahan periode penilaian menghadapi situasi yang berbeda — mereka belum punya cukup waktu untuk menunjukkan kontribusi penuh dibanding rekan kerja yang sudah setahun penuh di posisinya. Menilai mereka dengan kriteria dan bobot yang sama persis dengan karyawan lama sering kali tidak adil dan tidak mencerminkan kondisi yang sebenarnya.",
+  },
+  {
+    type: "p",
+    text: "Pendekatan yang lebih masuk akal adalah menyesuaikan periode penilaian secara proporsional sesuai lama masa kerja mereka, atau menetapkan penilaian sementara yang lebih berfokus pada proses adaptasi dan pembelajaran di awal, baru beralih ke penilaian penuh setelah mereka benar-benar melewati satu periode utuh di posisi tersebut. Kejelasan tentang perlakuan khusus ini sebaiknya dikomunikasikan sejak karyawan tersebut bergabung, bukan baru dijelaskan saat sesi penilaian berlangsung.",
+  },
+  { type: "h2", text: "Menghubungkan penilaian dengan budaya organisasi" },
+  {
+    type: "p",
+    text: "Kriteria penilaian yang dipakai sebuah organisasi secara tidak langsung mengirim pesan kuat tentang apa yang sebenarnya dihargai perusahaan, terlepas dari apa yang tertulis di pernyataan nilai atau budaya kerja resmi. Jika perusahaan mengklaim menghargai kerja sama tim, tetapi penilaian kinerja hanya berdasarkan pencapaian individu semata, karyawan akan dengan cepat menyadari kesenjangan ini dan cenderung mengikuti apa yang benar-benar diukur, bukan apa yang sekadar diucapkan.",
+  },
+  {
+    type: "p",
+    text: "Tinjau secara berkala apakah kriteria penilaian yang dipakai organisasi benar-benar selaras dengan nilai dan budaya kerja yang ingin dibangun. Ketidaksesuaian di sini sering menjadi sumber kebingungan karyawan tentang perilaku seperti apa yang sebenarnya diharapkan dari mereka dalam bekerja sehari-hari, meski secara teknis mereka sudah memenuhi target angka yang ditetapkan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

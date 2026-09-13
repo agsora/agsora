@@ -133,6 +133,15 @@ export const body: Block[] = [
     type: "p",
     text: "Dengan sistem kasir yang mendukung mode offline, transaksi tetap bisa dicatat secara lokal selama gangguan berlangsung — struk tetap bisa dicetak, dan stok tetap berkurang sesuai penjualan yang terjadi. Begitu koneksi kembali, seluruh transaksi yang tertunda tersinkron otomatis ke sistem pusat tanpa perlu campur tangan manual dari kasir maupun pemilik toko.",
   },
+  { type: "h2", text: "Melatih tim bekerja dalam kondisi offline" },
+  {
+    type: "p",
+    text: "Aplikasi yang secara teknis mendukung mode offline tidak otomatis membuat tim di lapangan langsung memahami cara memakainya dengan benar. Banyak petugas lapangan terbiasa dengan kebiasaan lama — menunggu sinyal kembali sebelum mencatat apa pun — dan perlu diyakinkan bahwa mencatat data saat offline itu aman dan akan tersinkron dengan sendirinya. Latih tim untuk tetap mencatat transaksi atau laporan secara normal meski indikator koneksi menunjukkan status offline, dan tunjukkan langsung bagaimana proses sinkronisasi bekerja agar mereka percaya data yang dicatat tidak akan hilang begitu saja.",
+  },
+  {
+    type: "p",
+    text: "Latihan ini idealnya dilakukan dalam kondisi yang benar-benar menyerupai lapangan, bukan hanya penjelasan di ruang kelas. Simulasikan skenario nyata — mencatat beberapa transaksi berurutan saat offline, lalu mengamati bersama proses sinkronisasi saat koneksi kembali tersedia — sehingga tim bisa melihat sendiri bahwa sistem benar-benar bekerja seperti yang dijanjikan. Kepercayaan tim terhadap mode offline tumbuh jauh lebih cepat lewat pengalaman langsung seperti ini dibanding hanya lewat penjelasan tertulis di buku panduan yang mungkin tidak pernah benar-benar dibaca.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

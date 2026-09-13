@@ -141,6 +141,15 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk kebutuhan integrasi yang sederhana dan jumlahnya sedikit, vendor sistem yang Anda pakai biasanya sudah menyediakan tim yang bisa membantu proses ini sebagai bagian dari layanan implementasi. Developer khusus internal lebih relevan ketika bisnis Anda memiliki banyak sistem yang perlu terus-menerus dihubungkan dan disesuaikan seiring waktu.",
   },
+  { type: "h2", text: "Batas penggunaan dan perubahan versi API" },
+  {
+    type: "p",
+    text: "Sebagian besar API membatasi jumlah permintaan yang boleh dikirim dalam periode waktu tertentu, dikenal sebagai rate limit. Batasan ini ada untuk menjaga stabilitas layanan agar tidak kewalahan menerima permintaan dari banyak pengguna sekaligus, tetapi bagi bisnis yang volumenya bertumbuh, batasan ini bisa menjadi kendala nyata jika tidak diperhitungkan sejak awal. Integrasi yang dirancang tanpa mempertimbangkan rate limit bisa berhenti berfungsi tiba-tiba begitu volume transaksi melewati ambang tertentu, justru pada saat bisnis sedang ramai-ramainya dan data yang mengalir paling dibutuhkan. Tanyakan kepada vendor berapa batas ini dan apakah tersedia opsi untuk menaikkannya seiring pertumbuhan kebutuhan Anda.",
+  },
+  {
+    type: "p",
+    text: "Vendor juga sewaktu-waktu memperbarui API mereka — menambah fitur, mengubah format data, atau menghentikan dukungan untuk versi lama. Perubahan seperti ini, jika tidak dikomunikasikan dan diantisipasi dengan baik, bisa membuat integrasi yang tadinya berjalan lancar tiba-tiba berhenti berfungsi tanpa peringatan. Vendor yang matang biasanya memberi masa transisi yang cukup panjang sebelum menghentikan dukungan versi lama, disertai dokumentasi perubahan yang jelas. Saat mengevaluasi vendor, tanyakan juga bagaimana mereka menangani perubahan versi API di masa depan, dan apakah tim teknis Anda atau vendor akan diberi tahu lebih dulu sebelum perubahan itu benar-benar diterapkan.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

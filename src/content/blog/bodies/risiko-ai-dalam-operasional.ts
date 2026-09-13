@@ -102,6 +102,15 @@ export const body: Block[] = [
     type: "p",
     text: "Libatkan perwakilan dari berbagai tim saat menyusun kebijakan ini, karena kebutuhan dan risiko pemakaian AI bisa sangat berbeda antara tim customer service, tim keuangan, dan tim pemasaran. Kebijakan yang disusun sepihak oleh satu tim saja sering kali tidak realistis diterapkan di tim lain yang memiliki konteks kerja berbeda, dan akhirnya hanya menjadi dokumen formalitas yang tidak benar-benar diikuti sehari-hari.",
   },
+  { type: "h2", text: "Transparansi kepada pelanggan tentang penggunaan AI" },
+  {
+    type: "p",
+    text: "Pelanggan yang menyadari sedang berbicara dengan chatbot AI, bukan manusia, cenderung memaklumi keterbatasan jawabannya dan tahu kapan sebaiknya meminta dialihkan ke petugas manusia untuk masalah yang lebih rumit. Sebaliknya, chatbot yang dirancang seolah-olah manusia tanpa pemberitahuan yang jelas bisa menimbulkan kekecewaan lebih besar ketika pelanggan akhirnya menyadari bahwa jawaban yang mereka terima ternyata berasal dari sistem otomatis, terutama jika jawaban itu keliru atau terasa berbeda jauh dari nada percakapan manusia yang sebelumnya mereka bayangkan.",
+  },
+  {
+    type: "p",
+    text: "Sediakan juga jalur yang mudah dan jelas bagi pelanggan untuk berpindah dari percakapan dengan AI ke petugas manusia kapan pun mereka menginginkannya, tanpa harus mengulang seluruh penjelasan dari awal. Transparansi semacam ini bukan hanya soal etika, tetapi juga secara praktis mengurangi risiko keluhan dan ketidakpuasan yang muncul akibat ekspektasi yang tidak sesuai dengan kenyataan, terutama saat pelanggan baru menyadari lawan bicaranya bukan manusia setelah percakapan berlangsung cukup lama dan sudah terlanjur berharap banyak.",
+  },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah AI generatif aman dipakai untuk komunikasi resmi dengan pelanggan?" },
   {

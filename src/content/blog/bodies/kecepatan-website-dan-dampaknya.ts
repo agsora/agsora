@@ -154,6 +154,15 @@ export const body: Block[] = [
     type: "p",
     text: "Platform iklan besar juga umumnya mempertimbangkan kualitas dan kecepatan halaman tujuan sebagai salah satu faktor yang memengaruhi biaya dan penayangan iklan. Halaman tujuan yang lambat bukan hanya merugikan dari sisi pengalaman pengunjung, tapi juga bisa membuat kampanye iklan menjadi kurang efisien dibanding jika halaman tujuannya dioptimalkan dengan baik sejak awal.",
   },
+  { type: "h2", text: "Kecepatan khusus di halaman checkout" },
+  {
+    type: "p",
+    text: "Jika sebagian besar halaman website sudah cukup cepat tetapi halaman checkout justru lambat, dampaknya bisa lebih merugikan dibanding jika masalahnya tersebar merata di semua halaman. Pengunjung yang sudah sampai ke tahap checkout adalah pengunjung yang paling siap membeli — mereka sudah melewati tahap mempertimbangkan dan memutuskan. Kehilangan mereka justru di langkah terakhir karena halaman lambat memuat atau macet saat memproses pembayaran adalah kerugian yang jauh lebih terasa dibanding kehilangan pengunjung yang baru sekadar melihat-lihat di halaman awal.",
+  },
+  {
+    type: "p",
+    text: "Perlakukan halaman checkout dengan perhatian ekstra saat mengevaluasi kecepatan website — kurangi skrip pihak ketiga yang tidak esensial di halaman ini secara khusus, pastikan proses verifikasi pembayaran tidak menambah waktu tunggu yang tidak perlu, dan uji langsung proses pembayaran dari awal hingga selesai di kondisi jaringan yang mewakili pengunjung sesungguhnya. Sedikit perlambatan di halaman lain mungkin masih bisa ditoleransi pengunjung, tapi di halaman checkout, setiap detik tambahan adalah kesempatan bagi mereka untuk ragu dan membatalkan pembelian yang sudah hampir selesai.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

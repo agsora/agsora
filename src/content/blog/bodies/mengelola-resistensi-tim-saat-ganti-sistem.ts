@@ -123,6 +123,15 @@ export const body: Block[] = [
     type: "p",
     text: "Wajar, terutama untuk anggota tim yang jarang berinteraksi langsung dengan sistem atau baru bergabung setelah pelatihan awal selesai dilakukan. Sediakan sumber bantuan yang tetap bisa diakses kapan saja setelah masa transisi resmi berakhir, seperti panduan tertulis atau kontak yang bisa dihubungi, sehingga dukungan tidak sepenuhnya hilang begitu tanggal transisi resmi terlewati.",
   },
+  { type: "h2", text: "Waspadai resistensi yang datang dari level manajer menengah" },
+  {
+    type: "p",
+    text: "Perhatian sering terlalu terpusat pada resistensi staf pelaksana, padahal manajer menengah juga bisa menjadi sumber penolakan yang jauh lebih berdampak karena posisi mereka. Seorang manajer yang secara terbuka meragukan sistem baru di depan timnya, sekalipun tidak bermaksud menyabotase, akan memberi izin tidak langsung bagi bawahannya untuk ikut skeptis. Sebaliknya, manajer yang aktif memakai sistem baru dan menegur dengan tegas ketika ada anggota tim yang kembali ke cara lama akan mempercepat adopsi jauh lebih efektif dibanding instruksi dari manajemen puncak yang terasa jauh dari keseharian kerja.",
+  },
+  {
+    type: "p",
+    text: "Manajer menengah juga sering punya kekhawatiran tersendiri yang jarang disuarakan secara terbuka — misalnya takut laporan yang mereka hasilkan selama ini ternyata tidak lagi relevan di sistem baru, atau khawatir kehilangan kendali atas cara timnya bekerja karena semua proses kini tercatat dan terlihat oleh atasan yang lebih tinggi. Libatkan mereka dalam sesi terpisah sebelum peluncuran untuk membahas kekhawatiran spesifik ini secara jujur, dan pastikan mereka memahami bagaimana peran mereka justru diperkuat, bukan dipersempit, oleh visibilitas data yang lebih baik dari sistem baru.",
+  },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
