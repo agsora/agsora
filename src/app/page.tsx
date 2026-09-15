@@ -36,9 +36,6 @@ export default function Home() {
       <Section className="pt-0">
         <SystemIntegration />
       </Section>
-      <Section className="border-t border-line">
-        <ClientLogos />
-      </Section>
       <PathChooser />
       <Section>
         <ServicesGrid compact />
@@ -59,7 +56,13 @@ export default function Home() {
         {/* Visual only — FAQPage schema is emitted once, on /pricing. */}
         <Faq featuredOnly />
       </Section>
-      <Section className="border-t border-line">
+      {/* Trust bar near the bottom, just above the final CTA — common
+          placement on tech marketing sites, doesn't compete with the
+          integration diagram for "prove it" attention up top. */}
+      <Section className="border-t border-line py-10 md:py-14">
+        <ClientLogos />
+      </Section>
+      <Section className="border-t border-line pt-0">
         <ContactCta />
       </Section>
     </>

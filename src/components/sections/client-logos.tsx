@@ -14,7 +14,7 @@ export function ClientLogos() {
       </Container>
 
       <div
-        className="group relative mt-8 overflow-hidden"
+        className="group relative mt-6 overflow-hidden"
         style={{
           maskImage:
             "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
