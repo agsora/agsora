@@ -3,28 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { Send } from "lucide-react";
 import { siteConfig } from "@/config/site";
-
-const needTypes = [
-  "Custom Software",
-  "Website Development",
-  "Mobile Application",
-  "ERP",
-  "POS",
-  "HRIS",
-  "CRM",
-  "AI Automation / API Integration",
-  "Produk SaaS AG·SORA",
-  "Lainnya",
-];
-
-const budgetRanges = [
-  "< Rp5 juta",
-  "Rp5 - 15 juta",
-  "Rp15 - 30 juta",
-  "Rp30 - 75 juta",
-  "> Rp75 juta",
-  "Belum tahu / perlu diskusi",
-];
+import { useLocale } from "@/i18n/locale-context";
 
 function inputClass() {
   return "focus-ring w-full rounded-md border border-line bg-surface-0 px-3.5 py-2.5 text-[14px] text-ink placeholder:text-ink-subtle transition-colors hover:border-line-strong focus:border-accent";
@@ -33,6 +12,7 @@ function inputClass() {
 const labelClass = "mb-2 block text-[12px] font-medium text-ink-muted";
 
 export function ContactForm() {
+  const { t } = useLocale();
   const [submitted, setSubmitted] = useState(false);
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
@@ -61,37 +41,37 @@ export function ContactForm() {
     <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-5 sm:grid-cols-2">
       <div>
         <label htmlFor="name" className={labelClass}>
-          Nama
+          {t.contactForm.name}
         </label>
-        <input required id="name" name="name" className={inputClass()} placeholder="Nama lengkap" />
+        <input required id="name" name="name" className={inputClass()} placeholder={t.contactForm.namePlaceholder} />
       </div>
       <div>
         <label htmlFor="company" className={labelClass}>
-          Perusahaan
+          {t.contactForm.company}
         </label>
-        <input id="company" name="company" className={inputClass()} placeholder="Nama perusahaan" />
+        <input id="company" name="company" className={inputClass()} placeholder={t.contactForm.companyPlaceholder} />
       </div>
       <div>
         <label htmlFor="email" className={labelClass}>
-          Email
+          {t.contactForm.email}
         </label>
-        <input required type="email" id="email" name="email" className={inputClass()} placeholder="nama@perusahaan.com" />
+        <input required type="email" id="email" name="email" className={inputClass()} placeholder={t.contactForm.emailPlaceholder} />
       </div>
       <div>
         <label htmlFor="phone" className={labelClass}>
-          WhatsApp
+          {t.contactForm.whatsapp}
         </label>
-        <input required id="phone" name="phone" className={inputClass()} placeholder="08xx-xxxx-xxxx" />
+        <input required id="phone" name="phone" className={inputClass()} placeholder={t.contactForm.whatsappPlaceholder} />
       </div>
       <div>
         <label htmlFor="need" className={labelClass}>
-          Jenis kebutuhan
+          {t.contactForm.needType}
         </label>
         <select required id="need" name="need" defaultValue="" className={inputClass()}>
           <option value="" disabled>
-            Pilih jenis kebutuhan
+            {t.contactForm.needTypePlaceholder}
           </option>
-          {needTypes.map((n) => (
+          {t.contactForm.needTypes.map((n) => (
             <option key={n} value={n}>
               {n}
             </option>
@@ -100,13 +80,13 @@ export function ContactForm() {
       </div>
       <div>
         <label htmlFor="budget" className={labelClass}>
-          Budget range
+          {t.contactForm.budget}
         </label>
         <select required id="budget" name="budget" defaultValue="" className={inputClass()}>
           <option value="" disabled>
-            Pilih budget range
+            {t.contactForm.budgetPlaceholder}
           </option>
-          {budgetRanges.map((b) => (
+          {t.contactForm.budgetRanges.map((b) => (
             <option key={b} value={b}>
               {b}
             </option>
@@ -115,7 +95,7 @@ export function ContactForm() {
       </div>
       <div className="sm:col-span-2">
         <label htmlFor="description" className={labelClass}>
-          Deskripsi project
+          {t.contactForm.description}
         </label>
         <textarea
           required
@@ -123,7 +103,7 @@ export function ContactForm() {
           name="description"
           rows={5}
           className={inputClass()}
-          placeholder="Ceritakan kebutuhan dan tantangan bisnis Anda..."
+          placeholder={t.contactForm.descriptionPlaceholder}
         />
       </div>
 
@@ -132,13 +112,12 @@ export function ContactForm() {
           type="submit"
           className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-md bg-ink px-5 py-3 text-[14px] font-medium text-surface-0 transition-colors hover:bg-white sm:w-auto"
         >
-          Kirim via WhatsApp
+          {t.contactForm.submit}
           <Send className="h-4 w-4" />
         </button>
         {submitted ? (
           <p className="mt-3 text-[13px] text-accent">
-            Terima kasih! Pesan Anda telah disiapkan di WhatsApp — silakan
-            kirim untuk menyelesaikan permintaan konsultasi.
+            {t.contactForm.thankYou}
           </p>
         ) : null}
       </div>

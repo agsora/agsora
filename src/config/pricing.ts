@@ -30,6 +30,3 @@ export const customDevPricing: PricingItem[] = [
   { id: "maintenance", name: "Maintenance", price: "Rp750.000", unit: "/ bulan", category: "Support & Enterprise" },
   { id: "enterprise", name: "Enterprise / Multi Branch", price: "Custom Quote", category: "Support & Enterprise" },
 ];
-
-export const pricingDisclaimer =
-  "Harga mulai dari dan dapat berubah sesuai fitur, jumlah user, integrasi, kompleksitas workflow, timeline, serta kebutuhan support. Biaya pihak ketiga tidak termasuk kecuali dinyatakan lain.";

@@ -93,6 +93,47 @@ export type Dictionary = {
     gridTitle: string;
     gridDescription: string;
   };
+  contactPage: {
+    heroTitle: string;
+    heroDescription: string;
+    contactInfo: string;
+    email: string;
+    whatsapp: string;
+    whatsappCta: string;
+    website: string;
+    enterpriseNote: string;
+  };
+  contactForm: {
+    name: string;
+    namePlaceholder: string;
+    company: string;
+    companyPlaceholder: string;
+    email: string;
+    emailPlaceholder: string;
+    whatsapp: string;
+    whatsappPlaceholder: string;
+    needType: string;
+    needTypePlaceholder: string;
+    needTypes: string[];
+    budget: string;
+    budgetPlaceholder: string;
+    budgetRanges: string[];
+    description: string;
+    descriptionPlaceholder: string;
+    submit: string;
+    thankYou: string;
+  };
+  servicesPage: { heroTitle: string; heroDescription: string };
+  pricingPage: {
+    heroTitle: string;
+    heroDescription: string;
+    customDevEyebrow: string;
+    customDevTitle: string;
+    saasEyebrow: string;
+    saasTitle: string;
+    saasDescription: string;
+    disclaimer: string;
+  };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -230,6 +271,74 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       gridDescription:
         "Sistem AG·SORA dirancang fleksibel untuk kebutuhan operasional yang berbeda di setiap industri.",
     },
+    contactPage: {
+      heroTitle: "Mari diskusikan kebutuhan sistem bisnis Anda",
+      heroDescription:
+        "Isi form berikut dan tim AG·SORA akan menghubungi Anda untuk konsultasi gratis mengenai kebutuhan project Anda.",
+      contactInfo: "Informasi Kontak",
+      email: "Email",
+      whatsapp: "WhatsApp",
+      whatsappCta: "Chat dengan tim kami",
+      website: "Website",
+      enterpriseNote:
+        "Untuk kebutuhan enterprise atau multi-cabang, tim kami akan menjadwalkan sesi diskusi untuk merancang arsitektur yang tepat bagi organisasi Anda.",
+    },
+    contactForm: {
+      name: "Nama",
+      namePlaceholder: "Nama lengkap",
+      company: "Perusahaan",
+      companyPlaceholder: "Nama perusahaan",
+      email: "Email",
+      emailPlaceholder: "nama@perusahaan.com",
+      whatsapp: "WhatsApp",
+      whatsappPlaceholder: "08xx-xxxx-xxxx",
+      needType: "Jenis kebutuhan",
+      needTypePlaceholder: "Pilih jenis kebutuhan",
+      needTypes: [
+        "Custom Software",
+        "Website Development",
+        "Mobile Application",
+        "ERP",
+        "POS",
+        "HRIS",
+        "CRM",
+        "AI Automation / API Integration",
+        "Produk SaaS AG·SORA",
+        "Lainnya",
+      ],
+      budget: "Budget range",
+      budgetPlaceholder: "Pilih budget range",
+      budgetRanges: [
+        "< Rp5 juta",
+        "Rp5 - 15 juta",
+        "Rp15 - 30 juta",
+        "Rp30 - 75 juta",
+        "> Rp75 juta",
+        "Belum tahu / perlu diskusi",
+      ],
+      description: "Deskripsi project",
+      descriptionPlaceholder: "Ceritakan kebutuhan dan tantangan bisnis Anda...",
+      submit: "Kirim via WhatsApp",
+      thankYou:
+        "Terima kasih! Pesan Anda telah disiapkan di WhatsApp — silakan kirim untuk menyelesaikan permintaan konsultasi.",
+    },
+    servicesPage: {
+      heroTitle: "Solusi teknologi yang dirancang untuk cara kerja Anda",
+      heroDescription:
+        "AG·SORA membantu bisnis membangun software, sistem, dan platform digital yang sesuai dengan proses operasional dan tujuan pertumbuhan jangka panjang.",
+    },
+    pricingPage: {
+      heroTitle: "Accessible technology for growing businesses",
+      heroDescription:
+        "Simple needs start small. Complex systems scale with your business. Semua harga di bawah adalah harga mulai dari.",
+      customDevEyebrow: "Custom Development",
+      customDevTitle: "Harga mulai dari untuk setiap layanan",
+      saasEyebrow: "SaaS Products",
+      saasTitle: "Paket berlangganan produk AG·SORA",
+      saasDescription: "Mulai dari kebutuhan tim kecil hingga operasional multi-outlet.",
+      disclaimer:
+        "Harga mulai dari dan dapat berubah sesuai fitur, jumlah user, integrasi, kompleksitas workflow, timeline, serta kebutuhan support. Biaya pihak ketiga tidak termasuk kecuali dinyatakan lain.",
+    },
   },
   en: {
     nav: {
@@ -365,6 +474,74 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       gridDescription:
         "AG·SORA systems are built flexibly for the different operational needs of each industry.",
     },
+    contactPage: {
+      heroTitle: "Let's discuss your business system needs",
+      heroDescription:
+        "Fill out the form below and the AG·SORA team will reach out for a free consultation about your project needs.",
+      contactInfo: "Contact Information",
+      email: "Email",
+      whatsapp: "WhatsApp",
+      whatsappCta: "Chat with our team",
+      website: "Website",
+      enterpriseNote:
+        "For enterprise or multi-branch needs, our team will schedule a discussion to design the right architecture for your organization.",
+    },
+    contactForm: {
+      name: "Name",
+      namePlaceholder: "Full name",
+      company: "Company",
+      companyPlaceholder: "Company name",
+      email: "Email",
+      emailPlaceholder: "name@company.com",
+      whatsapp: "WhatsApp",
+      whatsappPlaceholder: "08xx-xxxx-xxxx",
+      needType: "Type of need",
+      needTypePlaceholder: "Select a type of need",
+      needTypes: [
+        "Custom Software",
+        "Website Development",
+        "Mobile Application",
+        "ERP",
+        "POS",
+        "HRIS",
+        "CRM",
+        "AI Automation / API Integration",
+        "AG·SORA SaaS Product",
+        "Other",
+      ],
+      budget: "Budget range",
+      budgetPlaceholder: "Select a budget range",
+      budgetRanges: [
+        "< Rp5 million",
+        "Rp5 - 15 million",
+        "Rp15 - 30 million",
+        "Rp30 - 75 million",
+        "> Rp75 million",
+        "Not sure yet / need to discuss",
+      ],
+      description: "Project description",
+      descriptionPlaceholder: "Tell us about your business needs and challenges...",
+      submit: "Send via WhatsApp",
+      thankYou:
+        "Thank you! Your message has been prepared in WhatsApp — please send it to complete your consultation request.",
+    },
+    servicesPage: {
+      heroTitle: "Technology solutions designed for how you work",
+      heroDescription:
+        "AG·SORA helps businesses build software, systems, and digital platforms that fit your operational processes and long-term growth goals.",
+    },
+    pricingPage: {
+      heroTitle: "Accessible technology for growing businesses",
+      heroDescription:
+        "Simple needs start small. Complex systems scale with your business. All prices below are starting prices.",
+      customDevEyebrow: "Custom Development",
+      customDevTitle: "Starting price for every service",
+      saasEyebrow: "SaaS Products",
+      saasTitle: "AG·SORA product subscription plans",
+      saasDescription: "From small team needs to multi-outlet operations.",
+      disclaimer:
+        "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third-party costs are not included unless stated otherwise.",
+    },
   },
   zh: {
     nav: {
@@ -498,6 +675,74 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       gridTitle: "为各类企业量身打造",
       gridDescription:
         "AG·SORA 的系统设计灵活，可满足各行业不同的运营需求。",
+    },
+    contactPage: {
+      heroTitle: "让我们一起探讨您的业务系统需求",
+      heroDescription:
+        "填写以下表单，AG·SORA 团队将与您联系，提供关于项目需求的免费咨询。",
+      contactInfo: "联系方式",
+      email: "邮箱",
+      whatsapp: "WhatsApp",
+      whatsappCta: "与我们的团队聊天",
+      website: "网站",
+      enterpriseNote:
+        "如有企业级或多分店需求，我们的团队将安排讨论，为您的组织设计合适的架构。",
+    },
+    contactForm: {
+      name: "姓名",
+      namePlaceholder: "请输入姓名",
+      company: "公司",
+      companyPlaceholder: "公司名称",
+      email: "邮箱",
+      emailPlaceholder: "name@company.com",
+      whatsapp: "WhatsApp",
+      whatsappPlaceholder: "08xx-xxxx-xxxx",
+      needType: "需求类型",
+      needTypePlaceholder: "请选择需求类型",
+      needTypes: [
+        "定制软件",
+        "网站开发",
+        "移动应用",
+        "ERP",
+        "POS",
+        "HRIS",
+        "CRM",
+        "AI 自动化 / API 对接",
+        "AG·SORA SaaS 产品",
+        "其他",
+      ],
+      budget: "预算范围",
+      budgetPlaceholder: "请选择预算范围",
+      budgetRanges: [
+        "< 500万印尼盾",
+        "500万 - 1500万印尼盾",
+        "1500万 - 3000万印尼盾",
+        "3000万 - 7500万印尼盾",
+        "> 7500万印尼盾",
+        "尚未确定 / 需进一步讨论",
+      ],
+      description: "项目描述",
+      descriptionPlaceholder: "请描述您的业务需求与挑战……",
+      submit: "通过 WhatsApp 发送",
+      thankYou:
+        "感谢您！您的消息已在 WhatsApp 中准备好 — 请发送以完成咨询请求。",
+    },
+    servicesPage: {
+      heroTitle: "为您的工作方式量身设计的技术解决方案",
+      heroDescription:
+        "AG·SORA 帮助企业构建贴合运营流程与长期增长目标的软件、系统与数字平台。",
+    },
+    pricingPage: {
+      heroTitle: "面向成长型企业的普惠科技",
+      heroDescription:
+        "简单需求可以从小做起，复杂系统则随业务同步扩展。以下均为起始价格。",
+      customDevEyebrow: "定制开发",
+      customDevTitle: "各项服务起始价格",
+      saasEyebrow: "SaaS 产品",
+      saasTitle: "AG·SORA 产品订阅方案",
+      saasDescription: "从小型团队需求到多门店运营，均可覆盖。",
+      disclaimer:
+        "以上为起始价格，实际费用将根据功能、用户数量、对接需求、流程复杂度、工期及支持需求而有所不同。除非另有说明，第三方费用不包含在内。",
     },
   },
 };
