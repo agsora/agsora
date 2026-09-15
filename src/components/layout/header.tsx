@@ -4,16 +4,31 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { mainNav, siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site";
 import { RibbonLogo } from "@/components/ribbon-logo";
 import { Button } from "@/components/ui/button";
+import { LanguageSwitcher } from "@/components/layout/language-switcher";
+import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { useLocale } from "@/i18n/locale-context";
 import { cn } from "@/lib/utils";
 
 export function Header() {
   const pathname = usePathname();
+  const { t } = useLocale();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [lastPathname, setLastPathname] = useState(pathname);
+
+  const mainNav = [
+    { label: t.nav.services, href: "/services" },
+    { label: t.nav.products, href: "/products" },
+    { label: t.nav.industries, href: "/industries" },
+    { label: t.nav.pricing, href: "/pricing" },
+    { label: t.nav.portfolio, href: "/portfolio" },
+    { label: t.nav.blog, href: "/blog" },
+    { label: t.nav.about, href: "/about" },
+    { label: t.nav.contact, href: "/contact" },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -44,7 +59,7 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {mainNav.map((link) => {
             const active = pathname === link.href;
             return (
@@ -63,21 +78,26 @@ export function Header() {
           })}
         </nav>
 
-        <div className="hidden lg:flex">
+        <div className="hidden items-center gap-3 lg:flex">
+          <ThemeToggle />
+          <LanguageSwitcher />
           <Button href="/contact" size="sm">
-            Konsultasi Gratis
+            {t.nav.cta}
           </Button>
         </div>
 
-        <button
-          type="button"
-          className="focus-ring -mr-2 flex h-10 w-10 items-center justify-center rounded-md text-ink lg:hidden"
-          onClick={() => setOpen((v) => !v)}
-          aria-label={open ? "Tutup menu" : "Buka menu"}
-          aria-expanded={open}
-        >
-          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
+        <div className="flex items-center gap-2 lg:hidden">
+          <ThemeToggle />
+          <button
+            type="button"
+            className="focus-ring flex h-10 w-10 items-center justify-center rounded-md text-ink"
+            onClick={() => setOpen((v) => !v)}
+            aria-label={open ? "Tutup menu" : "Buka menu"}
+            aria-expanded={open}
+          >
+            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
       </div>
 
       {open ? (
@@ -92,9 +112,12 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
+            <div className="mt-4 flex items-center justify-between gap-2">
+              <LanguageSwitcher />
+            </div>
             <div className="mt-4 flex flex-col gap-2">
               <Button href="/contact" className="w-full justify-center">
-                Konsultasi Gratis
+                {t.nav.cta}
               </Button>
               <Button
                 href={siteConfig.whatsapp.href}

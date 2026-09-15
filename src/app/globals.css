@@ -21,6 +21,24 @@
   --accent-deep: #5c86fe;
 }
 
+/* Light theme — toggled via data-theme="light" on <html>. */
+[data-theme="light"] {
+  --surface-0: #ffffff;
+  --surface-1: #f5f6f8;
+  --surface-2: #eceef2;
+  --surface-3: #e2e5eb;
+
+  --line: #dfe2e8;
+  --line-strong: #c7cbd4;
+
+  --ink: #0d0f15;
+  --ink-muted: #4b5262;
+  --ink-subtle: #6c7385;
+
+  --accent: #3763e8;
+  --accent-deep: #2a4fc9;
+}
+
 @theme inline {
   --color-surface-0: var(--surface-0);
   --color-surface-1: var(--surface-1);
@@ -43,6 +61,9 @@
 html {
   scroll-behavior: smooth;
   color-scheme: dark;
+}
+html[data-theme="light"] {
+  color-scheme: light;
 }
 
 body {

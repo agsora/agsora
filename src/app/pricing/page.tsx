@@ -6,7 +6,8 @@ import { CustomDevPricing } from "@/components/sections/custom-dev-pricing";
 import { SaasPricing } from "@/components/sections/saas-pricing";
 import { PricingDisclaimer } from "@/components/sections/pricing-disclaimer";
 import { ContactCta } from "@/components/sections/contact-cta";
-import { Faq, FaqSchema } from "@/components/sections/faq";
+import { Faq } from "@/components/sections/faq";
+import { FaqSchema } from "@/components/sections/faq-schema";
 
 import { pageMetadata } from "@/lib/seo";
 

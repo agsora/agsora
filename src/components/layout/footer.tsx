@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import { InstagramIcon, FacebookIcon, TiktokIcon } from "@/components/social-icons";
 import { footerNav, siteConfig } from "@/config/site";
 import { RibbonLogo } from "@/components/ribbon-logo";
+import { useLocale } from "@/i18n/locale-context";
 
 function FooterColumn({
   title,
@@ -32,6 +35,7 @@ function FooterColumn({
 }
 
 export function Footer() {
+  const { t } = useLocale();
   return (
     <footer className="border-t border-line bg-surface-0">
       <div className="mx-auto max-w-6xl container-px py-16">
@@ -77,10 +81,10 @@ export function Footer() {
             </div>
           </div>
 
-          <FooterColumn title="Services" links={footerNav.services.slice(0, 6)} />
-          <FooterColumn title="Products" links={footerNav.products} />
-          <FooterColumn title="Company" links={footerNav.company} />
-          <FooterColumn title="Legal" links={footerNav.legal} />
+          <FooterColumn title={t.footer.services} links={footerNav.services.slice(0, 6)} />
+          <FooterColumn title={t.footer.products} links={footerNav.products} />
+          <FooterColumn title={t.footer.company} links={footerNav.company} />
+          <FooterColumn title={t.footer.legal} links={footerNav.legal} />
         </div>
 
         <div className="mt-10 flex flex-col gap-2 border-t border-line pt-8 text-[12px] text-ink-subtle md:flex-row md:items-center md:justify-between">

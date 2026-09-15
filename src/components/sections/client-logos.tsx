@@ -1,16 +1,20 @@
+"use client";
+
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Eyebrow } from "@/components/ui/section";
 import { clients } from "@/config/clients";
+import { useLocale } from "@/i18n/locale-context";
 
 // Duplicated once so the CSS animation can loop seamlessly from -50%.
 const track = [...clients, ...clients];
 
 export function ClientLogos() {
+  const { t } = useLocale();
   return (
     <div className="overflow-hidden">
       <Container className="max-w-6xl">
-        <Eyebrow className="text-center">Dipercaya oleh</Eyebrow>
+        <Eyebrow className="text-center">{t.clientLogos.label}</Eyebrow>
       </Container>
 
       <div

@@ -1,10 +1,14 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowRight, Plus } from "lucide-react";
 import { faqs } from "@/config/company";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section";
+import { useLocale } from "@/i18n/locale-context";
 
 export function Faq({ featuredOnly = false }: { featuredOnly?: boolean }) {
+  const { t } = useLocale();
   const items = featuredOnly ? faqs.filter((faq) => faq.featured) : faqs;
 
   return (
@@ -12,16 +16,16 @@ export function Faq({ featuredOnly = false }: { featuredOnly?: boolean }) {
       <div className="grid gap-12 lg:grid-cols-[0.8fr_1fr] lg:gap-16">
         <div>
           <SectionHeading
-            eyebrow="FAQ"
-            title="Pertanyaan yang sering diajukan"
-            description="Hal-hal yang biasanya ditanyakan sebelum memulai project. Kalau pertanyaan Anda belum terjawab di sini, silakan hubungi kami langsung."
+            eyebrow={t.faqSection.eyebrow}
+            title={t.faqSection.title}
+            description={t.faqSection.description}
           />
           {featuredOnly ? (
             <Link
               href="/pricing#faq"
               className="focus-ring mt-6 inline-flex items-center gap-2 text-[13px] text-ink-muted transition-colors hover:text-ink"
             >
-              Lihat semua pertanyaan
+              {t.faqSection.seeAll}
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           ) : null}
@@ -51,32 +55,5 @@ export function Faq({ featuredOnly = false }: { featuredOnly?: boolean }) {
         </div>
       </div>
     </Container>
-  );
-}
-
-/**
- * FAQPage structured data. Render this on exactly one page — Google's
- * guidance is to mark up a repeated FAQ only once, so the homepage shows
- * the featured questions without emitting it again.
- */
-export function FaqSchema() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
   );
 }
