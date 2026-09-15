@@ -141,6 +141,23 @@ export type Dictionary = {
     saasDescription: string;
     disclaimer: string;
   };
+  blogPage: {
+    heroTitle: string;
+    heroDescription: string;
+    pageTitle: string;
+    pageLabel: string;
+    editorPickEyebrow: string;
+    editorPickTitle: string;
+    editorPickDescription: string;
+    latestEyebrow: string;
+    latestTitle: string;
+    readingTime: string;
+  };
+  pagination: {
+    previous: string;
+    next: string;
+    pageOf: string;
+  };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -358,6 +375,25 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       disclaimer:
         "Harga mulai dari dan dapat berubah sesuai fitur, jumlah user, integrasi, kompleksitas workflow, timeline, serta kebutuhan support. Biaya pihak ketiga tidak termasuk kecuali dinyatakan lain.",
     },
+    blogPage: {
+      heroTitle: "Catatan tentang membangun sistem bisnis",
+      heroDescription:
+        "Hal-hal praktis yang kami temui saat merancang dan menerapkan sistem — ditulis untuk pemilik bisnis dan tim operasional, bukan hanya untuk developer.",
+      pageTitle: "Semua artikel",
+      pageLabel: "Halaman",
+      editorPickEyebrow: "Rekomendasi editor",
+      editorPickTitle: "Mulai dari sini",
+      editorPickDescription:
+        "Artikel yang paling berguna dibaca lebih dulu jika Anda sedang mempertimbangkan sistem baru.",
+      latestEyebrow: "Terbaru",
+      latestTitle: "Artikel terbaru",
+      readingTime: "menit baca",
+    },
+    pagination: {
+      previous: "Sebelumnya",
+      next: "Berikutnya",
+      pageOf: "Halaman {current} dari {total}",
+    },
   },
   en: {
     nav: {
@@ -573,6 +609,25 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       disclaimer:
         "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third-party costs are not included unless stated otherwise.",
     },
+    blogPage: {
+      heroTitle: "Notes on building business systems",
+      heroDescription:
+        "Practical things we've learned designing and implementing systems — written for business owners and operations teams, not just developers.",
+      pageTitle: "All articles",
+      pageLabel: "Page",
+      editorPickEyebrow: "Editor's Picks",
+      editorPickTitle: "Start here",
+      editorPickDescription:
+        "The most useful articles to read first if you're considering a new system.",
+      latestEyebrow: "Latest",
+      latestTitle: "Latest articles",
+      readingTime: "min read",
+    },
+    pagination: {
+      previous: "Previous",
+      next: "Next",
+      pageOf: "Page {current} of {total}",
+    },
   },
   zh: {
     nav: {
@@ -786,6 +841,24 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       saasDescription: "从小型团队需求到多门店运营，均可覆盖。",
       disclaimer:
         "以上为起始价格，实际费用将根据功能、用户数量、对接需求、流程复杂度、工期及支持需求而有所不同。除非另有说明，第三方费用不包含在内。",
+    },
+    blogPage: {
+      heroTitle: "关于构建业务系统的笔记",
+      heroDescription:
+        "我们在设计与实施系统过程中总结的实用经验 — 面向企业主与运营团队撰写，而不仅仅是开发者。",
+      pageTitle: "全部文章",
+      pageLabel: "第",
+      editorPickEyebrow: "编辑精选",
+      editorPickTitle: "从这里开始",
+      editorPickDescription: "如果您正在考虑新系统，这些是最值得优先阅读的文章。",
+      latestEyebrow: "最新",
+      latestTitle: "最新文章",
+      readingTime: "分钟阅读",
+    },
+    pagination: {
+      previous: "上一页",
+      next: "下一页",
+      pageOf: "第 {current} 页，共 {total} 页",
     },
   },
 };

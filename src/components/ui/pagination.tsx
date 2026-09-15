@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useLocale } from "@/i18n/locale-context";
 
 type Item = number | "gap";
 
@@ -28,6 +31,7 @@ export function Pagination({
   total: number;
   href: (page: number) => string;
 }) {
+  const { t } = useLocale();
   if (total <= 1) return null;
 
   const linkBase =
@@ -44,8 +48,8 @@ export function Pagination({
               className={cn(linkBase, "gap-1 border-line text-ink-muted hover:border-line-strong hover:text-ink")}
             >
               <ChevronLeft className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Sebelumnya</span>
-              <span className="sr-only sm:hidden">Halaman sebelumnya</span>
+              <span className="hidden sm:inline">{t.pagination.previous}</span>
+              <span className="sr-only sm:hidden">{t.pagination.previous}</span>
             </Link>
           ) : (
             <span
@@ -53,7 +57,7 @@ export function Pagination({
               className={cn(linkBase, "gap-1 border-line text-ink-subtle opacity-40")}
             >
               <ChevronLeft className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Sebelumnya</span>
+              <span className="hidden sm:inline">{t.pagination.previous}</span>
             </span>
           )}
         </li>
@@ -75,7 +79,7 @@ export function Pagination({
               ) : (
                 <Link
                   href={href(item)}
-                  aria-label={`Halaman ${item}`}
+                  aria-label={`${t.blogPage.pageLabel} ${item}`}
                   className={cn(linkBase, "border-line text-ink-muted hover:border-line-strong hover:text-ink")}
                 >
                   {item}
@@ -92,8 +96,8 @@ export function Pagination({
               rel="next"
               className={cn(linkBase, "gap-1 border-line text-ink-muted hover:border-line-strong hover:text-ink")}
             >
-              <span className="hidden sm:inline">Berikutnya</span>
-              <span className="sr-only sm:hidden">Halaman berikutnya</span>
+              <span className="hidden sm:inline">{t.pagination.next}</span>
+              <span className="sr-only sm:hidden">{t.pagination.next}</span>
               <ChevronRight className="h-3.5 w-3.5" />
             </Link>
           ) : (
@@ -101,14 +105,16 @@ export function Pagination({
               aria-hidden="true"
               className={cn(linkBase, "gap-1 border-line text-ink-subtle opacity-40")}
             >
-              <span className="hidden sm:inline">Berikutnya</span>
+              <span className="hidden sm:inline">{t.pagination.next}</span>
               <ChevronRight className="h-3.5 w-3.5" />
             </span>
           )}
         </li>
       </ul>
       <p className="text-[12px] text-ink-subtle">
-        Halaman {current} dari {total}
+        {t.pagination.pageOf
+          .replace("{current}", String(current))
+          .replace("{total}", String(total))}
       </p>
     </nav>
   );

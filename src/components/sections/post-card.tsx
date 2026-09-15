@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { formatPostDate, type BlogPost } from "@/config/blog";
+import { useLocale } from "@/i18n/locale-context";
 
 export function PostCard({
   post,
@@ -9,6 +12,7 @@ export function PostCard({
   post: BlogPost;
   priority?: boolean;
 }) {
+  const { t } = useLocale();
   return (
     <Link
       href={`/blog/${post.slug}`}
@@ -42,7 +46,7 @@ export function PostCard({
             {formatPostDate(post.publishedAt)}
           </time>
           <span className="h-1 w-1 rounded-full bg-line-strong" />
-          <span>{post.readingMinutes} menit baca</span>
+          <span>{post.readingMinutes} {t.blogPage.readingTime}</span>
         </div>
       </div>
     </Link>

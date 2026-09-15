@@ -1,3 +1,5 @@
+"use client";
+
 import { PageHero } from "@/components/sections/page-hero";
 import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
@@ -12,6 +14,7 @@ import {
   type BlogPost,
 } from "@/config/blog";
 import { siteConfig } from "@/config/site";
+import { useLocale } from "@/i18n/locale-context";
 
 function PostGrid({ posts, preloadFirst }: { posts: BlogPost[]; preloadFirst: number }) {
   return (
@@ -31,6 +34,7 @@ function PostGrid({ posts, preloadFirst }: { posts: BlogPost[]; preloadFirst: nu
  * in one by one make the archive feel slow to scan.
  */
 export function BlogIndex({ page }: { page: number }) {
+  const { t } = useLocale();
   const totalPages = getTotalPages();
   const featured = page === 1 ? getFeaturedPosts() : [];
   const posts = getPostsForPage(page);
@@ -64,29 +68,25 @@ export function BlogIndex({ page }: { page: number }) {
             ? [{ name: "Blog", href: "/blog" }]
             : [
                 { name: "Blog", href: "/blog" },
-                { name: `Halaman ${page}`, href: blogPageHref(page) },
+                { name: `${t.blogPage.pageLabel} ${page}`, href: blogPageHref(page) },
               ]
         }
         eyebrow="Blog"
         title={
           isFirst
-            ? "Catatan tentang membangun sistem bisnis"
-            : `Semua artikel — halaman ${page}`
+            ? t.blogPage.heroTitle
+            : `${t.blogPage.pageTitle} — ${t.blogPage.pageLabel.toLowerCase()} ${page}`
         }
-        description={
-          isFirst
-            ? "Hal-hal praktis yang kami temui saat merancang dan menerapkan sistem — ditulis untuk pemilik bisnis dan tim operasional, bukan hanya untuk developer."
-            : undefined
-        }
+        description={isFirst ? t.blogPage.heroDescription : undefined}
       />
 
       {featured.length ? (
         <Section className="pb-0 md:pb-0">
           <Container className="max-w-6xl">
             <SectionHeading
-              eyebrow="Rekomendasi editor"
-              title="Mulai dari sini"
-              description="Artikel yang paling berguna dibaca lebih dulu jika Anda sedang mempertimbangkan sistem baru."
+              eyebrow={t.blogPage.editorPickEyebrow}
+              title={t.blogPage.editorPickTitle}
+              description={t.blogPage.editorPickDescription}
             />
             <div className="mt-10">
               <PostGrid posts={featured} preloadFirst={3} />
@@ -98,7 +98,7 @@ export function BlogIndex({ page }: { page: number }) {
       <Section>
         <Container className="max-w-6xl">
           {isFirst ? (
-            <SectionHeading eyebrow="Terbaru" title="Artikel terbaru" />
+            <SectionHeading eyebrow={t.blogPage.latestEyebrow} title={t.blogPage.latestTitle} />
           ) : null}
           <div className={isFirst ? "mt-10" : undefined}>
             {/* Page 1's first row sits below the picks, so only later pages preload. */}
