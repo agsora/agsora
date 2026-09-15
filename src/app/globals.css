@@ -1,24 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  /* Surfaces — deep charcoal with a cool undertone */
-  --surface-0: #08090d;
-  --surface-1: #0e1117;
-  --surface-2: #141922;
-  --surface-3: #1a2029;
+  /* Surfaces — charcoal with a cool undertone, lightened for readability */
+  --surface-0: #0d0f15;
+  --surface-1: #13161e;
+  --surface-2: #191d27;
+  --surface-3: #20252f;
 
   /* Lines */
-  --line: #1e242f;
-  --line-strong: #2c3441;
+  --line: #262c38;
+  --line-strong: #363f4f;
 
-  /* Text */
-  --ink: #f2f4f8;
-  --ink-muted: #a3adbd;
-  --ink-subtle: #7d8899;
+  /* Text — higher contrast against the surfaces above */
+  --ink: #f7f8fb;
+  --ink-muted: #b7c0cf;
+  --ink-subtle: #929cad;
 
   /* Accent — used sparingly */
-  --accent: #6b92ff;
-  --accent-deep: #4d7cfe;
+  --accent: #7b9fff;
+  --accent-deep: #5c86fe;
 }
 
 @theme inline {
