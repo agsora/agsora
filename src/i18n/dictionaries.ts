@@ -87,6 +87,12 @@ export type Dictionary = {
     whatWeBelieveEyebrow: string;
     whatWeBelieveTitle: string;
   };
+  industriesPage: {
+    heroTitle: string;
+    heroDescription: string;
+    gridTitle: string;
+    gridDescription: string;
+  };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -216,6 +222,14 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       whatWeBelieveEyebrow: "What We Believe",
       whatWeBelieveTitle: "Prinsip yang memandu setiap sistem yang kami bangun",
     },
+    industriesPage: {
+      heroTitle: "Sistem yang menyesuaikan kebutuhan industri Anda",
+      heroDescription:
+        "Dari UMKM hingga enterprise multi-cabang — AG·SORA merancang solusi yang relevan dengan tantangan operasional di industri Anda.",
+      gridTitle: "Dirancang untuk berbagai jenis bisnis",
+      gridDescription:
+        "Sistem AG·SORA dirancang fleksibel untuk kebutuhan operasional yang berbeda di setiap industri.",
+    },
   },
   en: {
     nav: {
@@ -343,6 +357,14 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       whatWeBelieveEyebrow: "What We Believe",
       whatWeBelieveTitle: "The principles guiding every system we build",
     },
+    industriesPage: {
+      heroTitle: "Systems tailored to your industry's needs",
+      heroDescription:
+        "From SMEs to multi-branch enterprises — AG·SORA designs solutions relevant to the operational challenges in your industry.",
+      gridTitle: "Designed for every kind of business",
+      gridDescription:
+        "AG·SORA systems are built flexibly for the different operational needs of each industry.",
+    },
   },
   zh: {
     nav: {
@@ -468,6 +490,14 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       brandPersonality: "品牌个性",
       whatWeBelieveEyebrow: "我们的理念",
       whatWeBelieveTitle: "指导我们构建每个系统的原则",
+    },
+    industriesPage: {
+      heroTitle: "贴合您所在行业需求的系统",
+      heroDescription:
+        "从中小微企业到多分店企业 — AG·SORA 设计的方案贴合您行业中的实际运营挑战。",
+      gridTitle: "为各类企业量身打造",
+      gridDescription:
+        "AG·SORA 的系统设计灵活，可满足各行业不同的运营需求。",
     },
   },
 };

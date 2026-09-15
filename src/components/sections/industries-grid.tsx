@@ -1,15 +1,19 @@
+"use client";
+
 import { industries } from "@/config/industries";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
+import { useLocale } from "@/i18n/locale-context";
 
 export function IndustriesGrid() {
+  const { t, locale } = useLocale();
   return (
     <Container className="max-w-6xl">
       <SectionHeading
         eyebrow="Industries"
-        title="Dirancang untuk berbagai jenis bisnis"
-        description="Sistem AG·SORA dirancang fleksibel untuk kebutuhan operasional yang berbeda di setiap industri."
+        title={t.industriesPage.gridTitle}
+        description={t.industriesPage.gridDescription}
       />
 
       {/* Two columns and no description on phones: in one column the nine
@@ -25,7 +29,7 @@ export function IndustriesGrid() {
                   {industry.name}
                 </h3>
                 <p className="mt-1.5 hidden text-[13px] leading-relaxed text-ink-muted sm:block">
-                  {industry.description}
+                  {industry.description[locale]}
                 </p>
               </div>
             </RevealItem>
