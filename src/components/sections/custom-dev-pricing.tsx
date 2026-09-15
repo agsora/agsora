@@ -1,6 +1,9 @@
+"use client";
+
 import { Globe, Layers, Zap, ShieldCheck, type LucideIcon } from "lucide-react";
 import { customDevPricing, type PricingCategory } from "@/config/pricing";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
+import { useLocale } from "@/i18n/locale-context";
 
 const categoryIcons: Record<PricingCategory, LucideIcon> = {
   "Website & Digital": Globe,
@@ -14,6 +17,14 @@ const categories = Array.from(
 );
 
 export function CustomDevPricing() {
+  const { t } = useLocale();
+  const categoryLabels: Record<PricingCategory, string> = {
+    "Website & Digital": t.pricingCategories.websiteDigital,
+    "Sistem Bisnis": t.pricingCategories.businessSystems,
+    "Automation & Integrasi": t.pricingCategories.automationIntegration,
+    "Support & Enterprise": t.pricingCategories.supportEnterprise,
+  };
+
   return (
     <div className="space-y-14">
       {categories.map((category) => {
@@ -25,7 +36,9 @@ export function CustomDevPricing() {
               <div className="flex h-7 w-7 items-center justify-center rounded-md border border-line bg-surface-1 text-accent">
                 <Icon className="h-3.5 w-3.5" />
               </div>
-              <h3 className="text-[14px] font-medium text-ink">{category}</h3>
+              <h3 className="text-[14px] font-medium text-ink">
+                {categoryLabels[category]}
+              </h3>
             </div>
 
             <RevealGroup className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">

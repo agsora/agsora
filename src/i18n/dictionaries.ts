@@ -69,6 +69,12 @@ export type Dictionary = {
     complexDescription: string;
     contactSales: string;
   };
+  pricingCategories: {
+    websiteDigital: string;
+    businessSystems: string;
+    automationIntegration: string;
+    supportEnterprise: string;
+  };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -164,6 +170,12 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Untuk multi-cabang, integrasi khusus, atau kebutuhan SLA tertentu — mari rancang arsitektur yang tepat bersama.",
       contactSales: "Hubungi Sales",
     },
+    pricingCategories: {
+      websiteDigital: "Website & Digital",
+      businessSystems: "Sistem Bisnis",
+      automationIntegration: "Automation & Integrasi",
+      supportEnterprise: "Support & Enterprise",
+    },
   },
   en: {
     nav: {
@@ -257,6 +269,12 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "For multi-branch operations, custom integrations, or specific SLA needs — let's design the right architecture together.",
       contactSales: "Contact Sales",
     },
+    pricingCategories: {
+      websiteDigital: "Website & Digital",
+      businessSystems: "Business Systems",
+      automationIntegration: "Automation & Integration",
+      supportEnterprise: "Support & Enterprise",
+    },
   },
   zh: {
     nav: {
@@ -348,6 +366,12 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       complexDescription:
         "针对多分店运营、特殊对接或特定 SLA 需求 — 让我们一起设计合适的架构。",
       contactSales: "联系销售",
+    },
+    pricingCategories: {
+      websiteDigital: "网站与数字化",
+      businessSystems: "业务系统",
+      automationIntegration: "自动化与对接",
+      supportEnterprise: "支持与企业方案",
     },
   },
 };
