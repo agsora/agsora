@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { PostBody } from "@/components/sections/post-body";
@@ -12,7 +12,6 @@ import {
   blogPosts,
   coverUrl,
   formatPostDate,
-  getAdjacentPosts,
   getPostBySlug,
   getRecommendedPosts,
 } from "@/config/blog";
@@ -65,7 +64,6 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const recommended = getRecommendedPosts(slug);
-  const { newer, older } = getAdjacentPosts(slug);
 
   const schema = {
     "@context": "https://schema.org",
@@ -164,46 +162,6 @@ export default async function BlogPostPage({
           <PostBody blocks={post.body} postSlug={post.slug} />
         </Container>
       </Section>
-
-      {newer || older ? (
-        <Container className="max-w-6xl">
-          <nav
-            aria-label="Artikel sebelum dan sesudahnya"
-            className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2"
-          >
-            {older ? (
-              <Link
-                href={`/blog/${older.slug}`}
-                className="focus-ring group flex flex-col gap-2 border-b border-r border-line p-6 transition-colors hover:bg-surface-1"
-              >
-                <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
-                  <ArrowLeft className="h-3 w-3" />
-                  Artikel sebelumnya
-                </span>
-                <span className="text-[14px] leading-snug text-ink">
-                  {older.title}
-                </span>
-              </Link>
-            ) : (
-              <div className="hidden border-b border-r border-line sm:block" />
-            )}
-            {newer ? (
-              <Link
-                href={`/blog/${newer.slug}`}
-                className="focus-ring group flex flex-col gap-2 border-b border-r border-line p-6 text-left transition-colors hover:bg-surface-1 sm:items-end sm:text-right"
-              >
-                <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
-                  Artikel berikutnya
-                  <ArrowRight className="h-3 w-3" />
-                </span>
-                <span className="text-[14px] leading-snug text-ink">
-                  {newer.title}
-                </span>
-              </Link>
-            ) : null}
-          </nav>
-        </Container>
-      ) : null}
 
       {recommended.length ? (
         <Section className="pt-16 md:pt-20">

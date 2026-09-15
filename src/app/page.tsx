@@ -3,7 +3,6 @@ import { ClientLogos } from "@/components/sections/client-logos";
 import { PathChooser } from "@/components/sections/path-chooser";
 import { ServicesGrid } from "@/components/sections/services-grid";
 import { ProductSwitcher } from "@/components/sections/product-switcher";
-import { IndustriesGrid } from "@/components/sections/industries-grid";
 import { WhyAgsora } from "@/components/sections/why-agsora";
 import { SystemIntegration } from "@/components/sections/system-integration";
 import { HowWeWork } from "@/components/sections/how-we-work";
@@ -21,15 +20,14 @@ export const metadata = pageMetadata({
 });
 
 /**
- * Section order follows the questions a prospect asks, in the order they ask
- * them: what is this → which option fits me → what can you build → is there
- * something ready-made → does it suit my kind of business → why you → how do
- * the pieces connect → what is the process → what does it cost → remaining
- * doubts → contact.
+ * Trimmed to the sections a prospect actually needs to decide: what is this
+ * → which option fits me → what can you build → how does it connect
+ * technically → is there something ready-made → why/how we work (merged,
+ * one scroll) → what does it cost → remaining doubts → contact.
  *
- * Page length is a constraint, not an afterthought: every section added here
- * pushes pricing and the final CTA further down on a phone. Measure mobile
- * scroll depth before adding one.
+ * Industries has its own page (linked from nav) instead of a homepage
+ * section — one less stop before pricing. Keep it that way; re-adding
+ * sections here pushes pricing and the final CTA further down on a phone.
  */
 export default function Home() {
   return (
@@ -42,22 +40,19 @@ export default function Home() {
       <Section>
         <ServicesGrid compact />
       </Section>
-      <Section className="border-t border-line">
-        <ProductSwitcher />
-      </Section>
-      <Section className="border-t border-line">
-        <IndustriesGrid />
-      </Section>
-      <Section className="border-t border-line">
-        <WhyAgsora />
-      </Section>
-      {/* Desktop only here — it cost 1.3 phone screens between "why" and
-          pricing. Mobile readers get the full diagram on /products. */}
+      {/* Desktop only — costs 1.3 phone screens; mobile readers get the full
+          diagram on /products. */}
       <Section className="hidden border-t border-line lg:block">
         <SystemIntegration />
       </Section>
       <Section className="border-t border-line">
-        <HowWeWork />
+        <ProductSwitcher />
+      </Section>
+      <Section className="border-t border-line">
+        <WhyAgsora />
+        <div className="mt-20 md:mt-28">
+          <HowWeWork />
+        </div>
       </Section>
       <Section className="border-t border-line">
         <PricingTeaser />
