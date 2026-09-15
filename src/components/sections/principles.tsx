@@ -12,7 +12,7 @@ export function Principles() {
         description="Setiap project punya banyak persimpangan teknis. Ini prinsip yang kami pakai untuk memilih arah ketika tidak ada jawaban yang jelas benar."
       />
 
-      <div className="mt-14 divide-y divide-line border-y border-line">
+      <div className="mt-10 divide-y divide-line border-y border-line">
         {principles.map((principle, i) => (
           <Reveal key={principle.title} delay={i * 0.05}>
             <div className="grid gap-3 py-7 md:grid-cols-[auto_1fr_1.4fr] md:items-start md:gap-10">

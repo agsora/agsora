@@ -34,23 +34,21 @@ export default function Home() {
     <>
       <Hero />
       <Section className="pt-0">
+        <SystemIntegration />
+      </Section>
+      <Section className="border-t border-line">
         <ClientLogos />
       </Section>
       <PathChooser />
       <Section>
         <ServicesGrid compact />
       </Section>
-      {/* Desktop only — costs 1.3 phone screens; mobile readers get the full
-          diagram on /products. */}
-      <Section className="hidden border-t border-line lg:block">
-        <SystemIntegration />
-      </Section>
       <Section className="border-t border-line">
         <ProductSwitcher />
       </Section>
       <Section className="border-t border-line">
         <WhyAgsora />
-        <div className="mt-20 md:mt-28">
+        <div className="mt-14 md:mt-16">
           <HowWeWork />
         </div>
       </Section>

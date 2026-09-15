@@ -26,7 +26,7 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
         ) : null}
       </div>
 
-      <RevealGroup className="mt-12 grid grid-cols-1 border-l border-t border-line sm:mt-14 sm:grid-cols-2 lg:grid-cols-3">
+      <RevealGroup className="mt-9 grid grid-cols-1 border-l border-t border-line sm:mt-10 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((service) => {
           const Icon = service.icon;
           return (

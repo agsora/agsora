@@ -83,7 +83,7 @@ export function SystemIntegration() {
         </div>
       </div>
 
-      <div className="mt-14 hidden overflow-hidden rounded-lg border border-line bg-surface-1 lg:block">
+      <div className="mt-10 hidden overflow-hidden rounded-lg border border-line bg-surface-1 lg:block">
         <svg
           viewBox={`0 0 ${W} ${H}`}
           className="h-auto w-full"

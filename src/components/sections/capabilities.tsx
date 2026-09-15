@@ -12,7 +12,7 @@ export function Capabilities() {
         description="Ruang lingkup teknis yang kami tangani — dari bentuk aplikasinya, sistem yang perlu disambungkan, sampai cara sistem itu dijalankan."
       />
 
-      <RevealGroup className="mt-14 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+      <RevealGroup className="mt-10 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
         {capabilities.map((group) => (
           <RevealItem key={group.title}>
             <div className="border-t border-line pt-5">

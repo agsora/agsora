@@ -30,7 +30,7 @@ export function PricingTeaser() {
         </Button>
       </div>
 
-      <RevealGroup className="mt-14 grid grid-cols-1 border-t border-line sm:grid-cols-2 lg:grid-cols-4 lg:border-l">
+      <RevealGroup className="mt-10 grid grid-cols-1 border-t border-line sm:grid-cols-2 lg:grid-cols-4 lg:border-l">
         {highlights.map((item) => (
           <RevealItem key={item.id}>
             <div className="h-full border-b border-line px-6 py-6 lg:border-r">

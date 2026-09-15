@@ -12,7 +12,7 @@ export function Commitments() {
         description="Kepercayaan dibangun dari hal-hal yang bisa dipegang, bukan dari klaim. Berikut yang berlaku pada setiap project AG·SORA."
       />
 
-      <RevealGroup className="mt-14 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+      <RevealGroup className="mt-10 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
         {commitments.map((commitment) => (
           <RevealItem key={commitment.title}>
             <div className="h-full border-b border-r border-line p-6">

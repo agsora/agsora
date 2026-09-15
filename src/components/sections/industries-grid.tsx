@@ -14,7 +14,7 @@ export function IndustriesGrid() {
 
       {/* Two columns and no description on phones: in one column the nine
           tiles alone ran to 2.5 screens, burying everything below them. */}
-      <RevealGroup className="mt-12 grid grid-cols-2 border-l border-t border-line sm:mt-14 lg:grid-cols-3">
+      <RevealGroup className="mt-9 grid grid-cols-2 border-l border-t border-line sm:mt-10 lg:grid-cols-3">
         {industries.map((industry) => {
           const Icon = industry.icon;
           return (

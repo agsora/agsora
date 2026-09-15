@@ -64,7 +64,7 @@ export function RelatedServices({ postSlug }: { postSlug: string }) {
   if (!related.length) return null;
 
   return (
-    <aside className="mt-14 rounded-lg border border-line bg-surface-1 p-6">
+    <aside className="mt-10 rounded-lg border border-line bg-surface-1 p-6">
       <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
         Layanan terkait
       </p>

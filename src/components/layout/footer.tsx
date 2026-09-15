@@ -83,7 +83,7 @@ export function Footer() {
           <FooterColumn title="Legal" links={footerNav.legal} />
         </div>
 
-        <div className="mt-14 flex flex-col gap-2 border-t border-line pt-8 text-[12px] text-ink-subtle md:flex-row md:items-center md:justify-between">
+        <div className="mt-10 flex flex-col gap-2 border-t border-line pt-8 text-[12px] text-ink-subtle md:flex-row md:items-center md:justify-between">
           <p>
             &copy; {new Date().getFullYear()} {siteConfig.legalName}
           </p>
