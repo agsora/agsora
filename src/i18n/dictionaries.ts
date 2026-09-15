@@ -124,6 +124,13 @@ export type Dictionary = {
     thankYou: string;
   };
   servicesPage: { heroTitle: string; heroDescription: string };
+  productsPage: { heroTitle: string; heroDescription: string };
+  portfolioPage: {
+    heroTitle: string;
+    heroDescription: string;
+    showcaseEyebrow: string;
+    showcaseTitle: string;
+  };
   pricingPage: {
     heroTitle: string;
     heroDescription: string;
@@ -326,6 +333,18 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       heroTitle: "Solusi teknologi yang dirancang untuk cara kerja Anda",
       heroDescription:
         "AG·SORA membantu bisnis membangun software, sistem, dan platform digital yang sesuai dengan proses operasional dan tujuan pertumbuhan jangka panjang.",
+    },
+    productsPage: {
+      heroTitle: "Produk software AG·SORA untuk operasional yang lebih ringan",
+      heroDescription:
+        "Setiap produk dirancang agar mudah digunakan sejak hari pertama, dengan paket yang bisa disesuaikan seiring pertumbuhan bisnis Anda.",
+    },
+    portfolioPage: {
+      heroTitle: "Contoh kerja dan kapasitas tim kami",
+      heroDescription:
+        "Implementasi yang dikerjakan tim internal untuk mendemonstrasikan kualitas build — bukan case study klien dengan metrik bisnis. Case study klien dengan hasil terukur akan tayang setelah data dan persetujuan tersedia.",
+      showcaseEyebrow: "Capability Showcase",
+      showcaseTitle: "Implementasi yang pernah kami bangun",
     },
     pricingPage: {
       heroTitle: "Accessible technology for growing businesses",
@@ -530,6 +549,18 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       heroDescription:
         "AG·SORA helps businesses build software, systems, and digital platforms that fit your operational processes and long-term growth goals.",
     },
+    productsPage: {
+      heroTitle: "AG·SORA software products for lighter operations",
+      heroDescription:
+        "Every product is designed to be easy to use from day one, with plans that adapt as your business grows.",
+    },
+    portfolioPage: {
+      heroTitle: "Examples of our work and team capability",
+      heroDescription:
+        "Implementations built by our internal team to demonstrate build quality — not client case studies with business metrics. Client case studies with measured results will be published once data and approval are available.",
+      showcaseEyebrow: "Capability Showcase",
+      showcaseTitle: "Implementations we've built",
+    },
     pricingPage: {
       heroTitle: "Accessible technology for growing businesses",
       heroDescription:
@@ -731,6 +762,18 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       heroTitle: "为您的工作方式量身设计的技术解决方案",
       heroDescription:
         "AG·SORA 帮助企业构建贴合运营流程与长期增长目标的软件、系统与数字平台。",
+    },
+    productsPage: {
+      heroTitle: "让运营更轻松的 AG·SORA 软件产品",
+      heroDescription:
+        "每款产品从第一天起就易于上手，套餐方案可随业务增长灵活调整。",
+    },
+    portfolioPage: {
+      heroTitle: "我们的作品与团队能力展示",
+      heroDescription:
+        "由内部团队构建的实现案例，用于展示开发质量——并非带有业务指标的客户案例研究。带实际测量结果的客户案例研究将在数据与授权就绪后发布。",
+      showcaseEyebrow: "能力展示",
+      showcaseTitle: "我们构建过的实现案例",
     },
     pricingPage: {
       heroTitle: "面向成长型企业的普惠科技",

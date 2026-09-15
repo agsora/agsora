@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
-import { PageHero } from "@/components/sections/page-hero";
-import { Section } from "@/components/ui/section";
-import { ProductEcosystem } from "@/components/sections/product-ecosystem";
-import { ContactCta } from "@/components/sections/contact-cta";
-import { SystemIntegration } from "@/components/sections/system-integration";
+import { ProductsBody } from "@/components/sections/products-body";
 import { products } from "@/config/products";
 import { siteConfig } from "@/config/site";
 
@@ -22,7 +18,7 @@ const productsSchema = products.map((p) => ({
   name: p.name,
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
-  description: p.description,
+  description: p.description.id,
   brand: siteConfig.brandMark,
   offers: p.tiers.map((t) => ({
     "@type": "Offer",
@@ -39,21 +35,7 @@ export default function ProductsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
       />
-      <PageHero
-        breadcrumb={{ name: "Products", href: "/products" }}
-        eyebrow="Product Ecosystem"
-        title="Produk software AG·SORA untuk operasional yang lebih ringan"
-        description="Setiap produk dirancang agar mudah digunakan sejak hari pertama, dengan paket yang bisa disesuaikan seiring pertumbuhan bisnis Anda."
-      />
-      <Section>
-        <ProductEcosystem />
-      </Section>
-      <Section className="border-t border-line">
-        <SystemIntegration />
-      </Section>
-      <Section className="pt-0">
-        <ContactCta />
-      </Section>
+      <ProductsBody />
     </>
   );
 }
