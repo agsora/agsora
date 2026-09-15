@@ -42,31 +42,31 @@ export default function Home() {
       <Section>
         <ServicesGrid compact />
       </Section>
-      <Section className="border-y border-line bg-surface-1">
+      <Section className="border-t border-line">
         <ProductSwitcher />
       </Section>
-      <Section>
+      <Section className="border-t border-line">
         <IndustriesGrid />
       </Section>
-      <Section className="border-y border-line bg-surface-1">
+      <Section className="border-t border-line">
         <WhyAgsora />
       </Section>
       {/* Desktop only here — it cost 1.3 phone screens between "why" and
           pricing. Mobile readers get the full diagram on /products. */}
-      <Section className="hidden lg:block">
+      <Section className="hidden border-t border-line lg:block">
         <SystemIntegration />
       </Section>
-      <Section className="border-y border-line bg-surface-1">
+      <Section className="border-t border-line">
         <HowWeWork />
       </Section>
-      <Section>
+      <Section className="border-t border-line">
         <PricingTeaser />
       </Section>
-      <Section className="border-y border-line bg-surface-1">
+      <Section className="border-t border-line">
         {/* Visual only — FAQPage schema is emitted once, on /pricing. */}
         <Faq featuredOnly />
       </Section>
-      <Section>
+      <Section className="border-t border-line">
         <ContactCta />
       </Section>
     </>
