@@ -75,6 +75,18 @@ export type Dictionary = {
     automationIntegration: string;
     supportEnterprise: string;
   };
+  capabilitiesSection: { eyebrow: string; title: string; description: string };
+  principlesSection: { eyebrow: string; title: string; description: string };
+  commitmentsSection: { eyebrow: string; title: string; description: string };
+  aboutPage: {
+    heroTitle: string;
+    positioningEyebrow: string;
+    positioningTitle: string;
+    positioningDescription: string;
+    brandPersonality: string;
+    whatWeBelieveEyebrow: string;
+    whatWeBelieveTitle: string;
+  };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -176,6 +188,34 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       automationIntegration: "Automation & Integrasi",
       supportEnterprise: "Support & Enterprise",
     },
+    capabilitiesSection: {
+      eyebrow: "Capabilities",
+      title: "Apa yang bisa kami bangun dan hubungkan",
+      description:
+        "Ruang lingkup teknis yang kami tangani — dari bentuk aplikasinya, sistem yang perlu disambungkan, sampai cara sistem itu dijalankan.",
+    },
+    principlesSection: {
+      eyebrow: "How We Think",
+      title: "Cara kami memutuskan saat membangun sistem",
+      description:
+        "Setiap project punya banyak persimpangan teknis. Ini prinsip yang kami pakai untuk memilih arah ketika tidak ada jawaban yang jelas benar.",
+    },
+    commitmentsSection: {
+      eyebrow: "Our Commitments",
+      title: "Yang kami pastikan di setiap kerja sama",
+      description:
+        "Kepercayaan dibangun dari hal-hal yang bisa dipegang, bukan dari klaim. Berikut yang berlaku pada setiap project AG·SORA.",
+    },
+    aboutPage: {
+      heroTitle: "Perusahaan teknologi yang membangun fondasi digital bisnis Indonesia",
+      positioningEyebrow: "Positioning",
+      positioningTitle: "Modern technology company untuk bisnis yang ingin bertumbuh",
+      positioningDescription:
+        "AG·SORA berdiri di antara dua peran: mitra pengembangan software custom, dan penyedia produk SaaS yang siap digunakan. Kombinasi ini memungkinkan kami memahami kebutuhan bisnis secara mendalam sekaligus menghadirkan solusi yang matang dan teruji.",
+      brandPersonality: "Brand Personality",
+      whatWeBelieveEyebrow: "What We Believe",
+      whatWeBelieveTitle: "Prinsip yang memandu setiap sistem yang kami bangun",
+    },
   },
   en: {
     nav: {
@@ -275,6 +315,34 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       automationIntegration: "Automation & Integration",
       supportEnterprise: "Support & Enterprise",
     },
+    capabilitiesSection: {
+      eyebrow: "Capabilities",
+      title: "What we can build and connect",
+      description:
+        "The technical scope we cover — from the type of application, to the systems that need connecting, to how it all runs.",
+    },
+    principlesSection: {
+      eyebrow: "How We Think",
+      title: "How we decide when building a system",
+      description:
+        "Every project has many technical forks in the road. These are the principles we use to choose a direction when there's no clearly right answer.",
+    },
+    commitmentsSection: {
+      eyebrow: "Our Commitments",
+      title: "What we guarantee on every engagement",
+      description:
+        "Trust is built on things you can hold us to, not claims. Here's what applies to every AG·SORA project.",
+    },
+    aboutPage: {
+      heroTitle: "A technology company building the digital foundation for Indonesian businesses",
+      positioningEyebrow: "Positioning",
+      positioningTitle: "A modern technology company for businesses ready to grow",
+      positioningDescription:
+        "AG·SORA stands between two roles: a custom software development partner, and a provider of ready-to-use SaaS products. This combination lets us understand business needs deeply while delivering mature, proven solutions.",
+      brandPersonality: "Brand Personality",
+      whatWeBelieveEyebrow: "What We Believe",
+      whatWeBelieveTitle: "The principles guiding every system we build",
+    },
   },
   zh: {
     nav: {
@@ -372,6 +440,34 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       businessSystems: "业务系统",
       automationIntegration: "自动化与对接",
       supportEnterprise: "支持与企业方案",
+    },
+    capabilitiesSection: {
+      eyebrow: "能力范围",
+      title: "我们能构建与对接的内容",
+      description:
+        "我们所覆盖的技术范围 — 从应用形态、需要对接的系统，到系统的运行方式。",
+    },
+    principlesSection: {
+      eyebrow: "我们的思考方式",
+      title: "构建系统时我们如何做决策",
+      description:
+        "每个项目都存在诸多技术上的分岔点。以下是当没有明确正确答案时，我们用来判断方向的原则。",
+    },
+    commitmentsSection: {
+      eyebrow: "我们的承诺",
+      title: "每次合作中我们必定坚守的事项",
+      description:
+        "信任建立在可被验证的事物之上，而非空口承诺。以下适用于每一个 AG·SORA 项目。",
+    },
+    aboutPage: {
+      heroTitle: "为印尼企业构建数字化基础的科技公司",
+      positioningEyebrow: "定位",
+      positioningTitle: "服务于成长型企业的现代科技公司",
+      positioningDescription:
+        "AG·SORA 兼具两种角色：定制软件开发合作伙伴，以及开箱即用 SaaS 产品的提供者。这种组合让我们既能深入理解业务需求，又能交付成熟、经过验证的解决方案。",
+      brandPersonality: "品牌个性",
+      whatWeBelieveEyebrow: "我们的理念",
+      whatWeBelieveTitle: "指导我们构建每个系统的原则",
     },
   },
 };

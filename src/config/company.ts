@@ -8,10 +8,13 @@
  * not be written here. See `companyFacts` below.
  */
 
+type Localized = { id: string; en: string; zh: string };
+type LocalizedList = { id: string[]; en: string[]; zh: string[] };
+
 export type CapabilityGroup = {
-  title: string;
-  description: string;
-  items: string[];
+  title: Localized;
+  description: Localized;
+  items: LocalizedList;
 };
 
 /**
@@ -21,86 +24,199 @@ export type CapabilityGroup = {
  */
 export const capabilities: CapabilityGroup[] = [
   {
-    title: "Platform",
-    description: "Bentuk sistem yang bisa kami bangun.",
-    items: [
-      "Web application & admin dashboard",
-      "Mobile application (iOS & Android)",
-      "Aplikasi kasir / POS terminal",
-      "Portal pelanggan & vendor",
-      "Landing page & company profile",
-    ],
+    title: { id: "Platform", en: "Platform", zh: "平台" },
+    description: {
+      id: "Bentuk sistem yang bisa kami bangun.",
+      en: "The kinds of systems we can build.",
+      zh: "我们能够构建的系统类型。",
+    },
+    items: {
+      id: [
+        "Web application & admin dashboard",
+        "Mobile application (iOS & Android)",
+        "Aplikasi kasir / POS terminal",
+        "Portal pelanggan & vendor",
+        "Landing page & company profile",
+      ],
+      en: [
+        "Web application & admin dashboard",
+        "Mobile application (iOS & Android)",
+        "POS / cashier terminal app",
+        "Customer & vendor portal",
+        "Landing page & company profile site",
+      ],
+      zh: [
+        "Web 应用与管理后台",
+        "移动应用（iOS 与 Android）",
+        "收银/POS 终端应用",
+        "客户与供应商门户",
+        "落地页与企业官网",
+      ],
+    },
   },
   {
-    title: "Integrasi",
-    description: "Menghubungkan sistem baru dengan yang sudah berjalan.",
-    items: [
-      "Payment gateway & QRIS",
-      "Marketplace & e-commerce",
-      "WhatsApp Business API",
-      "Software akuntansi",
-      "Ekspedisi & logistik",
-      "Single sign-on (SSO)",
-    ],
+    title: { id: "Integrasi", en: "Integration", zh: "系统对接" },
+    description: {
+      id: "Menghubungkan sistem baru dengan yang sudah berjalan.",
+      en: "Connecting new systems with the ones already running.",
+      zh: "将新系统与现有运行中的系统连接。",
+    },
+    items: {
+      id: [
+        "Payment gateway & QRIS",
+        "Marketplace & e-commerce",
+        "WhatsApp Business API",
+        "Software akuntansi",
+        "Ekspedisi & logistik",
+        "Single sign-on (SSO)",
+      ],
+      en: [
+        "Payment gateway & QRIS",
+        "Marketplace & e-commerce",
+        "WhatsApp Business API",
+        "Accounting software",
+        "Shipping & logistics",
+        "Single sign-on (SSO)",
+      ],
+      zh: [
+        "支付网关与 QRIS",
+        "电商平台对接",
+        "WhatsApp Business API",
+        "会计软件",
+        "物流与配送",
+        "单点登录（SSO）",
+      ],
+    },
   },
   {
-    title: "Data & Pelaporan",
-    description: "Mengubah data operasional jadi dasar keputusan.",
-    items: [
-      "Dashboard & laporan real-time",
-      "Konsolidasi multi-cabang",
-      "Migrasi data dari sistem lama",
-      "Ekspor terjadwal & rekap otomatis",
-    ],
+    title: { id: "Data & Pelaporan", en: "Data & Reporting", zh: "数据与报表" },
+    description: {
+      id: "Mengubah data operasional jadi dasar keputusan.",
+      en: "Turning operational data into the basis for decisions.",
+      zh: "将运营数据转化为决策依据。",
+    },
+    items: {
+      id: [
+        "Dashboard & laporan real-time",
+        "Konsolidasi multi-cabang",
+        "Migrasi data dari sistem lama",
+        "Ekspor terjadwal & rekap otomatis",
+      ],
+      en: [
+        "Real-time dashboards & reports",
+        "Multi-branch consolidation",
+        "Data migration from legacy systems",
+        "Scheduled exports & automated recaps",
+      ],
+      zh: [
+        "实时仪表盘与报表",
+        "多分店数据合并",
+        "旧系统数据迁移",
+        "定时导出与自动汇总",
+      ],
+    },
   },
   {
-    title: "Infrastruktur",
-    description: "Menjalankan sistem secara stabil dan terkontrol.",
-    items: [
-      "Deployment cloud atau on-premise",
-      "Backup & pemulihan data",
-      "Monitoring & logging",
-      "Manajemen hak akses pengguna",
-    ],
+    title: { id: "Infrastruktur", en: "Infrastructure", zh: "基础设施" },
+    description: {
+      id: "Menjalankan sistem secara stabil dan terkontrol.",
+      en: "Running systems reliably and under control.",
+      zh: "稳定且可控地运行系统。",
+    },
+    items: {
+      id: [
+        "Deployment cloud atau on-premise",
+        "Backup & pemulihan data",
+        "Monitoring & logging",
+        "Manajemen hak akses pengguna",
+      ],
+      en: [
+        "Cloud or on-premise deployment",
+        "Backup & data recovery",
+        "Monitoring & logging",
+        "User access management",
+      ],
+      zh: [
+        "云端或本地部署",
+        "数据备份与恢复",
+        "监控与日志记录",
+        "用户权限管理",
+      ],
+    },
   },
 ];
 
 export type Principle = {
-  title: string;
-  description: string;
+  title: Localized;
+  description: Localized;
 };
 
 export const principles: Principle[] = [
   {
-    title: "Proses dulu, baru software",
-    description:
-      "Kami memetakan alur kerja yang sebenarnya sebelum menulis kode. Sistem yang dibangun di atas proses yang keliru hanya akan mempercepat masalah yang sama.",
+    title: {
+      id: "Proses dulu, baru software",
+      en: "Process first, software second",
+      zh: "先理清流程，再谈软件",
+    },
+    description: {
+      id: "Kami memetakan alur kerja yang sebenarnya sebelum menulis kode. Sistem yang dibangun di atas proses yang keliru hanya akan mempercepat masalah yang sama.",
+      en: "We map out the real workflow before writing any code. A system built on top of a flawed process just makes the same problem happen faster.",
+      zh: "我们会先梳理真实的工作流程，再开始编写代码。建立在错误流程之上的系统，只会让同样的问题更快地发生。",
+    },
   },
   {
-    title: "Bangun untuk tahun kedua",
-    description:
-      "Arsitektur dirancang untuk kondisi saat data sudah menumpuk dan pengguna bertambah — bukan hanya agar terlihat baik di hari peluncuran.",
+    title: {
+      id: "Bangun untuk tahun kedua",
+      en: "Built for year two",
+      zh: "为第二年而建",
+    },
+    description: {
+      id: "Arsitektur dirancang untuk kondisi saat data sudah menumpuk dan pengguna bertambah — bukan hanya agar terlihat baik di hari peluncuran.",
+      en: "Architecture is designed for the point when data has piled up and users have grown — not just to look good on launch day.",
+      zh: "架构设计着眼于数据累积、用户增长后的状态，而不仅仅是为了上线当天看起来光鲜。",
+    },
   },
   {
-    title: "Satu sumber data",
-    description:
-      "Setiap angka sebaiknya punya satu tempat tinggal. Input ganda antar divisi adalah sumber selisih laporan yang paling sering kami temui.",
+    title: {
+      id: "Satu sumber data",
+      en: "One source of truth",
+      zh: "单一数据来源",
+    },
+    description: {
+      id: "Setiap angka sebaiknya punya satu tempat tinggal. Input ganda antar divisi adalah sumber selisih laporan yang paling sering kami temui.",
+      en: "Every number should have one home. Duplicate input across departments is the most common source of report discrepancies we see.",
+      zh: "每个数字都应该只有一个归属之地。跨部门的重复录入，是我们最常见到的报表差异来源。",
+    },
   },
   {
-    title: "Serah terima, bukan ketergantungan",
-    description:
-      "Dokumentasi dan pelatihan adalah bagian dari pekerjaan. Klien harus tetap bisa menjalankan sistemnya meski tidak lagi bekerja dengan kami.",
+    title: {
+      id: "Serah terima, bukan ketergantungan",
+      en: "Handover, not dependency",
+      zh: "交接而非依赖",
+    },
+    description: {
+      id: "Dokumentasi dan pelatihan adalah bagian dari pekerjaan. Klien harus tetap bisa menjalankan sistemnya meski tidak lagi bekerja dengan kami.",
+      en: "Documentation and training are part of the job. Clients should be able to keep running their system even if they stop working with us.",
+      zh: "文档与培训是工作的一部分。即使不再与我们合作，客户也应该能够独立运行其系统。",
+    },
   },
   {
-    title: "Rilis bertahap dan terukur",
-    description:
-      "Kami memilih rilis kecil yang bisa dievaluasi daripada satu peluncuran besar yang sulit dikoreksi ketika ada yang meleset.",
+    title: {
+      id: "Rilis bertahap dan terukur",
+      en: "Phased, measured releases",
+      zh: "分阶段、可衡量的发布",
+    },
+    description: {
+      id: "Kami memilih rilis kecil yang bisa dievaluasi daripada satu peluncuran besar yang sulit dikoreksi ketika ada yang meleset.",
+      en: "We prefer small, evaluable releases over one big launch that's hard to correct when something goes wrong.",
+      zh: "我们倾向于采用可评估的小规模发布，而非一次性大规模上线——后者一旦出错将难以修正。",
+    },
   },
 ];
 
 export type Commitment = {
-  title: string;
-  description: string;
+  title: Localized;
+  description: Localized;
 };
 
 /**
@@ -109,34 +225,76 @@ export type Commitment = {
  */
 export const commitments: Commitment[] = [
   {
-    title: "Kepemilikan source code",
-    description:
-      "Skema kepemilikan source code untuk project custom dinyatakan tertulis dalam kontrak sejak awal — tidak disamarkan di belakang jargon lisensi.",
+    title: {
+      id: "Kepemilikan source code",
+      en: "Source code ownership",
+      zh: "源代码归属",
+    },
+    description: {
+      id: "Skema kepemilikan source code untuk project custom dinyatakan tertulis dalam kontrak sejak awal — tidak disamarkan di belakang jargon lisensi.",
+      en: "The source code ownership arrangement for custom projects is stated in writing in the contract from the start — never disguised behind licensing jargon.",
+      zh: "定制项目的源代码归属方案会在合同中从一开始就以书面形式明确约定，绝不会被授权术语所掩盖。",
+    },
   },
   {
-    title: "Dokumentasi & pelatihan",
-    description:
-      "Setiap serah terima disertai dokumentasi teknis dan sesi pelatihan untuk tim yang akan menggunakan sistem sehari-hari.",
+    title: {
+      id: "Dokumentasi & pelatihan",
+      en: "Documentation & training",
+      zh: "文档与培训",
+    },
+    description: {
+      id: "Setiap serah terima disertai dokumentasi teknis dan sesi pelatihan untuk tim yang akan menggunakan sistem sehari-hari.",
+      en: "Every handover includes technical documentation and a training session for the team that will use the system day to day.",
+      zh: "每次交付都包含技术文档，以及为日常使用系统的团队提供的培训。",
+    },
   },
   {
-    title: "Estimasi yang jujur",
-    description:
-      "Jika sebuah kebutuhan di luar keahlian kami atau tidak realistis dengan anggaran yang ada, kami sampaikan di awal — bukan setelah kontrak berjalan.",
+    title: {
+      id: "Estimasi yang jujur",
+      en: "Honest estimates",
+      zh: "诚实的报价",
+    },
+    description: {
+      id: "Jika sebuah kebutuhan di luar keahlian kami atau tidak realistis dengan anggaran yang ada, kami sampaikan di awal — bukan setelah kontrak berjalan.",
+      en: "If a requirement is outside our expertise or unrealistic for the available budget, we say so upfront — not after the contract is underway.",
+      zh: "如果某项需求超出我们的专业能力，或与预算不符，我们会提前告知——而不是等合同开始执行后才说。",
+    },
   },
   {
-    title: "Kerahasiaan data",
-    description:
-      "Data dan proses bisnis klien tidak digunakan untuk keperluan lain. NDA dapat disiapkan sebelum diskusi teknis dimulai.",
+    title: {
+      id: "Kerahasiaan data",
+      en: "Data confidentiality",
+      zh: "数据保密",
+    },
+    description: {
+      id: "Data dan proses bisnis klien tidak digunakan untuk keperluan lain. NDA dapat disiapkan sebelum diskusi teknis dimulai.",
+      en: "Client data and business processes are never used for other purposes. An NDA can be arranged before technical discussions begin.",
+      zh: "客户的数据与业务流程绝不会被用于其他用途。技术讨论开始前可签署保密协议（NDA）。",
+    },
   },
   {
-    title: "Ruang lingkup tertulis",
-    description:
-      "Fitur, timeline, dan batasan project dituangkan dalam proposal sebelum pengerjaan, sehingga tidak ada tafsir ganda di tengah jalan.",
+    title: {
+      id: "Ruang lingkup tertulis",
+      en: "Written scope",
+      zh: "书面范围界定",
+    },
+    description: {
+      id: "Fitur, timeline, dan batasan project dituangkan dalam proposal sebelum pengerjaan, sehingga tidak ada tafsir ganda di tengah jalan.",
+      en: "Features, timeline, and project boundaries are set out in a proposal before work begins, so there's no room for conflicting interpretations mid-project.",
+      zh: "功能、工期与项目边界会在开工前写入提案，避免项目中途出现理解分歧。",
+    },
   },
   {
-    title: "Dukungan setelah rilis",
-    description:
-      "Perbaikan bug dan dukungan teknis pascarilis tersedia melalui paket maintenance, dengan cakupan yang dijelaskan sejak awal.",
+    title: {
+      id: "Dukungan setelah rilis",
+      en: "Post-launch support",
+      zh: "上线后支持",
+    },
+    description: {
+      id: "Perbaikan bug dan dukungan teknis pascarilis tersedia melalui paket maintenance, dengan cakupan yang dijelaskan sejak awal.",
+      en: "Bug fixes and post-launch technical support are available through maintenance packages, with coverage explained upfront.",
+      zh: "上线后的错误修复与技术支持可通过维护套餐获得，服务范围会提前说明清楚。",
+    },
   },
 ];
 
