@@ -1,8 +1,14 @@
 import { ImageResponse } from "next/og";
+import { readFileSync } from "fs";
+import { join } from "path";
 import { siteConfig } from "@/config/site";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+
+const iconDataUri = `data:image/png;base64,${readFileSync(
+  join(process.cwd(), "public/brand/icon-compact.png")
+).toString("base64")}`;
 
 export default function OpengraphImage() {
   return new ImageResponse(
@@ -15,7 +21,7 @@ export default function OpengraphImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px",
-          background: "#08090d",
+          background: "#0d0f15",
           position: "relative",
         }}
       >
@@ -33,15 +39,8 @@ export default function OpengraphImage() {
         />
 
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-          <svg width="34" height="34" viewBox="0 0 64 64" fill="none">
-            <defs>
-              <linearGradient id="g" x1="4" y1="56" x2="60" y2="8" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stopColor="#4D7CFE" />
-                <stop offset="1" stopColor="#35D6EC" />
-              </linearGradient>
-            </defs>
-            <path d="M32 6 L57 56 L44.5 56 L32 30 L19.5 56 L7 56 Z" fill="url(#g)" />
-          </svg>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={iconDataUri} width={36} height={31} alt="" />
           <span style={{ fontSize: 26, fontWeight: 600, color: "#f2f4f8" }}>
             AG·SORA
           </span>
