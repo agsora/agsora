@@ -1,9 +1,13 @@
+"use client";
+
 import { products } from "@/config/products";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 import { cn } from "@/lib/utils";
+import { useLocale } from "@/i18n/locale-context";
 
 export function SaasPricing() {
+  const { t, locale } = useLocale();
   return (
     <div className="flex flex-col gap-16">
       {products.map((product, i) => (
@@ -35,7 +39,7 @@ export function SaasPricing() {
                     </p>
                     {idx === 1 ? (
                       <span className="rounded-sm border border-line-strong px-1.5 py-0.5 text-[10px] uppercase tracking-wider text-ink-subtle">
-                        Populer
+                        {t.saasPricing.popular}
                       </span>
                     ) : null}
                   </div>
@@ -46,7 +50,7 @@ export function SaasPricing() {
                     </span>
                   </p>
                   <ul className="mt-5 space-y-2 border-t border-line pt-4">
-                    {product.features.slice(0, idx + 2).map((f) => (
+                    {product.features[locale].slice(0, idx + 2).map((f) => (
                       <li
                         key={f}
                         className="flex items-start gap-2.5 text-[12px] text-ink-muted"
@@ -62,7 +66,7 @@ export function SaasPricing() {
                     variant={idx === 1 ? "primary" : "outline"}
                     className="mt-6 w-full justify-center"
                   >
-                    Coba Sekarang
+                    {t.saasPricing.tryNow}
                   </Button>
                 </div>
               ))}
@@ -75,15 +79,14 @@ export function SaasPricing() {
         <div className="flex flex-col items-start justify-between gap-5 rounded-lg border border-line bg-surface-1 p-8 sm:flex-row sm:items-center">
           <div>
             <h3 className="text-[16px] font-semibold text-ink">
-              Need something more complex?
+              {t.saasPricing.complexTitle}
             </h3>
             <p className="mt-2 max-w-md text-[13px] leading-relaxed text-ink-muted">
-              Untuk multi-cabang, integrasi khusus, atau kebutuhan SLA
-              tertentu — let&apos;s design the right architecture together.
+              {t.saasPricing.complexDescription}
             </p>
           </div>
           <Button href="/contact" className="shrink-0">
-            Contact Sales
+            {t.saasPricing.contactSales}
           </Button>
         </div>
       </Reveal>

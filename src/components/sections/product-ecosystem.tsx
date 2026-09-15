@@ -5,21 +5,23 @@ import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section";
 import { ProductCard } from "@/components/sections/product-card";
 import { Button } from "@/components/ui/button";
+import { useLocale } from "@/i18n/locale-context";
 
 export function ProductEcosystem({ compact = false }: { compact?: boolean }) {
+  const { t } = useLocale();
   const items = compact ? products.slice(0, 3) : products;
 
   return (
     <Container className="max-w-6xl">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <SectionHeading
-          eyebrow="Product Ecosystem"
-          title="Produk SaaS AG·SORA yang siap digunakan"
-          description="Bukan sekadar jasa development — AG·SORA juga menghadirkan produk software yang terus dikembangkan dan didukung penuh."
+          eyebrow={t.productSwitcher.eyebrow}
+          title={t.productSwitcher.title}
+          description={t.productSwitcher.description}
         />
         {compact ? (
           <Button href="/products" variant="outline" size="sm" className="shrink-0">
-            Lihat Semua Produk
+            {t.productSwitcher.seeAll}
           </Button>
         ) : null}
       </div>

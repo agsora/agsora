@@ -4,8 +4,10 @@ import { motion } from "framer-motion";
 import type { Product } from "@/config/products";
 import { Button } from "@/components/ui/button";
 import { ProductMockup } from "@/components/sections/product-mockup";
+import { useLocale } from "@/i18n/locale-context";
 
 export function ProductCard({ product, index = 0 }: { product: Product; index?: number }) {
+  const { t, locale } = useLocale();
   const Icon = product.icon;
   const flip = index % 2 === 1;
 
@@ -28,21 +30,21 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
               <h3 className="text-[18px] font-semibold text-ink">
                 {product.name}
               </h3>
-              <p className="text-[12px] text-accent">{product.tagline}</p>
+              <p className="text-[12px] text-accent">{product.tagline[locale]}</p>
             </div>
           </div>
 
           <p className="mt-6 text-[14px] leading-relaxed text-ink-muted">
-            {product.description}
+            {product.description[locale]}
           </p>
 
           <div className="mt-7 grid gap-8 sm:grid-cols-2">
             <div>
               <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
-                Features
+                {t.productCard.features}
               </p>
               <ul className="mt-3.5 space-y-2 border-t border-line pt-3.5">
-                {product.features.map((feature) => (
+                {product.features[locale].map((feature) => (
                   <li
                     key={feature}
                     className="flex items-start gap-2.5 text-[13px] text-ink-muted"
@@ -55,10 +57,10 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
             </div>
             <div>
               <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
-                Main Benefits
+                {t.productCard.benefits}
               </p>
               <ul className="mt-3.5 space-y-2 border-t border-line pt-3.5">
-                {product.benefits.map((benefit) => (
+                {product.benefits[locale].map((benefit) => (
                   <li
                     key={benefit}
                     className="flex items-start gap-2.5 text-[13px] text-ink-muted"
@@ -84,10 +86,10 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
 
           <div className="mt-6 flex flex-wrap gap-2.5">
             <Button href="/contact" size="sm">
-              Coba Demo
+              {t.productCard.tryDemo}
             </Button>
             <Button href="/pricing" size="sm" variant="outline">
-              Lihat Harga
+              {t.productCard.seePricing}
             </Button>
           </div>
         </div>

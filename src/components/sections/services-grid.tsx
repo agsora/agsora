@@ -7,21 +7,23 @@ import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
+import { useLocale } from "@/i18n/locale-context";
 
 export function ServicesGrid({ compact = false }: { compact?: boolean }) {
+  const { t, locale } = useLocale();
   const items = compact ? services.slice(0, 6) : services;
 
   return (
     <Container className="max-w-6xl">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <SectionHeading
-          eyebrow="Custom Development"
-          title="Layanan yang membangun fondasi digital bisnis Anda"
-          description="Dari website sederhana hingga sistem enterprise — tim AG·SORA merancang solusi yang sesuai dengan proses kerja Anda."
+          eyebrow={t.servicesGrid.eyebrow}
+          title={t.servicesGrid.title}
+          description={t.servicesGrid.description}
         />
         {compact ? (
           <Button href="/services" variant="outline" size="sm" className="shrink-0">
-            Lihat Semua Layanan
+            {t.servicesGrid.seeAll}
           </Button>
         ) : null}
       </div>
@@ -43,10 +45,10 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
                   {service.title}
                 </h3>
                 <p className="mt-2 flex-1 text-[13px] leading-relaxed text-ink-muted">
-                  {service.description}
+                  {service.description[locale]}
                 </p>
                 <p className="mt-4 text-[12px] text-ink-subtle sm:mt-6">
-                  Mulai dari{" "}
+                  {t.servicesGrid.startingFrom}{" "}
                   <span className="tabular-nums text-ink-muted">
                     {service.startingFrom}
                   </span>

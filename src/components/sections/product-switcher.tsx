@@ -8,19 +8,21 @@ import { SectionHeading } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
 import { ProductMockup } from "@/components/sections/product-mockup";
 import { cn } from "@/lib/utils";
+import { useLocale } from "@/i18n/locale-context";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
 export function ProductSwitcher() {
+  const { t, locale } = useLocale();
   const [activeId, setActiveId] = useState(products[0].id);
   const active = products.find((p) => p.id === activeId) ?? products[0];
 
   return (
     <Container className="max-w-6xl">
       <SectionHeading
-        eyebrow="Product Ecosystem"
-        title="Produk SaaS AG·SORA yang siap digunakan"
-        description="Bukan sekadar jasa development — AG·SORA juga menghadirkan produk software yang terus dikembangkan dan didukung penuh."
+        eyebrow={t.productSwitcher.eyebrow}
+        title={t.productSwitcher.title}
+        description={t.productSwitcher.description}
       />
 
       <div
@@ -69,13 +71,13 @@ export function ProductSwitcher() {
             <h3 className="text-[20px] font-semibold text-ink">
               {active.name}
             </h3>
-            <p className="mt-1 text-[13px] text-accent">{active.tagline}</p>
+            <p className="mt-1 text-[13px] text-accent">{active.tagline[locale]}</p>
             <p className="mt-5 text-[14px] leading-relaxed text-ink-muted">
-              {active.description}
+              {active.description[locale]}
             </p>
 
             <ul className="mt-7 space-y-2.5 border-t border-line pt-5">
-              {active.features.map((feature) => (
+              {active.features[locale].map((feature) => (
                 <li
                   key={feature}
                   className="flex items-start gap-2.5 text-[13px] text-ink-muted"
@@ -87,7 +89,7 @@ export function ProductSwitcher() {
             </ul>
 
             <div className="mt-7 flex items-baseline gap-2 border-t border-line pt-5">
-              <span className="text-[12px] text-ink-subtle">Mulai dari</span>
+              <span className="text-[12px] text-ink-subtle">{t.servicesGrid.startingFrom}</span>
               <span className="text-[18px] font-semibold tabular-nums text-ink">
                 {active.tiers[0].price}
               </span>
@@ -98,10 +100,10 @@ export function ProductSwitcher() {
 
             <div className="mt-6 flex flex-wrap gap-2.5">
               <Button href="/contact" size="sm">
-                Coba Demo
+                {t.productCard.tryDemo}
               </Button>
               <Button href="/pricing" size="sm" variant="outline">
-                Lihat Harga
+                {t.productCard.seePricing}
               </Button>
             </div>
           </motion.div>

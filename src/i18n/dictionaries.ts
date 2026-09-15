@@ -43,6 +43,32 @@ export type Dictionary = {
   langSwitch: { label: string };
   whyAgsora: { eyebrow: string; title: string; description: string };
   howWeWork: { eyebrow: string; title: string };
+  servicesGrid: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    seeAll: string;
+    startingFrom: string;
+  };
+  productCard: {
+    features: string;
+    benefits: string;
+    tryDemo: string;
+    seePricing: string;
+  };
+  productSwitcher: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    seeAll: string;
+  };
+  saasPricing: {
+    popular: string;
+    tryNow: string;
+    complexTitle: string;
+    complexDescription: string;
+    contactSales: string;
+  };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -109,6 +135,35 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "How We Work",
       title: "Proses kerja yang jelas, dari ide hingga sistem berjalan",
     },
+    servicesGrid: {
+      eyebrow: "Custom Development",
+      title: "Layanan yang membangun fondasi digital bisnis Anda",
+      description:
+        "Dari website sederhana hingga sistem enterprise — tim AG·SORA merancang solusi yang sesuai dengan proses kerja Anda.",
+      seeAll: "Lihat Semua Layanan",
+      startingFrom: "Mulai dari",
+    },
+    productCard: {
+      features: "Fitur",
+      benefits: "Manfaat Utama",
+      tryDemo: "Coba Demo",
+      seePricing: "Lihat Harga",
+    },
+    productSwitcher: {
+      eyebrow: "Product Ecosystem",
+      title: "Produk SaaS AG·SORA yang siap digunakan",
+      description:
+        "Bukan sekadar jasa development — AG·SORA juga menghadirkan produk software yang terus dikembangkan dan didukung penuh.",
+      seeAll: "Lihat Semua Produk",
+    },
+    saasPricing: {
+      popular: "Populer",
+      tryNow: "Coba Sekarang",
+      complexTitle: "Butuh sesuatu yang lebih kompleks?",
+      complexDescription:
+        "Untuk multi-cabang, integrasi khusus, atau kebutuhan SLA tertentu — mari rancang arsitektur yang tepat bersama.",
+      contactSales: "Hubungi Sales",
+    },
   },
   en: {
     nav: {
@@ -173,6 +228,35 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "How We Work",
       title: "A clear process, from idea to a running system",
     },
+    servicesGrid: {
+      eyebrow: "Custom Development",
+      title: "Services that build the digital foundation of your business",
+      description:
+        "From simple websites to enterprise systems — the AG·SORA team designs solutions that fit how you work.",
+      seeAll: "See All Services",
+      startingFrom: "Starting from",
+    },
+    productCard: {
+      features: "Features",
+      benefits: "Main Benefits",
+      tryDemo: "Try Demo",
+      seePricing: "See Pricing",
+    },
+    productSwitcher: {
+      eyebrow: "Product Ecosystem",
+      title: "AG·SORA SaaS products, ready to use",
+      description:
+        "Not just development services — AG·SORA also builds software products that are continuously developed and fully supported.",
+      seeAll: "See All Products",
+    },
+    saasPricing: {
+      popular: "Most Popular",
+      tryNow: "Try Now",
+      complexTitle: "Need something more complex?",
+      complexDescription:
+        "For multi-branch operations, custom integrations, or specific SLA needs — let's design the right architecture together.",
+      contactSales: "Contact Sales",
+    },
   },
   zh: {
     nav: {
@@ -235,6 +319,35 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     howWeWork: {
       eyebrow: "我们的工作方式",
       title: "从想法到系统上线，流程清晰透明",
+    },
+    servicesGrid: {
+      eyebrow: "定制开发",
+      title: "为您的业务打造数字化基础的服务",
+      description:
+        "从简单网站到企业级系统 — AG·SORA 团队设计的方案贴合您的工作方式。",
+      seeAll: "查看全部服务",
+      startingFrom: "起价",
+    },
+    productCard: {
+      features: "功能特性",
+      benefits: "主要优势",
+      tryDemo: "试用演示",
+      seePricing: "查看价格",
+    },
+    productSwitcher: {
+      eyebrow: "产品生态",
+      title: "开箱即用的 AG·SORA SaaS 产品",
+      description:
+        "不仅仅是开发服务 — AG·SORA 还提供持续迭代、全程支持的软件产品。",
+      seeAll: "查看全部产品",
+    },
+    saasPricing: {
+      popular: "最受欢迎",
+      tryNow: "立即试用",
+      complexTitle: "需要更复杂的方案？",
+      complexDescription:
+        "针对多分店运营、特殊对接或特定 SLA 需求 — 让我们一起设计合适的架构。",
+      contactSales: "联系销售",
     },
   },
 };
