@@ -1,8 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { services } from "@/config/services";
 import { serviceDetails } from "@/config/service-details";
 import { getPostBySlug, type BlogTag } from "@/config/blog";
+import { useLocale } from "@/i18n/locale-context";
 
 const MAX_SERVICES = 3;
 
@@ -47,6 +50,7 @@ const tagToService: Partial<Record<BlogTag, string>> = {
  * article gets a path to a commercial page without hand-maintained lists.
  */
 export function RelatedServices({ postSlug }: { postSlug: string }) {
+  const { t, locale } = useLocale();
   const post = getPostBySlug(postSlug);
   if (!post) return null;
 
@@ -66,7 +70,11 @@ export function RelatedServices({ postSlug }: { postSlug: string }) {
   return (
     <aside className="mt-10 rounded-lg border border-line bg-surface-1 p-6">
       <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
-        Layanan terkait
+        {locale === "id"
+          ? "Layanan terkait"
+          : locale === "en"
+            ? "Related services"
+            : "相关服务"}
       </p>
       <ul className="mt-3 divide-y divide-line">
         {related.map((service) => (
@@ -77,10 +85,10 @@ export function RelatedServices({ postSlug }: { postSlug: string }) {
             >
               <span>
                 <span className="block text-[14px] text-ink">
-                  {serviceDetails[service.id].h1}
+                  {serviceDetails[service.id].h1[locale]}
                 </span>
                 <span className="mt-0.5 block text-[12px] text-ink-subtle">
-                  Mulai dari {service.startingFrom}
+                  {t.servicesGrid.startingFrom} {service.startingFrom}
                 </span>
               </span>
               <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-subtle transition-colors group-hover:text-accent" />
