@@ -4,14 +4,13 @@ import { motion } from "framer-motion";
 import { processSteps } from "@/config/process";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section";
+import { useLocale } from "@/i18n/locale-context";
 
 export function HowWeWork() {
+  const { t, locale } = useLocale();
   return (
     <Container className="max-w-6xl">
-      <SectionHeading
-        eyebrow="How We Work"
-        title="Proses kerja yang jelas, dari ide hingga sistem berjalan"
-      />
+      <SectionHeading eyebrow={t.howWeWork.eyebrow} title={t.howWeWork.title} />
 
       <div className="relative mt-8 sm:mt-10">
         <div className="absolute left-0 right-0 top-[5px] hidden h-px bg-line md:block" />
@@ -34,7 +33,7 @@ export function HowWeWork() {
                 {step.title}
               </h3>
               <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
-                {step.description}
+                {step.description[locale]}
               </p>
             </motion.div>
           ))}

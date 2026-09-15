@@ -41,6 +41,8 @@ export type Dictionary = {
   };
   themeToggle: { light: string; dark: string };
   langSwitch: { label: string };
+  whyAgsora: { eyebrow: string; title: string; description: string };
+  howWeWork: { eyebrow: string; title: string };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -97,6 +99,16 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     langSwitch: {
       label: "Bahasa",
     },
+    whyAgsora: {
+      eyebrow: "Why AG·SORA",
+      title: "Teknologi yang tumbuh bersama bisnis Anda",
+      description:
+        "Kami tidak menjual template — kami membangun sistem yang dirancang untuk kebutuhan spesifik dan arah pertumbuhan perusahaan Anda.",
+    },
+    howWeWork: {
+      eyebrow: "How We Work",
+      title: "Proses kerja yang jelas, dari ide hingga sistem berjalan",
+    },
   },
   en: {
     nav: {
@@ -151,6 +163,16 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     langSwitch: {
       label: "Language",
     },
+    whyAgsora: {
+      eyebrow: "Why AG·SORA",
+      title: "Technology that grows with your business",
+      description:
+        "We don't sell templates — we build systems designed for your company's specific needs and growth direction.",
+    },
+    howWeWork: {
+      eyebrow: "How We Work",
+      title: "A clear process, from idea to a running system",
+    },
   },
   zh: {
     nav: {
@@ -203,6 +225,16 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     },
     langSwitch: {
       label: "语言",
+    },
+    whyAgsora: {
+      eyebrow: "为什么选择 AG·SORA",
+      title: "与您的业务共同成长的技术",
+      description:
+        "我们不销售模板 — 我们构建的系统专为您公司的具体需求与成长方向而设计。",
+    },
+    howWeWork: {
+      eyebrow: "我们的工作方式",
+      title: "从想法到系统上线，流程清晰透明",
     },
   },
 };

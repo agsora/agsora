@@ -2,14 +2,17 @@
 
 import Link from "next/link";
 import { ArrowRight, Plus } from "lucide-react";
-import { faqs } from "@/config/company";
+import { faqsTranslated } from "@/config/company";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section";
 import { useLocale } from "@/i18n/locale-context";
 
 export function Faq({ featuredOnly = false }: { featuredOnly?: boolean }) {
-  const { t } = useLocale();
-  const items = featuredOnly ? faqs.filter((faq) => faq.featured) : faqs;
+  const { t, locale } = useLocale();
+  const source = featuredOnly
+    ? faqsTranslated.filter((faq) => faq.featured)
+    : faqsTranslated;
+  const items = source.map((faq) => ({ ...faq[locale], key: faq.id.question }));
 
   return (
     <Container className="max-w-6xl">
@@ -34,7 +37,7 @@ export function Faq({ featuredOnly = false }: { featuredOnly?: boolean }) {
         <div className="divide-y divide-line border-y border-line">
           {items.map((faq, i) => (
             <details
-              key={faq.question}
+              key={faq.key}
               name="agsora-faq"
               // Collapsed on the homepage: a scannable list of questions is
               // shorter on a phone, and the reader opens the one they care about.

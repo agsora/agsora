@@ -1,15 +1,19 @@
+"use client";
+
 import { valueProps } from "@/config/process";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
+import { useLocale } from "@/i18n/locale-context";
 
 export function WhyAgsora() {
+  const { t, locale } = useLocale();
   return (
     <Container className="max-w-6xl">
         <SectionHeading
-          eyebrow="Why AG·SORA"
-          title="Teknologi yang tumbuh bersama bisnis Anda"
-          description="Kami tidak menjual template — kami membangun sistem yang dirancang untuk kebutuhan spesifik dan arah pertumbuhan perusahaan Anda."
+          eyebrow={t.whyAgsora.eyebrow}
+          title={t.whyAgsora.title}
+          description={t.whyAgsora.description}
         />
 
         <RevealGroup className="mt-8 grid grid-cols-1 gap-x-10 gap-y-7 sm:mt-10 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
@@ -23,7 +27,7 @@ export function WhyAgsora() {
                   {prop.title}
                 </h3>
                 <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
-                  {prop.description}
+                  {prop.description[locale]}
                 </p>
               </div>
             </RevealItem>

@@ -85,7 +85,7 @@ export default function AboutPage() {
                     {v.title}
                   </h3>
                   <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
-                    {v.description}
+                    {v.description.id}
                   </p>
                 </div>
               </RevealItem>
