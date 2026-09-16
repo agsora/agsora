@@ -158,6 +158,11 @@ export type Dictionary = {
     next: string;
     pageOf: string;
   };
+  blogPost: {
+    allArticles: string;
+    recommendedEyebrow: string;
+    recommendedTitle: string;
+  };
 };
 
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
@@ -394,6 +399,11 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       next: "Berikutnya",
       pageOf: "Halaman {current} dari {total}",
     },
+    blogPost: {
+      allArticles: "Semua artikel",
+      recommendedEyebrow: "Rekomendasi untuk Anda",
+      recommendedTitle: "Bacaan yang berkaitan dengan topik ini",
+    },
   },
   en: {
     nav: {
@@ -628,6 +638,11 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       next: "Next",
       pageOf: "Page {current} of {total}",
     },
+    blogPost: {
+      allArticles: "All articles",
+      recommendedEyebrow: "Recommended for you",
+      recommendedTitle: "Reading related to this topic",
+    },
   },
   zh: {
     nav: {
@@ -859,6 +874,11 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       previous: "上一页",
       next: "下一页",
       pageOf: "第 {current} 页，共 {total} 页",
+    },
+    blogPost: {
+      allArticles: "所有文章",
+      recommendedEyebrow: "为您推荐",
+      recommendedTitle: "与此主题相关的阅读",
     },
   },
 };
