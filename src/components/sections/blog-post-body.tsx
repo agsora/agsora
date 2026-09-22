@@ -8,7 +8,12 @@ import { Section } from "@/components/ui/section";
 import { PostBody } from "@/components/sections/post-body";
 import { PostCard } from "@/components/sections/post-card";
 import { ContactCta } from "@/components/sections/contact-cta";
-import { formatPostDate, type BlogPost } from "@/config/blog";
+import {
+  formatPostDate,
+  getPostBlocks,
+  getPostTitle,
+  type BlogPost,
+} from "@/config/blog";
 import { useLocale } from "@/i18n/locale-context";
 
 export function BlogPostBody({
@@ -18,7 +23,7 @@ export function BlogPostBody({
   post: BlogPost;
   recommended: BlogPost[];
 }) {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   return (
     <>
       <div className="glow-top relative overflow-hidden border-b border-line pb-14 pt-14 md:pb-16 md:pt-16">
@@ -36,7 +41,7 @@ export function BlogPostBody({
               {post.category}
             </span>
             <h1 className="headline mt-4 text-[32px] font-semibold text-ink sm:text-[40px]">
-              {post.title}
+              {getPostTitle(post, locale)}
             </h1>
             <div className="mt-6 flex items-center gap-3 text-[12px] text-ink-subtle">
               <time dateTime={post.publishedAt}>
@@ -64,7 +69,7 @@ export function BlogPostBody({
 
       <Section>
         <Container className="max-w-6xl">
-          <PostBody blocks={post.body} postSlug={post.slug} />
+          <PostBody blocks={getPostBlocks(post, locale)} postSlug={post.slug} />
         </Container>
       </Section>
 

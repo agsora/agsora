@@ -66,7 +66,7 @@ export default async function BlogPostPage({
         description: post.excerpt,
         image: coverUrl(post.cover.src, 1200),
         datePublished: post.publishedAt,
-        dateModified: post.publishedAt,
+        dateModified: post.updatedAt ?? post.publishedAt,
         articleSection: post.category,
         wordCount: post.wordCount,
         keywords: post.tags.join(", "),

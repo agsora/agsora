@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
-import { blogPosts } from "@/config/blog";
+import { blogPageHref, blogPosts, getTotalPages } from "@/config/blog";
 import { services } from "@/config/services";
 
 const routes = [
@@ -37,10 +37,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const posts: MetadataRoute.Sitemap = blogPosts.map((post) => ({
     url: `${siteConfig.url}/blog/${post.slug}`,
-    lastModified: new Date(post.publishedAt),
+    lastModified: new Date(post.updatedAt ?? post.publishedAt),
     changeFrequency: "yearly",
     priority: 0.6,
   }));
 
-  return [...pages, ...servicePages, ...posts];
+  // Archive pages beyond page 1 (already listed in `pages` via "/blog").
+  const totalPages = getTotalPages();
+  const blogArchivePages: MetadataRoute.Sitemap = Array.from(
+    { length: Math.max(0, totalPages - 1) },
+    (_, i) => ({
+      url: `${siteConfig.url}${blogPageHref(i + 2)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.5,
+    }),
+  );
+
+  return [...pages, ...servicePages, ...posts, ...blogArchivePages];
 }

@@ -7,15 +7,18 @@ import { body as b_chatbot_layanan_pelanggan_manfaat_dan_batasan } from "./chatb
 import { body as b_checklist_memilih_software_house } from "./checklist-memilih-software-house";
 import { body as b_cloud_atau_on_premise } from "./cloud-atau-on-premise";
 import { body as b_custom_software_vs_software_jadi } from "./custom-software-vs-software-jadi";
+import { body as b_dari_ide_ke_aplikasi_proses_membangun_software } from "./dari-ide-ke-aplikasi-proses-membangun-software";
 import { body as b_data_pelanggan_tersebar_di_whatsapp_sales } from "./data-pelanggan-tersebar-di-whatsapp-sales";
 import { body as b_digitalisasi_umkm_mulai_dari_mana } from "./digitalisasi-umkm-mulai-dari-mana";
 import { body as b_employee_self_service_mengurangi_beban_hr } from "./employee-self-service-mengurangi-beban-hr";
 import { body as b_fitur_sistem_kasir_untuk_bisnis_fnb } from "./fitur-sistem-kasir-untuk-bisnis-fnb";
 import { body as b_kapan_aplikasi_perlu_bekerja_offline } from "./kapan-aplikasi-perlu-bekerja-offline";
+import { body as b_kapan_waktu_tepat_menerapkan_erp } from "./kapan-waktu-tepat-menerapkan-erp";
 import { body as b_keamanan_dasar_aplikasi_bisnis } from "./keamanan-dasar-aplikasi-bisnis";
 import { body as b_kebutuhan_crm_untuk_bisnis_b2b } from "./kebutuhan-crm-untuk-bisnis-b2b";
 import { body as b_kebutuhan_sistem_bisnis_distribusi } from "./kebutuhan-sistem-bisnis-distribusi";
 import { body as b_kecepatan_website_dan_dampaknya } from "./kecepatan-website-dan-dampaknya";
+import { body as b_kenapa_bisnis_butuh_website_2026 } from "./kenapa-bisnis-butuh-website-2026";
 import { body as b_kenapa_project_software_gagal } from "./kenapa-project-software-gagal";
 import { body as b_kesalahan_umum_implementasi_hris } from "./kesalahan-umum-implementasi-hris";
 import { body as b_konsolidasi_laporan_multi_cabang } from "./konsolidasi-laporan-multi-cabang";
@@ -57,7 +60,9 @@ import { body as b_sistem_produksi_manufaktur_skala_menengah } from "./sistem-pr
 import { body as b_stock_opname_tanpa_menghentikan_operasional } from "./stock-opname-tanpa-menghentikan-operasional";
 import { body as b_strategi_backup_data_bisnis } from "./strategi-backup-data-bisnis";
 import { body as b_tanda_bisnis_anda_sudah_butuh_erp } from "./tanda-bisnis-anda-sudah-butuh-erp";
+import { body as b_tanda_bisnis_siap_punya_aplikasi_sendiri } from "./tanda-bisnis-siap-punya-aplikasi-sendiri";
 import { body as b_toko_online_sendiri_atau_marketplace } from "./toko-online-sendiri-atau-marketplace";
+import { body as b_tren_teknologi_bisnis_tahun_ini } from "./tren-teknologi-bisnis-tahun-ini";
 import { body as b_website_company_profile_yang_menghasilkan_prospek } from "./website-company-profile-yang-menghasilkan-prospek";
 
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
@@ -70,15 +75,18 @@ export const bodies: Record<string, Block[]> = {
   "checklist-memilih-software-house": b_checklist_memilih_software_house,
   "cloud-atau-on-premise": b_cloud_atau_on_premise,
   "custom-software-vs-software-jadi": b_custom_software_vs_software_jadi,
+  "dari-ide-ke-aplikasi-proses-membangun-software": b_dari_ide_ke_aplikasi_proses_membangun_software,
   "data-pelanggan-tersebar-di-whatsapp-sales": b_data_pelanggan_tersebar_di_whatsapp_sales,
   "digitalisasi-umkm-mulai-dari-mana": b_digitalisasi_umkm_mulai_dari_mana,
   "employee-self-service-mengurangi-beban-hr": b_employee_self_service_mengurangi_beban_hr,
   "fitur-sistem-kasir-untuk-bisnis-fnb": b_fitur_sistem_kasir_untuk_bisnis_fnb,
   "kapan-aplikasi-perlu-bekerja-offline": b_kapan_aplikasi_perlu_bekerja_offline,
+  "kapan-waktu-tepat-menerapkan-erp": b_kapan_waktu_tepat_menerapkan_erp,
   "keamanan-dasar-aplikasi-bisnis": b_keamanan_dasar_aplikasi_bisnis,
   "kebutuhan-crm-untuk-bisnis-b2b": b_kebutuhan_crm_untuk_bisnis_b2b,
   "kebutuhan-sistem-bisnis-distribusi": b_kebutuhan_sistem_bisnis_distribusi,
   "kecepatan-website-dan-dampaknya": b_kecepatan_website_dan_dampaknya,
+  "kenapa-bisnis-butuh-website-2026": b_kenapa_bisnis_butuh_website_2026,
   "kenapa-project-software-gagal": b_kenapa_project_software_gagal,
   "kesalahan-umum-implementasi-hris": b_kesalahan_umum_implementasi_hris,
   "konsolidasi-laporan-multi-cabang": b_konsolidasi_laporan_multi_cabang,
@@ -120,6 +128,8 @@ export const bodies: Record<string, Block[]> = {
   "stock-opname-tanpa-menghentikan-operasional": b_stock_opname_tanpa_menghentikan_operasional,
   "strategi-backup-data-bisnis": b_strategi_backup_data_bisnis,
   "tanda-bisnis-anda-sudah-butuh-erp": b_tanda_bisnis_anda_sudah_butuh_erp,
+  "tanda-bisnis-siap-punya-aplikasi-sendiri": b_tanda_bisnis_siap_punya_aplikasi_sendiri,
   "toko-online-sendiri-atau-marketplace": b_toko_online_sendiri_atau_marketplace,
+  "tren-teknologi-bisnis-tahun-ini": b_tren_teknologi_bisnis_tahun_ini,
   "website-company-profile-yang-menghasilkan-prospek": b_website_company_profile_yang_menghasilkan_prospek,
 };

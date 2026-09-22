@@ -6,6 +6,135 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "kenapa-bisnis-butuh-website-2026",
+    title: "Kenapa Bisnis Anda Butuh Website yang Serius di 2026",
+    excerpt: "Media sosial menjangkau audiens, tapi platformnya bukan milik Anda. Website tetap satu-satunya aset digital yang sepenuhnya berada di bawah kendali bisnis Anda sendiri.",
+    category: "Website & Digital",
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    tags: [
+      "website",
+      "seo",
+      "pelanggan"
+    ],
+    titleTranslations: {
+      en: "Why Your Business Needs a Serious Website in 2026",
+      zh: "2026年,为什么你的企业需要一个认真对待的网站",
+    },
+    excerptTranslations: {
+      en: "Social media reaches an audience, but you don't own the platform. A website remains the one digital asset fully under your business's own control.",
+      zh: "社交媒体能触达受众,但平台并不属于你。网站依然是唯一完全由你的企业自己掌控的数字资产。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      alt: "Baris kode program ditampilkan besar di layar monitor",
+    },
+  },
+  {
+    slug: "tanda-bisnis-siap-punya-aplikasi-sendiri",
+    title: "Tanda-Tanda Bisnis Anda Siap Punya Aplikasi Sendiri",
+    excerpt: "Aplikasi bukan simbol status, tapi alat untuk menghilangkan proses manual yang mahal. Ini tanda-tanda yang biasanya muncul sebelum keputusan itu diambil.",
+    category: "Teknologi",
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    tags: [
+      "mobile",
+      "custom-software",
+      "implementasi"
+    ],
+    titleTranslations: {
+      en: "Signs Your Business Is Ready for Its Own App",
+      zh: "企业已经准备好拥有自己应用的迹象",
+    },
+    excerptTranslations: {
+      en: "An app isn't a status symbol — it's a tool for removing costly manual processes. These are the signs that usually show up before that decision gets made.",
+      zh: "应用不是身份的象征,而是消除高成本人工流程的工具。这些是做出这个决定之前通常会出现的迹象。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+      alt: "Tim kerja berkumpul mengerjakan laptop masing-masing di sekitar meja",
+    },
+  },
+  {
+    slug: "kapan-waktu-tepat-menerapkan-erp",
+    title: "Kapan Waktu yang Tepat Menerapkan ERP untuk Bisnis yang Bertumbuh",
+    excerpt: "ERP mengikuti tahap pertumbuhan bisnis, bukan angka omzet. Ini cara mengenali momentum yang tepat, dan risiko bergerak terlalu cepat atau terlalu lambat.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    tags: [
+      "erp",
+      "implementasi",
+      "pelaporan"
+    ],
+    products: [
+      "erp"
+    ],
+    titleTranslations: {
+      en: "When Is the Right Time to Implement ERP for a Growing Business",
+      zh: "成长中的企业,什么时候是上 ERP 的合适时机",
+    },
+    excerptTranslations: {
+      en: "ERP needs follow your business's growth stage, not a revenue figure. Here's how to recognize the right moment, and the risk of moving too fast or too slow.",
+      zh: "ERP 需求跟随企业的成长阶段,而非营收数字。以下是如何识别合适时机,以及动得太快或太慢的风险。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
+      alt: "Layar laptop menampilkan grafik data operasional bisnis",
+    },
+  },
+  {
+    slug: "tren-teknologi-bisnis-tahun-ini",
+    title: "Tren Teknologi Bisnis yang Layak Diperhatikan Tahun Ini",
+    excerpt: "Bukan semua tren teknologi layak diikuti. Ini pergeseran yang benar-benar menjawab masalah operasional, bukan sekadar ramai dibicarakan.",
+    category: "Teknologi",
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    tags: [
+      "ai",
+      "otomasi",
+      "saas",
+      "integrasi"
+    ],
+    titleTranslations: {
+      en: "Business Technology Trends Worth Watching This Year",
+      zh: "今年值得关注的企业技术趋势",
+    },
+    excerptTranslations: {
+      en: "Not every technology trend deserves attention. These are the shifts that genuinely answer operational problems, not just the ones getting the most buzz.",
+      zh: "并非所有技术趋势都值得追随。这些是真正回应运营问题的转变,而不只是被讨论得最热闹的那些。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1573164713988-8665fc963095",
+      alt: "Karyawan memeriksa tablet di lorong pusat data berpencahayaan biru",
+    },
+  },
+  {
+    slug: "dari-ide-ke-aplikasi-proses-membangun-software",
+    title: "Dari Ide ke Aplikasi: Proses Membangun Software Bisnis",
+    excerpt: "Jarak antara ide dan aplikasi yang berjalan terasa jauh karena prosesnya tidak terlihat jelas. Ini tahapan yang mengubahnya menjadi langkah-langkah yang bisa diambil satu per satu.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    tags: [
+      "custom-software",
+      "implementasi",
+      "vendor"
+    ],
+    titleTranslations: {
+      en: "From Idea to App: The Process of Building Business Software",
+      zh: "从想法到应用:企业软件的搭建过程",
+    },
+    excerptTranslations: {
+      en: "The distance between an idea and a working app feels large because the process isn't visible. Here are the stages that turn it into steps you can take one at a time.",
+      zh: "想法与可运行应用之间的距离之所以遥远,是因为过程看不清楚。以下是把它拆解成可以逐步迈出的台阶的各个阶段。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+      alt: "Tangan mengetik di dua laptop yang menyala saat mengembangkan aplikasi",
+    },
+  },
+  {
     slug: "tanda-bisnis-anda-sudah-butuh-erp",
     title: "7 Tanda Bisnis Anda Sudah Butuh ERP",
     excerpt: "ERP bukan soal ukuran perusahaan, tapi soal seberapa mahal kekacauan datanya. Ini gejala yang biasanya muncul sebelum sebuah bisnis memutuskan pindah sistem.",

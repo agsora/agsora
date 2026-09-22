@@ -17,6 +17,8 @@
 
 import { meta } from "@/content/blog/meta";
 import { bodies } from "@/content/blog/bodies";
+import { bodiesI18n } from "@/content/blog/bodies-i18n";
+import type { Locale } from "@/i18n/locale-context";
 
 export type Block =
   | { type: "p"; text: string }
@@ -91,6 +93,9 @@ export type BlogCover = {
 
 export type BlogProductId = "pos" | "erp" | "hr" | "crm" | "inventory";
 
+/** English/Chinese title and excerpt for a post authored with translations. */
+export type PostTextTranslations = { en: string; zh: string };
+
 /** Article metadata, kept apart from the article text in src/content/blog/meta.ts. */
 export type PostMeta = {
   slug: string;
@@ -98,28 +103,26 @@ export type PostMeta = {
   excerpt: string;
   category: BlogCategory;
   publishedAt: string; // ISO date
+  /** Last substantive revision. Defaults to publishedAt when omitted. */
+  updatedAt?: string; // ISO date
   tags: BlogTag[];
   featured?: boolean;
   /** Product cards shown under the article, rendered from config/products.ts. */
   products?: BlogProductId[];
   cover: BlogCover;
+  /**
+   * Optional EN/ZH title and excerpt. Posts without this fall back to the
+   * Indonesian `title`/`excerpt` for every locale, same as before this field
+   * existed — the site's default and only fully-supported content language.
+   */
+  titleTranslations?: PostTextTranslations;
+  excerptTranslations?: PostTextTranslations;
 };
 
-/** An article as authored in a content batch file. */
-export type PostSource = {
-  slug: string;
-  title: string;
-  excerpt: string;
-  category: BlogCategory;
-  publishedAt: string; // ISO date
-  tags: BlogTag[];
-  /** Editor's pick: shown in the recommendation strip on the blog index. */
-  featured?: boolean;
-  cover: BlogCover;
+export type BlogPost = PostMeta & {
   body: Block[];
-};
-
-export type BlogPost = PostSource & {
+  /** Optional EN/ZH article body — see PostMeta.titleTranslations. */
+  bodyTranslations?: { en: Block[]; zh: Block[] };
   wordCount: number;
   readingMinutes: number;
 };
@@ -149,10 +152,29 @@ export const blogPosts: BlogPost[] = meta.map((post) => {
   return {
     ...post,
     body,
+    bodyTranslations: bodiesI18n[post.slug],
     wordCount,
     readingMinutes: Math.max(2, Math.ceil(wordCount / WORDS_PER_MINUTE)),
   };
 });
+
+/** Title in the given locale, falling back to the Indonesian original. */
+export function getPostTitle(post: BlogPost, locale: Locale) {
+  if (locale === "id") return post.title;
+  return post.titleTranslations?.[locale] ?? post.title;
+}
+
+/** Excerpt in the given locale, falling back to the Indonesian original. */
+export function getPostExcerpt(post: BlogPost, locale: Locale) {
+  if (locale === "id") return post.excerpt;
+  return post.excerptTranslations?.[locale] ?? post.excerpt;
+}
+
+/** Article body in the given locale, falling back to the Indonesian original. */
+export function getPostBlocks(post: BlogPost, locale: Locale) {
+  if (locale === "id") return post.body;
+  return post.bodyTranslations?.[locale] ?? post.body;
+}
 
 // Fail the build on content mistakes that would otherwise ship silently.
 {

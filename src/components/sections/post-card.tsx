@@ -2,7 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { formatPostDate, type BlogPost } from "@/config/blog";
+import {
+  formatPostDate,
+  getPostExcerpt,
+  getPostTitle,
+  type BlogPost,
+} from "@/config/blog";
 import { useLocale } from "@/i18n/locale-context";
 
 export function PostCard({
@@ -12,7 +17,7 @@ export function PostCard({
   post: BlogPost;
   priority?: boolean;
 }) {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   return (
     <Link
       href={`/blog/${post.slug}`}
@@ -35,10 +40,10 @@ export function PostCard({
         </span>
 
         <h2 className="mt-3 text-[16px] font-medium leading-snug text-ink">
-          {post.title}
+          {getPostTitle(post, locale)}
         </h2>
         <p className="mt-2.5 flex-1 text-[13px] leading-relaxed text-ink-muted">
-          {post.excerpt}
+          {getPostExcerpt(post, locale)}
         </p>
 
         <div className="mt-5 flex items-center gap-3 text-[12px] text-ink-subtle">
