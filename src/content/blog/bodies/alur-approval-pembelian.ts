@@ -177,8 +177,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Alur persetujuan pembelian Anda masih lewat WhatsApp?",
-    text: "AG·SORA ERP menyediakan alur approval pembelian yang terstruktur dan terhubung langsung dengan anggaran.",
-    href: "/products#erp",
-    label: "Lihat AG·SORA ERP",
+    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda — pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
+    href: "/services/erp",
+    label: "Lihat layanan ERP",
   },
 ];

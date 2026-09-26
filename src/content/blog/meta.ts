@@ -67,9 +67,6 @@ export const meta: PostMeta[] = [
       "implementasi",
       "pelaporan"
     ],
-    products: [
-      "erp"
-    ],
     titleTranslations: {
       en: "When Is the Right Time to Implement ERP for a Growing Business",
       zh: "成长中的企业,什么时候是上 ERP 的合适时机",
@@ -146,9 +143,6 @@ export const meta: PostMeta[] = [
       "multi-cabang",
       "implementasi"
     ],
-    products: [
-      "erp"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
       alt: "Layar laptop menampilkan grafik dan laporan analitik bisnis"
@@ -166,7 +160,6 @@ export const meta: PostMeta[] = [
       "vendor",
       "biaya"
     ],
-    featured: true,
     cover: {
       src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
       alt: "Meja kerja dengan laptop yang menampilkan baris kode program"
@@ -183,10 +176,6 @@ export const meta: PostMeta[] = [
       "retail",
       "multi-cabang",
       "inventori"
-    ],
-    products: [
-      "pos",
-      "inventory"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
@@ -205,9 +194,6 @@ export const meta: PostMeta[] = [
       "implementasi",
       "karyawan"
     ],
-    products: [
-      "hr"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
       alt: "Tim karyawan sedang berdiskusi bersama di ruang rapat kantor"
@@ -225,7 +211,6 @@ export const meta: PostMeta[] = [
       "implementasi",
       "custom-software"
     ],
-    featured: true,
     cover: {
       src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
       alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja"
@@ -241,9 +226,6 @@ export const meta: PostMeta[] = [
       "integrasi",
       "data",
       "pelaporan",
-      "erp"
-    ],
-    products: [
       "erp"
     ],
     cover: {
@@ -328,10 +310,6 @@ export const meta: PostMeta[] = [
       "biaya",
       "pos"
     ],
-    featured: true,
-    products: [
-      "pos"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1472851294608-062f824d29cc",
       alt: "Papan bertuliskan open tergantung di pintu kaca sebuah toko"
@@ -348,10 +326,6 @@ export const meta: PostMeta[] = [
       "fnb",
       "inventori",
       "retail"
-    ],
-    products: [
-      "pos",
-      "inventory"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
@@ -370,10 +344,6 @@ export const meta: PostMeta[] = [
       "keuangan",
       "inventori"
     ],
-    products: [
-      "erp",
-      "inventory"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1531403009284-440f080d1e12",
       alt: "Tangan menyusun kertas-kertas diagram alur kerja yang ditempel di dinding"
@@ -391,9 +361,6 @@ export const meta: PostMeta[] = [
       "mobile",
       "operasional"
     ],
-    products: [
-      "hr"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7",
       alt: "Truk pengiriman melaju di jalan raya di bawah langit cerah"
@@ -410,9 +377,6 @@ export const meta: PostMeta[] = [
       "sales",
       "pelanggan",
       "pelaporan"
-    ],
-    products: [
-      "crm"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1",
@@ -512,9 +476,6 @@ export const meta: PostMeta[] = [
       "keamanan",
       "pelaporan"
     ],
-    products: [
-      "pos"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1556741533-6e6a62bd8b49",
       alt: "Kasir melayani pelanggan di meja kasir sebuah toko dengan tablet"
@@ -530,9 +491,6 @@ export const meta: PostMeta[] = [
       "erp",
       "keuangan",
       "operasional"
-    ],
-    products: [
-      "erp"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
@@ -551,9 +509,6 @@ export const meta: PostMeta[] = [
       "payroll",
       "otomasi"
     ],
-    products: [
-      "hr"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       alt: "Tangan mengetik di keyboard laptop"
@@ -570,9 +525,6 @@ export const meta: PostMeta[] = [
       "sales",
       "pelanggan",
       "otomasi"
-    ],
-    products: [
-      "crm"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173",
@@ -672,9 +624,6 @@ export const meta: PostMeta[] = [
       "retail",
       "umkm"
     ],
-    products: [
-      "pos"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
       alt: "Pelanggan menempelkan kartu pembayaran ke mesin pembaca nontunai"
@@ -690,10 +639,6 @@ export const meta: PostMeta[] = [
       "inventori",
       "erp",
       "operasional"
-    ],
-    products: [
-      "inventory",
-      "erp"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
@@ -711,9 +656,6 @@ export const meta: PostMeta[] = [
       "karyawan",
       "operasional"
     ],
-    products: [
-      "hr"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1552581234-26160f608093",
       alt: "Beberapa orang bekerja bersama di meja putih dengan laptop dan catatan tempel di dinding"
@@ -730,9 +672,6 @@ export const meta: PostMeta[] = [
       "pelanggan",
       "sales",
       "data"
-    ],
-    products: [
-      "crm"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1611746872915-64382b5c76da",
@@ -780,9 +719,6 @@ export const meta: PostMeta[] = [
       "inventori",
       "multi-cabang",
       "mobile"
-    ],
-    products: [
-      "inventory"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
@@ -833,9 +769,6 @@ export const meta: PostMeta[] = [
       "pelaporan",
       "pelanggan"
     ],
-    products: [
-      "pos"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
       alt: "Tas belanja merah dan hitam berjajar di atas latar gelap"
@@ -853,9 +786,6 @@ export const meta: PostMeta[] = [
       "keuangan",
       "pelaporan"
     ],
-    products: [
-      "erp"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
       alt: "Laptop menampilkan dashboard berisi grafik dan tabel laporan"
@@ -872,9 +802,6 @@ export const meta: PostMeta[] = [
       "karyawan",
       "pelaporan"
     ],
-    products: [
-      "hr"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
       alt: "Beberapa orang berdiskusi di meja kayu sambil mencatat"
@@ -890,9 +817,6 @@ export const meta: PostMeta[] = [
       "crm",
       "sales",
       "pelaporan"
-    ],
-    products: [
-      "crm"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
@@ -938,10 +862,6 @@ export const meta: PostMeta[] = [
     tags: [
       "industri",
       "inventori",
-      "erp"
-    ],
-    products: [
-      "inventory",
       "erp"
     ],
     cover: {
@@ -993,10 +913,6 @@ export const meta: PostMeta[] = [
       "inventori",
       "integrasi"
     ],
-    products: [
-      "pos",
-      "inventory"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1580674285054-bed31e145f59",
       alt: "Tumpukan paket kardus siap kirim di ruang penyimpanan"
@@ -1012,9 +928,6 @@ export const meta: PostMeta[] = [
       "erp",
       "implementasi",
       "pelaporan"
-    ],
-    products: [
-      "erp"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
@@ -1032,9 +945,6 @@ export const meta: PostMeta[] = [
       "payroll",
       "karyawan"
     ],
-    products: [
-      "hr"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe",
       alt: "Cangkir kopi di atas lembar kalender bulanan"
@@ -1050,9 +960,6 @@ export const meta: PostMeta[] = [
       "crm",
       "sales",
       "pelanggan"
-    ],
-    products: [
-      "crm"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
@@ -1103,9 +1010,6 @@ export const meta: PostMeta[] = [
       "operasional",
       "keuangan"
     ],
-    products: [
-      "crm"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
       alt: "Tim berdiskusi di meja rapat dengan laptop terbuka"
@@ -1139,9 +1043,6 @@ export const meta: PostMeta[] = [
       "pelanggan",
       "data"
     ],
-    products: [
-      "pos"
-    ],
     cover: {
       src: "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
       alt: "Interior toko pakaian dengan rak gantung dan meja display"
@@ -1158,9 +1059,6 @@ export const meta: PostMeta[] = [
       "keamanan",
       "data",
       "karyawan"
-    ],
-    products: [
-      "hr"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1586281380349-632531db7ed4",
@@ -1193,9 +1091,6 @@ export const meta: PostMeta[] = [
       "pos",
       "retail",
       "pelaporan"
-    ],
-    products: [
-      "pos"
     ],
     cover: {
       src: "https://images.unsplash.com/photo-1604719312566-8912e9227c6a",

@@ -171,8 +171,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Konsolidasi laporan cabang Anda masih makan waktu seminggu?",
-    text: "AG·SORA ERP mendukung konsolidasi laporan otomatis lintas cabang dengan struktur data yang seragam.",
-    href: "/products#erp",
-    label: "Lihat AG·SORA ERP",
+    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda — pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
+    href: "/services/erp",
+    label: "Lihat layanan ERP",
   },
 ];

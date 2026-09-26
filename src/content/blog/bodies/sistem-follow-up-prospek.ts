@@ -155,8 +155,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Berapa banyak prospek yang terlupakan bulan ini?",
-    text: "AG·SORA CRM membantu tim sales menjadwalkan dan tidak pernah melewatkan follow-up penting.",
-    href: "/products#crm",
-    label: "Lihat AG·SORA CRM",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    href: "/services/crm",
+    label: "Lihat layanan CRM",
   },
 ];

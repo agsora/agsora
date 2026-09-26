@@ -164,7 +164,7 @@ export const body: Block[] = [
   { type: "h2", text: "ERP siap pakai atau dibangun khusus?" },
   {
     type: "p",
-    text: "Setelah yakin membutuhkan ERP, pertanyaan berikutnya adalah bentuknya. ERP siap pakai dengan biaya berlangganan cocok untuk bisnis dengan proses yang relatif umum dan ingin segera berjalan tanpa investasi awal yang besar. Di AG·SORA, pilihan ini tersedia sebagai AG·SORA ERP, yang dirancang untuk bisnis yang bertumbuh dari satu lokasi hingga beberapa cabang.",
+    text: "Setelah yakin membutuhkan ERP, pertanyaan berikutnya adalah bentuknya. ERP siap pakai dengan biaya berlangganan cocok untuk bisnis dengan proses yang relatif umum dan ingin segera berjalan tanpa investasi awal yang besar.",
   },
   {
     type: "p",

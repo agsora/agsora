@@ -160,8 +160,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "HR Anda masih sibuk menjawab pertanyaan sisa cuti?",
-    text: "AG·SORA HR menyediakan layanan mandiri karyawan untuk cuti, slip gaji, dan data pribadi dalam satu aplikasi.",
-    href: "/products#hr",
-    label: "Lihat AG·SORA HR",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    href: "/services/hris",
+    label: "Lihat layanan HRIS",
   },
 ];

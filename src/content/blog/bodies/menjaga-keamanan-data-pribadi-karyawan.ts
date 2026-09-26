@@ -139,8 +139,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Seberapa aman data karyawan Anda tersimpan saat ini?",
-    text: "AG·SORA HR dirancang dengan hak akses berjenjang dan keamanan data yang ketat untuk melindungi informasi karyawan Anda.",
-    href: "/products#hr",
-    label: "Lihat AG·SORA HR",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    href: "/services/hris",
+    label: "Lihat layanan HRIS",
   },
 ];

@@ -298,33 +298,13 @@ export const commitments: Commitment[] = [
   },
 ];
 
-export type Faq = {
-  question: string;
-  answer: string;
-  /** Also shown on the homepage — the doubts that most often stop a prospect. */
-  featured?: boolean;
-};
-
 export type FaqTranslated = {
   id: { question: string; answer: string };
   en: { question: string; answer: string };
   zh: { question: string; answer: string };
+  /** Also shown on the homepage — the doubts that most often stop a prospect. */
   featured?: boolean;
 };
-
-/**
- * Low-risk assurances shown directly under the homepage hero, in the slot
- * where sites usually put a client-logo bar. AG·SORA has no client logos to
- * show, so this uses things a prospect can verify or hold AG·SORA to instead.
- * Each one is already stated elsewhere on the site — keep them in sync with
- * `commitments` and the pricing page.
- */
-export const assurances: string[] = [
-  "Konsultasi gratis",
-  "Harga dipublikasikan",
-  "Ruang lingkup tertulis",
-  "Dokumentasi & pelatihan",
-];
 
 export const faqsTranslated: FaqTranslated[] = [
   {
@@ -350,17 +330,17 @@ export const faqsTranslated: FaqTranslated[] = [
     id: {
       question: "Apakah source code menjadi milik kami?",
       answer:
-        "Untuk project custom development, skema kepemilikan source code mengikuti kesepakatan tertulis di kontrak masing-masing project. Untuk produk SaaS AG·SORA, source code tetap milik AG·SORA dan Anda memperoleh hak penggunaan sesuai paket langganan.",
+        "Untuk project custom development, skema kepemilikan source code mengikuti kesepakatan tertulis di kontrak masing-masing project.",
     },
     en: {
       question: "Do we own the source code?",
       answer:
-        "For custom development projects, source code ownership follows the written agreement in each project's contract. For AG·SORA's SaaS products, the source code remains AG·SORA's property and you receive usage rights under your subscription plan.",
+        "For custom development projects, source code ownership follows the written agreement in each project's contract.",
     },
     zh: {
       question: "源代码归我们所有吗？",
       answer:
-        "对于定制开发项目，源代码归属方案以每个项目合同中的书面约定为准。对于 AG·SORA 的 SaaS 产品，源代码归 AG·SORA 所有，您根据订阅套餐获得使用权。",
+        "对于定制开发项目，源代码归属方案以每个项目合同中的书面约定为准。",
     },
   },
   {
@@ -395,24 +375,6 @@ export const faqsTranslated: FaqTranslated[] = [
       question: "新系统能与我们现有的软件对接吗？",
       answer:
         "在大多数情况下可以，只要该系统提供 API 或数据导出接口。在 Discover 阶段，我们会检查您系统的技术文档，并在提案前告知对接是否可行。",
-    },
-  },
-  {
-    featured: true,
-    id: {
-      question: "Lebih baik pakai produk SaaS atau custom development?",
-      answer:
-        "Jika proses bisnis Anda relatif standar dan ingin segera berjalan, produk SaaS AG·SORA lebih cepat dan lebih ringan biayanya. Custom development lebih tepat ketika alur kerja Anda spesifik, butuh integrasi khusus, atau sistem harus mengikuti aturan internal yang tidak umum.",
-    },
-    en: {
-      question: "Should we use a SaaS product or go with custom development?",
-      answer:
-        "If your business process is fairly standard and you want to get running quickly, AG·SORA's SaaS products are faster and lighter on cost. Custom development fits better when your workflow is specific, needs special integrations, or has to follow uncommon internal rules.",
-    },
-    zh: {
-      question: "应该选择 SaaS 产品还是定制开发？",
-      answer:
-        "如果您的业务流程相对标准，希望尽快上线，AG·SORA 的 SaaS 产品速度更快、成本更低。若您的工作流程较为特殊、需要特殊对接，或系统必须遵循非通用的内部规则，定制开发会更合适。",
     },
   },
   {
@@ -471,13 +433,6 @@ export const faqsTranslated: FaqTranslated[] = [
   },
 ];
 
-/** Indonesian-only shape, kept for the FAQPage JSON-LD schema. */
-export const faqs: Faq[] = faqsTranslated.map((f) => ({
-  question: f.id.question,
-  answer: f.id.answer,
-  featured: f.featured,
-}));
-
 /**
  * Verifiable facts only.
  *
@@ -488,5 +443,5 @@ export const faqs: Faq[] = faqsTranslated.map((f) => ({
  */
 export const companyFacts = {
   legalName: "PT Agsora Teknologi Indonesia",
-  businessLines: ["Custom Development", "Proprietary SaaS Products"],
+  businessLines: ["Custom Development"],
 };

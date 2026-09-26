@@ -153,8 +153,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Sales lapangan Anda masih pakai daftar harga cetak?",
-    text: "AG·SORA ERP membantu menyatukan stok, harga, dan penagihan untuk bisnis distribusi Anda.",
-    href: "/products#erp",
-    label: "Lihat AG·SORA ERP",
+    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda — pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
+    href: "/services/erp",
+    label: "Lihat layanan ERP",
   },
 ];

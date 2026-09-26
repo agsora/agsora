@@ -197,7 +197,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "Untuk usaha retail dan kuliner yang ingin memulai dari pencatatan penjualan, AG·SORA POS tersedia sebagai sistem kasir siap pakai dengan paket berlangganan. Ketika bisnis tumbuh dan kebutuhannya menjadi lebih spesifik, sistem bisa dikembangkan sesuai alur kerja Anda.",
+    text: "Untuk usaha retail dan kuliner, langkah pertama yang paling masuk akal biasanya pencatatan penjualan lewat sistem kasir. Ketika bisnis tumbuh dan kebutuhannya menjadi lebih spesifik, sistem bisa dikembangkan sesuai alur kerja Anda.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -207,8 +207,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Siap meninggalkan buku catatan kasir?",
-    text: "Mulai dari langkah yang paling terasa manfaatnya. Lihat AG·SORA POS dan paket yang sesuai untuk usaha Anda.",
-    href: "/products#pos",
-    label: "Lihat AG·SORA POS",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    href: "/services/pos",
+    label: "Lihat layanan POS",
   },
 ];

@@ -166,8 +166,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Selisih kas masih jadi misteri setiap bulan?",
-    text: "Lihat bagaimana AG·SORA POS membantu mengendalikan transaksi kasir dengan akun terpisah dan jejak audit yang lengkap.",
-    href: "/products#pos",
-    label: "Lihat AG·SORA POS",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    href: "/services/pos",
+    label: "Lihat layanan POS",
   },
 ];

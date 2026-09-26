@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/i18n/link";
 import { ArrowUpRight } from "lucide-react";
 import { services } from "@/config/services";
 import { serviceDetails } from "@/config/service-details";

@@ -147,8 +147,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih menghitung lembur karyawan dengan kalkulator manual?",
-    text: "AG·SORA HR membantu menghitung lembur secara otomatis, terhubung langsung dengan data kehadiran.",
-    href: "/products#hr",
-    label: "Lihat AG·SORA HR",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    href: "/services/hris",
+    label: "Lihat layanan HRIS",
   },
 ];

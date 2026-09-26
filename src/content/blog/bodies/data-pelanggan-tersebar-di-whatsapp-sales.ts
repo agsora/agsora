@@ -161,8 +161,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Berapa banyak riwayat pelanggan yang tersimpan di HP sales Anda?",
-    text: "AG·SORA CRM membantu memusatkan komunikasi dan riwayat pelanggan sebagai aset perusahaan yang aman.",
-    href: "/products#crm",
-    label: "Lihat AG·SORA CRM",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    href: "/services/crm",
+    label: "Lihat layanan CRM",
   },
 ];

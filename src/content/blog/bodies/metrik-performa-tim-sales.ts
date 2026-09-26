@@ -156,8 +156,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih menilai tim sales hanya dari angka penjualan akhir bulan?",
-    text: "AG·SORA CRM menyediakan metrik proses dan hasil untuk membantu Anda memahami kinerja tim secara lebih dalam.",
-    href: "/products#crm",
-    label: "Lihat AG·SORA CRM",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    href: "/services/crm",
+    label: "Lihat layanan CRM",
   },
 ];

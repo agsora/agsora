@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/i18n/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { useLocale } from "@/i18n/locale-context";
+import { splitLocale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
 export function Header() {
@@ -21,14 +22,18 @@ export function Header() {
 
   const mainNav = [
     { label: t.nav.services, href: "/services" },
-    { label: t.nav.products, href: "/products" },
     { label: t.nav.industries, href: "/industries" },
     { label: t.nav.pricing, href: "/pricing" },
-    { label: t.nav.portfolio, href: "/portfolio" },
     { label: t.nav.blog, href: "/blog" },
     { label: t.nav.about, href: "/about" },
     { label: t.nav.contact, href: "/contact" },
   ];
+  // The desktop bar leaves out Contact — the CTA button already opens it.
+  // The mobile drawer has room, so it lists everything.
+  const primaryNav = mainNav.filter((link) => link.href !== "/contact");
+  // Nav hrefs are unprefixed; compare against the path without /en or /zh.
+  const { path } = splitLocale(pathname);
+  const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -59,9 +64,9 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-6 lg:flex">
-          {mainNav.map((link) => {
-            const active = pathname === link.href;
+        <nav className="hidden items-center gap-7 lg:flex">
+          {primaryNav.map((link) => {
+            const active = isActive(link.href);
             return (
               <Link
                 key={link.href}
@@ -92,7 +97,7 @@ export function Header() {
             type="button"
             className="focus-ring flex h-10 w-10 items-center justify-center rounded-md text-ink"
             onClick={() => setOpen((v) => !v)}
-            aria-label={open ? "Tutup menu" : "Buka menu"}
+            aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
             aria-expanded={open}
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -107,7 +112,11 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="focus-ring border-b border-line py-3 text-[15px] text-ink-muted transition-colors hover:text-ink"
+                aria-current={isActive(link.href) ? "page" : undefined}
+                className={cn(
+                  "focus-ring border-b border-line py-3 text-[15px] transition-colors hover:text-ink",
+                  isActive(link.href) ? "text-ink" : "text-ink-muted"
+                )}
               >
                 {link.label}
               </Link>
@@ -125,7 +134,7 @@ export function Header() {
                 variant="outline"
                 className="w-full justify-center"
               >
-                Chat WhatsApp
+                {t.nav.whatsapp}
               </Button>
             </div>
           </nav>

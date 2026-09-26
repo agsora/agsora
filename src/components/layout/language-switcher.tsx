@@ -1,18 +1,33 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import NextLink from "next/link";
+import { usePathname } from "next/navigation";
 import { Globe } from "lucide-react";
-import { useLocale, type Locale } from "@/i18n/locale-context";
+import { useLocale } from "@/i18n/locale-context";
+import {
+  alternatePath,
+  hreflangs,
+  localizePath,
+  splitLocale,
+  type Locale,
+} from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
-const options: { code: Locale; label: string }[] = [
-  { code: "id", label: "ID" },
-  { code: "en", label: "EN" },
-  { code: "zh", label: "中文" },
+const options: { code: Locale; label: string; name: string }[] = [
+  { code: "id", label: "ID", name: "Bahasa Indonesia" },
+  { code: "en", label: "EN", name: "English" },
+  { code: "zh", label: "中文", name: "中文" },
 ];
 
+/**
+ * Language versions are separate URLs, so switching is a link to the same
+ * page in the other language. The menu stays in the DOM while closed so the
+ * links are visible to crawlers too, not only the hreflang tags.
+ */
 export function LanguageSwitcher({ className }: { className?: string }) {
-  const { locale, setLocale, t } = useLocale();
+  const { locale, t, translatedPosts } = useLocale();
+  const { path } = splitLocale(usePathname());
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -41,26 +56,31 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         {current.label}
       </button>
 
-      {open ? (
-        <div className="absolute right-0 top-11 z-50 w-28 overflow-hidden rounded-md border border-line bg-surface-1 py-1 shadow-lg">
-          {options.map((o) => (
-            <button
-              key={o.code}
-              type="button"
-              onClick={() => {
-                setLocale(o.code);
-                setOpen(false);
-              }}
+      <ul
+        className={cn(
+          "absolute right-0 top-11 z-50 w-40 overflow-hidden rounded-md border border-line bg-surface-1 py-1 shadow-lg",
+          !open && "hidden"
+        )}
+      >
+        {options.map((o) => (
+          <li key={o.code}>
+            <NextLink
+              href={localizePath(alternatePath(path, o.code, translatedPosts), o.code)}
+              hrefLang={hreflangs[o.code]}
+              lang={hreflangs[o.code]}
+              aria-current={o.code === locale ? "true" : undefined}
+              onClick={() => setOpen(false)}
               className={cn(
-                "flex w-full items-center px-3 py-2 text-left text-[13px] transition-colors hover:bg-surface-2",
+                "flex w-full items-center justify-between px-3 py-2 text-[13px] transition-colors hover:bg-surface-2",
                 o.code === locale ? "text-ink" : "text-ink-muted"
               )}
             >
-              {o.label}
-            </button>
-          ))}
-        </div>
-      ) : null}
+              {o.name}
+              <span className="text-[11px] text-ink-subtle">{o.label}</span>
+            </NextLink>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

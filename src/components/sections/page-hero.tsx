@@ -1,3 +1,5 @@
+"use client";
+
 import { Container } from "@/components/ui/container";
 import { Eyebrow } from "@/components/ui/section";
 import {
@@ -5,6 +7,7 @@ import {
   breadcrumbSchema,
   type Crumb,
 } from "@/components/ui/breadcrumbs";
+import { useLocale } from "@/i18n/locale-context";
 import type { ReactNode } from "react";
 
 export function PageHero({
@@ -18,14 +21,15 @@ export function PageHero({
   eyebrow: string;
   title: ReactNode;
   description?: ReactNode;
-  /** The current page; renders a Beranda → page trail plus BreadcrumbList schema. */
+  /** The current page; renders a Home → page trail plus BreadcrumbList schema. */
   breadcrumb?: Crumb;
-  /** Full trail after Beranda, for pages nested deeper than one level. Overrides `breadcrumb`. */
+  /** Full trail after Home, for pages nested deeper than one level. Overrides `breadcrumb`. */
   trail?: Crumb[];
   children?: ReactNode;
 }) {
+  const { locale, t } = useLocale();
   const after = trail ?? (breadcrumb ? [breadcrumb] : null);
-  const crumbs = after ? [{ name: "Beranda", href: "/" }, ...after] : null;
+  const crumbs = after ? [{ name: t.breadcrumbHome, href: "/" }, ...after] : null;
 
   return (
     <div className="glow-top relative overflow-hidden border-b border-line pb-10 pt-10 md:pb-14 md:pt-12">
@@ -35,7 +39,7 @@ export function PageHero({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              ...breadcrumbSchema(crumbs),
+              ...breadcrumbSchema(crumbs, locale),
             }),
           }}
         />

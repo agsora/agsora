@@ -196,7 +196,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "Untuk bisnis yang ingin menyatukan keuangan, inventori, dan pembelian dalam satu sistem, AG·SORA ERP tersedia sebagai platform siap pakai. Jika sistem yang Anda miliki sudah bekerja baik dan hanya perlu saling terhubung, layanan integrasi API bisa menjadi langkah yang lebih ringan dan lebih cepat.",
+    text: "Untuk bisnis yang ingin menyatukan keuangan, inventori, dan pembelian dalam satu sistem, ERP yang dibangun mengikuti alur kerja Anda bisa menjadi jawabannya. Jika sistem yang Anda miliki sudah bekerja baik dan hanya perlu saling terhubung, layanan integrasi API bisa menjadi langkah yang lebih ringan dan lebih cepat.",
   },
   { type: "h2", text: "Penutup" },
   {

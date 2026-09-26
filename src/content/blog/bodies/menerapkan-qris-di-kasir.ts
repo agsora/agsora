@@ -147,8 +147,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih mengandalkan layar ponsel pelanggan untuk konfirmasi bayar?",
-    text: "AG·SORA POS terintegrasi dengan payment gateway untuk konfirmasi pembayaran yang akurat dan otomatis.",
-    href: "/products#pos",
-    label: "Lihat AG·SORA POS",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    href: "/services/pos",
+    label: "Lihat layanan POS",
   },
 ];

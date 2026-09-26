@@ -207,7 +207,7 @@ export const body: Block[] = [
   { type: "h2", text: "Dua jalur di AG·SORA" },
   {
     type: "p",
-    text: "AG·SORA menyediakan kedua jalur ini karena memang tidak ada satu jawaban untuk semua bisnis. Untuk kebutuhan yang relatif standar, tersedia produk SaaS seperti AG·SORA POS, ERP, HR, CRM, dan Inventory yang bisa langsung dipakai. Untuk proses yang khas, tim AG·SORA membangun sistem sesuai alur kerja Anda. Dalam banyak kasus, rekomendasi yang paling jujur justru kombinasi keduanya.",
+    text: "Tidak ada satu jawaban untuk semua bisnis. Untuk kebutuhan yang relatif standar, software jadi yang sudah tersedia di pasaran sering kali cukup dan bisa langsung dipakai. Untuk proses yang khas, tim AG·SORA membangun sistem sesuai alur kerja Anda. Dalam banyak kasus, rekomendasi yang paling jujur justru kombinasi keduanya.",
   },
   { type: "h2", text: "Penutup" },
   {

@@ -180,8 +180,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Lelah menutup toko setiap kali stock opname?",
-    text: "AG·SORA Inventory mendukung hitung siklus dengan penjadwalan dan pelacakan selisih otomatis.",
-    href: "/products#inventory",
-    label: "Lihat AG·SORA Inventory",
+    text: "Tim AG·SORA membangun sistem inventori yang terhubung dengan penjualan dan gudang Anda — stok akurat dari satu sumber.",
+    href: "/services/erp",
+    label: "Lihat layanan ERP",
   },
 ];

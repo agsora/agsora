@@ -202,7 +202,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "Bagi perusahaan dengan kebutuhan HR yang relatif umum, AG·SORA HR tersedia sebagai platform siap pakai. Untuk organisasi dengan pola kerja yang kompleks — banyak shift, tim lapangan, atau aturan tunjangan khusus — sistem HRIS bisa dirancang mengikuti kebijakan Anda. Apa pun pilihannya, urutan penerapan dan persiapan di atas tetap berlaku.",
+    text: "Bagi perusahaan dengan kebutuhan HR yang relatif umum, platform HR siap pakai sering kali sudah memadai. Untuk organisasi dengan pola kerja yang kompleks — banyak shift, tim lapangan, atau aturan tunjangan khusus — sistem HRIS bisa dirancang mengikuti kebijakan Anda. Apa pun pilihannya, urutan penerapan dan persiapan di atas tetap berlaku.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -212,8 +212,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Ingin hari gajian tanpa drama?",
-    text: "Pelajari bagaimana AG·SORA HR membantu mengelola absensi, cuti, dan payroll dalam satu tempat — atau diskusikan kebutuhan HR yang lebih khusus bersama tim kami.",
-    href: "/products",
-    label: "Lihat AG·SORA HR",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    href: "/services/hris",
+    label: "Lihat layanan HRIS",
   },
 ];

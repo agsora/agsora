@@ -1,15 +1,40 @@
 import type { MetadataRoute } from "next";
-import { siteConfig } from "@/config/site";
-import { blogPageHref, blogPosts, getTotalPages } from "@/config/blog";
+import { blogPageHref, blogPosts, getTotalPages, isPostAvailable } from "@/config/blog";
 import { services } from "@/config/services";
+import { siteConfig } from "@/config/site";
+import { absoluteUrl, locales, type Locale } from "@/i18n/routing";
+import { languageAlternates } from "@/lib/seo";
+
+type Entry = Omit<MetadataRoute.Sitemap[number], "url" | "alternates">;
+
+/**
+ * One <url> per language version, each listing all its alternates
+ * (hreflang + x-default) — how Google expects multilingual sitemaps.
+ */
+function localized(
+  path: string,
+  entry: Entry,
+  available: readonly Locale[] = locales
+): MetadataRoute.Sitemap {
+  // languageAlternates gives site-relative paths; sitemaps need full URLs.
+  const languages = Object.fromEntries(
+    Object.entries(languageAlternates(path, available)).map(([lang, href]) => [
+      lang,
+      `${siteConfig.url}${href === "/" ? "" : href}`,
+    ])
+  );
+  return available.map((locale) => ({
+    ...entry,
+    url: absoluteUrl(path, locale),
+    alternates: { languages },
+  }));
+}
 
 const routes = [
-  "",
+  "/",
   "/services",
-  "/products",
   "/industries",
   "/pricing",
-  "/portfolio",
   "/blog",
   "/about",
   "/contact",
@@ -20,39 +45,46 @@ const routes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const pages: MetadataRoute.Sitemap = routes.map((route) => ({
-    url: `${siteConfig.url}${route}`,
-    lastModified: now,
-    changeFrequency: route === "" || route === "/blog" ? "weekly" : "monthly",
-    priority: route === "" ? 1 : 0.7,
-  }));
+  const pages = routes.flatMap((route) =>
+    localized(route, {
+      lastModified: now,
+      changeFrequency: route === "/" || route === "/blog" ? "weekly" : "monthly",
+      priority: route === "/" ? 1 : 0.7,
+    })
+  );
 
   // Service pages carry the commercial keywords — rank them just below home.
-  const servicePages: MetadataRoute.Sitemap = services.map((service) => ({
-    url: `${siteConfig.url}/services/${service.id}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.9,
-  }));
-
-  const posts: MetadataRoute.Sitemap = blogPosts.map((post) => ({
-    url: `${siteConfig.url}/blog/${post.slug}`,
-    lastModified: new Date(post.updatedAt ?? post.publishedAt),
-    changeFrequency: "yearly",
-    priority: 0.6,
-  }));
-
-  // Archive pages beyond page 1 (already listed in `pages` via "/blog").
-  const totalPages = getTotalPages();
-  const blogArchivePages: MetadataRoute.Sitemap = Array.from(
-    { length: Math.max(0, totalPages - 1) },
-    (_, i) => ({
-      url: `${siteConfig.url}${blogPageHref(i + 2)}`,
+  const servicePages = services.flatMap((service) =>
+    localized(`/services/${service.id}`, {
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.5,
-    }),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    })
   );
+
+  // Each post only in the languages it's been translated into.
+  const posts = blogPosts.flatMap((post) =>
+    localized(
+      `/blog/${post.slug}`,
+      {
+        lastModified: new Date(post.updatedAt ?? post.publishedAt),
+        changeFrequency: "yearly",
+        priority: 0.6,
+      },
+      locales.filter((locale) => isPostAvailable(post, locale))
+    )
+  );
+
+  // Archive pages beyond page 1 (already listed via "/blog"), per language.
+  const maxPages = Math.max(...locales.map((locale) => getTotalPages(locale)));
+  const blogArchivePages = Array.from({ length: Math.max(0, maxPages - 1) }, (_, i) => i + 2)
+    .flatMap((page) =>
+      localized(
+        blogPageHref(page),
+        { lastModified: now, changeFrequency: "weekly", priority: 0.5 },
+        locales.filter((locale) => getTotalPages(locale) >= page)
+      )
+    );
 
   return [...pages, ...servicePages, ...posts, ...blogArchivePages];
 }

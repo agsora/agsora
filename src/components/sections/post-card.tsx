@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/i18n/link";
 import Image from "next/image";
 import {
   formatPostDate,
@@ -48,7 +48,7 @@ export function PostCard({
 
         <div className="mt-5 flex items-center gap-3 text-[12px] text-ink-subtle">
           <time dateTime={post.publishedAt}>
-            {formatPostDate(post.publishedAt)}
+            {formatPostDate(post.publishedAt, locale)}
           </time>
           <span className="h-1 w-1 rounded-full bg-line-strong" />
           <span>{post.readingMinutes} {t.blogPage.readingTime}</span>

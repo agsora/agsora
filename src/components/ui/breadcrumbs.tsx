@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { siteConfig } from "@/config/site";
+import Link from "@/i18n/link";
+import { absoluteUrl, type Locale } from "@/i18n/routing";
 
 export type Crumb = { name: string; href: string };
 
@@ -32,14 +32,15 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
   );
 }
 
-export function breadcrumbSchema(items: Crumb[]) {
+/** `items` use unprefixed hrefs; the schema gets the URLs of the `locale` version. */
+export function breadcrumbSchema(items: Crumb[], locale: Locale) {
   return {
     "@type": "BreadcrumbList",
     itemListElement: items.map((item, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: item.name,
-      item: `${siteConfig.url}${item.href === "/" ? "" : item.href}`,
+      item: absoluteUrl(item.href, locale),
     })),
   };
 }

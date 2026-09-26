@@ -7,10 +7,10 @@
  * them well; a focused page per intent is what search engines can actually
  * match to a query.
  *
- * `metaTitle`/`metaDescription` stay Indonesian-only: they're rendered by
- * generateMetadata() on the server, which has no access to the client-side
- * locale switch. Everything else here is rendered by a client component and
- * follows the active locale.
+ * Every field exists in each language: /services/<id>, /en/services/<id>
+ * and /zh/services/<id> are separate pages with their own title, description
+ * and structured data. Write metaTitle/metaDescription for how people search
+ * in that language, not as a word-for-word translation.
  *
  * Keep `metaTitle` under ~60 characters and `metaDescription` under ~155 so
  * they are not truncated in search results.
@@ -21,8 +21,8 @@ type LocalizedList = { id: string[]; en: string[]; zh: string[] };
 export type ServiceFaq = { question: Localized; answer: Localized };
 
 export type ServiceDetail = {
-  metaTitle: string;
-  metaDescription: string;
+  metaTitle: Localized;
+  metaDescription: Localized;
   h1: Localized;
   intro: Localized;
   /** Concrete deliverables — what the client actually receives. */
@@ -36,9 +36,18 @@ export type ServiceDetail = {
 
 export const serviceDetails: Record<string, ServiceDetail> = {
   "custom-software": {
-    metaTitle: "Jasa Pembuatan Custom Software Indonesia | AG·SORA",
-    metaDescription:
-      "Jasa pembuatan custom software untuk perusahaan di Indonesia. Sistem dibangun mengikuti proses bisnis Anda. Mulai dari Rp8.000.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan Custom Software Indonesia | AG·SORA",
+      en: "Custom Software Development Company in Indonesia | AG·SORA",
+      zh: "印尼定制软件开发服务 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan custom software untuk perusahaan di Indonesia. Sistem dibangun mengikuti proses bisnis Anda. Mulai dari Rp8.000.000.",
+      en:
+        "Custom software development for companies in Indonesia and abroad. Systems built around your business processes. From Rp8,000,000.",
+      zh:
+        "为印尼及海外企业提供定制软件开发，系统完全贴合您的业务流程。Rp8,000,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Custom Software untuk Bisnis Indonesia",
       en: "Custom Software Development for Indonesian Businesses",
@@ -135,9 +144,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   website: {
-    metaTitle: "Jasa Pembuatan Website Perusahaan | AG·SORA",
-    metaDescription:
-      "Jasa pembuatan website company profile, e-commerce, dan website dengan admin dashboard. Cepat, SEO-friendly. Mulai dari Rp3.500.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan Website Perusahaan | AG·SORA",
+      en: "Company Website Development Services | AG·SORA",
+      zh: "企业网站建设服务 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan website company profile, e-commerce, dan website dengan admin dashboard. Cepat, SEO-friendly. Mulai dari Rp3.500.000.",
+      en:
+        "Company profile, e-commerce, and admin-dashboard websites. Fast and SEO-friendly. From Rp3,500,000.",
+      zh:
+        "企业官网、电商网站及带管理后台的网站开发，速度快、利于 SEO。Rp3,500,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Website Perusahaan",
       en: "Company Website Development Services",
@@ -230,9 +248,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   mobile: {
-    metaTitle: "Jasa Pembuatan Aplikasi Mobile Android & iOS | AG·SORA",
-    metaDescription:
-      "Jasa pembuatan aplikasi mobile Android dan iOS untuk bisnis. Dari aplikasi pelanggan hingga aplikasi operasional lapangan. Mulai Rp10.000.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan Aplikasi Mobile Android & iOS | AG·SORA",
+      en: "Android & iOS Mobile App Development | AG·SORA",
+      zh: "Android 与 iOS 移动应用开发 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan aplikasi mobile Android dan iOS untuk bisnis. Dari aplikasi pelanggan hingga aplikasi operasional lapangan. Mulai Rp10.000.000.",
+      en:
+        "Android and iOS app development for businesses, from customer-facing apps to field operations apps. From Rp10,000,000.",
+      zh:
+        "为企业开发 Android 与 iOS 应用，从客户端应用到现场作业应用。Rp10,000,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Aplikasi Mobile Android & iOS",
       en: "Android & iOS Mobile App Development Services",
@@ -325,9 +352,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   erp: {
-    metaTitle: "Jasa Pembuatan ERP Indonesia | Sistem ERP Custom AG·SORA",
-    metaDescription:
-      "Jasa pembuatan sistem ERP untuk perusahaan Indonesia. Integrasi keuangan, inventori, produksi, dan pembelian. ERP Basic mulai Rp15.000.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan ERP Indonesia | Sistem ERP Custom AG·SORA",
+      en: "ERP Development Services in Indonesia | AG·SORA",
+      zh: "印尼 ERP 系统开发服务 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan sistem ERP untuk perusahaan Indonesia. Integrasi keuangan, inventori, produksi, dan pembelian. ERP Basic mulai Rp15.000.000.",
+      en:
+        "Custom ERP development integrating finance, inventory, production, and purchasing in one system. ERP Basic from Rp15,000,000.",
+      zh:
+        "定制 ERP 系统开发，将财务、库存、生产与采购整合在一个系统中。ERP 基础版 Rp15,000,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Sistem ERP untuk Perusahaan Indonesia",
       en: "ERP System Development for Indonesian Companies",
@@ -424,9 +460,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   pos: {
-    metaTitle: "Jasa Pembuatan Sistem POS / Kasir Indonesia | AG·SORA",
-    metaDescription:
-      "Jasa pembuatan sistem POS dan aplikasi kasir untuk retail dan F&B. Multi-outlet, stok real-time, laporan otomatis. Mulai Rp6.000.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan Sistem POS / Kasir Indonesia | AG·SORA",
+      en: "POS & Cashier System Development | AG·SORA",
+      zh: "POS 收银系统开发 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan sistem POS dan aplikasi kasir untuk retail dan F&B. Multi-outlet, stok real-time, laporan otomatis. Mulai Rp6.000.000.",
+      en:
+        "POS and cashier system development for retail and F&B. Multi-outlet, real-time stock, automated reports. From Rp6,000,000.",
+      zh:
+        "为零售与餐饮开发 POS 收银系统：多门店、库存实时同步、自动报表。Rp6,000,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Sistem POS & Aplikasi Kasir",
       en: "POS & Point-of-Sale App Development Services",
@@ -485,9 +530,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "POS 系统开发费用是多少？",
         },
         answer: {
-          id: "POS custom mulai dari Rp6.000.000. Tersedia juga AG·SORA POS sebagai produk siap pakai mulai dari Rp99.000 per bulan jika kebutuhan Anda relatif standar.",
-          en: "Custom POS starts from Rp6,000,000. AG·SORA POS is also available as a ready-to-use product from Rp99,000/month if your needs are fairly standard.",
-          zh: "定制 POS 起价 Rp6,000,000。若需求较为标准，也可选择 AG·SORA POS 现成产品，起价 Rp99,000/月。",
+          id: "POS custom mulai dari Rp6.000.000. Harga final mengikuti fitur, jumlah outlet, dan integrasi yang Anda butuhkan.",
+          en: "Custom POS starts from Rp6,000,000. The final price depends on the features, number of outlets, and integrations you need.",
+          zh: "定制 POS 起价 Rp6,000,000。最终价格取决于所需功能、门店数量与集成需求。",
         },
       },
       {
@@ -519,9 +564,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   hris: {
-    metaTitle: "Jasa Pembuatan HRIS Indonesia | Sistem HR Custom AG·SORA",
-    metaDescription:
-      "Jasa pembuatan HRIS untuk perusahaan Indonesia. Absensi, payroll, cuti, dan manajemen karyawan dalam satu sistem. Mulai Rp7.500.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan HRIS Indonesia | Sistem HR Custom AG·SORA",
+      en: "HRIS Development Services in Indonesia | AG·SORA",
+      zh: "印尼 HRIS 人事系统开发 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan HRIS untuk perusahaan Indonesia. Absensi, payroll, cuti, dan manajemen karyawan dalam satu sistem. Mulai Rp7.500.000.",
+      en:
+        "Custom HRIS development: attendance, payroll, leave, and employee management in one system. From Rp7,500,000.",
+      zh:
+        "定制 HRIS 人事系统：考勤、薪资、请假与员工管理集于一体。Rp7,500,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Sistem HRIS untuk Perusahaan",
       en: "HRIS System Development for Companies",
@@ -580,9 +634,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "HRIS 开发费用是多少？",
         },
         answer: {
-          id: "HRIS custom mulai dari Rp7.500.000. Tersedia juga AG·SORA HR sebagai produk siap pakai mulai dari Rp99.000 per bulan.",
-          en: "Custom HRIS starts from Rp7,500,000. AG·SORA HR is also available as a ready-to-use product from Rp99,000/month.",
-          zh: "定制 HRIS 起价 Rp7,500,000。也可选择 AG·SORA HR 现成产品，起价 Rp99,000/月。",
+          id: "HRIS custom mulai dari Rp7.500.000. Harga final mengikuti fitur, jumlah karyawan, dan integrasi yang Anda butuhkan.",
+          en: "Custom HRIS starts from Rp7,500,000. The final price depends on the features, number of employees, and integrations you need.",
+          zh: "定制 HRIS 起价 Rp7,500,000。最终价格取决于所需功能、员工人数与集成需求。",
         },
       },
       {
@@ -614,9 +668,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   crm: {
-    metaTitle: "Jasa Pembuatan CRM Indonesia | Sistem CRM Custom AG·SORA",
-    metaDescription:
-      "Jasa pembuatan sistem CRM untuk tim sales. Pipeline penjualan, follow-up otomatis, dan laporan performa. Mulai dari Rp7.500.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan CRM Indonesia | Sistem CRM Custom AG·SORA",
+      en: "CRM Development Services in Indonesia | AG·SORA",
+      zh: "印尼 CRM 客户管理系统开发 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan sistem CRM untuk tim sales. Pipeline penjualan, follow-up otomatis, dan laporan performa. Mulai dari Rp7.500.000.",
+      en:
+        "Custom CRM development for sales teams: sales pipeline, automated follow-ups, and performance reports. From Rp7,500,000.",
+      zh:
+        "为销售团队定制 CRM：销售漏斗、自动跟进与业绩报表。Rp7,500,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Sistem CRM untuk Tim Sales",
       en: "CRM System Development for Sales Teams",
@@ -675,9 +738,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "CRM 开发费用是多少？",
         },
         answer: {
-          id: "CRM custom mulai dari Rp7.500.000. Tersedia juga AG·SORA CRM sebagai produk siap pakai mulai dari Rp99.000 per bulan.",
-          en: "Custom CRM starts from Rp7,500,000. AG·SORA CRM is also available as a ready-to-use product from Rp99,000/month.",
-          zh: "定制 CRM 起价 Rp7,500,000。也可选择 AG·SORA CRM 现成产品，起价 Rp99,000/月。",
+          id: "CRM custom mulai dari Rp7.500.000. Harga final mengikuti fitur, jumlah pengguna, dan integrasi yang Anda butuhkan.",
+          en: "Custom CRM starts from Rp7,500,000. The final price depends on the features, number of users, and integrations you need.",
+          zh: "定制 CRM 起价 Rp7,500,000。最终价格取决于所需功能、用户数量与集成需求。",
         },
       },
       {
@@ -709,9 +772,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   dashboard: {
-    metaTitle: "Jasa Pembuatan Dashboard & Sistem Reporting | AG·SORA",
-    metaDescription:
-      "Jasa pembuatan dashboard bisnis dan sistem pelaporan real-time. Data operasional jadi dasar keputusan. Mulai dari Rp4.000.000.",
+    metaTitle: {
+      id: "Jasa Pembuatan Dashboard & Sistem Reporting | AG·SORA",
+      en: "Business Dashboard & Reporting Development | AG·SORA",
+      zh: "商业仪表盘与报表系统开发 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa pembuatan dashboard bisnis dan sistem pelaporan real-time. Data operasional jadi dasar keputusan. Mulai dari Rp4.000.000.",
+      en:
+        "Business dashboards and real-time reporting systems that turn operational data into decisions. From Rp4,000,000.",
+      zh:
+        "商业仪表盘与实时报表系统开发，让运营数据成为决策依据。Rp4,000,000 起。",
+    },
     h1: {
       id: "Jasa Pembuatan Dashboard & Sistem Reporting",
       en: "Dashboard & Reporting System Development",
@@ -804,9 +876,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   "ai-automation": {
-    metaTitle: "Jasa AI Automation untuk Operasional Bisnis | AG·SORA",
-    metaDescription:
-      "Jasa AI automation untuk mengotomatiskan pekerjaan operasional yang berulang. Mulai dari Rp5.000.000.",
+    metaTitle: {
+      id: "Jasa AI Automation untuk Operasional Bisnis | AG·SORA",
+      en: "AI Automation for Business Operations | AG·SORA",
+      zh: "企业运营 AI 自动化服务 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa AI automation untuk mengotomatiskan pekerjaan operasional yang berulang. Mulai dari Rp5.000.000.",
+      en:
+        "AI automation that takes repetitive operational work off your team's plate. From Rp5,000,000.",
+      zh:
+        "用 AI 自动化处理重复性的运营工作，释放团队精力。Rp5,000,000 起。",
+    },
     h1: {
       id: "Jasa AI Automation untuk Operasional Bisnis",
       en: "AI Automation Services for Business Operations",
@@ -899,9 +980,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
 
   "api-integration": {
-    metaTitle: "Jasa Integrasi API & Sistem Bisnis | AG·SORA",
-    metaDescription:
-      "Jasa integrasi API untuk menghubungkan sistem internal dengan payment gateway, marketplace, dan layanan pihak ketiga. Mulai Rp3.000.000.",
+    metaTitle: {
+      id: "Jasa Integrasi API & Sistem Bisnis | AG·SORA",
+      en: "API & Business System Integration Services | AG·SORA",
+      zh: "API 与业务系统集成服务 | AG·SORA",
+    },
+    metaDescription: {
+      id: "Jasa integrasi API untuk menghubungkan sistem internal dengan payment gateway, marketplace, dan layanan pihak ketiga. Mulai Rp3.000.000.",
+      en:
+        "API integration connecting your internal systems with payment gateways, marketplaces, and third-party services. From Rp3,000,000.",
+      zh:
+        "API 集成服务，将内部系统与支付网关、电商平台及第三方服务打通。Rp3,000,000 起。",
+    },
     h1: {
       id: "Jasa Integrasi API & Penghubung Antar Sistem",
       en: "API Integration & System Connection Services",

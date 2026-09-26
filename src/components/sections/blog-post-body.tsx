@@ -1,7 +1,8 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/i18n/link";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
@@ -10,10 +11,12 @@ import { PostCard } from "@/components/sections/post-card";
 import { ContactCta } from "@/components/sections/contact-cta";
 import {
   formatPostDate,
+  getPersonalizedRecommendations,
   getPostBlocks,
   getPostTitle,
   type BlogPost,
 } from "@/config/blog";
+import { getReadingHistory, recordPostView } from "@/lib/reading-history";
 import { useLocale } from "@/i18n/locale-context";
 
 export function BlogPostBody({
@@ -24,6 +27,22 @@ export function BlogPostBody({
   recommended: BlogPost[];
 }) {
   const { t, locale } = useLocale();
+
+  // `recommended` (tag/category match) renders on first paint, server-side and
+  // with JS off. Once mounted, swap in a list weighted by this reader's own
+  // history when there is one to weight against.
+  const [items, setItems] = useState(recommended);
+  const [fromHistory, setFromHistory] = useState(false);
+
+  useEffect(() => {
+    const history = getReadingHistory().filter((slug) => slug !== post.slug);
+    if (history.length > 0) {
+      setItems(getPersonalizedRecommendations(post.slug, history, 3, locale));
+      setFromHistory(true);
+    }
+    recordPostView(post.slug);
+  }, [post.slug, locale]);
+
   return (
     <>
       <div className="glow-top relative overflow-hidden border-b border-line pb-14 pt-14 md:pb-16 md:pt-16">
@@ -45,7 +64,7 @@ export function BlogPostBody({
             </h1>
             <div className="mt-6 flex items-center gap-3 text-[12px] text-ink-subtle">
               <time dateTime={post.publishedAt}>
-                {formatPostDate(post.publishedAt)}
+                {formatPostDate(post.publishedAt, locale)}
               </time>
               <span className="h-1 w-1 rounded-full bg-line-strong" />
               <span>{post.readingMinutes} {t.blogPage.readingTime}</span>
@@ -73,17 +92,17 @@ export function BlogPostBody({
         </Container>
       </Section>
 
-      {recommended.length ? (
+      {items.length ? (
         <Section className="pt-16 md:pt-20">
           <Container className="max-w-6xl">
             <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
               {t.blogPost.recommendedEyebrow}
             </p>
             <h2 className="headline mt-3 text-[22px] font-semibold text-ink sm:text-[26px]">
-              {t.blogPost.recommendedTitle}
+              {fromHistory ? t.blogPost.recommendedFromHistoryTitle : t.blogPost.recommendedTitle}
             </h2>
             <div className="mt-8 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
-              {recommended.map((item) => (
+              {items.map((item) => (
                 <PostCard key={item.slug} post={item} />
               ))}
             </div>

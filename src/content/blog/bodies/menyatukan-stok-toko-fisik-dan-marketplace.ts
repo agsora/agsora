@@ -150,8 +150,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih sering membatalkan pesanan marketplace karena stok tidak sinkron?",
-    text: "AG·SORA Inventory membantu menyatukan stok toko fisik dan marketplace dalam satu sumber yang akurat.",
-    href: "/products#inventory",
-    label: "Lihat AG·SORA Inventory",
+    text: "Tim AG·SORA membangun sistem inventori yang terhubung dengan penjualan dan gudang Anda — stok akurat dari satu sumber.",
+    href: "/services/erp",
+    label: "Lihat layanan ERP",
   },
 ];

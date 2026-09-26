@@ -175,7 +175,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "AG·SORA ERP tersedia sebagai platform siap pakai untuk bisnis yang bertumbuh dari satu lokasi hingga beberapa cabang, dan bisa diterapkan bertahap mulai dari modul yang paling mendesak. Untuk alur kerja yang sangat spesifik, ERP juga bisa dirancang mengikuti proses bisnis Anda, dengan urutan penerapan yang disusun bersama sejak awal.",
+    text: "Apa pun sistem yang dipilih, ERP sebaiknya diterapkan bertahap mulai dari modul yang paling mendesak. Untuk alur kerja yang sangat spesifik, ERP juga bisa dirancang mengikuti proses bisnis Anda, dengan urutan penerapan yang disusun bersama sejak awal.",
   },
   { type: "h2", text: "Penutup" },
   {

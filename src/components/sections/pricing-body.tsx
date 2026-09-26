@@ -4,7 +4,6 @@ import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CustomDevPricing } from "@/components/sections/custom-dev-pricing";
-import { SaasPricing } from "@/components/sections/saas-pricing";
 import { PricingDisclaimer } from "@/components/sections/pricing-disclaimer";
 import { ContactCta } from "@/components/sections/contact-cta";
 import { Faq } from "@/components/sections/faq";
@@ -33,20 +32,7 @@ export function PricingBody() {
         </Container>
       </Section>
 
-      <Section className="border-y border-line bg-surface-1">
-        <Container>
-          <SectionHeading
-            eyebrow={t.pricingPage.saasEyebrow}
-            title={t.pricingPage.saasTitle}
-            description={t.pricingPage.saasDescription}
-          />
-          <div className="mt-10">
-            <SaasPricing />
-          </div>
-        </Container>
-      </Section>
-
-      <Section>
+      <Section className="pt-0">
         <Container className="max-w-6xl">
           <PricingDisclaimer />
         </Container>

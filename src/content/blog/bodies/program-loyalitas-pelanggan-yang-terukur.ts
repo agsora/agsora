@@ -156,8 +156,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Tahu apakah program loyalitas Anda benar-benar menguntungkan?",
-    text: "AG·SORA POS membantu melacak dan mengukur dampak program loyalitas pelanggan secara akurat.",
-    href: "/products#pos",
-    label: "Lihat AG·SORA POS",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    href: "/services/pos",
+    label: "Lihat layanan POS",
   },
 ];

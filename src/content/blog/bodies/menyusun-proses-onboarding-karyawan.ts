@@ -163,8 +163,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Onboarding karyawan baru masih berantakan?",
-    text: "AG·SORA HR membantu mengelola daftar periksa onboarding dan hak akses karyawan baru secara terstruktur.",
-    href: "/products#hr",
-    label: "Lihat AG·SORA HR",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    href: "/services/hris",
+    label: "Lihat layanan HRIS",
   },
 ];

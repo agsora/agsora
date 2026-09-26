@@ -166,8 +166,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Bingung laporan mana yang perlu dipantau setiap hari?",
-    text: "AG·SORA POS menyediakan ringkasan laporan harian yang jelas dan langsung actionable untuk bisnis Anda.",
-    href: "/products#pos",
-    label: "Lihat AG·SORA POS",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    href: "/services/pos",
+    label: "Lihat layanan POS",
   },
 ];

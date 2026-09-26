@@ -1,71 +1,43 @@
 "use client";
 
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-  type ReactNode,
-} from "react";
+import { createContext, useContext, useMemo, type ReactNode } from "react";
 import { dictionaries, type Dictionary } from "./dictionaries";
+import type { Locale } from "./routing";
 
-export type Locale = "id" | "en" | "zh";
+export type { Locale } from "./routing";
 
-const STORAGE_KEY = "agsora-locale";
-
-function detectLocale(): Locale {
-  if (typeof navigator === "undefined") return "id";
-  const langs = navigator.languages?.length
-    ? navigator.languages
-    : [navigator.language];
-  for (const raw of langs) {
-    const lang = raw.toLowerCase();
-    if (lang.startsWith("zh")) return "zh";
-    if (lang.startsWith("en")) return "en";
-    if (lang.startsWith("id")) return "id";
-  }
-  // Fall back to region: browsers in Indonesia default to id-ID or en-ID;
-  // anything unrecognised still lands on the primary market, Indonesian.
-  return "id";
-}
-
-const LocaleContext = createContext<{
+type LocaleContextValue = {
   locale: Locale;
-  setLocale: (l: Locale) => void;
   t: Dictionary;
-}>({
+  /** Blog slugs that exist in every language — the rest are Indonesian-only. */
+  translatedPosts: readonly string[];
+};
+
+const LocaleContext = createContext<LocaleContextValue>({
   locale: "id",
-  setLocale: () => {},
   t: dictionaries.id,
+  translatedPosts: [],
 });
 
-export function LocaleProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>("id");
-
-  useEffect(() => {
-    const stored = window.localStorage.getItem(STORAGE_KEY) as Locale | null;
-    if (stored && stored in dictionaries) {
-      setLocaleState(stored);
-    } else {
-      setLocaleState(detectLocale());
-    }
-  }, []);
-
-  useEffect(() => {
-    document.documentElement.lang =
-      locale === "zh" ? "zh-Hans" : locale === "en" ? "en" : "id";
-  }, [locale]);
-
-  const setLocale = (l: Locale) => {
-    setLocaleState(l);
-    window.localStorage.setItem(STORAGE_KEY, l);
-  };
-
-  return (
-    <LocaleContext.Provider value={{ locale, setLocale, t: dictionaries[locale] }}>
-      {children}
-    </LocaleContext.Provider>
+/**
+ * The locale comes from the URL (app/[lang]), so the server renders the
+ * right language and every language version is its own indexable page.
+ * Switching language is navigation — see LanguageSwitcher.
+ */
+export function LocaleProvider({
+  locale,
+  translatedPosts,
+  children,
+}: {
+  locale: Locale;
+  translatedPosts: readonly string[];
+  children: ReactNode;
+}) {
+  const value = useMemo(
+    () => ({ locale, t: dictionaries[locale], translatedPosts }),
+    [locale, translatedPosts]
   );
+  return <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>;
 }
 
 export function useLocale() {

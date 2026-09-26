@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/i18n/link";
 import { InstagramIcon, FacebookIcon, TiktokIcon } from "@/components/social-icons";
 import { footerNav, siteConfig } from "@/config/site";
 import { RibbonLogo } from "@/components/ribbon-logo";
@@ -39,7 +39,7 @@ export function Footer() {
   return (
     <footer className="border-t border-line bg-surface-0">
       <div className="mx-auto max-w-6xl container-px py-16">
-        <div className="grid grid-cols-2 gap-10 md:grid-cols-6">
+        <div className="grid grid-cols-2 gap-10 md:grid-cols-5">
           <div className="col-span-2">
             <Link href="/" className="focus-ring flex items-center gap-2.5">
               <RibbonLogo className="h-7 w-auto" />
@@ -82,9 +82,23 @@ export function Footer() {
           </div>
 
           <FooterColumn title={t.footer.services} links={footerNav.services.slice(0, 6)} />
-          <FooterColumn title={t.footer.products} links={footerNav.products} />
-          <FooterColumn title={t.footer.company} links={footerNav.company} />
-          <FooterColumn title={t.footer.legal} links={footerNav.legal} />
+          <FooterColumn
+            title={t.footer.company}
+            links={[
+              { label: t.nav.industries, href: "/industries" },
+              { label: t.nav.pricing, href: "/pricing" },
+              { label: t.nav.blog, href: "/blog" },
+              { label: t.nav.about, href: "/about" },
+              { label: t.nav.contact, href: "/contact" },
+            ]}
+          />
+          <FooterColumn
+            title={t.footer.legal}
+            links={[
+              { label: t.footer.privacy, href: "/privacy-policy" },
+              { label: t.footer.terms, href: "/terms-conditions" },
+            ]}
+          />
         </div>
 
         <div className="mt-10 flex flex-col gap-2 border-t border-line pt-8 text-[12px] text-ink-subtle md:flex-row md:items-center md:justify-between">

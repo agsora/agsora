@@ -193,7 +193,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "AG·SORA CRM tersedia sebagai sistem siap pakai untuk mengelola pipeline dan relasi pelanggan. Untuk proses penjualan dengan tahapan dan persetujuan yang sangat khusus, CRM juga bisa dirancang mengikuti alur tim Anda.",
+    text: "Untuk proses penjualan yang relatif umum, CRM siap pakai sering kali sudah cukup untuk mengelola pipeline dan relasi pelanggan. Untuk proses penjualan dengan tahapan dan persetujuan yang sangat khusus, CRM juga bisa dirancang mengikuti alur tim Anda.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -203,8 +203,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Pipeline Anda terlihat penuh, tapi realisasinya jauh?",
-    text: "Lihat bagaimana AG·SORA CRM membantu tim sales mengelola pipeline dengan lebih jelas dan terukur.",
-    href: "/products#crm",
-    label: "Lihat AG·SORA CRM",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    href: "/services/crm",
+    label: "Lihat layanan CRM",
   },
 ];

@@ -143,3 +143,6 @@ export const services: Service[] = [
     href: "/services/api-integration",
   },
 ];
+
+/** The six shown on the homepage — also what its JSON-LD describes. */
+export const featuredServices = services.slice(0, 6);

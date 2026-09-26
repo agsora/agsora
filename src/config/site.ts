@@ -6,7 +6,7 @@ export const siteConfig = {
   url: "https://www.agsora.tech",
   tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
   description:
-    "AG·SORA membangun software, sistem bisnis, dan produk digital yang membantu perusahaan bekerja lebih efisien, terintegrasi, dan scalable — dari custom development hingga produk SaaS siap pakai.",
+    "AG·SORA membangun software dan sistem bisnis yang membantu perusahaan bekerja lebih efisien, terintegrasi, dan scalable — dari website dan aplikasi hingga ERP, POS, HRIS, dan CRM.",
   email: "hello@agsora.tech",
   whatsapp: {
     display: "WhatsApp",
@@ -20,22 +20,6 @@ export const siteConfig = {
   },
 } as const;
 
-export type NavLink = {
-  label: string;
-  href: string;
-};
-
-export const mainNav: NavLink[] = [
-  { label: "Services", href: "/services" },
-  { label: "Products", href: "/products" },
-  { label: "Industries", href: "/industries" },
-  { label: "Pricing", href: "/pricing" },
-  { label: "Portfolio", href: "/portfolio" },
-  { label: "Blog", href: "/blog" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
-];
-
 export const footerNav = {
   services: [
     { label: "Custom Software", href: "/services/custom-software" },
@@ -47,23 +31,5 @@ export const footerNav = {
     { label: "CRM", href: "/services/crm" },
     { label: "AI Automation", href: "/services/ai-automation" },
     { label: "API Integration", href: "/services/api-integration" },
-  ],
-  products: [
-    { label: "AG·SORA POS", href: "/products#pos" },
-    { label: "AG·SORA ERP", href: "/products#erp" },
-    { label: "AG·SORA HR", href: "/products#hr" },
-    { label: "AG·SORA CRM", href: "/products#crm" },
-    { label: "AG·SORA Inventory", href: "/products#inventory" },
-  ],
-  company: [
-    { label: "Industries", href: "/industries" },
-    { label: "Pricing", href: "/pricing" },
-    { label: "Blog", href: "/blog" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
-  ],
-  legal: [
-    { label: "Privacy Policy", href: "/privacy-policy" },
-    { label: "Terms & Conditions", href: "/terms-conditions" },
   ],
 };

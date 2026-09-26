@@ -1,24 +1,25 @@
-import { faqs } from "@/config/company";
+import { faqsTranslated } from "@/config/company";
+import type { Locale } from "@/i18n/routing";
 
 /**
- * FAQPage structured data. Render this on exactly one page — Google's
- * guidance is to mark up a repeated FAQ only once, so the homepage shows
- * the featured questions without emitting it again.
+ * FAQPage structured data, in the page's language. Render this on exactly
+ * one page — Google's guidance is to mark up a repeated FAQ only once, so the
+ * homepage shows the featured questions without emitting it again.
  *
  * Kept as a plain server component (not "use client") so the JSON-LD
  * <script> tag only ever renders during SSR — React warns about <script>
  * tags rendered client-side, since they're inert after client renders.
  */
-export function FaqSchema() {
+export function FaqSchema({ locale }: { locale: Locale }) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
+    mainEntity: faqsTranslated.map((faq) => ({
       "@type": "Question",
-      name: faq.question,
+      name: faq[locale].question,
       acceptedAnswer: {
         "@type": "Answer",
-        text: faq.answer,
+        text: faq[locale].answer,
       },
     })),
   };

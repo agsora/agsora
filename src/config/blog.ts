@@ -91,8 +91,6 @@ export type BlogCover = {
   alt: string;
 };
 
-export type BlogProductId = "pos" | "erp" | "hr" | "crm" | "inventory";
-
 /** English/Chinese title and excerpt for a post authored with translations. */
 export type PostTextTranslations = { en: string; zh: string };
 
@@ -106,9 +104,6 @@ export type PostMeta = {
   /** Last substantive revision. Defaults to publishedAt when omitted. */
   updatedAt?: string; // ISO date
   tags: BlogTag[];
-  featured?: boolean;
-  /** Product cards shown under the article, rendered from config/products.ts. */
-  products?: BlogProductId[];
   cover: BlogCover;
   /**
    * Optional EN/ZH title and excerpt. Posts without this fall back to the
@@ -128,7 +123,6 @@ export type BlogPost = PostMeta & {
 };
 
 export const POSTS_PER_PAGE = 12;
-const MAX_FEATURED = 3;
 const WORDS_PER_MINUTE = 200;
 
 function countWords(body: Block[]) {
@@ -204,34 +198,73 @@ export function getPostBySlug(slug: string) {
   return blogPosts.find((post) => post.slug === slug);
 }
 
-export function getSortedPosts() {
-  return [...blogPosts].sort(byNewest);
-}
-
-/** Editor's picks, newest first. */
-export function getFeaturedPosts() {
-  return getSortedPosts()
-    .filter((post) => post.featured)
-    .slice(0, MAX_FEATURED);
+/**
+ * Whether a post has a version in `locale`. Indonesian is the original
+ * language, so every post exists in it; English and Chinese pages are only
+ * published for posts with a translated title and body — an Indonesian
+ * article under an /en URL would be a mislabelled duplicate to search engines.
+ */
+export function isPostAvailable(post: BlogPost, locale: Locale) {
+  return locale === "id" || Boolean(post.titleTranslations && post.bodyTranslations);
 }
 
 /**
- * The chronological archive, excluding editor's picks — those already sit in
- * the recommendation strip on page 1, and listing them twice there would
- * waste the most-viewed slots on the page.
+ * Posts that exist in every language (translations come in en+zh pairs).
+ * Lets the language switcher avoid linking to a post that doesn't exist.
  */
-function getArchivePosts() {
-  const featured = new Set(getFeaturedPosts().map((post) => post.slug));
-  return getSortedPosts().filter((post) => !featured.has(post.slug));
+export const translatedPostSlugs = blogPosts
+  .filter((post) => isPostAvailable(post, "en"))
+  .map((post) => post.slug);
+
+/** Newest first, limited to posts that exist in `locale`. */
+export function getSortedPosts(locale: Locale = "id") {
+  return blogPosts.filter((post) => isPostAvailable(post, locale)).sort(byNewest);
 }
 
-export function getTotalPages() {
-  return Math.max(1, Math.ceil(getArchivePosts().length / POSTS_PER_PAGE));
+/** Display order for category filters — matches the BlogCategory union. */
+export const BLOG_CATEGORIES: BlogCategory[] = [
+  "Strategi Bisnis",
+  "Panduan Memilih",
+  "ERP & Operasional",
+  "POS & Retail",
+  "HR & Tim",
+  "Penjualan & CRM",
+  "Teknologi",
+  "Website & Digital",
+  "Panduan Industri",
+];
+
+export type CategoryCount = { category: BlogCategory; count: number };
+
+/** Categories with at least one post, in display order, with post counts. */
+export function getCategoryCounts(locale: Locale = "id"): CategoryCount[] {
+  const counts = new Map<BlogCategory, number>();
+  for (const post of getSortedPosts(locale)) {
+    counts.set(post.category, (counts.get(post.category) ?? 0) + 1);
+  }
+  return BLOG_CATEGORIES.filter((category) => counts.has(category)).map((category) => ({
+    category,
+    count: counts.get(category)!,
+  }));
 }
 
-export function getPostsForPage(page: number) {
+/** All posts in a category, newest first — powers the client-side category filter. */
+export function getPostsByCategory(category: BlogCategory, locale: Locale = "id") {
+  return getSortedPosts(locale).filter((post) => post.category === category);
+}
+
+/**
+ * The archive is strictly by publish date, newest first, across all pages —
+ * no pinned picks jumping the queue, so readers always see the latest post
+ * first.
+ */
+export function getTotalPages(locale: Locale = "id") {
+  return Math.max(1, Math.ceil(getSortedPosts(locale).length / POSTS_PER_PAGE));
+}
+
+export function getPostsForPage(page: number, locale: Locale = "id") {
   const start = (page - 1) * POSTS_PER_PAGE;
-  return getArchivePosts().slice(start, start + POSTS_PER_PAGE);
+  return getSortedPosts(locale).slice(start, start + POSTS_PER_PAGE);
 }
 
 export function blogPageHref(page: number) {
@@ -244,12 +277,12 @@ export function blogPageHref(page: number) {
  * describe the actual subject — two posts in "Teknologi" may have nothing in
  * common, while two posts tagged "migrasi-data" almost always do.
  */
-export function getRecommendedPosts(slug: string, limit = 3) {
+export function getRecommendedPosts(slug: string, limit = 3, locale: Locale = "id") {
   const current = getPostBySlug(slug);
   if (!current) return [];
   const currentTags = new Set(current.tags);
 
-  return getSortedPosts()
+  return getSortedPosts(locale)
     .filter((post) => post.slug !== slug)
     .map((post) => ({
       post,
@@ -262,9 +295,59 @@ export function getRecommendedPosts(slug: string, limit = 3) {
     .map(({ post }) => post);
 }
 
+/**
+ * Recommendations for a post, weighted by the reader's own history: tags and
+ * categories that show up often in recently read posts (most recent first in
+ * `historySlugs`) score extra on top of the normal shared-tag/category match
+ * against the current post. Posts already in the history are excluded — no
+ * point recommending a re-read. Falls back to `getRecommendedPosts` when
+ * there's no usable history.
+ */
+export function getPersonalizedRecommendations(
+  slug: string,
+  historySlugs: string[],
+  limit = 3,
+  locale: Locale = "id"
+): BlogPost[] {
+  const current = getPostBySlug(slug);
+  if (!current) return [];
+
+  const historyPosts = historySlugs
+    .map((s) => getPostBySlug(s))
+    .filter((post): post is BlogPost => Boolean(post) && post?.slug !== slug);
+
+  if (historyPosts.length === 0) return getRecommendedPosts(slug, limit, locale);
+
+  const currentTags = new Set(current.tags);
+  const tagFrequency = new Map<BlogTag, number>();
+  const categoryFrequency = new Map<BlogCategory, number>();
+  historyPosts.forEach((post, i) => {
+    const weight = historyPosts.length - i; // more recently read counts for more
+    post.tags.forEach((tag) => tagFrequency.set(tag, (tagFrequency.get(tag) ?? 0) + weight));
+    categoryFrequency.set(post.category, (categoryFrequency.get(post.category) ?? 0) + weight);
+  });
+
+  const readSlugs = new Set(historyPosts.map((post) => post.slug));
+
+  return getSortedPosts(locale)
+    .filter((post) => post.slug !== slug && !readSlugs.has(post.slug))
+    .map((post) => {
+      const baseScore =
+        post.tags.filter((tag) => currentTags.has(tag)).length * 3 +
+        (post.category === current.category ? 2 : 0);
+      const historyScore =
+        post.tags.reduce((n, tag) => n + (tagFrequency.get(tag) ?? 0), 0) * 0.5 +
+        (categoryFrequency.get(post.category) ?? 0) * 0.5;
+      return { post, score: baseScore + historyScore };
+    })
+    .sort((a, b) => b.score - a.score || byNewest(a.post, b.post))
+    .slice(0, limit)
+    .map(({ post }) => post);
+}
+
 /** Chronological neighbours, for "newer / older article" navigation. */
-export function getAdjacentPosts(slug: string) {
-  const sorted = getSortedPosts();
+export function getAdjacentPosts(slug: string, locale: Locale = "id") {
+  const sorted = getSortedPosts(locale);
   const i = sorted.findIndex((post) => post.slug === slug);
   return {
     newer: i > 0 ? sorted[i - 1] : undefined,
@@ -272,8 +355,10 @@ export function getAdjacentPosts(slug: string) {
   };
 }
 
-export function formatPostDate(iso: string) {
-  return new Date(iso).toLocaleDateString("id-ID", {
+const dateLocales: Record<Locale, string> = { id: "id-ID", en: "en-GB", zh: "zh-CN" };
+
+export function formatPostDate(iso: string, locale: Locale = "id") {
+  return new Date(iso).toLocaleDateString(dateLocales[locale], {
     day: "numeric",
     month: "long",
     year: "numeric",

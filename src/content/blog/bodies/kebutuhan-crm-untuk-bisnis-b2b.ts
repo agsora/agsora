@@ -144,8 +144,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Deal besar Anda tersebar di notes pribadi sales?",
-    text: "AG·SORA CRM dirancang untuk menangani kompleksitas penjualan B2B dengan banyak kontak dan tahapan.",
-    href: "/products#crm",
-    label: "Lihat AG·SORA CRM",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    href: "/services/crm",
+    label: "Lihat layanan CRM",
   },
 ];

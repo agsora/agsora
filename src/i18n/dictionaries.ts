@@ -1,17 +1,17 @@
 export type Dictionary = {
   nav: {
     services: string;
-    products: string;
     industries: string;
     pricing: string;
-    portfolio: string;
     blog: string;
     about: string;
     contact: string;
     cta: string;
+    openMenu: string;
+    closeMenu: string;
+    whatsapp: string;
   };
   hero: {
-    kicker: string;
     titleLead: string;
     titleHighlight: string;
     description: string;
@@ -34,40 +34,67 @@ export type Dictionary = {
   footer: {
     tagline: string;
     services: string;
-    products: string;
     company: string;
     legal: string;
     rights: string;
+    privacy: string;
+    terms: string;
   };
   themeToggle: { light: string; dark: string };
   langSwitch: { label: string };
-  whyAgsora: { eyebrow: string; title: string; description: string };
+  /** First crumb of every breadcrumb trail. */
+  breadcrumbHome: string;
+  skipLink: string;
+  notFound: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    home: string;
+    contact: string;
+  };
+  /** Shown in the suggested language, to visitors whose browser prefers it. */
+  langSuggest: { message: string; action: string; dismiss: string };
   howWeWork: { eyebrow: string; title: string };
+  /** Homepage-only copy. Wrap a phrase in *asterisks* to set it as the serif accent. */
+  home: {
+    /** Things a prospect can hold AG·SORA to — keep in sync with `commitments` and /pricing. */
+    assurances: string[];
+    visualLabel: string;
+    /** Labels inside the hero's sample dashboard. Figures are formatted in hero-visual.tsx. */
+    visual: {
+      title: string;
+      modules: string;
+      dashboard: string;
+      reports: string;
+      syncTitle: string;
+      syncNote: string;
+      scope: string;
+      ranges: string[];
+      revenue: string;
+      transactions: string;
+      lowStock: string;
+      attendance: string;
+      items: string;
+      warehouses: string;
+      staff: string;
+      dailyRevenue: string;
+      allOutlets: string;
+    };
+    servicesTitle: string;
+    servicesDescription: string;
+    blogTitle: string;
+    blogCta: string;
+    faqTitle: string;
+    ctaTitle: string;
+    ctaWhatsapp: string;
+    ctaEmail: string;
+  };
   servicesGrid: {
     eyebrow: string;
     title: string;
     description: string;
     seeAll: string;
     startingFrom: string;
-  };
-  productCard: {
-    features: string;
-    benefits: string;
-    tryDemo: string;
-    seePricing: string;
-  };
-  productSwitcher: {
-    eyebrow: string;
-    title: string;
-    description: string;
-    seeAll: string;
-  };
-  saasPricing: {
-    popular: string;
-    tryNow: string;
-    complexTitle: string;
-    complexDescription: string;
-    contactSales: string;
   };
   pricingCategories: {
     websiteDigital: string;
@@ -124,21 +151,11 @@ export type Dictionary = {
     thankYou: string;
   };
   servicesPage: { heroTitle: string; heroDescription: string };
-  productsPage: { heroTitle: string; heroDescription: string };
-  portfolioPage: {
-    heroTitle: string;
-    heroDescription: string;
-    showcaseEyebrow: string;
-    showcaseTitle: string;
-  };
   pricingPage: {
     heroTitle: string;
     heroDescription: string;
     customDevEyebrow: string;
     customDevTitle: string;
-    saasEyebrow: string;
-    saasTitle: string;
-    saasDescription: string;
     disclaimer: string;
   };
   blogPage: {
@@ -146,12 +163,13 @@ export type Dictionary = {
     heroDescription: string;
     pageTitle: string;
     pageLabel: string;
-    editorPickEyebrow: string;
-    editorPickTitle: string;
-    editorPickDescription: string;
     latestEyebrow: string;
     latestTitle: string;
     readingTime: string;
+    filterLabel: string;
+    filterAll: string;
+    filterResultsEyebrow: string;
+    filterResultsDescription: string;
   };
   pagination: {
     previous: string;
@@ -162,6 +180,7 @@ export type Dictionary = {
     allArticles: string;
     recommendedEyebrow: string;
     recommendedTitle: string;
+    recommendedFromHistoryTitle: string;
   };
 };
 
@@ -169,21 +188,21 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
   id: {
     nav: {
       services: "Services",
-      products: "Products",
       industries: "Industries",
       pricing: "Pricing",
-      portfolio: "Portfolio",
       blog: "Blog",
       about: "About",
       contact: "Contact",
       cta: "Konsultasi Gratis",
+      openMenu: "Buka menu",
+      closeMenu: "Tutup menu",
+      whatsapp: "Chat WhatsApp",
     },
     hero: {
-      kicker: "Build smarter systems. Grow without limits.",
       titleLead: "Software house Indonesia untuk",
       titleHighlight: "sistem bisnis yang terintegrasi.",
       description:
-        "PT Agsora Teknologi Indonesia membangun custom software, ERP, POS, HRIS, dan CRM — serta produk SaaS siap pakai — agar perusahaan Anda bekerja lebih efisien, terintegrasi, dan scalable.",
+        "PT Agsora Teknologi Indonesia membangun custom software, website, aplikasi, ERP, POS, HRIS, dan CRM — dirancang mengikuti proses kerja perusahaan Anda agar bekerja lebih efisien, terintegrasi, dan scalable.",
       ctaPrimary: "Konsultasi Gratis",
       ctaSecondary: "Lihat Solusi",
     },
@@ -207,27 +226,74 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     footer: {
       tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
       services: "Services",
-      products: "Products",
       company: "Company",
       legal: "Legal",
       rights: "All rights reserved.",
+      privacy: "Privacy Policy",
+      terms: "Terms & Conditions",
     },
     themeToggle: {
       light: "Mode terang",
       dark: "Mode gelap",
     },
+    breadcrumbHome: "Beranda",
+    skipLink: "Langsung ke konten utama",
+    notFound: {
+      eyebrow: "Error 404",
+      title: "Halaman tidak ditemukan",
+      description: "Halaman yang Anda cari mungkin sudah dipindahkan atau tidak tersedia.",
+      home: "Kembali ke Beranda",
+      contact: "Hubungi Kami",
+    },
+    langSuggest: {
+      message: "Halaman ini juga tersedia dalam Bahasa Indonesia.",
+      action: "Buka versi Indonesia",
+      dismiss: "Tutup",
+    },
     langSwitch: {
       label: "Bahasa",
-    },
-    whyAgsora: {
-      eyebrow: "Why AG·SORA",
-      title: "Teknologi yang tumbuh bersama bisnis Anda",
-      description:
-        "Kami tidak menjual template — kami membangun sistem yang dirancang untuk kebutuhan spesifik dan arah pertumbuhan perusahaan Anda.",
     },
     howWeWork: {
       eyebrow: "How We Work",
       title: "Proses kerja yang jelas, dari ide hingga sistem berjalan",
+    },
+    home: {
+      assurances: [
+        "Konsultasi gratis",
+        "Harga dipublikasikan",
+        "Ruang lingkup tertulis",
+        "Dokumentasi & pelatihan",
+      ],
+      visualLabel:
+        "Contoh dashboard AG·SORA yang menyatukan data POS, inventori, dan HRIS dalam satu layar.",
+      visual: {
+        title: "Ringkasan Bisnis",
+        modules: "Modul",
+        dashboard: "Dashboard",
+        reports: "Laporan",
+        syncTitle: "Sinkron real-time",
+        syncNote: "6 modul terhubung",
+        scope: "Semua outlet · 30 hari terakhir",
+        ranges: ["7H", "30H", "90H"],
+        revenue: "Pendapatan",
+        transactions: "Transaksi",
+        lowStock: "Stok menipis",
+        attendance: "Kehadiran",
+        items: "item",
+        warehouses: "gudang",
+        staff: "staf",
+        dailyRevenue: "Pendapatan harian",
+        allOutlets: "Semua outlet",
+      },
+      servicesTitle: "Jasa pembuatan *software & aplikasi* untuk bisnis Anda",
+      servicesDescription:
+        "Custom software, ERP, POS, HRIS, CRM, website, dan aplikasi mobile — dirancang mengikuti proses kerja perusahaan Anda, dengan harga yang dipublikasikan.",
+      blogTitle: "Panduan & wawasan *sistem bisnis*",
+      blogCta: "Lihat semua artikel",
+      faqTitle: "Pertanyaan yang *sering diajukan*",
+      ctaTitle: "Siap membangun sistem yang *tumbuh bersama* bisnis Anda?",
+      ctaWhatsapp: "Chat via WhatsApp",
+      ctaEmail: "atau kirim email ke",
     },
     servicesGrid: {
       eyebrow: "Custom Development",
@@ -236,27 +302,6 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Dari website sederhana hingga sistem enterprise — tim AG·SORA merancang solusi yang sesuai dengan proses kerja Anda.",
       seeAll: "Lihat Semua Layanan",
       startingFrom: "Mulai dari",
-    },
-    productCard: {
-      features: "Fitur",
-      benefits: "Manfaat Utama",
-      tryDemo: "Coba Demo",
-      seePricing: "Lihat Harga",
-    },
-    productSwitcher: {
-      eyebrow: "Product Ecosystem",
-      title: "Produk SaaS AG·SORA yang siap digunakan",
-      description:
-        "Bukan sekadar jasa development — AG·SORA juga menghadirkan produk software yang terus dikembangkan dan didukung penuh.",
-      seeAll: "Lihat Semua Produk",
-    },
-    saasPricing: {
-      popular: "Populer",
-      tryNow: "Coba Sekarang",
-      complexTitle: "Butuh sesuatu yang lebih kompleks?",
-      complexDescription:
-        "Untuk multi-cabang, integrasi khusus, atau kebutuhan SLA tertentu — mari rancang arsitektur yang tepat bersama.",
-      contactSales: "Hubungi Sales",
     },
     pricingCategories: {
       websiteDigital: "Website & Digital",
@@ -287,7 +332,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       positioningEyebrow: "Positioning",
       positioningTitle: "Modern technology company untuk bisnis yang ingin bertumbuh",
       positioningDescription:
-        "AG·SORA berdiri di antara dua peran: mitra pengembangan software custom, dan penyedia produk SaaS yang siap digunakan. Kombinasi ini memungkinkan kami memahami kebutuhan bisnis secara mendalam sekaligus menghadirkan solusi yang matang dan teruji.",
+        "AG·SORA adalah mitra pengembangan software custom: kami memetakan proses bisnis Anda lebih dulu, lalu membangun sistem yang mengikutinya — bukan memaksa bisnis Anda menyesuaikan diri dengan template.",
       brandPersonality: "Brand Personality",
       whatWeBelieveEyebrow: "What We Believe",
       whatWeBelieveTitle: "Prinsip yang memandu setiap sistem yang kami bangun",
@@ -332,7 +377,6 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "HRIS",
         "CRM",
         "AI Automation / API Integration",
-        "Produk SaaS AG·SORA",
         "Lainnya",
       ],
       budget: "Budget range",
@@ -356,27 +400,12 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       heroDescription:
         "AG·SORA membantu bisnis membangun software, sistem, dan platform digital yang sesuai dengan proses operasional dan tujuan pertumbuhan jangka panjang.",
     },
-    productsPage: {
-      heroTitle: "Produk software AG·SORA untuk operasional yang lebih ringan",
-      heroDescription:
-        "Setiap produk dirancang agar mudah digunakan sejak hari pertama, dengan paket yang bisa disesuaikan seiring pertumbuhan bisnis Anda.",
-    },
-    portfolioPage: {
-      heroTitle: "Contoh kerja dan kapasitas tim kami",
-      heroDescription:
-        "Implementasi yang dikerjakan tim internal untuk mendemonstrasikan kualitas build — bukan case study klien dengan metrik bisnis. Case study klien dengan hasil terukur akan tayang setelah data dan persetujuan tersedia.",
-      showcaseEyebrow: "Capability Showcase",
-      showcaseTitle: "Implementasi yang pernah kami bangun",
-    },
     pricingPage: {
       heroTitle: "Accessible technology for growing businesses",
       heroDescription:
         "Simple needs start small. Complex systems scale with your business. Semua harga di bawah adalah harga mulai dari.",
       customDevEyebrow: "Custom Development",
       customDevTitle: "Harga mulai dari untuk setiap layanan",
-      saasEyebrow: "SaaS Products",
-      saasTitle: "Paket berlangganan produk AG·SORA",
-      saasDescription: "Mulai dari kebutuhan tim kecil hingga operasional multi-outlet.",
       disclaimer:
         "Harga mulai dari dan dapat berubah sesuai fitur, jumlah user, integrasi, kompleksitas workflow, timeline, serta kebutuhan support. Biaya pihak ketiga tidak termasuk kecuali dinyatakan lain.",
     },
@@ -386,13 +415,13 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Hal-hal praktis yang kami temui saat merancang dan menerapkan sistem — ditulis untuk pemilik bisnis dan tim operasional, bukan hanya untuk developer.",
       pageTitle: "Semua artikel",
       pageLabel: "Halaman",
-      editorPickEyebrow: "Rekomendasi editor",
-      editorPickTitle: "Mulai dari sini",
-      editorPickDescription:
-        "Artikel yang paling berguna dibaca lebih dulu jika Anda sedang mempertimbangkan sistem baru.",
       latestEyebrow: "Terbaru",
       latestTitle: "Artikel terbaru",
       readingTime: "menit baca",
+      filterLabel: "Filter kategori blog",
+      filterAll: "Semua",
+      filterResultsEyebrow: "Kategori",
+      filterResultsDescription: "{count} artikel dalam kategori ini, urut dari yang terbaru.",
     },
     pagination: {
       previous: "Sebelumnya",
@@ -403,26 +432,27 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       allArticles: "Semua artikel",
       recommendedEyebrow: "Rekomendasi untuk Anda",
       recommendedTitle: "Bacaan yang berkaitan dengan topik ini",
+      recommendedFromHistoryTitle: "Dipilih berdasarkan bacaan Anda sebelumnya",
     },
   },
   en: {
     nav: {
       services: "Services",
-      products: "Products",
       industries: "Industries",
       pricing: "Pricing",
-      portfolio: "Portfolio",
       blog: "Blog",
       about: "About",
       contact: "Contact",
       cta: "Free Consultation",
+      openMenu: "Open menu",
+      closeMenu: "Close menu",
+      whatsapp: "Chat on WhatsApp",
     },
     hero: {
-      kicker: "Build smarter systems. Grow without limits.",
       titleLead: "Indonesian software house for",
       titleHighlight: "integrated business systems.",
       description:
-        "PT Agsora Teknologi Indonesia builds custom software, ERP, POS, HRIS, and CRM — plus ready-to-use SaaS products — so your company works more efficiently, stays integrated, and scales with ease.",
+        "PT Agsora Teknologi Indonesia builds custom software, websites, apps, ERP, POS, HRIS, and CRM — designed around how your company works, so it runs more efficiently, stays integrated, and scales with ease.",
       ctaPrimary: "Free Consultation",
       ctaSecondary: "See Solutions",
     },
@@ -446,27 +476,74 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     footer: {
       tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
       services: "Services",
-      products: "Products",
       company: "Company",
       legal: "Legal",
       rights: "All rights reserved.",
+      privacy: "Privacy Policy",
+      terms: "Terms & Conditions",
     },
     themeToggle: {
       light: "Light mode",
       dark: "Dark mode",
     },
+    breadcrumbHome: "Home",
+    skipLink: "Skip to main content",
+    notFound: {
+      eyebrow: "Error 404",
+      title: "Page not found",
+      description: "The page you're looking for may have moved or is no longer available.",
+      home: "Back to Home",
+      contact: "Contact Us",
+    },
+    langSuggest: {
+      message: "This page is also available in English.",
+      action: "View in English",
+      dismiss: "Close",
+    },
     langSwitch: {
       label: "Language",
-    },
-    whyAgsora: {
-      eyebrow: "Why AG·SORA",
-      title: "Technology that grows with your business",
-      description:
-        "We don't sell templates — we build systems designed for your company's specific needs and growth direction.",
     },
     howWeWork: {
       eyebrow: "How We Work",
       title: "A clear process, from idea to a running system",
+    },
+    home: {
+      assurances: [
+        "Free consultation",
+        "Published pricing",
+        "Written scope of work",
+        "Documentation & training",
+      ],
+      visualLabel:
+        "Example AG·SORA dashboard bringing POS, inventory, and HRIS data together on one screen.",
+      visual: {
+        title: "Business Overview",
+        modules: "Modules",
+        dashboard: "Dashboard",
+        reports: "Reports",
+        syncTitle: "Real-time sync",
+        syncNote: "6 modules connected",
+        scope: "All outlets · last 30 days",
+        ranges: ["7D", "30D", "90D"],
+        revenue: "Revenue",
+        transactions: "Transactions",
+        lowStock: "Low stock",
+        attendance: "Attendance",
+        items: "items",
+        warehouses: "warehouses",
+        staff: "staff",
+        dailyRevenue: "Daily revenue",
+        allOutlets: "All outlets",
+      },
+      servicesTitle: "Custom *software & app* development for your business",
+      servicesDescription:
+        "Custom software, ERP, POS, HRIS, CRM, websites, and mobile apps — designed around how your company works, with published pricing.",
+      blogTitle: "Guides & insights on *business systems*",
+      blogCta: "See all articles",
+      faqTitle: "Frequently *asked* questions",
+      ctaTitle: "Ready to build a system that *grows with* your business?",
+      ctaWhatsapp: "Chat on WhatsApp",
+      ctaEmail: "or email us at",
     },
     servicesGrid: {
       eyebrow: "Custom Development",
@@ -475,27 +552,6 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "From simple websites to enterprise systems — the AG·SORA team designs solutions that fit how you work.",
       seeAll: "See All Services",
       startingFrom: "Starting from",
-    },
-    productCard: {
-      features: "Features",
-      benefits: "Main Benefits",
-      tryDemo: "Try Demo",
-      seePricing: "See Pricing",
-    },
-    productSwitcher: {
-      eyebrow: "Product Ecosystem",
-      title: "AG·SORA SaaS products, ready to use",
-      description:
-        "Not just development services — AG·SORA also builds software products that are continuously developed and fully supported.",
-      seeAll: "See All Products",
-    },
-    saasPricing: {
-      popular: "Most Popular",
-      tryNow: "Try Now",
-      complexTitle: "Need something more complex?",
-      complexDescription:
-        "For multi-branch operations, custom integrations, or specific SLA needs — let's design the right architecture together.",
-      contactSales: "Contact Sales",
     },
     pricingCategories: {
       websiteDigital: "Website & Digital",
@@ -526,7 +582,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       positioningEyebrow: "Positioning",
       positioningTitle: "A modern technology company for businesses ready to grow",
       positioningDescription:
-        "AG·SORA stands between two roles: a custom software development partner, and a provider of ready-to-use SaaS products. This combination lets us understand business needs deeply while delivering mature, proven solutions.",
+        "AG·SORA is a custom software development partner: we map your business process first, then build a system that follows it — instead of forcing your business to fit a template.",
       brandPersonality: "Brand Personality",
       whatWeBelieveEyebrow: "What We Believe",
       whatWeBelieveTitle: "The principles guiding every system we build",
@@ -571,7 +627,6 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "HRIS",
         "CRM",
         "AI Automation / API Integration",
-        "AG·SORA SaaS Product",
         "Other",
       ],
       budget: "Budget range",
@@ -595,27 +650,12 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       heroDescription:
         "AG·SORA helps businesses build software, systems, and digital platforms that fit your operational processes and long-term growth goals.",
     },
-    productsPage: {
-      heroTitle: "AG·SORA software products for lighter operations",
-      heroDescription:
-        "Every product is designed to be easy to use from day one, with plans that adapt as your business grows.",
-    },
-    portfolioPage: {
-      heroTitle: "Examples of our work and team capability",
-      heroDescription:
-        "Implementations built by our internal team to demonstrate build quality — not client case studies with business metrics. Client case studies with measured results will be published once data and approval are available.",
-      showcaseEyebrow: "Capability Showcase",
-      showcaseTitle: "Implementations we've built",
-    },
     pricingPage: {
       heroTitle: "Accessible technology for growing businesses",
       heroDescription:
         "Simple needs start small. Complex systems scale with your business. All prices below are starting prices.",
       customDevEyebrow: "Custom Development",
       customDevTitle: "Starting price for every service",
-      saasEyebrow: "SaaS Products",
-      saasTitle: "AG·SORA product subscription plans",
-      saasDescription: "From small team needs to multi-outlet operations.",
       disclaimer:
         "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third-party costs are not included unless stated otherwise.",
     },
@@ -625,13 +665,13 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Practical things we've learned designing and implementing systems — written for business owners and operations teams, not just developers.",
       pageTitle: "All articles",
       pageLabel: "Page",
-      editorPickEyebrow: "Editor's Picks",
-      editorPickTitle: "Start here",
-      editorPickDescription:
-        "The most useful articles to read first if you're considering a new system.",
       latestEyebrow: "Latest",
       latestTitle: "Latest articles",
       readingTime: "min read",
+      filterLabel: "Filter blog by category",
+      filterAll: "All",
+      filterResultsEyebrow: "Category",
+      filterResultsDescription: "{count} articles in this category, newest first.",
     },
     pagination: {
       previous: "Previous",
@@ -642,26 +682,27 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       allArticles: "All articles",
       recommendedEyebrow: "Recommended for you",
       recommendedTitle: "Reading related to this topic",
+      recommendedFromHistoryTitle: "Picked based on what you've been reading",
     },
   },
   zh: {
     nav: {
       services: "服务",
-      products: "产品",
       industries: "行业",
       pricing: "价格",
-      portfolio: "作品集",
       blog: "博客",
       about: "关于我们",
       contact: "联系我们",
       cta: "免费咨询",
+      openMenu: "打开菜单",
+      closeMenu: "关闭菜单",
+      whatsapp: "WhatsApp 咨询",
     },
     hero: {
-      kicker: "构建更智能的系统，无限成长。",
       titleLead: "印尼软件公司，打造",
       titleHighlight: "一体化商业系统。",
       description:
-        "PT Agsora Teknologi Indonesia 为企业构建定制软件、ERP、POS、HRIS 和 CRM 系统，并提供开箱即用的 SaaS 产品，帮助您的企业更高效、更集成、更具扩展性地运营。",
+        "PT Agsora Teknologi Indonesia 为企业构建定制软件、网站、应用、ERP、POS、HRIS 和 CRM 系统——贴合贵公司的业务流程设计，帮助您的企业更高效、更集成、更具扩展性地运营。",
       ctaPrimary: "免费咨询",
       ctaSecondary: "查看解决方案",
     },
@@ -684,27 +725,70 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     footer: {
       tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
       services: "服务",
-      products: "产品",
       company: "公司",
       legal: "法律",
       rights: "版权所有。",
+      privacy: "隐私政策",
+      terms: "条款与条件",
     },
     themeToggle: {
       light: "浅色模式",
       dark: "深色模式",
     },
+    breadcrumbHome: "首页",
+    skipLink: "跳转到主要内容",
+    notFound: {
+      eyebrow: "错误 404",
+      title: "页面未找到",
+      description: "您访问的页面可能已被移动或不再可用。",
+      home: "返回首页",
+      contact: "联系我们",
+    },
+    langSuggest: {
+      message: "本页面也提供中文版本。",
+      action: "查看中文版",
+      dismiss: "关闭",
+    },
     langSwitch: {
       label: "语言",
-    },
-    whyAgsora: {
-      eyebrow: "为什么选择 AG·SORA",
-      title: "与您的业务共同成长的技术",
-      description:
-        "我们不销售模板 — 我们构建的系统专为您公司的具体需求与成长方向而设计。",
     },
     howWeWork: {
       eyebrow: "我们的工作方式",
       title: "从想法到系统上线，流程清晰透明",
+    },
+    home: {
+      assurances: ["免费咨询", "价格公开透明", "书面工作范围", "文档与培训"],
+      visualLabel: "AG·SORA 仪表盘示例：在同一界面整合 POS、库存与 HRIS 数据。",
+      visual: {
+        title: "业务概览",
+        modules: "模块",
+        dashboard: "仪表盘",
+        reports: "报表",
+        syncTitle: "实时同步",
+        syncNote: "已连接 6 个模块",
+        scope: "全部门店 · 近 30 天",
+        ranges: ["7天", "30天", "90天"],
+        revenue: "营业额",
+        transactions: "交易笔数",
+        lowStock: "库存预警",
+        attendance: "出勤率",
+        items: "件",
+        warehouses: "个仓库",
+        staff: "名员工",
+        dailyRevenue: "每日营业额",
+        allOutlets: "全部门店",
+      },
+      // \u200B marks word boundaries — these headings (.zh-phrases) only
+      // break there or at punctuation, so a word like 业务 never splits.
+      servicesTitle: "为您的企业\u200B定制\u200B*软件与应用*",
+      servicesDescription:
+        "定制软件、ERP、POS、HRIS、CRM、网站与移动应用 —— 贴合贵公司的业务流程设计，价格公开透明。",
+      blogTitle: "*商业系统*\u200B指南与洞见",
+      blogCta: "查看全部文章",
+      faqTitle: "常见*问题*解答",
+      ctaTitle: "准备好构建\u200B与您业务\u200B*共同成长*的\u200B系统了吗？",
+      ctaWhatsapp: "通过 WhatsApp 咨询",
+      ctaEmail: "或发送邮件至",
     },
     servicesGrid: {
       eyebrow: "定制开发",
@@ -713,27 +797,6 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "从简单网站到企业级系统 — AG·SORA 团队设计的方案贴合您的工作方式。",
       seeAll: "查看全部服务",
       startingFrom: "起价",
-    },
-    productCard: {
-      features: "功能特性",
-      benefits: "主要优势",
-      tryDemo: "试用演示",
-      seePricing: "查看价格",
-    },
-    productSwitcher: {
-      eyebrow: "产品生态",
-      title: "开箱即用的 AG·SORA SaaS 产品",
-      description:
-        "不仅仅是开发服务 — AG·SORA 还提供持续迭代、全程支持的软件产品。",
-      seeAll: "查看全部产品",
-    },
-    saasPricing: {
-      popular: "最受欢迎",
-      tryNow: "立即试用",
-      complexTitle: "需要更复杂的方案？",
-      complexDescription:
-        "针对多分店运营、特殊对接或特定 SLA 需求 — 让我们一起设计合适的架构。",
-      contactSales: "联系销售",
     },
     pricingCategories: {
       websiteDigital: "网站与数字化",
@@ -764,7 +827,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       positioningEyebrow: "定位",
       positioningTitle: "服务于成长型企业的现代科技公司",
       positioningDescription:
-        "AG·SORA 兼具两种角色：定制软件开发合作伙伴，以及开箱即用 SaaS 产品的提供者。这种组合让我们既能深入理解业务需求，又能交付成熟、经过验证的解决方案。",
+        "AG·SORA 是定制软件开发合作伙伴：我们先梳理您的业务流程，再构建贴合流程的系统，而不是让您的业务去迁就模板。",
       brandPersonality: "品牌个性",
       whatWeBelieveEyebrow: "我们的理念",
       whatWeBelieveTitle: "指导我们构建每个系统的原则",
@@ -809,7 +872,6 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "HRIS",
         "CRM",
         "AI 自动化 / API 对接",
-        "AG·SORA SaaS 产品",
         "其他",
       ],
       budget: "预算范围",
@@ -833,27 +895,12 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       heroDescription:
         "AG·SORA 帮助企业构建贴合运营流程与长期增长目标的软件、系统与数字平台。",
     },
-    productsPage: {
-      heroTitle: "让运营更轻松的 AG·SORA 软件产品",
-      heroDescription:
-        "每款产品从第一天起就易于上手，套餐方案可随业务增长灵活调整。",
-    },
-    portfolioPage: {
-      heroTitle: "我们的作品与团队能力展示",
-      heroDescription:
-        "由内部团队构建的实现案例，用于展示开发质量——并非带有业务指标的客户案例研究。带实际测量结果的客户案例研究将在数据与授权就绪后发布。",
-      showcaseEyebrow: "能力展示",
-      showcaseTitle: "我们构建过的实现案例",
-    },
     pricingPage: {
       heroTitle: "面向成长型企业的普惠科技",
       heroDescription:
         "简单需求可以从小做起，复杂系统则随业务同步扩展。以下均为起始价格。",
       customDevEyebrow: "定制开发",
       customDevTitle: "各项服务起始价格",
-      saasEyebrow: "SaaS 产品",
-      saasTitle: "AG·SORA 产品订阅方案",
-      saasDescription: "从小型团队需求到多门店运营，均可覆盖。",
       disclaimer:
         "以上为起始价格，实际费用将根据功能、用户数量、对接需求、流程复杂度、工期及支持需求而有所不同。除非另有说明，第三方费用不包含在内。",
     },
@@ -863,12 +910,13 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "我们在设计与实施系统过程中总结的实用经验 — 面向企业主与运营团队撰写，而不仅仅是开发者。",
       pageTitle: "全部文章",
       pageLabel: "第",
-      editorPickEyebrow: "编辑精选",
-      editorPickTitle: "从这里开始",
-      editorPickDescription: "如果您正在考虑新系统，这些是最值得优先阅读的文章。",
       latestEyebrow: "最新",
       latestTitle: "最新文章",
       readingTime: "分钟阅读",
+      filterLabel: "按分类筛选博客",
+      filterAll: "全部",
+      filterResultsEyebrow: "分类",
+      filterResultsDescription: "该分类下共 {count} 篇文章，按最新排序。",
     },
     pagination: {
       previous: "上一页",
@@ -879,6 +927,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       allArticles: "所有文章",
       recommendedEyebrow: "为您推荐",
       recommendedTitle: "与此主题相关的阅读",
+      recommendedFromHistoryTitle: "根据您之前的阅读为您精选",
     },
   },
 };

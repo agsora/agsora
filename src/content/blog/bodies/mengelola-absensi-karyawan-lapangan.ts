@@ -192,7 +192,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "AG·SORA HR tersedia sebagai platform HR siap pakai untuk mengelola absensi, cuti, dan payroll. Untuk tim lapangan dengan alur kunjungan yang spesifik, aplikasi absensi dan laporan kunjungan juga bisa dibangun mengikuti cara kerja tim Anda.",
+    text: "Untuk kebutuhan absensi, cuti, dan payroll yang umum, platform HR siap pakai sering kali sudah memadai. Untuk tim lapangan dengan alur kunjungan yang spesifik, aplikasi absensi dan laporan kunjungan juga bisa dibangun mengikuti cara kerja tim Anda.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -202,8 +202,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih merekap absensi dari riwayat chat?",
-    text: "Lihat bagaimana AG·SORA HR membantu mengelola kehadiran dan payroll tim Anda dalam satu tempat.",
-    href: "/products#hr",
-    label: "Lihat AG·SORA HR",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    href: "/services/hris",
+    label: "Lihat layanan HRIS",
   },
 ];

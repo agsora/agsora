@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/i18n/link";
 import { ArrowRight } from "lucide-react";
 import type { Block } from "@/config/blog";
 import { RelatedServices } from "@/components/sections/related-services";

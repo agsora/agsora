@@ -149,8 +149,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Promo Anda sering bocor tanpa jejak yang jelas?",
-    text: "AG·SORA POS mendukung aturan promo otomatis dan laporan diskon yang terpisah dari penjualan normal.",
-    href: "/products#pos",
-    label: "Lihat AG·SORA POS",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    href: "/services/pos",
+    label: "Lihat layanan POS",
   },
 ];

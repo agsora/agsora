@@ -153,8 +153,8 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Penilaian kinerja tim Anda masih berdasarkan ingatan akhir tahun?",
-    text: "AG·SORA HR membantu mencatat pencapaian karyawan sepanjang periode untuk penilaian yang lebih objektif.",
-    href: "/products#hr",
-    label: "Lihat AG·SORA HR",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    href: "/services/hris",
+    label: "Lihat layanan HRIS",
   },
 ];
