@@ -149,15 +149,15 @@ export const pageMeta = {
   terms: {
     id: {
       title: "Terms & Conditions",
-      description: `Syarat dan ketentuan penggunaan layanan dan produk ${brand}.`,
+      description: `Syarat dan ketentuan penggunaan website dan layanan pengembangan software ${brand}.`,
     },
     en: {
       title: "Terms & Conditions",
-      description: `Terms and conditions for using ${brand}'s services and products.`,
+      description: `Terms and conditions for using ${brand}'s website and software development services.`,
     },
     zh: {
       title: "条款与条件",
-      description: `使用 ${brand} 服务与产品的条款与条件。`,
+      description: `使用 ${brand} 网站及软件开发服务的条款与条件。`,
     },
   },
 } satisfies Record<string, Record<Locale, Meta>>;
