@@ -6,8 +6,9 @@ import type { BlogStat } from "@/lib/blog-analytics";
  * Reads the `blog_view_stats` view with the secret key; exposes only those
  * two numbers per slug, never the underlying rows.
  *
- * Cached at the CDN for a minute so a busy archive doesn't hit the database
- * on every page view.
+ * Never cached: a reader who opens a post and comes straight back expects
+ * to see their view counted. The query is one small aggregate, so running it
+ * per archive visit is cheap.
  */
 
 export async function GET() {
@@ -30,7 +31,5 @@ export async function GET() {
     rows.map((r) => [r.slug, { views: Number(r.total_opens), lastViewedAt: r.last_opened_at }])
   );
 
-  return Response.json(stats, {
-    headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300" },
-  });
+  return Response.json(stats, { headers: { "Cache-Control": "no-store" } });
 }
