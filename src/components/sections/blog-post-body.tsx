@@ -19,6 +19,7 @@ import {
   type BlogPost,
 } from "@/config/blog";
 import { getLastReadAt, getReadingHistory, recordPostView } from "@/lib/reading-history";
+import { trackBlogView } from "@/lib/blog-analytics";
 import { useLocale } from "@/i18n/locale-context";
 
 export function BlogPostBody({
@@ -46,6 +47,7 @@ export function BlogPostBody({
       setFromHistory(true);
     }
     recordPostView(post.slug);
+    trackBlogView(post.slug, locale);
   }, [post.slug, locale]);
 
   return (
