@@ -178,6 +178,10 @@ export type Dictionary = {
     filterAll: string;
     filterResultsEyebrow: string;
     filterResultsDescription: string;
+    /** "{count}" is replaced with the number of opens. */
+    views: string;
+    noViews: string;
+    lastViewed: string;
   };
   pagination: {
     label: string;
@@ -449,6 +453,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       filterAll: "Semua",
       filterResultsEyebrow: "Kategori",
       filterResultsDescription: "{count} artikel dalam kategori ini, urut dari yang terbaru.",
+      views: "{count} kali dilihat",
+      noViews: "Belum pernah dilihat",
+      lastViewed: "Terakhir",
     },
     pagination: {
       label: "Navigasi halaman blog",
@@ -718,6 +725,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       filterAll: "All",
       filterResultsEyebrow: "Category",
       filterResultsDescription: "{count} articles in this category, newest first.",
+      views: "{count} views",
+      noViews: "No views yet",
+      lastViewed: "Last viewed",
     },
     pagination: {
       label: "Blog pagination",
@@ -974,6 +984,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       filterAll: "全部",
       filterResultsEyebrow: "分类",
       filterResultsDescription: "该分类下共 {count} 篇文章，按最新排序。",
+      views: "{count} 次浏览",
+      noViews: "暂无浏览",
+      lastViewed: "最近浏览",
     },
     pagination: {
       label: "博客分页",

@@ -8,6 +8,7 @@ import { Section, SectionHeading } from "@/components/ui/section";
 import { Pagination } from "@/components/ui/pagination";
 import { ContactCta } from "@/components/sections/contact-cta";
 import { PostCard } from "@/components/sections/post-card";
+import { useBlogStats, type BlogStat } from "@/lib/blog-analytics";
 import {
   blogPageHref,
   getCategoryLabel,
@@ -28,11 +29,19 @@ import { cn } from "@/lib/utils";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
-function PostGrid({ posts, preloadFirst }: { posts: BlogPost[]; preloadFirst: number }) {
+function PostGrid({
+  posts,
+  preloadFirst,
+  stats,
+}: {
+  posts: BlogPost[];
+  preloadFirst: number;
+  stats: Record<string, BlogStat> | null;
+}) {
   return (
     <div className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
       {posts.map((post, i) => (
-        <PostCard key={post.slug} post={post} priority={i < preloadFirst} />
+        <PostCard key={post.slug} post={post} priority={i < preloadFirst} stats={stats} />
       ))}
     </div>
   );
@@ -135,6 +144,7 @@ export function BlogIndex({ page }: { page: number }) {
   const posts = getPostsForPage(page, locale);
   const isFirst = page === 1;
 
+  const stats = useBlogStats();
   const [activeCategory, setActiveCategory] = useState<BlogCategory | "all">("all");
   const filteredPosts =
     activeCategory === "all" ? null : getPostsByCategory(activeCategory, locale);
@@ -189,7 +199,7 @@ export function BlogIndex({ page }: { page: number }) {
                 <SectionHeading eyebrow={t.blogPage.latestEyebrow} title={t.blogPage.latestTitle} />
               ) : null}
               <div className={isFirst ? "mt-10" : undefined}>
-                <PostGrid posts={posts} preloadFirst={3} />
+                <PostGrid posts={posts} preloadFirst={3} stats={stats} />
               </div>
               <div className="mt-12">
                 <Pagination current={page} total={totalPages} href={blogPageHref} />
@@ -209,7 +219,7 @@ export function BlogIndex({ page }: { page: number }) {
               )}
             />
             <div className="mt-10">
-              <PostGrid posts={filteredPosts!} preloadFirst={3} />
+              <PostGrid posts={filteredPosts!} preloadFirst={3} stats={stats} />
             </div>
           </Container>
         </Section>

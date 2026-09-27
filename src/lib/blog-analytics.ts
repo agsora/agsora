@@ -5,6 +5,8 @@
  * No names, emails, or IP addresses are stored.
  */
 
+import { useEffect, useState } from "react";
+
 const VISITOR_KEY = "agsora:visitor-id";
 
 function getVisitorId(): string | null {
@@ -36,4 +38,28 @@ export function trackBlogView(slug: string, locale: string) {
       keepalive: true,
     }).catch(() => {});
   }
+}
+
+/** Opens across all languages, and the most recent one (ISO timestamp). */
+export type BlogStat = { views: number; lastViewedAt: string };
+
+/**
+ * Per-slug view counts from /api/blog-stats, fetched once after mount so the
+ * archive pages themselves stay static. null until loaded, or if it fails.
+ */
+export function useBlogStats() {
+  const [stats, setStats] = useState<Record<string, BlogStat> | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/api/blog-stats")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!cancelled && data) setStats(data);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  return stats;
 }
