@@ -55,30 +55,22 @@ export type Dictionary = {
   /** Shown in the suggested language, to visitors whose browser prefers it. */
   langSuggest: { message: string; action: string; dismiss: string };
   howWeWork: { eyebrow: string; title: string };
-  /** Homepage-only copy. Wrap a phrase in *asterisks* to set it as the serif accent. */
+  /** Homepage-only copy. */
   home: {
     /** Things a prospect can hold AG·SORA to — keep in sync with `commitments` and /pricing. */
     assurances: string[];
     visualLabel: string;
-    /** Labels inside the hero's sample dashboard. Figures are formatted in hero-visual.tsx. */
+    /** Labels inside the hero's integration diagram. */
     visual: {
       title: string;
-      modules: string;
-      dashboard: string;
-      reports: string;
-      syncTitle: string;
-      syncNote: string;
-      scope: string;
-      ranges: string[];
-      revenue: string;
-      transactions: string;
-      lowStock: string;
-      attendance: string;
-      items: string;
-      warehouses: string;
-      staff: string;
-      dailyRevenue: string;
-      allOutlets: string;
+      internal: string;
+      external: string;
+      coreSub: string;
+      /** ERP, POS, HRIS, CRM, Inventory, Dashboard — in that order. */
+      modules: string[];
+      /** Payments, marketplaces, WhatsApp, accounting, logistics, SSO — in that order. */
+      services: string[];
+      benefits: { title: string; text: string }[];
     };
     servicesTitle: string;
     servicesDescription: string;
@@ -265,33 +257,27 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Dokumentasi & pelatihan",
       ],
       visualLabel:
-        "Contoh dashboard AG·SORA yang menyatukan data POS, inventori, dan HRIS dalam satu layar.",
+        "Diagram integrasi: ERP, POS, HRIS, CRM, inventori, dan dashboard terhubung melalui AG·SORA Core ke payment gateway, marketplace, WhatsApp API, software akuntansi, ekspedisi, dan single sign-on.",
       visual: {
-        title: "Ringkasan Bisnis",
-        modules: "Modul",
-        dashboard: "Dashboard",
-        reports: "Laporan",
-        syncTitle: "Sinkron real-time",
-        syncNote: "6 modul terhubung",
-        scope: "Semua outlet · 30 hari terakhir",
-        ranges: ["7H", "30H", "90H"],
-        revenue: "Pendapatan",
-        transactions: "Transaksi",
-        lowStock: "Stok menipis",
-        attendance: "Kehadiran",
-        items: "item",
-        warehouses: "gudang",
-        staff: "staf",
-        dailyRevenue: "Pendapatan harian",
-        allOutlets: "Semua outlet",
+        title: "Peta integrasi",
+        internal: "Sistem internal",
+        external: "Layanan pihak ketiga",
+        coreSub: "API & data layer",
+        modules: ["ERP", "POS", "HRIS", "CRM", "Inventori", "Dashboard"],
+        services: ["Payment & QRIS", "Marketplace", "WhatsApp API", "Akuntansi", "Ekspedisi", "Single sign-on"],
+        benefits: [
+          { title: "Satu sumber data", text: "Tanpa input ganda antar divisi." },
+          { title: "API terbuka", text: "Terhubung ke sistem yang sudah Anda pakai." },
+          { title: "Real-time", text: "Perubahan langsung terlihat lintas modul." },
+        ],
       },
-      servicesTitle: "Jasa pembuatan *software & aplikasi* untuk bisnis Anda",
+      servicesTitle: "Jasa pembuatan software & aplikasi untuk bisnis Anda",
       servicesDescription:
         "Custom software, ERP, POS, HRIS, CRM, website, dan aplikasi mobile — dirancang mengikuti proses kerja perusahaan Anda, dengan harga yang dipublikasikan.",
-      blogTitle: "Panduan & wawasan *sistem bisnis*",
+      blogTitle: "Panduan & wawasan sistem bisnis",
       blogCta: "Lihat semua artikel",
-      faqTitle: "Pertanyaan yang *sering diajukan*",
-      ctaTitle: "Siap membangun sistem yang *tumbuh bersama* bisnis Anda?",
+      faqTitle: "Pertanyaan yang sering diajukan",
+      ctaTitle: "Siap membangun sistem yang tumbuh bersama bisnis Anda?",
       ctaWhatsapp: "Chat via WhatsApp",
       ctaEmail: "atau kirim email ke",
     },
@@ -515,33 +501,27 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Documentation & training",
       ],
       visualLabel:
-        "Example AG·SORA dashboard bringing POS, inventory, and HRIS data together on one screen.",
+        "Integration diagram: ERP, POS, HRIS, CRM, inventory, and dashboards connect through AG·SORA Core to payment gateways, marketplaces, the WhatsApp API, accounting software, logistics, and single sign-on.",
       visual: {
-        title: "Business Overview",
-        modules: "Modules",
-        dashboard: "Dashboard",
-        reports: "Reports",
-        syncTitle: "Real-time sync",
-        syncNote: "6 modules connected",
-        scope: "All outlets · last 30 days",
-        ranges: ["7D", "30D", "90D"],
-        revenue: "Revenue",
-        transactions: "Transactions",
-        lowStock: "Low stock",
-        attendance: "Attendance",
-        items: "items",
-        warehouses: "warehouses",
-        staff: "staff",
-        dailyRevenue: "Daily revenue",
-        allOutlets: "All outlets",
+        title: "Integration map",
+        internal: "Your systems",
+        external: "Third-party services",
+        coreSub: "API & data layer",
+        modules: ["ERP", "POS", "HRIS", "CRM", "Inventory", "Dashboard"],
+        services: ["Payments & QRIS", "Marketplaces", "WhatsApp API", "Accounting", "Logistics", "Single sign-on"],
+        benefits: [
+          { title: "One source of data", text: "No double entry between teams." },
+          { title: "Open APIs", text: "Connects to the tools you already use." },
+          { title: "Real-time", text: "Changes show up across modules instantly." },
+        ],
       },
-      servicesTitle: "Custom *software & app* development for your business",
+      servicesTitle: "Custom software & app development for your business",
       servicesDescription:
         "Custom software, ERP, POS, HRIS, CRM, websites, and mobile apps — designed around how your company works, with published pricing.",
-      blogTitle: "Guides & insights on *business systems*",
+      blogTitle: "Guides & insights on business systems",
       blogCta: "See all articles",
-      faqTitle: "Frequently *asked* questions",
-      ctaTitle: "Ready to build a system that *grows with* your business?",
+      faqTitle: "Frequently asked questions",
+      ctaTitle: "Ready to build a system that grows with your business?",
       ctaWhatsapp: "Chat on WhatsApp",
       ctaEmail: "or email us at",
     },
@@ -758,35 +738,30 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     },
     home: {
       assurances: ["免费咨询", "价格公开透明", "书面工作范围", "文档与培训"],
-      visualLabel: "AG·SORA 仪表盘示例：在同一界面整合 POS、库存与 HRIS 数据。",
+      visualLabel:
+        "集成架构图：ERP、POS、HRIS、CRM、库存与仪表盘通过 AG·SORA Core，与支付网关、电商平台、WhatsApp API、会计软件、物流及单点登录服务相连。",
       visual: {
-        title: "业务概览",
-        modules: "模块",
-        dashboard: "仪表盘",
-        reports: "报表",
-        syncTitle: "实时同步",
-        syncNote: "已连接 6 个模块",
-        scope: "全部门店 · 近 30 天",
-        ranges: ["7天", "30天", "90天"],
-        revenue: "营业额",
-        transactions: "交易笔数",
-        lowStock: "库存预警",
-        attendance: "出勤率",
-        items: "件",
-        warehouses: "个仓库",
-        staff: "名员工",
-        dailyRevenue: "每日营业额",
-        allOutlets: "全部门店",
+        title: "集成架构",
+        internal: "内部系统",
+        external: "第三方服务",
+        coreSub: "API 与数据层",
+        modules: ["ERP", "POS", "HRIS", "CRM", "库存", "仪表盘"],
+        services: ["支付与 QRIS", "电商平台", "WhatsApp API", "会计软件", "物流", "单点登录"],
+        benefits: [
+          { title: "统一数据源", text: "部门之间无需重复录入。" },
+          { title: "开放 API", text: "对接您已在使用的系统。" },
+          { title: "实时同步", text: "变更即时同步到各个模块。" },
+        ],
       },
       // \u200B marks word boundaries — these headings (.zh-phrases) only
       // break there or at punctuation, so a word like 业务 never splits.
-      servicesTitle: "为您的企业\u200B定制\u200B*软件与应用*",
+      servicesTitle: "为您的企业\u200B定制\u200B软件与应用",
       servicesDescription:
         "定制软件、ERP、POS、HRIS、CRM、网站与移动应用 —— 贴合贵公司的业务流程设计，价格公开透明。",
-      blogTitle: "*商业系统*\u200B指南与洞见",
+      blogTitle: "商业系统\u200B指南与洞见",
       blogCta: "查看全部文章",
-      faqTitle: "常见*问题*解答",
-      ctaTitle: "准备好构建\u200B与您业务\u200B*共同成长*的\u200B系统了吗？",
+      faqTitle: "常见问题解答",
+      ctaTitle: "准备好构建\u200B与您业务\u200B共同成长的\u200B系统了吗？",
       ctaWhatsapp: "通过 WhatsApp 咨询",
       ctaEmail: "或发送邮件至",
     },

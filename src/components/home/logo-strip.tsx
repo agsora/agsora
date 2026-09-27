@@ -18,7 +18,7 @@ export function LogoStrip() {
   return (
     <section className="py-10 md:py-14">
       <Container className="flex max-w-6xl flex-col gap-6 md:flex-row md:items-center md:gap-10">
-        <p className="shrink-0 text-[12px] font-medium uppercase tracking-[0.2em] text-ink-subtle md:w-36">
+        <p className="shrink-0 font-mono text-[12px] uppercase tracking-[0.08em] text-ink-subtle md:w-36">
           {t.clientLogos.label}
         </p>
         <div className="mask-fade-x group relative min-w-0 flex-1 overflow-hidden">
@@ -28,7 +28,7 @@ export function LogoStrip() {
               <div
                 key={`${client.name}-${i}`}
                 aria-hidden={i >= clients.length}
-                className="mr-3 flex h-[72px] w-32 shrink-0 items-center justify-center rounded-2xl bg-white px-3 opacity-90 ring-1 ring-black/5 transition-opacity duration-300 hover:opacity-100 [&:hover_img]:grayscale-0"
+                className="mr-3 flex h-[72px] w-32 shrink-0 items-center justify-center rounded-md bg-white px-3 opacity-90 ring-1 ring-black/5 transition-opacity duration-300 hover:opacity-100 [&:hover_img]:grayscale-0"
               >
                 <Image
                   src={client.logo}

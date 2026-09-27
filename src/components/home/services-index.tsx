@@ -36,7 +36,7 @@ export function ServicesIndex() {
               href={service.href}
               className="focus-ring group relative grid grid-cols-[1fr_auto] items-center gap-x-6 gap-y-2 border-b border-line py-6 transition-colors md:grid-cols-[3rem_minmax(0,15rem)_1fr_auto_1.5rem] md:gap-x-8 md:py-7"
             >
-              <span className="hidden text-[13px] tabular-nums text-ink-subtle md:block">
+              <span className="hidden font-mono text-[12px] text-ink-subtle md:block">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <div className="flex items-center gap-3">

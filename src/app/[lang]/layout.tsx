@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { Instrument_Sans, Instrument_Serif } from "next/font/google";
+import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -21,18 +21,18 @@ import {
 import { siteConfig } from "@/config/site";
 import "../globals.css";
 
-const sans = Instrument_Sans({
+// One engineering-leaning family: Plex Sans for text, Plex Mono for
+// technical labels (section labels, protocol names, figures).
+const sans = IBM_Plex_Sans({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
 });
 
-// Display accent only — italic phrases in headlines and step numerals.
-const serif = Instrument_Serif({
+const mono = IBM_Plex_Mono({
   subsets: ["latin"],
-  weight: "400",
-  style: "italic",
-  variable: "--font-display",
+  weight: ["400", "500"],
+  variable: "--font-code",
   display: "swap",
 });
 
@@ -145,7 +145,7 @@ export default async function RootLayout({ children, params }: Props) {
     // before hydration, which React would otherwise report as a mismatch.
     <html
       lang={hreflangs[lang]}
-      className={`${sans.variable} ${serif.variable} h-full antialiased`}
+      className={`${sans.variable} ${mono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col">

@@ -32,7 +32,7 @@ export function ServiceDetailBody({
 
   return (
     <>
-      <div className="glow-top relative overflow-hidden border-b border-line pb-16 pt-14 md:pb-20 md:pt-16">
+      <div className="relative overflow-hidden border-b border-line pb-16 pt-14 md:pb-20 md:pt-16">
         <Container className="max-w-6xl">
           <Breadcrumbs items={crumbs} />
 

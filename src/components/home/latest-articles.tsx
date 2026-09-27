@@ -45,7 +45,7 @@ export function LatestArticles({ posts }: { posts: HomeArticle[] }) {
             href={`/blog/${post.slug}`}
             className="focus-ring group flex flex-col border-b border-line py-7 md:border-b-0 md:py-9 md:pr-8 md:[&+&]:border-l md:[&+&]:pl-8"
           >
-            <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-ink-subtle">
+            <p className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-subtle">
               {post.category}
             </p>
             <h3 className="mt-3 text-pretty text-[18px] font-medium leading-snug tracking-tight text-ink transition-colors group-hover:text-accent">
@@ -53,7 +53,7 @@ export function LatestArticles({ posts }: { posts: HomeArticle[] }) {
                 ? post.title
                 : (post.titleTranslations?.[locale] ?? post.title)}
             </h3>
-            <p className="mt-auto pt-6 text-[12px] text-ink-subtle">
+            <p className="mt-auto pt-6 font-mono text-[12px] text-ink-subtle">
               <time dateTime={post.publishedAt}>{post.date}</time>
               <span className="mx-2">·</span>
               {post.readingMinutes} {t.blogPage.readingTime}

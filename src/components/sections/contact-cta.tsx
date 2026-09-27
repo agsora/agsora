@@ -11,7 +11,7 @@ export function ContactCta() {
   return (
     <Container className="max-w-6xl">
       <Reveal>
-        <div className="glow-top relative overflow-hidden rounded-lg border border-line bg-surface-1 px-6 py-16 text-center md:py-20">
+        <div className="relative overflow-hidden rounded-lg border border-line bg-surface-1 px-6 py-16 text-center md:py-20">
           <div className="relative">
             <h2 className="headline mx-auto max-w-2xl text-[30px] font-semibold text-ink sm:text-[38px]">
               {t.contactCta.title}

@@ -1,18 +1,6 @@
 import { cn } from "@/lib/utils";
 
-/** Renders `*phrase*` segments of a dictionary string as the serif accent. */
-export function Accent({ text }: { text: string }) {
-  return text.split("*").map((part, i) =>
-    i % 2 === 1 ? (
-      <span key={i} className="accent-serif">
-        {part}
-      </span>
-    ) : (
-      part
-    )
-  );
-}
-
+/** Small technical label above a section title, set in Plex Mono. */
 export function HomeEyebrow({
   children,
   className,
@@ -21,13 +9,7 @@ export function HomeEyebrow({
   className?: string;
 }) {
   return (
-    <p
-      className={cn(
-        "flex items-center gap-2.5 text-[12px] font-medium uppercase tracking-[0.2em] text-ink-subtle",
-        className
-      )}
-    >
-      <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+    <p className={cn("font-mono text-[12px] uppercase tracking-[0.08em] text-ink-subtle", className)}>
       {children}
     </p>
   );
@@ -54,14 +36,12 @@ export function HomeHeading({
         className
       )}
     >
-      <HomeEyebrow className={cn(align === "center" && "justify-center")}>
-        {eyebrow}
-      </HomeEyebrow>
-      <h2 className="zh-phrases mt-5 text-balance text-[32px] font-medium leading-[1.06] tracking-[-0.035em] text-ink sm:text-[40px] md:text-[48px]">
-        <Accent text={title} />
+      <HomeEyebrow>{eyebrow}</HomeEyebrow>
+      <h2 className="zh-phrases mt-4 text-balance text-[30px] font-semibold leading-[1.1] tracking-[-0.02em] text-ink sm:text-[36px] md:text-[42px]">
+        {title}
       </h2>
       {description ? (
-        <p className="mt-5 text-pretty text-[15px] leading-relaxed text-ink-muted md:text-[16px]">
+        <p className="mt-4 text-pretty text-[15px] leading-relaxed text-ink-muted md:text-[16px]">
           {description}
         </p>
       ) : null}

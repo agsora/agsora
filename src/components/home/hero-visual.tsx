@@ -2,294 +2,247 @@
 
 import {
   Boxes,
-  FileBarChart,
+  Calculator,
+  CreditCard,
+  KeyRound,
   LayoutDashboard,
+  MessageCircle,
+  Network,
   ShoppingCart,
+  Store,
+  Truck,
   UserCircle2,
   Users,
+  type LucideIcon,
 } from "lucide-react";
 import { RibbonLogo } from "@/components/ribbon-logo";
-import { useLocale, type Locale } from "@/i18n/locale-context";
+import { useLocale } from "@/i18n/locale-context";
 import { cn } from "@/lib/utils";
 
 /*
- * Illustrative product frame. The point it makes is the homepage headline:
- * one screen fed by several modules (each KPI is tagged with the module it
- * comes from). Figures are sample data, not claims.
+ * Integration map: the business systems AG·SORA builds on the left, the
+ * third-party services it connects them to on the right (the integrations
+ * listed on /services), all routed through one core. Drawn like an
+ * architecture diagram — orthogonal connectors on a shared bus — rather than
+ * glowing curves.
+ *
+ * Desktop: HTML nodes positioned over an SVG wiring layer that shares its
+ * 1100×520 coordinate space. Below lg the same content stacks vertically,
+ * since a scaled-down diagram would shrink the labels past readability.
  */
 
-// Hand-rolled rather than Intl: Node and browser ICU builds can disagree on
-// locale output, and any difference here breaks hydration.
-function fmt(n: number, digits: number, locale: Locale) {
-  const [int, frac] = n.toFixed(digits).split(".");
-  const [group, dec] = locale === "id" ? [".", ","] : [",", "."];
-  return int.replace(/\B(?=(\d{3})+(?!\d))/g, group) + (frac ? dec + frac : "");
+const W = 1100;
+const H = 520;
+const CY = 262;
+const ROWS = [72, 148, 224, 300, 376, 452];
+const NODE_W = 200;
+const LEFT_PORT = 240; // right edge of the left nodes
+const LEFT_BUS = 330;
+const CORE_LEFT = 420;
+const CORE_RIGHT = 680;
+const RIGHT_BUS = 770;
+const RIGHT_PORT = 860; // left edge of the right nodes
+const R = 10; // corner radius where a connector turns
+
+const moduleIcons: LucideIcon[] = [Network, ShoppingCart, Users, UserCircle2, Boxes, LayoutDashboard];
+const serviceIcons: LucideIcon[] = [CreditCard, Store, MessageCircle, Calculator, Truck, KeyRound];
+
+/** Node → bus → core, turning with rounded corners. */
+function inbound(y: number) {
+  const d = y < CY ? 1 : -1;
+  return `M ${LEFT_PORT} ${y} H ${LEFT_BUS - R} Q ${LEFT_BUS} ${y} ${LEFT_BUS} ${y + d * R} V ${CY - d * R} Q ${LEFT_BUS} ${CY} ${LEFT_BUS + R} ${CY} H ${CORE_LEFT}`;
 }
 
-/** Rupiah amount given in millions, in each locale's usual shorthand. */
-function rupiah(millions: number, locale: Locale) {
-  if (locale === "id") return `Rp${fmt(millions, 1, locale)}jt`;
-  if (locale === "en") return `Rp${fmt(millions, 1, locale)}M`;
-  // Chinese counts in 万 (10k) and 亿 (100M).
-  return millions >= 100
-    ? `Rp${fmt(millions / 100, 2, locale)}亿`
-    : `Rp${fmt(millions * 100, 0, locale)}万`;
+/** Core → bus → node. */
+function outbound(y: number) {
+  const d = y < CY ? -1 : 1;
+  return `M ${CORE_RIGHT} ${CY} H ${RIGHT_BUS - R} Q ${RIGHT_BUS} ${CY} ${RIGHT_BUS} ${CY + d * R} V ${y - d * R} Q ${RIGHT_BUS} ${y} ${RIGHT_BUS + R} ${y} H ${RIGHT_PORT}`;
 }
 
-const pct = (n: number, locale: Locale) => `+${fmt(n, 1, locale)}%`;
+const pct = (v: number, of: number) => `${(v / of) * 100}%`;
 
-// Irregular rises and dips — strictly alternating values read as a sine wave.
-const series = [30, 33, 38, 36, 42, 47, 51, 49, 55, 62, 60, 66, 73, 78, 76, 85, 93];
-
-const W = 600;
-const H = 180;
-const min = Math.min(...series);
-const max = Math.max(...series);
-const points = series.map((v, i) => [
-  (i / (series.length - 1)) * W,
-  H - 12 - ((v - min) / (max - min)) * (H - 36),
-]);
-
-function smooth(pts: number[][]) {
-  let d = `M ${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
-  for (let i = 1; i < pts.length; i++) {
-    const [x0, y0] = pts[i - 1];
-    const [x1, y1] = pts[i];
-    const cx = ((x0 + x1) / 2).toFixed(1);
-    d += ` C ${cx} ${y0.toFixed(1)}, ${cx} ${y1.toFixed(1)}, ${x1.toFixed(1)} ${y1.toFixed(1)}`;
-  }
-  return d;
-}
-
-const line = smooth(points);
-const area = `${line} L ${W} ${H} L 0 ${H} Z`;
-const last = points[points.length - 1];
-
-function SourceTag({ children }: { children: React.ReactNode }) {
+function Node({
+  icon: Icon,
+  label,
+  external,
+  className,
+  style,
+}: {
+  icon: LucideIcon;
+  label: string;
+  external?: boolean;
+  className?: string;
+  style?: React.CSSProperties;
+}) {
   return (
-    <span className="rounded-full border border-line px-1.5 py-px text-[9px] font-medium uppercase tracking-[0.08em] text-ink-subtle">
+    <div
+      style={style}
+      className={cn(
+        "flex items-center gap-2.5 rounded-md border px-3 py-2.5",
+        external
+          ? "border-dashed border-line-strong bg-surface-0"
+          : "border-line bg-surface-1",
+        className
+      )}
+    >
+      <Icon className={cn("h-4 w-4 shrink-0", external ? "text-ink-subtle" : "text-accent")} />
+      <span className="min-w-0 text-[13px] leading-tight text-ink lg:truncate">{label}</span>
+    </div>
+  );
+}
+
+function Core({ sub }: { sub: string }) {
+  return (
+    <div className="rounded-md border border-accent/60 bg-surface-1 p-4">
+      <div className="flex items-center gap-2.5">
+        <RibbonLogo className="h-6 w-auto" />
+        <div className="min-w-0">
+          <p className="text-[15px] font-semibold leading-tight text-ink">AG·SORA Core</p>
+          <p className="font-mono text-[11px] text-ink-subtle">{sub}</p>
+        </div>
+      </div>
+      <div className="mt-3 flex flex-wrap gap-1.5 border-t border-line pt-3">
+        {["REST", "Webhook", "Sync"].map((tag) => (
+          <span
+            key={tag}
+            className="rounded-sm border border-line px-1.5 py-0.5 font-mono text-[10px] text-ink-muted"
+          >
+            {tag}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function ColumnLabel({ children }: { children: React.ReactNode }) {
+  return (
+    <p className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-subtle">
       {children}
-    </span>
+    </p>
   );
 }
 
 export function HeroVisual() {
-  const { t, locale } = useLocale();
+  const { t } = useLocale();
   const v = t.home.visual;
 
-  // POS, Inventory, HRIS and CRM are standard system module names — not translated.
-  const modules = [
-    { label: v.dashboard, icon: LayoutDashboard },
-    { label: "POS", icon: ShoppingCart },
-    { label: "Inventory", icon: Boxes },
-    { label: "HRIS", icon: Users },
-    { label: "CRM", icon: UserCircle2 },
-    { label: v.reports, icon: FileBarChart },
-  ];
-
-  const kpis = [
-    { label: v.revenue, value: rupiah(482.4, locale), note: pct(18.2, locale), up: true, source: "POS" },
-    { label: v.transactions, value: fmt(12480, 0, locale), note: pct(9.6, locale), up: true, source: "POS" },
-    { label: v.lowStock, value: `14 ${v.items}`, note: `3 ${v.warehouses}`, source: "Inventory" },
-    { label: v.attendance, value: `${fmt(96.4, 1, locale)}%`, note: `182 ${v.staff}`, source: "HRIS" },
-  ];
-
   return (
-    <div className="relative" role="img" aria-label={t.home.visualLabel}>
-      <div
-        aria-hidden
-        className="absolute inset-x-[10%] -top-10 h-3/4 rounded-full bg-accent/15 blur-[110px]"
-      />
-
-      {/* Capped below lg so the sample screen doesn't eat a whole phone viewport. */}
-      <div className="relative max-h-[500px] overflow-hidden rounded-2xl border border-line-strong bg-surface-0 shadow-elev sm:max-h-[580px] lg:max-h-none">
-        <div
-          aria-hidden
-          className="absolute inset-x-0 top-0 z-10 h-px bg-linear-to-r from-transparent via-accent/60 to-transparent"
-        />
-
-        {/* Window chrome */}
-        <div className="flex items-center gap-3 border-b border-line bg-surface-1 px-4 py-2.5">
-          <div className="flex gap-1.5">
-            <span className="h-2.5 w-2.5 rounded-full bg-line-strong" />
-            <span className="h-2.5 w-2.5 rounded-full bg-line-strong" />
-            <span className="h-2.5 w-2.5 rounded-full bg-line-strong" />
-          </div>
-          <p className="mx-auto text-[11px] text-ink-subtle">AG·SORA — {v.title}</p>
-          <div className="w-[42px]" />
-        </div>
-
-        <div className="flex">
-          {/* Module sidebar */}
-          <aside className="hidden w-[188px] shrink-0 flex-col border-r border-line bg-surface-1/60 p-3 md:flex">
-            <div className="flex items-center gap-2 px-2 py-1">
-              <RibbonLogo className="h-4 w-auto" />
-              <span className="text-[12px] font-semibold tracking-tight text-ink">
-                AG·SORA
-              </span>
-            </div>
-            <p className="mt-5 px-2 text-[10px] uppercase tracking-[0.16em] text-ink-subtle">
-              {v.modules}
-            </p>
-            <ul className="mt-2 space-y-0.5">
-              {modules.map((m, i) => (
-                <li
-                  key={m.label}
-                  className={cn(
-                    "flex items-center gap-2.5 rounded-lg px-2 py-1.5 text-[12px]",
-                    i === 0 ? "bg-surface-3 text-ink" : "text-ink-muted"
-                  )}
-                >
-                  <m.icon className="h-3.5 w-3.5" />
-                  {m.label}
-                </li>
-              ))}
-            </ul>
-            <div className="mt-auto rounded-lg border border-line bg-surface-0 p-2.5">
-              <p className="flex items-center gap-1.5 text-[11px] text-ink">
-                <span className="h-1.5 w-1.5 rounded-full bg-positive" />
-                {v.syncTitle}
-              </p>
-              <p className="mt-1 text-[10px] text-ink-subtle">{v.syncNote}</p>
-            </div>
-          </aside>
-
-          {/* Main */}
-          <div className="min-w-0 flex-1 p-4 md:p-6">
-            <div className="flex flex-wrap items-end justify-between gap-3">
-              <div>
-                <p className="text-[11px] text-ink-subtle">{v.scope}</p>
-                <p className="mt-1 text-[16px] font-medium tracking-tight text-ink md:text-[18px]">
-                  {v.title}
-                </p>
-              </div>
-              <div className="flex rounded-lg border border-line bg-surface-1 p-0.5 text-[11px] text-ink-subtle">
-                {v.ranges.map((range, i) => (
-                  <span
-                    key={range}
-                    className={cn(
-                      "px-2 py-0.5",
-                      i === 1 && "rounded-md bg-surface-3 text-ink"
-                    )}
-                  >
-                    {range}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="mt-4 grid grid-cols-2 gap-2.5 md:mt-5 md:gap-3 lg:grid-cols-4">
-              {kpis.map((k) => (
-                <div
-                  key={k.label}
-                  className="rounded-xl border border-line bg-surface-1 p-3 md:p-3.5"
-                >
-                  {/* Stacked on phones: the tag would otherwise truncate the label. */}
-                  <div className="flex flex-col-reverse items-start gap-1.5 sm:flex-row sm:items-center sm:justify-between sm:gap-2">
-                    <p className="truncate text-[11px] text-ink-subtle">{k.label}</p>
-                    <SourceTag>{k.source}</SourceTag>
-                  </div>
-                  <p className="mt-2 text-[17px] font-medium tabular-nums tracking-tight text-ink md:text-[20px]">
-                    {k.value}
-                  </p>
-                  <p
-                    className={cn(
-                      "mt-0.5 text-[11px] tabular-nums",
-                      k.up ? "text-positive" : "text-ink-subtle"
-                    )}
-                  >
-                    {k.note}
-                  </p>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-2.5 rounded-xl border border-line bg-surface-1 p-4 md:mt-3 md:p-5">
-              <div className="flex items-start justify-between">
-                <div>
-                  <p className="text-[11px] text-ink-subtle">{v.dailyRevenue}</p>
-                  <p className="mt-1 text-[16px] font-medium tabular-nums tracking-tight text-ink">
-                    {rupiah(16.1, locale)}{" "}
-                    <span className="text-[11px] font-normal text-positive">
-                      {pct(6.8, locale)}
-                    </span>
-                  </p>
-                </div>
-                <span className="flex items-center gap-1.5 text-[10px] text-ink-subtle">
-                  <span className="h-0.5 w-3 rounded-full bg-accent" />
-                  {v.allOutlets}
-                </span>
-              </div>
-
-              <div className="relative mt-4 h-[130px] md:h-[170px]">
-                <svg
-                  viewBox={`0 0 ${W} ${H}`}
-                  preserveAspectRatio="none"
-                  className="absolute inset-0 h-full w-full"
-                  aria-hidden
-                >
-                  {[0, 1, 2, 3].map((i) => (
-                    <line
-                      key={i}
-                      x1="0"
-                      x2={W}
-                      y1={(H / 3) * i}
-                      y2={(H / 3) * i}
-                      className="stroke-line"
-                      strokeDasharray="2 5"
-                      vectorEffect="non-scaling-stroke"
-                    />
-                  ))}
-                </svg>
-                {/* Separate layer so the draw-in clip doesn't hide the grid. */}
-                <svg
-                  viewBox={`0 0 ${W} ${H}`}
-                  preserveAspectRatio="none"
-                  className="chart-draw absolute inset-0 h-full w-full"
-                  aria-hidden
-                >
-                  <defs>
-                    <linearGradient id="hero-area" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0" style={{ stopColor: "var(--accent)", stopOpacity: 0.28 }} />
-                      <stop offset="1" style={{ stopColor: "var(--accent)", stopOpacity: 0 }} />
-                    </linearGradient>
-                  </defs>
-                  <path d={area} fill="url(#hero-area)" />
-                  <path
-                    d={line}
-                    fill="none"
-                    className="stroke-accent"
-                    strokeWidth="1.75"
-                    strokeLinecap="round"
-                    vectorEffect="non-scaling-stroke"
-                  />
-                </svg>
-                <span
-                  aria-hidden
-                  className="chart-dot absolute flex h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2"
-                  style={{ left: `${(last[0] / W) * 100}%`, top: `${(last[1] / H) * 100}%` }}
-                >
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
-                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full border-2 border-surface-1 bg-accent" />
-                </span>
-              </div>
-              <div className="mt-2 flex justify-between text-[10px] tabular-nums text-ink-subtle">
-                <span>1</span>
-                <span>8</span>
-                <span>15</span>
-                <span>22</span>
-                <span>30</span>
-              </div>
-            </div>
-          </div>
+    <div
+      role="img"
+      aria-label={t.home.visualLabel}
+      className="overflow-hidden rounded-lg border border-line-strong bg-surface-0 shadow-elev"
+    >
+      {/* Title bar with the legend */}
+      <div className="flex items-center justify-between gap-4 border-b border-line bg-surface-1 px-4 py-2.5">
+        <p className="font-mono text-[11px] text-ink-muted">{v.title}</p>
+        <div className="hidden items-center gap-4 font-mono text-[11px] text-ink-subtle sm:flex">
+          <span className="flex items-center gap-1.5">
+            <span className="h-2.5 w-3.5 rounded-[2px] border border-line bg-surface-1" />
+            {v.internal}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="h-2.5 w-3.5 rounded-[2px] border border-dashed border-line-strong" />
+            {v.external}
+          </span>
         </div>
       </div>
 
-      {/* Let the frame dissolve into the page instead of ending on a hard edge. */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-x-0 -bottom-px h-24 bg-linear-to-t from-surface-0 to-transparent"
-      />
+      {/* Desktop: wired diagram */}
+      <div className="relative hidden aspect-[1100/520] bg-[radial-gradient(var(--line)_1px,transparent_1px)] bg-size-[22px_22px] lg:block">
+        <svg viewBox={`0 0 ${W} ${H}`} className="absolute inset-0 h-full w-full" aria-hidden>
+          {ROWS.map((y, i) => (
+            <g key={y}>
+              <path d={inbound(y)} fill="none" className="stroke-line-strong" strokeWidth="1" />
+              <path
+                d={inbound(y)}
+                pathLength={1000}
+                fill="none"
+                className="packet stroke-accent"
+                strokeWidth="2"
+                strokeLinecap="round"
+                style={{ animationDelay: `${i * 0.6}s` }}
+              />
+              <path d={outbound(y)} fill="none" className="stroke-line-strong" strokeWidth="1" />
+              <path
+                d={outbound(y)}
+                pathLength={1000}
+                fill="none"
+                className="packet stroke-accent"
+                strokeWidth="2"
+                strokeLinecap="round"
+                style={{ animationDelay: `${1.8 + i * 0.6}s` }}
+              />
+              {/* Ports where each connector leaves a node */}
+              <rect x={LEFT_PORT - 3} y={y - 3} width="6" height="6" className="fill-surface-0 stroke-line-strong" />
+              <rect x={RIGHT_PORT - 3} y={y - 3} width="6" height="6" className="fill-surface-0 stroke-line-strong" />
+            </g>
+          ))}
+        </svg>
+
+        <div className="absolute" style={{ left: pct(LEFT_PORT - NODE_W, W), top: pct(16, H) }}>
+          <ColumnLabel>{v.internal}</ColumnLabel>
+        </div>
+        <div className="absolute text-right" style={{ right: pct(W - RIGHT_PORT - NODE_W, W), top: pct(16, H) }}>
+          <ColumnLabel>{v.external}</ColumnLabel>
+        </div>
+
+        {ROWS.map((y, i) => (
+          <Node
+            key={`in-${y}`}
+            icon={moduleIcons[i]}
+            label={v.modules[i]}
+            className="absolute -translate-y-1/2"
+            style={{ left: pct(LEFT_PORT - NODE_W, W), top: pct(y, H), width: pct(NODE_W, W) }}
+          />
+        ))}
+        {ROWS.map((y, i) => (
+          <Node
+            key={`out-${y}`}
+            external
+            icon={serviceIcons[i]}
+            label={v.services[i]}
+            className="absolute -translate-y-1/2"
+            style={{ left: pct(RIGHT_PORT, W), top: pct(y, H), width: pct(NODE_W, W) }}
+          />
+        ))}
+
+        <div
+          className="absolute -translate-y-1/2"
+          style={{ left: pct(CORE_LEFT, W), top: pct(CY, H), width: pct(CORE_RIGHT - CORE_LEFT, W) }}
+        >
+          <Core sub={v.coreSub} />
+        </div>
+      </div>
+
+      {/* Phones and tablets: the same map, stacked */}
+      <div className="bg-[radial-gradient(var(--line)_1px,transparent_1px)] bg-size-[22px_22px] p-4 sm:p-6 lg:hidden">
+        <ColumnLabel>{v.internal}</ColumnLabel>
+        <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
+          {v.modules.map((label, i) => (
+            <Node key={label} icon={moduleIcons[i]} label={label} />
+          ))}
+        </div>
+        <div className="flow-down relative mx-auto h-8 w-px bg-line-strong" />
+        <Core sub={v.coreSub} />
+        <div className="flow-down relative mx-auto h-8 w-px bg-line-strong" />
+        <ColumnLabel>{v.external}</ColumnLabel>
+        <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
+          {v.services.map((label, i) => (
+            <Node key={label} external icon={serviceIcons[i]} label={label} />
+          ))}
+        </div>
+      </div>
+
+      {/* What the wiring buys you */}
+      <div className="grid border-t border-line bg-surface-1 sm:grid-cols-3 sm:divide-x sm:divide-line">
+        {v.benefits.map((b) => (
+          <div key={b.title} className="border-b border-line px-4 py-3.5 last:border-b-0 sm:border-b-0 sm:px-5">
+            <p className="text-[13px] font-medium text-ink">{b.title}</p>
+            <p className="mt-0.5 text-[12px] text-ink-muted">{b.text}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

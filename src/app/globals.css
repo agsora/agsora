@@ -26,7 +26,6 @@
   /* Elevation for framed product visuals */
   --elevation: 0 50px 120px -40px rgba(0, 0, 0, 0.75),
     0 20px 40px -20px rgba(0, 0, 0, 0.5);
-  --grain-opacity: 0.05;
 }
 
 /* Light theme — toggled via data-theme="light" on <html>. */
@@ -50,7 +49,6 @@
 
   --elevation: 0 50px 100px -40px rgba(18, 28, 60, 0.28),
     0 16px 32px -16px rgba(18, 28, 60, 0.12);
-  --grain-opacity: 0.035;
 }
 
 @theme inline {
@@ -67,7 +65,7 @@
   --color-accent-deep: var(--accent-deep);
   --color-positive: var(--positive);
   --font-sans: var(--font-body);
-  --font-serif: var(--font-display), Georgia, serif;
+  --font-mono: var(--font-code), ui-monospace, monospace;
   --shadow-elev: var(--elevation);
 }
 
@@ -131,22 +129,6 @@ body {
   line-height: 1.05;
 }
 
-/* A single, very subtle radial glow. Replaces the old mesh + grid stack. */
-.glow-top {
-  position: relative;
-}
-.glow-top::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: radial-gradient(
-    60% 50% at 50% 0%,
-    rgba(77, 124, 254, 0.10) 0%,
-    rgba(77, 124, 254, 0) 70%
-  );
-}
-
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -195,8 +177,8 @@ body {
   }
 }
 
-/* Layered so a rounded-* utility on the element (e.g. pill buttons) wins
-   over the default 6px focus radius. */
+/* Layered so a rounded-* utility on the element wins over the default 6px
+   focus radius. */
 @layer components {
   .focus-ring {
     outline: none;
@@ -210,40 +192,6 @@ body {
 
 /* Landing-page helpers — layered so utilities can still override them. */
 @layer components {
-  /* Serif italic accent inside a sans headline. Instrument Serif has no CJK
-     glyphs, and synthetic-italic Chinese reads badly — fall back to a muted
-     tone in the headline's own face instead. */
-  .accent-serif {
-    font-family: var(--font-display), Georgia, serif;
-    font-style: italic;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-  }
-  html[lang^="zh"] .accent-serif {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: inherit;
-    letter-spacing: inherit;
-    color: var(--ink-subtle);
-  }
-
-  /* Soft accent light behind the hero and final CTA. */
-  .aurora-top {
-    background:
-      radial-gradient(45% 60% at 72% 0%, color-mix(in oklab, var(--accent) 20%, transparent), transparent 70%),
-      radial-gradient(35% 45% at 12% 8%, color-mix(in oklab, var(--accent) 9%, transparent), transparent 70%);
-    mask-image: linear-gradient(to bottom, black 35%, transparent);
-  }
-  .aurora-bottom {
-    background: radial-gradient(60% 70% at 50% 100%, color-mix(in oklab, var(--accent) 18%, transparent), transparent 70%);
-  }
-
-  /* Film grain — keeps large flat surfaces from looking synthetic. */
-  .grain {
-    opacity: var(--grain-opacity);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  }
-
   .mask-fade-x {
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
   }
@@ -255,17 +203,33 @@ body {
   .rise {
     animation: rise 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
   }
-  .chart-draw {
-    animation: chart-draw 1.6s cubic-bezier(0.22, 1, 0.36, 1) 0.6s both;
+
+  /* Integration diagram: a short packet travelling along each connector.
+     Paths use pathLength="1000", so the dash maths is the same on every line. */
+  .packet {
+    stroke-dasharray: 36 964;
+    animation: packet 3.6s linear infinite;
   }
-  .chart-dot {
-    animation: chart-dot 0.4s ease-out 2s both;
+  /* Phone layout: a dot running down the vertical connectors. */
+  .flow-down::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    margin-left: -2.5px;
+    background: var(--accent);
+    animation: flowDown 1.8s ease-in-out infinite;
   }
+
   @media (prefers-reduced-motion: reduce) {
-    .rise,
-    .chart-draw,
-    .chart-dot {
+    .rise {
       animation: none;
+    }
+    .packet,
+    .flow-down::after {
+      display: none;
     }
   }
 }
@@ -276,18 +240,12 @@ body {
     transform: translateY(16px);
   }
 }
-@keyframes chart-draw {
+@keyframes packet {
   from {
-    clip-path: inset(0 100% 0 0);
+    stroke-dashoffset: 1000;
   }
   to {
-    clip-path: inset(0 0 0 0);
-  }
-}
-@keyframes chart-dot {
-  from {
-    opacity: 0;
-    scale: 0.4;
+    stroke-dashoffset: 0;
   }
 }
 

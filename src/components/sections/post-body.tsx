@@ -86,7 +86,7 @@ export function PostBody({
             return (
               <div
                 key={i}
-                className="glow-top relative mt-12 overflow-hidden rounded-lg border border-line-strong bg-surface-1 p-6 sm:p-7"
+                className="relative mt-12 overflow-hidden rounded-lg border border-line-strong bg-surface-1 p-6 sm:p-7"
               >
                 <p className="relative text-[17px] font-semibold leading-snug text-ink">
                   {block.title}

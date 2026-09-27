@@ -71,7 +71,7 @@ export function LanguageSuggestion() {
       role="region"
       aria-label={copy.message}
       lang={hreflangs[target]}
-      className="fixed bottom-5 left-5 z-40 flex max-w-[calc(100vw-6.5rem)] items-center gap-3 rounded-2xl border border-line-strong bg-surface-1/95 py-2.5 pl-4 pr-2 text-[13px] text-ink-muted shadow-elev backdrop-blur-xl sm:max-w-sm"
+      className="fixed bottom-5 left-5 z-40 flex max-w-[calc(100vw-6.5rem)] items-center gap-3 rounded-lg border border-line-strong bg-surface-1/95 py-2.5 pl-4 pr-2 text-[13px] text-ink-muted shadow-elev backdrop-blur-xl sm:max-w-sm"
     >
       <Globe className="h-4 w-4 shrink-0 text-accent" />
       <p className="min-w-0">
@@ -89,7 +89,7 @@ export function LanguageSuggestion() {
         type="button"
         onClick={dismiss}
         aria-label={copy.dismiss}
-        className="focus-ring flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-ink-subtle transition-colors hover:bg-surface-2 hover:text-ink"
+        className="focus-ring flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-ink-subtle transition-colors hover:bg-surface-2 hover:text-ink"
       >
         <X className="h-4 w-4" />
       </button>

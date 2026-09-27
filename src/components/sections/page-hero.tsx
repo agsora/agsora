@@ -32,7 +32,7 @@ export function PageHero({
   const crumbs = after ? [{ name: t.breadcrumbHome, href: "/" }, ...after] : null;
 
   return (
-    <div className="glow-top relative overflow-hidden border-b border-line pb-10 pt-10 md:pb-14 md:pt-12">
+    <div className="relative overflow-hidden border-b border-line pb-10 pt-10 md:pb-14 md:pt-12">
       {crumbs ? (
         <script
           type="application/ld+json"

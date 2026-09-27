@@ -45,7 +45,7 @@ export function BlogPostBody({
 
   return (
     <>
-      <div className="glow-top relative overflow-hidden border-b border-line pb-14 pt-14 md:pb-16 md:pt-16">
+      <div className="relative overflow-hidden border-b border-line pb-14 pt-14 md:pb-16 md:pt-16">
         <Container className="max-w-6xl">
           <Link
             href="/blog"

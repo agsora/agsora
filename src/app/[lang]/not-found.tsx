@@ -10,7 +10,7 @@ import { useLocale } from "@/i18n/locale-context";
 export default function NotFound() {
   const { t } = useLocale();
   return (
-    <div className="glow-top relative flex min-h-[70vh] items-center overflow-hidden">
+    <div className="relative flex min-h-[70vh] items-center overflow-hidden">
       <Container className="max-w-6xl">
         <div className="max-w-lg">
           <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
