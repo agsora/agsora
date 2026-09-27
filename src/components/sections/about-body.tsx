@@ -12,7 +12,7 @@ import { siteConfig } from "@/config/site";
 import { useLocale } from "@/i18n/locale-context";
 
 const aboutIntro: Record<string, string> = {
-  id: `${siteConfig.legalName} adalah perusahaan teknologi yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital — melalui layanan custom development yang mengikuti proses kerja masing-masing bisnis.`,
+  id: `${siteConfig.legalName} adalah perusahaan teknologi yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital — melalui pengembangan software custom yang mengikuti proses kerja masing-masing bisnis.`,
   en: `${siteConfig.legalName} is a technology company that helps businesses build, integrate, and develop digital systems — through custom development built around how each business works.`,
   zh: `${siteConfig.legalName} 是一家科技公司，通过贴合各企业业务流程的定制开发服务，帮助企业构建、集成并发展其数字系统。`,
 };
@@ -23,8 +23,8 @@ export function AboutBody() {
   return (
     <>
       <PageHero
-        breadcrumb={{ name: "About", href: "/about" }}
-        eyebrow="About AG·SORA"
+        breadcrumb={{ name: t.nav.about, href: "/about" }}
+        eyebrow={t.pageEyebrows.about}
         title={t.aboutPage.heroTitle}
         description={aboutIntro[locale]}
       />
@@ -45,16 +45,7 @@ export function AboutBody() {
                   {t.aboutPage.brandPersonality}
                 </p>
                 <div className="mt-5 flex flex-wrap gap-2">
-                  {[
-                    "Intelligent",
-                    "Trusted",
-                    "Adaptive",
-                    "Modern",
-                    "Scalable",
-                    "Enterprise-ready",
-                    "Human-centered",
-                    "Future-oriented",
-                  ].map((tag) => (
+                  {t.aboutPage.brandTraits.map((tag) => (
                     <span
                       key={tag}
                       className="rounded-md border border-line bg-surface-2 px-2.5 py-1.5 text-[12px] text-ink-muted"
@@ -77,13 +68,13 @@ export function AboutBody() {
           />
           <RevealGroup className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
             {valueProps.map((v, i) => (
-              <RevealItem key={v.title}>
+              <RevealItem key={v.title.en}>
                 <div className="border-t border-line pt-5">
                   <span className="text-[11px] tabular-nums text-ink-subtle">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <h3 className="mt-3 text-[14px] font-medium text-ink">
-                    {v.title}
+                    {v.title[locale]}
                   </h3>
                   <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
                     {v.description[locale]}

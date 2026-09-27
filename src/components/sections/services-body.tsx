@@ -13,8 +13,8 @@ export function ServicesBody() {
   return (
     <>
       <PageHero
-        breadcrumb={{ name: "Services", href: "/services" }}
-        eyebrow="Custom Development"
+        breadcrumb={{ name: t.nav.services, href: "/services" }}
+        eyebrow={t.pageEyebrows.services}
         title={t.servicesPage.heroTitle}
         description={t.servicesPage.heroDescription}
       />

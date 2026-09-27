@@ -14,8 +14,8 @@ export function ContactBody() {
   return (
     <>
       <PageHero
-        breadcrumb={{ name: "Contact", href: "/contact" }}
-        eyebrow="Contact"
+        breadcrumb={{ name: t.nav.contact, href: "/contact" }}
+        eyebrow={t.pageEyebrows.contact}
         title={t.contactPage.heroTitle}
         description={t.contactPage.heroDescription}
       />

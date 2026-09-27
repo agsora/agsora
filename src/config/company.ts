@@ -330,7 +330,7 @@ export const faqsTranslated: FaqTranslated[] = [
     id: {
       question: "Apakah source code menjadi milik kami?",
       answer:
-        "Untuk project custom development, skema kepemilikan source code mengikuti kesepakatan tertulis di kontrak masing-masing project.",
+        "Untuk proyek pengembangan custom, skema kepemilikan source code mengikuti kesepakatan tertulis di kontrak masing-masing proyek.",
     },
     en: {
       question: "Do we own the source code?",
@@ -364,7 +364,7 @@ export const faqsTranslated: FaqTranslated[] = [
     id: {
       question: "Bisakah sistem baru terhubung dengan software yang sudah kami pakai?",
       answer:
-        "Dalam banyak kasus bisa, selama sistem tersebut menyediakan API atau jalur ekspor data. Pada tahap Discover kami memeriksa dokumentasi teknis sistem Anda dan menyampaikan apakah integrasinya memungkinkan sebelum masuk ke proposal.",
+        "Dalam banyak kasus bisa, selama sistem tersebut menyediakan API atau jalur ekspor data. Pada tahap Pemetaan kami memeriksa dokumentasi teknis sistem Anda dan menyampaikan apakah integrasinya memungkinkan sebelum masuk ke proposal.",
     },
     en: {
       question: "Can the new system connect with software we already use?",
@@ -374,7 +374,7 @@ export const faqsTranslated: FaqTranslated[] = [
     zh: {
       question: "新系统能与我们现有的软件对接吗？",
       answer:
-        "在大多数情况下可以，只要该系统提供 API 或数据导出接口。在 Discover 阶段，我们会检查您系统的技术文档，并在提案前告知对接是否可行。",
+        "在大多数情况下可以，只要该系统提供 API 或数据导出接口。在需求探索阶段，我们会检查您系统的技术文档，并在提案前告知对接是否可行。",
     },
   },
   {

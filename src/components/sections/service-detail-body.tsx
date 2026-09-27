@@ -13,6 +13,7 @@ import { services } from "@/config/services";
 import type { ServiceDetail } from "@/config/service-details";
 import type { BlogPost } from "@/config/blog";
 import { useLocale } from "@/i18n/locale-context";
+import { formatRupiah } from "@/lib/utils";
 
 export function ServiceDetailBody({
   slug,
@@ -34,13 +35,13 @@ export function ServiceDetailBody({
     <>
       <div className="relative overflow-hidden border-b border-line pb-16 pt-14 md:pb-20 md:pt-16">
         <Container className="max-w-6xl">
-          <Breadcrumbs items={crumbs} />
+          <Breadcrumbs items={crumbs} label={t.breadcrumbLabel} />
 
           <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_300px] lg:items-end">
             <div>
               <div className="flex items-center gap-2.5 text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
                 <Icon className="h-3.5 w-3.5 text-accent" />
-                {service.title}
+                {service.title[locale]}
               </div>
               <h1 className="headline mt-5 max-w-3xl text-[32px] font-semibold text-ink sm:text-[40px] md:text-[46px]">
                 {detail.h1[locale]}
@@ -67,7 +68,7 @@ export function ServiceDetailBody({
                 {t.servicesGrid.startingFrom}
               </p>
               <p className="mt-3 text-[28px] font-semibold tabular-nums text-ink">
-                {service.startingFrom}
+                {formatRupiah(service.startingFrom, locale)}
               </p>
               <p className="mt-3 text-[12px] leading-relaxed text-ink-subtle">
                 {locale === "id"
@@ -157,7 +158,7 @@ export function ServiceDetailBody({
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1fr] lg:gap-16">
             <SectionHeading
               eyebrow={t.faqSection.eyebrow}
-              title={`${t.faqSection.title.replace(/\?$/, "")} — ${service.title}`}
+              title={`${t.faqSection.title.replace(/\?$/, "")} — ${service.title[locale]}`}
             />
             <div className="divide-y divide-line border-y border-line">
               {detail.faqs.map((faq, i) => (
@@ -237,9 +238,9 @@ export function ServiceDetailBody({
                 className="focus-ring group flex items-center justify-between gap-4 border-b border-r border-line px-6 py-5 transition-colors hover:bg-surface-2"
               >
                 <div>
-                  <p className="text-[14px] text-ink">{s.title}</p>
+                  <p className="text-[14px] text-ink">{s.title[locale]}</p>
                   <p className="mt-1 text-[12px] text-ink-subtle">
-                    {t.servicesGrid.startingFrom} {s.startingFrom}
+                    {t.servicesGrid.startingFrom} {formatRupiah(s.startingFrom, locale)}
                   </p>
                 </div>
                 <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-subtle transition-colors group-hover:text-accent" />

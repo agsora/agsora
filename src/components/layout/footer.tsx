@@ -2,7 +2,8 @@
 
 import Link from "@/i18n/link";
 import { InstagramIcon, FacebookIcon, TiktokIcon } from "@/components/social-icons";
-import { footerNav, siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site";
+import { featuredServices } from "@/config/services";
 import { RibbonLogo } from "@/components/ribbon-logo";
 import { useLocale } from "@/i18n/locale-context";
 
@@ -35,7 +36,7 @@ function FooterColumn({
 }
 
 export function Footer() {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   return (
     <footer className="border-t border-line bg-surface-0">
       <div className="mx-auto max-w-6xl container-px py-16">
@@ -48,7 +49,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 max-w-[15rem] text-[13px] leading-relaxed text-ink-muted">
-              {siteConfig.tagline}
+              {t.footer.tagline}
             </p>
             <div className="mt-6 flex items-center gap-2">
               <a
@@ -81,7 +82,7 @@ export function Footer() {
             </div>
           </div>
 
-          <FooterColumn title={t.footer.services} links={footerNav.services.slice(0, 6)} />
+          <FooterColumn title={t.footer.services} links={featuredServices.map((s) => ({ label: s.title[locale], href: s.href }))} />
           <FooterColumn
             title={t.footer.company}
             links={[

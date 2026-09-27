@@ -11,7 +11,7 @@ export function IndustriesGrid() {
   return (
     <Container className="max-w-6xl">
       <SectionHeading
-        eyebrow="Industries"
+        eyebrow={t.pageEyebrows.industries}
         title={t.industriesPage.gridTitle}
         description={t.industriesPage.gridDescription}
       />
@@ -22,11 +22,11 @@ export function IndustriesGrid() {
         {industries.map((industry) => {
           const Icon = industry.icon;
           return (
-            <RevealItem key={industry.name}>
+            <RevealItem key={industry.name.en}>
               <div className="group h-full border-b border-r border-line p-4 transition-colors hover:bg-surface-1 sm:p-6">
                 <Icon className="h-[18px] w-[18px] text-ink-subtle transition-colors group-hover:text-accent" />
                 <h3 className="mt-3 text-[13px] font-medium leading-snug text-ink sm:mt-5 sm:text-[14px]">
-                  {industry.name}
+                  {industry.name[locale]}
                 </h3>
                 <p className="mt-1.5 hidden text-[13px] leading-relaxed text-ink-muted sm:block">
                   {industry.description[locale]}

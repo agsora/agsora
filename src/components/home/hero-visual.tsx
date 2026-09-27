@@ -91,7 +91,7 @@ function Node({
   );
 }
 
-function Core({ sub }: { sub: string }) {
+function Core({ sub, tags }: { sub: string; tags: string[] }) {
   return (
     <div className="rounded-md border border-accent/60 bg-surface-1 p-4">
       <div className="flex items-center gap-2.5">
@@ -102,7 +102,7 @@ function Core({ sub }: { sub: string }) {
         </div>
       </div>
       <div className="mt-3 flex flex-wrap gap-1.5 border-t border-line pt-3">
-        {["REST", "Webhook", "Sync"].map((tag) => (
+        {tags.map((tag) => (
           <span
             key={tag}
             className="rounded-sm border border-line px-1.5 py-0.5 font-mono text-[10px] text-ink-muted"
@@ -211,7 +211,7 @@ export function HeroVisual() {
           className="absolute -translate-y-1/2"
           style={{ left: pct(CORE_LEFT, W), top: pct(CY, H), width: pct(CORE_RIGHT - CORE_LEFT, W) }}
         >
-          <Core sub={v.coreSub} />
+          <Core sub={v.coreSub} tags={v.tags} />
         </div>
       </div>
 
@@ -224,7 +224,7 @@ export function HeroVisual() {
           ))}
         </div>
         <div className="flow-down relative mx-auto h-8 w-px bg-line-strong" />
-        <Core sub={v.coreSub} />
+        <Core sub={v.coreSub} tags={v.tags} />
         <div className="flow-down relative mx-auto h-8 w-px bg-line-strong" />
         <ColumnLabel>{v.external}</ColumnLabel>
         <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">

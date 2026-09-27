@@ -134,7 +134,7 @@ export const pageMeta = {
   },
   privacy: {
     id: {
-      title: "Privacy Policy",
+      title: "Kebijakan Privasi",
       description: `Kebijakan privasi ${brand} mengenai pengumpulan, penggunaan, dan perlindungan data pengguna.`,
     },
     en: {
@@ -148,7 +148,7 @@ export const pageMeta = {
   },
   terms: {
     id: {
-      title: "Terms & Conditions",
+      title: "Syarat & Ketentuan",
       description: `Syarat dan ketentuan penggunaan website dan layanan pengembangan software ${brand}.`,
     },
     en: {

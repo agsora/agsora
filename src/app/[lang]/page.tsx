@@ -7,7 +7,7 @@ import { HomeFaq } from "@/components/home/home-faq";
 import { FinalCta } from "@/components/home/final-cta";
 import { Section } from "@/components/ui/section";
 import { featuredServices } from "@/config/services";
-import { formatPostDate, getSortedPosts } from "@/config/blog";
+import { formatPostDate, getCategoryLabel, getSortedPosts } from "@/config/blog";
 import { siteConfig } from "@/config/site";
 import { dictionaries } from "@/i18n/dictionaries";
 import { pageMeta } from "@/i18n/page-meta";
@@ -29,7 +29,7 @@ function latestPosts(locale: Locale): HomeArticle[] {
       slug: post.slug,
       title: post.title,
       titleTranslations: post.titleTranslations,
-      category: post.category,
+      category: getCategoryLabel(post.category, locale),
       publishedAt: post.publishedAt,
       date: formatPostDate(post.publishedAt, locale),
       readingMinutes: post.readingMinutes,
@@ -68,7 +68,7 @@ function homeSchema(locale: Locale) {
           position: i + 1,
           item: {
             "@type": "Service",
-            name: service.title,
+            name: service.title[locale],
             description: service.description[locale],
             url: absoluteUrl(service.href, locale),
             provider: organization,
@@ -77,7 +77,7 @@ function homeSchema(locale: Locale) {
               priceCurrency: "IDR",
               priceSpecification: {
                 "@type": "PriceSpecification",
-                minPrice: Number(service.startingFrom.replace(/\D/g, "")),
+                minPrice: service.startingFrom,
                 priceCurrency: "IDR",
               },
             },

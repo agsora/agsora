@@ -44,6 +44,8 @@ export type Dictionary = {
   langSwitch: { label: string };
   /** First crumb of every breadcrumb trail. */
   breadcrumbHome: string;
+  /** Screen-reader name of the breadcrumb nav. */
+  breadcrumbLabel: string;
   skipLink: string;
   notFound: {
     eyebrow: string;
@@ -55,6 +57,15 @@ export type Dictionary = {
   /** Shown in the suggested language, to visitors whose browser prefers it. */
   langSuggest: { message: string; action: string; dismiss: string };
   howWeWork: { eyebrow: string; title: string };
+  /** Small label above each top-level page's hero title. */
+  pageEyebrows: {
+    services: string;
+    industries: string;
+    pricing: string;
+    blog: string;
+    about: string;
+    contact: string;
+  };
   /** Homepage-only copy. */
   home: {
     /** Things a prospect can hold AG·SORA to — keep in sync with `commitments` and /pricing. */
@@ -71,6 +82,8 @@ export type Dictionary = {
       /** Payments, marketplaces, WhatsApp, accounting, logistics, SSO — in that order. */
       services: string[];
       benefits: { title: string; text: string }[];
+      /** Protocol chips on the AG·SORA Core card. */
+      tags: string[];
     };
     servicesTitle: string;
     servicesDescription: string;
@@ -103,6 +116,7 @@ export type Dictionary = {
     positioningTitle: string;
     positioningDescription: string;
     brandPersonality: string;
+    brandTraits: string[];
     whatWeBelieveEyebrow: string;
     whatWeBelieveTitle: string;
   };
@@ -148,6 +162,8 @@ export type Dictionary = {
     heroDescription: string;
     customDevEyebrow: string;
     customDevTitle: string;
+    /** Shown instead of a price for items quoted per project. */
+    customQuote: string;
     disclaimer: string;
   };
   blogPage: {
@@ -164,6 +180,7 @@ export type Dictionary = {
     filterResultsDescription: string;
   };
   pagination: {
+    label: string;
     previous: string;
     next: string;
     pageOf: string;
@@ -182,12 +199,12 @@ export type Dictionary = {
 export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
   id: {
     nav: {
-      services: "Services",
-      industries: "Industries",
-      pricing: "Pricing",
+      services: "Layanan",
+      industries: "Industri",
+      pricing: "Harga",
       blog: "Blog",
-      about: "About",
-      contact: "Contact",
+      about: "Tentang Kami",
+      contact: "Kontak",
       cta: "Konsultasi Gratis",
       openMenu: "Buka menu",
       closeMenu: "Tutup menu",
@@ -209,29 +226,30 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       description:
         "Diskusikan kebutuhan Anda dengan tim AG·SORA — tanpa biaya, tanpa komitmen.",
       ctaPrimary: "Konsultasi Gratis",
-      ctaSecondary: "Request Proposal",
+      ctaSecondary: "Minta Proposal",
     },
     faqSection: {
-      eyebrow: "FAQ",
+      eyebrow: "Tanya Jawab",
       title: "Pertanyaan yang sering diajukan",
       description:
         "Hal-hal yang biasanya ditanyakan sebelum memulai project. Kalau pertanyaan Anda belum terjawab di sini, silakan hubungi kami langsung.",
       seeAll: "Lihat semua pertanyaan",
     },
     footer: {
-      tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
-      services: "Services",
-      company: "Company",
+      tagline: "Pertumbuhan Adaptif. Operasional Cerdas. Kemajuan Nyata.",
+      services: "Layanan",
+      company: "Perusahaan",
       legal: "Legal",
-      rights: "All rights reserved.",
-      privacy: "Privacy Policy",
-      terms: "Terms & Conditions",
+      rights: "Hak cipta dilindungi.",
+      privacy: "Kebijakan Privasi",
+      terms: "Syarat & Ketentuan",
     },
     themeToggle: {
       light: "Mode terang",
       dark: "Mode gelap",
     },
     breadcrumbHome: "Beranda",
+    breadcrumbLabel: "Navigasi halaman",
     skipLink: "Langsung ke konten utama",
     notFound: {
       eyebrow: "Error 404",
@@ -249,8 +267,16 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       label: "Bahasa",
     },
     howWeWork: {
-      eyebrow: "How We Work",
+      eyebrow: "Cara Kerja Kami",
       title: "Proses kerja yang jelas, dari ide hingga sistem berjalan",
+    },
+    pageEyebrows: {
+      services: "Pengembangan Custom",
+      industries: "Industri",
+      pricing: "Harga Peluncuran",
+      blog: "Blog",
+      about: "Tentang AG·SORA",
+      contact: "Kontak",
     },
     home: {
       assurances: [
@@ -265,14 +291,15 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         title: "Peta integrasi",
         internal: "Sistem internal",
         external: "Layanan pihak ketiga",
-        coreSub: "API & data layer",
+        coreSub: "API & lapisan data",
         modules: ["ERP", "POS", "HRIS", "CRM", "Inventori", "Dashboard"],
-        services: ["Payment & QRIS", "Marketplace", "WhatsApp API", "Akuntansi", "Ekspedisi", "Single sign-on"],
+        services: ["Pembayaran & QRIS", "Marketplace", "WhatsApp API", "Akuntansi", "Ekspedisi", "Single sign-on"],
         benefits: [
           { title: "Satu sumber data", text: "Tanpa input ganda antar divisi." },
           { title: "API terbuka", text: "Terhubung ke sistem yang sudah Anda pakai." },
-          { title: "Real-time", text: "Perubahan langsung terlihat lintas modul." },
+          { title: "Waktu nyata", text: "Perubahan langsung terlihat lintas modul." },
         ],
+        tags: ["REST", "Webhook", "Sinkron"],
       },
       servicesTitle: "Jasa pembuatan software & aplikasi untuk bisnis Anda",
       servicesDescription:
@@ -285,7 +312,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       ctaEmail: "atau kirim email ke",
     },
     servicesGrid: {
-      eyebrow: "Custom Development",
+      eyebrow: "Pengembangan Custom",
       title: "Layanan yang membangun fondasi digital bisnis Anda",
       description:
         "Dari website sederhana hingga sistem enterprise — tim AG·SORA merancang solusi yang sesuai dengan proses kerja Anda.",
@@ -295,35 +322,45 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     pricingCategories: {
       websiteDigital: "Website & Digital",
       businessSystems: "Sistem Bisnis",
-      automationIntegration: "Automation & Integrasi",
-      supportEnterprise: "Support & Enterprise",
+      automationIntegration: "Otomasi & Integrasi",
+      supportEnterprise: "Dukungan & Korporasi",
     },
     capabilitiesSection: {
-      eyebrow: "Capabilities",
+      eyebrow: "Kapabilitas",
       title: "Apa yang bisa kami bangun dan hubungkan",
       description:
         "Ruang lingkup teknis yang kami tangani — dari bentuk aplikasinya, sistem yang perlu disambungkan, sampai cara sistem itu dijalankan.",
     },
     principlesSection: {
-      eyebrow: "How We Think",
+      eyebrow: "Cara Kami Berpikir",
       title: "Cara kami memutuskan saat membangun sistem",
       description:
         "Setiap project punya banyak persimpangan teknis. Ini prinsip yang kami pakai untuk memilih arah ketika tidak ada jawaban yang jelas benar.",
     },
     commitmentsSection: {
-      eyebrow: "Our Commitments",
+      eyebrow: "Komitmen Kami",
       title: "Yang kami pastikan di setiap kerja sama",
       description:
         "Kepercayaan dibangun dari hal-hal yang bisa dipegang, bukan dari klaim. Berikut yang berlaku pada setiap project AG·SORA.",
     },
     aboutPage: {
       heroTitle: "Perusahaan teknologi yang membangun fondasi digital bisnis Indonesia",
-      positioningEyebrow: "Positioning",
-      positioningTitle: "Modern technology company untuk bisnis yang ingin bertumbuh",
+      positioningEyebrow: "Posisi Kami",
+      positioningTitle: "Perusahaan teknologi modern untuk bisnis yang ingin bertumbuh",
       positioningDescription:
         "AG·SORA adalah mitra pengembangan software custom: kami memetakan proses bisnis Anda lebih dulu, lalu membangun sistem yang mengikutinya — bukan memaksa bisnis Anda menyesuaikan diri dengan template.",
-      brandPersonality: "Brand Personality",
-      whatWeBelieveEyebrow: "What We Believe",
+      brandPersonality: "Karakter Merek",
+      brandTraits: [
+        "Cerdas",
+        "Tepercaya",
+        "Adaptif",
+        "Modern",
+        "Skalabel",
+        "Siap skala korporasi",
+        "Berpusat pada manusia",
+        "Berorientasi masa depan",
+      ],
+      whatWeBelieveEyebrow: "Yang Kami Yakini",
       whatWeBelieveTitle: "Prinsip yang memandu setiap sistem yang kami bangun",
     },
     industriesPage: {
@@ -358,18 +395,18 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       needType: "Jenis kebutuhan",
       needTypePlaceholder: "Pilih jenis kebutuhan",
       needTypes: [
-        "Custom Software",
-        "Website Development",
-        "Mobile Application",
+        "Software Custom",
+        "Pembuatan Website",
+        "Aplikasi Mobile",
         "ERP",
         "POS",
         "HRIS",
         "CRM",
-        "AI Automation / API Integration",
+        "Otomasi AI / Integrasi API",
         "Lainnya",
       ],
-      budget: "Budget range",
-      budgetPlaceholder: "Pilih budget range",
+      budget: "Kisaran anggaran",
+      budgetPlaceholder: "Pilih kisaran anggaran",
       budgetRanges: [
         "< Rp5 juta",
         "Rp5 - 15 juta",
@@ -378,7 +415,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "> Rp75 juta",
         "Belum tahu / perlu diskusi",
       ],
-      description: "Deskripsi project",
+      description: "Deskripsi proyek",
       descriptionPlaceholder: "Ceritakan kebutuhan dan tantangan bisnis Anda...",
       submit: "Kirim via WhatsApp",
       thankYou:
@@ -390,11 +427,12 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "AG·SORA membantu bisnis membangun software, sistem, dan platform digital yang sesuai dengan proses operasional dan tujuan pertumbuhan jangka panjang.",
     },
     pricingPage: {
-      heroTitle: "Accessible technology for growing businesses",
+      heroTitle: "Teknologi terjangkau untuk bisnis yang bertumbuh",
       heroDescription:
-        "Simple needs start small. Complex systems scale with your business. Semua harga di bawah adalah harga mulai dari.",
-      customDevEyebrow: "Custom Development",
+        "Kebutuhan sederhana bisa dimulai dari yang kecil. Sistem yang kompleks tumbuh bersama bisnis Anda. Semua harga di bawah adalah harga mulai dari.",
+      customDevEyebrow: "Pengembangan Custom",
       customDevTitle: "Harga mulai dari untuk setiap layanan",
+      customQuote: "Penawaran khusus",
       disclaimer:
         "Harga mulai dari dan dapat berubah sesuai fitur, jumlah user, integrasi, kompleksitas workflow, timeline, serta kebutuhan support. Biaya pihak ketiga tidak termasuk kecuali dinyatakan lain.",
     },
@@ -413,6 +451,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       filterResultsDescription: "{count} artikel dalam kategori ini, urut dari yang terbaru.",
     },
     pagination: {
+      label: "Navigasi halaman blog",
       previous: "Sebelumnya",
       next: "Berikutnya",
       pageOf: "Halaman {current} dari {total}",
@@ -479,6 +518,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       dark: "Dark mode",
     },
     breadcrumbHome: "Home",
+    breadcrumbLabel: "Breadcrumb",
     skipLink: "Skip to main content",
     notFound: {
       eyebrow: "Error 404",
@@ -498,6 +538,14 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     howWeWork: {
       eyebrow: "How We Work",
       title: "A clear process, from idea to a running system",
+    },
+    pageEyebrows: {
+      services: "Custom Development",
+      industries: "Industries",
+      pricing: "Launch Pricing",
+      blog: "Blog",
+      about: "About AG·SORA",
+      contact: "Contact",
     },
     home: {
       assurances: [
@@ -520,6 +568,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
           { title: "Open APIs", text: "Connects to the tools you already use." },
           { title: "Real-time", text: "Changes show up across modules instantly." },
         ],
+        tags: ["REST", "Webhook", "Sync"],
       },
       servicesTitle: "Custom software & app development for your business",
       servicesDescription:
@@ -570,6 +619,16 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       positioningDescription:
         "AG·SORA is a custom software development partner: we map your business process first, then build a system that follows it — instead of forcing your business to fit a template.",
       brandPersonality: "Brand Personality",
+      brandTraits: [
+        "Intelligent",
+        "Trusted",
+        "Adaptive",
+        "Modern",
+        "Scalable",
+        "Enterprise-ready",
+        "Human-centered",
+        "Future-oriented",
+      ],
       whatWeBelieveEyebrow: "What We Believe",
       whatWeBelieveTitle: "The principles guiding every system we build",
     },
@@ -642,6 +701,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Simple needs start small. Complex systems scale with your business. All prices below are starting prices.",
       customDevEyebrow: "Custom Development",
       customDevTitle: "Starting price for every service",
+      customQuote: "Custom quote",
       disclaimer:
         "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third-party costs are not included unless stated otherwise.",
     },
@@ -660,6 +720,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       filterResultsDescription: "{count} articles in this category, newest first.",
     },
     pagination: {
+      label: "Blog pagination",
       previous: "Previous",
       next: "Next",
       pageOf: "Page {current} of {total}",
@@ -712,7 +773,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       seeAll: "查看所有问题",
     },
     footer: {
-      tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
+      tagline: "灵活增长 · 智慧运营 · 切实进步",
       services: "服务",
       company: "公司",
       legal: "法律",
@@ -725,6 +786,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       dark: "深色模式",
     },
     breadcrumbHome: "首页",
+    breadcrumbLabel: "页面导航",
     skipLink: "跳转到主要内容",
     notFound: {
       eyebrow: "错误 404",
@@ -745,6 +807,14 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "我们的工作方式",
       title: "从想法到系统上线，流程清晰透明",
     },
+    pageEyebrows: {
+      services: "定制开发",
+      industries: "行业",
+      pricing: "上线优惠价",
+      blog: "博客",
+      about: "关于 AG·SORA",
+      contact: "联系我们",
+    },
     home: {
       assurances: ["免费咨询", "价格公开透明", "书面工作范围", "文档与培训"],
       visualLabel:
@@ -761,6 +831,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
           { title: "开放 API", text: "对接您已在使用的系统。" },
           { title: "实时同步", text: "变更即时同步到各个模块。" },
         ],
+        tags: ["REST", "Webhook", "同步"],
       },
       // \u200B marks word boundaries — these headings (.zh-phrases) only
       // break there or at punctuation, so a word like 业务 never splits.
@@ -813,6 +884,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       positioningDescription:
         "AG·SORA 是定制软件开发合作伙伴：我们先梳理您的业务流程，再构建贴合流程的系统，而不是让您的业务去迁就模板。",
       brandPersonality: "品牌个性",
+      brandTraits: ["智能", "可信赖", "自适应", "现代", "可扩展", "企业级", "以人为本", "面向未来"],
       whatWeBelieveEyebrow: "我们的理念",
       whatWeBelieveTitle: "指导我们构建每个系统的原则",
     },
@@ -885,6 +957,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "简单需求可以从小做起，复杂系统则随业务同步扩展。以下均为起始价格。",
       customDevEyebrow: "定制开发",
       customDevTitle: "各项服务起始价格",
+      customQuote: "单独报价",
       disclaimer:
         "以上为起始价格，实际费用将根据功能、用户数量、对接需求、流程复杂度、工期及支持需求而有所不同。除非另有说明，第三方费用不包含在内。",
     },
@@ -903,6 +976,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       filterResultsDescription: "该分类下共 {count} 篇文章，按最新排序。",
     },
     pagination: {
+      label: "博客分页",
       previous: "上一页",
       next: "下一页",
       pageOf: "第 {current} 页，共 {total} 页",

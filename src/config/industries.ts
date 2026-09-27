@@ -12,14 +12,14 @@ import {
 } from "lucide-react";
 
 export type Industry = {
-  name: string;
+  name: { id: string; en: string; zh: string };
   icon: LucideIcon;
   description: { id: string; en: string; zh: string };
 };
 
 export const industries: Industry[] = [
   {
-    name: "Retail",
+    name: { id: "Ritel", en: "Retail", zh: "零售" },
     icon: Store,
     description: {
       id: "POS, inventori, dan manajemen multi-outlet dalam satu sistem.",
@@ -28,7 +28,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "F&B",
+    name: { id: "Kuliner (F&B)", en: "F&B", zh: "餐饮" },
     icon: UtensilsCrossed,
     description: {
       id: "Kasir, dapur, dan stok bahan baku yang saling terhubung.",
@@ -37,7 +37,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "Distribution",
+    name: { id: "Distribusi", en: "Distribution", zh: "分销" },
     icon: Truck,
     description: {
       id: "Kontrol stok gudang, pengiriman, dan sales lapangan.",
@@ -46,7 +46,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "School / Education",
+    name: { id: "Sekolah / Pendidikan", en: "School / Education", zh: "学校 / 教育" },
     icon: GraduationCap,
     description: {
       id: "Sistem akademik, keuangan, dan administrasi sekolah.",
@@ -55,7 +55,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "Clinic / Healthcare",
+    name: { id: "Klinik / Kesehatan", en: "Clinic / Healthcare", zh: "诊所 / 医疗" },
     icon: Stethoscope,
     description: {
       id: "Rekam medis, antrian, dan manajemen klinik yang rapi.",
@@ -64,7 +64,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "Manufacturing",
+    name: { id: "Manufaktur", en: "Manufacturing", zh: "制造业" },
     icon: Factory,
     description: {
       id: "Produksi, bahan baku, dan kontrol kualitas terintegrasi.",
@@ -73,7 +73,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "Professional Services",
+    name: { id: "Jasa Profesional", en: "Professional Services", zh: "专业服务" },
     icon: Briefcase,
     description: {
       id: "Manajemen klien, proyek, dan penagihan yang efisien.",
@@ -82,7 +82,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "SME",
+    name: { id: "UMKM", en: "SME", zh: "中小企业" },
     icon: Building2,
     description: {
       id: "Sistem yang tumbuh bersama bisnis kecil dan menengah.",
@@ -91,7 +91,7 @@ export const industries: Industry[] = [
     },
   },
   {
-    name: "Enterprise",
+    name: { id: "Korporasi", en: "Enterprise", zh: "大型企业" },
     icon: Landmark,
     description: {
       id: "Arsitektur skala besar untuk kebutuhan multi-divisi.",

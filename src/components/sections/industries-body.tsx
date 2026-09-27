@@ -11,8 +11,8 @@ export function IndustriesBody() {
   return (
     <>
       <PageHero
-        breadcrumb={{ name: "Industries", href: "/industries" }}
-        eyebrow="Industries"
+        breadcrumb={{ name: t.nav.industries, href: "/industries" }}
+        eyebrow={t.pageEyebrows.industries}
         title={t.industriesPage.heroTitle}
         description={t.industriesPage.heroDescription}
       />

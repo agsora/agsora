@@ -456,9 +456,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "ERP 能与我们现有的财务软件对接吗？",
         },
         answer: {
-          id: "Dalam banyak kasus bisa, selama software tersebut menyediakan API atau jalur ekspor data. Kami memeriksa kemungkinannya pada tahap Discover.",
+          id: "Dalam banyak kasus bisa, selama software tersebut menyediakan API atau jalur ekspor data. Kami memeriksa kemungkinannya pada tahap Pemetaan.",
           en: "In most cases, yes — as long as that software offers an API or a data export path. We check the feasibility during the Discover phase.",
-          zh: "在大多数情况下可以，只要该软件提供 API 或数据导出功能。我们会在 Discover 阶段核实可行性。",
+          zh: "在大多数情况下可以，只要该软件提供 API 或数据导出功能。我们会在需求探索阶段核实可行性。",
         },
       },
     ],

@@ -1,13 +1,13 @@
 export type ProcessStep = {
   step: string;
-  title: string;
+  title: { id: string; en: string; zh: string };
   description: { id: string; en: string; zh: string };
 };
 
 export const processSteps: ProcessStep[] = [
   {
     step: "01",
-    title: "Discover",
+    title: { id: "Pemetaan", en: "Discover", zh: "需求探索" },
     description: {
       id: "Memahami proses bisnis, tantangan, dan tujuan jangka panjang Anda.",
       en: "Understanding your business process, challenges, and long-term goals.",
@@ -16,7 +16,7 @@ export const processSteps: ProcessStep[] = [
   },
   {
     step: "02",
-    title: "Design",
+    title: { id: "Perancangan", en: "Design", zh: "方案设计" },
     description: {
       id: "Merancang arsitektur sistem dan pengalaman pengguna yang tepat sasaran.",
       en: "Designing the system architecture and a user experience that hits the mark.",
@@ -25,7 +25,7 @@ export const processSteps: ProcessStep[] = [
   },
   {
     step: "03",
-    title: "Build",
+    title: { id: "Pengembangan", en: "Build", zh: "开发构建" },
     description: {
       id: "Mengembangkan sistem secara iteratif dengan standar kualitas enterprise.",
       en: "Building the system iteratively to an enterprise-grade quality standard.",
@@ -34,7 +34,7 @@ export const processSteps: ProcessStep[] = [
   },
   {
     step: "04",
-    title: "Launch",
+    title: { id: "Peluncuran", en: "Launch", zh: "上线部署" },
     description: {
       id: "Deploy, migrasi data, dan pelatihan tim untuk adopsi yang mulus.",
       en: "Deployment, data migration, and team training for a smooth rollout.",
@@ -43,7 +43,7 @@ export const processSteps: ProcessStep[] = [
   },
   {
     step: "05",
-    title: "Grow",
+    title: { id: "Pertumbuhan", en: "Grow", zh: "持续成长" },
     description: {
       id: "Dukungan berkelanjutan, optimasi, dan pengembangan fitur baru.",
       en: "Ongoing support, optimization, and new feature development.",
@@ -53,13 +53,13 @@ export const processSteps: ProcessStep[] = [
 ];
 
 export type ValueProp = {
-  title: string;
+  title: { id: string; en: string; zh: string };
   description: { id: string; en: string; zh: string };
 };
 
 export const valueProps: ValueProp[] = [
   {
-    title: "Adaptive Technology",
+    title: { id: "Teknologi Adaptif", en: "Adaptive Technology", zh: "自适应技术" },
     description: {
       id: "Sistem yang menyesuaikan cara kerja bisnis Anda, bukan sebaliknya.",
       en: "Systems that adapt to how your business works, not the other way around.",
@@ -67,7 +67,7 @@ export const valueProps: ValueProp[] = [
     },
   },
   {
-    title: "Integrated Systems",
+    title: { id: "Sistem Terintegrasi", en: "Integrated Systems", zh: "一体化系统" },
     description: {
       id: "Setiap modul saling terhubung — data mengalir tanpa silo.",
       en: "Every module is connected — data flows without silos.",
@@ -75,7 +75,7 @@ export const valueProps: ValueProp[] = [
     },
   },
   {
-    title: "Scalable Architecture",
+    title: { id: "Arsitektur yang Skalabel", en: "Scalable Architecture", zh: "可扩展架构" },
     description: {
       id: "Dibangun untuk tumbuh dari satu cabang hingga skala enterprise.",
       en: "Built to grow from a single branch to enterprise scale.",
@@ -83,7 +83,7 @@ export const valueProps: ValueProp[] = [
     },
   },
   {
-    title: "Customizable Solutions",
+    title: { id: "Solusi yang Bisa Disesuaikan", en: "Customizable Solutions", zh: "可定制方案" },
     description: {
       id: "Fitur dan workflow disesuaikan dengan kebutuhan spesifik industri Anda.",
       en: "Features and workflows tailored to your industry's specific needs.",
@@ -91,7 +91,7 @@ export const valueProps: ValueProp[] = [
     },
   },
   {
-    title: "Real Business Impact",
+    title: { id: "Dampak Bisnis Nyata", en: "Real Business Impact", zh: "真实业务成效" },
     description: {
       id: "Fokus pada efisiensi, visibilitas, dan pertumbuhan yang terukur.",
       en: "Focused on efficiency, visibility, and measurable growth.",

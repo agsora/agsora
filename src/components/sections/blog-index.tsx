@@ -10,6 +10,7 @@ import { ContactCta } from "@/components/sections/contact-cta";
 import { PostCard } from "@/components/sections/post-card";
 import {
   blogPageHref,
+  getCategoryLabel,
   getCategoryCounts,
   getPostExcerpt,
   getPostTitle,
@@ -108,7 +109,7 @@ function CategoryFilter({
           {counts.map(({ category, count }) => (
             <CategoryChip
               key={category}
-              label={category}
+              label={getCategoryLabel(category, locale)}
               count={count}
               active={active === category}
               onClick={() => onChange(category)}
@@ -163,13 +164,13 @@ export function BlogIndex({ page }: { page: number }) {
       <PageHero
         trail={
           isFirst
-            ? [{ name: "Blog", href: "/blog" }]
+            ? [{ name: t.nav.blog, href: "/blog" }]
             : [
-                { name: "Blog", href: "/blog" },
+                { name: t.nav.blog, href: "/blog" },
                 { name: `${t.blogPage.pageLabel} ${page}`, href: blogPageHref(page) },
               ]
         }
-        eyebrow="Blog"
+        eyebrow={t.pageEyebrows.blog}
         title={
           isFirst
             ? t.blogPage.heroTitle
@@ -201,7 +202,7 @@ export function BlogIndex({ page }: { page: number }) {
           <Container className="max-w-6xl">
             <SectionHeading
               eyebrow={t.blogPage.filterResultsEyebrow}
-              title={activeCategory}
+              title={getCategoryLabel(activeCategory, locale)}
               description={t.blogPage.filterResultsDescription.replace(
                 "{count}",
                 String(filteredPosts!.length)

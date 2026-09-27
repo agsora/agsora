@@ -20,7 +20,7 @@ const sections: LegalSection[] = [
     id: {
       title: "1. Informasi yang Kami Kumpulkan",
       body: [
-        "Kami dapat mengumpulkan informasi yang Anda berikan secara langsung melalui form kontak di website ini, seperti nama, nama perusahaan, alamat email, nomor WhatsApp, jenis kebutuhan, budget range, dan deskripsi project.",
+        "Kami dapat mengumpulkan informasi yang Anda berikan secara langsung melalui form kontak di website ini, seperti nama, nama perusahaan, alamat email, nomor WhatsApp, jenis kebutuhan, kisaran anggaran, dan deskripsi proyek.",
         "Kami juga dapat mengumpulkan data teknis non-identitas seperti jenis perangkat dan perilaku penggunaan halaman untuk keperluan analitik dan peningkatan layanan.",
       ],
     },
@@ -175,7 +175,7 @@ export default async function PrivacyPolicyPage({ params }: LangParams) {
         title={title}
       />
       <Section>
-        <LegalContent updatedAt="10 September 2026" sections={sections} />
+        <LegalContent updatedAt="2026-09-10" sections={sections} />
       </Section>
       <Section className="pt-0">
         <LegalCta />

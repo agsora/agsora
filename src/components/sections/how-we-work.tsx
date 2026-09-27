@@ -30,7 +30,7 @@ export function HowWeWork() {
                 {step.step}
               </p>
               <h3 className="mt-2 text-[15px] font-medium text-ink">
-                {step.title}
+                {step.title[locale]}
               </h3>
               <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
                 {step.description[locale]}

@@ -91,6 +91,8 @@ export type BlogCover = {
   src: string;
   /** Describes what is actually in the photo, for screen readers and image search. */
   alt: string;
+  /** EN/ZH alt text — set together with the post's title translations. */
+  altTranslations?: PostTextTranslations;
 };
 
 /** English/Chinese title and excerpt for a post authored with translations. */
@@ -168,6 +170,12 @@ export function getPostExcerpt(post: BlogPost, locale: Locale) {
   return post.excerptTranslations?.[locale] ?? post.excerpt;
 }
 
+/** Cover alt text in the given locale, falling back to the Indonesian original. */
+export function getCoverAlt(post: PostMeta, locale: Locale) {
+  if (locale === "id") return post.cover.alt;
+  return post.cover.altTranslations?.[locale] ?? post.cover.alt;
+}
+
 /** Article body in the given locale, falling back to the Indonesian original. */
 export function getPostBlocks(post: BlogPost, locale: Locale) {
   if (locale === "id") return post.body;
@@ -237,6 +245,26 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
   "Website & Digital",
   "Panduan Industri",
 ];
+
+/**
+ * Display names per language. The BlogCategory values stay as stable
+ * Indonesian keys; what readers see comes from here.
+ */
+const CATEGORY_LABELS: Record<BlogCategory, { en: string; zh: string }> = {
+  "Strategi Bisnis": { en: "Business Strategy", zh: "商业策略" },
+  "Panduan Memilih": { en: "Buying Guides", zh: "选型指南" },
+  "ERP & Operasional": { en: "ERP & Operations", zh: "ERP 与运营" },
+  "POS & Retail": { en: "POS & Retail", zh: "POS 与零售" },
+  "HR & Tim": { en: "HR & Teams", zh: "人力资源与团队" },
+  "Penjualan & CRM": { en: "Sales & CRM", zh: "销售与 CRM" },
+  Teknologi: { en: "Technology", zh: "技术" },
+  "Website & Digital": { en: "Website & Digital", zh: "网站与数字化" },
+  "Panduan Industri": { en: "Industry Guides", zh: "行业指南" },
+};
+
+export function getCategoryLabel(category: BlogCategory, locale: Locale) {
+  return locale === "id" ? category : CATEGORY_LABELS[category][locale];
+}
 
 export type CategoryCount = { category: BlogCategory; count: number };
 

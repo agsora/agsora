@@ -4,6 +4,7 @@ import { Globe, Layers, Zap, ShieldCheck, type LucideIcon } from "lucide-react";
 import { customDevPricing, type PricingCategory } from "@/config/pricing";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { useLocale } from "@/i18n/locale-context";
+import { formatRupiah } from "@/lib/utils";
 
 const categoryIcons: Record<PricingCategory, LucideIcon> = {
   "Website & Digital": Globe,
@@ -17,7 +18,7 @@ const categories = Array.from(
 );
 
 export function CustomDevPricing() {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   const categoryLabels: Record<PricingCategory, string> = {
     "Website & Digital": t.pricingCategories.websiteDigital,
     "Sistem Bisnis": t.pricingCategories.businessSystems,
@@ -48,13 +49,15 @@ export function CustomDevPricing() {
                     id={item.id}
                     className="group h-full scroll-mt-24 rounded-lg border border-line bg-surface-1 p-5 transition-colors hover:border-line-strong hover:bg-surface-2"
                   >
-                    <p className="text-[13px] text-ink-muted">{item.name}</p>
+                    <p className="text-[13px] text-ink-muted">{item.name[locale]}</p>
                     <p className="mt-3 text-[20px] font-semibold tabular-nums text-ink">
-                      {item.price}
+                      {item.price === null
+                        ? t.pricingPage.customQuote
+                        : formatRupiah(item.price, locale)}
                       {item.unit ? (
                         <span className="text-[12px] font-normal text-ink-subtle">
                           {" "}
-                          {item.unit}
+                          {item.unit[locale]}
                         </span>
                       ) : null}
                     </p>

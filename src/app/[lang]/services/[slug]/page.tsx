@@ -48,7 +48,7 @@ export default async function ServiceDetailPage({ params }: Props) {
   const crumbs = [
     { name: t.breadcrumbHome, href: "/" },
     { name: t.nav.services, href: "/services" },
-    { name: service.title, href: `/services/${service.id}` },
+    { name: service.title[locale], href: `/services/${service.id}` },
   ];
   // Only articles that exist in this language — the rest would 404 under /en.
   const relatedPosts = detail.relatedPosts
@@ -61,7 +61,7 @@ export default async function ServiceDetailPage({ params }: Props) {
       {
         "@type": "Service",
         name: detail.h1[locale],
-        serviceType: service.title,
+        serviceType: service.title[locale],
         description: detail.metaDescription[locale],
         url: absoluteUrl(`/services/${service.id}`, locale),
         // Delivered remotely too — Indonesia is home, not the limit.
@@ -81,7 +81,7 @@ export default async function ServiceDetailPage({ params }: Props) {
           priceSpecification: {
             "@type": "PriceSpecification",
             priceCurrency: "IDR",
-            minPrice: Number(service.startingFrom.replace(/[^\d]/g, "")),
+            minPrice: service.startingFrom,
           },
         },
       },

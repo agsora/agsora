@@ -9,10 +9,13 @@ export type LegalSection = {
   zh: { title: string; body: string[] };
 };
 
+const dateLocales = { id: "id-ID", en: "en-GB", zh: "zh-CN" } as const;
+
 export function LegalContent({
   updatedAt,
   sections,
 }: {
+  /** ISO date, formatted for the reader's language. */
   updatedAt: string;
   sections: LegalSection[];
 }) {
@@ -28,7 +31,13 @@ export function LegalContent({
     <Container className="max-w-6xl">
       <div className="max-w-3xl">
         <p className="text-[12px] text-ink-subtle">
-          {label}: {updatedAt}
+          {label}:{" "}
+          {new Date(updatedAt).toLocaleDateString(dateLocales[locale], {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+            timeZone: "UTC",
+          })}
         </p>
         <div className="mt-10 space-y-10">
           {sections.map((section) => (

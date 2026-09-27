@@ -5,10 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function formatIDR(amount: number) {
-  return new Intl.NumberFormat("id-ID", {
-    style: "currency",
-    currency: "IDR",
-    maximumFractionDigits: 0,
-  }).format(amount);
+/** "Rp8.000.000" in Indonesian, "Rp8,000,000" in English and Chinese — how each audience writes it. */
+export function formatRupiah(amount: number, locale: "id" | "en" | "zh") {
+  return `Rp${amount.toLocaleString(locale === "id" ? "id-ID" : "en-US")}`;
 }

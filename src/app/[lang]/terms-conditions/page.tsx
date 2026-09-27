@@ -26,7 +26,7 @@ const sections: LegalSection[] = [
     id: {
       title: "1. Ruang Lingkup Layanan",
       body: [
-        `${siteConfig.legalName} ("AG·SORA") menyediakan layanan pengembangan software custom — termasuk website, aplikasi mobile, sistem bisnis seperti ERP, POS, HRIS, dan CRM, AI automation, serta integrasi API — sebagaimana dijelaskan pada halaman Services website ini.`,
+        `${siteConfig.legalName} ("AG·SORA") menyediakan layanan pengembangan software custom — termasuk website, aplikasi mobile, sistem bisnis seperti ERP, POS, HRIS, dan CRM, AI automation, serta integrasi API — sebagaimana dijelaskan pada halaman Layanan website ini.`,
         "Ketentuan ini berlaku untuk penggunaan website ini dan untuk setiap project yang dikerjakan AG·SORA, kecuali diatur lain dalam kontrak tertulis. Jika terdapat perbedaan, isi kontrak tertulis yang berlaku.",
       ],
     },
@@ -40,7 +40,7 @@ const sections: LegalSection[] = [
     zh: {
       title: "1. 服务范围",
       body: [
-        `${siteConfig.legalName}（"AG·SORA"）提供定制软件开发服务，包括网站、移动应用，ERP、POS、HRIS 与 CRM 等业务系统，AI 自动化以及 API 集成，详见本网站 Services 页面。`,
+        `${siteConfig.legalName}（"AG·SORA"）提供定制软件开发服务，包括网站、移动应用，ERP、POS、HRIS 与 CRM 等业务系统，AI 自动化以及 API 集成，详见本网站"服务"页面。`,
         "本条款适用于本网站的使用，以及 AG·SORA 承接的每个项目，书面合同另有约定的除外。两者不一致时，以书面合同为准。",
       ],
     },
@@ -49,7 +49,7 @@ const sections: LegalSection[] = [
     id: {
       title: "2. Proposal dan Kesepakatan Project",
       body: [
-        "Setiap harga yang tercantum pada halaman Pricing bersifat 'mulai dari' dan merupakan estimasi awal. Ruang lingkup final, timeline, dan biaya akan dituangkan dalam proposal atau kesepakatan tertulis terpisah sebelum project dimulai.",
+        "Setiap harga yang tercantum pada halaman Harga bersifat 'mulai dari' dan merupakan estimasi awal. Ruang lingkup final, timeline, dan biaya akan dituangkan dalam proposal atau kesepakatan tertulis terpisah sebelum project dimulai.",
         "Pengerjaan project baru dimulai setelah proposal disepakati secara tertulis oleh kedua pihak.",
         "Biaya pihak ketiga (seperti domain, hosting, lisensi API, atau payment gateway) tidak termasuk dalam harga layanan kecuali dinyatakan lain secara tertulis.",
       ],
@@ -65,7 +65,7 @@ const sections: LegalSection[] = [
     zh: {
       title: "2. 提案与项目协议",
       body: [
-        "Pricing 页面上列出的所有价格均为\"起始价格\"，属于初步预估。最终范围、工期与费用将在项目开始前，以提案或独立的书面协议形式确定。",
+        "“价格”页面上列出的所有价格均为\"起始价格\"，属于初步预估。最终范围、工期与费用将在项目开始前，以提案或独立的书面协议形式确定。",
         "项目仅在双方书面确认提案后才正式开始执行。",
         "第三方费用（如域名、主机、API 授权或支付网关费用）不包含在服务价格内，除非另有书面说明。",
       ],
@@ -122,7 +122,7 @@ const sections: LegalSection[] = [
       title: "5. Serah Terima dan Pemeliharaan",
       body: [
         "Setiap serah terima disertai dokumentasi teknis dan sesi pelatihan untuk tim yang akan menggunakan sistem.",
-        "Setelah serah terima, perbaikan bug dan dukungan teknis tersedia melalui paket maintenance sebagaimana tercantum pada halaman Pricing, kecuali diatur lain dalam kontrak.",
+        "Setelah serah terima, perbaikan bug dan dukungan teknis tersedia melalui paket maintenance sebagaimana tercantum pada halaman Harga, kecuali diatur lain dalam kontrak.",
       ],
     },
     en: {
@@ -136,7 +136,7 @@ const sections: LegalSection[] = [
       title: "5. 交付与维护",
       body: [
         "每次交付均包含技术文档，以及为使用系统的团队提供的培训。",
-        "交付后，错误修复与技术支持可通过 Pricing 页面所列的维护套餐获得，合同另有约定的除外。",
+        "交付后，错误修复与技术支持可通过“价格”页面所列的维护套餐获得，合同另有约定的除外。",
       ],
     },
   },
@@ -145,7 +145,7 @@ const sections: LegalSection[] = [
       title: "6. Kerahasiaan",
       body: [
         "Data dan proses bisnis klien hanya digunakan untuk keperluan project dan tidak digunakan untuk keperluan lain. Perjanjian kerahasiaan (NDA) dapat disiapkan sebelum diskusi teknis dimulai.",
-        "Pengelolaan data pribadi yang Anda kirimkan melalui website ini diatur dalam Privacy Policy.",
+        "Pengelolaan data pribadi yang Anda kirimkan melalui website ini diatur dalam Kebijakan Privasi.",
       ],
     },
     en: {
@@ -225,11 +225,7 @@ const sections: LegalSection[] = [
   },
 ];
 
-const updatedAt = {
-  id: "26 September 2026",
-  en: "26 September 2026",
-  zh: "2026年9月26日",
-} as const;
+const updatedAt = "2026-09-26";
 
 export default async function TermsConditionsPage({ params }: LangParams) {
   const locale = await localeFromParams(params);
@@ -242,7 +238,7 @@ export default async function TermsConditionsPage({ params }: LangParams) {
         title={title}
       />
       <Section>
-        <LegalContent updatedAt={updatedAt[locale]} sections={sections} />
+        <LegalContent updatedAt={updatedAt} sections={sections} />
       </Section>
       <Section className="pt-0">
         <LegalCta />

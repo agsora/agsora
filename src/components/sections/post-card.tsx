@@ -3,6 +3,8 @@
 import Link from "@/i18n/link";
 import Image from "next/image";
 import {
+  getCategoryLabel,
+  getCoverAlt,
   formatPostDate,
   getPostExcerpt,
   getPostTitle,
@@ -26,7 +28,7 @@ export function PostCard({
       <div className="relative aspect-[16/9] overflow-hidden border-b border-line bg-surface-2">
         <Image
           src={post.cover.src}
-          alt={post.cover.alt}
+          alt={getCoverAlt(post, locale)}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           preload={priority}
@@ -36,7 +38,7 @@ export function PostCard({
 
       <div className="flex flex-1 flex-col p-6">
         <span className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
-          {post.category}
+          {getCategoryLabel(post.category, locale)}
         </span>
 
         <h2 className="mt-3 text-[16px] font-medium leading-snug text-ink">

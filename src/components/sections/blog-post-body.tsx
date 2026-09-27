@@ -11,6 +11,8 @@ import { PostCard } from "@/components/sections/post-card";
 import { ContactCta } from "@/components/sections/contact-cta";
 import {
   formatPostDate,
+  getCategoryLabel,
+  getCoverAlt,
   getPersonalizedRecommendations,
   getPostBlocks,
   getPostTitle,
@@ -60,7 +62,7 @@ export function BlogPostBody({
 
           <div className="mt-8 max-w-3xl">
             <span className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
-              {post.category}
+              {getCategoryLabel(post.category, locale)}
             </span>
             <h1 className="headline mt-4 text-[32px] font-semibold text-ink sm:text-[40px]">
               {getPostTitle(post, locale)}
@@ -103,7 +105,7 @@ export function BlogPostBody({
         <figure className="relative mt-10 aspect-[21/9] overflow-hidden rounded-lg border border-line bg-surface-2">
           <Image
             src={post.cover.src}
-            alt={post.cover.alt}
+            alt={getCoverAlt(post, locale)}
             fill
             sizes="(max-width: 1024px) 100vw, 1152px"
             preload

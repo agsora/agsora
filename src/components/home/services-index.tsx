@@ -6,6 +6,7 @@ import { featuredServices } from "@/config/services";
 import { Container } from "@/components/ui/container";
 import { HomeHeading } from "@/components/home/heading";
 import { useLocale } from "@/i18n/locale-context";
+import { formatRupiah } from "@/lib/utils";
 
 export function ServicesIndex() {
   const { t, locale } = useLocale();
@@ -42,7 +43,7 @@ export function ServicesIndex() {
               <div className="flex items-center gap-3">
                 <Icon className="h-[18px] w-[18px] shrink-0 text-ink-subtle transition-colors group-hover:text-accent" />
                 <h3 className="text-[18px] font-medium tracking-tight text-ink md:text-[20px]">
-                  {service.title}
+                  {service.title[locale]}
                 </h3>
               </div>
               <p className="col-span-2 row-start-2 text-pretty text-[14px] leading-relaxed text-ink-muted md:col-span-1 md:row-start-auto md:max-w-md">
@@ -53,7 +54,7 @@ export function ServicesIndex() {
                   {t.servicesGrid.startingFrom}
                 </span>
                 <span className="block text-[14px] font-medium tabular-nums text-ink">
-                  {service.startingFrom}
+                  {formatRupiah(service.startingFrom, locale)}
                 </span>
               </span>
               <ArrowUpRight className="hidden h-5 w-5 text-ink-subtle transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-ink md:block" />

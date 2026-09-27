@@ -38,7 +38,7 @@ export function Pagination({
     "focus-ring inline-flex h-9 min-w-9 items-center justify-center rounded-md border px-3 text-[13px] tabular-nums transition-colors";
 
   return (
-    <nav aria-label="Navigasi halaman blog" className="flex flex-col items-center gap-4">
+    <nav aria-label={t.pagination.label} className="flex flex-col items-center gap-4">
       <ul className="flex flex-wrap items-center justify-center gap-1.5">
         <li>
           {current > 1 ? (

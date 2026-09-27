@@ -47,7 +47,7 @@ export function PageHero({
       <Container className="max-w-6xl">
         {crumbs ? (
           <div className="mb-10">
-            <Breadcrumbs items={crumbs} />
+            <Breadcrumbs items={crumbs} label={t.breadcrumbLabel} />
           </div>
         ) : null}
         <Eyebrow>{eyebrow}</Eyebrow>

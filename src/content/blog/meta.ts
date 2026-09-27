@@ -28,6 +28,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c",
       alt: "Tangan menggunakan stylus untuk membuat sketsa wireframe antarmuka di layar tablet",
+      altTranslations: {
+        en: "Hand using a stylus to sketch an interface wireframe on a tablet screen",
+        zh: "用触控笔在平板屏幕上绘制界面线框图的手",
+      },
     },
   },
   {
@@ -54,6 +58,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a",
       alt: "Meja kerja dengan ponsel, sketsa rancangan aplikasi di kertas, dan alat tulis berwarna",
+      altTranslations: {
+        en: "Desk with a phone, paper sketches of an app design, and colorful stationery",
+        zh: "放着手机、纸上应用设计草图和彩色文具的办公桌",
+      },
     },
   },
   {
@@ -80,6 +88,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07",
       alt: "Dokumen keuangan, kalkulator, dan secangkir kopi di atas meja kerja",
+      altTranslations: {
+        en: "Financial documents, a calculator, and a cup of coffee on a desk",
+        zh: "办公桌上的财务文件、计算器和一杯咖啡",
+      },
     },
   },
   {
@@ -105,6 +117,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1551650975-87deedd944c3",
       alt: "Tangan memegang ponsel yang menampilkan aplikasi dasbor dengan laptop di latar belakang",
+      altTranslations: {
+        en: "Hand holding a phone showing a dashboard app, with a laptop in the background",
+        zh: "手持显示仪表盘应用的手机，背景是一台笔记本电脑",
+      },
     },
   },
   {
@@ -131,6 +147,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
       alt: "Dua rekan kerja bertos dengan gembira di meja kantor dengan laptop dan dokumen",
+      altTranslations: {
+        en: "Two colleagues high-fiving happily at an office desk with a laptop and documents",
+        zh: "两位同事在放着笔记本电脑和文件的办公桌前开心击掌",
+      },
     },
   },
   {
@@ -156,6 +176,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
       alt: "Baris kode program ditampilkan besar di layar monitor",
+      altTranslations: {
+        en: "Lines of program code shown large on a monitor",
+        zh: "显示器上放大显示的程序代码",
+      },
     },
   },
   {
@@ -181,6 +205,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
       alt: "Tim kerja berkumpul mengerjakan laptop masing-masing di sekitar meja",
+      altTranslations: {
+        en: "A team gathered around a table, each working on a laptop",
+        zh: "团队围坐在桌旁，各自在笔记本电脑上工作",
+      },
     },
   },
   {
@@ -206,6 +234,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
       alt: "Layar laptop menampilkan grafik data operasional bisnis",
+      altTranslations: {
+        en: "Laptop screen showing charts of business operations data",
+        zh: "笔记本电脑屏幕上显示着业务运营数据图表",
+      },
     },
   },
   {
@@ -232,6 +264,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1573164713988-8665fc963095",
       alt: "Karyawan memeriksa tablet di lorong pusat data berpencahayaan biru",
+      altTranslations: {
+        en: "Employee checking a tablet in a blue-lit data center aisle",
+        zh: "员工在蓝色灯光的数据中心通道里查看平板电脑",
+      },
     },
   },
   {
@@ -257,6 +293,10 @@ export const meta: PostMeta[] = [
     cover: {
       src: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
       alt: "Tangan mengetik di dua laptop yang menyala saat mengembangkan aplikasi",
+      altTranslations: {
+        en: "Hands typing on two lit laptops while developing an app",
+        zh: "双手在两台亮着的笔记本电脑上打字，正在开发应用",
+      },
     },
   },
   {

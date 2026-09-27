@@ -3,9 +3,10 @@ import { absoluteUrl, type Locale } from "@/i18n/routing";
 
 export type Crumb = { name: string; href: string };
 
-export function Breadcrumbs({ items }: { items: Crumb[] }) {
+/** `label` names the nav for screen readers, in the page's language. */
+export function Breadcrumbs({ items, label }: { items: Crumb[]; label: string }) {
   return (
-    <nav aria-label="Breadcrumb">
+    <nav aria-label={label}>
       <ol className="flex flex-wrap items-center gap-2 text-[12px] text-ink-subtle">
         {items.map((item, i) => {
           const last = i === items.length - 1;

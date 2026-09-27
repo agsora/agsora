@@ -14,8 +14,8 @@ export function PricingBody() {
   return (
     <>
       <PageHero
-        breadcrumb={{ name: "Pricing", href: "/pricing" }}
-        eyebrow="Launch Pricing"
+        breadcrumb={{ name: t.nav.pricing, href: "/pricing" }}
+        eyebrow={t.pageEyebrows.pricing}
         title={t.pricingPage.heroTitle}
         description={t.pricingPage.heroDescription}
       />

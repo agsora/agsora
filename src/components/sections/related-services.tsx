@@ -6,6 +6,7 @@ import { services } from "@/config/services";
 import { serviceDetails } from "@/config/service-details";
 import { getPostBySlug, type BlogTag } from "@/config/blog";
 import { useLocale } from "@/i18n/locale-context";
+import { formatRupiah } from "@/lib/utils";
 
 const MAX_SERVICES = 3;
 
@@ -88,7 +89,7 @@ export function RelatedServices({ postSlug }: { postSlug: string }) {
                   {serviceDetails[service.id].h1[locale]}
                 </span>
                 <span className="mt-0.5 block text-[12px] text-ink-subtle">
-                  {t.servicesGrid.startingFrom} {service.startingFrom}
+                  {t.servicesGrid.startingFrom} {formatRupiah(service.startingFrom, locale)}
                 </span>
               </span>
               <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-subtle transition-colors group-hover:text-accent" />

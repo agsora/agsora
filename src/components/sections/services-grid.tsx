@@ -8,6 +8,7 @@ import { SectionHeading } from "@/components/ui/section";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/i18n/locale-context";
+import { formatRupiah } from "@/lib/utils";
 
 export function ServicesGrid({ compact = false }: { compact?: boolean }) {
   const { t, locale } = useLocale();
@@ -42,7 +43,7 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
                   <ArrowUpRight className="h-4 w-4 text-ink-subtle opacity-0 transition-opacity group-hover:opacity-100" />
                 </div>
                 <h3 className="mt-4 text-[15px] font-medium text-ink sm:mt-6">
-                  {service.title}
+                  {service.title[locale]}
                 </h3>
                 <p className="mt-2 flex-1 text-[13px] leading-relaxed text-ink-muted">
                   {service.description[locale]}
@@ -50,7 +51,7 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
                 <p className="mt-4 text-[12px] text-ink-subtle sm:mt-6">
                   {t.servicesGrid.startingFrom}{" "}
                   <span className="tabular-nums text-ink-muted">
-                    {service.startingFrom}
+                    {formatRupiah(service.startingFrom, locale)}
                   </span>
                 </p>
               </Link>
