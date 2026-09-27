@@ -27,6 +27,8 @@ export type Block =
   | { type: "ul"; items: string[] }
   | { type: "ol"; items: string[] }
   | { type: "callout"; title: string; text: string }
+  /** In-article illustration. `src` is an Unsplash CDN base URL, like covers. */
+  | { type: "image"; src: string; alt: string; caption?: string }
   /** Closing call to action. `href` must be an internal path. */
   | { type: "cta"; title: string; text: string; href: `/${string}`; label: string };
 
@@ -132,7 +134,9 @@ function countWords(body: Block[]) {
         ? block.items.join(" ")
         : block.type === "callout" || block.type === "cta"
           ? `${block.title} ${block.text}`
-          : block.text;
+          : block.type === "image"
+            ? (block.caption ?? "")
+            : block.text;
     return n + text.split(/\s+/).filter(Boolean).length;
   }, 0);
 }

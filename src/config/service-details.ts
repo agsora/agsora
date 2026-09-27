@@ -137,6 +137,8 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     relatedPosts: [
+      "mvp-aplikasi-bisnis-mulai-dari-yang-kecil",
+      "digitalisasi-bisnis-keluarga-generasi-penerus",
       "custom-software-vs-software-jadi",
       "menghitung-biaya-sebenarnya-project-software",
       "kenapa-project-software-gagal",
@@ -244,7 +246,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
       },
     ],
-    relatedPosts: ["checklist-memilih-software-house", "menghitung-biaya-sebenarnya-project-software"],
+    relatedPosts: [
+      "ux-website-yang-mengubah-pengunjung-jadi-pelanggan",
+      "checklist-memilih-software-house",
+      "menghitung-biaya-sebenarnya-project-software",
+    ],
   },
 
   mobile: {
@@ -348,7 +354,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
       },
     ],
-    relatedPosts: ["custom-software-vs-software-jadi", "kenapa-project-software-gagal"],
+    relatedPosts: [
+      "progressive-web-app-untuk-bisnis",
+      "custom-software-vs-software-jadi",
+      "kenapa-project-software-gagal",
+    ],
   },
 
   erp: {
@@ -453,6 +463,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     relatedPosts: [
+      "erp-dan-visibilitas-arus-kas",
       "tanda-bisnis-anda-sudah-butuh-erp",
       "biaya-tersembunyi-data-silo",
       "persiapan-migrasi-data-sistem-baru",

@@ -9,8 +9,10 @@ import { body as b_cloud_atau_on_premise } from "./cloud-atau-on-premise";
 import { body as b_custom_software_vs_software_jadi } from "./custom-software-vs-software-jadi";
 import { body as b_dari_ide_ke_aplikasi_proses_membangun_software } from "./dari-ide-ke-aplikasi-proses-membangun-software";
 import { body as b_data_pelanggan_tersebar_di_whatsapp_sales } from "./data-pelanggan-tersebar-di-whatsapp-sales";
+import { body as b_digitalisasi_bisnis_keluarga_generasi_penerus } from "./digitalisasi-bisnis-keluarga-generasi-penerus";
 import { body as b_digitalisasi_umkm_mulai_dari_mana } from "./digitalisasi-umkm-mulai-dari-mana";
 import { body as b_employee_self_service_mengurangi_beban_hr } from "./employee-self-service-mengurangi-beban-hr";
+import { body as b_erp_dan_visibilitas_arus_kas } from "./erp-dan-visibilitas-arus-kas";
 import { body as b_fitur_sistem_kasir_untuk_bisnis_fnb } from "./fitur-sistem-kasir-untuk-bisnis-fnb";
 import { body as b_kapan_aplikasi_perlu_bekerja_offline } from "./kapan-aplikasi-perlu-bekerja-offline";
 import { body as b_kapan_waktu_tepat_menerapkan_erp } from "./kapan-waktu-tepat-menerapkan-erp";
@@ -42,6 +44,7 @@ import { body as b_menyusun_proses_onboarding_karyawan } from "./menyusun-proses
 import { body as b_merancang_hak_akses_pengguna } from "./merancang-hak-akses-pengguna";
 import { body as b_metrik_performa_tim_sales } from "./metrik-performa-tim-sales";
 import { body as b_modul_erp_yang_diterapkan_pertama } from "./modul-erp-yang-diterapkan-pertama";
+import { body as b_mvp_aplikasi_bisnis_mulai_dari_yang_kecil } from "./mvp-aplikasi-bisnis-mulai-dari-yang-kecil";
 import { body as b_otomatisasi_input_data_dari_dokumen } from "./otomatisasi-input-data-dari-dokumen";
 import { body as b_otomatisasi_laporan_rutin } from "./otomatisasi-laporan-rutin";
 import { body as b_penilaian_kinerja_yang_bisa_dipertanggungjawabkan } from "./penilaian-kinerja-yang-bisa-dipertanggungjawabkan";
@@ -49,6 +52,7 @@ import { body as b_perhitungan_lembur_di_sistem_hr } from "./perhitungan-lembur-
 import { body as b_persiapan_migrasi_data_sistem_baru } from "./persiapan-migrasi-data-sistem-baru";
 import { body as b_poin_penting_kontrak_pengembangan_software } from "./poin-penting-kontrak-pengembangan-software";
 import { body as b_program_loyalitas_pelanggan_yang_terukur } from "./program-loyalitas-pelanggan-yang-terukur";
+import { body as b_progressive_web_app_untuk_bisnis } from "./progressive-web-app-untuk-bisnis";
 import { body as b_risiko_ai_dalam_operasional } from "./risiko-ai-dalam-operasional";
 import { body as b_saas_atau_lisensi_sekali_beli } from "./saas-atau-lisensi-sekali-beli";
 import { body as b_seo_dasar_website_perusahaan } from "./seo-dasar-website-perusahaan";
@@ -63,6 +67,7 @@ import { body as b_tanda_bisnis_anda_sudah_butuh_erp } from "./tanda-bisnis-anda
 import { body as b_tanda_bisnis_siap_punya_aplikasi_sendiri } from "./tanda-bisnis-siap-punya-aplikasi-sendiri";
 import { body as b_toko_online_sendiri_atau_marketplace } from "./toko-online-sendiri-atau-marketplace";
 import { body as b_tren_teknologi_bisnis_tahun_ini } from "./tren-teknologi-bisnis-tahun-ini";
+import { body as b_ux_website_yang_mengubah_pengunjung_jadi_pelanggan } from "./ux-website-yang-mengubah-pengunjung-jadi-pelanggan";
 import { body as b_website_company_profile_yang_menghasilkan_prospek } from "./website-company-profile-yang-menghasilkan-prospek";
 
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
@@ -77,8 +82,10 @@ export const bodies: Record<string, Block[]> = {
   "custom-software-vs-software-jadi": b_custom_software_vs_software_jadi,
   "dari-ide-ke-aplikasi-proses-membangun-software": b_dari_ide_ke_aplikasi_proses_membangun_software,
   "data-pelanggan-tersebar-di-whatsapp-sales": b_data_pelanggan_tersebar_di_whatsapp_sales,
+  "digitalisasi-bisnis-keluarga-generasi-penerus": b_digitalisasi_bisnis_keluarga_generasi_penerus,
   "digitalisasi-umkm-mulai-dari-mana": b_digitalisasi_umkm_mulai_dari_mana,
   "employee-self-service-mengurangi-beban-hr": b_employee_self_service_mengurangi_beban_hr,
+  "erp-dan-visibilitas-arus-kas": b_erp_dan_visibilitas_arus_kas,
   "fitur-sistem-kasir-untuk-bisnis-fnb": b_fitur_sistem_kasir_untuk_bisnis_fnb,
   "kapan-aplikasi-perlu-bekerja-offline": b_kapan_aplikasi_perlu_bekerja_offline,
   "kapan-waktu-tepat-menerapkan-erp": b_kapan_waktu_tepat_menerapkan_erp,
@@ -110,6 +117,7 @@ export const bodies: Record<string, Block[]> = {
   "merancang-hak-akses-pengguna": b_merancang_hak_akses_pengguna,
   "metrik-performa-tim-sales": b_metrik_performa_tim_sales,
   "modul-erp-yang-diterapkan-pertama": b_modul_erp_yang_diterapkan_pertama,
+  "mvp-aplikasi-bisnis-mulai-dari-yang-kecil": b_mvp_aplikasi_bisnis_mulai_dari_yang_kecil,
   "otomatisasi-input-data-dari-dokumen": b_otomatisasi_input_data_dari_dokumen,
   "otomatisasi-laporan-rutin": b_otomatisasi_laporan_rutin,
   "penilaian-kinerja-yang-bisa-dipertanggungjawabkan": b_penilaian_kinerja_yang_bisa_dipertanggungjawabkan,
@@ -117,6 +125,7 @@ export const bodies: Record<string, Block[]> = {
   "persiapan-migrasi-data-sistem-baru": b_persiapan_migrasi_data_sistem_baru,
   "poin-penting-kontrak-pengembangan-software": b_poin_penting_kontrak_pengembangan_software,
   "program-loyalitas-pelanggan-yang-terukur": b_program_loyalitas_pelanggan_yang_terukur,
+  "progressive-web-app-untuk-bisnis": b_progressive_web_app_untuk_bisnis,
   "risiko-ai-dalam-operasional": b_risiko_ai_dalam_operasional,
   "saas-atau-lisensi-sekali-beli": b_saas_atau_lisensi_sekali_beli,
   "seo-dasar-website-perusahaan": b_seo_dasar_website_perusahaan,
@@ -131,5 +140,6 @@ export const bodies: Record<string, Block[]> = {
   "tanda-bisnis-siap-punya-aplikasi-sendiri": b_tanda_bisnis_siap_punya_aplikasi_sendiri,
   "toko-online-sendiri-atau-marketplace": b_toko_online_sendiri_atau_marketplace,
   "tren-teknologi-bisnis-tahun-ini": b_tren_teknologi_bisnis_tahun_ini,
+  "ux-website-yang-mengubah-pengunjung-jadi-pelanggan": b_ux_website_yang_mengubah_pengunjung_jadi_pelanggan,
   "website-company-profile-yang-menghasilkan-prospek": b_website_company_profile_yang_menghasilkan_prospek,
 };

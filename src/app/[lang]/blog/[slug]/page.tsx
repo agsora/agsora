@@ -71,6 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       publishedTime: post.publishedAt,
+      modifiedTime: post.updatedAt ?? post.publishedAt,
       section: post.category,
       url: absoluteUrl(path, locale),
       images: [{ url: ogImage, width: 1200, height: 630, alt: post.cover.alt }],

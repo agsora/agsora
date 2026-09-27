@@ -173,6 +173,9 @@ export type Dictionary = {
     recommendedEyebrow: string;
     recommendedTitle: string;
     recommendedFromHistoryTitle: string;
+    published: string;
+    updated: string;
+    lastRead: string;
   };
 };
 
@@ -419,6 +422,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       recommendedEyebrow: "Rekomendasi untuk Anda",
       recommendedTitle: "Bacaan yang berkaitan dengan topik ini",
       recommendedFromHistoryTitle: "Dipilih berdasarkan bacaan Anda sebelumnya",
+      published: "Terbit",
+      updated: "Diperbarui",
+      lastRead: "Terakhir Anda baca",
     },
   },
   en: {
@@ -663,6 +669,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       recommendedEyebrow: "Recommended for you",
       recommendedTitle: "Reading related to this topic",
       recommendedFromHistoryTitle: "Picked based on what you've been reading",
+      published: "Published",
+      updated: "Updated",
+      lastRead: "You last read this",
     },
   },
   zh: {
@@ -903,6 +912,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       recommendedEyebrow: "为您推荐",
       recommendedTitle: "与此主题相关的阅读",
       recommendedFromHistoryTitle: "根据您之前的阅读为您精选",
+      published: "发布于",
+      updated: "更新于",
+      lastRead: "您上次阅读",
     },
   },
 };

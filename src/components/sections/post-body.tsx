@@ -1,4 +1,5 @@
 import Link from "@/i18n/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import type { Block } from "@/config/blog";
 import { RelatedServices } from "@/components/sections/related-services";
@@ -81,6 +82,25 @@ export function PostBody({
                   {block.text}
                 </p>
               </div>
+            );
+          case "image":
+            return (
+              <figure key={i} className="mt-10">
+                <div className="relative aspect-[16/9] overflow-hidden rounded-lg border border-line bg-surface-2">
+                  <Image
+                    src={block.src}
+                    alt={block.alt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 672px"
+                    className="object-cover"
+                  />
+                </div>
+                {block.caption ? (
+                  <figcaption className="mt-3 text-[13px] leading-relaxed text-ink-subtle">
+                    {block.caption}
+                  </figcaption>
+                ) : null}
+              </figure>
             );
           case "cta":
             return (

@@ -16,7 +16,7 @@ import {
   getPostTitle,
   type BlogPost,
 } from "@/config/blog";
-import { getReadingHistory, recordPostView } from "@/lib/reading-history";
+import { getLastReadAt, getReadingHistory, recordPostView } from "@/lib/reading-history";
 import { useLocale } from "@/i18n/locale-context";
 
 export function BlogPostBody({
@@ -33,8 +33,11 @@ export function BlogPostBody({
   // history when there is one to weight against.
   const [items, setItems] = useState(recommended);
   const [fromHistory, setFromHistory] = useState(false);
+  // This reader's previous visit, read before the current one is recorded.
+  const [lastReadAt, setLastReadAt] = useState<string | null>(null);
 
   useEffect(() => {
+    setLastReadAt(getLastReadAt(post.slug));
     const history = getReadingHistory().filter((slug) => slug !== post.slug);
     if (history.length > 0) {
       setItems(getPersonalizedRecommendations(post.slug, history, 3, locale));
@@ -62,12 +65,35 @@ export function BlogPostBody({
             <h1 className="headline mt-4 text-[32px] font-semibold text-ink sm:text-[40px]">
               {getPostTitle(post, locale)}
             </h1>
-            <div className="mt-6 flex items-center gap-3 text-[12px] text-ink-subtle">
-              <time dateTime={post.publishedAt}>
-                {formatPostDate(post.publishedAt, locale)}
-              </time>
+            <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-[12px] text-ink-subtle">
+              <span>
+                {t.blogPost.published}{" "}
+                <time dateTime={post.publishedAt}>
+                  {formatPostDate(post.publishedAt, locale)}
+                </time>
+              </span>
+              {post.updatedAt && post.updatedAt !== post.publishedAt ? (
+                <>
+                  <span className="h-1 w-1 rounded-full bg-line-strong" />
+                  <span>
+                    {t.blogPost.updated}{" "}
+                    <time dateTime={post.updatedAt}>
+                      {formatPostDate(post.updatedAt, locale)}
+                    </time>
+                  </span>
+                </>
+              ) : null}
               <span className="h-1 w-1 rounded-full bg-line-strong" />
               <span>{post.readingMinutes} {t.blogPage.readingTime}</span>
+              {lastReadAt ? (
+                <>
+                  <span className="h-1 w-1 rounded-full bg-line-strong" />
+                  <span>
+                    {t.blogPost.lastRead}{" "}
+                    <time dateTime={lastReadAt}>{formatPostDate(lastReadAt, locale)}</time>
+                  </span>
+                </>
+              ) : null}
             </div>
           </div>
         </Container>

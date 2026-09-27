@@ -6,6 +6,134 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "ux-website-yang-mengubah-pengunjung-jadi-pelanggan",
+    title: "UX Website: Cara Mengubah Pengunjung Menjadi Pelanggan",
+    excerpt: "Trafik tinggi tapi prospek sedikit biasanya bukan masalah pemasaran, melainkan pengalaman pengguna. Prinsip UX yang paling berpengaruh terhadap konversi website bisnis, dan cara memperbaikinya bertahap.",
+    category: "Website & Digital",
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    tags: [
+      "website",
+      "seo",
+      "pelanggan"
+    ],
+    titleTranslations: {
+      en: "Website UX: How to Turn Visitors into Customers",
+      zh: "网站用户体验:如何把访客转化为客户",
+    },
+    excerptTranslations: {
+      en: "High traffic but few leads is usually not a marketing problem but a user experience one. The UX principles that most affect business website conversion, and how to fix them step by step.",
+      zh: "流量很高却很少有潜在客户,问题通常不在营销,而在用户体验。本文介绍对企业网站转化影响最大的 UX 原则,以及如何逐步改进。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c",
+      alt: "Tangan menggunakan stylus untuk membuat sketsa wireframe antarmuka di layar tablet",
+    },
+  },
+  {
+    slug: "mvp-aplikasi-bisnis-mulai-dari-yang-kecil",
+    title: "MVP Aplikasi Bisnis: Mulai dari yang Kecil, Tumbuh dari Penggunaan Nyata",
+    excerpt: "Ide aplikasi yang terlalu besar sering tidak pernah dimulai. Pendekatan MVP membantu bisnis membangun versi terkecil yang sudah bermanfaat, lalu mengembangkannya berdasarkan bukti, bukan asumsi.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    tags: [
+      "custom-software",
+      "mobile",
+      "biaya",
+      "implementasi"
+    ],
+    titleTranslations: {
+      en: "Business App MVPs: Start Small, Grow from Real Usage",
+      zh: "企业应用 MVP:从小处起步,在真实使用中成长",
+    },
+    excerptTranslations: {
+      en: "App ideas that are too big often never get started. The MVP approach helps a business build the smallest version that is already useful, then grow it based on evidence rather than assumptions.",
+      zh: "过于庞大的应用构想往往迟迟无法启动。MVP 方法帮助企业先构建一个已经有用的最小版本,再根据证据而非假设逐步扩展。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a",
+      alt: "Meja kerja dengan ponsel, sketsa rancangan aplikasi di kertas, dan alat tulis berwarna",
+    },
+  },
+  {
+    slug: "erp-dan-visibilitas-arus-kas",
+    title: "ERP dan Visibilitas Arus Kas: Kenapa Bisnis Untung Bisa Kekurangan Uang",
+    excerpt: "Laporan laba rugi sehat, tapi kas menipis. ERP menghubungkan piutang, utang, dan persediaan sehingga posisi kas terlihat lebih awal — asalkan datanya dicatat dengan disiplin.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    tags: [
+      "erp",
+      "keuangan",
+      "pelaporan",
+      "inventori"
+    ],
+    titleTranslations: {
+      en: "ERP and Cash Flow Visibility: Why a Profitable Business Can Run Short of Cash",
+      zh: "ERP 与现金流可见性:为什么盈利的企业也会缺钱",
+    },
+    excerptTranslations: {
+      en: "The profit and loss looks healthy, yet cash is running thin. ERP connects receivables, payables, and inventory so the cash position becomes visible earlier — as long as the data is recorded with discipline.",
+      zh: "损益表很健康,现金却越来越紧。ERP 把应收、应付和库存连接起来,让现金状况更早显现——前提是数据得到有纪律的记录。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07",
+      alt: "Dokumen keuangan, kalkulator, dan secangkir kopi di atas meja kerja",
+    },
+  },
+  {
+    slug: "progressive-web-app-untuk-bisnis",
+    title: "Progressive Web App (PWA): Pengalaman Aplikasi Tanpa Toko Aplikasi",
+    excerpt: "PWA bisa dipasang di layar utama, bekerja saat sinyal lemah, dan dibangun sekali untuk semua perangkat. Kapan PWA menjadi pilihan tepat untuk bisnis, dan kapan aplikasi native tetap lebih baik.",
+    category: "Teknologi",
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    tags: [
+      "mobile",
+      "website",
+      "custom-software"
+    ],
+    titleTranslations: {
+      en: "Progressive Web Apps (PWA): An App Experience Without the App Store",
+      zh: "渐进式网页应用(PWA):无需应用商店的应用体验",
+    },
+    excerptTranslations: {
+      en: "A PWA can be installed on the home screen, works on a weak signal, and is built once for every device. When a PWA is the right choice for a business, and when a native app is still better.",
+      zh: "PWA 可以安装到主屏幕,在信号较弱时仍能工作,并且一次构建即可适配所有设备。什么时候 PWA 是企业的正确选择,什么时候原生应用仍然更好。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1551650975-87deedd944c3",
+      alt: "Tangan memegang ponsel yang menampilkan aplikasi dasbor dengan laptop di latar belakang",
+    },
+  },
+  {
+    slug: "digitalisasi-bisnis-keluarga-generasi-penerus",
+    title: "Digitalisasi Bisnis Keluarga: Menjaga Warisan, Menyiapkan Generasi Penerus",
+    excerpt: "Pengetahuan terpenting bisnis keluarga sering hanya ada di kepala pendirinya. Cara memulai digitalisasi yang menghormati cara kerja yang sudah terbukti sekaligus mempersiapkan suksesi.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-09-27",
+    updatedAt: "2026-09-27",
+    tags: [
+      "umkm",
+      "perubahan",
+      "operasional",
+      "custom-software"
+    ],
+    titleTranslations: {
+      en: "Digitalising a Family Business: Preserving the Legacy, Preparing the Next Generation",
+      zh: "家族企业数字化:守护传承,培养接班一代",
+    },
+    excerptTranslations: {
+      en: "A family business's most important knowledge often lives only in its founder's head. How to start digitalising in a way that respects proven ways of working while preparing for succession.",
+      zh: "家族企业最重要的知识,往往只存在于创始人的脑海中。如何以尊重既有成熟做法的方式开启数字化,同时为传承做好准备。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
+      alt: "Dua rekan kerja bertos dengan gembira di meja kantor dengan laptop dan dokumen",
+    },
+  },
+  {
     slug: "kenapa-bisnis-butuh-website-2026",
     title: "Kenapa Bisnis Anda Butuh Website yang Serius di 2026",
     excerpt: "Media sosial menjangkau audiens, tapi platformnya bukan milik Anda. Website tetap satu-satunya aset digital yang sepenuhnya berada di bawah kendali bisnis Anda sendiri.",
