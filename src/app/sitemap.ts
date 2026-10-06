@@ -41,6 +41,7 @@ const routes = [
   "/blog",
   "/about",
   "/contact",
+  "/checklist",
   "/privacy-policy",
   "/terms-conditions",
 ];

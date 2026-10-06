@@ -8,6 +8,7 @@ import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { PostBody } from "@/components/sections/post-body";
 import { PostCard } from "@/components/sections/post-card";
+import { ChecklistBanner } from "@/components/sections/checklist-banner";
 import { ContactCta } from "@/components/sections/contact-cta";
 import {
   formatPostDate,
@@ -167,6 +168,10 @@ export function BlogPostBody({
           </Container>
         </Section>
       ) : null}
+
+      <Section className="pt-16 md:pt-20">
+        <ChecklistBanner />
+      </Section>
 
       <Section className="border-t border-line bg-surface-1 pt-20 md:pt-28">
         <ContactCta />

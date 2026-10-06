@@ -260,3 +260,13 @@ body {
     padding-right: 2.5rem;
   }
 }
+
+/* Printing / saving the checklist as PDF: leave out site chrome. */
+@media print {
+  header,
+  footer,
+  .no-print,
+  [data-no-print] {
+    display: none !important;
+  }
+}

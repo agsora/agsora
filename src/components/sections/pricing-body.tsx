@@ -4,6 +4,7 @@ import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CustomDevPricing } from "@/components/sections/custom-dev-pricing";
+import { ChecklistBanner } from "@/components/sections/checklist-banner";
 import { PriceEstimator } from "@/components/sections/price-estimator";
 import { PricingDisclaimer } from "@/components/sections/pricing-disclaimer";
 import { ContactCta } from "@/components/sections/contact-cta";
@@ -49,6 +50,10 @@ export function PricingBody() {
         <div className="pt-20 md:pt-28">
           <Faq />
         </div>
+      </Section>
+
+      <Section className="pt-0">
+        <ChecklistBanner />
       </Section>
 
       <Section className="pt-0">

@@ -1,5 +1,6 @@
 "use client";
 
+import { checklistStrings } from "@/config/checklist";
 import Link from "@/i18n/link";
 import { InstagramIcon, FacebookIcon, TiktokIcon } from "@/components/social-icons";
 import { siteConfig } from "@/config/site";
@@ -89,6 +90,7 @@ export function Footer() {
               { label: t.nav.industries, href: "/industries" },
               { label: t.nav.pricing, href: "/pricing" },
               { label: t.nav.blog, href: "/blog" },
+              { label: checklistStrings[locale].navLabel, href: "/checklist" },
               { label: t.nav.about, href: "/about" },
               { label: t.nav.contact, href: "/contact" },
             ]}
