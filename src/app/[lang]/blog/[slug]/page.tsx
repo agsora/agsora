@@ -57,7 +57,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = getPostExcerpt(post, locale);
   const path = `/blog/${post.slug}`;
   const available = postLocales(post);
-  const ogImage = coverUrl(post.cover.src, 1200);
+  // Generated per article and language: its title plus the category motif.
+  const ogImage = `${siteConfig.url}/og/blog/${locale}/${post.slug}`;
 
   return {
     title,
