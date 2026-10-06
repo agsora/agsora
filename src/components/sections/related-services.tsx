@@ -70,7 +70,7 @@ export function RelatedServices({ postSlug }: { postSlug: string }) {
 
   return (
     <aside className="mt-10 rounded-lg border border-line bg-surface-1 p-6">
-      <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+      <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
         {locale === "id"
           ? "Layanan terkait"
           : locale === "en"

@@ -205,7 +205,7 @@ export function ChecklistBody() {
               </div>
 
               <div className="mt-10 rounded-lg border border-line bg-surface-1 p-6">
-                <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+                <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
                   {s.progress(count, checklistTotal)}
                 </p>
                 <p className="mt-2 text-[14px] leading-relaxed text-ink">{verdict}</p>

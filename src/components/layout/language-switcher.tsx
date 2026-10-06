@@ -76,7 +76,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
               )}
             >
               {o.name}
-              <span className="text-[11px] text-ink-subtle">{o.label}</span>
+              <span className="text-[12px] text-ink-subtle">{o.label}</span>
             </NextLink>
           </li>
         ))}

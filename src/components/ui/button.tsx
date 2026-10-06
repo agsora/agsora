@@ -6,7 +6,7 @@ type Variant = "primary" | "secondary" | "outline" | "ghost";
 type Size = "sm" | "md" | "lg";
 
 const variantClasses: Record<Variant, string> = {
-  // hover:bg-white used to turn the light-theme button white-on-white.
+  // hover:bg-ink/85 used to turn the light-theme button white-on-white.
   primary: "bg-ink text-surface-0 hover:bg-ink/85",
   secondary: "bg-surface-2 text-ink border border-line-strong hover:bg-surface-3",
   outline: "border border-line-strong text-ink hover:border-ink-subtle hover:bg-surface-1",

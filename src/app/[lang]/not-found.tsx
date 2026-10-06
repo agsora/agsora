@@ -13,7 +13,7 @@ export default function NotFound() {
     <div className="relative flex min-h-[70vh] items-center overflow-hidden">
       <Container className="max-w-6xl">
         <div className="max-w-lg">
-          <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+          <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
             {t.notFound.eyebrow}
           </p>
           <h1 className="headline mt-5 text-[34px] font-semibold text-ink sm:text-[42px]">

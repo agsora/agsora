@@ -28,7 +28,7 @@ export function PriceEstimator() {
 
   return (
     <div className="rounded-lg border border-line bg-surface-1 p-6 md:p-8">
-      <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">{g.eyebrow}</p>
+      <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">{g.eyebrow}</p>
       <h2 className="headline mt-3 text-[24px] font-semibold text-ink sm:text-[28px]">{g.title}</h2>
       <p className="mt-3 max-w-xl text-[14px] leading-relaxed text-ink-muted">{g.description}</p>
 
@@ -75,7 +75,7 @@ export function PriceEstimator() {
             <>
               {oneTime > 0 ? (
                 <div>
-                  <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">{g.oneTime}</p>
+                  <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">{g.oneTime}</p>
                   <p className="mt-2 text-[26px] font-semibold tabular-nums text-ink">
                     {formatRupiah(oneTime, locale)}
                   </p>
@@ -83,7 +83,7 @@ export function PriceEstimator() {
               ) : null}
               {monthly > 0 ? (
                 <div className={oneTime > 0 ? "mt-4" : ""}>
-                  <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">{g.monthly}</p>
+                  <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">{g.monthly}</p>
                   <p className="mt-2 text-[20px] font-semibold tabular-nums text-ink">
                     {formatRupiah(monthly, locale)}
                   </p>

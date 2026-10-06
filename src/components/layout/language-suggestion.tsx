@@ -51,7 +51,12 @@ export function LanguageSuggestion() {
       () => setTarget(preferred === locale ? null : preferred),
       0
     );
-    return () => window.clearTimeout(id);
+    // The offer is a courtesy, not a banner: it leaves on its own.
+    const hide = window.setTimeout(() => setTarget(null), 12000);
+    return () => {
+      window.clearTimeout(id);
+      window.clearTimeout(hide);
+    };
   }, [locale]);
 
   if (!target) return null;
@@ -71,11 +76,11 @@ export function LanguageSuggestion() {
       role="region"
       aria-label={copy.message}
       lang={hreflangs[target]}
-      className="fixed bottom-5 left-5 z-40 flex max-w-[calc(100vw-6.5rem)] items-center gap-3 rounded-lg border border-line-strong bg-surface-1/95 py-2.5 pl-4 pr-2 text-[13px] text-ink-muted shadow-elev backdrop-blur-xl sm:max-w-sm"
+      className="fixed bottom-5 left-5 z-40 flex max-w-[calc(100vw-6.5rem)] items-center gap-2 rounded-lg border border-line-strong bg-surface-1/95 py-1.5 pl-3 pr-1.5 sm:gap-3 sm:py-2.5 sm:pl-4 sm:pr-2 text-[13px] text-ink-muted shadow-elev backdrop-blur-xl sm:max-w-sm"
     >
       <Globe className="h-4 w-4 shrink-0 text-accent" />
       <p className="min-w-0">
-        {copy.message}{" "}
+        <span className="hidden sm:inline">{copy.message} </span>
         <NextLink
           href={localizePath(alternatePath(path, target, translatedPosts), target)}
           hrefLang={hreflangs[target]}

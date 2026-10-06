@@ -57,7 +57,7 @@ export function Header() {
       )}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between container-px">
-        <Link href="/" className="focus-ring flex items-center gap-2.5">
+        <Link href="/" className="tap focus-ring flex items-center gap-2.5">
           <RibbonLogo className="h-7 w-auto" />
           <span className="text-[15px] font-semibold tracking-tight text-ink">
             AG<span className="text-ink-subtle">·</span>SORA

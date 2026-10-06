@@ -21,7 +21,7 @@ export function ServicesIndex() {
         />
         <Link
           href="/services"
-          className="focus-ring group inline-flex shrink-0 items-center gap-2 text-[14px] text-ink-muted transition-colors hover:text-ink"
+          className="tap focus-ring group inline-flex shrink-0 items-center gap-2 text-[14px] text-ink-muted transition-colors hover:text-ink"
         >
           {t.servicesGrid.seeAll}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
@@ -50,7 +50,7 @@ export function ServicesIndex() {
                 {service.description[locale]}
               </p>
               <span className="col-start-2 row-start-1 text-right md:col-start-auto md:row-start-auto">
-                <span className="block text-[11px] text-ink-subtle">
+                <span className="block text-[12px] text-ink-subtle">
                   {t.servicesGrid.startingFrom}
                 </span>
                 <span className="block text-[14px] font-medium tabular-nums text-ink">

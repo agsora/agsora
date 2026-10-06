@@ -98,14 +98,14 @@ function Core({ sub, tags }: { sub: string; tags: string[] }) {
         <RibbonLogo className="h-6 w-auto" />
         <div className="min-w-0">
           <p className="text-[15px] font-semibold leading-tight text-ink">AG·SORA Core</p>
-          <p className="font-mono text-[11px] text-ink-subtle">{sub}</p>
+          <p className="font-mono text-[12px] text-ink-subtle">{sub}</p>
         </div>
       </div>
       <div className="mt-3 flex flex-wrap gap-1.5 border-t border-line pt-3">
         {tags.map((tag) => (
           <span
             key={tag}
-            className="rounded-sm border border-line px-1.5 py-0.5 font-mono text-[10px] text-ink-muted"
+            className="rounded-sm border border-line px-1.5 py-0.5 font-mono text-[12px] text-ink-muted"
           >
             {tag}
           </span>
@@ -117,7 +117,7 @@ function Core({ sub, tags }: { sub: string; tags: string[] }) {
 
 function ColumnLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-subtle">
+    <p className="font-mono text-[12px] uppercase tracking-[0.08em] text-ink-subtle">
       {children}
     </p>
   );
@@ -135,8 +135,8 @@ export function HeroVisual() {
     >
       {/* Title bar with the legend */}
       <div className="flex items-center justify-between gap-4 border-b border-line bg-surface-1 px-4 py-2.5">
-        <p className="font-mono text-[11px] text-ink-muted">{v.title}</p>
-        <div className="hidden items-center gap-4 font-mono text-[11px] text-ink-subtle sm:flex">
+        <p className="font-mono text-[12px] text-ink-muted">{v.title}</p>
+        <div className="hidden items-center gap-4 font-mono text-[12px] text-ink-subtle sm:flex">
           <span className="flex items-center gap-1.5">
             <span className="h-2.5 w-3.5 rounded-[2px] border border-line bg-surface-1" />
             {v.internal}

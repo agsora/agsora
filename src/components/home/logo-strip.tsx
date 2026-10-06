@@ -28,14 +28,14 @@ export function LogoStrip() {
               <div
                 key={`${client.name}-${i}`}
                 aria-hidden={i >= clients.length}
-                className="mr-3 flex h-[72px] w-32 shrink-0 items-center justify-center rounded-md bg-white px-3 opacity-90 ring-1 ring-black/5 transition-opacity duration-300 hover:opacity-100 [&:hover_img]:grayscale-0"
+                className="mr-3 flex h-[72px] w-32 shrink-0 items-center justify-center rounded-md bg-white px-3 ring-1 ring-black/5 transition-opacity duration-300 hover:opacity-100 [&:hover_img]:grayscale-0"
               >
                 <Image
                   src={client.logo}
                   alt={i < clients.length ? client.name : ""}
                   width={112}
                   height={48}
-                  className="h-14 w-full object-contain mix-blend-multiply grayscale transition duration-300"
+                  className="h-14 w-full object-contain mix-blend-multiply grayscale contrast-125 transition duration-300"
                 />
               </div>
             ))}

@@ -31,7 +31,7 @@ export function LatestArticles({ posts }: { posts: HomeArticle[] }) {
         <HomeHeading eyebrow={t.nav.blog} title={t.home.blogTitle} />
         <Link
           href="/blog"
-          className="focus-ring group inline-flex shrink-0 items-center gap-2 text-[14px] text-ink-muted transition-colors hover:text-ink"
+          className="tap focus-ring group inline-flex shrink-0 items-center gap-2 text-[14px] text-ink-muted transition-colors hover:text-ink"
         >
           {t.home.blogCta}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
@@ -45,7 +45,7 @@ export function LatestArticles({ posts }: { posts: HomeArticle[] }) {
             href={`/blog/${post.slug}`}
             className="focus-ring group flex flex-col border-b border-line py-7 md:border-b-0 md:py-9 md:pr-8 md:[&+&]:border-l md:[&+&]:pl-8"
           >
-            <p className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-subtle">
+            <p className="font-mono text-[12px] uppercase tracking-[0.08em] text-ink-subtle">
               {post.category}
             </p>
             <h3 className="mt-3 text-pretty text-[18px] font-medium leading-snug tracking-tight text-ink transition-colors group-hover:text-accent">

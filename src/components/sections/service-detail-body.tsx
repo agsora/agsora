@@ -45,7 +45,7 @@ export function ServiceDetailBody({
 
           <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_300px] lg:items-end">
             <div>
-              <div className="flex items-center gap-2.5 text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+              <div className="flex items-center gap-2.5 text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
                 <Icon className="h-3.5 w-3.5 text-accent" />
                 {service.title[locale]}
               </div>
@@ -70,7 +70,7 @@ export function ServiceDetailBody({
             </div>
 
             <div className="rounded-lg border border-line bg-surface-1 p-6">
-              <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+              <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
                 {t.servicesGrid.startingFrom}
               </p>
               <p className="mt-3 text-[28px] font-semibold tabular-nums text-ink">
@@ -111,7 +111,7 @@ export function ServiceDetailBody({
               <ul className="mt-10 divide-y divide-line border-y border-line">
                 {detail.deliverables[locale].map((item, i) => (
                   <li key={item} className="flex items-start gap-4 py-4">
-                    <span className="pt-0.5 text-[11px] tabular-nums text-ink-subtle">
+                    <span className="pt-0.5 text-[12px] tabular-nums text-ink-subtle">
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <span className="text-[14px] leading-relaxed text-ink-muted">

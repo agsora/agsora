@@ -20,7 +20,7 @@ export function Principles() {
         {principles.map((principle, i) => (
           <Reveal key={principle.title.id} delay={i * 0.05}>
             <div className="grid gap-3 py-7 md:grid-cols-[auto_1fr_1.4fr] md:items-start md:gap-10">
-              <span className="text-[11px] tabular-nums text-ink-subtle md:pt-1">
+              <span className="text-[12px] tabular-nums text-ink-subtle md:pt-1">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h3 className="text-[15px] font-medium text-ink">

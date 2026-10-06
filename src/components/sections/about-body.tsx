@@ -41,7 +41,7 @@ export function AboutBody() {
             </Reveal>
             <Reveal delay={0.1}>
               <div className="rounded-lg border border-line bg-surface-1 p-7">
-                <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+                <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
                   {t.aboutPage.brandPersonality}
                 </p>
                 <div className="mt-5 flex flex-wrap gap-2">
@@ -70,7 +70,7 @@ export function AboutBody() {
             {valueProps.map((v, i) => (
               <RevealItem key={v.title.en}>
                 <div className="border-t border-line pt-5">
-                  <span className="text-[11px] tabular-nums text-ink-subtle">
+                  <span className="text-[12px] tabular-nums text-ink-subtle">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <h3 className="mt-3 text-[14px] font-medium text-ink">

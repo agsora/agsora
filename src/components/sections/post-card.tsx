@@ -47,7 +47,7 @@ export function PostCard({
       </div>
 
       <div className="flex flex-1 flex-col p-6">
-        <span className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
+        <span className="text-[12px] uppercase tracking-[0.14em] text-ink-subtle">
           {getCategoryLabel(post.category, locale)}
         </span>
 

@@ -43,7 +43,8 @@ export function ContactForm() {
     .map((id) => customDevPricing.find((p) => p.id === id)?.name[locale])
     .filter((n): n is string => Boolean(n));
   const plan = planNames.join(", ");
-  const sourcePage = params.get("from") ?? pathname;
+  const industry = params.get("industry");
+  const sourcePage = `${params.get("from") ?? pathname}${industry ? ` (${industry})` : ""}`;
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();

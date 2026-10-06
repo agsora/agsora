@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/home/hero";
 import { LogoStrip } from "@/components/home/logo-strip";
+import { ProofStrip } from "@/components/home/proof-strip";
 import { ServicesIndex } from "@/components/home/services-index";
 import { LatestArticles, type HomeArticle } from "@/components/home/latest-articles";
 import { HomeFaq } from "@/components/home/home-faq";
@@ -110,6 +111,7 @@ export default async function Home({ params }: LangParams) {
       />
       <Hero />
       <LogoStrip />
+      <ProofStrip />
       <Section className="py-20 md:py-32">
         <ServicesIndex />
       </Section>

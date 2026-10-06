@@ -67,7 +67,7 @@ export function CustomDevPricing() {
                     <Link
                       href={`/contact?plan=${item.id}&from=/pricing`}
                       onClick={() => track("quote_click", { plan: item.id })}
-                      className="focus-ring mt-4 inline-flex items-center gap-1.5 text-[12px] font-medium text-accent transition-colors hover:text-ink"
+                      className="tap focus-ring mt-4 inline-flex items-center gap-1.5 text-[12px] font-medium text-accent transition-colors hover:text-ink"
                     >
                       {growth[locale].requestQuote}
                       <ArrowRight className="h-3.5 w-3.5" />

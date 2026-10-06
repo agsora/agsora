@@ -4,6 +4,16 @@ import { ArrowRight } from "lucide-react";
 import type { Block } from "@/config/blog";
 import { RelatedServices } from "@/components/sections/related-services";
 
+/** Stable anchor for an h2, shared with the table of contents. */
+export function headingId(text: string, index: number) {
+  const slug = text
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[^\p{L}\p{N}]+/gu, "-")
+    .replace(/^-+|-+$/g, "");
+  return `${index + 1}-${slug || "section"}`;
+}
+
 export function PostBody({
   blocks,
   postSlug,
@@ -19,7 +29,8 @@ export function PostBody({
             return (
               <h2
                 key={i}
-                className="mt-12 text-[20px] font-semibold tracking-tight text-ink first:mt-0"
+                id={headingId(block.text, blocks.slice(0, i).filter((b) => b.type === "h2").length)}
+                className="mt-12 scroll-mt-24 text-[20px] font-semibold tracking-tight text-ink first:mt-0"
               >
                 {block.text}
               </h2>
@@ -116,7 +127,7 @@ export function PostBody({
                 </p>
                 <Link
                   href={block.href}
-                  className="focus-ring relative mt-5 inline-flex items-center gap-2 rounded-md bg-ink px-4 py-2.5 text-[14px] font-medium text-surface-0 transition-colors hover:bg-white"
+                  className="focus-ring relative mt-5 inline-flex items-center gap-2 rounded-md bg-ink px-4 py-2.5 text-[14px] font-medium text-surface-0 transition-colors hover:bg-ink/85"
                 >
                   {block.label}
                   <ArrowRight className="h-4 w-4" />

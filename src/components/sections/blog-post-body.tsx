@@ -7,6 +7,8 @@ import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { PostBody } from "@/components/sections/post-body";
+import { PostTocMobile, PostTocSidebar } from "@/components/sections/post-toc";
+import { growth } from "@/i18n/growth";
 import { PostCard } from "@/components/sections/post-card";
 import { ChecklistBanner } from "@/components/sections/checklist-banner";
 import { ContactCta } from "@/components/sections/contact-cta";
@@ -85,14 +87,14 @@ export function BlogPostBody({
         <Container className="max-w-6xl">
           <Link
             href="/blog"
-            className="focus-ring inline-flex items-center gap-2 text-[12px] text-ink-subtle transition-colors hover:text-ink"
+            className="tap focus-ring inline-flex items-center gap-2 text-[12px] text-ink-subtle transition-colors hover:text-ink"
           >
             <ArrowLeft className="h-3.5 w-3.5" />
             {t.blogPost.allArticles}
           </Link>
 
           <div className="mt-8 max-w-3xl">
-            <span className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+            <span className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
               {getCategoryLabel(post.category, locale)}
             </span>
             <h1 className="headline mt-4 text-[32px] font-semibold text-ink sm:text-[40px]">
@@ -118,6 +120,8 @@ export function BlogPostBody({
               ) : null}
               <span className="h-1 w-1 rounded-full bg-line-strong" />
               <span>{post.readingMinutes} {t.blogPage.readingTime}</span>
+              <span className="h-1 w-1 rounded-full bg-line-strong" />
+              <span>{growth[locale].byline}</span>
               {lastReadAt ? (
                 <>
                   <span className="h-1 w-1 rounded-full bg-line-strong" />
@@ -147,14 +151,25 @@ export function BlogPostBody({
 
       <Section>
         <Container className="max-w-6xl">
-          <PostBody blocks={getPostBlocks(post, locale)} postSlug={post.slug} />
+          {(() => {
+            const blocks = getPostBlocks(post, locale);
+            return (
+              <div className="lg:grid lg:grid-cols-[minmax(0,42rem)_16rem] lg:justify-between lg:gap-12">
+                <div>
+                  <PostTocMobile blocks={blocks} />
+                  <PostBody blocks={blocks} postSlug={post.slug} />
+                </div>
+                <PostTocSidebar blocks={blocks} />
+              </div>
+            );
+          })()}
         </Container>
       </Section>
 
       {items.length ? (
         <Section className="pt-16 md:pt-20">
           <Container className="max-w-6xl">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+            <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
               {t.blogPost.recommendedEyebrow}
             </p>
             <h2 className="headline mt-3 text-[22px] font-semibold text-ink sm:text-[26px]">

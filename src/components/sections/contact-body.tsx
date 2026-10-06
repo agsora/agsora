@@ -26,17 +26,17 @@ export function ContactBody() {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-12">
             <div className="lg:col-span-2">
               <Reveal>
-                <p className="text-[11px] uppercase tracking-[0.18em] text-ink-subtle">
+                <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
                   {t.contactPage.contactInfo}
                 </p>
                 <div className="mt-6 divide-y divide-line border-y border-line">
                   <div className="flex items-start gap-3 py-4">
                     <Mail className="mt-0.5 h-4 w-4 text-ink-subtle" />
                     <div>
-                      <p className="text-[11px] text-ink-subtle">{t.contactPage.email}</p>
+                      <p className="text-[12px] text-ink-subtle">{t.contactPage.email}</p>
                       <a
                         href={`mailto:${siteConfig.email}`}
-                        className="focus-ring text-[14px] text-ink transition-colors hover:text-accent"
+                        className="tap focus-ring text-[14px] text-ink transition-colors hover:text-accent"
                       >
                         {siteConfig.email}
                       </a>
@@ -45,12 +45,12 @@ export function ContactBody() {
                   <div className="flex items-start gap-3 py-4">
                     <MessageCircle className="mt-0.5 h-4 w-4 text-ink-subtle" />
                     <div>
-                      <p className="text-[11px] text-ink-subtle">{t.contactPage.whatsapp}</p>
+                      <p className="text-[12px] text-ink-subtle">{t.contactPage.whatsapp}</p>
                       <a
                         href={siteConfig.whatsapp.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="focus-ring text-[14px] text-ink transition-colors hover:text-accent"
+                        className="tap focus-ring text-[14px] text-ink transition-colors hover:text-accent"
                       >
                         {t.contactPage.whatsappCta}
                       </a>
@@ -60,7 +60,7 @@ export function ContactBody() {
                   <div className="flex items-start gap-3 py-4">
                     <MapPin className="mt-0.5 h-4 w-4 text-ink-subtle" />
                     <div>
-                      <p className="text-[11px] text-ink-subtle">{t.contactPage.website}</p>
+                      <p className="text-[12px] text-ink-subtle">{t.contactPage.website}</p>
                       <p className="text-[14px] text-ink">
                         {siteConfig.domain}
                       </p>
