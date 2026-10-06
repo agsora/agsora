@@ -47,11 +47,11 @@ export const meta: PostMeta[] = [
       zh: "难以使用的网站会在不知不觉中流失客户。无障碍的基本原则、影响最大的修复、检查方法,以及它为何与搜索引擎优化相辅相成。",
     },
     cover: {
-      src: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd",
-      alt: "Meja kerja minimalis dengan komputer iMac, tanaman, dan kursi abu-abu",
+      src: "https://images.unsplash.com/photo-1576864333223-db90dadfb975",
+      alt: "Papan petunjuk aksesibilitas",
       altTranslations: {
-        en: "A minimalist workspace with an iMac, a plant, and a gray chair",
-        zh: "极简风格的工作台,有 iMac、绿植和灰色椅子",
+        en: "Accessibility signage",
+        zh: "无障碍标识牌",
       },
     },
   },
@@ -147,11 +147,11 @@ export const meta: PostMeta[] = [
       zh: "客户习惯使用 WhatsApp,但分散在员工手机上的对话很难管理。如何把 WhatsApp 连接到 CRM、网站和订单系统,又不让服务显得像机器人。",
     },
     cover: {
-      src: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7",
-      alt: "Ikon aplikasi tiga dimensi berwarna-warni di atas latar gelap",
+      src: "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7",
+      alt: "Ikon gelembung percakapan hijau dengan gagang telepon di latar gelap",
       altTranslations: {
-        en: "Colorful three-dimensional app icons on a dark background",
-        zh: "深色背景上色彩缤纷的三维应用图标",
+        en: "A green speech bubble icon with a telephone handset on a dark background",
+        zh: "深色背景上带有电话听筒的绿色对话气泡图标",
       },
     },
   },
@@ -172,11 +172,11 @@ export const meta: PostMeta[] = [
       zh: "许多购买决定在人们打开网站之前就发生在 Google 地图上。如何完善 Google 商家资料、保持数据一致、管理评价,并通过网站强化本地信号。",
     },
     cover: {
-      src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-      alt: "Tiga orang tertawa sambil berdiskusi di depan laptop di sebuah kafe",
+      src: "https://images.unsplash.com/photo-1694928850410-b209896782a2",
+      alt: "Pin Google Maps di atas selembar kertas",
       altTranslations: {
-        en: "Three people laughing and talking in front of a laptop in a cafe",
-        zh: "三个人在咖啡馆里对着笔记本电脑边笑边讨论",
+        en: "A Google Maps pin on top of a sheet of paper",
+        zh: "纸张上的谷歌地图定位标记",
       },
     },
   },
@@ -247,11 +247,11 @@ export const meta: PostMeta[] = [
       zh: "不加维护的软件会慢慢退化。维护包括什么、保修与维护有何不同、如何起草服务协议,以及上线时必须移交什么。",
     },
     cover: {
-      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-      alt: "Laptop setengah tertutup memancarkan cahaya berwarna di ruangan gelap",
+      src: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3",
+      alt: "Layar laptop menampilkan kode program berwarna-warni",
       altTranslations: {
-        en: "A half-closed laptop glowing with colored light in a dark room",
-        zh: "半合上的笔记本电脑在黑暗的房间里发出彩色的光",
+        en: "A laptop screen displaying colorful code",
+        zh: "显示彩色代码的笔记本电脑屏幕",
       },
     },
   },
@@ -395,11 +395,11 @@ export const meta: PostMeta[] = [
       zh: "家族企业最重要的知识,往往只存在于创始人的脑海中。如何以尊重既有成熟做法的方式开启数字化,同时为传承做好准备。",
     },
     cover: {
-      src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
-      alt: "Dua rekan kerja bertos dengan gembira di meja kantor dengan laptop dan dokumen",
+      src: "https://images.unsplash.com/photo-1753351052617-62818ffc9173",
+      alt: "Dua pemilik kafe berdiri bersama dengan bangga",
       altTranslations: {
-        en: "Two colleagues high-fiving happily at an office desk with a laptop and documents",
-        zh: "两位同事在放着笔记本电脑和文件的办公桌前开心击掌",
+        en: "Two cafe owners proudly standing together",
+        zh: "两位咖啡馆老板自豪地并肩站立",
       },
     },
   },
@@ -679,8 +679,8 @@ export const meta: PostMeta[] = [
       "operasional"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-      alt: "Gedung perkantoran modern dengan fasad kaca dilihat dari bawah"
+      src: "https://images.unsplash.com/photo-1655393001768-d946c97d6fd1",
+      alt: "Lengan robot putih di ruang pamer",
     }
   },
   {
@@ -928,8 +928,8 @@ export const meta: PostMeta[] = [
       "otomasi"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      alt: "Tangan mengetik di keyboard laptop"
+      src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
+      alt: "Seseorang memegang ponsel Android putih",
     }
   },
   {
@@ -945,8 +945,8 @@ export const meta: PostMeta[] = [
       "otomasi"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173",
-      alt: "Seseorang menulis catatan di buku di samping cangkir kopi"
+      src: "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
+      alt: "Dua perempuan memakai headset di ruang kerja kantor yang terang",
     }
   },
   {
@@ -961,8 +961,8 @@ export const meta: PostMeta[] = [
       "data"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
-      alt: "Panel jaringan dengan kabel ethernet biru terpasang"
+      src: "https://images.unsplash.com/photo-1601737487795-dab272f52420",
+      alt: "Hard disk eksternal berwarna perak dan hitam",
     }
   },
   {
@@ -1075,8 +1075,8 @@ export const meta: PostMeta[] = [
       "operasional"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1552581234-26160f608093",
-      alt: "Beberapa orang bekerja bersama di meja putih dengan laptop dan catatan tempel di dinding"
+      src: "https://images.unsplash.com/photo-1546435269-527d657231eb",
+      alt: "Seseorang berdiri di depan papan selamat datang",
     }
   },
   {
@@ -1122,8 +1122,8 @@ export const meta: PostMeta[] = [
       "seo"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2",
-      alt: "Monitor menampilkan kode program dengan keyboard bercahaya di meja gelap"
+      src: "https://images.unsplash.com/photo-1704265586142-db3e17d0dea0",
+      alt: "Stopwatch dalam jarak dekat di latar hitam",
     }
   },
   {
@@ -1252,8 +1252,8 @@ export const meta: PostMeta[] = [
       "data"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1555421689-491a97ff2040",
-      alt: "Tangan mengetik di keyboard komputer di meja kerja putih"
+      src: "https://images.unsplash.com/photo-1592744254966-58c65cfd2e69",
+      alt: "Kunci kombinasi berwarna perak dan hitam",
     }
   },
   {
@@ -1315,8 +1315,8 @@ export const meta: PostMeta[] = [
       "data"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1551434678-e076c223a692",
-      alt: "Dua orang bekerja di depan komputer di kantor yang terang"
+      src: "https://images.unsplash.com/photo-1593062037896-764e9f52029e",
+      alt: "Roda gigi logam yang saling bertaut",
     }
   },
   {
@@ -1364,8 +1364,8 @@ export const meta: PostMeta[] = [
       "karyawan"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe",
-      alt: "Cangkir kopi di atas lembar kalender bulanan"
+      src: "https://images.unsplash.com/photo-1779444480542-959afceec330",
+      alt: "Meja kerja malam hari dengan laptop, lampu, dan cahaya kota",
     }
   },
   {
@@ -1495,8 +1495,8 @@ export const meta: PostMeta[] = [
       "infrastruktur"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      alt: "Komponen elektronik pada papan sirkuit dilihat dari dekat"
+      src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+      alt: "Gembok merah di atas keyboard komputer hitam",
     }
   },
   {
@@ -1527,8 +1527,8 @@ export const meta: PostMeta[] = [
       "custom-software"
     ],
     cover: {
-      src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
-      alt: "Seseorang menyerahkan paket kardus kepada penerima"
+      src: "https://images.unsplash.com/photo-1606904825846-647eb07f5be2",
+      alt: "Router putih di atas meja putih",
     }
   }
 ];
