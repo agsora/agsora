@@ -23,6 +23,13 @@ const MAX = {
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+/** "0823-1868-1524" / "+62 823..." → "62823..." for a wa.me link; null if it does not look like a phone number. */
+function whatsappDigits(phone: string) {
+  const digits = phone.replace(/\D/g, "");
+  const intl = digits.startsWith("0") ? `62${digits.slice(1)}` : digits;
+  return intl.length >= 9 && intl.length <= 15 ? intl : null;
+}
+
 function clean(value: unknown, max: number) {
   return typeof value === "string" ? value.trim().slice(0, max) : "";
 }
@@ -75,11 +82,13 @@ export async function POST(request: Request) {
   const resendKey = process.env.RESEND_API_KEY;
   const notifyTo = process.env.LEAD_NOTIFY_EMAIL;
   if (resendKey && notifyTo) {
+    const waDigits = whatsappDigits(lead.phone);
     const text = [
       `Nama: ${lead.name}`,
       `Perusahaan: ${lead.company ?? "-"}`,
       `Email: ${lead.email}`,
       `WhatsApp: ${lead.phone}`,
+      `Chat klien: ${waDigits ? `https://wa.me/${waDigits}` : "-"}`,
       `Kebutuhan: ${lead.need ?? "-"}`,
       `Budget: ${lead.budget ?? "-"}`,
       `Paket: ${lead.plan ?? "-"}`,
