@@ -17,6 +17,8 @@ type Growth = {
   };
   requestQuote: string;
   selectedPlan: string;
+  copyNumber: string;
+  copied: string;
   estimator: {
     eyebrow: string;
     title: string;
@@ -46,6 +48,8 @@ export const growth: Record<Locale, Growth> = {
     },
     requestQuote: "Minta penawaran",
     selectedPlan: "Paket dipilih",
+    copyNumber: "Salin nomor",
+    copied: "Tersalin",
     estimator: {
       eyebrow: "Estimasi Biaya",
       title: "Hitung perkiraan investasi Anda",
@@ -74,6 +78,8 @@ export const growth: Record<Locale, Growth> = {
     },
     requestQuote: "Request a quote",
     selectedPlan: "Selected plan",
+    copyNumber: "Copy number",
+    copied: "Copied",
     estimator: {
       eyebrow: "Cost Estimator",
       title: "Estimate your investment",
@@ -102,6 +108,8 @@ export const growth: Record<Locale, Growth> = {
     },
     requestQuote: "获取报价",
     selectedPlan: "已选方案",
+    copyNumber: "复制号码",
+    copied: "已复制",
     estimator: {
       eyebrow: "费用估算",
       title: "估算您的投入",

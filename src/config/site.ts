@@ -10,6 +10,7 @@ export const siteConfig = {
   email: "hello@agsora.tech",
   whatsapp: {
     display: "WhatsApp",
+    number: "+62 823-1868-1524",
     href: "https://wa.me/6282318681524",
   },
   social: {

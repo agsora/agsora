@@ -4,6 +4,7 @@ import { Mail, MessageCircle, MapPin } from "lucide-react";
 import { PageHero } from "@/components/sections/page-hero";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
+import { CopyNumber } from "@/components/sections/copy-number";
 import { ContactForm } from "@/components/sections/contact-form";
 import { Reveal } from "@/components/motion/reveal";
 import { siteConfig } from "@/config/site";
@@ -53,6 +54,7 @@ export function ContactBody() {
                       >
                         {t.contactPage.whatsappCta}
                       </a>
+                      <CopyNumber />
                     </div>
                   </div>
                   <div className="flex items-start gap-3 py-4">
