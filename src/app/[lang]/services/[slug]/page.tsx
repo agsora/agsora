@@ -8,7 +8,7 @@ import { getPostBySlug, isPostAvailable, type BlogPost } from "@/config/blog";
 import { siteConfig } from "@/config/site";
 import { dictionaries } from "@/i18n/dictionaries";
 import { absoluteUrl, isLocale, type Locale } from "@/i18n/routing";
-import { pageMetadata } from "@/lib/seo";
+import { pageMetadata, jsonLd } from "@/lib/seo";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
@@ -101,7 +101,7 @@ export default async function ServiceDetailPage({ params }: Props) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
       />
       <ServiceDetailBody
         slug={slug}

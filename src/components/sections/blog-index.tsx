@@ -1,5 +1,6 @@
 "use client";
 
+import { jsonLd } from "@/lib/seo";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { PageHero } from "@/components/sections/page-hero";
@@ -168,7 +169,7 @@ export function BlogIndex({ page }: { page: number }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
       />
 
       <PageHero

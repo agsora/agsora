@@ -1,7 +1,9 @@
+import { jsonLd } from "@/lib/seo";
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@/components/analytics";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
@@ -154,7 +156,7 @@ export default async function RootLayout({ children, params }: Props) {
         </Script>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+          dangerouslySetInnerHTML={{ __html: jsonLd(organizationSchema) }}
         />
         <ThemeProvider>
           <LocaleProvider locale={lang} translatedPosts={translatedPostSlugs}>
@@ -171,6 +173,7 @@ export default async function RootLayout({ children, params }: Props) {
             <Footer />
             <WhatsAppButton />
             <LanguageSuggestion />
+            <Analytics />
           </LocaleProvider>
         </ThemeProvider>
       </body>

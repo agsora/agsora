@@ -30,6 +30,9 @@ function localized(
   }));
 }
 
+/** Bump when the static pages or service copy change in a way worth re-crawling. */
+const STATIC_PAGES_UPDATED = new Date("2026-10-06");
+
 const routes = [
   "/",
   "/services",
@@ -43,11 +46,17 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Real dates, not "now": a lastmod that changes on every build teaches
+  // crawlers to ignore it. Home and the blog change when a post is added.
+  const latestPost = new Date(
+    Math.max(...blogPosts.map((p) => new Date(p.updatedAt ?? p.publishedAt).getTime()))
+  );
+  const lastModifiedFor = (route: string) =>
+    route === "/" || route === "/blog" ? latestPost : STATIC_PAGES_UPDATED;
 
   const pages = routes.flatMap((route) =>
     localized(route, {
-      lastModified: now,
+      lastModified: lastModifiedFor(route),
       changeFrequency: route === "/" || route === "/blog" ? "weekly" : "monthly",
       priority: route === "/" ? 1 : 0.7,
     })
@@ -56,7 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Service pages carry the commercial keywords — rank them just below home.
   const servicePages = services.flatMap((service) =>
     localized(`/services/${service.id}`, {
-      lastModified: now,
+      lastModified: STATIC_PAGES_UPDATED,
       changeFrequency: "monthly",
       priority: 0.9,
     })
@@ -81,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .flatMap((page) =>
       localized(
         blogPageHref(page),
-        { lastModified: now, changeFrequency: "weekly", priority: 0.5 },
+        { lastModified: latestPost, changeFrequency: "weekly", priority: 0.5 },
         locales.filter((locale) => getTotalPages(locale) >= page)
       )
     );

@@ -1,3 +1,4 @@
+import { jsonLd } from "@/lib/seo";
 import { faqsTranslated } from "@/config/company";
 import type { Locale } from "@/i18n/routing";
 
@@ -27,7 +28,7 @@ export function FaqSchema({ locale }: { locale: Locale }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
     />
   );
 }

@@ -24,7 +24,7 @@ import {
   ogLocales,
   type Locale,
 } from "@/i18n/routing";
-import { languageAlternates } from "@/lib/seo";
+import { languageAlternates, jsonLd } from "@/lib/seo";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
@@ -145,7 +145,7 @@ export default async function BlogPostPage({ params }: Props) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
       />
 
       <BlogPostBody post={post} recommended={recommended} />

@@ -1,5 +1,6 @@
 "use client";
 
+import { jsonLd } from "@/lib/seo";
 import { Container } from "@/components/ui/container";
 import { Eyebrow } from "@/components/ui/section";
 import {
@@ -37,7 +38,7 @@ export function PageHero({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: jsonLd({
               "@context": "https://schema.org",
               ...breadcrumbSchema(crumbs, locale),
             }),

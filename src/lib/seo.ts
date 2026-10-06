@@ -85,3 +85,8 @@ export function pageMetadata({
     },
   };
 }
+
+/** JSON for a <script type="application/ld+json">; "<" is escaped so content can never close the tag. */
+export function jsonLd(data: unknown) {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}

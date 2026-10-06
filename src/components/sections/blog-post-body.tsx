@@ -2,7 +2,7 @@
 
 import Link from "@/i18n/link";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useSyncExternalStore } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
@@ -22,6 +22,33 @@ import { getLastReadAt, getReadingHistory, recordPostView } from "@/lib/reading-
 import { trackBlogView } from "@/lib/blog-analytics";
 import { useLocale } from "@/i18n/locale-context";
 
+type ReaderSnapshot = { lastReadAt: string | null; history: string[] };
+const EMPTY_READER: ReaderSnapshot = { lastReadAt: null, history: [] };
+const readerCache = new Map<string, ReaderSnapshot>();
+
+/**
+ * This browser's reading state for a post, captured the first time it is
+ * read and then frozen: recording the current visit must not change what the
+ * page shows ("last read" should be the previous visit, not this one).
+ */
+function useReaderSnapshot(slug: string): ReaderSnapshot {
+  return useSyncExternalStore(
+    () => () => {},
+    () => {
+      let snap = readerCache.get(slug);
+      if (!snap) {
+        snap = {
+          lastReadAt: getLastReadAt(slug),
+          history: getReadingHistory().filter((s) => s !== slug),
+        };
+        readerCache.set(slug, snap);
+      }
+      return snap;
+    },
+    () => EMPTY_READER
+  );
+}
+
 export function BlogPostBody({
   post,
   recommended,
@@ -33,21 +60,22 @@ export function BlogPostBody({
 
   // `recommended` (tag/category match) renders on first paint, server-side and
   // with JS off. Once mounted, swap in a list weighted by this reader's own
-  // history when there is one to weight against.
-  const [items, setItems] = useState(recommended);
-  const [fromHistory, setFromHistory] = useState(false);
-  // This reader's previous visit, read before the current one is recorded.
-  const [lastReadAt, setLastReadAt] = useState<string | null>(null);
+  // history when there is one to weight against. The reader's previous visit
+  // and history are read from localStorage before this visit is recorded.
+  const { lastReadAt, history } = useReaderSnapshot(post.slug);
+  const fromHistory = history.length > 0;
+  const items = useMemo(
+    () => (fromHistory ? getPersonalizedRecommendations(post.slug, history, 3, locale) : recommended),
+    [fromHistory, history, post.slug, locale, recommended]
+  );
 
   useEffect(() => {
-    setLastReadAt(getLastReadAt(post.slug));
-    const history = getReadingHistory().filter((slug) => slug !== post.slug);
-    if (history.length > 0) {
-      setItems(getPersonalizedRecommendations(post.slug, history, 3, locale));
-      setFromHistory(true);
-    }
     recordPostView(post.slug);
     trackBlogView(post.slug, locale);
+    // Next visit to this post should see this one as "last read".
+    return () => {
+      readerCache.delete(post.slug);
+    };
   }, [post.slug, locale]);
 
   return (

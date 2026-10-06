@@ -15,6 +15,12 @@ import type { BlogPost } from "@/config/blog";
 import { useLocale } from "@/i18n/locale-context";
 import { formatRupiah } from "@/lib/utils";
 
+/** Service pages whose pricing-table entry has a different id. */
+const servicePlan: Record<string, string> = {
+  erp: "erp-basic",
+  website: "company-profile",
+};
+
 export function ServiceDetailBody({
   slug,
   detail,
@@ -51,7 +57,7 @@ export function ServiceDetailBody({
               </p>
               <div className="mt-8 flex flex-col gap-2.5 sm:flex-row">
                 <Button
-                  href="/contact"
+                  href={`/contact?plan=${servicePlan[service.id] ?? service.id}&from=/services/${service.id}`}
                   size="lg"
                   icon={<ArrowRight className="h-4 w-4" />}
                 >

@@ -1,9 +1,12 @@
 "use client";
 
-import { Globe, Layers, Zap, ShieldCheck, type LucideIcon } from "lucide-react";
+import Link from "@/i18n/link";
+import { ArrowRight, Globe, Layers, Zap, ShieldCheck, type LucideIcon } from "lucide-react";
 import { customDevPricing, type PricingCategory } from "@/config/pricing";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
+import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
+import { track } from "@/lib/track";
 import { formatRupiah } from "@/lib/utils";
 
 const categoryIcons: Record<PricingCategory, LucideIcon> = {
@@ -61,6 +64,14 @@ export function CustomDevPricing() {
                         </span>
                       ) : null}
                     </p>
+                    <Link
+                      href={`/contact?plan=${item.id}&from=/pricing`}
+                      onClick={() => track("quote_click", { plan: item.id })}
+                      className="focus-ring mt-4 inline-flex items-center gap-1.5 text-[12px] font-medium text-accent transition-colors hover:text-ink"
+                    >
+                      {growth[locale].requestQuote}
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </Link>
                   </div>
                 </RevealItem>
               ))}

@@ -3,8 +3,7 @@
 import {
   createContext,
   useContext,
-  useEffect,
-  useState,
+  useSyncExternalStore,
   type ReactNode,
 } from "react";
 
@@ -20,19 +19,25 @@ const ThemeContext = createContext<{
   toggleTheme: () => {},
 });
 
-export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("dark");
+// The blocking script in <head> sets data-theme before first paint, so the DOM
+// attribute is the source of truth; React just subscribes to it.
+function subscribe(onChange: () => void) {
+  const observer = new MutationObserver(onChange);
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"],
+  });
+  return () => observer.disconnect();
+}
 
-  useEffect(() => {
-    // The blocking script in <head> already set the DOM attribute; read it
-    // back so React state agrees with what's on screen (no flash).
-    const current = document.documentElement.getAttribute("data-theme");
-    setTheme(current === "light" ? "light" : "dark");
-  }, []);
+const getTheme = (): Theme =>
+  document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+
+export function ThemeProvider({ children }: { children: ReactNode }) {
+  const theme = useSyncExternalStore<Theme>(subscribe, getTheme, () => "dark");
 
   const toggleTheme = () => {
     const next: Theme = theme === "dark" ? "light" : "dark";
-    setTheme(next);
     document.documentElement.setAttribute("data-theme", next);
     window.localStorage.setItem(STORAGE_KEY, next);
   };

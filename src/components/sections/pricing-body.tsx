@@ -4,6 +4,7 @@ import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CustomDevPricing } from "@/components/sections/custom-dev-pricing";
+import { PriceEstimator } from "@/components/sections/price-estimator";
 import { PricingDisclaimer } from "@/components/sections/pricing-disclaimer";
 import { ContactCta } from "@/components/sections/contact-cta";
 import { Faq } from "@/components/sections/faq";
@@ -29,6 +30,12 @@ export function PricingBody() {
           <div className="mt-10">
             <CustomDevPricing />
           </div>
+        </Container>
+      </Section>
+
+      <Section className="pt-0">
+        <Container className="max-w-6xl">
+          <PriceEstimator />
         </Container>
       </Section>
 

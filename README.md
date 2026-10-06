@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AG·SORA website
 
-## Getting Started
-
-First, run the development server:
+Next.js (App Router) marketing site in Indonesian, English and Chinese.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Copy `.env.example` to `.env.local`. Everything is optional in development;
+features that need a variable quietly do nothing without it.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Used for |
+|---|---|
+| `SUPABASE_URL`, `SUPABASE_SECRET_KEY` | Blog view counts and contact-form leads |
+| `NEXT_PUBLIC_GA_ID` | Google Analytics 4 + conversion events |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Search Console verification |
+| `RESEND_API_KEY`, `LEAD_NOTIFY_EMAIL`, `LEAD_FROM_EMAIL` | Email alert for each new lead |
 
-## Learn More
+## Database
 
-To learn more about Next.js, take a look at the following resources:
+SQL in `supabase/migrations/` must be applied to the Supabase project
+(`supabase db push`, or paste into the SQL editor), including `leads`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Lead flow
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contact form → opens WhatsApp with a prefilled message **and** posts the lead
+to `/api/lead` (stored in `public.leads`, optional email alert). Price cards,
+the estimator and service pages link to `/contact?plan=<id>&from=<page>`.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Conversion events sent to GA4: `generate_lead`, `quote_click`,
+`whatsapp_click`, `email_click`. Mark them as key events in GA4.

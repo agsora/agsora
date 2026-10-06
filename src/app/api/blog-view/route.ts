@@ -1,5 +1,6 @@
 import { getPostBySlug, isPostAvailable } from "@/config/blog";
 import { isLocale } from "@/i18n/routing";
+import { clientIp, rateLimit } from "@/lib/rate-limit";
 
 /**
  * Records one blog article open in Supabase (table `blog_views`, summarised
@@ -13,12 +14,18 @@ import { isLocale } from "@/i18n/routing";
  * this quietly does nothing.
  */
 
+const BOT = /bot|crawl|spider|slurp|headless|lighthouse|curl|wget|python|node-fetch|axios/i;
+
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 export async function POST(request: Request) {
   const url = process.env.SUPABASE_URL;
   const key = process.env.SUPABASE_SECRET_KEY;
   if (!url || !key) return new Response(null, { status: 204 });
+
+  // Bots and floods would inflate the public view counts and the table.
+  if (BOT.test(request.headers.get("user-agent") ?? "")) return new Response(null, { status: 204 });
+  if (!rateLimit(`view:${clientIp(request)}`, 30, 60_000)) return new Response(null, { status: 429 });
 
   let body: { slug?: unknown; locale?: unknown; visitorId?: unknown };
   try {
@@ -52,7 +59,7 @@ export async function POST(request: Request) {
   });
 
   if (!res.ok) {
-    console.error("blog-view insert failed", res.status, await res.text());
+    console.error("blog-view insert failed", res.status);
     return new Response(null, { status: 502 });
   }
   return new Response(null, { status: 204 });

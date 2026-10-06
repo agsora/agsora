@@ -13,7 +13,7 @@ import { dictionaries } from "@/i18n/dictionaries";
 import { pageMeta } from "@/i18n/page-meta";
 import { absoluteUrl, hreflangs, type Locale } from "@/i18n/routing";
 import { localeFromParams, type LangParams } from "@/i18n/server";
-import { pageMetadata } from "@/lib/seo";
+import { pageMetadata, jsonLd } from "@/lib/seo";
 
 export async function generateMetadata({ params }: LangParams): Promise<Metadata> {
   const locale = await localeFromParams(params);
@@ -106,7 +106,7 @@ export default async function Home({ params }: LangParams) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema(locale)) }}
+        dangerouslySetInnerHTML={{ __html: jsonLd(homeSchema(locale)) }}
       />
       <Hero />
       <LogoStrip />
