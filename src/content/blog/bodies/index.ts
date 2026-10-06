@@ -69,6 +69,11 @@ import { body as b_toko_online_sendiri_atau_marketplace } from "./toko-online-se
 import { body as b_tren_teknologi_bisnis_tahun_ini } from "./tren-teknologi-bisnis-tahun-ini";
 import { body as b_ux_website_yang_mengubah_pengunjung_jadi_pelanggan } from "./ux-website-yang-mengubah-pengunjung-jadi-pelanggan";
 import { body as b_website_company_profile_yang_menghasilkan_prospek } from "./website-company-profile-yang-menghasilkan-prospek";
+import { body as b_integrasi_whatsapp_business_untuk_layanan_pelanggan } from "./integrasi-whatsapp-business-untuk-layanan-pelanggan";
+import { body as b_seo_lokal_dan_google_business_profile } from "./seo-lokal-dan-google-business-profile";
+import { body as b_dashboard_bisnis_untuk_keputusan_harian } from "./dashboard-bisnis-untuk-keputusan-harian";
+import { body as b_low_code_no_code_atau_software_custom } from "./low-code-no-code-atau-software-custom";
+import { body as b_pemeliharaan_aplikasi_setelah_peluncuran } from "./pemeliharaan-aplikasi-setelah-peluncuran";
 
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
@@ -142,4 +147,9 @@ export const bodies: Record<string, Block[]> = {
   "tren-teknologi-bisnis-tahun-ini": b_tren_teknologi_bisnis_tahun_ini,
   "ux-website-yang-mengubah-pengunjung-jadi-pelanggan": b_ux_website_yang_mengubah_pengunjung_jadi_pelanggan,
   "website-company-profile-yang-menghasilkan-prospek": b_website_company_profile_yang_menghasilkan_prospek,
+  "integrasi-whatsapp-business-untuk-layanan-pelanggan": b_integrasi_whatsapp_business_untuk_layanan_pelanggan,
+  "seo-lokal-dan-google-business-profile": b_seo_lokal_dan_google_business_profile,
+  "dashboard-bisnis-untuk-keputusan-harian": b_dashboard_bisnis_untuk_keputusan_harian,
+  "low-code-no-code-atau-software-custom": b_low_code_no_code_atau_software_custom,
+  "pemeliharaan-aplikasi-setelah-peluncuran": b_pemeliharaan_aplikasi_setelah_peluncuran,
 };

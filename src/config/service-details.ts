@@ -137,6 +137,8 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     relatedPosts: [
+      "low-code-no-code-atau-software-custom",
+      "pemeliharaan-aplikasi-setelah-peluncuran",
       "mvp-aplikasi-bisnis-mulai-dari-yang-kecil",
       "digitalisasi-bisnis-keluarga-generasi-penerus",
       "custom-software-vs-software-jadi",
@@ -247,6 +249,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     relatedPosts: [
+      "seo-lokal-dan-google-business-profile",
       "ux-website-yang-mengubah-pengunjung-jadi-pelanggan",
       "checklist-memilih-software-house",
       "menghitung-biaya-sebenarnya-project-software",
@@ -779,7 +782,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
       },
     ],
-    relatedPosts: ["biaya-tersembunyi-data-silo", "custom-software-vs-software-jadi"],
+    relatedPosts: ["integrasi-whatsapp-business-untuk-layanan-pelanggan", "biaya-tersembunyi-data-silo", "custom-software-vs-software-jadi"],
   },
 
   dashboard: {
@@ -883,7 +886,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
       },
     ],
-    relatedPosts: ["biaya-tersembunyi-data-silo", "tanda-bisnis-anda-sudah-butuh-erp"],
+    relatedPosts: ["dashboard-bisnis-untuk-keputusan-harian", "biaya-tersembunyi-data-silo", "tanda-bisnis-anda-sudah-butuh-erp"],
   },
 
   "ai-automation": {
@@ -1091,6 +1094,6 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
       },
     ],
-    relatedPosts: ["biaya-tersembunyi-data-silo", "persiapan-migrasi-data-sistem-baru"],
+    relatedPosts: ["integrasi-whatsapp-business-untuk-layanan-pelanggan", "biaya-tersembunyi-data-silo", "persiapan-migrasi-data-sistem-baru"],
   },
 };

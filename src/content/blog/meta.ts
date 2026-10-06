@@ -6,6 +6,131 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "integrasi-whatsapp-business-untuk-layanan-pelanggan",
+    title: "Integrasi WhatsApp Business: Layanan Pelanggan Lebih Rapi dan Cepat",
+    excerpt: "Pelanggan sudah nyaman di WhatsApp, tetapi percakapan yang tersebar di ponsel karyawan sulit dikelola. Cara menghubungkan WhatsApp ke CRM, website, dan sistem pesanan tanpa membuat layanan terasa seperti robot.",
+    category: "Teknologi",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["integrasi", "pelanggan", "api", "otomasi"],
+    titleTranslations: {
+      en: "WhatsApp Business Integration: Neater, Faster Customer Service",
+      zh: "WhatsApp Business 整合:更有条理、更快速的客户服务",
+    },
+    excerptTranslations: {
+      en: "Customers are comfortable on WhatsApp, but conversations scattered across employees' phones are hard to manage. How to connect WhatsApp to your CRM, website, and order system without making service feel like a robot.",
+      zh: "客户习惯使用 WhatsApp,但分散在员工手机上的对话很难管理。如何把 WhatsApp 连接到 CRM、网站和订单系统,又不让服务显得像机器人。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7",
+      alt: "Ikon aplikasi tiga dimensi berwarna-warni di atas latar gelap",
+      altTranslations: {
+        en: "Colorful three-dimensional app icons on a dark background",
+        zh: "深色背景上色彩缤纷的三维应用图标",
+      },
+    },
+  },
+  {
+    slug: "seo-lokal-dan-google-business-profile",
+    title: "SEO Lokal dan Google Business Profile: Ditemukan Pelanggan di Sekitar Anda",
+    excerpt: "Banyak keputusan membeli terjadi di peta Google sebelum orang membuka website. Cara melengkapi Google Business Profile, menjaga konsistensi data, mengelola ulasan, dan menguatkan sinyal lokal lewat website.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["seo", "website", "pelanggan"],
+    titleTranslations: {
+      en: "Local SEO and Google Business Profile: Be Found by Customers Nearby",
+      zh: "本地 SEO 与 Google 商家资料:被身边的客户找到",
+    },
+    excerptTranslations: {
+      en: "Many buying decisions happen on the Google map before anyone opens a website. How to complete your Google Business Profile, keep data consistent, manage reviews, and strengthen local signals through your website.",
+      zh: "许多购买决定在人们打开网站之前就发生在 Google 地图上。如何完善 Google 商家资料、保持数据一致、管理评价,并通过网站强化本地信号。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+      alt: "Tiga orang tertawa sambil berdiskusi di depan laptop di sebuah kafe",
+      altTranslations: {
+        en: "Three people laughing and talking in front of a laptop in a cafe",
+        zh: "三个人在咖啡馆里对着笔记本电脑边笑边讨论",
+      },
+    },
+  },
+  {
+    slug: "dashboard-bisnis-untuk-keputusan-harian",
+    title: "Dashboard Bisnis: Dari Tumpukan Laporan ke Keputusan Harian yang Lebih Cepat",
+    excerpt: "Laporan bulanan sampai ke meja pemilik saat kejadiannya sudah lewat. Cara memilih metrik, menyatukan sumber data, dan merancang dashboard yang benar-benar dibuka setiap pagi.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["pelaporan", "data", "keuangan", "integrasi"],
+    titleTranslations: {
+      en: "Business Dashboards: From Piles of Reports to Faster Daily Decisions",
+      zh: "企业仪表板:从成堆的报告到更快的日常决策",
+    },
+    excerptTranslations: {
+      en: "Monthly reports reach the owner's desk after the events have passed. How to choose metrics, bring data sources together, and design a dashboard that actually gets opened every morning.",
+      zh: "月度报告送到老板桌上时,事情早已过去。如何选择指标、整合数据源,并设计出每天早上真正会被打开的仪表板。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+      alt: "Meja kerja dilihat dari atas dengan beberapa laptop, ponsel, dan catatan",
+      altTranslations: {
+        en: "A work table seen from above with several laptops, phones, and notes",
+        zh: "俯瞰的工作桌,上面有几台笔记本电脑、手机和笔记",
+      },
+    },
+  },
+  {
+    slug: "low-code-no-code-atau-software-custom",
+    title: "Low-Code, No-Code, atau Software Custom: Mana yang Tepat untuk Bisnis Anda?",
+    excerpt: "Alat siap pakai menjanjikan kecepatan, software khusus menjanjikan kendali. Perbandingan jujur, batas masing-masing, dan kerangka keputusan untuk memilih tanpa terjebak tren.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["custom-software", "biaya", "saas"],
+    titleTranslations: {
+      en: "Low-Code, No-Code, or Custom Software: Which Is Right for Your Business?",
+      zh: "低代码、无代码还是定制软件:哪个适合你的企业?",
+    },
+    excerptTranslations: {
+      en: "Off-the-shelf tools promise speed; custom software promises control. An honest comparison, the limits of each, and a decision framework for choosing without chasing trends.",
+      zh: "现成工具承诺速度,定制软件承诺控制力。一次诚实的比较、各自的局限,以及不被潮流牵着走的决策框架。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd",
+      alt: "Sekelompok orang rapat mengelilingi meja di ruang pertemuan berdinding kaca",
+      altTranslations: {
+        en: "A group of people meeting around a table in a glass-walled conference room",
+        zh: "一群人围坐在玻璃墙会议室的桌旁开会",
+      },
+    },
+  },
+  {
+    slug: "pemeliharaan-aplikasi-setelah-peluncuran",
+    title: "Pemeliharaan Aplikasi Setelah Peluncuran: Peluncuran Bukan Garis Akhir",
+    excerpt: "Software yang tidak dirawat menurun pelan-pelan. Apa saja yang termasuk pemeliharaan, beda garansi dan pemeliharaan, cara menyusun perjanjian layanan, dan apa yang harus diserahterimakan saat peluncuran.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["implementasi", "keamanan", "infrastruktur", "biaya"],
+    titleTranslations: {
+      en: "Application Maintenance After Launch: Launch Is Not the Finish Line",
+      zh: "上线后的应用维护:上线不是终点线",
+    },
+    excerptTranslations: {
+      en: "Software that isn't maintained slowly declines. What maintenance includes, how warranty differs from maintenance, how to draft a service agreement, and what must be handed over at launch.",
+      zh: "不加维护的软件会慢慢退化。维护包括什么、保修与维护有何不同、如何起草服务协议,以及上线时必须移交什么。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+      alt: "Laptop setengah tertutup memancarkan cahaya berwarna di ruangan gelap",
+      altTranslations: {
+        en: "A half-closed laptop glowing with colored light in a dark room",
+        zh: "半合上的笔记本电脑在黑暗的房间里发出彩色的光",
+      },
+    },
+  },
+  {
     slug: "ux-website-yang-mengubah-pengunjung-jadi-pelanggan",
     title: "UX Website: Cara Mengubah Pengunjung Menjadi Pelanggan",
     excerpt: "Trafik tinggi tapi prospek sedikit biasanya bukan masalah pemasaran, melainkan pengalaman pengguna. Prinsip UX yang paling berpengaruh terhadap konversi website bisnis, dan cara memperbaikinya bertahap.",
