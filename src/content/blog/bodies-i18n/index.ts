@@ -14,6 +14,11 @@ import { translations as t_seo_lokal_dan_google_business_profile } from "./seo-l
 import { translations as t_dashboard_bisnis_untuk_keputusan_harian } from "./dashboard-bisnis-untuk-keputusan-harian";
 import { translations as t_low_code_no_code_atau_software_custom } from "./low-code-no-code-atau-software-custom";
 import { translations as t_pemeliharaan_aplikasi_setelah_peluncuran } from "./pemeliharaan-aplikasi-setelah-peluncuran";
+import { translations as t_notifikasi_push_dan_retensi_aplikasi_mobile } from "./notifikasi-push-dan-retensi-aplikasi-mobile";
+import { translations as t_aksesibilitas_website_untuk_bisnis } from "./aksesibilitas-website-untuk-bisnis";
+import { translations as t_perencanaan_stok_dan_pembelian_ulang } from "./perencanaan-stok-dan-pembelian-ulang";
+import { translations as t_asisten_ai_untuk_bisnis_kecil_tren_realistis } from "./asisten-ai-untuk-bisnis-kecil-tren-realistis";
+import { translations as t_checkout_toko_online_mengurangi_keranjang_terbengkalai } from "./checkout-toko-online-mengurangi-keranjang-terbengkalai";
 
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
@@ -39,4 +44,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "dashboard-bisnis-untuk-keputusan-harian": t_dashboard_bisnis_untuk_keputusan_harian,
   "low-code-no-code-atau-software-custom": t_low_code_no_code_atau_software_custom,
   "pemeliharaan-aplikasi-setelah-peluncuran": t_pemeliharaan_aplikasi_setelah_peluncuran,
+  "notifikasi-push-dan-retensi-aplikasi-mobile": t_notifikasi_push_dan_retensi_aplikasi_mobile,
+  "aksesibilitas-website-untuk-bisnis": t_aksesibilitas_website_untuk_bisnis,
+  "perencanaan-stok-dan-pembelian-ulang": t_perencanaan_stok_dan_pembelian_ulang,
+  "asisten-ai-untuk-bisnis-kecil-tren-realistis": t_asisten_ai_untuk_bisnis_kecil_tren_realistis,
+  "checkout-toko-online-mengurangi-keranjang-terbengkalai": t_checkout_toko_online_mengurangi_keranjang_terbengkalai,
 };

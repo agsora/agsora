@@ -249,6 +249,8 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     relatedPosts: [
+      "checkout-toko-online-mengurangi-keranjang-terbengkalai",
+      "aksesibilitas-website-untuk-bisnis",
       "seo-lokal-dan-google-business-profile",
       "ux-website-yang-mengubah-pengunjung-jadi-pelanggan",
       "checklist-memilih-software-house",
@@ -358,6 +360,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     relatedPosts: [
+      "notifikasi-push-dan-retensi-aplikasi-mobile",
       "progressive-web-app-untuk-bisnis",
       "custom-software-vs-software-jadi",
       "kenapa-project-software-gagal",
@@ -466,6 +469,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     relatedPosts: [
+      "perencanaan-stok-dan-pembelian-ulang",
       "erp-dan-visibilitas-arus-kas",
       "tanda-bisnis-anda-sudah-butuh-erp",
       "biaya-tersembunyi-data-silo",
@@ -990,7 +994,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
       },
     ],
-    relatedPosts: ["memulai-ai-automation-untuk-operasional"],
+    relatedPosts: ["asisten-ai-untuk-bisnis-kecil-tren-realistis", "memulai-ai-automation-untuk-operasional"],
   },
 
   "api-integration": {

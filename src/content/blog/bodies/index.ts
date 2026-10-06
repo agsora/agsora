@@ -74,6 +74,11 @@ import { body as b_seo_lokal_dan_google_business_profile } from "./seo-lokal-dan
 import { body as b_dashboard_bisnis_untuk_keputusan_harian } from "./dashboard-bisnis-untuk-keputusan-harian";
 import { body as b_low_code_no_code_atau_software_custom } from "./low-code-no-code-atau-software-custom";
 import { body as b_pemeliharaan_aplikasi_setelah_peluncuran } from "./pemeliharaan-aplikasi-setelah-peluncuran";
+import { body as b_notifikasi_push_dan_retensi_aplikasi_mobile } from "./notifikasi-push-dan-retensi-aplikasi-mobile";
+import { body as b_aksesibilitas_website_untuk_bisnis } from "./aksesibilitas-website-untuk-bisnis";
+import { body as b_perencanaan_stok_dan_pembelian_ulang } from "./perencanaan-stok-dan-pembelian-ulang";
+import { body as b_asisten_ai_untuk_bisnis_kecil_tren_realistis } from "./asisten-ai-untuk-bisnis-kecil-tren-realistis";
+import { body as b_checkout_toko_online_mengurangi_keranjang_terbengkalai } from "./checkout-toko-online-mengurangi-keranjang-terbengkalai";
 
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
@@ -152,4 +157,9 @@ export const bodies: Record<string, Block[]> = {
   "dashboard-bisnis-untuk-keputusan-harian": b_dashboard_bisnis_untuk_keputusan_harian,
   "low-code-no-code-atau-software-custom": b_low_code_no_code_atau_software_custom,
   "pemeliharaan-aplikasi-setelah-peluncuran": b_pemeliharaan_aplikasi_setelah_peluncuran,
+  "notifikasi-push-dan-retensi-aplikasi-mobile": b_notifikasi_push_dan_retensi_aplikasi_mobile,
+  "aksesibilitas-website-untuk-bisnis": b_aksesibilitas_website_untuk_bisnis,
+  "perencanaan-stok-dan-pembelian-ulang": b_perencanaan_stok_dan_pembelian_ulang,
+  "asisten-ai-untuk-bisnis-kecil-tren-realistis": b_asisten_ai_untuk_bisnis_kecil_tren_realistis,
+  "checkout-toko-online-mengurangi-keranjang-terbengkalai": b_checkout_toko_online_mengurangi_keranjang_terbengkalai,
 };

@@ -6,6 +6,131 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "notifikasi-push-dan-retensi-aplikasi-mobile",
+    title: "Notifikasi Push dan Retensi: Membuat Pengguna Aplikasi Mobile Mau Kembali",
+    excerpt: "Banyak aplikasi diunduh lalu dilupakan. Cara memakai notifikasi push, segmentasi, dan pesan di dalam aplikasi agar pengguna kembali tanpa merasa diganggu, serta cara mengukur hasilnya.",
+    category: "Teknologi",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["mobile","pelanggan","otomasi"],
+    titleTranslations: {
+      en: "Push Notifications and Retention: Getting Mobile App Users to Come Back",
+      zh: "推送通知与留存:让移动应用用户愿意回来",
+    },
+    excerptTranslations: {
+      en: "Many apps are downloaded and then forgotten. How to use push notifications, segmentation, and in-app messages so users return without feeling pestered, and how to measure the results.",
+      zh: "许多应用被下载后就被遗忘。如何运用推送通知、用户细分和应用内消息,让用户回来而不觉得被打扰,以及如何衡量成效。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+      alt: "Tangan memegang ponsel yang menampilkan layar utama penuh ikon aplikasi",
+      altTranslations: {
+        en: "A hand holding a phone showing a home screen full of app icons",
+        zh: "手持手机,屏幕主页布满应用图标",
+      },
+    },
+  },
+  {
+    slug: "aksesibilitas-website-untuk-bisnis",
+    title: "Aksesibilitas Website: Menyambut Semua Pengunjung dan Pelanggan",
+    excerpt: "Website yang sulit dipakai kehilangan pelanggan tanpa disadari. Prinsip dasar aksesibilitas, perbaikan paling berdampak, cara memeriksa, dan mengapa semuanya sejalan dengan SEO.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["website","seo","pelanggan"],
+    titleTranslations: {
+      en: "Website Accessibility: Welcoming Every Visitor and Customer",
+      zh: "网站无障碍:欢迎每一位访客与客户",
+    },
+    excerptTranslations: {
+      en: "A website that is hard to use quietly loses customers. The basic principles of accessibility, the most impactful fixes, how to check, and why it all aligns with SEO.",
+      zh: "难以使用的网站会在不知不觉中流失客户。无障碍的基本原则、影响最大的修复、检查方法,以及它为何与搜索引擎优化相辅相成。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1561070791-2526d30994b5",
+      alt: "Kartu contoh warna dan palet desain tersusun di meja kerja desainer di samping komputer",
+      altTranslations: {
+        en: "Color swatch cards and design palettes arranged on a designer's desk next to a computer",
+        zh: "设计师书桌上摆放的色卡和设计调色板,旁边是一台电脑",
+      },
+    },
+  },
+  {
+    slug: "perencanaan-stok-dan-pembelian-ulang",
+    title: "Perencanaan Stok dan Pembelian Ulang: Kapan Memesan dan Berapa Banyak",
+    excerpt: "Stok terlalu sedikit membuat pelanggan kecewa, terlalu banyak menahan modal. Konsep stok pengaman dan titik pemesanan ulang, pengelompokan barang, dan peran ERP dalam menjalankannya.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["inventori","erp","operasional","keuangan"],
+    titleTranslations: {
+      en: "Inventory Planning and Reordering: When to Order and How Much",
+      zh: "库存计划与补货:何时订货、订多少",
+    },
+    excerptTranslations: {
+      en: "Too little stock disappoints customers; too much ties up capital. The concepts of safety stock and reorder point, grouping items, and the role of ERP in running it all.",
+      zh: "库存太少让客户失望,太多则占用资金。安全库存与再订货点的概念、商品分组,以及 ERP 在执行中的作用。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1580674285054-bed31e145f59",
+      alt: "Tumpukan paket kardus siap kirim di ruang penyimpanan",
+      altTranslations: {
+        en: "Stacks of cardboard parcels ready to ship in a storage room",
+        zh: "存放室里成堆待发货的纸箱包裹",
+      },
+    },
+  },
+  {
+    slug: "asisten-ai-untuk-bisnis-kecil-tren-realistis",
+    title: "Asisten AI untuk Bisnis Kecil: Tren yang Realistis, Bukan Sekadar Gembar-gembor",
+    excerpt: "Dari draf konten hingga jawaban pelanggan, AI mulai berguna untuk bisnis kecil. Penggunaan yang masuk akal, yang berisiko, cara memilih kasus pertama, soal privasi, dan rencana 30 hari.",
+    category: "Teknologi",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["ai","otomasi","umkm","keamanan"],
+    titleTranslations: {
+      en: "AI Assistants for Small Business: A Realistic Trend, Not Just Hype",
+      zh: "小企业的 AI 助手:务实的趋势,而非空洞的炒作",
+    },
+    excerptTranslations: {
+      en: "From content drafts to customer answers, AI is becoming useful for small business. Sensible uses, risky ones, choosing a first use case, privacy, and a 30-day plan.",
+      zh: "从内容草稿到客户答复,AI 正在对小企业变得有用。合理的用途、有风险的用途、如何选择第一个场景、隐私问题,以及 30 天计划。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+      alt: "Laptop setengah tertutup memancarkan cahaya berwarna di ruangan gelap",
+      altTranslations: {
+        en: "A half-closed laptop glowing with colored light in a dark room",
+        zh: "昏暗房间里一台半合的笔记本电脑散发着彩色光芒",
+      },
+    },
+  },
+  {
+    slug: "checkout-toko-online-mengurangi-keranjang-terbengkalai",
+    title: "Checkout Toko Online: Mengurangi Keranjang yang Ditinggalkan Pelanggan",
+    excerpt: "Pelanggan sudah memilih barang tetapi pergi saat membayar. Lima hambatan checkout yang paling umum, perbaikan praktisnya, cara mengajak kembali, dan daftar periksa sebelum peluncuran.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-06",
+    updatedAt: "2026-10-06",
+    tags: ["ecommerce","pembayaran","website","pelanggan"],
+    titleTranslations: {
+      en: "Online Store Checkout: Reducing Carts Customers Abandon",
+      zh: "网店结账:减少客户放弃的购物车",
+    },
+    excerptTranslations: {
+      en: "Customers choose items but leave at payment. The five most common checkout barriers, their practical fixes, how to win customers back, and a pre-launch checklist.",
+      zh: "客户选好了商品却在付款时离开。五个最常见的结账障碍、实用的修复方法、如何召回客户,以及上线前的检查清单。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
+      alt: "Pelanggan menempelkan kartu pembayaran ke mesin pembaca nontunai",
+      altTranslations: {
+        en: "A customer tapping a payment card on a contactless reader",
+        zh: "顾客把支付卡贴在非接触式读卡器上",
+      },
+    },
+  },
+  {
     slug: "integrasi-whatsapp-business-untuk-layanan-pelanggan",
     title: "Integrasi WhatsApp Business: Layanan Pelanggan Lebih Rapi dan Cepat",
     excerpt: "Pelanggan sudah nyaman di WhatsApp, tetapi percakapan yang tersebar di ponsel karyawan sulit dikelola. Cara menghubungkan WhatsApp ke CRM, website, dan sistem pesanan tanpa membuat layanan terasa seperti robot.",
