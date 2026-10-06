@@ -36,8 +36,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
-    alt: "An open laptop on a wooden table with a coffee cup, a notebook, and a phone",
+    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    alt: "A person using Google Maps on a phone",
     caption: "Local SEO is consistent, tidy work: completing information, tending reviews, and updating content.",
   },
   { type: "h2", text: "Optimizing your Google Business Profile" },
@@ -237,8 +237,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
-    alt: "木桌上打开的笔记本电脑,旁边有咖啡杯、笔记本和手机",
+    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    alt: "使用手机谷歌地图的人",
     caption: "本地 SEO 是持续而细致的工作:完善信息、维护评价、更新内容。",
   },
   { type: "h2", text: "优化 Google 商家资料" },

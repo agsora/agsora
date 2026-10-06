@@ -93,8 +93,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
-    alt: "Ruang kantor terbuka dengan beberapa orang bekerja di meja panjang dan tangga di sisi ruangan",
+    src: "https://images.unsplash.com/photo-1596784269480-039b2a893af0",
+    alt: "Tangga batu menanjak di lereng berumput",
     caption: "Sistem yang tertata membuat bisnis keluarga siap bertumbuh dan menerima anggota tim baru.",
   },
   { type: "h2", text: "Melibatkan karyawan lama" },

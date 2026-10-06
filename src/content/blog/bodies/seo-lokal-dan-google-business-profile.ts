@@ -36,8 +36,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
-    alt: "Laptop terbuka di atas meja kayu bersama cangkir kopi, buku catatan, dan ponsel",
+    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    alt: "Seseorang menggunakan Google Maps di ponsel",
     caption: "SEO lokal adalah pekerjaan rapi yang konsisten: melengkapi informasi, merawat ulasan, dan memperbarui konten.",
   },
   { type: "h2", text: "Mengoptimalkan Google Business Profile" },

@@ -42,8 +42,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-    alt: "Ruang kerja luas berisi banyak meja dan pekerja yang menghadap layar komputer",
+    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    alt: "Satu set kunci pas logam di dalam kotak perkakas",
     caption: "Software bisnis yang sehat dirawat oleh tim atau mitra yang jelas, bukan dibiarkan sampai bermasalah.",
   },
   { type: "h2", text: "Apa saja yang termasuk pemeliharaan" },
@@ -129,8 +129,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
-    alt: "Seorang pembicara memaparkan materi di depan tim di ruang kerja dengan dinding bata",
+    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    alt: "Seseorang duduk di meja dengan kalkulator dan buku catatan",
     caption: "Tinjauan berkala bersama tim pengembang membantu bisnis merencanakan perbaikan sebelum masalah muncul.",
   },
   { type: "h2", text: "Yang harus diserahterimakan saat peluncuran" },

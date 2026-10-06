@@ -122,8 +122,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
-    alt: "Sekelompok orang berdiskusi sambil melihat layar laptop di perpustakaan",
+    src: "https://images.unsplash.com/photo-1494059980473-813e73ee784b",
+    alt: "Tumpukan keping puzzle",
     caption: "Keputusan teknologi sebaiknya diambil bersama orang yang memahami proses dan yang akan memakai sistem setiap hari.",
   },
   { type: "h2", text: "Kerangka keputusan yang praktis" },

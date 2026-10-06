@@ -132,8 +132,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556656793-08538906a9f8",
-    alt: "Several smartphones lying on a light blue table together with notes",
+    src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+    alt: "A smartphone displaying a security lock icon on a wooden desk",
     caption: "Customer conversations are often scattered across many devices; integration brings them together in one controlled place.",
   },
   { type: "h2", text: "Steps to start integrating gradually" },
@@ -340,8 +340,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556656793-08538906a9f8",
-    alt: "浅蓝色桌面上摆放着几部智能手机和笔记",
+    src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+    alt: "木桌上显示安全锁图标的智能手机",
     caption: "客户对话常常分散在多台设备上;整合后可以把它们汇集到一个受控的地方。",
   },
   { type: "h2", text: "逐步开始整合的步骤" },

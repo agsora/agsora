@@ -131,8 +131,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553484771-371a605b060b",
-    alt: "Hands holding an open magazine showing a colorful cycle diagram",
+    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    alt: "A computer screen showing an analytics dashboard with a user retention table",
     caption: "A simple, consistent design gives people the confidence to make decisions from what they see.",
   },
   { type: "h2", text: "One dashboard doesn't fit everyone" },
@@ -333,8 +333,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553484771-371a605b060b",
-    alt: "手捧一本翻开的杂志,上面是彩色的循环图示",
+    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    alt: "显示用户留存表的数据分析仪表板屏幕",
     caption: "简洁而一致的设计,让人们有信心根据所见做出决策。",
   },
   { type: "h2", text: "一个仪表板无法适合所有人" },

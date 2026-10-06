@@ -35,8 +35,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1583521214690-73421a1829a9",
-    alt: "Tumpukan tinggi map dan dokumen kertas di ruang kantor",
+    src: "https://images.unsplash.com/photo-1584568694489-f71bdbac55e2",
+    alt: "Rak toko kelontong yang kosong",
     caption: "Catatan manual yang menumpuk membuat data stok sulit dipercaya; sistem yang terhubung menggantikannya.",
   },
   { type: "h2", text: "Konsep dasar yang perlu dipahami" },

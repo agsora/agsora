@@ -99,8 +99,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1561070791-2526d30994b5",
-    alt: "Kartu contoh warna dan palet desain tersusun di meja kerja desainer di samping komputer",
+    src: "https://images.unsplash.com/photo-1615914143778-1a1a6e50c5dd",
+    alt: "Seseorang menulis di buku catatan di meja kerja hitam",
     caption: "Konsistensi visual membangun kepercayaan, tapi hanya setelah pesan dan alur halaman sudah jelas.",
   },
   { type: "h2", text: "Ajakan bertindak yang jelas dan tidak menakutkan" },

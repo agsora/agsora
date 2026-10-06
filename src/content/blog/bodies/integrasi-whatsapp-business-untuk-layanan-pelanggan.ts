@@ -132,8 +132,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556656793-08538906a9f8",
-    alt: "Beberapa ponsel pintar tergeletak di atas meja berwarna biru muda bersama catatan",
+    src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+    alt: "Ponsel pintar menampilkan ikon kunci keamanan di atas meja kayu",
     caption: "Percakapan pelanggan sering tersebar di banyak perangkat; integrasi menyatukannya di satu tempat yang terkontrol.",
   },
   { type: "h2", text: "Langkah memulai integrasi secara bertahap" },

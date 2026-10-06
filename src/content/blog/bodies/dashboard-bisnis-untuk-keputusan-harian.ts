@@ -131,8 +131,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553484771-371a605b060b",
-    alt: "Tangan memegang majalah terbuka yang menampilkan diagram siklus berwarna",
+    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    alt: "Layar komputer menampilkan dasbor analitik dengan tabel retensi pengguna",
     caption: "Rancangan yang sederhana dan konsisten membuat orang berani mengambil keputusan dari apa yang mereka lihat.",
   },
   { type: "h2", text: "Satu dashboard tidak cocok untuk semua orang" },

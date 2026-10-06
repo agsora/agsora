@@ -42,8 +42,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-    alt: "A spacious workspace with many desks and workers facing computer screens",
+    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    alt: "A set of metal wrenches in a toolbox",
     caption: "Healthy business software is cared for by a clear team or partner, not left until it breaks.",
   },
   { type: "h2", text: "What maintenance includes" },
@@ -129,8 +129,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
-    alt: "A speaker presenting to a team in a workspace with a brick wall",
+    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    alt: "A person sitting at a desk with a calculator and a notebook",
     caption: "Periodic reviews with the development team help the business plan improvements before problems appear.",
   },
   { type: "h2", text: "What must be handed over at launch" },
@@ -233,8 +233,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-    alt: "宽敞的工作空间里有许多办公桌,员工们面对着电脑屏幕",
+    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    alt: "工具箱里的一组金属扳手",
     caption: "健康的企业软件由明确的团队或合作伙伴维护,而不是放任到出问题为止。",
   },
   { type: "h2", text: "维护包括什么" },
@@ -320,8 +320,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
-    alt: "一位演讲者在砖墙背景的办公空间里向团队做演示",
+    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    alt: "坐在书桌前、面前有计算器和笔记本的人",
     caption: "与开发团队定期复盘,有助于企业在问题出现之前规划改进。",
   },
   { type: "h2", text: "上线时必须移交的内容" },

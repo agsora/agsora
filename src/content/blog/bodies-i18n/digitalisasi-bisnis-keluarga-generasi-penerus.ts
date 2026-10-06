@@ -93,8 +93,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
-    alt: "An open-plan office with several people working at long desks and a staircase to one side",
+    src: "https://images.unsplash.com/photo-1596784269480-039b2a893af0",
+    alt: "A stone staircase climbing a grassy hillside",
     caption: "Well-organised systems prepare a family business to grow and welcome new team members.",
   },
   { type: "h2", text: "Involving long-serving employees" },
@@ -258,8 +258,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
-    alt: "开放式办公室里,几个人在长桌前工作,房间一侧有楼梯",
+    src: "https://images.unsplash.com/photo-1596784269480-039b2a893af0",
+    alt: "沿草坡向上的石阶",
     caption: "井然有序的系统,让家族企业做好成长和迎接新成员的准备。",
   },
   { type: "h2", text: "让老员工参与进来" },

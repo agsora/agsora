@@ -35,8 +35,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
-    alt: "Layar monitor menampilkan dasbor dengan beberapa grafik garis dan angka metrik",
+    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    alt: "Dompet di atas meja yang penuh uang tunai",
     caption: "Dasbor arus kas hanya seakurat data transaksi yang masuk ke sistem setiap hari.",
   },
   { type: "h2", text: "Masalah saat data keuangan tersebar" },
@@ -94,8 +94,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
-    alt: "Dua orang berdiskusi di meja kerja dengan laptop di ruangan berdinding bata",
+    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    alt: "Grafik saham menunjukkan tren naik dan potensi laba",
     caption: "Visibilitas arus kas membuat diskusi antara keuangan dan operasional berbasis angka yang sama.",
   },
   { type: "h2", text: "Dasbor dan peringatan dini" },

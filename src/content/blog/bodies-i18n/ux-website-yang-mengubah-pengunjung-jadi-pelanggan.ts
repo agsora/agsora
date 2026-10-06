@@ -99,8 +99,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1561070791-2526d30994b5",
-    alt: "Colour swatch cards and design palettes laid out on a designer's desk beside a computer",
+    src: "https://images.unsplash.com/photo-1615914143778-1a1a6e50c5dd",
+    alt: "A person writing in a notebook at a black desk",
     caption: "Visual consistency builds trust, but only once the page's message and flow are already clear.",
   },
   { type: "h2", text: "Calls to action that are clear and not intimidating" },
@@ -273,8 +273,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1561070791-2526d30994b5",
-    alt: "设计师桌上电脑旁摆放着色卡和设计配色方案",
+    src: "https://images.unsplash.com/photo-1615914143778-1a1a6e50c5dd",
+    alt: "在黑色书桌前的笔记本上书写的人",
     caption: "视觉一致性能建立信任,但前提是页面的信息和流程已经足够清晰。",
   },
   { type: "h2", text: "清晰且不令人却步的行动号召" },

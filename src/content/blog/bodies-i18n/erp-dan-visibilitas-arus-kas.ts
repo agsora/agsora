@@ -35,8 +35,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
-    alt: "A monitor displaying a dashboard with several line charts and metric figures",
+    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    alt: "A wallet on a table filled with cash",
     caption: "A cash flow dashboard is only as accurate as the transaction data entering the system each day.",
   },
   { type: "h2", text: "The problem with scattered financial data" },
@@ -94,8 +94,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
-    alt: "Two people talking at a desk with a laptop in a room with a brick wall",
+    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    alt: "A stock chart showing growth and potential profit",
     caption: "Cash flow visibility lets finance and operations discuss things using the same numbers.",
   },
   { type: "h2", text: "Dashboards and early warnings" },
@@ -201,8 +201,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
-    alt: "显示器上展示着包含多条折线图和指标数字的仪表盘",
+    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    alt: "放在桌上、塞满现金的钱包",
     caption: "现金流仪表盘的准确程度,取决于每天进入系统的交易数据。",
   },
   { type: "h2", text: "财务数据分散带来的问题" },
@@ -260,8 +260,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
-    alt: "两个人在砖墙房间里的办公桌前对着笔记本电脑交谈",
+    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    alt: "显示增长与潜在利润的股价图表",
     caption: "现金流可见性让财务与运营部门能够基于同一组数字进行讨论。",
   },
   { type: "h2", text: "仪表盘与预警" },

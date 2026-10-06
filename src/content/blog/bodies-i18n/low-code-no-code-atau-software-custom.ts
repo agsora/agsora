@@ -122,8 +122,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
-    alt: "A group of people discussing while looking at a laptop screen in a library",
+    src: "https://images.unsplash.com/photo-1494059980473-813e73ee784b",
+    alt: "A stack of jigsaw puzzle pieces",
     caption: "Technology decisions are best made together with the people who understand the process and will use the system every day.",
   },
   { type: "h2", text: "A practical decision framework" },
@@ -328,8 +328,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
-    alt: "一群人在图书馆里一边讨论一边看着笔记本电脑屏幕",
+    src: "https://images.unsplash.com/photo-1494059980473-813e73ee784b",
+    alt: "一叠拼图碎片",
     caption: "技术决策最好与了解流程、并将每天使用系统的人共同做出。",
   },
   { type: "h2", text: "实用的决策框架" },

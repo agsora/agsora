@@ -35,8 +35,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1583521214690-73421a1829a9",
-    alt: "Tall stacks of folders and paper documents in an office",
+    src: "https://images.unsplash.com/photo-1584568694489-f71bdbac55e2",
+    alt: "Empty grocery store shelves",
     caption: "Piling-up manual records make stock data hard to trust; a connected system replaces them.",
   },
   { type: "h2", text: "Basic concepts to understand" },
@@ -245,8 +245,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1583521214690-73421a1829a9",
-    alt: "办公室里高高堆起的文件夹和纸质文件",
+    src: "https://images.unsplash.com/photo-1584568694489-f71bdbac55e2",
+    alt: "空荡荡的杂货店货架",
     caption: "不断堆积的手工记录让库存数据难以信赖;互联的系统可以取而代之。",
   },
   { type: "h2", text: "需要理解的基本概念" },
