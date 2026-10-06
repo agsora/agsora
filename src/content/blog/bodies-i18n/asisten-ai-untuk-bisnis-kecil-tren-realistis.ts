@@ -35,8 +35,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-    alt: "Three-dimensional blue letters spelling AI",
+    src: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    alt: "A humanoid robot sitting on a red bench holding reading material",
     caption: "AI is most valuable when applied to a clear task, not when made the answer to everything.",
   },
   { type: "h2", text: "Uses that already make sense for small businesses" },
@@ -110,8 +110,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
-    alt: "A white humanoid robot with a tablet screen on its chest",
+    src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    alt: "Rows of green code falling down a dark screen",
     caption: "An AI assistant is only as good as the information given to it, so tidy your data before deploying one.",
   },
   { type: "h2", text: "Privacy and security: questions you must ask" },
@@ -246,8 +246,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-    alt: "蓝色三维字母拼出 AI",
+    src: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    alt: "坐在红色长凳上拿着阅读材料的人形机器人",
     caption: "当 AI 用于明确的任务时最有价值,而不是被当作一切问题的答案。",
   },
   { type: "h2", text: "已经适合小企业的用途" },
@@ -321,8 +321,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
-    alt: "一个白色人形机器人,胸前有一块平板屏幕",
+    src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    alt: "深色屏幕上向下流动的绿色代码",
     caption: "AI 助手的水平取决于提供给它的信息,所以部署之前先整理好数据。",
   },
   { type: "h2", text: "隐私与安全:必须提出的问题" },

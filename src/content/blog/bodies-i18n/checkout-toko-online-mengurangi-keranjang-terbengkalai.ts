@@ -35,9 +35,9 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
-    alt: "A person holding a payment card while shopping on a laptop",
-    caption: "A customer already holding their card is closest to buying; don't let the checkout flow make them hesitate.",
+    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    alt: "Two hands making a contactless phone payment on a card reader",
+    caption: "A customer ready to pay is closest to buying; don't let the checkout flow make them hesitate.",
   },
   { type: "h2", text: "Barrier 1: unexpected costs" },
   {
@@ -85,8 +85,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
-    alt: "Red and black shopping bags lined up against a dark background",
+    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    alt: "A smiling shop attendant in front of a tablet register in a high-ceilinged cafe",
     caption: "A customer ready to buy shouldn't be made to wait or be confused at the final step.",
   },
   { type: "h2", text: "Barrier 4: lack of trust" },
@@ -249,9 +249,9 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
-    alt: "一个人一边在笔记本电脑上购物,一边手持支付卡",
-    caption: "已经拿着银行卡的客户离购买最近;不要让结账流程使他们犹豫。",
+    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    alt: "两只手用手机在读卡器上进行非接触式支付",
+    caption: "已经准备付款的客户离购买最近;不要让结账流程使他们犹豫。",
   },
   { type: "h2", text: "障碍一:意外的费用" },
   {
@@ -299,8 +299,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
-    alt: "红色和黑色的购物袋排列在深色背景上",
+    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    alt: "在挑高咖啡馆里,微笑的店员站在平板收银机前",
     caption: "准备购买的客户不应在最后一步被迫等待或感到困惑。",
   },
   { type: "h2", text: "障碍四:缺乏信任" },

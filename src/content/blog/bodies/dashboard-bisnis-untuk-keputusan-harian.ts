@@ -36,8 +36,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-    alt: "Laptop menampilkan dashboard dengan grafik dan angka ringkasan bisnis",
+    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
     caption: "Dashboard yang baik menjawab pertanyaan keputusan dalam hitungan detik, bukan menampilkan sebanyak mungkin data.",
   },
   { type: "h2", text: "Mulai dari keputusan, bukan dari data" },

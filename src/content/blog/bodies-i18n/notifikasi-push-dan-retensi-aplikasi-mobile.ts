@@ -39,8 +39,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
-    alt: "A hand holding a phone showing a home screen full of app icons",
+    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    alt: "Colorful wireframe sketches of several app screen layouts",
     caption: "Customers' phones are full of apps; the ones that stay are those that give real value, not the ones that buzz most often.",
   },
   { type: "h2", text: "Understanding notification types and when each fits" },
@@ -120,9 +120,9 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1576153192396-180ecef2a715",
-    alt: "A hand drawing a wireframe sketch of several app screens on paper",
-    caption: "Retention is designed from the first sketch: a short flow, clear value, and a real reason to return.",
+    src: "https://images.unsplash.com/photo-1512314889357-e157c22f938d",
+    alt: "A yellow sticky note with a lightbulb drawing on a cork board",
+    caption: "Retention is designed from the first idea: a short flow, clear value, and a real reason to return.",
   },
   { type: "h2", text: "In-app messages as a complement" },
   {
@@ -243,8 +243,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
-    alt: "手持手机,屏幕主页布满应用图标",
+    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    alt: "几种应用界面布局的彩色线框草图",
     caption: "客户的手机里满是应用;留下来的是带来真实价值的应用,而不是响得最频繁的应用。",
   },
   { type: "h2", text: "了解通知类型及各自适用的时机" },
@@ -324,9 +324,9 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1576153192396-180ecef2a715",
-    alt: "一只手在纸上绘制多个应用界面的线框草图",
-    caption: "留存从最初的草图就开始设计:简短的流程、清晰的价值,以及回来的真实理由。",
+    src: "https://images.unsplash.com/photo-1512314889357-e157c22f938d",
+    alt: "软木板上画着灯泡的黄色便利贴",
+    caption: "留存从最初的想法就开始设计:简短的流程、清晰的价值,以及回来的真实理由。",
   },
   { type: "h2", text: "应用内消息作为补充" },
   {

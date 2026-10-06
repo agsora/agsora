@@ -39,8 +39,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559028012-481c04fa702d",
-    alt: "Monitor menampilkan rancangan halaman website di aplikasi desain",
+    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    alt: "Meja kerja dengan monitor dan laptop yang menampilkan halaman website, lampu meja, dan tanaman",
     caption: "Aksesibilitas paling murah ketika dipikirkan sejak tahap rancangan, bukan setelah halaman jadi.",
   },
   { type: "h2", text: "Empat prinsip dasar yang mudah diingat" },
@@ -137,8 +137,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1547658719-da2b51169166",
-    alt: "Meja kerja dengan monitor, tablet, dan ponsel yang menampilkan rancangan halaman web",
+    src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    alt: "Laptop menampilkan kode program di meja putih dengan tanaman dalam pot kuning",
     caption: "Uji website di berbagai perangkat dan cara pakai, bukan hanya di layar yang dipakai tim pembuatnya.",
   },
   { type: "h2", text: "Hal yang sering terlewat" },

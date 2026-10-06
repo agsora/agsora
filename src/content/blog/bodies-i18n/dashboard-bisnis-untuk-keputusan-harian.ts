@@ -36,8 +36,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-    alt: "A laptop showing a dashboard with charts and summary business figures",
+    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    alt: "A screen showing a click and impressions chart with a fluctuating blue line",
     caption: "A good dashboard answers decision questions within seconds rather than displaying as much data as possible.",
   },
   { type: "h2", text: "Start from decisions, not from data" },
@@ -238,8 +238,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-    alt: "笔记本电脑显示着带有图表和业务汇总数字的仪表板",
+    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    alt: "屏幕上显示着点击与展示次数图表,蓝色折线上下波动",
     caption: "好的仪表板能在几秒钟内回答决策问题,而不是尽可能多地展示数据。",
   },
   { type: "h2", text: "从决策出发,而不是从数据出发" },

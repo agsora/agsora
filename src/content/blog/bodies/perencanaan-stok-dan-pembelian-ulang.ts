@@ -35,9 +35,9 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
-    alt: "Lorong gudang dengan rak tinggi berisi tumpukan kardus",
-    caption: "Setiap kardus di rak adalah modal yang tertahan; tugas perencanaan stok adalah menjaganya tetap bekerja.",
+    src: "https://images.unsplash.com/photo-1583521214690-73421a1829a9",
+    alt: "Tumpukan tinggi map dan dokumen kertas di ruang kantor",
+    caption: "Catatan manual yang menumpuk membuat data stok sulit dipercaya; sistem yang terhubung menggantikannya.",
   },
   { type: "h2", text: "Konsep dasar yang perlu dipahami" },
   { type: "h3", text: "Rata-rata penjualan" },
@@ -121,9 +121,9 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
-    alt: "Gudang distribusi besar dengan rak dan tumpukan kontainer kuning",
-    caption: "Semakin besar gudang dan semakin banyak cabang, semakin penting data stok yang terhubung dan terbarui otomatis.",
+    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    alt: "Pelabuhan kontainer dengan derek besar dan kapal bermuatan kontainer",
+    caption: "Semakin besar skala pergerakan barang dan semakin banyak cabang, semakin penting data stok yang terhubung dan terbarui otomatis.",
   },
   {
     type: "ul",

@@ -35,9 +35,9 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
-    alt: "A warehouse aisle with tall shelves holding stacks of cardboard boxes",
-    caption: "Every box on the shelf is tied-up capital; inventory planning's job is to keep it working.",
+    src: "https://images.unsplash.com/photo-1583521214690-73421a1829a9",
+    alt: "Tall stacks of folders and paper documents in an office",
+    caption: "Piling-up manual records make stock data hard to trust; a connected system replaces them.",
   },
   { type: "h2", text: "Basic concepts to understand" },
   { type: "h3", text: "Average sales" },
@@ -121,9 +121,9 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
-    alt: "A large distribution warehouse with shelves and stacks of yellow containers",
-    caption: "The bigger the warehouse and the more branches, the more important connected, automatically updated stock data becomes.",
+    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    alt: "A container port with large cranes and a ship loaded with containers",
+    caption: "The larger the scale of goods movement and the more branches, the more important connected, automatically updated stock data becomes.",
   },
   {
     type: "ul",
@@ -245,9 +245,9 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
-    alt: "仓库过道,高大的货架上堆放着纸箱",
-    caption: "货架上的每个纸箱都是被占用的资金;库存计划的任务就是让它保持运转。",
+    src: "https://images.unsplash.com/photo-1583521214690-73421a1829a9",
+    alt: "办公室里高高堆起的文件夹和纸质文件",
+    caption: "不断堆积的手工记录让库存数据难以信赖;互联的系统可以取而代之。",
   },
   { type: "h2", text: "需要理解的基本概念" },
   { type: "h3", text: "平均销量" },
@@ -331,9 +331,9 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
-    alt: "大型配送仓库,里面有货架和成堆的黄色周转箱",
-    caption: "仓库越大、分店越多,互联且自动更新的库存数据就越重要。",
+    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    alt: "有大型起重机和满载集装箱的货轮的集装箱港口",
+    caption: "货物流动的规模越大、分店越多,互联且自动更新的库存数据就越重要。",
   },
   {
     type: "ul",

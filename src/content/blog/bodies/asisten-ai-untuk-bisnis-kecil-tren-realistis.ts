@@ -35,8 +35,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-    alt: "Tulisan AI tiga dimensi berwarna biru",
+    src: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    alt: "Robot humanoid duduk di bangku merah sambil memegang bahan bacaan",
     caption: "AI paling bernilai ketika dipasang pada tugas yang jelas, bukan ketika dijadikan jawaban untuk semua hal.",
   },
   { type: "h2", text: "Penggunaan yang sudah masuk akal untuk bisnis kecil" },
@@ -110,8 +110,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
-    alt: "Robot humanoid putih dengan layar tablet di bagian dada",
+    src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    alt: "Deretan kode hijau yang jatuh ke bawah di layar gelap",
     caption: "Asisten AI hanya sebaik informasi yang diberikan kepadanya, jadi rapikan data sebelum memasangnya.",
   },
   { type: "h2", text: "Privasi dan keamanan: pertanyaan yang harus diajukan" },

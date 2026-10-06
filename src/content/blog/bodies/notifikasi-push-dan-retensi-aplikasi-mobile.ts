@@ -39,8 +39,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
-    alt: "Tangan memegang ponsel yang menampilkan layar utama penuh ikon aplikasi",
+    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    alt: "Sketsa wireframe berwarna dari beberapa tata letak layar aplikasi",
     caption: "Ponsel pelanggan penuh aplikasi; yang bertahan adalah yang memberi manfaat nyata, bukan yang paling sering berbunyi.",
   },
   { type: "h2", text: "Memahami jenis notifikasi dan kapan masing-masing cocok" },
@@ -120,9 +120,9 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1576153192396-180ecef2a715",
-    alt: "Tangan menggambar sketsa wireframe beberapa layar aplikasi di atas kertas",
-    caption: "Retensi dirancang sejak sketsa awal: alur singkat, manfaat jelas, dan alasan nyata untuk kembali.",
+    src: "https://images.unsplash.com/photo-1512314889357-e157c22f938d",
+    alt: "Catatan tempel kuning bergambar bola lampu di papan gabus",
+    caption: "Retensi dirancang sejak ide pertama: alur singkat, manfaat jelas, dan alasan nyata untuk kembali.",
   },
   { type: "h2", text: "Pesan di dalam aplikasi sebagai pelengkap" },
   {

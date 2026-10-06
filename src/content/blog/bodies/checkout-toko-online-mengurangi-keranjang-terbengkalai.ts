@@ -35,9 +35,9 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
-    alt: "Seseorang memegang kartu pembayaran sambil berbelanja di laptop",
-    caption: "Pelanggan yang sudah memegang kartunya adalah yang paling dekat dengan membeli; jangan biarkan alur checkout membuatnya ragu.",
+    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    alt: "Dua tangan melakukan pembayaran nirsentuh dengan ponsel pada mesin pembaca kartu",
+    caption: "Pelanggan yang sudah siap membayar adalah yang paling dekat dengan membeli; jangan biarkan alur checkout membuatnya ragu.",
   },
   { type: "h2", text: "Hambatan 1: biaya tak terduga" },
   {
@@ -85,8 +85,8 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
-    alt: "Tas belanja merah dan hitam berjajar di atas latar gelap",
+    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    alt: "Pegawai toko tersenyum di depan tablet kasir di sebuah kafe berlangit-langit tinggi",
     caption: "Pelanggan yang siap membeli sebaiknya tidak dibuat menunggu atau bingung di langkah terakhir.",
   },
   { type: "h2", text: "Hambatan 4: kurang percaya" },

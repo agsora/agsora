@@ -39,8 +39,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559028012-481c04fa702d",
-    alt: "A monitor showing a website page design in a design application",
+    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    alt: "A desk with a monitor and laptop showing a website page, a desk lamp, and a plant",
     caption: "Accessibility is cheapest when thought about at the design stage, not after the page is built.",
   },
   { type: "h2", text: "Four basic principles that are easy to remember" },
@@ -137,8 +137,8 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1547658719-da2b51169166",
-    alt: "A desk with a monitor, tablet, and phone showing a web page design",
+    src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    alt: "A laptop showing program code on a white desk with a plant in a yellow pot",
     caption: "Test the website on various devices and ways of using it, not only on the screens its builders use.",
   },
   { type: "h2", text: "Things that are often missed" },
@@ -262,8 +262,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559028012-481c04fa702d",
-    alt: "显示器上在设计软件中展示的网站页面设计",
+    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    alt: "书桌上的显示器和笔记本电脑显示着网页,旁边有台灯和绿植",
     caption: "无障碍在设计阶段考虑成本最低,而不是等页面做好之后。",
   },
   { type: "h2", text: "四项易记的基本原则" },
@@ -360,8 +360,8 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1547658719-da2b51169166",
-    alt: "书桌上的显示器、平板和手机显示着网页设计",
+    src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    alt: "白色桌面上的笔记本电脑显示着程序代码,旁边有黄色花盆里的植物",
     caption: "在各种设备和使用方式下测试网站,而不只是在建站团队所用的屏幕上。",
   },
   { type: "h2", text: "常被忽略的事项" },
