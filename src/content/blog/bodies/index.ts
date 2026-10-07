@@ -78,6 +78,16 @@ import { body as b_notifikasi_push_dan_retensi_aplikasi_mobile } from "./notifik
 import { body as b_aksesibilitas_website_untuk_bisnis } from "./aksesibilitas-website-untuk-bisnis";
 import { body as b_perencanaan_stok_dan_pembelian_ulang } from "./perencanaan-stok-dan-pembelian-ulang";
 import { body as b_asisten_ai_untuk_bisnis_kecil_tren_realistis } from "./asisten-ai-untuk-bisnis-kecil-tren-realistis";
+import { body as b_ar_vr_untuk_bisnis_ritel_yang_realistis } from "./ar-vr-untuk-bisnis-ritel-yang-realistis";
+import { body as b_blog_perusahaan_sebagai_mesin_prospek } from "./blog-perusahaan-sebagai-mesin-prospek";
+import { body as b_infrastruktur_jaringan_dan_perangkat_toko } from "./infrastruktur-jaringan-dan-perangkat-toko";
+import { body as b_integrasi_payment_gateway_website_dan_aplikasi } from "./integrasi-payment-gateway-website-dan-aplikasi";
+import { body as b_master_data_erp_kode_barang_pelanggan_pemasok } from "./master-data-erp-kode-barang-pelanggan-pemasok";
+import { body as b_onboarding_aplikasi_mobile_pengguna_baru } from "./onboarding-aplikasi-mobile-pengguna-baru";
+import { body as b_pengiriman_dan_logistik_toko_online } from "./pengiriman-dan-logistik-toko-online";
+import { body as b_tim_digital_internal_atau_vendor_eksternal } from "./tim-digital-internal-atau-vendor-eksternal";
+import { body as b_uat_pengujian_sebelum_aplikasi_diluncurkan } from "./uat-pengujian-sebelum-aplikasi-diluncurkan";
+import { body as b_website_multibahasa_untuk_pasar_regional } from "./website-multibahasa-untuk-pasar-regional";
 import { body as b_checkout_toko_online_mengurangi_keranjang_terbengkalai } from "./checkout-toko-online-mengurangi-keranjang-terbengkalai";
 
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
@@ -162,4 +172,14 @@ export const bodies: Record<string, Block[]> = {
   "perencanaan-stok-dan-pembelian-ulang": b_perencanaan_stok_dan_pembelian_ulang,
   "asisten-ai-untuk-bisnis-kecil-tren-realistis": b_asisten_ai_untuk_bisnis_kecil_tren_realistis,
   "checkout-toko-online-mengurangi-keranjang-terbengkalai": b_checkout_toko_online_mengurangi_keranjang_terbengkalai,
+  "ar-vr-untuk-bisnis-ritel-yang-realistis": b_ar_vr_untuk_bisnis_ritel_yang_realistis,
+  "blog-perusahaan-sebagai-mesin-prospek": b_blog_perusahaan_sebagai_mesin_prospek,
+  "infrastruktur-jaringan-dan-perangkat-toko": b_infrastruktur_jaringan_dan_perangkat_toko,
+  "integrasi-payment-gateway-website-dan-aplikasi": b_integrasi_payment_gateway_website_dan_aplikasi,
+  "master-data-erp-kode-barang-pelanggan-pemasok": b_master_data_erp_kode_barang_pelanggan_pemasok,
+  "onboarding-aplikasi-mobile-pengguna-baru": b_onboarding_aplikasi_mobile_pengguna_baru,
+  "pengiriman-dan-logistik-toko-online": b_pengiriman_dan_logistik_toko_online,
+  "tim-digital-internal-atau-vendor-eksternal": b_tim_digital_internal_atau_vendor_eksternal,
+  "uat-pengujian-sebelum-aplikasi-diluncurkan": b_uat_pengujian_sebelum_aplikasi_diluncurkan,
+  "website-multibahasa-untuk-pasar-regional": b_website_multibahasa_untuk_pasar_regional,
 };

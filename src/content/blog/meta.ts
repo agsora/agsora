@@ -6,6 +6,256 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "ar-vr-untuk-bisnis-ritel-yang-realistis",
+    title: "AR dan VR untuk Bisnis Ritel: Mana yang Realistis, Mana yang Sekadar Gimmick",
+    excerpt: "Realitas tertambah dan realitas virtual sering dipromosikan sebagai masa depan belanja. Cara menilai kegunaannya untuk bisnis nyata, kasus yang masuk akal, biaya tersembunyi, dan langkah uji coba kecil sebelum berinvestasi besar.",
+    category: "Teknologi",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["mobile","retail","ecommerce"],
+    titleTranslations: {
+      en: "AR and VR for Retail Business: What Is Realistic and What Is Just a Gimmick",
+      zh: "零售业的 AR 与 VR:哪些切实可行,哪些只是噱头",
+    },
+    excerptTranslations: {
+      en: "Augmented and virtual reality are often promoted as the future of shopping. How to judge their usefulness for a real business, the use cases that make sense, hidden costs, and a small trial before investing heavily.",
+      zh: "增强现实和虚拟现实常被宣传为购物的未来。如何评估它们对真实业务的用处、合理的应用场景、隐性成本,以及在大举投资之前先做小规模试验。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+      alt: "Seseorang mengenakan headset realitas virtual dengan ekspresi terkejut",
+      altTranslations: {
+        en: "A person wearing a virtual reality headset with a surprised expression",
+        zh: "一个戴着虚拟现实头显、表情惊讶的人",
+      },
+    },
+  },
+  {
+    slug: "blog-perusahaan-sebagai-mesin-prospek",
+    title: "Blog Perusahaan sebagai Mesin Prospek: Menulis Konten yang Dicari Calon Pelanggan",
+    excerpt: "Blog yang dikelola dengan benar mendatangkan calon pelanggan yang sudah siap dipercaya. Cara memilih topik dari pertanyaan pelanggan, menulis untuk niat pencarian, menata kalender konten, dan mengukur hasilnya tanpa angka rekaan.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["website","seo","sales"],
+    titleTranslations: {
+      en: "The Company Blog as a Lead Engine: Writing Content Prospects Actually Search For",
+      zh: "把公司博客变成获客引擎:撰写潜在客户真正会搜索的内容",
+    },
+    excerptTranslations: {
+      en: "A well-run blog brings in prospects who are already ready to trust you. How to pick topics from customer questions, write for search intent, plan a content calendar, and measure results without invented figures.",
+      zh: "经营得当的博客能带来已经准备好信任你的潜在客户。如何从客户的问题中选题、针对搜索意图写作、规划内容日历,并在没有杜撰数字的情况下衡量成果。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
+      alt: "Laptop di atas meja menampilkan halaman situs dengan tulisan tentang pengalaman yang sederhana",
+      altTranslations: {
+        en: "A laptop on a desk showing a web page with text about simple experiences",
+        zh: "桌上的笔记本电脑显示着一个关于简单体验的网页",
+      },
+    },
+  },
+  {
+    slug: "infrastruktur-jaringan-dan-perangkat-toko",
+    title: "Infrastruktur Jaringan dan Perangkat Toko: Fondasi Fisik di Balik Sistem Kasir yang Lancar",
+    excerpt: "Sistem kasir secanggih apa pun bergantung pada internet, jaringan lokal, dan perangkat yang andal. Cara merencanakan koneksi, memilih perangkat, menyiapkan cadangan, dan merawatnya agar toko tidak berhenti melayani.",
+    category: "POS & Retail",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["pos","infrastruktur","retail"],
+    titleTranslations: {
+      en: "Store Network Infrastructure and Devices: The Physical Foundation of a Smooth POS",
+      zh: "门店网络基础设施与设备:顺畅 POS 背后的物理基础",
+    },
+    excerptTranslations: {
+      en: "However advanced a POS system is, it depends on reliable internet, local networks, and devices. How to plan connectivity, choose devices, prepare backups, and maintain them so the store never stops serving.",
+      zh: "无论 POS 系统多先进,都依赖可靠的互联网、局域网和设备。如何规划网络连接、选择设备、准备备份并做好维护,让门店不会停止服务。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+      alt: "Kabel jaringan biru dan abu-abu tertancap pada panel patch di ruang server",
+      altTranslations: {
+        en: "Blue and grey network cables plugged into a patch panel in a server room",
+        zh: "机房配线架上插着蓝色和灰色的网线",
+      },
+    },
+  },
+  {
+    slug: "integrasi-payment-gateway-website-dan-aplikasi",
+    title: "Integrasi Payment Gateway untuk Website dan Aplikasi: Panduan bagi Pemilik Bisnis",
+    excerpt: "Menerima pembayaran online bukan sekadar memasang tombol bayar. Cara memilih payment gateway, metode pembayaran, alur status transaksi, rekonsiliasi, hingga keamanan dan penanganan refund.",
+    category: "Teknologi",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["pembayaran","ecommerce","integrasi"],
+    titleTranslations: {
+      en: "Payment Gateway Integration for Websites and Apps: A Guide for Business Owners",
+      zh: "网站与应用的支付网关集成:企业主指南",
+    },
+    excerptTranslations: {
+      en: "Accepting online payments is more than adding a pay button. How to choose a payment gateway and payment methods, understand transaction status flows, reconciliation, security, and refunds.",
+      zh: "接受在线支付不只是加一个付款按钮。如何选择支付网关与支付方式,理解交易状态流程、对账、安全与退款处理。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1553729459-efe14ef6055d",
+      alt: "Tangan memegang setumpuk uang kertas",
+      altTranslations: {
+        en: "Hands holding a stack of banknotes",
+        zh: "手中握着一叠纸币",
+      },
+    },
+  },
+  {
+    slug: "master-data-erp-kode-barang-pelanggan-pemasok",
+    title: "Master Data ERP: Fondasi Kode Barang, Pelanggan, dan Pemasok yang Sering Diremehkan",
+    excerpt: "ERP secanggih apa pun akan menghasilkan laporan yang salah jika data induknya berantakan. Cara menyusun kode barang, data pelanggan dan pemasok, aturan penamaan, serta tata kelola agar data tetap bersih.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["erp","data","migrasi-data"],
+    titleTranslations: {
+      en: "ERP Master Data: The Often Underrated Foundation of Item Codes, Customers, and Suppliers",
+      zh: "ERP 主数据:常被低估的物料编码、客户与供应商基础",
+    },
+    excerptTranslations: {
+      en: "Even the most sophisticated ERP will produce wrong reports if its master data is a mess. How to structure item codes, customer and supplier records, naming rules, and governance so data stays clean.",
+      zh: "再先进的 ERP,如果主数据一团糟,也只会产出错误的报表。如何构建物料编码、客户与供应商记录、命名规则和治理机制,让数据始终干净。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
+      alt: "Tangan menempelkan catatan tempel pada papan perencanaan yang penuh",
+      altTranslations: {
+        en: "A hand placing sticky notes on a crowded planning board",
+        zh: "一只手把便利贴贴在贴满的规划板上",
+      },
+    },
+  },
+  {
+    slug: "onboarding-aplikasi-mobile-pengguna-baru",
+    title: "Onboarding Aplikasi Mobile: Mengubah Pengguna Baru Menjadi Pengguna Aktif",
+    excerpt: "Banyak aplikasi kehilangan penggunanya dalam beberapa menit pertama. Cara merancang pendaftaran, pengantar fitur, izin, dan momen pertama bernilai agar pengguna baru bertahan dan merasakan manfaat aplikasi.",
+    category: "Teknologi",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["mobile","pelanggan","implementasi"],
+    titleTranslations: {
+      en: "Mobile App Onboarding: Turning New Users into Active Users",
+      zh: "移动应用新手引导:把新用户变成活跃用户",
+    },
+    excerptTranslations: {
+      en: "Many apps lose their users within the first few minutes. How to design sign-up, feature introductions, permissions, and the first valuable moment so new users stay and feel the benefit of the app.",
+      zh: "许多应用在最初几分钟内就流失了用户。如何设计注册、功能介绍、权限请求和第一个有价值的时刻,让新用户留下来并感受到应用的价值。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+      alt: "Dua orang menunjuk layar laptop sambil berdiskusi tentang tampilan aplikasi",
+      altTranslations: {
+        en: "Two people pointing at a laptop screen while discussing an app design",
+        zh: "两个人一边讨论应用设计一边指着笔记本电脑屏幕",
+      },
+    },
+  },
+  {
+    slug: "pengiriman-dan-logistik-toko-online",
+    title: "Pengiriman dan Logistik Toko Online: Menjaga Ongkir, Kecepatan, dan Kepuasan Pelanggan",
+    excerpt: "Pengiriman sering menjadi penentu apakah pelanggan membeli lagi atau tidak. Cara memilih kurir, menghitung ongkir, mengemas barang, melacak paket, dan menangani retur secara rapi di toko online.",
+    category: "POS & Retail",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["ecommerce","operasional","pelanggan"],
+    titleTranslations: {
+      en: "Shipping and Logistics for Online Stores: Balancing Cost, Speed, and Customer Satisfaction",
+      zh: "网店的配送与物流:兼顾运费、速度与客户满意度",
+    },
+    excerptTranslations: {
+      en: "Shipping often decides whether a customer buys again. How to choose couriers, calculate shipping fees, pack goods, track parcels, and handle returns in an orderly way for an online store.",
+      zh: "配送往往决定客户会不会再次购买。如何选择快递、计算运费、包装货物、追踪包裹,并有条不紊地处理退货。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
+      alt: "Dua orang menyerahkan sebuah paket kardus yang sudah dilakban",
+      altTranslations: {
+        en: "Two people handing over a taped cardboard parcel",
+        zh: "两个人正在交接一个封好胶带的纸箱包裹",
+      },
+    },
+  },
+  {
+    slug: "tim-digital-internal-atau-vendor-eksternal",
+    title: "Tim Digital Internal atau Vendor Eksternal: Cara Menentukan Model yang Tepat untuk Bisnis Anda",
+    excerpt: "Membangun dan merawat sistem digital bisa dikerjakan tim sendiri, vendor, atau gabungan keduanya. Perbandingan biaya, kendali, kecepatan, risiko, dan cara menentukan pembagian peran yang masuk akal sesuai tahap bisnis.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["vendor","implementasi","biaya"],
+    titleTranslations: {
+      en: "In-House Digital Team or External Vendor: How to Choose the Right Model for Your Business",
+      zh: "内部数字团队还是外部供应商:如何为你的业务选择合适的模式",
+    },
+    excerptTranslations: {
+      en: "Building and maintaining digital systems can be done by your own team, a vendor, or a mix of both. A comparison of cost, control, speed, and risk, and how to decide a sensible division of roles for your stage of business.",
+      zh: "数字系统的构建与维护可以由自己的团队、供应商或两者结合来完成。从成本、控制、速度和风险角度比较,并说明如何依据业务阶段合理划分角色。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b",
+      alt: "Tim bekerja dengan laptop di sebuah meja kerja bersama yang panjang",
+      altTranslations: {
+        en: "A team working on laptops at a long shared desk",
+        zh: "一个团队在一张长长的共享工作桌前用笔记本电脑工作",
+      },
+    },
+  },
+  {
+    slug: "uat-pengujian-sebelum-aplikasi-diluncurkan",
+    title: "Uji Penerimaan Pengguna (UAT): Memastikan Aplikasi Siap Sebelum Diluncurkan",
+    excerpt: "Banyak masalah baru terungkap setelah aplikasi dipakai sungguhan. Cara merencanakan UAT, menulis skenario uji, melibatkan pengguna yang tepat, mencatat temuan, dan memutuskan kapan aplikasi layak diluncurkan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["implementasi","custom-software","perubahan"],
+    titleTranslations: {
+      en: "User Acceptance Testing (UAT): Making Sure the App Is Ready Before Launch",
+      zh: "用户验收测试(UAT):确保应用在上线前已准备就绪",
+    },
+    excerptTranslations: {
+      en: "Many problems only surface after an app is used for real. How to plan UAT, write test scenarios, involve the right users, record findings, and decide when an app is fit to launch.",
+      zh: "许多问题只有在应用真正投入使用后才会暴露。如何规划 UAT、编写测试场景、让合适的用户参与、记录发现,并决定应用何时适合上线。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      alt: "Layar laptop menampilkan kode program berwarna di editor",
+      altTranslations: {
+        en: "A laptop screen showing colourful program code in an editor",
+        zh: "笔记本电脑屏幕在编辑器中显示彩色的程序代码",
+      },
+    },
+  },
+  {
+    slug: "website-multibahasa-untuk-pasar-regional",
+    title: "Website Multibahasa: Menjangkau Pelanggan Lintas Negara Tanpa Mengorbankan SEO",
+    excerpt: "Menyediakan website dalam beberapa bahasa membuka pasar baru, tetapi dikerjakan asal-asalan justru merugikan. Cara merancang struktur alamat, terjemahan berkualitas, hreflang, penyesuaian budaya, dan proses pemeliharaan.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-07",
+    updatedAt: "2026-10-07",
+    tags: ["website","seo","umkm"],
+    titleTranslations: {
+      en: "Multilingual Websites: Reaching Customers Across Borders Without Sacrificing SEO",
+      zh: "多语言网站:跨越国界触达客户,同时不牺牲 SEO",
+    },
+    excerptTranslations: {
+      en: "Offering a website in several languages opens new markets, but a careless job does harm. How to design URL structure, quality translation, hreflang, cultural adaptation, and a maintenance process.",
+      zh: "提供多语言网站能开拓新市场,但草率的做法反而有害。如何设计网址结构、高质量翻译、hreflang、文化适配以及维护流程。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+      alt: "Foto bumi dari luar angkasa dengan cahaya kota di malam hari",
+      altTranslations: {
+        en: "Photo of the Earth from space with city lights at night",
+        zh: "从太空拍摄的地球,夜晚的城市灯火清晰可见",
+      },
+    },
+  },
+  {
     slug: "notifikasi-push-dan-retensi-aplikasi-mobile",
     title: "Notifikasi Push dan Retensi: Membuat Pengguna Aplikasi Mobile Mau Kembali",
     excerpt: "Banyak aplikasi diunduh lalu dilupakan. Cara memakai notifikasi push, segmentasi, dan pesan di dalam aplikasi agar pengguna kembali tanpa merasa diganggu, serta cara mengukur hasilnya.",
