@@ -29,6 +29,16 @@ import { translations as t_tim_digital_internal_atau_vendor_eksternal } from "./
 import { translations as t_uat_pengujian_sebelum_aplikasi_diluncurkan } from "./uat-pengujian-sebelum-aplikasi-diluncurkan";
 import { translations as t_website_multibahasa_untuk_pasar_regional } from "./website-multibahasa-untuk-pasar-regional";
 import { translations as t_checkout_toko_online_mengurangi_keranjang_terbengkalai } from "./checkout-toko-online-mengurangi-keranjang-terbengkalai";
+import { translations as t_katalog_produk_toko_online_yang_terstruktur } from "./katalog-produk-toko-online-yang-terstruktur";
+import { translations as t_retur_dan_refund_toko_online } from "./retur-dan-refund-toko-online";
+import { translations as t_monitoring_dan_uptime_website_aplikasi_bisnis } from "./monitoring-dan-uptime-website-aplikasi-bisnis";
+import { translations as t_penjualan_lewat_media_sosial_dan_live_commerce } from "./penjualan-lewat-media-sosial-dan-live-commerce";
+import { translations as t_mengendalikan_biaya_cloud_untuk_bisnis } from "./mengendalikan-biaya-cloud-untuk-bisnis";
+import { translations as t_portal_pelanggan_dan_pemasok_b2b } from "./portal-pelanggan-dan-pemasok-b2b";
+import { translations as t_rekonsiliasi_pembayaran_toko_online } from "./rekonsiliasi-pembayaran-toko-online";
+import { translations as t_analitik_website_dan_aplikasi_mobile_untuk_keputusan } from "./analitik-website-dan-aplikasi-mobile-untuk-keputusan";
+import { translations as t_iot_dan_sensor_untuk_bisnis_kecil_yang_realistis } from "./iot-dan-sensor-untuk-bisnis-kecil-yang-realistis";
+import { translations as t_pelindungan_data_pribadi_untuk_website_dan_aplikasi } from "./pelindungan-data-pribadi-untuk-website-dan-aplikasi";
 
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
@@ -69,4 +79,14 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "tim-digital-internal-atau-vendor-eksternal": t_tim_digital_internal_atau_vendor_eksternal,
   "uat-pengujian-sebelum-aplikasi-diluncurkan": t_uat_pengujian_sebelum_aplikasi_diluncurkan,
   "website-multibahasa-untuk-pasar-regional": t_website_multibahasa_untuk_pasar_regional,
+  "katalog-produk-toko-online-yang-terstruktur": t_katalog_produk_toko_online_yang_terstruktur,
+  "retur-dan-refund-toko-online": t_retur_dan_refund_toko_online,
+  "monitoring-dan-uptime-website-aplikasi-bisnis": t_monitoring_dan_uptime_website_aplikasi_bisnis,
+  "penjualan-lewat-media-sosial-dan-live-commerce": t_penjualan_lewat_media_sosial_dan_live_commerce,
+  "mengendalikan-biaya-cloud-untuk-bisnis": t_mengendalikan_biaya_cloud_untuk_bisnis,
+  "portal-pelanggan-dan-pemasok-b2b": t_portal_pelanggan_dan_pemasok_b2b,
+  "rekonsiliasi-pembayaran-toko-online": t_rekonsiliasi_pembayaran_toko_online,
+  "analitik-website-dan-aplikasi-mobile-untuk-keputusan": t_analitik_website_dan_aplikasi_mobile_untuk_keputusan,
+  "iot-dan-sensor-untuk-bisnis-kecil-yang-realistis": t_iot_dan_sensor_untuk_bisnis_kecil_yang_realistis,
+  "pelindungan-data-pribadi-untuk-website-dan-aplikasi": t_pelindungan_data_pribadi_untuk_website_dan_aplikasi,
 };

@@ -31,7 +31,7 @@ function localized(
 }
 
 /** Bump when the static pages or service copy change in a way worth re-crawling. */
-const STATIC_PAGES_UPDATED = new Date("2026-10-07");
+const STATIC_PAGES_UPDATED = new Date("2026-10-08");
 
 const routes = [
   "/",

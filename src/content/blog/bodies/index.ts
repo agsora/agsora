@@ -89,6 +89,16 @@ import { body as b_tim_digital_internal_atau_vendor_eksternal } from "./tim-digi
 import { body as b_uat_pengujian_sebelum_aplikasi_diluncurkan } from "./uat-pengujian-sebelum-aplikasi-diluncurkan";
 import { body as b_website_multibahasa_untuk_pasar_regional } from "./website-multibahasa-untuk-pasar-regional";
 import { body as b_checkout_toko_online_mengurangi_keranjang_terbengkalai } from "./checkout-toko-online-mengurangi-keranjang-terbengkalai";
+import { body as b_katalog_produk_toko_online_yang_terstruktur } from "./katalog-produk-toko-online-yang-terstruktur";
+import { body as b_retur_dan_refund_toko_online } from "./retur-dan-refund-toko-online";
+import { body as b_monitoring_dan_uptime_website_aplikasi_bisnis } from "./monitoring-dan-uptime-website-aplikasi-bisnis";
+import { body as b_penjualan_lewat_media_sosial_dan_live_commerce } from "./penjualan-lewat-media-sosial-dan-live-commerce";
+import { body as b_mengendalikan_biaya_cloud_untuk_bisnis } from "./mengendalikan-biaya-cloud-untuk-bisnis";
+import { body as b_portal_pelanggan_dan_pemasok_b2b } from "./portal-pelanggan-dan-pemasok-b2b";
+import { body as b_rekonsiliasi_pembayaran_toko_online } from "./rekonsiliasi-pembayaran-toko-online";
+import { body as b_analitik_website_dan_aplikasi_mobile_untuk_keputusan } from "./analitik-website-dan-aplikasi-mobile-untuk-keputusan";
+import { body as b_iot_dan_sensor_untuk_bisnis_kecil_yang_realistis } from "./iot-dan-sensor-untuk-bisnis-kecil-yang-realistis";
+import { body as b_pelindungan_data_pribadi_untuk_website_dan_aplikasi } from "./pelindungan-data-pribadi-untuk-website-dan-aplikasi";
 
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
@@ -182,4 +192,14 @@ export const bodies: Record<string, Block[]> = {
   "tim-digital-internal-atau-vendor-eksternal": b_tim_digital_internal_atau_vendor_eksternal,
   "uat-pengujian-sebelum-aplikasi-diluncurkan": b_uat_pengujian_sebelum_aplikasi_diluncurkan,
   "website-multibahasa-untuk-pasar-regional": b_website_multibahasa_untuk_pasar_regional,
+  "katalog-produk-toko-online-yang-terstruktur": b_katalog_produk_toko_online_yang_terstruktur,
+  "retur-dan-refund-toko-online": b_retur_dan_refund_toko_online,
+  "monitoring-dan-uptime-website-aplikasi-bisnis": b_monitoring_dan_uptime_website_aplikasi_bisnis,
+  "penjualan-lewat-media-sosial-dan-live-commerce": b_penjualan_lewat_media_sosial_dan_live_commerce,
+  "mengendalikan-biaya-cloud-untuk-bisnis": b_mengendalikan_biaya_cloud_untuk_bisnis,
+  "portal-pelanggan-dan-pemasok-b2b": b_portal_pelanggan_dan_pemasok_b2b,
+  "rekonsiliasi-pembayaran-toko-online": b_rekonsiliasi_pembayaran_toko_online,
+  "analitik-website-dan-aplikasi-mobile-untuk-keputusan": b_analitik_website_dan_aplikasi_mobile_untuk_keputusan,
+  "iot-dan-sensor-untuk-bisnis-kecil-yang-realistis": b_iot_dan_sensor_untuk_bisnis_kecil_yang_realistis,
+  "pelindungan-data-pribadi-untuk-website-dan-aplikasi": b_pelindungan_data_pribadi_untuk_website_dan_aplikasi,
 };

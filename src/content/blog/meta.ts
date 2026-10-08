@@ -6,6 +6,256 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "katalog-produk-toko-online-yang-terstruktur",
+    title: "Katalog Produk Toko Online yang Terstruktur: Fondasi Penjualan yang Rapi dan Mudah Tumbuh",
+    excerpt: "Katalog adalah inti toko online. Cara menyusun model data produk dan varian, kode barang yang stabil, aturan penamaan, kategori, foto, deskripsi, dan satu sumber data untuk semua kanal.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["ecommerce","data","website"],
+    titleTranslations: {
+      en: "A Structured Online Store Catalogue: A Tidy Foundation for Sales That Can Grow",
+      zh: "结构清晰的网店商品目录:让销售井然有序、易于增长的基础",
+    },
+    excerptTranslations: {
+      en: "The catalogue is the core of an online store. How to build the product and variant data model, stable item codes, naming rules, categories, photos, descriptions, and one data source for every channel.",
+      zh: "目录是网店的核心。如何建立商品与规格的数据模型、稳定的商品编码、命名规则、分类、图片、描述,以及所有渠道共用的一份数据来源。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
+      alt: "Tas belanja merah dan hitam berjajar di atas latar gelap",
+      altTranslations: {
+        en: "Red and black shopping bags lined up against a dark background",
+        zh: "深色背景前排成一列的红色和黑色购物袋",
+      },
+    },
+  },
+  {
+    slug: "retur-dan-refund-toko-online",
+    title: "Retur dan Pengembalian Dana Toko Online: Merancang Proses yang Adil, Jelas, dan Tercatat Rapi",
+    excerpt: "Retur yang ditangani rapi menjaga kepercayaan dan mencegah selisih stok dan uang. Cara menyusun kebijakan, alur permintaan, pemeriksaan barang, pengembalian dana, dan mengurangi retur dari sumbernya.",
+    category: "POS & Retail",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["ecommerce","pelanggan","operasional","pembayaran"],
+    titleTranslations: {
+      en: "Returns and Refunds for Online Stores: Designing a Process That Is Fair, Clear, and Properly Recorded",
+      zh: "网店的退货与退款:设计公平、清晰且记录完整的流程",
+    },
+    excerptTranslations: {
+      en: "A return handled neatly protects trust and prevents stock and money discrepancies. How to set the policy, request flow, goods inspection, refunds, and reduce returns at the source.",
+      zh: "处理得当的退货能维护信任,并防止库存和资金差异。如何制定政策、申请流程、商品检验、退款,并从源头减少退货。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+      alt: "Gudang distribusi besar dengan rak dan tumpukan kontainer kuning",
+      altTranslations: {
+        en: "A large distribution warehouse with shelves and stacks of yellow containers",
+        zh: "有货架和成堆黄色容器的大型配送仓库",
+      },
+    },
+  },
+  {
+    slug: "monitoring-dan-uptime-website-aplikasi-bisnis",
+    title: "Monitoring dan Uptime Website serta Aplikasi Bisnis: Tahu Ada Masalah Sebelum Pelanggan Mengeluh",
+    excerpt: "Cara merancang pemantauan yang realistis: apa yang dipantau, pemeriksaan alur, peringatan yang tidak melelahkan, pencatatan kesalahan, halaman status, dan penanganan insiden dengan tenang.",
+    category: "Teknologi",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["infrastruktur","keamanan","operasional"],
+    titleTranslations: {
+      en: "Monitoring and Uptime for Business Websites and Apps: Knowing There Is a Problem Before Customers Complain",
+      zh: "企业网站与应用的监控和可用性:在顾客抱怨之前就知道出了问题",
+    },
+    excerptTranslations: {
+      en: "How to design realistic monitoring: what to watch, flow checks, alerts that do not cause fatigue, error logging, status pages, and handling incidents calmly.",
+      zh: "如何设计切实可行的监控:监控什么、流程检查、不会造成疲劳的告警、错误记录、状态页,以及冷静处理事件。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+      alt: "Layar menampilkan panel metrik dengan grafik garis kecil dan angka performa",
+      altTranslations: {
+        en: "A screen showing a metrics panel with small line charts and performance figures",
+        zh: "屏幕上显示带有小型折线图和性能数字的指标面板",
+      },
+    },
+  },
+  {
+    slug: "penjualan-lewat-media-sosial-dan-live-commerce",
+    title: "Berjualan Lewat Media Sosial dan Live Commerce: Dari Keramaian Menjadi Penjualan yang Tercatat Rapi",
+    excerpt: "Cara menghubungkan media sosial dan siaran langsung dengan toko Anda sendiri: satu alur pesanan, stok yang sinkron, pembayaran yang jelas, layanan pelanggan, data yang bertanggung jawab, dan pengukuran per saluran.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["ecommerce","sales","pelanggan"],
+    titleTranslations: {
+      en: "Selling Through Social Media and Live Commerce: Turning Bustle into Properly Recorded Sales",
+      zh: "通过社交媒体和直播电商销售:把热闹转化为记录完整的销售",
+    },
+    excerptTranslations: {
+      en: "How to connect social media and live streams with your own store: one order flow, synchronised stock, clear payment, customer service, responsible data, and measurement per channel.",
+      zh: "如何把社交媒体和直播与你自己的店铺连接:统一的订单流程、同步的库存、清晰的付款、客户服务、负责任的数据,以及按渠道衡量。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7",
+      alt: "Ikon aplikasi media sosial dan desain dalam bentuk kubus tiga dimensi di latar gelap",
+      altTranslations: {
+        en: "Social media and design app icons as three-dimensional cubes on a dark background",
+        zh: "深色背景上呈三维立方体形状的社交媒体和设计应用图标",
+      },
+    },
+  },
+  {
+    slug: "mengendalikan-biaya-cloud-untuk-bisnis",
+    title: "Mengendalikan Biaya Cloud untuk Bisnis: Dari Tagihan yang Mengejutkan ke Pengeluaran yang Terukur",
+    excerpt: "Cara memahami komponen tagihan cloud, memberi label dan pemilik, menghentikan pemborosan, menyesuaikan ukuran, memilih model harga, mengelola penyimpanan, dan memasang anggaran serta peringatan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["infrastruktur","biaya","saas"],
+    titleTranslations: {
+      en: "Controlling Cloud Costs for Business: From Surprising Bills to Measured Spending",
+      zh: "企业如何控制云成本:从令人吃惊的账单到可衡量的支出",
+    },
+    excerptTranslations: {
+      en: "How to understand cloud bill components, label and assign owners, stop waste, right-size, choose pricing models, manage storage, and set budgets and alerts.",
+      zh: "如何理解云账单的组成、加标签并指定所有者、停止浪费、调整规格、选择定价模式、管理存储,并设置预算和告警。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+      alt: "Papan sirkuit bercahaya dengan jalur-jalur rangkaian, tampak miring",
+      altTranslations: {
+        en: "A glowing circuit board with traces of the circuit, seen at an angle",
+        zh: "斜角拍摄的发光电路板,可见电路走线",
+      },
+    },
+  },
+  {
+    slug: "portal-pelanggan-dan-pemasok-b2b",
+    title: "Portal Pelanggan dan Pemasok B2B: Mengurangi Pertanyaan Berulang dan Mempercepat Transaksi",
+    excerpt: "Portal B2B yang benar-benar dipakai: fitur yang didahulukan, hubungan dengan ERP dan CRM, hak akses dan keamanan, pengalaman pengguna, adopsi oleh mitra, dan cara mengukur keberhasilan.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["crm","erp","integrasi","sales"],
+    titleTranslations: {
+      en: "B2B Customer and Supplier Portals: Cutting Repeated Questions and Speeding Up Transactions",
+      zh: "B2B 客户与供应商门户:减少重复提问,加快交易",
+    },
+    excerptTranslations: {
+      en: "A B2B portal that is actually used: the features to do first, the link with ERP and CRM, access rights and security, user experience, partner adoption, and how to measure success.",
+      zh: "一个真正被使用的 B2B 门户:优先做的功能、与 ERP 和 CRM 的关系、访问权限与安全、用户体验、伙伴采用,以及如何衡量成功。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+      alt: "Dua orang berdiskusi sambil menunjuk dokumen dalam pertemuan bisnis",
+      altTranslations: {
+        en: "Two people discussing while pointing at documents in a business meeting",
+        zh: "商务会议中两人一边讨论一边指着文件",
+      },
+    },
+  },
+  {
+    slug: "rekonsiliasi-pembayaran-toko-online",
+    title: "Rekonsiliasi Pembayaran Toko Online: Mencocokkan Pesanan, Penyedia Pembayaran, dan Rekening Bank",
+    excerpt: "Cara merancang rekonsiliasi yang rapi dan otomatis: tiga sumber data, kunci pencocokan, alur harian, penanganan pengecualian, pencatatan biaya dan pengembalian dana, serta pengendalian internal.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["keuangan","pembayaran","otomasi","ecommerce"],
+    titleTranslations: {
+      en: "Online Store Payment Reconciliation: Matching Orders, Payment Providers, and Bank Accounts",
+      zh: "网店支付对账:匹配订单、支付服务商和银行账户",
+    },
+    excerptTranslations: {
+      en: "How to design reconciliation that is tidy and automatic: three data sources, the matching key, the daily flow, handling exceptions, recording fees and refunds, and internal controls.",
+      zh: "如何设计整齐且自动化的对账:三个数据来源、匹配键、每日流程、异常处理、费用和退款的记录,以及内部控制。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+      alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja",
+      altTranslations: {
+        en: "Financial report documents and a calculator on a work desk",
+        zh: "办公桌上的财务报告文件和计算器",
+      },
+    },
+  },
+  {
+    slug: "analitik-website-dan-aplikasi-mobile-untuk-keputusan",
+    title: "Analitik Website dan Aplikasi Mobile untuk Keputusan Bisnis: Mengukur yang Penting, Menghormati Privasi",
+    excerpt: "Cara menyusun analitik yang membantu keputusan: mulai dari pertanyaan bisnis, rencana pelacakan, metrik akuisisi dan retensi, corong, kualitas data, privasi dan persetujuan, dasbor, dan percobaan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["data","pelaporan","website","mobile"],
+    titleTranslations: {
+      en: "Website and Mobile App Analytics for Business Decisions: Measuring What Matters While Respecting Privacy",
+      zh: "用于业务决策的网站和移动应用分析:衡量重要的东西,同时尊重隐私",
+    },
+    excerptTranslations: {
+      en: "How to set up analytics that help decisions: starting from business questions, the tracking plan, acquisition and retention metrics, funnels, data quality, privacy and consent, dashboards, and experiments.",
+      zh: "如何设置有助于决策的分析:从业务问题出发、追踪计划、获取和留存指标、漏斗、数据质量、隐私与同意、仪表盘和实验。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+      alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
+      altTranslations: {
+        en: "A screen showing click and impression charts with a fluctuating blue line",
+        zh: "屏幕上显示点击量和展示量图表,蓝色线条上下波动",
+      },
+    },
+  },
+  {
+    slug: "iot-dan-sensor-untuk-bisnis-kecil-yang-realistis",
+    title: "IoT dan Sensor untuk Bisnis Kecil: Yang Realistis, Yang Berguna, dan Cara Memulainya",
+    excerpt: "IoT dilihat dari sudut pemilik bisnis kecil: kasus penggunaan yang masuk akal, komponen sistem, konektivitas dan daya, hubungan dengan aplikasi dan ERP, keamanan, biaya tersembunyi, dan uji coba kecil.",
+    category: "Teknologi",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["otomasi","infrastruktur","operasional","integrasi"],
+    titleTranslations: {
+      en: "IoT and Sensors for Small Business: What Is Realistic, What Is Useful, and How to Start",
+      zh: "小企业的物联网与传感器:什么切合实际、什么有用,以及如何起步",
+    },
+    excerptTranslations: {
+      en: "IoT seen from the viewpoint of a small business owner: sensible use cases, system components, connectivity and power, the link with apps and ERP, security, hidden costs, and a small trial.",
+      zh: "从小企业主的角度看物联网:合理的使用场景、系统组成、连接和供电、与应用及 ERP 的关系、安全、隐性成本,以及小规模试点。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      alt: "Papan sirkuit elektronik dengan chip dan komponen, tampak dekat",
+      altTranslations: {
+        en: "A close-up of an electronic circuit board with chips and components",
+        zh: "带有芯片和元件的电子电路板特写",
+      },
+    },
+  },
+  {
+    slug: "pelindungan-data-pribadi-untuk-website-dan-aplikasi",
+    title: "Pelindungan Data Pribadi untuk Website dan Aplikasi: Langkah Praktis bagi Pemilik Bisnis",
+    excerpt: "Panduan edukatif mengelola data pribadi: memetakan data, dasar pengumpulan dan persetujuan, pemberitahuan privasi, hak pemilik data, pengamanan, pihak ketiga, masa simpan, dan kesiapan menghadapi kebocoran.",
+    category: "Teknologi",
+    publishedAt: "2026-10-08",
+    updatedAt: "2026-10-08",
+    tags: ["keamanan","data","pelanggan","kontrak"],
+    titleTranslations: {
+      en: "Personal Data Protection for Websites and Apps: Practical Steps for Business Owners",
+      zh: "网站和应用的个人数据保护:企业主的实用步骤",
+    },
+    excerptTranslations: {
+      en: "An educational guide to managing personal data: mapping data, the basis for collection and consent, privacy notices, data subjects' rights, security, third parties, retention, and readiness for a breach.",
+      zh: "关于管理个人数据的科普指南:数据盘点、收集依据与同意、隐私声明、数据主体的权利、安全、第三方、保留期,以及应对泄露的准备。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+      alt: "Tangan menandatangani dokumen di atas meja",
+      altTranslations: {
+        en: "A hand signing a document on a table",
+        zh: "手在桌上签署文件",
+      },
+    },
+  },
+  {
     slug: "ar-vr-untuk-bisnis-ritel-yang-realistis",
     title: "AR dan VR untuk Bisnis Ritel: Mana yang Realistis, Mana yang Sekadar Gimmick",
     excerpt: "Realitas tertambah dan realitas virtual sering dipromosikan sebagai masa depan belanja. Cara menilai kegunaannya untuk bisnis nyata, kasus yang masuk akal, biaya tersembunyi, dan langkah uji coba kecil sebelum berinvestasi besar.",
