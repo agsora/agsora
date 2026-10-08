@@ -24,7 +24,7 @@ import {
   ogLocales,
   type Locale,
 } from "@/i18n/routing";
-import { languageAlternates, jsonLd } from "@/lib/seo";
+import { languageAlternates, jsonLd, seoDescription, seoTitle } from "@/lib/seo";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
@@ -53,8 +53,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!resolved) return {};
   const { locale, post } = resolved;
 
-  const title = getPostTitle(post, locale);
-  const description = getPostExcerpt(post, locale);
+  // Full title/excerpt stay on the page and in the schema; the tags that
+  // search results display are trimmed to fit.
+  const title = seoTitle(getPostTitle(post, locale));
+  const description = seoDescription(getPostExcerpt(post, locale));
   const path = `/blog/${post.slug}`;
   const available = postLocales(post);
   // Generated per article and language: its title plus the category motif.
@@ -113,7 +115,11 @@ export default async function BlogPostPage({ params }: Props) {
         keywords: post.tags.join(", "),
         inLanguage: hreflangs[locale],
         author: { "@type": "Organization", name: siteConfig.legalName },
-        publisher: { "@type": "Organization", name: siteConfig.legalName },
+        publisher: {
+          "@type": "Organization",
+          name: siteConfig.legalName,
+          logo: { "@type": "ImageObject", url: `${siteConfig.url}/apple-icon` },
+        },
         mainEntityOfPage: absoluteUrl(`/blog/${post.slug}`, locale),
       },
       {

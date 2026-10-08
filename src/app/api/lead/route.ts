@@ -61,7 +61,7 @@ export async function POST(request: Request) {
     source_page: clean(body.sourcePage, MAX.sourcePage) || null,
     locale: typeof body.locale === "string" && isLocale(body.locale) ? body.locale : "id",
   };
-  if (!lead.name || !lead.phone || !lead.description || !EMAIL.test(lead.email)) {
+  if (!lead.name || !lead.phone || !lead.description || (lead.email && !EMAIL.test(lead.email))) {
     return new Response(null, { status: 400 });
   }
 
@@ -86,7 +86,7 @@ export async function POST(request: Request) {
     const text = [
       `Nama: ${lead.name}`,
       `Perusahaan: ${lead.company ?? "-"}`,
-      `Email: ${lead.email}`,
+      `Email: ${lead.email || "-"}`,
       `WhatsApp: ${lead.phone}`,
       `Chat klien: ${waDigits ? `https://wa.me/${waDigits}` : "-"}`,
       `Kebutuhan: ${lead.need ?? "-"}`,
@@ -103,7 +103,7 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         from: process.env.LEAD_FROM_EMAIL ?? "AGSORA Leads <onboarding@resend.dev>",
         to: [notifyTo],
-        reply_to: lead.email,
+        ...(lead.email ? { reply_to: lead.email } : {}),
         subject: `Lead baru: ${lead.name}${lead.company ? ` (${lead.company})` : ""}`,
         text,
       }),
