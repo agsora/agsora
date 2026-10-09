@@ -100,6 +100,16 @@ import { body as b_analitik_website_dan_aplikasi_mobile_untuk_keputusan } from "
 import { body as b_iot_dan_sensor_untuk_bisnis_kecil_yang_realistis } from "./iot-dan-sensor-untuk-bisnis-kecil-yang-realistis";
 import { body as b_pelindungan_data_pribadi_untuk_website_dan_aplikasi } from "./pelindungan-data-pribadi-untuk-website-dan-aplikasi";
 
+import { body as b_pencarian_dan_filter_produk_toko_online } from "./pencarian-dan-filter-produk-toko-online";
+import { body as b_manajemen_pesanan_toko_online_dari_masuk_hingga_terkirim } from "./manajemen-pesanan-toko-online-dari-masuk-hingga-terkirim";
+import { body as b_merilis_aplikasi_ke_app_store_dan_google_play } from "./merilis-aplikasi-ke-app-store-dan-google-play";
+import { body as b_tutup_buku_bulanan_lebih_cepat_dengan_erp } from "./tutup-buku-bulanan-lebih-cepat-dengan-erp";
+import { body as b_email_marketing_dan_otomasi_untuk_toko_online } from "./email-marketing-dan-otomasi-untuk-toko-online";
+import { body as b_passkey_dan_login_tanpa_kata_sandi_untuk_bisnis } from "./passkey-dan-login-tanpa-kata-sandi-untuk-bisnis";
+import { body as b_sistem_booking_dan_reservasi_online_untuk_bisnis_jasa } from "./sistem-booking-dan-reservasi-online-untuk-bisnis-jasa";
+import { body as b_aplikasi_mobile_untuk_tim_lapangan } from "./aplikasi-mobile-untuk-tim-lapangan";
+import { body as b_model_bisnis_langganan_dan_tagihan_berulang } from "./model-bisnis-langganan-dan-tagihan-berulang";
+import { body as b_pencarian_berbasis_ai_dan_masa_depan_seo_website_bisnis } from "./pencarian-berbasis-ai-dan-masa-depan-seo-website-bisnis";
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
   "alur-approval-pembelian": b_alur_approval_pembelian,
@@ -182,6 +192,16 @@ export const bodies: Record<string, Block[]> = {
   "perencanaan-stok-dan-pembelian-ulang": b_perencanaan_stok_dan_pembelian_ulang,
   "asisten-ai-untuk-bisnis-kecil-tren-realistis": b_asisten_ai_untuk_bisnis_kecil_tren_realistis,
   "checkout-toko-online-mengurangi-keranjang-terbengkalai": b_checkout_toko_online_mengurangi_keranjang_terbengkalai,
+  "pencarian-dan-filter-produk-toko-online": b_pencarian_dan_filter_produk_toko_online,
+  "manajemen-pesanan-toko-online-dari-masuk-hingga-terkirim": b_manajemen_pesanan_toko_online_dari_masuk_hingga_terkirim,
+  "merilis-aplikasi-ke-app-store-dan-google-play": b_merilis_aplikasi_ke_app_store_dan_google_play,
+  "tutup-buku-bulanan-lebih-cepat-dengan-erp": b_tutup_buku_bulanan_lebih_cepat_dengan_erp,
+  "email-marketing-dan-otomasi-untuk-toko-online": b_email_marketing_dan_otomasi_untuk_toko_online,
+  "passkey-dan-login-tanpa-kata-sandi-untuk-bisnis": b_passkey_dan_login_tanpa_kata_sandi_untuk_bisnis,
+  "sistem-booking-dan-reservasi-online-untuk-bisnis-jasa": b_sistem_booking_dan_reservasi_online_untuk_bisnis_jasa,
+  "aplikasi-mobile-untuk-tim-lapangan": b_aplikasi_mobile_untuk_tim_lapangan,
+  "model-bisnis-langganan-dan-tagihan-berulang": b_model_bisnis_langganan_dan_tagihan_berulang,
+  "pencarian-berbasis-ai-dan-masa-depan-seo-website-bisnis": b_pencarian_berbasis_ai_dan_masa_depan_seo_website_bisnis,
   "ar-vr-untuk-bisnis-ritel-yang-realistis": b_ar_vr_untuk_bisnis_ritel_yang_realistis,
   "blog-perusahaan-sebagai-mesin-prospek": b_blog_perusahaan_sebagai_mesin_prospek,
   "infrastruktur-jaringan-dan-perangkat-toko": b_infrastruktur_jaringan_dan_perangkat_toko,

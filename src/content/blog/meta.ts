@@ -6,6 +6,256 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "pencarian-dan-filter-produk-toko-online",
+    title: "Pencarian dan Filter Produk di Toko Online: Membantu Pembeli Menemukan Barang dalam Hitungan Detik",
+    excerpt: "Kotak pencarian adalah sinyal niat beli paling jelas. Cara merapikan data produk, menangani salah ketik dan sinonim, merancang saran otomatis, filter, urutan hasil, halaman tanpa hasil, dan membaca data pencarian.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["ecommerce","website","pelanggan","data"],
+    titleTranslations: {
+      en: "Product Search and Filters in an Online Store: Helping Shoppers Find Items Within Seconds",
+      zh: "网店的商品搜索与筛选：帮助顾客在几秒内找到商品",
+    },
+    excerptTranslations: {
+      en: "The search box is the clearest signal of buying intent. How to tidy product data, handle typos and synonyms, design autocomplete, filters, result order, the no-results page, and read search data.",
+      zh: "搜索框是最清晰的购买意图信号。如何整理商品数据、处理拼写错误和同义词、设计输入建议、筛选、结果排序、无结果页面，并解读搜索数据。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+      alt: "Ponsel yang menampilkan aplikasi belanja online di atas meja",
+      altTranslations: {
+        en: "A phone showing an online shopping app on a table",
+        zh: "桌上的手机显示着网购应用",
+      },
+    },
+  },
+  {
+    slug: "manajemen-pesanan-toko-online-dari-masuk-hingga-terkirim",
+    title: "Manajemen Pesanan Toko Online: Dari Pesanan Masuk hingga Barang Diterima Tanpa Kekacauan",
+    excerpt: "Cara merancang alur pesanan yang tahan saat ramai: satu antrean dari semua kanal, status yang jelas, verifikasi pembayaran otomatis, alokasi stok, pengambilan dan pengemasan, serah terima kurir, dan penanganan pengecualian.",
+    category: "POS & Retail",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["ecommerce","operasional","inventori","pelanggan"],
+    titleTranslations: {
+      en: "Online Store Order Management: From Incoming Order to Delivered Goods Without the Chaos",
+      zh: "网店订单管理：从订单进入到商品送达，不再手忙脚乱",
+    },
+    excerptTranslations: {
+      en: "How to design an order flow that holds up when busy: one queue from every channel, clear statuses, automatic payment verification, stock allocation, picking and packing, courier handover, and handling exceptions.",
+      zh: "如何设计在繁忙时也撑得住的订单流程：汇总所有渠道的单一队列、清晰的状态、自动确认付款、库存分配、拣货与打包、快递交接，以及异常处理。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1580674285054-bed31e145f59",
+      alt: "Tumpukan paket kardus siap kirim di ruang penyimpanan",
+      altTranslations: {
+        en: "Stacks of cardboard parcels ready to ship in a storage room",
+        zh: "储物间里堆放着准备发货的纸箱包裹",
+      },
+    },
+  },
+  {
+    slug: "merilis-aplikasi-ke-app-store-dan-google-play",
+    title: "Merilis Aplikasi ke App Store dan Google Play: Persiapan yang Perlu Diketahui Pemilik Bisnis",
+    excerpt: "Peluncuran aplikasi mobile bukan sekadar menekan tombol unggah. Kepemilikan akun penerbit, materi halaman toko, privasi dan izin, proses tinjauan, aturan pembayaran, pengujian, peluncuran bertahap, dan pemeliharaan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["mobile","implementasi","custom-software","keamanan"],
+    titleTranslations: {
+      en: "Releasing an App to the App Store and Google Play: What Business Owners Need to Prepare",
+      zh: "把应用发布到 App Store 和 Google Play：企业主需要了解的准备工作",
+    },
+    excerptTranslations: {
+      en: "Launching a mobile app is not just pressing upload. Publisher account ownership, store listing material, privacy and permissions, the review process, payment rules, testing, staged rollout, and maintenance.",
+      zh: "移动应用上线不只是点一下上传。发布者账号归属、商店页面素材、隐私与权限、审核流程、支付规则、测试、分阶段发布和维护。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+      alt: "Ponsel pintar menampilkan layar utama dengan berbagai ikon aplikasi komunikasi",
+      altTranslations: {
+        en: "A smartphone showing a home screen with various communication app icons",
+        zh: "智能手机主屏幕上显示着各种通讯应用图标",
+      },
+    },
+  },
+  {
+    slug: "tutup-buku-bulanan-lebih-cepat-dengan-erp",
+    title: "Tutup Buku Bulanan Lebih Cepat dengan ERP: Dari Laporan yang Terlambat ke Angka yang Bisa Dipakai",
+    excerpt: "Tutup buku yang lambat berasal dari hulu. Cara menyusun kalender penutupan, mencatat di sumber, rekonsiliasi sepanjang bulan, aturan pisah batas, persediaan, jurnal berulang, pemeriksaan, dan penguncian periode.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["erp","keuangan","pelaporan","otomasi"],
+    titleTranslations: {
+      en: "A Faster Monthly Close with ERP: From Late Reports to Figures You Can Use",
+      zh: "借助 ERP 更快完成月度结账：从迟到的报表到可用的数字",
+    },
+    excerptTranslations: {
+      en: "A slow close comes from upstream. How to set up a close calendar, record at the source, reconcile throughout the month, apply cut-off rules, handle inventory and recurring journals, review, and lock the period.",
+      zh: "结账慢，根源在上游。如何制定结账日历、在源头记录、整月持续对账、执行截止规则、处理存货和周期性分录、进行检查并锁定期间。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
+      altTranslations: {
+        en: "A pile of forms, receipts, and a calculator on a desk",
+        zh: "桌上堆着表格、单据和计算器",
+      },
+    },
+  },
+  {
+    slug: "email-marketing-dan-otomasi-untuk-toko-online",
+    title: "Email Marketing dan Otomasi untuk Toko Online: Mengubah Pembeli Sekali Menjadi Pelanggan yang Kembali",
+    excerpt: "Daftar kontak adalah kanal milik sendiri. Cara mengumpulkan izin, merapikan pesan transaksi, membangun alur otomatis, segmentasi, menjaga keterkiriman, menyelaraskan dengan WhatsApp dan notifikasi, serta mengukur hasil.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["ecommerce","pelanggan","otomasi","crm","sales"],
+    titleTranslations: {
+      en: "Email Marketing and Automation for Online Stores: Turning One-Time Buyers into Returning Customers",
+      zh: "网店的邮件营销与自动化：把一次性买家变成回头客",
+    },
+    excerptTranslations: {
+      en: "A contact list is a channel you own. How to gather permission, tidy transactional messages, build automated flows, segment, protect deliverability, align with WhatsApp and notifications, and measure results.",
+      zh: "联系人名单是属于你自己的渠道。如何获得许可、整理交易类消息、搭建自动化流程、分群、维护送达率、与 WhatsApp 和通知协调，并衡量结果。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      alt: "Tangan mengetik di keyboard laptop",
+      altTranslations: {
+        en: "Hands typing on a laptop keyboard",
+        zh: "双手在笔记本电脑键盘上打字",
+      },
+    },
+  },
+  {
+    slug: "passkey-dan-login-tanpa-kata-sandi-untuk-bisnis",
+    title: "Passkey dan Login Tanpa Kata Sandi: Lebih Aman dan Lebih Mudah untuk Website dan Aplikasi Bisnis",
+    excerpt: "Kata sandi merugikan keamanan dan penjualan. Cara kerja passkey secara sederhana, manfaat dan batasannya, pilihan lain, pemulihan akun, penerapan bertahap pada pelanggan dan karyawan, serta hal teknis untuk dibahas dengan pengembang.",
+    category: "Teknologi",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["keamanan","website","mobile","pelanggan"],
+    titleTranslations: {
+      en: "Passkeys and Passwordless Sign-In: Safer and Easier for Business Websites and Apps",
+      zh: "通行密钥与无密码登录：让企业网站和应用更安全也更方便",
+    },
+    excerptTranslations: {
+      en: "Passwords hurt both security and sales. How passkeys work in simple terms, their benefits and limits, other options, account recovery, a staged rollout for customers and employees, and technical points to discuss with your developer.",
+      zh: "密码既损害安全，也影响销售。通行密钥的简明原理、好处与局限、其他选择、账号恢复、面向顾客和员工的分阶段落实，以及需要与开发者讨论的技术事项。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+      alt: "Ponsel pintar menampilkan ikon kunci keamanan di atas meja kayu",
+      altTranslations: {
+        en: "A smartphone showing a security lock icon on a wooden table",
+        zh: "木桌上的智能手机显示着安全锁图标",
+      },
+    },
+  },
+  {
+    slug: "sistem-booking-dan-reservasi-online-untuk-bisnis-jasa",
+    title: "Sistem Booking dan Reservasi Online untuk Bisnis Jasa: Jadwal Lebih Penuh, Pelanggan Lebih Pasti",
+    excerpt: "Bisnis jasa menjual waktu. Cara merancang aturan ketersediaan, alur pemesanan singkat, uang muka dan kebijakan pembatalan, pengingat, daftar tunggu, riwayat pelanggan, serta hubungan dengan kasir dan kalender.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["website","mobile","pelanggan","otomasi","pembayaran"],
+    titleTranslations: {
+      en: "Online Booking and Reservation Systems for Service Businesses: A Fuller Schedule, More Certain Customers",
+      zh: "服务型企业的在线预约与预订系统：日程更满，顾客更确定",
+    },
+    excerptTranslations: {
+      en: "A service business sells time. How to design availability rules, a short booking flow, deposits and a cancellation policy, reminders, waiting lists, customer history, and the link with the till and calendars.",
+      zh: "服务型企业卖的是时间。如何设计可预约规则、简短的预约流程、订金与取消政策、提醒、候补名单、顾客记录，以及与收银和日历的连接。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d",
+      alt: "Meja resepsionis di area lobi fasilitas kesehatan",
+      altTranslations: {
+        en: "A reception desk in the lobby of a healthcare facility",
+        zh: "医疗机构大厅里的接待台",
+      },
+    },
+  },
+  {
+    slug: "aplikasi-mobile-untuk-tim-lapangan",
+    title: "Aplikasi Mobile untuk Tim Lapangan: Menghubungkan Penjual, Teknisi, dan Pengantar dengan Sistem Kantor",
+    excerpt: "Cara merancang aplikasi lapangan yang benar-benar dipakai: pekerjaan yang didahulukan, rancangan untuk sinyal lemah, bukti di tempat, penggunaan lokasi yang wajar, hubungan dengan ERP dan CRM, keamanan perangkat, dan adopsi.",
+    category: "Teknologi",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["mobile","operasional","sales","integrasi","karyawan"],
+    titleTranslations: {
+      en: "Mobile Apps for Field Teams: Connecting Sales Reps, Technicians, and Delivery Staff with Office Systems",
+      zh: "面向外勤团队的移动应用：把销售、技师和配送员与办公室系统连接起来",
+    },
+    excerptTranslations: {
+      en: "How to design a field app that is genuinely used: the work to do first, design for weak signal, evidence on the spot, reasonable use of location, the link with ERP and CRM, device security, and adoption.",
+      zh: "如何设计一款真正被使用的外勤应用：优先处理的工作、为弱信号而设计、现场凭证、合理使用位置、与 ERP 和 CRM 的连接、设备安全，以及推广采用。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
+      alt: "Seseorang memegang ponsel Android putih",
+      altTranslations: {
+        en: "A person holding a white Android phone",
+        zh: "一个人手里拿着白色的安卓手机",
+      },
+    },
+  },
+  {
+    slug: "model-bisnis-langganan-dan-tagihan-berulang",
+    title: "Model Bisnis Langganan dan Tagihan Berulang: Pendapatan yang Lebih Bisa Diperkirakan dan Cara Mengelolanya",
+    excerpt: "Langganan mengubah cara menagih, mencatat, dan melayani. Kecocokan model, rancangan paket dan harga, mesin tagihan berulang, pembayaran gagal, pembatalan yang jujur, pencatatan pendapatan, dan ukuran retensi.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["pembayaran","pelanggan","saas","keuangan","ecommerce"],
+    titleTranslations: {
+      en: "The Subscription Business Model and Recurring Billing: More Predictable Revenue and How to Manage It",
+      zh: "订阅商业模式与周期性计费：更可预估的收入及其管理方法",
+    },
+    excerptTranslations: {
+      en: "A subscription changes how you bill, record, and serve. Fit of the model, plan and price design, the recurring billing engine, failed payments, honest cancellation, revenue recognition, and retention measures.",
+      zh: "订阅改变了收费、记账和服务的方式。模式是否合适、套餐与价格设计、周期性计费引擎、扣款失败、诚实的取消方式、收入确认，以及留存指标。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e",
+      alt: "Tunas tanaman tumbuh dari tumpukan koin",
+      altTranslations: {
+        en: "A plant sprout growing from a pile of coins",
+        zh: "一堆硬币中长出的植物幼苗",
+      },
+    },
+  },
+  {
+    slug: "pencarian-berbasis-ai-dan-masa-depan-seo-website-bisnis",
+    title: "Pencarian Berbasis AI dan Masa Depan SEO: Agar Website Bisnis Tetap Ditemukan dan Dipercaya",
+    excerpt: "Asisten AI dan ringkasan jawaban mengubah cara orang mencari. Apa yang berubah dan yang tetap, konten yang sulit digantikan, dasar teknis, akses perayap AI, reputasi di luar website, dan cara mengukur yang lebih bermakna.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    tags: ["seo","ai","website","data"],
+    titleTranslations: {
+      en: "AI-Based Search and the Future of SEO: Keeping Your Business Website Found and Trusted",
+      zh: "AI 搜索与 SEO 的未来：让企业网站继续被找到、被信任",
+    },
+    excerptTranslations: {
+      en: "AI assistants and summary answers are changing how people search. What changes and what stays, content that is hard to replace, technical foundations, AI crawler access, reputation beyond the website, and more meaningful measurement.",
+      zh: "AI 助手和摘要式回答正在改变人们的搜索方式。什么变了、什么没变、难以被取代的内容、技术基础、AI 爬虫访问、网站之外的声誉，以及更有意义的衡量方式。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      alt: "Tulisan AI tiga dimensi berwarna biru",
+      altTranslations: {
+        en: "Blue three-dimensional lettering spelling AI",
+        zh: "蓝色的立体 AI 字样",
+      },
+    },
+  },
+  {
     slug: "katalog-produk-toko-online-yang-terstruktur",
     title: "Katalog Produk Toko Online yang Terstruktur: Fondasi Penjualan yang Rapi dan Mudah Tumbuh",
     excerpt: "Katalog adalah inti toko online. Cara menyusun model data produk dan varian, kode barang yang stabil, aturan penamaan, kategori, foto, deskripsi, dan satu sumber data untuk semua kanal.",
