@@ -50,6 +50,16 @@ import { translations as t_sistem_booking_dan_reservasi_online_untuk_bisnis_jasa
 import { translations as t_aplikasi_mobile_untuk_tim_lapangan } from "./aplikasi-mobile-untuk-tim-lapangan";
 import { translations as t_model_bisnis_langganan_dan_tagihan_berulang } from "./model-bisnis-langganan-dan-tagihan-berulang";
 import { translations as t_pencarian_berbasis_ai_dan_masa_depan_seo_website_bisnis } from "./pencarian-berbasis-ai-dan-masa-depan-seo-website-bisnis";
+import { translations as t_arsitektur_website_headless_untuk_bisnis } from "./arsitektur-website-headless-untuk-bisnis";
+import { translations as t_manajemen_pemasok_dan_penilaian_vendor_dengan_erp } from "./manajemen-pemasok-dan-penilaian-vendor-dengan-erp";
+import { translations as t_pencegahan_penipuan_dan_keamanan_pembayaran_toko_online } from "./pencegahan-penipuan-dan-keamanan-pembayaran-toko-online";
+import { translations as t_uji_ab_dan_optimasi_konversi_website_bisnis } from "./uji-ab-dan-optimasi-konversi-website-bisnis";
+import { translations as t_otomatisasi_faktur_dan_penagihan_piutang_b2b } from "./otomatisasi-faktur-dan-penagihan-piutang-b2b";
+import { translations as t_sistem_manajemen_gudang_untuk_bisnis_yang_bertumbuh } from "./sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh";
+import { translations as t_webhook_dan_integrasi_real_time_untuk_bisnis } from "./webhook-dan-integrasi-real-time-untuk-bisnis";
+import { translations as t_sistem_tiket_dukungan_pelanggan_dan_sla } from "./sistem-tiket-dukungan-pelanggan-dan-sla";
+import { translations as t_aplikasi_mobile_untuk_ponsel_spesifikasi_rendah_dan_jaringan_lambat } from "./aplikasi-mobile-untuk-ponsel-spesifikasi-rendah-dan-jaringan-lambat";
+import { translations as t_perencanaan_anggaran_dan_peramalan_dengan_data_erp } from "./perencanaan-anggaran-dan-peramalan-dengan-data-erp";
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
 /**
@@ -59,6 +69,16 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "arsitektur-website-headless-untuk-bisnis": t_arsitektur_website_headless_untuk_bisnis,
+  "manajemen-pemasok-dan-penilaian-vendor-dengan-erp": t_manajemen_pemasok_dan_penilaian_vendor_dengan_erp,
+  "pencegahan-penipuan-dan-keamanan-pembayaran-toko-online": t_pencegahan_penipuan_dan_keamanan_pembayaran_toko_online,
+  "uji-ab-dan-optimasi-konversi-website-bisnis": t_uji_ab_dan_optimasi_konversi_website_bisnis,
+  "otomatisasi-faktur-dan-penagihan-piutang-b2b": t_otomatisasi_faktur_dan_penagihan_piutang_b2b,
+  "sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh": t_sistem_manajemen_gudang_untuk_bisnis_yang_bertumbuh,
+  "webhook-dan-integrasi-real-time-untuk-bisnis": t_webhook_dan_integrasi_real_time_untuk_bisnis,
+  "sistem-tiket-dukungan-pelanggan-dan-sla": t_sistem_tiket_dukungan_pelanggan_dan_sla,
+  "aplikasi-mobile-untuk-ponsel-spesifikasi-rendah-dan-jaringan-lambat": t_aplikasi_mobile_untuk_ponsel_spesifikasi_rendah_dan_jaringan_lambat,
+  "perencanaan-anggaran-dan-peramalan-dengan-data-erp": t_perencanaan_anggaran_dan_peramalan_dengan_data_erp,
   "dari-ide-ke-aplikasi-proses-membangun-software": t_dari_ide_ke_aplikasi_proses_membangun_software,
   "digitalisasi-bisnis-keluarga-generasi-penerus": t_digitalisasi_bisnis_keluarga_generasi_penerus,
   "erp-dan-visibilitas-arus-kas": t_erp_dan_visibilitas_arus_kas,

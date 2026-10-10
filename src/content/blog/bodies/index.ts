@@ -110,8 +110,28 @@ import { body as b_sistem_booking_dan_reservasi_online_untuk_bisnis_jasa } from 
 import { body as b_aplikasi_mobile_untuk_tim_lapangan } from "./aplikasi-mobile-untuk-tim-lapangan";
 import { body as b_model_bisnis_langganan_dan_tagihan_berulang } from "./model-bisnis-langganan-dan-tagihan-berulang";
 import { body as b_pencarian_berbasis_ai_dan_masa_depan_seo_website_bisnis } from "./pencarian-berbasis-ai-dan-masa-depan-seo-website-bisnis";
+import { body as b_arsitektur_website_headless_untuk_bisnis } from "./arsitektur-website-headless-untuk-bisnis";
+import { body as b_manajemen_pemasok_dan_penilaian_vendor_dengan_erp } from "./manajemen-pemasok-dan-penilaian-vendor-dengan-erp";
+import { body as b_pencegahan_penipuan_dan_keamanan_pembayaran_toko_online } from "./pencegahan-penipuan-dan-keamanan-pembayaran-toko-online";
+import { body as b_uji_ab_dan_optimasi_konversi_website_bisnis } from "./uji-ab-dan-optimasi-konversi-website-bisnis";
+import { body as b_otomatisasi_faktur_dan_penagihan_piutang_b2b } from "./otomatisasi-faktur-dan-penagihan-piutang-b2b";
+import { body as b_sistem_manajemen_gudang_untuk_bisnis_yang_bertumbuh } from "./sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh";
+import { body as b_webhook_dan_integrasi_real_time_untuk_bisnis } from "./webhook-dan-integrasi-real-time-untuk-bisnis";
+import { body as b_sistem_tiket_dukungan_pelanggan_dan_sla } from "./sistem-tiket-dukungan-pelanggan-dan-sla";
+import { body as b_aplikasi_mobile_untuk_ponsel_spesifikasi_rendah_dan_jaringan_lambat } from "./aplikasi-mobile-untuk-ponsel-spesifikasi-rendah-dan-jaringan-lambat";
+import { body as b_perencanaan_anggaran_dan_peramalan_dengan_data_erp } from "./perencanaan-anggaran-dan-peramalan-dengan-data-erp";
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
+  "arsitektur-website-headless-untuk-bisnis": b_arsitektur_website_headless_untuk_bisnis,
+  "manajemen-pemasok-dan-penilaian-vendor-dengan-erp": b_manajemen_pemasok_dan_penilaian_vendor_dengan_erp,
+  "pencegahan-penipuan-dan-keamanan-pembayaran-toko-online": b_pencegahan_penipuan_dan_keamanan_pembayaran_toko_online,
+  "uji-ab-dan-optimasi-konversi-website-bisnis": b_uji_ab_dan_optimasi_konversi_website_bisnis,
+  "otomatisasi-faktur-dan-penagihan-piutang-b2b": b_otomatisasi_faktur_dan_penagihan_piutang_b2b,
+  "sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh": b_sistem_manajemen_gudang_untuk_bisnis_yang_bertumbuh,
+  "webhook-dan-integrasi-real-time-untuk-bisnis": b_webhook_dan_integrasi_real_time_untuk_bisnis,
+  "sistem-tiket-dukungan-pelanggan-dan-sla": b_sistem_tiket_dukungan_pelanggan_dan_sla,
+  "aplikasi-mobile-untuk-ponsel-spesifikasi-rendah-dan-jaringan-lambat": b_aplikasi_mobile_untuk_ponsel_spesifikasi_rendah_dan_jaringan_lambat,
+  "perencanaan-anggaran-dan-peramalan-dengan-data-erp": b_perencanaan_anggaran_dan_peramalan_dengan_data_erp,
   "alur-approval-pembelian": b_alur_approval_pembelian,
   "apa-itu-api-untuk-pemilik-bisnis": b_apa_itu_api_untuk_pemilik_bisnis,
   "aplikasi-web-mobile-atau-keduanya": b_aplikasi_web_mobile_atau_keduanya,

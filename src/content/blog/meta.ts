@@ -6,6 +6,256 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "arsitektur-website-headless-untuk-bisnis",
+    title: "Arsitektur Website Headless untuk Bisnis: Kapan Masuk Akal dan Kapan Tidak Perlu",
+    excerpt: "Headless commerce dan arsitektur composable sering ditawarkan sebagai kemajuan. Penjelasan sederhana, keuntungan dan harga yang harus dibayar, kapan layak dipertimbangkan, jalan tengah bertahap, dan cara memutuskan tanpa terbawa tren.",
+    category: "Teknologi",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["website","api","integrasi","custom-software"],
+    titleTranslations: {
+      en: "Headless Website Architecture for Business: When It Makes Sense and When It Doesn't",
+      zh: "企业网站的无头架构：何时合适，何时没必要",
+    },
+    excerptTranslations: {
+      en: "Headless commerce and composable architecture are often pitched as progress. A plain explanation, the benefits and the price, when it is worth considering, a gradual middle path, and how to decide without following trends.",
+      zh: "无头电商和可组合架构常被当作进步来推销。通俗的解释、好处与代价、何时值得考虑、渐进的折中之路，以及如何不被潮流裹挟地做决定。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      alt: "Baris kode program ditampilkan besar di layar monitor",
+      altTranslations: {
+        en: "Lines of program code displayed large on a monitor screen",
+        zh: "显示器屏幕上放大显示的程序代码",
+      },
+    },
+  },
+  {
+    slug: "manajemen-pemasok-dan-penilaian-vendor-dengan-erp",
+    title: "Manajemen Pemasok dan Penilaian Vendor dengan ERP: Dari Data Rapi hingga Pembelian yang Terkendali",
+    excerpt: "Cara mengelola pemasok secara terstruktur: data induk tunggal, alur pengadaan dengan pemisahan tugas, pencocokan tiga arah, kontrak dan harga, penilaian kinerja dengan indikator sederhana, serta pengelolaan risiko ketergantungan.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["erp","operasional","keuangan","inventori"],
+    titleTranslations: {
+      en: "Supplier Management and Vendor Evaluation with ERP: From Tidy Data to Controlled Purchasing",
+      zh: "借助 ERP 进行供应商管理与评估：从整洁的数据到可控的采购",
+    },
+    excerptTranslations: {
+      en: "How to manage suppliers in a structured way: single master data, a procurement flow with segregation of duties, three-way matching, contracts and prices, performance evaluation with simple indicators, and dependency risk management.",
+      zh: "如何以结构化的方式管理供应商：唯一的主数据、职责分离的采购流程、三单匹配、合同与价格、用简单指标评估绩效，以及依赖风险管理。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+      alt: "Dua orang berjabat tangan di ruang kantor",
+      altTranslations: {
+        en: "Two people shaking hands in an office",
+        zh: "两个人在办公室里握手",
+      },
+    },
+  },
+  {
+    slug: "pencegahan-penipuan-dan-keamanan-pembayaran-toko-online",
+    title: "Pencegahan Penipuan dan Keamanan Pembayaran Toko Online: Melindungi Penjualan Tanpa Mengusir Pembeli Jujur",
+    excerpt: "Jenis penipuan yang lazim di toko online, sinyal pesanan yang patut diperiksa, aturan tinjauan yang konsisten, pengamanan akun pelanggan dan staf, penyalahgunaan retur, penanganan sengketa pembayaran, dan perlindungan pelanggan dari penipuan atas nama toko.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["ecommerce","keamanan","pembayaran","pelanggan"],
+    titleTranslations: {
+      en: "Fraud Prevention and Payment Security for Online Stores: Protecting Sales Without Driving Away Honest Buyers",
+      zh: "网店的防欺诈与支付安全：在不赶走诚实买家的前提下保护销售",
+    },
+    excerptTranslations: {
+      en: "Common fraud types in online stores, order signals worth checking, consistent review rules, securing customer and staff accounts, return abuse, handling payment disputes, and protecting customers from scams in the store's name.",
+      zh: "网店常见的欺诈类型、值得检查的订单信号、一致的审核规则、保护顾客与员工账户、退货滥用、处理支付争议，以及保护顾客免受冒用店铺名义的骗局。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+      alt: "Seseorang memegang kartu pembayaran sambil berbelanja di laptop",
+      altTranslations: {
+        en: "A person holding a payment card while shopping on a laptop",
+        zh: "一个人拿着银行卡在笔记本电脑上购物",
+      },
+    },
+  },
+  {
+    slug: "uji-ab-dan-optimasi-konversi-website-bisnis",
+    title: "Uji A/B dan Optimasi Konversi Website Bisnis: Mengambil Keputusan dengan Bukti, Bukan Selera",
+    excerpt: "Cara memulai uji A/B secara sehat: kapan layak dilakukan, merumuskan hipotesis, memilih ukuran keberhasilan, menentukan durasi, membaca hasil tanpa tertipu, hal teknis yang perlu dijaga, serta etika dan privasi pengunjung.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["website","data","ecommerce","pelaporan"],
+    titleTranslations: {
+      en: "A/B Testing and Conversion Optimisation for Business Websites: Deciding with Evidence, Not Taste",
+      zh: "企业网站的 A/B 测试与转化优化：用证据而不是喜好做决定",
+    },
+    excerptTranslations: {
+      en: "How to start A/B testing soundly: when it is worthwhile, framing a hypothesis, choosing the success measure, setting the duration, reading results without being fooled, technical points to guard, and visitor ethics and privacy.",
+      zh: "如何健康地开始 A/B 测试：何时值得做、提出假设、选择成功指标、确定时长、读懂结果而不被愚弄、需要把关的技术要点，以及访客伦理与隐私。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+      alt: "Laptop menampilkan halaman web dengan tombol ajakan bertindak, tangan di trackpad",
+      altTranslations: {
+        en: "A laptop showing a web page with a call-to-action button, a hand on the trackpad",
+        zh: "笔记本电脑显示带有行动号召按钮的网页，手放在触控板上",
+      },
+    },
+  },
+  {
+    slug: "otomatisasi-faktur-dan-penagihan-piutang-b2b",
+    title: "Otomatisasi Faktur dan Penagihan Piutang B2B: Dari Pesanan hingga Uang Diterima Tepat Waktu",
+    excerpt: "Merapikan siklus pesanan sampai kas: faktur yang benar dari data pesanan, pemicu dan kanal pengiriman, syarat pembayaran, pengingat yang sopan, pencocokan pembayaran otomatis, sengketa tagihan, umur piutang, dan kontrol internal.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["erp","keuangan","otomasi","pembayaran"],
+    titleTranslations: {
+      en: "Automating Invoicing and B2B Receivables Collection: From Order to Cash Received on Time",
+      zh: "B2B 发票与应收账款催收自动化：从订单到按时收款",
+    },
+    excerptTranslations: {
+      en: "Tidying the order-to-cash cycle: correct invoices from order data, triggers and delivery channels, payment terms, polite reminders, automatic payment matching, billing disputes, receivables ageing, and internal control.",
+      zh: "整理从订单到收款的周期：基于订单数据的正确发票、触发点与发送渠道、付款条件、礼貌的提醒、自动付款核对、账单争议、应收账款账龄和内部控制。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
+      altTranslations: {
+        en: "A pile of forms, receipts, and a calculator on a desk",
+        zh: "桌上堆放的表格、收据和计算器",
+      },
+    },
+  },
+  {
+    slug: "sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh",
+    title: "Sistem Manajemen Gudang untuk Bisnis yang Bertumbuh: Dari Rak Berantakan ke Stok yang Bisa Dipercaya",
+    excerpt: "Kapan pencatatan stok tidak lagi cukup: tata letak dan kode lokasi, alur terima-simpan-ambil-kirim, kode batang, penghitungan bergilir, lot dan kedaluwarsa, area retur, integrasi kanal penjualan, serta memilih tingkat sistem yang sesuai.",
+    category: "POS & Retail",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["inventori","operasional","retail","erp"],
+    titleTranslations: {
+      en: "Warehouse Management for a Growing Business: From Messy Shelves to Stock You Can Trust",
+      zh: "成长型企业的仓库管理系统：从杂乱的货架到可信的库存",
+    },
+    excerptTranslations: {
+      en: "When stock records are no longer enough: layout and location codes, the receive-store-pick-ship flow, barcodes, rolling counts, lots and expiry, a returns area, sales channel integration, and choosing a suitable system level.",
+      zh: "库存记录何时不再够用：布局与货位编码、收货—上架—拣货—发货流程、条码、滚动盘点、批号与有效期、退货区、销售渠道集成，以及选择合适的系统层级。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+      alt: "Gudang distribusi besar dengan rak dan tumpukan kontainer kuning",
+      altTranslations: {
+        en: "A large distribution warehouse with shelving and stacks of yellow containers",
+        zh: "大型配送仓库，货架和成堆的黄色周转箱",
+      },
+    },
+  },
+  {
+    slug: "webhook-dan-integrasi-real-time-untuk-bisnis",
+    title: "Webhook dan Integrasi Real-Time untuk Bisnis: Membuat Sistem Saling Mengabari Tanpa Tangan Manusia",
+    excerpt: "Penjelasan webhook dengan bahasa sederhana: bedanya dengan polling, contoh kejadian yang cocok, pesan terlewat dan ganda, urutan kejadian, keamanan, pemantauan, kapan memakai penghubung siap pakai, serta dokumentasi dan kepemilikan integrasi.",
+    category: "Teknologi",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["api","integrasi","otomasi","ecommerce"],
+    titleTranslations: {
+      en: "Webhooks and Real-Time Integration for Business: Letting Systems Tell Each Other Without Human Hands",
+      zh: "企业的 Webhook 与实时集成：让系统无需人工就能互相通知",
+    },
+    excerptTranslations: {
+      en: "Webhooks in plain language: how they differ from polling, suitable events, missed and duplicate messages, event order, security, monitoring, when to use ready-made connectors, and documentation and ownership of integrations.",
+      zh: "用通俗的语言讲解 Webhook：与轮询的区别、适合的事件、丢失与重复的消息、事件顺序、安全、监控、何时使用现成连接器，以及集成的文档与归属。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      alt: "Papan sirkuit elektronik dengan chip dan komponen, tampak dekat",
+      altTranslations: {
+        en: "A close view of an electronic circuit board with chips and components",
+        zh: "带有芯片和元件的电子电路板近景",
+      },
+    },
+  },
+  {
+    slug: "sistem-tiket-dukungan-pelanggan-dan-sla",
+    title: "Sistem Tiket Dukungan Pelanggan dan SLA: Melayani Banyak Kanal dengan Satu Antrean yang Tertib",
+    excerpt: "Kapan sistem tiket diperlukan: satu antrean untuk semua kanal, kategori dan prioritas, perjanjian tingkat layanan yang realistis, basis pengetahuan, eskalasi antarbagian, mengukur mutu, menangani pelanggan kesal, dukungan proaktif, serta privasi data.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["crm","pelanggan","operasional","otomasi"],
+    titleTranslations: {
+      en: "Customer Support Ticket Systems and SLAs: Serving Many Channels with One Orderly Queue",
+      zh: "客户支持工单系统与 SLA：用一个有序的队列服务多个渠道",
+    },
+    excerptTranslations: {
+      en: "When a ticket system is needed: one queue for all channels, categories and priorities, realistic service level agreements, a knowledge base, cross-department escalation, measuring quality, handling upset customers, proactive support, and data privacy.",
+      zh: "何时需要工单系统：所有渠道共用一个队列、分类与优先级、切合实际的服务水平协议、知识库、跨部门升级、衡量质量、应对不满的顾客、主动服务以及数据隐私。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
+      alt: "Dua perempuan memakai headset di ruang kerja kantor yang terang",
+      altTranslations: {
+        en: "Two women wearing headsets in a bright office workspace",
+        zh: "两位戴着耳机的女士在明亮的办公空间中",
+      },
+    },
+  },
+  {
+    slug: "aplikasi-mobile-untuk-ponsel-spesifikasi-rendah-dan-jaringan-lambat",
+    title: "Aplikasi Mobile untuk Ponsel Spesifikasi Rendah dan Jaringan Lambat: Tetap Nyaman bagi Pelanggan Sesungguhnya",
+    excerpt: "Merancang aplikasi yang ringan dan tangguh: memahami perangkat pelanggan, ukuran aplikasi, kecepatan membuka, hemat data, kerja tanpa jaringan, baterai dan memori, antarmuka sederhana, pengujian pada kondisi nyata, dan anggaran kinerja.",
+    category: "Teknologi",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["mobile","implementasi","pelanggan","custom-software"],
+    titleTranslations: {
+      en: "Mobile Apps for Low-End Phones and Slow Networks: Staying Comfortable for Real Customers",
+      zh: "面向低配手机与慢速网络的手机应用：让真实顾客也用得舒适",
+    },
+    excerptTranslations: {
+      en: "Designing a light, resilient app: understanding customers' devices, app size, launch speed, saving data, working offline, battery and memory, a simple interface, testing in real conditions, and a performance budget.",
+      zh: "设计轻量而稳健的应用：了解顾客的设备、应用体积、启动速度、节省流量、离线工作、电量与内存、简洁的界面、在真实条件下测试，以及性能预算。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
+      alt: "Seseorang memegang ponsel Android putih",
+      altTranslations: {
+        en: "A person holding a white Android phone",
+        zh: "一个人拿着一部白色的安卓手机",
+      },
+    },
+  },
+  {
+    slug: "perencanaan-anggaran-dan-peramalan-dengan-data-erp",
+    title: "Perencanaan Anggaran dan Peramalan dengan Data ERP: Dari Tebakan Tahunan ke Kebiasaan Bulanan",
+    excerpt: "Membedakan anggaran dan peramalan, memulai dari data historis, menetapkan asumsi eksplisit, skenario sederhana, tanggung jawab per bagian, memantau selisih, peramalan bergulir, perencanaan kas, dan keputusan investasi untuk bisnis kecil dan menengah.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-10",
+    updatedAt: "2026-10-10",
+    tags: ["erp","keuangan","pelaporan","data"],
+    titleTranslations: {
+      en: "Budgeting and Forecasting with ERP Data: From Annual Guesswork to a Monthly Habit",
+      zh: "用 ERP 数据做预算与预测：从年度猜测到月度习惯",
+    },
+    excerptTranslations: {
+      en: "Telling budget from forecast, starting from historical data, setting explicit assumptions, simple scenarios, departmental accountability, monitoring variances, rolling forecasts, cash planning, and investment decisions for small and medium businesses.",
+      zh: "区分预算与预测、从历史数据出发、设定明确的假设、简单情景、部门责任、监控差异、滚动预测、现金规划，以及面向中小企业的投资决策。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
+      alt: "Kertas berisi grafik garis naik di samping penggaris dan pena di meja kayu",
+      altTranslations: {
+        en: "A sheet with a rising line chart next to a ruler and a pen on a wooden desk",
+        zh: "木桌上一张带有上升折线图的纸，旁边是尺子和笔",
+      },
+    },
+  },
+  {
     slug: "pencarian-dan-filter-produk-toko-online",
     title: "Pencarian dan Filter Produk di Toko Online: Membantu Pembeli Menemukan Barang dalam Hitungan Detik",
     excerpt: "Kotak pencarian adalah sinyal niat beli paling jelas. Cara merapikan data produk, menangani salah ketik dan sinonim, merancang saran otomatis, filter, urutan hasil, halaman tanpa hasil, dan membaca data pencarian.",
