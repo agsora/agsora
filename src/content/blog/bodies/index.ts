@@ -120,8 +120,28 @@ import { body as b_webhook_dan_integrasi_real_time_untuk_bisnis } from "./webhoo
 import { body as b_sistem_tiket_dukungan_pelanggan_dan_sla } from "./sistem-tiket-dukungan-pelanggan-dan-sla";
 import { body as b_aplikasi_mobile_untuk_ponsel_spesifikasi_rendah_dan_jaringan_lambat } from "./aplikasi-mobile-untuk-ponsel-spesifikasi-rendah-dan-jaringan-lambat";
 import { body as b_perencanaan_anggaran_dan_peramalan_dengan_data_erp } from "./perencanaan-anggaran-dan-peramalan-dengan-data-erp";
+import { body as b_manajemen_aset_dan_perawatan_peralatan_dengan_erp } from "./manajemen-aset-dan-perawatan-peralatan-dengan-erp";
+import { body as b_program_afiliasi_dan_referral_untuk_toko_online } from "./program-afiliasi-dan-referral-untuk-toko-online";
+import { body as b_sistem_desain_dan_konsistensi_antarmuka_aplikasi_bisnis } from "./sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis";
+import { body as b_pengujian_otomatis_dan_ci_cd_untuk_aplikasi_bisnis } from "./pengujian-otomatis-dan-ci-cd-untuk-aplikasi-bisnis";
+import { body as b_pembayaran_cicilan_dan_paylater_di_toko_online } from "./pembayaran-cicilan-dan-paylater-di-toko-online";
+import { body as b_strategi_harga_dan_penetapan_harga_toko_online } from "./strategi-harga-dan-penetapan-harga-toko-online";
+import { body as b_cms_dan_manajemen_konten_website_bisnis } from "./cms-dan-manajemen-konten-website-bisnis";
+import { body as b_faktur_elektronik_dan_kepatuhan_pajak_dengan_erp } from "./faktur-elektronik-dan-kepatuhan-pajak-dengan-erp";
+import { body as b_segmentasi_pelanggan_dan_personalisasi_dengan_data } from "./segmentasi-pelanggan-dan-personalisasi-dengan-data";
+import { body as b_data_warehouse_dan_business_intelligence_untuk_bisnis_menengah } from "./data-warehouse-dan-business-intelligence-untuk-bisnis-menengah";
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
+  "manajemen-aset-dan-perawatan-peralatan-dengan-erp": b_manajemen_aset_dan_perawatan_peralatan_dengan_erp,
+  "program-afiliasi-dan-referral-untuk-toko-online": b_program_afiliasi_dan_referral_untuk_toko_online,
+  "sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis": b_sistem_desain_dan_konsistensi_antarmuka_aplikasi_bisnis,
+  "pengujian-otomatis-dan-ci-cd-untuk-aplikasi-bisnis": b_pengujian_otomatis_dan_ci_cd_untuk_aplikasi_bisnis,
+  "pembayaran-cicilan-dan-paylater-di-toko-online": b_pembayaran_cicilan_dan_paylater_di_toko_online,
+  "strategi-harga-dan-penetapan-harga-toko-online": b_strategi_harga_dan_penetapan_harga_toko_online,
+  "cms-dan-manajemen-konten-website-bisnis": b_cms_dan_manajemen_konten_website_bisnis,
+  "faktur-elektronik-dan-kepatuhan-pajak-dengan-erp": b_faktur_elektronik_dan_kepatuhan_pajak_dengan_erp,
+  "segmentasi-pelanggan-dan-personalisasi-dengan-data": b_segmentasi_pelanggan_dan_personalisasi_dengan_data,
+  "data-warehouse-dan-business-intelligence-untuk-bisnis-menengah": b_data_warehouse_dan_business_intelligence_untuk_bisnis_menengah,
   "arsitektur-website-headless-untuk-bisnis": b_arsitektur_website_headless_untuk_bisnis,
   "manajemen-pemasok-dan-penilaian-vendor-dengan-erp": b_manajemen_pemasok_dan_penilaian_vendor_dengan_erp,
   "pencegahan-penipuan-dan-keamanan-pembayaran-toko-online": b_pencegahan_penipuan_dan_keamanan_pembayaran_toko_online,

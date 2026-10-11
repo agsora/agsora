@@ -60,6 +60,16 @@ import { translations as t_webhook_dan_integrasi_real_time_untuk_bisnis } from "
 import { translations as t_sistem_tiket_dukungan_pelanggan_dan_sla } from "./sistem-tiket-dukungan-pelanggan-dan-sla";
 import { translations as t_aplikasi_mobile_untuk_ponsel_spesifikasi_rendah_dan_jaringan_lambat } from "./aplikasi-mobile-untuk-ponsel-spesifikasi-rendah-dan-jaringan-lambat";
 import { translations as t_perencanaan_anggaran_dan_peramalan_dengan_data_erp } from "./perencanaan-anggaran-dan-peramalan-dengan-data-erp";
+import { translations as t_manajemen_aset_dan_perawatan_peralatan_dengan_erp } from "./manajemen-aset-dan-perawatan-peralatan-dengan-erp";
+import { translations as t_program_afiliasi_dan_referral_untuk_toko_online } from "./program-afiliasi-dan-referral-untuk-toko-online";
+import { translations as t_sistem_desain_dan_konsistensi_antarmuka_aplikasi_bisnis } from "./sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis";
+import { translations as t_pengujian_otomatis_dan_ci_cd_untuk_aplikasi_bisnis } from "./pengujian-otomatis-dan-ci-cd-untuk-aplikasi-bisnis";
+import { translations as t_pembayaran_cicilan_dan_paylater_di_toko_online } from "./pembayaran-cicilan-dan-paylater-di-toko-online";
+import { translations as t_strategi_harga_dan_penetapan_harga_toko_online } from "./strategi-harga-dan-penetapan-harga-toko-online";
+import { translations as t_cms_dan_manajemen_konten_website_bisnis } from "./cms-dan-manajemen-konten-website-bisnis";
+import { translations as t_faktur_elektronik_dan_kepatuhan_pajak_dengan_erp } from "./faktur-elektronik-dan-kepatuhan-pajak-dengan-erp";
+import { translations as t_segmentasi_pelanggan_dan_personalisasi_dengan_data } from "./segmentasi-pelanggan-dan-personalisasi-dengan-data";
+import { translations as t_data_warehouse_dan_business_intelligence_untuk_bisnis_menengah } from "./data-warehouse-dan-business-intelligence-untuk-bisnis-menengah";
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
 /**
@@ -69,6 +79,16 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "manajemen-aset-dan-perawatan-peralatan-dengan-erp": t_manajemen_aset_dan_perawatan_peralatan_dengan_erp,
+  "program-afiliasi-dan-referral-untuk-toko-online": t_program_afiliasi_dan_referral_untuk_toko_online,
+  "sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis": t_sistem_desain_dan_konsistensi_antarmuka_aplikasi_bisnis,
+  "pengujian-otomatis-dan-ci-cd-untuk-aplikasi-bisnis": t_pengujian_otomatis_dan_ci_cd_untuk_aplikasi_bisnis,
+  "pembayaran-cicilan-dan-paylater-di-toko-online": t_pembayaran_cicilan_dan_paylater_di_toko_online,
+  "strategi-harga-dan-penetapan-harga-toko-online": t_strategi_harga_dan_penetapan_harga_toko_online,
+  "cms-dan-manajemen-konten-website-bisnis": t_cms_dan_manajemen_konten_website_bisnis,
+  "faktur-elektronik-dan-kepatuhan-pajak-dengan-erp": t_faktur_elektronik_dan_kepatuhan_pajak_dengan_erp,
+  "segmentasi-pelanggan-dan-personalisasi-dengan-data": t_segmentasi_pelanggan_dan_personalisasi_dengan_data,
+  "data-warehouse-dan-business-intelligence-untuk-bisnis-menengah": t_data_warehouse_dan_business_intelligence_untuk_bisnis_menengah,
   "arsitektur-website-headless-untuk-bisnis": t_arsitektur_website_headless_untuk_bisnis,
   "manajemen-pemasok-dan-penilaian-vendor-dengan-erp": t_manajemen_pemasok_dan_penilaian_vendor_dengan_erp,
   "pencegahan-penipuan-dan-keamanan-pembayaran-toko-online": t_pencegahan_penipuan_dan_keamanan_pembayaran_toko_online,

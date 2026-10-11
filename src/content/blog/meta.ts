@@ -6,6 +6,256 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "manajemen-aset-dan-perawatan-peralatan-dengan-erp",
+    title: "Manajemen Aset dan Perawatan Peralatan dengan ERP: Dari Daftar Aset hingga Keputusan Penggantian",
+    excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["erp","operasional","inventori","biaya"],
+    titleTranslations: {
+      en: "Asset Management and Equipment Maintenance with ERP: From Asset Register to Replacement Decisions",
+      zh: "资产管理与设备维护：借助 ERP，从资产清单到更换决策",
+    },
+    excerptTranslations: {
+      en: "How to manage assets and equipment maintenance in a structured way: the master asset list, scheduled maintenance versus repairs, links to finance and depreciation, critical asset priorities, and how to involve technicians.",
+      zh: "如何以结构化的方式管理资产和设备维护：主资产清单、计划性维护与维修、与财务和折旧的衔接、关键资产的优先级，以及如何让技师参与。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
+      alt: "Meja kerja dengan sketsa rancangan teknik, kotak perkakas, dan seseorang yang menggambar",
+      altTranslations: {
+        en: "A workbench with engineering sketches, a toolbox, and a person drawing",
+        zh: "工作台上摆着工程草图和工具箱，一个人正在绘图",
+      },
+    },
+  },
+  {
+    slug: "program-afiliasi-dan-referral-untuk-toko-online",
+    title: "Program Afiliasi dan Referral untuk Toko Online: Merancang Imbalan, Pelacakan, dan Pencegahan Penyalahgunaan",
+    excerpt: "Mengubah rekomendasi dari mulut ke mulut menjadi saluran pertumbuhan yang terukur: beda referral dan afiliasi, imbalan yang adil dari margin, pelacakan, dasbor peserta, pencegahan penyalahgunaan, dan cara mengukur keuntungannya.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["ecommerce","website","sales","pelanggan"],
+    titleTranslations: {
+      en: "Affiliate and Referral Programmes for Online Stores: Designing Rewards, Tracking, and Abuse Prevention",
+      zh: "网店的联盟与推荐计划：设计奖励、追踪与防止滥用",
+    },
+    excerptTranslations: {
+      en: "Turning word-of-mouth recommendation into a measurable growth channel: referral versus affiliate, fair rewards from margin, tracking, participant dashboards, abuse prevention, and how to measure profitability.",
+      zh: "把口口相传的推荐变成可衡量的增长渠道：推荐与联盟的区别、基于利润率的公平奖励、追踪、参与者仪表板、防止滥用，以及如何衡量盈利性。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
+      alt: "Tas belanja merah dan hitam berjajar di atas latar gelap",
+      altTranslations: {
+        en: "Red and black shopping bags lined up against a dark background",
+        zh: "深色背景前并排摆放的红色和黑色购物袋",
+      },
+    },
+  },
+  {
+    slug: "sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis",
+    title: "Sistem Desain dan Konsistensi Antarmuka Aplikasi Bisnis: Dari Token hingga Komponen yang Dirawat",
+    excerpt: "Mengapa antarmuka yang konsisten menghemat waktu pengguna dan tim: isi sistem desain, tanda produk membutuhkannya, cara memulai tanpa menghentikan pekerjaan, komponen utama aplikasi bisnis, aksesibilitas, dan perawatannya.",
+    category: "Teknologi",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["website","mobile","custom-software"],
+    titleTranslations: {
+      en: "Design Systems and Interface Consistency for Business Apps: From Tokens to Maintained Components",
+      zh: "业务应用的设计系统与界面一致性：从令牌到被维护的组件",
+    },
+    excerptTranslations: {
+      en: "Why a consistent interface saves time for users and teams: what a design system contains, signs a product needs one, how to start without halting work, key business app components, accessibility, and upkeep.",
+      zh: "为什么一致的界面能为用户和团队节省时间：设计系统包含什么、产品需要它的迹象、如何在不中断工作的情况下起步、业务应用的关键组件、无障碍和日常维护。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+      alt: "Sketsa wireframe berwarna dari beberapa tata letak layar aplikasi",
+      altTranslations: {
+        en: "Colourful wireframe sketches of several app screen layouts",
+        zh: "多个应用界面布局的彩色线框草图",
+      },
+    },
+  },
+  {
+    slug: "pengujian-otomatis-dan-ci-cd-untuk-aplikasi-bisnis",
+    title: "Pengujian Otomatis dan CI/CD untuk Aplikasi Bisnis: Rilis yang Tenang dan Dapat Diprediksi",
+    excerpt: "Panduan awam tentang pengujian otomatis dan alur rilis: jenis pengujian, apa yang layak diuji lebih dulu, lingkungan uji dan data aman, rilis bertahap, kemampuan membatalkan, serta pertanyaan untuk menilai praktik vendor Anda.",
+    category: "Teknologi",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["custom-software","infrastruktur","keamanan"],
+    titleTranslations: {
+      en: "Automated Testing and CI/CD for Business Applications: Calm, Predictable Releases",
+      zh: "业务应用的自动化测试与 CI/CD：从容且可预测的发布",
+    },
+    excerptTranslations: {
+      en: "A plain-language guide to automated testing and release flow: kinds of tests, what to test first, test environments and safe data, gradual release, rollback ability, and questions to assess your vendor's practices.",
+      zh: "关于自动化测试与发布流程的通俗指南：测试的类型、先测试什么、测试环境与安全数据、逐步发布、回滚能力，以及评估供应商做法的问题。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      alt: "Layar laptop menampilkan kode program berwarna di editor",
+      altTranslations: {
+        en: "A laptop screen showing colourful program code in an editor",
+        zh: "笔记本电脑屏幕在编辑器中显示彩色的程序代码",
+      },
+    },
+  },
+  {
+    slug: "pembayaran-cicilan-dan-paylater-di-toko-online",
+    title: "Pembayaran Cicilan dan Bayar Nanti di Toko Online: Kapan Layak, Berapa Biayanya, dan Apa Risikonya",
+    excerpt: "Menimbang opsi pembayaran bertahap untuk toko online: bentuk-bentuknya, kapan layak ditawarkan, dampak pada margin, memilih penyedia, pengalaman pembeli, rekonsiliasi, kepatuhan, risiko, dan indikator yang dipantau.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["ecommerce","pembayaran","keuangan"],
+    titleTranslations: {
+      en: "Instalments and Buy-Now-Pay-Later in Online Stores: When It Is Worth It, What It Costs, and the Risks",
+      zh: "网店的分期付款与先买后付：何时值得、成本多少以及风险何在",
+    },
+    excerptTranslations: {
+      en: "Weighing staged payment options for online stores: their forms, when worth offering, impact on margin, choosing a provider, buyer experience, reconciliation, compliance, risks, and indicators to monitor.",
+      zh: "权衡网店的分期付款选项：它们的形式、何时值得提供、对利润率的影响、选择服务商、买家体验、对账、合规、风险，以及需要监控的指标。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1553729459-efe14ef6055d",
+      alt: "Tangan memegang setumpuk uang kertas",
+      altTranslations: {
+        en: "A hand holding a stack of banknotes",
+        zh: "手里拿着一叠钞票",
+      },
+    },
+  },
+  {
+    slug: "strategi-harga-dan-penetapan-harga-toko-online",
+    title: "Strategi Harga dan Penetapan Harga Toko Online: Dari Biaya Sebenarnya hingga Uji Perubahan Harga",
+    excerpt: "Kerangka berpikir menetapkan harga toko online: menghitung biaya sebenarnya, pendekatan berbasis biaya, pesaing, dan nilai, struktur harga, harga produk baru, diskon, biaya pengiriman, menguji perubahan, dan kapan menaikkan harga.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["ecommerce","sales","biaya","data"],
+    titleTranslations: {
+      en: "Pricing Strategy for Online Stores: From True Costs to Testing Price Changes",
+      zh: "网店的定价策略：从真实成本到测试价格变更",
+    },
+    excerptTranslations: {
+      en: "A framework for pricing an online store: calculating true costs, cost-, competitor-, and value-based approaches, price structure, new product pricing, discounts, shipping costs, testing changes, and when to raise prices.",
+      zh: "网店定价的思考框架：计算真实成本、成本导向、竞争导向与价值导向的方法、价格结构、新产品定价、折扣、运费、测试变更，以及何时涨价。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
+      alt: "Kertas berisi grafik garis naik di samping penggaris dan pena di meja kayu",
+      altTranslations: {
+        en: "A sheet with a rising line chart next to a ruler and pen on a wooden desk",
+        zh: "木桌上的纸张，画着上升的折线图，旁边有尺子和笔",
+      },
+    },
+  },
+  {
+    slug: "cms-dan-manajemen-konten-website-bisnis",
+    title: "CMS dan Manajemen Konten Website Bisnis: Memperbarui Tanpa Menunggu Pengembang",
+    excerpt: "Cara mengelola konten website secara tertib: fungsi CMS, tanda butuh CMS lebih baik, tiga pendekatan umum, model konten, peran dan persetujuan, SEO harian, kecepatan, multibahasa, keamanan, dan tata kelola konten.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["website","seo","operasional"],
+    titleTranslations: {
+      en: "CMS and Content Management for Business Websites: Updating Without Waiting for Developers",
+      zh: "企业网站的 CMS 与内容管理：无需等待开发人员即可更新",
+    },
+    excerptTranslations: {
+      en: "How to manage website content in an orderly way: what a CMS does, signs you need a better one, three common approaches, content models, roles and approval, daily SEO, speed, multilingual, security, and content governance.",
+      zh: "如何有条不紊地管理网站内容：CMS 的作用、需要更好 CMS 的迹象、三种常见方式、内容模型、角色与审批、日常 SEO、速度、多语言、安全以及内容治理。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+      alt: "Meja kerja dengan monitor dan laptop yang menampilkan halaman website, lampu meja, dan tanaman",
+      altTranslations: {
+        en: "A desk with a monitor and laptop showing web pages, a desk lamp, and a plant",
+        zh: "摆着显示器和笔记本电脑的办公桌，屏幕上是网页，旁边有台灯和植物",
+      },
+    },
+  },
+  {
+    slug: "faktur-elektronik-dan-kepatuhan-pajak-dengan-erp",
+    title: "Faktur Elektronik dan Kepatuhan Pajak dengan ERP: Merapikan Alur dari Pesanan hingga Pelaporan",
+    excerpt: "Bagaimana ERP membantu menerbitkan faktur elektronik yang rapi dan menjaga kepatuhan: data induk, alur terhubung dari pesanan ke faktur, penomoran dan jejak audit, rekonsiliasi pembayaran, pembelian, dan menghadapi perubahan aturan.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["erp","keuangan","otomasi","pelaporan"],
+    titleTranslations: {
+      en: "Electronic Invoicing and Tax Compliance with ERP: Tidying the Flow from Order to Reporting",
+      zh: "借助 ERP 实现电子发票与税务合规：理顺从订单到申报的流程",
+    },
+    excerptTranslations: {
+      en: "How ERP helps issue tidy electronic invoices and maintain compliance: master data, a connected flow from order to invoice, numbering and audit trails, payment reconciliation, purchasing, and handling rule changes.",
+      zh: "ERP 如何帮助开具整齐的电子发票并保持合规：主数据、从订单到发票的连通流程、编号与审计线索、付款对账、采购，以及应对规则变化。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
+      altTranslations: {
+        en: "A pile of forms, receipts, and a calculator on a desk",
+        zh: "桌上堆放的表格、收据和计算器",
+      },
+    },
+  },
+  {
+    slug: "segmentasi-pelanggan-dan-personalisasi-dengan-data",
+    title: "Segmentasi Pelanggan dan Personalisasi dengan Data: Menyapa dengan Tepat Tanpa Mengintai",
+    excerpt: "Cara memulai segmentasi pelanggan dari data sederhana: jenis segmentasi, data yang diperlukan, segmen yang bisa dibuat minggu ini, personalisasi yang membantu, kanal dan momen, otomasi dan AI, privasi, serta cara mengukur dampaknya.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["crm","pelanggan","data","ai"],
+    titleTranslations: {
+      en: "Customer Segmentation and Personalisation with Data: Greeting Customers Right Without Watching Them",
+      zh: "借助数据进行顾客细分与个性化：恰当问候而不监视",
+    },
+    excerptTranslations: {
+      en: "How to start customer segmentation from simple data: types of segmentation, data needed, segments you can build this week, helpful personalisation, channels and moments, automation and AI, privacy, and measuring impact.",
+      zh: "如何从简单的数据开始顾客细分：细分类型、所需数据、本周就能建立的细分、有帮助的个性化、渠道与时机、自动化与人工智能、隐私，以及衡量影响。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+      alt: "Dashboard berisi beberapa grafik data yang ditampilkan berdampingan",
+      altTranslations: {
+        en: "A dashboard with several data charts displayed side by side",
+        zh: "并排显示多张数据图表的仪表板",
+      },
+    },
+  },
+  {
+    slug: "data-warehouse-dan-business-intelligence-untuk-bisnis-menengah",
+    title: "Data Warehouse dan Business Intelligence untuk Bisnis Menengah: Satu Sumber Kebenaran untuk Keputusan",
+    excerpt: "Memahami gudang data dan BI untuk non-teknisi: mengapa laporan sistem operasional tidak cukup, tanda membutuhkannya, mulai dari pertanyaan bisnis, definisi angka, kualitas data, pilihan teknis, dasbor yang dipakai, dan budaya data.",
+    category: "Teknologi",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
+    tags: ["data","pelaporan","integrasi"],
+    titleTranslations: {
+      en: "Data Warehouse and Business Intelligence for Mid-Sized Businesses: One Source of Truth for Decisions",
+      zh: "中型企业的数据仓库与商业智能：用于决策的单一事实来源",
+    },
+    excerptTranslations: {
+      en: "Understanding data warehouses and BI for non-technical readers: why operational system reports fall short, signs you need one, starting from business questions, figure definitions, data quality, technical options, dashboards that get used, and data culture.",
+      zh: "为非技术读者理解数据仓库与 BI：为什么运营系统的报表不够用、需要它的迹象、从业务问题开始、数字定义、数据质量、技术方案、被使用的仪表板以及数据文化。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+      alt: "Layar menampilkan panel metrik dengan grafik garis kecil dan angka performa",
+      altTranslations: {
+        en: "A screen showing a metrics panel with small line charts and performance numbers",
+        zh: "显示着带有小型折线图和绩效数字的指标面板的屏幕",
+      },
+    },
+  },
+  {
     slug: "arsitektur-website-headless-untuk-bisnis",
     title: "Arsitektur Website Headless untuk Bisnis: Kapan Masuk Akal dan Kapan Tidak Perlu",
     excerpt: "Headless commerce dan arsitektur composable sering ditawarkan sebagai kemajuan. Penjelasan sederhana, keuntungan dan harga yang harus dibayar, kapan layak dipertimbangkan, jalan tengah bertahap, dan cara memutuskan tanpa terbawa tren.",
