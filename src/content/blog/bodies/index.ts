@@ -130,8 +130,28 @@ import { body as b_cms_dan_manajemen_konten_website_bisnis } from "./cms-dan-man
 import { body as b_faktur_elektronik_dan_kepatuhan_pajak_dengan_erp } from "./faktur-elektronik-dan-kepatuhan-pajak-dengan-erp";
 import { body as b_segmentasi_pelanggan_dan_personalisasi_dengan_data } from "./segmentasi-pelanggan-dan-personalisasi-dengan-data";
 import { body as b_data_warehouse_dan_business_intelligence_untuk_bisnis_menengah } from "./data-warehouse-dan-business-intelligence-untuk-bisnis-menengah";
+import { body as b_sso_dan_manajemen_identitas_untuk_aplikasi_bisnis } from "./sso-dan-manajemen-identitas-untuk-aplikasi-bisnis";
+import { body as b_manajemen_dokumen_dan_arsip_digital_dengan_erp } from "./manajemen-dokumen-dan-arsip-digital-dengan-erp";
+import { body as b_platform_multi_vendor_dan_marketplace_sendiri } from "./platform-multi-vendor-dan-marketplace-sendiri";
+import { body as b_penagihan_proyek_dan_milestone_untuk_bisnis_jasa } from "./penagihan-proyek-dan-milestone-untuk-bisnis-jasa";
+import { body as b_rencana_pemulihan_bencana_dan_kesinambungan_bisnis } from "./rencana-pemulihan-bencana-dan-kesinambungan-bisnis";
+import { body as b_manajemen_kontrak_dan_perpanjangan_pelanggan } from "./manajemen-kontrak-dan-perpanjangan-pelanggan";
+import { body as b_menu_digital_dan_pemesanan_qr_untuk_restoran } from "./menu-digital-dan-pemesanan-qr-untuk-restoran";
+import { body as b_penjadwalan_shift_dan_manajemen_tenaga_kerja } from "./penjadwalan-shift-dan-manajemen-tenaga-kerja";
+import { body as b_keamanan_dependensi_dan_rantai_pasok_perangkat_lunak } from "./keamanan-dependensi-dan-rantai-pasok-perangkat-lunak";
+import { body as b_menjual_ke_luar_negeri_dengan_toko_online_lintas_negara } from "./menjual-ke-luar-negeri-dengan-toko-online-lintas-negara";
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
+  "sso-dan-manajemen-identitas-untuk-aplikasi-bisnis": b_sso_dan_manajemen_identitas_untuk_aplikasi_bisnis,
+  "manajemen-dokumen-dan-arsip-digital-dengan-erp": b_manajemen_dokumen_dan_arsip_digital_dengan_erp,
+  "platform-multi-vendor-dan-marketplace-sendiri": b_platform_multi_vendor_dan_marketplace_sendiri,
+  "penagihan-proyek-dan-milestone-untuk-bisnis-jasa": b_penagihan_proyek_dan_milestone_untuk_bisnis_jasa,
+  "rencana-pemulihan-bencana-dan-kesinambungan-bisnis": b_rencana_pemulihan_bencana_dan_kesinambungan_bisnis,
+  "manajemen-kontrak-dan-perpanjangan-pelanggan": b_manajemen_kontrak_dan_perpanjangan_pelanggan,
+  "menu-digital-dan-pemesanan-qr-untuk-restoran": b_menu_digital_dan_pemesanan_qr_untuk_restoran,
+  "penjadwalan-shift-dan-manajemen-tenaga-kerja": b_penjadwalan_shift_dan_manajemen_tenaga_kerja,
+  "keamanan-dependensi-dan-rantai-pasok-perangkat-lunak": b_keamanan_dependensi_dan_rantai_pasok_perangkat_lunak,
+  "menjual-ke-luar-negeri-dengan-toko-online-lintas-negara": b_menjual_ke_luar_negeri_dengan_toko_online_lintas_negara,
   "manajemen-aset-dan-perawatan-peralatan-dengan-erp": b_manajemen_aset_dan_perawatan_peralatan_dengan_erp,
   "program-afiliasi-dan-referral-untuk-toko-online": b_program_afiliasi_dan_referral_untuk_toko_online,
   "sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis": b_sistem_desain_dan_konsistensi_antarmuka_aplikasi_bisnis,

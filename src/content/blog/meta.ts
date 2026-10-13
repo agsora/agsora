@@ -6,6 +6,256 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "sso-dan-manajemen-identitas-untuk-aplikasi-bisnis",
+    title: "SSO dan Manajemen Identitas untuk Aplikasi Bisnis: Satu Pintu Masuk, Akses yang Terkendali",
+    excerpt: "Cara merapikan akun karyawan di banyak aplikasi: apa itu SSO, autentikasi multifaktor, siklus hidup akun karyawan, hak akses berbasis peran, dan rencana penerapan bertahap.",
+    category: "Teknologi",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["keamanan","integrasi","karyawan"],
+    titleTranslations: {
+      en: "SSO and Identity Management for Business Apps: One Sign-In, Controlled Access",
+      zh: "业务应用的单点登录与身份管理：一次登录，访问可控",
+    },
+    excerptTranslations: {
+      en: "How to tidy employee accounts across many applications: what SSO is, multi-factor authentication, the employee account life cycle, role-based access rights, and a staged rollout plan.",
+      zh: "如何理顺员工在众多应用中的账号：什么是 SSO、多因素认证、员工账号的生命周期、基于角色的访问权限，以及分阶段的推行计划。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+      alt: "Ponsel pintar menampilkan ikon kunci keamanan di atas meja kayu",
+      altTranslations: {
+        en: "A smartphone showing a security lock icon on a wooden table",
+        zh: "木桌上的智能手机屏幕显示着安全锁图标",
+      },
+    },
+  },
+  {
+    slug: "manajemen-dokumen-dan-arsip-digital-dengan-erp",
+    title: "Manajemen Dokumen dan Arsip Digital dengan ERP: Dari Tumpukan Berkas ke Arsip yang Mudah Dicari",
+    excerpt: "Cara menata dokumen bisnis agar menempel pada transaksi: struktur dan metadata, hak akses, versi dan persetujuan, masa simpan, digitalisasi arsip kertas, dan rencana 90 hari.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["erp","operasional","otomasi"],
+    titleTranslations: {
+      en: "Document Management and Digital Archives with ERP: From Piles of Files to an Archive You Can Search",
+      zh: "借助 ERP 的文档管理与数字档案：从成堆文件到易于检索的档案",
+    },
+    excerptTranslations: {
+      en: "How to organise business documents so they attach to transactions: structure and metadata, access rights, versions and approvals, retention, digitising paper archives, and a 90-day plan.",
+      zh: "如何整理业务文件，使其附着在交易上：结构与元数据、访问权限、版本与审批、保存期限、纸质档案数字化，以及 90 天计划。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1565688534245-05d6b5be184a",
+      alt: "Dua orang meninjau dokumen kertas di atas meja",
+      altTranslations: {
+        en: "Two people reviewing paper documents on a table",
+        zh: "两个人在桌上查阅纸质文件",
+      },
+    },
+  },
+  {
+    slug: "platform-multi-vendor-dan-marketplace-sendiri",
+    title: "Platform Multi-Vendor dan Marketplace Sendiri: Dari Masalah Ayam dan Telur hingga Pembayaran Komisi",
+    excerpt: "Menimbang model marketplace secara realistis: kapan masuk akal, mengatasi masalah ayam dan telur, komponen teknis, pembayaran dan komisi, kepercayaan, logistik, dan risikonya.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["ecommerce","website","vendor"],
+    titleTranslations: {
+      en: "Multi-Vendor Platforms and Building Your Own Marketplace: From the Chicken-and-Egg Problem to Commission Payouts",
+      zh: "多商户平台与自建市集：从“先有鸡还是先有蛋”到佣金结算",
+    },
+    excerptTranslations: {
+      en: "Weighing the marketplace model realistically: when it makes sense, solving the chicken-and-egg problem, technical components, payments and commission, trust, logistics, and risks.",
+      zh: "务实地权衡市集模式：何时合理、如何解决先有鸡还是先有蛋的问题、技术组件、支付与佣金、信任、物流及风险。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
+      alt: "Laptop menampilkan halaman beranda platform toko online",
+      altTranslations: {
+        en: "A laptop showing the home page of an online store platform",
+        zh: "笔记本电脑屏幕上显示着网店平台的首页",
+      },
+    },
+  },
+  {
+    slug: "penagihan-proyek-dan-milestone-untuk-bisnis-jasa",
+    title: "Penagihan Proyek dan Milestone untuk Bisnis Jasa: Menjaga Arus Kas dan Margin Tetap Sehat",
+    excerpt: "Merancang penagihan proyek yang sehat: memilih model, milestone dengan kriteria penerimaan, jadwal yang selaras dengan arus kas, perubahan lingkup, pencatatan jam kerja, dan pengakuan pendapatan.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["erp","keuangan","operasional"],
+    titleTranslations: {
+      en: "Project and Milestone Billing for Service Businesses: Keeping Cash Flow and Margin Healthy",
+      zh: "服务型企业的项目与里程碑收费：让现金流和利润率保持健康",
+    },
+    excerptTranslations: {
+      en: "Designing healthy project billing: choosing a model, milestones with acceptance criteria, schedules aligned with cash flow, scope changes, time recording, and revenue recognition.",
+      zh: "设计健康的项目收费：选择模式、带验收标准的里程碑、与现金流一致的计划、范围变更、工时记录和收入确认。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
+      alt: "Beberapa orang berdiskusi di meja kayu sambil mencatat",
+      altTranslations: {
+        en: "Several people discussing at a wooden table while taking notes",
+        zh: "几个人围坐在木桌旁一边讨论一边记录",
+      },
+    },
+  },
+  {
+    slug: "rencana-pemulihan-bencana-dan-kesinambungan-bisnis",
+    title: "Rencana Pemulihan Bencana dan Kesinambungan Bisnis: Siap Sebelum Sistem Tiba-Tiba Mati",
+    excerpt: "Menyiapkan bisnis menghadapi gangguan sistem: beda kesinambungan dan pemulihan, RTO dan RPO, strategi cadangan yang diuji, rencana tertulis, prosedur manual, dan latihan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["infrastruktur","keamanan","data"],
+    titleTranslations: {
+      en: "Disaster Recovery and Business Continuity Planning: Be Ready Before Systems Suddenly Go Down",
+      zh: "灾难恢复与业务连续性规划：在系统突然宕机之前做好准备",
+    },
+    excerptTranslations: {
+      en: "Preparing a business for system disruption: continuity versus recovery, RTO and RPO, tested backup strategy, a written plan, manual procedures, and drills.",
+      zh: "让企业为系统中断做好准备：连续性与恢复的区别、RTO 与 RPO、经过测试的备份策略、书面计划、手工流程和演练。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d",
+      alt: "Deretan perangkat server tempat data perusahaan disimpan",
+      altTranslations: {
+        en: "Rows of server equipment where company data is stored",
+        zh: "一排排存放公司数据的服务器设备",
+      },
+    },
+  },
+  {
+    slug: "manajemen-kontrak-dan-perpanjangan-pelanggan",
+    title: "Manajemen Kontrak dan Perpanjangan Pelanggan: Agar Tidak Ada Pendapatan yang Berakhir Diam-Diam",
+    excerpt: "Mengelola kontrak pelanggan secara terstruktur: data kunci, siklus hidup kontrak, proses perpanjangan, kenaikan harga, hubungan dengan penagihan dan layanan, serta tinjauan portofolio.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["crm","sales","pelanggan"],
+    titleTranslations: {
+      en: "Customer Contract and Renewal Management: So No Revenue Quietly Expires",
+      zh: "客户合同与续约管理：让任何收入都不悄然到期",
+    },
+    excerptTranslations: {
+      en: "Managing customer contracts in a structured way: key data, the contract life cycle, the renewal process, price increases, links to billing and service, and portfolio reviews.",
+      zh: "有条理地管理客户合同：关键数据、合同生命周期、续约流程、涨价、与计费和服务的联系，以及组合复盘。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+      alt: "Dua orang berjabat tangan di ruang kantor",
+      altTranslations: {
+        en: "Two people shaking hands in an office",
+        zh: "两个人在办公室里握手",
+      },
+    },
+  },
+  {
+    slug: "menu-digital-dan-pemesanan-qr-untuk-restoran",
+    title: "Menu Digital dan Pemesanan QR untuk Restoran: Lebih Cepat Tanpa Kehilangan Keramahan",
+    excerpt: "Menerapkan menu digital yang benar-benar membantu: manfaat dan batasan, fitur inti, integrasi dengan kasir dan dapur, pembayaran, pengalaman di ponsel, data, keamanan, dan langkah awal.",
+    category: "POS & Retail",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["pos","fnb","pembayaran"],
+    titleTranslations: {
+      en: "Digital Menus and QR Ordering for Restaurants: Faster Without Losing Hospitality",
+      zh: "餐厅的电子菜单与扫码点单：更快，却不失待客之道",
+    },
+    excerptTranslations: {
+      en: "Rolling out a digital menu that truly helps: benefits and limits, core features, integration with POS and kitchen, payment, the mobile experience, data, security, and first steps.",
+      zh: "推行真正有帮助的电子菜单：好处与局限、核心功能、与 POS 和厨房的集成、付款、手机体验、数据、安全和起步步骤。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+      alt: "Pegawai toko tersenyum di depan tablet kasir di sebuah kafe berlangit-langit tinggi",
+      altTranslations: {
+        en: "A shop employee smiling in front of a point-of-sale tablet in a high-ceilinged cafe",
+        zh: "在挑高咖啡馆里，一名店员在收银平板前微笑",
+      },
+    },
+  },
+  {
+    slug: "penjadwalan-shift-dan-manajemen-tenaga-kerja",
+    title: "Penjadwalan Shift dan Manajemen Tenaga Kerja: Jadwal yang Adil, Biaya yang Terkendali",
+    excerpt: "Menyusun jadwal kerja dari kebutuhan layanan: aturan yang adil dan sah, ketersediaan karyawan, tukar shift, hubungan dengan absensi dan penggajian, biaya tenaga kerja, dan retensi.",
+    category: "HR & Tim",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["hris","karyawan","operasional"],
+    titleTranslations: {
+      en: "Shift Scheduling and Workforce Management: Fair Schedules, Controlled Costs",
+      zh: "排班与劳动力管理：公平的班表，可控的成本",
+    },
+    excerptTranslations: {
+      en: "Building work schedules from service needs: fair and lawful rules, employee availability, shift swaps, links to attendance and payroll, labour cost, and retention.",
+      zh: "从服务需求出发编排工作班表：公平合法的规则、员工可用时间、换班、与考勤和薪资的联系、人力成本和留存。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+      alt: "Tim karyawan sedang berdiskusi bersama di ruang rapat kantor",
+      altTranslations: {
+        en: "A team of employees discussing together in an office meeting room",
+        zh: "一组员工在办公室会议室里一起讨论",
+      },
+    },
+  },
+  {
+    slug: "keamanan-dependensi-dan-rantai-pasok-perangkat-lunak",
+    title: "Keamanan Dependensi dan Rantai Pasok Perangkat Lunak: Mewaspadai Risiko dari Kode yang Anda Pakai",
+    excerpt: "Memahami risiko komponen pihak ketiga: jenis serangan rantai pasok, daftar komponen, pemindaian kerentanan, pembaruan rutin, lisensi, pengamanan proses rilis, dan pertanyaan untuk vendor.",
+    category: "Teknologi",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["keamanan","custom-software","api"],
+    titleTranslations: {
+      en: "Dependency and Software Supply Chain Security: Watching for Risk in the Code You Use",
+      zh: "依赖项与软件供应链安全：警惕您所用代码带来的风险",
+    },
+    excerptTranslations: {
+      en: "Understanding third-party component risk: types of supply chain attack, a component list, vulnerability scanning, routine updates, licences, securing the release process, and questions for vendors.",
+      zh: "了解第三方组件的风险：供应链攻击的类型、组件清单、漏洞扫描、例行更新、许可证、保护发布流程，以及向供应商提出的问题。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      alt: "Baris kode program ditampilkan besar di layar monitor",
+      altTranslations: {
+        en: "Lines of program code displayed large on a monitor screen",
+        zh: "显示器屏幕上放大显示的一行行程序代码",
+      },
+    },
+  },
+  {
+    slug: "menjual-ke-luar-negeri-dengan-toko-online-lintas-negara",
+    title: "Menjual ke Luar Negeri dengan Toko Online Lintas Negara: Pajak, Pengiriman, dan Lokalisasi",
+    excerpt: "Pendekatan bertahap untuk ekspor lewat toko online: memilih pasar, pajak dan bea masuk, harga dan mata uang, pembayaran internasional, pengiriman, retur, lokalisasi, dan kesiapan sistem.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-13",
+    updatedAt: "2026-10-13",
+    tags: ["ecommerce","website","pembayaran"],
+    titleTranslations: {
+      en: "Selling Abroad with a Cross-Border Online Store: Tax, Shipping, and Localisation",
+      zh: "用跨境网店向国外销售：税费、物流与本地化",
+    },
+    excerptTranslations: {
+      en: "A staged approach to export through an online store: choosing markets, tax and import duty, pricing and currency, international payment, shipping, returns, localisation, and system readiness.",
+      zh: "通过网店出口的分阶段方法：选择市场、税费与进口关税、价格与货币、国际支付、物流、退货、本地化以及系统准备。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3",
+      alt: "Pemandangan udara pelabuhan peti kemas dengan derek dan tumpukan kontainer",
+      altTranslations: {
+        en: "An aerial view of a container port with cranes and stacks of containers",
+        zh: "集装箱港口的鸟瞰图，可见起重机和成堆的集装箱",
+      },
+    },
+  },
+  {
     slug: "manajemen-aset-dan-perawatan-peralatan-dengan-erp",
     title: "Manajemen Aset dan Perawatan Peralatan dengan ERP: Dari Daftar Aset hingga Keputusan Penggantian",
     excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
