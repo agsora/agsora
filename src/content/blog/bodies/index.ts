@@ -140,8 +140,28 @@ import { body as b_menu_digital_dan_pemesanan_qr_untuk_restoran } from "./menu-d
 import { body as b_penjadwalan_shift_dan_manajemen_tenaga_kerja } from "./penjadwalan-shift-dan-manajemen-tenaga-kerja";
 import { body as b_keamanan_dependensi_dan_rantai_pasok_perangkat_lunak } from "./keamanan-dependensi-dan-rantai-pasok-perangkat-lunak";
 import { body as b_menjual_ke_luar_negeri_dengan_toko_online_lintas_negara } from "./menjual-ke-luar-negeri-dengan-toko-online-lintas-negara";
+import { body as b_observabilitas_log_dan_penanganan_error_aplikasi_bisnis } from "./observabilitas-log-dan-penanganan-error-aplikasi-bisnis";
+import { body as b_ulasan_pelanggan_dan_manajemen_reputasi_online } from "./ulasan-pelanggan-dan-manajemen-reputasi-online";
+import { body as b_agile_atau_waterfall_metode_proyek_software_untuk_bisnis } from "./agile-atau-waterfall-metode-proyek-software-untuk-bisnis";
+import { body as b_performa_database_dan_aplikasi_bisnis_yang_melambat } from "./performa-database-dan-aplikasi-bisnis-yang-melambat";
+import { body as b_jejak_audit_dan_pengendalian_internal_di_sistem_erp } from "./jejak-audit-dan-pengendalian-internal-di-sistem-erp";
+import { body as b_reimbursement_dan_pengelolaan_biaya_perjalanan_karyawan } from "./reimbursement-dan-pengelolaan-biaya-perjalanan-karyawan";
+import { body as b_ai_generatif_untuk_konten_dan_dokumen_bisnis } from "./ai-generatif-untuk-konten-dan-dokumen-bisnis";
+import { body as b_sistem_kasir_offline_first_dan_sinkronisasi_multi_perangkat } from "./sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat";
+import { body as b_manajemen_waralaba_dan_jaringan_cabang_dengan_sistem_terpusat } from "./manajemen-waralaba-dan-jaringan-cabang-dengan-sistem-terpusat";
+import { body as b_ux_writing_dan_microcopy_untuk_aplikasi_dan_website_bisnis } from "./ux-writing-dan-microcopy-untuk-aplikasi-dan-website-bisnis";
 /** Maps each post slug to its article body. Generated from src/content/blog/bodies/*.ts. */
 export const bodies: Record<string, Block[]> = {
+  "observabilitas-log-dan-penanganan-error-aplikasi-bisnis": b_observabilitas_log_dan_penanganan_error_aplikasi_bisnis,
+  "ulasan-pelanggan-dan-manajemen-reputasi-online": b_ulasan_pelanggan_dan_manajemen_reputasi_online,
+  "agile-atau-waterfall-metode-proyek-software-untuk-bisnis": b_agile_atau_waterfall_metode_proyek_software_untuk_bisnis,
+  "performa-database-dan-aplikasi-bisnis-yang-melambat": b_performa_database_dan_aplikasi_bisnis_yang_melambat,
+  "jejak-audit-dan-pengendalian-internal-di-sistem-erp": b_jejak_audit_dan_pengendalian_internal_di_sistem_erp,
+  "reimbursement-dan-pengelolaan-biaya-perjalanan-karyawan": b_reimbursement_dan_pengelolaan_biaya_perjalanan_karyawan,
+  "ai-generatif-untuk-konten-dan-dokumen-bisnis": b_ai_generatif_untuk_konten_dan_dokumen_bisnis,
+  "sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat": b_sistem_kasir_offline_first_dan_sinkronisasi_multi_perangkat,
+  "manajemen-waralaba-dan-jaringan-cabang-dengan-sistem-terpusat": b_manajemen_waralaba_dan_jaringan_cabang_dengan_sistem_terpusat,
+  "ux-writing-dan-microcopy-untuk-aplikasi-dan-website-bisnis": b_ux_writing_dan_microcopy_untuk_aplikasi_dan_website_bisnis,
   "sso-dan-manajemen-identitas-untuk-aplikasi-bisnis": b_sso_dan_manajemen_identitas_untuk_aplikasi_bisnis,
   "manajemen-dokumen-dan-arsip-digital-dengan-erp": b_manajemen_dokumen_dan_arsip_digital_dengan_erp,
   "platform-multi-vendor-dan-marketplace-sendiri": b_platform_multi_vendor_dan_marketplace_sendiri,

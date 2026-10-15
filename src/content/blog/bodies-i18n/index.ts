@@ -80,6 +80,16 @@ import { translations as t_menu_digital_dan_pemesanan_qr_untuk_restoran } from "
 import { translations as t_penjadwalan_shift_dan_manajemen_tenaga_kerja } from "./penjadwalan-shift-dan-manajemen-tenaga-kerja";
 import { translations as t_keamanan_dependensi_dan_rantai_pasok_perangkat_lunak } from "./keamanan-dependensi-dan-rantai-pasok-perangkat-lunak";
 import { translations as t_menjual_ke_luar_negeri_dengan_toko_online_lintas_negara } from "./menjual-ke-luar-negeri-dengan-toko-online-lintas-negara";
+import { translations as t_observabilitas_log_dan_penanganan_error_aplikasi_bisnis } from "./observabilitas-log-dan-penanganan-error-aplikasi-bisnis";
+import { translations as t_ulasan_pelanggan_dan_manajemen_reputasi_online } from "./ulasan-pelanggan-dan-manajemen-reputasi-online";
+import { translations as t_agile_atau_waterfall_metode_proyek_software_untuk_bisnis } from "./agile-atau-waterfall-metode-proyek-software-untuk-bisnis";
+import { translations as t_performa_database_dan_aplikasi_bisnis_yang_melambat } from "./performa-database-dan-aplikasi-bisnis-yang-melambat";
+import { translations as t_jejak_audit_dan_pengendalian_internal_di_sistem_erp } from "./jejak-audit-dan-pengendalian-internal-di-sistem-erp";
+import { translations as t_reimbursement_dan_pengelolaan_biaya_perjalanan_karyawan } from "./reimbursement-dan-pengelolaan-biaya-perjalanan-karyawan";
+import { translations as t_ai_generatif_untuk_konten_dan_dokumen_bisnis } from "./ai-generatif-untuk-konten-dan-dokumen-bisnis";
+import { translations as t_sistem_kasir_offline_first_dan_sinkronisasi_multi_perangkat } from "./sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat";
+import { translations as t_manajemen_waralaba_dan_jaringan_cabang_dengan_sistem_terpusat } from "./manajemen-waralaba-dan-jaringan-cabang-dengan-sistem-terpusat";
+import { translations as t_ux_writing_dan_microcopy_untuk_aplikasi_dan_website_bisnis } from "./ux-writing-dan-microcopy-untuk-aplikasi-dan-website-bisnis";
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
 /**
@@ -89,6 +99,16 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "observabilitas-log-dan-penanganan-error-aplikasi-bisnis": t_observabilitas_log_dan_penanganan_error_aplikasi_bisnis,
+  "ulasan-pelanggan-dan-manajemen-reputasi-online": t_ulasan_pelanggan_dan_manajemen_reputasi_online,
+  "agile-atau-waterfall-metode-proyek-software-untuk-bisnis": t_agile_atau_waterfall_metode_proyek_software_untuk_bisnis,
+  "performa-database-dan-aplikasi-bisnis-yang-melambat": t_performa_database_dan_aplikasi_bisnis_yang_melambat,
+  "jejak-audit-dan-pengendalian-internal-di-sistem-erp": t_jejak_audit_dan_pengendalian_internal_di_sistem_erp,
+  "reimbursement-dan-pengelolaan-biaya-perjalanan-karyawan": t_reimbursement_dan_pengelolaan_biaya_perjalanan_karyawan,
+  "ai-generatif-untuk-konten-dan-dokumen-bisnis": t_ai_generatif_untuk_konten_dan_dokumen_bisnis,
+  "sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat": t_sistem_kasir_offline_first_dan_sinkronisasi_multi_perangkat,
+  "manajemen-waralaba-dan-jaringan-cabang-dengan-sistem-terpusat": t_manajemen_waralaba_dan_jaringan_cabang_dengan_sistem_terpusat,
+  "ux-writing-dan-microcopy-untuk-aplikasi-dan-website-bisnis": t_ux_writing_dan_microcopy_untuk_aplikasi_dan_website_bisnis,
   "sso-dan-manajemen-identitas-untuk-aplikasi-bisnis": t_sso_dan_manajemen_identitas_untuk_aplikasi_bisnis,
   "manajemen-dokumen-dan-arsip-digital-dengan-erp": t_manajemen_dokumen_dan_arsip_digital_dengan_erp,
   "platform-multi-vendor-dan-marketplace-sendiri": t_platform_multi_vendor_dan_marketplace_sendiri,

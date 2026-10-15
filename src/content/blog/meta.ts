@@ -6,6 +6,256 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "observabilitas-log-dan-penanganan-error-aplikasi-bisnis",
+    title: "Observabilitas, Log, dan Penanganan Error pada Aplikasi Bisnis: Tahu Masalahnya Sebelum Pelanggan",
+    excerpt: "Cara memantau aplikasi bisnis secara praktis: log, metrik, jejak, pengelompokan error, peringatan yang tidak membuat tim kebal, dan rencana bertahap yang realistis.",
+    category: "Teknologi",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["infrastruktur","operasional","keamanan"],
+    titleTranslations: {
+      en: "Observability, Logs, and Error Handling for Business Apps: Know About Problems Before Customers Do",
+      zh: "业务应用的可观测性、日志与错误处理：赶在顾客之前发现问题",
+    },
+    excerptTranslations: {
+      en: "How to monitor business applications in practice: logs, metrics, traces, error grouping, alerts that do not make the team numb, and a realistic staged plan.",
+      zh: "如何务实地监控业务应用：日志、指标、链路追踪、错误归类、不会让团队麻木的告警，以及务实的分阶段计划。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      alt: "Laptop di atas meja kerja dengan kode program di layar",
+      altTranslations: {
+        en: "A laptop on a work desk with program code on the screen",
+        zh: "工作台上的笔记本电脑，屏幕上显示着程序代码",
+      },
+    },
+  },
+  {
+    slug: "ulasan-pelanggan-dan-manajemen-reputasi-online",
+    title: "Ulasan Pelanggan dan Manajemen Reputasi Online: Membangun Kepercayaan yang Menjual",
+    excerpt: "Cara meminta ulasan secara etis, menanggapi ulasan positif dan negatif, menghadapi ulasan palsu, dan menghubungkan umpan balik dengan CRM serta operasional.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["pelanggan","sales","ecommerce"],
+    titleTranslations: {
+      en: "Customer Reviews and Online Reputation Management: Building Trust That Sells",
+      zh: "顾客评价与网上口碑管理：建立能带来销售的信任",
+    },
+    excerptTranslations: {
+      en: "How to ask for reviews ethically, respond to positive and negative reviews, deal with fake reviews, and connect feedback with your CRM and operations.",
+      zh: "如何合乎道德地邀请评价、回应好评与差评、应对虚假评价，并把反馈与 CRM 和运营连接起来。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0",
+      alt: "Interior toko ritel dengan rak produk yang tertata rapi",
+      altTranslations: {
+        en: "The interior of a retail shop with neatly arranged product shelves",
+        zh: "整齐摆放商品货架的零售店内部",
+      },
+    },
+  },
+  {
+    slug: "agile-atau-waterfall-metode-proyek-software-untuk-bisnis",
+    title: "Agile atau Waterfall: Memilih Metode Proyek Software yang Tepat untuk Bisnis Anda",
+    excerpt: "Perbedaan agile dan waterfall dalam bahasa awam, kapan masing-masing cocok, cara menyusun kontrak dan anggaran, serta pendekatan campuran yang realistis.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["implementasi","custom-software","vendor"],
+    titleTranslations: {
+      en: "Agile or Waterfall: Choosing the Right Software Project Method for Your Business",
+      zh: "敏捷还是瀑布：为您的企业选择合适的软件项目方法",
+    },
+    excerptTranslations: {
+      en: "The difference between agile and waterfall in plain language, when each fits, how to structure contracts and budgets, and a realistic mixed approach.",
+      zh: "用通俗语言解释敏捷与瀑布的区别、各自适用的场合、如何设计合同和预算，以及务实的混合方式。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+      alt: "Tim berdiskusi di depan papan tulis penuh catatan",
+      altTranslations: {
+        en: "A team discussing in front of a whiteboard full of notes",
+        zh: "团队在贴满笔记的白板前讨论",
+      },
+    },
+  },
+  {
+    slug: "performa-database-dan-aplikasi-bisnis-yang-melambat",
+    title: "Performa Database dan Aplikasi Bisnis yang Melambat: Penyebab dan Cara Memperbaikinya",
+    excerpt: "Mengapa sistem melambat seiring waktu, cara mengukur sebelum memperbaiki, peran indeks dan cache, pengelolaan data lama, serta kapan perlu menambah server.",
+    category: "Teknologi",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["infrastruktur","data","operasional"],
+    titleTranslations: {
+      en: "Slowing Database and Business App Performance: Causes and How to Fix Them",
+      zh: "数据库与业务应用性能变慢：原因与修复方法",
+    },
+    excerptTranslations: {
+      en: "Why systems slow down over time, how to measure before fixing, the role of indexes and caching, managing old data, and when to add servers.",
+      zh: "系统为何随时间变慢、如何先测量再修复、索引与缓存的作用、旧数据的管理，以及何时需要增加服务器。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+      alt: "Laptop menampilkan grafik analitik di atas meja kerja",
+      altTranslations: {
+        en: "A laptop showing analytics charts on a work desk",
+        zh: "工作台上的笔记本电脑显示着分析图表",
+      },
+    },
+  },
+  {
+    slug: "jejak-audit-dan-pengendalian-internal-di-sistem-erp",
+    title: "Jejak Audit dan Pengendalian Internal di Sistem ERP: Tumbuh Tanpa Kehilangan Kendali",
+    excerpt: "Apa itu jejak audit, apa yang layak dicatat, pemisahan tugas, alur persetujuan, laporan pengecualian, dan persiapan audit eksternal pada sistem ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["erp","keamanan","keuangan"],
+    titleTranslations: {
+      en: "Audit Trails and Internal Control in ERP Systems: Growing Without Losing Control",
+      zh: "ERP 系统中的审计轨迹与内部控制：增长而不失控",
+    },
+    excerptTranslations: {
+      en: "What an audit trail is, what deserves recording, segregation of duties, approval flows, exception reports, and preparing for an external audit in an ERP system.",
+      zh: "什么是审计轨迹、哪些内容值得记录、职责分离、审批流程、例外报表，以及 ERP 系统中为外部审计做准备。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+      alt: "Tangan memeriksa dokumen dan kalkulator di atas meja",
+      altTranslations: {
+        en: "Hands checking documents and a calculator on a desk",
+        zh: "桌上的手在检查文件和计算器",
+      },
+    },
+  },
+  {
+    slug: "reimbursement-dan-pengelolaan-biaya-perjalanan-karyawan",
+    title: "Reimbursement dan Pengelolaan Biaya Perjalanan Karyawan: Dari Tumpukan Struk ke Proses yang Rapi",
+    excerpt: "Kebijakan biaya yang jelas, pengajuan lewat ponsel, persetujuan berjenjang, aturan otomatis, uang muka, dan integrasi dengan akuntansi serta penggajian.",
+    category: "HR & Tim",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["karyawan","keuangan","otomasi"],
+    titleTranslations: {
+      en: "Reimbursement and Employee Travel Expense Management: From a Pile of Receipts to a Tidy Process",
+      zh: "员工报销与差旅费用管理：从成堆的收据到整洁的流程",
+    },
+    excerptTranslations: {
+      en: "A clear expense policy, mobile submission, tiered approval, automatic rules, advances, and integration with accounting and payroll.",
+      zh: "清晰的费用政策、手机端提交、分级审批、自动规则、预支，以及与会计和薪资的集成。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc",
+      alt: "Kalkulator dan catatan keuangan di atas meja",
+      altTranslations: {
+        en: "A calculator and financial notes on a desk",
+        zh: "桌上的计算器和财务笔记",
+      },
+    },
+  },
+  {
+    slug: "ai-generatif-untuk-konten-dan-dokumen-bisnis",
+    title: "AI Generatif untuk Konten dan Dokumen Bisnis: Cara Memakainya dengan Aman dan Bermanfaat",
+    excerpt: "Tugas yang cocok dan tidak cocok untuk AI generatif, cara menyusun permintaan, menjaga akurasi dan suara merek, risiko privasi, serta kebijakan penggunaan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["ai","otomasi","operasional"],
+    titleTranslations: {
+      en: "Generative AI for Business Content and Documents: Using It Safely and Usefully",
+      zh: "生成式 AI 用于企业内容与文档：安全而有益地使用",
+    },
+    excerptTranslations: {
+      en: "Tasks that suit and do not suit generative AI, how to write prompts, keeping accuracy and brand voice, privacy risks, and a usage policy.",
+      zh: "适合与不适合生成式 AI 的任务、如何撰写提示词、保持准确性和品牌调性、隐私风险，以及使用政策。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+      alt: "Laptop terbuka di atas meja dengan teks sedang disusun",
+      altTranslations: {
+        en: "An open laptop on a desk with text being composed",
+        zh: "桌上打开的笔记本电脑，屏幕上有正在撰写的文字",
+      },
+    },
+  },
+  {
+    slug: "sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat",
+    title: "Sistem Kasir Offline-First dan Sinkronisasi Multi-Perangkat: Penjualan Tak Berhenti Saat Sinyal Hilang",
+    excerpt: "Cara kerja kasir offline-first, data lokal, penyelesaian konflik stok, sinkronisasi antarcabang, pembayaran saat luring, keamanan perangkat, dan pengujian.",
+    category: "POS & Retail",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["pos","retail","infrastruktur"],
+    titleTranslations: {
+      en: "Offline-First Point-of-Sale and Multi-Device Sync: Sales That Do Not Stop When the Signal Drops",
+      zh: "离线优先收银系统与多设备同步：信号中断时销售不停",
+    },
+    excerptTranslations: {
+      en: "How an offline-first register works, local data, resolving stock conflicts, branch synchronisation, offline payments, device security, and testing.",
+      zh: "离线优先收银台如何运作、本地数据、解决库存冲突、分店同步、离线付款、设备安全与测试。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+      alt: "Kasir memproses pembayaran pelanggan di toko",
+      altTranslations: {
+        en: "A cashier processing a customer's payment in a shop",
+        zh: "收银员在店里处理顾客付款",
+      },
+    },
+  },
+  {
+    slug: "manajemen-waralaba-dan-jaringan-cabang-dengan-sistem-terpusat",
+    title: "Manajemen Waralaba dan Jaringan Cabang dengan Sistem Terpusat: Tumbuh Cepat, Merek Tetap Konsisten",
+    excerpt: "Standar bersama, data penjualan waktu nyata, royalti transparan, pengadaan terpusat, pelatihan mitra, dan keseimbangan antara kendali pusat dan otonomi.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["multi-cabang","retail","pos"],
+    titleTranslations: {
+      en: "Franchise and Branch Network Management with a Centralised System: Growing Fast, Keeping the Brand Consistent",
+      zh: "借助集中式系统管理加盟与分店网络：快速增长，品牌始终一致",
+    },
+    excerptTranslations: {
+      en: "Shared standards, real-time sales data, transparent royalties, centralised procurement, partner training, and balancing central control with autonomy.",
+      zh: "共享标准、实时销售数据、透明的特许权使用费、集中采购、合作伙伴培训，以及中央管控与自主之间的平衡。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+      alt: "Dua orang berjabat tangan sebagai tanda kemitraan",
+      altTranslations: {
+        en: "Two people shaking hands as a sign of partnership",
+        zh: "两个人握手，象征合作关系",
+      },
+    },
+  },
+  {
+    slug: "ux-writing-dan-microcopy-untuk-aplikasi-dan-website-bisnis",
+    title: "UX Writing dan Microcopy untuk Aplikasi dan Website Bisnis: Kata-Kata Kecil yang Menentukan Konversi",
+    excerpt: "Prinsip menulis antarmuka, label tombol, formulir, pesan error, keadaan kosong, nada merek, lokalisasi beberapa bahasa, dan cara mengujinya.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    tags: ["website","mobile","seo"],
+    titleTranslations: {
+      en: "UX Writing and Microcopy for Business Apps and Websites: Small Words That Decide Conversion",
+      zh: "企业应用与网站的界面文案与微文案：决定转化的小词语",
+    },
+    excerptTranslations: {
+      en: "Principles of interface writing, button labels, forms, error messages, empty states, brand tone, multi-language localisation, and how to test them.",
+      zh: "界面文案的原则、按钮标签、表单、错误提示、空状态、品牌语气、多语言本地化，以及如何测试。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1618044733300-9472054094ee",
+      alt: "Rancangan antarmuka aplikasi di layar komputer desainer",
+      altTranslations: {
+        en: "An app interface design on a designer's computer screen",
+        zh: "设计师电脑屏幕上的应用界面设计稿",
+      },
+    },
+  },
+  {
     slug: "sso-dan-manajemen-identitas-untuk-aplikasi-bisnis",
     title: "SSO dan Manajemen Identitas untuk Aplikasi Bisnis: Satu Pintu Masuk, Akses yang Terkendali",
     excerpt: "Cara merapikan akun karyawan di banyak aplikasi: apa itu SSO, autentikasi multifaktor, siklus hidup akun karyawan, hak akses berbasis peran, dan rencana penerapan bertahap.",
