@@ -7,7 +7,7 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 const iconDataUri = `data:image/png;base64,${readFileSync(
-  join(process.cwd(), "public/brand/icon-compact.png")
+  join(process.cwd(), "public/brand/mark-on-dark.png")
 ).toString("base64")}`;
 
 export default function OpengraphImage() {
@@ -21,7 +21,7 @@ export default function OpengraphImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px",
-          background: "#0d0f15",
+          background: "#0B1220",
           position: "relative",
         }}
       >
@@ -33,16 +33,24 @@ export default function OpengraphImage() {
             width: 700,
             height: 500,
             background:
-              "radial-gradient(circle, rgba(77,124,254,0.22) 0%, rgba(77,124,254,0) 70%)",
+              "radial-gradient(ellipse closest-side, rgba(212,176,106,0.12) 0%, rgba(212,176,106,0) 100%)",
             display: "flex",
           }}
         />
 
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={iconDataUri} width={36} height={31} alt="" />
-          <span style={{ fontSize: 26, fontWeight: 600, color: "#f2f4f8" }}>
-            AG·SORA
+          <img src={iconDataUri} width={48} height={35} alt="" />
+          <span
+            style={{
+              display: "flex",
+              fontSize: 26,
+              fontWeight: 600,
+              letterSpacing: "0.12em",
+              color: "#f2f4f8",
+            }}
+          >
+            AG<span style={{ color: "#d4b06a" }}>·</span>SORA
           </span>
         </div>
 
@@ -80,7 +88,7 @@ export default function OpengraphImage() {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            borderTop: "1px solid #1e242f",
+            borderTop: "1px solid #222d45",
             paddingTop: 28,
             fontSize: 20,
             color: "#a3adbd",

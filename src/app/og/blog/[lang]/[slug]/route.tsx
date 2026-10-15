@@ -14,7 +14,7 @@ import { coverMotifSvg } from "@/lib/cover-motifs";
  */
 
 const icon = `data:image/png;base64,${readFileSync(
-  join(process.cwd(), "public/brand/icon-compact.png")
+  join(process.cwd(), "public/brand/mark-on-dark.png")
 ).toString("base64")}`;
 
 /**
@@ -67,7 +67,7 @@ export async function GET(
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "64px 72px",
-          background: "#0d0f15",
+          background: "#0B1220",
           position: "relative",
           fontFamily: fontData ? "Brand" : "sans-serif",
         }}
@@ -79,8 +79,18 @@ export async function GET(
 
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={icon} width={36} height={31} alt="" />
-          <span style={{ fontSize: 26, fontWeight: 600, color: "#f2f4f8" }}>AG·SORA</span>
+          <img src={icon} width={48} height={35} alt="" />
+          <span
+            style={{
+              display: "flex",
+              fontSize: 26,
+              fontWeight: 600,
+              letterSpacing: "0.12em",
+              color: "#f2f4f8",
+            }}
+          >
+            AG<span style={{ color: "#d4b06a" }}>·</span>SORA
+          </span>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", maxWidth: 760 }}>
@@ -88,7 +98,7 @@ export async function GET(
             style={{
               display: "flex",
               fontSize: 22,
-              color: "#7b9fff",
+              color: "#d4b06a",
               letterSpacing: "0.06em",
               marginBottom: 22,
             }}
@@ -112,7 +122,7 @@ export async function GET(
         <div
           style={{
             display: "flex",
-            borderTop: "1px solid #1e242f",
+            borderTop: "1px solid #222d45",
             paddingTop: 24,
             fontSize: 20,
             color: "#7d8899",

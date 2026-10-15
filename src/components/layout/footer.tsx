@@ -5,7 +5,7 @@ import Link from "@/i18n/link";
 import { InstagramIcon, FacebookIcon, TiktokIcon } from "@/components/social-icons";
 import { siteConfig } from "@/config/site";
 import { featuredServices } from "@/config/services";
-import { RibbonLogo } from "@/components/ribbon-logo";
+import { BrandLockup } from "@/components/brand-logo";
 import { useLocale } from "@/i18n/locale-context";
 
 function FooterColumn({
@@ -43,11 +43,8 @@ export function Footer() {
       <div className="mx-auto max-w-6xl container-px py-16">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-5">
           <div className="col-span-2">
-            <Link href="/" className="focus-ring flex items-center gap-2.5">
-              <RibbonLogo className="h-7 w-auto" />
-              <span className="text-[15px] font-semibold tracking-tight text-ink">
-                AG<span className="text-ink-subtle">·</span>SORA
-              </span>
+            <Link href="/" className="focus-ring flex items-center" aria-label="AG·SORA">
+              <BrandLockup />
             </Link>
             <p className="mt-4 max-w-[15rem] text-[13px] leading-relaxed text-ink-muted">
               {t.footer.tagline}

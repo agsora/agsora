@@ -15,7 +15,7 @@ import {
   Users,
   type LucideIcon,
 } from "lucide-react";
-import { RibbonLogo } from "@/components/ribbon-logo";
+import { LogoMark } from "@/components/brand-logo";
 import { useLocale } from "@/i18n/locale-context";
 import { cn } from "@/lib/utils";
 
@@ -95,7 +95,7 @@ function Core({ sub, tags }: { sub: string; tags: string[] }) {
   return (
     <div className="rounded-md border border-accent/60 bg-surface-1 p-4">
       <div className="flex items-center gap-2.5">
-        <RibbonLogo className="h-6 w-auto" />
+        <LogoMark className="h-6 w-auto" />
         <div className="min-w-0">
           <p className="text-[15px] font-semibold leading-tight text-ink">AG·SORA Core</p>
           <p className="font-mono text-[12px] text-ink-subtle">{sub}</p>

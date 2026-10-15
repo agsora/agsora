@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { siteConfig } from "@/config/site";
-import { RibbonLogo } from "@/components/ribbon-logo";
+import { BrandLockup } from "@/components/brand-logo";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
@@ -57,11 +57,8 @@ export function Header() {
       )}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between container-px">
-        <Link href="/" className="tap focus-ring flex items-center gap-2.5">
-          <RibbonLogo className="h-7 w-auto" />
-          <span className="text-[15px] font-semibold tracking-tight text-ink">
-            AG<span className="text-ink-subtle">·</span>SORA
-          </span>
+        <Link href="/" className="tap focus-ring flex items-center" aria-label="AG·SORA">
+          <BrandLockup />
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">

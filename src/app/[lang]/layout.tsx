@@ -1,7 +1,7 @@
 import { jsonLd } from "@/lib/seo";
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
+import { IBM_Plex_Mono, IBM_Plex_Sans, Sora } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@/components/analytics";
 import { Header } from "@/components/layout/header";
@@ -35,6 +35,14 @@ const mono = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["400", "500"],
   variable: "--font-code",
+  display: "swap",
+});
+
+// Brand typeface (AG·SORA brand guideline): used for the wordmark only.
+const brand = Sora({
+  subsets: ["latin"],
+  weight: ["600"],
+  variable: "--font-sora",
   display: "swap",
 });
 
@@ -89,7 +97,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0d0f15" },
+    { media: "(prefers-color-scheme: dark)", color: "#0B1220" },
   ],
 };
 
@@ -147,7 +155,7 @@ export default async function RootLayout({ children, params }: Props) {
     // before hydration, which React would otherwise report as a mismatch.
     <html
       lang={hreflangs[lang]}
-      className={`${sans.variable} ${mono.variable} h-full antialiased`}
+      className={`${sans.variable} ${mono.variable} ${brand.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col">

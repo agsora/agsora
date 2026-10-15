@@ -1,24 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  /* Surfaces — charcoal with a cool undertone, lightened for readability */
-  --surface-0: #0d0f15;
-  --surface-1: #13161e;
-  --surface-2: #191d27;
-  --surface-3: #20252f;
+  /* Surfaces — Navy Sora (#0B1220) and tints of it */
+  --surface-0: #0b1220;
+  --surface-1: #101829;
+  --surface-2: #162036;
+  --surface-3: #1d2942;
 
   /* Lines */
-  --line: #262c38;
-  --line-strong: #363f4f;
+  --line: #222d45;
+  --line-strong: #33415f;
 
-  /* Text — higher contrast against the surfaces above */
-  --ink: #f7f8fb;
+  /* Text — Gading (#EEF0F4) family, high contrast on navy */
+  --ink: #f4f5f9;
   --ink-muted: #b7c0cf;
   --ink-subtle: #929cad;
 
-  /* Accent — used sparingly */
-  --accent: #7b9fff;
-  --accent-deep: #5c86fe;
+  /* Accent — Emas Agsora, used sparingly */
+  --accent: #d4b06a;
+  --accent-deep: #b08a43;
+
+  /* Logo mark */
+  --logo-frame: #eef0f4;
+  --logo-gold: #d4b06a;
 
   /* Positive deltas — emerald, darkened in light theme for contrast */
   --positive: #34d399;
@@ -31,24 +35,28 @@
 /* Light theme — toggled via data-theme="light" on <html>. */
 [data-theme="light"] {
   --surface-0: #ffffff;
-  --surface-1: #f5f6f8;
-  --surface-2: #eceef2;
-  --surface-3: #e2e5eb;
+  --surface-1: #f6f3ec;
+  --surface-2: #eeeadf;
+  --surface-3: #e4dfd2;
 
-  --line: #dfe2e8;
-  --line-strong: #c7cbd4;
+  --line: #e2ddd1;
+  --line-strong: #cbc4b3;
 
-  --ink: #0d0f15;
-  --ink-muted: #4b5262;
-  --ink-subtle: #6c7385;
+  --ink: #0b1220;
+  --ink-muted: #4a5163;
+  --ink-subtle: #626a7c;
 
-  --accent: #3763e8;
-  --accent-deep: #2a4fc9;
+  /* Emas Tua, darkened for text-size contrast on white and cream */
+  --accent: #8a6a25;
+  --accent-deep: #70551c;
+
+  --logo-frame: #0b1220;
+  --logo-gold: #b08a43;
 
   --positive: #047857;
 
-  --elevation: 0 50px 100px -40px rgba(18, 28, 60, 0.28),
-    0 16px 32px -16px rgba(18, 28, 60, 0.12);
+  --elevation: 0 50px 100px -40px rgba(11, 18, 32, 0.28),
+    0 16px 32px -16px rgba(11, 18, 32, 0.12);
 }
 
 @theme inline {
@@ -66,6 +74,7 @@
   --color-positive: var(--positive);
   --font-sans: var(--font-body);
   --font-mono: var(--font-code), ui-monospace, monospace;
+  --font-brand: var(--font-sora), var(--font-body), ui-sans-serif, system-ui, sans-serif;
   --shadow-elev: var(--elevation);
 }
 
@@ -119,7 +128,7 @@ body {
 }
 
 ::selection {
-  background: rgba(107, 146, 255, 0.28);
+  background: rgba(212, 176, 106, 0.3);
   color: var(--ink);
 }
 

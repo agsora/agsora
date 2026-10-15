@@ -5,8 +5,8 @@ import type { BlogCategory } from "@/config/blog";
  * markup. Used by the generated social-share images (app/og/blog), which embed
  * it as a data URI: next/og renders that reliably, unlike nested <svg> JSX.
  */
-const BLUE = "#7b9fff";
-const SOFT = "#5a6a99";
+const BLUE = "#d4b06a";
+const SOFT = "#8a7850";
 
 const g = (inner: string) => `<g fill="none" stroke="${BLUE}" stroke-width="1.5">${inner}</g>`;
 const soft = (d: string) => `<path d="${d}" stroke="${SOFT}"/>`;
