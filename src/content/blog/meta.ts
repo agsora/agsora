@@ -6,6 +6,131 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "implementasi-erp-bertahap-atau-big-bang-strategi-go-live",
+    title: "Implementasi ERP Bertahap atau Big Bang: Memilih Strategi Go-Live yang Aman",
+    excerpt: "Membandingkan peluncuran ERP big bang dan bertahap, faktor penentu pilihan, persiapan migrasi data, pengujian, pelatihan, kriteria go/no-go, dan stabilisasi setelah go-live.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    tags: ["erp","implementasi","perubahan"],
+    titleTranslations: {
+      en: "Phased or Big Bang ERP Implementation: Choosing a Safe Go-Live Strategy",
+      zh: "ERP 分阶段还是大爆炸上线：选择稳妥的上线策略",
+    },
+    excerptTranslations: {
+      en: "Compares big bang and phased ERP launches, the factors behind the choice, data migration, testing, training, go/no-go criteria, and stabilisation after go-live.",
+      zh: "比较 ERP 大爆炸与分阶段上线，说明选择因素、数据迁移、测试、培训、通过/不通过标准以及上线后的稳定。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1552664730-d307ca884978",
+      alt: "Tim proyek berkolaborasi di sekitar meja kerja dengan catatan tertempel",
+      altTranslations: {
+        en: "A project team collaborating around a work table with sticky notes",
+        zh: "项目团队围着贴满便签的工作台协作",
+      },
+    },
+  },
+  {
+    slug: "schema-markup-dan-data-terstruktur-untuk-seo-website-bisnis",
+    title: "Schema Markup dan Data Terstruktur untuk SEO Website Bisnis: Tampil Lebih Jelas di Pencarian",
+    excerpt: "Panduan data terstruktur JSON-LD untuk bisnis: tipe schema yang berguna, cara menerapkan, kesalahan umum, serta pengujian dan pemantauan untuk pencarian tradisional dan AI.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    tags: ["seo","website","data"],
+    titleTranslations: {
+      en: "Schema Markup and Structured Data for Business Website SEO: Stand Out in Search",
+      zh: "企业网站 SEO 的 Schema 标记与结构化数据：在搜索中更醒目",
+    },
+    excerptTranslations: {
+      en: "A guide to JSON-LD structured data for businesses: useful schema types, how to implement them, common mistakes, and testing and monitoring for traditional and AI search.",
+      zh: "面向企业的 JSON-LD 结构化数据指南：有用的 schema 类型、实施方法、常见错误，以及面向传统与 AI 搜索的测试和监控。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+      alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
+      altTranslations: {
+        en: "A screen showing a graph of clicks and impressions with a fluctuating blue line",
+        zh: "显示点击与展示图表的屏幕，蓝色线条上下波动",
+      },
+    },
+  },
+  {
+    slug: "rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai",
+    title: "Rekomendasi Produk dan Personalisasi Toko Online dengan AI: Menaikkan Nilai Pesanan",
+    excerpt: "Cara kerja rekomendasi produk, jenis-jenisnya, data yang dibutuhkan, peran AI, risiko privasi dan bias, serta cara mengukur dampaknya dengan uji A/B.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    tags: ["ecommerce","ai","pelanggan"],
+    titleTranslations: {
+      en: "Product Recommendations and Personalisation for Online Shops with AI: Raising Order Value",
+      zh: "借助 AI 的网店商品推荐与个性化：提升订单价值",
+    },
+    excerptTranslations: {
+      en: "How product recommendations work, their types, the data they need, the role of AI, privacy and bias risks, and how to measure impact with A/B tests.",
+      zh: "商品推荐的工作原理、类型、所需数据、AI 的作用、隐私与偏见风险，以及如何用 A/B 测试衡量效果。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+      alt: "Ponsel yang menampilkan aplikasi belanja online di atas meja",
+      altTranslations: {
+        en: "A phone showing an online shopping app on a table",
+        zh: "桌上显示网购应用的手机",
+      },
+    },
+  },
+  {
+    slug: "monolit-atau-microservices-arsitektur-aplikasi-bisnis",
+    title: "Monolit atau Microservices: Memilih Arsitektur Aplikasi Bisnis yang Tepat",
+    excerpt: "Perbedaan monolit dan microservices, biaya tersembunyi, tanda monolit mulai menghambat, jalan tengah monolit modular, dan cara memecah sistem secara bertahap.",
+    category: "Teknologi",
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    tags: ["infrastruktur","custom-software","integrasi"],
+    titleTranslations: {
+      en: "Monolith or Microservices: Choosing the Right Business Application Architecture",
+      zh: "单体还是微服务：选择合适的业务应用架构",
+    },
+    excerptTranslations: {
+      en: "The difference between monoliths and microservices, hidden costs, signs a monolith is holding you back, the modular monolith middle path, and how to split a system gradually.",
+      zh: "单体与微服务的区别、隐藏成本、单体拖后腿的迹象、模块化单体这条中间道路，以及如何逐步拆分系统。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      alt: "Rak server dengan kabel jaringan yang tersusun rapat",
+      altTranslations: {
+        en: "A server rack with neatly arranged network cables",
+        zh: "整齐布线的网络电缆的服务器机架",
+      },
+    },
+  },
+  {
+    slug: "phishing-ransomware-dan-keamanan-siber-untuk-umkm",
+    title: "Phishing, Ransomware, dan Keamanan Siber untuk UMKM: Panduan Pertahanan yang Realistis",
+    excerpt: "Ancaman siber yang paling sering menimpa UMKM dan langkah pertahanan murah: kebiasaan karyawan, autentikasi dua langkah, cadangan 3-2-1, pembaruan, dan rencana respons insiden.",
+    category: "Teknologi",
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    tags: ["keamanan","umkm","infrastruktur"],
+    titleTranslations: {
+      en: "Phishing, Ransomware, and Cybersecurity for Small Businesses: A Realistic Defence Guide",
+      zh: "中小企业的钓鱼、勒索软件与网络安全：务实的防御指南",
+    },
+    excerptTranslations: {
+      en: "The cyber threats that most often hit small businesses and cheap defences: employee habits, two-step authentication, 3-2-1 backups, updates, and an incident response plan.",
+      zh: "最常打击中小企业的网络威胁及低成本防御：员工习惯、双重验证、3-2-1 备份、更新和事件响应计划。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+      alt: "Gembok merah di atas keyboard komputer hitam",
+      altTranslations: {
+        en: "A red padlock resting on a black computer keyboard",
+        zh: "黑色电脑键盘上的一把红色挂锁",
+      },
+    },
+  },
+  {
     slug: "observabilitas-log-dan-penanganan-error-aplikasi-bisnis",
     title: "Observabilitas, Log, dan Penanganan Error pada Aplikasi Bisnis: Tahu Masalahnya Sebelum Pelanggan",
     excerpt: "Cara memantau aplikasi bisnis secara praktis: log, metrik, jejak, pengelompokan error, peringatan yang tidak membuat tim kebal, dan rencana bertahap yang realistis.",

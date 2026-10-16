@@ -90,6 +90,11 @@ import { translations as t_ai_generatif_untuk_konten_dan_dokumen_bisnis } from "
 import { translations as t_sistem_kasir_offline_first_dan_sinkronisasi_multi_perangkat } from "./sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat";
 import { translations as t_manajemen_waralaba_dan_jaringan_cabang_dengan_sistem_terpusat } from "./manajemen-waralaba-dan-jaringan-cabang-dengan-sistem-terpusat";
 import { translations as t_ux_writing_dan_microcopy_untuk_aplikasi_dan_website_bisnis } from "./ux-writing-dan-microcopy-untuk-aplikasi-dan-website-bisnis";
+import { translations as t_implementasi_erp_bertahap_atau_big_bang_strategi_go_live } from "./implementasi-erp-bertahap-atau-big-bang-strategi-go-live";
+import { translations as t_schema_markup_dan_data_terstruktur_untuk_seo_website_bisnis } from "./schema-markup-dan-data-terstruktur-untuk-seo-website-bisnis";
+import { translations as t_rekomendasi_produk_dan_personalisasi_toko_online_dengan_ai } from "./rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai";
+import { translations as t_monolit_atau_microservices_arsitektur_aplikasi_bisnis } from "./monolit-atau-microservices-arsitektur-aplikasi-bisnis";
+import { translations as t_phishing_ransomware_dan_keamanan_siber_untuk_umkm } from "./phishing-ransomware-dan-keamanan-siber-untuk-umkm";
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
 /**
@@ -189,4 +194,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "analitik-website-dan-aplikasi-mobile-untuk-keputusan": t_analitik_website_dan_aplikasi_mobile_untuk_keputusan,
   "iot-dan-sensor-untuk-bisnis-kecil-yang-realistis": t_iot_dan_sensor_untuk_bisnis_kecil_yang_realistis,
   "pelindungan-data-pribadi-untuk-website-dan-aplikasi": t_pelindungan_data_pribadi_untuk_website_dan_aplikasi,
+  "implementasi-erp-bertahap-atau-big-bang-strategi-go-live": t_implementasi_erp_bertahap_atau_big_bang_strategi_go_live,
+  "schema-markup-dan-data-terstruktur-untuk-seo-website-bisnis": t_schema_markup_dan_data_terstruktur_untuk_seo_website_bisnis,
+  "rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai": t_rekomendasi_produk_dan_personalisasi_toko_online_dengan_ai,
+  "monolit-atau-microservices-arsitektur-aplikasi-bisnis": t_monolit_atau_microservices_arsitektur_aplikasi_bisnis,
+  "phishing-ransomware-dan-keamanan-siber-untuk-umkm": t_phishing_ransomware_dan_keamanan_siber_untuk_umkm,
 };
