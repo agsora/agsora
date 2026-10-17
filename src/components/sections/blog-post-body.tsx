@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "@/i18n/link";
-import Image from "next/image";
 import { useEffect, useMemo, useSyncExternalStore } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
+import { PostCover } from "@/components/sections/post-cover";
 import { PostBody } from "@/components/sections/post-body";
 import { PostTocMobile, PostTocSidebar } from "@/components/sections/post-toc";
 import { growth } from "@/i18n/growth";
@@ -137,14 +137,14 @@ export function BlogPostBody({
       </div>
 
       <Container className="max-w-6xl">
-        <figure className="relative mt-10 aspect-[21/9] overflow-hidden rounded-lg border border-line bg-surface-2">
-          <Image
-            src={post.cover.src}
-            alt={getCoverAlt(post, locale)}
-            fill
-            sizes="(max-width: 1024px) 100vw, 1152px"
-            preload
-            className="object-cover"
+        <figure className="mt-10 overflow-hidden rounded-lg border border-line bg-surface-2">
+          <PostCover
+            variant="hero"
+            slug={post.slug}
+            title={getPostTitle(post, locale)}
+            category={post.category}
+            categoryLabel={getCategoryLabel(post.category, locale)}
+            label={getCoverAlt(post, locale)}
           />
         </figure>
       </Container>

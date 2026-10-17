@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { BlogPostBody } from "@/components/sections/blog-post-body";
 import {
   blogPosts,
-  coverUrl,
   getCategoryLabel,
   getCoverAlt,
   getPostBySlug,
@@ -107,7 +106,7 @@ export default async function BlogPostPage({ params }: Props) {
         "@type": "BlogPosting",
         headline: title,
         description: getPostExcerpt(post, locale),
-        image: coverUrl(post.cover.src, 1200),
+        image: `${siteConfig.url}/og/blog/${locale}/${post.slug}`,
         datePublished: post.publishedAt,
         dateModified: post.updatedAt ?? post.publishedAt,
         articleSection: getCategoryLabel(post.category, locale),

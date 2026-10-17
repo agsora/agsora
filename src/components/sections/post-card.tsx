@@ -1,16 +1,15 @@
 "use client";
 
 import Link from "@/i18n/link";
-import Image from "next/image";
 import {
   getCategoryLabel,
-  getCoverAlt,
   formatPostDate,
   getPostExcerpt,
   getPostTitle,
   type BlogPost,
 } from "@/config/blog";
 import { Eye } from "lucide-react";
+import { PostCover } from "@/components/sections/post-cover";
 import { useLocale } from "@/i18n/locale-context";
 import type { BlogStat } from "@/lib/blog-analytics";
 
@@ -18,11 +17,9 @@ const dateTimeLocales = { id: "id-ID", en: "en-GB", zh: "zh-CN" } as const;
 
 export function PostCard({
   post,
-  priority = false,
   stats,
 }: {
   post: BlogPost;
-  priority?: boolean;
   /**
    * View counts for the archive. undefined hides the row (cards outside the
    * archive); null keeps its space reserved while the counts load.
@@ -35,14 +32,13 @@ export function PostCard({
       href={`/blog/${post.slug}`}
       className="focus-ring group flex h-full flex-col border-b border-r border-line transition-colors hover:bg-surface-1"
     >
-      <div className="relative aspect-[16/9] overflow-hidden border-b border-line bg-surface-2">
-        <Image
-          src={post.cover.src}
-          alt={getCoverAlt(post, locale)}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          preload={priority}
-          className="object-cover opacity-80 transition-all duration-500 group-hover:scale-[1.03] group-hover:opacity-100"
+      <div className="relative overflow-hidden border-b border-line bg-surface-2">
+        <PostCover
+          slug={post.slug}
+          title={getPostTitle(post, locale)}
+          category={post.category}
+          categoryLabel={getCategoryLabel(post.category, locale)}
+          className="transition-transform duration-500 group-hover:scale-[1.03]"
         />
       </div>
 

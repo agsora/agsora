@@ -32,17 +32,15 @@ const ease = [0.22, 1, 0.36, 1] as const;
 
 function PostGrid({
   posts,
-  preloadFirst,
   stats,
 }: {
   posts: BlogPost[];
-  preloadFirst: number;
   stats: Record<string, BlogStat> | null;
 }) {
   return (
     <div className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
-      {posts.map((post, i) => (
-        <PostCard key={post.slug} post={post} priority={i < preloadFirst} stats={stats} />
+      {posts.map((post) => (
+        <PostCard key={post.slug} post={post} stats={stats} />
       ))}
     </div>
   );
@@ -200,7 +198,7 @@ export function BlogIndex({ page }: { page: number }) {
                 <SectionHeading eyebrow={t.blogPage.latestEyebrow} title={t.blogPage.latestTitle} />
               ) : null}
               <div className={isFirst ? "mt-10" : undefined}>
-                <PostGrid posts={posts} preloadFirst={3} stats={stats} />
+                <PostGrid posts={posts} stats={stats} />
               </div>
               <div className="mt-12">
                 <Pagination current={page} total={totalPages} href={blogPageHref} />
@@ -220,7 +218,7 @@ export function BlogIndex({ page }: { page: number }) {
               )}
             />
             <div className="mt-10">
-              <PostGrid posts={filteredPosts!} preloadFirst={3} stats={stats} />
+              <PostGrid posts={filteredPosts!} stats={stats} />
             </div>
           </Container>
         </Section>

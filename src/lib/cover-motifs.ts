@@ -41,6 +41,11 @@ const motifs: Record<BlogCategory, string> = {
   ),
 };
 
+/** The motif's drawing alone (200x112 canvas), for inlining into a larger SVG. */
+export function coverMotifInner(category: BlogCategory) {
+  return motifs[category];
+}
+
 /** The motif as a complete SVG document, ready to embed as a data URI. */
 export function coverMotifSvg(category: BlogCategory) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 112" width="920" height="515">${motifs[category]}</svg>`;

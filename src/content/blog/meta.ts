@@ -21,14 +21,6 @@ export const meta: PostMeta[] = [
       en: "How RAG works, business use cases, steps to build an AI assistant from your own documents, data security, and how to measure answer quality.",
       zh: "RAG 的工作原理、企业应用场景、依据自有文档搭建 AI 助手的步骤、数据安全以及如何衡量答案质量。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb",
-      alt: "Baris kode berwarna di layar gelap dengan fokus yang sebagian kabur",
-      altTranslations: {
-        en: "Lines of coloured code on a dark screen with partly blurred focus",
-        zh: "深色屏幕上彩色的代码行，焦点局部模糊",
-      },
-    },
   },
   {
     slug: "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga",
@@ -45,14 +37,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A guide to building first-party data: data types, a fair value exchange, technical foundations, consent management, and measuring marketing when cross-site tracking is limited.",
       zh: "构建第一方数据指南：数据类型、公平的价值交换、技术基础、同意管理，以及跨站追踪受限时如何衡量营销。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-      alt: "Laptop menampilkan grafik analitik di atas meja kerja",
-      altTranslations: {
-        en: "A laptop showing analytics charts on a work desk",
-        zh: "工作桌上的笔记本电脑显示分析图表",
-      },
     },
   },
   {
@@ -71,14 +55,6 @@ export const meta: PostMeta[] = [
       en: "COGS components, inventory valuation methods, overhead allocation, standard cost and variances, and how an ERP calculates and monitors margin per product.",
       zh: "销货成本构成、存货计价方法、制造费用分摊、标准成本与差异，以及 ERP 如何计算和监控每个产品的利润率。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
-      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
-      altTranslations: {
-        en: "A pile of forms, receipts, and a calculator on a desk",
-        zh: "桌上堆放的表格、收据和计算器",
-      },
-    },
   },
   {
     slug: "rekrutmen-dan-applicant-tracking-system-untuk-bisnis-berkembang",
@@ -95,14 +71,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "When a business needs an ATS, its core functions, designing a fair hiring flow, protecting candidate experience, applicant data protection, and choosing the right system.",
       zh: "企业何时需要 ATS、核心功能、设计公平的招聘流程、保护候选人体验、应聘者数据保护以及选择合适的系统。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
-      alt: "Seorang perempuan berjas abu-abu tersenyum sambil memangku laptop di dekat jendela",
-      altTranslations: {
-        en: "A woman in a grey blazer smiling with a laptop on her lap near a window",
-        zh: "一位身穿灰色西装外套的女士在窗边微笑，腿上放着笔记本电脑",
-      },
     },
   },
   {
@@ -121,14 +89,6 @@ export const meta: PostMeta[] = [
       en: "AI risks at work, elements of an AI usage policy, data classification, tool assessment, human oversight, training, and periodic review.",
       zh: "工作中的 AI 风险、AI 使用政策的要素、数据分类、工具评估、人工监督、培训与定期复审。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
-      alt: "Seorang pria berjas gelap dan dasi bergaris merapikan kancing jasnya di dekat tangga",
-      altTranslations: {
-        en: "A man in a dark suit and striped tie adjusting his jacket button near a staircase",
-        zh: "一名身穿深色西装、系着条纹领带的男子在楼梯旁整理外套纽扣",
-      },
-    },
   },
   {
     slug: "implementasi-erp-bertahap-atau-big-bang-strategi-go-live",
@@ -145,14 +105,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Compares big bang and phased ERP launches, the factors behind the choice, data migration, testing, training, go/no-go criteria, and stabilisation after go-live.",
       zh: "比较 ERP 大爆炸与分阶段上线，说明选择因素、数据迁移、测试、培训、通过/不通过标准以及上线后的稳定。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1552664730-d307ca884978",
-      alt: "Tim proyek berkolaborasi di sekitar meja kerja dengan catatan tertempel",
-      altTranslations: {
-        en: "A project team collaborating around a work table with sticky notes",
-        zh: "项目团队围着贴满便签的工作台协作",
-      },
     },
   },
   {
@@ -171,14 +123,6 @@ export const meta: PostMeta[] = [
       en: "A guide to JSON-LD structured data for businesses: useful schema types, how to implement them, common mistakes, and testing and monitoring for traditional and AI search.",
       zh: "面向企业的 JSON-LD 结构化数据指南：有用的 schema 类型、实施方法、常见错误，以及面向传统与 AI 搜索的测试和监控。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
-      alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
-      altTranslations: {
-        en: "A screen showing a graph of clicks and impressions with a fluctuating blue line",
-        zh: "显示点击与展示图表的屏幕，蓝色线条上下波动",
-      },
-    },
   },
   {
     slug: "rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai",
@@ -195,14 +139,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How product recommendations work, their types, the data they need, the role of AI, privacy and bias risks, and how to measure impact with A/B tests.",
       zh: "商品推荐的工作原理、类型、所需数据、AI 的作用、隐私与偏见风险，以及如何用 A/B 测试衡量效果。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
-      alt: "Ponsel yang menampilkan aplikasi belanja online di atas meja",
-      altTranslations: {
-        en: "A phone showing an online shopping app on a table",
-        zh: "桌上显示网购应用的手机",
-      },
     },
   },
   {
@@ -221,14 +157,6 @@ export const meta: PostMeta[] = [
       en: "The difference between monoliths and microservices, hidden costs, signs a monolith is holding you back, the modular monolith middle path, and how to split a system gradually.",
       zh: "单体与微服务的区别、隐藏成本、单体拖后腿的迹象、模块化单体这条中间道路，以及如何逐步拆分系统。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
-      alt: "Rak server dengan kabel jaringan yang tersusun rapat",
-      altTranslations: {
-        en: "A server rack with neatly arranged network cables",
-        zh: "整齐布线的网络电缆的服务器机架",
-      },
-    },
   },
   {
     slug: "phishing-ransomware-dan-keamanan-siber-untuk-umkm",
@@ -245,14 +173,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "The cyber threats that most often hit small businesses and cheap defences: employee habits, two-step authentication, 3-2-1 backups, updates, and an incident response plan.",
       zh: "最常打击中小企业的网络威胁及低成本防御：员工习惯、双重验证、3-2-1 备份、更新和事件响应计划。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
-      alt: "Gembok merah di atas keyboard komputer hitam",
-      altTranslations: {
-        en: "A red padlock resting on a black computer keyboard",
-        zh: "黑色电脑键盘上的一把红色挂锁",
-      },
     },
   },
   {
@@ -271,14 +191,6 @@ export const meta: PostMeta[] = [
       en: "How to monitor business applications in practice: logs, metrics, traces, error grouping, alerts that do not make the team numb, and a realistic staged plan.",
       zh: "如何务实地监控业务应用：日志、指标、链路追踪、错误归类、不会让团队麻木的告警，以及务实的分阶段计划。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      alt: "Laptop di atas meja kerja dengan kode program di layar",
-      altTranslations: {
-        en: "A laptop on a work desk with program code on the screen",
-        zh: "工作台上的笔记本电脑，屏幕上显示着程序代码",
-      },
-    },
   },
   {
     slug: "ulasan-pelanggan-dan-manajemen-reputasi-online",
@@ -295,14 +207,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to ask for reviews ethically, respond to positive and negative reviews, deal with fake reviews, and connect feedback with your CRM and operations.",
       zh: "如何合乎道德地邀请评价、回应好评与差评、应对虚假评价，并把反馈与 CRM 和运营连接起来。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0",
-      alt: "Interior toko ritel dengan rak produk yang tertata rapi",
-      altTranslations: {
-        en: "The interior of a retail shop with neatly arranged product shelves",
-        zh: "整齐摆放商品货架的零售店内部",
-      },
     },
   },
   {
@@ -321,14 +225,6 @@ export const meta: PostMeta[] = [
       en: "The difference between agile and waterfall in plain language, when each fits, how to structure contracts and budgets, and a realistic mixed approach.",
       zh: "用通俗语言解释敏捷与瀑布的区别、各自适用的场合、如何设计合同和预算，以及务实的混合方式。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
-      alt: "Tim berdiskusi di depan papan tulis penuh catatan",
-      altTranslations: {
-        en: "A team discussing in front of a whiteboard full of notes",
-        zh: "团队在贴满笔记的白板前讨论",
-      },
-    },
   },
   {
     slug: "performa-database-dan-aplikasi-bisnis-yang-melambat",
@@ -345,14 +241,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Why systems slow down over time, how to measure before fixing, the role of indexes and caching, managing old data, and when to add servers.",
       zh: "系统为何随时间变慢、如何先测量再修复、索引与缓存的作用、旧数据的管理，以及何时需要增加服务器。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-      alt: "Laptop menampilkan grafik analitik di atas meja kerja",
-      altTranslations: {
-        en: "A laptop showing analytics charts on a work desk",
-        zh: "工作台上的笔记本电脑显示着分析图表",
-      },
     },
   },
   {
@@ -371,14 +259,6 @@ export const meta: PostMeta[] = [
       en: "What an audit trail is, what deserves recording, segregation of duties, approval flows, exception reports, and preparing for an external audit in an ERP system.",
       zh: "什么是审计轨迹、哪些内容值得记录、职责分离、审批流程、例外报表，以及 ERP 系统中为外部审计做准备。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
-      alt: "Tangan memeriksa dokumen dan kalkulator di atas meja",
-      altTranslations: {
-        en: "Hands checking documents and a calculator on a desk",
-        zh: "桌上的手在检查文件和计算器",
-      },
-    },
   },
   {
     slug: "reimbursement-dan-pengelolaan-biaya-perjalanan-karyawan",
@@ -395,14 +275,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A clear expense policy, mobile submission, tiered approval, automatic rules, advances, and integration with accounting and payroll.",
       zh: "清晰的费用政策、手机端提交、分级审批、自动规则、预支，以及与会计和薪资的集成。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc",
-      alt: "Kalkulator dan catatan keuangan di atas meja",
-      altTranslations: {
-        en: "A calculator and financial notes on a desk",
-        zh: "桌上的计算器和财务笔记",
-      },
     },
   },
   {
@@ -421,14 +293,6 @@ export const meta: PostMeta[] = [
       en: "Tasks that suit and do not suit generative AI, how to write prompts, keeping accuracy and brand voice, privacy risks, and a usage policy.",
       zh: "适合与不适合生成式 AI 的任务、如何撰写提示词、保持准确性和品牌调性、隐私风险，以及使用政策。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-      alt: "Laptop terbuka di atas meja dengan teks sedang disusun",
-      altTranslations: {
-        en: "An open laptop on a desk with text being composed",
-        zh: "桌上打开的笔记本电脑，屏幕上有正在撰写的文字",
-      },
-    },
   },
   {
     slug: "sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat",
@@ -445,14 +309,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How an offline-first register works, local data, resolving stock conflicts, branch synchronisation, offline payments, device security, and testing.",
       zh: "离线优先收银台如何运作、本地数据、解决库存冲突、分店同步、离线付款、设备安全与测试。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
-      alt: "Kasir memproses pembayaran pelanggan di toko",
-      altTranslations: {
-        en: "A cashier processing a customer's payment in a shop",
-        zh: "收银员在店里处理顾客付款",
-      },
     },
   },
   {
@@ -471,14 +327,6 @@ export const meta: PostMeta[] = [
       en: "Shared standards, real-time sales data, transparent royalties, centralised procurement, partner training, and balancing central control with autonomy.",
       zh: "共享标准、实时销售数据、透明的特许权使用费、集中采购、合作伙伴培训，以及中央管控与自主之间的平衡。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
-      alt: "Dua orang berjabat tangan sebagai tanda kemitraan",
-      altTranslations: {
-        en: "Two people shaking hands as a sign of partnership",
-        zh: "两个人握手，象征合作关系",
-      },
-    },
   },
   {
     slug: "ux-writing-dan-microcopy-untuk-aplikasi-dan-website-bisnis",
@@ -495,14 +343,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Principles of interface writing, button labels, forms, error messages, empty states, brand tone, multi-language localisation, and how to test them.",
       zh: "界面文案的原则、按钮标签、表单、错误提示、空状态、品牌语气、多语言本地化，以及如何测试。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1618044733300-9472054094ee",
-      alt: "Rancangan antarmuka aplikasi di layar komputer desainer",
-      altTranslations: {
-        en: "An app interface design on a designer's computer screen",
-        zh: "设计师电脑屏幕上的应用界面设计稿",
-      },
     },
   },
   {
@@ -521,14 +361,6 @@ export const meta: PostMeta[] = [
       en: "How to tidy employee accounts across many applications: what SSO is, multi-factor authentication, the employee account life cycle, role-based access rights, and a staged rollout plan.",
       zh: "如何理顺员工在众多应用中的账号：什么是 SSO、多因素认证、员工账号的生命周期、基于角色的访问权限，以及分阶段的推行计划。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
-      alt: "Ponsel pintar menampilkan ikon kunci keamanan di atas meja kayu",
-      altTranslations: {
-        en: "A smartphone showing a security lock icon on a wooden table",
-        zh: "木桌上的智能手机屏幕显示着安全锁图标",
-      },
-    },
   },
   {
     slug: "manajemen-dokumen-dan-arsip-digital-dengan-erp",
@@ -545,14 +377,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to organise business documents so they attach to transactions: structure and metadata, access rights, versions and approvals, retention, digitising paper archives, and a 90-day plan.",
       zh: "如何整理业务文件，使其附着在交易上：结构与元数据、访问权限、版本与审批、保存期限、纸质档案数字化，以及 90 天计划。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1565688534245-05d6b5be184a",
-      alt: "Dua orang meninjau dokumen kertas di atas meja",
-      altTranslations: {
-        en: "Two people reviewing paper documents on a table",
-        zh: "两个人在桌上查阅纸质文件",
-      },
     },
   },
   {
@@ -571,14 +395,6 @@ export const meta: PostMeta[] = [
       en: "Weighing the marketplace model realistically: when it makes sense, solving the chicken-and-egg problem, technical components, payments and commission, trust, logistics, and risks.",
       zh: "务实地权衡市集模式：何时合理、如何解决先有鸡还是先有蛋的问题、技术组件、支付与佣金、信任、物流及风险。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
-      alt: "Laptop menampilkan halaman beranda platform toko online",
-      altTranslations: {
-        en: "A laptop showing the home page of an online store platform",
-        zh: "笔记本电脑屏幕上显示着网店平台的首页",
-      },
-    },
   },
   {
     slug: "penagihan-proyek-dan-milestone-untuk-bisnis-jasa",
@@ -595,14 +411,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Designing healthy project billing: choosing a model, milestones with acceptance criteria, schedules aligned with cash flow, scope changes, time recording, and revenue recognition.",
       zh: "设计健康的项目收费：选择模式、带验收标准的里程碑、与现金流一致的计划、范围变更、工时记录和收入确认。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
-      alt: "Beberapa orang berdiskusi di meja kayu sambil mencatat",
-      altTranslations: {
-        en: "Several people discussing at a wooden table while taking notes",
-        zh: "几个人围坐在木桌旁一边讨论一边记录",
-      },
     },
   },
   {
@@ -621,14 +429,6 @@ export const meta: PostMeta[] = [
       en: "Preparing a business for system disruption: continuity versus recovery, RTO and RPO, tested backup strategy, a written plan, manual procedures, and drills.",
       zh: "让企业为系统中断做好准备：连续性与恢复的区别、RTO 与 RPO、经过测试的备份策略、书面计划、手工流程和演练。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d",
-      alt: "Deretan perangkat server tempat data perusahaan disimpan",
-      altTranslations: {
-        en: "Rows of server equipment where company data is stored",
-        zh: "一排排存放公司数据的服务器设备",
-      },
-    },
   },
   {
     slug: "manajemen-kontrak-dan-perpanjangan-pelanggan",
@@ -645,14 +445,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Managing customer contracts in a structured way: key data, the contract life cycle, the renewal process, price increases, links to billing and service, and portfolio reviews.",
       zh: "有条理地管理客户合同：关键数据、合同生命周期、续约流程、涨价、与计费和服务的联系，以及组合复盘。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
-      alt: "Dua orang berjabat tangan di ruang kantor",
-      altTranslations: {
-        en: "Two people shaking hands in an office",
-        zh: "两个人在办公室里握手",
-      },
     },
   },
   {
@@ -671,14 +463,6 @@ export const meta: PostMeta[] = [
       en: "Rolling out a digital menu that truly helps: benefits and limits, core features, integration with POS and kitchen, payment, the mobile experience, data, security, and first steps.",
       zh: "推行真正有帮助的电子菜单：好处与局限、核心功能、与 POS 和厨房的集成、付款、手机体验、数据、安全和起步步骤。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
-      alt: "Pegawai toko tersenyum di depan tablet kasir di sebuah kafe berlangit-langit tinggi",
-      altTranslations: {
-        en: "A shop employee smiling in front of a point-of-sale tablet in a high-ceilinged cafe",
-        zh: "在挑高咖啡馆里，一名店员在收银平板前微笑",
-      },
-    },
   },
   {
     slug: "penjadwalan-shift-dan-manajemen-tenaga-kerja",
@@ -695,14 +479,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Building work schedules from service needs: fair and lawful rules, employee availability, shift swaps, links to attendance and payroll, labour cost, and retention.",
       zh: "从服务需求出发编排工作班表：公平合法的规则、员工可用时间、换班、与考勤和薪资的联系、人力成本和留存。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
-      alt: "Tim karyawan sedang berdiskusi bersama di ruang rapat kantor",
-      altTranslations: {
-        en: "A team of employees discussing together in an office meeting room",
-        zh: "一组员工在办公室会议室里一起讨论",
-      },
     },
   },
   {
@@ -721,14 +497,6 @@ export const meta: PostMeta[] = [
       en: "Understanding third-party component risk: types of supply chain attack, a component list, vulnerability scanning, routine updates, licences, securing the release process, and questions for vendors.",
       zh: "了解第三方组件的风险：供应链攻击的类型、组件清单、漏洞扫描、例行更新、许可证、保护发布流程，以及向供应商提出的问题。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-      alt: "Baris kode program ditampilkan besar di layar monitor",
-      altTranslations: {
-        en: "Lines of program code displayed large on a monitor screen",
-        zh: "显示器屏幕上放大显示的一行行程序代码",
-      },
-    },
   },
   {
     slug: "menjual-ke-luar-negeri-dengan-toko-online-lintas-negara",
@@ -745,14 +513,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A staged approach to export through an online store: choosing markets, tax and import duty, pricing and currency, international payment, shipping, returns, localisation, and system readiness.",
       zh: "通过网店出口的分阶段方法：选择市场、税费与进口关税、价格与货币、国际支付、物流、退货、本地化以及系统准备。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3",
-      alt: "Pemandangan udara pelabuhan peti kemas dengan derek dan tumpukan kontainer",
-      altTranslations: {
-        en: "An aerial view of a container port with cranes and stacks of containers",
-        zh: "集装箱港口的鸟瞰图，可见起重机和成堆的集装箱",
-      },
     },
   },
   {
@@ -771,14 +531,6 @@ export const meta: PostMeta[] = [
       en: "How to manage assets and equipment maintenance in a structured way: the master asset list, scheduled maintenance versus repairs, links to finance and depreciation, critical asset priorities, and how to involve technicians.",
       zh: "如何以结构化的方式管理资产和设备维护：主资产清单、计划性维护与维修、与财务和折旧的衔接、关键资产的优先级，以及如何让技师参与。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
-      alt: "Meja kerja dengan sketsa rancangan teknik, kotak perkakas, dan seseorang yang menggambar",
-      altTranslations: {
-        en: "A workbench with engineering sketches, a toolbox, and a person drawing",
-        zh: "工作台上摆着工程草图和工具箱，一个人正在绘图",
-      },
-    },
   },
   {
     slug: "program-afiliasi-dan-referral-untuk-toko-online",
@@ -795,14 +547,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Turning word-of-mouth recommendation into a measurable growth channel: referral versus affiliate, fair rewards from margin, tracking, participant dashboards, abuse prevention, and how to measure profitability.",
       zh: "把口口相传的推荐变成可衡量的增长渠道：推荐与联盟的区别、基于利润率的公平奖励、追踪、参与者仪表板、防止滥用，以及如何衡量盈利性。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
-      alt: "Tas belanja merah dan hitam berjajar di atas latar gelap",
-      altTranslations: {
-        en: "Red and black shopping bags lined up against a dark background",
-        zh: "深色背景前并排摆放的红色和黑色购物袋",
-      },
     },
   },
   {
@@ -821,14 +565,6 @@ export const meta: PostMeta[] = [
       en: "Why a consistent interface saves time for users and teams: what a design system contains, signs a product needs one, how to start without halting work, key business app components, accessibility, and upkeep.",
       zh: "为什么一致的界面能为用户和团队节省时间：设计系统包含什么、产品需要它的迹象、如何在不中断工作的情况下起步、业务应用的关键组件、无障碍和日常维护。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
-      alt: "Sketsa wireframe berwarna dari beberapa tata letak layar aplikasi",
-      altTranslations: {
-        en: "Colourful wireframe sketches of several app screen layouts",
-        zh: "多个应用界面布局的彩色线框草图",
-      },
-    },
   },
   {
     slug: "pengujian-otomatis-dan-ci-cd-untuk-aplikasi-bisnis",
@@ -845,14 +581,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A plain-language guide to automated testing and release flow: kinds of tests, what to test first, test environments and safe data, gradual release, rollback ability, and questions to assess your vendor's practices.",
       zh: "关于自动化测试与发布流程的通俗指南：测试的类型、先测试什么、测试环境与安全数据、逐步发布、回滚能力，以及评估供应商做法的问题。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
-      alt: "Layar laptop menampilkan kode program berwarna di editor",
-      altTranslations: {
-        en: "A laptop screen showing colourful program code in an editor",
-        zh: "笔记本电脑屏幕在编辑器中显示彩色的程序代码",
-      },
     },
   },
   {
@@ -871,14 +599,6 @@ export const meta: PostMeta[] = [
       en: "Weighing staged payment options for online stores: their forms, when worth offering, impact on margin, choosing a provider, buyer experience, reconciliation, compliance, risks, and indicators to monitor.",
       zh: "权衡网店的分期付款选项：它们的形式、何时值得提供、对利润率的影响、选择服务商、买家体验、对账、合规、风险，以及需要监控的指标。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1553729459-efe14ef6055d",
-      alt: "Tangan memegang setumpuk uang kertas",
-      altTranslations: {
-        en: "A hand holding a stack of banknotes",
-        zh: "手里拿着一叠钞票",
-      },
-    },
   },
   {
     slug: "strategi-harga-dan-penetapan-harga-toko-online",
@@ -895,14 +615,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A framework for pricing an online store: calculating true costs, cost-, competitor-, and value-based approaches, price structure, new product pricing, discounts, shipping costs, testing changes, and when to raise prices.",
       zh: "网店定价的思考框架：计算真实成本、成本导向、竞争导向与价值导向的方法、价格结构、新产品定价、折扣、运费、测试变更，以及何时涨价。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
-      alt: "Kertas berisi grafik garis naik di samping penggaris dan pena di meja kayu",
-      altTranslations: {
-        en: "A sheet with a rising line chart next to a ruler and pen on a wooden desk",
-        zh: "木桌上的纸张，画着上升的折线图，旁边有尺子和笔",
-      },
     },
   },
   {
@@ -921,14 +633,6 @@ export const meta: PostMeta[] = [
       en: "How to manage website content in an orderly way: what a CMS does, signs you need a better one, three common approaches, content models, roles and approval, daily SEO, speed, multilingual, security, and content governance.",
       zh: "如何有条不紊地管理网站内容：CMS 的作用、需要更好 CMS 的迹象、三种常见方式、内容模型、角色与审批、日常 SEO、速度、多语言、安全以及内容治理。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
-      alt: "Meja kerja dengan monitor dan laptop yang menampilkan halaman website, lampu meja, dan tanaman",
-      altTranslations: {
-        en: "A desk with a monitor and laptop showing web pages, a desk lamp, and a plant",
-        zh: "摆着显示器和笔记本电脑的办公桌，屏幕上是网页，旁边有台灯和植物",
-      },
-    },
   },
   {
     slug: "faktur-elektronik-dan-kepatuhan-pajak-dengan-erp",
@@ -945,14 +649,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How ERP helps issue tidy electronic invoices and maintain compliance: master data, a connected flow from order to invoice, numbering and audit trails, payment reconciliation, purchasing, and handling rule changes.",
       zh: "ERP 如何帮助开具整齐的电子发票并保持合规：主数据、从订单到发票的连通流程、编号与审计线索、付款对账、采购，以及应对规则变化。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
-      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
-      altTranslations: {
-        en: "A pile of forms, receipts, and a calculator on a desk",
-        zh: "桌上堆放的表格、收据和计算器",
-      },
     },
   },
   {
@@ -971,14 +667,6 @@ export const meta: PostMeta[] = [
       en: "How to start customer segmentation from simple data: types of segmentation, data needed, segments you can build this week, helpful personalisation, channels and moments, automation and AI, privacy, and measuring impact.",
       zh: "如何从简单的数据开始顾客细分：细分类型、所需数据、本周就能建立的细分、有帮助的个性化、渠道与时机、自动化与人工智能、隐私，以及衡量影响。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-      alt: "Dashboard berisi beberapa grafik data yang ditampilkan berdampingan",
-      altTranslations: {
-        en: "A dashboard with several data charts displayed side by side",
-        zh: "并排显示多张数据图表的仪表板",
-      },
-    },
   },
   {
     slug: "data-warehouse-dan-business-intelligence-untuk-bisnis-menengah",
@@ -995,14 +683,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Understanding data warehouses and BI for non-technical readers: why operational system reports fall short, signs you need one, starting from business questions, figure definitions, data quality, technical options, dashboards that get used, and data culture.",
       zh: "为非技术读者理解数据仓库与 BI：为什么运营系统的报表不够用、需要它的迹象、从业务问题开始、数字定义、数据质量、技术方案、被使用的仪表板以及数据文化。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
-      alt: "Layar menampilkan panel metrik dengan grafik garis kecil dan angka performa",
-      altTranslations: {
-        en: "A screen showing a metrics panel with small line charts and performance numbers",
-        zh: "显示着带有小型折线图和绩效数字的指标面板的屏幕",
-      },
     },
   },
   {
@@ -1021,14 +701,6 @@ export const meta: PostMeta[] = [
       en: "Headless commerce and composable architecture are often pitched as progress. A plain explanation, the benefits and the price, when it is worth considering, a gradual middle path, and how to decide without following trends.",
       zh: "无头电商和可组合架构常被当作进步来推销。通俗的解释、好处与代价、何时值得考虑、渐进的折中之路，以及如何不被潮流裹挟地做决定。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-      alt: "Baris kode program ditampilkan besar di layar monitor",
-      altTranslations: {
-        en: "Lines of program code displayed large on a monitor screen",
-        zh: "显示器屏幕上放大显示的程序代码",
-      },
-    },
   },
   {
     slug: "manajemen-pemasok-dan-penilaian-vendor-dengan-erp",
@@ -1045,14 +717,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to manage suppliers in a structured way: single master data, a procurement flow with segregation of duties, three-way matching, contracts and prices, performance evaluation with simple indicators, and dependency risk management.",
       zh: "如何以结构化的方式管理供应商：唯一的主数据、职责分离的采购流程、三单匹配、合同与价格、用简单指标评估绩效，以及依赖风险管理。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
-      alt: "Dua orang berjabat tangan di ruang kantor",
-      altTranslations: {
-        en: "Two people shaking hands in an office",
-        zh: "两个人在办公室里握手",
-      },
     },
   },
   {
@@ -1071,14 +735,6 @@ export const meta: PostMeta[] = [
       en: "Common fraud types in online stores, order signals worth checking, consistent review rules, securing customer and staff accounts, return abuse, handling payment disputes, and protecting customers from scams in the store's name.",
       zh: "网店常见的欺诈类型、值得检查的订单信号、一致的审核规则、保护顾客与员工账户、退货滥用、处理支付争议，以及保护顾客免受冒用店铺名义的骗局。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
-      alt: "Seseorang memegang kartu pembayaran sambil berbelanja di laptop",
-      altTranslations: {
-        en: "A person holding a payment card while shopping on a laptop",
-        zh: "一个人拿着银行卡在笔记本电脑上购物",
-      },
-    },
   },
   {
     slug: "uji-ab-dan-optimasi-konversi-website-bisnis",
@@ -1095,14 +751,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to start A/B testing soundly: when it is worthwhile, framing a hypothesis, choosing the success measure, setting the duration, reading results without being fooled, technical points to guard, and visitor ethics and privacy.",
       zh: "如何健康地开始 A/B 测试：何时值得做、提出假设、选择成功指标、确定时长、读懂结果而不被愚弄、需要把关的技术要点，以及访客伦理与隐私。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
-      alt: "Laptop menampilkan halaman web dengan tombol ajakan bertindak, tangan di trackpad",
-      altTranslations: {
-        en: "A laptop showing a web page with a call-to-action button, a hand on the trackpad",
-        zh: "笔记本电脑显示带有行动号召按钮的网页，手放在触控板上",
-      },
     },
   },
   {
@@ -1121,14 +769,6 @@ export const meta: PostMeta[] = [
       en: "Tidying the order-to-cash cycle: correct invoices from order data, triggers and delivery channels, payment terms, polite reminders, automatic payment matching, billing disputes, receivables ageing, and internal control.",
       zh: "整理从订单到收款的周期：基于订单数据的正确发票、触发点与发送渠道、付款条件、礼貌的提醒、自动付款核对、账单争议、应收账款账龄和内部控制。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
-      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
-      altTranslations: {
-        en: "A pile of forms, receipts, and a calculator on a desk",
-        zh: "桌上堆放的表格、收据和计算器",
-      },
-    },
   },
   {
     slug: "sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh",
@@ -1145,14 +785,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "When stock records are no longer enough: layout and location codes, the receive-store-pick-ship flow, barcodes, rolling counts, lots and expiry, a returns area, sales channel integration, and choosing a suitable system level.",
       zh: "库存记录何时不再够用：布局与货位编码、收货，上架，拣货，发货流程、条码、滚动盘点、批号与有效期、退货区、销售渠道集成，以及选择合适的系统层级。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
-      alt: "Gudang distribusi besar dengan rak dan tumpukan kontainer kuning",
-      altTranslations: {
-        en: "A large distribution warehouse with shelving and stacks of yellow containers",
-        zh: "大型配送仓库，货架和成堆的黄色周转箱",
-      },
     },
   },
   {
@@ -1171,14 +803,6 @@ export const meta: PostMeta[] = [
       en: "Webhooks in plain language: how they differ from polling, suitable events, missed and duplicate messages, event order, security, monitoring, when to use ready-made connectors, and documentation and ownership of integrations.",
       zh: "用通俗的语言讲解 Webhook：与轮询的区别、适合的事件、丢失与重复的消息、事件顺序、安全、监控、何时使用现成连接器，以及集成的文档与归属。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      alt: "Papan sirkuit elektronik dengan chip dan komponen, tampak dekat",
-      altTranslations: {
-        en: "A close view of an electronic circuit board with chips and components",
-        zh: "带有芯片和元件的电子电路板近景",
-      },
-    },
   },
   {
     slug: "sistem-tiket-dukungan-pelanggan-dan-sla",
@@ -1195,14 +819,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "When a ticket system is needed: one queue for all channels, categories and priorities, realistic service level agreements, a knowledge base, cross-department escalation, measuring quality, handling upset customers, proactive support, and data privacy.",
       zh: "何时需要工单系统：所有渠道共用一个队列、分类与优先级、切合实际的服务水平协议、知识库、跨部门升级、衡量质量、应对不满的顾客、主动服务以及数据隐私。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
-      alt: "Dua perempuan memakai headset di ruang kerja kantor yang terang",
-      altTranslations: {
-        en: "Two women wearing headsets in a bright office workspace",
-        zh: "两位戴着耳机的女士在明亮的办公空间中",
-      },
     },
   },
   {
@@ -1221,14 +837,6 @@ export const meta: PostMeta[] = [
       en: "Designing a light, resilient app: understanding customers' devices, app size, launch speed, saving data, working offline, battery and memory, a simple interface, testing in real conditions, and a performance budget.",
       zh: "设计轻量而稳健的应用：了解顾客的设备、应用体积、启动速度、节省流量、离线工作、电量与内存、简洁的界面、在真实条件下测试，以及性能预算。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
-      alt: "Seseorang memegang ponsel Android putih",
-      altTranslations: {
-        en: "A person holding a white Android phone",
-        zh: "一个人拿着一部白色的安卓手机",
-      },
-    },
   },
   {
     slug: "perencanaan-anggaran-dan-peramalan-dengan-data-erp",
@@ -1245,14 +853,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Telling budget from forecast, starting from historical data, setting explicit assumptions, simple scenarios, departmental accountability, monitoring variances, rolling forecasts, cash planning, and investment decisions for small and medium businesses.",
       zh: "区分预算与预测、从历史数据出发、设定明确的假设、简单情景、部门责任、监控差异、滚动预测、现金规划，以及面向中小企业的投资决策。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
-      alt: "Kertas berisi grafik garis naik di samping penggaris dan pena di meja kayu",
-      altTranslations: {
-        en: "A sheet with a rising line chart next to a ruler and a pen on a wooden desk",
-        zh: "木桌上一张带有上升折线图的纸，旁边是尺子和笔",
-      },
     },
   },
   {
@@ -1271,14 +871,6 @@ export const meta: PostMeta[] = [
       en: "The search box is the clearest signal of buying intent. How to tidy product data, handle typos and synonyms, design autocomplete, filters, result order, the no-results page, and read search data.",
       zh: "搜索框是最清晰的购买意图信号。如何整理商品数据、处理拼写错误和同义词、设计输入建议、筛选、结果排序、无结果页面，并解读搜索数据。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
-      alt: "Ponsel yang menampilkan aplikasi belanja online di atas meja",
-      altTranslations: {
-        en: "A phone showing an online shopping app on a table",
-        zh: "桌上的手机显示着网购应用",
-      },
-    },
   },
   {
     slug: "manajemen-pesanan-toko-online-dari-masuk-hingga-terkirim",
@@ -1295,14 +887,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to design an order flow that holds up when busy: one queue from every channel, clear statuses, automatic payment verification, stock allocation, picking and packing, courier handover, and handling exceptions.",
       zh: "如何设计在繁忙时也撑得住的订单流程：汇总所有渠道的单一队列、清晰的状态、自动确认付款、库存分配、拣货与打包、快递交接，以及异常处理。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1580674285054-bed31e145f59",
-      alt: "Tumpukan paket kardus siap kirim di ruang penyimpanan",
-      altTranslations: {
-        en: "Stacks of cardboard parcels ready to ship in a storage room",
-        zh: "储物间里堆放着准备发货的纸箱包裹",
-      },
     },
   },
   {
@@ -1321,14 +905,6 @@ export const meta: PostMeta[] = [
       en: "Launching a mobile app is not just pressing upload. Publisher account ownership, store listing material, privacy and permissions, the review process, payment rules, testing, staged rollout, and maintenance.",
       zh: "移动应用上线不只是点一下上传。发布者账号归属、商店页面素材、隐私与权限、审核流程、支付规则、测试、分阶段发布和维护。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
-      alt: "Ponsel pintar menampilkan layar utama dengan berbagai ikon aplikasi komunikasi",
-      altTranslations: {
-        en: "A smartphone showing a home screen with various communication app icons",
-        zh: "智能手机主屏幕上显示着各种通讯应用图标",
-      },
-    },
   },
   {
     slug: "tutup-buku-bulanan-lebih-cepat-dengan-erp",
@@ -1345,14 +921,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A slow close comes from upstream. How to set up a close calendar, record at the source, reconcile throughout the month, apply cut-off rules, handle inventory and recurring journals, review, and lock the period.",
       zh: "结账慢，根源在上游。如何制定结账日历、在源头记录、整月持续对账、执行截止规则、处理存货和周期性分录、进行检查并锁定期间。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
-      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
-      altTranslations: {
-        en: "A pile of forms, receipts, and a calculator on a desk",
-        zh: "桌上堆着表格、单据和计算器",
-      },
     },
   },
   {
@@ -1371,14 +939,6 @@ export const meta: PostMeta[] = [
       en: "A contact list is a channel you own. How to gather permission, tidy transactional messages, build automated flows, segment, protect deliverability, align with WhatsApp and notifications, and measure results.",
       zh: "联系人名单是属于你自己的渠道。如何获得许可、整理交易类消息、搭建自动化流程、分群、维护送达率、与 WhatsApp 和通知协调，并衡量结果。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      alt: "Tangan mengetik di keyboard laptop",
-      altTranslations: {
-        en: "Hands typing on a laptop keyboard",
-        zh: "双手在笔记本电脑键盘上打字",
-      },
-    },
   },
   {
     slug: "passkey-dan-login-tanpa-kata-sandi-untuk-bisnis",
@@ -1395,14 +955,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Passwords hurt both security and sales. How passkeys work in simple terms, their benefits and limits, other options, account recovery, a staged rollout for customers and employees, and technical points to discuss with your developer.",
       zh: "密码既损害安全，也影响销售。通行密钥的简明原理、好处与局限、其他选择、账号恢复、面向顾客和员工的分阶段落实，以及需要与开发者讨论的技术事项。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
-      alt: "Ponsel pintar menampilkan ikon kunci keamanan di atas meja kayu",
-      altTranslations: {
-        en: "A smartphone showing a security lock icon on a wooden table",
-        zh: "木桌上的智能手机显示着安全锁图标",
-      },
     },
   },
   {
@@ -1421,14 +973,6 @@ export const meta: PostMeta[] = [
       en: "A service business sells time. How to design availability rules, a short booking flow, deposits and a cancellation policy, reminders, waiting lists, customer history, and the link with the till and calendars.",
       zh: "服务型企业卖的是时间。如何设计可预约规则、简短的预约流程、订金与取消政策、提醒、候补名单、顾客记录，以及与收银和日历的连接。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d",
-      alt: "Meja resepsionis di area lobi fasilitas kesehatan",
-      altTranslations: {
-        en: "A reception desk in the lobby of a healthcare facility",
-        zh: "医疗机构大厅里的接待台",
-      },
-    },
   },
   {
     slug: "aplikasi-mobile-untuk-tim-lapangan",
@@ -1445,14 +989,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to design a field app that is genuinely used: the work to do first, design for weak signal, evidence on the spot, reasonable use of location, the link with ERP and CRM, device security, and adoption.",
       zh: "如何设计一款真正被使用的外勤应用：优先处理的工作、为弱信号而设计、现场凭证、合理使用位置、与 ERP 和 CRM 的连接、设备安全，以及推广采用。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
-      alt: "Seseorang memegang ponsel Android putih",
-      altTranslations: {
-        en: "A person holding a white Android phone",
-        zh: "一个人手里拿着白色的安卓手机",
-      },
     },
   },
   {
@@ -1471,14 +1007,6 @@ export const meta: PostMeta[] = [
       en: "A subscription changes how you bill, record, and serve. Fit of the model, plan and price design, the recurring billing engine, failed payments, honest cancellation, revenue recognition, and retention measures.",
       zh: "订阅改变了收费、记账和服务的方式。模式是否合适、套餐与价格设计、周期性计费引擎、扣款失败、诚实的取消方式、收入确认，以及留存指标。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e",
-      alt: "Tunas tanaman tumbuh dari tumpukan koin",
-      altTranslations: {
-        en: "A plant sprout growing from a pile of coins",
-        zh: "一堆硬币中长出的植物幼苗",
-      },
-    },
   },
   {
     slug: "pencarian-berbasis-ai-dan-masa-depan-seo-website-bisnis",
@@ -1495,14 +1023,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "AI assistants and summary answers are changing how people search. What changes and what stays, content that is hard to replace, technical foundations, AI crawler access, reputation beyond the website, and more meaningful measurement.",
       zh: "AI 助手和摘要式回答正在改变人们的搜索方式。什么变了、什么没变、难以被取代的内容、技术基础、AI 爬虫访问、网站之外的声誉，以及更有意义的衡量方式。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-      alt: "Tulisan AI tiga dimensi berwarna biru",
-      altTranslations: {
-        en: "Blue three-dimensional lettering spelling AI",
-        zh: "蓝色的立体 AI 字样",
-      },
     },
   },
   {
@@ -1521,14 +1041,6 @@ export const meta: PostMeta[] = [
       en: "The catalogue is the core of an online store. How to build the product and variant data model, stable item codes, naming rules, categories, photos, descriptions, and one data source for every channel.",
       zh: "目录是网店的核心。如何建立商品与规格的数据模型、稳定的商品编码、命名规则、分类、图片、描述,以及所有渠道共用的一份数据来源。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
-      alt: "Tas belanja merah dan hitam berjajar di atas latar gelap",
-      altTranslations: {
-        en: "Red and black shopping bags lined up against a dark background",
-        zh: "深色背景前排成一列的红色和黑色购物袋",
-      },
-    },
   },
   {
     slug: "retur-dan-refund-toko-online",
@@ -1545,14 +1057,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A return handled neatly protects trust and prevents stock and money discrepancies. How to set the policy, request flow, goods inspection, refunds, and reduce returns at the source.",
       zh: "处理得当的退货能维护信任,并防止库存和资金差异。如何制定政策、申请流程、商品检验、退款,并从源头减少退货。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
-      alt: "Gudang distribusi besar dengan rak dan tumpukan kontainer kuning",
-      altTranslations: {
-        en: "A large distribution warehouse with shelves and stacks of yellow containers",
-        zh: "有货架和成堆黄色容器的大型配送仓库",
-      },
     },
   },
   {
@@ -1571,14 +1075,6 @@ export const meta: PostMeta[] = [
       en: "How to design realistic monitoring: what to watch, flow checks, alerts that do not cause fatigue, error logging, status pages, and handling incidents calmly.",
       zh: "如何设计切实可行的监控:监控什么、流程检查、不会造成疲劳的告警、错误记录、状态页,以及冷静处理事件。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
-      alt: "Layar menampilkan panel metrik dengan grafik garis kecil dan angka performa",
-      altTranslations: {
-        en: "A screen showing a metrics panel with small line charts and performance figures",
-        zh: "屏幕上显示带有小型折线图和性能数字的指标面板",
-      },
-    },
   },
   {
     slug: "penjualan-lewat-media-sosial-dan-live-commerce",
@@ -1595,14 +1091,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to connect social media and live streams with your own store: one order flow, synchronised stock, clear payment, customer service, responsible data, and measurement per channel.",
       zh: "如何把社交媒体和直播与你自己的店铺连接:统一的订单流程、同步的库存、清晰的付款、客户服务、负责任的数据,以及按渠道衡量。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7",
-      alt: "Ikon aplikasi media sosial dan desain dalam bentuk kubus tiga dimensi di latar gelap",
-      altTranslations: {
-        en: "Social media and design app icons as three-dimensional cubes on a dark background",
-        zh: "深色背景上呈三维立方体形状的社交媒体和设计应用图标",
-      },
     },
   },
   {
@@ -1621,14 +1109,6 @@ export const meta: PostMeta[] = [
       en: "How to understand cloud bill components, label and assign owners, stop waste, right-size, choose pricing models, manage storage, and set budgets and alerts.",
       zh: "如何理解云账单的组成、加标签并指定所有者、停止浪费、调整规格、选择定价模式、管理存储,并设置预算和告警。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
-      alt: "Papan sirkuit bercahaya dengan jalur-jalur rangkaian, tampak miring",
-      altTranslations: {
-        en: "A glowing circuit board with traces of the circuit, seen at an angle",
-        zh: "斜角拍摄的发光电路板,可见电路走线",
-      },
-    },
   },
   {
     slug: "portal-pelanggan-dan-pemasok-b2b",
@@ -1645,14 +1125,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A B2B portal that is actually used: the features to do first, the link with ERP and CRM, access rights and security, user experience, partner adoption, and how to measure success.",
       zh: "一个真正被使用的 B2B 门户:优先做的功能、与 ERP 和 CRM 的关系、访问权限与安全、用户体验、伙伴采用,以及如何衡量成功。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
-      alt: "Dua orang berdiskusi sambil menunjuk dokumen dalam pertemuan bisnis",
-      altTranslations: {
-        en: "Two people discussing while pointing at documents in a business meeting",
-        zh: "商务会议中两人一边讨论一边指着文件",
-      },
     },
   },
   {
@@ -1671,14 +1143,6 @@ export const meta: PostMeta[] = [
       en: "How to design reconciliation that is tidy and automatic: three data sources, the matching key, the daily flow, handling exceptions, recording fees and refunds, and internal controls.",
       zh: "如何设计整齐且自动化的对账:三个数据来源、匹配键、每日流程、异常处理、费用和退款的记录,以及内部控制。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
-      alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja",
-      altTranslations: {
-        en: "Financial report documents and a calculator on a work desk",
-        zh: "办公桌上的财务报告文件和计算器",
-      },
-    },
   },
   {
     slug: "analitik-website-dan-aplikasi-mobile-untuk-keputusan",
@@ -1695,14 +1159,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "How to set up analytics that help decisions: starting from business questions, the tracking plan, acquisition and retention metrics, funnels, data quality, privacy and consent, dashboards, and experiments.",
       zh: "如何设置有助于决策的分析:从业务问题出发、追踪计划、获取和留存指标、漏斗、数据质量、隐私与同意、仪表盘和实验。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
-      alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
-      altTranslations: {
-        en: "A screen showing click and impression charts with a fluctuating blue line",
-        zh: "屏幕上显示点击量和展示量图表,蓝色线条上下波动",
-      },
     },
   },
   {
@@ -1721,14 +1177,6 @@ export const meta: PostMeta[] = [
       en: "IoT seen from the viewpoint of a small business owner: sensible use cases, system components, connectivity and power, the link with apps and ERP, security, hidden costs, and a small trial.",
       zh: "从小企业主的角度看物联网:合理的使用场景、系统组成、连接和供电、与应用及 ERP 的关系、安全、隐性成本,以及小规模试点。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      alt: "Papan sirkuit elektronik dengan chip dan komponen, tampak dekat",
-      altTranslations: {
-        en: "A close-up of an electronic circuit board with chips and components",
-        zh: "带有芯片和元件的电子电路板特写",
-      },
-    },
   },
   {
     slug: "pelindungan-data-pribadi-untuk-website-dan-aplikasi",
@@ -1745,14 +1193,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "An educational guide to managing personal data: mapping data, the basis for collection and consent, privacy notices, data subjects' rights, security, third parties, retention, and readiness for a breach.",
       zh: "关于管理个人数据的科普指南:数据盘点、收集依据与同意、隐私声明、数据主体的权利、安全、第三方、保留期,以及应对泄露的准备。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
-      alt: "Tangan menandatangani dokumen di atas meja",
-      altTranslations: {
-        en: "A hand signing a document on a table",
-        zh: "手在桌上签署文件",
-      },
     },
   },
   {
@@ -1771,14 +1211,6 @@ export const meta: PostMeta[] = [
       en: "Augmented and virtual reality are often promoted as the future of shopping. How to judge their usefulness for a real business, the use cases that make sense, hidden costs, and a small trial before investing heavily.",
       zh: "增强现实和虚拟现实常被宣传为购物的未来。如何评估它们对真实业务的用处、合理的应用场景、隐性成本,以及在大举投资之前先做小规模试验。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
-      alt: "Seseorang mengenakan headset realitas virtual dengan ekspresi terkejut",
-      altTranslations: {
-        en: "A person wearing a virtual reality headset with a surprised expression",
-        zh: "一个戴着虚拟现实头显、表情惊讶的人",
-      },
-    },
   },
   {
     slug: "blog-perusahaan-sebagai-mesin-prospek",
@@ -1795,14 +1227,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A well-run blog brings in prospects who are already ready to trust you. How to pick topics from customer questions, write for search intent, plan a content calendar, and measure results without invented figures.",
       zh: "经营得当的博客能带来已经准备好信任你的潜在客户。如何从客户的问题中选题、针对搜索意图写作、规划内容日历,并在没有杜撰数字的情况下衡量成果。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
-      alt: "Laptop di atas meja menampilkan halaman situs dengan tulisan tentang pengalaman yang sederhana",
-      altTranslations: {
-        en: "A laptop on a desk showing a web page with text about simple experiences",
-        zh: "桌上的笔记本电脑显示着一个关于简单体验的网页",
-      },
     },
   },
   {
@@ -1821,14 +1245,6 @@ export const meta: PostMeta[] = [
       en: "However advanced a POS system is, it depends on reliable internet, local networks, and devices. How to plan connectivity, choose devices, prepare backups, and maintain them so the store never stops serving.",
       zh: "无论 POS 系统多先进,都依赖可靠的互联网、局域网和设备。如何规划网络连接、选择设备、准备备份并做好维护,让门店不会停止服务。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
-      alt: "Kabel jaringan biru dan abu-abu tertancap pada panel patch di ruang server",
-      altTranslations: {
-        en: "Blue and grey network cables plugged into a patch panel in a server room",
-        zh: "机房配线架上插着蓝色和灰色的网线",
-      },
-    },
   },
   {
     slug: "integrasi-payment-gateway-website-dan-aplikasi",
@@ -1845,14 +1261,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Accepting online payments is more than adding a pay button. How to choose a payment gateway and payment methods, understand transaction status flows, reconciliation, security, and refunds.",
       zh: "接受在线支付不只是加一个付款按钮。如何选择支付网关与支付方式,理解交易状态流程、对账、安全与退款处理。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1553729459-efe14ef6055d",
-      alt: "Tangan memegang setumpuk uang kertas",
-      altTranslations: {
-        en: "Hands holding a stack of banknotes",
-        zh: "手中握着一叠纸币",
-      },
     },
   },
   {
@@ -1871,14 +1279,6 @@ export const meta: PostMeta[] = [
       en: "Even the most sophisticated ERP will produce wrong reports if its master data is a mess. How to structure item codes, customer and supplier records, naming rules, and governance so data stays clean.",
       zh: "再先进的 ERP,如果主数据一团糟,也只会产出错误的报表。如何构建物料编码、客户与供应商记录、命名规则和治理机制,让数据始终干净。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
-      alt: "Tangan menempelkan catatan tempel pada papan perencanaan yang penuh",
-      altTranslations: {
-        en: "A hand placing sticky notes on a crowded planning board",
-        zh: "一只手把便利贴贴在贴满的规划板上",
-      },
-    },
   },
   {
     slug: "onboarding-aplikasi-mobile-pengguna-baru",
@@ -1895,14 +1295,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Many apps lose their users within the first few minutes. How to design sign-up, feature introductions, permissions, and the first valuable moment so new users stay and feel the benefit of the app.",
       zh: "许多应用在最初几分钟内就流失了用户。如何设计注册、功能介绍、权限请求和第一个有价值的时刻,让新用户留下来并感受到应用的价值。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
-      alt: "Dua orang menunjuk layar laptop sambil berdiskusi tentang tampilan aplikasi",
-      altTranslations: {
-        en: "Two people pointing at a laptop screen while discussing an app design",
-        zh: "两个人一边讨论应用设计一边指着笔记本电脑屏幕",
-      },
     },
   },
   {
@@ -1921,14 +1313,6 @@ export const meta: PostMeta[] = [
       en: "Shipping often decides whether a customer buys again. How to choose couriers, calculate shipping fees, pack goods, track parcels, and handle returns in an orderly way for an online store.",
       zh: "配送往往决定客户会不会再次购买。如何选择快递、计算运费、包装货物、追踪包裹,并有条不紊地处理退货。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
-      alt: "Dua orang menyerahkan sebuah paket kardus yang sudah dilakban",
-      altTranslations: {
-        en: "Two people handing over a taped cardboard parcel",
-        zh: "两个人正在交接一个封好胶带的纸箱包裹",
-      },
-    },
   },
   {
     slug: "tim-digital-internal-atau-vendor-eksternal",
@@ -1945,14 +1329,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Building and maintaining digital systems can be done by your own team, a vendor, or a mix of both. A comparison of cost, control, speed, and risk, and how to decide a sensible division of roles for your stage of business.",
       zh: "数字系统的构建与维护可以由自己的团队、供应商或两者结合来完成。从成本、控制、速度和风险角度比较,并说明如何依据业务阶段合理划分角色。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b",
-      alt: "Tim bekerja dengan laptop di sebuah meja kerja bersama yang panjang",
-      altTranslations: {
-        en: "A team working on laptops at a long shared desk",
-        zh: "一个团队在一张长长的共享工作桌前用笔记本电脑工作",
-      },
     },
   },
   {
@@ -1971,14 +1347,6 @@ export const meta: PostMeta[] = [
       en: "Many problems only surface after an app is used for real. How to plan UAT, write test scenarios, involve the right users, record findings, and decide when an app is fit to launch.",
       zh: "许多问题只有在应用真正投入使用后才会暴露。如何规划 UAT、编写测试场景、让合适的用户参与、记录发现,并决定应用何时适合上线。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
-      alt: "Layar laptop menampilkan kode program berwarna di editor",
-      altTranslations: {
-        en: "A laptop screen showing colourful program code in an editor",
-        zh: "笔记本电脑屏幕在编辑器中显示彩色的程序代码",
-      },
-    },
   },
   {
     slug: "website-multibahasa-untuk-pasar-regional",
@@ -1995,14 +1363,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Offering a website in several languages opens new markets, but a careless job does harm. How to design URL structure, quality translation, hreflang, cultural adaptation, and a maintenance process.",
       zh: "提供多语言网站能开拓新市场,但草率的做法反而有害。如何设计网址结构、高质量翻译、hreflang、文化适配以及维护流程。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
-      alt: "Foto bumi dari luar angkasa dengan cahaya kota di malam hari",
-      altTranslations: {
-        en: "Photo of the Earth from space with city lights at night",
-        zh: "从太空拍摄的地球,夜晚的城市灯火清晰可见",
-      },
     },
   },
   {
@@ -2021,14 +1381,6 @@ export const meta: PostMeta[] = [
       en: "Many apps are downloaded and then forgotten. How to use push notifications, segmentation, and in-app messages so users return without feeling pestered, and how to measure the results.",
       zh: "许多应用被下载后就被遗忘。如何运用推送通知、用户细分和应用内消息,让用户回来而不觉得被打扰,以及如何衡量成效。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1517292987719-0369a794ec0f",
-      alt: "Ponsel pintar menampilkan sebuah aplikasi di samping keyboard laptop",
-      altTranslations: {
-        en: "A smartphone showing an app next to a laptop keyboard",
-        zh: "智能手机在笔记本电脑键盘旁显示着一个应用",
-      },
-    },
   },
   {
     slug: "aksesibilitas-website-untuk-bisnis",
@@ -2045,14 +1397,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A website that is hard to use quietly loses customers. The basic principles of accessibility, the most impactful fixes, how to check, and why it all aligns with SEO.",
       zh: "难以使用的网站会在不知不觉中流失客户。无障碍的基本原则、影响最大的修复、检查方法,以及它为何与搜索引擎优化相辅相成。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1576864333223-db90dadfb975",
-      alt: "Papan petunjuk aksesibilitas",
-      altTranslations: {
-        en: "Accessibility signage",
-        zh: "无障碍标识牌",
-      },
     },
   },
   {
@@ -2071,14 +1415,6 @@ export const meta: PostMeta[] = [
       en: "Too little stock disappoints customers; too much ties up capital. The concepts of safety stock and reorder point, grouping items, and the role of ERP in running it all.",
       zh: "库存太少让客户失望,太多则占用资金。安全库存与再订货点的概念、商品分组,以及 ERP 在执行中的作用。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492",
-      alt: "Pemandangan udara deretan truk kargo yang diparkir di area distribusi",
-      altTranslations: {
-        en: "An aerial view of cargo trucks parked in a distribution yard",
-        zh: "停在配送场地里的一排货运卡车的鸟瞰图",
-      },
-    },
   },
   {
     slug: "asisten-ai-untuk-bisnis-kecil-tren-realistis",
@@ -2095,14 +1431,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "From content drafts to customer answers, AI is becoming useful for small business. Sensible uses, risky ones, choosing a first use case, privacy, and a 30-day plan.",
       zh: "从内容草稿到客户答复,AI 正在对小企业变得有用。合理的用途、有风险的用途、如何选择第一个场景、隐私问题,以及 30 天计划。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f",
-      alt: "Robot ramah berwajah bulat memegang tablet",
-      altTranslations: {
-        en: "A friendly round-faced robot holding a tablet",
-        zh: "手持平板电脑的圆脸友好机器人",
-      },
     },
   },
   {
@@ -2121,14 +1449,6 @@ export const meta: PostMeta[] = [
       en: "Customers choose items but leave at payment. The five most common checkout barriers, their practical fixes, how to win customers back, and a pre-launch checklist.",
       zh: "客户选好了商品却在付款时离开。五个最常见的结账障碍、实用的修复方法、如何召回客户,以及上线前的检查清单。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1556742031-c6961e8560b0",
-      alt: "Tangan memegang ponsel yang menampilkan pembayaran sambil menempelkan kartu pada mesin pembaca",
-      altTranslations: {
-        en: "A hand holding a phone showing a payment while tapping a card on a reader",
-        zh: "一只手拿着显示支付界面的手机,同时把银行卡贴在读卡器上",
-      },
-    },
   },
   {
     slug: "integrasi-whatsapp-business-untuk-layanan-pelanggan",
@@ -2145,14 +1465,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Customers are comfortable on WhatsApp, but conversations scattered across employees' phones are hard to manage. How to connect WhatsApp to your CRM, website, and order system without making service feel like a robot.",
       zh: "客户习惯使用 WhatsApp,但分散在员工手机上的对话很难管理。如何把 WhatsApp 连接到 CRM、网站和订单系统,又不让服务显得像机器人。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7",
-      alt: "Ikon gelembung percakapan hijau dengan gagang telepon di latar gelap",
-      altTranslations: {
-        en: "A green speech bubble icon with a telephone handset on a dark background",
-        zh: "深色背景上带有电话听筒的绿色对话气泡图标",
-      },
     },
   },
   {
@@ -2171,14 +1483,6 @@ export const meta: PostMeta[] = [
       en: "Many buying decisions happen on the Google map before anyone opens a website. How to complete your Google Business Profile, keep data consistent, manage reviews, and strengthen local signals through your website.",
       zh: "许多购买决定在人们打开网站之前就发生在 Google 地图上。如何完善 Google 商家资料、保持数据一致、管理评价,并通过网站强化本地信号。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1694928850410-b209896782a2",
-      alt: "Pin Google Maps di atas selembar kertas",
-      altTranslations: {
-        en: "A Google Maps pin on top of a sheet of paper",
-        zh: "纸张上的谷歌地图定位标记",
-      },
-    },
   },
   {
     slug: "dashboard-bisnis-untuk-keputusan-harian",
@@ -2195,14 +1499,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Monthly reports reach the owner's desk after the events have passed. How to choose metrics, bring data sources together, and design a dashboard that actually gets opened every morning.",
       zh: "月度报告送到老板桌上时,事情早已过去。如何选择指标、整合数据源,并设计出每天早上真正会被打开的仪表板。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-      alt: "Meja kerja dilihat dari atas dengan beberapa laptop, ponsel, dan catatan",
-      altTranslations: {
-        en: "A work table seen from above with several laptops, phones, and notes",
-        zh: "俯瞰的工作桌,上面有几台笔记本电脑、手机和笔记",
-      },
     },
   },
   {
@@ -2221,14 +1517,6 @@ export const meta: PostMeta[] = [
       en: "Off-the-shelf tools promise speed; custom software promises control. An honest comparison, the limits of each, and a decision framework for choosing without chasing trends.",
       zh: "现成工具承诺速度,定制软件承诺控制力。一次诚实的比较、各自的局限,以及不被潮流牵着走的决策框架。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd",
-      alt: "Sekelompok orang rapat mengelilingi meja di ruang pertemuan berdinding kaca",
-      altTranslations: {
-        en: "A group of people meeting around a table in a glass-walled conference room",
-        zh: "一群人围坐在玻璃墙会议室的桌旁开会",
-      },
-    },
   },
   {
     slug: "pemeliharaan-aplikasi-setelah-peluncuran",
@@ -2245,14 +1533,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Software that isn't maintained slowly declines. What maintenance includes, how warranty differs from maintenance, how to draft a service agreement, and what must be handed over at launch.",
       zh: "不加维护的软件会慢慢退化。维护包括什么、保修与维护有何不同、如何起草服务协议,以及上线时必须移交什么。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3",
-      alt: "Layar laptop menampilkan kode program berwarna-warni",
-      altTranslations: {
-        en: "A laptop screen displaying colorful code",
-        zh: "显示彩色代码的笔记本电脑屏幕",
-      },
     },
   },
   {
@@ -2274,14 +1554,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "High traffic but few leads is usually not a marketing problem but a user experience one. The UX principles that most affect business website conversion, and how to fix them step by step.",
       zh: "流量很高却很少有潜在客户,问题通常不在营销,而在用户体验。本文介绍对企业网站转化影响最大的 UX 原则,以及如何逐步改进。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c",
-      alt: "Tangan menggunakan stylus untuk membuat sketsa wireframe antarmuka di layar tablet",
-      altTranslations: {
-        en: "Hand using a stylus to sketch an interface wireframe on a tablet screen",
-        zh: "用触控笔在平板屏幕上绘制界面线框图的手",
-      },
     },
   },
   {
@@ -2305,14 +1577,6 @@ export const meta: PostMeta[] = [
       en: "App ideas that are too big often never get started. The MVP approach helps a business build the smallest version that is already useful, then grow it based on evidence rather than assumptions.",
       zh: "过于庞大的应用构想往往迟迟无法启动。MVP 方法帮助企业先构建一个已经有用的最小版本,再根据证据而非假设逐步扩展。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a",
-      alt: "Meja kerja dengan ponsel, sketsa rancangan aplikasi di kertas, dan alat tulis berwarna",
-      altTranslations: {
-        en: "Desk with a phone, paper sketches of an app design, and colorful stationery",
-        zh: "放着手机、纸上应用设计草图和彩色文具的办公桌",
-      },
-    },
   },
   {
     slug: "erp-dan-visibilitas-arus-kas",
@@ -2335,14 +1599,6 @@ export const meta: PostMeta[] = [
       en: "The profit and loss looks healthy, yet cash is running thin. ERP connects receivables, payables, and inventory so the cash position becomes visible earlier, as long as the data is recorded with discipline.",
       zh: "损益表很健康,现金却越来越紧。ERP 把应收、应付和库存连接起来,让现金状况更早显现，前提是数据得到有纪律的记录。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07",
-      alt: "Dokumen keuangan, kalkulator, dan secangkir kopi di atas meja kerja",
-      altTranslations: {
-        en: "Financial documents, a calculator, and a cup of coffee on a desk",
-        zh: "办公桌上的财务文件、计算器和一杯咖啡",
-      },
-    },
   },
   {
     slug: "progressive-web-app-untuk-bisnis",
@@ -2363,14 +1619,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "A PWA can be installed on the home screen, works on a weak signal, and is built once for every device. When a PWA is the right choice for a business, and when a native app is still better.",
       zh: "PWA 可以安装到主屏幕,在信号较弱时仍能工作,并且一次构建即可适配所有设备。什么时候 PWA 是企业的正确选择,什么时候原生应用仍然更好。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1551650975-87deedd944c3",
-      alt: "Tangan memegang ponsel yang menampilkan aplikasi dasbor dengan laptop di latar belakang",
-      altTranslations: {
-        en: "Hand holding a phone showing a dashboard app, with a laptop in the background",
-        zh: "手持显示仪表盘应用的手机，背景是一台笔记本电脑",
-      },
     },
   },
   {
@@ -2394,14 +1642,6 @@ export const meta: PostMeta[] = [
       en: "A family business's most important knowledge often lives only in its founder's head. How to start digitalising in a way that respects proven ways of working while preparing for succession.",
       zh: "家族企业最重要的知识,往往只存在于创始人的脑海中。如何以尊重既有成熟做法的方式开启数字化,同时为传承做好准备。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1753351052617-62818ffc9173",
-      alt: "Dua pemilik kafe berdiri bersama dengan bangga",
-      altTranslations: {
-        en: "Two cafe owners proudly standing together",
-        zh: "两位咖啡馆老板自豪地并肩站立",
-      },
-    },
   },
   {
     slug: "kenapa-bisnis-butuh-website-2026",
@@ -2422,14 +1662,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "Social media reaches an audience, but you don't own the platform. A website remains the one digital asset fully under your business's own control.",
       zh: "社交媒体能触达受众,但平台并不属于你。网站依然是唯一完全由你的企业自己掌控的数字资产。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-      alt: "Baris kode program ditampilkan besar di layar monitor",
-      altTranslations: {
-        en: "Lines of program code shown large on a monitor",
-        zh: "显示器上放大显示的程序代码",
-      },
     },
   },
   {
@@ -2452,14 +1684,6 @@ export const meta: PostMeta[] = [
       en: "An app isn't a status symbol, it's a tool for removing costly manual processes. These are the signs that usually show up before that decision gets made.",
       zh: "应用不是身份的象征,而是消除高成本人工流程的工具。这些是做出这个决定之前通常会出现的迹象。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
-      alt: "Tim kerja berkumpul mengerjakan laptop masing-masing di sekitar meja",
-      altTranslations: {
-        en: "A team gathered around a table, each working on a laptop",
-        zh: "团队围坐在桌旁，各自在笔记本电脑上工作",
-      },
-    },
   },
   {
     slug: "kapan-waktu-tepat-menerapkan-erp",
@@ -2480,14 +1704,6 @@ export const meta: PostMeta[] = [
     excerptTranslations: {
       en: "ERP needs follow your business's growth stage, not a revenue figure. Here's how to recognize the right moment, and the risk of moving too fast or too slow.",
       zh: "ERP 需求跟随企业的成长阶段,而非营收数字。以下是如何识别合适时机,以及动得太快或太慢的风险。",
-    },
-    cover: {
-      src: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
-      alt: "Layar laptop menampilkan grafik data operasional bisnis",
-      altTranslations: {
-        en: "Laptop screen showing charts of business operations data",
-        zh: "笔记本电脑屏幕上显示着业务运营数据图表",
-      },
     },
   },
   {
@@ -2511,14 +1727,6 @@ export const meta: PostMeta[] = [
       en: "Not every technology trend deserves attention. These are the shifts that genuinely answer operational problems, not just the ones getting the most buzz.",
       zh: "并非所有技术趋势都值得追随。这些是真正回应运营问题的转变,而不只是被讨论得最热闹的那些。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1573164713988-8665fc963095",
-      alt: "Karyawan memeriksa tablet di lorong pusat data berpencahayaan biru",
-      altTranslations: {
-        en: "Employee checking a tablet in a blue-lit data center aisle",
-        zh: "员工在蓝色灯光的数据中心通道里查看平板电脑",
-      },
-    },
   },
   {
     slug: "dari-ide-ke-aplikasi-proses-membangun-software",
@@ -2540,14 +1748,6 @@ export const meta: PostMeta[] = [
       en: "The distance between an idea and a working app feels large because the process isn't visible. Here are the stages that turn it into steps you can take one at a time.",
       zh: "想法与可运行应用之间的距离之所以遥远,是因为过程看不清楚。以下是把它拆解成可以逐步迈出的台阶的各个阶段。",
     },
-    cover: {
-      src: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
-      alt: "Tangan mengetik di dua laptop yang menyala saat mengembangkan aplikasi",
-      altTranslations: {
-        en: "Hands typing on two lit laptops while developing an app",
-        zh: "双手在两台亮着的笔记本电脑上打字，正在开发应用",
-      },
-    },
   },
   {
     slug: "tanda-bisnis-anda-sudah-butuh-erp",
@@ -2561,10 +1761,6 @@ export const meta: PostMeta[] = [
       "multi-cabang",
       "implementasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-      alt: "Layar laptop menampilkan grafik dan laporan analitik bisnis"
-    }
   },
   {
     slug: "custom-software-vs-software-jadi",
@@ -2578,10 +1774,6 @@ export const meta: PostMeta[] = [
       "vendor",
       "biaya"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
-      alt: "Meja kerja dengan laptop yang menampilkan baris kode program"
-    }
   },
   {
     slug: "memilih-sistem-pos-multi-outlet",
@@ -2595,10 +1787,6 @@ export const meta: PostMeta[] = [
       "multi-cabang",
       "inventori"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
-      alt: "Transaksi pembayaran di mesin kasir sebuah toko retail"
-    }
   },
   {
     slug: "kesalahan-umum-implementasi-hris",
@@ -2612,10 +1800,6 @@ export const meta: PostMeta[] = [
       "implementasi",
       "karyawan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
-      alt: "Tim karyawan sedang berdiskusi bersama di ruang rapat kantor"
-    }
   },
   {
     slug: "menghitung-biaya-sebenarnya-project-software",
@@ -2629,10 +1813,6 @@ export const meta: PostMeta[] = [
       "implementasi",
       "custom-software"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
-      alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja"
-    }
   },
   {
     slug: "biaya-tersembunyi-data-silo",
@@ -2646,10 +1826,6 @@ export const meta: PostMeta[] = [
       "pelaporan",
       "erp"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-      alt: "Dashboard berisi beberapa grafik data yang ditampilkan berdampingan"
-    }
   },
   {
     slug: "persiapan-migrasi-data-sistem-baru",
@@ -2662,10 +1838,6 @@ export const meta: PostMeta[] = [
       "data",
       "implementasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d",
-      alt: "Deretan perangkat server tempat data perusahaan disimpan"
-    }
   },
   {
     slug: "memulai-ai-automation-untuk-operasional",
@@ -2678,10 +1850,6 @@ export const meta: PostMeta[] = [
       "otomasi",
       "operasional"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1655393001768-d946c97d6fd1",
-      alt: "Lengan robot putih di ruang pamer",
-    }
   },
   {
     slug: "checklist-memilih-software-house",
@@ -2694,10 +1862,6 @@ export const meta: PostMeta[] = [
       "custom-software",
       "kontrak"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
-      alt: "Dua orang berdiskusi sambil menunjuk dokumen dalam pertemuan bisnis"
-    }
   },
   {
     slug: "kenapa-project-software-gagal",
@@ -2710,10 +1874,6 @@ export const meta: PostMeta[] = [
       "perubahan",
       "custom-software"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1552664730-d307ca884978",
-      alt: "Tim proyek berkolaborasi di sekitar meja kerja dengan catatan tertempel"
-    }
   },
   {
     slug: "digitalisasi-umkm-mulai-dari-mana",
@@ -2728,10 +1888,6 @@ export const meta: PostMeta[] = [
       "biaya",
       "pos"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1472851294608-062f824d29cc",
-      alt: "Papan bertuliskan open tergantung di pintu kaca sebuah toko"
-    }
   },
   {
     slug: "fitur-sistem-kasir-untuk-bisnis-fnb",
@@ -2745,10 +1901,6 @@ export const meta: PostMeta[] = [
       "inventori",
       "retail"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
-      alt: "Interior kafe dengan meja kasir dan area duduk pelanggan"
-    }
   },
   {
     slug: "modul-erp-yang-diterapkan-pertama",
@@ -2762,10 +1914,6 @@ export const meta: PostMeta[] = [
       "keuangan",
       "inventori"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1531403009284-440f080d1e12",
-      alt: "Tangan menyusun kertas-kertas diagram alur kerja yang ditempel di dinding"
-    }
   },
   {
     slug: "mengelola-absensi-karyawan-lapangan",
@@ -2779,10 +1927,6 @@ export const meta: PostMeta[] = [
       "mobile",
       "operasional"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7",
-      alt: "Truk pengiriman melaju di jalan raya di bawah langit cerah"
-    }
   },
   {
     slug: "mendefinisikan-tahapan-pipeline-penjualan",
@@ -2796,10 +1940,6 @@ export const meta: PostMeta[] = [
       "pelanggan",
       "pelaporan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1",
-      alt: "Papan tulis penuh catatan tempel kuning hasil sesi perencanaan"
-    }
   },
   {
     slug: "cloud-atau-on-premise",
@@ -2812,10 +1952,6 @@ export const meta: PostMeta[] = [
       "keamanan",
       "biaya"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
-      alt: "Rak server dengan kabel jaringan yang tersusun rapat"
-    }
   },
   {
     slug: "website-company-profile-yang-menghasilkan-prospek",
@@ -2828,10 +1964,6 @@ export const meta: PostMeta[] = [
       "seo",
       "pelanggan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1547658719-da2b51169166",
-      alt: "Meja kerja dengan monitor, tablet, dan ponsel yang menampilkan rancangan halaman web"
-    }
   },
   {
     slug: "sistem-manajemen-klinik",
@@ -2845,10 +1977,6 @@ export const meta: PostMeta[] = [
       "keamanan",
       "operasional"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d",
-      alt: "Meja resepsionis di area lobi fasilitas kesehatan"
-    }
   },
   {
     slug: "menyusun-dokumen-kebutuhan-software",
@@ -2861,10 +1989,6 @@ export const meta: PostMeta[] = [
       "custom-software",
       "implementasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
-      alt: "Tangan menulis daftar periksa di buku catatan"
-    }
   },
   {
     slug: "chatbot-layanan-pelanggan-manfaat-dan-batasan",
@@ -2877,10 +2001,6 @@ export const meta: PostMeta[] = [
       "otomasi",
       "pelanggan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
-      alt: "Robot humanoid putih dengan layar tablet di bagian dada"
-    }
   },
   {
     slug: "mencegah-kecurangan-kasir",
@@ -2894,10 +2014,6 @@ export const meta: PostMeta[] = [
       "keamanan",
       "pelaporan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1556741533-6e6a62bd8b49",
-      alt: "Kasir melayani pelanggan di meja kasir sebuah toko dengan tablet"
-    }
   },
   {
     slug: "alur-approval-pembelian",
@@ -2910,10 +2026,6 @@ export const meta: PostMeta[] = [
       "keuangan",
       "operasional"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
-      alt: "Tangan menandatangani dokumen di atas meja"
-    }
   },
   {
     slug: "employee-self-service-mengurangi-beban-hr",
@@ -2927,10 +2039,6 @@ export const meta: PostMeta[] = [
       "payroll",
       "otomasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
-      alt: "Seseorang memegang ponsel Android putih",
-    }
   },
   {
     slug: "sistem-follow-up-prospek",
@@ -2944,10 +2052,6 @@ export const meta: PostMeta[] = [
       "pelanggan",
       "otomasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
-      alt: "Dua perempuan memakai headset di ruang kerja kantor yang terang",
-    }
   },
   {
     slug: "strategi-backup-data-bisnis",
@@ -2960,10 +2064,6 @@ export const meta: PostMeta[] = [
       "keamanan",
       "data"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1601737487795-dab272f52420",
-      alt: "Hard disk eksternal berwarna perak dan hitam",
-    }
   },
   {
     slug: "seo-dasar-website-perusahaan",
@@ -2975,10 +2075,6 @@ export const meta: PostMeta[] = [
       "seo",
       "website"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1559028012-481c04fa702d",
-      alt: "Monitor menampilkan rancangan halaman website di aplikasi desain"
-    }
   },
   {
     slug: "sistem-informasi-sekolah",
@@ -2991,10 +2087,6 @@ export const meta: PostMeta[] = [
       "data",
       "implementasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1509062522246-3755977927d7",
-      alt: "Guru mengajar di depan kelas yang berisi murid"
-    }
   },
   {
     slug: "membaca-proposal-software-house",
@@ -3008,10 +2100,6 @@ export const meta: PostMeta[] = [
       "kontrak",
       "custom-software"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1565688534245-05d6b5be184a",
-      alt: "Dua orang meninjau dokumen kertas di atas meja"
-    }
   },
   {
     slug: "otomatisasi-input-data-dari-dokumen",
@@ -3025,10 +2113,6 @@ export const meta: PostMeta[] = [
       "data",
       "keuangan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
-      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja"
-    }
   },
   {
     slug: "menerapkan-qris-di-kasir",
@@ -3042,10 +2126,6 @@ export const meta: PostMeta[] = [
       "retail",
       "umkm"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
-      alt: "Pelanggan menempelkan kartu pembayaran ke mesin pembaca nontunai"
-    }
   },
   {
     slug: "stock-opname-tanpa-menghentikan-operasional",
@@ -3058,10 +2138,6 @@ export const meta: PostMeta[] = [
       "erp",
       "operasional"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
-      alt: "Lorong gudang dengan rak tinggi berisi tumpukan kardus"
-    }
   },
   {
     slug: "menyusun-proses-onboarding-karyawan",
@@ -3074,10 +2150,6 @@ export const meta: PostMeta[] = [
       "karyawan",
       "operasional"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1546435269-527d657231eb",
-      alt: "Seseorang berdiri di depan papan selamat datang",
-    }
   },
   {
     slug: "data-pelanggan-tersebar-di-whatsapp-sales",
@@ -3091,10 +2163,6 @@ export const meta: PostMeta[] = [
       "sales",
       "data"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1611746872915-64382b5c76da",
-      alt: "Layar ponsel menampilkan kumpulan aplikasi pesan instan"
-    }
   },
   {
     slug: "apa-itu-api-untuk-pemilik-bisnis",
@@ -3106,10 +2174,6 @@ export const meta: PostMeta[] = [
       "api",
       "integrasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1542831371-29b0f74f9713",
-      alt: "Potongan kode program berwarna di layar monitor"
-    }
   },
   {
     slug: "kecepatan-website-dan-dampaknya",
@@ -3121,10 +2185,6 @@ export const meta: PostMeta[] = [
       "website",
       "seo"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1704265586142-db3e17d0dea0",
-      alt: "Stopwatch dalam jarak dekat di latar hitam",
-    }
   },
   {
     slug: "kebutuhan-sistem-bisnis-distribusi",
@@ -3138,10 +2198,6 @@ export const meta: PostMeta[] = [
       "multi-cabang",
       "mobile"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
-      alt: "Gudang distribusi besar dengan rak dan tumpukan kontainer kuning"
-    }
   },
   {
     slug: "saas-atau-lisensi-sekali-beli",
@@ -3154,10 +2210,6 @@ export const meta: PostMeta[] = [
       "biaya",
       "vendor"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e",
-      alt: "Tunas tanaman tumbuh dari tumpukan koin"
-    }
   },
   {
     slug: "risiko-ai-dalam-operasional",
@@ -3170,10 +2222,6 @@ export const meta: PostMeta[] = [
       "otomasi",
       "keamanan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-      alt: "Tulisan AI tiga dimensi berwarna biru"
-    }
   },
   {
     slug: "mengelola-promo-dan-diskon",
@@ -3187,10 +2235,6 @@ export const meta: PostMeta[] = [
       "pelaporan",
       "pelanggan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
-      alt: "Tas belanja merah dan hitam berjajar di atas latar gelap"
-    }
   },
   {
     slug: "konsolidasi-laporan-multi-cabang",
@@ -3204,10 +2248,6 @@ export const meta: PostMeta[] = [
       "keuangan",
       "pelaporan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
-      alt: "Laptop menampilkan dashboard berisi grafik dan tabel laporan"
-    }
   },
   {
     slug: "penilaian-kinerja-yang-bisa-dipertanggungjawabkan",
@@ -3220,10 +2260,6 @@ export const meta: PostMeta[] = [
       "karyawan",
       "pelaporan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
-      alt: "Beberapa orang berdiskusi di meja kayu sambil mencatat"
-    }
   },
   {
     slug: "metrik-performa-tim-sales",
@@ -3236,10 +2272,6 @@ export const meta: PostMeta[] = [
       "sales",
       "pelaporan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
-      alt: "Seseorang mempresentasikan rencana di papan tulis kepada timnya"
-    }
   },
   {
     slug: "merancang-hak-akses-pengguna",
@@ -3251,10 +2283,6 @@ export const meta: PostMeta[] = [
       "keamanan",
       "data"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1592744254966-58c65cfd2e69",
-      alt: "Kunci kombinasi berwarna perak dan hitam",
-    }
   },
   {
     slug: "landing-page-atau-website-lengkap",
@@ -3266,10 +2294,6 @@ export const meta: PostMeta[] = [
       "website",
       "biaya"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e",
-      alt: "Tangan membuat sketsa rancangan tampilan halaman web di kertas"
-    }
   },
   {
     slug: "sistem-produksi-manufaktur-skala-menengah",
@@ -3282,10 +2306,6 @@ export const meta: PostMeta[] = [
       "inventori",
       "erp"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122",
-      alt: "Pekerja memotong logam dengan percikan api di area produksi"
-    }
   },
   {
     slug: "poin-penting-kontrak-pengembangan-software",
@@ -3298,10 +2318,6 @@ export const meta: PostMeta[] = [
       "vendor",
       "custom-software"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
-      alt: "Patung Dewi Keadilan memegang timbangan"
-    }
   },
   {
     slug: "otomatisasi-laporan-rutin",
@@ -3314,10 +2330,6 @@ export const meta: PostMeta[] = [
       "pelaporan",
       "data"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1593062037896-764e9f52029e",
-      alt: "Roda gigi logam yang saling bertaut",
-    }
   },
   {
     slug: "menyatukan-stok-toko-fisik-dan-marketplace",
@@ -3331,10 +2343,6 @@ export const meta: PostMeta[] = [
       "inventori",
       "integrasi"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1580674285054-bed31e145f59",
-      alt: "Tumpukan paket kardus siap kirim di ruang penyimpanan"
-    }
   },
   {
     slug: "mengukur-keberhasilan-implementasi-erp",
@@ -3347,10 +2355,6 @@ export const meta: PostMeta[] = [
       "implementasi",
       "pelaporan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
-      alt: "Kertas berisi grafik garis naik di samping penggaris dan pena di meja kayu"
-    }
   },
   {
     slug: "perhitungan-lembur-di-sistem-hr",
@@ -3363,10 +2367,6 @@ export const meta: PostMeta[] = [
       "payroll",
       "karyawan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1779444480542-959afceec330",
-      alt: "Meja kerja malam hari dengan laptop, lampu, dan cahaya kota",
-    }
   },
   {
     slug: "kebutuhan-crm-untuk-bisnis-b2b",
@@ -3379,10 +2379,6 @@ export const meta: PostMeta[] = [
       "sales",
       "pelanggan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
-      alt: "Dua orang berjabat tangan di ruang kantor"
-    }
   },
   {
     slug: "aplikasi-web-mobile-atau-keduanya",
@@ -3395,10 +2391,6 @@ export const meta: PostMeta[] = [
       "website",
       "custom-software"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
-      alt: "Seseorang memegang ponsel di depan laptop yang membuka aplikasi serupa"
-    }
   },
   {
     slug: "toko-online-sendiri-atau-marketplace",
@@ -3411,10 +2403,6 @@ export const meta: PostMeta[] = [
       "website",
       "biaya"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
-      alt: "Seseorang memegang kartu pembayaran sambil berbelanja di laptop"
-    }
   },
   {
     slug: "sistem-operasional-bisnis-jasa-profesional",
@@ -3428,10 +2416,6 @@ export const meta: PostMeta[] = [
       "operasional",
       "keuangan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
-      alt: "Tim berdiskusi di meja rapat dengan laptop terbuka"
-    }
   },
   {
     slug: "mengelola-resistensi-tim-saat-ganti-sistem",
@@ -3444,10 +2428,6 @@ export const meta: PostMeta[] = [
       "implementasi",
       "karyawan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1543269865-cbf427effbad",
-      alt: "Sekelompok rekan kerja berdiskusi santai di sekitar meja"
-    }
   },
   {
     slug: "program-loyalitas-pelanggan-yang-terukur",
@@ -3461,10 +2441,6 @@ export const meta: PostMeta[] = [
       "pelanggan",
       "data"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
-      alt: "Interior toko pakaian dengan rak gantung dan meja display"
-    }
   },
   {
     slug: "menjaga-keamanan-data-pribadi-karyawan",
@@ -3478,10 +2454,6 @@ export const meta: PostMeta[] = [
       "data",
       "karyawan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1586281380349-632531db7ed4",
-      alt: "Papan klip berisi lembar resume di samping laptop"
-    }
   },
   {
     slug: "keamanan-dasar-aplikasi-bisnis",
@@ -3494,10 +2466,6 @@ export const meta: PostMeta[] = [
       "custom-software",
       "infrastruktur"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
-      alt: "Gembok merah di atas keyboard komputer hitam",
-    }
   },
   {
     slug: "laporan-penjualan-yang-dipantau-harian",
@@ -3510,10 +2478,6 @@ export const meta: PostMeta[] = [
       "retail",
       "pelaporan"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1604719312566-8912e9227c6a",
-      alt: "Lorong supermarket dengan rak penuh produk"
-    }
   },
   {
     slug: "kapan-aplikasi-perlu-bekerja-offline",
@@ -3526,9 +2490,5 @@ export const meta: PostMeta[] = [
       "operasional",
       "custom-software"
     ],
-    cover: {
-      src: "https://images.unsplash.com/photo-1606904825846-647eb07f5be2",
-      alt: "Router putih di atas meja putih",
-    }
   }
 ];

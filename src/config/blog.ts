@@ -86,15 +86,6 @@ export type BlogTag =
   | "operasional"
   | "pembayaran";
 
-export type BlogCover = {
-  /** Unsplash CDN base URL, without sizing params — the image loader adds them. */
-  src: string;
-  /** Describes what is actually in the photo, for screen readers and image search. */
-  alt: string;
-  /** EN/ZH alt text — set together with the post's title translations. */
-  altTranslations?: PostTextTranslations;
-};
-
 /** English/Chinese title and excerpt for a post authored with translations. */
 export type PostTextTranslations = { en: string; zh: string };
 
@@ -108,7 +99,6 @@ export type PostMeta = {
   /** Last substantive revision. Defaults to publishedAt when omitted. */
   updatedAt?: string; // ISO date
   tags: BlogTag[];
-  cover: BlogCover;
   /**
    * Optional EN/ZH title and excerpt. Posts without this fall back to the
    * Indonesian `title`/`excerpt` for every locale, same as before this field
@@ -170,10 +160,12 @@ export function getPostExcerpt(post: BlogPost, locale: Locale) {
   return post.excerptTranslations?.[locale] ?? post.excerpt;
 }
 
-/** Cover alt text in the given locale, falling back to the Indonesian original. */
+const coverAltPrefix = { id: "Sampul artikel", en: "Article cover", zh: "文章封面" } as const;
+
+/** Accessible name of the generated cover, in the given locale. */
 export function getCoverAlt(post: PostMeta, locale: Locale) {
-  if (locale === "id") return post.cover.alt;
-  return post.cover.altTranslations?.[locale] ?? post.cover.alt;
+  const title = locale === "id" ? post.title : (post.titleTranslations?.[locale] ?? post.title);
+  return `${coverAltPrefix[locale]}: ${title}`;
 }
 
 /** Article body in the given locale, falling back to the Indonesian original. */
@@ -395,9 +387,4 @@ export function formatPostDate(iso: string, locale: Locale = "id") {
     month: "long",
     year: "numeric",
   });
-}
-
-/** Builds a fixed-size Unsplash URL — for places the image loader does not run, like OG tags. */
-export function coverUrl(src: string, width: number) {
-  return `${src}?auto=format&fit=crop&q=75&w=${width}`;
 }
