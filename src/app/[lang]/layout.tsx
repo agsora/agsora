@@ -117,7 +117,7 @@ export default async function RootLayout({ children, params }: Props) {
         name: siteConfig.legalName,
         alternateName: siteConfig.brandMark,
         url: absoluteUrl("/", lang),
-        logo: `${siteConfig.url}/apple-icon`,
+        logo: `${siteConfig.url}/apple-icon.png`,
         description: pageMeta.about[lang].description,
         email: siteConfig.email,
         sameAs: [

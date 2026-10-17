@@ -117,7 +117,7 @@ export default async function BlogPostPage({ params }: Props) {
         publisher: {
           "@type": "Organization",
           name: siteConfig.legalName,
-          logo: { "@type": "ImageObject", url: `${siteConfig.url}/apple-icon` },
+          logo: { "@type": "ImageObject", url: `${siteConfig.url}/apple-icon.png` },
         },
         mainEntityOfPage: absoluteUrl(`/blog/${post.slug}`, locale),
       },
