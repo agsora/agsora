@@ -86,11 +86,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: home.title,
       description: home.description,
     },
-    // Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION in Vercel env vars once the
-    // property is added in Google Search Console — avoids hardcoding a token.
-    verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
-      ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
-      : undefined,
+    // Google's token comes from NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION in the
+    // Vercel env vars. Bing's (Webmaster Tools, HTML meta tag method) is
+    // public by design and must stay in place for the site to stay verified.
+    verification: {
+      ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+        ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+        : {}),
+      other: { "msvalidate.01": "AF18BF66E4D9216B446ABDE42103D4DB" },
+    },
   };
 }
 
