@@ -95,6 +95,11 @@ import { translations as t_schema_markup_dan_data_terstruktur_untuk_seo_website_
 import { translations as t_rekomendasi_produk_dan_personalisasi_toko_online_dengan_ai } from "./rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai";
 import { translations as t_monolit_atau_microservices_arsitektur_aplikasi_bisnis } from "./monolit-atau-microservices-arsitektur-aplikasi-bisnis";
 import { translations as t_phishing_ransomware_dan_keamanan_siber_untuk_umkm } from "./phishing-ransomware-dan-keamanan-siber-untuk-umkm";
+import { translations as t_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag } from "./chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag";
+import { translations as t_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga } from "./first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga";
+import { translations as t_hpp_dan_akuntansi_biaya_produk_di_erp } from "./hpp-dan-akuntansi-biaya-produk-di-erp";
+import { translations as t_rekrutmen_dan_applicant_tracking_system_untuk_bisnis_berkembang } from "./rekrutmen-dan-applicant-tracking-system-untuk-bisnis-berkembang";
+import { translations as t_kebijakan_penggunaan_ai_dan_tata_kelola_ai_di_perusahaan } from "./kebijakan-penggunaan-ai-dan-tata-kelola-ai-di-perusahaan";
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
 /**
@@ -104,6 +109,11 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": t_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag,
+  "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga": t_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga,
+  "hpp-dan-akuntansi-biaya-produk-di-erp": t_hpp_dan_akuntansi_biaya_produk_di_erp,
+  "rekrutmen-dan-applicant-tracking-system-untuk-bisnis-berkembang": t_rekrutmen_dan_applicant_tracking_system_untuk_bisnis_berkembang,
+  "kebijakan-penggunaan-ai-dan-tata-kelola-ai-di-perusahaan": t_kebijakan_penggunaan_ai_dan_tata_kelola_ai_di_perusahaan,
   "observabilitas-log-dan-penanganan-error-aplikasi-bisnis": t_observabilitas_log_dan_penanganan_error_aplikasi_bisnis,
   "ulasan-pelanggan-dan-manajemen-reputasi-online": t_ulasan_pelanggan_dan_manajemen_reputasi_online,
   "agile-atau-waterfall-metode-proyek-software-untuk-bisnis": t_agile_atau_waterfall_metode_proyek_software_untuk_bisnis,

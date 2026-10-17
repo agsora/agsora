@@ -6,6 +6,131 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag",
+    title: "Chatbot AI Berbasis Pengetahuan Perusahaan dengan RAG: Jawaban Akurat dari Dokumen Anda",
+    excerpt: "Cara kerja RAG, kasus penggunaan untuk bisnis, tahapan membangun asisten AI dari dokumen sendiri, keamanan data, serta cara mengukur mutu jawaban.",
+    category: "Teknologi",
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    tags: ["ai","data","otomasi"],
+    titleTranslations: {
+      en: "Chatbot AI Powered by Company Knowledge with RAG: Accurate Answers from Your Documents",
+      zh: "基于企业知识的 RAG AI 聊天机器人：依据您自己的文档给出准确答案",
+    },
+    excerptTranslations: {
+      en: "How RAG works, business use cases, steps to build an AI assistant from your own documents, data security, and how to measure answer quality.",
+      zh: "RAG 的工作原理、企业应用场景、依据自有文档搭建 AI 助手的步骤、数据安全以及如何衡量答案质量。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb",
+      alt: "Baris kode berwarna di layar gelap dengan fokus yang sebagian kabur",
+      altTranslations: {
+        en: "Lines of coloured code on a dark screen with partly blurred focus",
+        zh: "深色屏幕上彩色的代码行，焦点局部模糊",
+      },
+    },
+  },
+  {
+    slug: "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga",
+    title: "First-Party Data dan Pelacakan Tanpa Cookie Pihak Ketiga: Mengenal Pelanggan dengan Cara Sah",
+    excerpt: "Panduan membangun first-party data: jenis data, nilai tukar yang adil, fondasi teknis, pengelolaan persetujuan, dan cara mengukur pemasaran saat pelacakan lintas situs terbatas.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    tags: ["data","pelanggan","website"],
+    titleTranslations: {
+      en: "First-Party Data and Tracking Without Third-Party Cookies: Knowing Customers the Lawful Way",
+      zh: "第一方数据与无第三方 Cookie 的追踪：以合规方式了解客户",
+    },
+    excerptTranslations: {
+      en: "A guide to building first-party data: data types, a fair value exchange, technical foundations, consent management, and measuring marketing when cross-site tracking is limited.",
+      zh: "构建第一方数据指南：数据类型、公平的价值交换、技术基础、同意管理，以及跨站追踪受限时如何衡量营销。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+      alt: "Laptop menampilkan grafik analitik di atas meja kerja",
+      altTranslations: {
+        en: "A laptop showing analytics charts on a work desk",
+        zh: "工作桌上的笔记本电脑显示分析图表",
+      },
+    },
+  },
+  {
+    slug: "hpp-dan-akuntansi-biaya-produk-di-erp",
+    title: "HPP dan Akuntansi Biaya Produk di ERP: Mengetahui Margin Sebenarnya",
+    excerpt: "Komponen HPP, metode penilaian persediaan, pembebanan overhead, biaya standar dan varians, serta cara ERP menghitung dan memantau margin per produk.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    tags: ["erp","keuangan","inventori"],
+    titleTranslations: {
+      en: "COGS and Product Cost Accounting in an ERP: Knowing Your True Margin",
+      zh: "ERP 中的销货成本与产品成本会计：了解真实利润率",
+    },
+    excerptTranslations: {
+      en: "COGS components, inventory valuation methods, overhead allocation, standard cost and variances, and how an ERP calculates and monitors margin per product.",
+      zh: "销货成本构成、存货计价方法、制造费用分摊、标准成本与差异，以及 ERP 如何计算和监控每个产品的利润率。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+      alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
+      altTranslations: {
+        en: "A pile of forms, receipts, and a calculator on a desk",
+        zh: "桌上堆放的表格、收据和计算器",
+      },
+    },
+  },
+  {
+    slug: "rekrutmen-dan-applicant-tracking-system-untuk-bisnis-berkembang",
+    title: "Rekrutmen dan Applicant Tracking System untuk Bisnis yang Berkembang",
+    excerpt: "Kapan bisnis butuh ATS, fungsi intinya, merancang alur rekrutmen yang adil, menjaga pengalaman kandidat, pelindungan data pelamar, dan memilih sistem yang tepat.",
+    category: "HR & Tim",
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    tags: ["hris","karyawan","operasional"],
+    titleTranslations: {
+      en: "Recruitment and Applicant Tracking Systems for a Growing Business",
+      zh: "成长型企业的招聘与应聘者跟踪系统",
+    },
+    excerptTranslations: {
+      en: "When a business needs an ATS, its core functions, designing a fair hiring flow, protecting candidate experience, applicant data protection, and choosing the right system.",
+      zh: "企业何时需要 ATS、核心功能、设计公平的招聘流程、保护候选人体验、应聘者数据保护以及选择合适的系统。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+      alt: "Seorang perempuan berjas abu-abu tersenyum sambil memangku laptop di dekat jendela",
+      altTranslations: {
+        en: "A woman in a grey blazer smiling with a laptop on her lap near a window",
+        zh: "一位身穿灰色西装外套的女士在窗边微笑，腿上放着笔记本电脑",
+      },
+    },
+  },
+  {
+    slug: "kebijakan-penggunaan-ai-dan-tata-kelola-ai-di-perusahaan",
+    title: "Kebijakan Penggunaan AI dan Tata Kelola AI di Perusahaan: Aman dan Bertanggung Jawab",
+    excerpt: "Risiko AI di tempat kerja, unsur kebijakan penggunaan AI, klasifikasi data, penilaian alat, pengawasan manusia, pelatihan, dan peninjauan berkala.",
+    category: "Teknologi",
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    tags: ["ai","keamanan","operasional"],
+    titleTranslations: {
+      en: "AI Usage Policy and AI Governance in the Company: Safe and Responsible",
+      zh: "企业的 AI 使用政策与 AI 治理：安全且负责任",
+    },
+    excerptTranslations: {
+      en: "AI risks at work, elements of an AI usage policy, data classification, tool assessment, human oversight, training, and periodic review.",
+      zh: "工作中的 AI 风险、AI 使用政策的要素、数据分类、工具评估、人工监督、培训与定期复审。",
+    },
+    cover: {
+      src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+      alt: "Seorang pria berjas gelap dan dasi bergaris merapikan kancing jasnya di dekat tangga",
+      altTranslations: {
+        en: "A man in a dark suit and striped tie adjusting his jacket button near a staircase",
+        zh: "一名身穿深色西装、系着条纹领带的男子在楼梯旁整理外套纽扣",
+      },
+    },
+  },
+  {
     slug: "implementasi-erp-bertahap-atau-big-bang-strategi-go-live",
     title: "Implementasi ERP Bertahap atau Big Bang: Memilih Strategi Go-Live yang Aman",
     excerpt: "Membandingkan peluncuran ERP big bang dan bertahap, faktor penentu pilihan, persiapan migrasi data, pengujian, pelatihan, kriteria go/no-go, dan stabilisasi setelah go-live.",
@@ -1019,7 +1144,7 @@ export const meta: PostMeta[] = [
     },
     excerptTranslations: {
       en: "When stock records are no longer enough: layout and location codes, the receive-store-pick-ship flow, barcodes, rolling counts, lots and expiry, a returns area, sales channel integration, and choosing a suitable system level.",
-      zh: "库存记录何时不再够用：布局与货位编码、收货—上架—拣货—发货流程、条码、滚动盘点、批号与有效期、退货区、销售渠道集成，以及选择合适的系统层级。",
+      zh: "库存记录何时不再够用：布局与货位编码、收货，上架，拣货，发货流程、条码、滚动盘点、批号与有效期、退货区、销售渠道集成，以及选择合适的系统层级。",
     },
     cover: {
       src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
@@ -2192,7 +2317,7 @@ export const meta: PostMeta[] = [
   {
     slug: "erp-dan-visibilitas-arus-kas",
     title: "ERP dan Visibilitas Arus Kas: Kenapa Bisnis Untung Bisa Kekurangan Uang",
-    excerpt: "Laporan laba rugi sehat, tapi kas menipis. ERP menghubungkan piutang, utang, dan persediaan sehingga posisi kas terlihat lebih awal — asalkan datanya dicatat dengan disiplin.",
+    excerpt: "Laporan laba rugi sehat, tapi kas menipis. ERP menghubungkan piutang, utang, dan persediaan sehingga posisi kas terlihat lebih awal, asalkan datanya dicatat dengan disiplin.",
     category: "ERP & Operasional",
     publishedAt: "2026-09-27",
     updatedAt: "2026-09-27",
@@ -2207,8 +2332,8 @@ export const meta: PostMeta[] = [
       zh: "ERP 与现金流可见性:为什么盈利的企业也会缺钱",
     },
     excerptTranslations: {
-      en: "The profit and loss looks healthy, yet cash is running thin. ERP connects receivables, payables, and inventory so the cash position becomes visible earlier — as long as the data is recorded with discipline.",
-      zh: "损益表很健康,现金却越来越紧。ERP 把应收、应付和库存连接起来,让现金状况更早显现——前提是数据得到有纪律的记录。",
+      en: "The profit and loss looks healthy, yet cash is running thin. ERP connects receivables, payables, and inventory so the cash position becomes visible earlier, as long as the data is recorded with discipline.",
+      zh: "损益表很健康,现金却越来越紧。ERP 把应收、应付和库存连接起来,让现金状况更早显现，前提是数据得到有纪律的记录。",
     },
     cover: {
       src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07",
@@ -2324,7 +2449,7 @@ export const meta: PostMeta[] = [
       zh: "企业已经准备好拥有自己应用的迹象",
     },
     excerptTranslations: {
-      en: "An app isn't a status symbol — it's a tool for removing costly manual processes. These are the signs that usually show up before that decision gets made.",
+      en: "An app isn't a status symbol, it's a tool for removing costly manual processes. These are the signs that usually show up before that decision gets made.",
       zh: "应用不是身份的象征,而是消除高成本人工流程的工具。这些是做出这个决定之前通常会出现的迹象。",
     },
     cover: {
@@ -2512,7 +2637,7 @@ export const meta: PostMeta[] = [
   {
     slug: "biaya-tersembunyi-data-silo",
     title: "Data Silo: Biaya yang Jarang Dihitung",
-    excerpt: "Ketika setiap divisi punya catatan sendiri, biayanya tidak muncul sebagai tagihan — melainkan sebagai waktu, selisih, dan keputusan yang meleset.",
+    excerpt: "Ketika setiap divisi punya catatan sendiri, biayanya tidak muncul sebagai tagihan, melainkan sebagai waktu, selisih, dan keputusan yang meleset.",
     category: "ERP & Operasional",
     publishedAt: "2026-08-16",
     tags: [
@@ -2576,7 +2701,7 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "kenapa-project-software-gagal",
-    title: "Kenapa Project Software Gagal — dan Cara Menghindarinya",
+    title: "Kenapa Project Software Gagal, dan Cara Menghindarinya",
     excerpt: "Kegagalan jarang disebabkan oleh pilihan teknologi. Penyebabnya biasanya sudah ada sejak sebelum baris kode pertama ditulis.",
     category: "Strategi Bisnis",
     publishedAt: "2026-07-25",
@@ -2593,7 +2718,7 @@ export const meta: PostMeta[] = [
   {
     slug: "digitalisasi-umkm-mulai-dari-mana",
     title: "Digitalisasi UMKM: Mulai dari Mana?",
-    excerpt: "Digitalisasi tidak harus dimulai dari sistem besar. Untuk UMKM, langkah paling berguna biasanya justru yang paling sederhana — asal urutannya tepat.",
+    excerpt: "Digitalisasi tidak harus dimulai dari sistem besar. Untuk UMKM, langkah paling berguna biasanya justru yang paling sederhana, asal urutannya tepat.",
     category: "Strategi Bisnis",
     publishedAt: "2026-09-12",
     tags: [
@@ -2858,7 +2983,7 @@ export const meta: PostMeta[] = [
   {
     slug: "sistem-informasi-sekolah",
     title: "Sistem Informasi Sekolah yang Benar-benar Dipakai",
-    excerpt: "Banyak sistem sekolah hanya aktif di awal tahun ajaran, lalu ditinggalkan. Penyebabnya jarang soal fitur — lebih sering soal siapa yang harus mengisinya.",
+    excerpt: "Banyak sistem sekolah hanya aktif di awal tahun ajaran, lalu ditinggalkan. Penyebabnya jarang soal fitur, lebih sering soal siapa yang harus mengisinya.",
     category: "Panduan Industri",
     publishedAt: "2026-08-03",
     tags: [
@@ -2891,7 +3016,7 @@ export const meta: PostMeta[] = [
   {
     slug: "otomatisasi-input-data-dari-dokumen",
     title: "Mengotomatiskan Input Data dari Dokumen dan Faktur",
-    excerpt: "Menyalin data dari faktur, nota, dan formulir ke sistem adalah pekerjaan berulang yang rawan salah ketik. Otomatisasi bisa membantu — dengan pemeriksaan yang tepat.",
+    excerpt: "Menyalin data dari faktur, nota, dan formulir ke sistem adalah pekerjaan berulang yang rawan salah ketik. Otomatisasi bisa membantu, dengan pemeriksaan yang tepat.",
     category: "Teknologi",
     publishedAt: "2026-07-30",
     tags: [
@@ -2957,7 +3082,7 @@ export const meta: PostMeta[] = [
   {
     slug: "data-pelanggan-tersebar-di-whatsapp-sales",
     title: "Ketika Data Pelanggan Tersebar di WhatsApp Pribadi Sales",
-    excerpt: "Percakapan dengan pelanggan di WhatsApp pribadi terasa praktis — sampai sales tersebut keluar dan membawa semua riwayatnya. Ini cara mengelolanya lebih aman.",
+    excerpt: "Percakapan dengan pelanggan di WhatsApp pribadi terasa praktis, sampai sales tersebut keluar dan membawa semua riwayatnya. Ini cara mengelolanya lebih aman.",
     category: "Penjualan & CRM",
     publishedAt: "2026-07-22",
     tags: [
@@ -3021,7 +3146,7 @@ export const meta: PostMeta[] = [
   {
     slug: "saas-atau-lisensi-sekali-beli",
     title: "Berlangganan SaaS atau Lisensi Sekali Beli?",
-    excerpt: "Biaya bulanan terlihat lebih ringan, lisensi sekali beli terlihat lebih hemat. Keduanya bisa benar — tergantung apa saja yang dihitung.",
+    excerpt: "Biaya bulanan terlihat lebih ringan, lisensi sekali beli terlihat lebih hemat. Keduanya bisa benar, tergantung apa saja yang dihitung.",
     category: "Panduan Memilih",
     publishedAt: "2026-07-14",
     tags: [
@@ -3197,7 +3322,7 @@ export const meta: PostMeta[] = [
   {
     slug: "menyatukan-stok-toko-fisik-dan-marketplace",
     title: "Menyatukan Stok Toko Fisik dan Marketplace",
-    excerpt: "Menjual di toko fisik dan beberapa marketplace sekaligus membuka pasar baru — sekaligus risiko menjual barang yang sebenarnya sudah habis.",
+    excerpt: "Menjual di toko fisik dan beberapa marketplace sekaligus membuka pasar baru, sekaligus risiko menjual barang yang sebenarnya sudah habis.",
     category: "POS & Retail",
     publishedAt: "2026-06-22",
     tags: [
@@ -3311,7 +3436,7 @@ export const meta: PostMeta[] = [
   {
     slug: "mengelola-resistensi-tim-saat-ganti-sistem",
     title: "Mengelola Resistensi Tim Saat Ganti Sistem",
-    excerpt: "Sistem baru yang bagus bisa gagal karena tim menolak memakainya. Resistensi bukan tanda tim yang buruk — biasanya tanda kekhawatiran yang belum dijawab.",
+    excerpt: "Sistem baru yang bagus bisa gagal karena tim menolak memakainya. Resistensi bukan tanda tim yang buruk, biasanya tanda kekhawatiran yang belum dijawab.",
     category: "Strategi Bisnis",
     publishedAt: "2026-06-08",
     tags: [

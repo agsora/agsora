@@ -156,7 +156,17 @@ import { body as b_schema_markup_dan_data_terstruktur_untuk_seo_website_bisnis }
 import { body as b_rekomendasi_produk_dan_personalisasi_toko_online_dengan_ai } from "./rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai";
 import { body as b_monolit_atau_microservices_arsitektur_aplikasi_bisnis } from "./monolit-atau-microservices-arsitektur-aplikasi-bisnis";
 import { body as b_phishing_ransomware_dan_keamanan_siber_untuk_umkm } from "./phishing-ransomware-dan-keamanan-siber-untuk-umkm";
+import { body as b_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag } from "./chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag";
+import { body as b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga } from "./first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga";
+import { body as b_hpp_dan_akuntansi_biaya_produk_di_erp } from "./hpp-dan-akuntansi-biaya-produk-di-erp";
+import { body as b_rekrutmen_dan_applicant_tracking_system_untuk_bisnis_berkembang } from "./rekrutmen-dan-applicant-tracking-system-untuk-bisnis-berkembang";
+import { body as b_kebijakan_penggunaan_ai_dan_tata_kelola_ai_di_perusahaan } from "./kebijakan-penggunaan-ai-dan-tata-kelola-ai-di-perusahaan";
 export const bodies: Record<string, Block[]> = {
+  "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": b_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag,
+  "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga": b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga,
+  "hpp-dan-akuntansi-biaya-produk-di-erp": b_hpp_dan_akuntansi_biaya_produk_di_erp,
+  "rekrutmen-dan-applicant-tracking-system-untuk-bisnis-berkembang": b_rekrutmen_dan_applicant_tracking_system_untuk_bisnis_berkembang,
+  "kebijakan-penggunaan-ai-dan-tata-kelola-ai-di-perusahaan": b_kebijakan_penggunaan_ai_dan_tata_kelola_ai_di_perusahaan,
   "observabilitas-log-dan-penanganan-error-aplikasi-bisnis": b_observabilitas_log_dan_penanganan_error_aplikasi_bisnis,
   "ulasan-pelanggan-dan-manajemen-reputasi-online": b_ulasan_pelanggan_dan_manajemen_reputasi_online,
   "agile-atau-waterfall-metode-proyek-software-untuk-bisnis": b_agile_atau_waterfall_metode_proyek_software_untuk_bisnis,
