@@ -38,7 +38,7 @@ function PostGrid({
   stats: Record<string, BlogStat> | null;
 }) {
   return (
-    <div className="grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 lg:gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {posts.map((post) => (
         <PostCard key={post.slug} post={post} stats={stats} />
       ))}

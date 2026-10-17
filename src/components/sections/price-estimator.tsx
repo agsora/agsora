@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { customDevPricing } from "@/config/pricing";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
+import { Eyebrow } from "@/components/ui/section";
 import { cn, formatRupiah } from "@/lib/utils";
 
 // Quoted-per-project items have no price to add up.
@@ -27,10 +28,10 @@ export function PriceEstimator() {
   }
 
   return (
-    <div className="rounded-lg border border-line bg-surface-1 p-6 md:p-8">
-      <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">{g.eyebrow}</p>
-      <h2 className="headline mt-3 text-[24px] font-semibold text-ink sm:text-[28px]">{g.title}</h2>
-      <p className="mt-3 max-w-xl text-[14px] leading-relaxed text-ink-muted">{g.description}</p>
+    <div className="rounded-[2rem] border border-line bg-surface-1 p-6 md:p-10">
+      <Eyebrow>{g.eyebrow}</Eyebrow>
+      <h2 className="headline mt-5 text-[28px] font-extrabold text-ink sm:text-[34px]">{g.title}</h2>
+      <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-ink-muted">{g.description}</p>
 
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
         <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
@@ -44,20 +45,20 @@ export function PriceEstimator() {
                 aria-checked={on}
                 onClick={() => toggle(item.id)}
                 className={cn(
-                  "focus-ring flex items-start gap-3 rounded-md border px-3.5 py-3 text-left transition-colors",
-                  on ? "border-accent bg-surface-2" : "border-line hover:border-line-strong"
+                  "focus-ring flex items-start gap-3 rounded-2xl border bg-surface-0 px-4 py-3.5 text-left transition-all",
+                  on ? "border-ink shadow-card" : "border-line hover:border-line-strong"
                 )}
               >
                 <span
                   className={cn(
-                    "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-sm border",
-                    on ? "border-accent bg-accent text-surface-0" : "border-line-strong"
+                    "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border",
+                    on ? "border-ink bg-ink text-surface-0" : "border-line-strong"
                   )}
                 >
                   {on ? <Check className="h-3 w-3" strokeWidth={3} /> : null}
                 </span>
                 <span>
-                  <span className="block text-[13px] text-ink">{item.name[locale]}</span>
+                  <span className="block text-[14px] font-semibold text-ink">{item.name[locale]}</span>
                   <span className="mt-0.5 block text-[12px] tabular-nums text-ink-subtle">
                     {formatRupiah(item.price ?? 0, locale)}
                     {item.unit ? ` ${item.unit[locale]}` : ""}
@@ -68,22 +69,22 @@ export function PriceEstimator() {
           })}
         </div>
 
-        <div className="self-start rounded-md border border-line bg-surface-0 p-5">
+        <div className="self-start rounded-3xl border border-line bg-surface-0 p-6 shadow-card lg:sticky lg:top-24">
           {chosen.length === 0 ? (
             <p className="text-[13px] text-ink-subtle">{g.empty}</p>
           ) : (
             <>
               {oneTime > 0 ? (
                 <div>
-                  <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">{g.oneTime}</p>
-                  <p className="mt-2 text-[26px] font-semibold tabular-nums text-ink">
+                  <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-ink-subtle">{g.oneTime}</p>
+                  <p className="mt-2 text-[32px] font-extrabold tracking-tight tabular-nums text-ink">
                     {formatRupiah(oneTime, locale)}
                   </p>
                 </div>
               ) : null}
               {monthly > 0 ? (
                 <div className={oneTime > 0 ? "mt-4" : ""}>
-                  <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">{g.monthly}</p>
+                  <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-ink-subtle">{g.monthly}</p>
                   <p className="mt-2 text-[20px] font-semibold tabular-nums text-ink">
                     {formatRupiah(monthly, locale)}
                   </p>

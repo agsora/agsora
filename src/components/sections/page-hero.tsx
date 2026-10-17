@@ -33,7 +33,12 @@ export function PageHero({
   const crumbs = after ? [{ name: t.breadcrumbHome, href: "/" }, ...after] : null;
 
   return (
-    <div className="relative overflow-hidden border-b border-line pb-10 pt-10 md:pb-14 md:pt-12">
+    <div className="relative overflow-hidden border-b border-line pb-12 pt-10 md:pb-20 md:pt-14">
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+        <div className="bg-dots absolute inset-0 [mask-image:radial-gradient(ellipse_60%_80%_at_80%_0%,black,transparent)]" />
+        <div className="absolute -right-24 -top-32 h-[380px] w-[380px] rounded-full bg-[#3a5fb4]/15 blur-[110px]" />
+        <div className="absolute -left-32 top-10 h-[320px] w-[320px] rounded-full bg-gold/20 blur-[110px]" />
+      </div>
       {crumbs ? (
         <script
           type="application/ld+json"
@@ -45,18 +50,18 @@ export function PageHero({
           }}
         />
       ) : null}
-      <Container className="max-w-6xl">
+      <Container className="relative max-w-6xl">
         {crumbs ? (
           <div className="mb-10">
             <Breadcrumbs items={crumbs} label={t.breadcrumbLabel} />
           </div>
         ) : null}
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h1 className="headline mt-5 max-w-3xl text-[34px] font-semibold text-ink sm:text-[42px] md:text-[48px]">
+        <h1 className="headline zh-phrases mt-6 max-w-3xl text-balance text-[36px] font-extrabold text-ink sm:text-[46px] md:text-[56px]">
           {title}
         </h1>
         {description ? (
-          <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-ink-muted">
+          <p className="mt-6 max-w-2xl text-pretty text-[16px] leading-relaxed text-ink-muted md:text-[18px]">
             {description}
           </p>
         ) : null}

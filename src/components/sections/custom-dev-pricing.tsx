@@ -37,10 +37,10 @@ export function CustomDevPricing() {
         return (
           <div key={category}>
             <div className="flex items-center gap-2.5">
-              <div className="flex h-7 w-7 items-center justify-center rounded-md border border-line bg-surface-1 text-accent">
-                <Icon className="h-3.5 w-3.5" />
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gold/15 text-accent">
+                <Icon className="h-5 w-5" />
               </div>
-              <h3 className="text-[14px] font-medium text-ink">
+              <h3 className="text-[18px] font-bold text-ink">
                 {categoryLabels[category]}
               </h3>
             </div>
@@ -50,10 +50,10 @@ export function CustomDevPricing() {
                 <RevealItem key={item.id}>
                   <div
                     id={item.id}
-                    className="group h-full scroll-mt-24 rounded-lg border border-line bg-surface-1 p-5 transition-colors hover:border-line-strong hover:bg-surface-2"
+                    className="group h-full scroll-mt-24 rounded-3xl border border-line bg-surface-0 p-6 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-line-strong hover:shadow-elev"
                   >
-                    <p className="text-[13px] text-ink-muted">{item.name[locale]}</p>
-                    <p className="mt-3 text-[20px] font-semibold tabular-nums text-ink">
+                    <p className="text-[14px] font-semibold text-ink-muted">{item.name[locale]}</p>
+                    <p className="mt-3 text-[26px] font-extrabold tracking-tight tabular-nums text-ink">
                       {item.price === null
                         ? t.pricingPage.customQuote
                         : formatRupiah(item.price, locale)}
@@ -67,7 +67,7 @@ export function CustomDevPricing() {
                     <Link
                       href={`/contact?plan=${item.id}&from=/pricing`}
                       onClick={() => track("quote_click", { plan: item.id })}
-                      className="tap focus-ring mt-4 inline-flex items-center gap-1.5 text-[12px] font-medium text-accent transition-colors hover:text-ink"
+                      className="tap focus-ring mt-5 inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3.5 py-1.5 text-[13px] font-semibold text-ink transition-colors hover:bg-ink hover:text-surface-0"
                     >
                       {growth[locale].requestQuote}
                       <ArrowRight className="h-3.5 w-3.5" />

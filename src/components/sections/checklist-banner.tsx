@@ -12,9 +12,9 @@ export function ChecklistBanner() {
   const b = checklistStrings[locale].banner;
   return (
     <Container className="max-w-6xl">
-      <div className="flex flex-col gap-6 rounded-lg border border-line bg-surface-1 p-6 md:flex-row md:items-center md:justify-between md:p-8">
+      <div className="flex flex-col gap-6 rounded-3xl border border-line bg-surface-1 p-6 md:flex-row md:items-center md:justify-between md:p-8">
         <div className="flex items-start gap-4">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-line bg-surface-0 text-accent">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-line bg-surface-0 text-accent">
             <ListChecks className="h-5 w-5" />
           </div>
           <div>

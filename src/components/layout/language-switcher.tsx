@@ -50,7 +50,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         onClick={() => setOpen((v) => !v)}
         aria-label={t.langSwitch.label}
         aria-expanded={open}
-        className="focus-ring flex h-9 items-center gap-1.5 rounded-md border border-line px-2.5 text-[12px] text-ink-muted transition-colors hover:border-line-strong hover:text-ink"
+        className="focus-ring flex h-9 items-center gap-1.5 rounded-xl border border-line px-3 text-[12px] text-ink-muted transition-colors hover:border-line-strong hover:text-ink"
       >
         <Globe className="h-3.5 w-3.5" />
         {current.label}
@@ -58,7 +58,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
 
       <ul
         className={cn(
-          "absolute right-0 top-11 z-50 w-40 overflow-hidden rounded-md border border-line bg-surface-1 py-1 shadow-lg",
+          "absolute right-0 top-11 z-50 w-44 overflow-hidden rounded-xl border border-line bg-surface-0 p-1 shadow-card",
           !open && "hidden"
         )}
       >
@@ -71,7 +71,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
               aria-current={o.code === locale ? "true" : undefined}
               onClick={() => setOpen(false)}
               className={cn(
-                "flex w-full items-center justify-between px-3 py-2 text-[13px] transition-colors hover:bg-surface-2",
+                "flex w-full items-center justify-between rounded-lg px-3 py-2 text-[13px] transition-colors hover:bg-surface-2",
                 o.code === locale ? "text-ink" : "text-ink-muted"
               )}
             >

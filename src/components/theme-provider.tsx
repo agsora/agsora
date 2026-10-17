@@ -15,7 +15,7 @@ const ThemeContext = createContext<{
   theme: Theme;
   toggleTheme: () => void;
 }>({
-  theme: "dark",
+  theme: "light",
   toggleTheme: () => {},
 });
 
@@ -31,10 +31,10 @@ function subscribe(onChange: () => void) {
 }
 
 const getTheme = (): Theme =>
-  document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+  document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const theme = useSyncExternalStore<Theme>(subscribe, getTheme, () => "dark");
+  const theme = useSyncExternalStore<Theme>(subscribe, getTheme, () => "light");
 
   const toggleTheme = () => {
     const next: Theme = theme === "dark" ? "light" : "dark";
@@ -53,16 +53,16 @@ export function useTheme() {
   return useContext(ThemeContext);
 }
 
-/** Inlined in <head> to set the theme before first paint — avoids a flash. */
+/**
+ * Inlined in <head> to set the theme before first paint, avoiding a flash.
+ * Light is the default; dark only when the visitor picked it with the toggle.
+ */
 export const themeInitScript = `
 (function () {
   try {
     var stored = localStorage.getItem('${STORAGE_KEY}');
-    var theme = stored === 'light' || stored === 'dark'
-      ? stored
-      : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-    if (theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
+    if (stored === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
     }
   } catch (e) {}
 })();

@@ -36,7 +36,7 @@ export function PostTocMobile({ blocks }: { blocks: Block[] }) {
   const label = growth[locale].toc;
   if (useHeadings(blocks).length < 3) return null;
   return (
-    <details className="mb-8 rounded-lg border border-line bg-surface-1 px-4 py-3 lg:hidden">
+    <details className="mb-8 rounded-3xl border border-line bg-surface-1 px-4 py-3 lg:hidden">
       <summary className="cursor-pointer text-[13px] font-medium text-ink">{label}</summary>
       <div className="mt-3">
         <List blocks={blocks} />
@@ -52,7 +52,7 @@ export function PostTocSidebar({ blocks }: { blocks: Block[] }) {
   if (useHeadings(blocks).length < 3) return null;
   return (
     <aside className="sticky top-24 hidden self-start lg:block" aria-label={label}>
-      <p className="mb-3 px-2 text-[12px] uppercase tracking-[0.18em] text-ink-subtle">{label}</p>
+      <p className="mb-3 px-2 text-[12px] font-semibold uppercase tracking-[0.16em] text-ink-subtle">{label}</p>
       <List blocks={blocks} />
     </aside>
   );

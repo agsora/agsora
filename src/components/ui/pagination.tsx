@@ -35,7 +35,7 @@ export function Pagination({
   if (total <= 1) return null;
 
   const linkBase =
-    "focus-ring inline-flex h-9 min-w-9 items-center justify-center rounded-md border px-3 text-[13px] tabular-nums transition-colors";
+    "focus-ring inline-flex h-9 min-w-9 items-center justify-center rounded-xl border px-3 text-[13px] tabular-nums transition-colors";
 
   return (
     <nav aria-label={t.pagination.label} className="flex flex-col items-center gap-4">

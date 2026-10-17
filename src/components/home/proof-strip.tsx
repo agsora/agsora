@@ -1,5 +1,6 @@
 "use client";
 
+import { BadgeCheck, Globe2, Layers, Tags } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { clients } from "@/config/clients";
 import { services } from "@/config/services";
@@ -12,24 +13,31 @@ export function ProofStrip() {
   const { locale } = useLocale();
   const p = growth[locale].proof;
   const items = [
-    { value: `${clients.length}`, label: p.clients },
-    { value: `${services.length}`, label: p.services },
-    { value: `${locales.length}`, label: p.languages },
+    { icon: BadgeCheck, value: `${clients.length}`, label: p.clients },
+    { icon: Layers, value: `${services.length}`, label: p.services },
+    { icon: Globe2, value: `${locales.length}`, label: p.languages },
   ];
   return (
     <Container className="max-w-6xl">
-      <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-4">
-        {items.map((item) => (
-          <div key={item.label} className="bg-surface-0 px-5 py-5">
-            <dt className="sr-only">{item.label}</dt>
-            <dd>
-              <span className="text-[26px] font-semibold tabular-nums text-ink">{item.value}</span>
-              <span className="ml-2 text-[13px] text-ink-muted">{item.label}</span>
+      <dl className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+        {items.map(({ icon: Icon, value, label }) => (
+          <div
+            key={label}
+            className="rounded-3xl border border-line bg-surface-0 p-6 shadow-card md:p-7"
+          >
+            <Icon className="h-5 w-5 text-accent" />
+            <dt className="sr-only">{label}</dt>
+            <dd className="mt-5">
+              <span className="block text-[40px] font-extrabold leading-none tracking-tight text-ink tabular-nums md:text-[48px]">
+                {value}
+              </span>
+              <span className="mt-2 block text-[14px] text-ink-muted">{label}</span>
             </dd>
           </div>
         ))}
-        <div className="bg-surface-0 px-5 py-5">
-          <p className="text-[13px] leading-snug text-ink-muted">{p.pricing}</p>
+        <div className="col-span-2 flex flex-col justify-between rounded-3xl bg-navy p-6 text-white md:col-span-1 md:p-7 ring-1 ring-white/10">
+          <Tags className="h-5 w-5 text-gold" />
+          <p className="mt-5 text-[17px] font-semibold leading-snug">{p.pricing}</p>
         </div>
       </dl>
     </Container>

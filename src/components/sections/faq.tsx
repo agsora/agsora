@@ -26,7 +26,7 @@ export function Faq({ featuredOnly = false }: { featuredOnly?: boolean }) {
           {featuredOnly ? (
             <Link
               href="/pricing#faq"
-              className="focus-ring mt-6 inline-flex items-center gap-2 text-[13px] text-ink-muted transition-colors hover:text-ink"
+              className="focus-ring mt-6 inline-flex items-center gap-2 text-[14px] font-semibold text-ink transition-colors hover:text-accent"
             >
               {t.faqSection.seeAll}
               <ArrowRight className="h-3.5 w-3.5" />
@@ -50,21 +50,23 @@ export function FaqList({
   openFirst?: boolean;
 }) {
   return (
-    <div className="divide-y divide-line border-y border-line">
+    <div className="flex flex-col gap-3">
       {items.map((faq, i) => (
         <details
           key={faq.key}
           name="agsora-faq"
           open={openFirst && i === 0}
-          className="group"
+          className="group rounded-2xl border border-line bg-surface-0 transition-colors open:border-line-strong open:bg-surface-1 open:shadow-card"
         >
-          <summary className="focus-ring flex cursor-pointer list-none items-start justify-between gap-6 py-5 [&::-webkit-details-marker]:hidden">
-            <span className="text-[14px] text-ink-muted transition-colors group-open:text-ink">
+          <summary className="focus-ring flex cursor-pointer list-none items-center justify-between gap-6 px-5 py-4 md:px-6 md:py-5 [&::-webkit-details-marker]:hidden">
+            <span className="text-[15px] font-semibold text-ink">
               {faq.question}
             </span>
-            <Plus className="mt-0.5 h-4 w-4 shrink-0 text-ink-subtle transition-transform duration-200 group-open:rotate-45 group-open:text-accent" />
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-2 transition-colors group-open:bg-ink group-open:text-surface-0">
+              <Plus className="h-4 w-4 transition-transform duration-200 group-open:rotate-45" />
+            </span>
           </summary>
-          <p className="animate-fade-in pb-6 pr-10 text-[13px] leading-relaxed text-ink-muted">
+          <p className="animate-fade-in px-5 pb-5 pr-14 text-[14px] leading-relaxed text-ink-muted md:px-6 md:pb-6">
             {faq.answer}
           </p>
         </details>

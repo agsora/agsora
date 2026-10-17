@@ -84,7 +84,7 @@ export function PostBody({
             return (
               <div
                 key={i}
-                className="mt-8 rounded-lg border border-line bg-surface-1 p-5"
+                className="mt-8 rounded-3xl border border-line bg-surface-1 p-5"
               >
                 <p className="text-[13px] font-medium text-ink">
                   {block.title}
@@ -97,7 +97,7 @@ export function PostBody({
           case "image":
             return (
               <figure key={i} className="mt-10">
-                <div className="relative aspect-[16/9] overflow-hidden rounded-lg border border-line bg-surface-2">
+                <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-line bg-surface-2">
                   <Image
                     src={block.src}
                     alt={block.alt}
@@ -117,7 +117,7 @@ export function PostBody({
             return (
               <div
                 key={i}
-                className="relative mt-12 overflow-hidden rounded-lg border border-line-strong bg-surface-1 p-6 sm:p-7"
+                className="relative mt-12 overflow-hidden rounded-3xl border border-line-strong bg-surface-1 p-6 sm:p-7"
               >
                 <p className="relative text-[17px] font-semibold leading-snug text-ink">
                   {block.title}
@@ -127,7 +127,7 @@ export function PostBody({
                 </p>
                 <Link
                   href={block.href}
-                  className="focus-ring relative mt-5 inline-flex items-center gap-2 rounded-md bg-ink px-4 py-2.5 text-[14px] font-medium text-surface-0 transition-colors hover:bg-ink/85"
+                  className="focus-ring relative mt-5 inline-flex items-center gap-2 rounded-xl bg-ink px-4 py-2.5 text-[14px] font-medium text-surface-0 transition-colors hover:bg-ink/85"
                 >
                   {block.label}
                   <ArrowRight className="h-4 w-4" />

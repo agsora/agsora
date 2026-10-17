@@ -10,10 +10,10 @@ import { track } from "@/lib/track";
 import { whatsappLink } from "@/lib/whatsapp";
 
 function inputClass() {
-  return "focus-ring w-full rounded-md border border-line bg-surface-0 px-3.5 py-2.5 text-[14px] text-ink placeholder:text-ink-subtle transition-colors hover:border-line-strong focus:border-accent";
+  return "focus-ring w-full rounded-xl border border-line bg-surface-0 px-4 py-3 text-[15px] text-ink placeholder:text-ink-subtle transition-colors hover:border-line-strong focus:border-accent";
 }
 
-const labelClass = "mb-2 block text-[12px] font-medium text-ink-muted";
+const labelClass = "mb-2 block text-[13px] font-semibold text-ink";
 
 const subscribeToUrl = (onChange: () => void) => {
   window.addEventListener("popstate", onChange);
@@ -97,7 +97,7 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-5 sm:grid-cols-2">
       {plan ? (
-        <p className="rounded-md border border-line bg-surface-0 px-3.5 py-2.5 text-[13px] text-ink-muted sm:col-span-2">
+        <p className="rounded-xl border border-line bg-surface-0 px-4 py-3 text-[14px] text-ink-muted sm:col-span-2">
           <span className="text-ink-subtle">{g.selectedPlan}:</span> {plan}
         </p>
       ) : null}
@@ -177,7 +177,7 @@ export function ContactForm() {
       <div className="sm:col-span-2">
         <button
           type="submit"
-          className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-md bg-ink px-5 py-3 text-[14px] font-medium text-surface-0 transition-colors hover:bg-ink/85 sm:w-auto"
+          className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-xl bg-ink px-6 py-3.5 text-[15px] font-semibold text-surface-0 shadow-[0_8px_20px_-10px_rgba(11,18,32,0.6)] transition-all hover:-translate-y-px hover:bg-ink/90 sm:w-auto"
         >
           {t.contactForm.submit}
           <Send className="h-4 w-4" />

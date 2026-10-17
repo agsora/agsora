@@ -3,7 +3,7 @@
 import { Mail, MessageCircle, MapPin } from "lucide-react";
 import { PageHero } from "@/components/sections/page-hero";
 import { Container } from "@/components/ui/container";
-import { Section } from "@/components/ui/section";
+import { Eyebrow, Section } from "@/components/ui/section";
 import { CopyNumber } from "@/components/sections/copy-number";
 import { ContactForm } from "@/components/sections/contact-form";
 import { Reveal } from "@/components/motion/reveal";
@@ -26,49 +26,47 @@ export function ContactBody() {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-12">
             <div className="lg:col-span-2">
               <Reveal>
-                <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
-                  {t.contactPage.contactInfo}
-                </p>
-                <div className="mt-6 divide-y divide-line border-y border-line">
-                  <div className="flex items-start gap-3 py-4">
-                    <Mail className="mt-0.5 h-4 w-4 text-ink-subtle" />
+                <Eyebrow>{t.contactPage.contactInfo}</Eyebrow>
+                <div className="mt-6 flex flex-col gap-3">
+                  <div className="flex items-start gap-4 rounded-3xl border border-line bg-surface-0 p-5 shadow-card">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-surface-2 text-ink"><Mail className="h-5 w-5" /></span>
                     <div>
-                      <p className="text-[12px] text-ink-subtle">{t.contactPage.email}</p>
+                      <p className="text-[12px] font-medium uppercase tracking-[0.1em] text-ink-subtle">{t.contactPage.email}</p>
                       <a
                         href={`mailto:${siteConfig.email}`}
-                        className="tap focus-ring text-[14px] text-ink transition-colors hover:text-accent"
+                        className="tap focus-ring text-[15px] font-semibold text-ink transition-colors hover:text-accent"
                       >
                         {siteConfig.email}
                       </a>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 py-4">
-                    <MessageCircle className="mt-0.5 h-4 w-4 text-ink-subtle" />
+                  <div className="flex items-start gap-4 rounded-3xl border border-line bg-surface-0 p-5 shadow-card">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#25d366]/15 text-[#128c4a]"><MessageCircle className="h-5 w-5" /></span>
                     <div>
-                      <p className="text-[12px] text-ink-subtle">{t.contactPage.whatsapp}</p>
+                      <p className="text-[12px] font-medium uppercase tracking-[0.1em] text-ink-subtle">{t.contactPage.whatsapp}</p>
                       <a
                         href={siteConfig.whatsapp.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="tap focus-ring text-[14px] text-ink transition-colors hover:text-accent"
+                        className="tap focus-ring text-[15px] font-semibold text-ink transition-colors hover:text-accent"
                       >
                         {t.contactPage.whatsappCta}
                       </a>
                       <CopyNumber />
                     </div>
                   </div>
-                  <div className="flex items-start gap-3 py-4">
-                    <MapPin className="mt-0.5 h-4 w-4 text-ink-subtle" />
+                  <div className="flex items-start gap-4 rounded-3xl border border-line bg-surface-0 p-5 shadow-card">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gold/15 text-accent"><MapPin className="h-5 w-5" /></span>
                     <div>
-                      <p className="text-[12px] text-ink-subtle">{t.contactPage.website}</p>
-                      <p className="text-[14px] text-ink">
+                      <p className="text-[12px] font-medium uppercase tracking-[0.1em] text-ink-subtle">{t.contactPage.website}</p>
+                      <p className="text-[15px] font-semibold text-ink">
                         {siteConfig.domain}
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <p className="mt-6 text-[12px] leading-relaxed text-ink-subtle">
+                <p className="mt-5 rounded-2xl bg-surface-1 p-4 text-[13px] leading-relaxed text-ink-muted">
                   {t.contactPage.enterpriseNote}
                 </p>
               </Reveal>
@@ -76,7 +74,7 @@ export function ContactBody() {
 
             <div className="lg:col-span-3">
               <Reveal delay={0.1}>
-                <div className="rounded-lg border border-line bg-surface-1 p-7">
+                <div className="rounded-[2rem] border border-line bg-surface-0 p-6 shadow-elev md:p-9">
                   <ContactForm />
                 </div>
               </Reveal>

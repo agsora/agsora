@@ -40,7 +40,7 @@ function readUnlocked() {
 }
 
 const fieldClass =
-  "focus-ring w-full rounded-md border border-line bg-surface-0 px-3.5 py-2.5 text-[14px] text-ink placeholder:text-ink-subtle transition-colors hover:border-line-strong focus:border-accent";
+  "focus-ring w-full rounded-xl border border-line bg-surface-0 px-3.5 py-2.5 text-[14px] text-ink placeholder:text-ink-subtle transition-colors hover:border-line-strong focus:border-accent";
 const labelClass = "mb-2 block text-[12px] font-medium text-ink-muted";
 
 export function ChecklistBody() {
@@ -104,7 +104,7 @@ export function ChecklistBody() {
       <Section>
         <Container className="max-w-3xl">
           {!unlocked ? (
-            <div className="rounded-lg border border-line bg-surface-1 p-7">
+            <div className="rounded-3xl border border-line bg-surface-1 p-7">
               <h2 className="headline text-[22px] font-semibold text-ink">{s.formTitle}</h2>
               <p className="mt-2 text-[14px] leading-relaxed text-ink-muted">{s.formDescription}</p>
               <form onSubmit={handleSubmit} className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -133,7 +133,7 @@ export function ChecklistBody() {
                 <div className="sm:col-span-2">
                   <button
                     type="submit"
-                    className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-md bg-ink px-5 py-3 text-[14px] font-medium text-surface-0 transition-colors hover:bg-ink/85 sm:w-auto"
+                    className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-xl bg-ink px-5 py-3 text-[14px] font-medium text-surface-0 transition-colors hover:bg-ink/85 sm:w-auto"
                   >
                     {s.submit}
                     <ArrowRight className="h-4 w-4" />
@@ -158,7 +158,7 @@ export function ChecklistBody() {
                 <button
                   type="button"
                   onClick={() => window.print()}
-                  className="focus-ring inline-flex items-center gap-2 rounded-md border border-line-strong px-3.5 py-2 text-[13px] text-ink transition-colors hover:bg-surface-1"
+                  className="focus-ring inline-flex items-center gap-2 rounded-xl border border-line-strong px-3.5 py-2 text-[13px] text-ink transition-colors hover:bg-surface-1"
                 >
                   <Printer className="h-4 w-4" />
                   {s.print}
@@ -182,13 +182,13 @@ export function ChecklistBody() {
                               aria-checked={on}
                               onClick={() => toggle(item.id)}
                               className={cn(
-                                "focus-ring flex w-full items-start gap-3 rounded-md border px-3.5 py-3 text-left transition-colors",
+                                "focus-ring flex w-full items-start gap-3 rounded-xl border px-3.5 py-3 text-left transition-colors",
                                 on ? "border-accent bg-surface-1" : "border-line hover:border-line-strong"
                               )}
                             >
                               <span
                                 className={cn(
-                                  "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-sm border",
+                                  "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-md border",
                                   on ? "border-accent bg-accent text-surface-0" : "border-line-strong"
                                 )}
                               >
@@ -204,14 +204,14 @@ export function ChecklistBody() {
                 ))}
               </div>
 
-              <div className="mt-10 rounded-lg border border-line bg-surface-1 p-6">
-                <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
+              <div className="mt-10 rounded-3xl border border-line bg-surface-1 p-6">
+                <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-ink-subtle">
                   {s.progress(count, checklistTotal)}
                 </p>
                 <p className="mt-2 text-[14px] leading-relaxed text-ink">{verdict}</p>
               </div>
 
-              <div className="mt-10 rounded-lg border border-line p-6" data-no-print>
+              <div className="mt-10 rounded-3xl border border-line p-6" data-no-print>
                 <h3 className="text-[16px] font-semibold text-ink">{s.ctaTitle}</h3>
                 <p className="mt-2 max-w-xl text-[14px] leading-relaxed text-ink-muted">{s.ctaText}</p>
                 <Button

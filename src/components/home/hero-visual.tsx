@@ -78,7 +78,7 @@ function Node({
     <div
       style={style}
       className={cn(
-        "flex items-center gap-2.5 rounded-md border px-3 py-2.5",
+        "flex items-center gap-2.5 rounded-xl border px-3 py-2.5",
         external
           ? "border-dashed border-line-strong bg-surface-0"
           : "border-line bg-surface-1",
@@ -93,7 +93,7 @@ function Node({
 
 function Core({ sub, tags }: { sub: string; tags: string[] }) {
   return (
-    <div className="rounded-md border border-accent/60 bg-surface-1 p-4">
+    <div className="rounded-2xl border border-accent/60 bg-surface-1 p-4 shadow-card">
       <div className="flex items-center gap-2.5">
         <LogoMark className="h-6 w-auto" />
         <div className="min-w-0">
@@ -105,7 +105,7 @@ function Core({ sub, tags }: { sub: string; tags: string[] }) {
         {tags.map((tag) => (
           <span
             key={tag}
-            className="rounded-sm border border-line px-1.5 py-0.5 font-mono text-[12px] text-ink-muted"
+            className="rounded-md border border-line px-1.5 py-0.5 font-mono text-[12px] text-ink-muted"
           >
             {tag}
           </span>
@@ -131,7 +131,7 @@ export function HeroVisual() {
     <div
       role="img"
       aria-label={t.home.visualLabel}
-      className="overflow-hidden rounded-lg border border-line-strong bg-surface-0 shadow-elev"
+      className="overflow-hidden rounded-3xl border border-line bg-surface-0 shadow-elev"
     >
       {/* Title bar with the legend */}
       <div className="flex items-center justify-between gap-4 border-b border-line bg-surface-1 px-4 py-2.5">

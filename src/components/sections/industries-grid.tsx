@@ -21,23 +21,25 @@ export function IndustriesGrid() {
 
       {/* Two columns and no description on phones: in one column the nine
           tiles alone ran to 2.5 screens, burying everything below them. */}
-      <RevealGroup className="mt-9 grid grid-cols-2 border-l border-t border-line sm:mt-10 lg:grid-cols-3">
+      <RevealGroup className="mt-9 grid grid-cols-2 gap-4 lg:gap-5 sm:mt-10 lg:grid-cols-3">
         {industries.map((industry) => {
           const Icon = industry.icon;
           return (
             <RevealItem key={industry.name.en}>
               <Link
                 href={`/contact?from=/industries&industry=${encodeURIComponent(industry.name.en)}`}
-                className="focus-ring group flex h-full flex-col border-b border-r border-line p-4 transition-colors hover:bg-surface-1 sm:p-6"
+                className="focus-ring group flex h-full flex-col rounded-3xl border border-line bg-surface-0 shadow-card p-4 transition-all duration-300 hover:-translate-y-1 hover:border-line-strong hover:shadow-elev sm:p-6"
               >
-                <Icon className="h-[18px] w-[18px] text-ink-subtle transition-colors group-hover:text-accent" />
-                <h3 className="mt-3 text-[13px] font-medium leading-snug text-ink sm:mt-5 sm:text-[14px]">
+                <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-surface-2 text-ink transition-colors group-hover:bg-ink group-hover:text-surface-0">
+                  <Icon className="h-5 w-5" />
+                </span>
+                <h3 className="mt-4 text-[14px] font-bold leading-snug text-ink sm:mt-5 sm:text-[17px]">
                   {industry.name[locale]}
                 </h3>
-                <p className="mt-1.5 hidden text-[13px] leading-relaxed text-ink-muted sm:block">
+                <p className="mt-2 hidden text-[14px] leading-relaxed text-ink-muted sm:block">
                   {industry.description[locale]}
                 </p>
-                <span className="mt-auto inline-flex items-center gap-1.5 pt-4 text-[12px] font-medium text-accent opacity-80 transition-opacity group-hover:opacity-100">
+                <span className="mt-auto inline-flex items-center gap-1.5 pt-4 text-[13px] font-semibold text-accent opacity-80 transition-opacity group-hover:opacity-100">
                   {growth[locale].industryCta}
                   <ArrowRight className="h-3.5 w-3.5" />
                 </span>

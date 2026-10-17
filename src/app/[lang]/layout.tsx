@@ -1,7 +1,7 @@
 import { jsonLd } from "@/lib/seo";
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { IBM_Plex_Mono, IBM_Plex_Sans, Sora } from "next/font/google";
+import { IBM_Plex_Mono, Plus_Jakarta_Sans, Sora } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@/components/analytics";
 import { Header } from "@/components/layout/header";
@@ -23,9 +23,9 @@ import {
 import { siteConfig } from "@/config/site";
 import "../globals.css";
 
-// One engineering-leaning family: Plex Sans for text, Plex Mono for
-// technical labels (section labels, protocol names, figures).
-const sans = IBM_Plex_Sans({
+// Plus Jakarta Sans for text and headlines (geometric, Indonesian-designed);
+// Plex Mono only for the odd technical label or figure.
+const sans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
@@ -97,7 +97,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0B1220" },
+    { media: "(prefers-color-scheme: dark)", color: "#ffffff" },
   ],
 };
 

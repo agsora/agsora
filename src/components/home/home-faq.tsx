@@ -25,7 +25,7 @@ export function HomeFaq() {
         />
         <Link
           href="/pricing#faq"
-          className="focus-ring group mt-7 inline-flex items-center gap-2 text-[14px] text-ink-muted transition-colors hover:text-ink"
+          className="focus-ring group mt-7 inline-flex items-center gap-2 text-[14px] font-semibold text-ink transition-colors hover:text-accent"
         >
           {t.faqSection.seeAll}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />

@@ -40,15 +40,16 @@ export function AboutBody() {
               />
             </Reveal>
             <Reveal delay={0.1}>
-              <div className="rounded-lg border border-line bg-surface-1 p-7">
-                <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
+              <div className="relative overflow-hidden rounded-[2rem] bg-navy p-8 text-white md:p-10 ring-1 ring-white/10">
+                <div aria-hidden="true" className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-gold/30 blur-[90px]" />
+                <p className="relative text-[12px] font-semibold uppercase tracking-[0.18em] text-gold">
                   {t.aboutPage.brandPersonality}
                 </p>
-                <div className="mt-5 flex flex-wrap gap-2">
+                <div className="relative mt-6 flex flex-wrap gap-2.5">
                   {t.aboutPage.brandTraits.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-md border border-line bg-surface-2 px-2.5 py-1.5 text-[12px] text-ink-muted"
+                      className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[14px] font-medium text-white/90"
                     >
                       {tag}
                     </span>
@@ -66,17 +67,17 @@ export function AboutBody() {
             eyebrow={t.aboutPage.whatWeBelieveEyebrow}
             title={t.aboutPage.whatWeBelieveTitle}
           />
-          <RevealGroup className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
+          <RevealGroup className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {valueProps.map((v, i) => (
               <RevealItem key={v.title.en}>
-                <div className="border-t border-line pt-5">
-                  <span className="text-[12px] tabular-nums text-ink-subtle">
+                <div className="h-full rounded-3xl border border-line bg-surface-0 p-6 shadow-card">
+                  <span className="text-[36px] font-extrabold leading-none tracking-tight text-gradient">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="mt-3 text-[14px] font-medium text-ink">
+                  <h3 className="mt-5 text-[16px] font-bold text-ink">
                     {v.title[locale]}
                   </h3>
-                  <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">
+                  <p className="mt-2 text-[14px] leading-relaxed text-ink-muted">
                     {v.description[locale]}
                   </p>
                 </div>

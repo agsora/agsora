@@ -83,24 +83,29 @@ export function BlogPostBody({
 
   return (
     <>
-      <div className="relative overflow-hidden border-b border-line pb-14 pt-14 md:pb-16 md:pt-16">
-        <Container className="max-w-6xl">
+      <div className="relative overflow-hidden border-b border-line pb-14 pt-12 md:pb-16 md:pt-14">
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+          <div className="bg-dots absolute inset-0 [mask-image:radial-gradient(ellipse_60%_80%_at_80%_0%,black,transparent)]" />
+          <div className="absolute -right-24 -top-32 h-[380px] w-[380px] rounded-full bg-[#3a5fb4]/15 blur-[110px]" />
+          <div className="absolute -left-32 top-10 h-[320px] w-[320px] rounded-full bg-gold/20 blur-[110px]" />
+        </div>
+        <Container className="relative max-w-6xl">
           <Link
             href="/blog"
-            className="tap focus-ring inline-flex items-center gap-2 text-[12px] text-ink-subtle transition-colors hover:text-ink"
+            className="tap focus-ring inline-flex items-center gap-2 rounded-full border border-line bg-surface-0 px-3.5 py-1.5 text-[13px] font-medium text-ink-muted transition-colors hover:border-ink hover:text-ink"
           >
             <ArrowLeft className="h-3.5 w-3.5" />
             {t.blogPost.allArticles}
           </Link>
 
           <div className="mt-8 max-w-3xl">
-            <span className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
+            <span className="inline-flex items-center gap-2 rounded-full bg-gold/15 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
               {getCategoryLabel(post.category, locale)}
             </span>
-            <h1 className="headline mt-4 text-[32px] font-semibold text-ink sm:text-[40px]">
+            <h1 className="headline zh-phrases mt-5 text-balance text-[34px] font-extrabold text-ink sm:text-[44px]">
               {getPostTitle(post, locale)}
             </h1>
-            <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-[12px] text-ink-subtle">
+            <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-[13px] text-ink-subtle">
               <span>
                 {t.blogPost.published}{" "}
                 <time dateTime={post.publishedAt}>
@@ -137,7 +142,7 @@ export function BlogPostBody({
       </div>
 
       <Container className="max-w-6xl">
-        <figure className="mt-10 overflow-hidden rounded-lg border border-line bg-surface-2">
+        <figure className="mt-10 overflow-hidden rounded-3xl border border-line bg-surface-2">
           <PostCover
             variant="hero"
             slug={post.slug}
@@ -169,13 +174,13 @@ export function BlogPostBody({
       {items.length ? (
         <Section className="pt-16 md:pt-20">
           <Container className="max-w-6xl">
-            <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
+            <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-ink-subtle">
               {t.blogPost.recommendedEyebrow}
             </p>
-            <h2 className="headline mt-3 text-[22px] font-semibold text-ink sm:text-[26px]">
+            <h2 className="headline mt-4 text-[26px] font-extrabold text-ink sm:text-[32px]">
               {fromHistory ? t.blogPost.recommendedFromHistoryTitle : t.blogPost.recommendedTitle}
             </h2>
-            <div className="mt-8 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-8 grid grid-cols-1 gap-4 lg:gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {items.map((item) => (
                 <PostCard key={item.slug} post={item} />
               ))}

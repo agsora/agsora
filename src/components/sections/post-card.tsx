@@ -30,7 +30,7 @@ export function PostCard({
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="focus-ring group flex h-full flex-col border-b border-r border-line transition-colors hover:bg-surface-1"
+      className="focus-ring group flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-surface-0 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-line-strong hover:shadow-elev"
     >
       <div className="relative overflow-hidden border-b border-line bg-surface-2">
         <PostCover
@@ -43,14 +43,14 @@ export function PostCard({
       </div>
 
       <div className="flex flex-1 flex-col p-6">
-        <span className="text-[12px] uppercase tracking-[0.14em] text-ink-subtle">
+        <span className="inline-flex self-start rounded-full bg-surface-2 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-muted">
           {getCategoryLabel(post.category, locale)}
         </span>
 
-        <h2 className="mt-3 text-[16px] font-medium leading-snug text-ink">
+        <h2 className="mt-4 text-[17px] font-bold leading-snug tracking-tight text-ink transition-colors group-hover:text-accent">
           {getPostTitle(post, locale)}
         </h2>
-        <p className="mt-2.5 flex-1 text-[13px] leading-relaxed text-ink-muted">
+        <p className="mt-2.5 flex-1 text-[14px] leading-relaxed text-ink-muted">
           {getPostExcerpt(post, locale)}
         </p>
 

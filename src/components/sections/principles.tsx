@@ -16,17 +16,17 @@ export function Principles() {
         description={t.principlesSection.description}
       />
 
-      <div className="mt-10 divide-y divide-line border-y border-line">
+      <div className="mt-12 flex flex-col gap-3">
         {principles.map((principle, i) => (
           <Reveal key={principle.title.id} delay={i * 0.05}>
-            <div className="grid gap-3 py-7 md:grid-cols-[auto_1fr_1.4fr] md:items-start md:gap-10">
-              <span className="text-[12px] tabular-nums text-ink-subtle md:pt-1">
+            <div className="grid gap-3 rounded-3xl border border-line bg-surface-0 p-6 transition-colors hover:border-line-strong hover:shadow-card md:grid-cols-[4rem_1fr_1.4fr] md:items-center md:gap-10 md:px-8">
+              <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-ink text-[14px] font-bold tabular-nums text-surface-0">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <h3 className="text-[15px] font-medium text-ink">
+              <h3 className="text-[17px] font-bold text-ink">
                 {principle.title[locale]}
               </h3>
-              <p className="text-[13px] leading-relaxed text-ink-muted">
+              <p className="text-[14px] leading-relaxed text-ink-muted">
                 {principle.description[locale]}
               </p>
             </div>

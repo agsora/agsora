@@ -3,7 +3,7 @@
 import Link from "@/i18n/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { ArrowRight, Menu, X } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { BrandLockup } from "@/components/brand-logo";
 import { Button } from "@/components/ui/button";
@@ -50,18 +50,18 @@ export function Header() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full border-b transition-colors duration-200",
+        "sticky top-0 z-50 w-full border-b transition-all duration-300",
         scrolled || open
-          ? "border-line bg-surface-0/85 backdrop-blur-xl"
-          : "border-transparent bg-transparent"
+          ? "border-line bg-surface-0/80 shadow-[0_6px_24px_-18px_rgba(11,18,32,0.35)] backdrop-blur-xl"
+          : "border-transparent bg-surface-0/0"
       )}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between container-px">
+      <div className="mx-auto flex h-[72px] max-w-6xl items-center justify-between container-px">
         <Link href="/" className="tap focus-ring flex items-center" aria-label="AG·SORA">
           <BrandLockup />
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-1 rounded-full border border-line bg-surface-0/70 p-1 lg:flex">
           {primaryNav.map((link) => {
             const active = isActive(link.href);
             return (
@@ -70,8 +70,8 @@ export function Header() {
                 href={link.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "focus-ring text-[13px] transition-colors",
-                  active ? "text-ink" : "text-ink-muted hover:text-ink"
+                  "focus-ring rounded-full px-4 py-1.5 text-[13px] font-medium transition-colors",
+                  active ? "bg-ink text-surface-0" : "text-ink-muted hover:bg-surface-2 hover:text-ink"
                 )}
               >
                 {link.label}
@@ -83,7 +83,7 @@ export function Header() {
         <div className="hidden items-center gap-3 lg:flex">
           <ThemeToggle />
           <LanguageSwitcher />
-          <Button href="/contact" size="sm">
+          <Button href="/contact" size="sm" icon={<ArrowRight className="h-3.5 w-3.5" />}>
             {t.nav.cta}
           </Button>
         </div>
@@ -92,7 +92,7 @@ export function Header() {
           <ThemeToggle />
           <button
             type="button"
-            className="focus-ring flex h-10 w-10 items-center justify-center rounded-md text-ink"
+            className="focus-ring flex h-10 w-10 items-center justify-center rounded-xl border border-line text-ink"
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
             aria-expanded={open}
@@ -103,7 +103,7 @@ export function Header() {
       </div>
 
       {open ? (
-        <div className="border-t border-line bg-surface-0 lg:hidden">
+        <div className="animate-fade-in border-t border-line bg-surface-0 lg:hidden">
           <nav className="mx-auto flex max-w-6xl flex-col container-px py-3">
             {mainNav.map((link) => (
               <Link
@@ -111,8 +111,8 @@ export function Header() {
                 href={link.href}
                 aria-current={isActive(link.href) ? "page" : undefined}
                 className={cn(
-                  "focus-ring border-b border-line py-3 text-[15px] transition-colors hover:text-ink",
-                  isActive(link.href) ? "text-ink" : "text-ink-muted"
+                  "focus-ring rounded-xl px-3 py-3 text-[15px] font-medium transition-colors hover:bg-surface-1 hover:text-ink",
+                  isActive(link.href) ? "bg-surface-1 text-ink" : "text-ink-muted"
                 )}
               >
                 {link.label}

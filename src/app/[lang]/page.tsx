@@ -6,6 +6,7 @@ import { ServicesIndex } from "@/components/home/services-index";
 import { LatestArticles, type HomeArticle } from "@/components/home/latest-articles";
 import { HomeFaq } from "@/components/home/home-faq";
 import { FinalCta } from "@/components/home/final-cta";
+import { HowWeWork } from "@/components/sections/how-we-work";
 import { Section } from "@/components/ui/section";
 import { featuredServices } from "@/config/services";
 import { formatPostDate, getCategoryLabel, getSortedPosts } from "@/config/blog";
@@ -31,6 +32,7 @@ function latestPosts(locale: Locale): HomeArticle[] {
       title: post.title,
       titleTranslations: post.titleTranslations,
       category: getCategoryLabel(post.category, locale),
+      categoryKey: post.category,
       publishedAt: post.publishedAt,
       date: formatPostDate(post.publishedAt, locale),
       readingMinutes: post.readingMinutes,
@@ -95,8 +97,7 @@ function homeSchema(locale: Locale) {
  * remaining doubts → contact. Every section is server-rendered
  * visible; nothing waits on JavaScript to appear.
  *
- * Integration diagram, process, industries and the full pricing table live
- * on their own pages. Each section added here pushes the final CTA further
+ * Industries and the full pricing table live on their own pages. Each section added here pushes the final CTA further
  * down on a phone.
  */
 export default async function Home({ params }: LangParams) {
@@ -111,16 +112,21 @@ export default async function Home({ params }: LangParams) {
       />
       <Hero />
       <LogoStrip />
-      <ProofStrip />
-      <Section className="py-20 md:py-32">
+      <Section className="pb-0 md:pb-0">
+        <ProofStrip />
+      </Section>
+      <Section className="py-20 md:py-28">
         <ServicesIndex />
       </Section>
+      <Section className="bg-surface-1 py-20 md:py-28">
+        <HowWeWork align="center" />
+      </Section>
       {posts.length ? (
-        <Section className="pt-0 pb-20 md:pt-0 md:pb-32">
+        <Section className="py-20 md:py-28">
           <LatestArticles posts={posts} />
         </Section>
       ) : null}
-      <Section className="border-t border-line py-20 md:py-32">
+      <Section className="border-t border-line py-20 md:py-28">
         <HomeFaq />
       </Section>
       <Section className="pt-0 pb-20 md:pt-0 md:pb-28">

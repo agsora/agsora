@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "@/i18n/link";
-import { ArrowRight, ArrowUpRight, Plus } from "lucide-react";
+import { ArrowRight, ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
@@ -9,6 +9,7 @@ import { Breadcrumbs, type Crumb } from "@/components/ui/breadcrumbs";
 import { HowWeWork } from "@/components/sections/how-we-work";
 import { PostCard } from "@/components/sections/post-card";
 import { ContactCta } from "@/components/sections/contact-cta";
+import { FaqList } from "@/components/sections/faq";
 import { services } from "@/config/services";
 import type { ServiceDetail } from "@/config/service-details";
 import type { BlogPost } from "@/config/blog";
@@ -39,23 +40,28 @@ export function ServiceDetailBody({
 
   return (
     <>
-      <div className="relative overflow-hidden border-b border-line pb-16 pt-14 md:pb-20 md:pt-16">
-        <Container className="max-w-6xl">
+      <div className="relative overflow-hidden border-b border-line pb-16 pt-10 md:pb-20 md:pt-14">
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+          <div className="bg-dots absolute inset-0 [mask-image:radial-gradient(ellipse_60%_80%_at_80%_0%,black,transparent)]" />
+          <div className="absolute -right-24 -top-32 h-[380px] w-[380px] rounded-full bg-[#3a5fb4]/15 blur-[110px]" />
+          <div className="absolute -left-32 top-10 h-[320px] w-[320px] rounded-full bg-gold/20 blur-[110px]" />
+        </div>
+        <Container className="relative max-w-6xl">
           <Breadcrumbs items={crumbs} label={t.breadcrumbLabel} />
 
-          <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_300px] lg:items-end">
+          <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_320px] lg:items-end lg:gap-12">
             <div>
-              <div className="flex items-center gap-2.5 text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
+              <div className="inline-flex items-center gap-2 rounded-full border border-line bg-surface-1 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-ink-muted">
                 <Icon className="h-3.5 w-3.5 text-accent" />
                 {service.title[locale]}
               </div>
-              <h1 className="headline mt-5 max-w-3xl text-[32px] font-semibold text-ink sm:text-[40px] md:text-[46px]">
+              <h1 className="headline zh-phrases mt-6 max-w-3xl text-balance text-[34px] font-extrabold text-ink sm:text-[44px] md:text-[52px]">
                 {detail.h1[locale]}
               </h1>
-              <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-ink-muted">
+              <p className="mt-6 max-w-2xl text-pretty text-[16px] leading-relaxed text-ink-muted md:text-[17px]">
                 {detail.intro[locale]}
               </p>
-              <div className="mt-8 flex flex-col gap-2.5 sm:flex-row">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button
                   href={`/contact?plan=${servicePlan[service.id] ?? service.id}&from=/services/${service.id}`}
                   size="lg"
@@ -69,14 +75,15 @@ export function ServiceDetailBody({
               </div>
             </div>
 
-            <div className="rounded-lg border border-line bg-surface-1 p-6">
-              <p className="text-[12px] uppercase tracking-[0.18em] text-ink-subtle">
+            <div className="relative overflow-hidden rounded-[2rem] bg-navy p-7 text-white shadow-elev ring-1 ring-white/10">
+              <div aria-hidden="true" className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-gold/30 blur-[80px]" />
+              <p className="relative text-[12px] font-semibold uppercase tracking-[0.18em] text-gold">
                 {t.servicesGrid.startingFrom}
               </p>
-              <p className="mt-3 text-[28px] font-semibold tabular-nums text-ink">
+              <p className="relative mt-3 text-[34px] font-extrabold tracking-tight tabular-nums">
                 {formatRupiah(service.startingFrom, locale)}
               </p>
-              <p className="mt-3 text-[12px] leading-relaxed text-ink-subtle">
+              <p className="relative mt-3 text-[13px] leading-relaxed text-white/65">
                 {locale === "id"
                   ? "Harga final menyesuaikan ruang lingkup, integrasi, dan timeline, disampaikan dalam proposal."
                   : locale === "en"
@@ -108,13 +115,13 @@ export function ServiceDetailBody({
                       : "服务范围"
                 }
               />
-              <ul className="mt-10 divide-y divide-line border-y border-line">
+              <ul className="mt-10 flex flex-col gap-3">
                 {detail.deliverables[locale].map((item, i) => (
-                  <li key={item} className="flex items-start gap-4 py-4">
-                    <span className="pt-0.5 text-[12px] tabular-nums text-ink-subtle">
+                  <li key={item} className="flex items-center gap-4 rounded-2xl border border-line bg-surface-0 p-4 shadow-card">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-ink text-[13px] font-bold tabular-nums text-surface-0">
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <span className="text-[14px] leading-relaxed text-ink-muted">
+                    <span className="text-[15px] font-medium leading-relaxed text-ink">
                       {item}
                     </span>
                   </li>
@@ -143,9 +150,9 @@ export function ServiceDetailBody({
                 {detail.forWho[locale].map((item) => (
                   <li
                     key={item}
-                    className="flex items-start gap-3 rounded-lg border border-line bg-surface-1 p-4 text-[14px] leading-relaxed text-ink-muted"
+                    className="flex items-start gap-3 rounded-2xl border border-line bg-surface-1 p-4 text-[15px] leading-relaxed text-ink-muted"
                   >
-                    <span className="mt-[9px] h-1 w-1 shrink-0 rounded-full bg-accent" />
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-positive" />
                     {item}
                   </li>
                 ))}
@@ -164,28 +171,21 @@ export function ServiceDetailBody({
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1fr] lg:gap-16">
             <SectionHeading
               eyebrow={t.faqSection.eyebrow}
-              title={`${t.faqSection.title.replace(/\?$/, "")} | ${service.title[locale]}`}
+              title={
+                <>
+                  {t.faqSection.title}
+                  <span className="text-gradient mt-1 block">{service.title[locale]}</span>
+                </>
+              }
             />
-            <div className="divide-y divide-line border-y border-line">
-              {detail.faqs.map((faq, i) => (
-                <details
-                  key={faq.question.id}
-                  name={`faq-${service.id}`}
-                  open={i === 0}
-                  className="group"
-                >
-                  <summary className="focus-ring flex cursor-pointer list-none items-start justify-between gap-6 py-5 [&::-webkit-details-marker]:hidden">
-                    <h3 className="text-[14px] font-normal text-ink-muted transition-colors group-open:text-ink">
-                      {faq.question[locale]}
-                    </h3>
-                    <Plus className="mt-0.5 h-4 w-4 shrink-0 text-ink-subtle transition-transform duration-200 group-open:rotate-45 group-open:text-accent" />
-                  </summary>
-                  <p className="animate-fade-in pb-6 pr-10 text-[13px] leading-relaxed text-ink-muted">
-                    {faq.answer[locale]}
-                  </p>
-                </details>
-              ))}
-            </div>
+            <FaqList
+              openFirst
+              items={detail.faqs.map((faq) => ({
+                key: faq.question.id,
+                question: faq.question[locale],
+                answer: faq.answer[locale],
+              }))}
+            />
           </div>
         </Container>
       </Section>
@@ -209,7 +209,7 @@ export function ServiceDetailBody({
                     : "与此服务相关的文章"
               }
             />
-            <div className="mt-12 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-12 grid grid-cols-1 gap-4 lg:gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {relatedPosts.map((post) => (
                 <PostCard key={post.slug} post={post} />
               ))}
@@ -236,15 +236,15 @@ export function ServiceDetailBody({
                   : "我们还能帮您解决的其他需求"
             }
           />
-          <div className="mt-12 grid grid-cols-1 border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-4 lg:gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {otherServices.map((s) => (
               <Link
                 key={s.id}
                 href={`/services/${s.id}`}
-                className="focus-ring group flex items-center justify-between gap-4 border-b border-r border-line px-6 py-5 transition-colors hover:bg-surface-2"
+                className="focus-ring group flex items-center justify-between gap-4 rounded-3xl border border-line bg-surface-0 shadow-card px-6 py-5 transition-all duration-300 hover:-translate-y-1 hover:border-line-strong hover:shadow-elev"
               >
                 <div>
-                  <p className="text-[14px] text-ink">{s.title[locale]}</p>
+                  <p className="text-[15px] font-bold text-ink">{s.title[locale]}</p>
                   <p className="mt-1 text-[12px] text-ink-subtle">
                     {t.servicesGrid.startingFrom} {formatRupiah(s.startingFrom, locale)}
                   </p>

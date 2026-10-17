@@ -29,28 +29,30 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
         ) : null}
       </div>
 
-      <RevealGroup className="mt-9 grid grid-cols-1 border-l border-t border-line sm:mt-10 sm:grid-cols-2 lg:grid-cols-3">
+      <RevealGroup className="mt-9 grid grid-cols-1 gap-4 lg:gap-5 sm:mt-10 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((service) => {
           const Icon = service.icon;
           return (
             <RevealItem key={service.id}>
               <Link
                 href={service.href}
-                className="focus-ring group flex h-full flex-col border-b border-r border-line p-5 transition-colors hover:bg-surface-1 sm:p-7"
+                className="focus-ring group flex h-full flex-col rounded-3xl border border-line bg-surface-0 shadow-card p-5 transition-all duration-300 hover:-translate-y-1 hover:border-line-strong hover:shadow-elev sm:p-7"
               >
                 <div className="flex items-start justify-between">
-                  <Icon className="h-5 w-5 text-ink-subtle transition-colors group-hover:text-accent" />
-                  <ArrowUpRight className="h-4 w-4 text-ink-subtle opacity-0 transition-opacity group-hover:opacity-100" />
+                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-surface-2 text-ink transition-colors group-hover:bg-ink group-hover:text-surface-0">
+                    <Icon className="h-5 w-5" />
+                  </span>
+                  <ArrowUpRight className="h-5 w-5 text-ink-subtle transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-ink" />
                 </div>
-                <h3 className="mt-4 text-[15px] font-medium text-ink sm:mt-6">
+                <h3 className="mt-5 text-[18px] font-bold tracking-tight text-ink sm:mt-6">
                   {service.title[locale]}
                 </h3>
-                <p className="mt-2 flex-1 text-[13px] leading-relaxed text-ink-muted">
+                <p className="mt-2 flex-1 text-[14px] leading-relaxed text-ink-muted">
                   {service.description[locale]}
                 </p>
-                <p className="mt-4 text-[12px] text-ink-subtle sm:mt-6">
+                <p className="mt-5 flex items-center justify-between rounded-2xl bg-surface-1 px-4 py-3 text-[12px] text-ink-subtle sm:mt-6">
                   {t.servicesGrid.startingFrom}{" "}
-                  <span className="tabular-nums text-ink-muted">
+                  <span className="text-[14px] font-bold tabular-nums text-ink">
                     {formatRupiah(service.startingFrom, locale)}
                   </span>
                 </p>

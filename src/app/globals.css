@@ -1,62 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  /* Surfaces — Navy Sora (#0B1220) and tints of it */
-  --surface-0: #0b1220;
-  --surface-1: #101829;
-  --surface-2: #162036;
-  --surface-3: #1d2942;
+  /* Light is the default: white surfaces, navy ink, gold accent. */
+  --surface-0: #ffffff;
+  --surface-1: #f7f7f9;
+  --surface-2: #f0f1f4;
+  --surface-3: #e6e8ed;
 
   /* Lines */
-  --line: #222d45;
-  --line-strong: #33415f;
+  --line: #e8e9ee;
+  --line-strong: #d4d7df;
 
-  /* Text — Gading (#EEF0F4) family, high contrast on navy */
-  --ink: #f4f5f9;
-  --ink-muted: #b7c0cf;
-  --ink-subtle: #929cad;
-
-  /* Accent — Emas Agsora, used sparingly */
-  --accent: #d4b06a;
-  --accent-deep: #b08a43;
-
-  /* Logo mark */
-  --logo-frame: #eef0f4;
-  --logo-gold: #d4b06a;
-
-  /* Positive deltas — emerald, darkened in light theme for contrast */
-  --positive: #34d399;
-
-  /* Elevation for framed product visuals */
-  --elevation: 0 50px 120px -40px rgba(0, 0, 0, 0.75),
-    0 20px 40px -20px rgba(0, 0, 0, 0.5);
-}
-
-/* Light theme — toggled via data-theme="light" on <html>. */
-[data-theme="light"] {
-  --surface-0: #ffffff;
-  --surface-1: #f6f3ec;
-  --surface-2: #eeeadf;
-  --surface-3: #e4dfd2;
-
-  --line: #e2ddd1;
-  --line-strong: #cbc4b3;
-
+  /* Text: Navy Sora (#0B1220) family */
   --ink: #0b1220;
-  --ink-muted: #4a5163;
-  --ink-subtle: #626a7c;
+  --ink-muted: #4b5263;
+  --ink-subtle: #687083;
 
-  /* Emas Tua, darkened for text-size contrast on white and cream */
+  /* Accent: Emas Tua, darkened for text-size contrast on white */
   --accent: #8a6a25;
   --accent-deep: #70551c;
 
+  /* Logo mark */
   --logo-frame: #0b1220;
   --logo-gold: #b08a43;
 
   --positive: #047857;
 
-  --elevation: 0 50px 100px -40px rgba(11, 18, 32, 0.28),
-    0 16px 32px -16px rgba(11, 18, 32, 0.12);
+  /* Headline highlight: gold into royal blue */
+  --gradient-text: linear-gradient(90deg, #a87a2a 0%, #c99a45 35%, #3a5fb4 100%);
+
+  --elevation: 0 40px 80px -32px rgba(11, 18, 32, 0.22),
+    0 12px 28px -14px rgba(11, 18, 32, 0.1);
+  --card-shadow: 0 1px 2px rgba(11, 18, 32, 0.04), 0 8px 24px -12px rgba(11, 18, 32, 0.08);
+}
+
+/* Dark theme: toggled via data-theme="dark" on <html>. */
+[data-theme="dark"] {
+  /* Surfaces: Navy Sora (#0B1220) and tints of it */
+  --surface-0: #0b1220;
+  --surface-1: #101829;
+  --surface-2: #162036;
+  --surface-3: #1d2942;
+
+  --line: #222d45;
+  --line-strong: #33415f;
+
+  /* Text: Gading (#EEF0F4) family, high contrast on navy */
+  --ink: #f4f5f9;
+  --ink-muted: #b7c0cf;
+  --ink-subtle: #929cad;
+
+  --accent: #d4b06a;
+  --accent-deep: #b08a43;
+
+  --logo-frame: #eef0f4;
+  --logo-gold: #d4b06a;
+
+  --positive: #34d399;
+
+  --gradient-text: linear-gradient(90deg, #e3c27f 0%, #d4b06a 35%, #86a8ec 100%);
+
+  --elevation: 0 50px 120px -40px rgba(0, 0, 0, 0.75),
+    0 20px 40px -20px rgba(0, 0, 0, 0.5);
+  --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -16px rgba(0, 0, 0, 0.5);
 }
 
 @theme inline {
@@ -76,6 +82,9 @@
   --font-mono: var(--font-code), ui-monospace, monospace;
   --font-brand: var(--font-sora), var(--font-body), ui-sans-serif, system-ui, sans-serif;
   --shadow-elev: var(--elevation);
+  --shadow-card: var(--card-shadow);
+  --color-navy: #0b1220;
+  --color-gold: #d4b06a;
 }
 
 /* Default border colour. Must live in the base layer: unlayered CSS beats
@@ -99,10 +108,10 @@
 
 html {
   scroll-behavior: smooth;
-  color-scheme: dark;
-}
-html[data-theme="light"] {
   color-scheme: light;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 body {
@@ -135,7 +144,21 @@ body {
 /* Headline treatment — tight tracking reads more engineered */
 .headline {
   letter-spacing: -0.03em;
-  line-height: 1.05;
+  line-height: 1.08;
+}
+
+/* Gradient highlight for a word or phrase inside a headline. */
+.text-gradient {
+  background-image: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Soft dotted backdrop used behind hero sections. */
+.bg-dots {
+  background-image: radial-gradient(color-mix(in srgb, var(--ink) 14%, transparent) 1px, transparent 1px);
+  background-size: 22px 22px;
 }
 
 @keyframes marquee {
@@ -195,7 +218,7 @@ body {
   .focus-ring:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
-    border-radius: 6px;
+    border-radius: 10px;
   }
 }
 
