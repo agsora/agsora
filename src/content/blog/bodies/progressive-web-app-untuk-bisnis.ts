@@ -120,7 +120,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pilihannya juga tidak harus salah satu. Banyak bisnis memulai dengan PWA untuk menguji kebutuhan dan membangun basis pengguna, lalu menambahkan aplikasi native di kemudian hari untuk fitur yang memang membutuhkannya. Jika arsitektur back-end dirancang dengan baik sejak awal, misalnya dengan API yang terpisah dari tampilan, kedua jenis aplikasi bisa memakai data dan logika bisnis yang sama.",
+    text: "Pilihannya juga tidak harus salah satu. Banyak bisnis memulai dengan PWA untuk menguji kebutuhan dan membangun basis pengguna, lalu menambahkan aplikasi native di kemudian hari untuk fitur yang memang membutuhkannya. Jika arsitektur back end dirancang dengan baik sejak awal, misalnya dengan API yang terpisah dari tampilan, kedua jenis aplikasi bisa memakai data dan logika bisnis yang sama.",
   },
   { type: "h2", text: "Perbandingan singkat: website, PWA, dan aplikasi native" },
   {

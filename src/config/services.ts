@@ -76,7 +76,7 @@ export const services: Service[] = [
     title: { id: "Sistem Kasir (POS)", en: "POS Systems", zh: "POS 收银系统" },
     description: {
       id: "Sistem kasir dan penjualan yang cepat, andal, dan terhubung langsung dengan laporan bisnis.",
-      en: "A fast, reliable point-of-sale system connected directly to your business reports.",
+      en: "A fast, reliable point of sale system connected directly to your business reports.",
       zh: "快速可靠的收银系统，直接与业务报表对接。",
     },
     icon: ShoppingCart,
@@ -99,7 +99,7 @@ export const services: Service[] = [
     id: "crm",
     title: { id: "Sistem CRM", en: "CRM", zh: "CRM 客户管理" },
     description: {
-      id: "Pantau pipeline penjualan, relasi pelanggan, dan tim sales secara real-time.",
+      id: "Pantau pipeline penjualan, relasi pelanggan, dan tim sales secara real time.",
       en: "Track your sales pipeline, customer relationships, and sales team in real time.",
       zh: "实时跟踪销售管道、客户关系与销售团队表现。",
     },
@@ -136,7 +136,7 @@ export const services: Service[] = [
     title: { id: "Integrasi API", en: "API Integration", zh: "API 对接" },
     description: {
       id: "Hubungkan sistem internal dengan payment gateway, marketplace, dan layanan pihak ketiga.",
-      en: "Connect your internal systems with payment gateways, marketplaces, and third-party services.",
+      en: "Connect your internal systems with payment gateways, marketplaces, and third party services.",
       zh: "将内部系统与支付网关、电商平台及第三方服务对接。",
     },
     icon: Plug,

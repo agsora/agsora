@@ -53,7 +53,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penagihan dan piutang" },
   {
     type: "p",
-    text: "Faktur sebaiknya terbentuk secara otomatis dari pesanan yang sudah terkirim dan terverifikasi, dan status pembayaran bisa dipantau per pelanggan secara real-time. Laporan umur piutang, menunjukkan tagihan mana yang sudah jatuh tempo dan berapa lama, membantu tim penagihan memprioritaskan pelanggan mana yang paling berisiko dan perlu ditindaklanjuti lebih dulu.",
+    text: "Faktur sebaiknya terbentuk secara otomatis dari pesanan yang sudah terkirim dan terverifikasi, dan status pembayaran bisa dipantau per pelanggan secara real time. Laporan umur piutang, menunjukkan tagihan mana yang sudah jatuh tempo dan berapa lama, membantu tim penagihan memprioritaskan pelanggan mana yang paling berisiko dan perlu ditindaklanjuti lebih dulu.",
   },
   { type: "h2", text: "Ilustrasi: rantai masalah yang saling terkait" },
   {
@@ -83,7 +83,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mengelola armada pengiriman" },
   {
     type: "p",
-    text: "Untuk distributor dengan armada pengiriman sendiri, perencanaan rute yang efisien dan pemantauan status kendaraan real-time bisa menghemat waktu dan biaya bahan bakar secara signifikan. Pertimbangkan apakah kebutuhan ini cukup penting untuk diintegrasikan ke dalam sistem utama, atau bisa ditangani secara terpisah tergantung skala operasional pengiriman Anda.",
+    text: "Untuk distributor dengan armada pengiriman sendiri, perencanaan rute yang efisien dan pemantauan status kendaraan real time bisa menghemat waktu dan biaya bahan bakar secara signifikan. Pertimbangkan apakah kebutuhan ini cukup penting untuk diintegrasikan ke dalam sistem utama, atau bisa ditangani secara terpisah tergantung skala operasional pengiriman Anda.",
   },
   { type: "h2", text: "Langkah menerapkan sistem distribusi" },
   {
@@ -101,7 +101,7 @@ export const body: Block[] = [
   { type: "h3", text: "Apakah distributor kecil dengan satu gudang tetap butuh sistem seperti ini?" },
   {
     type: "p",
-    text: "Kebutuhan multi-gudang mungkin belum relevan, tapi kebutuhan seperti harga per pelanggan, batas kredit, dan penagihan yang terstruktur tetap bernilai bahkan untuk distributor dengan satu lokasi, terutama jika jumlah pelanggan dan sales sudah cukup banyak.",
+    text: "Kebutuhan multigudang mungkin belum relevan, tapi kebutuhan seperti harga per pelanggan, batas kredit, dan penagihan yang terstruktur tetap bernilai bahkan untuk distributor dengan satu lokasi, terutama jika jumlah pelanggan dan sales sudah cukup banyak.",
   },
   { type: "h3", text: "Bagaimana menangani sales yang terbiasa kerja manual?" },
   {

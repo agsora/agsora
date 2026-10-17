@@ -74,7 +74,7 @@ const en: Block[] = [
   { type: "h2", text: "Landing page, company profile, or a full platform?" },
   {
     type: "p",
-    text: "Not every business needs the same kind of website. A single-page landing page suits a specific campaign or a single product you want to launch quickly, it's lighter on cost and faster to build. A company profile website suits a business that needs to establish credibility: services, portfolio, team, and how to get in touch, usually the baseline any serious business needs.",
+    text: "Not every business needs the same kind of website. A single page landing page suits a specific campaign or a single product you want to launch quickly, it's lighter on cost and faster to build. A company profile website suits a business that needs to establish credibility: services, portfolio, team, and how to get in touch, usually the baseline any serious business needs.",
   },
   {
     type: "p",
@@ -117,7 +117,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Defining that main goal upfront matters because it shapes the entire structure, from which pages are needed to which call-to-action gets the most emphasis. A website built without a clear goal usually ends up as a digital brochure that rarely gets revisited, rather than a tool that actually works for the business.",
+    text: "Defining that main goal upfront matters because it shapes the entire structure, from which pages are needed to which call to action gets the most emphasis. A website built without a clear goal usually ends up as a digital brochure that rarely gets revisited, rather than a tool that actually works for the business.",
   },
   { type: "h2", text: "Realistic cost and timeline" },
   {

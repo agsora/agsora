@@ -290,14 +290,14 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Dokumentasi & pelatihan",
       ],
       visualLabel:
-        "Diagram integrasi: ERP, POS, HRIS, CRM, inventori, dan dashboard terhubung melalui AG·SORA Core ke payment gateway, marketplace, WhatsApp API, software akuntansi, ekspedisi, dan single sign-on.",
+        "Diagram integrasi: ERP, POS, HRIS, CRM, inventori, dan dashboard terhubung melalui AG·SORA Core ke payment gateway, marketplace, WhatsApp API, software akuntansi, ekspedisi, dan single sign on.",
       visual: {
         title: "Peta integrasi",
         internal: "Sistem internal",
         external: "Layanan pihak ketiga",
         coreSub: "API & lapisan data",
         modules: ["ERP", "POS", "HRIS", "CRM", "Inventori", "Dashboard"],
-        services: ["Pembayaran & QRIS", "Marketplace", "WhatsApp API", "Akuntansi", "Ekspedisi", "Single sign-on"],
+        services: ["Pembayaran & QRIS", "Marketplace", "WhatsApp API", "Akuntansi", "Ekspedisi", "Single sign on"],
         benefits: [
           { title: "Satu sumber data", text: "Tanpa input ganda antar divisi." },
           { title: "API terbuka", text: "Terhubung ke sistem yang sudah Anda pakai." },
@@ -370,7 +370,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     industriesPage: {
       heroTitle: "Sistem yang menyesuaikan kebutuhan industri Anda",
       heroDescription:
-        "Dari UMKM hingga enterprise multi-cabang, AG·SORA merancang solusi yang relevan dengan tantangan operasional di industri Anda.",
+        "Dari UMKM hingga enterprise multicabang, AG·SORA merancang solusi yang relevan dengan tantangan operasional di industri Anda.",
       gridTitle: "Dirancang untuk berbagai jenis bisnis",
       gridDescription:
         "Sistem AG·SORA dirancang fleksibel untuk kebutuhan operasional yang berbeda di setiap industri.",
@@ -385,7 +385,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       whatsappCta: "Chat dengan tim kami",
       website: "Website",
       enterpriseNote:
-        "Untuk kebutuhan enterprise atau multi-cabang, tim kami akan menjadwalkan sesi diskusi untuk merancang arsitektur yang tepat bagi organisasi Anda.",
+        "Untuk kebutuhan enterprise atau multicabang, tim kami akan menjadwalkan sesi diskusi untuk merancang arsitektur yang tepat bagi organisasi Anda.",
     },
     contactForm: {
       name: "Nama",
@@ -562,14 +562,14 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
         "Documentation & training",
       ],
       visualLabel:
-        "Integration diagram: ERP, POS, HRIS, CRM, inventory, and dashboards connect through AG·SORA Core to payment gateways, marketplaces, the WhatsApp API, accounting software, logistics, and single sign-on.",
+        "Integration diagram: ERP, POS, HRIS, CRM, inventory, and dashboards connect through AG·SORA Core to payment gateways, marketplaces, the WhatsApp API, accounting software, logistics, and single sign on.",
       visual: {
         title: "Integration map",
         internal: "Your systems",
-        external: "Third-party services",
+        external: "Third party services",
         coreSub: "API & data layer",
         modules: ["ERP", "POS", "HRIS", "CRM", "Inventory", "Dashboard"],
-        services: ["Payments & QRIS", "Marketplaces", "WhatsApp API", "Accounting", "Logistics", "Single sign-on"],
+        services: ["Payments & QRIS", "Marketplaces", "WhatsApp API", "Accounting", "Logistics", "Single sign on"],
         benefits: [
           { title: "One source of data", text: "No double entry between teams." },
           { title: "Open APIs", text: "Connects to the tools you already use." },
@@ -642,7 +642,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     industriesPage: {
       heroTitle: "Systems tailored to your industry's needs",
       heroDescription:
-        "From SMEs to multi-branch enterprises, AG·SORA designs solutions relevant to the operational challenges in your industry.",
+        "From SMEs to multibranch enterprises, AG·SORA designs solutions relevant to the operational challenges in your industry.",
       gridTitle: "Designed for every kind of business",
       gridDescription:
         "AG·SORA systems are built flexibly for the different operational needs of each industry.",
@@ -657,7 +657,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       whatsappCta: "Chat with our team",
       website: "Website",
       enterpriseNote:
-        "For enterprise or multi-branch needs, our team will schedule a discussion to design the right architecture for your organization.",
+        "For enterprise or multibranch needs, our team will schedule a discussion to design the right architecture for your organization.",
     },
     contactForm: {
       name: "Name",
@@ -700,7 +700,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     servicesPage: {
       heroTitle: "Technology solutions designed for how you work",
       heroDescription:
-        "AG·SORA helps businesses build software, systems, and digital platforms that fit your operational processes and long-term growth goals.",
+        "AG·SORA helps businesses build software, systems, and digital platforms that fit your operational processes and long term growth goals.",
     },
     pricingPage: {
       heroTitle: "Accessible technology for growing businesses",
@@ -710,7 +710,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       customDevTitle: "Starting price for every service",
       customQuote: "Custom quote",
       disclaimer:
-        "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third-party costs are not included unless stated otherwise.",
+        "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third party costs are not included unless stated otherwise.",
     },
     blogPage: {
       heroTitle: "Notes on building business systems",

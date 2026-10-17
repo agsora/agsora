@@ -32,7 +32,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A dashboard is not a substitute for detailed reports. A report answers in-depth questions such as why the margin on a certain product fell; a dashboard shows that the margin fell and points you to where to dig. A dashboard is also not a gallery of charts. Every element on the screen needs a reason: if this number changes, what action will you take? If the answer is none, the element is probably just decoration.",
+    text: "A dashboard is not a substitute for detailed reports. A report answers in depth questions such as why the margin on a certain product fell; a dashboard shows that the margin fell and points you to where to dig. A dashboard is also not a gallery of charts. Every element on the screen needs a reason: if this number changes, what action will you take? If the answer is none, the element is probably just decoration.",
   },
   {
     type: "image",
@@ -72,7 +72,7 @@ const en: Block[] = [
     items: [
       "Sales: sales per day and per branch, best sellers, average transaction value, and comparison with the previous period",
       "Finance: cash position, receivables coming due, payables to be paid, and expected cash inflows and outflows",
-      "Inventory: stock approaching minimum levels, slow-moving goods, and inventory value",
+      "Inventory: stock approaching minimum levels, slow moving goods, and inventory value",
       "Operations: delayed orders, average processing time, and return or complaint rates",
       "Customers and prospects: new prospects, prospects by stage, and customers who haven't bought in a while",
       "Team: attendance, target achievement, and workload, while still respecting employee privacy",
@@ -86,7 +86,7 @@ const en: Block[] = [
   { type: "h2", text: "Where the data comes from" },
   {
     type: "p",
-    text: "A dashboard only displays what goes into it. In most businesses, data is spread across several places: the point-of-sale or sales system, accounting software, ERP, CRM, spreadsheets, and sometimes manual notes. The biggest challenge isn't making charts but bringing data from these sources together correctly.",
+    text: "A dashboard only displays what goes into it. In most businesses, data is spread across several places: the point of sale or sales system, accounting software, ERP, CRM, spreadsheets, and sometimes manual notes. The biggest challenge isn't making charts but bringing data from these sources together correctly.",
   },
   {
     type: "h3",
@@ -102,7 +102,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A dashboard whose data must be refreshed manually quickly loses trust. Connect the dashboard to data sources through automatic integration, whether via API, scheduled exports, or a direct database connection. Decide how fresh the data needs to be: for stock and daily sales, hourly updates may be enough, while financial reports may only need daily refreshes. Making everything real-time isn't always necessary and can add cost without matching benefit.",
+    text: "A dashboard whose data must be refreshed manually quickly loses trust. Connect the dashboard to data sources through automatic integration, whether via API, scheduled exports, or a direct database connection. Decide how fresh the data needs to be: for stock and daily sales, hourly updates may be enough, while financial reports may only need daily refreshes. Making everything real time isn't always necessary and can add cost without matching benefit.",
   },
   {
     type: "h3",
@@ -146,21 +146,21 @@ const en: Block[] = [
       "Owner view: the big picture such as sales, cash, gross profit, and alerts for anything straying from target",
       "Manager view: breakdowns by branch, team, or product, complete with the ability to drill down to individual transactions",
       "Operations view: daily action lists such as delayed orders, low stock, or delivery schedules",
-      "Sales team view: prospects by stage, follow-up tasks, and personal target progress",
+      "Sales team view: prospects by stage, follow up tasks, and personal target progress",
     ],
   },
   {
     type: "p",
     text: "Access rights matter too. Not everyone needs to see financial or salary data. Limit what each role can see, and record who accesses sensitive data.",
   },
-  { type: "h2", text: "Build it yourself, use an off-the-shelf tool, or commission a custom one" },
+  { type: "h2", text: "Build it yourself, use an off the shelf tool, or commission a custom one" },
   {
     type: "p",
-    text: "There are several routes to getting a dashboard. Off-the-shelf dashboard tools suit standard needs and already-structured data: the cost is relatively low and results come quickly, but there are limits in customization, integration with specialized systems, and complex access rights. A custom-built dashboard is more flexible, can blend into the apps you already use, and follows how your business works, but requires a larger initial investment and ongoing maintenance.",
+    text: "There are several routes to getting a dashboard. Off the shelf dashboard tools suit standard needs and already structured data: the cost is relatively low and results come quickly, but there are limits in customization, integration with specialized systems, and complex access rights. A custom built dashboard is more flexible, can blend into the apps you already use, and follows how your business works, but requires a larger initial investment and ongoing maintenance.",
   },
   {
     type: "p",
-    text: "Many businesses start with an off-the-shelf tool for one or two important dashboards, then move to a custom solution when needs outgrow its capabilities. This decision should be based on the complexity of the data sources, integration needs, the number of users, and how strategic the dashboard is to the business.",
+    text: "Many businesses start with an off the shelf tool for one or two important dashboards, then move to a custom solution when needs outgrow its capabilities. This decision should be based on the complexity of the data sources, integration needs, the number of users, and how strategic the dashboard is to the business.",
   },
   { type: "h2", text: "Steps to start without being overwhelmed" },
   {
@@ -182,7 +182,7 @@ const en: Block[] = [
       "Making too many charts so nobody knows which matter",
       "Not defining metrics, so two people read the same number with different meanings",
       "Connecting untidy data and then blaming the dashboard when the numbers look odd",
-      "Designing without involving day-to-day users",
+      "Designing without involving day to day users",
       "Having no owner responsible for maintenance and data correctness",
       "Considering the dashboard finished after launch, when the business and its questions keep changing",
       "Chasing an impressive appearance rather than better decisions",
@@ -196,7 +196,7 @@ const en: Block[] = [
   {
     type: "cta",
     title: "Want to see your business's condition on a single screen?",
-    text: "The AG·SORA team builds business dashboards connected to your POS, ERP, or existing data, with role-based access. The consultation is free, no commitment required.",
+    text: "The AG·SORA team builds business dashboards connected to your POS, ERP, or existing data, with role based access. The consultation is free, no commitment required.",
     href: "/services/dashboard",
     label: "Free Consultation",
   },

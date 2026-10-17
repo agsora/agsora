@@ -115,7 +115,7 @@ export const body: Block[] = [
       "Sepakati definisi setiap metrik yang akan ditampilkan",
       "Tinjau dan sederhanakan isi laporan sebelum diotomatiskan",
       "Hubungkan laporan langsung ke sumber data yang relevan",
-      "Tentukan format: dashboard real-time atau laporan terjadwal",
+      "Tentukan format: dashboard real time atau laporan terjadwal",
       "Aktifkan pemantauan untuk mendeteksi kegagalan proses otomatis",
     ],
   },

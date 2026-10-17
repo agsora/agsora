@@ -38,7 +38,7 @@ export const body: Block[] = [
     type: "ol",
     items: [
       "Niat belajar: orang ingin memahami sesuatu, misalnya \"apa itu ERP\" atau \"cara menghitung stok minimum\"; artikel penjelasan yang jelas dan lengkap paling cocok",
-      "Niat membandingkan: orang menimbang pilihan, misalnya \"software jadi atau custom\" atau \"ERP cloud atau on-premise\"; artikel perbandingan yang adil dengan kriteria jelas membantu",
+      "Niat membandingkan: orang menimbang pilihan, misalnya \"software jadi atau custom\" atau \"ERP cloud atau on premise\"; artikel perbandingan yang adil dengan kriteria jelas membantu",
       "Niat mencari solusi spesifik: orang sudah tahu masalahnya dan mencari cara, misalnya \"cara menyatukan stok toko dan marketplace\"; panduan langkah demi langkah paling tepat",
       "Niat siap bertindak: orang sudah hampir memutuskan, misalnya mencari penyedia jasa tertentu atau harga; halaman layanan dan ajakan kontak yang jelas lebih relevan",
     ],
@@ -57,7 +57,7 @@ export const body: Block[] = [
   },
   { type: "h2", text: "Dasar optimasi mesin pencari yang perlu diperhatikan" },
   { type: "p", text: "Artikel bagus pun perlu ditemukan. Beberapa praktik dasar optimasi mesin pencari membantu tanpa mengorbankan kualitas tulisan. Pilih satu topik utama per artikel dan pastikan ia tercermin pada judul, judul bagian, dan paragraf awal secara alami. Tulis judul yang jelas dan menarik untuk diklik, serta deskripsi singkat yang menggambarkan isi." },
-  { type: "p", text: "Gunakan alamat halaman yang pendek dan deskriptif. Tautkan antar-artikel yang terkait agar pembaca dan mesin pencari memahami hubungannya. Pastikan halaman cepat dimuat dan nyaman di ponsel, karena kebanyakan pembaca datang dari perangkat seluler. Tambahkan data terstruktur yang sesuai agar hasil pencarian lebih informatif, dan pastikan peta situs memuat semua artikel sehingga mudah ditemukan perayap." },
+  { type: "p", text: "Gunakan alamat halaman yang pendek dan deskriptif. Tautkan antarartikel yang terkait agar pembaca dan mesin pencari memahami hubungannya. Pastikan halaman cepat dimuat dan nyaman di ponsel, karena kebanyakan pembaca datang dari perangkat seluler. Tambahkan data terstruktur yang sesuai agar hasil pencarian lebih informatif, dan pastikan peta situs memuat semua artikel sehingga mudah ditemukan perayap." },
   { type: "p", text: "Jangan terjebak menjejalkan kata kunci secara berlebihan. Mesin pencari modern cukup pandai memahami makna, dan tulisan yang dipaksakan menurunkan kualitas bagi pembaca. Bila Anda menulis untuk membantu manusia dengan jelas, kebanyakan kebutuhan optimasi terpenuhi secara alami. Topik ini kami bahas lebih lanjut dalam artikel tentang dasar SEO untuk website perusahaan." },
   { type: "h2", text: "Menyusun kalender dan proses kerja yang bisa dipertahankan" },
   { type: "p", text: "Blog yang berhenti setelah tiga artikel tidak akan menghasilkan apa-apa. Konsistensi lebih penting daripada volume. Lebih baik satu artikel bagus setiap dua minggu yang benar-benar dijalankan selama setahun daripada sepuluh artikel dalam sebulan lalu senyap." },

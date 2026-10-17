@@ -31,7 +31,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Technically, a PWA is still a web application. It's built with the same web technology, run by the browser on the user's device, and updated whenever the user opens it. The difference is an extra layer that lets the app be installed, store data for offline use, and interact with some device features. For users, the difference between a well-built PWA and a native app is often hard to notice in everyday use.",
+    text: "Technically, a PWA is still a web application. It's built with the same web technology, run by the browser on the user's device, and updated whenever the user opens it. The difference is an extra layer that lets the app be installed, store data for offline use, and interact with some device features. For users, the difference between a well built PWA and a native app is often hard to notice in everyday use.",
   },
   {
     type: "image",
@@ -63,7 +63,7 @@ const en: Block[] = [
   {
     type: "callout",
     title: "A good place to start",
-    text: "If you're not yet sure how often customers will use an app, a PWA is a relatively low-risk way to find out. If usage grows and the need for device features increases, native development can then be considered based on real data.",
+    text: "If you're not yet sure how often customers will use an app, a PWA is a relatively low risk way to find out. If usage grows and the need for device features increases, native development can then be considered based on real data.",
   },
   { type: "h2", text: "Limitations to understand" },
   {
@@ -76,7 +76,7 @@ const en: Block[] = [
       "Access to certain device features, such as Bluetooth for special printers, particular sensors, or deep operating system integration, is still more limited than for native apps",
       "Feature support can differ across platforms and browsers, so testing on a range of devices remains important",
       "Without an app store presence, some users may not realise your service can be installed like an app",
-      "Graphically heavy apps, or apps that need intensive on-device processing, are usually better built natively",
+      "Graphically heavy apps, or apps that need intensive on device processing, are usually better built natively",
       "Notification and background capabilities keep evolving, so check current support on the devices your users actually have",
     ],
   },
@@ -105,13 +105,13 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "For customer-facing services, a PWA also helps keep the relationship going after the first transaction. Customers who have installed the icon on their home screen find it easier to come back to reorder, check order status, or see the latest promotions. That gives a business a more direct communication channel than relying on social media alone, whose reach is decided by someone else's algorithm.",
+    text: "For customer facing services, a PWA also helps keep the relationship going after the first transaction. Customers who have installed the icon on their home screen find it easier to come back to reorder, check order status, or see the latest promotions. That gives a business a more direct communication channel than relying on social media alone, whose reach is decided by someone else's algorithm.",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
     alt: "A computer screen showing program code in an editor with the React logo beside it",
-    caption: "A PWA is built with the same modern web technology as a website, then given app-like capabilities.",
+    caption: "A PWA is built with the same modern web technology as a website, then given app like capabilities.",
   },
   { type: "h2", text: "When a native app is still better" },
   {
@@ -156,12 +156,12 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This preparation helps ensure the PWA you build genuinely feels like an app, not just an ordinary website with an icon on the home screen. The difference between the two lies in the details: how fast it opens, how it behaves offline, and how comfortable it is to navigate one-handed.",
+    text: "This preparation helps ensure the PWA you build genuinely feels like an app, not just an ordinary website with an icon on the home screen. The difference between the two lies in the details: how fast it opens, how it behaves offline, and how comfortable it is to navigate one handed.",
   },
   { type: "h2", text: "Closing thoughts" },
   {
     type: "p",
-    text: "Web technology has come a long way, and the PWA is one of its most practical results for business. For many needs, catalogues, ordering, customer portals, and field team apps, a PWA offers an app-like experience at lower cost and complexity. Start with how your users actually interact with your service, check the features you need, then choose the approach that fits best. Decisions based on real needs are almost always better than decisions based on trends.",
+    text: "Web technology has come a long way, and the PWA is one of its most practical results for business. For many needs, catalogues, ordering, customer portals, and field team apps, a PWA offers an app like experience at lower cost and complexity. Start with how your users actually interact with your service, check the features you need, then choose the approach that fits best. Decisions based on real needs are almost always better than decisions based on trends.",
   },
   {
     type: "cta",

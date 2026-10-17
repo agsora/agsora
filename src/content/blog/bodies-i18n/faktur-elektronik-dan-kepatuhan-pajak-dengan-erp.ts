@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "For many business owners, tax matters are synonymous with an exhausting month end: collecting invoices from various places, matching figures across several spreadsheets, then hoping nothing is missed before the reporting deadline. Small mistakes, such as duplicate invoice numbers or a wrong rate, can lead to corrections, penalties, and wasted time." },
   { type: "p", text: "In many countries, tax authorities increasingly encourage or require invoices to be issued in electronic form. The aim is to make transaction data easier to verify and report. For businesses still relying on manual processes, this change can feel like an extra burden. But handled properly, electronic invoicing can be an opportunity to tidy the whole billing and bookkeeping flow." },
-  { type: "p", text: "This article covers how ERP helps issue tidy electronic invoices, maintain compliance continuously, and reduce month-end work. It is important to note that tax rules differ between countries and change over time. This article is general and not tax advice; always consult the applicable rules with a tax consultant or the relevant authority." },
+  { type: "p", text: "This article covers how ERP helps issue tidy electronic invoices, maintain compliance continuously, and reduce month end work. It is important to note that tax rules differ between countries and change over time. This article is general and not tax advice; always consult the applicable rules with a tax consultant or the relevant authority." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -29,7 +29,7 @@ const en: Block[] = [
     "Currency and exchange rate: clear rules when transactions are in foreign currency",
     "Payment terms: due date and other conditions stated on the invoice",
   ] },
-  { type: "p", text: "Clean up data gradually. Start with the customers who transact most often and the best-selling products. Assigning one person or one department as master data owner prevents the data from becoming messy again after cleaning." },
+  { type: "p", text: "Clean up data gradually. Start with the customers who transact most often and the best selling products. Assigning one person or one department as master data owner prevents the data from becoming messy again after cleaning." },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
@@ -37,7 +37,7 @@ const en: Block[] = [
     caption: "Tidy master data is the foundation of invoices and tax reports you can trust.",
   },
   { type: "h2", text: "From order to invoice: a connected flow" },
-  { type: "p", text: "In a well-ordered ERP, an invoice is not made from scratch. It is born from an approved sales order and, where relevant, from a recorded shipment. The system carries over the customer, items, quantities, prices, discounts, and tax according to rules already set." },
+  { type: "p", text: "In a well ordered ERP, an invoice is not made from scratch. It is born from an approved sales order and, where relevant, from a recorded shipment. The system carries over the customer, items, quantities, prices, discounts, and tax according to rules already set." },
   { type: "ol", items: [
     "A sales order is created or received from an online channel with validated customer data",
     "Shipment or completion of service is recorded as the basis for billing",
@@ -53,7 +53,7 @@ const en: Block[] = [
   { type: "p", text: "The audit trail records who created, changed, approved, or cancelled a document, and when. If an inspection takes place, you can show the full history quickly. A tidy trail also protects employees because it shows that procedures were followed." },
   { type: "callout", title: "Cancellations and corrections have their own rules", text: "An invoice that has been issued generally may not simply be deleted. A recorded cancellation document or correction note is usually required. Make sure your system enforces this procedure, rather than offering a delete button that removes the trail." },
   { type: "h2", text: "Payment and reconciliation" },
-  { type: "p", text: "Compliance does not stop at issuing invoices. Payments received need to be matched with invoices so receivables are accurate and tax reports, which in many schemes depend on the time of transaction recognition, are correct. Manual reconciliation at month end is error-prone and time-consuming." },
+  { type: "p", text: "Compliance does not stop at issuing invoices. Payments received need to be matched with invoices so receivables are accurate and tax reports, which in many schemes depend on the time of transaction recognition, are correct. Manual reconciliation at month end is error prone and time consuming." },
   { type: "p", text: "ERP can match receipts with invoices automatically by reference number or amount, and flag those that do not match for review. Partial payments, double payments, and small differences due to transfer fees are handled with consistent rules, not ad hoc decisions by each staff member." },
   { type: "p", text: "If transactions come from several channels, such as the website, marketplaces, and the cashier, make sure all flow into one system. Bookkeeping split across many channels is a common cause of discrepancies between reported sales and those recorded in the books." },
   {
@@ -86,9 +86,9 @@ const en: Block[] = [
   { type: "p", text: "Build the habit of asking suppliers to send the right documents from the start. Fixing errors in a supplier invoice after several months is far harder than requesting a correction on the day the invoice is received." },
   { type: "h2", text: "Access security and segregation of duties" },
   { type: "p", text: "Financial and tax documents contain sensitive information, from customer identity to transaction values. Set access rights by role: billing staff can create invoices, the finance head can approve corrections, and internal auditors can view without changing. The same rights for everyone open the way for errors and misuse." },
-  { type: "p", text: "Review access rights periodically, especially when employees change duties or leave. Accounts no longer needed must be deactivated promptly. Enable multi-factor authentication on high-privilege accounts too, because the leak of one password can have a big impact on financial data." },
+  { type: "p", text: "Review access rights periodically, especially when employees change duties or leave. Accounts no longer needed must be deactivated promptly. Enable multifactor authentication on high privilege accounts too, because the leak of one password can have a big impact on financial data." },
   { type: "h2", text: "Dealing with rule changes" },
-  { type: "p", text: "Tax rules and electronic invoice formats can change, sometimes with a short transition period. Businesses that build their process on spreadsheets and manual work will feel every change as a crisis. A well-ordered system makes adjustment easier because rules are centralised in one place." },
+  { type: "p", text: "Tax rules and electronic invoice formats can change, sometimes with a short transition period. Businesses that build their process on spreadsheets and manual work will feel every change as a crisis. A well ordered system makes adjustment easier because rules are centralised in one place." },
   { type: "ul", items: [
     "Assign who is responsible for monitoring rule changes and informing the team",
     "Separate tax rules from transaction logic so rate changes do not require big development",
@@ -108,14 +108,14 @@ const en: Block[] = [
   ] },
   { type: "h2", text: "First steps you can start this week" },
   { type: "ol", items: [
-    "Check the master data of the most-used customers and products: what is incomplete or duplicated",
+    "Check the master data of the most used customers and products: what is incomplete or duplicated",
     "Map the flow from order to tax report and mark where data is retyped",
-    "Assign one master data owner and one rule-monitoring owner",
+    "Assign one master data owner and one rule monitoring owner",
     "Schedule reconciliation and routine review in the middle of the period",
     "Discuss with a tax consultant what needs adjusting in your process and system",
   ] },
   { type: "h2", text: "Closing" },
-  { type: "p", text: "Tax compliance is often seen as a cost, but a tidy process actually saves time and reduces risk. With clean master data, a connected flow, and automatic audit trails, month-end work changes from a scramble to a calm review." },
+  { type: "p", text: "Tax compliance is often seen as a cost, but a tidy process actually saves time and reduces risk. With clean master data, a connected flow, and automatic audit trails, month end work changes from a scramble to a calm review." },
   { type: "p", text: "Start with the most basic: tidy the data, connect orders with invoices and payments, and set clear responsibilities. ERP is not a guarantee of compliance, but it gives the foundation so that compliance becomes the result of good habits, not overtime work before the deadline." },
   {
     type: "cta",

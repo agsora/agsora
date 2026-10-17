@@ -117,7 +117,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Platform penghubung pihak ketiga, di sisi lain, sudah menyediakan koneksi siap pakai ke banyak marketplace sekaligus dan biasanya menangani sendiri perubahan spesifikasi API dari masing-masing platform. Trade-off-nya adalah biaya langganan bulanan dan ketergantungan pada penyedia layanan tersebut. Untuk bisnis yang berjualan di banyak marketplace sekaligus, biaya langganan ini sering kali masih lebih murah dibanding biaya membangun dan memelihara integrasi sendiri untuk setiap platform.",
+    text: "Platform penghubung pihak ketiga, di sisi lain, sudah menyediakan koneksi siap pakai ke banyak marketplace sekaligus dan biasanya menangani sendiri perubahan spesifikasi API dari masing-masing platform. Trade off-nya adalah biaya langganan bulanan dan ketergantungan pada penyedia layanan tersebut. Untuk bisnis yang berjualan di banyak marketplace sekaligus, biaya langganan ini sering kali masih lebih murah dibanding biaya membangun dan memelihara integrasi sendiri untuk setiap platform.",
   },
   { type: "h2", text: "Produk bundel butuh perhitungan stok yang berbeda" },
   {

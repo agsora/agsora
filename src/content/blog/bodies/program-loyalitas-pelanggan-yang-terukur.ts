@@ -15,7 +15,7 @@ export const body: Block[] = [
     items: [
       "Tentukan tujuan spesifik program sebelum memilih mekanismenya",
       "Hubungkan program dengan sistem kasir agar data tercatat otomatis dan akurat",
-      "Bandingkan perilaku pelanggan sebelum dan sesudah bergabung, bukan hanya member vs non-member",
+      "Bandingkan perilaku pelanggan sebelum dan sesudah bergabung, bukan hanya member vs nonmember",
       "Hitung biaya program secara menyeluruh, termasuk poin yang belum ditukar",
       "Kelola data pelanggan sesuai ketentuan pelindungan data yang berlaku",
     ],
@@ -48,7 +48,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Bandingkan perilaku sebelum dan sesudah bergabung",
-    text: "Pelanggan yang paling rajin mendaftar sebagai member biasanya memang sudah menjadi pelanggan setia sejak sebelum program diluncurkan. Untuk menilai dampak program secara jujur dan akurat, bandingkan perubahan perilaku belanja member sebelum dan sesudah mereka bergabung, bukan sekadar membandingkan member dengan non-member secara umum yang bisa menyesatkan kesimpulan.",
+    text: "Pelanggan yang paling rajin mendaftar sebagai member biasanya memang sudah menjadi pelanggan setia sejak sebelum program diluncurkan. Untuk menilai dampak program secara jujur dan akurat, bandingkan perubahan perilaku belanja member sebelum dan sesudah mereka bergabung, bukan sekadar membandingkan member dengan nonmember secara umum yang bisa menyesatkan kesimpulan.",
   },
   { type: "h2", text: "Hitung biaya program secara menyeluruh" },
   {

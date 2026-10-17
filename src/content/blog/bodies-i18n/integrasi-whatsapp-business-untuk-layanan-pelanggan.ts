@@ -27,7 +27,7 @@ const en: Block[] = [
   { type: "h2", text: "The regular WhatsApp Business app versus the WhatsApp Business Platform" },
   {
     type: "p",
-    text: "There are two ways to use WhatsApp for business, and they are often confused. The first is the WhatsApp Business app you download to a phone. It is free, easy to use, and provides basic features such as a business profile, a simple catalog, conversation labels, and automatic messages for greetings and out-of-hours replies. For a small business with one or two people answering, this is often enough.",
+    text: "There are two ways to use WhatsApp for business, and they are often confused. The first is the WhatsApp Business app you download to a phone. It is free, easy to use, and provides basic features such as a business profile, a simple catalog, conversation labels, and automatic messages for greetings and out of hours replies. For a small business with one or two people answering, this is often enough.",
   },
   {
     type: "p",
@@ -99,7 +99,7 @@ const en: Block[] = [
   { type: "h2", text: "Designing conversation flows that don't feel like a robot" },
   {
     type: "p",
-    text: "WhatsApp automation often fails not because of the technology but because of the conversation design. A customer trapped in a multi-level menu with no way out quickly gets frustrated and moves to another channel. The principles below help keep the experience human.",
+    text: "WhatsApp automation often fails not because of the technology but because of the conversation design. A customer trapped in a multilevel menu with no way out quickly gets frustrated and moves to another channel. The principles below help keep the experience human.",
   },
   {
     type: "ol",
@@ -120,7 +120,7 @@ const en: Block[] = [
   { type: "h2", text: "Policy, consent, and data privacy" },
   {
     type: "p",
-    text: "Unlike personal messaging, the WhatsApp Business Platform has fairly strict rules about who may be messaged and what kinds of messages may be sent. In general, a business needs customer consent before sending business-initiated messages, and messages outside an active conversation window usually have to use a pre-approved template. Violations can lead to restrictions or a blocked number, which would be very disruptive if that number is your main sales channel.",
+    text: "Unlike personal messaging, the WhatsApp Business Platform has fairly strict rules about who may be messaged and what kinds of messages may be sent. In general, a business needs customer consent before sending business initiated messages, and messages outside an active conversation window usually have to use a preapproved template. Violations can lead to restrictions or a blocked number, which would be very disruptive if that number is your main sales channel.",
   },
   {
     type: "p",

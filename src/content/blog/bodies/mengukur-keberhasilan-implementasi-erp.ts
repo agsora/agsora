@@ -49,7 +49,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Beri waktu yang cukup sebelum menilai",
-    text: "Di minggu-minggu pertama setelah implementasi, produktivitas hampir selalu menurun sementara karena tim masih dalam proses menyesuaikan diri dengan cara kerja baru. Menilai keberhasilan project terlalu dini, saat periode penyesuaian ini masih berlangsung, bisa menghasilkan kesimpulan yang keliru dan tidak adil. Tetapkan periode evaluasi yang realistis, biasanya beberapa bulan setelah go-live.",
+    text: "Di minggu-minggu pertama setelah implementasi, produktivitas hampir selalu menurun sementara karena tim masih dalam proses menyesuaikan diri dengan cara kerja baru. Menilai keberhasilan project terlalu dini, saat periode penyesuaian ini masih berlangsung, bisa menghasilkan kesimpulan yang keliru dan tidak adil. Tetapkan periode evaluasi yang realistis, biasanya beberapa bulan setelah go live.",
   },
   { type: "h2", text: "Evaluasi secara bertahap dan berkelanjutan" },
   {

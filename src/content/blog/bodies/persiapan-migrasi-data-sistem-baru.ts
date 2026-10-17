@@ -177,7 +177,7 @@ export const body: Block[] = [
   { type: "h2", text: "Berapa lama sistem lama perlu disimpan?" },
   {
     type: "p",
-    text: "Jangan terburu-buru mematikan sistem lama. Simpan akses baca-saja untuk periode tertentu agar tim bisa merujuk data lama ketika ada pertanyaan, audit, atau keluhan pelanggan terkait transaksi sebelum peralihan. Tentukan juga bagaimana data arsip disimpan untuk jangka panjang, sesuai kebutuhan bisnis dan kewajiban penyimpanan dokumen yang berlaku bagi perusahaan Anda.",
+    text: "Jangan terburu-buru mematikan sistem lama. Simpan akses baca saja untuk periode tertentu agar tim bisa merujuk data lama ketika ada pertanyaan, audit, atau keluhan pelanggan terkait transaksi sebelum peralihan. Tentukan juga bagaimana data arsip disimpan untuk jangka panjang, sesuai kebutuhan bisnis dan kewajiban penyimpanan dokumen yang berlaku bagi perusahaan Anda.",
   },
   { type: "h2", text: "Kesalahan umum dalam migrasi data" },
   {

@@ -1,7 +1,7 @@
 import type { Block } from "@/config/blog";
 
 const en: Block[] = [
-  { type: "p", text: "In shops, restaurants, clinics, factories, and service centres, the work schedule is one of the most time-consuming managerial tasks and one that most often draws complaints. A supervisor spends hours every week drawing up the schedule in a spreadsheet, then faces a series of shift swap requests, sudden absences, and complaints that the schedule is unfair." },
+  { type: "p", text: "In shops, restaurants, clinics, factories, and service centres, the work schedule is one of the most time consuming managerial tasks and one that most often draws complaints. A supervisor spends hours every week drawing up the schedule in a spreadsheet, then faces a series of shift swap requests, sudden absences, and complaints that the schedule is unfair." },
   { type: "p", text: "A bad schedule is not only annoying; it directly affects the business. Too few people at busy hours leaves customers waiting and sales lost. Too many at quiet hours burns labour cost. An irregular schedule makes employees tired, drains their motivation, and eventually makes them quit." },
   { type: "p", text: "This article covers shift scheduling and workforce management in a practical way: how to build a schedule that fits business needs and is fair to employees, how to handle changes, how to connect it with attendance and payroll, and how a system helps reduce the administrative burden." },
   { type: "h2", text: "Summary" },
@@ -33,7 +33,7 @@ const en: Block[] = [
     "Limits on hours per day and per week, and overtime limits",
     "A minimum gap between two shifts so employees can rest",
     "Weekly rest entitlement and public holidays",
-    "Distribution of less-liked shifts, such as nights and weekends, on a rotating basis",
+    "Distribution of less liked shifts, such as nights and weekends, on a rotating basis",
     "A maximum number of consecutive working days",
     "Notice of the schedule within a set time before it takes effect",
   ] },
@@ -52,7 +52,7 @@ const en: Block[] = [
   { type: "p", text: "Automatic scheduling proves most useful when complexity is high: many employees, many locations, many skills, and many rules. But the result still needs human review. The system does not know that an employee is going through a family difficulty or that two particular people find it hard to work together." },
   { type: "ol", items: [
     "Set the need per hour and per position for the period to be scheduled",
-    "Collect availability, time-off requests, and approved leave",
+    "Collect availability, time off requests, and approved leave",
     "Apply a template or let the system suggest an initial schedule according to the rules",
     "Review and adjust manually, checking fairness and rule violations",
     "Publish the schedule with adequate lead time and notify all employees",
@@ -82,10 +82,10 @@ const en: Block[] = [
   { type: "h2", text: "Managing labour cost without sacrificing service" },
   { type: "p", text: "Labour cost is often the largest cost item in service and retail businesses. Pressing it down by cutting hours blindly is dangerous, because service declines, customers leave, and the remaining employees tire. Smart management is placing the right people at the right place and time." },
   { type: "p", text: "Monitor metrics such as sales per labour hour, labour cost as a percentage of sales, overtime, and paid but unproductive hours. Compare between locations or periods to find deviations. These metrics should be used to improve scheduling, not to blame individuals." },
-  { type: "p", text: "Consider healthy flexibility too: part-time employees for peak hours, cross-training so one person can cover several positions, and schedule adjustments based on demand forecasts. A versatile team makes the schedule more resilient to change." },
-  { type: "h2", text: "Cross-training and skills" },
+  { type: "p", text: "Consider healthy flexibility too: part time employees for peak hours, cross training so one person can cover several positions, and schedule adjustments based on demand forecasts. A versatile team makes the schedule more resilient to change." },
+  { type: "h2", text: "Cross training and skills" },
   { type: "p", text: "A schedule is not only about the number of people, but also the right skills at the right time. A clinic needs staff with certain qualifications at all times, a restaurant needs experienced cooks at busy hours, and a factory needs certified operators for certain machines. Recording each person's skills makes the schedule checkable against requirements." },
-  { type: "p", text: "Cross-training is one of the most effective ways to strengthen a schedule. When more people can fill more positions, sudden changes do not paralyse service. Employees also get a chance to grow, and that increases engagement and retention." },
+  { type: "p", text: "Cross training is one of the most effective ways to strengthen a schedule. When more people can fill more positions, sudden changes do not paralyse service. Employees also get a chance to grow, and that increases engagement and retention." },
   { type: "h2", text: "Employee experience and retention" },
   { type: "p", text: "Employee turnover is expensive: recruitment, training, and reduced productivity during the adjustment period. The schedule is one of the biggest factors affecting whether people stay. Fairness, regularity, and a little respect for life outside work often matter more than a small pay rise." },
   { type: "ul", items: [
@@ -97,7 +97,7 @@ const en: Block[] = [
     "Review overtime and fatigue data to prevent overload on particular people",
   ] },
   { type: "h2", text: "An illustration: a store with three branches" },
-  { type: "p", text: "Imagine a store chain with three branches and about forty employees. Previously, each store manager built the schedule in their own spreadsheet, and shift swap requests came through a chat group. At every month-end, HR spent several days merging attendance records to calculate pay, and employees often complained about overtime calculations that did not match." },
+  { type: "p", text: "Imagine a store chain with three branches and about forty employees. Previously, each store manager built the schedule in their own spreadsheet, and shift swap requests came through a chat group. At every month end, HR spent several days merging attendance records to calculate pay, and employees often complained about overtime calculations that did not match." },
   { type: "p", text: "After the rollout, staffing needs per hour at each branch are calculated from sales data, and the schedule is built in one system with the same rules. Employees view the schedule and request swaps from their phones, the store manager approves with one tap, and attendance is automatically compared with the schedule. Overtime data flows to payroll without manual merging." },
   { type: "p", text: "The results show in a few simple things: complaints about schedule unfairness decline because the rules are visible, HR's administrative work shrinks, and store managers gain time to train their teams. Labour cost is also better controlled because overstaffing in quiet hours is easier to see and adjust." },
   { type: "h2", text: "Measuring success" },
@@ -133,7 +133,7 @@ const en: Block[] = [
     "Using cost metrics to blame rather than to improve the schedule",
   ] },
   { type: "h2", text: "Closing" },
-  { type: "p", text: "Good scheduling balances three things that often conflict: service needs, cost, and employee well-being. When all three are weighed openly, with data, clear rules, and the right tools, the result is customers who are served better and a team that stays longer." },
+  { type: "p", text: "Good scheduling balances three things that often conflict: service needs, cost, and employee well being. When all three are weighed openly, with data, clear rules, and the right tools, the result is customers who are served better and a team that stays longer." },
   { type: "p", text: "Start by understanding the real needs, write fair rules, and connect the schedule with attendance and payroll. Administrative work decreases, errors fall, and supervisors regain time to lead their teams rather than merely build spreadsheets." },
   {
     type: "cta",

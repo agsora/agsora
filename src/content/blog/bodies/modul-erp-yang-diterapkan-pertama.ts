@@ -20,7 +20,7 @@ export const body: Block[] = [
       "Penerapan bertahap menurunkan risiko dan mempercepat manfaat yang terasa",
       "Pilih titik awal berdasarkan masalah paling mahal, ketergantungan antar modul, dan kesiapan data",
       "Data master adalah fondasi yang harus rapi sebelum modul apa pun berjalan",
-      "Bisnis multi-cabang sebaiknya memulai dari satu cabang percontohan",
+      "Bisnis multicabang sebaiknya memulai dari satu cabang percontohan",
       "Tetapkan kriteria “siap lanjut” sebelum masuk ke modul berikutnya",
     ],
   },
@@ -77,7 +77,7 @@ export const body: Block[] = [
     type: "p",
     text: "Manufaktur membutuhkan data master bahan dan daftar bahan per produk yang akurat sebelum modul produksi bisa berjalan. Urutan yang umum adalah data master, lalu inventori bahan baku dan barang jadi, baru kemudian perencanaan dan pencatatan produksi. Memulai dari modul produksi tanpa inventori yang akurat hampir selalu menghasilkan angka biaya produksi yang tidak bisa dipercaya.",
   },
-  { type: "h3", text: "Bisnis multi-cabang" },
+  { type: "h3", text: "Bisnis multicabang" },
   {
     type: "p",
     text: "Untuk bisnis dengan beberapa cabang, urutan tidak hanya soal modul, tetapi juga soal lokasi. Terapkan modul pertama di satu cabang sebagai percontohan, perbaiki alur kerja berdasarkan pengalaman nyata, lalu perluas ke cabang lain. Masalah yang ditemukan di satu cabang jauh lebih murah diperbaiki daripada masalah yang terulang di semua cabang sekaligus.",

@@ -140,14 +140,14 @@ export const body: Block[] = [
     type: "p",
     text: "Libatkan staf tata usaha yang paling memahami data lama sejak tahap perencanaan migrasi, bukan hanya di akhir menjelang peluncuran. Mereka biasanya tahu persis di mana data yang tidak konsisten berada dan bagaimana cara memverifikasinya, karena merekalah yang selama ini mengelola data tersebut secara manual selama bertahun-tahun.",
   },
-  { type: "h2", text: "Mendukung kegiatan ekstrakurikuler dan non-akademik" },
+  { type: "h2", text: "Mendukung kegiatan ekstrakurikuler dan nonakademik" },
   {
     type: "p",
-    text: "Selain nilai dan kehadiran di kelas, sekolah juga mengelola kegiatan ekstrakurikuler, prestasi non-akademik, dan catatan perkembangan sikap siswa yang sama pentingnya untuk gambaran perkembangan anak secara utuh. Sistem yang hanya berfokus pada urusan akademik murni sering membuat data ini tercecer di catatan terpisah milik masing-masing pembina kegiatan, sehingga wali kelas kesulitan mendapatkan gambaran lengkap seorang siswa saat menyusun laporan perkembangan ke orang tua.",
+    text: "Selain nilai dan kehadiran di kelas, sekolah juga mengelola kegiatan ekstrakurikuler, prestasi nonakademik, dan catatan perkembangan sikap siswa yang sama pentingnya untuk gambaran perkembangan anak secara utuh. Sistem yang hanya berfokus pada urusan akademik murni sering membuat data ini tercecer di catatan terpisah milik masing-masing pembina kegiatan, sehingga wali kelas kesulitan mendapatkan gambaran lengkap seorang siswa saat menyusun laporan perkembangan ke orang tua.",
   },
   {
     type: "p",
-    text: "Mencatat partisipasi dan pencapaian di kegiatan non-akademik dalam sistem yang sama memudahkan sekolah menyusun profil siswa yang lebih menyeluruh, sekaligus memudahkan pembina ekstrakurikuler melaporkan kegiatan mereka tanpa harus membuat laporan terpisah secara manual setiap semester.",
+    text: "Mencatat partisipasi dan pencapaian di kegiatan nonakademik dalam sistem yang sama memudahkan sekolah menyusun profil siswa yang lebih menyeluruh, sekaligus memudahkan pembina ekstrakurikuler melaporkan kegiatan mereka tanpa harus membuat laporan terpisah secara manual setiap semester.",
   },
   { type: "h2", text: "Biaya yang perlu dipertimbangkan" },
   {

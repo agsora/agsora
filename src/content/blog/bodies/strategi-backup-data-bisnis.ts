@@ -49,7 +49,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Sistem dengan transaksi tinggi mungkin membutuhkan backup setiap beberapa jam, atau bahkan replikasi real-time. Dokumen administratif yang jarang berubah mungkin cukup dengan backup harian atau mingguan. Frekuensi backup sebaiknya mengikuti jawaban ini, bukan ditentukan sembarangan.",
+    text: "Sistem dengan transaksi tinggi mungkin membutuhkan backup setiap beberapa jam, atau bahkan replikasi real time. Dokumen administratif yang jarang berubah mungkin cukup dengan backup harian atau mingguan. Frekuensi backup sebaiknya mengikuti jawaban ini, bukan ditentukan sembarangan.",
   },
   { type: "h2", text: "Tentukan seberapa cepat harus pulih" },
   {
@@ -64,7 +64,7 @@ export const body: Block[] = [
   { type: "h2", text: "Lindungi dari ransomware" },
   {
     type: "p",
-    text: "Ransomware modern sering menargetkan tidak hanya data utama, tetapi juga backup yang terus-menerus terhubung ke sistem yang sama, sehingga backup ikut terenkripsi bersama data aslinya. Setidaknya satu salinan sebaiknya terpisah secara jaringan (air-gapped) atau tidak bisa diubah untuk periode tertentu (immutable), sehingga tetap aman meski sistem utama berhasil diserang.",
+    text: "Ransomware modern sering menargetkan tidak hanya data utama, tetapi juga backup yang terus-menerus terhubung ke sistem yang sama, sehingga backup ikut terenkripsi bersama data aslinya. Setidaknya satu salinan sebaiknya terpisah secara jaringan (air gapped) atau tidak bisa diubah untuk periode tertentu (immutable), sehingga tetap aman meski sistem utama berhasil diserang.",
   },
   { type: "h2", text: "Jangan lupakan data di luar server utama" },
   {

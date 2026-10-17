@@ -27,7 +27,7 @@ const en: Block[] = [
   { type: "h2", text: "The strengths and weak spots of a family business" },
   {
     type: "p",
-    text: "Family businesses have advantages that are hard to copy. Relationships with customers and suppliers are built over years on personal trust. Decisions can be made quickly without layers of bureaucracy. Long-serving employees often feel part of an extended family and understand the ins and outs of the business deeply. All of these are assets that must not be lost in the process of going digital.",
+    text: "Family businesses have advantages that are hard to copy. Relationships with customers and suppliers are built over years on personal trust. Decisions can be made quickly without layers of bureaucracy. Long serving employees often feel part of an extended family and understand the ins and outs of the business deeply. All of these are assets that must not be lost in the process of going digital.",
   },
   {
     type: "p",
@@ -36,7 +36,7 @@ const en: Block[] = [
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
-    alt: "A shop owner processing a transaction on a tablet point-of-sale device at the counter",
+    alt: "A shop owner processing a transaction on a tablet point of sale device at the counter",
     caption: "Digitalising a family business often starts with the daily transactions that happen most often.",
   },
   { type: "h2", text: "Bridging two generations" },
@@ -89,15 +89,15 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This order deliberately puts new sales channels last. Many next-generation owners want to open an online store or build an app straight away, but new channels only add chaos if stock, prices, and orders inside the business aren't yet properly recorded. A strong foundation makes digital expansion much easier and safer.",
+    text: "This order deliberately puts new sales channels last. Many next generation owners want to open an online store or build an app straight away, but new channels only add chaos if stock, prices, and orders inside the business aren't yet properly recorded. A strong foundation makes digital expansion much easier and safer.",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1596784269480-039b2a893af0",
     alt: "A stone staircase climbing a grassy hillside",
-    caption: "Well-organised systems prepare a family business to grow and welcome new team members.",
+    caption: "Well organised systems prepare a family business to grow and welcome new team members.",
   },
-  { type: "h2", text: "Involving long-serving employees" },
+  { type: "h2", text: "Involving long serving employees" },
   {
     type: "p",
     text: "Employees who have worked there for years decide whether digitalisation succeeds. They understand the daily processes best, but they're also the most likely to feel threatened by change. Some worry they won't be able to learn a new system; others worry their role will no longer be needed.",
@@ -113,11 +113,11 @@ const en: Block[] = [
   { type: "h2", text: "Choosing a solution that suits a family business" },
   {
     type: "p",
-    text: "Family businesses often have unique ways of working: pricing rules that depend on relationships, approval flows involving particular family members, or production processes that grew out of experience. Off-the-shelf software can be a good choice if the processes are fairly standard, but if a system forces the business to change the very ways of working that set it apart, the result can backfire.",
+    text: "Family businesses often have unique ways of working: pricing rules that depend on relationships, approval flows involving particular family members, or production processes that grew out of experience. Off the shelf software can be a good choice if the processes are fairly standard, but if a system forces the business to change the very ways of working that set it apart, the result can backfire.",
   },
   {
     type: "p",
-    text: "Consider a few things when choosing: how far the system can adapt to existing business rules, whether it's easy for employees with different comfort levels with technology, whether data can be exported if you ever want to switch systems, and whether support is easy to reach when problems come up. For truly distinctive processes, a custom-designed system often gives better results in the long run.",
+    text: "Consider a few things when choosing: how far the system can adapt to existing business rules, whether it's easy for employees with different comfort levels with technology, whether data can be exported if you ever want to switch systems, and whether support is easy to reach when problems come up. For truly distinctive processes, a custom designed system often gives better results in the long run.",
   },
   { type: "h2", text: "Common mistakes" },
   {
@@ -130,7 +130,7 @@ const en: Block[] = [
       "Buying a system first and thinking about processes later, so the system doesn't fit how people work and is eventually abandoned",
       "Running the new system and the old way in parallel indefinitely, so the team does everything twice and the data never fully moves over",
       "Handing the entire project to one younger family member without support or clear authority",
-      "Overlooking the habits of long-standing customers who may not be ready for new ways of ordering or paying",
+      "Overlooking the habits of long standing customers who may not be ready for new ways of ordering or paying",
       "Not deciding who is responsible for maintaining data quality once the system is running",
     ],
   },

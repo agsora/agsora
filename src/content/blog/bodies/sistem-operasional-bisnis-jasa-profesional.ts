@@ -69,7 +69,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kapasitas tim untuk keputusan menerima project" },
   {
     type: "p",
-    text: "Melihat gambaran beban kerja setiap anggota tim secara real-time membantu manajemen memutuskan apakah tim sanggup menerima project baru yang ditawarkan, atau justru sudah waktunya menambah personel. Tanpa gambaran kapasitas yang jelas ini, keputusan menerima atau menolak project baru sering kali dibuat hanya berdasarkan perasaan, yang bisa berujung pada tim yang kelebihan beban dan kualitas pekerjaan yang menurun.",
+    text: "Melihat gambaran beban kerja setiap anggota tim secara real time membantu manajemen memutuskan apakah tim sanggup menerima project baru yang ditawarkan, atau justru sudah waktunya menambah personel. Tanpa gambaran kapasitas yang jelas ini, keputusan menerima atau menolak project baru sering kali dibuat hanya berdasarkan perasaan, yang bisa berujung pada tim yang kelebihan beban dan kualitas pekerjaan yang menurun.",
   },
   { type: "h2", text: "Mengelola project dengan skema penagihan berbeda" },
   {

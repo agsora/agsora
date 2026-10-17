@@ -31,7 +31,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "The most common cause isn't a lack of notifications, but an app that doesn't solve a real problem better than its alternatives. If customers can order through WhatsApp just as comfortably, they have no strong reason to open your app. So before thinking about notifications, make sure the app offers something other channels can't easily give: a neat order history, visible loyalty points, one-tap reordering, or accurate status tracking.",
+    text: "The most common cause isn't a lack of notifications, but an app that doesn't solve a real problem better than its alternatives. If customers can order through WhatsApp just as comfortably, they have no strong reason to open your app. So before thinking about notifications, make sure the app offers something other channels can't easily give: a neat order history, visible loyalty points, one tap reordering, or accurate status tracking.",
   },
   {
     type: "p",
@@ -46,7 +46,7 @@ const en: Block[] = [
   { type: "h2", text: "Understanding notification types and when each fits" },
   {
     type: "p",
-    text: "Not all notifications are equally valuable to users. The most useful way to organize them is to group them by purpose. With grouping, you can set different frequency and permission rules for each group, and give users fine-grained control instead of an all-or-nothing choice.",
+    text: "Not all notifications are equally valuable to users. The most useful way to organize them is to group them by purpose. With grouping, you can set different frequency and permission rules for each group, and give users fine grained control instead of an all or nothing choice.",
   },
   { type: "h3", text: "Transactional notifications" },
   {
@@ -77,9 +77,9 @@ const en: Block[] = [
     items: [
       "Explain the concrete benefit to the user before showing the system permission request",
       "Ask for permission at a moment when notifications make sense, such as after the first order",
-      "Provide in-app settings to choose which notification categories are wanted",
+      "Provide in app settings to choose which notification categories are wanted",
       "Respect refusal; don't keep showing the same request repeatedly",
-      "Still provide an alternative path, such as email or in-app messages, for those who don't enable notifications",
+      "Still provide an alternative path, such as email or in app messages, for those who don't enable notifications",
     ],
   },
   { type: "h2", text: "Segmentation: sending the right thing to the right person" },
@@ -116,7 +116,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Third, value that accumulates with use. Order history, saved addresses, favorites lists, and loyalty points make the app more useful the longer it's used, and make switching to an alternative feel like a loss. Fourth, the feeling of being recognized: the right greeting, sensible recommendations, and fast service when the user contacts support make the experience feel personal rather than mass-produced.",
+    text: "Third, value that accumulates with use. Order history, saved addresses, favorites lists, and loyalty points make the app more useful the longer it's used, and make switching to an alternative feel like a loss. Fourth, the feeling of being recognized: the right greeting, sensible recommendations, and fast service when the user contacts support make the experience feel personal rather than mass produced.",
   },
   {
     type: "image",
@@ -124,14 +124,14 @@ const en: Block[] = [
     alt: "A yellow sticky note with a lightbulb drawing on a cork board",
     caption: "Retention is designed from the first idea: a short flow, clear value, and a real reason to return.",
   },
-  { type: "h2", text: "In-app messages as a complement" },
+  { type: "h2", text: "In app messages as a complement" },
   {
     type: "p",
-    text: "Besides push notifications that appear on the lock screen, an app can show in-app messages: banners, information cards, or a small inbox read once the user has already opened the app. This kind of message needs no special permission and doesn't interrupt, so it suits non-urgent information such as new features, usage tips, or seasonal offers.",
+    text: "Besides push notifications that appear on the lock screen, an app can show in app messages: banners, information cards, or a small inbox read once the user has already opened the app. This kind of message needs no special permission and doesn't interrupt, so it suits nonurgent information such as new features, usage tips, or seasonal offers.",
   },
   {
     type: "p",
-    text: "The division of labor is simple: use push notifications for time-sensitive, high-value things, and use in-app messages for everything else. That way you keep the push channel valuable and don't drain users' patience.",
+    text: "The division of labor is simple: use push notifications for time sensitive, high value things, and use in app messages for everything else. That way you keep the push channel valuable and don't drain users' patience.",
   },
   { type: "h2", text: "Technical things to prepare" },
   {
@@ -142,10 +142,10 @@ const en: Block[] = [
     type: "ul",
     items: [
       "Device token storage linked to accounts, including handling of expired tokens",
-      "Per-user preference settings for notification categories and quiet hours",
+      "Per user preference settings for notification categories and quiet hours",
       "A sending queue so campaign spikes don't overload the server",
       "Logging of every notification sent, opened, and leading to an action",
-      "Frequency-limit settings that can be changed without re-releasing the app",
+      "Frequency limit settings that can be changed without rereleasing the app",
       "Testing across operating system versions, since notification behavior can differ between devices",
     ],
   },
@@ -156,7 +156,7 @@ const en: Block[] = [
   { type: "h2", text: "Measuring whether your retention strategy works" },
   {
     type: "p",
-    text: "Many teams stop at easy-to-see measures such as how many notifications were sent or opened. These numbers are useful but not enough. A frequently opened notification doesn't necessarily lead users to do something valuable, and may even draw openings out of curiosity followed by disappointment. A more meaningful measure is behavior change: did users complete a purchase, reorder, or become active again after a period of absence?",
+    text: "Many teams stop at easy to see measures such as how many notifications were sent or opened. These numbers are useful but not enough. A frequently opened notification doesn't necessarily lead users to do something valuable, and may even draw openings out of curiosity followed by disappointment. A more meaningful measure is behavior change: did users complete a purchase, reorder, or become active again after a period of absence?",
   },
   {
     type: "p",

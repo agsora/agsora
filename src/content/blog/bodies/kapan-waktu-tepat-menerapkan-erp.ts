@@ -55,7 +55,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Pertanyaan cepat",
-    text: "Coba tanyakan pada diri sendiri: berapa lama waktu yang dibutuhkan untuk menjawab pertanyaan tentang kondisi bisnis saat ini, mulai dari pertanyaan diajukan sampai jawabannya siap dengan data yang bisa dipercaya? Jika jawabannya lebih dari satu-dua hari, itu sinyal kuat.",
+    text: "Coba tanyakan pada diri sendiri: berapa lama waktu yang dibutuhkan untuk menjawab pertanyaan tentang kondisi bisnis saat ini, mulai dari pertanyaan diajukan sampai jawabannya siap dengan data yang bisa dipercaya? Jika jawabannya lebih dari satu dua hari, itu sinyal kuat.",
   },
   { type: "h2", text: "Tahap 4: Investor, bank, atau audit mulai menuntut laporan yang rapi" },
   {
@@ -70,7 +70,7 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Kompetitor mulai menawarkan layanan yang butuh visibilitas stok real-time, misalnya cek ketersediaan online",
+      "Kompetitor mulai menawarkan layanan yang butuh visibilitas stok real time, misalnya cek ketersediaan online",
       "Regulasi pelaporan di industri Anda semakin ketat dan butuh data yang lebih terstruktur",
       "Pelanggan besar atau korporat mulai meminta integrasi sistem, misalnya untuk pemesanan otomatis",
       "Jumlah transaksi tumbuh jauh lebih cepat dibanding kapasitas tim administrasi",

@@ -33,7 +33,7 @@ export const body: Block[] = [
   { type: "h2", text: "Harga yang harus dibayar" },
   { type: "p", text: "Dalam platform terpadu, banyak hal sudah tersedia: keranjang, checkout, akun pelanggan, pratinjau, dan sering kali ekosistem plugin. Pada pendekatan headless, bagian-bagian ini harus dibangun atau dirangkai. Fitur yang di platform terpadu cukup dicentang, di sini bisa menjadi pekerjaan pengembangan berminggu-minggu." },
   { type: "p", text: "Ada juga biaya koordinasi. Setiap komponen punya pembaruan, batas pemakaian, dan cara gagal sendiri. Ketika ada masalah, pertanyaan pertama adalah di bagian mana masalah itu terjadi. Tim perlu memahami seluruh rangkaian, bukan hanya satu produk, dan perlu pemantauan yang menyeluruh." },
-  { type: "p", text: "Selain itu ada ketergantungan pada orang. Platform terpadu dapat dikelola oleh staf non-teknis dengan bantuan sesekali. Arsitektur headless hampir selalu memerlukan pengembang yang terlibat berkelanjutan. Bila pengembang yang membangunnya pergi dan tidak ada dokumentasi, bisnis Anda berada dalam posisi sulit." },
+  { type: "p", text: "Selain itu ada ketergantungan pada orang. Platform terpadu dapat dikelola oleh staf nonteknis dengan bantuan sesekali. Arsitektur headless hampir selalu memerlukan pengembang yang terlibat berkelanjutan. Bila pengembang yang membangunnya pergi dan tidak ada dokumentasi, bisnis Anda berada dalam posisi sulit." },
   { type: "callout", title: "Kebebasan bukan tujuan", text: "Kebebasan memilih tampilan dan komponen hanya bernilai bila Anda memang punya kebutuhan yang tidak bisa dipenuhi platform yang ada. Tanpa kebutuhan itu, kebebasan hanya berarti lebih banyak keputusan dan lebih banyak yang harus dirawat." },
   { type: "h2", text: "Kapan headless masuk akal" },
   { type: "p", text: "Pendekatan ini layak dipertimbangkan ketika Anda perlu melayani banyak kanal dari satu sumber data, misalnya website, aplikasi mobile, layar di toko, dan portal mitra yang semuanya menampilkan katalog yang sama. Mengelola data di beberapa platform terpisah akan cepat menjadi beban." },
@@ -41,7 +41,7 @@ export const body: Block[] = [
   { type: "p", text: "Alasan ketiga adalah integrasi yang kompleks. Bila website harus berbicara dengan ERP, sistem gudang, dan layanan lain secara mendalam, memiliki lapisan sendiri yang menjadi penghubung dapat lebih bersih daripada menumpuk plugin. Alasan keempat adalah kebutuhan skala dan keandalan khusus yang tidak bisa dipenuhi paket platform biasa." },
   { type: "h2", text: "Kapan sebaiknya tidak" },
   { type: "p", text: "Bila Anda baru memulai dan produknya puluhan sampai ratusan, platform terpadu hampir pasti pilihan yang lebih bijak. Waktu dan dana lebih baik dipakai untuk memvalidasi bisnis, memperbaiki foto produk, dan memasarkan, bukan merakit arsitektur yang kebutuhannya belum terbukti." },
-  { type: "p", text: "Bila tim Anda kecil dan tidak punya pengembang tetap, headless menjadi risiko. Setiap perubahan kecil memerlukan bantuan teknis dan setiap gangguan menunggu orang yang paham. Platform terpadu memberi kemandirian yang lebih besar kepada staf non-teknis." },
+  { type: "p", text: "Bila tim Anda kecil dan tidak punya pengembang tetap, headless menjadi risiko. Setiap perubahan kecil memerlukan bantuan teknis dan setiap gangguan menunggu orang yang paham. Platform terpadu memberi kemandirian yang lebih besar kepada staf nonteknis." },
   { type: "p", text: "Bila alasan utamanya hanya karena sedang tren atau karena pesaing melakukannya, tahan dulu. Tanyakan apa masalah konkret yang tidak bisa diselesaikan dengan konfigurasi yang ada. Banyak masalah yang dikira keterbatasan platform sebenarnya adalah soal konten, foto, atau struktur halaman yang belum dirapikan." },
   {
     type: "image",
@@ -59,7 +59,7 @@ export const body: Block[] = [
   { type: "p", text: "Keempat, pemantauan dan penanganan gangguan. Karena ada banyak bagian, tentukan siapa yang dipanggil ketika checkout gagal dan bagaimana mengetahui bagian mana yang bermasalah. Kelima, kepemilikan: pastikan akun, kode, dan domain atas nama bisnis Anda, bukan vendor." },
   { type: "ul", items: [
     "Konten tetap dapat dirayapi mesin pencari dan memuat data terstruktur yang benar",
-    "Ada pratinjau dan alur terbit yang bisa dipakai staf non-teknis",
+    "Ada pratinjau dan alur terbit yang bisa dipakai staf nonteknis",
     "Pemantauan menyeluruh dengan pemberitahuan untuk alur penting seperti checkout",
     "Dokumentasi arsitektur, akun layanan, dan cara pemulihan tersimpan di tempat yang aman",
     "Kode, akun, dan domain dimiliki bisnis, bukan hanya vendor",

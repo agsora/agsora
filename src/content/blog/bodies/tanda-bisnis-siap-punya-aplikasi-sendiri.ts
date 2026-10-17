@@ -18,7 +18,7 @@ export const body: Block[] = [
     type: "ul",
     items: [
       "Aplikasi dibutuhkan ketika proses manual mulai menimbulkan biaya nyata, waktu, kesalahan, atau pelanggan yang kecewa",
-      "Tim lapangan yang butuh data real-time adalah salah satu pemicu paling umum",
+      "Tim lapangan yang butuh data real time adalah salah satu pemicu paling umum",
       "Tidak semua bisnis perlu aplikasi mobile; sebagian cukup dengan aplikasi web",
       "Memulai dari versi minimum (MVP) lebih aman daripada langsung membangun semua fitur",
       "Pilihan antara software jadi dan custom development bergantung pada seberapa unik proses bisnis Anda",
@@ -34,7 +34,7 @@ export const body: Block[] = [
     type: "p",
     text: "WhatsApp dan spreadsheet bekerja baik untuk volume kecil dan tim yang masih bisa saling mengingatkan secara langsung. Masalah muncul ketika volume bertambah: pesan penting tenggelam di antara obrolan lain, versi spreadsheet yang benar tidak jelas karena banyak orang mengedit salinan berbeda, dan tidak ada cara mudah untuk melihat riwayat atau menelusuri kesalahan. Jika tim Anda menghabiskan lebih banyak waktu mencari informasi daripada menggunakannya, itu tanda paling awal bahwa alat yang dipakai sudah kalah dengan kompleksitas bisnis.",
   },
-  { type: "h2", text: "Tanda 2: Tim lapangan butuh data secara real-time" },
+  { type: "h2", text: "Tanda 2: Tim lapangan butuh data secara real time" },
   {
     type: "p",
     text: "Sales yang bertemu klien, kurir yang mengantar barang, atau teknisi yang menangani perbaikan di lokasi pelanggan, semuanya bekerja jauh dari kantor, tapi tetap butuh data terbaru: stok yang tersedia, status pesanan, atau riwayat pelanggan. Ketika mereka harus menelepon kantor untuk mengecek hal-hal ini, atau sebaliknya kantor tidak tahu di mana posisi mereka dan pekerjaan apa yang sudah selesai, itu adalah beban yang bisa dihilangkan dengan aplikasi yang memberi akses data langsung dari lapangan.",

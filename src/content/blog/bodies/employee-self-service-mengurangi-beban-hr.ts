@@ -13,17 +13,17 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Employee self-service memindahkan pekerjaan administratif rutin dari HR ke karyawan sendiri",
+      "Employee self service memindahkan pekerjaan administratif rutin dari HR ke karyawan sendiri",
       "Fitur yang paling terasa manfaatnya: cuti, slip gaji, data pribadi, dan klaim",
       "Tidak semua perubahan data boleh langsung berlaku, tetapkan mana yang butuh verifikasi",
       "Akses dari ponsel menentukan seberapa besar fitur ini benar-benar dipakai",
       "Keamanan akun harus kuat karena menampilkan data gaji dan data pribadi",
     ],
   },
-  { type: "h2", text: "Apa itu employee self-service" },
+  { type: "h2", text: "Apa itu employee self service" },
   {
     type: "p",
-    text: "Employee self-service adalah bagian sistem HR yang bisa diakses langsung oleh karyawan untuk melihat informasi dan mengajukan permintaan sendiri, tanpa perantara staf HR untuk setiap transaksi kecil. Tim HR tetap memegang kendali atas persetujuan, kebijakan, dan data yang sensitif, yang berubah bukan wewenang HR, melainkan siapa yang mengetik dan mencari informasi rutin sehari-hari.",
+    text: "Employee self service adalah bagian sistem HR yang bisa diakses langsung oleh karyawan untuk melihat informasi dan mengajukan permintaan sendiri, tanpa perantara staf HR untuk setiap transaksi kecil. Tim HR tetap memegang kendali atas persetujuan, kebijakan, dan data yang sensitif, yang berubah bukan wewenang HR, melainkan siapa yang mengetik dan mencari informasi rutin sehari-hari.",
   },
   {
     type: "p",
@@ -88,7 +88,7 @@ export const body: Block[] = [
     type: "p",
     text: "Karyawan yang sudah lama terbiasa dengan cara manual, bertanya langsung ke HR atau mengisi formulir kertas, kadang enggan beralih ke sistem digital, terutama jika merasa kurang familiar dengan teknologi. Sediakan pelatihan singkat yang sabar, panduan bergambar langkah demi langkah, dan pendampingan pribadi di minggu-minggu awal untuk kelompok ini, alih-alih memaksakan peralihan sekaligus tanpa dukungan.",
   },
-  { type: "h2", text: "Langkah menerapkan employee self-service" },
+  { type: "h2", text: "Langkah menerapkan employee self service" },
   {
     type: "ol",
     items: [
@@ -106,7 +106,7 @@ export const body: Block[] = [
     text: "Bandingkan jumlah pertanyaan rutin yang masuk ke HR sebelum dan sesudah layanan mandiri berjalan, dari email, pesan, atau kunjungan langsung ke meja HR. Perbandingan ini membantu menilai apakah fitur benar-benar dipakai secara konsisten atau perlu disosialisasikan ulang kepada karyawan yang masih ragu.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
-  { type: "h3", text: "Apakah employee self-service cocok untuk perusahaan kecil?" },
+  { type: "h3", text: "Apakah employee self service cocok untuk perusahaan kecil?" },
   {
     type: "p",
     text: "Ya, bahkan untuk perusahaan dengan belasan karyawan, fitur ini tetap menghemat waktu HR atau pemilik yang sering merangkap urusan administratif. Skalanya bisa disesuaikan, tidak perlu semua fitur diterapkan sekaligus.",
@@ -116,7 +116,7 @@ export const body: Block[] = [
     type: "p",
     text: "Simpan riwayat perubahan data sehingga bisa ditelusuri dan dikoreksi jika terjadi kesalahan. Untuk data yang berisiko tinggi, tambahkan langkah konfirmasi sebelum perubahan benar-benar tersimpan.",
   },
-  { type: "h2", text: "Menghubungkan self-service dengan alur persetujuan atasan" },
+  { type: "h2", text: "Menghubungkan self service dengan alur persetujuan atasan" },
   {
     type: "p",
     text: "Layanan mandiri karyawan tidak berarti menghilangkan peran atasan dalam keputusan yang memang membutuhkan pertimbangan mereka, seperti pengajuan cuti atau klaim biaya. Yang berubah adalah bagaimana persetujuan itu terjadi: atasan menerima notifikasi langsung di aplikasi, bisa melihat konteks lengkap seperti sisa cuti tim secara keseluruhan, dan menyetujui atau menolak dalam hitungan detik tanpa perlu membuka spreadsheet terpisah atau menunggu formulir kertas diserahkan secara fisik.",
@@ -128,7 +128,7 @@ export const body: Block[] = [
   { type: "h2", text: "Data yang konsisten mengurangi kesalahan penggajian" },
   {
     type: "p",
-    text: "Ketika data cuti, lembur, dan kehadiran diinput manual dari berbagai sumber, catatan kertas, pesan WhatsApp, ingatan supervisor, proses penggajian menjadi rawan kesalahan, dan kesalahan pada gaji adalah salah satu hal yang paling cepat merusak kepercayaan karyawan terhadap perusahaan. Ketika karyawan mengajukan dan melihat sendiri data cuti serta kehadirannya secara real-time melalui sistem yang sama, kemungkinan terjadinya selisih antara catatan HR dan pemahaman karyawan tentang haknya sendiri jauh berkurang.",
+    text: "Ketika data cuti, lembur, dan kehadiran diinput manual dari berbagai sumber, catatan kertas, pesan WhatsApp, ingatan supervisor, proses penggajian menjadi rawan kesalahan, dan kesalahan pada gaji adalah salah satu hal yang paling cepat merusak kepercayaan karyawan terhadap perusahaan. Ketika karyawan mengajukan dan melihat sendiri data cuti serta kehadirannya secara real time melalui sistem yang sama, kemungkinan terjadinya selisih antara catatan HR dan pemahaman karyawan tentang haknya sendiri jauh berkurang.",
   },
   {
     type: "p",
@@ -155,7 +155,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Employee self-service bukan sekadar fitur tambahan, melainkan cara mengembalikan waktu tim HR untuk pekerjaan yang benar-benar membutuhkan penilaian manusia. Dengan memilih fitur yang tepat, menjaga keamanan data, dan memastikan kemudahan akses dari ponsel, pertanyaan rutin yang dulu memenuhi inbox HR bisa dijawab karyawan sendiri kapan saja mereka butuhkan.",
+    text: "Employee self service bukan sekadar fitur tambahan, melainkan cara mengembalikan waktu tim HR untuk pekerjaan yang benar-benar membutuhkan penilaian manusia. Dengan memilih fitur yang tepat, menjaga keamanan data, dan memastikan kemudahan akses dari ponsel, pertanyaan rutin yang dulu memenuhi inbox HR bisa dijawab karyawan sendiri kapan saja mereka butuhkan.",
   },
   {
     type: "cta",

@@ -42,7 +42,7 @@ export const body: Block[] = [
       "Beberapa kontak dengan peran berbeda-beda untuk setiap perusahaan pelanggan",
       "Tahapan pipeline yang mencerminkan proses persetujuan internal klien",
       "Kemampuan membuat penawaran dan melacak setiap versi revisinya",
-      "Sistem jadwal follow-up dan pengingat yang terstruktur",
+      "Sistem jadwal follow up dan pengingat yang terstruktur",
       "Catatan kebutuhan spesifik dan keberatan yang pernah disampaikan pelanggan",
       "Perkiraan penjualan berdasarkan nilai dan tahap masing-masing peluang",
     ],
@@ -90,7 +90,7 @@ export const body: Block[] = [
       "Terapkan pelacakan versi untuk setiap penawaran yang dikirim",
       "Wajibkan pencatatan riwayat interaksi setelah setiap pertemuan penting",
       "Siapkan mekanisme serah terima informasi ke tim pelaksana",
-      "Aktifkan pengingat untuk perpanjangan kontrak dan komunikasi pasca-penjualan",
+      "Aktifkan pengingat untuk perpanjangan kontrak dan komunikasi pascapenjualan",
     ],
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
@@ -125,7 +125,7 @@ export const body: Block[] = [
   { type: "h3", text: "Bagaimana menangani sales yang enggan mencatat aktivitas di CRM?" },
   {
     type: "p",
-    text: "Penolakan semacam ini sering muncul ketika CRM terasa seperti pekerjaan pencatatan tambahan tanpa manfaat langsung bagi sales itu sendiri. Integrasi otomatis dengan email dan kalender mengurangi beban pencatatan manual secara signifikan, dan menunjukkan manfaat nyata bagi sales sendiri, seperti pengingat follow-up yang tidak lagi terlewat, atau riwayat lengkap yang membantu saat harus mengambil alih akun rekan yang sedang cuti, biasanya jauh lebih efektif dibanding sekadar mewajibkan pencatatan tanpa penjelasan manfaatnya.",
+    text: "Penolakan semacam ini sering muncul ketika CRM terasa seperti pekerjaan pencatatan tambahan tanpa manfaat langsung bagi sales itu sendiri. Integrasi otomatis dengan email dan kalender mengurangi beban pencatatan manual secara signifikan, dan menunjukkan manfaat nyata bagi sales sendiri, seperti pengingat follow up yang tidak lagi terlewat, atau riwayat lengkap yang membantu saat harus mengambil alih akun rekan yang sedang cuti, biasanya jauh lebih efektif dibanding sekadar mewajibkan pencatatan tanpa penjelasan manfaatnya.",
   },
   { type: "h2", text: "Menjaga kualitas data kontak dari waktu ke waktu" },
   {
@@ -144,7 +144,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Deal besar Anda tersebar di notes pribadi sales?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

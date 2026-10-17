@@ -86,7 +86,7 @@ export const body: Block[] = [
     type: "p",
     text: "Pemasok kadang mengubah template faktur mereka tanpa pemberitahuan, yang bisa membuat sistem otomatisasi gagal membaca dengan benar untuk sementara. Pantau tingkat akurasi secara berkala, dan siapkan mekanisme agar sistem bisa “belajar” format baru dengan cepat setelah beberapa contoh diperiksa dan dikoreksi manual.",
   },
-  { type: "h2", text: "Menangani dokumen multi-halaman dan lampiran" },
+  { type: "h2", text: "Menangani dokumen multihalaman dan lampiran" },
   {
     type: "p",
     text: "Tidak semua dokumen sesederhana satu faktur satu halaman. Sebagian pemasok mengirim satu berkas PDF berisi beberapa faktur sekaligus, atau melampirkan surat jalan dan bukti pengiriman dalam berkas yang sama. Sistem otomatisasi perlu mampu memisahkan setiap dokumen di dalam satu berkas gabungan, mengenali mana yang merupakan dokumen utama dan mana yang lampiran pendukung, sebelum data masing-masing bisa diambil dengan benar.",
@@ -155,7 +155,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani dokumen dalam mata uang atau bahasa berbeda" },
   {
     type: "p",
-    text: "Bisnis yang berhubungan dengan pemasok atau pelanggan dari luar negeri sering menerima dokumen dalam bahasa asing atau dengan format mata uang dan tanggal yang berbeda dari konvensi lokal. Sistem otomatisasi perlu dikonfigurasi untuk mengenali variasi ini, misalnya format tanggal hari-bulan-tahun versus bulan-hari-tahun, atau simbol mata uang yang berbeda-beda, agar tidak salah menafsirkan angka yang sebenarnya sudah jelas bagi manusia yang membacanya secara langsung.",
+    text: "Bisnis yang berhubungan dengan pemasok atau pelanggan dari luar negeri sering menerima dokumen dalam bahasa asing atau dengan format mata uang dan tanggal yang berbeda dari konvensi lokal. Sistem otomatisasi perlu dikonfigurasi untuk mengenali variasi ini, misalnya format tanggal hari bulan tahun versus bulan hari tahun, atau simbol mata uang yang berbeda-beda, agar tidak salah menafsirkan angka yang sebenarnya sudah jelas bagi manusia yang membacanya secara langsung.",
   },
   {
     type: "p",

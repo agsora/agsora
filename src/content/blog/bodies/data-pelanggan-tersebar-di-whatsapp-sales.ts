@@ -161,7 +161,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Berapa banyak riwayat pelanggan yang tersimpan di HP sales Anda?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

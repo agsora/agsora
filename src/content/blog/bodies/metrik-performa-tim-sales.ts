@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Target bulan ini tidak tercapai. Manajer memanggil sales dengan pencapaian terendah, bertanya kenapa. Jawabannya samar, “lagi sepi aja, Pak”. Tidak ada data yang bisa menjelaskan lebih jauh: apakah prospeknya memang sedikit, apakah konversinya yang rendah, atau apakah follow-up-nya yang kurang konsisten. Rapat evaluasi berakhir tanpa solusi konkret, hanya dorongan semangat yang tidak menyelesaikan akar masalahnya.",
+    text: "Target bulan ini tidak tercapai. Manajer memanggil sales dengan pencapaian terendah, bertanya kenapa. Jawabannya samar, “lagi sepi aja, Pak”. Tidak ada data yang bisa menjelaskan lebih jauh: apakah prospeknya memang sedikit, apakah konversinya yang rendah, atau apakah follow up-nya yang kurang konsisten. Rapat evaluasi berakhir tanpa solusi konkret, hanya dorongan semangat yang tidak menyelesaikan akar masalahnya.",
   },
   {
     type: "p",
@@ -156,7 +156,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih menilai tim sales hanya dari angka penjualan akhir bulan?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

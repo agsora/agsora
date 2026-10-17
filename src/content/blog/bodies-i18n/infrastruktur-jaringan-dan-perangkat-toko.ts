@@ -16,7 +16,7 @@ const en: Block[] = [
     ],
   },
   { type: "h2", text: "Why infrastructure shapes the customer experience" },
-  { type: "p", text: "Customers do not care whether the cause of a long queue is software, wifi, or the receipt printer. They only feel that your store is slow. That is why infrastructure is part of the customer experience, not a behind-the-scenes technical matter. A store with great products but frequently stalled payments will keep losing sales and reputation." },
+  { type: "p", text: "Customers do not care whether the cause of a long queue is software, wifi, or the receipt printer. They only feel that your store is slow. That is why infrastructure is part of the customer experience, not a behind the scenes technical matter. A store with great products but frequently stalled payments will keep losing sales and reputation." },
   { type: "p", text: "Infrastructure also affects employees. Devices that are slow, often freeze, or need restarting many times frustrate cashiers and make mistakes more likely. Cashiers used to a reliable system work more calmly and quickly, which ultimately shows in customer satisfaction." },
   { type: "p", text: "There is a data side too. If the connection often drops and transactions are not saved properly, sales and stock reports become inaccurate. Small repeated discrepancies pile up into recording problems that are hard to trace. Reliable infrastructure keeps data clean from the very first point where a transaction happens." },
   {
@@ -30,7 +30,7 @@ const en: Block[] = [
   { type: "p", text: "A typical list of devices in a retail store includes POS devices such as computers, tablets, or dedicated terminals, barcode scanners, receipt printers, cash drawers, card or QRIS payment machines, tablets for stock, security cameras, and sometimes price displays or advertising screens. Each has different connectivity and power needs. Knowing their number and type helps you estimate the network capacity needed." },
   { type: "p", text: "Consider growth too. If you plan to open a branch, add cashiers, or add device types within the next year, design the infrastructure with room to grow. Running extra cable during the initial installation is far cheaper than tearing into walls later." },
   { type: "h2", text: "Internet connection: options and backup" },
-  { type: "p", text: "Most modern POS systems are cloud-based or at least need internet for data synchronisation, digital payments, and stock updates. So the internet connection is the store's bloodstream. A few considerations help in choosing and securing it." },
+  { type: "p", text: "Most modern POS systems are cloud based or at least need internet for data synchronisation, digital payments, and stock updates. So the internet connection is the store's bloodstream. A few considerations help in choosing and securing it." },
   {
     type: "ol",
     items: [
@@ -51,7 +51,7 @@ const en: Block[] = [
   { type: "h3", text: "Managing addresses and device names" },
   { type: "p", text: "Give every device a clear name and, where needed, set a fixed network address for important devices such as printers. Devices whose addresses keep changing often cause printers that suddenly disconnect and confusion for whoever tries to fix them. Record this configuration in a simple document kept safe." },
   { type: "h2", text: "Choosing POS devices and peripherals" },
-  { type: "p", text: "Choosing devices is not just comparing prices. Store devices work hard: used all day, exposed to dust, spilled drinks, and not-so-gentle handling. Choose with durability and fit in mind, not just specifications on paper." },
+  { type: "p", text: "Choosing devices is not just comparing prices. Store devices work hard: used all day, exposed to dust, spilled drinks, and not so gentle handling. Choose with durability and fit in mind, not just specifications on paper." },
   { type: "p", text: "Consider compatibility with your POS software. Make sure scanners, printers, cash drawers, and payment machines are officially supported by the system you use. Buying devices that turn out to be incompatible is an expensive mistake that happens fairly often. Ask the software provider for the list of supported devices before buying." },
   { type: "p", text: "Think also about ease of maintenance and replacement. A device whose spare parts are easy to get and which can be replaced quickly is worth more than an advanced device that breaks and then has to wait for weeks. For critical devices such as receipt printers and scanners, many stores keep one spare unit so replacement takes minutes." },
   {
@@ -61,7 +61,7 @@ const en: Block[] = [
     caption: "Devices that are easy to maintain and replace keep the store serving when something breaks.",
   },
   { type: "h3", text: "Computer, tablet, or dedicated terminal" },
-  { type: "p", text: "Each has its strengths. An ordinary computer is flexible and easy to repair, but more easily distracted by things unrelated to checkout. A tablet is compact and space-saving, suited to small shops and cafes, but needs a sturdy stand and good power management. A dedicated POS terminal is usually more rugged and integrated, at a price that is often higher. Choose what fits the scale and working environment of your store, and restrict POS devices to run only the necessary applications so they are more stable and secure." },
+  { type: "p", text: "Each has its strengths. An ordinary computer is flexible and easy to repair, but more easily distracted by things unrelated to checkout. A tablet is compact and space saving, suited to small shops and cafes, but needs a sturdy stand and good power management. A dedicated POS terminal is usually more rugged and integrated, at a price that is often higher. Choose what fits the scale and working environment of your store, and restrict POS devices to run only the necessary applications so they are more stable and secure." },
   { type: "h2", text: "Power and backup power" },
   { type: "p", text: "Electricity is often a forgotten weak point. A brief outage or fluctuating voltage can switch devices off suddenly, corrupt data being written, and even damage equipment. Basic protection is not expensive but is very valuable." },
   { type: "p", text: "Use stabilisers or surge protectors for important devices. Install backup power supplies, or UPS units, on the router, modem, and main POS devices so the store can finish transactions and shut down safely when power fails briefly. For regions with frequent outages, consider a larger backup power solution suited to the need." },

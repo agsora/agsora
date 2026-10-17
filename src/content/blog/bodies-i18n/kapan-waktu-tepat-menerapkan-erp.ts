@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   {
     type: "p",
-    text: "Two years ago, a frozen-food distribution business had just one warehouse and three people in administration. A spreadsheet and a WhatsApp group were more than enough. Today, the same business runs four warehouses across different cities, a dozen field sales reps, and an owner who admits he no longer really knows this month's profit until the report is finished, usually three weeks after the month ends.",
+    text: "Two years ago, a frozen food distribution business had just one warehouse and three people in administration. A spreadsheet and a WhatsApp group were more than enough. Today, the same business runs four warehouses across different cities, a dozen field sales reps, and an owner who admits he no longer really knows this month's profit until the report is finished, usually three weeks after the month ends.",
   },
   {
     type: "p",
@@ -18,7 +18,7 @@ const en: Block[] = [
     type: "ul",
     items: [
       "ERP needs follow the growth stage, not an absolute revenue figure or headcount",
-      "A single-location business with a small team usually doesn't need full ERP yet",
+      "A single location business with a small team usually doesn't need full ERP yet",
       "The strongest signals appear when branches multiply, data gets scattered, or decisions start slowing down",
       "Waiting too long makes data migration progressively messier; moving too fast wastes resources on complexity that isn't needed yet",
       "Starting with the most urgent module is safer than rolling everything out at once",
@@ -36,12 +36,12 @@ const en: Block[] = [
   { type: "h2", text: "Stage 1: Single location, small team, usually not yet" },
   {
     type: "p",
-    text: "While the business still runs from one location with a team that can coordinate directly, a well-kept spreadsheet plus a simple POS or bookkeeping system is usually enough. Adding ERP at this stage often adds complexity without a matching payoff, because data volume isn't yet large enough to make manual processes feel heavy.",
+    text: "While the business still runs from one location with a team that can coordinate directly, a well kept spreadsheet plus a simple POS or bookkeeping system is usually enough. Adding ERP at this stage often adds complexity without a matching payoff, because data volume isn't yet large enough to make manual processes feel heavy.",
   },
   { type: "h2", text: "Stage 2: New branches or business lines start opening" },
   {
     type: "p",
-    text: "This is usually the first point where the need for ERP starts to become noticeable. Every new branch or business line brings its own operational data, stock, sales, expenses, that has to be combined manually if there's no centralized system yet. That combining burden grows non-linearly: two branches might still be reconciled manually in a day, but five branches can take weeks and invite discrepancies.",
+    text: "This is usually the first point where the need for ERP starts to become noticeable. Every new branch or business line brings its own operational data, stock, sales, expenses, that has to be combined manually if there's no centralized system yet. That combining burden grows nonlinearly: two branches might still be reconciled manually in a day, but five branches can take weeks and invite discrepancies.",
   },
   {
     type: "p",
@@ -50,7 +50,7 @@ const en: Block[] = [
   { type: "h2", text: "Stage 3: Data is scattered and decisions start slowing down" },
   {
     type: "p",
-    text: "The clearest sign of this stage is when a simple question like 'which product is most profitable this month' takes days to answer. Decisions that should be made quickly, price adjustments, stock purchases, evaluating a loss-making branch, get delayed because the data needed isn't yet available in a form that's ready to use.",
+    text: "The clearest sign of this stage is when a simple question like 'which product is most profitable this month' takes days to answer. Decisions that should be made quickly, price adjustments, stock purchases, evaluating a loss making branch, get delayed because the data needed isn't yet available in a form that's ready to use.",
   },
   {
     type: "callout",
@@ -64,13 +64,13 @@ const en: Block[] = [
   { type: "h2", text: "Stage 4: Investors, banks, or auditors start demanding clean reports" },
   {
     type: "p",
-    text: "Once a business starts seeking funding, applying for a business loan, or going through an annual audit, the cleanliness and consistency of financial reports stop being negotiable. External parties typically need reports whose data source can be traced, not just a final figure sitting in a spreadsheet. ERP helps ensure financial reports come from consistently recorded transactions, rather than manual reconciliations prone to last-minute adjustments.",
+    text: "Once a business starts seeking funding, applying for a business loan, or going through an annual audit, the cleanliness and consistency of financial reports stop being negotiable. External parties typically need reports whose data source can be traced, not just a final figure sitting in a spreadsheet. ERP helps ensure financial reports come from consistently recorded transactions, rather than manual reconciliations prone to last minute adjustments.",
   },
   { type: "h2", text: "External signals worth watching too" },
   {
     type: "ul",
     items: [
-      "Competitors start offering services that require real-time stock visibility, like online availability checks",
+      "Competitors start offering services that require real time stock visibility, like online availability checks",
       "Reporting regulations in your industry are tightening and require more structured data",
       "Large or corporate customers start requesting system integration, like automated ordering",
       "Transaction volume is growing much faster than the administrative team's capacity",
@@ -79,12 +79,12 @@ const en: Block[] = [
   { type: "h2", text: "The risk of waiting too long" },
   {
     type: "p",
-    text: "The longer ERP gets postponed, the more historical data ends up scattered across different formats, and the harder it becomes to clean up during migration. The team's working habits also grow more deeply set in the old way, making the switch to a new system feel heavier. More costly still, business decisions made from inaccurate data during that delay can have long-term consequences, the wrong stock purchases, expanding into a location that isn't actually profitable, or pricing that doesn't match actual costs.",
+    text: "The longer ERP gets postponed, the more historical data ends up scattered across different formats, and the harder it becomes to clean up during migration. The team's working habits also grow more deeply set in the old way, making the switch to a new system feel heavier. More costly still, business decisions made from inaccurate data during that delay can have long term consequences, the wrong stock purchases, expanding into a location that isn't actually profitable, or pricing that doesn't match actual costs.",
   },
   { type: "h2", text: "The risk of moving too fast" },
   {
     type: "p",
-    text: "On the other hand, implementing ERP before the business genuinely needs it carries its own risk. A system too complex for a small team can become a burden: time spent learning features that never get used, license costs that don't match the benefit gained, and processes forced to fit the system's structure even though the business's still-flexible early-stage way of working may not suit it.",
+    text: "On the other hand, implementing ERP before the business genuinely needs it carries its own risk. A system too complex for a small team can become a burden: time spent learning features that never get used, license costs that don't match the benefit gained, and processes forced to fit the system's structure even though the business's still flexible early stage way of working may not suit it.",
   },
   {
     type: "p",
@@ -112,21 +112,21 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A staged rollout also creates room to learn from mistakes at a small scale before applying changes organization-wide. A problem surfacing at one pilot branch is far easier to fix than the same problem appearing simultaneously across ten branches at once.",
+    text: "A staged rollout also creates room to learn from mistakes at a small scale before applying changes organization wide. A problem surfacing at one pilot branch is far easier to fix than the same problem appearing simultaneously across ten branches at once.",
   },
-  { type: "h2", text: "Off-the-shelf or custom-built, which gets you moving faster?" },
+  { type: "h2", text: "Off the shelf or custom built, which gets you moving faster?" },
   {
     type: "p",
-    text: "The form of ERP you choose also affects when you start seeing benefits. Subscription-based, off-the-shelf ERP can usually be up and running within weeks, suiting businesses with fairly standard processes that want to get going without a large upfront investment. This is often the sensible choice when the need signal is strong but you're not yet sure how far your processes diverge from a typical business in your sector.",
+    text: "The form of ERP you choose also affects when you start seeing benefits. Subscription based, off the shelf ERP can usually be up and running within weeks, suiting businesses with fairly standard processes that want to get going without a large upfront investment. This is often the sensible choice when the need signal is strong but you're not yet sure how far your processes diverge from a typical business in your sector.",
   },
   {
     type: "p",
-    text: "ERP built for specific requirements takes longer to get running, but offers a better long-term fit if your business processes genuinely carry a lot of special rules. In practice, many businesses start with off-the-shelf ERP for standard modules, then move to a more tailored system once their needs become clearer and more specific.",
+    text: "ERP built for specific requirements takes longer to get running, but offers a better long term fit if your business processes genuinely carry a lot of special rules. In practice, many businesses start with off the shelf ERP for standard modules, then move to a more tailored system once their needs become clearer and more specific.",
   },
   { type: "h2", text: "Preparing the team for the transition" },
   {
     type: "p",
-    text: "The right timing from a business standpoint won't count for much if the team isn't ready to run with it. Implementing ERP changes day-to-day work, and that change is easiest to accept when the team understands why, not simply being told a new system starts next month. Involving each division's point person from the planning stage helps ensure the system built actually reflects how work really happens.",
+    text: "The right timing from a business standpoint won't count for much if the team isn't ready to run with it. Implementing ERP changes day to day work, and that change is easiest to accept when the team understands why, not simply being told a new system starts next month. Involving each division's point person from the planning stage helps ensure the system built actually reflects how work really happens.",
   },
   {
     type: "p",

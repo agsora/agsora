@@ -60,7 +60,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Syarat ini membuat pipeline antar-sales bisa dibandingkan secara adil, dan membantu sales baru memahami proses penjualan perusahaan dengan lebih cepat. Di CRM, beberapa syarat bisa dijadikan kolom wajib sehingga peluang tidak bisa dipindah sebelum informasi pentingnya diisi.",
+    text: "Syarat ini membuat pipeline antarsales bisa dibandingkan secara adil, dan membantu sales baru memahami proses penjualan perusahaan dengan lebih cepat. Di CRM, beberapa syarat bisa dijadikan kolom wajib sehingga peluang tidak bisa dipindah sebelum informasi pentingnya diisi.",
   },
   {
     type: "callout",
@@ -173,7 +173,7 @@ export const body: Block[] = [
   { type: "h3", text: "Bagaimana jika sales malas memperbarui status?" },
   {
     type: "p",
-    text: "Pastikan memperbarui status semudah mungkin, idealnya bisa dari ponsel dalam beberapa ketukan. Tunjukkan juga manfaatnya bagi sales sendiri, seperti pengingat follow-up dan perkiraan komisi. Dan yang terpenting, gunakan data pipeline dalam rapat sehingga pembaruan terasa berguna, bukan formalitas.",
+    text: "Pastikan memperbarui status semudah mungkin, idealnya bisa dari ponsel dalam beberapa ketukan. Tunjukkan juga manfaatnya bagi sales sendiri, seperti pengingat follow up dan perkiraan komisi. Dan yang terpenting, gunakan data pipeline dalam rapat sehingga pembaruan terasa berguna, bukan formalitas.",
   },
   { type: "h3", text: "Perlukah tahap khusus untuk prospek yang ditunda?" },
   {
@@ -203,7 +203,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Pipeline Anda terlihat penuh, tapi realisasinya jauh?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

@@ -34,5 +34,5 @@ export const customDevPricing: PricingItem[] = [
   { id: "ai-automation", name: { id: "Otomasi AI", en: "AI Automation", zh: "AI 自动化" }, price: 5_000_000, category: "Automation & Integrasi" },
   { id: "api-integration", name: { id: "Integrasi API", en: "API Integration", zh: "API 对接" }, price: 3_000_000, category: "Automation & Integrasi" },
   { id: "maintenance", name: { id: "Pemeliharaan Sistem", en: "Maintenance", zh: "系统维护" }, price: 750_000, unit: perMonth, category: "Support & Enterprise" },
-  { id: "enterprise", name: { id: "Korporasi / Multi-Cabang", en: "Enterprise / Multi-Branch", zh: "大型企业 / 多分店" }, price: null, category: "Support & Enterprise" },
+  { id: "enterprise", name: { id: "Korporasi / Multi Cabang", en: "Enterprise / Multi Branch", zh: "大型企业 / 多分店" }, price: null, category: "Support & Enterprise" },
 ];

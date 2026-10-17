@@ -55,7 +55,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     },
     intro: {
       id: "Ketika proses kerja Anda tidak cocok dengan software yang tersedia di pasaran, memaksakan diri menyesuaikan sering kali lebih mahal daripada membangun sendiri. Kami merancang sistem yang mengikuti cara kerja Anda, bukan sebaliknya.",
-      en: "When your workflow doesn't fit off-the-shelf software, forcing yourself to adapt is often more expensive than building your own. We design systems that follow how you work, not the other way around.",
+      en: "When your workflow doesn't fit off the shelf software, forcing yourself to adapt is often more expensive than building your own. We design systems that follow how you work, not the other way around.",
       zh: "当您的工作流程与市面上的软件不匹配时，勉强迁就往往比自行开发成本更高。我们设计的系统会贴合您的工作方式，而非削足适履。",
     },
     deliverables: {
@@ -71,7 +71,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         "System and database architecture design",
         "The application built to the agreed scope",
         "Technical documentation and user guides",
-        "Team training and post-launch support",
+        "Team training and postlaunch support",
       ],
       zh: [
         "业务流程梳理与需求文档",
@@ -89,8 +89,8 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       ],
       en: [
         "Companies with workflows that are unusual for their industry",
-        "Businesses whose per-user licensing costs already exceed the cost of building their own",
-        "Organizations with internal rules that off-the-shelf products can't accommodate",
+        "Businesses whose per user licensing costs already exceed the cost of building their own",
+        "Organizations with internal rules that off the shelf products can't accommodate",
       ],
       zh: [
         "工作流程在所在行业中较为特殊的企业",
@@ -131,7 +131,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
         answer: {
           id: "Perubahan kecil kami akomodasi dalam ruang lingkup berjalan. Perubahan yang menambah modul dihitung ulang dampaknya terhadap timeline dan biaya, lalu disepakati tertulis.",
-          en: "Small changes are accommodated within the running scope. Changes that add modules are re-estimated for their impact on timeline and cost, then agreed in writing.",
+          en: "Small changes are accommodated within the running scope. Changes that add modules are reestimated for their impact on timeline and cost, then agreed in writing.",
           zh: "小幅调整可在现有范围内容纳。若变更涉及新增模块，我们会重新评估对工期和成本的影响，并以书面形式确认。",
         },
       },
@@ -154,9 +154,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "企业网站建设服务 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan website company profile, e-commerce, dan website dengan admin dashboard. Cepat, SEO-friendly. Mulai dari Rp3.500.000.",
+      id: "Jasa pembuatan website company profile, e-commerce, dan website dengan admin dashboard. Cepat, SEO friendly. Mulai dari Rp3.500.000.",
       en:
-        "Company profile, e-commerce, and admin-dashboard websites. Fast and SEO-friendly. From Rp3,500,000.",
+        "Company profile, e-commerce, and admin dashboard websites. Fast and SEO friendly. From Rp3,500,000.",
       zh:
         "企业官网、电商网站及带管理后台的网站开发，速度快、利于 SEO。Rp3,500,000 起。",
     },
@@ -267,7 +267,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     metaDescription: {
       id: "Jasa pembuatan aplikasi mobile Android dan iOS untuk bisnis. Dari aplikasi pelanggan hingga aplikasi operasional lapangan. Mulai Rp10.000.000.",
       en:
-        "Android and iOS app development for businesses, from customer-facing apps to field operations apps. From Rp10,000,000.",
+        "Android and iOS app development for businesses, from customer facing apps to field operations apps. From Rp10,000,000.",
       zh:
         "为企业开发 Android 与 iOS 应用，从客户端应用到现场作业应用。Rp10,000,000 起。",
     },
@@ -311,7 +311,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         "Operasional yang membutuhkan kamera, GPS, atau notifikasi",
       ],
       en: [
-        "Businesses with field teams that need to record data on-site",
+        "Businesses with field teams that need to record data on site",
         "Services whose customers access them repeatedly every week",
         "Operations that need camera, GPS, or push notification features",
       ],
@@ -394,14 +394,14 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       id: [
         "Pemetaan proses lintas divisi sebelum pengembangan",
         "Modul keuangan, inventori, pembelian, dan produksi sesuai kebutuhan",
-        "Konsolidasi laporan multi-cabang",
+        "Konsolidasi laporan multicabang",
         "Migrasi data dari sistem dan spreadsheet lama",
         "Pelatihan bertahap per divisi",
       ],
       en: [
-        "Cross-department process mapping before development",
+        "Cross department process mapping before development",
         "Finance, inventory, purchasing, and production modules as needed",
-        "Multi-branch consolidated reporting",
+        "Multibranch consolidated reporting",
         "Data migration from legacy systems and spreadsheets",
         "Phased training per department",
       ],
@@ -416,13 +416,13 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     forWho: {
       id: [
         "Perusahaan yang laporan bulanannya selalu terlambat karena menunggu rekap manual",
-        "Bisnis multi-cabang yang sulit melihat kondisi gabungan secara real-time",
+        "Bisnis multicabang yang sulit melihat kondisi gabungan secara real time",
         "Organisasi yang satu transaksinya masih diinput berkali-kali di divisi berbeda",
       ],
       en: [
         "Companies whose monthly reports are always late because they wait on manual recaps",
-        "Multi-branch businesses that struggle to see a real-time combined view",
-        "Organizations where a single transaction still gets re-entered across departments",
+        "Multibranch businesses that struggle to see a real time combined view",
+        "Organizations where a single transaction still gets reentered across departments",
       ],
       zh: [
         "月度报表因等待人工汇总而经常延迟的企业",
@@ -438,8 +438,8 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "ERP 实施费用是多少？",
         },
         answer: {
-          id: "ERP Basic mulai dari Rp15.000.000 dan ERP Advanced mulai dari Rp25.000.000. Untuk kebutuhan enterprise atau multi-cabang, biaya disusun berdasarkan ruang lingkup.",
-          en: "ERP Basic starts from Rp15,000,000 and ERP Advanced from Rp25,000,000. For enterprise or multi-branch needs, cost is scoped based on requirements.",
+          id: "ERP Basic mulai dari Rp15.000.000 dan ERP Advanced mulai dari Rp25.000.000. Untuk kebutuhan enterprise atau multicabang, biaya disusun berdasarkan ruang lingkup.",
+          en: "ERP Basic starts from Rp15,000,000 and ERP Advanced from Rp25,000,000. For enterprise or multibranch needs, cost is scoped based on requirements.",
           zh: "ERP 基础版起价 Rp15,000,000，进阶版起价 Rp25,000,000。企业级或多分店需求将根据具体范围另行报价。",
         },
       },
@@ -484,36 +484,36 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "POS 收银系统开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan sistem POS dan aplikasi kasir untuk retail dan F&B. Multi-outlet, stok real-time, laporan otomatis. Mulai Rp6.000.000.",
+      id: "Jasa pembuatan sistem POS dan aplikasi kasir untuk retail dan F&B. Multioutlet, stok real time, laporan otomatis. Mulai Rp6.000.000.",
       en:
-        "POS and cashier system development for retail and F&B. Multi-outlet, real-time stock, automated reports. From Rp6,000,000.",
+        "POS and cashier system development for retail and F&B. Multioutlet, real time stock, automated reports. From Rp6,000,000.",
       zh:
         "为零售与餐饮开发 POS 收银系统：多门店、库存实时同步、自动报表。Rp6,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Sistem POS & Aplikasi Kasir",
-      en: "POS & Point-of-Sale App Development Services",
+      en: "POS & Point of Sale App Development Services",
       zh: "POS 收银系统开发服务",
     },
     intro: {
       id: "Sistem kasir yang baik tidak berhenti di mencetak struk. Ia menghubungkan penjualan dengan stok dan laporan, sehingga Anda tahu kondisi bisnis tanpa menunggu rekap akhir hari.",
-      en: "A good POS system doesn't stop at printing receipts. It connects sales with stock and reports, so you know how your business is doing without waiting for the end-of-day recap.",
+      en: "A good POS system doesn't stop at printing receipts. It connects sales with stock and reports, so you know how your business is doing without waiting for the end of day recap.",
       zh: "优秀的收银系统不只是打印小票。它将销售与库存、报表连接起来，让您无需等待每日汇总即可掌握业务状况。",
     },
     deliverables: {
       id: [
         "Aplikasi kasir yang tetap berjalan saat internet terputus",
         "Manajemen produk, varian, dan harga per outlet",
-        "Stok real-time per lokasi dan transfer antar outlet",
+        "Stok real time per lokasi dan transfer antar outlet",
         "Hak akses berjenjang untuk kasir, supervisor, dan pemilik",
-        "Laporan penjualan, shift, dan konsolidasi multi-outlet",
+        "Laporan penjualan, shift, dan konsolidasi multioutlet",
       ],
       en: [
         "A cashier app that keeps working when the internet drops",
-        "Product, variant, and per-outlet price management",
-        "Real-time stock per location and inter-outlet transfers",
+        "Product, variant, and per outlet price management",
+        "Real time stock per location and interoutlet transfers",
         "Tiered access for cashiers, supervisors, and owners",
-        "Sales, shift, and multi-outlet consolidated reports",
+        "Sales, shift, and multioutlet consolidated reports",
       ],
       zh: [
         "断网时仍可正常运行的收银应用",
@@ -610,14 +610,14 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         "Absensi digital, termasuk untuk karyawan shift dan lapangan",
         "Pengajuan cuti dan izin dengan alur persetujuan",
         "Perhitungan payroll dan slip gaji otomatis",
-        "Employee self-service agar HR tidak jadi titik kemacetan",
+        "Employee self service agar HR tidak jadi titik kemacetan",
       ],
       en: [
         "A centralized employee database with controlled access",
         "Digital attendance, including for shift and field employees",
         "Leave and permission requests with an approval workflow",
         "Automated payroll calculation and payslips",
-        "Employee self-service so HR doesn't become a bottleneck",
+        "Employee self service so HR doesn't become a bottleneck",
       ],
       zh: [
         "具有权限管控的集中式员工数据库",
@@ -665,7 +665,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
         answer: {
           id: "Bisa, dan ini justru bagian yang kami petakan lebih dulu. Sistem yang hanya mengakomodasi karyawan kantor akan membuat divisi lain kembali ke pencatatan manual.",
-          en: "Yes, and this is actually what we map out first. A system that only accommodates office staff pushes other departments back to manual record-keeping.",
+          en: "Yes, and this is actually what we map out first. A system that only accommodates office staff pushes other departments back to manual record keeping.",
           zh: "可以，这也是我们优先梳理的部分。若系统只考虑坐班员工，其他部门便会退回人工记录方式。",
         },
       },
@@ -692,9 +692,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "印尼 CRM 客户管理系统开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan sistem CRM untuk tim sales. Pipeline penjualan, follow-up otomatis, dan laporan performa. Mulai dari Rp7.500.000.",
+      id: "Jasa pembuatan sistem CRM untuk tim sales. Pipeline penjualan, follow up otomatis, dan laporan performa. Mulai dari Rp7.500.000.",
       en:
-        "Custom CRM development for sales teams: sales pipeline, automated follow-ups, and performance reports. From Rp7,500,000.",
+        "Custom CRM development for sales teams: sales pipeline, automated follow ups, and performance reports. From Rp7,500,000.",
       zh:
         "为销售团队定制 CRM：销售漏斗、自动跟进与业绩报表。Rp7,500,000 起。",
     },
@@ -704,21 +704,21 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "面向销售团队的 CRM 系统开发服务",
     },
     intro: {
-      id: "CRM membuat pipeline penjualan terlihat: siapa sedang di tahap mana, follow-up apa yang tertunda, dan peluang mana yang berisiko hilang. Tanpa itu, performa sales hanya bisa dinilai setelah periode berakhir.",
-      en: "CRM makes your sales pipeline visible: who's at which stage, which follow-ups are overdue, and which opportunities are at risk of slipping away. Without it, sales performance can only be judged after the period ends.",
+      id: "CRM membuat pipeline penjualan terlihat: siapa sedang di tahap mana, follow up apa yang tertunda, dan peluang mana yang berisiko hilang. Tanpa itu, performa sales hanya bisa dinilai setelah periode berakhir.",
+      en: "CRM makes your sales pipeline visible: who's at which stage, which follow ups are overdue, and which opportunities are at risk of slipping away. Without it, sales performance can only be judged after the period ends.",
       zh: "CRM 让销售管道清晰可见：谁处于哪个阶段、哪些跟进已逾期、哪些机会可能流失。没有它，销售业绩只能等到周期结束后才能评估。",
     },
     deliverables: {
       id: [
         "Manajemen leads dan deals dengan tahapan yang bisa disesuaikan",
-        "Pengingat dan penjadwalan follow-up",
+        "Pengingat dan penjadwalan follow up",
         "Riwayat interaksi pelanggan yang lengkap",
         "Integrasi WhatsApp dan email sesuai kebutuhan",
         "Laporan performa per sales dan per periode",
       ],
       en: [
         "Leads and deals management with customizable stages",
-        "Follow-up reminders and scheduling",
+        "Follow up reminders and scheduling",
         "Complete customer interaction history",
         "WhatsApp and email integration as needed",
         "Performance reports per salesperson and per period",
@@ -734,12 +734,12 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     forWho: {
       id: [
         "Tim sales yang masih mencatat prospek di spreadsheet pribadi",
-        "Bisnis yang kehilangan peluang karena follow-up terlewat",
+        "Bisnis yang kehilangan peluang karena follow up terlewat",
         "Manajemen yang butuh gambaran pipeline sebelum periode berakhir",
       ],
       en: [
         "Sales teams still tracking prospects in personal spreadsheets",
-        "Businesses losing opportunities because follow-ups get missed",
+        "Businesses losing opportunities because follow ups get missed",
         "Management that needs a pipeline view before the period ends",
       ],
       zh: [
@@ -796,9 +796,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "商业仪表盘与报表系统开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan dashboard bisnis dan sistem pelaporan real-time. Data operasional jadi dasar keputusan. Mulai dari Rp4.000.000.",
+      id: "Jasa pembuatan dashboard bisnis dan sistem pelaporan real time. Data operasional jadi dasar keputusan. Mulai dari Rp4.000.000.",
       en:
-        "Business dashboards and real-time reporting systems that turn operational data into decisions. From Rp4,000,000.",
+        "Business dashboards and real time reporting systems that turn operational data into decisions. From Rp4,000,000.",
       zh:
         "商业仪表盘与实时报表系统开发，让运营数据成为决策依据。Rp4,000,000 起。",
     },
@@ -815,14 +815,14 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     deliverables: {
       id: [
         "Identifikasi metrik yang benar-benar memengaruhi keputusan",
-        "Dashboard real-time yang dapat diakses lintas perangkat",
+        "Dashboard real time yang dapat diakses lintas perangkat",
         "Konsolidasi data dari beberapa sumber sekaligus",
         "Laporan terjadwal yang dikirim otomatis",
         "Hak akses berbeda untuk tiap level manajemen",
       ],
       en: [
         "Identifying the metrics that actually drive decisions",
-        "A real-time dashboard accessible across devices",
+        "A real time dashboard accessible across devices",
         "Consolidating data from multiple sources at once",
         "Scheduled reports sent automatically",
         "Different access levels for each management tier",
@@ -913,7 +913,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     },
     intro: {
       id: "Otomatisasi paling berhasil pada pekerjaan yang berulang dan berpola jelas, bukan pada keputusan yang butuh pertimbangan manusia. Kami membantu memilih proses mana yang layak diotomatiskan lebih dulu.",
-      en: "Automation works best on repetitive, clearly-patterned work, not on decisions that need human judgment. We help you choose which process is worth automating first.",
+      en: "Automation works best on repetitive, clearly patterned work, not on decisions that need human judgment. We help you choose which process is worth automating first.",
       zh: "自动化最适合应用于重复且规律明显的工作，而非需要人工判断的决策。我们会协助您判断优先自动化哪些流程。",
     },
     deliverables: {
@@ -927,7 +927,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       en: [
         "A process audit to find repetitive work worth automating",
         "Automation flows with clear boundaries of authority",
-        "A human hand-off path when results are uncertain",
+        "A human hand off path when results are uncertain",
         "Audit logs so every automated decision can be traced",
         "Time measurement before and after implementation",
       ],
@@ -965,7 +965,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
         answer: {
           id: "Mulai dari Rp5.000.000, bergantung pada jumlah proses yang diotomatiskan dan integrasi yang dibutuhkan. Biaya layanan AI pihak ketiga berada di luar itu kecuali dinyatakan lain.",
-          en: "Starting from Rp5,000,000, depending on the number of processes automated and integrations required. Third-party AI service costs sit outside that unless stated otherwise.",
+          en: "Starting from Rp5,000,000, depending on the number of processes automated and integrations required. Third party AI service costs sit outside that unless stated otherwise.",
           zh: "起价 Rp5,000,000，具体取决于自动化流程数量及所需对接。除非另有说明，第三方 AI 服务费用不包含在内。",
         },
       },
@@ -977,7 +977,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
         answer: {
           id: "Fokusnya memindahkan pekerjaan berulang yang tidak menambah nilai, sehingga tim bisa mengerjakan hal yang butuh pertimbangan manusia. Untuk keputusan yang menyangkut uang atau komitmen ke pelanggan, kami selalu menyarankan tetap ada persetujuan manusia.",
-          en: "The focus is on offloading low-value repetitive work so your team can focus on things that need human judgment. For decisions involving money or customer commitments, we always recommend keeping human approval in the loop.",
+          en: "The focus is on offloading low value repetitive work so your team can focus on things that need human judgment. For decisions involving money or customer commitments, we always recommend keeping human approval in the loop.",
           zh: "重点在于转移不增值的重复性工作，让团队专注于需要人工判断的事项。对于涉及资金或客户承诺的决策，我们始终建议保留人工审批环节。",
         },
       },
@@ -1006,7 +1006,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     metaDescription: {
       id: "Jasa integrasi API untuk menghubungkan sistem internal dengan payment gateway, marketplace, dan layanan pihak ketiga. Mulai Rp3.000.000.",
       en:
-        "API integration connecting your internal systems with payment gateways, marketplaces, and third-party services. From Rp3,000,000.",
+        "API integration connecting your internal systems with payment gateways, marketplaces, and third party services. From Rp3,000,000.",
       zh:
         "API 集成服务，将内部系统与支付网关、电商平台及第三方服务打通。Rp3,000,000 起。",
     },

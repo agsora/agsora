@@ -7,7 +7,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "In reality, the process of building software follows fairly clear stages, and understanding those stages is the first step toward turning an idea into something real. That doesn't mean the process is easy or risk-free, hard decisions and the possibility of failure exist at every stage. But that risk becomes far easier to manage once you know what to expect, compared to jumping in with no picture at all.",
+    text: "In reality, the process of building software follows fairly clear stages, and understanding those stages is the first step toward turning an idea into something real. That doesn't mean the process is easy or risk free, hard decisions and the possibility of failure exist at every stage. But that risk becomes far easier to manage once you know what to expect, compared to jumping in with no picture at all.",
   },
   {
     type: "p",
@@ -20,7 +20,7 @@ const en: Block[] = [
       "Ideas that never become apps usually stall from uncertainty about the process, not because the idea itself is bad",
       "Sharpening an idea into a specific problem matters far more than deciding on features early",
       "Validating the need before writing code saves far more time and cost later on",
-      "A tightly-scoped MVP is more likely to succeed than trying to build every feature from day one",
+      "A tightly scoped MVP is more likely to succeed than trying to build every feature from day one",
       "Launch isn't the finish line, maintenance and iteration afterward matter just as much as the initial build",
     ],
   },
@@ -73,19 +73,19 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "For idea owners without a technical background, this stage is the right time to stay involved, reviewing progress regularly, trying the in-progress version, and giving feedback early, rather than waiting until everything is 'done' to see the result for the first time.",
+    text: "For idea owners without a technical background, this stage is the right time to stay involved, reviewing progress regularly, trying the in progress version, and giving feedback early, rather than waiting until everything is 'done' to see the result for the first time.",
   },
   { type: "h2", text: "Stage 6: Testing before it touches real users" },
   {
     type: "p",
-    text: "Testing isn't just about hunting technical bugs. Just as important is testing whether the designed flow actually makes sense to someone who has never seen the app before. Developers who've become deeply familiar with their own app often miss the parts that confuse a first-time user.",
+    text: "Testing isn't just about hunting technical bugs. Just as important is testing whether the designed flow actually makes sense to someone who has never seen the app before. Developers who've become deeply familiar with their own app often miss the parts that confuse a first time user.",
   },
   {
     type: "ul",
     items: [
       "Test with a handful of real prospective users, not just the internal team",
       "Watch for where they get confused or stop without being prompted",
-      "Test non-ideal scenarios too, slow connections, wrong input, or a skipped step",
+      "Test nonideal scenarios too, slow connections, wrong input, or a skipped step",
       "Record feedback specifically, not just 'looks good' or 'something felt off'",
     ],
   },
@@ -116,14 +116,14 @@ const en: Block[] = [
     type: "p",
     text: "What most commonly delays a project isn't the development itself, but decisions changing midway because the initial scope wasn't thought through carefully. Spending more time on validation and MVP scoping, even though it feels slow at the start, almost always speeds up the overall process.",
   },
-  { type: "h2", text: "Going it alone, an in-house team, or a software house?" },
+  { type: "h2", text: "Going it alone, an in house team, or a software house?" },
   {
     type: "p",
     text: "For some people with a technical background, building it themselves early on makes sense for testing an idea at minimal cost. But once validation shows the idea is worth pursuing further, the need for speed and quality usually exceeds what one person working alone can deliver.",
   },
   {
     type: "p",
-    text: "Hiring an in-house team makes sense if software is a long-term core of the business and you can invest in building a team that grows alongside the product. Working with a software house makes more sense when you need an experienced team to build and launch a product without recruiting and managing a technical team from scratch, especially early on, when the product's direction may still change.",
+    text: "Hiring an in house team makes sense if software is a long term core of the business and you can invest in building a team that grows alongside the product. Working with a software house makes more sense when you need an experienced team to build and launch a product without recruiting and managing a technical team from scratch, especially early on, when the product's direction may still change.",
   },
   { type: "h2", text: "The mistakes that get repeated most often" },
   {

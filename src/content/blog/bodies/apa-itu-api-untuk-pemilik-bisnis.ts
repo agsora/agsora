@@ -47,11 +47,11 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa ini penting bagi keputusan bisnis Anda" },
   {
     type: "p",
-    text: "Tanpa integrasi lewat API, data harus dipindahkan oleh manusia: diekspor dari satu sistem, disalin, lalu diketik ulang atau diimpor ke sistem lain. Pekerjaan manual seperti ini memakan waktu, rawan kesalahan ketik, dan sering membuat data di satu sistem tertinggal dari sistem lainnya karena tidak diperbarui secara real-time.",
+    text: "Tanpa integrasi lewat API, data harus dipindahkan oleh manusia: diekspor dari satu sistem, disalin, lalu diketik ulang atau diimpor ke sistem lain. Pekerjaan manual seperti ini memakan waktu, rawan kesalahan ketik, dan sering membuat data di satu sistem tertinggal dari sistem lainnya karena tidak diperbarui secara real time.",
   },
   {
     type: "p",
-    text: "API memungkinkan data mengalir otomatis antar sistem, sehingga setiap bagian bisnis bekerja dengan informasi yang sama dan selalu terbaru, mengurangi risiko kesalahan sekaligus menghemat waktu yang selama ini terbuang untuk pekerjaan salin-tempel yang berulang.",
+    text: "API memungkinkan data mengalir otomatis antar sistem, sehingga setiap bagian bisnis bekerja dengan informasi yang sama dan selalu terbaru, mengurangi risiko kesalahan sekaligus menghemat waktu yang selama ini terbuang untuk pekerjaan salin tempel yang berulang.",
   },
   {
     type: "callout",

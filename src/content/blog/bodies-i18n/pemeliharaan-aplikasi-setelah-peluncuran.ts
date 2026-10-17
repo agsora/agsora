@@ -32,9 +32,9 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "Security: new flaws are discovered regularly in operating systems, frameworks, and third-party libraries; without updates, those flaws stay open",
+      "Security: new flaws are discovered regularly in operating systems, frameworks, and third party libraries; without updates, those flaws stay open",
       "Compatibility: browsers, phones, and operating systems keep changing, so a display or feature that once worked can develop problems",
-      "Third-party services: payment, map, email, or messaging providers can change their APIs or rules, and integrations that aren't adjusted will stop working",
+      "Third party services: payment, map, email, or messaging providers can change their APIs or rules, and integrations that aren't adjusted will stop working",
       "Data growth: a table that is fast at a thousand rows can be slow at a million without tuning",
       "Business change: new products, tax rules, organizational structure, or changed processes require adjustments in the system",
       "Lost knowledge: the people who understand the system move on, and without documentation, simple fixes become expensive",
@@ -125,7 +125,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A more useful approach is to discuss maintenance as part of the total cost of ownership before the project starts. Ask the developer to explain which components carry recurring costs, such as hosting, domains, licenses, third-party services, and maintenance hours. That way you compare quotes fairly, because the cheapest quote at the start can turn out to be the most expensive over a few years.",
+    text: "A more useful approach is to discuss maintenance as part of the total cost of ownership before the project starts. Ask the developer to explain which components carry recurring costs, such as hosting, domains, licenses, third party services, and maintenance hours. That way you compare quotes fairly, because the cheapest quote at the start can turn out to be the most expensive over a few years.",
   },
   {
     type: "image",
@@ -141,7 +141,7 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "Access and ownership: domain, hosting, code repository, database, and third-party service accounts registered in your business's name, not in the developer's personal name",
+      "Access and ownership: domain, hosting, code repository, database, and third party service accounts registered in your business's name, not in the developer's personal name",
       "Source code and its change history, with instructions for running and deploying it",
       "Documentation: an architecture overview, a list of integrations, data structure, and key procedures such as how to apply updates and restore backups",
       "A list of credentials and keys stored securely, along with who is authorized to manage them",

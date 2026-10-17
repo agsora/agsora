@@ -49,7 +49,7 @@ export const body: Block[] = [
     caption: "Catatan yang terstruktur membuat penelusuran masalah jauh lebih cepat daripada menebak.",
   },
   { type: "h2", text: "Dari insiden ke pembelajaran" },
-  { type: "p", text: "Setiap gangguan adalah kesempatan belajar, asalkan ditinjau tanpa mencari kambing hitam. Setelah masalah selesai, tulis ringkasan singkat: apa yang terjadi, kapan terdeteksi, bagaimana dipulihkan, apa penyebab mendasarnya, dan apa yang akan diubah. Tinjauan pasca-insiden yang bebas dari menyalahkan membuat orang berani melaporkan kesalahan lebih awal." },
+  { type: "p", text: "Setiap gangguan adalah kesempatan belajar, asalkan ditinjau tanpa mencari kambing hitam. Setelah masalah selesai, tulis ringkasan singkat: apa yang terjadi, kapan terdeteksi, bagaimana dipulihkan, apa penyebab mendasarnya, dan apa yang akan diubah. Tinjauan pascainsiden yang bebas dari menyalahkan membuat orang berani melaporkan kesalahan lebih awal." },
   { type: "p", text: "Pantau pula ukuran sederhana seperti berapa lama rata-rata masalah terdeteksi dan berapa lama dipulihkan. Angka yang membaik dari bulan ke bulan menunjukkan bahwa investasi pada observabilitas membuahkan hasil, dan angka yang stagnan memberi tahu di mana perhatian berikutnya perlu diarahkan." },
   { type: "p", text: "Hubungkan temuan dengan keputusan produk. Jika satu modul terus menimbulkan galat, mungkin sudah waktunya direstrukturisasi. Jika satu integrasi sering lambat, mungkin perlu penyedia alternatif atau mekanisme antrean. Data dari operasi harian adalah bahan yang sangat berharga untuk prioritas pengembangan." },
   { type: "h2", text: "Tugas latar belakang dan integrasi: sumber masalah yang sunyi" },

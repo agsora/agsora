@@ -59,7 +59,7 @@ const sections: LegalSection[] = [
       body: [
         "Every price listed on the Pricing page is a 'starting from' price and an initial estimate. The final scope, timeline, and cost will be set out in a proposal or separate written agreement before the project begins.",
         "Work on a project begins only after both parties have agreed to the proposal in writing.",
-        "Third-party costs (such as domain, hosting, API licensing, or payment gateway fees) are not included in the service price unless stated otherwise in writing.",
+        "Third party costs (such as domain, hosting, API licensing, or payment gateway fees) are not included in the service price unless stated otherwise in writing.",
       ],
     },
     zh: {
@@ -151,7 +151,7 @@ const sections: LegalSection[] = [
     en: {
       title: "6. Confidentiality",
       body: [
-        "Client data and business processes are used only for the project and never for other purposes. A non-disclosure agreement (NDA) can be arranged before technical discussions begin.",
+        "Client data and business processes are used only for the project and never for other purposes. A nondisclosure agreement (NDA) can be arranged before technical discussions begin.",
         "Personal data you submit through this website is handled as described in the Privacy Policy.",
       ],
     },

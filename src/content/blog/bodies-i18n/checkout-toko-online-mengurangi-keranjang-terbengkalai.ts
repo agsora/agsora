@@ -20,7 +20,7 @@ const en: Block[] = [
       "The most common checkout barriers: extra costs that appear late, forms that are too long, limited payment options, lack of trust, and slow pages",
       "Show the total cost, including shipping, as early as possible so there are no surprises at the end",
       "Reduce fields to what is truly needed, allow checkout without creating an account, and offer payments familiar to your customers",
-      "Build trust through clear policies, real security signals, and easy-to-reach contacts",
+      "Build trust through clear policies, real security signals, and easy to reach contacts",
       "Measure each stage of the flow to know where customers stop, then fix one thing at a time",
     ],
   },
@@ -61,7 +61,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Also consider forcing account creation before buying. For a new buyer this is a big barrier, because they aren't yet sure they want to shop repeatedly. Offer guest checkout, and invite them to create an account after the order is done with a clear benefit, such as order tracking and quick reordering. For customers who already have an account, make sure address data is saved and auto-filled.",
+    text: "Also consider forcing account creation before buying. For a new buyer this is a big barrier, because they aren't yet sure they want to shop repeatedly. Offer guest checkout, and invite them to create an account after the order is done with a clear benefit, such as order tracking and quick reordering. For customers who already have an account, make sure address data is saved and autofilled.",
   },
   {
     type: "ol",
@@ -69,7 +69,7 @@ const en: Block[] = [
       "Remove fields that aren't absolutely needed to process and ship the order",
       "Allow guest checkout, offering account creation afterward",
       "Use address autofill and appropriate keyboard types on phones, such as a number pad for phone numbers",
-      "Validate input live and explain errors in easy-to-understand language, right next to the field",
+      "Validate input live and explain errors in easy to understand language, right next to the field",
       "Show step progress so customers know how close they are to finishing",
       "Keep what has already been typed when an error occurs, so they don't have to start over",
     ],
@@ -81,12 +81,12 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "In Indonesia, options such as bank transfer, digital wallets, QRIS, cards, and in-store payment are often part of the mix customers expect. But don't add as many methods as possible without consideration; each method brings its own costs, reconciliation process, and management complexity. Choose the most relevant, then make sure the process is smooth. Related discussion for physical checkouts can be read in our article on implementing QRIS at the cashier.",
+    text: "In Indonesia, options such as bank transfer, digital wallets, QRIS, cards, and in store payment are often part of the mix customers expect. But don't add as many methods as possible without consideration; each method brings its own costs, reconciliation process, and management complexity. Choose the most relevant, then make sure the process is smooth. Related discussion for physical checkouts can be read in our article on implementing QRIS at the cashier.",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
-    alt: "A smiling shop attendant in front of a tablet register in a high-ceilinged cafe",
+    alt: "A smiling shop attendant in front of a tablet register in a high ceilinged cafe",
     caption: "A customer ready to buy shouldn't be made to wait or be confused at the final step.",
   },
   { type: "h2", text: "Barrier 4: lack of trust" },
@@ -115,7 +115,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Speed also concerns stability: what happens if the connection drops mid-payment? Does the customer know whether their order succeeded? Clear confirmation, on screen and through a message or email, prevents customers from paying twice or contacting customer service anxiously. Further discussion of the impact of speed is in our article on website speed and its impact.",
+    text: "Speed also concerns stability: what happens if the connection drops midpayment? Does the customer know whether their order succeeded? Clear confirmation, on screen and through a message or email, prevents customers from paying twice or contacting customer service anxiously. Further discussion of the impact of speed is in our article on website speed and its impact.",
   },
   { type: "h2", text: "Bringing back customers who left" },
   {
@@ -144,12 +144,12 @@ const en: Block[] = [
   {
     type: "callout",
     title: "Remember the real goal",
-    text: "The goal of improving checkout isn't to force people to buy, but to remove what stands in the way of people who genuinely want to buy. A flow that is honest, clear, and comfortable builds returning customers, not just one-time sales.",
+    text: "The goal of improving checkout isn't to force people to buy, but to remove what stands in the way of people who genuinely want to buy. A flow that is honest, clear, and comfortable builds returning customers, not just one time sales.",
   },
   { type: "h2", text: "The role of systems behind the scenes" },
   {
     type: "p",
-    text: "A smooth checkout experience depends on the systems behind it. Stock must be accurate so customers don't pay for goods that are actually gone. Shipping costs must be calculated automatically and correctly. Payment status must be received and recorded reliably, and orders must enter the operations system without re-entry. When an online store is connected to your POS, inventory, and accounting systems, the whole flow from clicking buy to goods arriving becomes tidier.",
+    text: "A smooth checkout experience depends on the systems behind it. Stock must be accurate so customers don't pay for goods that are actually gone. Shipping costs must be calculated automatically and correctly. Payment status must be received and recorded reliably, and orders must enter the operations system without reentry. When an online store is connected to your POS, inventory, and accounting systems, the whole flow from clicking buy to goods arriving becomes tidier.",
   },
   {
     type: "p",
@@ -175,8 +175,8 @@ const en: Block[] = [
       "Is there a clear order summary, with images, quantities, prices, and estimated arrival, before the pay button is pressed?",
       "Does the page load quickly on a phone with an ordinary connection, and are buttons big enough to touch?",
       "Does the customer receive clear confirmation after paying, on screen and via message or email?",
-      "Is stock checked at the moment the order is placed so out-of-stock goods aren't sold?",
-      "Do incoming orders go straight into the operations system without re-entry?",
+      "Is stock checked at the moment the order is placed so out of stock goods aren't sold?",
+      "Do incoming orders go straight into the operations system without reentry?",
       "Is there a way to record and see at which step customers stop?"
     ]
   },
@@ -190,11 +190,11 @@ const en: Block[] = [
   },
   {
     "type": "p",
-    "text": "The barriers with the most influence differ by store type. For stores with low-value items and impulse purchases, speed and ease, such as guest checkout and one-tap payment, are usually most decisive. For stores with high-value items, customers are more cautious, so trust, clarity of the return policy, and quick access to customer service matter more than speed alone."
+    "text": "The barriers with the most influence differ by store type. For stores with low value items and impulse purchases, speed and ease, such as guest checkout and one tap payment, are usually most decisive. For stores with high value items, customers are more cautious, so trust, clarity of the return policy, and quick access to customer service matter more than speed alone."
   },
   {
     "type": "p",
-    "text": "For stores selling heavy or bulky goods, shipping cost is often the biggest barrier, so cost transparency and courier options deserve priority. For stores selling made-to-order goods or fresh food, information about preparation and delivery time must be very clear so there is no disappointment. For stores with repeat customers, save addresses and preferences, and provide quick reordering so the next purchase has almost no friction."
+    "text": "For stores selling heavy or bulky goods, shipping cost is often the biggest barrier, so cost transparency and courier options deserve priority. For stores selling made to order goods or fresh food, information about preparation and delivery time must be very clear so there is no disappointment. For stores with repeat customers, save addresses and preferences, and provide quick reordering so the next purchase has almost no friction."
   },
   {
     "type": "p",

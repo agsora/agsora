@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Saat membangun atau membeli sistem bisnis, salah satu keputusan teknis yang cukup menentukan adalah di mana sistem itu dijalankan: di layanan cloud, atau di server milik perusahaan sendiri yang biasa disebut on-premise. Keputusan ini memengaruhi biaya, keamanan, kecepatan akses, kemampuan bertumbuh, dan beban kerja tim Anda selama bertahun-tahun.",
+    text: "Saat membangun atau membeli sistem bisnis, salah satu keputusan teknis yang cukup menentukan adalah di mana sistem itu dijalankan: di layanan cloud, atau di server milik perusahaan sendiri yang biasa disebut on premise. Keputusan ini memengaruhi biaya, keamanan, kecepatan akses, kemampuan bertumbuh, dan beban kerja tim Anda selama bertahun-tahun.",
   },
   {
     type: "p",
@@ -18,8 +18,8 @@ export const body: Block[] = [
     type: "ul",
     items: [
       "Cloud unggul dalam kemudahan, fleksibilitas kapasitas, dan akses dari mana saja",
-      "On-premise unggul dalam kendali penuh dan kemandirian dari koneksi internet luar",
-      "Biaya on-premise tidak berhenti di harga server; ada perawatan, listrik, dan orang",
+      "On premise unggul dalam kendali penuh dan kemandirian dari koneksi internet luar",
+      "Biaya on premise tidak berhenti di harga server; ada perawatan, listrik, dan orang",
       "Keamanan lebih ditentukan oleh cara pengelolaan daripada lokasi server",
       "Kombinasi keduanya sering menjadi pilihan paling realistis",
     ],
@@ -31,7 +31,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dengan on-premise, sistem berjalan di server yang berada di lokasi perusahaan, misalnya di ruang server kantor atau gudang. Perusahaan membeli perangkat, menyediakan tempat yang layak, dan bertanggung jawab penuh atas perawatan, pembaruan, keamanan, dan cadangan data.",
+    text: "Dengan on premise, sistem berjalan di server yang berada di lokasi perusahaan, misalnya di ruang server kantor atau gudang. Perusahaan membeli perangkat, menyediakan tempat yang layak, dan bertanggung jawab penuh atas perawatan, pembaruan, keamanan, dan cadangan data.",
   },
   { type: "h2", text: "Kelebihan cloud" },
   {
@@ -58,7 +58,7 @@ export const body: Block[] = [
       "Pilihan konfigurasi tertentu bisa dibatasi penyedia",
     ],
   },
-  { type: "h2", text: "Kelebihan on-premise" },
+  { type: "h2", text: "Kelebihan on premise" },
   {
     type: "ul",
     items: [
@@ -68,7 +68,7 @@ export const body: Block[] = [
       "Tidak ada biaya pemakaian yang naik turun setiap bulan",
     ],
   },
-  { type: "h2", text: "Keterbatasan on-premise" },
+  { type: "h2", text: "Keterbatasan on premise" },
   {
     type: "ul",
     items: [
@@ -121,16 +121,16 @@ export const body: Block[] = [
   { type: "h2", text: "Merencanakan perpindahan" },
   {
     type: "p",
-    text: "Jika Anda memutuskan memindahkan sistem dari on-premise ke cloud atau sebaliknya, perlakukan perpindahan ini sebagai project tersendiri. Inventarisasi sistem dan data yang ada, pastikan cadangan lengkap, uji perpindahan di lingkungan terpisah, dan rencanakan waktu peralihan di luar periode sibuk. Perpindahan infrastruktur yang terburu-buru bisa menyebabkan gangguan yang jauh lebih mahal daripada manfaatnya.",
+    text: "Jika Anda memutuskan memindahkan sistem dari on premise ke cloud atau sebaliknya, perlakukan perpindahan ini sebagai project tersendiri. Inventarisasi sistem dan data yang ada, pastikan cadangan lengkap, uji perpindahan di lingkungan terpisah, dan rencanakan waktu peralihan di luar periode sibuk. Perpindahan infrastruktur yang terburu-buru bisa menyebabkan gangguan yang jauh lebih mahal daripada manfaatnya.",
   },
   { type: "h2", text: "Menghitung total biaya lima tahun" },
   {
     type: "p",
-    text: "Untuk perbandingan yang adil, susun perkiraan biaya dalam rentang lima tahun untuk kedua pilihan. Untuk on-premise, masukkan harga perangkat, perkiraan penggantian di tahun ketiga atau keempat, listrik, pendingin ruangan, lisensi sistem operasi jika ada, dan gaji atau porsi waktu orang yang merawatnya. Untuk cloud, masukkan biaya langganan bulanan dengan asumsi kenaikan pemakaian seiring pertumbuhan bisnis, ditambah biaya koneksi internet yang memadai.",
+    text: "Untuk perbandingan yang adil, susun perkiraan biaya dalam rentang lima tahun untuk kedua pilihan. Untuk on premise, masukkan harga perangkat, perkiraan penggantian di tahun ketiga atau keempat, listrik, pendingin ruangan, lisensi sistem operasi jika ada, dan gaji atau porsi waktu orang yang merawatnya. Untuk cloud, masukkan biaya langganan bulanan dengan asumsi kenaikan pemakaian seiring pertumbuhan bisnis, ditambah biaya koneksi internet yang memadai.",
   },
   {
     type: "p",
-    text: "Banyak yang terkejut menemukan bahwa on-premise, setelah semua komponen dihitung, tidak selalu lebih murah seperti anggapan awal, terutama ketika biaya waktu orang yang merawat server dihitung dengan wajar, bukan dianggap gratis karena “sudah jadi tugas tambahan” staf IT yang ada.",
+    text: "Banyak yang terkejut menemukan bahwa on premise, setelah semua komponen dihitung, tidak selalu lebih murah seperti anggapan awal, terutama ketika biaya waktu orang yang merawat server dihitung dengan wajar, bukan dianggap gratis karena “sudah jadi tugas tambahan” staf IT yang ada.",
   },
   { type: "h2", text: "Ilustrasi: dua bisnis, dua pilihan" },
   {
@@ -146,7 +146,7 @@ export const body: Block[] = [
     type: "ul",
     items: [
       "Memilih cloud hanya karena tren, tanpa memeriksa kondisi koneksi di lapangan",
-      "Memilih on-premise karena merasa lebih aman, tanpa rencana perawatan keamanan",
+      "Memilih on premise karena merasa lebih aman, tanpa rencana perawatan keamanan",
       "Membandingkan biaya hanya dari pengeluaran tahun pertama",
       "Tidak menyiapkan rencana ketika sistem tidak bisa diakses",
       "Tidak memeriksa ketentuan lokasi penyimpanan data yang berlaku",
@@ -155,7 +155,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyiapkan rencana pemulihan bencana" },
   {
     type: "p",
-    text: "Apa pun pilihannya, siapkan rencana untuk skenario terburuk: kebakaran, banjir, atau kegagalan perangkat keras yang parah. Untuk on-premise, ini berarti cadangan data di lokasi terpisah dan idealnya perangkat pengganti yang bisa segera dipasang. Untuk cloud, ini berarti memahami jaminan pemulihan dari penyedia dan menyimpan cadangan tambahan yang independen dari penyedia utama. Rencana yang hanya ada di kepala satu orang bukan rencana, tuliskan langkahnya dan uji secara berkala.",
+    text: "Apa pun pilihannya, siapkan rencana untuk skenario terburuk: kebakaran, banjir, atau kegagalan perangkat keras yang parah. Untuk on premise, ini berarti cadangan data di lokasi terpisah dan idealnya perangkat pengganti yang bisa segera dipasang. Untuk cloud, ini berarti memahami jaminan pemulihan dari penyedia dan menyimpan cadangan tambahan yang independen dari penyedia utama. Rencana yang hanya ada di kepala satu orang bukan rencana, tuliskan langkahnya dan uji secara berkala.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah cloud selalu lebih murah?" },
@@ -166,7 +166,7 @@ export const body: Block[] = [
   { type: "h3", text: "Bagaimana jika internet mati?" },
   {
     type: "p",
-    text: "Untuk sistem di cloud, siapkan koneksi cadangan di lokasi yang kritis, dan pilih aplikasi yang bisa bekerja offline untuk fungsi yang tidak boleh berhenti, seperti kasir. Untuk sistem on-premise, internet luar tidak memengaruhi akses di jaringan lokal, tetapi akses dari cabang lain tetap bergantung pada koneksi.",
+    text: "Untuk sistem di cloud, siapkan koneksi cadangan di lokasi yang kritis, dan pilih aplikasi yang bisa bekerja offline untuk fungsi yang tidak boleh berhenti, seperti kasir. Untuk sistem on premise, internet luar tidak memengaruhi akses di jaringan lokal, tetapi akses dari cabang lain tetap bergantung pada koneksi.",
   },
   { type: "h3", text: "Siapa yang bertanggung jawab atas backup di cloud?" },
   {
@@ -191,12 +191,12 @@ export const body: Block[] = [
   { type: "h2", text: "Melibatkan tim IT sejak awal keputusan" },
   {
     type: "p",
-    text: "Keputusan infrastruktur sering dibuat oleh manajemen tanpa melibatkan orang yang akan merawatnya sehari-hari. Libatkan tim IT internal atau konsultan teknis sejak diskusi awal, bukan setelah keputusan diambil. Mereka bisa menilai realistis tidaknya rencana perawatan on-premise, atau memeriksa reputasi teknis penyedia cloud yang dipertimbangkan.",
+    text: "Keputusan infrastruktur sering dibuat oleh manajemen tanpa melibatkan orang yang akan merawatnya sehari-hari. Libatkan tim IT internal atau konsultan teknis sejak diskusi awal, bukan setelah keputusan diambil. Mereka bisa menilai realistis tidaknya rencana perawatan on premise, atau memeriksa reputasi teknis penyedia cloud yang dipertimbangkan.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Cloud atau on-premise bukan pertanyaan tentang mana yang lebih modern atau lebih aman secara umum. Ini pertanyaan tentang kondisi bisnis Anda: di mana tim bekerja, seberapa stabil koneksinya, siapa yang merawat sistem, ketentuan apa yang berlaku, dan bagaimana bisnis akan tumbuh. Jawab pertanyaan-pertanyaan itu dengan jujur, dan pilihan yang tepat biasanya menjadi jelas.",
+    text: "Cloud atau on premise bukan pertanyaan tentang mana yang lebih modern atau lebih aman secara umum. Ini pertanyaan tentang kondisi bisnis Anda: di mana tim bekerja, seberapa stabil koneksinya, siapa yang merawat sistem, ketentuan apa yang berlaku, dan bagaimana bisnis akan tumbuh. Jawab pertanyaan-pertanyaan itu dengan jujur, dan pilihan yang tepat biasanya menjadi jelas.",
   },
   {
     type: "cta",

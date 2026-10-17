@@ -18,7 +18,7 @@ export const body: Block[] = [
     type: "ul",
     items: [
       "Untuk tim lapangan, yang penting bukan hanya jam masuk, tetapi kunjungan dan pekerjaan yang diselesaikan",
-      "Check-in lewat aplikasi dengan lokasi dan foto menggantikan laporan chat yang sulit diverifikasi",
+      "Check in lewat aplikasi dengan lokasi dan foto menggantikan laporan chat yang sulit diverifikasi",
       "Aplikasi harus tetap bisa mencatat saat sinyal lemah",
       "Keterbukaan soal data yang dikumpulkan mencegah penolakan karyawan",
       "Data kehadiran paling bernilai ketika langsung mengalir ke payroll",
@@ -49,10 +49,10 @@ export const body: Block[] = [
     text: "Tidak semua bisnis membutuhkan semuanya. Mulailah dari data yang benar-benar dipakai untuk keputusan atau perhitungan gaji. Mengumpulkan data yang tidak pernah dipakai hanya menambah beban karyawan dan risiko pengelolaan data.",
   },
   { type: "h2", text: "Pilihan pendekatan" },
-  { type: "h3", text: "Check-in dengan lokasi" },
+  { type: "h3", text: "Check in dengan lokasi" },
   {
     type: "p",
-    text: "Karyawan melakukan check-in dan check-out melalui aplikasi di ponsel, yang merekam waktu dan koordinat lokasi. Pendekatan ini sederhana dan menggantikan laporan chat dengan data yang terstruktur dan bisa direkap otomatis.",
+    text: "Karyawan melakukan check in dan check out melalui aplikasi di ponsel, yang merekam waktu dan koordinat lokasi. Pendekatan ini sederhana dan menggantikan laporan chat dengan data yang terstruktur dan bisa direkap otomatis.",
   },
   { type: "h3", text: "Foto sebagai bukti pendukung" },
   {
@@ -62,17 +62,17 @@ export const body: Block[] = [
   { type: "h3", text: "Batas area" },
   {
     type: "p",
-    text: "Aplikasi hanya mengizinkan check-in ketika karyawan berada dalam radius tertentu dari lokasi yang dijadwalkan. Pendekatan ini cocok untuk kunjungan ke lokasi tetap seperti toko pelanggan atau proyek, tetapi perlu toleransi yang wajar karena akurasi lokasi ponsel bisa bervariasi.",
+    text: "Aplikasi hanya mengizinkan check in ketika karyawan berada dalam radius tertentu dari lokasi yang dijadwalkan. Pendekatan ini cocok untuk kunjungan ke lokasi tetap seperti toko pelanggan atau proyek, tetapi perlu toleransi yang wajar karena akurasi lokasi ponsel bisa bervariasi.",
   },
   { type: "h3", text: "Laporan kunjungan terhubung" },
   {
     type: "p",
-    text: "Setiap check-in terhubung dengan formulir singkat: pesanan yang diambil, masalah yang ditemukan, atau pekerjaan yang diselesaikan. Data kehadiran dan data hasil kerja tersimpan di tempat yang sama, sehingga manajer tidak perlu menyatukan dua laporan terpisah.",
+    text: "Setiap check in terhubung dengan formulir singkat: pesanan yang diambil, masalah yang ditemukan, atau pekerjaan yang diselesaikan. Data kehadiran dan data hasil kerja tersimpan di tempat yang sama, sehingga manajer tidak perlu menyatukan dua laporan terpisah.",
   },
   { type: "h2", text: "Pertimbangkan kondisi di lapangan" },
   {
     type: "p",
-    text: "Sinyal internet di lapangan tidak selalu stabil, terutama di gudang, basement, atau daerah yang jauh dari kota. Aplikasi sebaiknya tetap bisa mencatat check-in saat offline, lengkap dengan waktu dan lokasi, lalu mengirim data begitu koneksi kembali. Tanpa kemampuan ini, karyawan terpaksa menunda check-in dan data menjadi tidak akurat.",
+    text: "Sinyal internet di lapangan tidak selalu stabil, terutama di gudang, basement, atau daerah yang jauh dari kota. Aplikasi sebaiknya tetap bisa mencatat check in saat offline, lengkap dengan waktu dan lokasi, lalu mengirim data begitu koneksi kembali. Tanpa kemampuan ini, karyawan terpaksa menunda check in dan data menjadi tidak akurat.",
   },
   {
     type: "p",
@@ -81,7 +81,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Keterbukaan mencegah penolakan",
-    text: "Pelacakan lokasi bisa terasa seperti pengawasan berlebihan. Jelaskan sejak awal data apa yang dikumpulkan, kapan, dan untuk apa, misalnya lokasi hanya direkam saat check-in dan check-out, bukan sepanjang hari. Aturan yang jelas dan masuk akal membuat karyawan jauh lebih mudah menerima.",
+    text: "Pelacakan lokasi bisa terasa seperti pengawasan berlebihan. Jelaskan sejak awal data apa yang dikumpulkan, kapan, dan untuk apa, misalnya lokasi hanya direkam saat check in dan check out, bukan sepanjang hari. Aturan yang jelas dan masuk akal membuat karyawan jauh lebih mudah menerima.",
   },
   { type: "h2", text: "Menangani kasus yang tidak normal" },
   {
@@ -144,7 +144,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah beralih ke check-in lewat aplikasi, setiap kunjungan tercatat dengan waktu, lokasi, foto, dan catatan kondisi display toko. Rekap kehadiran dan uang transport tersedia otomatis di akhir periode. Supervisor bisa melihat toko mana yang belum dikunjungi minggu ini tanpa menelepon satu per satu, dan admin tidak lagi menghabiskan dua hari menggulir chat.",
+    text: "Setelah beralih ke check in lewat aplikasi, setiap kunjungan tercatat dengan waktu, lokasi, foto, dan catatan kondisi display toko. Rekap kehadiran dan uang transport tersedia otomatis di akhir periode. Supervisor bisa melihat toko mana yang belum dikunjungi minggu ini tanpa menelepon satu per satu, dan admin tidak lagi menghabiskan dua hari menggulir chat.",
   },
   { type: "h2", text: "Langkah menerapkan" },
   {
@@ -172,17 +172,17 @@ export const body: Block[] = [
   { type: "h3", text: "Bagaimana dengan karyawan yang bekerja di kantor dan lapangan?" },
   {
     type: "p",
-    text: "Sistem sebaiknya mendukung kedua pola dalam satu data kehadiran, sehingga rekap tidak terpecah. Karyawan bisa check-in di kantor pada hari tertentu dan check-in di lokasi pelanggan pada hari lain, dengan aturan perhitungan yang mengikuti jenis harinya.",
+    text: "Sistem sebaiknya mendukung kedua pola dalam satu data kehadiran, sehingga rekap tidak terpecah. Karyawan bisa check in di kantor pada hari tertentu dan check in di lokasi pelanggan pada hari lain, dengan aturan perhitungan yang mengikuti jenis harinya.",
   },
   { type: "h3", text: "Bagaimana mencatat lembur karyawan lapangan?" },
   {
     type: "p",
-    text: "Lembur di lapangan sering terjadi mendadak, misalnya pekerjaan di lokasi pelanggan memakan waktu lebih lama. Sediakan cara mengajukan lembur langsung dari aplikasi, lengkap dengan alasan, lalu disetujui supervisor. Jam check-out yang tercatat menjadi pembanding untuk memverifikasi jam lembur yang diajukan. Aturan perhitungan lembur sendiri perlu mengikuti ketentuan ketenagakerjaan yang berlaku.",
+    text: "Lembur di lapangan sering terjadi mendadak, misalnya pekerjaan di lokasi pelanggan memakan waktu lebih lama. Sediakan cara mengajukan lembur langsung dari aplikasi, lengkap dengan alasan, lalu disetujui supervisor. Jam check out yang tercatat menjadi pembanding untuk memverifikasi jam lembur yang diajukan. Aturan perhitungan lembur sendiri perlu mengikuti ketentuan ketenagakerjaan yang berlaku.",
   },
   { type: "h3", text: "Seberapa sering lokasi perlu direkam?" },
   {
     type: "p",
-    text: "Untuk sebagian besar kebutuhan, lokasi saat check-in dan check-out setiap kunjungan sudah cukup. Pelacakan terus-menerus sepanjang hari jarang diperlukan, lebih boros baterai, dan lebih sensitif dari sisi privasi. Rekam hanya sesering yang benar-benar dibutuhkan untuk tujuan yang sudah dijelaskan kepada karyawan.",
+    text: "Untuk sebagian besar kebutuhan, lokasi saat check in dan check out setiap kunjungan sudah cukup. Pelacakan terus-menerus sepanjang hari jarang diperlukan, lebih boros baterai, dan lebih sensitif dari sisi privasi. Rekam hanya sesering yang benar-benar dibutuhkan untuk tujuan yang sudah dijelaskan kepada karyawan.",
   },
   { type: "h3", text: "Bagaimana memperkenalkan sistem ini kepada tim yang sudah lama bekerja?" },
   {

@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This approach is known as an MVP, short for minimum viable product. The term comes from the startup world, but the principle is highly relevant for businesses building internal apps or customer-facing apps. This article covers what an MVP means in a business context, how to define its scope, the mistakes that often happen, and how to move from a first version to a complete system.",
+    text: "This approach is known as an MVP, short for minimum viable product. The term comes from the startup world, but the principle is highly relevant for businesses building internal apps or customer facing apps. This article covers what an MVP means in a business context, how to define its scope, the mistakes that often happen, and how to move from a first version to a complete system.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -66,14 +66,14 @@ const en: Block[] = [
   { type: "h3", text: "Which problem is the most expensive right now?" },
   {
     type: "p",
-    text: "Start with the problem that eats the most time, money, or opportunity. If manually recorded orders are often wrong and cause re-deliveries, the ordering workflow is very likely your MVP candidate. If the biggest problem is late reporting, perhaps the MVP is a simple dashboard that pulls data from sources you already have.",
+    text: "Start with the problem that eats the most time, money, or opportunity. If manually recorded orders are often wrong and cause redeliveries, the ordering workflow is very likely your MVP candidate. If the biggest problem is late reporting, perhaps the MVP is a simple dashboard that pulls data from sources you already have.",
   },
   { type: "h3", text: "Who is the primary user?" },
   {
     type: "p",
-    text: "A good MVP usually serves one main user group very well, rather than every group half-heartedly. Is this app mainly for field sales, warehouse admins, or customers? Pick one, understand how they work in depth, and design the flow that is easiest for them.",
+    text: "A good MVP usually serves one main user group very well, rather than every group half heartedly. Is this app mainly for field sales, warehouse admins, or customers? Pick one, understand how they work in depth, and design the flow that is easiest for them.",
   },
-  { type: "h3", text: "What is the minimum end-to-end flow?" },
+  { type: "h3", text: "What is the minimum end to end flow?" },
   {
     type: "p",
     text: "Write down the steps of the core workflow from beginning to end. For example: a sales rep creates an order, an admin verifies it, the warehouse prepares the goods, the shipped status is recorded. Every step on this path must be in the MVP, even in simple form. Features that sit off this path, deep analytics reports, integrations with other systems, or complex permission settings, can wait for a later stage.",
@@ -99,7 +99,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A self-service ordering portal for customers, automatic accounting integration, and sales commission calculations were left out. They all still matter, but they can wait until the basic order flow has proven itself and the team has settled in. With a scope like this, the first benefit, faster, more accurate orders, arrives much sooner, and the order data collected along the way becomes valuable groundwork for the next stage.",
+    text: "A self service ordering portal for customers, automatic accounting integration, and sales commission calculations were left out. They all still matter, but they can wait until the basic order flow has proven itself and the team has settled in. With a scope like this, the first benefit, faster, more accurate orders, arrives much sooner, and the order data collected along the way becomes valuable groundwork for the next stage.",
   },
   { type: "h2", text: "Common mistakes when building an MVP" },
   {
@@ -144,7 +144,7 @@ const en: Block[] = [
   { type: "h2", text: "Choosing a development partner for a staged approach" },
   {
     type: "p",
-    text: "Not every developer is used to working with an MVP approach. Some are more comfortable with a single-phase project whose scope is fixed up front. When choosing a partner, notice whether they help you trim scope or keep adding features. A good partner will ask about the business problem behind each feature, suggest a sensible order of development, and explain how the MVP's technical foundation will support later stages.",
+    text: "Not every developer is used to working with an MVP approach. Some are more comfortable with a single phase project whose scope is fixed up front. When choosing a partner, notice whether they help you trim scope or keep adding features. A good partner will ask about the business problem behind each feature, suggest a sensible order of development, and explain how the MVP's technical foundation will support later stages.",
   },
   {
     type: "p",

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Ketika toko online menerima pesanan, banyak hal yang seharusnya terjadi hampir bersamaan: stok berkurang, gudang menerima perintah, pelanggan mendapat konfirmasi, dan keuangan mencatat penjualan. Bila setiap langkah menunggu seseorang memindahkan data secara manual atau menunggu jadwal sinkronisasi malam hari, selalu ada jeda tempat kesalahan dan keterlambatan bersembunyi." },
   { type: "p", text: "Webhook adalah salah satu cara paling sederhana untuk menghilangkan jeda itu. Alih-alih satu sistem bertanya berulang kali apakah ada yang baru, sistem yang mengalami kejadian langsung mengabari sistem lain. Konsepnya sederhana, tetapi penerapannya yang sehat memerlukan beberapa kebiasaan yang sering terlewat." },
-  { type: "p", text: "Artikel ini menjelaskan webhook dan integrasi real-time dengan bahasa untuk pemilik bisnis dan pengelola produk: apa bedanya dengan cara lain, kapan layak dipakai, apa saja yang perlu dirancang agar andal, dan bagaimana menghindari masalah yang umum. Tidak ada klaim kinerja rekaan; yang ditawarkan adalah pemahaman agar Anda dapat berdiskusi dengan tim teknis secara efektif." },
+  { type: "p", text: "Artikel ini menjelaskan webhook dan integrasi real time dengan bahasa untuk pemilik bisnis dan pengelola produk: apa bedanya dengan cara lain, kapan layak dipakai, apa saja yang perlu dirancang agar andal, dan bagaimana menghindari masalah yang umum. Tidak ada klaim kinerja rekaan; yang ditawarkan adalah pemahaman agar Anda dapat berdiskusi dengan tim teknis secara efektif." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -63,7 +63,7 @@ export const body: Block[] = [
     caption: "Panel pemantauan yang sederhana membantu menangkap integrasi yang gagal sebelum pelanggan merasakannya.",
   },
   { type: "h2", text: "Kapan memakai alat penghubung siap pakai, kapan membangun sendiri" },
-  { type: "p", text: "Banyak kebutuhan sederhana dapat dipenuhi dengan layanan penghubung siap pakai yang menghubungkan aplikasi populer tanpa menulis kode. Untuk alur yang jelas dan volumenya wajar, ini cepat dan murah, dan dapat dirawat oleh staf non-teknis." },
+  { type: "p", text: "Banyak kebutuhan sederhana dapat dipenuhi dengan layanan penghubung siap pakai yang menghubungkan aplikasi populer tanpa menulis kode. Untuk alur yang jelas dan volumenya wajar, ini cepat dan murah, dan dapat dirawat oleh staf nonteknis." },
   { type: "p", text: "Membangun sendiri layak dipertimbangkan ketika volume tinggi, aturan bisnis rumit, data sangat sensitif, atau integrasi menjadi bagian inti operasional yang tidak boleh bergantung pada pihak ketiga. Dengan membangun sendiri, Anda mendapat kendali penuh, tetapi juga tanggung jawab perawatan." },
   { type: "p", text: "Sering kali pendekatan campuran paling masuk akal: layanan siap pakai untuk alur pendukung, dan integrasi khusus untuk alur yang menyentuh uang, stok, dan data pelanggan secara langsung. Dokumentasikan keduanya agar tidak ada integrasi yang hanya diketahui satu orang." },
   { type: "h2", text: "Gambaran alur pesanan dari kejadian sampai tindakan" },
@@ -82,7 +82,7 @@ export const body: Block[] = [
   { type: "p", text: "Pastikan akun dan kunci akses atas nama bisnis, bukan atas nama perorangan atau vendor. Integrasi yang bergantung pada akun pribadi seorang karyawan akan putus ketika orang itu pergi. Tinjau daftar integrasi secara berkala dan matikan yang sudah tidak dipakai." },
   { type: "p", text: "Rencanakan perubahan. Penyedia sistem dapat memperbarui antarmuka mereka, dan pesan yang formatnya berubah bisa merusak penerima tanpa tanda. Ikuti pengumuman perubahan dari penyedia dan uji integrasi pada lingkungan percobaan sebelum perubahan berlaku." },
   { type: "h2", text: "Biaya dan kompleksitas yang perlu dihitung" },
-  { type: "p", text: "Integrasi real-time memberi nilai, tetapi bukan tanpa biaya. Ada biaya membangun, biaya layanan penghubung atau infrastruktur penerima, dan biaya perawatan terus-menerus ketika pihak lain mengubah sistemnya. Hitung semuanya dan bandingkan dengan nilai yang dihasilkan, misalnya berkurangnya kesalahan stok atau waktu staf yang dihemat." },
+  { type: "p", text: "Integrasi real time memberi nilai, tetapi bukan tanpa biaya. Ada biaya membangun, biaya layanan penghubung atau infrastruktur penerima, dan biaya perawatan terus-menerus ketika pihak lain mengubah sistemnya. Hitung semuanya dan bandingkan dengan nilai yang dihasilkan, misalnya berkurangnya kesalahan stok atau waktu staf yang dihemat." },
   { type: "p", text: "Mulailah dari alur yang nilainya paling jelas, buktikan, lalu perluas. Banyak bisnis membangun puluhan integrasi sekaligus lalu kewalahan merawatnya. Sedikit integrasi yang andal dan terdokumentasi lebih berharga daripada banyak yang rapuh." },
   { type: "h2", text: "Menjelaskan kebutuhan kepada tim teknis" },
   { type: "p", text: "Pemilik bisnis tidak perlu memahami setiap detail teknis, tetapi perlu menyampaikan kebutuhan dengan jelas. Jelaskan kejadian apa yang penting, tindakan apa yang harus mengikutinya, seberapa cepat, dan apa akibatnya bila terlambat atau terlewat. Contoh konkret seperti satu pesanan dari awal sampai tiba di pelanggan jauh lebih membantu daripada daftar fitur." },
@@ -105,7 +105,7 @@ export const body: Block[] = [
     "Buat dokumen satu halaman untuk setiap integrasi yang berjalan saat ini",
   ] },
   { type: "h2", text: "Penutup" },
-  { type: "p", text: "Webhook dan integrasi real-time membuat sistem-sistem bisnis bekerja seperti satu kesatuan: stok, pesanan, pembayaran, dan layanan pelanggan saling mengabari tanpa menunggu tangan manusia. Manfaatnya terasa pada ketepatan data dan kecepatan reaksi." },
+  { type: "p", text: "Webhook dan integrasi real time membuat sistem-sistem bisnis bekerja seperti satu kesatuan: stok, pesanan, pembayaran, dan layanan pelanggan saling mengabari tanpa menunggu tangan manusia. Manfaatnya terasa pada ketepatan data dan kecepatan reaksi." },
   { type: "p", text: "Namun keandalannya lahir dari detail: ketahanan terhadap pesan ganda, pemeriksaan pesan yang terlewat, keamanan, dan pemantauan. Bila detail itu diperhatikan sejak awal, integrasi menjadi tulang punggung operasional yang tenang, bukan sumber kejutan." },
   {
     type: "cta",

@@ -34,7 +34,7 @@ export const body: Block[] = [
     title: "Mulai dari satu tugas",
     text: "Daripada mencoba menerapkan AI di banyak proses sekaligus, pilih satu pekerjaan berulang yang paling menghabiskan waktu tim, dan uji di situ dulu. Hasilnya lebih mudah diukur, dan risikonya lebih kecil jika ternyata belum sesuai ekspektasi.",
   },
-  { type: "h2", text: "Integrasi sistem: dari nice-to-have menjadi kebutuhan dasar" },
+  { type: "h2", text: "Integrasi sistem: dari nice to have menjadi kebutuhan dasar" },
   {
     type: "p",
     text: "Bisnis modern biasanya memakai banyak alat sekaligus, sistem kasir, akuntansi, CRM, platform pembayaran, dan marketplace. Selama bertahun-tahun, banyak bisnis menerima kenyataan bahwa alat-alat ini tidak saling terhubung, dan mengandalkan staf untuk memindahkan data secara manual antar sistem. Pergeseran yang terjadi sekarang adalah integrasi API antar sistem menjadi jauh lebih terjangkau dan lebih mudah diterapkan dibanding beberapa tahun lalu.",
@@ -61,14 +61,14 @@ export const body: Block[] = [
     type: "p",
     text: "Praktik keamanan dasar tidak harus rumit atau mahal: kontrol akses berdasarkan peran, pencadangan data yang teratur, dan pembaruan sistem yang rutin sudah menutup sebagian besar celah yang paling sering dieksploitasi. Yang sering hilang bukan anggaran, tapi kesadaran bahwa ini bukan tanggung jawab yang bisa ditunda sampai bisnis 'lebih besar'.",
   },
-  { type: "h2", text: "Alat no-code dan low-code mempercepat proses internal" },
+  { type: "h2", text: "Alat no code dan low code mempercepat proses internal" },
   {
     type: "p",
-    text: "Tidak semua kebutuhan otomatisasi harus menunggu tim developer membangun sistem dari nol. Alat no-code dan low-code memungkinkan tim non-teknis membangun alur kerja sederhana sendiri, misalnya formulir permintaan yang otomatis masuk ke sistem approval, atau notifikasi otomatis ketika stok menipis, tanpa menulis kode. Ini sangat berguna untuk proses internal yang spesifik bagi satu bisnis dan tidak cukup besar untuk membenarkan proyek pengembangan penuh.",
+    text: "Tidak semua kebutuhan otomatisasi harus menunggu tim developer membangun sistem dari nol. Alat no code dan low code memungkinkan tim nonteknis membangun alur kerja sederhana sendiri, misalnya formulir permintaan yang otomatis masuk ke sistem approval, atau notifikasi otomatis ketika stok menipis, tanpa menulis kode. Ini sangat berguna untuk proses internal yang spesifik bagi satu bisnis dan tidak cukup besar untuk membenarkan proyek pengembangan penuh.",
   },
   {
     type: "p",
-    text: "Batasannya juga perlu disadari. Alat no-code cocok untuk alur kerja yang relatif sederhana dan berdiri sendiri, tapi mulai terasa terbatas ketika kebutuhan semakin kompleks atau perlu terhubung mendalam dengan sistem inti bisnis seperti ERP atau database pelanggan. Pada titik itu, pengembangan khusus biasanya memberi hasil yang lebih stabil dalam jangka panjang.",
+    text: "Batasannya juga perlu disadari. Alat no code cocok untuk alur kerja yang relatif sederhana dan berdiri sendiri, tapi mulai terasa terbatas ketika kebutuhan semakin kompleks atau perlu terhubung mendalam dengan sistem inti bisnis seperti ERP atau database pelanggan. Pada titik itu, pengembangan khusus biasanya memberi hasil yang lebih stabil dalam jangka panjang.",
   },
   { type: "h2", text: "Personalisasi memakai data yang sudah dimiliki bisnis" },
   {
@@ -79,10 +79,10 @@ export const body: Block[] = [
     type: "p",
     text: "Yang membuat ini mungkin dilakukan bisnis kecil sekalipun adalah data itu sudah ada di sistem kasir atau CRM yang mereka pakai sehari-hari, tantangannya bukan mengumpulkan data baru, melainkan menyusun cara sederhana untuk memakainya secara konsisten, bukan membiarkannya hanya tersimpan tanpa pernah dianalisis.",
   },
-  { type: "h2", text: "Dashboard dan data real-time menggantikan laporan mingguan" },
+  { type: "h2", text: "Dashboard dan data real time menggantikan laporan mingguan" },
   {
     type: "p",
-    text: "Pergeseran lain yang terjadi pelan-pelan adalah beralihnya kebiasaan menunggu laporan mingguan atau bulanan menjadi memantau dashboard yang datanya diperbarui secara real-time. Pemilik bisnis yang bisa melihat kondisi penjualan, stok, atau arus kas kapan pun dibutuhkan, bukan menunggu laporan disusun, bisa mengambil keputusan lebih cepat saat masalah masih kecil, bukan setelah membesar.",
+    text: "Pergeseran lain yang terjadi pelan-pelan adalah beralihnya kebiasaan menunggu laporan mingguan atau bulanan menjadi memantau dashboard yang datanya diperbarui secara real time. Pemilik bisnis yang bisa melihat kondisi penjualan, stok, atau arus kas kapan pun dibutuhkan, bukan menunggu laporan disusun, bisa mengambil keputusan lebih cepat saat masalah masih kecil, bukan setelah membesar.",
   },
   {
     type: "p",

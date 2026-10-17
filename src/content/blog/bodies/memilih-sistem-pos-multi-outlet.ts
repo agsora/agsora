@@ -7,13 +7,13 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Ini bukan kegagalan manajemen. Ini tanda bahwa sistem kasir yang dirancang untuk satu toko sedang dipaksa mengurus beberapa lokasi sekaligus. Saat outlet bertambah, pertanyaan yang Anda butuhkan berubah dari “berapa penjualan hari ini” menjadi “outlet mana yang paling menguntungkan, dan kenapa”. Artikel ini membahas apa saja yang harus dimiliki sistem POS untuk bisnis multi-outlet, dan cara mengujinya sebelum Anda terlanjur memilih.",
+    text: "Ini bukan kegagalan manajemen. Ini tanda bahwa sistem kasir yang dirancang untuk satu toko sedang dipaksa mengurus beberapa lokasi sekaligus. Saat outlet bertambah, pertanyaan yang Anda butuhkan berubah dari “berapa penjualan hari ini” menjadi “outlet mana yang paling menguntungkan, dan kenapa”. Artikel ini membahas apa saja yang harus dimiliki sistem POS untuk bisnis multioutlet, dan cara mengujinya sebelum Anda terlanjur memilih.",
   },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
     items: [
-      "Multi-outlet membutuhkan laporan gabungan, stok per lokasi, dan kontrol akses berjenjang",
+      "Multioutlet membutuhkan laporan gabungan, stok per lokasi, dan kontrol akses berjenjang",
       "Transfer barang antar outlet harus tercatat dengan jejak yang jelas",
       "Sistem harus tetap bisa melayani saat internet terputus",
       "Uji sistem dengan skenario paling merepotkan, bukan skenario paling mudah",
@@ -100,7 +100,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pertimbangkan juga dukungan dari penyedia. Ketika sistem bermasalah di tengah jam sibuk, seberapa cepat Anda bisa mendapatkan bantuan? Untuk bisnis multi-outlet, gangguan di satu sistem berarti gangguan di semua lokasi sekaligus.",
+    text: "Pertimbangkan juga dukungan dari penyedia. Ketika sistem bermasalah di tengah jam sibuk, seberapa cepat Anda bisa mendapatkan bantuan? Untuk bisnis multioutlet, gangguan di satu sistem berarti gangguan di semua lokasi sekaligus.",
   },
   { type: "h2", text: "Kesalahan umum saat beralih sistem" },
   {
@@ -117,10 +117,10 @@ export const body: Block[] = [
     type: "p",
     text: "Data produk yang berantakan adalah sumber masalah paling umum. Kode produk ganda, nama yang tidak konsisten, dan varian yang dicatat sebagai produk terpisah akan terbawa ke sistem baru. Merapikannya sebelum beralih jauh lebih mudah daripada memperbaikinya setelah transaksi berjalan.",
   },
-  { type: "h2", text: "Laporan yang layak dipantau pemilik multi-outlet" },
+  { type: "h2", text: "Laporan yang layak dipantau pemilik multioutlet" },
   {
     type: "p",
-    text: "Sistem yang baik menghasilkan banyak laporan, tetapi pemilik multi-outlet jarang punya waktu membaca semuanya. Pilih beberapa laporan yang benar-benar menunjukkan kesehatan setiap outlet, lalu jadikan kebiasaan untuk memeriksanya secara rutin.",
+    text: "Sistem yang baik menghasilkan banyak laporan, tetapi pemilik multioutlet jarang punya waktu membaca semuanya. Pilih beberapa laporan yang benar-benar menunjukkan kesehatan setiap outlet, lalu jadikan kebiasaan untuk memeriksanya secara rutin.",
   },
   {
     type: "ul",
@@ -144,7 +144,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dengan sistem multi-outlet yang terhubung, penjualan ketiga outlet terlihat dalam satu layar sepanjang hari. Stok bahan per lokasi terlihat tanpa menelepon siapa pun, dan transfer dari satu outlet ke outlet lain tercatat lengkap. Waktu yang dulu habis untuk merekap bisa dipakai untuk hal yang lebih penting: mengevaluasi menu, melatih tim, atau merencanakan outlet berikutnya.",
+    text: "Dengan sistem multioutlet yang terhubung, penjualan ketiga outlet terlihat dalam satu layar sepanjang hari. Stok bahan per lokasi terlihat tanpa menelepon siapa pun, dan transfer dari satu outlet ke outlet lain tercatat lengkap. Waktu yang dulu habis untuk merekap bisa dipakai untuk hal yang lebih penting: mengevaluasi menu, melatih tim, atau merencanakan outlet berikutnya.",
   },
   { type: "h2", text: "Langkah memindahkan outlet ke sistem baru" },
   {
@@ -185,7 +185,7 @@ export const body: Block[] = [
   { type: "h2", text: "Memahami komponen biaya" },
   {
     type: "p",
-    text: "Biaya sistem POS multi-outlet biasanya tidak hanya satu angka. Ada biaya berlangganan atau lisensi yang sering dihitung per outlet atau per perangkat, biaya perangkat keras seperti printer struk dan tablet, biaya layanan pembayaran, serta biaya pelatihan dan waktu tim saat peralihan. Mintalah rincian lengkap dan hitung berapa totalnya ketika jumlah outlet bertambah sesuai rencana Anda.",
+    text: "Biaya sistem POS multioutlet biasanya tidak hanya satu angka. Ada biaya berlangganan atau lisensi yang sering dihitung per outlet atau per perangkat, biaya perangkat keras seperti printer struk dan tablet, biaya layanan pembayaran, serta biaya pelatihan dan waktu tim saat peralihan. Mintalah rincian lengkap dan hitung berapa totalnya ketika jumlah outlet bertambah sesuai rencana Anda.",
   },
   { type: "h2", text: "Checklist singkat sebelum memilih" },
   {
@@ -202,12 +202,12 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "Untuk bisnis retail dan F&B dengan kebutuhan multi-outlet yang umum, sistem kasir siap pakai sering kali sudah cukup untuk mulai berjalan. Jika operasional Anda memiliki aturan khusus yang tidak terakomodasi produk umum, sistem POS juga bisa dibangun sesuai alur kerja Anda.",
+    text: "Untuk bisnis retail dan F&B dengan kebutuhan multioutlet yang umum, sistem kasir siap pakai sering kali sudah cukup untuk mulai berjalan. Jika operasional Anda memiliki aturan khusus yang tidak terakomodasi produk umum, sistem POS juga bisa dibangun sesuai alur kerja Anda.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Sistem kasir yang tepat untuk bisnis multi-outlet bukan yang paling banyak fiturnya, tetapi yang membuat Anda tetap bisa melihat dan mengendalikan setiap lokasi tanpa harus hadir di sana. Pilih berdasarkan skenario nyata yang Anda hadapi setiap hari, dan uji sebelum berkomitmen.",
+    text: "Sistem kasir yang tepat untuk bisnis multioutlet bukan yang paling banyak fiturnya, tetapi yang membuat Anda tetap bisa melihat dan mengendalikan setiap lokasi tanpa harus hadir di sana. Pilih berdasarkan skenario nyata yang Anda hadapi setiap hari, dan uji sebelum berkomitmen.",
   },
   {
     type: "cta",

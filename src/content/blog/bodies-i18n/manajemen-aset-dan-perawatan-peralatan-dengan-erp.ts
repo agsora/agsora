@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Every business has assets that quietly determine how smoothly operations run: production machines, delivery vehicles, the freezer in the warehouse, cashier computers, generators, and network devices in the office. While they run well, they are almost invisible. The moment one of them dies on the busiest day, everyone suddenly realises how important it was." },
   { type: "p", text: "The problem is that in many small and medium businesses, asset information is scattered: a list in one person's spreadsheet, service history in a technician's notebook, and purchase invoices in a folder at the finance desk. Nobody can quickly answer simple questions such as what our assets are worth, which machine breaks down most often, or when the generator was last serviced." },
-  { type: "p", text: "This article covers how to manage assets and equipment maintenance in a structured way with ERP support: what needs to be recorded, how to separate scheduled maintenance from emergency repairs, how maintenance costs connect with finance, and how to start without making the technician team feel over-supervised. We use no invented figures; what we give is a framework you can adapt." },
+  { type: "p", text: "This article covers how to manage assets and equipment maintenance in a structured way with ERP support: what needs to be recorded, how to separate scheduled maintenance from emergency repairs, how maintenance costs connect with finance, and how to start without making the technician team feel oversupervised. We use no invented figures; what we give is a framework you can adapt." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -18,7 +18,7 @@ const en: Block[] = [
   { type: "h2", text: "Why assets need to be managed, not merely recorded" },
   { type: "p", text: "Recording an asset means knowing that the item exists. Managing an asset means knowing its condition, who is responsible, how much has been spent on it, and when the next action is needed. The difference becomes obvious when something goes wrong." },
   { type: "p", text: "Imagine a frozen food distributor with several freezers. Without management, a freezer is only checked once its temperature has already risen and stock has spoiled. With management, there is a regular inspection schedule, a repair history, and a note that a particular unit has been repaired three times in a year and is worth considering for replacement." },
-  { type: "p", text: "There is a financial side too. Assets are part of the balance sheet, and their value declines over time. If asset records are separate from the finance system, accounting must re-enter the data and discrepancies often arise. With ERP, asset purchases, depreciation, and disposal flow into the books consistently." },
+  { type: "p", text: "There is a financial side too. Assets are part of the balance sheet, and their value declines over time. If asset records are separate from the finance system, accounting must reenter the data and discrepancies often arise. With ERP, asset purchases, depreciation, and disposal flow into the books consistently." },
   { type: "h2", text: "What belongs in the master asset list" },
   { type: "p", text: "The master asset list is the foundation. It is best not to make it too complicated at first, but it must be sufficient to answer the operational and financial questions that come up most often." },
   { type: "ul", items: [
@@ -39,7 +39,7 @@ const en: Block[] = [
   { type: "h2", text: "Three kinds of work: scheduled, repair, and replacement" },
   { type: "p", text: "Many businesses lump all technical work into one category called service. As a result, it is hard to see how much is actually spent preventing breakdowns compared with fixing them. Separate at least three kinds of work." },
   { type: "h3", text: "Scheduled maintenance" },
-  { type: "p", text: "Scheduled maintenance is done before problems appear: change the oil, clean the filter, calibrate the scale, update software, check the backup battery. The schedule can be time-based, for example every three months, or usage-based, for example every ten thousand kilometres." },
+  { type: "p", text: "Scheduled maintenance is done before problems appear: change the oil, clean the filter, calibrate the scale, update software, check the backup battery. The schedule can be time based, for example every three months, or usage based, for example every ten thousand kilometres." },
   { type: "p", text: "A good system makes this work appear automatically as a task on the right date, complete with a checklist and the spare parts usually needed. The task does not depend on the memory of someone who may forget or be on leave." },
   { type: "h3", text: "Repairs" },
   { type: "p", text: "Repairs happen when something has already broken. Record the problem report, who reported it, when, the cause, what was done, the parts used, and how long the asset could not be used. Downtime is often more expensive than the repair itself, so this data matters." },
@@ -71,7 +71,7 @@ const en: Block[] = [
   { type: "p", text: "The last step is often skipped. An asset declared done by the technician but still problematic for its user will produce repeated reports that use up trust. Confirmation from the user is a cheap and effective quality check." },
   { type: "h2", text: "Understanding total cost of ownership" },
   { type: "p", text: "Purchase price is only one part of an asset's cost. There are energy costs, maintenance, spare parts, operator training, insurance, and downtime. Two machines with the same purchase price can have very different total costs after a few years, depending on ease of maintenance and availability of spare parts." },
-  { type: "p", text: "With history data from the system, you can compare brands or models based on real experience, not brochures. When buying the next asset, use that data: how often the previous model broke down, how quickly the vendor responded, and whether spare parts were easy to get. Better purchasing decisions are the long-term result of disciplined record keeping." },
+  { type: "p", text: "With history data from the system, you can compare brands or models based on real experience, not brochures. When buying the next asset, use that data: how often the previous model broke down, how quickly the vendor responded, and whether spare parts were easy to get. Better purchasing decisions are the long term result of disciplined record keeping." },
   { type: "h2", text: "Warranties, service contracts, and outside vendors" },
   { type: "p", text: "Many assets are still under warranty but are repaired at the business's own expense because nobody remembers the date. Store the warranty end date in the asset data and set a reminder before it runs out, so a thorough check can be done while still covered by the manufacturer." },
   { type: "p", text: "For assets that need special expertise, a service contract with an outside vendor often makes more sense than hiring your own technician. Record the contents of the contract, its scope, the promised response time, and the emergency contact. Evaluate vendors on reality: do they arrive on time, and is the problem actually solved on the first visit." },
@@ -92,7 +92,7 @@ const en: Block[] = [
   { type: "p", text: "Match the check results against the list in the system, then follow up on the differences. Assets found but not recorded need to be registered. Assets recorded but not found need to be investigated, not simply deleted. This process doubles as internal control against loss and misuse." },
   { type: "p", text: "Transfers of assets between locations or between responsible persons should go through a handover document in the system. That way the history is preserved and there is no grey area about who is responsible when an item is damaged or lost." },
   { type: "h2", text: "Involving the technician team so the system is actually used" },
-  { type: "p", text: "Asset management systems fail not because of the technology, but because technicians regard them as an administrative burden. They are in the field with dirty hands, not in front of a computer. Design the process so recording feels light: a phone, a short form, pre-set options, and a photo as evidence." },
+  { type: "p", text: "Asset management systems fail not because of the technology, but because technicians regard them as an administrative burden. They are in the field with dirty hands, not in front of a computer. Design the process so recording feels light: a phone, a short form, preset options, and a photo as evidence." },
   { type: "p", text: "Explain the benefits to them personally. A tidy history reduces repeated questions, helps them prove that a problem was reported before, and makes spare part requests easier. Do not turn the data into a tool for blame; make it a tool for improving the process." },
   { type: "p", text: "Involve technicians in drawing up checklists. They are the ones who know which parts fail most often. Checklists born of field experience will be used, whereas those made unilaterally by the office are often ignored." },
   { type: "h2", text: "Simple indicators to monitor" },
@@ -122,7 +122,7 @@ const en: Block[] = [
   ] },
   { type: "h2", text: "Closing" },
   { type: "p", text: "Good asset management is not glamorous, but its impact is felt: more stable operations, more predictable costs, and more rational replacement decisions. The key is not expensive software but the habit of recording consistently and using those records to act." },
-  { type: "p", text: "ERP helps because assets, purchasing, inventory, and finance live in one system so data does not need to be entered repeatedly. Start with critical assets, build the habit, then expand. A well-maintained asset is one that works for your business, not the other way round." },
+  { type: "p", text: "ERP helps because assets, purchasing, inventory, and finance live in one system so data does not need to be entered repeatedly. Start with critical assets, build the habit, then expand. A well maintained asset is one that works for your business, not the other way round." },
   {
     type: "cta",
     title: "Assets and service history still scattered across many notes?",

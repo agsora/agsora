@@ -111,7 +111,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani jadwal dan kapasitas dokter" },
   {
     type: "p",
-    text: "Penjadwalan yang baik menyeimbangkan antara mengisi slot praktik dokter secara optimal dan tidak membuat pasien menunggu terlalu lama. Sistem yang menampilkan ketersediaan dokter secara real-time, termasuk saat dokter tiba-tiba berhalangan, membantu petugas pendaftaran memberi informasi yang akurat kepada pasien tanpa harus mengecek manual ke ruang praktik.",
+    text: "Penjadwalan yang baik menyeimbangkan antara mengisi slot praktik dokter secara optimal dan tidak membuat pasien menunggu terlalu lama. Sistem yang menampilkan ketersediaan dokter secara real time, termasuk saat dokter tiba-tiba berhalangan, membantu petugas pendaftaran memberi informasi yang akurat kepada pasien tanpa harus mengecek manual ke ruang praktik.",
   },
   { type: "h2", text: "Ilustrasi: klinik sebelum dan sesudah" },
   {

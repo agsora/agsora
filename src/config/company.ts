@@ -68,7 +68,7 @@ export const capabilities: CapabilityGroup[] = [
         "WhatsApp Business API",
         "Software akuntansi",
         "Ekspedisi & logistik",
-        "Single sign-on (SSO)",
+        "Single sign on (SSO)",
       ],
       en: [
         "Payment gateway & QRIS",
@@ -76,7 +76,7 @@ export const capabilities: CapabilityGroup[] = [
         "WhatsApp Business API",
         "Accounting software",
         "Shipping & logistics",
-        "Single sign-on (SSO)",
+        "Single sign on (SSO)",
       ],
       zh: [
         "支付网关与 QRIS",
@@ -97,14 +97,14 @@ export const capabilities: CapabilityGroup[] = [
     },
     items: {
       id: [
-        "Dashboard & laporan real-time",
-        "Konsolidasi multi-cabang",
+        "Dashboard & laporan real time",
+        "Konsolidasi multicabang",
         "Migrasi data dari sistem lama",
         "Ekspor terjadwal & rekap otomatis",
       ],
       en: [
-        "Real-time dashboards & reports",
-        "Multi-branch consolidation",
+        "Real time dashboards & reports",
+        "Multibranch consolidation",
         "Data migration from legacy systems",
         "Scheduled exports & automated recaps",
       ],
@@ -125,13 +125,13 @@ export const capabilities: CapabilityGroup[] = [
     },
     items: {
       id: [
-        "Deployment cloud atau on-premise",
+        "Deployment cloud atau on premise",
         "Backup & pemulihan data",
         "Monitoring & logging",
         "Manajemen hak akses pengguna",
       ],
       en: [
-        "Cloud or on-premise deployment",
+        "Cloud or on premise deployment",
         "Backup & data recovery",
         "Monitoring & logging",
         "User access management",
@@ -280,19 +280,19 @@ export const commitments: Commitment[] = [
     },
     description: {
       id: "Fitur, timeline, dan batasan project dituangkan dalam proposal sebelum pengerjaan, sehingga tidak ada tafsir ganda di tengah jalan.",
-      en: "Features, timeline, and project boundaries are set out in a proposal before work begins, so there's no room for conflicting interpretations mid-project.",
+      en: "Features, timeline, and project boundaries are set out in a proposal before work begins, so there's no room for conflicting interpretations midproject.",
       zh: "功能、工期与项目边界会在开工前写入提案，避免项目中途出现理解分歧。",
     },
   },
   {
     title: {
       id: "Dukungan setelah rilis",
-      en: "Post-launch support",
+      en: "Postlaunch support",
       zh: "上线后支持",
     },
     description: {
       id: "Perbaikan bug dan dukungan teknis pascarilis tersedia melalui paket maintenance, dengan cakupan yang dijelaskan sejak awal.",
-      en: "Bug fixes and post-launch technical support are available through maintenance packages, with coverage explained upfront.",
+      en: "Bug fixes and postlaunch technical support are available through maintenance packages, with coverage explained upfront.",
       zh: "上线后的错误修复与技术支持可通过维护套餐获得，服务范围会提前说明清楚。",
     },
   },
@@ -350,9 +350,9 @@ export const faqsTranslated: FaqTranslated[] = [
         "Perubahan adalah hal wajar. Perubahan kecil biasanya kami akomodasi dalam ruang lingkup berjalan. Perubahan yang menambah modul atau mengubah alur inti akan kami hitung ulang dampaknya terhadap timeline dan biaya, lalu disepakati tertulis sebelum dikerjakan.",
     },
     en: {
-      question: "What if requirements change mid-project?",
+      question: "What if requirements change midproject?",
       answer:
-        "Changes are normal. Small changes are usually accommodated within the running scope. Changes that add modules or alter core workflows are re-estimated for their impact on timeline and cost, then agreed in writing before we proceed.",
+        "Changes are normal. Small changes are usually accommodated within the running scope. Changes that add modules or alter core workflows are reestimated for their impact on timeline and cost, then agreed in writing before we proceed.",
     },
     zh: {
       question: "如果项目中途需求发生变化怎么办？",
@@ -387,7 +387,7 @@ export const faqsTranslated: FaqTranslated[] = [
     en: {
       question: "Are there costs after the system is delivered?",
       answer:
-        "A running system still needs upkeep. Maintenance packages start from Rp750,000/month, covering bug fixes and technical support. Third-party costs like domain, hosting, or API licensing sit outside that unless stated otherwise.",
+        "A running system still needs upkeep. Maintenance packages start from Rp750,000/month, covering bug fixes and technical support. Third party costs like domain, hosting, or API licensing sit outside that unless stated otherwise.",
     },
     zh: {
       question: "系统交付后还需要付费吗？",

@@ -1,7 +1,7 @@
 import type { Block } from "@/config/blog";
 
 const en: Block[] = [
-  { type: "p", text: "Every day an online store receives orders and payments through various routes: bank transfer, digital wallet, card, QR code, cash on delivery, and sometimes instalments. On the other side, money enters the bank account with a delay, minus fees, and is often combined into one payout from the payment provider. When month-end arrives, a simple question emerges: does the money that came into the account equal the sales recorded in the system?" },
+  { type: "p", text: "Every day an online store receives orders and payments through various routes: bank transfer, digital wallet, card, QR code, cash on delivery, and sometimes instalments. On the other side, money enters the bank account with a delay, minus fees, and is often combined into one payout from the payment provider. When month end arrives, a simple question emerges: does the money that came into the account equal the sales recorded in the system?" },
   { type: "p", text: "Answering that question is the job of payment reconciliation. Without it, a business may think its sales are healthy while there are orders never paid, payments stuck, refunds unrecorded, or service fees growing unnoticed. Many stores do it by hand in spreadsheets, and the work becomes ever more painful as transactions grow." },
   { type: "p", text: "This article covers how to design payment reconciliation that is tidy and, as far as possible, automatic for an online store and app. We discuss the sources of discrepancy, matching keys, daily and monthly flows, handling exceptions, recording fees, internal controls, and tool choices. We use no invented figures about service fees or settlement times; those terms differ by provider and need to be checked in your latest agreement and documentation." },
   { type: "h2", text: "Summary" },
@@ -17,8 +17,8 @@ const en: Block[] = [
   },
   { type: "h2", text: "Why reconciliation deserves attention" },
   { type: "p", text: "An online store lives on the trust that sales figures reflect money actually received. Small discrepancies left to pile up turn into big problems: unreliable financial reports, tax computed from wrong figures, stock purchase decisions resting on phantom revenue, and difficulty when an auditor or investor asks for an explanation." },
-  { type: "p", text: "Reconciliation also works as an early-warning tool. An order with a paid status whose funds never arrived can signal an integration error or an attempted fraud. A sudden rise in service fees signals a change in rates or transaction types. Repeated refunds on one product point to a quality problem. Many important findings come from the effort of matching figures." },
-  { type: "p", text: "Operationally, tidy reconciliation makes the month-end close take days, not weeks. The finance team no longer hunts for proof of payment one by one, and the customer service team can answer questions about payment status with certainty." },
+  { type: "p", text: "Reconciliation also works as an early warning tool. An order with a paid status whose funds never arrived can signal an integration error or an attempted fraud. A sudden rise in service fees signals a change in rates or transaction types. Repeated refunds on one product point to a quality problem. Many important findings come from the effort of matching figures." },
+  { type: "p", text: "Operationally, tidy reconciliation makes the month end close take days, not weeks. The finance team no longer hunts for proof of payment one by one, and the customer service team can answer questions about payment status with certainty." },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
@@ -32,7 +32,7 @@ const en: Block[] = [
     "The transaction report from the payment provider: which payments succeeded, failed, were refunded, or disputed, with the fees and payout date",
     "The bank statement: how much money actually arrived, when, and in what kind of deposit",
   ] },
-  { type: "p", text: "This three-way match reveals various situations. An order exists but there is no payment transaction: the order is unpaid or the payment is not linked. A transaction succeeded but is not on any order: there is a payment not tied to any order. A transaction exists but the bank deposit does not match: there are fees, deductions, or delays to explain." },
+  { type: "p", text: "This three way match reveals various situations. An order exists but there is no payment transaction: the order is unpaid or the payment is not linked. A transaction succeeded but is not on any order: there is a payment not tied to any order. A transaction exists but the bank deposit does not match: there are fees, deductions, or delays to explain." },
   { type: "h3", text: "Why the deposit amount often differs from the sales amount" },
   { type: "ul", items: [
     "Service fees are deducted by the provider before funds are paid out",
@@ -40,10 +40,10 @@ const en: Block[] = [
     "There is a gap between the payment date and the payout date, and the gap can cross a month boundary",
     "Refunds and disputes reduce subsequent deposits",
     "Partial payments, overpayments, or unique codes that add to the transfer amount",
-    "Currency and exchange-rate differences when customers pay in another currency",
+    "Currency and exchange rate differences when customers pay in another currency",
   ] },
   { type: "h2", text: "The matching key: the foundation of automation" },
-  { type: "p", text: "Automatic matching is possible only if every transaction has a key that can link the three records. Without a key, people are forced to guess from amounts and dates, which is error-prone when many transactions have the same value. A good key is unique, stable, and carried through all the records." },
+  { type: "p", text: "Automatic matching is possible only if every transaction has a key that can link the three records. Without a key, people are forced to guess from amounts and dates, which is error prone when many transactions have the same value. A good key is unique, stable, and carried through all the records." },
   { type: "p", text: "The most reliable key is the order number you send to the payment provider as a reference when the transaction is created. The provider stores it and lists it in the report, so every row of the report can be paired with an order automatically. Also store the provider's transaction number on your order so lookups can be done from both directions." },
   { type: "ul", items: [
     "Send the order number as a reference with every payment request to the provider",
@@ -87,10 +87,10 @@ const en: Block[] = [
   },
   { type: "h2", text: "Cash on delivery and other channels" },
   { type: "p", text: "Cash on delivery brings its own reconciliation challenges. Money is held by the courier or shipping company and then paid over in a few days, often combined from many parcels and minus service fees. Reconciliation matches the list of parcels delivered and collected against the payout from the carrier. Parcels that failed delivery or were returned must not be counted as revenue." },
-  { type: "p", text: "If the store also sells through marketplaces, each marketplace pays out funds on its own schedule after deducting commission, shipping, and promotion fees. Study each marketplace's settlement report and pair it with orders and the bank statement. These reports usually carry per-order detail so the difference between sales value and funds received can be explained." },
-  { type: "p", text: "For sales in a physical shop, cash and non-cash reconciliation is done against the till system's report. Using one recording system for all channels makes matching much easier because order numbers, item codes, and data structure are uniform." },
-  { type: "h2", text: "A month-end close that is not stressful" },
-  { type: "p", text: "With the daily routine running, the month-end close becomes a final verification, not a massive search. Set a consistent cut-off date for pulling reports, resolving exceptions, and approving the result. Pay attention to transactions that cross the month boundary, such as a payment at month-end that clears only at the start of the next, and treat them consistently according to your accounting policy." },
+  { type: "p", text: "If the store also sells through marketplaces, each marketplace pays out funds on its own schedule after deducting commission, shipping, and promotion fees. Study each marketplace's settlement report and pair it with orders and the bank statement. These reports usually carry per order detail so the difference between sales value and funds received can be explained." },
+  { type: "p", text: "For sales in a physical shop, cash and noncash reconciliation is done against the till system's report. Using one recording system for all channels makes matching much easier because order numbers, item codes, and data structure are uniform." },
+  { type: "h2", text: "A month end close that is not stressful" },
+  { type: "p", text: "With the daily routine running, the month end close becomes a final verification, not a massive search. Set a consistent cut off date for pulling reports, resolving exceptions, and approving the result. Pay attention to transactions that cross the month boundary, such as a payment at month end that clears only at the start of the next, and treat them consistently according to your accounting policy." },
   { type: "ol", items: [
     "Make sure all provider reports and bank statements for the period are complete",
     "Resolve or annotate all remaining exceptions",
@@ -113,7 +113,7 @@ const en: Block[] = [
   { type: "h2", text: "Choosing tools and the level of automation" },
   { type: "p", text: "The choice of tools depends on transaction volume and channel complexity. At small volumes, a spreadsheet with report import and matching formulas may be enough, as long as the matching key is consistent. When transactions reach hundreds a day or channels multiply, automation becomes an investment that pays back." },
   { type: "ul", items: [
-    "The built-in reconciliation features of your store system, ERP, or accounting software, where available",
+    "The built in reconciliation features of your store system, ERP, or accounting software, where available",
     "Automatic import of transaction reports from the payment provider through an interface or scheduled files",
     "Bank statement import in a structured format, not manual copy and paste",
     "Matching rules that can be configured, for example by reference number, amount, and date range",
@@ -125,7 +125,7 @@ const en: Block[] = [
   { type: "ul", items: [
     "Not sending the order number as a reference to the payment provider so matching has to be guessed",
     "Recording sales as the net money received so service fees are hidden",
-    "Doing reconciliation only at month-end",
+    "Doing reconciliation only at month end",
     "Letting exceptions pile up with no owner and no deadline",
     "Recording refunds as ordinary expenses",
     "Storing card data yourself without need and without adequate protection",

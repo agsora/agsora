@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Otomatisasi dan AI: apa bedanya?" },
   {
     type: "p",
-    text: "Otomatisasi sudah ada jauh sebelum AI populer. Aturan seperti “jika stok di bawah batas minimum, kirim notifikasi ke bagian pembelian” adalah otomatisasi berbasis aturan. Ia bekerja sangat baik untuk proses yang bisa dijelaskan dengan logika jika-maka yang pasti.",
+    text: "Otomatisasi sudah ada jauh sebelum AI populer. Aturan seperti “jika stok di bawah batas minimum, kirim notifikasi ke bagian pembelian” adalah otomatisasi berbasis aturan. Ia bekerja sangat baik untuk proses yang bisa dijelaskan dengan logika jika maka yang pasti.",
   },
   {
     type: "p",

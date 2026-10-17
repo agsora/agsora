@@ -75,7 +75,7 @@ export const body: Block[] = [
   { type: "p", text: "Sebaik apa pun pengujiannya, selalu ada hal yang baru ketahuan di dunia nyata. Karena itu, strategi rilis sama pentingnya dengan pengujian. Teknik rilis bertahap mengirim versi baru kepada sebagian kecil pengguna lebih dulu, memantau hasilnya, lalu memperluas bila aman." },
   { type: "p", text: "Penanda fitur memungkinkan sebuah fitur dikirim ke produksi dalam keadaan mati, lalu dinyalakan untuk kelompok tertentu atau dimatikan segera bila bermasalah, tanpa perlu rilis ulang. Cara ini memisahkan keputusan teknis mengirim kode dari keputusan bisnis mengaktifkan fitur." },
   { type: "p", text: "Yang tidak kalah penting adalah kemampuan kembali ke versi sebelumnya dengan cepat dan terlatih. Tanyakan kepada tim: bila rilis hari ini bermasalah, berapa lama kita bisa kembali ke kondisi sehat, dan apakah itu pernah dicoba? Prosedur pembatalan yang tidak pernah dilatih sering gagal saat dibutuhkan." },
-  { type: "h2", text: "Pengujian non-fungsional: kecepatan, keamanan, dan kompatibilitas" },
+  { type: "h2", text: "Pengujian nonfungsional: kecepatan, keamanan, dan kompatibilitas" },
   { type: "p", text: "Aplikasi yang benar secara fungsi masih bisa mengecewakan bila lambat, rentan, atau tampil rusak di perangkat tertentu. Beberapa pemeriksaan ini dapat diotomatisasi dalam alur yang sama." },
   { type: "ul", items: [
     "Pemeriksaan kecepatan halaman dan batas ukuran agar performa tidak diam-diam menurun",

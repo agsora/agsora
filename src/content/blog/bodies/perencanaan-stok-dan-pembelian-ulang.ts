@@ -112,7 +112,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Untuk bisnis dengan banyak pemasok, pertimbangkan menggabungkan pesanan ke pemasok yang sama agar memenuhi minimum pengiriman dan menghemat ongkos kirim. Bagi bisnis multi-cabang, tentukan apakah pembelian dilakukan terpusat atau per cabang, dan apakah transfer antarcabang boleh dipakai untuk menyeimbangkan stok sebelum memesan dari pemasok. Alur persetujuan pembelian yang jelas, seperti dibahas dalam artikel tentang alur approval pembelian, menjaga kendali tanpa memperlambat pekerjaan.",
+    text: "Untuk bisnis dengan banyak pemasok, pertimbangkan menggabungkan pesanan ke pemasok yang sama agar memenuhi minimum pengiriman dan menghemat ongkos kirim. Bagi bisnis multicabang, tentukan apakah pembelian dilakukan terpusat atau per cabang, dan apakah transfer antarcabang boleh dipakai untuk menyeimbangkan stok sebelum memesan dari pemasok. Alur persetujuan pembelian yang jelas, seperti dibahas dalam artikel tentang alur approval pembelian, menjaga kendali tanpa memperlambat pekerjaan.",
   },
   { type: "h2", text: "Peran sistem ERP dan inventori" },
   {

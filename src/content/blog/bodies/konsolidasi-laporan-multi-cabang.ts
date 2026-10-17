@@ -69,7 +69,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah menyeragamkan daftar akun dan kategori di seluruh cabang, serta menandai transaksi antar cabang secara otomatis di sistem, laporan gabungan yang dulu butuh seminggu kini bisa dihasilkan dalam waktu kurang dari sehari setelah periode ditutup, bahkan bisa dilihat secara real-time kapan saja sepanjang bulan berjalan.",
+    text: "Setelah menyeragamkan daftar akun dan kategori di seluruh cabang, serta menandai transaksi antar cabang secara otomatis di sistem, laporan gabungan yang dulu butuh seminggu kini bisa dihasilkan dalam waktu kurang dari sehari setelah periode ditutup, bahkan bisa dilihat secara real time kapan saja sepanjang bulan berjalan.",
   },
   { type: "h2", text: "Laporan yang layak dipantau" },
   {
@@ -154,10 +154,10 @@ export const body: Block[] = [
     type: "p",
     text: "Sistem konsolidasi yang baik perlu menyimpan konteks asal setiap transaksi, bukan sekadar angka akhirnya saja. Dengan begitu, laporan gabungan tetap bisa menampilkan total yang benar, sekaligus memungkinkan analisis yang memperhitungkan perbedaan tarif pajak atau nilai tukar ketika diperlukan, tanpa harus menelusuri ulang dokumen asli dari setiap cabang satu per satu.",
   },
-  { type: "h2", text: "Dashboard real-time versus laporan periode" },
+  { type: "h2", text: "Dashboard real time versus laporan periode" },
   {
     type: "p",
-    text: "Ada perbedaan penting antara melihat angka konsolidasi secara real-time di dashboard dan menunggu laporan resmi setelah periode ditutup. Dashboard real-time berguna untuk memantau tren dan mendeteksi anomali sedini mungkin, tapi angkanya masih bisa berubah karena transaksi hari berjalan belum sepenuhnya final dan penyesuaian masih mungkin terjadi.",
+    text: "Ada perbedaan penting antara melihat angka konsolidasi secara real time di dashboard dan menunggu laporan resmi setelah periode ditutup. Dashboard real time berguna untuk memantau tren dan mendeteksi anomali sedini mungkin, tapi angkanya masih bisa berubah karena transaksi hari berjalan belum sepenuhnya final dan penyesuaian masih mungkin terjadi.",
   },
   {
     type: "p",
@@ -166,7 +166,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Konsolidasi laporan multi-cabang yang lancar dimulai jauh sebelum proses penggabungan itu sendiri, dimulai dari keseragaman struktur data di setiap cabang. Dengan fondasi yang tepat, laporan gabungan yang dulu memakan waktu berhari-hari bisa tersedia dalam hitungan jam, memberi manajemen gambaran bisnis yang jauh lebih cepat dan lebih bisa diandalkan.",
+    text: "Konsolidasi laporan multicabang yang lancar dimulai jauh sebelum proses penggabungan itu sendiri, dimulai dari keseragaman struktur data di setiap cabang. Dengan fondasi yang tepat, laporan gabungan yang dulu memakan waktu berhari-hari bisa tersedia dalam hitungan jam, memberi manajemen gambaran bisnis yang jauh lebih cepat dan lebih bisa diandalkan.",
   },
   {
     type: "cta",

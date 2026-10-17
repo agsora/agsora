@@ -76,7 +76,7 @@ export const body: Block[] = [
   { type: "h2", text: "Uji dalam kondisi nyata, bukan hanya simulasi" },
   {
     type: "p",
-    text: "Mode offline sering terlihat berjalan mulus saat diuji dalam kondisi terkendali di kantor dengan simulasi mematikan koneksi sesaat. Uji sistem ini di lokasi dan kondisi yang benar-benar mewakili penggunaan sesungguhnya, koneksi yang putus-sambung tidak menentu, perangkat dengan kapasitas penyimpanan terbatas, dan skenario penggunaan offline yang berlangsung dalam waktu cukup lama, sebelum benar-benar diterapkan secara luas kepada seluruh tim.",
+    text: "Mode offline sering terlihat berjalan mulus saat diuji dalam kondisi terkendali di kantor dengan simulasi mematikan koneksi sesaat. Uji sistem ini di lokasi dan kondisi yang benar-benar mewakili penggunaan sesungguhnya, koneksi yang putus sambung tidak menentu, perangkat dengan kapasitas penyimpanan terbatas, dan skenario penggunaan offline yang berlangsung dalam waktu cukup lama, sebelum benar-benar diterapkan secara luas kepada seluruh tim.",
   },
   { type: "h2", text: "Mempertimbangkan biaya pengembangan tambahan" },
   {

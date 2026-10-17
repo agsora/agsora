@@ -16,7 +16,7 @@ export const body: Block[] = [
       "Alur persetujuan sebaiknya ditentukan oleh besarnya risiko, bukan sekadar hierarki jabatan",
       "Struktur berjenjang berdasarkan nilai pembelian mengurangi kemacetan untuk pembelian rutin",
       "Delegasi persetujuan saat penyetuju berhalangan mencegah pembelian tertahan tanpa alasan jelas",
-      "Hubungkan persetujuan dengan sisa anggaran secara real-time",
+      "Hubungkan persetujuan dengan sisa anggaran secara real time",
       "Ukur waktu tunggu di setiap tahap untuk menemukan titik kemacetan",
     ],
   },
@@ -107,7 +107,7 @@ export const body: Block[] = [
     items: [
       "Mewajibkan persetujuan direktur untuk semua nilai pembelian tanpa kecuali",
       "Tidak menyiapkan delegasi saat penyetuju berhalangan",
-      "Tidak menghubungkan persetujuan dengan sisa anggaran real-time",
+      "Tidak menghubungkan persetujuan dengan sisa anggaran real time",
       "Tidak menyediakan jalur darurat untuk kebutuhan mendesak",
       "Aturan yang tidak konsisten diterapkan antar divisi",
     ],

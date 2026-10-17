@@ -187,7 +187,7 @@ export const body: Block[] = [
       "Laporan kehadiran bisa dibuat kapan saja tanpa persiapan khusus",
     ],
   },
-  { type: "h2", text: "Checklist sebelum go-live" },
+  { type: "h2", text: "Checklist sebelum go live" },
   {
     type: "ol",
     items: [

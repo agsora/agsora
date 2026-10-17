@@ -3,35 +3,35 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   {
     type: "p",
-    text: "In recent years, low-code and no-code tools have become increasingly popular. Their promise is tempting: build an app or automate a process by dragging and dropping components, without writing code, in a matter of days. For business owners who have been used to hearing software development estimates in months, an offer like that sounds very reasonable.",
+    text: "In recent years, low code and no code tools have become increasingly popular. Their promise is tempting: build an app or automate a process by dragging and dropping components, without writing code, in a matter of days. For business owners who have been used to hearing software development estimates in months, an offer like that sounds very reasonable.",
   },
   {
     type: "p",
-    text: "On the other hand, many businesses have also heard stories of low-code apps that start to struggle when users grow, of subscription costs that keep rising, or of unique business processes that the platform can't accommodate. The question isn't which is better in general, but which suits your business's needs, stage, and resources right now.",
+    text: "On the other hand, many businesses have also heard stories of low code apps that start to struggle when users grow, of subscription costs that keep rising, or of unique business processes that the platform can't accommodate. The question isn't which is better in general, but which suits your business's needs, stage, and resources right now.",
   },
   {
     type: "p",
-    text: "This article compares low-code, no-code, and custom-built software fairly. We'll look at what each term means, where each excels, where the limits lie, and a decision framework you can use to choose. We write this as a custom software developer, but the conclusion is honest: there are many situations where an off-the-shelf tool is the better choice.",
+    text: "This article compares low code, no code, and custom built software fairly. We'll look at what each term means, where each excels, where the limits lie, and a decision framework you can use to choose. We write this as a custom software developer, but the conclusion is honest: there are many situations where an off the shelf tool is the better choice.",
   },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
     items: [
-      "No-code and low-code excel for simple internal processes, prototypes, and clear needs with a limited number of users",
-      "Custom software excels when business processes are unique, integrations are complex, performance must be high, or full control over data and long-term cost is needed",
-      "Neither is a one-time choice; many businesses start with off-the-shelf tools and switch as needs grow",
+      "No code and low code excel for simple internal processes, prototypes, and clear needs with a limited number of users",
+      "Custom software excels when business processes are unique, integrations are complex, performance must be high, or full control over data and long term cost is needed",
+      "Neither is a one time choice; many businesses start with off the shelf tools and switch as needs grow",
       "The real cost includes subscriptions, usage limits, team time, and the cost of switching later, not just the upfront price",
       "Data ownership and the ease of moving it must be confirmed before choosing any platform",
     ],
   },
-  { type: "h2", text: "What no-code, low-code, and custom software mean" },
+  { type: "h2", text: "What no code, low code, and custom software mean" },
   {
     type: "h3",
     text: "No-code",
   },
   {
     type: "p",
-    text: "No-code platforms let people without a programming background create apps, forms, workflows, or web pages through a visual interface. Components are already provided, and the builder assembles and configures them. Examples of use include internal request forms, simple task trackers, catalogs, or automations that connect several popular apps.",
+    text: "No code platforms let people without a programming background create apps, forms, workflows, or web pages through a visual interface. Components are already provided, and the builder assembles and configures them. Examples of use include internal request forms, simple task trackers, catalogs, or automations that connect several popular apps.",
   },
   {
     type: "h3",
@@ -39,11 +39,11 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Low-code is similar to no-code, but leaves room to write a little code where needed, for example for special logic or integration with other systems. These platforms suit teams with some technical skill who want more flexibility but still want to speed up building with ready-made components.",
+    text: "Low code is similar to no code, but leaves room to write a little code where needed, for example for special logic or integration with other systems. These platforms suit teams with some technical skill who want more flexibility but still want to speed up building with ready made components.",
   },
   {
     type: "h3",
-    text: "Custom-built software",
+    text: "Custom built software",
   },
   {
     type: "p",
@@ -53,9 +53,9 @@ const en: Block[] = [
     type: "image",
     src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     alt: "A laptop screen showing lines of program code in a dark room",
-    caption: "The choice between off-the-shelf tools and custom code depends on needs, not on which sounds more sophisticated.",
+    caption: "The choice between off the shelf tools and custom code depends on needs, not on which sounds more sophisticated.",
   },
-  { type: "h2", text: "Where no-code and low-code tools excel" },
+  { type: "h2", text: "Where no code and low code tools excel" },
   {
     type: "p",
     text: "These tools have real advantages, and dismissing them outright is a mistake. Here are situations where they are often the best choice.",
@@ -73,7 +73,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "If your need is a fairly standard internal process, used by a few dozen users, and involving no complicated business logic, an off-the-shelf tool often gives the best value for every rupiah spent.",
+    text: "If your need is a fairly standard internal process, used by a few dozen users, and involving no complicated business logic, an off the shelf tool often gives the best value for every rupiah spent.",
   },
   { type: "h2", text: "Where the limits start to show" },
   {
@@ -86,7 +86,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Off-the-shelf platforms are designed for common cases. When your business has special rules, such as tiered pricing with many exceptions, approval flows that depend on many conditions, or an unusual warehouse workflow, you begin building complicated workarounds inside the platform. At some point, those workarounds are harder to maintain than ordinary code.",
+    text: "Off the shelf platforms are designed for common cases. When your business has special rules, such as tiered pricing with many exceptions, approval flows that depend on many conditions, or an unusual warehouse workflow, you begin building complicated workarounds inside the platform. At some point, those workarounds are harder to maintain than ordinary code.",
   },
   {
     type: "h3",
@@ -94,7 +94,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "An app that runs smoothly for ten users and a thousand records can slow down when users number in the hundreds and data in the millions of rows. Off-the-shelf platforms usually set usage limits or raise costs with volume. With custom software, you can optimize the data structure and infrastructure to match actual usage patterns.",
+    text: "An app that runs smoothly for ten users and a thousand records can slow down when users number in the hundreds and data in the millions of rows. Off the shelf platforms usually set usage limits or raise costs with volume. With custom software, you can optimize the data structure and infrastructure to match actual usage patterns.",
   },
   {
     type: "h3",
@@ -106,7 +106,7 @@ const en: Block[] = [
   },
   {
     type: "h3",
-    text: "Long-term cost",
+    text: "Long term cost",
   },
   {
     type: "p",
@@ -114,11 +114,11 @@ const en: Block[] = [
   },
   {
     type: "h3",
-    text: "Ownership and platform lock-in",
+    text: "Ownership and platform lock in",
   },
   {
     type: "p",
-    text: "An app built on a particular platform usually can't simply be moved. Data may be exportable, but the logic and interface you've built must be recreated if you switch. This is called vendor lock-in. In addition, changes in the provider's pricing, features, or policies are outside your control.",
+    text: "An app built on a particular platform usually can't simply be moved. Data may be exportable, but the logic and interface you've built must be recreated if you switch. This is called vendor lock in. In addition, changes in the provider's pricing, features, or policies are outside your control.",
   },
   {
     type: "image",
@@ -134,7 +134,7 @@ const en: Block[] = [
   {
     type: "ol",
     items: [
-      "How unique is this business process? If most similar businesses use similar processes, an off-the-shelf tool is probably enough",
+      "How unique is this business process? If most similar businesses use similar processes, an off the shelf tool is probably enough",
       "How many users and how much data are expected in two to three years? Large growth projections point toward a more scalable solution",
       "How important is this app to operations? If an outage means the business stops running, control and reliability matter more",
       "How many integrations with other systems are needed, especially uncommon ones?",
@@ -146,12 +146,12 @@ const en: Block[] = [
   {
     type: "callout",
     title: "A rule of thumb",
-    text: "If your process is standard and the scale is small, start with an off-the-shelf tool. If your process is a competitive advantage, involves many integrations, or will grow large, consider custom software from the start or plan a clear migration path.",
+    text: "If your process is standard and the scale is small, start with an off the shelf tool. If your process is a competitive advantage, involves many integrations, or will grow large, consider custom software from the start or plan a clear migration path.",
   },
   { type: "h2", text: "Mixed approaches and migration paths" },
   {
     type: "p",
-    text: "The choice doesn't have to be black and white. Many successful businesses use a mixed approach. For example, using no-code tools for supporting processes such as internal forms and simple reporting, while core systems such as orders, stock, or customer service are custom built. Or starting with an off-the-shelf tool as an MVP to validate the process, then building a custom version once it has proven useful.",
+    text: "The choice doesn't have to be black and white. Many successful businesses use a mixed approach. For example, using no code tools for supporting processes such as internal forms and simple reporting, while core systems such as orders, stock, or customer service are custom built. Or starting with an off the shelf tool as an MVP to validate the process, then building a custom version once it has proven useful.",
   },
   {
     type: "p",
@@ -173,7 +173,7 @@ const en: Block[] = [
   { type: "h2", text: "The role of the team and the skills required" },
   {
     type: "p",
-    text: "One thing often overlooked in this comparison is the human side. No-code tools don't require programming expertise, but they still require someone who understands the business process, can think in a structured way about data and flows, and has time to build and maintain the app. If that person is a staff member who also carries other daily work, the app they build can end up depending on one person and be hard to hand over when they move to other duties.",
+    text: "One thing often overlooked in this comparison is the human side. No code tools don't require programming expertise, but they still require someone who understands the business process, can think in a structured way about data and flows, and has time to build and maintain the app. If that person is a staff member who also carries other daily work, the app they build can end up depending on one person and be hard to hand over when they move to other duties.",
   },
   {
     type: "p",
@@ -184,10 +184,10 @@ const en: Block[] = [
     type: "ul",
     items: [
       "Choosing based on trends or an attractive demo without testing against a real process",
-      "Assuming no-code means no planning is needed; a chaotic process stays chaotic on any platform",
+      "Assuming no code means no planning is needed; a chaotic process stays chaotic on any platform",
       "Building a business's core system on a tool designed for light needs",
-      "Ignoring long-term costs and platform lock-in",
-      "Building custom software for a process that off-the-shelf tools already serve well",
+      "Ignoring long term costs and platform lock in",
+      "Building custom software for a process that off the shelf tools already serve well",
       "Not deciding who is responsible for maintaining the app once it's built",
       "Letting many small apps built by each department grow without governance, so data becomes scattered and hard to audit",
     ],
@@ -195,12 +195,12 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   {
     type: "p",
-    text: "There is no universal answer between low-code, no-code, and custom software. Off-the-shelf tools give speed and low upfront cost for standard needs; custom software gives control and room to grow for unique or large needs. A good decision comes from an honest understanding of your business processes, growth projections, integration needs, and total long-term cost. When in doubt, start small in a way that doesn't lock you in, and let real usage show when it's time to go further.",
+    text: "There is no universal answer between low code, no code, and custom software. Off the shelf tools give speed and low upfront cost for standard needs; custom software gives control and room to grow for unique or large needs. A good decision comes from an honest understanding of your business processes, growth projections, integration needs, and total long term cost. When in doubt, start small in a way that doesn't lock you in, and let real usage show when it's time to go further.",
   },
   {
     type: "cta",
-    title: "Unsure whether to choose an off-the-shelf tool or custom software?",
-    text: "The AG·SORA team will help assess your needs objectively, including recommending an off-the-shelf tool when that is genuinely the better fit. The consultation is free, no commitment required.",
+    title: "Unsure whether to choose an off the shelf tool or custom software?",
+    text: "The AG·SORA team will help assess your needs objectively, including recommending an off the shelf tool when that is genuinely the better fit. The consultation is free, no commitment required.",
     href: "/services/custom-software",
     label: "Free Consultation",
   },
@@ -324,7 +324,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "在某个平台上构建的应用通常无法简单地搬走。数据也许可以导出,但如果切换,已经构建的逻辑和界面必须重新制作。这被称为供应商锁定(vendor lock-in)。此外,服务商在价格、功能或政策上的变化也不在你的控制之内。",
+    text: "在某个平台上构建的应用通常无法简单地搬走。数据也许可以导出,但如果切换,已经构建的逻辑和界面必须重新制作。这被称为供应商锁定(vendor lock in)。此外,服务商在价格、功能或政策上的变化也不在你的控制之内。",
   },
   {
     type: "image",

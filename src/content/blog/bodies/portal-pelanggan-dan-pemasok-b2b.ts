@@ -18,7 +18,7 @@ export const body: Block[] = [
   { type: "h2", text: "Masalah yang diselesaikan portal" },
   { type: "p", text: "Coba hitung berapa banyak pesan dan panggilan yang diterima tim Anda setiap minggu dengan pertanyaan yang serupa: apakah pesanan saya sudah dikirim, bisakah dikirim ulang salinan faktur, kapan pembayaran saya cair, atau berapa sisa stok untuk barang ini. Setiap pertanyaan tampak kecil, tetapi tim penjualan, keuangan, dan layanan pelanggan menghabiskan sebagian besar harinya untuk menjawabnya." },
   { type: "p", text: "Dari sisi mitra, mereka menunggu jawaban dan sering tidak tahu pada siapa harus bertanya. Pelanggan yang butuh kepastian jadwal kirim untuk proyeknya tidak ingin mengejar sales hingga tiga kali. Pemasok yang ingin tahu apakah faktur sudah diterima tidak ingin menelepon bagian keuangan setiap pekan. Portal memberi mereka jawaban kapan pun dibutuhkan, termasuk di luar jam kerja." },
-  { type: "p", text: "Ada juga manfaat kualitas data. Ketika mitra memasukkan pesanan atau mengonfirmasi jadwal sendiri, kesalahan salin-tempel dan salah dengar berkurang. Dokumen yang diunggah langsung terkait dengan pesanan yang benar, bukan tersebar di kotak masuk pribadi karyawan yang kemudian pindah divisi." },
+  { type: "p", text: "Ada juga manfaat kualitas data. Ketika mitra memasukkan pesanan atau mengonfirmasi jadwal sendiri, kesalahan salin tempel dan salah dengar berkurang. Dokumen yang diunggah langsung terkait dengan pesanan yang benar, bukan tersebar di kotak masuk pribadi karyawan yang kemudian pindah divisi." },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",

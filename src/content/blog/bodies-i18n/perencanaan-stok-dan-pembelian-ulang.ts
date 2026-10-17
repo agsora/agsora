@@ -7,7 +7,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "In many small and medium businesses, the decision of when and how much to reorder still depends on the memory and instinct of the owner or warehouse head. That can work as long as the number of items is small and one person knows everything. When products multiply, branches are added, or the person who understands has to take leave, the memory-based approach begins to crack, and mistakes become expensive.",
+    text: "In many small and medium businesses, the decision of when and how much to reorder still depends on the memory and instinct of the owner or warehouse head. That can work as long as the number of items is small and one person knows everything. When products multiply, branches are added, or the person who understands has to take leave, the memory based approach begins to crack, and mistakes become expensive.",
   },
   {
     type: "p",
@@ -37,7 +37,7 @@ const en: Block[] = [
     type: "image",
     src: "https://images.unsplash.com/photo-1584568694489-f71bdbac55e2",
     alt: "Empty grocery store shelves",
-    caption: "Piling-up manual records make stock data hard to trust; a connected system replaces them.",
+    caption: "Piling up manual records make stock data hard to trust; a connected system replaces them.",
   },
   { type: "h2", text: "Basic concepts to understand" },
   { type: "h3", text: "Average sales" },
@@ -68,7 +68,7 @@ const en: Block[] = [
   { type: "h2", text: "Not every item deserves equal treatment" },
   {
     type: "p",
-    text: "Team attention and time are limited, so planning is most efficient when focused on the items with the most influence. A common approach is to group items by contribution, often called ABC analysis. A small number of items usually account for most of the sales value or tied-up capital, and this group deserves close monitoring with careful ordering rules.",
+    text: "Team attention and time are limited, so planning is most efficient when focused on the items with the most influence. A common approach is to group items by contribution, often called ABC analysis. A small number of items usually account for most of the sales value or tied up capital, and this group deserves close monitoring with careful ordering rules.",
   },
   {
     type: "p",
@@ -77,9 +77,9 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "High-value, fast-turning items: monitor closely, set careful reorder points, review often",
-      "Mid-range items: standard rules with periodic review",
-      "Low-value or slow items: simple rules and periodic ordering",
+      "High value, fast turning items: monitor closely, set careful reorder points, review often",
+      "Midrange items: standard rules with periodic review",
+      "Low value or slow items: simple rules and periodic ordering",
       "Seasonal items: plan early based on last year's pattern and promotion plans",
       "Perishable or quickly obsolete items: limit quantities and favor fast turnover",
     ],
@@ -112,12 +112,12 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "For businesses with many suppliers, consider combining orders to the same supplier to meet delivery minimums and save shipping costs. For multi-branch businesses, decide whether purchasing is centralized or per branch, and whether inter-branch transfers may be used to balance stock before ordering from the supplier. A clear purchase approval flow, as discussed in our article on purchase approval flows, keeps control without slowing work down.",
+    text: "For businesses with many suppliers, consider combining orders to the same supplier to meet delivery minimums and save shipping costs. For multibranch businesses, decide whether purchasing is centralized or per branch, and whether interbranch transfers may be used to balance stock before ordering from the supplier. A clear purchase approval flow, as discussed in our article on purchase approval flows, keeps control without slowing work down.",
   },
   { type: "h2", text: "The role of ERP and inventory systems" },
   {
     type: "p",
-    text: "Everything discussed can be run with spreadsheets while the business is small. But as the number of items and transactions grows, manual work becomes slow and error-prone. An inventory system or an ERP's inventory module takes over the repetitive parts and gives visibility that is hard to achieve manually.",
+    text: "Everything discussed can be run with spreadsheets while the business is small. But as the number of items and transactions grows, manual work becomes slow and error prone. An inventory system or an ERP's inventory module takes over the repetitive parts and gives visibility that is hard to achieve manually.",
   },
   {
     type: "image",
@@ -128,11 +128,11 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "Stock updated automatically from cashier sales, goods receipts, returns, and inter-branch transfers",
+      "Stock updated automatically from cashier sales, goods receipts, returns, and interbranch transfers",
       "Alerts when stock reaches the reorder point, with suggested quantities based on sales history",
       "Purchase orders created from those suggestions with tiered approval flows",
       "Automatic matching of orders, goods receipts, and supplier invoices",
-      "Reports on turnover, slow items, repeatedly out-of-stock items, and inventory value",
+      "Reports on turnover, slow items, repeatedly out of stock items, and inventory value",
       "Batch and expiry date support for perishable goods",
       "A unified view of stock across all branches and sales channels, including the online store",
     ],
@@ -182,7 +182,7 @@ const en: Block[] = [
   },
   {
     "type": "p",
-    "text": "The hoped-for result isn't a magic number but a change in how work gets done: the decision to order no longer depends on one person's instinct, knowledge of sales patterns is stored in the system so new staff learn quickly, and the owner can see both branches' condition in one report. This illustration is deliberately simple so it is easy to picture; your business situation will of course have its own details to consider."
+    "text": "The hoped for result isn't a magic number but a change in how work gets done: the decision to order no longer depends on one person's instinct, knowledge of sales patterns is stored in the system so new staff learn quickly, and the owner can see both branches' condition in one report. This illustration is deliberately simple so it is easy to picture; your business situation will of course have its own details to consider."
   },
   {
     "type": "p",
@@ -194,7 +194,7 @@ const en: Block[] = [
   },
   {
     "type": "p",
-    "text": "Inventory planning isn't a one-off project. Sales patterns change, suppliers switch, prices move, and new products come in. A rule that was right six months ago may no longer fit today. Schedule routine reviews, for example monthly, to check whether reorder points and safety stock still make sense, which items are starting to slow, and which suppliers' lead times are getting worse. Involve the people closest to the floor, because they often know of changes before the data shows them."
+    "text": "Inventory planning isn't a one off project. Sales patterns change, suppliers switch, prices move, and new products come in. A rule that was right six months ago may no longer fit today. Schedule routine reviews, for example monthly, to check whether reorder points and safety stock still make sense, which items are starting to slow, and which suppliers' lead times are getting worse. Involve the people closest to the floor, because they often know of changes before the data shows them."
   },
   { type: "h2", text: "Closing" },
   {

@@ -110,7 +110,7 @@ export const body: Block[] = [
   { type: "h2", text: "Berapa lama dan berapa biaya yang realistis" },
   {
     type: "p",
-    text: "Durasi dan biaya sangat bergantung pada cakupan MVP yang ditentukan di tahap awal. Aplikasi sederhana dengan alur yang jelas dan fitur terbatas bisa selesai dalam hitungan minggu hingga dua-tiga bulan. Aplikasi dengan integrasi kompleks, banyak jenis pengguna, atau kebutuhan keamanan khusus realistisnya membutuhkan waktu lebih panjang.",
+    text: "Durasi dan biaya sangat bergantung pada cakupan MVP yang ditentukan di tahap awal. Aplikasi sederhana dengan alur yang jelas dan fitur terbatas bisa selesai dalam hitungan minggu hingga dua tiga bulan. Aplikasi dengan integrasi kompleks, banyak jenis pengguna, atau kebutuhan keamanan khusus realistisnya membutuhkan waktu lebih panjang.",
   },
   {
     type: "p",

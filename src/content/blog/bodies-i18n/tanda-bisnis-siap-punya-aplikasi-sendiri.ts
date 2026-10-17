@@ -18,23 +18,23 @@ const en: Block[] = [
     type: "ul",
     items: [
       "An app becomes worth building once manual processes start creating real costs, time, errors, or unhappy customers",
-      "Field teams needing real-time data is one of the most common triggers",
+      "Field teams needing real time data is one of the most common triggers",
       "Not every business needs a mobile app; some are better served by a web app",
       "Starting from a minimum viable product (MVP) is safer than building every feature at once",
-      "The choice between off-the-shelf software and custom development depends on how unusual your processes actually are",
+      "The choice between off the shelf software and custom development depends on how unusual your processes actually are",
     ],
   },
   { type: "h2", text: "Why the question isn't 'app or no app'" },
   {
     type: "p",
-    text: "A more useful question than 'does my business need an app' is 'which process is costing the most by staying manual'. An app isn't a status symbol or a digital trend to chase, it's a tool for removing repetitive, error-prone work and for putting data in front of the people who need it, wherever and whenever they need it. If there's no process that genuinely benefits from that, an app will just be a cost without a matching return.",
+    text: "A more useful question than 'does my business need an app' is 'which process is costing the most by staying manual'. An app isn't a status symbol or a digital trend to chase, it's a tool for removing repetitive, error prone work and for putting data in front of the people who need it, wherever and whenever they need it. If there's no process that genuinely benefits from that, an app will just be a cost without a matching return.",
   },
   { type: "h2", text: "Sign 1: The business has outgrown WhatsApp and spreadsheets" },
   {
     type: "p",
     text: "WhatsApp and spreadsheets work fine at low volume, when a small team can still keep each other in the loop directly. Problems start once volume grows: important messages get buried under other chatter, nobody's sure which spreadsheet copy is the correct one because several people are editing different versions, and there's no easy way to see history or trace where a mistake happened. If your team spends more time hunting for information than actually using it, that's the earliest sign the tools have fallen behind the business's complexity.",
   },
-  { type: "h2", text: "Sign 2: Field teams need real-time data" },
+  { type: "h2", text: "Sign 2: Field teams need real time data" },
   {
     type: "p",
     text: "Salespeople meeting clients, couriers delivering goods, technicians handling repairs at a customer's site, they all work away from the office, yet still need current data: available stock, order status, or customer history. When they have to call the office to check any of this, or the office has no idea where they are and what's already been done, that's exactly the kind of overhead an app can remove by giving field staff direct access to data.",
@@ -57,7 +57,7 @@ const en: Block[] = [
   { type: "h2", text: "Sign 5: Growth has outpaced what manual processes can handle" },
   {
     type: "p",
-    text: "A process that works fine for ten transactions a day won't necessarily hold up for a hundred. Healthy growth should make operations run smoother, not messier. If every new customer or transaction feels proportional to a new pile of administrative problems, that's a sign manual systems are hitting their limit, and an app can be the way to decouple business growth from administrative-load growth.",
+    text: "A process that works fine for ten transactions a day won't necessarily hold up for a hundred. Healthy growth should make operations run smoother, not messier. If every new customer or transaction feels proportional to a new pile of administrative problems, that's a sign manual systems are hitting their limit, and an app can be the way to decouple business growth from administrative load growth.",
   },
   {
     type: "p",
@@ -73,7 +73,7 @@ const en: Block[] = [
     items: [
       "Transaction volume is still comfortably handled by one or two people",
       "Recording mistakes are rare and easy to fix",
-      "There's no near-term plan to expand branches, team, or sales channels",
+      "There's no near term plan to expand branches, team, or sales channels",
       "Business processes are still changing frequently and haven't settled yet",
     ],
   },
@@ -90,14 +90,14 @@ const en: Block[] = [
     type: "p",
     text: "An MVP also lets you test assumptions before committing to a big investment. Features that look essential on paper sometimes turn out to be barely touched after a few weeks of real use, while needs nobody anticipated surface from actual usage instead. Building in stages means every new feature is based on evidence, not a guess.",
   },
-  { type: "h2", text: "Off-the-shelf software, custom development, or both?" },
+  { type: "h2", text: "Off the shelf software, custom development, or both?" },
   {
     type: "p",
-    text: "If your needs are fairly standard, booking, payments, basic inventory, ready-made apps or SaaS platforms are often good enough and much faster to get running. But if your business processes have specific rules that mainstream products don't accommodate, or you need deep integration with internal systems already in place, custom development offers flexibility off-the-shelf software can't match.",
+    text: "If your needs are fairly standard, booking, payments, basic inventory, ready made apps or SaaS platforms are often good enough and much faster to get running. But if your business processes have specific rules that mainstream products don't accommodate, or you need deep integration with internal systems already in place, custom development offers flexibility off the shelf software can't match.",
   },
   {
     type: "p",
-    text: "Many businesses also choose a hybrid approach: using ready-made software for standard functions like payments, and building custom modules only for the parts of the process that are genuinely unique to their business. This approach is often more cost-effective than building everything from scratch.",
+    text: "Many businesses also choose a hybrid approach: using ready made software for standard functions like payments, and building custom modules only for the parts of the process that are genuinely unique to their business. This approach is often more cost effective than building everything from scratch.",
   },
   {
     type: "p",

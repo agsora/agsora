@@ -49,7 +49,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyusun struktur harga yang rapi" },
   { type: "p", text: "Struktur harga yang acak membuat pengelolaan sulit dan membingungkan pembeli. Susunlah dengan logika yang bisa dijelaskan." },
   { type: "ul", items: [
-    "Tingkatan produk: pilihan dasar, menengah, dan premium dengan perbedaan jelas antar-tingkat",
+    "Tingkatan produk: pilihan dasar, menengah, dan premium dengan perbedaan jelas antartingkat",
     "Paket dan bundel: menggabungkan produk yang saling melengkapi dengan harga yang lebih menarik",
     "Harga grosir atau jumlah besar: potongan bertingkat berdasarkan kuantitas untuk pelanggan tertentu",
     "Harga langganan atau berkala: untuk produk yang dipakai terus-menerus",

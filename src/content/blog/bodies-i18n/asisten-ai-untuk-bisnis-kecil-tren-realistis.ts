@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   {
     type: "p",
-    text: "In recent years, artificial intelligence has moved from a topic for researchers to a tool many people use every day. AI-based assistants can now write, summarize, answer questions, translate, and help with many office tasks. For small business owners, that news is both tempting and confusing: what is genuinely useful today, and what is just hype?",
+    text: "In recent years, artificial intelligence has moved from a topic for researchers to a tool many people use every day. AI based assistants can now write, summarize, answer questions, translate, and help with many office tasks. For small business owners, that news is both tempting and confusing: what is genuinely useful today, and what is just hype?",
   },
   {
     type: "p",
@@ -17,7 +17,7 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "AI is most useful for language-based and pattern-based repetitive work: drafting, summarizing, classifying, and answering common questions",
+      "AI is most useful for language based and pattern based repetitive work: drafting, summarizing, classifying, and answering common questions",
       "AI output needs human review, especially for matters involving money, contracts, law, health, or reputation",
       "Start with one small use case with a clear benefit, then expand once proven",
       "AI quality depends on the quality of the data and instructions given; messy data yields messy answers",
@@ -47,7 +47,7 @@ const en: Block[] = [
   { type: "h3", text: "Drafting content and communications" },
   {
     type: "p",
-    text: "Writing product descriptions, email drafts, replies to customer reviews, or article outlines is time-consuming work well suited to AI help. An AI draft gives a starting point so you aren't facing a blank page. But drafts need editing to match your style and business facts, because AI can write things that sound convincing but are wrong, such as prices, specifications, or promises you never made.",
+    text: "Writing product descriptions, email drafts, replies to customer reviews, or article outlines is time consuming work well suited to AI help. An AI draft gives a starting point so you aren't facing a blank page. But drafts need editing to match your style and business facts, because AI can write things that sound convincing but are wrong, such as prices, specifications, or promises you never made.",
   },
   { type: "h3", text: "Summarizing documents and conversations" },
   {
@@ -62,12 +62,12 @@ const en: Block[] = [
   { type: "h3", text: "Classifying and tidying incoming data" },
   {
     type: "p",
-    text: "AI is fairly reliable at sorting incoming messages by topic, recognizing urgent messages, or extracting information from documents like invoices and forms. The boring, typo-prone work of entering data from documents can be reduced, with results still sample-checked by humans. See also our discussion of automating data entry from documents.",
+    text: "AI is fairly reliable at sorting incoming messages by topic, recognizing urgent messages, or extracting information from documents like invoices and forms. The boring, typo prone work of entering data from documents can be reduced, with results still sample checked by humans. See also our discussion of automating data entry from documents.",
   },
   { type: "h3", text: "Analyzing sales data and building reports" },
   {
     type: "p",
-    text: "With well-organized data, AI can help explain trends in plain language, highlight anomalies, or answer questions like which products dropped this month. This democratizes access to data for owners who are uncomfortable with complicated spreadsheets. Accuracy still depends on data quality and how questions are asked, so important figures need to be verified against the source.",
+    text: "With well organized data, AI can help explain trends in plain language, highlight anomalies, or answer questions like which products dropped this month. This democratizes access to data for owners who are uncomfortable with complicated spreadsheets. Accuracy still depends on data quality and how questions are asked, so important figures need to be verified against the source.",
   },
   { type: "h2", text: "Uses that still need extra caution" },
   {
@@ -76,7 +76,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Another risk is over-dependence and loss of understanding. If a team stops understanding its work because AI always does it, mistakes become hard to recognize. A healthy practice is making sure someone still understands the basic process so they can judge whether AI output makes sense. For a fuller discussion of risks, read our article on AI risks in operations.",
+    text: "Another risk is overdependence and loss of understanding. If a team stops understanding its work because AI always does it, mistakes become hard to recognize. A healthy practice is making sure someone still understands the basic process so they can judge whether AI output makes sense. For a fuller discussion of risks, read our article on AI risks in operations.",
   },
   {
     type: "callout",
@@ -86,7 +86,7 @@ const en: Block[] = [
   { type: "h2", text: "How to choose your first use case" },
   {
     type: "p",
-    text: "A common mistake is starting from the technology: we must use AI, so let's look for a place for it. A healthier approach starts from the problem. Ask which work most consumes the team's time, is repetitive, and is language- or pattern-based. That is where AI is most likely to bring quick benefits. A more detailed discussion of first steps is in our article on starting AI automation for operations.",
+    text: "A common mistake is starting from the technology: we must use AI, so let's look for a place for it. A healthier approach starts from the problem. Ask which work most consumes the team's time, is repetitive, and is language- or pattern based. That is where AI is most likely to bring quick benefits. A more detailed discussion of first steps is in our article on starting AI automation for operations.",
   },
   {
     type: "ol",
@@ -133,7 +133,7 @@ const en: Block[] = [
   { type: "h2", text: "Build, buy, or combine" },
   {
     type: "p",
-    text: "For general needs like writing and summarizing, ready-made AI services are usually enough and cheapest to start with. For needs closely tied to your business's specific data and processes, such as an assistant that answers based on your catalog and stock or that runs actions in internal systems, a tailored or integrated solution is more suitable. Most businesses end up with a combination of both.",
+    text: "For general needs like writing and summarizing, ready made AI services are usually enough and cheapest to start with. For needs closely tied to your business's specific data and processes, such as an assistant that answers based on your catalog and stock or that runs actions in internal systems, a tailored or integrated solution is more suitable. Most businesses end up with a combination of both.",
   },
   {
     type: "p",
@@ -155,7 +155,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Give short training on writing clear instructions, recognizing doubtful output, and when to stop relying on AI. Decide who is responsible for the final result. A healthy culture treats AI as a fast but supervised junior colleague, not as an always-right oracle.",
+    text: "Give short training on writing clear instructions, recognizing doubtful output, and when to stop relying on AI. Decide who is responsible for the final result. A healthy culture treats AI as a fast but supervised junior colleague, not as an always right oracle.",
   },
   {
     "type": "h2",
@@ -163,7 +163,7 @@ const en: Block[] = [
   },
   {
     "type": "p",
-    "text": "For those who want to try without getting trapped in a big project, here is a simple month-long plan. The aim isn't to automate the entire business but to learn at low risk and prove value before investing further."
+    "text": "For those who want to try without getting trapped in a big project, here is a simple month long plan. The aim isn't to automate the entire business but to learn at low risk and prove value before investing further."
   },
   {
     "type": "h3",
@@ -171,7 +171,7 @@ const en: Block[] = [
   },
   {
     "type": "p",
-    "text": "Gather the team and a list of repetitive tasks that consume the most time. Pick one that is low-risk and whose results are easy to judge, such as drafting replies to common customer questions or summarizing meeting minutes. Set the measures of success at the start, such as the estimated time usually spent and the expected quality of results. Collect the official documents to be used as reference and discard outdated versions."
+    "text": "Gather the team and a list of repetitive tasks that consume the most time. Pick one that is low risk and whose results are easy to judge, such as drafting replies to common customer questions or summarizing meeting minutes. Set the measures of success at the start, such as the estimated time usually spent and the expected quality of results. Collect the official documents to be used as reference and discard outdated versions."
   },
   {
     "type": "h3",

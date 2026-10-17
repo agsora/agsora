@@ -24,18 +24,18 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga",
-    title: "First-Party Data dan Pelacakan Tanpa Cookie Pihak Ketiga: Mengenal Pelanggan dengan Cara Sah",
-    excerpt: "Panduan membangun first-party data: jenis data, nilai tukar yang adil, fondasi teknis, pengelolaan persetujuan, dan cara mengukur pemasaran saat pelacakan lintas situs terbatas.",
+    title: "First Party Data dan Pelacakan Tanpa Cookie Pihak Ketiga: Mengenal Pelanggan dengan Cara Sah",
+    excerpt: "Panduan membangun first party data: jenis data, nilai tukar yang adil, fondasi teknis, pengelolaan persetujuan, dan cara mengukur pemasaran saat pelacakan lintas situs terbatas.",
     category: "Website & Digital",
     publishedAt: "2026-10-17",
     updatedAt: "2026-10-17",
     tags: ["data","pelanggan","website"],
     titleTranslations: {
-      en: "First-Party Data and Tracking Without Third-Party Cookies: Knowing Customers the Lawful Way",
+      en: "First Party Data and Tracking Without Third Party Cookies: Knowing Customers the Lawful Way",
       zh: "第一方数据与无第三方 Cookie 的追踪：以合规方式了解客户",
     },
     excerptTranslations: {
-      en: "A guide to building first-party data: data types, a fair value exchange, technical foundations, consent management, and measuring marketing when cross-site tracking is limited.",
+      en: "A guide to building first party data: data types, a fair value exchange, technical foundations, consent management, and measuring marketing when cross site tracking is limited.",
       zh: "构建第一方数据指南：数据类型、公平的价值交换、技术基础、同意管理，以及跨站追踪受限时如何衡量营销。",
     },
   },
@@ -92,18 +92,18 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "implementasi-erp-bertahap-atau-big-bang-strategi-go-live",
-    title: "Implementasi ERP Bertahap atau Big Bang: Memilih Strategi Go-Live yang Aman",
-    excerpt: "Membandingkan peluncuran ERP big bang dan bertahap, faktor penentu pilihan, persiapan migrasi data, pengujian, pelatihan, kriteria go/no-go, dan stabilisasi setelah go-live.",
+    title: "Implementasi ERP Bertahap atau Big Bang: Memilih Strategi Go Live yang Aman",
+    excerpt: "Membandingkan peluncuran ERP big bang dan bertahap, faktor penentu pilihan, persiapan migrasi data, pengujian, pelatihan, kriteria go/no-go, dan stabilisasi setelah go live.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-16",
     updatedAt: "2026-10-16",
     tags: ["erp","implementasi","perubahan"],
     titleTranslations: {
-      en: "Phased or Big Bang ERP Implementation: Choosing a Safe Go-Live Strategy",
+      en: "Phased or Big Bang ERP Implementation: Choosing a Safe Go Live Strategy",
       zh: "ERP 分阶段还是大爆炸上线：选择稳妥的上线策略",
     },
     excerptTranslations: {
-      en: "Compares big bang and phased ERP launches, the factors behind the choice, data migration, testing, training, go/no-go criteria, and stabilisation after go-live.",
+      en: "Compares big bang and phased ERP launches, the factors behind the choice, data migration, testing, training, go/no-go criteria, and stabilisation after go live.",
       zh: "比较 ERP 大爆炸与分阶段上线，说明选择因素、数据迁移、测试、培训、通过/不通过标准以及上线后的稳定。",
     },
   },
@@ -171,7 +171,7 @@ export const meta: PostMeta[] = [
       zh: "中小企业的钓鱼、勒索软件与网络安全：务实的防御指南",
     },
     excerptTranslations: {
-      en: "The cyber threats that most often hit small businesses and cheap defences: employee habits, two-step authentication, 3-2-1 backups, updates, and an incident response plan.",
+      en: "The cyber threats that most often hit small businesses and cheap defences: employee habits, two step authentication, 3-2-1 backups, updates, and an incident response plan.",
       zh: "最常打击中小企业的网络威胁及低成本防御：员工习惯、双重验证、3-2-1 备份、更新和事件响应计划。",
     },
   },
@@ -296,18 +296,18 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat",
-    title: "Sistem Kasir Offline-First dan Sinkronisasi Multi-Perangkat: Penjualan Tak Berhenti Saat Sinyal Hilang",
-    excerpt: "Cara kerja kasir offline-first, data lokal, penyelesaian konflik stok, sinkronisasi antarcabang, pembayaran saat luring, keamanan perangkat, dan pengujian.",
+    title: "Sistem Kasir Offline First dan Sinkronisasi Multi Perangkat: Penjualan Tak Berhenti Saat Sinyal Hilang",
+    excerpt: "Cara kerja kasir offline first, data lokal, penyelesaian konflik stok, sinkronisasi antarcabang, pembayaran saat luring, keamanan perangkat, dan pengujian.",
     category: "POS & Retail",
     publishedAt: "2026-10-15",
     updatedAt: "2026-10-15",
     tags: ["pos","retail","infrastruktur"],
     titleTranslations: {
-      en: "Offline-First Point-of-Sale and Multi-Device Sync: Sales That Do Not Stop When the Signal Drops",
+      en: "Offline First Point of Sale and Multi Device Sync: Sales That Do Not Stop When the Signal Drops",
       zh: "离线优先收银系统与多设备同步：信号中断时销售不停",
     },
     excerptTranslations: {
-      en: "How an offline-first register works, local data, resolving stock conflicts, branch synchronisation, offline payments, device security, and testing.",
+      en: "How an offline first register works, local data, resolving stock conflicts, branch synchronisation, offline payments, device security, and testing.",
       zh: "离线优先收银台如何运作、本地数据、解决库存冲突、分店同步、离线付款、设备安全与测试。",
     },
   },
@@ -324,7 +324,7 @@ export const meta: PostMeta[] = [
       zh: "借助集中式系统管理加盟与分店网络：快速增长，品牌始终一致",
     },
     excerptTranslations: {
-      en: "Shared standards, real-time sales data, transparent royalties, centralised procurement, partner training, and balancing central control with autonomy.",
+      en: "Shared standards, real time sales data, transparent royalties, centralised procurement, partner training, and balancing central control with autonomy.",
       zh: "共享标准、实时销售数据、透明的特许权使用费、集中采购、合作伙伴培训，以及中央管控与自主之间的平衡。",
     },
   },
@@ -341,7 +341,7 @@ export const meta: PostMeta[] = [
       zh: "企业应用与网站的界面文案与微文案：决定转化的小词语",
     },
     excerptTranslations: {
-      en: "Principles of interface writing, button labels, forms, error messages, empty states, brand tone, multi-language localisation, and how to test them.",
+      en: "Principles of interface writing, button labels, forms, error messages, empty states, brand tone, multilanguage localisation, and how to test them.",
       zh: "界面文案的原则、按钮标签、表单、错误提示、空状态、品牌语气、多语言本地化，以及如何测试。",
     },
   },
@@ -354,11 +354,11 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-13",
     tags: ["keamanan","integrasi","karyawan"],
     titleTranslations: {
-      en: "SSO and Identity Management for Business Apps: One Sign-In, Controlled Access",
+      en: "SSO and Identity Management for Business Apps: One Sign In, Controlled Access",
       zh: "业务应用的单点登录与身份管理：一次登录，访问可控",
     },
     excerptTranslations: {
-      en: "How to tidy employee accounts across many applications: what SSO is, multi-factor authentication, the employee account life cycle, role-based access rights, and a staged rollout plan.",
+      en: "How to tidy employee accounts across many applications: what SSO is, multifactor authentication, the employee account life cycle, role based access rights, and a staged rollout plan.",
       zh: "如何理顺员工在众多应用中的账号：什么是 SSO、多因素认证、员工账号的生命周期、基于角色的访问权限，以及分阶段的推行计划。",
     },
   },
@@ -381,18 +381,18 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "platform-multi-vendor-dan-marketplace-sendiri",
-    title: "Platform Multi-Vendor dan Marketplace Sendiri: Dari Masalah Ayam dan Telur hingga Pembayaran Komisi",
+    title: "Platform Multi Vendor dan Marketplace Sendiri: Dari Masalah Ayam dan Telur hingga Pembayaran Komisi",
     excerpt: "Menimbang model marketplace secara realistis: kapan masuk akal, mengatasi masalah ayam dan telur, komponen teknis, pembayaran dan komisi, kepercayaan, logistik, dan risikonya.",
     category: "Website & Digital",
     publishedAt: "2026-10-13",
     updatedAt: "2026-10-13",
     tags: ["ecommerce","website","vendor"],
     titleTranslations: {
-      en: "Multi-Vendor Platforms and Building Your Own Marketplace: From the Chicken-and-Egg Problem to Commission Payouts",
+      en: "Multi Vendor Platforms and Building Your Own Marketplace: From the Chicken and Egg Problem to Commission Payouts",
       zh: "多商户平台与自建市集：从“先有鸡还是先有蛋”到佣金结算",
     },
     excerptTranslations: {
-      en: "Weighing the marketplace model realistically: when it makes sense, solving the chicken-and-egg problem, technical components, payments and commission, trust, logistics, and risks.",
+      en: "Weighing the marketplace model realistically: when it makes sense, solving the chicken and egg problem, technical components, payments and commission, trust, logistics, and risks.",
       zh: "务实地权衡市集模式：何时合理、如何解决先有鸡还是先有蛋的问题、技术组件、支付与佣金、信任、物流及风险。",
     },
   },
@@ -494,7 +494,7 @@ export const meta: PostMeta[] = [
       zh: "依赖项与软件供应链安全：警惕您所用代码带来的风险",
     },
     excerptTranslations: {
-      en: "Understanding third-party component risk: types of supply chain attack, a component list, vulnerability scanning, routine updates, licences, securing the release process, and questions for vendors.",
+      en: "Understanding third party component risk: types of supply chain attack, a component list, vulnerability scanning, routine updates, licences, securing the release process, and questions for vendors.",
       zh: "了解第三方组件的风险：供应链攻击的类型、组件清单、漏洞扫描、例行更新、许可证、保护发布流程，以及向供应商提出的问题。",
     },
   },
@@ -507,7 +507,7 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-13",
     tags: ["ecommerce","website","pembayaran"],
     titleTranslations: {
-      en: "Selling Abroad with a Cross-Border Online Store: Tax, Shipping, and Localisation",
+      en: "Selling Abroad with a Cross Border Online Store: Tax, Shipping, and Localisation",
       zh: "用跨境网店向国外销售：税费、物流与本地化",
     },
     excerptTranslations: {
@@ -545,7 +545,7 @@ export const meta: PostMeta[] = [
       zh: "网店的联盟与推荐计划：设计奖励、追踪与防止滥用",
     },
     excerptTranslations: {
-      en: "Turning word-of-mouth recommendation into a measurable growth channel: referral versus affiliate, fair rewards from margin, tracking, participant dashboards, abuse prevention, and how to measure profitability.",
+      en: "Turning word of mouth recommendation into a measurable growth channel: referral versus affiliate, fair rewards from margin, tracking, participant dashboards, abuse prevention, and how to measure profitability.",
       zh: "把口口相传的推荐变成可衡量的增长渠道：推荐与联盟的区别、基于利润率的公平奖励、追踪、参与者仪表板、防止滥用，以及如何衡量盈利性。",
     },
   },
@@ -579,7 +579,7 @@ export const meta: PostMeta[] = [
       zh: "业务应用的自动化测试与 CI/CD：从容且可预测的发布",
     },
     excerptTranslations: {
-      en: "A plain-language guide to automated testing and release flow: kinds of tests, what to test first, test environments and safe data, gradual release, rollback ability, and questions to assess your vendor's practices.",
+      en: "A plain language guide to automated testing and release flow: kinds of tests, what to test first, test environments and safe data, gradual release, rollback ability, and questions to assess your vendor's practices.",
       zh: "关于自动化测试与发布流程的通俗指南：测试的类型、先测试什么、测试环境与安全数据、逐步发布、回滚能力，以及评估供应商做法的问题。",
     },
   },
@@ -592,7 +592,7 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-11",
     tags: ["ecommerce","pembayaran","keuangan"],
     titleTranslations: {
-      en: "Instalments and Buy-Now-Pay-Later in Online Stores: When It Is Worth It, What It Costs, and the Risks",
+      en: "Instalments and Buy Now Pay Later in Online Stores: When It Is Worth It, What It Costs, and the Risks",
       zh: "网店的分期付款与先买后付：何时值得、成本多少以及风险何在",
     },
     excerptTranslations: {
@@ -613,7 +613,7 @@ export const meta: PostMeta[] = [
       zh: "网店的定价策略：从真实成本到测试价格变更",
     },
     excerptTranslations: {
-      en: "A framework for pricing an online store: calculating true costs, cost-, competitor-, and value-based approaches, price structure, new product pricing, discounts, shipping costs, testing changes, and when to raise prices.",
+      en: "A framework for pricing an online store: calculating true costs, cost-, competitor-, and value based approaches, price structure, new product pricing, discounts, shipping costs, testing changes, and when to raise prices.",
       zh: "网店定价的思考框架：计算真实成本、成本导向、竞争导向与价值导向的方法、价格结构、新产品定价、折扣、运费、测试变更，以及何时涨价。",
     },
   },
@@ -671,17 +671,17 @@ export const meta: PostMeta[] = [
   {
     slug: "data-warehouse-dan-business-intelligence-untuk-bisnis-menengah",
     title: "Data Warehouse dan Business Intelligence untuk Bisnis Menengah: Satu Sumber Kebenaran untuk Keputusan",
-    excerpt: "Memahami gudang data dan BI untuk non-teknisi: mengapa laporan sistem operasional tidak cukup, tanda membutuhkannya, mulai dari pertanyaan bisnis, definisi angka, kualitas data, pilihan teknis, dasbor yang dipakai, dan budaya data.",
+    excerpt: "Memahami gudang data dan BI untuk nonteknisi: mengapa laporan sistem operasional tidak cukup, tanda membutuhkannya, mulai dari pertanyaan bisnis, definisi angka, kualitas data, pilihan teknis, dasbor yang dipakai, dan budaya data.",
     category: "Teknologi",
     publishedAt: "2026-10-11",
     updatedAt: "2026-10-11",
     tags: ["data","pelaporan","integrasi"],
     titleTranslations: {
-      en: "Data Warehouse and Business Intelligence for Mid-Sized Businesses: One Source of Truth for Decisions",
+      en: "Data Warehouse and Business Intelligence for Mid Sized Businesses: One Source of Truth for Decisions",
       zh: "中型企业的数据仓库与商业智能：用于决策的单一事实来源",
     },
     excerptTranslations: {
-      en: "Understanding data warehouses and BI for non-technical readers: why operational system reports fall short, signs you need one, starting from business questions, figure definitions, data quality, technical options, dashboards that get used, and data culture.",
+      en: "Understanding data warehouses and BI for nontechnical readers: why operational system reports fall short, signs you need one, starting from business questions, figure definitions, data quality, technical options, dashboards that get used, and data culture.",
       zh: "为非技术读者理解数据仓库与 BI：为什么运营系统的报表不够用、需要它的迹象、从业务问题开始、数字定义、数据质量、技术方案、被使用的仪表板以及数据文化。",
     },
   },
@@ -715,7 +715,7 @@ export const meta: PostMeta[] = [
       zh: "借助 ERP 进行供应商管理与评估：从整洁的数据到可控的采购",
     },
     excerptTranslations: {
-      en: "How to manage suppliers in a structured way: single master data, a procurement flow with segregation of duties, three-way matching, contracts and prices, performance evaluation with simple indicators, and dependency risk management.",
+      en: "How to manage suppliers in a structured way: single master data, a procurement flow with segregation of duties, three way matching, contracts and prices, performance evaluation with simple indicators, and dependency risk management.",
       zh: "如何以结构化的方式管理供应商：唯一的主数据、职责分离的采购流程、三单匹配、合同与价格、用简单指标评估绩效，以及依赖风险管理。",
     },
   },
@@ -766,14 +766,14 @@ export const meta: PostMeta[] = [
       zh: "B2B 发票与应收账款催收自动化：从订单到按时收款",
     },
     excerptTranslations: {
-      en: "Tidying the order-to-cash cycle: correct invoices from order data, triggers and delivery channels, payment terms, polite reminders, automatic payment matching, billing disputes, receivables ageing, and internal control.",
+      en: "Tidying the order to cash cycle: correct invoices from order data, triggers and delivery channels, payment terms, polite reminders, automatic payment matching, billing disputes, receivables ageing, and internal control.",
       zh: "整理从订单到收款的周期：基于订单数据的正确发票、触发点与发送渠道、付款条件、礼貌的提醒、自动付款核对、账单争议、应收账款账龄和内部控制。",
     },
   },
   {
     slug: "sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh",
     title: "Sistem Manajemen Gudang untuk Bisnis yang Bertumbuh: Dari Rak Berantakan ke Stok yang Bisa Dipercaya",
-    excerpt: "Kapan pencatatan stok tidak lagi cukup: tata letak dan kode lokasi, alur terima-simpan-ambil-kirim, kode batang, penghitungan bergilir, lot dan kedaluwarsa, area retur, integrasi kanal penjualan, serta memilih tingkat sistem yang sesuai.",
+    excerpt: "Kapan pencatatan stok tidak lagi cukup: tata letak dan kode lokasi, alur terima simpan ambil kirim, kode batang, penghitungan bergilir, lot dan kedaluwarsa, area retur, integrasi kanal penjualan, serta memilih tingkat sistem yang sesuai.",
     category: "POS & Retail",
     publishedAt: "2026-10-10",
     updatedAt: "2026-10-10",
@@ -783,24 +783,24 @@ export const meta: PostMeta[] = [
       zh: "成长型企业的仓库管理系统：从杂乱的货架到可信的库存",
     },
     excerptTranslations: {
-      en: "When stock records are no longer enough: layout and location codes, the receive-store-pick-ship flow, barcodes, rolling counts, lots and expiry, a returns area, sales channel integration, and choosing a suitable system level.",
+      en: "When stock records are no longer enough: layout and location codes, the receive store pick ship flow, barcodes, rolling counts, lots and expiry, a returns area, sales channel integration, and choosing a suitable system level.",
       zh: "库存记录何时不再够用：布局与货位编码、收货，上架，拣货，发货流程、条码、滚动盘点、批号与有效期、退货区、销售渠道集成，以及选择合适的系统层级。",
     },
   },
   {
     slug: "webhook-dan-integrasi-real-time-untuk-bisnis",
-    title: "Webhook dan Integrasi Real-Time untuk Bisnis: Membuat Sistem Saling Mengabari Tanpa Tangan Manusia",
+    title: "Webhook dan Integrasi Real Time untuk Bisnis: Membuat Sistem Saling Mengabari Tanpa Tangan Manusia",
     excerpt: "Penjelasan webhook dengan bahasa sederhana: bedanya dengan polling, contoh kejadian yang cocok, pesan terlewat dan ganda, urutan kejadian, keamanan, pemantauan, kapan memakai penghubung siap pakai, serta dokumentasi dan kepemilikan integrasi.",
     category: "Teknologi",
     publishedAt: "2026-10-10",
     updatedAt: "2026-10-10",
     tags: ["api","integrasi","otomasi","ecommerce"],
     titleTranslations: {
-      en: "Webhooks and Real-Time Integration for Business: Letting Systems Tell Each Other Without Human Hands",
+      en: "Webhooks and Real Time Integration for Business: Letting Systems Tell Each Other Without Human Hands",
       zh: "企业的 Webhook 与实时集成：让系统无需人工就能互相通知",
     },
     excerptTranslations: {
-      en: "Webhooks in plain language: how they differ from polling, suitable events, missed and duplicate messages, event order, security, monitoring, when to use ready-made connectors, and documentation and ownership of integrations.",
+      en: "Webhooks in plain language: how they differ from polling, suitable events, missed and duplicate messages, event order, security, monitoring, when to use ready made connectors, and documentation and ownership of integrations.",
       zh: "用通俗的语言讲解 Webhook：与轮询的区别、适合的事件、丢失与重复的消息、事件顺序、安全、监控、何时使用现成连接器，以及集成的文档与归属。",
     },
   },
@@ -817,7 +817,7 @@ export const meta: PostMeta[] = [
       zh: "客户支持工单系统与 SLA：用一个有序的队列服务多个渠道",
     },
     excerptTranslations: {
-      en: "When a ticket system is needed: one queue for all channels, categories and priorities, realistic service level agreements, a knowledge base, cross-department escalation, measuring quality, handling upset customers, proactive support, and data privacy.",
+      en: "When a ticket system is needed: one queue for all channels, categories and priorities, realistic service level agreements, a knowledge base, cross department escalation, measuring quality, handling upset customers, proactive support, and data privacy.",
       zh: "何时需要工单系统：所有渠道共用一个队列、分类与优先级、切合实际的服务水平协议、知识库、跨部门升级、衡量质量、应对不满的顾客、主动服务以及数据隐私。",
     },
   },
@@ -830,7 +830,7 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-10",
     tags: ["mobile","implementasi","pelanggan","custom-software"],
     titleTranslations: {
-      en: "Mobile Apps for Low-End Phones and Slow Networks: Staying Comfortable for Real Customers",
+      en: "Mobile Apps for Low End Phones and Slow Networks: Staying Comfortable for Real Customers",
       zh: "面向低配手机与慢速网络的手机应用：让真实顾客也用得舒适",
     },
     excerptTranslations: {
@@ -868,7 +868,7 @@ export const meta: PostMeta[] = [
       zh: "网店的商品搜索与筛选：帮助顾客在几秒内找到商品",
     },
     excerptTranslations: {
-      en: "The search box is the clearest signal of buying intent. How to tidy product data, handle typos and synonyms, design autocomplete, filters, result order, the no-results page, and read search data.",
+      en: "The search box is the clearest signal of buying intent. How to tidy product data, handle typos and synonyms, design autocomplete, filters, result order, the no results page, and read search data.",
       zh: "搜索框是最清晰的购买意图信号。如何整理商品数据、处理拼写错误和同义词、设计输入建议、筛选、结果排序、无结果页面，并解读搜索数据。",
     },
   },
@@ -919,7 +919,7 @@ export const meta: PostMeta[] = [
       zh: "借助 ERP 更快完成月度结账：从迟到的报表到可用的数字",
     },
     excerptTranslations: {
-      en: "A slow close comes from upstream. How to set up a close calendar, record at the source, reconcile throughout the month, apply cut-off rules, handle inventory and recurring journals, review, and lock the period.",
+      en: "A slow close comes from upstream. How to set up a close calendar, record at the source, reconcile throughout the month, apply cut off rules, handle inventory and recurring journals, review, and lock the period.",
       zh: "结账慢，根源在上游。如何制定结账日历、在源头记录、整月持续对账、执行截止规则、处理存货和周期性分录、进行检查并锁定期间。",
     },
   },
@@ -932,7 +932,7 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-09",
     tags: ["ecommerce","pelanggan","otomasi","crm","sales"],
     titleTranslations: {
-      en: "Email Marketing and Automation for Online Stores: Turning One-Time Buyers into Returning Customers",
+      en: "Email Marketing and Automation for Online Stores: Turning One Time Buyers into Returning Customers",
       zh: "网店的邮件营销与自动化：把一次性买家变成回头客",
     },
     excerptTranslations: {
@@ -949,7 +949,7 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-09",
     tags: ["keamanan","website","mobile","pelanggan"],
     titleTranslations: {
-      en: "Passkeys and Passwordless Sign-In: Safer and Easier for Business Websites and Apps",
+      en: "Passkeys and Passwordless Sign In: Safer and Easier for Business Websites and Apps",
       zh: "通行密钥与无密码登录：让企业网站和应用更安全也更方便",
     },
     excerptTranslations: {
@@ -1017,7 +1017,7 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-09",
     tags: ["seo","ai","website","data"],
     titleTranslations: {
-      en: "AI-Based Search and the Future of SEO: Keeping Your Business Website Found and Trusted",
+      en: "AI Based Search and the Future of SEO: Keeping Your Business Website Found and Trusted",
       zh: "AI 搜索与 SEO 的未来：让企业网站继续被找到、被信任",
     },
     excerptTranslations: {
@@ -1106,7 +1106,7 @@ export const meta: PostMeta[] = [
       zh: "企业如何控制云成本:从令人吃惊的账单到可衡量的支出",
     },
     excerptTranslations: {
-      en: "How to understand cloud bill components, label and assign owners, stop waste, right-size, choose pricing models, manage storage, and set budgets and alerts.",
+      en: "How to understand cloud bill components, label and assign owners, stop waste, right size, choose pricing models, manage storage, and set budgets and alerts.",
       zh: "如何理解云账单的组成、加标签并指定所有者、停止浪费、调整规格、选择定价模式、管理存储,并设置预算和告警。",
     },
   },
@@ -1225,7 +1225,7 @@ export const meta: PostMeta[] = [
       zh: "把公司博客变成获客引擎:撰写潜在客户真正会搜索的内容",
     },
     excerptTranslations: {
-      en: "A well-run blog brings in prospects who are already ready to trust you. How to pick topics from customer questions, write for search intent, plan a content calendar, and measure results without invented figures.",
+      en: "A well run blog brings in prospects who are already ready to trust you. How to pick topics from customer questions, write for search intent, plan a content calendar, and measure results without invented figures.",
       zh: "经营得当的博客能带来已经准备好信任你的潜在客户。如何从客户的问题中选题、针对搜索意图写作、规划内容日历,并在没有杜撰数字的情况下衡量成果。",
     },
   },
@@ -1293,7 +1293,7 @@ export const meta: PostMeta[] = [
       zh: "移动应用新手引导:把新用户变成活跃用户",
     },
     excerptTranslations: {
-      en: "Many apps lose their users within the first few minutes. How to design sign-up, feature introductions, permissions, and the first valuable moment so new users stay and feel the benefit of the app.",
+      en: "Many apps lose their users within the first few minutes. How to design sign up, feature introductions, permissions, and the first valuable moment so new users stay and feel the benefit of the app.",
       zh: "许多应用在最初几分钟内就流失了用户。如何设计注册、功能介绍、权限请求和第一个有价值的时刻,让新用户留下来并感受到应用的价值。",
     },
   },
@@ -1323,7 +1323,7 @@ export const meta: PostMeta[] = [
     updatedAt: "2026-10-07",
     tags: ["vendor","implementasi","biaya"],
     titleTranslations: {
-      en: "In-House Digital Team or External Vendor: How to Choose the Right Model for Your Business",
+      en: "In House Digital Team or External Vendor: How to Choose the Right Model for Your Business",
       zh: "内部数字团队还是外部供应商:如何为你的业务选择合适的模式",
     },
     excerptTranslations: {
@@ -1378,7 +1378,7 @@ export const meta: PostMeta[] = [
       zh: "推送通知与留存:让移动应用用户愿意回来",
     },
     excerptTranslations: {
-      en: "Many apps are downloaded and then forgotten. How to use push notifications, segmentation, and in-app messages so users return without feeling pestered, and how to measure the results.",
+      en: "Many apps are downloaded and then forgotten. How to use push notifications, segmentation, and in app messages so users return without feeling pestered, and how to measure the results.",
       zh: "许多应用被下载后就被遗忘。如何运用推送通知、用户细分和应用内消息,让用户回来而不觉得被打扰,以及如何衡量成效。",
     },
   },
@@ -1446,7 +1446,7 @@ export const meta: PostMeta[] = [
       zh: "网店结账:减少客户放弃的购物车",
     },
     excerptTranslations: {
-      en: "Customers choose items but leave at payment. The five most common checkout barriers, their practical fixes, how to win customers back, and a pre-launch checklist.",
+      en: "Customers choose items but leave at payment. The five most common checkout barriers, their practical fixes, how to win customers back, and a prelaunch checklist.",
       zh: "客户选好了商品却在付款时离开。五个最常见的结账障碍、实用的修复方法、如何召回客户,以及上线前的检查清单。",
     },
   },
@@ -1503,18 +1503,18 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "low-code-no-code-atau-software-custom",
-    title: "Low-Code, No-Code, atau Software Custom: Mana yang Tepat untuk Bisnis Anda?",
+    title: "Low Code, No Code, atau Software Custom: Mana yang Tepat untuk Bisnis Anda?",
     excerpt: "Alat siap pakai menjanjikan kecepatan, software khusus menjanjikan kendali. Perbandingan jujur, batas masing-masing, dan kerangka keputusan untuk memilih tanpa terjebak tren.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-06",
     updatedAt: "2026-10-06",
     tags: ["custom-software", "biaya", "saas"],
     titleTranslations: {
-      en: "Low-Code, No-Code, or Custom Software: Which Is Right for Your Business?",
+      en: "Low Code, No Code, or Custom Software: Which Is Right for Your Business?",
       zh: "低代码、无代码还是定制软件:哪个适合你的企业?",
     },
     excerptTranslations: {
-      en: "Off-the-shelf tools promise speed; custom software promises control. An honest comparison, the limits of each, and a decision framework for choosing without chasing trends.",
+      en: "Off the shelf tools promise speed; custom software promises control. An honest comparison, the limits of each, and a decision framework for choosing without chasing trends.",
       zh: "现成工具承诺速度,定制软件承诺控制力。一次诚实的比较、各自的局限,以及不被潮流牵着走的决策框架。",
     },
   },
@@ -1777,7 +1777,7 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "memilih-sistem-pos-multi-outlet",
-    title: "Memilih Sistem POS untuk Bisnis Multi-Outlet",
+    title: "Memilih Sistem POS untuk Bisnis Multi Outlet",
     excerpt: "Sistem kasir yang bekerja baik di satu toko belum tentu sanggup menangani lima. Ini yang berubah ketika outlet bertambah.",
     category: "POS & Retail",
     publishedAt: "2026-08-30",
@@ -1943,7 +1943,7 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "cloud-atau-on-premise",
-    title: "Cloud atau On-Premise: Menentukan Tempat Sistem Berjalan",
+    title: "Cloud atau On Premise: Menentukan Tempat Sistem Berjalan",
     excerpt: "Menjalankan sistem di cloud atau di server sendiri bukan soal mana yang lebih modern, tapi soal biaya, kendali, dan kemampuan tim merawatnya.",
     category: "Teknologi",
     publishedAt: "2026-08-29",
@@ -1956,7 +1956,7 @@ export const meta: PostMeta[] = [
   {
     slug: "website-company-profile-yang-menghasilkan-prospek",
     title: "Website Company Profile yang Menghasilkan Prospek",
-    excerpt: "Website perusahaan yang hanya berisi sejarah dan visi-misi jarang menghasilkan pertanyaan dari calon klien. Ini yang membedakan website yang bekerja.",
+    excerpt: "Website perusahaan yang hanya berisi sejarah dan visi misi jarang menghasilkan pertanyaan dari calon klien. Ini yang membedakan website yang bekerja.",
     category: "Website & Digital",
     publishedAt: "2026-08-27",
     tags: [
@@ -2029,7 +2029,7 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "employee-self-service-mengurangi-beban-hr",
-    title: "Employee Self-Service: Mengurangi Pekerjaan Administratif HR",
+    title: "Employee Self Service: Mengurangi Pekerjaan Administratif HR",
     excerpt: "Tim HR sering menghabiskan waktu menjawab pertanyaan yang jawabannya sudah ada di sistem. Layanan mandiri memindahkan pekerjaan itu ke tempat yang tepat.",
     category: "HR & Tim",
     publishedAt: "2026-08-13",
@@ -2042,8 +2042,8 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "sistem-follow-up-prospek",
-    title: "Sistem Follow-up agar Prospek Tidak Terlewat",
-    excerpt: "Banyak peluang penjualan hilang bukan karena ditolak, tapi karena tidak ada yang menindaklanjuti. Follow-up yang terjadwal mengubah itu.",
+    title: "Sistem Follow up agar Prospek Tidak Terlewat",
+    excerpt: "Banyak peluang penjualan hilang bukan karena ditolak, tapi karena tidak ada yang menindaklanjuti. Follow up yang terjadwal mengubah itu.",
     category: "Penjualan & CRM",
     publishedAt: "2026-08-09",
     tags: [
@@ -2238,7 +2238,7 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "konsolidasi-laporan-multi-cabang",
-    title: "Konsolidasi Laporan Keuangan Multi-Cabang",
+    title: "Konsolidasi Laporan Keuangan Multi Cabang",
     excerpt: "Menggabungkan laporan dari banyak cabang secara manual lambat dan rawan selisih. Konsolidasi yang baik dimulai dari struktur data yang seragam di semua cabang.",
     category: "ERP & Operasional",
     publishedAt: "2026-07-08",

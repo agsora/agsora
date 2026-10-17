@@ -20,7 +20,7 @@ const en: Block[] = [
       "Accessibility means a website can be used by people in a variety of conditions, including temporary and situational ones, not only people with permanent disabilities",
       "Many of the most impactful fixes are cheap and simple: color contrast, image alt text, form labels, and keyboard navigation",
       "Accessible practices are almost always also good for SEO, speed, and the comfort of every visitor",
-      "Automated checks help but are not enough; hands-on testing with a keyboard and a screen reader is still needed",
+      "Automated checks help but are not enough; hands on testing with a keyboard and a screen reader is still needed",
       "Accessibility is cheaper when built in from design than patched on after the website is finished",
     ],
   },
@@ -56,7 +56,7 @@ const en: Block[] = [
   { type: "h3", text: "Operable" },
   {
     type: "p",
-    text: "All functions must be usable without depending on a single input method. Menus, buttons, and forms must be reachable and operable by keyboard. Users need enough time to read and act, and pages must not flash or move in ways that can disturb or harm. Tap targets on phones need to be large enough to avoid mis-touches.",
+    text: "All functions must be usable without depending on a single input method. Menus, buttons, and forms must be reachable and operable by keyboard. Users need enough time to read and act, and pages must not flash or move in ways that can disturb or harm. Tap targets on phones need to be large enough to avoid mistouches.",
   },
   { type: "h3", text: "Understandable" },
   {
@@ -130,7 +130,7 @@ const en: Block[] = [
       "Run automated checks on the most important pages: home, product or service pages, contact form, and payment flow",
       "Explore those pages using only the keyboard and note points that can't be reached or whose focus is unclear",
       "Zoom in several times and make sure the layout stays readable without horizontal scrolling",
-      "Try the built-in screen reader of your operating system on one main flow to feel the experience",
+      "Try the built in screen reader of your operating system on one main flow to feel the experience",
       "View the website on a phone screen in bright light and with a larger system font size setting",
       "Record findings, rank them by impact on visitors' important tasks, and fix them step by step",
     ],
@@ -144,11 +144,11 @@ const en: Block[] = [
   { type: "h2", text: "Things that are often missed" },
   {
     type: "p",
-    text: "Several areas often escape attention. First is third-party content, such as chat widgets, embedded maps, video players, and external forms. These elements can bring their own accessibility problems, so choose providers that pay attention to it and test after installing. Second is downloadable documents, such as brochures and catalogs in PDF format, which are often scanned images with no readable text.",
+    text: "Several areas often escape attention. First is third party content, such as chat widgets, embedded maps, video players, and external forms. These elements can bring their own accessibility problems, so choose providers that pay attention to it and test after installing. Second is downloadable documents, such as brochures and catalogs in PDF format, which are often scanned images with no readable text.",
   },
   {
     type: "p",
-    text: "Third is custom interactive elements: sliding menus, carousels, popup windows, and tabs. Self-built components often can't be operated by keyboard or don't tell screen readers about their changes. A popup that covers the page but doesn't capture focus properly is a classic example that traps some users. Fourth is animation and moving content; provide a way to stop it, and respect system settings for users uncomfortable with motion.",
+    text: "Third is custom interactive elements: sliding menus, carousels, popup windows, and tabs. Self built components often can't be operated by keyboard or don't tell screen readers about their changes. A popup that covers the page but doesn't capture focus properly is a classic example that traps some users. Fourth is animation and moving content; provide a way to stop it, and respect system settings for users uncomfortable with motion.",
   },
   {
     type: "callout",
@@ -167,7 +167,7 @@ const en: Block[] = [
   { type: "h2", text: "The impact on sales and service" },
   {
     type: "p",
-    text: "For an online store, accessibility is directly tied to sales. A payment process that can only be completed with a mouse, an unlabeled address field, or a pay button that is hard to recognize will stop some buyers at the last step. For a company profile website, a hard-to-reach contact means lost prospects. For a service business, an appointment form that isn't keyboard-friendly means some customers can't book.",
+    text: "For an online store, accessibility is directly tied to sales. A payment process that can only be completed with a mouse, an unlabeled address field, or a pay button that is hard to recognize will stop some buyers at the last step. For a company profile website, a hard to reach contact means lost prospects. For a service business, an appointment form that isn't keyboard friendly means some customers can't book.",
   },
   {
     type: "p",
@@ -183,11 +183,11 @@ const en: Block[] = [
   },
   {
     "type": "p",
-    "text": "No. Accessibility limits some choices, such as colors with too-low contrast, but doesn't prevent beautiful design. Many websites look attractive and are accessible. The cost is lowest when thought about from the start; fixing it later is indeed more expensive because some structure has to be torn up."
+    "text": "No. Accessibility limits some choices, such as colors with too low contrast, but doesn't prevent beautiful design. Many websites look attractive and are accessible. The cost is lowest when thought about from the start; fixing it later is indeed more expensive because some structure has to be torn up."
   },
   {
     "type": "h3",
-    "text": "Is it enough to install a third-party helper tool on the website?"
+    "text": "Is it enough to install a third party helper tool on the website?"
   },
   {
     "type": "p",
@@ -207,7 +207,7 @@ const en: Block[] = [
   },
   {
     "type": "p",
-    "text": "Whenever there is a major change to the look, a feature is added, or a third-party component provider changes, and at least periodically several times a year. A website is something that keeps changing, and accessibility that is good today can decline if new content is added without attention."
+    "text": "Whenever there is a major change to the look, a feature is added, or a third party component provider changes, and at least periodically several times a year. A website is something that keeps changing, and accessibility that is good today can decline if new content is added without attention."
   },
   { type: "h2", text: "Closing" },
   {

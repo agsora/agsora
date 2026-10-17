@@ -36,7 +36,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penyebab 1: Masalah yang dipecahkan tidak jelas" },
   {
     type: "p",
-    text: "Project yang dimulai dari kalimat “kami butuh sistem baru” tanpa mendefinisikan masalah spesifik akan sulit dinilai keberhasilannya. Setiap orang punya bayangan berbeda tentang apa yang dianggap selesai. Manajemen membayangkan laporan real-time, tim operasional membayangkan input yang lebih cepat, keuangan membayangkan rekonsiliasi otomatis. Sistem yang dibangun akhirnya mencoba memuaskan semua bayangan itu dan tidak benar-benar menyelesaikan satu pun.",
+    text: "Project yang dimulai dari kalimat “kami butuh sistem baru” tanpa mendefinisikan masalah spesifik akan sulit dinilai keberhasilannya. Setiap orang punya bayangan berbeda tentang apa yang dianggap selesai. Manajemen membayangkan laporan real time, tim operasional membayangkan input yang lebih cepat, keuangan membayangkan rekonsiliasi otomatis. Sistem yang dibangun akhirnya mencoba memuaskan semua bayangan itu dan tidak benar-benar menyelesaikan satu pun.",
   },
   {
     type: "p",

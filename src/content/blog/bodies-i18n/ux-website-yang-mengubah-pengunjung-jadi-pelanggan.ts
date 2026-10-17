@@ -27,11 +27,11 @@ const en: Block[] = [
   { type: "h2", text: "UX is about reaching a goal, not about looks" },
   {
     type: "p",
-    text: "Many people equate UX with visual design: colours, typography, animation, and good photography. All of that matters, but it's only part of the story. A website can look beautiful and still fail if visitors don't know what to click, can't find pricing or the scope of a service, or aren't sure whether this business fits their needs. Conversely, a plain-looking website can generate plenty of leads if every page answers the visitor's questions in a clear, logical order.",
+    text: "Many people equate UX with visual design: colours, typography, animation, and good photography. All of that matters, but it's only part of the story. A website can look beautiful and still fail if visitors don't know what to click, can't find pricing or the scope of a service, or aren't sure whether this business fits their needs. Conversely, a plain looking website can generate plenty of leads if every page answers the visitor's questions in a clear, logical order.",
   },
   {
     type: "p",
-    text: "The easiest way to understand UX is to picture the visitor as a busy person with one task. A purchasing manager wants to know whether you can handle their order volume. A shop owner wants to know whether your point-of-sale system supports multiple branches. A prospective patient wants to know opening hours and how to book an appointment. The website's job is to take each of these people from question to answer, then from answer to action, with as little friction as possible.",
+    text: "The easiest way to understand UX is to picture the visitor as a busy person with one task. A purchasing manager wants to know whether you can handle their order volume. A shop owner wants to know whether your point of sale system supports multiple branches. A prospective patient wants to know opening hours and how to book an appointment. The website's job is to take each of these people from question to answer, then from answer to action, with as little friction as possible.",
   },
   {
     type: "image",
@@ -61,7 +61,7 @@ const en: Block[] = [
   { type: "h2", text: "One page, one goal" },
   {
     type: "p",
-    text: "The most common mistake on business websites is trying to say everything on every page. The homepage holds the company history, a list of every service, a gallery, testimonials, news, and four different call-to-action buttons. The result is that visitors can't tell what matters most. A far more effective principle is to set one main goal for each page, then arrange everything on the page to support that goal.",
+    text: "The most common mistake on business websites is trying to say everything on every page. The homepage holds the company history, a list of every service, a gallery, testimonials, news, and four different call to action buttons. The result is that visitors can't tell what matters most. A far more effective principle is to set one main goal for each page, then arrange everything on the page to support that goal.",
   },
   {
     type: "p",
@@ -69,14 +69,14 @@ const en: Block[] = [
   },
   {
     type: "callout",
-    title: "The five-second test",
+    title: "The five second test",
     text: "Show a page to someone who has never seen it for five seconds, then close it. Ask: what is this page about, who is it for, and what can I do next? If the answers are hesitant, the page's main message isn't clear enough yet.",
   },
   { type: "h2", text: "Technical foundations you can't skip" },
   { type: "h3", text: "Page load speed" },
   {
     type: "p",
-    text: "No design can rescue a page that takes too long to open. Visitors on mobile, often on an unstable connection, will leave before they see anything. The causes of a slow website can usually be pinned down: large uncompressed images, too many third-party scripts, piled-up plugins, or hosting that doesn't match the traffic load. Fixing these often has a bigger impact than any design change.",
+    text: "No design can rescue a page that takes too long to open. Visitors on mobile, often on an unstable connection, will leave before they see anything. The causes of a slow website can usually be pinned down: large uncompressed images, too many third party scripts, piled up plugins, or hosting that doesn't match the traffic load. Fixing these often has a bigger impact than any design change.",
   },
   { type: "h3", text: "Readability on small screens" },
   {
@@ -86,9 +86,9 @@ const en: Block[] = [
   { type: "h3", text: "Predictable navigation" },
   {
     type: "p",
-    text: "Navigation menus should use the words your customers use, not internal company jargon. If customers are looking for a cashier system, don't label the menu with an internal product name they've never heard of. Limit the number of top-level menu items, group similar services together, and make sure visitors always know where they are and how to get back to the previous page.",
+    text: "Navigation menus should use the words your customers use, not internal company jargon. If customers are looking for a cashier system, don't label the menu with an internal product name they've never heard of. Limit the number of top level menu items, group similar services together, and make sure visitors always know where they are and how to get back to the previous page.",
   },
-  { type: "h2", text: "Content that answers rather than self-praises" },
+  { type: "h2", text: "Content that answers rather than self praises" },
   {
     type: "p",
     text: "Phrases like the best solution, experienced and trusted, or a reliable partner for your business sound convincing to whoever wrote them, but mean almost nothing to visitors. Every competitor writes the same thing. What convinces visitors is specific information: exactly what you do, how the process works, how long it usually takes, what's needed from the customer, and what happens after they get in touch.",
@@ -106,7 +106,7 @@ const en: Block[] = [
   { type: "h2", text: "Calls to action that are clear and not intimidating" },
   {
     type: "p",
-    text: "Every page meant to generate leads needs a clearly visible call to action. But being clear isn't enough; it also has to feel safe to follow. A buy now button on a high-value service page often feels too abrupt for a visitor who is still comparing options. Alternatives like free consultation, request a cost estimate, or see examples of our work offer a smaller step that is easier to take.",
+    text: "Every page meant to generate leads needs a clearly visible call to action. But being clear isn't enough; it also has to feel safe to follow. A buy now button on a high value service page often feels too abrupt for a visitor who is still comparing options. Alternatives like free consultation, request a cost estimate, or see examples of our work offer a smaller step that is easier to take.",
   },
   {
     type: "p",
@@ -143,7 +143,7 @@ const en: Block[] = [
   { type: "h2", text: "Improving UX step by step" },
   {
     type: "p",
-    text: "The good news is that improving UX doesn't always mean rebuilding the website. Many high-impact improvements can be made gradually, one at a time, while measuring the results. This approach is also safer, because you can see which changes actually make a difference.",
+    text: "The good news is that improving UX doesn't always mean rebuilding the website. Many high impact improvements can be made gradually, one at a time, while measuring the results. This approach is also safer, because you can see which changes actually make a difference.",
   },
   {
     type: "ol",

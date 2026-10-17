@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   {
     type: "p",
-    text: "Every year, a list of 'technology trends you must follow' circulates everywhere, and most businesses ignore it because it sounds like hype with no bearing on day-to-day operations. That skepticism is often justified, plenty of 'trends' are just marketing buzzwords with no real impact. But among the noise, a handful of technology shifts genuinely change how businesses operate, not because they're trendy, but because they solve problems that have existed for a long time.",
+    text: "Every year, a list of 'technology trends you must follow' circulates everywhere, and most businesses ignore it because it sounds like hype with no bearing on day to day operations. That skepticism is often justified, plenty of 'trends' are just marketing buzzwords with no real impact. But among the noise, a handful of technology shifts genuinely change how businesses operate, not because they're trendy, but because they solve problems that have existed for a long time.",
   },
   {
     type: "p",
@@ -34,19 +34,19 @@ const en: Block[] = [
     title: "Start with one task",
     text: "Rather than trying to apply AI across many processes at once, pick the single repetitive task that eats the most of your team's time, and test it there first. Results are easier to measure, and the downside is smaller if it doesn't meet expectations.",
   },
-  { type: "h2", text: "System integration: from nice-to-have to baseline" },
+  { type: "h2", text: "System integration: from nice to have to baseline" },
   {
     type: "p",
     text: "Modern businesses typically run several tools at once, POS, accounting, CRM, payment platforms, and marketplaces. For years, many businesses simply accepted that these tools didn't talk to each other, and relied on staff to move data between systems by hand. The shift now is that API integration between systems has become far more affordable and far easier to implement than it was a few years ago.",
   },
   {
     type: "p",
-    text: "The impact is immediate: a sale at the register automatically reduces stock in the inventory system, payment transactions automatically post to the books, and customer data doesn't need retyping into every separate system. Businesses still moving data manually between these tools lose time that could go toward higher-value work.",
+    text: "The impact is immediate: a sale at the register automatically reduces stock in the inventory system, payment transactions automatically post to the books, and customer data doesn't need retyping into every separate system. Businesses still moving data manually between these tools lose time that could go toward higher value work.",
   },
   { type: "h2", text: "Apps that keep working without an internet connection" },
   {
     type: "p",
-    text: "For businesses with field operations, delivery, sales visits, or on-site service, a stable internet connection can't always be counted on. Apps designed to keep working when the connection drops, then sync data once it's back, are increasingly becoming an expected standard rather than a luxury feature.",
+    text: "For businesses with field operations, delivery, sales visits, or on site service, a stable internet connection can't always be counted on. Apps designed to keep working when the connection drops, then sync data once it's back, are increasingly becoming an expected standard rather than a luxury feature.",
   },
   {
     type: "p",
@@ -55,25 +55,25 @@ const en: Block[] = [
   { type: "h2", text: "Data security: every business's responsibility, regardless of size" },
   {
     type: "p",
-    text: "The assumption that only large companies need to take data security seriously is increasingly outdated. Small and mid-sized businesses hold customer, employee, and financial transaction data just as sensitive as any large company's, often with far weaker protection. A data breach doesn't just damage reputation, it can carry legal consequences depending on what kind of data leaked.",
+    text: "The assumption that only large companies need to take data security seriously is increasingly outdated. Small and midsized businesses hold customer, employee, and financial transaction data just as sensitive as any large company's, often with far weaker protection. A data breach doesn't just damage reputation, it can carry legal consequences depending on what kind of data leaked.",
   },
   {
     type: "p",
-    text: "Basic security practices don't have to be complicated or expensive: role-based access control, regular data backups, and routine system updates already close most of the most commonly exploited gaps. What's usually missing isn't budget, but the awareness that this isn't a responsibility that can wait until the business gets 'bigger'.",
+    text: "Basic security practices don't have to be complicated or expensive: role based access control, regular data backups, and routine system updates already close most of the most commonly exploited gaps. What's usually missing isn't budget, but the awareness that this isn't a responsibility that can wait until the business gets 'bigger'.",
   },
-  { type: "h2", text: "No-code and low-code tools speeding up internal processes" },
+  { type: "h2", text: "No code and low code tools speeding up internal processes" },
   {
     type: "p",
-    text: "Not every automation need has to wait for a development team to build a system from scratch. No-code and low-code tools let non-technical staff build simple workflows themselves, a request form that automatically feeds into an approval system, or an automatic alert when stock runs low, without writing code. This is especially useful for internal processes specific to one business that aren't big enough to justify a full development project.",
+    text: "Not every automation need has to wait for a development team to build a system from scratch. No code and low code tools let nontechnical staff build simple workflows themselves, a request form that automatically feeds into an approval system, or an automatic alert when stock runs low, without writing code. This is especially useful for internal processes specific to one business that aren't big enough to justify a full development project.",
   },
   {
     type: "p",
-    text: "The limits are worth knowing too. No-code tools suit relatively simple, standalone workflows, but start feeling constrained once needs grow more complex or need to connect deeply with core business systems like ERP or a customer database. At that point, custom development usually delivers a more stable result long-term.",
+    text: "The limits are worth knowing too. No code tools suit relatively simple, standalone workflows, but start feeling constrained once needs grow more complex or need to connect deeply with core business systems like ERP or a customer database. At that point, custom development usually delivers a more stable result long term.",
   },
   { type: "h2", text: "Personalization using data the business already has" },
   {
     type: "p",
-    text: "Many businesses already hold enough data to personalize the customer experience, purchase history, product preferences, or visit patterns, but that data sits scattered and never gets actively used. The shift happening is businesses starting to put this existing data to simple but meaningful use: relevant product recommendations, well-timed repurchase reminders, or targeted promotions based on actual behavior rather than guesswork.",
+    text: "Many businesses already hold enough data to personalize the customer experience, purchase history, product preferences, or visit patterns, but that data sits scattered and never gets actively used. The shift happening is businesses starting to put this existing data to simple but meaningful use: relevant product recommendations, well timed repurchase reminders, or targeted promotions based on actual behavior rather than guesswork.",
   },
   {
     type: "p",
@@ -82,20 +82,20 @@ const en: Block[] = [
   { type: "h2", text: "Digital payments increasingly woven into operational systems" },
   {
     type: "p",
-    text: "Accepting digital payments, QR codes, instant transfers, digital wallets, is already standard across nearly every kind of business. The newer shift is how these payments increasingly connect directly to record-keeping systems, so every transaction flows automatically into financial reports without needing a manual recap at the end of the day.",
+    text: "Accepting digital payments, QR codes, instant transfers, digital wallets, is already standard across nearly every kind of business. The newer shift is how these payments increasingly connect directly to record keeping systems, so every transaction flows automatically into financial reports without needing a manual recap at the end of the day.",
   },
   {
     type: "p",
-    text: "For businesses still manually matching bank statements against sales records every day, this is one of the areas with the biggest potential time savings relative to the effort involved. Manual reconciliation errors are also a common source of discrepancies that are hard to trace, something that can be avoided entirely once record-keeping connects from the moment a transaction happens.",
+    text: "For businesses still manually matching bank statements against sales records every day, this is one of the areas with the biggest potential time savings relative to the effort involved. Manual reconciliation errors are also a common source of discrepancies that are hard to trace, something that can be avoided entirely once record keeping connects from the moment a transaction happens.",
   },
   {
     type: "p",
-    text: "This shift also makes month-end reconciliation far faster. When the finance team no longer has to match dozens or hundreds of statement lines one by one against manual sales records, that time can go toward analyzing sales trends or investigating anomalies that actually deserve attention.",
+    text: "This shift also makes month end reconciliation far faster. When the finance team no longer has to match dozens or hundreds of statement lines one by one against manual sales records, that time can go toward analyzing sales trends or investigating anomalies that actually deserve attention.",
   },
   { type: "h2", text: "How to judge which trends are relevant to your business" },
   {
     type: "p",
-    text: "Not every trend above is relevant to every business, and trying to adopt all of them at once usually ends in half-finished projects. A more realistic approach is to judge each trend against a specific problem your business faces right now, not by how often it gets mentioned in the media.",
+    text: "Not every trend above is relevant to every business, and trying to adopt all of them at once usually ends in half finished projects. A more realistic approach is to judge each trend against a specific problem your business faces right now, not by how often it gets mentioned in the media.",
   },
   {
     type: "ol",

@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Selama bertahun-tahun, pemasaran digital bertumpu pada cookie pihak ketiga: berkas kecil yang memungkinkan iklan dan alat analitik mengenali pengunjung yang sama di banyak situs. Kini fondasi itu bergeser. Peramban besar membatasi pelacakan lintas situs, pengguna semakin sadar privasi, dan regulasi pelindungan data pribadi makin ketat di banyak negara. Akibatnya, bisnis yang menggantungkan diri pada data pihak lain mulai kehilangan visibilitas tentang pelanggannya." },
-  { type: "p", text: "Jawaban yang paling tahan lama adalah first-party data, yaitu data yang Anda kumpulkan sendiri langsung dari interaksi dengan pelanggan, dengan sepengetahuan dan persetujuan mereka: pesanan, pendaftaran, penelusuran di situs Anda, percakapan layanan pelanggan, dan preferensi yang mereka sampaikan sendiri. Data ini lebih akurat, lebih relevan, dan sepenuhnya berada di bawah kendali Anda." },
+  { type: "p", text: "Jawaban yang paling tahan lama adalah first party data, yaitu data yang Anda kumpulkan sendiri langsung dari interaksi dengan pelanggan, dengan sepengetahuan dan persetujuan mereka: pesanan, pendaftaran, penelusuran di situs Anda, percakapan layanan pelanggan, dan preferensi yang mereka sampaikan sendiri. Data ini lebih akurat, lebih relevan, dan sepenuhnya berada di bawah kendali Anda." },
   { type: "p", text: "Artikel ini menjelaskan apa yang berubah, jenis data yang dapat Anda kumpulkan secara sah, cara membangun nilai tukar yang membuat pelanggan mau berbagi, fondasi teknis yang diperlukan, serta cara mengukur pemasaran ketika pelacakan lintas situs terbatas. Tidak ada janji ajaib: pendekatan ini menuntut disiplin, tetapi hasilnya lebih stabil." },
   { type: "h2", text: "Ringkasan" },
   {
@@ -20,20 +20,20 @@ export const body: Block[] = [
   { type: "p", text: "Dampak praktisnya terasa di tiga tempat. Pertama, penargetan ulang iklan menjadi kurang presisi. Kedua, atribusi, yaitu menautkan penjualan ke iklan tertentu, menjadi lebih kabur. Ketiga, profil pengunjung yang dulu dibeli atau dipinjam dari pihak lain makin sulit diperoleh. Bisnis yang memiliki hubungan langsung dengan pelanggannya relatif lebih siap menghadapi ketiganya." },
   { type: "p", text: "Perubahan ini juga peluang. Bisnis yang selama ini lebih banyak membeli perhatian lewat iklan dapat mulai membangun aset yang tidak disewa dari platform: daftar pelanggan, komunitas, dan kebiasaan membeli ulang." },
   { type: "image", src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", alt: "Laptop menampilkan grafik analitik di atas meja kerja", caption: "Analitik yang bertumpu pada data sendiri lebih stabil terhadap perubahan kebijakan peramban." },
-  { type: "h2", text: "Jenis first-party data yang bisa dikumpulkan" },
+  { type: "h2", text: "Jenis first party data yang bisa dikumpulkan" },
   { type: "ul", items: [
     "Data transaksi: apa yang dibeli, kapan, berapa nilainya, dan lewat saluran apa",
     "Data perilaku di situs dan aplikasi: halaman yang dilihat, pencarian internal, produk yang disimpan ke daftar keinginan",
     "Data akun dan profil: nama, kontak, kota, dan preferensi yang diisi pelanggan sendiri",
     "Data interaksi layanan: pertanyaan, keluhan, dan hasil penyelesaiannya",
     "Data komunikasi: email dan pesan yang dibuka atau diklik, serta pilihan berlangganan",
-    "Data yang diberikan sukarela: jawaban kuis, survei kepuasan, atau pilihan minat (zero-party data)",
+    "Data yang diberikan sukarela: jawaban kuis, survei kepuasan, atau pilihan minat (zero party data)",
   ] },
-  { type: "p", text: "Data zero-party, yaitu informasi yang pelanggan sengaja bagikan, sering lebih berharga daripada data hasil pengamatan karena tidak perlu ditebak. Bila pelanggan menyatakan ia mencari perlengkapan untuk bayi usia enam bulan, Anda tidak perlu menyimpulkannya dari pola klik." },
+  { type: "p", text: "Data zero party, yaitu informasi yang pelanggan sengaja bagikan, sering lebih berharga daripada data hasil pengamatan karena tidak perlu ditebak. Bila pelanggan menyatakan ia mencari perlengkapan untuk bayi usia enam bulan, Anda tidak perlu menyimpulkannya dari pola klik." },
   { type: "h2", text: "Prinsip: secukupnya, jelas tujuannya, dan sah" },
   { type: "p", text: "Mengumpulkan sebanyak mungkin data adalah naluri yang berbahaya. Setiap data yang disimpan adalah tanggung jawab: perlu diamankan, bisa bocor, dan bisa melanggar aturan bila dipakai di luar tujuan. Tanyakan untuk setiap bidang data, keputusan apa yang akan berubah karenanya. Bila tidak ada, jangan kumpulkan." },
   { type: "p", text: "Jelaskan tujuan pengumpulan dengan bahasa yang mudah dipahami, minta persetujuan yang sah bila diperlukan, dan sediakan cara mudah untuk menarik persetujuan atau berhenti berlangganan. Aturan pelindungan data pribadi berbeda antar yurisdiksi dan terus berkembang, jadi rujuk ketentuan yang berlaku bagi bisnis dan pelanggan Anda, dan konsultasikan dengan penasihat hukum untuk keputusan yang berisiko." },
-  { type: "callout", title: "Kepercayaan adalah mata uang first-party data", text: "Pelanggan hanya berbagi data dengan bisnis yang mereka percaya. Kebijakan privasi yang jujur, permintaan data yang masuk akal, dan penggunaan yang tidak mengejutkan menghasilkan data yang lebih banyak dan lebih jujur daripada trik pengumpulan yang menjebak." },
+  { type: "callout", title: "Kepercayaan adalah mata uang first party data", text: "Pelanggan hanya berbagi data dengan bisnis yang mereka percaya. Kebijakan privasi yang jujur, permintaan data yang masuk akal, dan penggunaan yang tidak mengejutkan menghasilkan data yang lebih banyak dan lebih jujur daripada trik pengumpulan yang menjebak." },
   { type: "h2", text: "Membangun nilai tukar yang adil" },
   { type: "p", text: "Orang bersedia berbagi informasi bila mendapat sesuatu yang berarti sebagai gantinya. Nilai itu bisa berupa penawaran yang benar-benar relevan, proses pembelian yang lebih cepat karena alamat tersimpan, pengingat isi ulang untuk barang habis pakai, akses awal ke produk baru, atau layanan purna jual yang lebih mudah karena riwayat pembelian tersedia." },
   { type: "p", text: "Rancang titik-titik pengumpulan yang wajar. Pembuatan akun pada saat checkout setelah pembelian selesai, bukan sebelum, tidak menghalangi transaksi. Pusat preferensi memberi pelanggan kendali atas topik dan frekuensi pesan. Survei singkat setelah pembelian menangkap kepuasan dan minat. Program loyalitas yang sederhana menjadi alasan kuat untuk mengidentifikasi diri." },
@@ -79,7 +79,7 @@ export const body: Block[] = [
   { type: "p", text: "Sebagai ilustrasi, sebuah toko kosmetik sebelumnya mengandalkan iklan penargetan ulang. Ketika efektivitasnya menurun, toko itu menambahkan pusat preferensi sederhana, program poin, dan pengingat isi ulang berbasis riwayat pembelian. Pelanggan yang mau berbagi jenis kulit mendapat rekomendasi yang lebih tepat, dan toko memiliki daftar email yang tumbuh dengan persetujuan jelas." },
   { type: "p", text: "Toko itu juga menambahkan pertanyaan satu klik saat checkout tentang dari mana pelanggan mengenal merek tersebut. Jawabannya mengungkap bahwa rekomendasi teman dan komentar di media sosial berperan besar, saluran yang nyaris tak terlihat di laporan atribusi lama. Anggaran pun digeser dengan lebih percaya diri. Ini hanya ilustrasi pola, bukan hasil dari klien tertentu." },
   { type: "h2", text: "Penutup" },
-  { type: "p", text: "Berakhirnya era cookie pihak ketiga memaksa bisnis kembali ke dasar: membangun hubungan langsung dengan pelanggan. First-party data bukan sekadar pengganti teknis, melainkan cara mengenal pelanggan dengan hormat, menawarkan nilai yang nyata, dan mengambil keputusan dari bukti milik sendiri." },
+  { type: "p", text: "Berakhirnya era cookie pihak ketiga memaksa bisnis kembali ke dasar: membangun hubungan langsung dengan pelanggan. First party data bukan sekadar pengganti teknis, melainkan cara mengenal pelanggan dengan hormat, menawarkan nilai yang nyata, dan mengambil keputusan dari bukti milik sendiri." },
   { type: "p", text: "Mulailah dari data yang sudah Anda punya, rapikan, satukan, dan pakai untuk satu atau dua keputusan yang jelas. Jaga kepercayaan dengan transparansi, dan ukur dampak dengan cara yang tidak bergantung pada pelacakan diam-diam. Aset yang Anda bangun hari ini tidak akan hilang ketika kebijakan platform berubah lagi." },
   {
     type: "cta",

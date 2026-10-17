@@ -56,7 +56,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "As a result, management makes decisions based on stale numbers. By the time the month-end report is finished, the situation has already changed. A cash problem that could have been anticipated weeks earlier only becomes visible when it has to be solved that very day.",
+    text: "As a result, management makes decisions based on stale numbers. By the time the month end report is finished, the situation has already changed. A cash problem that could have been anticipated weeks earlier only becomes visible when it has to be solved that very day.",
   },
   { type: "h2", text: "How ERP connects the dots" },
   {
@@ -90,7 +90,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "These projections will never be perfect. Customers can pay late, orders can be cancelled, and unexpected expenses can always arise. But a projection built from real transaction data is far more useful than an estimate based on memory. Management can see which weeks are likely to be tight and act earlier: speeding up collections, postponing non-urgent purchases, or arranging financing before it's actually needed.",
+    text: "These projections will never be perfect. Customers can pay late, orders can be cancelled, and unexpected expenses can always arise. But a projection built from real transaction data is far more useful than an estimate based on memory. Management can see which weeks are likely to be tight and act earlier: speeding up collections, postponing nonurgent purchases, or arranging financing before it's actually needed.",
   },
   {
     type: "image",
@@ -113,7 +113,7 @@ const en: Block[] = [
       "Daily cash and bank balance, compared against the previous week's projection",
       "A list of customers with overdue receivables, sorted by value",
       "The supplier payment schedule for the next few weeks",
-      "The slowest-moving items and the stock value tied up in them",
+      "The slowest moving items and the stock value tied up in them",
     ],
   },
   { type: "h2", text: "What it takes for ERP to deliver real visibility" },
@@ -150,7 +150,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Involve the finance team from the start of the design. They understand best which questions the owner asks most often, which reports are currently compiled by hand, and where figures from different sources most often fail to match. Their input helps ensure the system actually answers day-to-day cash needs, rather than just producing standard reports that rarely get opened.",
+    text: "Involve the finance team from the start of the design. They understand best which questions the owner asks most often, which reports are currently compiled by hand, and where figures from different sources most often fail to match. Their input helps ensure the system actually answers day to day cash needs, rather than just producing standard reports that rarely get opened.",
   },
   { type: "h2", text: "Closing thoughts" },
   {

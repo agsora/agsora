@@ -66,7 +66,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua kebutuhan, dua solusi berbeda" },
   {
     type: "p",
-    text: "Bayangkan sebuah perusahaan konstruksi yang membutuhkan dua hal sekaligus: sistem administrasi proyek untuk staf kantor yang bekerja di depan komputer sepanjang hari, dan aplikasi untuk mandor lapangan yang perlu melaporkan progres proyek lengkap dengan foto lokasi secara real-time.",
+    text: "Bayangkan sebuah perusahaan konstruksi yang membutuhkan dua hal sekaligus: sistem administrasi proyek untuk staf kantor yang bekerja di depan komputer sepanjang hari, dan aplikasi untuk mandor lapangan yang perlu melaporkan progres proyek lengkap dengan foto lokasi secara real time.",
   },
   {
     type: "p",

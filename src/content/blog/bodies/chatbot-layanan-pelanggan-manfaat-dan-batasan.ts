@@ -113,7 +113,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: chatbot yang membantu vs yang merepotkan" },
   {
     type: "p",
-    text: "Bayangkan toko online yang memasang chatbot untuk menjawab status pengiriman. Chatbot terhubung langsung ke sistem pelacakan, sehingga jawabannya selalu akurat dan real-time. Untuk pertanyaan di luar itu, chatbot langsung menawarkan opsi menghubungi tim customer service lewat WhatsApp. Pelanggan senang karena pertanyaan sederhana terjawab instan, dan pertanyaan rumit tidak terjebak di alur chatbot yang membingungkan.",
+    text: "Bayangkan toko online yang memasang chatbot untuk menjawab status pengiriman. Chatbot terhubung langsung ke sistem pelacakan, sehingga jawabannya selalu akurat dan real time. Untuk pertanyaan di luar itu, chatbot langsung menawarkan opsi menghubungi tim customer service lewat WhatsApp. Pelanggan senang karena pertanyaan sederhana terjawab instan, dan pertanyaan rumit tidak terjebak di alur chatbot yang membingungkan.",
   },
   {
     type: "p",
@@ -170,7 +170,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menentukan kapan waktunya membangun chatbot sendiri" },
   {
     type: "p",
-    text: "Banyak layanan chatbot siap pakai kini tersedia dengan biaya berlangganan yang terjangkau, cocok untuk kebutuhan yang relatif umum. Chatbot yang dibangun khusus lebih masuk akal ketika Anda membutuhkan integrasi mendalam dengan sistem internal, misalnya mengecek stok real-time atau status pesanan langsung dari database Anda, yang sulit dilakukan layanan generik.",
+    text: "Banyak layanan chatbot siap pakai kini tersedia dengan biaya berlangganan yang terjangkau, cocok untuk kebutuhan yang relatif umum. Chatbot yang dibangun khusus lebih masuk akal ketika Anda membutuhkan integrasi mendalam dengan sistem internal, misalnya mengecek stok real time atau status pesanan langsung dari database Anda, yang sulit dilakukan layanan generik.",
   },
   { type: "h2", text: "Menentukan nada bicara chatbot" },
   {

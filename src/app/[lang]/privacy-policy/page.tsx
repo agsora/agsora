@@ -78,7 +78,7 @@ const sections: LegalSection[] = [
       ],
     },
     en: {
-      title: "3. Third-Party Service Providers",
+      title: "3. Third Party Service Providers",
       body: [
         "To run this website we use the following providers, which may process your data on our behalf: Vercel (website hosting), Supabase (the database where form data and the read counter are stored), Resend (sending internal notification emails to our team), and Google Analytics (usage analytics).",
         "If you choose to continue the conversation on WhatsApp, that conversation takes place on WhatsApp and is subject to WhatsApp's own privacy policy.",

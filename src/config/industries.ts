@@ -22,8 +22,8 @@ export const industries: Industry[] = [
     name: { id: "Ritel", en: "Retail", zh: "零售" },
     icon: Store,
     description: {
-      id: "POS, inventori, dan manajemen multi-outlet dalam satu sistem.",
-      en: "POS, inventory, and multi-outlet management in one system.",
+      id: "POS, inventori, dan manajemen multioutlet dalam satu sistem.",
+      en: "POS, inventory, and multioutlet management in one system.",
       zh: "收银、库存与多门店管理集于一体。",
     },
   },
@@ -94,8 +94,8 @@ export const industries: Industry[] = [
     name: { id: "Korporasi", en: "Enterprise", zh: "大型企业" },
     icon: Landmark,
     description: {
-      id: "Arsitektur skala besar untuk kebutuhan multi-divisi.",
-      en: "Large-scale architecture for multi-division needs.",
+      id: "Arsitektur skala besar untuk kebutuhan multidivisi.",
+      en: "Large scale architecture for multidivision needs.",
       zh: "面向多部门需求的大规模架构。",
     },
   },

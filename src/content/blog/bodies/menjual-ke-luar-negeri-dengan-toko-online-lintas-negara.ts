@@ -16,7 +16,7 @@ export const body: Block[] = [
     ],
   },
   { type: "h2", text: "Mengapa banyak bisnis tertarik dan di mana jebakannya" },
-  { type: "p", text: "Daya tarik pasar luar negeri jelas: jumlah calon pembeli yang jauh lebih besar, peluang harga yang lebih baik untuk produk yang unik, dan diversifikasi dari ketergantungan pada satu pasar. Produk yang dianggap biasa di dalam negeri dapat dipandang istimewa di tempat lain, terutama bila punya cerita asal-usul atau keahlian khas." },
+  { type: "p", text: "Daya tarik pasar luar negeri jelas: jumlah calon pembeli yang jauh lebih besar, peluang harga yang lebih baik untuk produk yang unik, dan diversifikasi dari ketergantungan pada satu pasar. Produk yang dianggap biasa di dalam negeri dapat dipandang istimewa di tempat lain, terutama bila punya cerita asal usul atau keahlian khas." },
   { type: "p", text: "Jebakannya ada pada kompleksitas yang sering diremehkan. Biaya pengiriman internasional dapat memakan sebagian besar margin untuk produk bernilai rendah. Pajak dan bea masuk di negara tujuan dapat membuat harga akhir tidak kompetitif. Retur menjadi sangat mahal, dan layanan pelanggan lintas zona waktu menuntut cara kerja baru." },
   { type: "p", text: "Karena itu, pendekatan yang bijak adalah menganggap ekspor sebagai proyek terukur: uji dengan skala kecil, pelajari angka sebenarnya, lalu putuskan apakah dan bagaimana memperluasnya. Banyak bisnis berhasil justru karena memilih sedikit pasar dan melayaninya dengan sangat baik." },
   { type: "h2", text: "Memilih pasar tujuan" },

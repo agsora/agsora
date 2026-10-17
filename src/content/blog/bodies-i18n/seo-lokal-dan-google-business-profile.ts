@@ -43,7 +43,7 @@ const en: Block[] = [
   { type: "h2", text: "Optimizing your Google Business Profile" },
   {
     type: "p",
-    text: "Google Business Profile (formerly known as Google My Business) is a free profile that determines how your business appears on Google Maps and in search results. Many businesses already have a profile but leave it half filled. A complete, well-maintained profile has a real advantage over an empty one.",
+    text: "Google Business Profile (formerly known as Google My Business) is a free profile that determines how your business appears on Google Maps and in search results. Many businesses already have a profile but leave it half filled. A complete, well maintained profile has a real advantage over an empty one.",
   },
   {
     type: "h3",
@@ -115,13 +115,13 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "If your business has several branches, provide a separate page for each with genuinely different content, not copies that just swap the city name. Nearly identical pages for dozens of locations are considered low-value by search engines and confuse customers.",
+    text: "If your business has several branches, provide a separate page for each with genuinely different content, not copies that just swap the city name. Nearly identical pages for dozens of locations are considered low value by search engines and confuse customers.",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
     alt: "A laptop showing code on a white desk with work tools around it",
-    caption: "A fast, clear, well-structured website reinforces the signals already built through the business profile.",
+    caption: "A fast, clear, well structured website reinforces the signals already built through the business profile.",
   },
   { type: "h2", text: "Managing customer reviews" },
   {
@@ -184,7 +184,7 @@ const en: Block[] = [
       "Month two: update the website with clear service pages, a complete contact page, and a fast mobile display",
       "Month two: start the habit of asking for reviews after transactions and decide who replies to them",
       "Month three: upload updates or photos regularly, review the profile data, and note what changed",
-      "Month three onward: make all of this a monthly routine, not a one-off project",
+      "Month three onward: make all of this a monthly routine, not a one off project",
     ],
   },
   { type: "h2", text: "Conclusion" },
@@ -195,7 +195,7 @@ const en: Block[] = [
   {
     type: "cta",
     title: "Want your business to be easier for nearby customers to find?",
-    text: "The AG·SORA team builds fast, clear, SEO-ready company websites, including service and location page structures that support local search. The consultation is free, no commitment required.",
+    text: "The AG·SORA team builds fast, clear, SEO ready company websites, including service and location page structures that support local search. The consultation is free, no commitment required.",
     href: "/services/website",
     label: "Free Consultation",
   },

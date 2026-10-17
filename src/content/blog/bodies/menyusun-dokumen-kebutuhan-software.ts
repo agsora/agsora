@@ -57,7 +57,7 @@ export const body: Block[] = [
   { type: "h3", text: "4. Kebutuhan utama" },
   {
     type: "p",
-    text: "Daftar hal yang wajib ada agar sistem dianggap berguna. Fokus pada hasil yang diinginkan, bukan fitur teknis spesifik. Misalnya, tulis “bisa melihat stok real-time per outlet” daripada “gunakan database yang mendukung replikasi”.",
+    text: "Daftar hal yang wajib ada agar sistem dianggap berguna. Fokus pada hasil yang diinginkan, bukan fitur teknis spesifik. Misalnya, tulis “bisa melihat stok real time per outlet” daripada “gunakan database yang mendukung replikasi”.",
   },
   { type: "h3", text: "5. Kebutuhan tambahan" },
   {
@@ -119,7 +119,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyertakan tenggat waktu yang realistis" },
   {
     type: "p",
-    text: "Jika ada alasan bisnis di balik tenggat waktu tertentu, misalnya harus siap sebelum musim ramai atau sebelum kontrak lama berakhir, sebutkan dengan jelas beserta alasannya. Tenggat waktu yang disertai konteks membantu vendor menilai apakah jadwal itu realistis, dan jika tidak, mereka bisa menjelaskan trade-off yang perlu dipertimbangkan lebih awal daripada di tengah pengerjaan.",
+    text: "Jika ada alasan bisnis di balik tenggat waktu tertentu, misalnya harus siap sebelum musim ramai atau sebelum kontrak lama berakhir, sebutkan dengan jelas beserta alasannya. Tenggat waktu yang disertai konteks membantu vendor menilai apakah jadwal itu realistis, dan jika tidak, mereka bisa menjelaskan trade off yang perlu dipertimbangkan lebih awal daripada di tengah pengerjaan.",
   },
   { type: "h2", text: "Ilustrasi: dua permintaan, dua hasil" },
   {

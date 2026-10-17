@@ -3,12 +3,12 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Website bisnis jarang selesai pada hari peluncurannya. Harga berubah, produk baru datang, promo musiman muncul, artikel perlu ditulis, dan ada halaman yang harus diperbarui karena kebijakan berganti. Pertanyaannya bukan apakah konten akan berubah, melainkan siapa yang mengubahnya dan seberapa mudah serta aman hal itu dilakukan." },
   { type: "p", text: "Pada banyak bisnis, jawabannya tidak menyenangkan. Setiap perubahan teks harus menunggu pengembang, atau sebaliknya, siapa pun yang punya akses bisa mengubah apa saja sehingga halaman rusak tanpa ada yang tahu penyebabnya. Dua kutub ini sama-sama menghambat: yang pertama lambat, yang kedua berisiko." },
-  { type: "p", text: "Sistem manajemen konten, atau CMS, ada untuk menyelesaikan masalah itu. Artikel ini membahas apa fungsinya, bagaimana memilih pendekatan yang sesuai, apa yang perlu dirancang agar tim non-teknis bisa bekerja dengan nyaman, dan bagaimana menjaga kualitas, keamanan, serta SEO seiring konten bertambah. Tidak ada angka rekaan; yang kami berikan adalah kerangka kerja praktis." },
+  { type: "p", text: "Sistem manajemen konten, atau CMS, ada untuk menyelesaikan masalah itu. Artikel ini membahas apa fungsinya, bagaimana memilih pendekatan yang sesuai, apa yang perlu dirancang agar tim nonteknis bisa bekerja dengan nyaman, dan bagaimana menjaga kualitas, keamanan, serta SEO seiring konten bertambah. Tidak ada angka rekaan; yang kami berikan adalah kerangka kerja praktis." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
     items: [
-      "CMS memisahkan konten dari kode sehingga tim non-teknis dapat memperbarui sendiri",
+      "CMS memisahkan konten dari kode sehingga tim nonteknis dapat memperbarui sendiri",
       "Pilih pendekatan berdasarkan siapa yang mengelola, seberapa sering konten berubah, dan kebutuhan integrasi",
       "Rancang model konten, peran, dan alur persetujuan sebelum konten banyak",
       "Jaga SEO, kecepatan, dan keamanan sebagai bagian dari kebiasaan pengelolaan konten",
@@ -33,7 +33,7 @@ export const body: Block[] = [
     type: "image",
     src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
     alt: "Laptop di atas meja menampilkan halaman situs dengan tulisan tentang pengalaman yang sederhana",
-    caption: "CMS memungkinkan tim non-teknis memperbarui konten tanpa menunggu pengembang.",
+    caption: "CMS memungkinkan tim nonteknis memperbarui konten tanpa menunggu pengembang.",
   },
   { type: "h2", text: "Tiga pendekatan yang umum" },
   { type: "h3", text: "CMS tradisional yang terpadu" },
@@ -41,7 +41,7 @@ export const body: Block[] = [
   { type: "h3", text: "CMS tanpa kepala" },
   { type: "p", text: "Konten dikelola di satu tempat dan disajikan lewat antarmuka pemrograman ke berbagai tampilan, seperti website, aplikasi mobile, dan layar kios. Cocok bila konten harus dipakai di banyak kanal atau tampilan membutuhkan kebebasan penuh. Konsekuensinya, diperlukan pekerjaan pengembangan lebih banyak dan koordinasi antara tim konten dan teknis." },
   { type: "h3", text: "Konten dalam kode atau berkas" },
-  { type: "p", text: "Konten disimpan sebagai berkas dalam proyek dan diubah oleh pengembang atau orang yang paham alurnya. Sederhana, murah, dan aman untuk website kecil yang jarang berubah. Namun pendekatan ini tidak cocok bila tim non-teknis perlu sering memperbarui secara mandiri." },
+  { type: "p", text: "Konten disimpan sebagai berkas dalam proyek dan diubah oleh pengembang atau orang yang paham alurnya. Sederhana, murah, dan aman untuk website kecil yang jarang berubah. Namun pendekatan ini tidak cocok bila tim nonteknis perlu sering memperbarui secara mandiri." },
   { type: "callout", title: "Pilihlah berdasarkan siapa penggunanya", text: "CMS terbaik bukan yang fiturnya paling banyak, melainkan yang paling nyaman dipakai oleh orang yang akan memperbaruinya setiap hari. Libatkan mereka saat memilih, dan biarkan mereka mencoba menyelesaikan tugas nyata sebelum Anda memutuskan." },
   { type: "h2", text: "Merancang model konten" },
   { type: "p", text: "Model konten adalah rancangan jenis konten dan kolom di dalamnya. Misalnya artikel memiliki judul, ringkasan, isi, gambar utama, kategori, dan penulis. Produk memiliki nama, harga, deskripsi, spesifikasi, dan galeri foto. Halaman layanan memiliki judul, manfaat, langkah kerja, dan ajakan bertindak." },

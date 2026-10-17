@@ -49,7 +49,7 @@ export const checklistSections: ChecklistSection[] = [
       },
       {
         id: "Cara menghitung perubahan kebutuhan di tengah jalan dijelaskan",
-        en: "How mid-project changes are priced is explained",
+        en: "How midproject changes are priced is explained",
         zh: "已说明项目中途需求变更的计价方式",
       },
       {

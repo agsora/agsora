@@ -120,7 +120,7 @@ export const body: Block[] = [
   { type: "h3", text: "Seberapa sering pencatatan sepanjang periode sebaiknya dilakukan?" },
   {
     type: "p",
-    text: "Tidak perlu setiap hari, cukup setiap ada pencapaian atau masalah yang signifikan, atau minimal sesi check-in singkat setiap bulan atau kuartal. Yang penting adalah konsistensi, bukan frekuensi yang berlebihan hingga terasa membebani.",
+    text: "Tidak perlu setiap hari, cukup setiap ada pencapaian atau masalah yang signifikan, atau minimal sesi check in singkat setiap bulan atau kuartal. Yang penting adalah konsistensi, bukan frekuensi yang berlebihan hingga terasa membebani.",
   },
   { type: "h3", text: "Bagaimana menangani atasan yang menolak melakukan pencatatan rutin?" },
   {

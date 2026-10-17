@@ -78,7 +78,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: membaca dua proposal berdampingan" },
   {
     type: "p",
-    text: "Bayangkan Anda menerima dua proposal untuk sistem manajemen gudang. Proposal A senilai Rp60 juta dengan deskripsi singkat: “Sistem manajemen gudang lengkap dengan laporan.” Proposal B senilai Rp85 juta dengan rincian: pemetaan proses, modul penerimaan dan pengeluaran barang, migrasi data 5.000 SKU, integrasi dengan sistem akuntansi yang sudah dipakai, pelatihan tiga sesi untuk staf gudang, dan enam bulan dukungan pasca-rilis.",
+    text: "Bayangkan Anda menerima dua proposal untuk sistem manajemen gudang. Proposal A senilai Rp60 juta dengan deskripsi singkat: “Sistem manajemen gudang lengkap dengan laporan.” Proposal B senilai Rp85 juta dengan rincian: pemetaan proses, modul penerimaan dan pengeluaran barang, migrasi data 5.000 SKU, integrasi dengan sistem akuntansi yang sudah dipakai, pelatihan tiga sesi untuk staf gudang, dan enam bulan dukungan pascarilis.",
   },
   {
     type: "p",
@@ -140,7 +140,7 @@ export const body: Block[] = [
   { type: "h2", text: "Perhatikan bahasa yang terlalu umum atau ambigu" },
   {
     type: "p",
-    text: "Frasa seperti “sistem yang user-friendly” atau “dashboard yang lengkap” terdengar meyakinkan tapi sebenarnya tidak menjelaskan apa pun secara konkret tentang apa yang akan Anda terima. Proposal yang baik menerjemahkan klaim semacam ini menjadi hal yang bisa diverifikasi: fitur apa saja yang termasuk dalam dashboard tersebut, laporan apa yang bisa dihasilkan, dan bagaimana bentuknya secara spesifik.",
+    text: "Frasa seperti “sistem yang user friendly” atau “dashboard yang lengkap” terdengar meyakinkan tapi sebenarnya tidak menjelaskan apa pun secara konkret tentang apa yang akan Anda terima. Proposal yang baik menerjemahkan klaim semacam ini menjadi hal yang bisa diverifikasi: fitur apa saja yang termasuk dalam dashboard tersebut, laporan apa yang bisa dihasilkan, dan bagaimana bentuknya secara spesifik.",
   },
   {
     type: "p",

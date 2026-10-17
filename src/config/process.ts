@@ -10,7 +10,7 @@ export const processSteps: ProcessStep[] = [
     title: { id: "Pemetaan", en: "Discover", zh: "需求探索" },
     description: {
       id: "Memahami proses bisnis, tantangan, dan tujuan jangka panjang Anda.",
-      en: "Understanding your business process, challenges, and long-term goals.",
+      en: "Understanding your business process, challenges, and long term goals.",
       zh: "了解您的业务流程、挑战与长期目标。",
     },
   },
@@ -28,7 +28,7 @@ export const processSteps: ProcessStep[] = [
     title: { id: "Pengembangan", en: "Build", zh: "开发构建" },
     description: {
       id: "Mengembangkan sistem secara iteratif dengan standar kualitas enterprise.",
-      en: "Building the system iteratively to an enterprise-grade quality standard.",
+      en: "Building the system iteratively to an enterprise grade quality standard.",
       zh: "以企业级质量标准迭代开发系统。",
     },
   },

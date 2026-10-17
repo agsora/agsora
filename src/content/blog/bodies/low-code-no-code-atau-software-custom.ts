@@ -3,35 +3,35 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Dalam beberapa tahun terakhir, alat low-code dan no-code semakin populer. Janjinya menggoda: membuat aplikasi atau otomatisasi proses dengan menyeret dan menjatuhkan komponen, tanpa menulis kode, dalam hitungan hari. Bagi pemilik bisnis yang selama ini mendengar estimasi pengembangan software dalam hitungan bulan, tawaran seperti itu terdengar sangat masuk akal.",
+    text: "Dalam beberapa tahun terakhir, alat low code dan no code semakin populer. Janjinya menggoda: membuat aplikasi atau otomatisasi proses dengan menyeret dan menjatuhkan komponen, tanpa menulis kode, dalam hitungan hari. Bagi pemilik bisnis yang selama ini mendengar estimasi pengembangan software dalam hitungan bulan, tawaran seperti itu terdengar sangat masuk akal.",
   },
   {
     type: "p",
-    text: "Di sisi lain, banyak bisnis juga mendengar cerita tentang aplikasi low-code yang mulai kewalahan ketika pengguna bertambah, atau tentang biaya langganan yang terus naik, atau tentang proses bisnis unik yang tidak bisa diakomodasi platform. Pertanyaannya bukan mana yang lebih baik secara umum, melainkan mana yang cocok untuk kebutuhan, tahap, dan sumber daya bisnis Anda saat ini.",
+    text: "Di sisi lain, banyak bisnis juga mendengar cerita tentang aplikasi low code yang mulai kewalahan ketika pengguna bertambah, atau tentang biaya langganan yang terus naik, atau tentang proses bisnis unik yang tidak bisa diakomodasi platform. Pertanyaannya bukan mana yang lebih baik secara umum, melainkan mana yang cocok untuk kebutuhan, tahap, dan sumber daya bisnis Anda saat ini.",
   },
   {
     type: "p",
-    text: "Artikel ini membandingkan low-code, no-code, dan software buatan khusus dengan cara yang adil. Kita akan melihat apa arti masing-masing istilah, di mana mereka unggul, di mana batasnya, serta kerangka keputusan yang bisa dipakai untuk memilih. Kami menulis ini sebagai pengembang software khusus, tetapi kesimpulannya jujur: ada banyak situasi di mana alat siap pakai adalah pilihan yang lebih tepat.",
+    text: "Artikel ini membandingkan low code, no code, dan software buatan khusus dengan cara yang adil. Kita akan melihat apa arti masing-masing istilah, di mana mereka unggul, di mana batasnya, serta kerangka keputusan yang bisa dipakai untuk memilih. Kami menulis ini sebagai pengembang software khusus, tetapi kesimpulannya jujur: ada banyak situasi di mana alat siap pakai adalah pilihan yang lebih tepat.",
   },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
     items: [
-      "No-code dan low-code unggul untuk proses internal sederhana, prototipe, dan kebutuhan yang jelas dengan jumlah pengguna terbatas",
+      "No code dan low code unggul untuk proses internal sederhana, prototipe, dan kebutuhan yang jelas dengan jumlah pengguna terbatas",
       "Software khusus unggul ketika proses bisnis unik, integrasi rumit, performa tinggi, atau kendali penuh atas data dan biaya jangka panjang diperlukan",
       "Keduanya bukan pilihan satu kali; banyak bisnis memulai dengan alat siap pakai lalu berpindah saat kebutuhan membesar",
       "Biaya sebenarnya mencakup langganan, batas penggunaan, waktu tim, dan biaya berpindah di kemudian hari, bukan hanya harga awal",
       "Kepemilikan data dan kemudahan memindahkannya harus dipastikan sebelum memilih platform apa pun",
     ],
   },
-  { type: "h2", text: "Apa arti no-code, low-code, dan software khusus" },
+  { type: "h2", text: "Apa arti no code, low code, dan software khusus" },
   {
     type: "h3",
     text: "No-code",
   },
   {
     type: "p",
-    text: "Platform no-code memungkinkan orang tanpa latar belakang pemrograman membuat aplikasi, formulir, alur kerja, atau halaman web lewat antarmuka visual. Komponen sudah tersedia, dan pembuat aplikasi merangkai serta mengonfigurasinya. Contoh penggunaannya adalah formulir permintaan internal, pelacak tugas sederhana, katalog, atau otomatisasi yang menghubungkan beberapa aplikasi populer.",
+    text: "Platform no code memungkinkan orang tanpa latar belakang pemrograman membuat aplikasi, formulir, alur kerja, atau halaman web lewat antarmuka visual. Komponen sudah tersedia, dan pembuat aplikasi merangkai serta mengonfigurasinya. Contoh penggunaannya adalah formulir permintaan internal, pelacak tugas sederhana, katalog, atau otomatisasi yang menghubungkan beberapa aplikasi populer.",
   },
   {
     type: "h3",
@@ -39,7 +39,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Low-code mirip dengan no-code, tetapi memberi ruang untuk menulis sedikit kode di tempat yang diperlukan, misalnya untuk logika khusus atau integrasi dengan sistem lain. Platform ini cocok untuk tim yang punya sedikit kemampuan teknis dan ingin fleksibilitas lebih besar, tetapi masih ingin mempercepat pembangunan dengan komponen siap pakai.",
+    text: "Low code mirip dengan no code, tetapi memberi ruang untuk menulis sedikit kode di tempat yang diperlukan, misalnya untuk logika khusus atau integrasi dengan sistem lain. Platform ini cocok untuk tim yang punya sedikit kemampuan teknis dan ingin fleksibilitas lebih besar, tetapi masih ingin mempercepat pembangunan dengan komponen siap pakai.",
   },
   {
     type: "h3",
@@ -55,7 +55,7 @@ export const body: Block[] = [
     alt: "Layar laptop menampilkan baris-baris kode program di ruangan gelap",
     caption: "Pilihan antara alat siap pakai dan kode khusus bergantung pada kebutuhan, bukan pada mana yang terdengar lebih canggih.",
   },
-  { type: "h2", text: "Di mana alat no-code dan low-code unggul" },
+  { type: "h2", text: "Di mana alat no code dan low code unggul" },
   {
     type: "p",
     text: "Alat jenis ini punya kelebihan nyata, dan menolaknya begitu saja adalah kesalahan. Berikut situasi di mana mereka sering menjadi pilihan terbaik.",
@@ -118,7 +118,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Aplikasi yang dibangun di platform tertentu biasanya tidak bisa dipindahkan begitu saja. Data mungkin bisa diekspor, tetapi logika dan tampilan yang sudah dibangun harus dibuat ulang jika Anda berpindah. Ini disebut keterikatan platform (vendor lock-in). Selain itu, perubahan harga, fitur, atau kebijakan penyedia berada di luar kendali Anda.",
+    text: "Aplikasi yang dibangun di platform tertentu biasanya tidak bisa dipindahkan begitu saja. Data mungkin bisa diekspor, tetapi logika dan tampilan yang sudah dibangun harus dibuat ulang jika Anda berpindah. Ini disebut keterikatan platform (vendor lock in). Selain itu, perubahan harga, fitur, atau kebijakan penyedia berada di luar kendali Anda.",
   },
   {
     type: "image",
@@ -151,7 +151,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pendekatan campuran dan jalur peralihan" },
   {
     type: "p",
-    text: "Pilihan ini tidak harus hitam putih. Banyak bisnis yang berhasil memakai pendekatan campuran. Misalnya, memakai alat no-code untuk proses pendukung seperti formulir internal dan pelaporan sederhana, sementara sistem inti seperti pesanan, stok, atau layanan pelanggan dibangun khusus. Atau, memulai dengan alat siap pakai sebagai MVP untuk memvalidasi proses, lalu membangun versi khusus setelah terbukti bermanfaat.",
+    text: "Pilihan ini tidak harus hitam putih. Banyak bisnis yang berhasil memakai pendekatan campuran. Misalnya, memakai alat no code untuk proses pendukung seperti formulir internal dan pelaporan sederhana, sementara sistem inti seperti pesanan, stok, atau layanan pelanggan dibangun khusus. Atau, memulai dengan alat siap pakai sebagai MVP untuk memvalidasi proses, lalu membangun versi khusus setelah terbukti bermanfaat.",
   },
   {
     type: "p",
@@ -173,7 +173,7 @@ export const body: Block[] = [
   { type: "h2", text: "Peran tim dan keterampilan yang dibutuhkan" },
   {
     type: "p",
-    text: "Satu hal yang sering terlewat dalam perbandingan ini adalah soal manusia. Alat no-code memang tidak memerlukan keahlian pemrograman, tetapi tetap memerlukan orang yang memahami proses bisnis, mampu berpikir terstruktur tentang data dan alur, serta punya waktu untuk membangun dan merawat aplikasi. Jika orang itu adalah staf yang juga memegang pekerjaan harian lain, aplikasi yang dibangunnya bisa menjadi tergantung pada satu orang dan sulit diwariskan ketika ia berpindah tugas.",
+    text: "Satu hal yang sering terlewat dalam perbandingan ini adalah soal manusia. Alat no code memang tidak memerlukan keahlian pemrograman, tetapi tetap memerlukan orang yang memahami proses bisnis, mampu berpikir terstruktur tentang data dan alur, serta punya waktu untuk membangun dan merawat aplikasi. Jika orang itu adalah staf yang juga memegang pekerjaan harian lain, aplikasi yang dibangunnya bisa menjadi tergantung pada satu orang dan sulit diwariskan ketika ia berpindah tugas.",
   },
   {
     type: "p",
@@ -184,7 +184,7 @@ export const body: Block[] = [
     type: "ul",
     items: [
       "Memilih berdasarkan tren atau demo yang menarik tanpa menguji dengan proses nyata",
-      "Menganggap no-code berarti tidak perlu perencanaan; proses yang kacau tetap kacau di platform apa pun",
+      "Menganggap no code berarti tidak perlu perencanaan; proses yang kacau tetap kacau di platform apa pun",
       "Membangun sistem inti bisnis di alat yang dirancang untuk kebutuhan ringan",
       "Mengabaikan biaya jangka panjang dan keterikatan platform",
       "Membangun software khusus untuk proses yang sebenarnya sudah dilayani baik oleh alat siap pakai",
@@ -195,7 +195,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Tidak ada jawaban universal antara low-code, no-code, dan software khusus. Alat siap pakai memberi kecepatan dan biaya awal rendah untuk kebutuhan standar; software khusus memberi kendali dan kemampuan tumbuh untuk kebutuhan yang unik atau besar. Keputusan yang baik lahir dari pemahaman jujur tentang proses bisnis, perkiraan pertumbuhan, kebutuhan integrasi, dan total biaya jangka panjang. Jika ragu, mulailah kecil dengan cara yang tidak mengunci Anda, dan biarkan penggunaan nyata menunjukkan kapan saatnya melangkah lebih jauh.",
+    text: "Tidak ada jawaban universal antara low code, no code, dan software khusus. Alat siap pakai memberi kecepatan dan biaya awal rendah untuk kebutuhan standar; software khusus memberi kendali dan kemampuan tumbuh untuk kebutuhan yang unik atau besar. Keputusan yang baik lahir dari pemahaman jujur tentang proses bisnis, perkiraan pertumbuhan, kebutuhan integrasi, dan total biaya jangka panjang. Jika ragu, mulailah kecil dengan cara yang tidak mengunci Anda, dan biarkan penggunaan nyata menunjukkan kapan saatnya melangkah lebih jauh.",
   },
   {
     type: "cta",

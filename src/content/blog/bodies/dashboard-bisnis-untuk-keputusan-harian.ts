@@ -102,7 +102,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dashboard yang datanya harus diperbarui manual cepat kehilangan kepercayaan. Hubungkan dashboard ke sumber data melalui integrasi otomatis, baik lewat API, ekspor terjadwal, maupun koneksi langsung ke basis data. Tentukan seberapa segar data yang dibutuhkan: untuk stok dan penjualan harian mungkin pembaruan tiap jam cukup, sementara laporan keuangan mungkin cukup harian. Menjadikan semuanya real-time bukan selalu perlu dan bisa menambah biaya tanpa manfaat sepadan.",
+    text: "Dashboard yang datanya harus diperbarui manual cepat kehilangan kepercayaan. Hubungkan dashboard ke sumber data melalui integrasi otomatis, baik lewat API, ekspor terjadwal, maupun koneksi langsung ke basis data. Tentukan seberapa segar data yang dibutuhkan: untuk stok dan penjualan harian mungkin pembaruan tiap jam cukup, sementara laporan keuangan mungkin cukup harian. Menjadikan semuanya real time bukan selalu perlu dan bisa menambah biaya tanpa manfaat sepadan.",
   },
   {
     type: "h3",
