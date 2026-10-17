@@ -7,7 +7,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A business dashboard exists to change that pattern. Instead of waiting for a monthly report, owners and managers can see the state of the business at any time from a single screen: today's sales, cash position, stock running low, delayed orders, or team performance. But a good dashboard is not just a collection of colorful charts. Many dashboards are built with enthusiasm and abandoned within a month because they don't answer the questions that really matter.",
+    text: "A [business dashboard](/services/dashboard) exists to change that pattern. Instead of waiting for a monthly report, owners and managers can see the state of the business at any time from a single screen: today's sales, cash position, stock running low, delayed orders, or team performance. But a good dashboard is not just a collection of colorful charts. Many dashboards are built with enthusiasm and abandoned within a month because they don't answer the questions that really matter.",
   },
   {
     type: "p",
@@ -36,7 +36,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "A screen showing a click and impressions chart with a fluctuating blue line",
     caption: "A good dashboard answers decision questions within seconds rather than displaying as much data as possible.",
   },
@@ -86,7 +86,7 @@ const en: Block[] = [
   { type: "h2", text: "Where the data comes from" },
   {
     type: "p",
-    text: "A dashboard only displays what goes into it. In most businesses, data is spread across several places: the point of sale or sales system, accounting software, ERP, CRM, spreadsheets, and sometimes manual notes. The biggest challenge isn't making charts but bringing data from these sources together correctly.",
+    text: "A dashboard only displays what goes into it. In most businesses, data is spread across several places: the [point of sale](/services/pos) or sales system, accounting software, ERP, CRM, spreadsheets, and sometimes manual notes. The biggest challenge isn't making charts but bringing data from these sources together correctly.",
   },
   {
     type: "h3",
@@ -131,7 +131,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    src: "/blog/images/photo-1686061592689-312bbfb5c055",
     alt: "A computer screen showing an analytics dashboard with a user retention table",
     caption: "A simple, consistent design gives people the confidence to make decisions from what they see.",
   },
@@ -238,7 +238,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "屏幕上显示着点击与展示次数图表,蓝色折线上下波动",
     caption: "好的仪表板能在几秒钟内回答决策问题,而不是尽可能多地展示数据。",
   },
@@ -288,7 +288,7 @@ const zh: Block[] = [
   { type: "h2", text: "数据从哪里来" },
   {
     type: "p",
-    text: "仪表板只会显示输入到其中的内容。在大多数企业中,数据分散在好几个地方:收银或销售系统、会计软件、ERP、CRM、电子表格,有时还有手写记录。最大的挑战不是制作图表,而是正确地整合这些来源的数据。",
+    text: "仪表板只会显示输入到其中的内容。在大多数企业中,数据分散在好几个地方:收银或销售系统、会计软件、[ERP](/services/erp)、CRM、电子表格,有时还有手写记录。最大的挑战不是制作图表,而是正确地整合这些来源的数据。",
   },
   {
     type: "h3",
@@ -296,7 +296,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "理想情况下,每个数字都有一个被认为正确的主要来源。如果销售额既记录在收银系统中,又记录在手工表格里,而且数字不同,仪表板展示的就是争论,而不是答案。在构建仪表板之前,先决定每类数据以哪个系统为准,并停止不必要的重复记录。",
+    text: "理想情况下,每个数字都有一个被认为正确的主要来源。如果销售额既记录在[收银系统](/services/pos)中,又记录在手工表格里,而且数字不同,仪表板展示的就是争论,而不是答案。在构建仪表板之前,先决定每类数据以哪个系统为准,并停止不必要的重复记录。",
   },
   {
     type: "h3",
@@ -333,7 +333,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    src: "/blog/images/photo-1686061592689-312bbfb5c055",
     alt: "显示用户留存表的数据分析仪表板屏幕",
     caption: "简洁而一致的设计,让人们有信心根据所见做出决策。",
   },

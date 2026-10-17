@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Di banyak perusahaan B2B, hubungan dengan pelanggan dan pemasok masih berjalan lewat surel, pesan singkat, telepon, dan lembar kerja yang dikirim bolak-balik. Pelanggan menanyakan status pesanan, pemasok menanyakan jadwal pembayaran, dan sales harus mencari jawabannya satu per satu di berbagai sistem. Setiap pertanyaan sederhana memakan waktu dua pihak, dan pertanyaan yang sama muncul lagi minggu depan." },
   { type: "p", text: "Portal pelanggan dan pemasok menjawab masalah itu dengan memberi mitra bisnis akses terbatas ke informasi yang memang menjadi hak mereka. Pelanggan bisa memesan ulang, melihat riwayat pembelian, mengunduh faktur, dan melacak pengiriman tanpa menelepon. Pemasok bisa melihat pesanan pembelian, mengonfirmasi jadwal, dan mengunggah dokumen tanpa menunggu balasan surel. Hasilnya bukan hanya efisiensi, melainkan juga kesan profesional yang membedakan Anda dari pesaing." },
-  { type: "p", text: "Artikel ini membahas cara merencanakan dan membangun portal B2B yang benar-benar dipakai. Kami membahas manfaat, fitur yang layak didahulukan, hubungannya dengan ERP dan CRM, hak akses dan keamanan, pengalaman pengguna, adopsi oleh mitra, dan cara mengukur keberhasilan. Kami tidak memakai angka rekaan tentang penghematan atau peningkatan penjualan; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada perusahaan berbagai skala." },
+  { type: "p", text: "Artikel ini membahas cara merencanakan dan membangun portal B2B yang benar-benar dipakai. Kami membahas manfaat, fitur yang layak didahulukan, hubungannya dengan [ERP](/services/erp) dan CRM, hak akses dan keamanan, pengalaman pengguna, adopsi oleh mitra, dan cara mengukur keberhasilan. Kami tidak memakai angka rekaan tentang penghematan atau peningkatan penjualan; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada perusahaan berbagai skala." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada juga manfaat kualitas data. Ketika mitra memasukkan pesanan atau mengonfirmasi jadwal sendiri, kesalahan salin tempel dan salah dengar berkurang. Dokumen yang diunggah langsung terkait dengan pesanan yang benar, bukan tersebar di kotak masuk pribadi karyawan yang kemudian pindah divisi." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "Dua orang berdiskusi sambil menunjuk dokumen dalam pertemuan bisnis",
     caption: "Portal tidak menggantikan hubungan antarpersonel, tetapi membebaskan percakapan dari pertanyaan administratif yang bisa dijawab sistem.",
   },
@@ -57,7 +57,7 @@ export const body: Block[] = [
   ] },
   { type: "p", text: "Fitur yang hampir selalu masuk daftar awal adalah status pesanan dan pengiriman, akses faktur dan dokumen, serta pemesanan ulang. Ketiganya menjawab pertanyaan paling umum dan relatif mudah dibangun jika data sudah rapi di sistem dasar. Fitur seperti negosiasi harga, konfigurator produk, atau penilaian pemasok yang rumit sebaiknya menyusul setelah portal terbukti dipakai." },
   { type: "h2", text: "Portal sebagai jendela ke ERP dan CRM" },
-  { type: "p", text: "Prinsip terpenting dalam merancang portal adalah ia bukan sistem baru yang berdiri sendiri, melainkan jendela ke sistem yang sudah ada. Data pesanan, stok, faktur, dan pembayaran berada di ERP. Data hubungan, kontak, dan riwayat interaksi berada di CRM. Portal membaca dan, bila perlu, menulis kembali ke sistem tersebut." },
+  { type: "p", text: "Prinsip terpenting dalam merancang portal adalah ia bukan sistem baru yang berdiri sendiri, melainkan jendela ke sistem yang sudah ada. Data pesanan, stok, faktur, dan pembayaran berada di ERP. Data hubungan, kontak, dan riwayat interaksi berada di [CRM](/services/crm). Portal membaca dan, bila perlu, menulis kembali ke sistem tersebut." },
   { type: "p", text: "Jika portal memiliki salinan data sendiri yang harus dirawat terpisah, selisih tak terhindarkan: stok di portal berbeda dari stok di ERP, status pesanan tidak mutakhir, dan faktur yang dilihat pelanggan berbeda dari catatan keuangan. Kepercayaan mitra hilang begitu mereka menemukan satu angka yang salah. Karena itu, rancang aliran data dengan jelas: sumber kebenaran ada di sistem inti, dan portal menampilkan data itu dengan penundaan sekecil mungkin." },
   { type: "ul", items: [
     "Gunakan antarmuka pemrograman yang terdokumentasi untuk membaca dan menulis data dari ERP dan CRM",
@@ -93,7 +93,7 @@ export const body: Block[] = [
   { type: "p", text: "Kecepatan juga bagian dari pengalaman. Portal yang lambat memuat daftar pesanan memancing kembali ke telepon. Perhatikan kinerja sejak awal, terutama untuk pelanggan dengan ribuan baris riwayat, dan uji dengan data sebesar data nyata." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "Laptop menampilkan halaman web dengan tombol ajakan bertindak, tangan di trackpad",
     caption: "Portal yang berhasil membuat tugas utama mitra selesai dalam hitungan klik, bukan dalam hitungan telepon.",
   },

@@ -11,7 +11,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Artikel ini membahas fitur yang benar-benar dibutuhkan sistem kasir untuk bisnis F&B, alasan di balik setiap fitur, dan cara mengujinya sebelum Anda memilih. Tujuannya sederhana: sistem yang mempercepat pelayanan di jam sibuk, bukan memperlambatnya.",
+    text: "Artikel ini membahas fitur yang benar-benar dibutuhkan [sistem kasir](/services/pos) untuk bisnis F&B, alasan di balik setiap fitur, dan cara mengujinya sebelum Anda memilih. Tujuannya sederhana: sistem yang mempercepat pelayanan di jam sibuk, bukan memperlambatnya.",
   },
   { type: "h2", text: "Ringkasan" },
   {

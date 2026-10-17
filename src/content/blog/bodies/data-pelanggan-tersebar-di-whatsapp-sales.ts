@@ -49,7 +49,7 @@ export const body: Block[] = [
   { type: "h3", text: "Integrasi dengan CRM" },
   {
     type: "p",
-    text: "Dengan WhatsApp Business API, percakapan bisa terhubung langsung ke CRM sehingga riwayat chat tercatat sebagai bagian dari data pelanggan. Beberapa sales bisa menangani satu nomor secara bergiliran, dan manajer bisa melihat perkembangan setiap percakapan tanpa harus meminta tangkapan layar dari sales secara manual.",
+    text: "Dengan WhatsApp Business API, percakapan bisa terhubung langsung ke [CRM](/services/crm) sehingga riwayat chat tercatat sebagai bagian dari data pelanggan. Beberapa sales bisa menangani satu nomor secara bergiliran, dan manajer bisa melihat perkembangan setiap percakapan tanpa harus meminta tangkapan layar dari sales secara manual.",
   },
   { type: "h3", text: "Ringkasan wajib di CRM" },
   {

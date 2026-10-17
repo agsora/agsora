@@ -17,11 +17,11 @@ const en: Block[] = [
   },
   { type: "h2", text: "Why monitoring is not a luxury" },
   { type: "p", text: "Every system that depends on servers, networks, third party services, and constantly changing code will occasionally suffer a disruption. A security certificate expires, storage fills up, the payment provider has trouble, or the latest update carries an error that slipped past testing. All of this is normal. What is not normal is finding out hours later." },
-  { type: "p", text: "The impact of a disruption is hard to measure precisely because it depends on the time of day, the kind of business, and the duration. But the logic is simple: every minute an online store cannot take orders is a potentially lost sale, and every minute an internal app is down is wasted staff time. Monitoring shortens the gap between event and response, and that gap decides the size of the loss." },
+  { type: "p", text: "The impact of a disruption is hard to measure precisely because it depends on the time of day, the kind of business, and the duration. But the logic is simple: every minute an [online store](/services/website) cannot take orders is a potentially lost sale, and every minute an internal app is down is wasted staff time. Monitoring shortens the gap between event and response, and that gap decides the size of the loss." },
   { type: "p", text: "Other benefits are less visible but real. Monitoring data shows patterns: pages that slow down at every month end, a server that runs out of memory every few days, or a third party service that fails often. Patterns like these allow permanent fixes rather than putting out the same fire again and again." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    src: "/blog/images/photo-1558494949-ef010cbdcc31",
     alt: "A server rack with neatly arranged network cables",
     caption: "Behind every page that opens are servers and networks that need to be observed, not merely trusted.",
   },
@@ -61,7 +61,7 @@ const en: Block[] = [
   { type: "p", text: "Protect privacy. Do not record passwords, card numbers, or unnecessary personal data in logs, because logs are often read by many people and kept for a long time. Set a sensible log retention period and limit who may access them. The personal data protection rules currently in force are worth checking to make sure your logging practice complies." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+    src: "/blog/images/photo-1526628953301-3e589a6a8b74",
     alt: "A screen showing a metrics panel with small line charts and performance figures",
     caption: "Charts are useful only if someone knows which number signals a problem and what to do afterwards.",
   },
@@ -133,7 +133,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "许多企业主是从顾客那里才得知自己的网站或应用出了问题。一条消息进来,问为什么付款页面打不开,或者员工报告收银系统从早上起就一直很慢。到那时损失已经在发生:订单流失,队伍变长,信任变薄。问题不在于系统会不会出问题,而在于你多快得知,以及你为应对做了多少准备。" },
   { type: "p", text: "监控是持续观察系统健康状况的做法,以便在顾客抱怨之前发现问题。许多人以为监控只属于拥有完整技术团队的大公司。实际上,中小企业也能以合理的成本搭建基础监控,而且往往受益更明显,因为没有大团队值守。" },
-  { type: "p", text: "本文介绍如何为企业网站和应用设计切实可行的监控。我们讨论需要监控什么、检查类型、不会造成疲劳的告警、状态页、错误跟踪、事件处理,以及让系统保持健康的习惯。我们不使用杜撰的可用率百分比;提供的是适用于各种规模系统的原则和检查清单。" },
+  { type: "p", text: "本文介绍如何为[企业网站](/services/website)和应用设计切实可行的监控。我们讨论需要监控什么、检查类型、不会造成疲劳的告警、状态页、错误跟踪、事件处理,以及让系统保持健康的习惯。我们不使用杜撰的可用率百分比;提供的是适用于各种规模系统的原则和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -151,7 +151,7 @@ const zh: Block[] = [
   { type: "p", text: "其他好处不那么显眼,但很真实。监控数据能显示规律:每个月底变慢的页面,每隔几天内存耗尽的服务器,或经常失败的第三方服务。这样的规律使得永久修复成为可能,而不是一次又一次地扑灭同样的火。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    src: "/blog/images/photo-1558494949-ef010cbdcc31",
     alt: "网线整齐排列的服务器机架",
     caption: "每个能打开的页面背后,都有需要被观察而不只是被信任的服务器和网络。",
   },
@@ -191,7 +191,7 @@ const zh: Block[] = [
   { type: "p", text: "保护隐私。不要在日志中记录密码、银行卡号或不必要的个人数据,因为日志常被许多人阅读并长期保存。设定合理的日志保留期,并限制可以访问的人。请核查当前适用的个人数据保护规定,确保你的日志做法合规。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+    src: "/blog/images/photo-1526628953301-3e589a6a8b74",
     alt: "屏幕上显示带有小型折线图和性能数字的指标面板",
     caption: "图表只有在有人知道哪个数字代表问题、之后该怎么做时才有用。",
   },
@@ -229,7 +229,7 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "如果你的企业使用供应商来构建和维护系统,请问清楚监控了什么、告警如何发送,以及非工作时间由谁响应。这些应当写进维护协议,包括承诺的响应时间,而不只是口头说说。" },
   { type: "h2", text: "设定切合实际的目标" },
-  { type: "p", text: "许多企业想要永不宕机的系统,但这种要求代价高昂,而且很少必要。更有用的是设定与业务影响相称的目标。每天营业的店铺收银系统可能需要高可用性,以及断网时的备用工作方式,而内部报表门户可能可以容忍非工作时间的短暂中断。" },
+  { type: "p", text: "许多企业想要永不宕机的系统,但这种要求代价高昂,而且很少必要。更有用的是设定与业务影响相称的目标。每天营业的店铺[收银系统](/services/pos)可能需要高可用性,以及断网时的备用工作方式,而内部报表门户可能可以容忍非工作时间的短暂中断。" },
   { type: "p", text: "用所有人都能理解的语言陈述目标:系统宕机多久会影响业务,以及可以丢失多少数据。这两个问题决定了监控、备份和架构策略。目标越严格,成本和复杂度越高,所以每次提升都必须与所保护的价值相称。" },
   { type: "h2", text: "应避免的常见错误" },
   { type: "ul", items: [

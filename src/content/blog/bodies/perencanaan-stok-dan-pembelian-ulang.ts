@@ -11,7 +11,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Artikel ini membahas cara menyusun perencanaan stok dan pembelian ulang yang lebih terstruktur, dari konsep dasar seperti stok pengaman dan titik pemesanan ulang, hingga bagaimana sistem ERP atau inventori membantu menjalankannya. Kami tidak memakai angka rekaan atau rumus ajaib; yang kami berikan adalah kerangka berpikir yang bisa Anda sesuaikan dengan karakter bisnis Anda sendiri.",
+    text: "Artikel ini membahas cara menyusun perencanaan stok dan pembelian ulang yang lebih terstruktur, dari konsep dasar seperti stok pengaman dan titik pemesanan ulang, hingga bagaimana [sistem ERP](/services/erp) atau inventori membantu menjalankannya. Kami tidak memakai angka rekaan atau rumus ajaib; yang kami berikan adalah kerangka berpikir yang bisa Anda sesuaikan dengan karakter bisnis Anda sendiri.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1584568694489-f71bdbac55e2",
+    src: "/blog/images/photo-1584568694489-f71bdbac55e2",
     alt: "Rak toko kelontong yang kosong",
     caption: "Catatan manual yang menumpuk membuat data stok sulit dipercaya; sistem yang terhubung menggantikannya.",
   },
@@ -121,7 +121,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    src: "/blog/images/photo-1578575437130-527eed3abbec",
     alt: "Pelabuhan kontainer dengan derek besar dan kapal bermuatan kontainer",
     caption: "Semakin besar skala pergerakan barang dan semakin banyak cabang, semakin penting data stok yang terhubung dan terbarui otomatis.",
   },
@@ -139,7 +139,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Ketika stok toko fisik dan toko online berbagi satu sumber data, risiko menjual barang yang sebenarnya sudah habis menurun drastis. Hal ini dibahas lebih jauh dalam artikel kami tentang menyatukan stok toko fisik dan marketplace. Ingatlah bahwa sistem hanya memberi saran berdasarkan pola masa lalu; keputusan akhir tetap harus mempertimbangkan hal-hal yang belum tercermin di data, seperti rencana promosi besar atau perubahan harga dari pemasok.",
+    text: "Ketika stok toko fisik dan [toko online](/services/website) berbagi satu sumber data, risiko menjual barang yang sebenarnya sudah habis menurun drastis. Hal ini dibahas lebih jauh dalam artikel kami tentang menyatukan stok toko fisik dan marketplace. Ingatlah bahwa sistem hanya memberi saran berdasarkan pola masa lalu; keputusan akhir tetap harus mempertimbangkan hal-hal yang belum tercermin di data, seperti rencana promosi besar atau perubahan harga dari pemasok.",
   },
   { type: "h2", text: "Hubungan dengan arus kas" },
   {

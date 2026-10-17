@@ -25,7 +25,7 @@ export const body: Block[] = [
   { type: "p", text: "Sisakan fleksibilitas yang terkendali untuk variasi lokal yang sah, misalnya produk khas daerah atau penyesuaian harga karena biaya sewa. Sistem yang baik dapat mengizinkan pengaturan per wilayah dalam batas yang ditetapkan, sehingga standar terjaga tanpa mengabaikan kenyataan pasar setempat." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    src: "/blog/images/photo-1521791136064-7986c2920216",
     alt: "Dua orang berjabat tangan sebagai tanda kesepakatan kemitraan bisnis",
     caption: "Kemitraan yang sehat dibangun di atas aturan yang jelas dan data yang transparan.",
   },
@@ -76,7 +76,7 @@ export const body: Block[] = [
   { type: "p", text: "Terakhir, lindungi data pelanggan dengan serius. Program loyalitas lintas gerai berarti data pribadi mengalir antarlokasi, sehingga kebijakan privasi, persetujuan, dan pengamanan harus diterapkan konsisten di seluruh jaringan." },
   { type: "h2", text: "Pertanyaan yang sering diajukan" },
   { type: "p", text: "Apakah jaringan kecil dengan tiga atau empat gerai sudah memerlukan sistem terpusat? Hampir selalu ya, setidaknya untuk katalog dan laporan bersama. Biaya menyatukan data di awal jauh lebih kecil dibandingkan membereskan data yang terlanjur tersebar di banyak sistem yang berbeda." },
-  { type: "p", text: "Bagaimana bila mitra sudah memakai sistem kasir sendiri? Anda dapat mewajibkan integrasi lewat antarmuka standar atau mengganti dengan sistem yang disediakan pusat. Pertimbangkan biaya peralihan dan berikan dukungan serta masa transisi, karena paksaan tanpa bantuan sering menimbulkan perlawanan." },
+  { type: "p", text: "Bagaimana bila mitra sudah memakai [sistem kasir](/services/pos) sendiri? Anda dapat mewajibkan integrasi lewat antarmuka standar atau mengganti dengan sistem yang disediakan pusat. Pertimbangkan biaya peralihan dan berikan dukungan serta masa transisi, karena paksaan tanpa bantuan sering menimbulkan perlawanan." },
   { type: "p", text: "Bagaimana dengan mitra yang menolak transparansi data? Bangun kepercayaan secara bertahap dengan menunjukkan manfaat langsung bagi mereka, seperti perbandingan kinerja dan pelaporan royalti yang otomatis. Penolakan sering berakar pada kekhawatiran akan disalahgunakan, bukan penolakan terhadap sistemnya." },
   { type: "h2", text: "Pengalaman pelanggan lintas gerai" },
   { type: "p", text: "Pelanggan modern tidak memandang gerai sebagai entitas terpisah; mereka memandang merek. Mereka berharap poin loyalitas, voucher, dan riwayat pesanan berlaku di mana saja. Sistem terpusat membuat hal ini mungkin: satu profil pelanggan yang dikenali di semua gerai, dengan saldo poin dan promosi yang konsisten." },
@@ -93,7 +93,7 @@ export const body: Block[] = [
   { type: "p", text: "Sistem terpusat bukan tujuan, melainkan alat untuk membangun kepercayaan: kepercayaan pelanggan bahwa setiap gerai memberi pengalaman yang sama baik, dan kepercayaan mitra bahwa pusat bertindak adil dan transparan. Bila keduanya terjaga, pertumbuhan jaringan akan terasa wajar dan berkelanjutan, bukan melelahkan." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Pertumbuhan jaringan yang sehat bukan sekadar menambah jumlah gerai, melainkan menjaga agar setiap gerai terasa seperti bagian dari merek yang sama. Sistem terpusat memberi konsistensi, visibilitas, dan keadilan yang tidak mungkin dicapai dengan pengawasan personal semata." },
-  { type: "p", text: "Mulailah dengan menyatukan data dan standar, lalu tambahkan otomatisasi bertahap. Dengan fondasi yang tepat, Anda dapat bertumbuh dengan percaya diri, dan mitra mendapat dukungan yang mereka butuhkan untuk berhasil bersama merek Anda." },
+  { type: "p", text: "Mulailah dengan menyatukan data dan standar, lalu tambahkan [otomatisasi](/services/ai-automation) bertahap. Dengan fondasi yang tepat, Anda dapat bertumbuh dengan percaya diri, dan mitra mendapat dukungan yang mereka butuhkan untuk berhasil bersama merek Anda." },
   {
     type: "cta",
     title: "Siap mengelola jaringan gerai atau mitra dengan satu sistem?",

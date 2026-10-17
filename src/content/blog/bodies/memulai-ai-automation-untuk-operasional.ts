@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Tidak ada yang salah dengan orang-orang ini. Mereka mengerjakan tugasnya dengan baik. Masalahnya, sebagian besar waktu mereka habis untuk pekerjaan yang berulang, berpola, dan tidak membutuhkan pertimbangan manusia. Di sinilah otomatisasi berbasis AI mulai masuk akal, bukan untuk menggantikan orang, tetapi untuk memindahkan pekerjaan membosankan dari tangan mereka.",
+    text: "Tidak ada yang salah dengan orang-orang ini. Mereka mengerjakan tugasnya dengan baik. Masalahnya, sebagian besar waktu mereka habis untuk pekerjaan yang berulang, berpola, dan tidak membutuhkan pertimbangan manusia. Di sinilah [otomatisasi](/services/ai-automation) berbasis AI mulai masuk akal, bukan untuk menggantikan orang, tetapi untuk memindahkan pekerjaan membosankan dari tangan mereka.",
   },
   {
     type: "p",

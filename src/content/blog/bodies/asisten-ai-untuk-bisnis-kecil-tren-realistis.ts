@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Di satu sisi, ada janji bahwa AI akan menggantikan banyak pekerjaan dan menghemat biaya besar. Di sisi lain, ada kisah tentang chatbot yang menjawab salah, ringkasan yang mengarang fakta, dan proyek AI mahal yang tidak pernah dipakai. Kebenarannya ada di tengah. AI adalah alat yang sangat berguna bila dipasang pada masalah yang tepat, dengan pengawasan yang tepat, dan sangat mengecewakan bila diharapkan menjadi solusi ajaib untuk segalanya.",
+    text: "Di satu sisi, ada janji bahwa AI akan menggantikan banyak pekerjaan dan menghemat biaya besar. Di sisi lain, ada kisah tentang [chatbot](/services/ai-automation) yang menjawab salah, ringkasan yang mengarang fakta, dan proyek AI mahal yang tidak pernah dipakai. Kebenarannya ada di tengah. AI adalah alat yang sangat berguna bila dipasang pada masalah yang tepat, dengan pengawasan yang tepat, dan sangat mengecewakan bila diharapkan menjadi solusi ajaib untuk segalanya.",
   },
   {
     type: "p",
@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    src: "/blog/images/photo-1620712943543-bcc4688e7485",
     alt: "Robot humanoid duduk di bangku merah sambil memegang bahan bacaan",
     caption: "AI paling bernilai ketika dipasang pada tugas yang jelas, bukan ketika dijadikan jawaban untuk semua hal.",
   },
@@ -110,7 +110,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    src: "/blog/images/photo-1526374965328-7f61d4dc18c5",
     alt: "Deretan kode hijau yang jatuh ke bawah di layar gelap",
     caption: "Asisten AI hanya sebaik informasi yang diberikan kepadanya, jadi rapikan data sebelum memasangnya.",
   },
@@ -137,7 +137,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pertimbangan penting dalam memilih adalah integrasi. AI yang berdiri sendiri dan terpisah dari sistem kasir, ERP, dan CRM Anda hanya bisa bekerja dengan informasi yang Anda salin secara manual. AI yang terhubung dapat membaca data yang relevan dan bertindak dalam batas yang Anda tetapkan, sehingga manfaatnya jauh lebih besar. Itulah alasan integrasi API menjadi bagian penting dari rencana AI yang serius.",
+    text: "Pertimbangan penting dalam memilih adalah integrasi. AI yang berdiri sendiri dan terpisah dari [sistem kasir](/services/pos), ERP, dan CRM Anda hanya bisa bekerja dengan informasi yang Anda salin secara manual. AI yang terhubung dapat membaca data yang relevan dan bertindak dalam batas yang Anda tetapkan, sehingga manfaatnya jauh lebih besar. Itulah alasan integrasi API menjadi bagian penting dari rencana AI yang serius.",
   },
   { type: "h2", text: "Mengukur apakah AI benar-benar membantu" },
   {

@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e",
+    src: "/blog/images/photo-1581291518633-83b4ebd1d83e",
     alt: "Tangan memegang pensil sedang menggambar sketsa rancangan antarmuka aplikasi di atas kertas",
     caption: "Ruang lingkup MVP sebaiknya bisa digambarkan dalam satu alur sederhana sebelum pengembangan dimulai.",
   },
@@ -118,7 +118,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    src: "/blog/images/photo-1531482615713-2afd69097998",
     alt: "Beberapa anggota tim berdiskusi sambil melihat layar komputer di ruang kerja",
     caption: "Umpan balik dari pengguna harian adalah bahan utama untuk menentukan tahap pengembangan berikutnya.",
   },

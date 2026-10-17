@@ -61,7 +61,7 @@ export const body: Block[] = [
   { type: "h2", text: "Apa yang membuat website benar-benar bekerja" },
   {
     type: "p",
-    text: "Punya website saja tidak otomatis menghasilkan apa-apa. Banyak website perusahaan hanya berisi profil dan foto tim, lalu ditinggalkan bertahun-tahun tanpa pernah diperbarui. Website yang bekerja punya tiga karakteristik yang sering diabaikan: kecepatan muat yang baik, struktur yang menjawab pertanyaan pengunjung dalam beberapa detik pertama, dan jalur yang jelas untuk menghubungi atau bertransaksi.",
+    text: "Punya website saja tidak otomatis menghasilkan apa-apa. Banyak [website perusahaan](/services/website) hanya berisi profil dan foto tim, lalu ditinggalkan bertahun-tahun tanpa pernah diperbarui. Website yang bekerja punya tiga karakteristik yang sering diabaikan: kecepatan muat yang baik, struktur yang menjawab pertanyaan pengunjung dalam beberapa detik pertama, dan jalur yang jelas untuk menghubungi atau bertransaksi.",
   },
   {
     type: "p",
@@ -78,7 +78,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Platform yang lebih lengkap, dengan sistem member, katalog produk yang bisa dicari, atau integrasi dengan sistem internal seperti inventori dan CRM, baru dibutuhkan ketika website perlu melakukan lebih dari sekadar menampilkan informasi, misalnya memproses transaksi atau menyimpan data pelanggan yang login berulang kali. Memulai dari kebutuhan yang paling mendesak, lalu berkembang seiring waktu, biasanya lebih masuk akal daripada membangun platform besar sejak hari pertama.",
+    text: "Platform yang lebih lengkap, dengan sistem member, katalog produk yang bisa dicari, atau integrasi dengan sistem internal seperti inventori dan [CRM](/services/crm), baru dibutuhkan ketika website perlu melakukan lebih dari sekadar menampilkan informasi, misalnya memproses transaksi atau menyimpan data pelanggan yang login berulang kali. Memulai dari kebutuhan yang paling mendesak, lalu berkembang seiring waktu, biasanya lebih masuk akal daripada membangun platform besar sejak hari pertama.",
   },
   { type: "h2", text: "SEO: bukan sekadar menaruh kata kunci" },
   {

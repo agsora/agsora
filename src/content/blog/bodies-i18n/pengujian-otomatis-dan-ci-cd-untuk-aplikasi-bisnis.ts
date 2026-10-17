@@ -31,7 +31,7 @@ const en: Block[] = [
   { type: "callout", title: "A pyramid, not a circle", text: "A healthy strategy usually has many fast unit tests, fewer integration tests, and very few end to end tests. If it is the other way round, tests are slow, fail often for unclear reasons, and the team stops trusting them." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "A laptop screen showing colourful program code in an editor",
     caption: "Automated testing is code that checks other code, run repeatedly without tiring.",
   },
@@ -52,7 +52,7 @@ const en: Block[] = [
   { type: "p", text: "Not every team needs to implement everything from day one. A small business can start with two things: automated tests on the most important flows and one command that builds and releases the application in the same way every time." },
   { type: "h2", text: "What is most worth testing first" },
   { type: "p", text: "A common temptation is to chase a high coverage number, the percentage of code touched by tests. The number is easy to compute but does not guarantee quality. Many tests that do not check important things only give a false sense of safety." },
-  { type: "p", text: "A more useful approach is to ask: which part would hurt most if it broke? Start there. For an online store, that is usually the payment process, price and discount calculation, stock reduction, and sending confirmation emails. For ERP, it is inventory valuation, automatic journals, and access rights." },
+  { type: "p", text: "A more useful approach is to ask: which part would hurt most if it broke? Start there. For an [online store](/services/website), that is usually the payment process, price and discount calculation, stock reduction, and sending confirmation emails. For ERP, it is inventory valuation, automatic journals, and access rights." },
   { type: "ul", items: [
     "Money calculations: prices, discounts, tax, shipping cost, and rounding",
     "Revenue generating flows: registration, checkout, payment, and billing",
@@ -67,7 +67,7 @@ const en: Block[] = [
   { type: "p", text: "Also make sure secrets such as access keys and service passwords are not written in code or stored carelessly in automated flows. Store them in a place designed for that, with limited access and an audit trail." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "A laptop screen showing lines of program code in a dark room",
     caption: "A separate test environment lets the team try changes without disturbing customers.",
   },
@@ -138,7 +138,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "每位用过定制应用的企业主都熟悉这种焦虑：开发团队刚刚加了一个小功能，第二天没人动过的另一个部分却突然坏了。销售报表的数字变了，付款按钮点不动了，或者通知不再发送。修复随之而来，但信任一点点被侵蚀。" },
   { type: "p", text: "原因几乎总是一样的。软件是由相互依赖的部分组成的网络，对一个部分的改动可能在无人察觉的情况下影响另一个部分。每次变更后都手工测试，既耗时又容易遗漏，而且随着应用变大越来越不可能做到。" },
-  { type: "p", text: "自动化测试和持续集成与交付（通常缩写为 CI/CD）正是应对之道。本文用通俗的语言解释这些概念，说明究竟测试什么，健康的交付流程是什么样子，以及非技术出身的企业主如何判断供应商或内部团队是否正确地实施了这些做法。" },
+  { type: "p", text: "[自动化](/services/ai-automation)测试和持续集成与交付（通常缩写为 CI/CD）正是应对之道。本文用通俗的语言解释这些概念，说明究竟测试什么，健康的交付流程是什么样子，以及非技术出身的企业主如何判断供应商或内部团队是否正确地实施了这些做法。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -166,7 +166,7 @@ const zh: Block[] = [
   { type: "callout", title: "是金字塔，不是圆圈", text: "健康的策略通常有大量快速的单元测试、较少的集成测试和极少的端到端测试。如果反过来，测试就会很慢，经常因不明原因失败，团队也不再信任它们。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "笔记本电脑屏幕在编辑器中显示彩色的程序代码",
     caption: "自动化测试是检查其他代码的代码，反复运行而不知疲倦。",
   },
@@ -187,7 +187,7 @@ const zh: Block[] = [
   { type: "p", text: "并非每个团队都需要从第一天起就实施全部。小企业可以从两件事开始：对最重要流程的自动化测试，以及一条每次都以同样方式构建和发布应用的命令。" },
   { type: "h2", text: "最值得先测试什么" },
   { type: "p", text: "一种常见的诱惑是追逐高覆盖率，即被测试触及的代码百分比。这个数字容易计算，却不能保证质量。大量不检查重要内容的测试，只会带来虚假的安全感。" },
-  { type: "p", text: "更有用的方法是问：哪个部分坏了损失最大？从那里开始。对网店来说，通常是支付流程、价格和折扣计算、库存扣减以及确认邮件的发送。对 ERP 来说，则是库存估值、自动分录和访问权限。" },
+  { type: "p", text: "更有用的方法是问：哪个部分坏了损失最大？从那里开始。对[网店](/services/website)来说，通常是支付流程、价格和折扣计算、库存扣减以及确认邮件的发送。对 ERP 来说，则是库存估值、自动分录和访问权限。" },
   { type: "ul", items: [
     "涉及金额的计算：价格、折扣、税费、运费和四舍五入",
     "产生收入的流程：注册、结账、付款和计费",
@@ -202,7 +202,7 @@ const zh: Block[] = [
   { type: "p", text: "也要确保访问密钥和服务密码等机密不写在代码里，也不随意存放在自动化流程中。把它们存放在专门设计的地方，限制访问并保留审计记录。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "笔记本电脑屏幕在暗室中显示一行行程序代码",
     caption: "独立的测试环境让团队可以尝试变更而不打扰顾客。",
   },

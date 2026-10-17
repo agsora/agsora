@@ -31,7 +31,7 @@ export const body: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
+    src: "/blog/images/photo-1586880244406-556ebe35f282",
     alt: "Laptop menampilkan halaman beranda platform toko online",
     caption: "Marketplace yang berhasil biasanya lahir dari ceruk sempit yang dilayani dengan sangat baik.",
   },
@@ -70,7 +70,7 @@ export const body: Block[] = [
   { type: "p", text: "Apa pun pilihannya, tetapkan standar waktu proses pesanan dan sanksi bagi penjual yang berulang kali terlambat atau membatalkan. Pengalaman pengiriman yang buruk dari satu penjual akan diingat pembeli sebagai kesalahan platform Anda." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
+    src: "/blog/images/photo-1566576721346-d4a3b4eaeb55",
     alt: "Dua orang menyerahkan sebuah paket kardus yang sudah dilakban",
     caption: "Pengiriman dari banyak penjual membutuhkan standar yang jelas agar pengalaman pembeli tetap konsisten.",
   },

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "The Internet of Things, or IoT, often sounds like a matter for giant factories and smart cities. Yet the idea is simple: small devices that measure something in the real world, such as temperature, movement, humidity, or counts, then send the result over a network to a system that can be read and acted on. For small and medium businesses, this technology is now cheap and mature enough to solve everyday problems once handled with eyes and handwritten notes." },
   { type: "p", text: "But IoT is also full of exaggerated promises. Many projects stall after the sensors are installed because nobody knows how to use the data, batteries die unnoticed, the network is unstable, or security is ignored so devices become an entry point for unauthorised parties. A sensor is not a solution; it is only a source of data. Value appears when that data changes a decision or an action." },
-  { type: "p", text: "This article covers IoT and sensors from the viewpoint of a small business owner. We discuss sensible use cases, system components, connectivity and power choices, the relationship with apps and ERP, security, often forgotten costs, and how to begin with a small trial. We use no invented figures about savings or return on investment; what we offer is a way of thinking and a checklist you can use before buying any device." },
+  { type: "p", text: "This article covers IoT and sensors from the viewpoint of a small business owner. We discuss sensible use cases, system components, connectivity and power choices, the relationship with apps and [ERP](/services/erp), security, often forgotten costs, and how to begin with a small trial. We use no invented figures about savings or return on investment; what we offer is a way of thinking and a checklist you can use before buying any device." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -17,11 +17,11 @@ const en: Block[] = [
   },
   { type: "h2", text: "What IoT means in business language" },
   { type: "p", text: "Imagine someone who opens the cold room door every hour to check the thermometer and then writes it in a book. That job is boring, easily missed, and only tells you that the temperature is a problem after the problem has occurred. A temperature sensor that sends readings regularly, stores them, and raises an alert when the temperature leaves the safe range does the same thing tirelessly, and can warn before goods spoil." },
-  { type: "p", text: "That is the core of IoT in a business context: turning infrequent and error prone manual observation into continuous automatic measurement. The three benefits that appear most often are visibility, automation, and prevention. Visibility means you know what is happening in places you do not always visit. Automation means the system performs simple actions itself. Prevention means problems are detected before they become losses." },
+  { type: "p", text: "That is the core of IoT in a business context: turning infrequent and error prone manual observation into continuous automatic measurement. The three benefits that appear most often are visibility, [automation](/services/ai-automation), and prevention. Visibility means you know what is happening in places you do not always visit. Automation means the system performs simple actions itself. Prevention means problems are detected before they become losses." },
   { type: "p", text: "It is important to remember that IoT is only part of a chain. The sensor at the end is merely the starting point. What determines value is what happens once the data is received: who is told, what action is taken, and whether the result is recorded for the next improvement." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    src: "/blog/images/photo-1518770660439-4636190af475",
     alt: "A close up of an electronic circuit board with chips and components",
     caption: "Sensors and circuit boards are only the beginning; value comes from data turned into decisions.",
   },
@@ -83,7 +83,7 @@ const en: Block[] = [
     "Separate high volume raw data from summaries relevant to business processes",
     "Record where each piece of data came from and the version of the rule that produced it so it can be traced",
   ] },
-  { type: "p", text: "If you plan to develop a mobile app for technicians or field supervisors, IoT and the app complement each other. A technician receives the alert on their phone, sees the sensor history, confirms the action, and photographs the repair result. All of it is recorded and tied to the same device so the history is complete." },
+  { type: "p", text: "If you plan to develop a [mobile app](/services/mobile) for technicians or field supervisors, IoT and the app complement each other. A technician receives the alert on their phone, sees the sensor history, confirms the action, and photographs the repair result. All of it is recorded and tied to the same device so the history is complete." },
   { type: "h2", text: "Security: small devices, big risks" },
   { type: "p", text: "IoT devices are often overlooked in security because they look trivial, yet they are frequently the weakest point. Devices with default passwords left unchanged, software never updated, or an open network can be exploited by attackers to enter the business network or be used to attack others. Because many sensors are installed and forgotten, these gaps can last for years." },
   { type: "ul", items: [
@@ -111,7 +111,7 @@ const en: Block[] = [
   { type: "p", text: "Compare that total cost with the value protected or produced, but be careful with overly optimistic savings claims. Calculate from real problems you already have, such as the loss from spoiled goods that has actually happened or the working hours spent on manual checks, not from industry average figures that may not apply to you." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
+    src: "/blog/images/photo-1581092160562-40aa08e78837",
     alt: "A work desk with engineering design sketches, a toolbox, and a person drawing",
     caption: "Planning on paper before buying devices saves a lot of cost in changes in the field.",
   },
@@ -168,7 +168,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "物联网(IoT)听起来常像是巨型工厂和智慧城市的事情。但其核心很简单:小型设备测量现实世界中的某些东西,如温度、运动、湿度或计数,然后通过网络把结果发送给可以读取和处理的系统。对中小企业来说,这项技术如今已足够便宜、足够成熟,可以解决过去靠眼睛和手写笔记处理的日常问题。" },
   { type: "p", text: "但物联网也充满夸大的承诺。许多项目在传感器装好之后就停滞了,因为没人知道如何使用数据,电池耗尽无人察觉,网络不稳定,或者安全被忽视,使设备成为未授权方的入口。传感器不是解决方案;它只是数据的来源。当这些数据改变了某个决定或行动时,价值才会出现。" },
-  { type: "p", text: "本文从小企业主的角度介绍物联网和传感器。我们讨论合理的使用场景、系统组成、连接和供电选择、与应用及 ERP 的关系、安全、常被遗忘的成本,以及如何从小规模试点开始。我们不使用杜撰的节省或投资回报数字;提供的是在购买任何设备之前可以使用的思维方式和检查清单。" },
+  { type: "p", text: "本文从小企业主的角度介绍物联网和传感器。我们讨论合理的使用场景、系统组成、连接和供电选择、与应用及 [ERP](/services/erp) 的关系、安全、常被遗忘的成本,以及如何从小规模试点开始。我们不使用杜撰的节省或投资回报数字;提供的是在购买任何设备之前可以使用的思维方式和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -182,11 +182,11 @@ const zh: Block[] = [
   },
   { type: "h2", text: "用商业语言说什么是物联网" },
   { type: "p", text: "想象一个人每小时打开冷库门查看温度计,然后记在本子上。这项工作枯燥,容易遗漏,而且只能在问题发生之后才知道温度有问题。一个定期发送读数、存储它们、并在温度超出安全范围时发出告警的温度传感器,不知疲倦地做着同样的事,还能在货物变质之前预警。" },
-  { type: "p", text: "这就是商业语境下物联网的核心:把稀少且容易出错的人工观察,变成持续的自动测量。最常出现的三个好处是可见性、自动化和预防。可见性意味着你知道自己不常去的地方发生了什么。自动化意味着系统自己执行简单的动作。预防意味着问题在变成损失之前就被发现。" },
+  { type: "p", text: "这就是商业语境下物联网的核心:把稀少且容易出错的人工观察,变成持续的自动测量。最常出现的三个好处是可见性、[自动化](/services/ai-automation)和预防。可见性意味着你知道自己不常去的地方发生了什么。自动化意味着系统自己执行简单的动作。预防意味着问题在变成损失之前就被发现。" },
   { type: "p", text: "要记住的重要一点是,物联网只是链条的一部分。末端的传感器只是起点。决定价值的是数据被接收之后发生了什么:通知谁,采取什么行动,以及结果是否被记录下来用于下一次改进。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    src: "/blog/images/photo-1518770660439-4636190af475",
     alt: "带有芯片和元件的电子电路板特写",
     caption: "传感器和电路板只是开始;价值来自被转化为决策的数据。",
   },
@@ -248,7 +248,7 @@ const zh: Block[] = [
     "把大量的原始数据与对业务流程相关的摘要分开",
     "记录每份数据的来源以及生成它的规则版本,以便追溯",
   ] },
-  { type: "p", text: "如果你打算为技术人员或现场主管开发移动应用,物联网与应用可以互补。技术人员在手机上收到告警,查看传感器历史,确认行动,并拍下维修结果。一切都被记录并与同一设备相关联,历史完整。" },
+  { type: "p", text: "如果你打算为技术人员或现场主管开发[移动应用](/services/mobile),物联网与应用可以互补。技术人员在手机上收到告警,查看传感器历史,确认行动,并拍下维修结果。一切都被记录并与同一设备相关联,历史完整。" },
   { type: "h2", text: "安全:小设备,大风险" },
   { type: "p", text: "物联网设备在安全方面常被忽视,因为它们看起来微不足道,但它们往往是最薄弱的环节。默认密码从未更改、软件从不更新或网络开放的设备,可能被攻击者利用来进入企业网络,或被用来攻击他人。由于许多传感器装好后就被遗忘,这些漏洞可能持续多年。" },
   { type: "ul", items: [
@@ -276,7 +276,7 @@ const zh: Block[] = [
   { type: "p", text: "把这笔总成本与所保护或所产生的价值相比较,但要小心过于乐观的节省说法。从你已经遇到的真实问题出发来计算,比如已经发生过的货物变质损失,或花在手工检查上的工作小时数,而不是从未必适用于你的行业平均数字出发。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
+    src: "/blog/images/photo-1581092160562-40aa08e78837",
     alt: "摆着工程设计草图、工具箱和正在绘图的人的工作台",
     caption: "在购买设备之前先在纸上规划,可以省下现场修改的大量成本。",
   },

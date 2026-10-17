@@ -62,7 +62,7 @@ export const body: Block[] = [
   { type: "h2", text: "Data harus bisa dipercaya lebih dulu" },
   {
     type: "p",
-    text: "Semua metrik ini sepenuhnya bergantung pada data CRM yang diperbarui dengan disiplin oleh tim sales. Jika sales jarang memperbarui status peluang mereka, laporan yang dihasilkan akan terlihat rapi secara visual tetapi sebenarnya menyesatkan karena tidak mencerminkan kondisi nyata. Tahapan pipeline yang jelas dan kebiasaan memperbarui data secara rutin harus menjadi fondasi yang kokoh lebih dulu sebelum metrik apa pun bisa diandalkan untuk pengambilan keputusan.",
+    text: "Semua metrik ini sepenuhnya bergantung pada data [CRM](/services/crm) yang diperbarui dengan disiplin oleh tim sales. Jika sales jarang memperbarui status peluang mereka, laporan yang dihasilkan akan terlihat rapi secara visual tetapi sebenarnya menyesatkan karena tidak mencerminkan kondisi nyata. Tahapan pipeline yang jelas dan kebiasaan memperbarui data secara rutin harus menjadi fondasi yang kokoh lebih dulu sebelum metrik apa pun bisa diandalkan untuk pengambilan keputusan.",
   },
   { type: "h2", text: "Ilustrasi: menemukan akar masalah lewat metrik" },
   {

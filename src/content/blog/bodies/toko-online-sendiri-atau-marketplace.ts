@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Bagi bisnis yang ingin berjualan online, marketplace adalah jalan tercepat untuk memulai: pembeli sudah tersedia dalam jumlah besar, sistem pembayaran dan logistik sudah terintegrasi rapi, dan toko bisa dibuka dalam waktu yang sangat singkat. Pertanyaannya, apakah itu sudah cukup untuk jangka panjang, atau ada saatnya perlu membangun toko online sendiri?",
+    text: "Bagi bisnis yang ingin berjualan online, marketplace adalah jalan tercepat untuk memulai: pembeli sudah tersedia dalam jumlah besar, sistem pembayaran dan logistik sudah terintegrasi rapi, dan toko bisa dibuka dalam waktu yang sangat singkat. Pertanyaannya, apakah itu sudah cukup untuk jangka panjang, atau ada saatnya perlu membangun [toko online](/services/website) sendiri?",
   },
   { type: "h2", text: "Ringkasan" },
   {

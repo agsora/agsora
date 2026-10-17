@@ -27,7 +27,7 @@ const en: Block[] = [
   { type: "p", text: "Some small businesses can last a long time with a tidy shared inbox. But once more than one person handles requests or volume starts to be felt, a system that gives structure will save time and preserve customer trust." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
+    src: "/blog/images/photo-1626863905121-3b0c0ed7b94c",
     alt: "Two women wearing headsets in a bright office workspace",
     caption: "Good support starts with a clear queue and a history anyone handling the case can see.",
   },
@@ -50,7 +50,7 @@ const en: Block[] = [
   { type: "p", text: "Maintain it regularly. An outdated article is more dangerous than no article. Assign an owner to each article, and update it when products, prices, or policies change. A ticket resolved with a new answer is a candidate to become a new article." },
   { type: "h2", text: "Canned replies and automation that helps" },
   { type: "p", text: "Canned replies speed up answers to repeated questions, provided they are adapted to context and do not sound robotic. Use them as a frame, then add the customer's name and relevant details. Customers quickly sense a reply that was pasted without being read." },
-  { type: "p", text: "Useful automation includes assigning tickets to a person or team by category, reminders as a ticket nears its deadline, automatic closing of tickets that have waited long for the customer, and a short satisfaction survey after a ticket is resolved. This automation reduces administrative work, not human conversation." },
+  { type: "p", text: "Useful [automation](/services/ai-automation) includes assigning tickets to a person or team by category, reminders as a ticket nears its deadline, automatic closing of tickets that have waited long for the customer, and a short satisfaction survey after a ticket is resolved. This automation reduces administrative work, not human conversation." },
   { type: "p", text: "If you use an automated conversational assistant, explain its limits and provide an easy path to a human. An assistant that traps customers in a loop of irrelevant answers damages reputation faster than having no assistant at all." },
   { type: "h2", text: "Escalation and cooperation between departments" },
   { type: "p", text: "Many tickets cannot be resolved by support staff alone. Payment problems need finance, shipping problems need the warehouse, and bugs need developers. Set clear escalation paths: to whom, through what, and how long they are expected to respond." },
@@ -58,7 +58,7 @@ const en: Block[] = [
   { type: "p", text: "Share findings with other departments regularly. Tickets are the most honest source of input about products and services. Repeating complaint patterns should reach the people who can fix the cause, not stop at the support desk." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    src: "/blog/images/photo-1531482615713-2afd69097998",
     alt: "Several team members discussing while looking at a computer screen in a workspace",
     caption: "Complaint patterns from tickets become material for cross department discussion to fix the causes.",
   },
@@ -87,7 +87,7 @@ const en: Block[] = [
   { type: "p", text: "Set special priority rules for busy periods, for example payment and shipping problems before general questions. Tell customers if response times will be longer than usual; transparency reduces pressure on the team." },
   { type: "p", text: "After the busy period passes, hold a short review: what was missed, what worked, and what needs preparing earlier next season. Every surge is a rehearsal that makes the team readier." },
   { type: "h2", text: "Choosing tools that fit your scale" },
-  { type: "p", text: "Tool options range from a shared inbox with assignment features, to dedicated ticket systems, to customer service modules inside a CRM. Choose the simplest one that meets your needs now and can grow. The most important capabilities are a shared queue, per customer history, assignment, and basic reports." },
+  { type: "p", text: "Tool options range from a shared inbox with assignment features, to dedicated ticket systems, to customer service modules inside a [CRM](/services/crm). Choose the simplest one that meets your needs now and can grow. The most important capabilities are a shared queue, per customer history, assignment, and basic reports." },
   { type: "p", text: "Check its integration with other systems. Agents who can see a customer's order, payment, and shipping history from within the ticket resolve problems far faster than those who must jump between apps." },
   { type: "h2", text: "Common mistakes to avoid" },
   { type: "ul", items: [
@@ -145,7 +145,7 @@ const zh: Block[] = [
   { type: "p", text: "一些小企业靠一个整洁的共享收件箱可以撑很久。但一旦有不止一个人处理请求，或业务量开始显现，一个提供结构的系统就会节省时间并维护顾客的信任。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
+    src: "/blog/images/photo-1626863905121-3b0c0ed7b94c",
     alt: "两位戴着耳机的女士在明亮的办公空间中",
     caption: "良好的客服始于清晰的队列，以及任何处理人都能看到的历史记录。",
   },
@@ -168,7 +168,7 @@ const zh: Block[] = [
   { type: "p", text: "定期维护。过时的文章比没有文章更危险。为每篇文章指定负责人，并在产品、价格或政策变化时更新。以新答案解决的工单，是成为新文章的候选。" },
   { type: "h2", text: "预设回复与有帮助的自动化" },
   { type: "p", text: "预设回复可以加快对重复问题的回答，前提是结合具体情境进行调整，且听起来不像机器人。把它们当作框架，再加上顾客的姓名和相关细节。顾客很快就能感觉到一条没读就粘贴的回复。" },
-  { type: "p", text: "有用的自动化包括：按分类把工单分配给某人或某个团队、工单临近截止时提醒、自动关闭长期等待顾客的工单，以及工单解决后的简短满意度调查。这些自动化减少的是行政工作，而不是人与人的对话。" },
+  { type: "p", text: "有用的[自动化](/services/ai-automation)包括：按分类把工单分配给某人或某个团队、工单临近截止时提醒、自动关闭长期等待顾客的工单，以及工单解决后的简短满意度调查。这些自动化减少的是行政工作，而不是人与人的对话。" },
   { type: "p", text: "如果使用自动对话助手，要说明它的局限，并提供转接真人的便捷途径。把顾客困在无关答案循环中的助手，比没有助手更快地损害声誉。" },
   { type: "h2", text: "升级处理与部门协作" },
   { type: "p", text: "许多工单无法仅靠客服人员解决。支付问题需要财务，物流问题需要仓库，缺陷需要开发人员。设定清晰的升级路径：交给谁、通过什么方式，以及期望他们多久响应。" },
@@ -176,7 +176,7 @@ const zh: Block[] = [
   { type: "p", text: "定期向其他部门分享发现。工单是关于产品和服务最诚实的反馈来源。重复出现的投诉模式应当到达能够修复原因的人那里，而不是止步于客服台。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    src: "/blog/images/photo-1531482615713-2afd69097998",
     alt: "几位团队成员在工作区一边看着电脑屏幕一边讨论",
     caption: "来自工单的投诉模式，成为跨部门讨论、修复原因的素材。",
   },
@@ -205,7 +205,7 @@ const zh: Block[] = [
   { type: "p", text: "为繁忙时期设定专门的优先规则，例如支付和物流问题先于一般咨询。如果响应时间会比平时更长，要告知顾客；透明度能减轻团队的压力。" },
   { type: "p", text: "繁忙期过后，进行一次简短的复盘：遗漏了什么、什么奏效、下个季节需要更早准备什么。每一次激增都是一次演练，让团队更有准备。" },
   { type: "h2", text: "选择适合规模的工具" },
-  { type: "p", text: "工具的选择范围从带有分配功能的共享收件箱，到专门的工单系统，再到 CRM 中的客户服务模块。选择能满足你当前需求并且可以成长的最简单的那个。最重要的功能是共享队列、按顾客的历史记录、分配以及基础报表。" },
+  { type: "p", text: "工具的选择范围从带有分配功能的共享收件箱，到专门的工单系统，再到 [CRM](/services/crm) 中的客户服务模块。选择能满足你当前需求并且可以成长的最简单的那个。最重要的功能是共享队列、按顾客的历史记录、分配以及基础报表。" },
   { type: "p", text: "检查它与其他系统的集成。能在工单内查看顾客订单、支付和物流历史的客服，解决问题的速度比必须在不同应用之间跳转的客服快得多。" },
   { type: "h2", text: "应避免的常见错误" },
   { type: "ul", items: [

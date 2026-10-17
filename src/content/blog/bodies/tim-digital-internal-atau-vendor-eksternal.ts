@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Setiap bisnis yang mulai serius mendigitalkan operasionalnya akan menghadapi satu pertanyaan besar: siapa yang akan membangun dan merawat semua ini? Apakah merekrut tim pengembang sendiri, menyerahkannya kepada vendor atau software house, atau menggabungkan keduanya? Jawabannya memengaruhi biaya, kecepatan, kendali atas sistem, dan seberapa tenang Anda saat ada masalah di tengah malam." },
-  { type: "p", text: "Tidak ada jawaban tunggal yang benar untuk semua bisnis. Perusahaan rintisan yang produk intinya adalah software berbeda kebutuhannya dengan toko ritel yang hanya butuh sistem kasir dan website. Bisnis dengan anggaran terbatas dan kebutuhan yang jelas punya pertimbangan lain dari perusahaan besar yang sistemnya berubah setiap bulan. Keputusan yang tepat bergantung pada tahap, skala, dan sifat kebutuhan Anda." },
+  { type: "p", text: "Tidak ada jawaban tunggal yang benar untuk semua bisnis. Perusahaan rintisan yang produk intinya adalah software berbeda kebutuhannya dengan toko ritel yang hanya butuh [sistem kasir](/services/pos) dan website. Bisnis dengan anggaran terbatas dan kebutuhan yang jelas punya pertimbangan lain dari perusahaan besar yang sistemnya berubah setiap bulan. Keputusan yang tepat bergantung pada tahap, skala, dan sifat kebutuhan Anda." },
   { type: "p", text: "Artikel ini membantu pemilik bisnis menimbang tiga model: tim internal, vendor eksternal, dan model gabungan. Kami membahas kelebihan dan kekurangan masing-masing, hal-hal yang sering luput dihitung, tanda-tanda model mana yang cocok, serta cara mengatur kerja sama agar tidak ada pihak yang dirugikan. Kami tidak memakai angka gaji atau tarif tertentu karena sangat bervariasi menurut wilayah, pengalaman, dan waktu; gunakan pembanding terkini dari pasar Anda sendiri." },
   { type: "h2", text: "Ringkasan" },
   {
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Karena itu, jangan memutuskan hanya berdasarkan biaya di bulan pertama. Pertimbangkan biaya total selama beberapa tahun, risiko ketergantungan, kecepatan menghadapi perubahan, dan seberapa strategis sistem itu bagi bisnis Anda. Sistem yang menjadi inti keunggulan kompetitif layak mendapat kendali lebih besar daripada sistem pendukung yang fungsinya mirip dengan milik perusahaan lain." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b",
+    src: "/blog/images/photo-1553028826-f4804a6dba3b",
     alt: "Tim bekerja dengan laptop di sebuah meja kerja bersama yang panjang",
     caption: "Siapa yang membangun dan merawat sistem sama pentingnya dengan sistem apa yang dibangun.",
   },
@@ -67,7 +67,7 @@ export const body: Block[] = [
   { type: "p", text: "Jangan menafsirkan daftar ini sebagai skor yang dijumlahkan. Beberapa faktor jauh lebih penting bagi bisnis tertentu daripada yang lain. Untuk bisnis yang sangat menghargai kecepatan peluncuran, faktor kecepatan memulai bisa mengalahkan semua yang lain. Untuk bisnis yang sistemnya menyimpan rahasia dagang atau keunggulan utama, kendali dan pengetahuan di dalam perusahaan bisa menjadi pertimbangan utama." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
+    src: "/blog/images/photo-1600880292203-757bb62b4baf",
     alt: "Dua rekan kerja saling tos di meja rapat",
     caption: "Kerja sama yang sehat antara tim internal dan vendor lahir dari peran yang jelas dan tujuan yang sama.",
   },

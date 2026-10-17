@@ -17,11 +17,11 @@ export const body: Block[] = [
   },
   { type: "h2", text: "Mengapa monitoring bukan kemewahan" },
   { type: "p", text: "Setiap sistem yang bergantung pada server, jaringan, layanan pihak ketiga, dan kode yang terus berubah pasti sesekali mengalami gangguan. Sertifikat keamanan kedaluwarsa, ruang penyimpanan penuh, penyedia pembayaran sedang bermasalah, atau pembaruan terbaru membawa kesalahan yang lolos dari pengujian. Semua itu normal. Yang tidak normal adalah menemukannya berjam-jam kemudian." },
-  { type: "p", text: "Dampak gangguan sulit diukur dengan tepat karena tergantung jam kejadian, jenis bisnis, dan lamanya. Namun logikanya sederhana: setiap menit toko online tidak bisa menerima pesanan adalah penjualan yang berpotensi hilang, dan setiap menit aplikasi internal mati adalah waktu karyawan yang terbuang. Pemantauan memperpendek jeda antara kejadian dan penanganan, dan jeda itulah yang menentukan besar kecilnya kerugian." },
+  { type: "p", text: "Dampak gangguan sulit diukur dengan tepat karena tergantung jam kejadian, jenis bisnis, dan lamanya. Namun logikanya sederhana: setiap menit [toko online](/services/website) tidak bisa menerima pesanan adalah penjualan yang berpotensi hilang, dan setiap menit aplikasi internal mati adalah waktu karyawan yang terbuang. Pemantauan memperpendek jeda antara kejadian dan penanganan, dan jeda itulah yang menentukan besar kecilnya kerugian." },
   { type: "p", text: "Manfaat lainnya kurang terlihat tetapi nyata. Data pemantauan menunjukkan pola: halaman yang melambat setiap akhir bulan, server yang kehabisan memori setiap beberapa hari, atau layanan pihak ketiga yang sering gagal. Pola seperti itu memungkinkan perbaikan permanen, bukan sekadar memadamkan api berulang kali." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    src: "/blog/images/photo-1558494949-ef010cbdcc31",
     alt: "Rak server dengan kabel jaringan yang tersusun rapat",
     caption: "Di balik setiap halaman yang terbuka ada server dan jaringan yang perlu diamati, bukan sekadar dipercaya.",
   },
@@ -61,7 +61,7 @@ export const body: Block[] = [
   { type: "p", text: "Jaga privasi. Jangan mencatat kata sandi, nomor kartu, atau data pribadi yang tidak perlu dalam log, karena log sering dibaca banyak orang dan disimpan lama. Tetapkan masa penyimpanan log yang masuk akal, dan batasi siapa yang boleh mengaksesnya. Ketentuan perlindungan data pribadi yang berlaku saat ini patut diperiksa untuk memastikan praktik pencatatan Anda sesuai." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+    src: "/blog/images/photo-1526628953301-3e589a6a8b74",
     alt: "Layar menampilkan panel metrik dengan grafik garis kecil dan angka performa",
     caption: "Grafik berguna hanya jika seseorang tahu angka mana yang menandakan masalah dan apa yang dilakukan setelahnya.",
   },

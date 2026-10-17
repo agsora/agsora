@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Hari Sabtu sore, antrean di kasir sebuah toko mengular hingga ke pintu. Tiba-tiba koneksi internet putus. Layar kasir berputar, pelanggan mulai gelisah, dan kasir hanya bisa menatap monitor sambil berharap sinyal kembali. Dalam sepuluh menit, belasan pelanggan pergi tanpa membeli apa pun. Kerugian hari itu bukan karena barang tidak laku, melainkan karena sistem tidak dirancang untuk keadaan yang sebenarnya sangat biasa: jaringan yang tidak stabil." },
-  { type: "p", text: "Banyak sistem kasir berbasis cloud bekerja sangat baik selama koneksi lancar, tetapi bergantung penuh pada internet untuk setiap transaksi. Di Indonesia, di mana kualitas jaringan sangat bervariasi antara pusat kota, pasar tradisional, dan daerah, ketergantungan ini adalah risiko operasional yang nyata. Pertanyaannya bukan apakah koneksi akan putus, tetapi kapan, dan apa yang terjadi pada bisnis Anda saat itu." },
+  { type: "p", text: "Banyak [sistem kasir](/services/pos) berbasis cloud bekerja sangat baik selama koneksi lancar, tetapi bergantung penuh pada internet untuk setiap transaksi. Di Indonesia, di mana kualitas jaringan sangat bervariasi antara pusat kota, pasar tradisional, dan daerah, ketergantungan ini adalah risiko operasional yang nyata. Pertanyaannya bukan apakah koneksi akan putus, tetapi kapan, dan apa yang terjadi pada bisnis Anda saat itu." },
   { type: "p", text: "Artikel ini membahas pendekatan offline first pada sistem kasir: apa artinya, bagaimana data disinkronkan antarperangkat dan cabang, bagaimana menangani konflik dan stok, risiko keamanan yang perlu dijaga, serta pertimbangan praktis saat memilih atau membangun sistem agar penjualan tidak pernah berhenti hanya karena sinyal hilang." },
   { type: "h2", text: "Ringkasan" },
   {
@@ -25,7 +25,7 @@ export const body: Block[] = [
   { type: "p", text: "Antrean pengiriman menjaga urutan dan keandalan. Setiap transaksi diberi identitas unik agar bila pengiriman diulang, pusat tidak mencatatnya dua kali. Prinsip ini, sering disebut idempotensi, adalah kunci mencegah transaksi ganda ketika jaringan putus sambung di tengah pengiriman." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    src: "/blog/images/photo-1556740738-b6a63e27c4df",
     alt: "Kasir memproses pembayaran pelanggan di mesin kasir toko",
     caption: "Kasir yang tetap berjalan saat sinyal hilang menjaga penjualan dan kepercayaan pelanggan.",
   },

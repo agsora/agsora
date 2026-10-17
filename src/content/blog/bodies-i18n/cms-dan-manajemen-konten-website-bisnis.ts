@@ -17,7 +17,7 @@ const en: Block[] = [
   },
   { type: "h2", text: "What a CMS actually does" },
   { type: "p", text: "A CMS provides an interface where people can create, edit, schedule, and publish content without touching program code. Content is stored in a structured way: title, body, images, category, author, publication date, and metadata for search engines. The display on the website is drawn from that data using a template that has been designed." },
-  { type: "p", text: "Separating content from presentation brings several advantages. You can change the design without rewriting articles. The same content can be used on the website, mobile app, or email. And the content team can work in parallel with the development team without waiting for each other." },
+  { type: "p", text: "Separating content from presentation brings several advantages. You can change the design without rewriting articles. The same content can be used on the website, [mobile app](/services/mobile), or email. And the content team can work in parallel with the development team without waiting for each other." },
   { type: "p", text: "Besides editing, a good CMS handles things that are often neglected: revision history, roles and access rights, publication schedules, previews before going live, media management, and multilingual support. These features determine whether content management feels orderly or anxious." },
   { type: "h2", text: "Signs you need a better CMS" },
   { type: "ul", items: [
@@ -31,7 +31,7 @@ const en: Block[] = [
   { type: "p", text: "If several of these signs feel familiar, the problem may not be the people but the tools and process. Fixing both usually gives a clear improvement in speed and quality." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
+    src: "/blog/images/photo-1507238691740-187a5b1d37b8",
     alt: "A laptop on a desk showing a website page with text about a simple experience",
     caption: "A CMS lets nontechnical teams update content without waiting for developers.",
   },
@@ -70,7 +70,7 @@ const en: Block[] = [
   { type: "p", text: "Be careful when changing a page's address or deleting it. Without a redirect, old links from other websites and search engines will lead to a not found page, so the value already built is lost. Make redirects part of the procedure whenever an address changes." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    src: "/blog/images/photo-1486312338219-ce68d2c6f44d",
     alt: "Hands typing on a laptop keyboard",
     caption: "Consistent habits of writing titles, descriptions, and alternative text keep SEO intact as content grows.",
   },
@@ -157,8 +157,8 @@ const zh: Block[] = [
     ],
   },
   { type: "h2", text: "CMS 究竟做什么" },
-  { type: "p", text: "CMS 提供一个界面，让人们无需接触程序代码就能创建、编辑、安排和发布内容。内容以结构化的方式存储：标题、正文、图片、类别、作者、发布日期，以及面向搜索引擎的元数据。网站上的展示是通过设计好的模板从这些数据中提取的。" },
-  { type: "p", text: "将内容与展示分离带来几项好处。你可以更换设计而无需重写文章。相同的内容可以用于网站、移动应用或电子邮件。内容团队可以与开发团队并行工作，无需互相等待。" },
+  { type: "p", text: "CMS 提供一个界面，让人们无需接触程序代码就能创建、编辑、安排和发布内容。内容以结构化的方式存储：标题、正文、图片、类别、作者、发布日期，以及面向搜索引擎的元数据。[网站](/services/website)上的展示是通过设计好的模板从这些数据中提取的。" },
+  { type: "p", text: "将内容与展示分离带来几项好处。你可以更换设计而无需重写文章。相同的内容可以用于网站、[移动应用](/services/mobile)或电子邮件。内容团队可以与开发团队并行工作，无需互相等待。" },
   { type: "p", text: "除了编辑，好的 CMS 还处理那些常被忽视的事情：修订历史、角色与访问权限、发布时间表、上线前预览、媒体管理和多语言支持。这些功能决定了内容管理是井然有序还是令人焦虑。" },
   { type: "h2", text: "你需要更好 CMS 的迹象" },
   { type: "ul", items: [
@@ -172,7 +172,7 @@ const zh: Block[] = [
   { type: "p", text: "如果其中几项让你感到熟悉，问题可能不在人，而在工具和流程。两者都改进，通常会让速度和质量明显提升。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
+    src: "/blog/images/photo-1507238691740-187a5b1d37b8",
     alt: "桌上的笔记本电脑显示着一个写有简单体验的网页",
     caption: "CMS 让非技术团队无需等待开发人员即可更新内容。",
   },
@@ -211,7 +211,7 @@ const zh: Block[] = [
   { type: "p", text: "更改页面地址或删除页面时要小心。没有重定向，来自其他网站和搜索引擎的旧链接会指向找不到的页面，已经建立的价值就会丢失。把重定向作为每次地址变更时的流程的一部分。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    src: "/blog/images/photo-1486312338219-ce68d2c6f44d",
     alt: "手在笔记本电脑键盘上打字",
     caption: "持续书写标题、描述和替代文字的习惯，使 SEO 随着内容增长而保持完好。",
   },

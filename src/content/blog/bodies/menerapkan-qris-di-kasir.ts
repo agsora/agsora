@@ -27,7 +27,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kode dinamis yang terhubung langsung ke sistem kasir jauh mengurangi risiko salah nominal, karena pelanggan tidak perlu mengetik angka sendiri, dan memudahkan pencocokan, karena setiap pembayaran terkait langsung dengan transaksi spesifik di kasir. Kode statis lebih sederhana untuk diterapkan tapi membuka lebih banyak celah kesalahan manusia, baik dari pelanggan yang salah ketik maupun kasir yang lupa mencocokkan.",
+    text: "Kode dinamis yang terhubung langsung ke [sistem kasir](/services/pos) jauh mengurangi risiko salah nominal, karena pelanggan tidak perlu mengetik angka sendiri, dan memudahkan pencocokan, karena setiap pembayaran terkait langsung dengan transaksi spesifik di kasir. Kode statis lebih sederhana untuk diterapkan tapi membuka lebih banyak celah kesalahan manusia, baik dari pelanggan yang salah ketik maupun kasir yang lupa mencocokkan.",
   },
   { type: "h2", text: "Masalah yang sering muncul" },
   {

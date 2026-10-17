@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
+    src: "/blog/images/photo-1556745757-8d76bdb6984b",
     alt: "Pemilik toko melayani transaksi menggunakan perangkat kasir tablet di meja kasir",
     caption: "Digitalisasi bisnis keluarga sering dimulai dari transaksi harian yang paling sering terjadi.",
   },
@@ -70,7 +70,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Catatan ini menjadi bahan utama untuk merancang sistem. Aturan harga bisa diterjemahkan menjadi daftar harga dan skema diskon di sistem penjualan. Pengetahuan tentang pelanggan bisa menjadi data di CRM. Pola stok bisa menjadi batas minimum dan pengingat pembelian di sistem persediaan. Dengan cara ini, sistem yang dibangun bukan sesuatu yang asing, melainkan cerminan dari cara kerja yang sudah dikenal semua orang.",
+    text: "Catatan ini menjadi bahan utama untuk merancang sistem. Aturan harga bisa diterjemahkan menjadi daftar harga dan skema diskon di sistem penjualan. Pengetahuan tentang pelanggan bisa menjadi data di [CRM](/services/crm). Pola stok bisa menjadi batas minimum dan pengingat pembelian di sistem persediaan. Dengan cara ini, sistem yang dibangun bukan sesuatu yang asing, melainkan cerminan dari cara kerja yang sudah dikenal semua orang.",
   },
   { type: "h2", text: "Urutan langkah yang realistis" },
   {
@@ -89,11 +89,11 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Urutan ini sengaja menempatkan saluran penjualan baru di akhir. Banyak generasi penerus ingin langsung membuka toko online atau membuat aplikasi, tapi saluran baru hanya akan menambah kekacauan jika stok, harga, dan pesanan di dalam bisnis belum tercatat rapi. Fondasi yang kuat membuat ekspansi digital jauh lebih mudah dan lebih aman.",
+    text: "Urutan ini sengaja menempatkan saluran penjualan baru di akhir. Banyak generasi penerus ingin langsung membuka [toko online](/services/website) atau membuat aplikasi, tapi saluran baru hanya akan menambah kekacauan jika stok, harga, dan pesanan di dalam bisnis belum tercatat rapi. Fondasi yang kuat membuat ekspansi digital jauh lebih mudah dan lebih aman.",
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1596784269480-039b2a893af0",
+    src: "/blog/images/photo-1596784269480-039b2a893af0",
     alt: "Tangga batu menanjak di lereng berumput",
     caption: "Sistem yang tertata membuat bisnis keluarga siap bertumbuh dan menerima anggota tim baru.",
   },

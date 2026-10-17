@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Setiap hari toko online menerima pesanan dan pembayaran lewat berbagai jalur: transfer bank, dompet digital, kartu, kode QR, bayar di tempat, dan kadang cicilan. Di sisi lain, uang masuk ke rekening bank dengan jeda waktu, dipotong biaya, dan sering digabung dalam satu setoran dari penyedia pembayaran. Ketika akhir bulan tiba, pertanyaan sederhana muncul: apakah uang yang masuk di rekening sama dengan penjualan yang tercatat di sistem?" },
   { type: "p", text: "Menjawab pertanyaan itu adalah tugas rekonsiliasi pembayaran. Tanpanya, bisnis bisa mengira penjualannya sehat padahal ada pesanan yang tidak pernah dibayar, pembayaran yang tersangkut, pengembalian dana yang tidak tercatat, atau biaya layanan yang membengkak tanpa disadari. Banyak toko mengerjakannya secara manual dengan lembar kerja, dan pekerjaan itu makin menyiksa seiring bertambahnya transaksi." },
-  { type: "p", text: "Artikel ini membahas cara merancang rekonsiliasi pembayaran yang rapi dan, sejauh mungkin, otomatis untuk toko online dan aplikasi. Kami membahas sumber selisih, kunci pencocokan, alur harian dan bulanan, penanganan pengecualian, pencatatan biaya, pengendalian internal, dan pilihan alat. Kami tidak memakai angka rekaan tentang biaya layanan atau waktu pencairan; ketentuan itu berbeda per penyedia dan perlu diperiksa pada perjanjian dan dokumentasi terbaru Anda." },
+  { type: "p", text: "Artikel ini membahas cara merancang rekonsiliasi pembayaran yang rapi dan, sejauh mungkin, otomatis untuk [toko online](/services/website) dan aplikasi. Kami membahas sumber selisih, kunci pencocokan, alur harian dan bulanan, penanganan pengecualian, pencatatan biaya, pengendalian internal, dan pilihan alat. Kami tidak memakai angka rekaan tentang biaya layanan atau waktu pencairan; ketentuan itu berbeda per penyedia dan perlu diperiksa pada perjanjian dan dokumentasi terbaru Anda." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Dari sisi operasional, rekonsiliasi yang rapi membuat tutup buku bulanan berjalan hitungan hari, bukan hitungan minggu. Tim keuangan tidak lagi memburu bukti pembayaran satu per satu, dan tim layanan pelanggan bisa menjawab pertanyaan tentang status pembayaran dengan pasti." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja",
     caption: "Rekonsiliasi memastikan angka di laporan sama dengan uang yang benar-benar diterima di rekening.",
   },
@@ -81,14 +81,14 @@ export const body: Block[] = [
   { type: "p", text: "Uang yang sudah dibayar pelanggan tetapi belum cair ke rekening adalah piutang dari penyedia pembayaran, bukan kas. Perlakukan sebagai akun peralihan yang dikosongkan ketika setoran diterima. Akun ini sekaligus menjadi alat kontrol: saldonya harus selalu dapat dijelaskan oleh transaksi yang belum dicairkan, dan saldo yang membesar tanpa sebab menandakan ada yang tertinggal." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
+    src: "/blog/images/photo-1556742502-ec7c0e9f34b1",
     alt: "Pelanggan menempelkan kartu pembayaran ke mesin pembaca nontunai",
     caption: "Setiap pembayaran yang berhasil harus bisa ditelusuri sampai ke pesanan dan ke setoran di rekening.",
   },
   { type: "h2", text: "Pembayaran di tempat dan kanal lain" },
   { type: "p", text: "Bayar di tempat membawa tantangan rekonsiliasi tersendiri. Uang dipegang kurir atau perusahaan ekspedisi lalu disetorkan dalam beberapa hari, sering digabung dari banyak paket dan dipotong biaya layanan. Rekonsiliasinya mencocokkan daftar paket yang terkirim dan tertagih dengan setoran dari ekspedisi. Paket yang gagal kirim atau dikembalikan tidak boleh ikut dihitung sebagai pendapatan." },
   { type: "p", text: "Bila toko juga menjual lewat marketplace, setiap marketplace menyetorkan dana menurut jadwalnya sendiri setelah memotong komisi, ongkos kirim, dan biaya promosi. Pelajari laporan penyelesaian dari tiap marketplace dan pasangkan dengan pesanan serta mutasi bank. Laporan itu biasanya memuat rincian per pesanan sehingga selisih antara nilai penjualan dan dana diterima bisa dijelaskan." },
-  { type: "p", text: "Untuk penjualan di toko fisik, rekonsiliasi kas dan nontunai dilakukan terhadap laporan sistem kasir. Memakai satu sistem pencatatan untuk semua kanal membuat pencocokan jauh lebih mudah karena nomor pesanan, kode barang, dan struktur data seragam." },
+  { type: "p", text: "Untuk penjualan di toko fisik, rekonsiliasi kas dan nontunai dilakukan terhadap laporan [sistem kasir](/services/pos). Memakai satu sistem pencatatan untuk semua kanal membuat pencocokan jauh lebih mudah karena nomor pesanan, kode barang, dan struktur data seragam." },
   { type: "h2", text: "Tutup buku bulanan yang tidak menegangkan" },
   { type: "p", text: "Dengan rutinitas harian yang berjalan, tutup buku bulanan menjadi verifikasi akhir, bukan pencarian besar-besaran. Tetapkan tanggal batas yang konsisten untuk menarik laporan, menyelesaikan pengecualian, dan menyetujui hasilnya. Perhatikan transaksi yang melintasi pergantian bulan, seperti pembayaran di akhir bulan yang baru cair di awal bulan berikutnya, dan perlakukan secara konsisten sesuai kebijakan akuntansi Anda." },
   { type: "ol", items: [
@@ -111,7 +111,7 @@ export const body: Block[] = [
   ] },
   { type: "p", text: "Perhatikan juga keamanan data pembayaran. Toko tidak perlu dan sebaiknya tidak menyimpan data kartu lengkap; serahkan pemrosesan ke penyedia pembayaran yang berwenang dan simpan hanya rujukan transaksi. Periksa ketentuan keamanan data pembayaran yang berlaku saat ini bila toko Anda menangani data kartu dalam bentuk apa pun." },
   { type: "h2", text: "Memilih alat dan tingkat otomatisasi" },
-  { type: "p", text: "Pilihan alat bergantung pada volume transaksi dan kerumitan kanal. Pada volume kecil, lembar kerja dengan impor laporan dan rumus pencocokan bisa cukup, asalkan kunci pencocokan konsisten. Ketika transaksi mencapai ratusan per hari atau kanal bertambah, otomatisasi menjadi investasi yang terbayar." },
+  { type: "p", text: "Pilihan alat bergantung pada volume transaksi dan kerumitan kanal. Pada volume kecil, lembar kerja dengan impor laporan dan rumus pencocokan bisa cukup, asalkan kunci pencocokan konsisten. Ketika transaksi mencapai ratusan per hari atau kanal bertambah, [otomatisasi](/services/ai-automation) menjadi investasi yang terbayar." },
   { type: "ul", items: [
     "Fitur rekonsiliasi bawaan sistem toko, ERP, atau perangkat lunak akuntansi Anda, bila tersedia",
     "Impor otomatis laporan transaksi dari penyedia pembayaran lewat antarmuka atau berkas terjadwal",

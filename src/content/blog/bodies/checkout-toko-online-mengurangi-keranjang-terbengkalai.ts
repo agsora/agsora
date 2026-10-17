@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    src: "/blog/images/photo-1556742111-a301076d9d18",
     alt: "Dua tangan melakukan pembayaran nirsentuh dengan ponsel pada mesin pembaca kartu",
     caption: "Pelanggan yang sudah siap membayar adalah yang paling dekat dengan membeli; jangan biarkan alur checkout membuatnya ragu.",
   },
@@ -85,7 +85,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    src: "/blog/images/photo-1556740738-b6a63e27c4df",
     alt: "Pegawai toko tersenyum di depan tablet kasir di sebuah kafe berlangit-langit tinggi",
     caption: "Pelanggan yang siap membeli sebaiknya tidak dibuat menunggu atau bingung di langkah terakhir.",
   },
@@ -149,7 +149,7 @@ export const body: Block[] = [
   { type: "h2", text: "Peran sistem di belakang layar" },
   {
     type: "p",
-    text: "Pengalaman checkout yang mulus bergantung pada sistem di belakangnya. Stok harus akurat agar pelanggan tidak membayar barang yang sebenarnya habis. Ongkos kirim harus dihitung otomatis dengan benar. Status pembayaran harus diterima dan dicatat dengan andal, dan pesanan harus masuk ke sistem operasional tanpa input ulang. Bila toko online terhubung ke sistem kasir, inventori, dan akuntansi Anda, seluruh alur dari klik beli sampai barang tiba menjadi lebih rapi.",
+    text: "Pengalaman checkout yang mulus bergantung pada sistem di belakangnya. Stok harus akurat agar pelanggan tidak membayar barang yang sebenarnya habis. Ongkos kirim harus dihitung otomatis dengan benar. Status pembayaran harus diterima dan dicatat dengan andal, dan pesanan harus masuk ke sistem operasional tanpa input ulang. Bila [toko online](/services/website) terhubung ke sistem kasir, inventori, dan akuntansi Anda, seluruh alur dari klik beli sampai barang tiba menjadi lebih rapi.",
   },
   {
     type: "p",

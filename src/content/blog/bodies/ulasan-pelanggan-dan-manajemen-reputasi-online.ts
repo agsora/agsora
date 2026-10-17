@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Sebelum membeli di toko yang belum dikenal, hampir semua orang melakukan hal yang sama: mencari ulasannya. Mereka membuka peta, melihat jumlah bintang, membaca beberapa komentar terbaru, dan dalam waktu kurang dari semenit sudah memutuskan apakah akan datang atau berpaling ke pesaing. Reputasi online telah menjadi etalase pertama bisnis, sering kali sebelum pelanggan melihat situs resmi Anda." },
   { type: "p", text: "Banyak pemilik bisnis memperlakukan ulasan sebagai sesuatu yang terjadi begitu saja, seperti cuaca. Padahal ulasan dapat dikelola: bagaimana meminta, bagaimana menanggapi, bagaimana belajar dari keluhan, dan bagaimana mengubah semuanya menjadi aset yang membantu penjualan. Bisnis yang mengelolanya dengan sadar biasanya unggul tanpa harus mengeluarkan biaya iklan tambahan." },
-  { type: "p", text: "Artikel ini membahas cara membangun dan menjaga reputasi online secara jujur dan berkelanjutan: mengapa ulasan berpengaruh begitu besar, bagaimana mengumpulkannya secara etis, cara menanggapi ulasan positif maupun negatif, cara menghadapi ulasan palsu, serta bagaimana menghubungkannya dengan sistem CRM dan operasional agar umpan balik benar-benar mengubah layanan." },
+  { type: "p", text: "Artikel ini membahas cara membangun dan menjaga reputasi online secara jujur dan berkelanjutan: mengapa ulasan berpengaruh begitu besar, bagaimana mengumpulkannya secara etis, cara menanggapi ulasan positif maupun negatif, cara menghadapi ulasan palsu, serta bagaimana menghubungkannya dengan [sistem CRM](/services/crm) dan operasional agar umpan balik benar-benar mengubah layanan." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -25,7 +25,7 @@ export const body: Block[] = [
   { type: "p", text: "Permudah langkahnya. Kirim tautan langsung ke halaman ulasan, jangan menyuruh pelanggan mencari sendiri. Satu ketukan menuju formulir lebih efektif daripada petunjuk panjang. Pada toko fisik, kode QR di meja kasir atau struk dapat mengarahkan pelanggan ke halaman ulasan dalam hitungan detik." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+    src: "/blog/images/photo-1556742049-0cfed4f6a45d",
     alt: "Pelanggan membayar dengan kartu pada mesin pembayaran di sebuah toko",
     caption: "Momen setelah transaksi yang baik adalah waktu paling alami untuk meminta ulasan.",
   },
@@ -63,14 +63,14 @@ export const body: Block[] = [
   { type: "p", text: "Tutup lingkarannya. Ketika Anda memperbaiki sesuatu berdasarkan masukan, beri tahu pelanggan, misalnya lewat balasan atau pengumuman singkat. Pelanggan yang merasa didengarkan cenderung memperbarui ulasan mereka dan menceritakannya kepada orang lain." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    src: "/blog/images/photo-1522202176988-66273c2fd55f",
     alt: "Sekelompok orang berdiskusi di sekitar meja dengan laptop",
     caption: "Ulasan paling berguna ketika dibahas bersama tim dan diubah menjadi perbaikan nyata.",
   },
   { type: "h2", text: "Menampilkan ulasan di situs dan toko online" },
   { type: "p", text: "Ulasan tidak hanya tinggal di platform pihak ketiga. Menampilkan kutipan pilihan di halaman produk, halaman layanan, dan halaman checkout membantu menenangkan keraguan tepat pada saat keputusan diambil. Cantumkan sumber dan tanggal agar kredibel, dan tampilkan juga ulasan yang tidak sempurna supaya terasa autentik." },
   { type: "p", text: "Gunakan data terstruktur yang sesuai agar mesin pencari memahami peringkat dan jumlah ulasan, dan patuhi pedoman platform mengenai ulasan mana yang boleh ditampilkan sebagai bintang pada hasil pencarian. Pastikan angka yang tampil di situs konsisten dengan sumbernya." },
-  { type: "p", text: "Untuk toko online, ulasan produk yang diverifikasi berdasarkan pembelian nyata jauh lebih tepercaya. Tandai ulasan dari pembeli sebenarnya, izinkan foto dan video dari pelanggan, dan beri ruang bagi bisnis untuk menanggapi. Fitur tanya jawab produk juga membantu mengurangi pertanyaan berulang ke layanan pelanggan." },
+  { type: "p", text: "Untuk [toko online](/services/website), ulasan produk yang diverifikasi berdasarkan pembelian nyata jauh lebih tepercaya. Tandai ulasan dari pembeli sebenarnya, izinkan foto dan video dari pelanggan, dan beri ruang bagi bisnis untuk menanggapi. Fitur tanya jawab produk juga membantu mengurangi pertanyaan berulang ke layanan pelanggan." },
   { type: "h2", text: "Reputasi di banyak kanal sekaligus" },
   { type: "p", text: "Pelanggan tidak hanya meninggalkan ulasan di satu tempat. Ada peta, marketplace, media sosial, forum komunitas, bahkan grup percakapan yang tidak terlihat dari luar. Bisnis yang hanya memantau satu kanal sering terlambat mengetahui bahwa ada keluhan yang sudah beredar di tempat lain dan memengaruhi calon pelanggan." },
   { type: "p", text: "Buat daftar kanal yang relevan untuk bisnis Anda dan tentukan seberapa sering masing-masing dicek. Untuk bisnis lokal, profil di peta dan marketplace biasanya prioritas utama; untuk bisnis B2B, platform ulasan perangkat lunak atau direktori industri lebih berpengaruh. Beberapa alat memusatkan notifikasi ulasan dari banyak sumber sehingga tim tidak perlu membuka satu per satu." },

@@ -27,7 +27,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Masalah lainnya, banyak sistem kasir dirancang untuk kemudahan transaksi, bukan untuk mencegah penyalahgunaan. Pembatalan yang mudah dilakukan tanpa jejak, diskon yang bisa diberikan tanpa batas, dan akun kasir yang dipakai bersama menjadi celah yang bisa dimanfaatkan siapa pun yang tahu caranya.",
+    text: "Masalah lainnya, banyak [sistem kasir](/services/pos) dirancang untuk kemudahan transaksi, bukan untuk mencegah penyalahgunaan. Pembatalan yang mudah dilakukan tanpa jejak, diskon yang bisa diberikan tanpa batas, dan akun kasir yang dipakai bersama menjadi celah yang bisa dimanfaatkan siapa pun yang tahu caranya.",
   },
   { type: "h2", text: "Celah yang paling sering dimanfaatkan" },
   {

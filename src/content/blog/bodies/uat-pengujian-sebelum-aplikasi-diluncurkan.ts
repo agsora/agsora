@@ -22,7 +22,7 @@ export const body: Block[] = [
   { type: "p", text: "Karena itu, UAT bukan formalitas tanda tangan di akhir proyek. Ia adalah jaring pengaman terakhir antara kesalahan pemahaman dan operasional nyata. Menyingkatnya demi mengejar jadwal hampir selalu berujung pada biaya yang lebih besar setelah peluncuran, ketika perbaikan harus dilakukan sambil bisnis berjalan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "Layar laptop menampilkan kode program berwarna di editor",
     caption: "Tim teknis memastikan kode bekerja sesuai rancangan; UAT memastikan rancangan itu sesuai pekerjaan nyata.",
   },
@@ -52,7 +52,7 @@ export const body: Block[] = [
   { type: "p", text: "Aplikasi yang tampak mulus dengan lima baris data contoh bisa melambat atau membingungkan dengan ribuan data sungguhan. Jika memungkinkan, muat data uji yang mendekati jumlah dan ragam data nyata, misalnya hasil migrasi sebagian data lama yang sudah dianonimkan. Uji juga pada perangkat dan koneksi yang benar-benar dipakai pengguna, termasuk yang paling sederhana. Pengujian di laptop pengembang yang cepat tidak mewakili toko dengan tablet tua dan sinyal lemah." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "Laptop menampilkan halaman web dengan tombol ajakan bertindak, tangan di trackpad",
     caption: "Penguji bisnis memeriksa apakah tampilan dan alur benar-benar masuk akal untuk pekerjaan mereka.",
   },

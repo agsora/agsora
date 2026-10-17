@@ -31,7 +31,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Platform no code memungkinkan orang tanpa latar belakang pemrograman membuat aplikasi, formulir, alur kerja, atau halaman web lewat antarmuka visual. Komponen sudah tersedia, dan pembuat aplikasi merangkai serta mengonfigurasinya. Contoh penggunaannya adalah formulir permintaan internal, pelacak tugas sederhana, katalog, atau otomatisasi yang menghubungkan beberapa aplikasi populer.",
+    text: "Platform no code memungkinkan orang tanpa latar belakang pemrograman membuat aplikasi, formulir, alur kerja, atau halaman web lewat antarmuka visual. Komponen sudah tersedia, dan pembuat aplikasi merangkai serta mengonfigurasinya. Contoh penggunaannya adalah formulir permintaan internal, pelacak tugas sederhana, katalog, atau [otomatisasi](/services/ai-automation) yang menghubungkan beberapa aplikasi populer.",
   },
   {
     type: "h3",
@@ -51,7 +51,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "Layar laptop menampilkan baris-baris kode program di ruangan gelap",
     caption: "Pilihan antara alat siap pakai dan kode khusus bergantung pada kebutuhan, bukan pada mana yang terdengar lebih canggih.",
   },
@@ -122,7 +122,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1494059980473-813e73ee784b",
+    src: "/blog/images/photo-1494059980473-813e73ee784b",
     alt: "Tumpukan keping puzzle",
     caption: "Keputusan teknologi sebaiknya diambil bersama orang yang memahami proses dan yang akan memakai sistem setiap hari.",
   },

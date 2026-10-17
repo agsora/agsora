@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "In many B2B companies, relations with customers and suppliers still run through email, short messages, phone calls, and spreadsheets sent back and forth. Customers ask about order status, suppliers ask about payment schedules, and salespeople must hunt for answers one by one across various systems. Each simple question takes two parties' time, and the same question comes again next week." },
   { type: "p", text: "A customer and supplier portal answers this problem by giving business partners limited access to information that is rightfully theirs. Customers can reorder, see purchase history, download invoices, and track shipments without phoning. Suppliers can see purchase orders, confirm schedules, and upload documents without waiting for an email reply. The result is not only efficiency but also a professional impression that sets you apart from competitors." },
-  { type: "p", text: "This article covers how to plan and build a B2B portal that is actually used. We discuss the benefits, the features worth doing first, the relationship with ERP and CRM, access rights and security, user experience, adoption by partners, and how to measure success. We use no invented figures about savings or sales gains; what we offer are principles and a checklist you can apply to companies of various sizes." },
+  { type: "p", text: "This article covers how to plan and build a B2B portal that is actually used. We discuss the benefits, the features worth doing first, the relationship with [ERP](/services/erp) and CRM, access rights and security, user experience, adoption by partners, and how to measure success. We use no invented figures about savings or sales gains; what we offer are principles and a checklist you can apply to companies of various sizes." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "There is a data quality benefit too. When partners enter orders or confirm schedules themselves, copy and paste mistakes and mishearing decline. Uploaded documents are linked directly to the right order, not scattered in the personal inboxes of employees who later move divisions." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "Two people discussing while pointing at documents in a business meeting",
     caption: "A portal does not replace relationships between people, but frees conversations from administrative questions the system can answer.",
   },
@@ -57,7 +57,7 @@ const en: Block[] = [
   ] },
   { type: "p", text: "Features that almost always make the early list are order and shipment status, access to invoices and documents, and reordering. These three answer the most common questions and are relatively easy to build if data is already tidy in the underlying system. Features such as price negotiation, product configurators, or elaborate supplier scoring should follow once the portal has proved it is used." },
   { type: "h2", text: "The portal as a window onto ERP and CRM" },
-  { type: "p", text: "The most important principle in designing a portal is that it is not a new standalone system but a window onto systems that already exist. Order, stock, invoice, and payment data live in the ERP. Relationship, contact, and interaction history data live in the CRM. The portal reads from, and where needed writes back to, those systems." },
+  { type: "p", text: "The most important principle in designing a portal is that it is not a new standalone system but a window onto systems that already exist. Order, stock, invoice, and payment data live in the ERP. Relationship, contact, and interaction history data live in the [CRM](/services/crm). The portal reads from, and where needed writes back to, those systems." },
   { type: "p", text: "If the portal has its own copy of data that must be maintained separately, discrepancies are unavoidable: stock in the portal differs from stock in the ERP, order status is out of date, and the invoice the customer sees differs from the financial record. Partner trust is lost the moment they find a single wrong figure. So design the data flow clearly: the source of truth is in the core system, and the portal shows that data with as little delay as possible." },
   { type: "ul", items: [
     "Use a documented programming interface to read and write data from the ERP and CRM",
@@ -93,7 +93,7 @@ const en: Block[] = [
   { type: "p", text: "Speed is part of the experience too. A portal that is slow to load the order list invites a return to the phone. Pay attention to performance from the start, especially for customers with thousands of history rows, and test with data as large as the real thing." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "A laptop showing a web page with a call to action button, a hand on the trackpad",
     caption: "A successful portal lets a partner finish their main task in a few clicks, not a few phone calls.",
   },
@@ -165,7 +165,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "在许多 B2B 企业里,与客户和供应商的往来仍然靠电子邮件、短消息、电话和来回发送的表格。客户询问订单状态,供应商询问付款安排,销售人员只能在各个系统里逐个查找答案。每个简单的问题都占用双方的时间,而同样的问题下周又会出现。" },
   { type: "p", text: "客户与供应商门户通过让商业伙伴有限度地访问本就属于他们的信息,来解决这个问题。客户可以复购、查看采购历史、下载发票和追踪物流,无需打电话。供应商可以查看采购订单、确认交期并上传文件,无需等待邮件回复。结果不仅是效率,还有让你与竞争对手拉开差距的专业印象。" },
-  { type: "p", text: "本文介绍如何规划并建设一个真正被使用的 B2B 门户。我们讨论好处、值得优先做的功能、与 ERP 和 CRM 的关系、访问权限与安全、用户体验、伙伴的采用,以及如何衡量成功。我们不使用杜撰的节省或销售增长数字;提供的是适用于各种规模企业的原则和检查清单。" },
+  { type: "p", text: "本文介绍如何规划并建设一个真正被使用的 B2B 门户。我们讨论好处、值得优先做的功能、与 [ERP](/services/erp) 和 CRM 的关系、访问权限与安全、用户体验、伙伴的采用,以及如何衡量成功。我们不使用杜撰的节省或销售增长数字;提供的是适用于各种规模企业的原则和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -183,7 +183,7 @@ const zh: Block[] = [
   { type: "p", text: "还有数据质量方面的好处。当伙伴自己录入订单或确认交期时,复制粘贴的错误和听错的情况会减少。上传的文件直接关联到正确的订单,而不是散落在后来调换部门的员工的个人邮箱里。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "商务会议中两人一边讨论一边指着文件",
     caption: "门户不会取代人与人的关系,而是让对话摆脱系统就能回答的行政性问题。",
   },
@@ -219,7 +219,7 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "几乎总会进入早期清单的功能,是订单和物流状态、发票与文件的访问,以及复购。这三项回答了最常见的问题,而且如果底层系统的数据已经整齐,构建起来相对容易。像价格谈判、产品配置器或复杂的供应商评分这样的功能,应在门户证明确实有人使用之后再做。" },
   { type: "h2", text: "门户是 ERP 和 CRM 的窗口" },
-  { type: "p", text: "设计门户最重要的原则是:它不是一个新的独立系统,而是已有系统的窗口。订单、库存、发票和付款数据存放在 ERP 中。关系、联系人和互动历史数据存放在 CRM 中。门户从这些系统读取数据,必要时再写回。" },
+  { type: "p", text: "设计门户最重要的原则是:它不是一个新的独立系统,而是已有系统的窗口。订单、库存、发票和付款数据存放在 ERP 中。关系、联系人和互动历史数据存放在 [CRM](/services/crm) 中。门户从这些系统读取数据,必要时再写回。" },
   { type: "p", text: "如果门户有自己需要单独维护的数据副本,差异就不可避免:门户中的库存与 ERP 中的不同,订单状态已过时,客户看到的发票与财务记录不一致。伙伴一旦发现一个错误的数字,信任就消失了。所以要清晰地设计数据流:真实来源在核心系统中,门户以尽可能小的延迟显示这些数据。" },
   { type: "ul", items: [
     "使用有文档的编程接口,从 ERP 和 CRM 读取和写入数据",
@@ -255,7 +255,7 @@ const zh: Block[] = [
   { type: "p", text: "速度也是体验的一部分。加载订单列表很慢的门户,会促使人们回头打电话。从一开始就关注性能,尤其是对有数千行历史记录的客户,并用与真实数据同样规模的数据进行测试。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "笔记本电脑显示带有行动号召按钮的网页,手放在触控板上",
     caption: "成功的门户让伙伴只需几次点击就能完成主要任务,而不是几个电话。",
   },

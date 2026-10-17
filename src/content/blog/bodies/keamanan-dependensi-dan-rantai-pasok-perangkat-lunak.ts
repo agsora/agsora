@@ -33,7 +33,7 @@ export const body: Block[] = [
   { type: "p", text: "Kategori terakhir sering diremehkan. Pustaka yang dulu populer dan kini tidak dipelihara tetap berjalan di banyak aplikasi, dan ketika kerentanan baru ditemukan, tidak ada yang memperbaikinya. Mengenali komponen yang sudah ditinggalkan adalah bagian penting dari pengelolaan risiko." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "Layar laptop menampilkan kode program berwarna di editor",
     caption: "Setiap pustaka pihak ketiga adalah kode yang berjalan dengan hak akses yang sama dengan aplikasi Anda.",
   },
@@ -85,7 +85,7 @@ export const body: Block[] = [
   ] },
   { type: "p", text: "Rahasia yang tertanam di dalam kode adalah kesalahan klasik. Kunci akses yang tersimpan di repositori, apalagi yang bersifat publik, dapat ditemukan dan disalahgunakan dalam hitungan menit. Pakailah pengelola rahasia, dan pindai repositori secara otomatis untuk mendeteksi rahasia yang tidak sengaja tersimpan." },
   { type: "h2", text: "Rantai pasok di luar kode: vendor dan layanan" },
-  { type: "p", text: "Rantai pasok bisnis Anda juga mencakup layanan pihak ketiga yang terhubung ke sistem: penyedia pembayaran, layanan analitik, alat dukungan pelanggan, dan banyak lagi. Skrip yang dimuat dari layanan luar ke halaman toko online Anda dapat mencuri data pembayaran bila penyedianya disusupi." },
+  { type: "p", text: "Rantai pasok bisnis Anda juga mencakup layanan pihak ketiga yang terhubung ke sistem: penyedia pembayaran, layanan analitik, alat dukungan pelanggan, dan banyak lagi. Skrip yang dimuat dari layanan luar ke halaman [toko online](/services/website) Anda dapat mencuri data pembayaran bila penyedianya disusupi." },
   { type: "p", text: "Kendalikan apa yang boleh berjalan di sistem Anda. Batasi skrip pihak ketiga pada yang benar-benar diperlukan, gunakan kebijakan keamanan konten yang membatasi sumber skrip, dan tinjau secara berkala layanan eksternal yang terhubung. Setiap integrasi adalah kepercayaan yang Anda berikan; pastikan ia pantas." },
   { type: "p", text: "Untuk vendor perangkat lunak yang Anda beli atau sewa, ajukan pertanyaan tentang praktik keamanan mereka: bagaimana mereka mengelola dependensi, seberapa cepat mereka memperbaiki kerentanan, apakah mereka menyediakan daftar komponen, dan bagaimana mereka memberi tahu pelanggan saat terjadi insiden." },
   { type: "h2", text: "Lisensi dan kepatuhan komponen sumber terbuka" },

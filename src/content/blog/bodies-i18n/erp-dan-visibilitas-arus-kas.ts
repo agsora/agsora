@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This article looks at how an ERP system helps a business see its cash flow more clearly and earlier, which modules and data matter most, and what needs to be in place so those benefits are actually felt rather than remaining a promise in a vendor's presentation.",
+    text: "This article looks at how an [ERP system](/services/erp) helps a business see its cash flow more clearly and earlier, which modules and data matter most, and what needs to be in place so those benefits are actually felt rather than remaining a promise in a vendor's presentation.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    src: "/blog/images/photo-1733727584002-e64f62fc1095",
     alt: "A wallet on a table filled with cash",
     caption: "A cash flow dashboard is only as accurate as the transaction data entering the system each day.",
   },
@@ -94,7 +94,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    src: "/blog/images/photo-1745270917233-65e776a47547",
     alt: "A stock chart showing growth and potential profit",
     caption: "Cash flow visibility lets finance and operations discuss things using the same numbers.",
   },
@@ -105,7 +105,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Automatic alerts complement the dashboard. The system can flag when a particular customer's receivable passes a set number of days, when a customer with overdue balances places a new order, or when the projected cash for a given week drops below a safe threshold. This way, management's attention goes to the exceptions that really matter, rather than being spent checking figures that are perfectly fine.",
+    text: "Automatic alerts complement the [dashboard](/services/dashboard). The system can flag when a particular customer's receivable passes a set number of days, when a customer with overdue balances places a new order, or when the projected cash for a given week drops below a safe threshold. This way, management's attention goes to the exceptions that really matter, rather than being spent checking figures that are perfectly fine.",
   },
   {
     type: "ul",
@@ -177,7 +177,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文将探讨 ERP 系统如何帮助企业更清晰、更早地看清现金流,哪些模块和数据最关键,以及需要做好哪些准备,才能让这些收益真正落地,而不只是停留在供应商演示中的承诺。",
+    text: "本文将探讨 [ERP 系统](/services/erp)如何帮助企业更清晰、更早地看清现金流,哪些模块和数据最关键,以及需要做好哪些准备,才能让这些收益真正落地,而不只是停留在供应商演示中的承诺。",
   },
   { type: "h2", text: "要点摘要" },
   {
@@ -201,7 +201,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    src: "/blog/images/photo-1733727584002-e64f62fc1095",
     alt: "放在桌上、塞满现金的钱包",
     caption: "现金流仪表盘的准确程度,取决于每天进入系统的交易数据。",
   },
@@ -260,7 +260,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    src: "/blog/images/photo-1745270917233-65e776a47547",
     alt: "显示增长与潜在利润的股价图表",
     caption: "现金流可见性让财务与运营部门能够基于同一组数字进行讨论。",
   },
@@ -271,7 +271,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "自动预警是仪表盘的补充。当某位客户的应收账款超过设定天数、有逾期欠款的客户提交新订单,或某一周的预测现金低于安全线时,系统都可以发出提醒。这样,管理层的注意力就会集中在真正重要的例外情况上,而不是花在检查本来就没问题的数字上。",
+    text: "自动预警是[仪表盘](/services/dashboard)的补充。当某位客户的应收账款超过设定天数、有逾期欠款的客户提交新订单,或某一周的预测现金低于安全线时,系统都可以发出提醒。这样,管理层的注意力就会集中在真正重要的例外情况上,而不是花在检查本来就没问题的数字上。",
   },
   {
     type: "ul",

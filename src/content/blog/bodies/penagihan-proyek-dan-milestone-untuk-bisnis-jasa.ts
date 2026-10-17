@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Bisnis jasa profesional seperti konsultan, agensi, kontraktor, dan pengembang perangkat lunak punya masalah yang jarang dialami toko ritel: pekerjaan berlangsung berminggu-minggu atau berbulan-bulan sebelum ada barang yang diserahkan, sementara biaya, terutama gaji tim, berjalan setiap hari. Bila penagihan tidak diatur dengan baik, bisnis bisa terlihat sibuk dan dipuji klien, tetapi kehabisan kas." },
   { type: "p", text: "Penagihan berbasis milestone adalah salah satu cara paling umum untuk menyelaraskan pekerjaan dengan arus kas. Pekerjaan dibagi menjadi tahapan yang jelas, dan setiap tahapan yang selesai memicu tagihan. Namun di balik kesederhanaannya, ada banyak keputusan: bagaimana membagi, kapan menagih, bagaimana mencatat pendapatan, dan bagaimana menangani perubahan lingkup." },
-  { type: "p", text: "Artikel ini membahas bagaimana merancang penagihan proyek dan milestone yang sehat, serta bagaimana ERP membantu menghubungkan penawaran, kontrak, pelaksanaan, jam kerja, biaya, dan faktur dalam satu alur. Pembahasannya berlaku untuk berbagai jenis bisnis jasa, dengan penyesuaian pada detail masing-masing." },
+  { type: "p", text: "Artikel ini membahas bagaimana merancang penagihan proyek dan milestone yang sehat, serta bagaimana [ERP](/services/erp) membantu menghubungkan penawaran, kontrak, pelaksanaan, jam kerja, biaya, dan faktur dalam satu alur. Pembahasannya berlaku untuk berbagai jenis bisnis jasa, dengan penyesuaian pada detail masing-masing." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -38,7 +38,7 @@ export const body: Block[] = [
   { type: "p", text: "Aturan tentang batas waktu tanggapan sering diabaikan tetapi menyelamatkan arus kas. Bila klien tidak merespons penyerahan selama jangka waktu tertentu, milestone dapat dianggap diterima. Tanpa aturan ini, satu persetujuan yang tertunda di meja klien dapat menahan tagihan berminggu-minggu." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531403009284-440f080d1e12",
+    src: "/blog/images/photo-1531403009284-440f080d1e12",
     alt: "Tangan menyusun kertas-kertas diagram alur kerja yang ditempel di dinding",
     caption: "Milestone yang jelas memecah proyek besar menjadi tahapan yang bisa diverifikasi dan ditagih.",
   },
@@ -85,7 +85,7 @@ export const body: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja",
     caption: "Anggaran, biaya aktual, dan tagihan yang terhubung membuat margin proyek terlihat sebelum terlambat.",
   },

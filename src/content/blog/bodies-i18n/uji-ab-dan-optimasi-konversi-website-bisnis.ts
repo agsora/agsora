@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "There are other variants, such as testing several versions at once or testing several combined elements. For most businesses, a simple A/B test with two versions is enough and far easier to interpret correctly." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "A laptop screen showing business analytics charts and reports",
     caption: "Testing is only useful when results are read with enough data and a clear success measure.",
   },
@@ -44,7 +44,7 @@ const en: Block[] = [
   { type: "p", text: "Avoid running tests during unusual events such as a big campaign, a long holiday, or a technical disruption. Those events change the mix of visitors and can shift results in ways unrelated to the change being tested." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "A laptop showing a web page with a call to action button, a hand on the trackpad",
     caption: "Elements such as the headline, offer, and call to action button are the most common test candidates.",
   },
@@ -116,7 +116,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "许多网站决策是以同样的方式做出的：有人认为按钮应该换个颜色，标题应该更短，或者表单应该减少字段。谁的声音最大或职位最高，通常谁就赢。结果有时好，有时不好，而且几乎没有人确切知道原因。" },
   { type: "p", text: "A/B 测试提供了一种更平静的方式：在同一时间向不同的访客展示两个版本，然后看哪个更常带来你想要的行动。你不必争论，而是让访客的行为来回答。但 A/B 测试也很容易被滥用，许多看起来令人信服的结果其实具有误导性。" },
-  { type: "p", text: "本文介绍如何为中小企业的网站和网店健康地开始测试：何时值得测试、如何提出假设、测量什么、测试应运行多久，以及如何避免错误的结论。我们不给出确切的提升数字，因为每个网站都不同。" },
+  { type: "p", text: "本文介绍如何为中小企业的[网站](/services/website)和网店健康地开始测试：何时值得测试、如何提出假设、测量什么、测试应运行多久，以及如何避免错误的结论。我们不给出确切的提升数字，因为每个网站都不同。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -134,7 +134,7 @@ const zh: Block[] = [
   { type: "p", text: "还有其他变体，例如同时测试多个版本，或测试多个组合元素。对大多数企业来说，只有两个版本的简单 A/B 测试就足够了，而且更容易正确解读。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "笔记本电脑屏幕显示商业分析图表和报告",
     caption: "只有在数据足够且成功标准明确的情况下解读结果，测试才有用。",
   },
@@ -157,7 +157,7 @@ const zh: Block[] = [
   { type: "p", text: "避免在异常事件期间运行测试，例如大型促销活动、长假或技术故障。这些事件会改变访客的构成，可能以与被测试的改变无关的方式扭曲结果。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "笔记本电脑显示带有行动号召按钮的网页，手放在触控板上",
     caption: "标题、优惠和行动号召按钮等元素是最常见的测试对象。",
   },
@@ -184,7 +184,7 @@ const zh: Block[] = [
   { type: "p", text: "留意闪烁，即访客在测试版本出现之前短暂看到原始版本的情况。除了令人不快，闪烁还会影响行为，并偏离真实体验。在服务器端或采用正确技术运行的测试通常能避免这个问题。" },
   { type: "p", text: "过滤掉非人类流量，例如搜索引擎爬虫和机器人，以及你自己团队的内部流量。两者都可能扭曲结果，尤其是在访客较少的网站上。最后，检查两个版本的加载速度相当，因为较慢的版本会因为与设计无关的原因而落败。" },
   { type: "h2", text: "在应用和移动体验上测试" },
-  { type: "p", text: "同样的原则适用于手机应用，但有几点需要注意。应用更新需要时间才能到达用户，因此测试通常通过远程配置来运行，无需发布新版本即可开启某些变体。确保应用从一开始就设计为支持这一点。" },
+  { type: "p", text: "同样的原则适用于[手机应用](/services/mobile)，但有几点需要注意。应用更新需要时间才能到达用户，因此测试通常通过远程配置来运行，无需发布新版本即可开启某些变体。确保应用从一开始就设计为支持这一点。" },
   { type: "p", text: "应用用户也往往比网站访客更少、更忠诚，因此对新用户早期流程的改变，例如注册和功能介绍，往往是最有意义的测试位置。在收集行为数据时，也要留意应用商店政策和隐私规则。" },
   { type: "h2", text: "何时停止、应用或重复" },
   { type: "p", text: "测试结束后有三种可能。如果新版本明显更好且护栏指标安全，就应用到所有访客，并监测几周以确保结果持续。如果结果没有差异，就选择更简单或维护成本更低的版本。" },

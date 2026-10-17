@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Bagi banyak pemilik bisnis, urusan pajak identik dengan akhir bulan yang melelahkan: mengumpulkan faktur dari berbagai tempat, mencocokkan angka di beberapa tabel hitung, lalu berharap tidak ada yang terlewat sebelum batas waktu pelaporan. Kesalahan kecil, seperti nomor faktur yang ganda atau tarif yang keliru, bisa berbuntut koreksi, denda, dan waktu yang terbuang." },
   { type: "p", text: "Di banyak negara, otoritas pajak makin mendorong atau mewajibkan penerbitan faktur dalam bentuk elektronik. Tujuannya agar data transaksi lebih mudah diverifikasi dan dilaporkan. Bagi bisnis yang masih mengandalkan proses manual, perubahan ini bisa terasa seperti beban tambahan. Namun bila ditangani dengan benar, faktur elektronik justru bisa menjadi kesempatan untuk merapikan seluruh alur penagihan dan pembukuan." },
-  { type: "p", text: "Artikel ini membahas bagaimana ERP membantu menerbitkan faktur elektronik yang rapi, menjaga kepatuhan secara berkelanjutan, dan mengurangi pekerjaan akhir bulan. Penting dicatat, aturan pajak berbeda antarnegara dan berubah dari waktu ke waktu. Artikel ini bersifat umum dan bukan nasihat pajak; selalu konsultasikan ketentuan yang berlaku dengan konsultan pajak atau otoritas terkait." },
+  { type: "p", text: "Artikel ini membahas bagaimana [ERP](/services/erp) membantu menerbitkan faktur elektronik yang rapi, menjaga kepatuhan secara berkelanjutan, dan mengurangi pekerjaan akhir bulan. Penting dicatat, aturan pajak berbeda antarnegara dan berubah dari waktu ke waktu. Artikel ini bersifat umum dan bukan nasihat pajak; selalu konsultasikan ketentuan yang berlaku dengan konsultan pajak atau otoritas terkait." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "p", text: "Lakukan pembersihan data secara bertahap. Mulailah dari pelanggan yang paling sering bertransaksi dan produk yang paling laku. Menetapkan satu orang atau satu bagian sebagai pemilik data induk mencegah data kembali berantakan setelah dibersihkan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja",
     caption: "Data induk yang rapi adalah fondasi faktur dan laporan pajak yang bisa dipercaya.",
   },
@@ -58,7 +58,7 @@ export const body: Block[] = [
   { type: "p", text: "Bila transaksi berasal dari beberapa kanal, seperti website, marketplace, dan kasir, pastikan semuanya mengalir ke satu sistem. Pembukuan yang terpecah pada banyak kanal adalah penyebab umum selisih antara penjualan yang dilaporkan dan yang tercatat di pembukuan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "Tangan menandatangani dokumen di atas meja",
     caption: "Penandatanganan dan persetujuan yang tercatat membuat setiap dokumen dapat ditelusuri.",
   },

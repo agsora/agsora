@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Bagi banyak bisnis, terutama yang melayani pelanggan perusahaan, kontrak adalah jantung hubungan komersial: ia menetapkan layanan apa yang diberikan, berapa harganya, berapa lama berlakunya, dan apa yang terjadi bila ada masalah. Namun di banyak tempat, kontrak hanya berupa berkas yang tersimpan di folder, dibuka saat ada sengketa, dan baru diingat ketika sudah terlambat diperpanjang." },
   { type: "p", text: "Akibatnya mudah ditebak. Kontrak yang sebenarnya menguntungkan berakhir diam-diam karena tidak ada yang mengingatkan. Pelanggan yang siap memperpanjang tidak dihubungi tepat waktu. Kenaikan harga yang sudah disepakati tidak pernah diterapkan. Klausul penting terlupakan sampai menimbulkan perselisihan. Semua ini adalah kebocoran pendapatan dan risiko yang sebenarnya dapat dicegah." },
-  { type: "p", text: "Artikel ini membahas bagaimana mengelola kontrak pelanggan secara terstruktur: apa yang perlu dicatat, bagaimana siklus hidup kontrak dikelola, bagaimana mengatur pengingat perpanjangan, bagaimana menghubungkan kontrak dengan penagihan dan layanan, serta bagaimana CRM atau ERP membantu agar tidak ada peluang dan kewajiban yang terlewat." },
+  { type: "p", text: "Artikel ini membahas bagaimana mengelola kontrak pelanggan secara terstruktur: apa yang perlu dicatat, bagaimana siklus hidup kontrak dikelola, bagaimana mengatur pengingat perpanjangan, bagaimana menghubungkan kontrak dengan penagihan dan layanan, serta bagaimana [CRM](/services/crm) atau ERP membantu agar tidak ada peluang dan kewajiban yang terlewat." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -34,7 +34,7 @@ export const body: Block[] = [
   { type: "p", text: "Masa pemberitahuan sering menjadi jebakan. Banyak kontrak berperpanjangan otomatis kecuali salah satu pihak memberi tahu dalam jangka waktu tertentu sebelum berakhir. Melewatkan jendela itu berarti terikat satu periode lagi, atau sebaliknya kehilangan kesempatan menegosiasikan ulang. Tanggal ini harus tercatat dan memicu pengingat." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "Dua orang berdiskusi sambil menunjuk dokumen dalam pertemuan bisnis",
     caption: "Data kunci kontrak yang terstruktur membuat diskusi perpanjangan dimulai lebih awal dan lebih siap.",
   },
@@ -91,7 +91,7 @@ export const body: Block[] = [
   ] },
   { type: "p", text: "Beri setiap kontrak penting seorang pemilik hubungan yang bertugas memantau sinyal-sinyal ini dan berbicara dengan pelanggan secara proaktif. Percakapan yang dimulai dari kepedulian, bukan dari kebutuhan menandatangani, jauh lebih efektif dalam menyelamatkan hubungan." },
   { type: "h2", text: "Peran CRM dan ERP" },
-  { type: "p", text: "Sistem CRM biasanya menjadi tempat alami untuk sisi hubungan: siapa pelanggannya, riwayat interaksi, peluang perpanjangan, dan tugas tindak lanjut. ERP menangani sisi transaksi: penagihan, piutang, dan pembukuan. Idealnya keduanya berbagi data kontrak sehingga tim penjualan dan keuangan melihat gambaran yang sama." },
+  { type: "p", text: "Sistem CRM biasanya menjadi tempat alami untuk sisi hubungan: siapa pelanggannya, riwayat interaksi, peluang perpanjangan, dan tugas tindak lanjut. [ERP](/services/erp) menangani sisi transaksi: penagihan, piutang, dan pembukuan. Idealnya keduanya berbagi data kontrak sehingga tim penjualan dan keuangan melihat gambaran yang sama." },
   { type: "p", text: "Banyak bisnis memulai dengan sederhana: sebuah modul atau bahkan tabel terstruktur yang berisi data kunci kontrak, dengan pengingat otomatis. Seiring bertambahnya jumlah dan kerumitan, barulah diperlukan alur persetujuan, templat klausul, dan integrasi penuh dengan penagihan. Mulailah dari kebutuhan yang paling menyakitkan." },
   { type: "p", text: "Fitur yang paling berguna biasanya bukan yang paling canggih: daftar semua kontrak dengan penyaring berdasarkan tanggal berakhir, pengingat otomatis, tampilan nilai total yang akan berakhir dalam jangka waktu tertentu, dan catatan riwayat perubahan. Fondasi ini sudah memberikan nilai besar." },
   { type: "p", text: "Sebagai gambaran, bayangkan sebuah bisnis jasa yang memiliki seratus kontrak berulang dengan tanggal berakhir tersebar sepanjang tahun. Tanpa sistem, setiap bulan ada beberapa kontrak yang berakhir tanpa disadari. Dengan pengingat yang bekerja, tim melihat daftar kontrak yang berakhir dalam sembilan puluh hari pada awal setiap bulan, membaginya kepada pemilik masing-masing, dan memulai percakapan tepat waktu." },

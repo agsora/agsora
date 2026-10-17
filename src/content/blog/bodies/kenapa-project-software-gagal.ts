@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kegagalan jarang soal teknologi" },
   {
     type: "p",
-    text: "Teknologi untuk membangun sistem bisnis saat ini sudah sangat matang. Hampir semua kebutuhan umum, transaksi, laporan, integrasi, aplikasi mobile, bisa dibangun dengan andal. Karena itu, ketika project gagal, pertanyaan yang lebih berguna bukan “teknologi apa yang salah”, melainkan “keputusan apa yang salah, dan kapan keputusan itu diambil”.",
+    text: "Teknologi untuk membangun sistem bisnis saat ini sudah sangat matang. Hampir semua kebutuhan umum, transaksi, laporan, integrasi, [aplikasi mobile](/services/mobile), bisa dibangun dengan andal. Karena itu, ketika project gagal, pertanyaan yang lebih berguna bukan “teknologi apa yang salah”, melainkan “keputusan apa yang salah, dan kapan keputusan itu diambil”.",
   },
   {
     type: "p",

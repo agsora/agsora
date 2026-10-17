@@ -69,7 +69,7 @@ export function ServiceDetailBody({
                 >
                   {t.nav.cta}
                 </Button>
-                <Button href="/pricing" size="lg" variant="outline">
+                <Button href="/services" size="lg" variant="outline">
                   {t.servicesGrid.seeAll}
                 </Button>
               </div>

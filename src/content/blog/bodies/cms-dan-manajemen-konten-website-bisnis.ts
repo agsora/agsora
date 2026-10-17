@@ -17,7 +17,7 @@ export const body: Block[] = [
   },
   { type: "h2", text: "Apa yang sebenarnya dilakukan CMS" },
   { type: "p", text: "CMS menyediakan antarmuka tempat orang dapat membuat, menyunting, menjadwalkan, dan menerbitkan konten tanpa menyentuh kode program. Konten disimpan terstruktur: judul, isi, gambar, kategori, penulis, tanggal terbit, dan metadata untuk mesin pencari. Tampilan di website diambil dari data itu menggunakan templat yang sudah dirancang." },
-  { type: "p", text: "Pemisahan konten dari tampilan membawa beberapa keuntungan. Anda dapat mengganti desain tanpa menulis ulang artikel. Konten yang sama dapat dipakai di website, aplikasi mobile, atau surel. Dan tim konten bisa bekerja paralel dengan tim pengembang tanpa saling menunggu." },
+  { type: "p", text: "Pemisahan konten dari tampilan membawa beberapa keuntungan. Anda dapat mengganti desain tanpa menulis ulang artikel. Konten yang sama dapat dipakai di website, [aplikasi mobile](/services/mobile), atau surel. Dan tim konten bisa bekerja paralel dengan tim pengembang tanpa saling menunggu." },
   { type: "p", text: "Selain menyunting, CMS yang baik menangani hal-hal yang sering diabaikan: riwayat revisi, peran dan hak akses, jadwal terbit, pratinjau sebelum tayang, pengelolaan media, dan dukungan beberapa bahasa. Fitur-fitur ini menentukan apakah pengelolaan konten terasa tertib atau penuh kecemasan." },
   { type: "h2", text: "Tanda Anda membutuhkan CMS yang lebih baik" },
   { type: "ul", items: [
@@ -31,13 +31,13 @@ export const body: Block[] = [
   { type: "p", text: "Bila beberapa tanda ini terasa akrab, masalahnya mungkin bukan pada orangnya melainkan pada alat dan prosesnya. Memperbaiki keduanya biasanya memberi peningkatan kecepatan dan kualitas yang jelas." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
+    src: "/blog/images/photo-1507238691740-187a5b1d37b8",
     alt: "Laptop di atas meja menampilkan halaman situs dengan tulisan tentang pengalaman yang sederhana",
     caption: "CMS memungkinkan tim nonteknis memperbarui konten tanpa menunggu pengembang.",
   },
   { type: "h2", text: "Tiga pendekatan yang umum" },
   { type: "h3", text: "CMS tradisional yang terpadu" },
-  { type: "p", text: "Konten dan tampilan berada dalam satu sistem. Pengelola menyunting dan langsung melihat hasilnya di website. Pendekatan ini matang, banyak pilihan, dan relatif mudah dikelola untuk website company profile, blog, dan toko online sederhana. Kelemahannya, fleksibilitas tampilan dan kecepatan sering bergantung pada kualitas tema serta jumlah tambahan yang dipasang." },
+  { type: "p", text: "Konten dan tampilan berada dalam satu sistem. Pengelola menyunting dan langsung melihat hasilnya di website. Pendekatan ini matang, banyak pilihan, dan relatif mudah dikelola untuk [website company profile](/services/website), blog, dan toko online sederhana. Kelemahannya, fleksibilitas tampilan dan kecepatan sering bergantung pada kualitas tema serta jumlah tambahan yang dipasang." },
   { type: "h3", text: "CMS tanpa kepala" },
   { type: "p", text: "Konten dikelola di satu tempat dan disajikan lewat antarmuka pemrograman ke berbagai tampilan, seperti website, aplikasi mobile, dan layar kios. Cocok bila konten harus dipakai di banyak kanal atau tampilan membutuhkan kebebasan penuh. Konsekuensinya, diperlukan pekerjaan pengembangan lebih banyak dan koordinasi antara tim konten dan teknis." },
   { type: "h3", text: "Konten dalam kode atau berkas" },
@@ -70,7 +70,7 @@ export const body: Block[] = [
   { type: "p", text: "Hati-hati ketika mengubah alamat halaman atau menghapusnya. Tanpa pengalihan, tautan lama dari website lain dan mesin pencari akan mengarah ke halaman tidak ditemukan, sehingga nilai yang sudah dibangun hilang. Jadikan pengalihan bagian dari prosedur setiap kali alamat berubah." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    src: "/blog/images/photo-1486312338219-ce68d2c6f44d",
     alt: "Tangan mengetik di keyboard laptop",
     caption: "Kebiasaan menulis judul, deskripsi, dan teks alternatif yang konsisten membuat SEO terjaga seiring konten bertambah.",
   },

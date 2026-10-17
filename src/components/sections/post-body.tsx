@@ -4,6 +4,32 @@ import { ArrowRight } from "lucide-react";
 import type { Block } from "@/config/blog";
 import { RelatedServices } from "@/components/sections/related-services";
 
+/**
+ * Paragraph text with inline links written as [anchor](/path). Only
+ * site-relative paths are linked; Link adds the language prefix.
+ */
+function InlineText({ text }: { text: string }) {
+  // With two capture groups, split() yields [text, anchor, href, text, anchor, href, ..., text].
+  const parts = text.split(/\[([^\]]+)\]\((\/[^)\s]*)\)/g);
+  if (parts.length === 1) return text;
+  const out: React.ReactNode[] = [];
+  for (let i = 0; i < parts.length; i += 3) {
+    if (parts[i]) out.push(parts[i]);
+    if (i + 2 < parts.length) {
+      out.push(
+        <Link
+          key={i}
+          href={parts[i + 2]}
+          className="font-semibold text-ink underline decoration-gold/60 decoration-2 underline-offset-4 transition-colors hover:text-accent hover:decoration-gold"
+        >
+          {parts[i + 1]}
+        </Link>
+      );
+    }
+  }
+  return out;
+}
+
 /** Stable anchor for an h2, shared with the table of contents. */
 export function headingId(text: string, index: number) {
   const slug = text
@@ -47,7 +73,7 @@ export function PostBody({
                 key={i}
                 className="mt-4 text-[15px] leading-[1.75] text-ink-muted"
               >
-                {block.text}
+                <InlineText text={block.text} />
               </p>
             );
           case "ul":

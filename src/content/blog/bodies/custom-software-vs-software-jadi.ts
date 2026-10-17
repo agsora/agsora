@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kapan software jadi adalah pilihan yang tepat" },
   {
     type: "p",
-    text: "Software jadi sudah melewati banyak siklus perbaikan dari banyak pengguna. Bug yang mungkin baru Anda temukan di sistem custom, kemungkinan besar sudah ditemukan dan diperbaiki di produk yang dipakai ribuan bisnis. Anda mendapat sistem yang matang tanpa menanggung risiko membangunnya dari nol.",
+    text: "Software jadi sudah melewati banyak siklus perbaikan dari banyak pengguna. Bug yang mungkin baru Anda temukan di [sistem custom](/services/custom-software), kemungkinan besar sudah ditemukan dan diperbaiki di produk yang dipakai ribuan bisnis. Anda mendapat sistem yang matang tanpa menanggung risiko membangunnya dari nol.",
   },
   {
     type: "ul",
@@ -106,7 +106,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Misalnya, sebuah distributor bisa memakai sistem HR siap pakai untuk mengelola karyawan, sementara aplikasi pemesanan untuk sales lapangan dibangun khusus karena mengikuti aturan harga dan kredit pelanggan yang rumit. Selama semua sistem bisa saling terhubung, kombinasi seperti ini sering paling efisien dari sisi biaya maupun waktu.",
+    text: "Misalnya, sebuah distributor bisa memakai [sistem HR](/services/hris) siap pakai untuk mengelola karyawan, sementara aplikasi pemesanan untuk sales lapangan dibangun khusus karena mengikuti aturan harga dan kredit pelanggan yang rumit. Selama semua sistem bisa saling terhubung, kombinasi seperti ini sering paling efisien dari sisi biaya maupun waktu.",
   },
   { type: "h2", text: "Biaya yang sering tidak dihitung" },
   { type: "h3", text: "Pada software jadi" },
@@ -161,7 +161,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua bisnis, dua keputusan yang sama-sama benar" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko bahan bangunan dengan dua cabang. Mereka menjual barang, mencatat stok, menagih pelanggan, dan membayar pemasok, proses yang pada dasarnya sama dengan ribuan toko lain. Masalah utama mereka adalah pencatatan manual yang lambat. Untuk bisnis seperti ini, sistem kasir dan inventori siap pakai hampir pasti lebih tepat. Mereka bisa mulai dalam hitungan minggu, dan hampir semua kebutuhan sudah tersedia.",
+    text: "Bayangkan sebuah toko bahan bangunan dengan dua cabang. Mereka menjual barang, mencatat stok, menagih pelanggan, dan membayar pemasok, proses yang pada dasarnya sama dengan ribuan toko lain. Masalah utama mereka adalah pencatatan manual yang lambat. Untuk bisnis seperti ini, [sistem kasir](/services/pos) dan inventori siap pakai hampir pasti lebih tepat. Mereka bisa mulai dalam hitungan minggu, dan hampir semua kebutuhan sudah tersedia.",
   },
   {
     type: "p",

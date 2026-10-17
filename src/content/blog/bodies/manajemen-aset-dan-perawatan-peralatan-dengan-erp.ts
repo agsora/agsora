@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Setiap bisnis punya aset yang diam-diam menentukan kelancaran operasional: mesin produksi, kendaraan pengantar, freezer di gudang, komputer kasir, genset, hingga perangkat jaringan di kantor. Selama berjalan baik, aset itu nyaris tidak terlihat. Begitu satu di antaranya mati pada hari paling sibuk, barulah semua orang sadar betapa pentingnya." },
   { type: "p", text: "Masalahnya, pada banyak bisnis kecil dan menengah, informasi tentang aset tersebar: daftar di tabel hitung milik satu orang, riwayat servis di buku catatan teknisi, dan faktur pembelian di map bagian keuangan. Tidak ada yang bisa menjawab dengan cepat pertanyaan sederhana seperti berapa nilai aset kita, mesin mana yang paling sering rusak, atau kapan terakhir kali genset diservis." },
-  { type: "p", text: "Artikel ini membahas cara mengelola aset dan perawatan peralatan secara terstruktur dengan dukungan ERP: apa yang perlu dicatat, bagaimana membedakan perawatan terjadwal dari perbaikan darurat, bagaimana biaya perawatan dihubungkan dengan keuangan, dan bagaimana memulai tanpa membuat tim teknisi merasa diawasi berlebihan. Kami tidak memakai angka rekaan; yang kami berikan adalah kerangka kerja yang bisa disesuaikan." },
+  { type: "p", text: "Artikel ini membahas cara mengelola aset dan perawatan peralatan secara terstruktur dengan dukungan [ERP](/services/erp): apa yang perlu dicatat, bagaimana membedakan perawatan terjadwal dari perbaikan darurat, bagaimana biaya perawatan dihubungkan dengan keuangan, dan bagaimana memulai tanpa membuat tim teknisi merasa diawasi berlebihan. Kami tidak memakai angka rekaan; yang kami berikan adalah kerangka kerja yang bisa disesuaikan." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "p", text: "Beri setiap aset kode yang konsisten dan, bila perlu, tempelkan label berkode batang atau kode QR. Dengan label, teknisi cukup memindai untuk membuka riwayat aset tanpa mencari di daftar. Cara ini juga mempercepat pemeriksaan fisik tahunan karena petugas hanya perlu memindai barang satu per satu." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    src: "/blog/images/photo-1774645215883-14d1553f3fa0",
     alt: "Satu set kunci pas logam tersusun rapi di dalam kotak perkakas",
     caption: "Aset yang diberi kode dan riwayat jelas memudahkan teknisi mengetahui apa yang sudah dan belum dikerjakan.",
   },
@@ -54,7 +54,7 @@ export const body: Block[] = [
   { type: "p", text: "Hubungkan juga dengan persediaan suku cadang. Bila teknisi sering kehabisan komponen yang sama, atau sebaliknya menyimpan komponen yang tidak pernah terpakai, data riwayat perbaikan membantu menentukan stok minimum yang masuk akal." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1604754742629-3e5728249d73",
+    src: "/blog/images/photo-1604754742629-3e5728249d73",
     alt: "Teknisi memasang komponen di dalam casing komputer",
     caption: "Riwayat perbaikan yang lengkap membuat teknisi tahu penyebab masalah, bukan hanya gejalanya.",
   },

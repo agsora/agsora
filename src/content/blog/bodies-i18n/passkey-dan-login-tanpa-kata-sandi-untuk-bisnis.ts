@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "The password is the part of an app that everyone hates most. Customers forget theirs and abandon their shopping basket. Employees write them on paper stuck to the monitor. The customer service team spends its time resetting accounts. And when a data breach happens somewhere else, the same password used across many services opens the door to your app as well." },
   { type: "p", text: "For years the answer on offer was more rules: passwords must be longer, use symbols, be changed periodically, and then be backed by a code sent by SMS. Each addition made signing in a little safer and a lot more tedious. Now there is an approach that promises both at once: safer and easier. It is called a passkey." },
-  { type: "p", text: "This article explains passkeys and passwordless sign in from a business owner's point of view. We cover how they work in simple terms, their benefits and limits, other options such as magic links and one time codes, account recovery, and how to roll them out in stages on a website and mobile app. Device and browser support keeps developing, so check the current state with your developer before deciding." },
+  { type: "p", text: "This article explains passkeys and passwordless sign in from a business owner's point of view. We cover how they work in simple terms, their benefits and limits, other options such as magic links and one time codes, account recovery, and how to roll them out in stages on a website and [mobile app](/services/mobile). Device and browser support keeps developing, so check the current state with your developer before deciding." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "The threat hardest to counter with passwords is fraud through fake sites. A user receives an official looking message, clicks the link, and enters their password on a page imitating your app. Even the longest password does not help, because the user hands it over themselves." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+    src: "/blog/images/photo-1614064641938-3bbee52942c7",
     alt: "A red padlock on a black computer keyboard",
     caption: "As long as the front door depends on a secret people must remember, that door will remain a weak point.",
   },
@@ -40,7 +40,7 @@ const en: Block[] = [
   { type: "p", text: "Users can also sign in on another device by scanning a code with their phone, without the passkey itself moving across. This flow is useful for shared computers. As the app owner, you do not control where customers store their passkeys, but you can set a stricter policy for employee accounts." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    src: "/blog/images/photo-1563986768609-322da13575f3",
     alt: "A person holding a phone in front of a laptop with a similar app open",
     caption: "The user's phone can act as the key to sign in on another device without typing any secret.",
   },
@@ -73,12 +73,12 @@ const en: Block[] = [
   ] },
   { type: "p", text: "Pay attention to the words on screen. The term passkey is not yet familiar to many people. A phrase like sign in with your fingerprint or face, no password is easier to understand than technical terms. Explain in a sentence or two that biometric data stays on the device." },
   { type: "h2", text: "Rolling out to employees and internal systems" },
-  { type: "p", text: "Internal systems such as ERP, the store admin panel, and finance dashboards hold far more sensitive data than customer accounts. This is where a strong sign in method most deserves to be mandatory. Start with the highest risk roles: administrators, finance, and anyone who can change prices, issue refunds, or export customer data." },
+  { type: "p", text: "Internal systems such as [ERP](/services/erp), the store admin panel, and finance dashboards hold far more sensitive data than customer accounts. This is where a strong sign in method most deserves to be mandatory. Start with the highest risk roles: administrators, finance, and anyone who can change prices, issue refunds, or export customer data." },
   { type: "p", text: "If the company uses many apps, consider single sign on through one identity provider. Employees sign in once using a strong method, then gain access to apps according to their role. When an employee leaves, access to every app is revoked from one place. This approach reduces orphaned accounts that are forgotten yet still active." },
   { type: "p", text: "Prepare processes, too, for new employees, employees changing devices, and lost devices. Clear procedures prevent dangerous shortcuts, such as employees sharing an account when someone cannot sign in." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1592744254966-58c65cfd2e69",
+    src: "/blog/images/photo-1592744254966-58c65cfd2e69",
     alt: "A silver and black combination lock",
     caption: "A strong sign in method most deserves to be mandatory on accounts that hold the company's data and money.",
   },
@@ -128,7 +128,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "密码是应用里最让所有人讨厌的部分。顾客忘了密码，于是放弃了购物车。员工把密码写在纸上贴在显示器旁。客服团队把时间花在重置账号上。而当别处发生数据泄露时，在多个服务上重复使用的同一个密码，也会打开通往你应用的大门。" },
   { type: "p", text: "多年来，人们给出的答案就是增加规则：密码要更长、要有符号、要定期更换，然后再加上短信验证码。每增加一项，登录就安全一点点，却麻烦很多。现在有一种方法承诺两者兼得：更安全，也更方便。它叫通行密钥。" },
-  { type: "p", text: "本文从企业主的角度解释通行密钥和无密码登录。我们会用简单的方式说明它的原理、好处与局限，介绍魔法链接和一次性验证码等其他选择，讨论账号恢复，以及如何在网站和移动应用中分阶段落实。设备和浏览器的支持情况仍在不断发展，做决定之前请与开发者一起确认最新状况。" },
+  { type: "p", text: "本文从企业主的角度解释通行密钥和无密码登录。我们会用简单的方式说明它的原理、好处与局限，介绍魔法链接和一次性验证码等其他选择，讨论账号恢复，以及如何在[网站](/services/website)和移动应用中分阶段落实。设备和浏览器的支持情况仍在不断发展，做决定之前请与开发者一起确认最新状况。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -146,7 +146,7 @@ const zh: Block[] = [
   { type: "p", text: "最难用密码抵御的威胁，是通过仿冒网站进行的诈骗。用户收到一条看似官方的消息，点击链接，然后在模仿你应用的页面上输入密码。再长的密码也无济于事，因为是用户自己把它交了出去。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+    src: "/blog/images/photo-1614064641938-3bbee52942c7",
     alt: "黑色电脑键盘上放着一把红色挂锁",
     caption: "只要入口还依赖人必须记住的秘密，这道门就始终是薄弱环节。",
   },
@@ -165,7 +165,7 @@ const zh: Block[] = [
   { type: "p", text: "用户也可以用手机扫描二维码，在另一台设备上登录，而通行密钥本身并不会转移过去。这种流程适用于共用的电脑。作为应用的所有者，你无法规定顾客把通行密钥存在哪里，但可以为员工账号设定更严格的政策。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    src: "/blog/images/photo-1563986768609-322da13575f3",
     alt: "一个人在打开着类似应用的笔记本电脑前拿着手机",
     caption: "用户的手机可以充当在另一台设备上登录的钥匙，无需输入任何秘密。",
   },
@@ -198,12 +198,12 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "要留意界面上的用词。通行密钥这个说法对很多人来说还不熟悉。像用指纹或面容登录，无需密码这样的句子，比技术术语更容易理解。用一两句话说明生物识别数据始终留在设备上。" },
   { type: "h2", text: "在员工和内部系统中落实" },
-  { type: "p", text: "ERP、店铺管理后台和财务仪表盘等内部系统所保存的数据，远比顾客账号敏感。这里最值得强制使用强登录方式。从风险最高的角色开始：管理员、财务，以及任何能够修改价格、办理退款或导出顾客数据的人。" },
+  { type: "p", text: "[ERP](/services/erp)、店铺管理后台和财务仪表盘等内部系统所保存的数据，远比顾客账号敏感。这里最值得强制使用强登录方式。从风险最高的角色开始：管理员、财务，以及任何能够修改价格、办理退款或导出顾客数据的人。" },
   { type: "p", text: "如果公司使用很多应用，可以考虑通过一个身份提供方实现单点登录。员工用强方式登录一次，然后根据角色获得各个应用的访问权限。员工离职时，所有应用的访问权限都可以从一处撤销。这种做法能减少那些被遗忘却仍然有效的孤儿账号。" },
   { type: "p", text: "还要为新员工、更换设备的员工以及丢失的设备准备好流程。清楚的程序能防止危险的捷径，例如有人无法登录时员工之间共用账号。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1592744254966-58c65cfd2e69",
+    src: "/blog/images/photo-1592744254966-58c65cfd2e69",
     alt: "一把银色和黑色的密码锁",
     caption: "掌握着公司数据和资金的账号，最应当强制使用强登录方式。",
   },

@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This article covers how to set up more structured inventory planning and reordering, from basic concepts such as safety stock and reorder point, to how an ERP or inventory system helps run them. We don't use invented numbers or magic formulas; what we offer is a way of thinking you can adapt to the character of your own business.",
+    text: "This article covers how to set up more structured inventory planning and reordering, from basic concepts such as safety stock and reorder point, to how an [ERP](/services/erp) or inventory system helps run them. We don't use invented numbers or magic formulas; what we offer is a way of thinking you can adapt to the character of your own business.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1584568694489-f71bdbac55e2",
+    src: "/blog/images/photo-1584568694489-f71bdbac55e2",
     alt: "Empty grocery store shelves",
     caption: "Piling up manual records make stock data hard to trust; a connected system replaces them.",
   },
@@ -121,7 +121,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    src: "/blog/images/photo-1578575437130-527eed3abbec",
     alt: "A container port with large cranes and a ship loaded with containers",
     caption: "The larger the scale of goods movement and the more branches, the more important connected, automatically updated stock data becomes.",
   },
@@ -139,7 +139,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "When physical store and online store stock share one data source, the risk of selling goods that are actually gone drops sharply. This is discussed further in our article on unifying physical store and marketplace stock. Remember that a system only gives suggestions based on past patterns; the final decision must still consider things not yet reflected in the data, such as a big promotion plan or a price change from the supplier.",
+    text: "When physical store and [online store](/services/website) stock share one data source, the risk of selling goods that are actually gone drops sharply. This is discussed further in our article on unifying physical store and marketplace stock. Remember that a system only gives suggestions based on past patterns; the final decision must still consider things not yet reflected in the data, such as a big promotion plan or a price change from the supplier.",
   },
   { type: "h2", text: "The link to cash flow" },
   {
@@ -221,7 +221,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文讨论如何建立更有结构的库存计划与补货,从安全库存和再订货点等基本概念,到 ERP 或库存系统如何帮助执行。我们不使用杜撰的数字或神奇公式;我们提供的是一种可以根据你自己企业特点调整的思考方式。",
+    text: "本文讨论如何建立更有结构的库存计划与补货,从安全库存和再订货点等基本概念,到 [ERP](/services/erp) 或库存系统如何帮助执行。我们不使用杜撰的数字或神奇公式;我们提供的是一种可以根据你自己企业特点调整的思考方式。",
   },
   { type: "h2", text: "摘要" },
   {
@@ -245,7 +245,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1584568694489-f71bdbac55e2",
+    src: "/blog/images/photo-1584568694489-f71bdbac55e2",
     alt: "空荡荡的杂货店货架",
     caption: "不断堆积的手工记录让库存数据难以信赖;互联的系统可以取而代之。",
   },
@@ -331,7 +331,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    src: "/blog/images/photo-1578575437130-527eed3abbec",
     alt: "有大型起重机和满载集装箱的货轮的集装箱港口",
     caption: "货物流动的规模越大、分店越多,互联且自动更新的库存数据就越重要。",
   },
@@ -349,7 +349,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "当实体店和网店的库存共用同一个数据源时,卖出实际已售罄商品的风险会大幅下降。这一点在我们关于统一实体店与电商平台库存的文章中有进一步讨论。请记住,系统只是根据过去的规律给出建议;最终决策仍必须考虑数据中尚未体现的事项,例如大型促销计划或供应商的价格变动。",
+    text: "当实体店和[网店](/services/website)的库存共用同一个数据源时,卖出实际已售罄商品的风险会大幅下降。这一点在我们关于统一实体店与电商平台库存的文章中有进一步讨论。请记住,系统只是根据过去的规律给出建议;最终决策仍必须考虑数据中尚未体现的事项,例如大型促销计划或供应商的价格变动。",
   },
   { type: "h2", text: "与现金流的关系" },
   {
@@ -376,7 +376,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "同时,整顿记录的纪律,并安排定期的实物盘点。当手工流程已经清晰并开始让人觉得吃力时,就是考虑自动化系统的合适时机,因为你已经确切知道想要自动化什么。",
+    text: "同时,整顿记录的纪律,并安排定期的实物盘点。当手工流程已经清晰并开始让人觉得吃力时,就是考虑[自动化](/services/ai-automation)系统的合适时机,因为你已经确切知道想要自动化什么。",
   },
   {
     "type": "h2",

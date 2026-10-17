@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Many business owners know their revenue is rising but are unsure whether profit is rising with it. A frequent cause is a cost of goods that is not calculated correctly. Selling prices are set from estimates, raw material costs shift unnoticed, and labour and electricity are never charged to products. In the end, a product that looks popular turns out to be eroding the margin." },
   { type: "p", text: "Cost of goods sold (COGS) and cost accounting answer a basic question: what does it actually cost to make or procure one unit of a good or service. An accurate answer affects pricing, decisions on which products to keep, negotiation with suppliers, and overall financial health." },
-  { type: "p", text: "This article explains the components of COGS, common inventory valuation methods, how to assign indirect costs, how an ERP helps calculate and monitor costs, and common mistakes. Accounting standards and tax rules can differ and change, so confirm how they apply to your business with an accountant or tax consultant." },
+  { type: "p", text: "This article explains the components of COGS, common inventory valuation methods, how to assign indirect costs, how an [ERP](/services/erp) helps calculate and monitor costs, and common mistakes. Accounting standards and tax rules can differ and change, so confirm how they apply to your business with an accountant or tax consultant." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -19,7 +19,7 @@ const en: Block[] = [
   { type: "p", text: "For a trading business, COGS is relatively simple: the purchase price of goods plus the costs attached to getting them to the warehouse, such as inbound freight, duties, and insurance, less purchase discounts. The price printed on the supplier invoice is often not the true cost." },
   { type: "p", text: "For a manufacturing business, COGS is more layered. Direct materials are materials that become part of the product, such as fabric in clothing. Direct labour is the wages of workers who work on the product. Factory overhead covers indirect costs such as electricity, machine depreciation, rent, maintenance, and supervisors' salaries." },
   { type: "p", text: "For a service business, the main components are staff time and supporting costs that can be charged to a project or client. Without recording hours per project, a service company can hardly know which projects are profitable." },
-  { type: "image", src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f", alt: "A pile of forms, receipts, and a calculator on a desk", caption: "Purchase receipts, freight, and production costs must be recorded so COGS reflects reality." },
+  { type: "image", src: "/blog/images/photo-1554224155-6726b3ff858f", alt: "A pile of forms, receipts, and a calculator on a desk", caption: "Purchase receipts, freight, and production costs must be recorded so COGS reflects reality." },
   { type: "h2", text: "Direct, indirect, fixed, and variable costs" },
   { type: "p", text: "Direct costs can be traced to a specific product, while indirect costs are shared by many products. Another distinction is variable costs, which rise with volume such as raw materials, and fixed costs, which stay relatively constant within a range such as factory rent. The two answer different questions." },
   { type: "p", text: "For long term pricing, all costs must be covered, including the overhead share. For short term decisions, such as accepting an extra order at a special price, variable cost is often more relevant because fixed costs are incurred whatever the decision. Understanding this difference prevents two mistakes: turning down an order that is marginally profitable and setting regular prices that do not cover full cost." },
@@ -41,7 +41,7 @@ const en: Block[] = [
     "Overhead variance: do indirect costs exceed budget or is capacity unused",
   ] },
   { type: "p", text: "Variances are not meant for finding scapegoats but for triggering questions. A consistent material usage gap can signal an outdated recipe, a machine that overdispenses, or theft. A short monthly variance review is usually enough to expose problems before they grow." },
-  { type: "image", src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85", alt: "A hand signing a document on a table", caption: "Product recipes and cost standards need to be approved and updated regularly." },
+  { type: "image", src: "/blog/images/photo-1450101499163-c8848c66ca85", alt: "A hand signing a document on a table", caption: "Product recipes and cost standards need to be approved and updated regularly." },
   { type: "h2", text: "How an ERP helps" },
   { type: "p", text: "Spreadsheets can calculate costs at small scale but become fragile as products multiply and material prices change often. An ERP connects the needed data in one system so costs are computed from real transactions, not from manual copies." },
   { type: "ul", items: [
@@ -94,7 +94,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "许多企业主知道营业额在上升，却不确定利润是否随之增长。常见原因之一是销货成本没有被正确计算。售价凭估计设定，原材料成本悄然变化，人工和电费从未分摊到产品上。最终，看似畅销的产品其实在侵蚀利润率。" },
   { type: "p", text: "销货成本（COGS）与成本会计回答一个基本问题：制造或采购一个单位的商品或服务实际花费多少。准确的答案会影响定价、保留哪些产品的决策、与供应商的谈判，以及整体财务健康。" },
-  { type: "p", text: "本文说明销货成本的构成、常见的存货计价方法、如何分摊间接费用、ERP 如何帮助计算和监控成本，以及常见错误。会计准则和税务规定可能不同且会变化，请与会计师或税务顾问确认其对您业务的适用方式。" },
+  { type: "p", text: "本文说明销货成本的构成、常见的存货计价方法、如何分摊间接费用、[ERP](/services/erp) 如何帮助计算和监控成本，以及常见错误。会计准则和税务规定可能不同且会变化，请与会计师或税务顾问确认其对您业务的适用方式。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -110,7 +110,7 @@ const zh: Block[] = [
   { type: "p", text: "对贸易企业而言，销货成本相对简单：商品的采购价加上把商品运到仓库所附带的费用，如进货运费、关税和保险，再减去采购折扣。供应商发票上标注的价格往往不是真实成本。" },
   { type: "p", text: "对制造企业而言，销货成本层次更多。直接材料是成为产品一部分的材料，例如服装中的布料。直接人工是加工产品的工人的工资。制造费用包括电费、机器折旧、租金、维护和主管薪资等间接费用。" },
   { type: "p", text: "对服务企业而言，主要构成是员工工时，以及可分摊到项目或客户的配套费用。如果不按项目记录工时，服务公司很难知道哪些项目赚钱。" },
-  { type: "image", src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f", alt: "桌上堆放的表格、收据和计算器", caption: "采购收据、运费和生产成本都必须记录，销货成本才能反映实际。" },
+  { type: "image", src: "/blog/images/photo-1554224155-6726b3ff858f", alt: "桌上堆放的表格、收据和计算器", caption: "采购收据、运费和生产成本都必须记录，销货成本才能反映实际。" },
   { type: "h2", text: "直接成本、间接成本、固定成本与变动成本" },
   { type: "p", text: "直接成本可以追溯到特定产品，间接成本则由多个产品共同使用。另一种区分是变动成本和固定成本：变动成本随产量上升，如原材料；固定成本在一定范围内相对不变，如厂房租金。两者回答的问题不同。" },
   { type: "p", text: "用于长期定价时，所有成本都必须覆盖，包括制造费用的份额。用于短期决策时，例如以特价接受一笔额外订单，变动成本往往更相关，因为无论如何决策，固定成本都已发生。理解这一区别可避免两种错误：拒绝边际上有利可图的订单，以及设定无法覆盖全部成本的常规价格。" },
@@ -132,7 +132,7 @@ const zh: Block[] = [
     "制造费用差异：间接费用是否超出预算，或产能是否闲置",
   ] },
   { type: "p", text: "差异分析不是为了找替罪羊，而是为了引出问题。持续存在的材料用量差距，可能意味着配方过时、机器出料过多或失窃。每月简短的差异复盘，通常足以在问题扩大之前将其暴露出来。" },
-  { type: "image", src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85", alt: "桌上有一只手正在签署文件", caption: "产品配方和成本标准需要经过批准并定期更新。" },
+  { type: "image", src: "/blog/images/photo-1450101499163-c8848c66ca85", alt: "桌上有一只手正在签署文件", caption: "产品配方和成本标准需要经过批准并定期更新。" },
   { type: "h2", text: "ERP 如何提供帮助" },
   { type: "p", text: "电子表格在小规模时可以计算成本，但随着产品增多、材料价格频繁变化，就会变得脆弱。ERP 把所需数据连接在一个系统中，使成本由真实交易计算得出，而不是来自手工复制。" },
   { type: "ul", items: [

@@ -78,7 +78,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A fuller platform, with member accounts, a searchable product catalog, or integration with internal systems like inventory and CRM, only becomes necessary once the website has to do more than display information, such as process transactions or store data for customers who log in repeatedly. Starting from the most urgent need and growing from there usually makes more sense than building a large platform from day one.",
+    text: "A fuller platform, with member accounts, a searchable product catalog, or integration with internal systems like inventory and [CRM](/services/crm), only becomes necessary once the website has to do more than display information, such as process transactions or store data for customers who log in repeatedly. Starting from the most urgent need and growing from there usually makes more sense than building a large platform from day one.",
   },
   { type: "h2", text: "SEO: it's not just about stuffing keywords" },
   {
@@ -158,7 +158,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "这并不是在说社交媒体不好，它依然是触达用户的绝佳工具。这是在说,一个你并不拥有的平台,终究有它的边界。算法随时可能改变,账号可能在没有清楚解释的情况下被封禁,而每一位访问你主页的人,实际上都站在别人的地盘上。网站,是唯一一个规则由你自己制定的数字空间。",
+    text: "这并不是在说社交媒体不好，它依然是触达用户的绝佳工具。这是在说,一个你并不拥有的平台,终究有它的边界。算法随时可能改变,账号可能在没有清楚解释的情况下被封禁,而每一位访问你主页的人,实际上都站在别人的地盘上。[网站](/services/website),是唯一一个规则由你自己制定的数字空间。",
   },
   {
     type: "p",
@@ -229,7 +229,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "更完整的平台，带有会员系统、可搜索的产品目录,或与库存、CRM 等内部系统对接，只有在网站需要做的不仅仅是展示信息时才真正必要,比如处理交易或存储反复登录的客户数据。从最迫切的需求开始,再随时间逐步扩展,通常比第一天就搭建庞大平台更合理。",
+    text: "更完整的平台，带有会员系统、可搜索的产品目录,或与库存、[CRM](/services/crm) 等内部系统对接，只有在网站需要做的不仅仅是展示信息时才真正必要,比如处理交易或存储反复登录的客户数据。从最迫切的需求开始,再随时间逐步扩展,通常比第一天就搭建庞大平台更合理。",
   },
   { type: "h2", text: "SEO:不只是堆砌关键词" },
   {

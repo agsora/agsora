@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Do not announce a firm launch date to the public before the app has passed review. It is safer to announce a time window, then fix the date after the app is approved and ready to release. Both stores let you hold an approved app and release it at a moment you choose." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "A hand holding a phone showing a home screen full of app icons",
     caption: "For your app's icon to reach a customer's screen, it first has to pass through the app store's door.",
   },
@@ -58,7 +58,7 @@ const en: Block[] = [
   { type: "p", text: "Provide a test account along with brief instructions for the reviewer, especially if your app needs registration, an invitation code, or additional hardware. If the app is rejected, read the reason calmly and respond specifically. Rejection is ordinary; most cases are resolved with a small fix or an additional explanation." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    src: "/blog/images/photo-1484480974693-6ca0a78fb36b",
     alt: "A hand writing a checklist in a notebook",
     caption: "A release checklist stops small overlooked items from turning into a rejection.",
   },
@@ -78,7 +78,7 @@ const en: Block[] = [
   { type: "p", text: "Install crash reporting and basic analytics before the release, not after. Without them you only learn there is a problem when one star reviews appear, and the developer has no data to find the cause." },
   { type: "h2", text: "Staged rollout and version numbering" },
   { type: "p", text: "An app does not have to be released to every user at once. A staged rollout lets a new version reach a small share of users first, then widens if there is no spike in crashes or complaints. If there is a problem, the rollout can be halted before the impact spreads." },
-  { type: "p", text: "Remember that a mobile app cannot be pulled back the way a website can. A version already installed stays on users' phones until they update. Fixes, too, must go through review again. That is why mistakes in a mobile app have a longer lasting effect, and care before release is worth more." },
+  { type: "p", text: "Remember that a [mobile app](/services/mobile) cannot be pulled back the way a website can. A version already installed stays on users' phones until they update. Fixes, too, must go through review again. That is why mistakes in a mobile app have a longer lasting effect, and care before release is worth more." },
   { type: "p", text: "Use consistent version numbering and write release notes that are honest and useful. Keep an internal record of what each version contains. Also design a way to force or suggest an update from the server side, so that old versions that are faulty or no longer compatible can be steered to update." },
   { type: "h2", text: "After release: reviews, ratings, and support" },
   { type: "p", text: "Release is not the finish line. Reviews and ratings in the app store influence prospective users' decisions and the app's position in store search results. Monitor reviews regularly and reply politely, especially to reviews that mention a problem. A reply showing the problem has been fixed often leads users to change their rating." },
@@ -90,7 +90,7 @@ const en: Block[] = [
   { type: "p", text: "Check the email registered on the publisher account regularly. Notices about policy changes, requests to update information, or violation warnings are sent there, often with a deadline. An account whose email is never read risks having the app taken down without you realising." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    src: "/blog/images/photo-1522542550221-31fd19575a2d",
     alt: "Coloured wireframe sketches of several app screen layouts",
     caption: "The screenshots on a store page should be designed, not simply captured as they come.",
   },
@@ -149,7 +149,7 @@ const zh: Block[] = [
   { type: "p", text: "在应用通过审核之前，不要向公众宣布确切的上线日期。更稳妥的做法是先宣布一个时间范围，等应用获批并准备好发布后再确定日期。两家商店都允许你把已获批的应用先保留，并在你选择的时间发布。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "手里拿着的手机显示着布满应用图标的主屏幕",
     caption: "你的应用图标要出现在顾客的屏幕上，必须先通过应用商店这道门。",
   },
@@ -186,7 +186,7 @@ const zh: Block[] = [
   { type: "p", text: "为审核人员提供测试账号和简短的说明，尤其是当你的应用需要注册、邀请码或额外硬件时。如果应用被拒，请冷静阅读原因并有针对性地回复。被拒是常事，大多数情况通过小修改或补充说明就能解决。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    src: "/blog/images/photo-1484480974693-6ca0a78fb36b",
     alt: "一只手正在笔记本上写检查清单",
     caption: "发布检查清单能防止被遗漏的小事变成一次被拒。",
   },
@@ -206,7 +206,7 @@ const zh: Block[] = [
   { type: "p", text: "在发布之前而不是之后，就接入崩溃报告工具和基础分析。没有这两样，你只有在一星评价出现时才知道出了问题，开发者也没有数据来查找原因。" },
   { type: "h2", text: "分阶段发布与版本编号" },
   { type: "p", text: "应用不必一次性发布给所有用户。分阶段发布可以让新版本先到达一小部分用户，如果崩溃或投诉没有激增，再逐步扩大。一旦出现问题，可以在影响扩大之前停止发布。" },
-  { type: "p", text: "要记住，移动应用不能像网站那样撤回。已经安装的版本会一直留在用户手机上，直到他们更新。修复同样需要再次经过审核。因此，移动应用里的错误影响更持久，发布前的谨慎也更有价值。" },
+  { type: "p", text: "要记住，[移动应用](/services/mobile)不能像网站那样撤回。已经安装的版本会一直留在用户手机上，直到他们更新。修复同样需要再次经过审核。因此，移动应用里的错误影响更持久，发布前的谨慎也更有价值。" },
   { type: "p", text: "使用一致的版本编号，并撰写如实且有用的更新说明。在内部保留每个版本内容的记录。同时设计一种由服务器端强制或建议更新的方式，以便引导有问题或不再兼容的旧版本进行更新。" },
   { type: "h2", text: "发布之后：评价、评分与支持" },
   { type: "p", text: "发布不是终点。应用商店里的评价和评分会影响潜在用户的决定，也影响应用在商店搜索结果中的位置。定期查看评价并礼貌回复，尤其是提到问题的评价。一条说明问题已经修复的回复，常常会让用户修改评分。" },
@@ -218,7 +218,7 @@ const zh: Block[] = [
   { type: "p", text: "定期查看发布者账号所登记的电子邮箱。有关政策变化、要求更新信息或违规警告的通知都会发到那里，而且常常带有期限。邮箱从来没人看的账号，可能在你毫无察觉的情况下让应用被下架。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    src: "/blog/images/photo-1522542550221-31fd19575a2d",
     alt: "几种应用界面布局的彩色线框草图",
     caption: "商店页面上的截图应当经过设计，而不是随手截取。",
   },

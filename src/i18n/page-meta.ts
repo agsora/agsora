@@ -53,17 +53,17 @@ export const pageMeta = {
     id: {
       title: "Solusi Software per Industri",
       description:
-        "Sistem bisnis untuk retail, F&B, distribusi, pendidikan, klinik, manufaktur, jasa profesional, UMKM, hingga enterprise di Indonesia.",
+        "Sistem bisnis untuk ritel, F&B, distribusi, transportasi, sekolah, klinik, koperasi, laundry, manufaktur, jasa profesional, UMKM, hingga korporasi di Indonesia.",
     },
     en: {
       title: "Software Solutions by Industry",
       description:
-        "Business systems for retail, F&B, distribution, education, clinics, manufacturing, professional services, SMEs, and enterprises.",
+        "Business systems for retail, F&B, distribution, transport, schools, clinics, cooperatives, laundries, manufacturing, professional services, SMEs, and enterprises.",
     },
     zh: {
       title: "行业软件解决方案",
       description:
-        "为零售、餐饮、分销、教育、诊所、制造、专业服务、中小企业及大型企业打造的业务系统。",
+        "为零售、餐饮、分销、运输、学校、诊所、合作社、洗衣店、制造、专业服务、中小企业及大型企业打造的业务系统。",
     },
   },
   pricing: {

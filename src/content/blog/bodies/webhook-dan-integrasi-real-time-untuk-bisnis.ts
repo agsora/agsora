@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Kedua cara punya tempat. Webhook cocok untuk kejadian yang perlu ditindaklanjuti cepat. Polling tetap berguna sebagai jaring pengaman untuk memastikan tidak ada kejadian yang terlewat, dan untuk sistem yang tidak menyediakan webhook. Banyak integrasi yang andal memakai keduanya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    src: "/blog/images/photo-1518770660439-4636190af475",
     alt: "Papan sirkuit elektronik dengan chip dan komponen, tampak dekat",
     caption: "Integrasi yang baik menghubungkan sistem-sistem seperti jalur sirkuit: sederhana di permukaan, teliti di dalam.",
   },
@@ -58,7 +58,7 @@ export const body: Block[] = [
   { type: "p", text: "Sediakan cara memproses ulang pesan yang gagal setelah masalahnya diperbaiki. Tanpa kemampuan ini, perbaikan harus dilakukan manual satu per satu dan sulit dipastikan lengkap." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+    src: "/blog/images/photo-1526628953301-3e589a6a8b74",
     alt: "Layar menampilkan panel metrik dengan grafik garis kecil dan angka performa",
     caption: "Panel pemantauan yang sederhana membantu menangkap integrasi yang gagal sebelum pelanggan merasakannya.",
   },
@@ -67,7 +67,7 @@ export const body: Block[] = [
   { type: "p", text: "Membangun sendiri layak dipertimbangkan ketika volume tinggi, aturan bisnis rumit, data sangat sensitif, atau integrasi menjadi bagian inti operasional yang tidak boleh bergantung pada pihak ketiga. Dengan membangun sendiri, Anda mendapat kendali penuh, tetapi juga tanggung jawab perawatan." },
   { type: "p", text: "Sering kali pendekatan campuran paling masuk akal: layanan siap pakai untuk alur pendukung, dan integrasi khusus untuk alur yang menyentuh uang, stok, dan data pelanggan secara langsung. Dokumentasikan keduanya agar tidak ada integrasi yang hanya diketahui satu orang." },
   { type: "h2", text: "Gambaran alur pesanan dari kejadian sampai tindakan" },
-  { type: "p", text: "Sebagai gambaran, bayangkan pelanggan membayar pesanan di toko online. Penyedia pembayaran mengirim kabar bahwa pembayaran berhasil. Toko menerima kabar itu, memeriksa tanda tangannya, mengubah status pesanan menjadi dibayar, lalu mengabari sistem gudang agar menyiapkan barang. Gudang mengurangi stok yang dicadangkan dan mengabari semua kanal bahwa stok berubah." },
+  { type: "p", text: "Sebagai gambaran, bayangkan pelanggan membayar pesanan di [toko online](/services/website). Penyedia pembayaran mengirim kabar bahwa pembayaran berhasil. Toko menerima kabar itu, memeriksa tanda tangannya, mengubah status pesanan menjadi dibayar, lalu mengabari sistem gudang agar menyiapkan barang. Gudang mengurangi stok yang dicadangkan dan mengabari semua kanal bahwa stok berubah." },
   { type: "p", text: "Ketika paket diserahkan kepada kurir, sistem gudang mengabari toko, dan toko mengirim pesan kepada pelanggan dengan nomor resi. Setiap langkah dipicu oleh kejadian sebelumnya, tanpa seorang pun perlu menyalin data. Di belakang itu, sistem keuangan menerima kabar yang sama dan mencatat penjualan." },
   { type: "p", text: "Alur ini terlihat mulus bagi pelanggan, tetapi masing-masing sambungan perlu tahan terhadap pesan ganda, keterlambatan, dan kegagalan. Menuliskan alurnya sebagai diagram sederhana dengan kejadian dan tindakannya adalah cara yang baik untuk menemukan titik lemah sebelum dibangun." },
   { type: "h2", text: "Menguji integrasi sebelum dan sesudah peluncuran" },

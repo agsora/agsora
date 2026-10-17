@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "In many companies, last month's financial report is finished only when the current month is nearly over. The finance team spends the first weeks chasing receipts that have not come in, reconciling accounts, and fixing entries that were wrong. When the report finally lands on the owner's desk, its contents are already history: the decisions that should have been based on those figures have already been made on estimates." },
   { type: "p", text: "A slow close is rarely caused by a slow finance team. The cause is almost always upstream: transactions recorded late, data scattered across several places, and matching work piled up until month end. The finance team simply sits at the end of the flow, where all those delays gather." },
-  { type: "p", text: "This article covers how to speed up the monthly close with the help of ERP and process discipline. We discuss the close calendar, reconciliation, cut off, inventory, adjusting journals, review, and the role of automation. There are no invented figures about how many days is ideal; every business differs. What we offer is a way of thinking and an order of work that can be applied in stages." },
+  { type: "p", text: "This article covers how to speed up the monthly close with the help of [ERP](/services/erp) and process discipline. We discuss the close calendar, reconciliation, cut off, inventory, adjusting journals, review, and the role of automation. There are no invented figures about how many days is ideal; every business differs. What we offer is a way of thinking and an order of work that can be applied in stages." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "There is a benefit for the team, too. A finance team trapped in closing work every month has no time for analysis. Speeding up the close means freeing the people who understand the company's numbers best to do something more useful than chasing receipts." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07",
+    src: "/blog/images/photo-1554224154-26032ffc0d07",
     alt: "Financial documents, a calculator, and a cup of coffee on a work desk",
     caption: "The more work that is finished during the month, the lighter the load on closing days.",
   },
@@ -43,7 +43,7 @@ const en: Block[] = [
   { type: "h2", text: "Recording at the source" },
   { type: "p", text: "The most important principle in ERP is that a transaction is recorded once, where it happens, by the person who performs it. The cashier records the sale, the warehouse records the goods receipt, purchasing records the order, and everything flows into the books without being retyped. The finance team reviews rather than copies." },
   { type: "p", text: "For this flow to work, the account mapping must be set up correctly. Each type of transaction needs to know which account it posts to: sales of a certain product to a certain revenue account, purchases of materials to an inventory account, shipping costs to an expense account. Mapping done carefully at the start saves thousands of manual journals later." },
-  { type: "p", text: "Systems that run separately, such as an online store or a till app that is not yet connected, are better linked through integration than through monthly file exports and imports. Daily integration makes differences visible on the same day, when the cause is still easy to trace." },
+  { type: "p", text: "Systems that run separately, such as an [online store](/services/website) or a till app that is not yet connected, are better linked through integration than through monthly file exports and imports. Daily integration makes differences visible on the same day, when the cause is still easy to trace." },
   { type: "callout", title: "The close is a result, not an activity", text: "If daily recording is tidy, the close merely confirms and summarises. If daily recording is a mess, the close becomes an attempt to rebuild a whole month in a few days. The biggest improvement almost always lies in daily habits." },
   { type: "h2", text: "Reconciling throughout the month" },
   { type: "p", text: "Reconciliation means making sure two records of the same thing really agree: the cash book with the bank statement, the receivables ledger with the list of invoices, the inventory ledger with physical stock. If it is done only once at month end, one small difference on the third has to be hunted for among hundreds of transactions." },
@@ -51,7 +51,7 @@ const en: Block[] = [
   { type: "p", text: "Review suspense and difference accounts periodically as well. Accounts like these are normal to have, but their balances must not be left to grow. A suspense balance that keeps getting bigger is a sign that some type of transaction still has no clear recording rule." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "A person sitting at a desk with a calculator and a notebook",
     caption: "Matching done routinely saves the time spent hunting for differences at month end.",
   },
@@ -84,7 +84,7 @@ const en: Block[] = [
   { type: "p", text: "An audit trail recording who changed what and when is a basic ERP capability worth using. It protects the company and protects employees too, because every change has a clear owner." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "A laptop showing a dashboard with charts and report tables",
     caption: "A report that arrives earlier can still influence the current month's decisions.",
   },
@@ -94,7 +94,7 @@ const en: Block[] = [
   { type: "p", text: "Schedule the monthly review meeting on a fixed date shortly after the report is issued. A fixed schedule puts healthy pressure on the closing process and ensures the report is actually read and acted on, not merely filed." },
   { type: "h2", text: "The role of automation and its limits" },
   { type: "p", text: "Automation helps a great deal with work that is repetitive and rule based: importing bank transactions, matching payments, reading supplier invoices, creating recurring journals, and compiling reports. Tools based on artificial intelligence are beginning to be used to propose matches and flag unusual transactions." },
-  { type: "p", text: "But automation speeds up a process that is already clear; it does not fix one that is vague. If cut off rules were never decided or the account mapping is wrong, automation merely produces errors faster. Tidy the rules first, then automate. Decisions that require judgement must still be reviewed by a person." },
+  { type: "p", text: "But [automation](/services/ai-automation) speeds up a process that is already clear; it does not fix one that is vague. If cut off rules were never decided or the account mapping is wrong, automation merely produces errors faster. Tidy the rules first, then automate. Decisions that require judgement must still be reviewed by a person." },
   { type: "p", text: "Measure progress in a simple way. Note on which working day the report is issued each month, how many correcting journals are made after the close, and which tasks are late most often. These three records are enough to show whether your improvements are working, and they give the finance team evidence to bring along when asking other departments to change their habits." },
   { type: "h2", text: "Common mistakes to avoid" },
   { type: "ul", items: [
@@ -128,7 +128,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "在许多公司，上个月的财务报表要等到本月快结束时才完成。财务团队把头几周都花在催要尚未交来的单据、核对账户和更正错误的记录上。等报表终于送到老板桌上，里面的内容已成历史：本该依据这些数字做出的决定，早已凭估计做完了。" },
   { type: "p", text: "结账慢，很少是因为财务团队慢。原因几乎总在上游：交易记录得晚、数据分散在好几个地方，以及核对工作一直堆到月底。财务团队只是处在流程的末端，所有的延误都汇集在那里。" },
-  { type: "p", text: "本文讨论如何借助 ERP 和流程纪律来加快月度结账。我们会谈到结账日历、对账、截止、存货、调整分录、检查，以及自动化的作用。这里没有关于几天才算理想的编造数字，每家企业情况不同。我们提供的是可以分阶段落实的思路和工作顺序。" },
+  { type: "p", text: "本文讨论如何借助 [ERP](/services/erp) 和流程纪律来加快月度结账。我们会谈到结账日历、对账、截止、存货、调整分录、检查，以及自动化的作用。这里没有关于几天才算理想的编造数字，每家企业情况不同。我们提供的是可以分阶段落实的思路和工作顺序。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -146,7 +146,7 @@ const zh: Block[] = [
   { type: "p", text: "对团队也有好处。每个月都陷在结账工作里的财务团队没有时间做分析。加快结账，意味着让最了解公司数字的人，去做比催单据更有价值的事。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07",
+    src: "/blog/images/photo-1554224154-26032ffc0d07",
     alt: "办公桌上的财务文件、计算器和一杯咖啡",
     caption: "月中完成的工作越多，结账那几天的负担就越轻。",
   },
@@ -168,7 +168,7 @@ const zh: Block[] = [
   { type: "h2", text: "在源头记录" },
   { type: "p", text: "ERP 最重要的原则，是交易只记录一次，在发生的地方，由经办的人来记。收银员记录销售，仓库记录收货，采购记录订单，所有数据流入账簿而无需重新录入。财务团队负责检查，而不是抄录。" },
   { type: "p", text: "要让这条流程运转起来，科目映射必须正确设置。每种交易都需要知道自己记入哪个科目：某类产品的销售记入某个收入科目，原料采购记入存货科目，运费记入费用科目。在开始时认真做好映射，日后能省下成千上万笔手工分录。" },
-  { type: "p", text: "独立运行的系统，例如尚未对接的网店或收银应用，最好通过集成来连接，而不是靠每月导出和导入文件。每日集成能让差异在当天就显现，这时原因还很容易追查。" },
+  { type: "p", text: "独立运行的系统，例如尚未对接的[网店](/services/website)或收银应用，最好通过集成来连接，而不是靠每月导出和导入文件。每日集成能让差异在当天就显现，这时原因还很容易追查。" },
   { type: "callout", title: "结账是结果，而不是一项活动", text: "如果日常记录整洁，结账只是确认和汇总。如果日常记录混乱，结账就变成在几天内重建整整一个月的努力。最大的改进几乎总是在日常习惯里。" },
   { type: "h2", text: "整月持续对账" },
   { type: "p", text: "对账，就是确认关于同一件事的两份记录确实一致：现金账与银行对账单，应收账款账与发票清单，存货账与实物库存。如果只在月底做一次，三号那天的一点小差异，就得在几百笔交易里去找。" },
@@ -176,7 +176,7 @@ const zh: Block[] = [
   { type: "p", text: "还要定期查看暂记科目和差异科目。有这类科目很正常，但其余额不能任其增长。暂记科目的余额不断变大，说明有某类交易还没有明确的记账规则。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "一个人坐在桌前，旁边放着计算器和笔记本",
     caption: "经常进行的核对，省下了月底寻找差异的时间。",
   },
@@ -209,7 +209,7 @@ const zh: Block[] = [
   { type: "p", text: "记录谁在何时修改了什么的审计轨迹，是 ERP 的一项基本能力，值得好好利用。它既保护公司，也保护员工，因为每一次修改都有明确的责任人。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "笔记本电脑上显示着包含图表和报表表格的仪表盘",
     caption: "更早到达的报表，还来得及影响本月的决定。",
   },
@@ -218,7 +218,7 @@ const zh: Block[] = [
   { type: "p", text: "为较大的变动附上简短说明。没有解释的数字，会迫使读者去猜。对老板来说，一页写着三四项变化及其原因的纸，比二十页表格更有用。" },
   { type: "p", text: "把月度回顾会议固定安排在报表出具后不久的某一天。固定的日程会给结账流程带来健康的压力，并确保报表真的被阅读和跟进，而不只是被归档。" },
   { type: "h2", text: "自动化的作用与局限" },
-  { type: "p", text: "对于重复而有规律的工作，自动化帮助很大：导入银行流水、匹配付款、识别供应商发票、生成周期性分录，以及编制报表。基于人工智能的工具也开始被用来建议匹配项和标记异常交易。" },
+  { type: "p", text: "对于重复而有规律的工作，[自动化](/services/ai-automation)帮助很大：导入银行流水、匹配付款、识别供应商发票、生成周期性分录，以及编制报表。基于人工智能的工具也开始被用来建议匹配项和标记异常交易。" },
   { type: "p", text: "不过，自动化加快的是已经清晰的流程，它修不好模糊的流程。如果截止规则从未确定，或者科目映射是错的，自动化只会更快地制造错误。先把规则理顺，再做自动化。需要判断的决定，仍然必须由人来复核。" },
   { type: "p", text: "用简单的方式衡量进展。记下每个月报表是在第几个工作日出具的、结账之后做了多少笔更正分录，以及哪些任务最常延误。这三项记录足以说明你的改进是否有效，也让财务团队在请其他部门改变习惯时有据可依。" },
   { type: "h2", text: "应当避免的常见错误" },

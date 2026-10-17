@@ -22,7 +22,7 @@ const en: Block[] = [
   { type: "p", text: "So UAT is not a signing formality at the end of the project. It is the last safety net between a misunderstanding and real operations. Shortening it to meet a schedule almost always ends in greater cost after launch, when fixes must be made while the business is running." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "A laptop screen showing colourful program code in an editor",
     caption: "The technical team makes sure the code works as designed; UAT makes sure the design fits real work.",
   },
@@ -52,7 +52,7 @@ const en: Block[] = [
   { type: "p", text: "An app that looks smooth with five rows of sample data can slow down or become confusing with thousands of real records. If possible, load test data close to the volume and variety of real data, for example a partial, anonymised migration of old data. Also test on the devices and connections users actually use, including the simplest. Testing on a developer's fast laptop does not represent a shop with an old tablet and weak signal." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "A laptop showing a web page with a call to action button, a hand on the trackpad",
     caption: "Business testers check whether the screens and flows truly make sense for their work.",
   },
@@ -141,7 +141,7 @@ const zh: Block[] = [
   { type: "p", text: "因此,UAT 不是项目结束时签字的形式。它是误解与真实运营之间最后的安全网。为了赶进度而压缩它,几乎总会导致上线后更大的代价,因为那时修复必须在业务运转的同时进行。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "笔记本电脑屏幕在编辑器中显示彩色的程序代码",
     caption: "技术团队确保代码按设计运行;UAT 确保设计契合真实工作。",
   },
@@ -171,7 +171,7 @@ const zh: Block[] = [
   { type: "p", text: "用五行样本数据看起来很流畅的应用,面对成千上万条真实数据时,可能变慢或令人困惑。如果可能,加载在数量和多样性上接近真实数据的测试数据,例如经过匿名化的部分旧数据迁移结果。还要在用户实际使用的设备和网络上测试,包括最简单的那种。在开发人员快速的笔记本上测试,并不能代表使用旧平板和弱信号的门店。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "笔记本电脑显示带有行动号召按钮的网页,手放在触控板上",
     caption: "业务测试人员检查界面和流程是否真正适合他们的工作。",
   },

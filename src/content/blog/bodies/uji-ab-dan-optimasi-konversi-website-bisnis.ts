@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Banyak keputusan tentang website diambil dengan cara yang sama: seseorang berpendapat tombol sebaiknya berwarna lain, judul sebaiknya lebih pendek, atau formulir sebaiknya dikurangi kolomnya. Yang bersuara paling keras atau berpangkat paling tinggi biasanya menang. Hasilnya kadang bagus, kadang tidak, dan hampir tidak pernah ada yang tahu pasti mengapa." },
   { type: "p", text: "Uji A/B menawarkan cara yang lebih tenang: tunjukkan dua versi kepada pengunjung yang berbeda pada waktu yang sama, lalu lihat mana yang lebih sering menghasilkan tindakan yang Anda inginkan. Alih-alih berdebat, Anda membiarkan perilaku pengunjung yang menjawab. Namun uji A/B juga mudah disalahgunakan, dan banyak hasil yang tampak meyakinkan sebenarnya menyesatkan." },
-  { type: "p", text: "Artikel ini menjelaskan cara memulai pengujian secara sehat untuk website dan toko online bisnis kecil dan menengah: kapan pengujian layak dilakukan, bagaimana merumuskan hipotesis, apa yang harus diukur, seberapa lama pengujian berjalan, dan bagaimana menghindari kesimpulan keliru. Kami tidak memberi angka peningkatan yang pasti, karena setiap situs berbeda." },
+  { type: "p", text: "Artikel ini menjelaskan cara memulai pengujian secara sehat untuk website dan [toko online](/services/website) bisnis kecil dan menengah: kapan pengujian layak dilakukan, bagaimana merumuskan hipotesis, apa yang harus diukur, seberapa lama pengujian berjalan, dan bagaimana menghindari kesimpulan keliru. Kami tidak memberi angka peningkatan yang pasti, karena setiap situs berbeda." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada varian lain seperti pengujian beberapa versi sekaligus atau pengujian beberapa elemen yang digabung. Untuk kebanyakan bisnis, uji A/B sederhana dengan dua versi sudah cukup dan jauh lebih mudah ditafsirkan dengan benar." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "Layar laptop menampilkan grafik dan laporan analitik bisnis",
     caption: "Pengujian hanya bermanfaat bila hasilnya dibaca dengan data yang cukup dan ukuran keberhasilan yang jelas.",
   },
@@ -44,7 +44,7 @@ export const body: Block[] = [
   { type: "p", text: "Hindari menjalankan pengujian saat ada kejadian tidak biasa seperti kampanye besar, libur panjang, atau gangguan teknis. Peristiwa itu mengubah komposisi pengunjung dan dapat menggeser hasil dengan cara yang tidak berkaitan dengan perubahan yang diuji." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44",
+    src: "/blog/images/photo-1559526324-4b87b5e36e44",
     alt: "Laptop menampilkan halaman web dengan tombol ajakan bertindak, tangan di trackpad",
     caption: "Unsur seperti judul, penawaran, dan tombol ajakan bertindak menjadi kandidat pengujian yang paling lazim.",
   },
@@ -71,7 +71,7 @@ export const body: Block[] = [
   { type: "p", text: "Waspadai kedipan, yaitu keadaan ketika pengunjung sekilas melihat versi asli sebelum versi uji muncul. Selain mengganggu, kedipan memengaruhi perilaku dan menyimpang dari pengalaman sebenarnya. Pengujian yang dijalankan di sisi server atau dengan teknik yang tepat biasanya menghindari masalah ini." },
   { type: "p", text: "Saring lalu lintas bukan manusia, seperti perayap mesin pencari dan bot, serta lalu lintas internal dari tim Anda sendiri. Keduanya dapat membelokkan hasil terutama pada situs dengan pengunjung yang sedikit. Terakhir, periksa bahwa kedua versi dimuat dengan kecepatan yang setara, karena versi yang lebih lambat akan kalah karena alasan yang tidak ada hubungannya dengan rancangannya." },
   { type: "h2", text: "Pengujian pada aplikasi dan pengalaman mobile" },
-  { type: "p", text: "Prinsip yang sama berlaku pada aplikasi mobile, dengan beberapa catatan. Pembaruan aplikasi memerlukan waktu untuk sampai ke pengguna, sehingga pengujian sering dijalankan lewat pengaturan jarak jauh yang mengaktifkan varian tertentu tanpa merilis versi baru. Pastikan aplikasi dirancang untuk mendukung hal ini sejak awal." },
+  { type: "p", text: "Prinsip yang sama berlaku pada [aplikasi mobile](/services/mobile), dengan beberapa catatan. Pembaruan aplikasi memerlukan waktu untuk sampai ke pengguna, sehingga pengujian sering dijalankan lewat pengaturan jarak jauh yang mengaktifkan varian tertentu tanpa merilis versi baru. Pastikan aplikasi dirancang untuk mendukung hal ini sejak awal." },
   { type: "p", text: "Pengguna aplikasi juga cenderung lebih sedikit dan lebih setia daripada pengunjung situs, sehingga perubahan pada alur awal pengguna baru, seperti pendaftaran dan pengenalan fitur, sering menjadi tempat pengujian yang paling bermakna. Perhatikan pula kebijakan toko aplikasi dan aturan privasi saat mengumpulkan data perilaku." },
   { type: "h2", text: "Kapan menghentikan, menerapkan, atau mengulang" },
   { type: "p", text: "Setelah pengujian selesai, ada tiga kemungkinan. Bila versi baru jelas lebih baik dan ukuran pengaman aman, terapkan ke seluruh pengunjung dan pantau beberapa minggu untuk memastikan hasilnya bertahan. Bila hasilnya tidak berbeda, pilih versi yang lebih sederhana atau lebih murah dirawat." },

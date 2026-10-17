@@ -79,7 +79,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dampak nyata kecepatan pada bisnis" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko online fashion yang halaman produknya rata-rata membutuhkan enam detik untuk dimuat sepenuhnya, terutama karena foto produk beresolusi sangat tinggi yang belum dikompresi. Setelah menganalisis data, mereka menemukan tingkat pengunjung yang meninggalkan halaman sebelum sempat melihat detail produk cukup tinggi, terutama dari pengunjung ponsel.",
+    text: "Bayangkan sebuah [toko online](/services/website) fashion yang halaman produknya rata-rata membutuhkan enam detik untuk dimuat sepenuhnya, terutama karena foto produk beresolusi sangat tinggi yang belum dikompresi. Setelah menganalisis data, mereka menemukan tingkat pengunjung yang meninggalkan halaman sebelum sempat melihat detail produk cukup tinggi, terutama dari pengunjung ponsel.",
   },
   {
     type: "p",

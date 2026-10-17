@@ -59,7 +59,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua pendekatan peluncuran yang berbeda" },
   {
     type: "p",
-    text: "Bayangkan sebuah perusahaan yang meluncurkan sistem ERP baru dengan hanya mengirim email pengumuman singkat berisi tanggal peluncuran dan link tutorial video, tanpa pelatihan langsung atau pendampingan. Setelah peluncuran, banyak karyawan bingung dan frustrasi, sebagian diam-diam kembali ke cara lama, dan adopsi sistem baru berjalan sangat lambat dengan banyak keluhan.",
+    text: "Bayangkan sebuah perusahaan yang meluncurkan [sistem ERP](/services/erp) baru dengan hanya mengirim email pengumuman singkat berisi tanggal peluncuran dan link tutorial video, tanpa pelatihan langsung atau pendampingan. Setelah peluncuran, banyak karyawan bingung dan frustrasi, sebagian diam-diam kembali ke cara lama, dan adopsi sistem baru berjalan sangat lambat dengan banyak keluhan.",
   },
   {
     type: "p",

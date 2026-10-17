@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This article covers the difference between the regular WhatsApp Business app and the WhatsApp Business Platform (API), what can be integrated with a website, app, CRM, or ERP, how to design a service flow that doesn't feel like a robot, and what to watch for on policy and data security. The goal is to help you decide whether integration is needed yet and, if so, how to start with sensible steps.",
+    text: "This article covers the difference between the regular WhatsApp Business app and the WhatsApp Business Platform (API), what can be integrated with a website, app, [CRM](/services/crm), or ERP, how to design a service flow that doesn't feel like a robot, and what to watch for on policy and data security. The goal is to help you decide whether integration is needed yet and, if so, how to start with sensible steps.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    src: "/blog/images/photo-1512941937669-90a1b58e7e9c",
     alt: "A smartphone showing a home screen with various communication app icons",
     caption: "Customers are already comfortable on WhatsApp; the challenge is managing those conversations neatly on the business side.",
   },
@@ -94,12 +94,12 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A WhatsApp button on a website can be made smarter: it can carry the context of the page the visitor is viewing, such as the product or service they're interested in, so the agent doesn't have to ask from scratch. In a mobile app the same applies to customer support: the user taps a help button and a conversation opens with the relevant account data already attached. Website visitors whose source was hard to trace can also be linked to the campaign that brought them.",
+    text: "A WhatsApp button on a website can be made smarter: it can carry the context of the page the visitor is viewing, such as the product or service they're interested in, so the agent doesn't have to ask from scratch. In a [mobile app](/services/mobile) the same applies to customer support: the user taps a help button and a conversation opens with the relevant account data already attached. Website visitors whose source was hard to trace can also be linked to the campaign that brought them.",
   },
   { type: "h2", text: "Designing conversation flows that don't feel like a robot" },
   {
     type: "p",
-    text: "WhatsApp automation often fails not because of the technology but because of the conversation design. A customer trapped in a multilevel menu with no way out quickly gets frustrated and moves to another channel. The principles below help keep the experience human.",
+    text: "WhatsApp [automation](/services/ai-automation) often fails not because of the technology but because of the conversation design. A customer trapped in a multilevel menu with no way out quickly gets frustrated and moves to another channel. The principles below help keep the experience human.",
   },
   {
     type: "ol",
@@ -132,7 +132,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+    src: "/blog/images/photo-1584433144859-1fc3ab64a957",
     alt: "A smartphone displaying a security lock icon on a wooden desk",
     caption: "Customer conversations are often scattered across many devices; integration brings them together in one controlled place.",
   },
@@ -219,7 +219,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文介绍普通 WhatsApp Business 应用与 WhatsApp Business Platform(API)的区别、可以与网站、应用、CRM 或 ERP 整合的内容、如何设计不像机器人的服务流程,以及在政策和数据安全方面需要注意的事项。目的是帮助你判断现在是否需要整合,如果需要,如何用合理的步骤开始。",
+    text: "本文介绍普通 WhatsApp Business 应用与 WhatsApp Business Platform(API)的区别、可以与[网站](/services/website)、应用、CRM 或 ERP 整合的内容、如何设计不像机器人的服务流程,以及在政策和数据安全方面需要注意的事项。目的是帮助你判断现在是否需要整合,如果需要,如何用合理的步骤开始。",
   },
   { type: "h2", text: "要点摘要" },
   {
@@ -239,11 +239,11 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "第二种是 WhatsApp Business Platform,通常称为 API。与应用不同,该平台本身没有对话界面。它需要连接到其他软件,例如团队共享收件箱、CRM、工单系统或你自己开发的应用。这样,多位客服可以同时服务同一个号码,对话可以记录到客户资料中,系统还可以自动发送特定消息,例如订单确认或预约提醒。",
+    text: "第二种是 WhatsApp Business Platform,通常称为 API。与应用不同,该平台本身没有对话界面。它需要连接到其他软件,例如团队共享收件箱、[CRM](/services/crm)、工单系统或你自己开发的应用。这样,多位客服可以同时服务同一个号码,对话可以记录到客户资料中,系统还可以自动发送特定消息,例如订单确认或预约提醒。",
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    src: "/blog/images/photo-1512941937669-90a1b58e7e9c",
     alt: "智能手机主屏幕上显示各种通讯应用图标",
     caption: "客户早已习惯使用 WhatsApp;挑战在于企业一方如何有条理地管理这些对话。",
   },
@@ -269,7 +269,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "如果其中两三条让你感到熟悉,整合很可能带来实实在在的改变。如果一条都没有,最好先在普通应用中理顺流程;把混乱的流程自动化,只会让混乱运行得更快。",
+    text: "如果其中两三条让你感到熟悉,整合很可能带来实实在在的改变。如果一条都没有,最好先在普通应用中理顺流程;把混乱的流程[自动化](/services/ai-automation),只会让混乱运行得更快。",
   },
   { type: "h2", text: "可以整合哪些内容" },
   {
@@ -340,7 +340,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+    src: "/blog/images/photo-1584433144859-1fc3ab64a957",
     alt: "木桌上显示安全锁图标的智能手机",
     caption: "客户对话常常分散在多台设备上;整合后可以把它们汇集到一个受控的地方。",
   },

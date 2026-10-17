@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak tim sales mulai memakai CRM dengan tahapan bawaan seperti Lead, Prospek, dan Negosiasi, tanpa pernah menyepakati artinya. Akibatnya, dua sales bisa menempatkan peluang yang kondisinya persis sama di tahap yang berbeda. Angka pipeline terlihat rapi di layar, tetapi tidak mencerminkan kenyataan, dan keputusan yang diambil dari angka itu ikut meleset.",
+    text: "Banyak tim sales mulai memakai [CRM](/services/crm) dengan tahapan bawaan seperti Lead, Prospek, dan Negosiasi, tanpa pernah menyepakati artinya. Akibatnya, dua sales bisa menempatkan peluang yang kondisinya persis sama di tahap yang berbeda. Angka pipeline terlihat rapi di layar, tetapi tidak mencerminkan kenyataan, dan keputusan yang diambil dari angka itu ikut meleset.",
   },
   {
     type: "p",

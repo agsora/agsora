@@ -157,7 +157,7 @@ export const body: Block[] = [
   { type: "h2", text: "Dashboard real time versus laporan periode" },
   {
     type: "p",
-    text: "Ada perbedaan penting antara melihat angka konsolidasi secara real time di dashboard dan menunggu laporan resmi setelah periode ditutup. Dashboard real time berguna untuk memantau tren dan mendeteksi anomali sedini mungkin, tapi angkanya masih bisa berubah karena transaksi hari berjalan belum sepenuhnya final dan penyesuaian masih mungkin terjadi.",
+    text: "Ada perbedaan penting antara melihat angka konsolidasi secara real time di [dashboard](/services/dashboard) dan menunggu laporan resmi setelah periode ditutup. Dashboard real time berguna untuk memantau tren dan mendeteksi anomali sedini mungkin, tapi angkanya masih bisa berubah karena transaksi hari berjalan belum sepenuhnya final dan penyesuaian masih mungkin terjadi.",
   },
   {
     type: "p",

@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Pertimbangkan juga kemampuan melayani. Jika pengunjung membaca website dalam bahasa mereka, mereka akan berharap bisa dilayani dalam bahasa itu juga: pertanyaan dijawab, dukungan tersedia, dan pesanan diproses dengan jelas. Menjanjikan lewat website namun tidak sanggup menindaklanjuti menciptakan kekecewaan. Pastikan Anda atau tim punya cara menangani pertanyaan dari tiap bahasa yang ditawarkan, setidaknya dengan alur yang jujur tentang batas layanan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    src: "/blog/images/photo-1451187580459-43490279c0fa",
     alt: "Foto bumi dari luar angkasa dengan cahaya kota di malam hari",
     caption: "Menjangkau dunia dimulai dari berbicara dalam bahasa pelanggan, bukan hanya dari menayangkan website di internet.",
   },
@@ -54,7 +54,7 @@ export const body: Block[] = [
     text: "Setiap halaman dalam tiap bahasa sebaiknya punya alamat sendiri, bahasa yang konsisten di seluruh isinya, dan hubungan timbal balik yang jelas dengan versi bahasa lainnya.",
   },
   { type: "h2", text: "Kualitas terjemahan dan penyesuaian budaya" },
-  { type: "p", text: "Terjemahan yang baik lebih dari mengganti kata satu per satu. Ia menyampaikan makna, nada, dan maksud dengan cara yang terasa wajar bagi penutur asli. Terjemahan kaku yang jelas hasil mesin tanpa penyuntingan merusak kepercayaan, terutama pada website bisnis yang harus tampak profesional." },
+  { type: "p", text: "Terjemahan yang baik lebih dari mengganti kata satu per satu. Ia menyampaikan makna, nada, dan maksud dengan cara yang terasa wajar bagi penutur asli. Terjemahan kaku yang jelas hasil mesin tanpa penyuntingan merusak kepercayaan, terutama pada [website bisnis](/services/website) yang harus tampak profesional." },
   { type: "p", text: "Alat terjemahan otomatis kini cukup baik untuk membuat draf, tetapi hasilnya tetap perlu ditinjau oleh penutur asli yang memahami konteks bisnis Anda. Peninjauan menangkap kesalahan istilah teknis, nada yang tidak sesuai, ungkapan yang terdengar janggal, dan arti yang bergeser. Untuk halaman terpenting seperti beranda, halaman layanan, dan halaman kontak, pertimbangkan terjemahan atau penyuntingan manual yang cermat." },
   { type: "p", text: "Buatlah daftar istilah baku yang dipakai konsisten di semua bahasa, seperti nama produk, nama layanan, dan istilah teknis khusus. Putuskan mana yang tidak diterjemahkan, misalnya nama merek, dan mana yang diterjemahkan. Konsistensi istilah membuat website terlihat rapi dan memudahkan penerjemah baru bekerja." },
   { type: "h3", text: "Menyesuaikan dengan budaya dan kebiasaan" },
@@ -66,7 +66,7 @@ export const body: Block[] = [
   { type: "p", text: "Perhatikan pula aspek tampilan. Teks dalam bahasa berbeda memiliki panjang berbeda; judul yang pas dalam satu bahasa bisa meluap pada bahasa lain. Aksara tertentu memerlukan jenis huruf yang mendukungnya dengan baik dan ukuran serta jarak baris yang sesuai. Beberapa bahasa ditulis dari kanan ke kiri dan memerlukan penyesuaian tata letak. Uji setiap versi bahasa pada ukuran layar ponsel dan desktop, bukan hanya di bahasa asli." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89",
+    src: "/blog/images/photo-1593642632559-0c6d3fc62b89",
     alt: "Laptop dan monitor di meja dekat jendela besar",
     caption: "Setiap versi bahasa perlu diuji di layar nyata, karena panjang teks dan aksara berbeda memengaruhi tata letak.",
   },

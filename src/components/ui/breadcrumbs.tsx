@@ -13,7 +13,7 @@ export function Breadcrumbs({ items, label }: { items: Crumb[]; label: string })
           return (
             <li key={item.href} className="flex items-center gap-2">
               {last ? (
-                <span aria-current="page" className="text-ink-muted">
+                <span aria-current="page" className="line-clamp-1 max-w-[14rem] text-ink-muted sm:max-w-md">
                   {item.name}
                 </span>
               ) : (

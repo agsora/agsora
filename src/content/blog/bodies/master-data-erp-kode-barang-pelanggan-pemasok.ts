@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Ketika bisnis memutuskan menerapkan ERP, perhatian biasanya tertuju pada fitur: modul apa saja yang ada, laporan apa yang bisa dihasilkan, dan seberapa mudah tampilannya. Jarang ada yang bertanya sejak awal, \"Data apa yang akan kita masukkan ke dalamnya, dan seberapa bersih data itu?\" Padahal di situlah banyak proyek ERP diam-diam goyah. Sistem yang canggih menerima data yang kacau akan menghasilkan laporan yang kacau pula, hanya saja lebih rapi tampilannya." },
   { type: "p", text: "Data induk atau master data adalah data inti yang dipakai berulang oleh hampir semua proses bisnis: daftar barang, pelanggan, pemasok, karyawan, gudang, dan akun keuangan. Setiap transaksi, seperti pesanan, faktur, atau pergerakan stok, mengacu pada data induk ini. Jika data induknya ganda, tidak konsisten, atau tidak lengkap, kesalahan menjalar ke seluruh transaksi dan laporan di atasnya." },
-  { type: "p", text: "Artikel ini membahas mengapa data induk menentukan keberhasilan ERP, bagaimana menyusun kode barang dan data pelanggan serta pemasok, aturan penamaan yang praktis, dan cara menjaga data tetap bersih setelah sistem berjalan. Kami tidak menggunakan angka rekaan tentang seberapa besar kerugian akibat data buruk; yang kami tawarkan adalah pola kerja dan daftar periksa yang dapat Anda terapkan pada data bisnis Anda sendiri." },
+  { type: "p", text: "Artikel ini membahas mengapa data induk menentukan keberhasilan [ERP](/services/erp), bagaimana menyusun kode barang dan data pelanggan serta pemasok, aturan penamaan yang praktis, dan cara menjaga data tetap bersih setelah sistem berjalan. Kami tidak menggunakan angka rekaan tentang seberapa besar kerugian akibat data buruk; yang kami tawarkan adalah pola kerja dan daftar periksa yang dapat Anda terapkan pada data bisnis Anda sendiri." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Karena itu, kualitas data induk menentukan kualitas hampir semua yang dihasilkan ERP. Laporan penjualan per pelanggan, nilai persediaan, analisis margin per produk, dan perencanaan pembelian semuanya bergantung pada data induk yang akurat dan konsisten. Memperbaikinya setelah ribuan transaksi tercatat jauh lebih mahal daripada menyusunnya dengan benar sejak awal." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
+    src: "/blog/images/photo-1542626991-cbc4e32524cc",
     alt: "Tangan menempelkan catatan tempel pada papan perencanaan yang penuh",
     caption: "Menyusun data induk dimulai dari perencanaan di atas kertas: apa yang dicatat, oleh siapa, dan dengan aturan apa.",
   },
@@ -73,7 +73,7 @@ export const body: Block[] = [
   { type: "p", text: "Gunakan pilihan terkontrol bila memungkinkan. Daripada membiarkan kolom satuan diisi bebas, sediakan daftar pilihan seperti buah, kotak, kilogram. Daftar pilihan menghilangkan variasi penulisan dan mempermudah laporan. Hal yang sama berlaku untuk kategori, wilayah, dan metode pembayaran." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556155092-490a1ba16284",
+    src: "/blog/images/photo-1556155092-490a1ba16284",
     alt: "Tangan mengetik di laptop yang menampilkan dasbor tabel di sebuah kafe",
     caption: "Tampilan dasbor yang rapi hanya bisa dipercaya jika data induk di baliknya konsisten.",
   },
@@ -81,7 +81,7 @@ export const body: Block[] = [
   { type: "p", text: "Tuliskan aturan di atas dalam satu panduan singkat yang mudah dicari, lengkap dengan contoh benar dan salah. Panduan satu sampai dua halaman yang benar-benar dibaca lebih berguna daripada dokumen tebal yang dilupakan. Berikan kepada setiap orang yang akan menambah atau mengubah data, dan perbarui ketika aturan berubah." },
   { type: "h2", text: "Membersihkan data lama sebelum migrasi" },
   { type: "p", text: "Ketika bisnis pindah dari spreadsheet atau sistem lama ke ERP, godaan terbesar adalah memindahkan semuanya apa adanya. Padahal ini kesempatan terbaik untuk membersihkan. Data yang berantakan di sistem lama akan menjadi data yang berantakan di sistem baru, hanya dengan wajah yang lebih mahal." },
-  { type: "p", text: "Mulailah dengan inventarisasi: di mana saja data induk Anda tersimpan? Biasanya tersebar di banyak spreadsheet, sistem kasir lama, program akuntansi, dan catatan pribadi karyawan. Kumpulkan semuanya dan bandingkan. Cari duplikasi, data tidak lengkap, format yang tidak konsisten, dan catatan yang sudah tidak aktif." },
+  { type: "p", text: "Mulailah dengan inventarisasi: di mana saja data induk Anda tersimpan? Biasanya tersebar di banyak spreadsheet, [sistem kasir](/services/pos) lama, program akuntansi, dan catatan pribadi karyawan. Kumpulkan semuanya dan bandingkan. Cari duplikasi, data tidak lengkap, format yang tidak konsisten, dan catatan yang sudah tidak aktif." },
   { type: "p", text: "Lalu bersihkan secara bertahap. Gabungkan catatan ganda dengan hati-hati, putuskan catatan mana yang menjadi induk dan pindahkan riwayat yang relevan. Lengkapi data wajib yang kosong. Seragamkan format sesuai aturan penamaan. Nonaktifkan, bukan hapus, barang dan pihak yang sudah tidak dipakai agar riwayat transaksinya tetap utuh. Dan jangan memigrasikan yang memang tidak diperlukan; sistem baru adalah momen yang tepat untuk melepas beban lama." },
   { type: "p", text: "Setelah dibersihkan, uji impor dengan sebagian kecil data lebih dulu. Periksa hasilnya di sistem baru, perbaiki aturan pemetaan jika ada masalah, lalu lakukan migrasi penuh. Topik migrasi data ini kami bahas lebih lengkap di artikel kami tentang persiapan migrasi data ke sistem baru." },
   { type: "h3", text: "Libatkan orang yang paling mengenal datanya" },

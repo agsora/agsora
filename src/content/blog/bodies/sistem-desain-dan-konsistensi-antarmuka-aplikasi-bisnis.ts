@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada juga dampak pada biaya. Pekerjaan yang diulang adalah pekerjaan yang dibayar dua kali. Sistem desain mengubah sebagian pekerjaan antarmuka dari proyek sekali jalan menjadi aset yang terus dipakai kembali." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1576153192396-180ecef2a715",
+    src: "/blog/images/photo-1576153192396-180ecef2a715",
     alt: "Tangan menggambar sketsa wireframe beberapa layar aplikasi di atas kertas",
     caption: "Sistem desain dimulai dari kesepakatan sederhana tentang elemen yang akan dipakai berulang kali.",
   },
@@ -71,12 +71,12 @@ export const body: Block[] = [
   { type: "p", text: "Sebaliknya, bila aksesibilitas dibiarkan pada tiap pengembang, hasilnya tidak merata. Periksa komponen dasar terhadap kebutuhan umum: kontras teks, navigasi dengan papan ketik, label untuk pembaca layar, dan teks yang tetap terbaca saat diperbesar. Memperbaikinya di tingkat komponen jauh lebih murah daripada memperbaiki di ratusan tempat." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1547658719-da2b51169166",
+    src: "/blog/images/photo-1547658719-da2b51169166",
     alt: "Meja kerja dengan monitor, tablet, dan ponsel yang menampilkan rancangan halaman web",
     caption: "Komponen yang sama dipakai di web, tablet, dan ponsel agar pengalaman terasa satu keluarga.",
   },
   { type: "h2", text: "Satu bahasa desain untuk web dan mobile" },
-  { type: "p", text: "Bila bisnis Anda memiliki aplikasi web dan aplikasi mobile, sistem desain membantu keduanya terasa sebagai satu keluarga. Token yang sama, seperti warna dan huruf, bisa dibagikan ke kedua platform. Komponen tidak harus identik secara teknis, tetapi perilakunya harus dapat diprediksi." },
+  { type: "p", text: "Bila bisnis Anda memiliki aplikasi web dan [aplikasi mobile](/services/mobile), sistem desain membantu keduanya terasa sebagai satu keluarga. Token yang sama, seperti warna dan huruf, bisa dibagikan ke kedua platform. Komponen tidak harus identik secara teknis, tetapi perilakunya harus dapat diprediksi." },
   { type: "p", text: "Hormati juga kebiasaan platform. Pengguna ponsel Android dan iOS memiliki ekspektasi navigasi yang berbeda, dan memaksakan satu pola ke semuanya sering membuat aplikasi terasa asing. Sistem desain yang baik memisahkan apa yang harus sama, yaitu identitas dan logika, dari apa yang boleh menyesuaikan, yaitu pola interaksi bawaan platform." },
   { type: "h2", text: "Kolaborasi antara desainer dan pengembang" },
   { type: "p", text: "Sistem desain yang baik lahir dari kerja sama dua arah. Desainer memikirkan pengalaman dan konsistensi, pengembang memikirkan kelayakan teknis dan kemudahan perawatan. Bila hanya salah satu yang menyusun, hasilnya cenderung cantik tetapi sulit dibangun, atau mudah dibangun tetapi canggung dipakai." },

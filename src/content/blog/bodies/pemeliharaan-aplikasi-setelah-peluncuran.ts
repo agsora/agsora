@@ -42,7 +42,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    src: "/blog/images/photo-1774645215883-14d1553f3fa0",
     alt: "Satu set kunci pas logam di dalam kotak perkakas",
     caption: "Software bisnis yang sehat dirawat oleh tim atau mitra yang jelas, bukan dibiarkan sampai bermasalah.",
   },
@@ -129,7 +129,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "Seseorang duduk di meja dengan kalkulator dan buku catatan",
     caption: "Tinjauan berkala bersama tim pengembang membantu bisnis merencanakan perbaikan sebelum masalah muncul.",
   },

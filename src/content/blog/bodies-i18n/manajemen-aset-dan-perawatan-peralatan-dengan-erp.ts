@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Every business has assets that quietly determine how smoothly operations run: production machines, delivery vehicles, the freezer in the warehouse, cashier computers, generators, and network devices in the office. While they run well, they are almost invisible. The moment one of them dies on the busiest day, everyone suddenly realises how important it was." },
   { type: "p", text: "The problem is that in many small and medium businesses, asset information is scattered: a list in one person's spreadsheet, service history in a technician's notebook, and purchase invoices in a folder at the finance desk. Nobody can quickly answer simple questions such as what our assets are worth, which machine breaks down most often, or when the generator was last serviced." },
-  { type: "p", text: "This article covers how to manage assets and equipment maintenance in a structured way with ERP support: what needs to be recorded, how to separate scheduled maintenance from emergency repairs, how maintenance costs connect with finance, and how to start without making the technician team feel oversupervised. We use no invented figures; what we give is a framework you can adapt." },
+  { type: "p", text: "This article covers how to manage assets and equipment maintenance in a structured way with [ERP](/services/erp) support: what needs to be recorded, how to separate scheduled maintenance from emergency repairs, how maintenance costs connect with finance, and how to start without making the technician team feel oversupervised. We use no invented figures; what we give is a framework you can adapt." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ const en: Block[] = [
   { type: "p", text: "Give every asset a consistent code and, where useful, attach a barcode or QR label. With a label, a technician only needs to scan it to open the asset's history without searching a list. This also speeds up the annual physical check, because staff simply scan items one by one." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    src: "/blog/images/photo-1774645215883-14d1553f3fa0",
     alt: "A set of metal wrenches neatly arranged in a toolbox",
     caption: "Assets with a code and a clear history make it easy for technicians to know what has and has not been done.",
   },
@@ -54,7 +54,7 @@ const en: Block[] = [
   { type: "p", text: "Connect it to spare parts inventory too. If technicians often run out of the same component, or conversely hold components that are never used, the repair history helps determine sensible minimum stock levels." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1604754742629-3e5728249d73",
+    src: "/blog/images/photo-1604754742629-3e5728249d73",
     alt: "A technician installing components inside a computer case",
     caption: "A complete repair history lets technicians know the cause of a problem, not just its symptoms.",
   },
@@ -135,7 +135,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "每家企业都有一些默默决定运营是否顺畅的资产：生产机器、配送车辆、仓库里的冷冻柜、收银电脑、发电机，以及办公室里的网络设备。运转良好时，它们几乎不被注意。一旦其中一件在最忙的那天停摆，大家才意识到它有多重要。" },
   { type: "p", text: "问题在于，许多中小企业的资产信息是分散的：清单在某个人的电子表格里，维修记录在技师的笔记本上，采购发票在财务部门的文件夹里。没有人能快速回答这样的简单问题：我们的资产价值多少？哪台机器最常出故障？发电机上次保养是什么时候？" },
-  { type: "p", text: "本文介绍如何借助 ERP 以结构化的方式管理资产和设备维护：需要记录什么，如何区分计划性维护和紧急维修，维护成本如何与财务衔接，以及如何起步而不让技师团队觉得被过度监督。我们不使用编造的数字，提供的是可以按需调整的框架。" },
+  { type: "p", text: "本文介绍如何借助 [ERP](/services/erp) 以结构化的方式管理资产和设备维护：需要记录什么，如何区分计划性维护和紧急维修，维护成本如何与财务衔接，以及如何起步而不让技师团队觉得被过度监督。我们不使用编造的数字，提供的是可以按需调整的框架。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -164,7 +164,7 @@ const zh: Block[] = [
   { type: "p", text: "为每件资产赋予一致的编码，必要时贴上条形码或二维码标签。有了标签，技师只需扫描就能打开资产的历史，无需在清单中查找。这也加快了年度实物盘点，因为人员只需逐件扫描即可。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    src: "/blog/images/photo-1774645215883-14d1553f3fa0",
     alt: "工具箱中整齐摆放的一套金属扳手",
     caption: "有编码和清晰历史的资产，让技师容易知道哪些已做、哪些未做。",
   },
@@ -186,7 +186,7 @@ const zh: Block[] = [
   { type: "p", text: "还要与备件库存相连。如果技师经常缺同一种零件，或者反过来囤着从不使用的零件，维修历史有助于确定合理的最低库存。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1604754742629-3e5728249d73",
+    src: "/blog/images/photo-1604754742629-3e5728249d73",
     alt: "技师在电脑机箱内安装部件",
     caption: "完整的维修历史让技师知道问题的原因，而不只是现象。",
   },

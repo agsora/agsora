@@ -7,11 +7,11 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Jawabannya hampir selalu ada pada jarak antara keuntungan dan arus kas. Penjualan yang tercatat belum tentu sudah dibayar. Stok yang menumpuk di gudang adalah uang yang tertahan. Tagihan pemasok jatuh tempo pada tanggal yang tidak selalu sejalan dengan tanggal pelanggan membayar. Ketika informasi tentang semua hal ini tersebar di sistem yang berbeda, aplikasi kasir, spreadsheet piutang, catatan gudang, dan rekening bank, tidak ada yang bisa melihat gambaran lengkapnya sampai masalah sudah terjadi.",
+    text: "Jawabannya hampir selalu ada pada jarak antara keuntungan dan arus kas. Penjualan yang tercatat belum tentu sudah dibayar. Stok yang menumpuk di gudang adalah uang yang tertahan. Tagihan pemasok jatuh tempo pada tanggal yang tidak selalu sejalan dengan tanggal pelanggan membayar. Ketika informasi tentang semua hal ini tersebar di sistem yang berbeda, [aplikasi kasir](/services/pos), spreadsheet piutang, catatan gudang, dan rekening bank, tidak ada yang bisa melihat gambaran lengkapnya sampai masalah sudah terjadi.",
   },
   {
     type: "p",
-    text: "Artikel ini membahas bagaimana sistem ERP membantu bisnis melihat arus kas dengan lebih jelas dan lebih awal, modul dan data apa yang paling berperan, serta hal-hal yang perlu dipersiapkan agar manfaat itu benar-benar terasa, bukan hanya menjadi janji dalam presentasi vendor.",
+    text: "Artikel ini membahas bagaimana [sistem ERP](/services/erp) membantu bisnis melihat arus kas dengan lebih jelas dan lebih awal, modul dan data apa yang paling berperan, serta hal-hal yang perlu dipersiapkan agar manfaat itu benar-benar terasa, bukan hanya menjadi janji dalam presentasi vendor.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    src: "/blog/images/photo-1733727584002-e64f62fc1095",
     alt: "Dompet di atas meja yang penuh uang tunai",
     caption: "Dasbor arus kas hanya seakurat data transaksi yang masuk ke sistem setiap hari.",
   },
@@ -94,7 +94,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    src: "/blog/images/photo-1745270917233-65e776a47547",
     alt: "Grafik saham menunjukkan tren naik dan potensi laba",
     caption: "Visibilitas arus kas membuat diskusi antara keuangan dan operasional berbasis angka yang sama.",
   },

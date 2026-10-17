@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Many online store owners pour their energy into ads, product photos, and attractive descriptions, then treat shipping as a back office matter that just needs to \"get there\". For the customer, though, delivery is part of the product itself. A great item that arrives late, damaged, or without any news leaves a stronger bad impression than a tidy product page can make a good one." },
   { type: "p", text: "Shipping also touches money directly. A miscalculated shipping fee eats into margin or makes customers cancel at the last step. Sloppy packing adds damaged goods and claims. Unclear tracking floods your customer service team with the same question again and again: \"Where is my parcel?\" All of this can be organised, and organising it does not have to be expensive." },
-  { type: "p", text: "This article looks at online store logistics from a business owner's point of view, not a supply chain expert's. We start with choosing couriers and setting rates, then move on to packing, tracking, shipping from multiple locations, and returns, and finish with how to measure whether it all works. We deliberately use no invented figures about rates or delay percentages, because courier rates change and differ by region. What we offer is a way of thinking and a checklist you can apply to your own store data." },
+  { type: "p", text: "This article looks at [online store](/services/website) logistics from a business owner's point of view, not a supply chain expert's. We start with choosing couriers and setting rates, then move on to packing, tracking, shipping from multiple locations, and returns, and finish with how to measure whether it all works. We deliberately use no invented figures about rates or delay percentages, because courier rates change and differ by region. What we offer is a way of thinking and a checklist you can apply to your own store data." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "For the business, those three things turn into real costs. Damage claims, reshipments, and the time your team spends answering tracking questions all cost money and working hours. Fixing the upstream causes, meaning how you choose couriers, pack, and give information, is almost always cheaper than continually patching the consequences." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
+    src: "/blog/images/photo-1566576721346-d4a3b4eaeb55",
     alt: "Two people handing over a taped cardboard parcel",
     caption: "The moment a parcel changes hands is when customers judge the entire shopping experience, not just the product.",
   },
@@ -63,7 +63,7 @@ const en: Block[] = [
   { type: "p", text: "Free shipping is a powerful marketing tool, but shipping is never truly free; someone still pays for it. Be sure you know exactly where the cost is covered: from margin, from a slightly higher price, or from a minimum spend requirement. Calculate with your own order data before launching it, and review it regularly because courier rates can change." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3",
+    src: "/blog/images/photo-1494412574643-ff11b0a5c1c3",
     alt: "Aerial view of a container port with cranes and stacks of containers",
     caption: "Behind one small parcel is a large logistics network; understanding its flow helps you choose the right service.",
   },
@@ -91,7 +91,7 @@ const en: Block[] = [
   { type: "p", text: "Not all goods are in the warehouse when ordered. For preorders or goods made after the order comes in, communicate the production time estimate separately from the shipping estimate. Customers need to know two things: when the item will be finished and how long delivery takes. Mixing them into one figure often causes misunderstandings." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    src: "/blog/images/photo-1523474253046-8cd2748b5fd2",
     alt: "A phone showing an online shopping app on a table",
     caption: "Customers are used to following orders from their phones; clear status information saves your team many questions.",
   },
@@ -120,7 +120,7 @@ const en: Block[] = [
     ],
   },
   { type: "h2", text: "Conclusion" },
-  { type: "p", text: "Shipping is not an extra burden at the end of the sales process; it is part of the promise you make to customers. Stores that manage shipping well get a double benefit: customers are happier and hidden costs, from claims to reshipments to time spent answering questions, shrink. Start with the simplest things: understand your flow, choose the right couriers, pack to a consistent standard, and give proactive updates. Once that foundation is solid, automation and system integration will multiply the results." },
+  { type: "p", text: "Shipping is not an extra burden at the end of the sales process; it is part of the promise you make to customers. Stores that manage shipping well get a double benefit: customers are happier and hidden costs, from claims to reshipments to time spent answering questions, shrink. Start with the simplest things: understand your flow, choose the right couriers, pack to a consistent standard, and give proactive updates. Once that foundation is solid, [automation](/services/ai-automation) and system integration will multiply the results." },
   { type: "p", text: "If your store has grown and managing orders, stock, and shipping is starting to feel messy, it may be time to have a system that brings it all together." },
   {
     type: "cta",
@@ -134,7 +134,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "许多网店老板把精力都花在广告、产品照片和吸引人的描述上,却把配送当成\"反正送到就行\"的后台事务。然而对客户来说,配送本身就是产品的一部分。一件很好的商品,如果迟到、损坏或毫无消息,留下的坏印象会比整洁的产品页面带来的好印象更深。" },
   { type: "p", text: "配送还直接关系到钱。运费算错会侵蚀利润,或让客户在最后一步取消订单。包装草率会增加破损和索赔。追踪信息不清楚,会让客服团队被同一个问题反复淹没:\"我的包裹在哪里?\"这一切都可以理顺,而且理顺并不一定昂贵。" },
-  { type: "p", text: "本文从企业主而非供应链专家的角度来谈网店物流。我们先从选择快递和制定运费开始,接着谈包装、追踪、多地发货和退货,最后说明如何衡量这一切是否运转良好。我们有意不使用凭空编造的运费或延误比例数字,因为快递价格会变动,且各地区不同。我们提供的是一种思路和一份检查清单,你可以套用到自己网店的数据上。" },
+  { type: "p", text: "本文从企业主而非供应链专家的角度来谈[网店](/services/website)物流。我们先从选择快递和制定运费开始,接着谈包装、追踪、多地发货和退货,最后说明如何衡量这一切是否运转良好。我们有意不使用凭空编造的运费或延误比例数字,因为快递价格会变动,且各地区不同。我们提供的是一种思路和一份检查清单,你可以套用到自己网店的数据上。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -152,7 +152,7 @@ const zh: Block[] = [
   { type: "p", text: "对企业而言,这三件事都会变成实实在在的成本。破损索赔、重新发货,以及团队回答追踪问题所花的时间,都在消耗资金和工时。修正源头,也就是你选择快递、包装和提供信息的方式,几乎总比不断弥补后果便宜。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
+    src: "/blog/images/photo-1566576721346-d4a3b4eaeb55",
     alt: "两个人正在交接一个封好胶带的纸箱包裹",
     caption: "包裹易手的瞬间,客户评价的是整个购物体验,而不仅仅是产品。",
   },
@@ -187,14 +187,14 @@ const zh: Block[] = [
   },
   { type: "h2", text: "计算并展示运费" },
   { type: "p", text: "运费是客户在最后一步取消订单的最主要原因之一,尤其是当数字在他们填完资料后才出现时。原则很简单:尽早、尽量准确地显示费用。" },
-  { type: "p", text: "常见的做法有几种。统一运费对所有订单或按地区采用相同价格,易于理解,但在重件订单上可能让你吃亏。按重量和目的地计价、直接从快递获取的运费最准确,但需要系统对接。设有最低消费的包邮可以促使客户买得更多,但前提是成本已计入价格或利润。每种做法都有风险,所以选择适合你商品和利润的那一种。" },
+  { type: "p", text: "常见的做法有几种。统一运费对所有订单或按地区采用相同价格,易于理解,但在重件订单上可能让你吃亏。按重量和目的地计价、直接从快递获取的运费最准确,但需要[系统对接](/services/api-integration)。设有最低消费的包邮可以促使客户买得更多,但前提是成本已计入价格或利润。每种做法都有风险,所以选择适合你商品和利润的那一种。" },
   { type: "h3", text: "体积重量与包装" },
   { type: "p", text: "许多快递按实际重量与体积重量(即把包装尺寸换算成重量)中较大者计费。装在大纸箱里的轻物可能费用很高。因此,合适的包装尺寸与商品重量同样重要。准备几种标准箱型,有助于让运费保持合理,同时又能好好保护商品。" },
   { type: "h3", text: "运费补贴与包邮" },
   { type: "p", text: "包邮是强有力的营销工具,但运费并非真的免费,总有人要为它买单。务必清楚这笔费用从哪里补回:来自利润、来自略高的价格,还是来自最低消费要求。在推出之前,用你自己的订单数据算清楚,并定期复查,因为快递价格可能变动。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3",
+    src: "/blog/images/photo-1494412574643-ff11b0a5c1c3",
     alt: "集装箱港口的鸟瞰图,可见起重机和成堆的集装箱",
     caption: "一个小包裹的背后是庞大的物流网络;了解它的流转有助于你选择合适的服务。",
   },
@@ -222,7 +222,7 @@ const zh: Block[] = [
   { type: "p", text: "并非所有商品下单时都在仓库里。对于预售或接单后才制作的商品,应把生产时间预估与配送时间预估分开说明。客户需要知道两件事:商品何时完成,以及配送需要多久。把两者混成一个数字,往往会引起误解。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    src: "/blog/images/photo-1523474253046-8cd2748b5fd2",
     alt: "桌上的手机显示着网络购物应用",
     caption: "客户习惯用手机跟踪订单;清晰的状态信息能为你的团队省下许多询问。",
   },
@@ -251,7 +251,7 @@ const zh: Block[] = [
     ],
   },
   { type: "h2", text: "结语" },
-  { type: "p", text: "配送不是销售流程末尾的额外负担,而是你对客户所做承诺的一部分。把配送管理好的网店会获得双重好处:客户更满意,从索赔、重新发货到回答咨询所花时间等隐性成本也随之缩减。从最简单的事情开始:了解你的流程、选对快递、按一致的标准打包,并主动提供更新。基础稳固之后,自动化和系统集成会让成果成倍放大。" },
+  { type: "p", text: "配送不是销售流程末尾的额外负担,而是你对客户所做承诺的一部分。把配送管理好的网店会获得双重好处:客户更满意,从索赔、重新发货到回答咨询所花时间等隐性成本也随之缩减。从最简单的事情开始:了解你的流程、选对快递、按一致的标准打包,并主动提供更新。基础稳固之后,[自动化](/services/ai-automation)和系统集成会让成果成倍放大。" },
   { type: "p", text: "如果你的网店已经成长,管理订单、库存和配送开始变得混乱,也许是时候拥有一个把一切整合起来的系统了。" },
   {
     type: "cta",

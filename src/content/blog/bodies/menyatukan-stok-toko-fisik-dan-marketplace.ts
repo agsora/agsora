@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak bisnis retail kini berjualan di beberapa tempat sekaligus: toko fisik, satu atau beberapa marketplace, dan kadang toko online milik sendiri. Setiap saluran tambahan membuka peluang penjualan baru. Tetapi ketika stok dicatat secara terpisah di setiap saluran tanpa saling terhubung, risiko menjual barang yang sebenarnya sudah habis, lalu terpaksa membatalkan pesanan, meningkat tajam dan berdampak langsung pada reputasi bisnis.",
+    text: "Banyak bisnis retail kini berjualan di beberapa tempat sekaligus: toko fisik, satu atau beberapa marketplace, dan kadang [toko online](/services/website) milik sendiri. Setiap saluran tambahan membuka peluang penjualan baru. Tetapi ketika stok dicatat secara terpisah di setiap saluran tanpa saling terhubung, risiko menjual barang yang sebenarnya sudah habis, lalu terpaksa membatalkan pesanan, meningkat tajam dan berdampak langsung pada reputasi bisnis.",
   },
   { type: "h2", text: "Ringkasan" },
   {

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Some of the most important work in many companies happens far from an office desk. Sales reps visit customers' shops, technicians repair machines on site, drivers deliver goods, and surveyors check conditions in the field. They are the ones who meet customers and generate revenue, yet they are often the ones least supported by the company's systems." },
   { type: "p", text: "In many places, field teams still work with paper, photos in a phone gallery, and reports through a chat group. Orders are written in a notebook and retyped by an admin the next day. Visit reports are sent as long messages that are never summarised. The office does not know what happened until the afternoon, and the field team does not know the stock, the latest prices, or the history of the customer in front of them." },
-  { type: "p", text: "This article covers how to design a mobile app for field teams: sales reps, technicians, delivery staff, and surveyors. We discuss the work worth moving into an app, working without signal, proof of visits, the link with ERP and CRM, privacy and security, and how to make sure the app is genuinely used. There are no invented figures; what we offer are principles and a checklist from a business owner's point of view." },
+  { type: "p", text: "This article covers how to design a [mobile app](/services/mobile) for field teams: sales reps, technicians, delivery staff, and surveyors. We discuss the work worth moving into an app, working without signal, proof of visits, the link with ERP and CRM, privacy and security, and how to make sure the app is genuinely used. There are no invented figures; what we offer are principles and a checklist from a business owner's point of view." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "A mobile app closes that gap in both directions. Office data reaches the field worker's hand at the moment it is needed, and events in the field reach the office system as they happen. The app's value lies in this two way exchange, not in merely replacing paper with a screen." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492",
+    src: "/blog/images/photo-1565793298595-6a879b1d9492",
     alt: "An aerial view of rows of cargo trucks parked in a distribution area",
     caption: "The more people and vehicles working outside the office, the more the information gap between them costs.",
   },
@@ -52,7 +52,7 @@ const en: Block[] = [
   { type: "p", text: "For evidence to be useful, link it directly to its transaction. A photo saved in an employee's personal phone gallery cannot be found three months later. A photo taken through the app and attached to a delivery number or work order can be found within seconds by anyone authorised." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    src: "/blog/images/photo-1533292362155-d79af6b08b77",
     alt: "A person using Google Maps on a phone",
     caption: "Location helps plan routes and prove visits, provided its use is explained openly.",
   },
@@ -61,7 +61,7 @@ const en: Block[] = [
   { type: "p", text: "Distinguish recording location at the moment of an event from continuous tracking. Recording a point when a worker starts and finishes a visit usually meets the business need. All day tracking needs a stronger reason, such as for a delivery fleet, and is best active only during working hours." },
   { type: "p", text: "Explain to the team what data is collected, when, who sees it, and for what purpose. Put it in a written policy and comply with the employment and personal data protection rules that apply to you. This openness is not merely an obligation; an app regarded as a spying tool will be resisted in all sorts of creative ways." },
   { type: "h2", text: "The link with ERP and CRM" },
-  { type: "p", text: "A field app that stands alone only moves the retyping from paper to another screen. The real benefit appears when the app is connected to the core systems. An order created by a sales rep immediately becomes a sales order in the ERP, reduces stock, and appears in the warehouse queue without an admin's involvement." },
+  { type: "p", text: "A field app that stands alone only moves the retyping from paper to another screen. The real benefit appears when the app is connected to the core systems. An order created by a sales rep immediately becomes a sales order in the [ERP](/services/erp), reduces stock, and appears in the warehouse queue without an admin's involvement." },
   { type: "p", text: "In the other direction, the app pulls in data that makes field workers better prepared: special prices per customer, credit limits, unpaid invoices, available stock, and the repair history of a machine. A sales rep who knows their customer still has overdue invoices will speak in a different way." },
   { type: "p", text: "This connection requires a tidy data interface on the core system's side and clean master data. The same item codes and customer codes must be used everywhere. Before building the app, check whether your current system can supply the data needed; if not, that work needs to go into the plan." },
   { type: "h2", text: "The office side: scheduling and monitoring" },
@@ -70,7 +70,7 @@ const en: Block[] = [
   { type: "p", text: "Customers can also be given a small window into this process: a notice that the technician is on the way, an estimated arrival time, and a copy of the completion record once the job is done. Simple things like this reduce phone calls asking for updates and give the impression of an organised company." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
+    src: "/blog/images/photo-1518186285589-2f7649de83e0",
     alt: "A laptop screen showing charts of business operations data",
     caption: "Data from the field only has value when it is summarised into a picture that can be used to decide.",
   },
@@ -90,7 +90,7 @@ const en: Block[] = [
   { type: "p", text: "Involve a few field workers from the design stage. They know the real order of work and the obstacles that cannot be seen from the office. Make sure the app gives something to its users: information that makes selling easier, transparent incentive calculations, or fewer reports to write at night." },
   { type: "p", text: "Run a trial with a small group in real conditions, improve it based on their feedback, then expand. Stop the old way on a clear date once the app is stable. As long as reports by chat are still accepted, some people will keep using them and your data stays split in two." },
   { type: "h2", text: "Custom app or off the shelf product" },
-  { type: "p", text: "There are off the shelf products for common field needs, such as sales force automation and service management. Products like these are quick to deploy and suit you if your workflow is close to the standard one. Check their ability to work offline, how easily they connect with your systems, and the cost per user as the team grows." },
+  { type: "p", text: "There are off the shelf products for common field needs, such as sales force [automation](/services/ai-automation) and service management. Products like these are quick to deploy and suit you if your workflow is close to the standard one. Check their ability to work offline, how easily they connect with your systems, and the cost per user as the team grows." },
   { type: "p", text: "A custom built app makes sense when your workflow is a business advantage, when the link with ERP must be very tight, or when an off the shelf product forces the team into a way of working that does not fit. The cost is higher at the start, but you own a tool that follows your process." },
   { type: "p", text: "Whichever you choose, start from the process, not the features. Map out a working day for a sales rep or technician from morning to afternoon, mark the slow and error prone points, then judge each option by how well it improves those points." },
   { type: "h2", text: "Measures worth watching" },
@@ -135,7 +135,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "在许多公司，最重要的一部分工作发生在远离办公桌的地方。销售人员拜访客户的店铺，技师在现场修理机器，司机送货，勘查人员在实地检查情况。正是他们在与客户见面并创造收入，但他们往往也是得到公司系统支持最少的人。" },
   { type: "p", text: "在很多地方，外勤团队仍然靠纸张、手机相册里的照片和聊天群里的汇报来工作。订单写在本子上，第二天再由管理员重新录入。拜访报告以长消息的形式发出，却从来没有人汇总。办公室要到下午才知道发生了什么，外勤团队也不知道库存、最新价格，或者眼前这位客户的往来记录。" },
-  { type: "p", text: "本文讨论如何为外勤团队设计移动应用：销售人员、技师、配送员和勘查人员。我们会谈到值得搬进应用的工作、无信号时的工作方式、拜访凭证、与 ERP 和 CRM 的关系、隐私与安全，以及怎样让应用真正被使用。这里没有编造的数字，我们提供的是从企业主角度出发的原则和检查清单。" },
+  { type: "p", text: "本文讨论如何为外勤团队设计[移动应用](/services/mobile)：销售人员、技师、配送员和勘查人员。我们会谈到值得搬进应用的工作、无信号时的工作方式、拜访凭证、与 ERP 和 CRM 的关系、隐私与安全，以及怎样让应用真正被使用。这里没有编造的数字，我们提供的是从企业主角度出发的原则和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -153,7 +153,7 @@ const zh: Block[] = [
   { type: "p", text: "移动应用从两个方向缩短这段距离。办公室的数据在外勤人员需要的那一刻到达他们手中，现场发生的事情也在发生的同时进入办公室的系统。应用的价值在于这种双向交换，而不只是用屏幕代替纸张。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492",
+    src: "/blog/images/photo-1565793298595-6a879b1d9492",
     alt: "俯瞰配送区内成排停放的货运卡车",
     caption: "在办公室之外工作的人员和车辆越多，彼此之间信息距离的代价就越高。",
   },
@@ -184,7 +184,7 @@ const zh: Block[] = [
   { type: "p", text: "要让凭证有用，就要把它直接关联到对应的业务单据上。存在员工个人手机相册里的照片，三个月后就找不到了。通过应用拍摄并附在送货单号或工单上的照片，任何有权限的人几秒钟内就能找到。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    src: "/blog/images/photo-1533292362155-d79af6b08b77",
     alt: "一个人正在手机上使用谷歌地图",
     caption: "位置信息有助于规划路线和证明到访，前提是公开说明它的用途。",
   },
@@ -193,7 +193,7 @@ const zh: Block[] = [
   { type: "p", text: "要把在事件发生时记录位置与持续追踪区分开。在人员开始和结束拜访时各记录一个位置点，通常就已经满足业务需要。全天追踪需要更充分的理由，例如用于配送车队，并且最好只在工作时间内开启。" },
   { type: "p", text: "向团队说明收集什么数据、在什么时候、谁能看到、用于什么目的。把这些写进书面政策，并遵守适用于你的劳动和个人数据保护规定。这种公开不只是义务；被当成监视工具的应用，会遭到各种花样百出的抵制。" },
   { type: "h2", text: "与 ERP 和 CRM 的关系" },
-  { type: "p", text: "独立存在的外勤应用，只是把重新录入的工作从纸上搬到了另一个屏幕。真正的好处出现在应用与核心系统相连的时候。销售人员创建的订单立刻成为 ERP 里的销售订单，扣减库存，并出现在仓库的队列中，无需管理员介入。" },
+  { type: "p", text: "独立存在的外勤应用，只是把重新录入的工作从纸上搬到了另一个屏幕。真正的好处出现在应用与核心系统相连的时候。销售人员创建的订单立刻成为 [ERP](/services/erp) 里的销售订单，扣减库存，并出现在仓库的队列中，无需管理员介入。" },
   { type: "p", text: "反过来，应用会拉取让外勤人员准备更充分的数据：每位客户的专属价格、信用额度、未付发票、可用库存，以及某台机器的维修记录。知道客户还有逾期未付账款的销售人员，说话的方式会有所不同。" },
   { type: "p", text: "这种连接要求核心系统一侧有整洁的数据接口，以及干净的主数据。所有地方都必须使用相同的商品编码和客户编码。在开发应用之前，先确认你现有的系统能否提供所需的数据；如果还不能，这项工作就需要列入计划。" },
   { type: "h2", text: "办公室一侧：排程与监控" },
@@ -202,7 +202,7 @@ const zh: Block[] = [
   { type: "p", text: "也可以让客户稍稍看到这个过程：技师已经出发的通知、预计到达时间，以及工作完成后的完工单副本。这样简单的做法能减少询问进度的电话，也给人公司井井有条的印象。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
+    src: "/blog/images/photo-1518186285589-2f7649de83e0",
     alt: "笔记本电脑屏幕上显示着业务运营数据图表",
     caption: "来自现场的数据，只有汇总成可以用来做决定的全貌时才有价值。",
   },
@@ -222,7 +222,7 @@ const zh: Block[] = [
   { type: "p", text: "从设计阶段就让几位外勤人员参与进来。他们了解真实的工作顺序，以及从办公室看不到的障碍。确保应用能给使用者带来一些东西：让销售更容易的信息、透明的奖金计算，或者晚上不用再写那么多报告。" },
   { type: "p", text: "在真实环境中用一小组人进行试用，根据他们的反馈改进，然后再推广。在应用稳定之后，定下一个明确的日期停止旧的做法。只要还接受通过聊天提交的报告，就会有一部分人继续这样做，你的数据也就一直分成两半。" },
   { type: "h2", text: "定制应用还是现成产品" },
-  { type: "p", text: "针对常见的外勤需求，市面上有现成的产品，例如销售自动化和服务管理。这类产品部署很快，如果你的工作流程接近标准流程就很合适。要检查它们的离线工作能力、与你现有系统对接的难易程度，以及团队扩大后每位用户的费用。" },
+  { type: "p", text: "针对常见的外勤需求，市面上有现成的产品，例如销售[自动化](/services/ai-automation)和服务管理。这类产品部署很快，如果你的工作流程接近标准流程就很合适。要检查它们的离线工作能力、与你现有系统对接的难易程度，以及团队扩大后每位用户的费用。" },
   { type: "p", text: "当你的工作流程本身就是业务优势、与 ERP 的连接必须非常紧密，或者现成产品迫使团队采用不合适的工作方式时，定制开发的应用才有意义。它前期成本更高，但你拥有的是一个顺应自己流程的工具。" },
   { type: "p", text: "无论怎么选，都要从流程出发，而不是从功能出发。把一位销售人员或技师从早到晚的一天画出来，标出缓慢和容易出错的环节，然后根据每个方案对这些环节的改善程度来评估。" },
   { type: "h2", text: "值得关注的指标" },

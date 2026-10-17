@@ -28,12 +28,12 @@ export const body: Block[] = [
   { type: "h3", text: "Aplikasi dipilih per divisi" },
   {
     type: "p",
-    text: "Tim sales memilih aplikasi CRM, gudang memakai aplikasi stok, keuangan memakai software akuntansi. Masing-masing aplikasi bagus untuk fungsinya, tetapi tidak saling terhubung. Data pelanggan di CRM tidak sama dengan data pelanggan di akuntansi, dan tidak ada yang tahu mana yang terbaru.",
+    text: "Tim sales memilih aplikasi [CRM](/services/crm), gudang memakai aplikasi stok, keuangan memakai software akuntansi. Masing-masing aplikasi bagus untuk fungsinya, tetapi tidak saling terhubung. Data pelanggan di CRM tidak sama dengan data pelanggan di akuntansi, dan tidak ada yang tahu mana yang terbaru.",
   },
   { type: "h3", text: "Pertumbuhan cabang dan saluran baru" },
   {
     type: "p",
-    text: "Setiap cabang atau saluran penjualan baru, toko online, marketplace, sales lapangan, sering dimulai dengan pencatatannya sendiri agar cepat berjalan. Tanpa rencana penyatuan, setiap saluran menjadi pulau data yang terpisah.",
+    text: "Setiap cabang atau saluran penjualan baru, [toko online](/services/website), marketplace, sales lapangan, sering dimulai dengan pencatatannya sendiri agar cepat berjalan. Tanpa rencana penyatuan, setiap saluran menjadi pulau data yang terpisah.",
   },
   { type: "h3", text: "Solusi sementara yang menjadi permanen" },
   {
@@ -147,7 +147,7 @@ export const body: Block[] = [
   { type: "h3", text: "Integrasi atau penyatuan sistem?" },
   {
     type: "p",
-    text: "Ada dua pendekatan utama. Integrasi menghubungkan sistem yang sudah ada lewat API sehingga data mengalir otomatis. Penyatuan mengganti beberapa sistem terpisah dengan satu sistem terintegrasi seperti ERP. Integrasi cocok ketika sistem yang ada sudah bekerja baik dan hanya perlu terhubung. Penyatuan lebih masuk akal ketika sistem yang ada sudah tidak memadai atau terlalu banyak untuk dihubungkan satu per satu.",
+    text: "Ada dua pendekatan utama. Integrasi menghubungkan sistem yang sudah ada lewat API sehingga data mengalir otomatis. Penyatuan mengganti beberapa sistem terpisah dengan satu sistem terintegrasi seperti [ERP](/services/erp). Integrasi cocok ketika sistem yang ada sudah bekerja baik dan hanya perlu terhubung. Penyatuan lebih masuk akal ketika sistem yang ada sudah tidak memadai atau terlalu banyak untuk dihubungkan satu per satu.",
   },
   { type: "h2", text: "Kesalahan saat membongkar silo" },
   {

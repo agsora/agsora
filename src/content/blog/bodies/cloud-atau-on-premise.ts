@@ -135,7 +135,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua bisnis, dua pilihan" },
   {
     type: "p",
-    text: "Bayangkan jaringan toko dengan belasan cabang yang tersebar di beberapa kota. Setiap cabang perlu mengakses stok dan harga terbaru, dan manajemen ingin melihat laporan gabungan kapan saja. Tim IT mereka hanya dua orang. Untuk bisnis seperti ini, cloud hampir pasti lebih masuk akal, dengan aplikasi kasir yang tetap bisa bekerja offline saat koneksi cabang terganggu.",
+    text: "Bayangkan jaringan toko dengan belasan cabang yang tersebar di beberapa kota. Setiap cabang perlu mengakses stok dan harga terbaru, dan manajemen ingin melihat laporan gabungan kapan saja. Tim IT mereka hanya dua orang. Untuk bisnis seperti ini, cloud hampir pasti lebih masuk akal, dengan [aplikasi kasir](/services/pos) yang tetap bisa bekerja offline saat koneksi cabang terganggu.",
   },
   {
     type: "p",

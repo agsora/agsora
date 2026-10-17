@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "For many businesses, especially those serving corporate customers, the contract is the heart of the commercial relationship: it sets what service is given, at what price, for how long, and what happens if there is a problem. Yet in many places, a contract is just a file kept in a folder, opened when there is a dispute, and remembered only when it is already too late to renew." },
   { type: "p", text: "The consequences are easy to guess. A contract that was actually profitable ends quietly because nobody reminded anyone. A customer ready to renew is not contacted in time. A price increase that was agreed is never applied. An important clause is forgotten until it causes a dispute. All of this is revenue leakage and risk that could have been prevented." },
-  { type: "p", text: "This article covers how to manage customer contracts in a structured way: what to record, how to manage the contract life cycle, how to set renewal reminders, how to connect contracts with billing and service, and how a CRM or ERP helps so no opportunity or obligation is missed." },
+  { type: "p", text: "This article covers how to manage customer contracts in a structured way: what to record, how to manage the contract life cycle, how to set renewal reminders, how to connect contracts with billing and service, and how a [CRM](/services/crm) or ERP helps so no opportunity or obligation is missed." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -34,7 +34,7 @@ const en: Block[] = [
   { type: "p", text: "The notice period is often a trap. Many contracts renew automatically unless one party gives notice within a set time before expiry. Missing that window means being bound for another term, or conversely losing the chance to renegotiate. This date must be recorded and trigger a reminder." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "Two people discussing while pointing at a document in a business meeting",
     caption: "Structured key contract data lets renewal discussions begin earlier and better prepared.",
   },
@@ -91,7 +91,7 @@ const en: Block[] = [
   ] },
   { type: "p", text: "Give each important contract a relationship owner whose job is to watch these signals and talk to the customer proactively. A conversation that starts from care, not from the need to get a signature, is far more effective at saving the relationship." },
   { type: "h2", text: "The role of CRM and ERP" },
-  { type: "p", text: "A CRM system is usually the natural home for the relationship side: who the customer is, interaction history, renewal opportunities, and follow up tasks. The ERP handles the transaction side: billing, receivables, and bookkeeping. Ideally the two share contract data so sales and finance see the same picture." },
+  { type: "p", text: "A CRM system is usually the natural home for the relationship side: who the customer is, interaction history, renewal opportunities, and follow up tasks. The [ERP](/services/erp) handles the transaction side: billing, receivables, and bookkeeping. Ideally the two share contract data so sales and finance see the same picture." },
   { type: "p", text: "Many businesses start simply: a module or even a structured table holding key contract data, with automatic reminders. As numbers and complexity grow, approval flows, clause templates, and full integration with billing become necessary. Start with the most painful need." },
   { type: "p", text: "The most useful features are usually not the most advanced: a list of all contracts with a filter by end date, automatic reminders, a view of the total value expiring within a given period, and a change history log. This foundation already delivers great value." },
   { type: "p", text: "As an illustration, imagine a service business with a hundred recurring contracts whose end dates are spread through the year. Without a system, every month a few contracts end unnoticed. With working reminders, the team sees the list of contracts ending within ninety days at the start of each month, divides it among the respective owners, and begins conversations on time." },
@@ -144,7 +144,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "对许多企业，尤其是服务企业客户的企业来说，合同是商业关系的核心：它规定提供什么服务、价格多少、有效期多长，以及出现问题时怎么办。然而在许多地方，合同只是存放在文件夹里的一个文件，出现纠纷时才被打开，直到已经来不及续约时才被想起。" },
   { type: "p", text: "后果不难猜到。一份原本盈利的合同悄悄到期，因为没有人提醒。准备续约的客户没有被及时联系。已经约定的涨价从未被执行。某个重要条款被遗忘，直到引发争议。所有这些都是本可以避免的收入流失和风险。" },
-  { type: "p", text: "本文探讨如何有条理地管理客户合同：需要记录什么、如何管理合同生命周期、如何设置续约提醒、如何把合同与计费和服务连接起来，以及 CRM 或 ERP 如何帮助不遗漏任何机会和义务。" },
+  { type: "p", text: "本文探讨如何有条理地管理客户合同：需要记录什么、如何管理合同生命周期、如何设置续约提醒、如何把合同与计费和服务连接起来，以及 [CRM](/services/crm) 或 ERP 如何帮助不遗漏任何机会和义务。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -175,7 +175,7 @@ const zh: Block[] = [
   { type: "p", text: "通知期往往是个陷阱。许多合同会自动续约，除非一方在到期前的规定时间内通知。错过这个窗口，意味着又被绑定一个期限，或者反过来失去重新谈判的机会。这个日期必须被记录并触发提醒。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "两个人在商务会议中一边讨论一边指着文件",
     caption: "结构化的合同关键数据，让续约讨论更早开始，也准备得更充分。",
   },
@@ -232,7 +232,7 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "为每份重要合同指定一位关系负责人，其职责是留意这些信号并主动与客户沟通。出于关心而不是出于签字需要而开启的谈话，在挽救关系上要有效得多。" },
   { type: "h2", text: "CRM 与 ERP 的角色" },
-  { type: "p", text: "CRM 系统通常是关系一侧的天然归属：客户是谁、互动历史、续约机会和跟进任务。ERP 处理交易一侧：计费、应收账款和记账。理想情况下，两者共享合同数据，让销售和财务看到同一幅图景。" },
+  { type: "p", text: "CRM 系统通常是关系一侧的天然归属：客户是谁、互动历史、续约机会和跟进任务。[ERP](/services/erp) 处理交易一侧：计费、应收账款和记账。理想情况下，两者共享合同数据，让销售和财务看到同一幅图景。" },
   { type: "p", text: "许多企业从简单起步：一个模块，甚至是一张保存合同关键数据的结构化表格，并配有自动提醒。随着数量和复杂性的增长，才需要审批流程、条款模板以及与计费的完整集成。从最痛的需求开始。" },
   { type: "p", text: "最有用的功能通常不是最先进的：一份可按到期日筛选的所有合同清单、自动提醒、某个时期内到期合同总金额的视图，以及变更历史日志。这个基础已经能带来很大的价值。" },
   { type: "p", text: "举例来说，设想一家服务企业有一百份经常性合同，到期日分布在全年。没有系统的话，每个月都会有几份合同在不知不觉中到期。有了有效的提醒，团队在每月初就能看到九十天内到期的合同清单，把它分配给各自的负责人，并及时开启沟通。" },

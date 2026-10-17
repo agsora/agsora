@@ -25,7 +25,7 @@ export const body: Block[] = [
   { type: "p", text: "Pertimbangkan pula uang harian tetap untuk perjalanan tertentu. Dengan jumlah yang ditetapkan per hari, karyawan tidak perlu mengumpulkan setiap nota kecil, dan perusahaan tidak perlu memeriksanya satu per satu. Pendekatan ini sederhana, tetapi perlu disesuaikan dengan aturan perpajakan yang berlaku bagi bisnis Anda." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc",
+    src: "/blog/images/photo-1579532537598-459ecdaf39cc",
     alt: "Kalkulator dan catatan keuangan di atas meja untuk menghitung biaya",
     caption: "Kebijakan yang jelas mempermudah karyawan dan tim keuangan sekaligus.",
   },
@@ -51,7 +51,7 @@ export const body: Block[] = [
   { type: "p", text: "Hubungkan pembayaran penggantian dengan siklus gaji atau transfer terjadwal, sehingga karyawan mengetahui kapan uangnya akan diterima. Kepastian jadwal, misalnya setiap Jumat, sering lebih dihargai daripada kecepatan yang tidak dapat diprediksi." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    src: "/blog/images/photo-1581091226825-a6a2a5aee158",
     alt: "Karyawan bekerja dengan laptop dan catatan di meja kerja",
     caption: "Pengajuan yang mudah dan pembayaran yang terjadwal meningkatkan kepuasan karyawan.",
   },

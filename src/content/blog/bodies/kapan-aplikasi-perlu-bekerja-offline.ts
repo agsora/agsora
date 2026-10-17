@@ -127,7 +127,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: sistem kasir di area dengan listrik dan sinyal tidak stabil" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko ritel di kawasan yang sesekali mengalami gangguan sinyal internet, meski jarang berlangsung lama. Dengan sistem kasir yang sepenuhnya bergantung pada koneksi, setiap kali sinyal terputus, transaksi terhenti total dan pelanggan yang sedang antre harus menunggu atau bahkan membatalkan pembelian karena kasir tidak bisa memprosesnya sama sekali.",
+    text: "Bayangkan sebuah toko ritel di kawasan yang sesekali mengalami gangguan sinyal internet, meski jarang berlangsung lama. Dengan [sistem kasir](/services/pos) yang sepenuhnya bergantung pada koneksi, setiap kali sinyal terputus, transaksi terhenti total dan pelanggan yang sedang antre harus menunggu atau bahkan membatalkan pembelian karena kasir tidak bisa memprosesnya sama sekali.",
   },
   {
     type: "p",

@@ -25,12 +25,12 @@ export const body: Block[] = [
   { type: "p", text: "Jejak, atau trace, mengikuti satu permintaan sepanjang perjalanannya melewati beberapa layanan: dari peramban ke aplikasi, ke basis data, ke penyedia pembayaran, lalu kembali. Jejak memperlihatkan di bagian mana waktu terbuang atau galat muncul. Untuk sistem dengan banyak komponen, jejak sering menjadi alat tercepat untuk menemukan penyebab sebenarnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    src: "/blog/images/photo-1551288049-bebda4e38f71",
     alt: "Layar komputer menampilkan grafik dan dasbor pemantauan performa",
     caption: "Metrik pada dasbor memberi gambaran cepat; log dan jejak membantu menelusuri penyebabnya.",
   },
   { type: "h2", text: "Menentukan apa yang layak dipantau" },
-  { type: "p", text: "Kesalahan yang sering terjadi adalah mengumpulkan semua hal dan akhirnya tenggelam dalam data. Mulailah dari pertanyaan bisnis: alur apa yang, jika berhenti, langsung merugikan? Untuk toko online, jawabannya biasanya pencarian produk, keranjang, checkout, dan pembayaran. Untuk sistem ERP, mungkin pembuatan faktur, sinkronisasi stok, dan penutupan periode." },
+  { type: "p", text: "Kesalahan yang sering terjadi adalah mengumpulkan semua hal dan akhirnya tenggelam dalam data. Mulailah dari pertanyaan bisnis: alur apa yang, jika berhenti, langsung merugikan? Untuk [toko online](/services/website), jawabannya biasanya pencarian produk, keranjang, checkout, dan pembayaran. Untuk sistem ERP, mungkin pembuatan faktur, sinkronisasi stok, dan penutupan periode." },
   { type: "p", text: "Dari alur-alur itu, tetapkan beberapa indikator yang mencerminkan pengalaman pengguna: berapa persen percobaan checkout yang berhasil, berapa lama halaman penting dimuat, berapa banyak faktur yang tertunda. Indikator berbasis hasil seperti ini lebih berguna daripada angka teknis mentah, karena langsung dapat dikaitkan dengan uang dan kepuasan pelanggan." },
   { type: "p", text: "Setelah itu, baru tambahkan sinyal pendukung pada komponen yang sering bermasalah. Bila ada integrasi dengan pihak ketiga, pantau tingkat keberhasilan dan waktu responsnya secara terpisah, karena ketika pemasok bermasalah, tim Anda perlu bukti yang jelas untuk menunjukkan bahwa penyebabnya ada di luar sistem sendiri." },
   { type: "h2", text: "Menangani galat dengan sehat" },
@@ -44,7 +44,7 @@ export const body: Block[] = [
   { type: "p", text: "Setiap peringatan sebaiknya disertai petunjuk singkat: apa artinya, seberapa mendesak, di mana mencari tahu lebih lanjut, dan siapa yang bertanggung jawab. Dokumen sederhana yang menjelaskan langkah awal penanganan, sering disebut runbook, menghemat waktu berharga terutama ketika orang yang bertugas bukan pembuat sistemnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    src: "/blog/images/photo-1517694712202-14dd9538aa97",
     alt: "Laptop di atas meja menampilkan kode program dan jendela terminal",
     caption: "Catatan yang terstruktur membuat penelusuran masalah jauh lebih cepat daripada menebak.",
   },

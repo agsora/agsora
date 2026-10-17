@@ -37,7 +37,7 @@ const en: Block[] = [
   { type: "p", text: "Test before deciding. You can start with one product category or one provider, then see whether conversion rises, whether cart value increases, and whether margin stays healthy after fees." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
+    src: "/blog/images/photo-1556742502-ec7c0e9f34b1",
     alt: "A customer tapping a payment card on a contactless reader",
     caption: "The right payment option removes the barrier at the most decisive stage of a purchase.",
   },
@@ -64,7 +64,7 @@ const en: Block[] = [
   { type: "p", text: "Make the flow as short as possible. Every extra step, such as moving pages or filling a long form, reduces the number who finish. Test on phones, because most buyers now transact through those devices." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    src: "/blog/images/photo-1733727584002-e64f62fc1095",
     alt: "A wallet on a table full of cash",
     caption: "A store's cash flow is affected by when funds are disbursed, not just by when the buyer pays.",
   },
@@ -78,7 +78,7 @@ const en: Block[] = [
     "Handle returns with a procedure that adjusts the instalment schedule or refund",
     "Monitor balances not yet disbursed and the reasons for delay",
   ] },
-  { type: "p", text: "Connect payment data with the finance system or ERP where possible. Manual reconciliation is quickly overwhelmed as volume grows, and small repeated errors can turn into big discrepancies at period end." },
+  { type: "p", text: "Connect payment data with the finance system or [ERP](/services/erp) where possible. Manual reconciliation is quickly overwhelmed as volume grows, and small repeated errors can turn into big discrepancies at period end." },
   { type: "h2", text: "Consumer protection and compliance" },
   { type: "p", text: "Financial services are under regulator supervision, and the rules differ between regions. As a store, you need not be an expert in financial law, but you need to make sure the parties you partner with operate legitimately and transparently towards buyers. Requesting proof of licence and recording it in the vendor file is a simple step that is often missed." },
   { type: "p", text: "Make sure the information you display is consistent with what the provider communicates. If the store page says interest free while the provider charges a service fee, buyers will feel deceived and trust in your store will fall. Recheck promotional text whenever the provider's terms change." },
@@ -123,7 +123,7 @@ const en: Block[] = [
   ] },
   { type: "h2", text: "Closing" },
   { type: "p", text: "Instalment and buy now pay later payments can open the market to buyers who are genuinely interested but blocked by the burden of upfront payment. But the benefit is not automatic. The result depends on choosing the right provider, honest margin calculation, and operations ready to handle the consequences." },
-  { type: "p", text: "Treat it as a measured experiment, not a feature installed and forgotten. With monitored data and terms transparent to buyers, staged payment options can be one healthy way to grow your online store's sales." },
+  { type: "p", text: "Treat it as a measured experiment, not a feature installed and forgotten. With monitored data and terms transparent to buyers, staged payment options can be one healthy way to grow your [online store](/services/website)'s sales." },
   {
     type: "cta",
     title: "Want to add staged payment options to your online store?",
@@ -170,7 +170,7 @@ const zh: Block[] = [
   { type: "p", text: "决定之前先测试。你可以从一个产品类别或一个服务商开始，然后观察转化率是否上升、购物车金额是否增加，以及扣除费用后利润率是否保持健康。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
+    src: "/blog/images/photo-1556742502-ec7c0e9f34b1",
     alt: "顾客把支付卡贴近非接触式读卡器",
     caption: "合适的支付选项消除了购买中最关键阶段的障碍。",
   },
@@ -197,7 +197,7 @@ const zh: Block[] = [
   { type: "p", text: "让流程尽可能简短。每增加一个步骤，比如跳转页面或填写冗长的表单，完成的人就会减少。在手机上测试，因为现在大多数买家通过这些设备交易。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1733727584002-e64f62fc1095",
+    src: "/blog/images/photo-1733727584002-e64f62fc1095",
     alt: "桌上一只装满现金的钱包",
     caption: "店铺的现金流受资金何时拨付影响，而不只是买家何时付款。",
   },
@@ -211,7 +211,7 @@ const zh: Block[] = [
     "用能调整分期计划或退款的流程处理退货",
     "监控尚未拨付的余额及延迟的原因",
   ] },
-  { type: "p", text: "尽可能把支付数据与财务系统或 ERP 相连。随着业务量增长，手工对账很快就会不堪重负，反复出现的小错误到期末可能变成很大的差异。" },
+  { type: "p", text: "尽可能把支付数据与财务系统或 [ERP](/services/erp) 相连。随着业务量增长，手工对账很快就会不堪重负，反复出现的小错误到期末可能变成很大的差异。" },
   { type: "h2", text: "消费者保护与合规" },
   { type: "p", text: "金融服务受监管机构监督，各地区的规则不同。作为店铺，你不必成为金融法专家，但需要确保合作方合法经营，并对买家透明。索要牌照证明并记录在供应商档案中，是一个常被遗漏的简单步骤。" },
   { type: "p", text: "确保你展示的信息与服务商传达的一致。如果店铺页面写着免息，而服务商收取服务费，买家会感到被欺骗，对你店铺的信任也会下降。每当服务商的条款变化时，重新检查促销文案。" },
@@ -256,7 +256,7 @@ const zh: Block[] = [
   ] },
   { type: "h2", text: "结语" },
   { type: "p", text: "分期和先买后付可以为那些真正有兴趣却被预付负担所阻的买家打开市场。但好处并不会自动出现。结果取决于选择合适的服务商、诚实的利润率计算，以及有能力应对后果的运营。" },
-  { type: "p", text: "把它当作可衡量的实验，而不是装上就忘的功能。有了被监控的数据，以及对买家透明的条款，分期付款选项可以成为让你的网店销售增长的一种健康方式。" },
+  { type: "p", text: "把它当作可衡量的实验，而不是装上就忘的功能。有了被监控的数据，以及对买家透明的条款，分期付款选项可以成为让你的[网店](/services/website)销售增长的一种健康方式。" },
   {
     type: "cta",
     title: "想在网店中增加分期付款选项？",

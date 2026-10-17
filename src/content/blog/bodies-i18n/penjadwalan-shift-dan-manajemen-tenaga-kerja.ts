@@ -39,7 +39,7 @@ const en: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
+    src: "/blog/images/photo-1542626991-cbc4e32524cc",
     alt: "A hand sticking a note onto a full planning board",
     caption: "A fair schedule starts from clear needs and transparent rules.",
   },
@@ -183,7 +183,7 @@ const zh: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
+    src: "/blog/images/photo-1542626991-cbc4e32524cc",
     alt: "一只手把便利贴贴在写满内容的规划板上",
     caption: "公平的班表始于清晰的需求和透明的规则。",
   },
@@ -192,7 +192,7 @@ const zh: Block[] = [
   { type: "p", text: "好的系统允许员工录入自己的可用时间、申请休假，并在手机上查看班表。排班者随后在同一个视图中看到一切，包括与服务需求的冲突。与其通过零散的对话接收请求，不如让一切都被记录且可追溯。" },
   { type: "callout", title: "可预期的班表是实实在在的附加价值", text: "许多员工把班表的确定性看得与薪酬同样重要。提前很久发布班表、尽量减少临时变动，能帮助他们安排生活、减少缺勤并增强忠诚度。与招聘和培训替代者的成本相比，这是一笔很便宜的投入。" },
   { type: "h2", text: "编排班表：手工、模板还是自动" },
-  { type: "p", text: "编排班表的方式有一个光谱。在简单的一端，主管在电子表格里手工编排。在中间，使用重复的模板作为基础再做调整。在自动化的一端，系统依据需求、可用时间、技能和规则建议或生成班表。" },
+  { type: "p", text: "编排班表的方式有一个光谱。在简单的一端，主管在电子表格里手工编排。在中间，使用重复的模板作为基础再做调整。在[自动化](/services/ai-automation)的一端，系统依据需求、可用时间、技能和规则建议或生成班表。" },
   { type: "p", text: "自动排班在复杂度高时最有用：员工多、地点多、技能多、规则多。但结果仍需人工复核。系统并不知道某位员工正面临家庭困难，或某两个人很难共事。" },
   { type: "ol", items: [
     "为待排班的时期设定每小时、每个岗位的需求",

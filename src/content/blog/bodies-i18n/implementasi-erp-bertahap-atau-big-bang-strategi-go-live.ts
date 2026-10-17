@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "A manufacturing company scheduled the launch of its new ERP for a Monday. The weekend before, the entire old system was switched off and the data moved. On Monday morning the cashier could not issue invoices, the warehouse could not print delivery notes, and the stock report showed nonsensical numbers. For two weeks the team worked with emergency spreadsheets while customers waited. A project designed over eight months was nearly halted by one decision: everything moved at once." },
-  { type: "p", text: "The go live strategy is one of the most important decisions in an ERP implementation, yet it is often taken too lightly, sometimes merely out of a wish to finish the project as fast as possible. The two main approaches are big bang, where all modules and business units move on a single date, and phased, where the move is made per module, per branch, or per function in several waves." },
+  { type: "p", text: "The go live strategy is one of the most important decisions in an [ERP](/services/erp) implementation, yet it is often taken too lightly, sometimes merely out of a wish to finish the project as fast as possible. The two main approaches are big bang, where all modules and business units move on a single date, and phased, where the move is made per module, per branch, or per function in several waves." },
   { type: "p", text: "This article compares the two approaches, explains the factors that determine the right choice, details the preparation that must not be skipped such as data migration, testing, and training, and offers a readiness checklist, a fallback plan, and ways to stabilise the system after launch. The aim is for your go live decision to be taken with open eyes." },
   { type: "h2", text: "Summary" },
   {
@@ -19,7 +19,7 @@ const en: Block[] = [
   { type: "p", text: "In a big bang, the entire organisation stops using the old system and starts using the new ERP on the same date for all modules covered: finance, sales, purchasing, inventory, and more. There is no overlap period, so there is no need to keep two systems running in parallel for long." },
   { type: "p", text: "In a phased approach, the move is divided into waves. There are several variations: by module, for example finance first and then inventory and sales; by location, for example one pilot branch and then the others; or by business function. Each wave yields lessons used to improve the next." },
   { type: "p", text: "There is also a parallel approach, where the old and new systems run together for a set period and the results are compared. This gives a sense of safety but doubles the workload because every transaction is entered twice. Parallel running is normally used briefly and in critical areas such as period closing." },
-  { type: "image", src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0", alt: "A team discussing in front of a whiteboard full of notes and diagrams", caption: "The go live strategy should be discussed together with process owners, not only the technical team." },
+  { type: "image", src: "/blog/images/photo-1542744173-8e7e53415bb0", alt: "A team discussing in front of a whiteboard full of notes and diagrams", caption: "The go live strategy should be discussed together with process owners, not only the technical team." },
   { type: "h2", text: "Pros and cons of big bang" },
   { type: "p", text: "The main strength of a big bang is simplicity of concept and outcome. The whole organisation works with the same data and processes from day one, no temporary interfaces between old and new systems are needed, and the full benefit is felt sooner. Total project cost is sometimes lower because the transition is shorter." },
   { type: "p", text: "Its weakness is that all the risk is concentrated in one moment. If there is a fundamental problem with data or configuration, the impact is felt across the whole company at once. The training load also piles up: all employees must be ready on the same day, and the support team is swamped by questions from everywhere." },
@@ -38,7 +38,7 @@ const en: Block[] = [
   { type: "p", text: "Many companies begin with the foundation: finance and the general ledger along with master data, because other modules depend on it. After that come purchasing and inventory, then sales and billing, then specialised modules such as production, projects, or HR. This order follows data dependencies so temporary integration can be minimised." },
   { type: "p", text: "An alternative is to start with areas of high business value and low risk to win early victories that convince the organisation. For example, a reporting or purchase approval module that frees up much time, before touching core processes such as the more complicated production." },
   { type: "p", text: "Whatever the order, set firm boundaries for each wave, measurable success criteria, and a lessons review before the next wave begins. A wave without exit criteria simply becomes a project without an end." },
-  { type: "image", src: "https://images.unsplash.com/photo-1531403009284-440f080d1e12", alt: "Hands arranging workflow diagram papers pinned on a wall", caption: "Mapping dependencies between modules helps decide a sensible wave order." },
+  { type: "image", src: "/blog/images/photo-1531403009284-440f080d1e12", alt: "Hands arranging workflow diagram papers pinned on a wall", caption: "Mapping dependencies between modules helps decide a sensible wave order." },
   { type: "h2", text: "Preparation that must not be skipped" },
   { type: "p", text: "Data migration is the most common cause of go live failure. Clean master data such as customers, suppliers, and items well in advance, run migration tests repeatedly, and reconcile the results against the source: account balances, inventory value, and receivables must match before and after. Do not wait until the last week to discover that the data does not match." },
   { type: "p", text: "User acceptance testing must be done by the people who actually run the daily processes, using real end to end scenarios: from incoming order to payment, from purchase to goods receipt. Testing by the technical team alone does not catch flow oddities that only users recognise." },
@@ -78,7 +78,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "一家制造企业把新 ERP 的上线定在周一。前一个周末，整个旧系统被关闭，数据被迁移。周一早上，收银员开不出发票，仓库打印不了送货单，库存报表显示的数字荒谬不堪。两周里，团队只能用应急的电子表格工作，客户在一旁等待。一个设计了八个月的项目，几乎因一个决定而停摆：一切同时切换。" },
-  { type: "p", text: "上线策略是 ERP 实施中最重要的决策之一，却常常被轻率对待，有时仅仅出于想尽快完成项目的愿望。两种主要方式是：大爆炸，即所有模块和业务单元在同一日期切换；以及分阶段，即按模块、按分支机构或按职能，分几个批次切换。" },
+  { type: "p", text: "上线策略是 [ERP](/services/erp) 实施中最重要的决策之一，却常常被轻率对待，有时仅仅出于想尽快完成项目的愿望。两种主要方式是：大爆炸，即所有模块和业务单元在同一日期切换；以及分阶段，即按模块、按分支机构或按职能，分几个批次切换。" },
   { type: "p", text: "本文比较这两种方式，说明决定正确选择的因素，详述数据迁移、测试和培训等不容跳过的准备工作，并提供准备就绪清单、后备方案，以及上线后稳定系统的办法。目的是让您的上线决策建立在清醒认识之上。" },
   { type: "h2", text: "摘要" },
   {
@@ -95,7 +95,7 @@ const zh: Block[] = [
   { type: "p", text: "在大爆炸方式中，整个组织在同一天停用旧系统，并就所涵盖的全部模块（财务、销售、采购、库存等）开始使用新 ERP。没有重叠期，因此无需让两套系统长时间并行运行。" },
   { type: "p", text: "在分阶段方式中，切换被分成若干批次。有几种变体：按模块，例如先上财务，再上库存和销售；按地点，例如先上一个试点分支，再上其他分支；或按业务职能。每个批次都会产生可用于改进下一批次的经验。" },
   { type: "p", text: "还有一种并行方式，旧系统和新系统在一段时间内同时运行，并比较结果。这带来安全感，但工作量加倍，因为每笔交易都要录入两次。并行通常只在短时间内、在关键领域（如期末结账）使用。" },
-  { type: "image", src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0", alt: "团队在写满笔记和图表的白板前讨论", caption: "上线策略应与流程负责人一起讨论，而不只是技术团队。" },
+  { type: "image", src: "/blog/images/photo-1542744173-8e7e53415bb0", alt: "团队在写满笔记和图表的白板前讨论", caption: "上线策略应与流程负责人一起讨论，而不只是技术团队。" },
   { type: "h2", text: "大爆炸的优缺点" },
   { type: "p", text: "大爆炸的主要优势在于概念和结果都很简单。整个组织从第一天起就使用相同的数据和流程，无需在旧新系统之间建立临时接口，也能更早享受到全部效益。由于过渡期较短，项目总成本有时更低。" },
   { type: "p", text: "它的弱点是所有风险都集中在一个时刻。如果数据或配置存在根本性问题，影响会同时波及全公司。培训负担也会堆积：所有员工必须在同一天准备就绪，支持团队被来自各处的问题淹没。" },
@@ -114,7 +114,7 @@ const zh: Block[] = [
   { type: "p", text: "许多公司从基础开始：财务和总账及主数据，因为其他模块依赖它们。之后是采购和库存，然后是销售和开票，再是生产、项目或人力资源等专业模块。这个顺序遵循数据依赖关系，使临时集成降到最低。" },
   { type: "p", text: "另一种做法是从业务价值高、风险低的领域起步，赢得让组织信服的早期胜利。例如，先做能节省大量时间的报表或采购审批模块，再去碰生产这类更复杂的核心流程。" },
   { type: "p", text: "无论顺序如何，都要为每个批次设定明确的边界、可衡量的成功标准，并在下一批次开始前复盘经验教训。没有退出标准的批次，只会变成没有尽头的项目。" },
-  { type: "image", src: "https://images.unsplash.com/photo-1531403009284-440f080d1e12", alt: "手在整理钉在墙上的工作流程图纸", caption: "梳理模块之间的依赖关系，有助于确定合理的批次顺序。" },
+  { type: "image", src: "/blog/images/photo-1531403009284-440f080d1e12", alt: "手在整理钉在墙上的工作流程图纸", caption: "梳理模块之间的依赖关系，有助于确定合理的批次顺序。" },
   { type: "h2", text: "不容跳过的准备工作" },
   { type: "p", text: "数据迁移是上线失败最常见的原因。提早清理客户、供应商和物料等主数据，反复进行迁移测试，并与来源核对结果：科目余额、库存价值和应收账款在迁移前后必须一致。不要等到最后一周才发现数据对不上。" },
   { type: "p", text: "用户验收测试必须由真正执行日常流程的人来做，使用真实的端到端场景：从收到订单到收款，从采购到收货。仅由技术团队测试，抓不到只有用户才能识别的流程异常。" },
@@ -135,7 +135,7 @@ const zh: Block[] = [
   { type: "h2", text: "上线之后：特别关护与稳定" },
   { type: "p", text: "上线后的前两到六周是最脆弱的时期。组建一支随时准备解答问题、快速修复问题的特别关护团队，配备便捷的上报渠道和明确的优先级。把每个反复出现的问题记录下来，作为培训或配置需要纠正的信号。" },
   { type: "p", text: "监控健康指标：成功交易数、系统错误、处理时间、单据积压和用户满意度。上线后的第一次月末结账是重要的考验，因此要对财务团队给予特别支持，并与上一期的结果比较。" },
-  { type: "p", text: "稳定之后，把重心从勉强维持转向收获效益：简化流程、自动化手工步骤，并利用新的报表。许多组织止步于上线，而 ERP 最大的价值其实来自上线之后的持续改进。" },
+  { type: "p", text: "稳定之后，把重心从勉强维持转向收获效益：简化流程、[自动化](/services/ai-automation)手工步骤，并利用新的报表。许多组织止步于上线，而 ERP 最大的价值其实来自上线之后的持续改进。" },
   { type: "h2", text: "案例：拥有五家分支的分销商" },
   { type: "p", text: "一家拥有五家分支、约一百名员工的分销商，最初计划采用大爆炸。评估风险后，他们选择了分批：首先在总部上线财务和主数据，然后在一个试点分支上线库存和销售，接着每隔六周依次上线其余四家分支。" },
   { type: "p", text: "试点分支暴露了若干价格和计量单位的配置问题，如果采用大爆炸，这些问题会同时冲击每家分支。修复在下一批次之前完成，所以最后四家分支的切换非常顺利。总时间多了几个月，但没有损失任何一个运营日。" },

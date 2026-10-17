@@ -22,7 +22,7 @@ const en: Block[] = [
   { type: "p", text: "There is also the term mixed reality, which combines the two, and general terms like immersive experience. For business decisions, it is enough to distinguish two things: can the customer use it with a device they already have, or do they need extra equipment? This simple question often narrows the choices immediately." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+    src: "/blog/images/photo-1535223289827-42f1e9919769",
     alt: "A person wearing a virtual reality headset with a surprised expression",
     caption: "A virtual experience can be dazzling, but dazzling does not mean it produces sales; test it with real customers.",
   },
@@ -63,7 +63,7 @@ const en: Block[] = [
   { type: "p", text: "These alternatives are also more durable. They do not depend on support from particular devices and can be made with skills that are easier to find. If it turns out customers respond well to richer visuals, that can be a signal that an AR investment is worth considering." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    src: "/blog/images/photo-1497366216548-37526070297c",
     alt: "An empty, bright modern office corridor with glass walls",
     caption: "An empty physical space can be imagined through AR, but for many businesses good photos and floor plans already answer the same question.",
   },
@@ -127,7 +127,7 @@ const zh: Block[] = [
   { type: "p", text: "此外还有结合两者的混合现实,以及沉浸式体验之类的泛称。对于业务决策,只需区分两件事:客户能否用自己已有的设备使用,还是需要额外设备?这个简单的问题常常能立刻缩小选择范围。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+    src: "/blog/images/photo-1535223289827-42f1e9919769",
     alt: "一个戴着虚拟现实头显、表情惊讶的人",
     caption: "虚拟体验可以令人惊叹,但惊叹并不等于带来销售;请用真实客户来测试。",
   },
@@ -168,7 +168,7 @@ const zh: Block[] = [
   { type: "p", text: "这些替代方案也更持久。它们不依赖特定设备的支持,而且可以用更容易找到的技能来制作。如果发现客户对更丰富的视觉效果反应良好,这可能就是值得考虑 AR 投资的信号。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    src: "/blog/images/photo-1497366216548-37526070297c",
     alt: "一条空旷明亮、带玻璃墙的现代办公室走廊",
     caption: "空旷的实体空间可以通过 AR 来想象,但对许多企业来说,好的照片和平面图已经回答了同样的问题。",
   },
@@ -185,7 +185,7 @@ const zh: Block[] = [
   { type: "p", text: "同时收集定性反馈。询问客户该功能是否有帮助、哪里令人困惑、他们期望什么。由此你可以了解问题出在技术、功能的位置,还是根本不需要。如果结果令人信服,就逐步扩大;如果不是,你以很小的损失和宝贵的教训收场。" },
   { type: "h2", text: "冷静看待技术趋势" },
   { type: "p", text: "AR 和 VR 只是带着一阵热潮而来的众多技术之一。其他趋势也是同样的模式:有宏大的承诺,有真正有益的应用场景,也有许多最终沦为摆设的实验。健康的态度是好奇而有纪律。关注发展,但用同样的问题衡量每一笔投资:它解决了客户的什么问题,真实成本是多少,我们如何知道它成功了?" },
-  { type: "p", text: "请记住,你的业务可能还有更简单、影响更大的机会:快速的网站、顺畅的支付、准确的库存,以及响应及时的客户服务。这类基础改进常常比炫目的新技术带来更大的成果。沉浸式技术最好被视为已经稳固的基础之上的额外一层。" },
+  { type: "p", text: "请记住,你的业务可能还有更简单、影响更大的机会:快速的[网站](/services/website)、顺畅的支付、准确的库存,以及响应及时的客户服务。这类基础改进常常比炫目的新技术带来更大的成果。沉浸式技术最好被视为已经稳固的基础之上的额外一层。" },
   { type: "h2", text: "评估 AR 或 VR 是否适合你业务的实用步骤" },
   {
     type: "ol",

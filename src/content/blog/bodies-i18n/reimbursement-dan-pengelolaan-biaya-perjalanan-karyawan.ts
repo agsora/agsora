@@ -25,7 +25,7 @@ const en: Block[] = [
   { type: "p", text: "Consider fixed per diem allowances for certain trips as well. With an amount set per day, employees do not need to collect every small receipt, and the company does not need to check them one by one. This approach is simple, but it needs to be aligned with the tax rules that apply to your business." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc",
+    src: "/blog/images/photo-1579532537598-459ecdaf39cc",
     alt: "A calculator and financial notes on a desk for calculating expenses",
     caption: "A clear policy makes life easier for employees and the finance team alike.",
   },
@@ -51,7 +51,7 @@ const en: Block[] = [
   { type: "p", text: "Link reimbursement payments to the payroll cycle or scheduled transfers, so employees know when they will receive their money. Certainty of schedule, for instance every Friday, is often more appreciated than unpredictable speed." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    src: "/blog/images/photo-1581091226825-a6a2a5aee158",
     alt: "An employee working with a laptop and notes at a desk",
     caption: "Easy submission and scheduled payment raise employee satisfaction.",
   },
@@ -119,7 +119,7 @@ const zh: Block[] = [
   { type: "p", text: "也可以考虑为某些行程设定固定的每日补贴。每天按设定的金额发放，员工无需收集每一张小票据，公司也无需逐一检查。这种做法简单，但需要与适用于您企业的税务规定保持一致。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc",
+    src: "/blog/images/photo-1579532537598-459ecdaf39cc",
     alt: "桌上用于核算费用的计算器和财务笔记",
     caption: "清晰的政策让员工和财务团队都更轻松。",
   },
@@ -145,7 +145,7 @@ const zh: Block[] = [
   { type: "p", text: "把报销付款与薪资周期或定期转账挂钩，让员工知道何时能收到钱。确定的时间表，例如每周五，往往比不可预测的快速更受欢迎。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    src: "/blog/images/photo-1581091226825-a6a2a5aee158",
     alt: "员工在办公桌前用笔记本电脑工作并做笔记",
     caption: "便捷的提交和定期的付款提高员工满意度。",
   },

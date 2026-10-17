@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This article covers how push notifications and other retention strategies are designed sensibly for a business mobile app. We'll look at the types of notifications that help, how to ask for permission properly, the importance of segmentation and timing, and how to measure whether all this effort really works. The discussion is practical and uses no invented numbers; what we use is reasoning you can test against your own business data.",
+    text: "This article covers how push notifications and other retention strategies are designed sensibly for a business [mobile app](/services/mobile). We'll look at the types of notifications that help, how to ask for permission properly, the importance of segmentation and timing, and how to measure whether all this effort really works. The discussion is practical and uses no invented numbers; what we use is reasoning you can test against your own business data.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -39,7 +39,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    src: "/blog/images/photo-1522542550221-31fd19575a2d",
     alt: "Colorful wireframe sketches of several app screen layouts",
     caption: "Customers' phones are full of apps; the ones that stay are those that give real value, not the ones that buzz most often.",
   },
@@ -89,7 +89,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A real example: a coffee shop doesn't need to send a breakfast menu promo to customers who always come in the afternoon. A baby supplies store doesn't need to notify customers who only buy kitchen items. With purchase history stored neatly in the system, adjustments like these can be automated. That is one reason a mobile app should connect to your POS or CRM system rather than stand alone as a separate silo.",
+    text: "A real example: a coffee shop doesn't need to send a breakfast menu promo to customers who always come in the afternoon. A baby supplies store doesn't need to notify customers who only buy kitchen items. With purchase history stored neatly in the system, adjustments like these can be automated. That is one reason a mobile app should connect to your POS or [CRM](/services/crm) system rather than stand alone as a separate silo.",
   },
   {
     type: "p",
@@ -120,7 +120,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512314889357-e157c22f938d",
+    src: "/blog/images/photo-1512314889357-e157c22f938d",
     alt: "A yellow sticky note with a lightbulb drawing on a cork board",
     caption: "Retention is designed from the first idea: a short flow, clear value, and a real reason to return.",
   },
@@ -215,7 +215,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文讨论如何为企业移动应用合理设计推送通知和其他留存策略。我们将看到哪些类型的通知有用、如何正确请求权限、细分与发送时间的重要性,以及如何衡量这一切努力是否真的有效。讨论偏重实务,不使用杜撰的数字;我们依靠的是你可以用自己业务数据检验的推理。",
+    text: "本文讨论如何为企业[移动应用](/services/mobile)合理设计推送通知和其他留存策略。我们将看到哪些类型的通知有用、如何正确请求权限、细分与发送时间的重要性,以及如何衡量这一切努力是否真的有效。讨论偏重实务,不使用杜撰的数字;我们依靠的是你可以用自己业务数据检验的推理。",
   },
   { type: "h2", text: "摘要" },
   {
@@ -243,7 +243,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    src: "/blog/images/photo-1522542550221-31fd19575a2d",
     alt: "几种应用界面布局的彩色线框草图",
     caption: "客户的手机里满是应用;留下来的是带来真实价值的应用,而不是响得最频繁的应用。",
   },
@@ -293,7 +293,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "一个真实的例子:咖啡店不需要向总是下午来的客户发送早餐菜单促销。母婴用品店不需要通知只买厨房用品的客户。只要购买记录整齐地保存在系统里,这类调整就可以自动完成。这也是移动应用应当连接 POS 或 CRM 系统、而不是作为独立孤岛存在的原因之一。",
+    text: "一个真实的例子:咖啡店不需要向总是下午来的客户发送早餐菜单促销。母婴用品店不需要通知只买厨房用品的客户。只要购买记录整齐地保存在系统里,这类调整就可以自动完成。这也是移动应用应当连接 POS 或 [CRM](/services/crm) 系统、而不是作为独立孤岛存在的原因之一。",
   },
   {
     type: "p",
@@ -324,7 +324,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512314889357-e157c22f938d",
+    src: "/blog/images/photo-1512314889357-e157c22f938d",
     alt: "软木板上画着灯泡的黄色便利贴",
     caption: "留存从最初的想法就开始设计:简短的流程、清晰的价值,以及回来的真实理由。",
   },

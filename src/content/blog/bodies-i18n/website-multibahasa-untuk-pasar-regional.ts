@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Consider your ability to serve too. If visitors read the website in their language, they will expect to be served in that language: questions answered, support available, and orders processed clearly. Promising through the website but being unable to follow up creates disappointment. Make sure you or your team have a way to handle enquiries from each language offered, at least with a flow that is honest about the limits of service." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    src: "/blog/images/photo-1451187580459-43490279c0fa",
     alt: "Photo of the Earth from space with city lights at night",
     caption: "Reaching the world starts with speaking the customer's language, not merely with putting a website on the internet.",
   },
@@ -54,7 +54,7 @@ const en: Block[] = [
     text: "Each page in each language should have its own address, a consistent language throughout its content, and a clear reciprocal relationship with its other language versions.",
   },
   { type: "h2", text: "Translation quality and cultural adaptation" },
-  { type: "p", text: "Good translation is more than replacing words one by one. It conveys meaning, tone, and intent in a way that feels natural to native speakers. A stiff translation that is clearly unedited machine output damages trust, especially on a business website that must look professional." },
+  { type: "p", text: "Good translation is more than replacing words one by one. It conveys meaning, tone, and intent in a way that feels natural to native speakers. A stiff translation that is clearly unedited machine output damages trust, especially on a [business website](/services/website) that must look professional." },
   { type: "p", text: "Automatic translation tools are now good enough to produce drafts, but the results still need review by native speakers who understand your business context. Review catches mistakes in technical terms, inappropriate tone, awkward phrases, and shifted meanings. For the most important pages such as the home page, service pages, and contact page, consider careful manual translation or editing." },
   { type: "p", text: "Make a glossary of standard terms used consistently in all languages, such as product names, service names, and specific technical terms. Decide which are not translated, for example brand names, and which are. Consistent terminology makes the website look tidy and makes it easier for new translators to work." },
   { type: "h3", text: "Adapting to culture and habits" },
@@ -66,7 +66,7 @@ const en: Block[] = [
   { type: "p", text: "Pay attention to display aspects too. Text in different languages has different lengths; a heading that fits in one language can overflow in another. Certain scripts need fonts that support them well and suitable size and line spacing. Some languages are written right to left and need layout adjustments. Test every language version at phone and desktop screen sizes, not only in the original language." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89",
+    src: "/blog/images/photo-1593642632559-0c6d3fc62b89",
     alt: "A laptop and monitor on a desk near a large window",
     caption: "Every language version needs testing on real screens, because differing text lengths and scripts affect the layout.",
   },
@@ -111,7 +111,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "互联网消除了许多地理界限。一座城市里的企业,现在可以被另一个国家的潜在客户看到,无论他们是在寻找供应商、合作伙伴还是服务。但能被看见,并不等于能被理解。来到一个自己不懂语言的网站的访客,通常几秒钟就会离开,无论背后的产品有多好。" },
-  { type: "p", text: "多语言网站通过用访客的语言呈现内容来解决这个问题。对于服务游客、出口产品、与外国公司合作,或面向国内其他语言社群的企业,这可能是一个真正的差异化因素。但执行中充满陷阱:生硬的翻译、让搜索引擎困惑的网址结构,以及无人维护的内容,使各种语言版本逐渐失调。" },
+  { type: "p", text: "多语言[网站](/services/website)通过用访客的语言呈现内容来解决这个问题。对于服务游客、出口产品、与外国公司合作,或面向国内其他语言社群的企业,这可能是一个真正的差异化因素。但执行中充满陷阱:生硬的翻译、让搜索引擎困惑的网址结构,以及无人维护的内容,使各种语言版本逐渐失调。" },
   { type: "p", text: "本文讨论如何良好地设计和管理多语言网站。我们讨论何时真正需要、如何选择语言、对搜索引擎友好的网址结构、hreflang 标签、翻译质量与文化适配、用户体验,以及长期维护。我们不使用凭空编造的流量增长数字,因为结果在很大程度上取决于市场和内容;我们提供的是你可以应用的原则和检查清单。" },
   { type: "h2", text: "摘要" },
   {
@@ -130,7 +130,7 @@ const zh: Block[] = [
   { type: "p", text: "也要考虑你的服务能力。如果访客用自己的语言阅读网站,他们也会期望用那种语言得到服务:问题有人回答、有支持渠道、订单处理清晰。通过网站许下承诺却无力跟进,会造成失望。确保你或你的团队有办法处理所提供的每种语言的咨询,至少有一个对服务限度坦诚相告的流程。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    src: "/blog/images/photo-1451187580459-43490279c0fa",
     alt: "从太空拍摄的地球,夜晚的城市灯火清晰可见",
     caption: "触达世界,从用客户的语言说话开始,而不只是把网站放到互联网上。",
   },
@@ -175,7 +175,7 @@ const zh: Block[] = [
   { type: "p", text: "也要留意显示方面。不同语言的文本长度不同;在一种语言中合适的标题,在另一种语言中可能溢出。某些文字需要对其支持良好的字体,以及合适的字号和行距。有些语言是从右向左书写的,需要调整布局。在手机和桌面屏幕尺寸下测试每一个语言版本,而不仅仅是原始语言。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89",
+    src: "/blog/images/photo-1593642632559-0c6d3fc62b89",
     alt: "靠近大窗户的桌上摆着笔记本电脑和显示器",
     caption: "每个语言版本都需要在真实屏幕上测试,因为文本长度和文字的差异会影响布局。",
   },

@@ -72,11 +72,11 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua perusahaan, dua kebutuhan berbeda" },
   {
     type: "p",
-    text: "Bayangkan sebuah startup dengan lima karyawan yang membutuhkan sistem CRM segera untuk mulai mengelola prospek penjualan. Model berlangganan jelas jauh lebih masuk akal bagi mereka, biaya awal yang rendah memungkinkan mereka mulai beroperasi dengan cepat tanpa harus mengeluarkan modal besar di awal yang berisiko bagi bisnis yang masih baru berjalan.",
+    text: "Bayangkan sebuah startup dengan lima karyawan yang membutuhkan [sistem CRM](/services/crm) segera untuk mulai mengelola prospek penjualan. Model berlangganan jelas jauh lebih masuk akal bagi mereka, biaya awal yang rendah memungkinkan mereka mulai beroperasi dengan cepat tanpa harus mengeluarkan modal besar di awal yang berisiko bagi bisnis yang masih baru berjalan.",
   },
   {
     type: "p",
-    text: "Bandingkan dengan perusahaan manufaktur besar dengan lima ratus karyawan yang membutuhkan sistem ERP untuk jangka panjang, dengan tim IT internal yang cukup kuat untuk mengelola infrastruktur sendiri. Untuk skala operasional sebesar ini, biaya berlangganan per pengguna bisa jauh melampaui biaya lisensi sekali beli dalam hitungan beberapa tahun saja, membuat opsi lisensi menjadi jauh lebih ekonomis dalam jangka panjang.",
+    text: "Bandingkan dengan perusahaan manufaktur besar dengan lima ratus karyawan yang membutuhkan [sistem ERP](/services/erp) untuk jangka panjang, dengan tim IT internal yang cukup kuat untuk mengelola infrastruktur sendiri. Untuk skala operasional sebesar ini, biaya berlangganan per pengguna bisa jauh melampaui biaya lisensi sekali beli dalam hitungan beberapa tahun saja, membuat opsi lisensi menjadi jauh lebih ekonomis dalam jangka panjang.",
   },
   { type: "h2", text: "Mempertimbangkan opsi hibrida" },
   {

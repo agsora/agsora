@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Jangan umumkan tanggal peluncuran pasti kepada publik sebelum aplikasi lolos tinjauan. Lebih aman mengumumkan rentang waktu, lalu menetapkan tanggal setelah aplikasi disetujui dan siap dirilis. Kedua toko memungkinkan Anda menahan aplikasi yang sudah disetujui dan merilisnya pada saat yang Anda pilih." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "Tangan memegang ponsel yang menampilkan layar utama penuh ikon aplikasi",
     caption: "Agar ikon aplikasi Anda sampai ke layar pelanggan, ia harus melewati pintu toko aplikasi lebih dulu.",
   },
@@ -58,7 +58,7 @@ export const body: Block[] = [
   { type: "p", text: "Sediakan akun uji coba beserta petunjuk singkat bagi peninjau, terutama bila aplikasi Anda memerlukan pendaftaran, kode undangan, atau perangkat tambahan. Jika aplikasi ditolak, baca alasannya dengan tenang dan jawab secara spesifik. Penolakan adalah hal biasa; kebanyakan selesai dengan perbaikan kecil atau penjelasan tambahan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    src: "/blog/images/photo-1484480974693-6ca0a78fb36b",
     alt: "Tangan menulis daftar periksa di buku catatan",
     caption: "Daftar periksa rilis mencegah hal kecil yang terlewat berubah menjadi penolakan.",
   },
@@ -78,7 +78,7 @@ export const body: Block[] = [
   { type: "p", text: "Pasang alat pelaporan kerusakan dan analitik dasar sebelum rilis, bukan sesudahnya. Tanpa keduanya Anda hanya tahu ada masalah ketika ulasan bintang satu muncul, dan pengembang tidak punya data untuk menemukan sebabnya." },
   { type: "h2", text: "Peluncuran bertahap dan penomoran versi" },
   { type: "p", text: "Aplikasi tidak harus langsung dirilis ke seluruh pengguna. Peluncuran bertahap memungkinkan versi baru diterima sebagian kecil pengguna terlebih dahulu, lalu diperluas bila tidak ada lonjakan kerusakan atau keluhan. Bila ada masalah, peluncuran bisa dihentikan sebelum dampaknya meluas." },
-  { type: "p", text: "Ingat bahwa aplikasi mobile tidak bisa ditarik kembali seperti website. Versi yang sudah terpasang tetap ada di ponsel pengguna sampai mereka memperbarui. Perbaikan pun harus melewati tinjauan lagi. Karena itu kesalahan di aplikasi mobile lebih lama dampaknya, dan kehati-hatian sebelum rilis lebih berharga." },
+  { type: "p", text: "Ingat bahwa [aplikasi mobile](/services/mobile) tidak bisa ditarik kembali seperti website. Versi yang sudah terpasang tetap ada di ponsel pengguna sampai mereka memperbarui. Perbaikan pun harus melewati tinjauan lagi. Karena itu kesalahan di aplikasi mobile lebih lama dampaknya, dan kehati-hatian sebelum rilis lebih berharga." },
   { type: "p", text: "Pakai penomoran versi yang konsisten dan tulis catatan perubahan yang jujur dan bermanfaat. Simpan catatan internal tentang isi setiap versi. Rancang juga cara memaksa atau menyarankan pembaruan dari sisi server, sehingga versi lama yang bermasalah atau tidak lagi kompatibel dapat diarahkan untuk memperbarui." },
   { type: "h2", text: "Setelah rilis: ulasan, peringkat, dan dukungan" },
   { type: "p", text: "Rilis bukan garis akhir. Ulasan dan peringkat di toko aplikasi memengaruhi keputusan calon pengguna dan kedudukan aplikasi di hasil pencarian toko. Pantau ulasan secara rutin dan balas dengan sopan, terutama ulasan yang menyebut masalah. Balasan yang menunjukkan masalah sudah diperbaiki sering membuat pengguna mengubah penilaiannya." },
@@ -90,7 +90,7 @@ export const body: Block[] = [
   { type: "p", text: "Periksa surel yang terdaftar di akun penerbit secara teratur. Pemberitahuan tentang perubahan kebijakan, permintaan pembaruan informasi, atau peringatan pelanggaran dikirim ke sana, sering dengan tenggat. Akun yang surelnya tidak pernah dibaca berisiko membuat aplikasi diturunkan tanpa Anda sadari." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    src: "/blog/images/photo-1522542550221-31fd19575a2d",
     alt: "Sketsa wireframe berwarna dari beberapa tata letak layar aplikasi",
     caption: "Tangkapan layar di halaman toko sebaiknya dirancang, bukan sekadar diambil seadanya.",
   },

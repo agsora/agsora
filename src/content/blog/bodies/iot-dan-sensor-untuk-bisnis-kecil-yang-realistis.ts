@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Internet of Things, atau IoT, sering terdengar seperti urusan pabrik raksasa dan kota pintar. Padahal intinya sederhana: perangkat kecil yang mengukur sesuatu di dunia nyata, seperti suhu, gerakan, kelembapan, atau jumlah, lalu mengirim hasilnya lewat jaringan ke sistem yang bisa dibaca dan ditindaklanjuti. Bagi bisnis kecil dan menengah, teknologi ini kini cukup murah dan matang untuk menyelesaikan masalah sehari-hari yang sebelumnya dikerjakan dengan mata dan catatan tangan." },
   { type: "p", text: "Namun IoT juga penuh janji berlebihan. Banyak proyek berhenti setelah pemasangan sensor karena tidak ada yang tahu bagaimana memakai datanya, baterai habis tanpa ada yang memperhatikan, jaringan tidak stabil, atau keamanan diabaikan sehingga perangkat menjadi pintu masuk bagi pihak tak berwenang. Sensor bukan solusi; ia hanya sumber data. Nilainya muncul ketika data itu mengubah keputusan atau tindakan." },
-  { type: "p", text: "Artikel ini membahas IoT dan sensor dari sudut pandang pemilik bisnis kecil. Kami membahas kasus yang masuk akal, komponen sistem, pilihan konektivitas dan daya, hubungan dengan aplikasi dan ERP, keamanan, biaya yang sering terlupa, serta cara memulai dengan uji coba kecil. Kami tidak memakai angka rekaan tentang penghematan atau pengembalian investasi; yang kami tawarkan adalah cara berpikir dan daftar periksa yang bisa Anda gunakan sebelum membeli perangkat apa pun." },
+  { type: "p", text: "Artikel ini membahas IoT dan sensor dari sudut pandang pemilik bisnis kecil. Kami membahas kasus yang masuk akal, komponen sistem, pilihan konektivitas dan daya, hubungan dengan aplikasi dan [ERP](/services/erp), keamanan, biaya yang sering terlupa, serta cara memulai dengan uji coba kecil. Kami tidak memakai angka rekaan tentang penghematan atau pengembalian investasi; yang kami tawarkan adalah cara berpikir dan daftar periksa yang bisa Anda gunakan sebelum membeli perangkat apa pun." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -17,11 +17,11 @@ export const body: Block[] = [
   },
   { type: "h2", text: "Apa itu IoT dalam bahasa bisnis" },
   { type: "p", text: "Bayangkan seseorang yang setiap jam membuka pintu pendingin untuk memeriksa termometer lalu mencatatnya di buku. Pekerjaan itu membosankan, mudah terlewat, dan hanya memberi tahu bahwa suhu bermasalah setelah masalahnya terjadi. Sensor suhu yang mengirim bacaan secara berkala, menyimpannya, dan memberi peringatan ketika suhu keluar dari batas aman mengerjakan hal yang sama tanpa lelah, dan bisa memberi tahu sebelum barang rusak." },
-  { type: "p", text: "Itulah inti IoT dalam konteks bisnis: mengubah pengamatan manual yang jarang dan berpotensi keliru menjadi pengukuran otomatis yang terus-menerus. Tiga manfaat yang paling sering muncul adalah visibilitas, otomatisasi, dan pencegahan. Visibilitas berarti Anda tahu apa yang terjadi di tempat yang tidak selalu Anda datangi. Otomatisasi berarti sistem melakukan tindakan sederhana sendiri. Pencegahan berarti masalah terdeteksi sebelum menjadi kerugian." },
+  { type: "p", text: "Itulah inti IoT dalam konteks bisnis: mengubah pengamatan manual yang jarang dan berpotensi keliru menjadi pengukuran otomatis yang terus-menerus. Tiga manfaat yang paling sering muncul adalah visibilitas, [otomatisasi](/services/ai-automation), dan pencegahan. Visibilitas berarti Anda tahu apa yang terjadi di tempat yang tidak selalu Anda datangi. Otomatisasi berarti sistem melakukan tindakan sederhana sendiri. Pencegahan berarti masalah terdeteksi sebelum menjadi kerugian." },
   { type: "p", text: "Penting untuk diingat bahwa IoT hanya sebagian dari rantai. Sensor di ujung hanyalah titik awal. Yang menentukan nilai adalah apa yang terjadi setelah data diterima: siapa yang diberi tahu, tindakan apa yang diambil, dan apakah hasilnya dicatat untuk perbaikan berikutnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    src: "/blog/images/photo-1518770660439-4636190af475",
     alt: "Papan sirkuit elektronik dengan chip dan komponen, tampak dekat",
     caption: "Sensor dan papan sirkuit hanyalah awal; nilai muncul dari data yang diubah menjadi keputusan.",
   },
@@ -111,7 +111,7 @@ export const body: Block[] = [
   { type: "p", text: "Bandingkan biaya total itu dengan nilai yang dilindungi atau dihasilkan, tetapi berhati-hatilah dengan klaim penghematan yang terlalu optimistis. Hitung dari masalah nyata yang sudah Anda alami, seperti kerugian barang rusak yang pernah terjadi atau jam kerja yang dihabiskan untuk pengecekan manual, bukan dari angka rata-rata industri yang belum tentu berlaku bagi Anda." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
+    src: "/blog/images/photo-1581092160562-40aa08e78837",
     alt: "Meja kerja dengan sketsa rancangan teknik, kotak perkakas, dan seseorang yang menggambar",
     caption: "Perencanaan di atas kertas sebelum membeli perangkat menghemat banyak biaya perubahan di lapangan.",
   },

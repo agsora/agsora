@@ -21,13 +21,13 @@ const en: Block[] = [
   { type: "p", text: "The third change is where the search happens. People search not only in search engines but also in assistant apps, social media, marketplaces, maps, and video platforms. The journey towards a buying decision is spread across many places, and your website becomes one stop among them, not the only one." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    src: "/blog/images/photo-1499951360447-b19be8fe80f5",
     alt: "A work desk with a monitor and laptop showing a web page, a desk lamp, and a plant",
     caption: "The website remains the place where a business explains itself in its own words.",
   },
   { type: "h2", text: "What has not changed" },
   { type: "p", text: "Behind that change of form, some things stay put. People still have questions and still look for someone trustworthy to answer them. Any search system, old or new, still needs sources that are clear, accurate, and dependable. AI summaries do not appear out of thin air; they are composed from pages written by people and businesses." },
-  { type: "p", text: "Important decisions are also rarely made from a summary alone. Someone about to spend a large sum on a system, an app, or a professional service wants to see for themselves who the provider is, what they have done before, how they work, and how to contact them. For that stage, the business website is still the destination." },
+  { type: "p", text: "Important decisions are also rarely made from a summary alone. Someone about to spend a large sum on a system, an app, or a professional service wants to see for themselves who the provider is, what they have done before, how they work, and how to contact them. For that stage, the [business website](/services/website) is still the destination." },
   { type: "p", text: "That is why most good SEO work remains relevant. A fast site, a tidy structure, content that answers real questions, and a reputation built honestly benefit ordinary search and AI based search alike. What loses value is the shortcut: thin pages made only to catch a keyword." },
   { type: "h2", text: "Fewer visits, clearer intent" },
   { type: "p", text: "Many site owners worry that visits will fall because users get answers without clicking. For certain kinds of content, that worry is justified. Pages that merely answer a general question in the same way as thousands of other pages are the easiest for a summary to replace." },
@@ -51,7 +51,7 @@ const en: Block[] = [
   { type: "p", text: "Show who wrote the page and when it was updated. Pages that name an author with relevant expertise, an update date, and sources for important claims signal that the content is looked after. For topics involving money, health, or law, this kind of care matters even more." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "A laptop screen showing coloured program code in an editor",
     caption: "A tidy technical structure helps machines understand a page's content without having to guess.",
   },
@@ -76,7 +76,7 @@ const en: Block[] = [
   { type: "p", text: "Genuine reviews are increasingly valuable. Ask satisfied customers to write reviews in relevant places, and respond to bad reviews calmly and helpfully. Do not create fake reviews; besides breaching platform rules and possibly the law, such patterns are increasingly easy to recognise." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1694928850410-b209896782a2",
+    src: "/blog/images/photo-1694928850410-b209896782a2",
     alt: "A Google Maps pin on a sheet of paper",
     caption: "Consistent business information on maps and directories helps shape answers about your business.",
   },
@@ -129,7 +129,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "人们寻找信息的方式正在改变。过去，一个人在搜索引擎里输入几个词，得到一串链接，再打开其中几个。现在，越来越多的人用完整的句子向基于人工智能的助手提问，或者在搜索结果页的最上方看到一段摘要式的回答，而且常常不点击任何东西就觉得够了。" },
-  { type: "p", text: "对企业主来说，这种变化带来了一些合理的疑问。如果在人们到达网站之前答案就已经给出，网站还重要吗？已经做过的 SEO 工作是不是白费了？是不是有一套新方法必须学习？在大量夸大的说法当中，很难分辨哪些真的需要回应。" },
+  { type: "p", text: "对企业主来说，这种变化带来了一些合理的疑问。如果在人们到达[网站](/services/website)之前答案就已经给出，网站还重要吗？已经做过的 SEO 工作是不是白费了？是不是有一套新方法必须学习？在大量夸大的说法当中，很难分辨哪些真的需要回应。" },
   { type: "p", text: "本文尝试冷静地回答。我们会讨论究竟什么变了、什么没有变、哪些类型的内容受影响最大，以及让你的企业继续被找到、被信任的实际步骤。这个领域变化很快，没有人能确定它的走向，因此我们不使用编造的数字，也不承诺什么窍门。我们提供的，是无论未来搜索是什么形态都说得通的原则。" },
   { type: "h2", text: "摘要" },
   {
@@ -144,11 +144,11 @@ const zh: Block[] = [
   },
   { type: "h2", text: "究竟什么变了" },
   { type: "p", text: "第一个变化是答案的形式。搜索引擎和 AI 助手现在能够综合几个来源，直接组织出一个答案，有时还附上来源链接。对于简单的问题，例如某个术语的定义或做某件事的一般步骤，用户不必打开任何网站就得到了所需的内容。" },
-  { type: "p", text: "第二个变化是问题的形式。人们问得更长、更具体，就像在跟人说话。他们不再输入餐厅收银系统，而是问有两家分店、希望库存互通的咖啡店适合用什么收银系统。后续的问题也在同一段对话里继续提出。" },
+  { type: "p", text: "第二个变化是问题的形式。人们问得更长、更具体，就像在跟人说话。他们不再输入餐厅[收银系统](/services/pos)，而是问有两家分店、希望库存互通的咖啡店适合用什么收银系统。后续的问题也在同一段对话里继续提出。" },
   { type: "p", text: "第三个变化是搜索发生的地方。人们不只在搜索引擎里搜索，也在助手应用、社交媒体、电商平台、地图和视频平台上搜索。通往购买决定的路程分散在许多地方，你的网站成了其中一站，而不是唯一的一站。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    src: "/blog/images/photo-1499951360447-b19be8fe80f5",
     alt: "办公桌上的显示器和笔记本电脑显示着网页，旁边有台灯和植物",
     caption: "网站依然是企业用自己的话介绍自己的地方。",
   },
@@ -178,7 +178,7 @@ const zh: Block[] = [
   { type: "p", text: "说明是谁写的、什么时候更新的。写明具备相关专业背景的作者、更新日期以及重要说法的来源的页面，表明内容是有人维护的。对于涉及金钱、健康或法律的主题，这样的谨慎更加重要。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "笔记本电脑屏幕上的编辑器里显示着彩色的程序代码",
     caption: "整洁的技术结构能帮助机器理解页面内容，而不必去猜。",
   },
@@ -203,7 +203,7 @@ const zh: Block[] = [
   { type: "p", text: "真实的评价越来越有价值。请满意的顾客在相关的地方写下评价，并冷静、有帮助地回应差评。不要制造虚假评价，这不仅违反平台规定、还可能违法，而且这类模式也越来越容易被识别。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1694928850410-b209896782a2",
+    src: "/blog/images/photo-1694928850410-b209896782a2",
     alt: "一张纸上放着谷歌地图的定位图钉",
     caption: "地图和目录上一致的企业信息，也在塑造关于你企业的回答。",
   },

@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "Tangan memegang ponsel yang menampilkan layar utama penuh ikon aplikasi",
     caption: "PWA dapat dipasang di layar utama dan dibuka seperti aplikasi lain, tanpa melalui toko aplikasi.",
   },
@@ -105,7 +105,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    src: "/blog/images/photo-1633356122544-f134324a6cee",
     alt: "Layar komputer menampilkan kode program di editor dengan logo React di sampingnya",
     caption: "PWA dibangun dengan teknologi web modern yang sama dengan website, lalu dilengkapi kemampuan layaknya aplikasi.",
   },

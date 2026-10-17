@@ -25,7 +25,7 @@ export const body: Block[] = [
   { type: "p", text: "Bangun angka dasar sebelum mengubah apa pun, misalnya waktu respons pada persentil ke-95 untuk halaman utama. Dengan angka itu Anda bisa membuktikan bahwa perbaikan benar-benar membantu, dan menghindari mengorbankan satu bagian demi bagian lain tanpa disadari." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "Laptop menampilkan grafik dan data analitik di atas meja kerja",
     caption: "Pengukuran yang jelas membantu menemukan bagian yang benar-benar perlu dioptimalkan.",
   },
@@ -52,7 +52,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagi sebagian besar bisnis kecil dan menengah, pengoptimalan kueri, indeks, dan cache sudah cukup untuk waktu lama sebelum arsitektur terdistribusi diperlukan. Ambil langkah yang paling sederhana dan paling murah lebih dahulu, lalu naik tingkat bila data pengukuran memang menuntutnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    src: "/blog/images/photo-1551288049-bebda4e38f71",
     alt: "Dasbor pemantauan dengan grafik performa sistem pada layar komputer",
     caption: "Pemantauan berkelanjutan memperlihatkan tren kelambatan sebelum pengguna mengeluh.",
   },
@@ -65,7 +65,7 @@ export const body: Block[] = [
   { type: "p", text: "Gunakan data historis untuk memprediksi pertumbuhan. Jika volume transaksi naik dua kali lipat setiap tahun, Anda dapat memperkirakan kapan batas saat ini akan terlampaui dan menjadwalkan perbaikan lebih awal, alih-alih memadamkan api pada saat paling tidak tepat." },
   { type: "p", text: "Tetapkan ambang peringatan, misalnya ketika penggunaan penyimpanan atau waktu respons mendekati batas yang disepakati. Dengan begitu tim mendapat waktu untuk bertindak, bukan terkejut oleh insiden yang sudah berdampak pada pelanggan." },
   { type: "h2", text: "Memilih jenis basis data yang tepat" },
-  { type: "p", text: "Sebagian besar sistem bisnis, seperti ERP, kasir, dan akuntansi, cocok dengan basis data relasional karena datanya terstruktur dan hubungan antartabelnya penting. Basis data ini matang, didukung banyak alat, dan menjamin konsistensi transaksi, yang sangat berharga bagi data keuangan dan stok." },
+  { type: "p", text: "Sebagian besar sistem bisnis, seperti [ERP](/services/erp), kasir, dan akuntansi, cocok dengan basis data relasional karena datanya terstruktur dan hubungan antartabelnya penting. Basis data ini matang, didukung banyak alat, dan menjamin konsistensi transaksi, yang sangat berharga bagi data keuangan dan stok." },
   { type: "p", text: "Jenis lain seperti penyimpanan dokumen, kunci nilai, atau mesin pencari memiliki tempatnya. Pencarian teks pada katalog besar, misalnya, lebih baik dilayani mesin pencari khusus daripada kueri biasa. Namun menambah jenis basis data baru berarti menambah hal yang harus dioperasikan dan dipantau, jadi lakukan hanya bila kebutuhan benar-benar jelas." },
   { type: "p", text: "Pertanyaan yang baik untuk tim teknis: masalah spesifik apa yang diselesaikan pilihan ini, dan apa biaya operasionalnya? Jawaban yang kuat menyebutkan pola akses nyata di sistem Anda, bukan sekadar tren teknologi yang sedang populer." },
   { type: "h2", text: "Keamanan dan keandalan tetap terjaga saat mengoptimalkan" },

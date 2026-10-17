@@ -4,7 +4,7 @@ import { checklistStrings } from "@/config/checklist";
 import Link from "@/i18n/link";
 import { InstagramIcon, FacebookIcon, TiktokIcon } from "@/components/social-icons";
 import { siteConfig } from "@/config/site";
-import { featuredServices } from "@/config/services";
+import { services } from "@/config/services";
 import { BrandLockup } from "@/components/brand-logo";
 import { Mail, MessageCircle } from "lucide-react";
 import { useLocale } from "@/i18n/locale-context";
@@ -102,7 +102,7 @@ export function Footer() {
             </div>
           </div>
 
-          <FooterColumn title={t.footer.services} links={featuredServices.map((s) => ({ label: s.title[locale], href: s.href }))} />
+          <FooterColumn title={t.footer.services} links={services.map((s) => ({ label: s.title[locale], href: s.href }))} />
           <FooterColumn
             title={t.footer.company}
             links={[

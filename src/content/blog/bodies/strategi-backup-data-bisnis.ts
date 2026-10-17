@@ -45,7 +45,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tentukan berapa banyak data yang boleh hilang" },
   {
     type: "p",
-    text: "Pertanyaan yang lebih berguna daripada sekadar “seberapa sering backup?” adalah: jika terjadi masalah sekarang, data berapa jam atau berapa hari terakhir yang masih bisa ditoleransi hilang? Ini disebut recovery point objective dalam istilah teknis, tapi konsepnya sederhana, jawaban untuk sistem kasir yang ramai transaksi setiap menit berbeda dengan jawaban untuk arsip dokumen yang jarang berubah.",
+    text: "Pertanyaan yang lebih berguna daripada sekadar “seberapa sering backup?” adalah: jika terjadi masalah sekarang, data berapa jam atau berapa hari terakhir yang masih bisa ditoleransi hilang? Ini disebut recovery point objective dalam istilah teknis, tapi konsepnya sederhana, jawaban untuk [sistem kasir](/services/pos) yang ramai transaksi setiap menit berbeda dengan jawaban untuk arsip dokumen yang jarang berubah.",
   },
   {
     type: "p",
@@ -146,7 +146,7 @@ export const body: Block[] = [
   { type: "h2", text: "Backup untuk aplikasi dan layanan pihak ketiga" },
   {
     type: "p",
-    text: "Banyak bisnis kini bergantung pada berbagai aplikasi berbasis cloud, sistem akuntansi, CRM, platform e-commerce, yang datanya tersimpan di server penyedia layanan tersebut, bukan di infrastruktur milik bisnis sendiri. Asumsi bahwa penyedia layanan ini otomatis menjamin backup yang memadai untuk kebutuhan Anda sering kali keliru; sebagian besar layanan memang punya mekanisme pemulihan bencana untuk melindungi infrastruktur mereka sendiri, tapi itu berbeda dengan memberi Anda kemampuan memulihkan data yang tidak sengaja terhapus atau rusak akibat kesalahan pengguna.",
+    text: "Banyak bisnis kini bergantung pada berbagai aplikasi berbasis cloud, sistem akuntansi, [CRM](/services/crm), platform e-commerce, yang datanya tersimpan di server penyedia layanan tersebut, bukan di infrastruktur milik bisnis sendiri. Asumsi bahwa penyedia layanan ini otomatis menjamin backup yang memadai untuk kebutuhan Anda sering kali keliru; sebagian besar layanan memang punya mekanisme pemulihan bencana untuk melindungi infrastruktur mereka sendiri, tapi itu berbeda dengan memberi Anda kemampuan memulihkan data yang tidak sengaja terhapus atau rusak akibat kesalahan pengguna.",
   },
   {
     type: "p",

@@ -62,7 +62,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah insiden ini, perusahaan beralih ke sistem HR terpusat di mana setiap manajer hanya bisa mengakses data gaji tim mereka sendiri langsung dari sistem dengan akun masing-masing yang terautentikasi, tanpa perlu mengirim file mentah sama sekali. Risiko kebocoran akibat kesalahan manusia seperti salah kirim email menjadi jauh berkurang secara signifikan.",
+    text: "Setelah insiden ini, perusahaan beralih ke [sistem HR](/services/hris) terpusat di mana setiap manajer hanya bisa mengakses data gaji tim mereka sendiri langsung dari sistem dengan akun masing-masing yang terautentikasi, tanpa perlu mengirim file mentah sama sekali. Risiko kebocoran akibat kesalahan manusia seperti salah kirim email menjadi jauh berkurang secara signifikan.",
   },
   { type: "h2", text: "Tetapkan masa simpan data" },
   {

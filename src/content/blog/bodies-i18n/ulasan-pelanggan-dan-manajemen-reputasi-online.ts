@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Before buying from a shop they do not know, almost everyone does the same thing: they look up its reviews. They open the map, see the number of stars, read a few recent comments, and in under a minute decide whether to visit or turn to a competitor. Online reputation has become a business's first shop window, often before customers ever see your official website." },
   { type: "p", text: "Many business owners treat reviews as something that simply happens, like the weather. In fact reviews can be managed: how to ask, how to respond, how to learn from complaints, and how to turn it all into an asset that supports sales. Businesses that manage them consciously usually pull ahead without paying for extra advertising." },
-  { type: "p", text: "This article covers how to build and protect online reputation honestly and sustainably: why reviews matter so much, how to collect them ethically, how to respond to positive and negative reviews, how to deal with fake reviews, and how to connect it all with your CRM and operations so feedback actually changes the service." },
+  { type: "p", text: "This article covers how to build and protect online reputation honestly and sustainably: why reviews matter so much, how to collect them ethically, how to respond to positive and negative reviews, how to deal with fake reviews, and how to connect it all with your [CRM](/services/crm) and operations so feedback actually changes the service." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -25,7 +25,7 @@ const en: Block[] = [
   { type: "p", text: "Make the step easy. Send a direct link to the review page rather than telling customers to find it themselves. One tap to a form is more effective than long instructions. In a physical shop, a QR code at the till or on the receipt can take customers to the review page in seconds." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+    src: "/blog/images/photo-1556742049-0cfed4f6a45d",
     alt: "A customer paying with a card at a payment terminal in a shop",
     caption: "The moment after a good transaction is the most natural time to ask for a review.",
   },
@@ -63,7 +63,7 @@ const en: Block[] = [
   { type: "p", text: "Close the loop. When you fix something based on feedback, tell customers, for example through a reply or a short announcement. Customers who feel heard tend to update their reviews and tell others about it." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    src: "/blog/images/photo-1522202176988-66273c2fd55f",
     alt: "A group of people discussing around a table with laptops",
     caption: "Reviews are most useful when discussed with the team and turned into real improvements.",
   },
@@ -104,7 +104,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "在向一家不熟悉的店铺购买之前，几乎所有人都会做同一件事：先查看评价。他们打开地图，看星级数量，读几条最新的评论，不到一分钟就决定是上门还是转向竞争对手。网上口碑已成为企业的第一扇橱窗，往往在顾客看到您的官方网站之前就已发挥作用。" },
   { type: "p", text: "许多企业主把评价当作顺其自然发生的事，如同天气。实际上评价是可以经营的：如何邀请、如何回应、如何从投诉中学习，以及如何把这一切转化为支持销售的资产。有意识地经营评价的企业，通常无需额外的广告费用就能脱颖而出。" },
-  { type: "p", text: "本文讨论如何诚实且可持续地建立和维护网上口碑：为什么评价如此重要、如何合乎道德地收集评价、如何回应好评与差评、如何应对虚假评价，以及如何把这一切与 CRM 和运营衔接起来，让反馈真正改变服务。" },
+  { type: "p", text: "本文讨论如何诚实且可持续地建立和维护网上口碑：为什么评价如此重要、如何合乎道德地收集评价、如何回应好评与差评、如何应对虚假评价，以及如何把这一切与 [CRM](/services/crm) 和运营衔接起来，让反馈真正改变服务。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -126,7 +126,7 @@ const zh: Block[] = [
   { type: "p", text: "让步骤变得简单。直接发送评价页面的链接，而不是让顾客自己去找。一次点击进入表单，比冗长的说明更有效。在实体店中，收银台或小票上的二维码可以让顾客在几秒内到达评价页面。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+    src: "/blog/images/photo-1556742049-0cfed4f6a45d",
     alt: "顾客在店里用银行卡在支付终端上付款",
     caption: "一次愉快的交易之后，是邀请评价最自然的时刻。",
   },
@@ -164,13 +164,13 @@ const zh: Block[] = [
   { type: "p", text: "形成闭环。当您根据反馈改进了某件事，要告诉顾客，例如通过回复或简短的公告。感到被倾听的顾客往往会更新评价，并向他人讲述这件事。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    src: "/blog/images/photo-1522202176988-66273c2fd55f",
     alt: "一群人围坐在放着笔记本电脑的桌旁讨论",
     caption: "评价与团队一起讨论并转化为真实的改进时，最有价值。",
   },
   { type: "h2", text: "在网站和网店上展示评价" },
   { type: "p", text: "评价不必只留在第三方平台上。在产品页、服务页和结账页展示精选引文，有助于在做决定的那一刻消除疑虑。注明来源和日期以增强可信度，也要展示并不完美的评价，让人感觉真实。" },
-  { type: "p", text: "使用恰当的结构化数据，让搜索引擎理解评分和评价数量，并遵守平台关于哪些评价可在搜索结果中以星级显示的指南。确保网站上显示的数字与其来源一致。" },
+  { type: "p", text: "使用恰当的结构化数据，让搜索引擎理解评分和评价数量，并遵守平台关于哪些评价可在搜索结果中以星级显示的指南。确保[网站](/services/website)上显示的数字与其来源一致。" },
   { type: "p", text: "对网店而言，与真实购买核实的产品评价可信得多。标注来自真实买家的评价，允许顾客上传照片和视频，并给企业留出回应的空间。产品问答功能也有助于减少客服收到的重复问题。" },
   { type: "h2", text: "同时经营多个渠道的口碑" },
   { type: "p", text: "顾客不会只在一个地方留下评价。有地图、电商平台、社交媒体、社区论坛，甚至从外部看不见的聊天群。只关注一个渠道的企业，往往很晚才发现投诉已经在别处流传并影响着潜在顾客。" },

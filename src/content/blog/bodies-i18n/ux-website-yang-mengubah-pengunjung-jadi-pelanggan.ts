@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This article covers the UX principles that most affect conversion on a business website, the mistakes that most often drive visitors away, and how to fix them step by step without rebuilding the whole site from scratch.",
+    text: "This article covers the UX principles that most affect conversion on a [business website](/services/website), the mistakes that most often drive visitors away, and how to fix them step by step without rebuilding the whole site from scratch.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -31,11 +31,11 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "The easiest way to understand UX is to picture the visitor as a busy person with one task. A purchasing manager wants to know whether you can handle their order volume. A shop owner wants to know whether your point of sale system supports multiple branches. A prospective patient wants to know opening hours and how to book an appointment. The website's job is to take each of these people from question to answer, then from answer to action, with as little friction as possible.",
+    text: "The easiest way to understand UX is to picture the visitor as a busy person with one task. A purchasing manager wants to know whether you can handle their order volume. A shop owner wants to know whether your [point of sale system](/services/pos) supports multiple branches. A prospective patient wants to know opening hours and how to book an appointment. The website's job is to take each of these people from question to answer, then from answer to action, with as little friction as possible.",
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1576153192396-180ecef2a715",
+    src: "/blog/images/photo-1576153192396-180ecef2a715",
     alt: "A hand sketching wireframes of several app screens on paper",
     caption: "Visitor flows are best designed on paper or in wireframes before getting into visual detail.",
   },
@@ -99,7 +99,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1615914143778-1a1a6e50c5dd",
+    src: "/blog/images/photo-1615914143778-1a1a6e50c5dd",
     alt: "A person writing in a notebook at a black desk",
     caption: "Visual consistency builds trust, but only once the page's message and flow are already clear.",
   },
@@ -129,7 +129,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "That last point is often underestimated. A perfect form is useless if submissions land in an email address nobody monitors. Connecting the form straight to a CRM, or at least to sales team notifications, ensures every lead gets a quick response, and speed of response often decides who wins the customer.",
+    text: "That last point is often underestimated. A perfect form is useless if submissions land in an email address nobody monitors. Connecting the form straight to a [CRM](/services/crm), or at least to sales team notifications, ensures every lead gets a quick response, and speed of response often decides who wins the customer.",
   },
   { type: "h2", text: "Building trust on the right pages" },
   {
@@ -181,7 +181,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "在很多情况下,问题并不在于访客的数量或质量,而在于他们到达之后发生了什么。访客带着一个问题而来,却不得不在混乱的菜单、空泛的段落和加载缓慢的页面中寻找答案。大多数人不会抱怨，他们只是关掉标签页,打开竞争对手的网站。这就是用户体验(UX)的范畴:一个人在你的网站上达成目的有多容易。",
+    text: "在很多情况下,问题并不在于访客的数量或质量,而在于他们到达之后发生了什么。访客带着一个问题而来,却不得不在混乱的菜单、空泛的段落和加载缓慢的页面中寻找答案。大多数人不会抱怨，他们只是关掉标签页,打开竞争对手的[网站](/services/website)。这就是用户体验(UX)的范畴:一个人在你的网站上达成目的有多容易。",
   },
   {
     type: "p",
@@ -205,11 +205,11 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "理解 UX 最简单的方法,是把访客想象成一个手头只有一项任务的忙碌的人。采购经理想知道你能否满足他的订单量;店主想知道你的收银系统是否支持多家分店;潜在患者想知道门诊时间和预约方式。网站的任务,就是以最少的阻力,把每个人从问题带到答案,再从答案带到行动。",
+    text: "理解 UX 最简单的方法,是把访客想象成一个手头只有一项任务的忙碌的人。采购经理想知道你能否满足他的订单量;店主想知道你的[收银系统](/services/pos)是否支持多家分店;潜在患者想知道门诊时间和预约方式。网站的任务,就是以最少的阻力,把每个人从问题带到答案,再从答案带到行动。",
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1576153192396-180ecef2a715",
+    src: "/blog/images/photo-1576153192396-180ecef2a715",
     alt: "一只手在纸上绘制多个应用界面的线框草图",
     caption: "在进入视觉细节之前,最好先在纸上或线框图中设计好访客流程。",
   },
@@ -273,7 +273,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1615914143778-1a1a6e50c5dd",
+    src: "/blog/images/photo-1615914143778-1a1a6e50c5dd",
     alt: "在黑色书桌前的笔记本上书写的人",
     caption: "视觉一致性能建立信任,但前提是页面的信息和流程已经足够清晰。",
   },
@@ -303,7 +303,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "最后一点常常被低估。如果提交内容进入了一个没人查看的邮箱,再完美的表单也毫无用处。把表单直接连接到 CRM,或至少连接到销售团队的通知,可以确保每个潜在客户都能得到快速回应，而回应速度往往决定了谁能赢得客户。",
+    text: "最后一点常常被低估。如果提交内容进入了一个没人查看的邮箱,再完美的表单也毫无用处。把表单直接连接到 [CRM](/services/crm),或至少连接到销售团队的通知,可以确保每个潜在客户都能得到快速回应，而回应速度往往决定了谁能赢得客户。",
   },
   { type: "h2", text: "在合适的页面建立信任" },
   {

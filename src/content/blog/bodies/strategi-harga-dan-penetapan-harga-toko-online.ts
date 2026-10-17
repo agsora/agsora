@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Harga adalah salah satu keputusan paling berpengaruh dalam bisnis, tetapi sering ditetapkan dengan cara paling sederhana: melihat harga pesaing, menambah persentase tertentu di atas modal, lalu berharap yang terbaik. Pendekatan itu tidak salah sebagai titik awal, namun jarang cukup untuk toko online yang ingin bertumbuh dengan sehat." },
-  { type: "p", text: "Di toko online, harga memiliki karakter khusus. Pembeli dapat membandingkan puluhan penjual dalam hitungan detik, perubahan harga bisa dilakukan seketika, dan data perilaku pembeli tersedia untuk dianalisis. Peluangnya besar, tetapi risikonya juga: perang harga yang menggerus margin, diskon yang membuat pelanggan menunggu promo, atau harga yang tidak mencerminkan nilai produk sebenarnya." },
+  { type: "p", text: "Di [toko online](/services/website), harga memiliki karakter khusus. Pembeli dapat membandingkan puluhan penjual dalam hitungan detik, perubahan harga bisa dilakukan seketika, dan data perilaku pembeli tersedia untuk dianalisis. Peluangnya besar, tetapi risikonya juga: perang harga yang menggerus margin, diskon yang membuat pelanggan menunggu promo, atau harga yang tidak mencerminkan nilai produk sebenarnya." },
   { type: "p", text: "Artikel ini membahas cara berpikir tentang harga secara terstruktur: memahami biaya sebenarnya, memilih pendekatan penetapan harga, menyusun struktur harga yang rapi, mengelola diskon, dan menguji perubahan dengan aman. Kami tidak memberikan angka patokan karena setiap bisnis berbeda; yang diberikan adalah kerangka yang bisa Anda terapkan pada produk Anda sendiri." },
   { type: "h2", text: "Ringkasan" },
   {
@@ -38,7 +38,7 @@ export const body: Block[] = [
   { type: "p", text: "Harga ditentukan dari manfaat yang dirasakan pembeli: kualitas, kenyamanan, jaminan, layanan, atau citra merek. Pendekatan ini memungkinkan margin lebih sehat bila Anda mampu menjelaskan nilai dengan baik. Memerlukan pemahaman tentang pelanggan dan kejujuran tentang apa yang membedakan produk Anda." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "Seseorang duduk di meja dengan kalkulator dan buku catatan",
     caption: "Menghitung semua lapisan biaya adalah langkah pertama sebelum menetapkan harga yang sehat.",
   },
@@ -81,7 +81,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada beberapa cara menanganinya: memasukkan sebagian biaya pengiriman ke harga barang, menawarkan gratis ongkir di atas nilai belanja tertentu, atau menampilkan biaya total sejak awal. Setiap cara memiliki konsekuensi pada margin dan persepsi, sehingga perlu diuji pada produk dan pelanggan Anda." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    src: "/blog/images/photo-1745270917233-65e776a47547",
     alt: "Grafik saham menunjukkan tren naik dan potensi laba",
     caption: "Perubahan harga perlu diukur dampaknya pada laba, bukan hanya pada jumlah penjualan.",
   },

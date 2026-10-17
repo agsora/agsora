@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "On a Saturday afternoon, the queue at a shop's checkout stretches to the door. Suddenly the internet connection drops. The register screen spins, customers grow restless, and the cashier can only stare at the monitor hoping the signal comes back. Within ten minutes, a dozen customers leave without buying anything. The loss that day was not because goods did not sell, but because the system was not designed for a circumstance that is actually very ordinary: an unstable network." },
-  { type: "p", text: "Many cloud based point of sale systems work very well while the connection is smooth, but depend entirely on the internet for every transaction. In Indonesia, where network quality varies greatly between city centres, traditional markets, and regions, this dependence is a real operational risk. The question is not whether the connection will drop, but when, and what happens to your business then." },
+  { type: "p", text: "Many cloud based [point of sale](/services/pos) systems work very well while the connection is smooth, but depend entirely on the internet for every transaction. In Indonesia, where network quality varies greatly between city centres, traditional markets, and regions, this dependence is a real operational risk. The question is not whether the connection will drop, but when, and what happens to your business then." },
   { type: "p", text: "This article covers the offline first approach for point of sale systems: what it means, how data is synchronised between devices and branches, how to handle conflicts and stock, the security risks to guard against, and practical considerations when choosing or building a system so that sales never stop just because the signal is gone." },
   { type: "h2", text: "Summary" },
   {
@@ -25,7 +25,7 @@ const en: Block[] = [
   { type: "p", text: "A sending queue preserves order and reliability. Each transaction is given a unique identity so that if sending is repeated, head office does not record it twice. This principle, often called idempotency, is the key to preventing duplicate transactions when the network drops and reconnects in the middle of a send." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    src: "/blog/images/photo-1556740738-b6a63e27c4df",
     alt: "A cashier processing a customer's payment at a shop register",
     caption: "A register that keeps running when the signal is lost protects sales and customer trust.",
   },
@@ -90,7 +90,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "周六下午，一家商店收银台前的队伍排到了门口。突然，网络连接中断了。收银屏幕转个不停，顾客开始焦躁，收银员只能盯着显示器，希望信号恢复。十分钟内，十几位顾客什么也没买就离开了。那天的损失并不是因为商品卖不出去，而是因为系统没有为一种其实非常普通的情况做好设计：不稳定的网络。" },
-  { type: "p", text: "许多基于云的收银系统在连接顺畅时运行得很好，但每一笔交易都完全依赖互联网。在印度尼西亚，市中心、传统市场与偏远地区的网络质量差异很大，这种依赖是真实的运营风险。问题不是连接会不会中断，而是何时中断，以及那时您的业务会怎样。" },
+  { type: "p", text: "许多基于云的[收银系统](/services/pos)在连接顺畅时运行得很好，但每一笔交易都完全依赖互联网。在印度尼西亚，市中心、传统市场与偏远地区的网络质量差异很大，这种依赖是真实的运营风险。问题不是连接会不会中断，而是何时中断，以及那时您的业务会怎样。" },
   { type: "p", text: "本文讨论收银系统的离线优先方法：它是什么意思、数据如何在设备和分店之间同步、如何处理冲突和库存、需要防范哪些安全风险，以及在选择或构建系统时的实际考量，让销售不会仅仅因为信号消失而中断。" },
   { type: "h2", text: "摘要" },
   {
@@ -113,7 +113,7 @@ const zh: Block[] = [
   { type: "p", text: "发送队列保证顺序与可靠性。每笔交易都有唯一标识，因此即使重复发送，总部也不会记录两次。这一原则常被称为幂等性，是防止网络在发送过程中断断续续而产生重复交易的关键。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    src: "/blog/images/photo-1556740738-b6a63e27c4df",
     alt: "收银员在店铺收银机上处理顾客的付款",
     caption: "信号丢失时依然运转的收银台，保护着销售和顾客的信任。",
   },
@@ -141,7 +141,7 @@ const zh: Block[] = [
   { type: "h2", text: "选择或构建合适的系统" },
   { type: "p", text: "评估收银系统时，提出具体的问题：如果网络断开一小时会怎样？收银员能否销售、打印小票并记录班次？之后数据如何同步，冲突又如何处理？要求在断开连接的情况下进行现场演示，而不是只听宣传册上的承诺。" },
   { type: "p", text: "还要检查硬件和配套生态：小票打印机、扫码枪、钱箱，以及所用的平板或终端。设备的兼容性和耐用性与软件同样重要。规划好备份，例如备用设备或把移动网络作为替代路径。" },
-  { type: "p", text: "如果自行构建或定制系统，离线优先应当从一开始就成为架构决策，而不是附加功能。事后再添加要昂贵得多，因为它影响整个应用中数据的存储、校验和同步方式。" },
+  { type: "p", text: "如果自行构建或[定制系统](/services/custom-software)，离线优先应当从一开始就成为架构决策，而不是附加功能。事后再添加要昂贵得多，因为它影响整个应用中数据的存储、校验和同步方式。" },
   { type: "h2", text: "上线前的测试" },
   { type: "p", text: "许多问题只有在真实情况到来时才会暴露。要有意在交易进行中断开连接，再重新接通，并观察结果。也要测试极端场景：数百笔交易堆积、两台设备修改同一份数据，或设备时钟不准确。" },
   { type: "p", text: "在推广到所有店铺之前，先在一家分店进行有限的试用。收集收银员的反馈，他们最了解该工具在压力之下是如何被使用的。记录出现的问题，修复后再分阶段扩大。" },

@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kompleksitas yang khas bisnis distribusi" },
   {
     type: "p",
-    text: "Berbeda dengan retail yang umumnya menjual langsung ke konsumen akhir, distributor beroperasi di tengah rantai pasok, membeli dalam jumlah besar dari pemasok, lalu menjual dalam jumlah lebih kecil ke banyak pelanggan dengan syarat yang berbeda-beda. Kompleksitas ini menciptakan kebutuhan sistem yang berbeda dari sekadar sistem kasir atau inventori sederhana.",
+    text: "Berbeda dengan retail yang umumnya menjual langsung ke konsumen akhir, distributor beroperasi di tengah rantai pasok, membeli dalam jumlah besar dari pemasok, lalu menjual dalam jumlah lebih kecil ke banyak pelanggan dengan syarat yang berbeda-beda. Kompleksitas ini menciptakan kebutuhan sistem yang berbeda dari sekadar [sistem kasir](/services/pos) atau inventori sederhana.",
   },
   { type: "h2", text: "Stok yang akurat per gudang" },
   {

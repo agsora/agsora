@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "When a business decides to implement ERP, attention usually goes to features: which modules exist, which reports can be produced, and how easy the interface looks. Few people ask at the start, \"What data will we put into it, and how clean is that data?\" Yet this is where many ERP projects quietly wobble. A sophisticated system fed messy data will produce messy reports too, only more neatly displayed." },
   { type: "p", text: "Master data is the core data used repeatedly by almost every business process: the list of items, customers, suppliers, employees, warehouses, and financial accounts. Every transaction, such as an order, invoice, or stock movement, refers to this master data. If master data is duplicated, inconsistent, or incomplete, errors spread through all the transactions and reports built on top of it." },
-  { type: "p", text: "This article covers why master data determines ERP success, how to structure item codes and customer and supplier data, practical naming rules, and how to keep data clean once the system is running. We use no invented figures about how large the losses from bad data are; what we offer are working patterns and a checklist you can apply to your own business data." },
+  { type: "p", text: "This article covers why master data determines [ERP](/services/erp) success, how to structure item codes and customer and supplier data, practical naming rules, and how to keep data clean once the system is running. We use no invented figures about how large the losses from bad data are; what we offer are working patterns and a checklist you can apply to your own business data." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "That is why master data quality determines the quality of almost everything ERP produces. Sales reports per customer, inventory value, margin analysis per product, and purchase planning all depend on accurate, consistent master data. Fixing it after thousands of transactions are recorded costs far more than structuring it properly from the start." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
+    src: "/blog/images/photo-1542626991-cbc4e32524cc",
     alt: "A hand placing sticky notes on a crowded planning board",
     caption: "Structuring master data starts with planning on paper: what is recorded, by whom, and under what rules.",
   },
@@ -73,7 +73,7 @@ const en: Block[] = [
   { type: "p", text: "Use controlled choices where possible. Instead of letting the unit column be filled freely, provide a list of options such as piece, box, kilogram. A list of options removes spelling variations and makes reports easier. The same goes for categories, regions, and payment methods." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556155092-490a1ba16284",
+    src: "/blog/images/photo-1556155092-490a1ba16284",
     alt: "Hands typing on a laptop showing a table dashboard in a cafe",
     caption: "A tidy dashboard can be trusted only if the master data behind it is consistent.",
   },
@@ -81,7 +81,7 @@ const en: Block[] = [
   { type: "p", text: "Write the rules above in a short, easily searchable guide, complete with correct and incorrect examples. A guide of one or two pages that is actually read is more useful than a thick document that is forgotten. Give it to everyone who will add or change data, and update it when rules change." },
   { type: "h2", text: "Cleaning old data before migration" },
   { type: "p", text: "When a business moves from spreadsheets or an old system to ERP, the biggest temptation is to move everything as it is. Yet this is the best chance to clean up. Messy data in the old system will become messy data in the new one, only in a more expensive costume." },
-  { type: "p", text: "Start with an inventory: where is your master data stored? It is usually scattered across many spreadsheets, an old point of sale system, accounting software, and employees' personal notes. Gather it all and compare. Look for duplicates, incomplete data, inconsistent formats, and inactive records." },
+  { type: "p", text: "Start with an inventory: where is your master data stored? It is usually scattered across many spreadsheets, an old [point of sale system](/services/pos), accounting software, and employees' personal notes. Gather it all and compare. Look for duplicates, incomplete data, inconsistent formats, and inactive records." },
   { type: "p", text: "Then clean in stages. Merge duplicate records carefully, decide which record becomes the parent, and move over the relevant history. Fill in empty required data. Standardise formats according to the naming rules. Deactivate, do not delete, items and parties no longer used so their transaction history stays intact. And do not migrate what is truly unnecessary; a new system is the right moment to let go of old baggage." },
   { type: "p", text: "Once cleaned, test the import with a small portion of the data first. Check the results in the new system, fix the mapping rules if there are problems, then carry out the full migration. We cover data migration in more detail in our article on preparing data migration to a new system." },
   { type: "h3", text: "Involve the people who know the data best" },
@@ -124,7 +124,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "当企业决定实施 ERP 时,注意力通常集中在功能上:有哪些模块、能生成哪些报表、界面是否易用。很少有人一开始就问:\"我们要把什么数据放进去,这些数据有多干净?\"然而,许多 ERP 项目正是在这里悄悄动摇。一个先进的系统被灌入混乱的数据,产出的也只会是混乱的报表,只不过显示得更整齐。" },
   { type: "p", text: "主数据是几乎所有业务流程反复使用的核心数据:物料、客户、供应商、员工、仓库和财务科目清单。每一笔交易,例如订单、发票或库存变动,都引用这些主数据。如果主数据重复、不一致或不完整,错误就会蔓延到建立在其上的所有交易和报表。" },
-  { type: "p", text: "本文讨论为什么主数据决定 ERP 的成败、如何构建物料编码以及客户和供应商数据、实用的命名规则,以及系统运行后如何保持数据干净。我们不使用凭空编造的数字来说明坏数据造成多大损失;我们提供的是可以套用到你自己业务数据上的工作模式和检查清单。" },
+  { type: "p", text: "本文讨论为什么主数据决定 [ERP](/services/erp) 的成败、如何构建物料编码以及客户和供应商数据、实用的命名规则,以及系统运行后如何保持数据干净。我们不使用凭空编造的数字来说明坏数据造成多大损失;我们提供的是可以套用到你自己业务数据上的工作模式和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -142,7 +142,7 @@ const zh: Block[] = [
   { type: "p", text: "因此,主数据的质量决定了 ERP 产出几乎一切内容的质量。按客户的销售报表、库存价值、按产品的利润分析以及采购计划,全都依赖准确、一致的主数据。在记录了成千上万笔交易之后再去修正,代价远高于一开始就把它构建正确。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
+    src: "/blog/images/photo-1542626991-cbc4e32524cc",
     alt: "一只手把便利贴贴在贴满的规划板上",
     caption: "构建主数据从纸面上的规划开始:记录什么、由谁记录、依据什么规则。",
   },
@@ -194,7 +194,7 @@ const zh: Block[] = [
   { type: "p", text: "尽可能使用受控选项。与其让单位列自由填写,不如提供选项列表,如件、箱、公斤。选项列表消除了写法上的差异,也让报表更容易生成。类别、地区和付款方式同样如此。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556155092-490a1ba16284",
+    src: "/blog/images/photo-1556155092-490a1ba16284",
     alt: "手在笔记本电脑上打字,屏幕显示咖啡馆里的表格仪表盘",
     caption: "整洁的仪表盘只有在背后的主数据一致时才值得信任。",
   },
@@ -202,7 +202,7 @@ const zh: Block[] = [
   { type: "p", text: "把上述规则写成一份简短、易于查找的指南,并附上正确和错误的示例。一份真正被阅读的一两页指南,比被遗忘的厚文档更有用。把它交给每一位会添加或修改数据的人,并在规则变化时更新。" },
   { type: "h2", text: "迁移前清理旧数据" },
   { type: "p", text: "当企业从电子表格或旧系统迁移到 ERP 时,最大的诱惑就是原封不动地搬过去。然而这是清理的最佳时机。旧系统里混乱的数据,到了新系统里仍然是混乱的数据,只是换上了更昂贵的外衣。" },
-  { type: "p", text: "从盘点开始:你的主数据存放在哪些地方?通常分散在许多电子表格、旧的收银系统、会计软件和员工的个人笔记里。把它们全部收集起来并进行比较。寻找重复、不完整的数据、不一致的格式和不再活跃的记录。" },
+  { type: "p", text: "从盘点开始:你的主数据存放在哪些地方?通常分散在许多电子表格、旧的[收银系统](/services/pos)、会计软件和员工的个人笔记里。把它们全部收集起来并进行比较。寻找重复、不完整的数据、不一致的格式和不再活跃的记录。" },
   { type: "p", text: "然后分阶段清理。谨慎地合并重复记录,决定哪条记录作为主记录,并转移相关历史。补全空缺的必填数据。依据命名规则统一格式。对不再使用的物料和主体,采用停用而非删除,以保持其交易历史完整。对确实不需要的内容也不要迁移;新系统正是放下旧包袱的合适时机。" },
   { type: "p", text: "清理完成后,先用一小部分数据测试导入。在新系统中检查结果,如有问题就修正映射规则,然后再进行全量迁移。关于数据迁移,我们在准备迁移到新系统的文章中有更详细的讨论。" },
   { type: "h3", text: "让最了解数据的人参与" },

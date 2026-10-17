@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak pemilik UMKM merasa tertinggal ketika mendengar kata digitalisasi, seolah harus langsung punya aplikasi canggih, website, toko online, dan sistem lengkap. Bayangan ini membuat digitalisasi terasa mahal, rumit, dan jauh. Kenyataannya, digitalisasi yang berhasil hampir selalu dimulai dari satu masalah yang paling sering mengganggu, lalu diperluas perlahan seiring bisnis siap.",
+    text: "Banyak pemilik UMKM merasa tertinggal ketika mendengar kata digitalisasi, seolah harus langsung punya aplikasi canggih, website, [toko online](/services/website), dan sistem lengkap. Bayangan ini membuat digitalisasi terasa mahal, rumit, dan jauh. Kenyataannya, digitalisasi yang berhasil hampir selalu dimulai dari satu masalah yang paling sering mengganggu, lalu diperluas perlahan seiring bisnis siap.",
   },
   {
     type: "p",
@@ -40,7 +40,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Jika jawabannya adalah menghitung penjualan dan mencocokkan uang, mulailah dari sistem kasir. Jika jawabannya stok yang sering tidak cocok, mulailah dari pencatatan stok. Jika pelanggan sering bertanya hal yang sama lewat pesan, mulailah dari informasi online yang jelas. Setiap bisnis punya titik awal yang berbeda, dan itu wajar.",
+    text: "Jika jawabannya adalah menghitung penjualan dan mencocokkan uang, mulailah dari [sistem kasir](/services/pos). Jika jawabannya stok yang sering tidak cocok, mulailah dari pencatatan stok. Jika pelanggan sering bertanya hal yang sama lewat pesan, mulailah dari informasi online yang jelas. Setiap bisnis punya titik awal yang berbeda, dan itu wajar.",
   },
   { type: "h2", text: "Urutan yang umumnya masuk akal" },
   { type: "h3", text: "1. Pencatatan penjualan" },

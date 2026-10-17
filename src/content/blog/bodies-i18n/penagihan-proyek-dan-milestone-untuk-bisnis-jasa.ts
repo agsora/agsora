@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Professional service businesses such as consultancies, agencies, contractors, and software developers have a problem that retail stores rarely face: work runs for weeks or months before anything is delivered, while costs, especially team salaries, run every day. If billing is not arranged well, the business can look busy and be praised by clients, yet run out of cash." },
   { type: "p", text: "Milestone billing is one of the most common ways to align work with cash flow. The work is divided into clear stages, and each completed stage triggers an invoice. But behind its simplicity lie many decisions: how to divide, when to bill, how to record revenue, and how to handle changes in scope." },
-  { type: "p", text: "This article covers how to design healthy project and milestone billing, and how an ERP helps connect quotation, contract, execution, hours, costs, and invoices in one flow. The discussion applies to various kinds of service business, with adjustments to the details of each." },
+  { type: "p", text: "This article covers how to design healthy project and milestone billing, and how an [ERP](/services/erp) helps connect quotation, contract, execution, hours, costs, and invoices in one flow. The discussion applies to various kinds of service business, with adjustments to the details of each." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -38,7 +38,7 @@ const en: Block[] = [
   { type: "p", text: "The rule about a response deadline is often overlooked but saves cash flow. If the client does not respond to a delivery within a certain period, the milestone can be deemed accepted. Without this rule, a single approval delayed on the client's desk can hold up an invoice for weeks." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531403009284-440f080d1e12",
+    src: "/blog/images/photo-1531403009284-440f080d1e12",
     alt: "Hands arranging workflow diagram papers pinned on a wall",
     caption: "Clear milestones break a large project into stages that can be verified and billed.",
   },
@@ -85,7 +85,7 @@ const en: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Financial report documents and a calculator on a work desk",
     caption: "Connected budget, actual costs, and invoices make project margin visible before it is too late.",
   },
@@ -138,7 +138,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "咨询公司、广告代理、承包商和软件开发商等专业服务企业，面临着零售店很少遇到的问题：工作要持续数周甚至数月才有成果交付，而成本，尤其是团队薪资，却每天都在发生。如果收费安排不当，企业可能看起来很忙碌、受到客户称赞，却耗尽了现金。" },
   { type: "p", text: "基于里程碑的收费，是让工作与现金流保持一致的最常见方式之一。工作被划分为清晰的阶段，每完成一个阶段就触发一次开票。但在其简单的外表之下，有许多决策：如何划分、何时收费、如何记录收入，以及如何处理范围变更。" },
-  { type: "p", text: "本文探讨如何设计健康的项目与里程碑收费，以及 ERP 如何把报价、合同、执行、工时、成本和发票连成一个流程。讨论适用于各类服务型企业，具体细节可按各自情况调整。" },
+  { type: "p", text: "本文探讨如何设计健康的项目与里程碑收费，以及 [ERP](/services/erp) 如何把报价、合同、执行、工时、成本和发票连成一个流程。讨论适用于各类服务型企业，具体细节可按各自情况调整。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -173,7 +173,7 @@ const zh: Block[] = [
   { type: "p", text: "关于答复期限的规则常被忽视，却能挽救现金流。如果客户在一定期限内没有回应交付，里程碑可视为已验收。没有这条规则，客户桌上一个被拖延的批准，就可能把一张发票压住数周。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531403009284-440f080d1e12",
+    src: "/blog/images/photo-1531403009284-440f080d1e12",
     alt: "手正在整理钉在墙上的工作流程图纸",
     caption: "清晰的里程碑把大项目拆分成可以验证并开票的阶段。",
   },
@@ -220,7 +220,7 @@ const zh: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "工作台上的财务报告文件和计算器",
     caption: "相互关联的预算、实际成本和发票，让项目利润率在为时已晚之前可见。",
   },

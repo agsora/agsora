@@ -2,8 +2,8 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Banyak pemilik toko online menghabiskan waktu berminggu-minggu memilih tema tampilan, warna, dan logo, tetapi hanya beberapa jam menyusun katalog produk. Padahal katalog adalah inti dari toko online. Pelanggan datang untuk menemukan barang, membandingkannya, dan memutuskan membeli. Jika nama produk tidak konsisten, foto tidak seragam, varian membingungkan, atau stok tidak sinkron, tampilan secantik apa pun tidak akan menyelamatkan penjualan." },
-  { type: "p", text: "Katalog yang rapi juga bukan sekadar urusan tampilan. Data produk mengalir ke banyak tempat: halaman toko, pencarian internal, mesin pencari, marketplace, sistem kasir, gudang, laporan keuangan, hingga iklan. Satu kesalahan di data produk, misalnya kode barang ganda, akan menyebar ke semua tempat itu dan sulit dibersihkan ketika jumlah produk sudah ratusan atau ribuan." },
-  { type: "p", text: "Artikel ini membahas cara membangun katalog produk yang terstruktur untuk toko online dan aplikasi belanja. Kami membahas model data produk, penamaan, kategori dan atribut, varian, foto dan deskripsi, harga dan stok, serta cara merawat katalog dari waktu ke waktu. Kami tidak memakai angka rekaan tentang peningkatan penjualan; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada toko dengan skala apa pun." },
+  { type: "p", text: "Katalog yang rapi juga bukan sekadar urusan tampilan. Data produk mengalir ke banyak tempat: halaman toko, pencarian internal, mesin pencari, marketplace, [sistem kasir](/services/pos), gudang, laporan keuangan, hingga iklan. Satu kesalahan di data produk, misalnya kode barang ganda, akan menyebar ke semua tempat itu dan sulit dibersihkan ketika jumlah produk sudah ratusan atau ribuan." },
+  { type: "p", text: "Artikel ini membahas cara membangun katalog produk yang terstruktur untuk [toko online](/services/website) dan aplikasi belanja. Kami membahas model data produk, penamaan, kategori dan atribut, varian, foto dan deskripsi, harga dan stok, serta cara merawat katalog dari waktu ke waktu. Kami tidak memakai angka rekaan tentang peningkatan penjualan; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada toko dengan skala apa pun." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,14 +21,14 @@ export const body: Block[] = [
   { type: "p", text: "Dampak tidak langsungnya sama penting. Mesin pencari membaca nama, deskripsi, dan struktur halaman produk. Katalog yang konsisten membuat halaman lebih mudah dipahami dan dibedakan satu sama lain. Sebaliknya, ratusan halaman dengan deskripsi hampir sama akan bersaing satu sama lain dan mengaburkan sinyal yang ingin Anda kirim." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
+    src: "/blog/images/photo-1607082348824-0a96f2a4b9da",
     alt: "Tas belanja merah dan hitam berjajar di atas latar gelap",
     caption: "Pelanggan online tidak bisa memegang barang; data produk yang rapi menjadi pengganti etalase.",
   },
   { type: "h2", text: "Memahami model data produk" },
   { type: "p", text: "Kesalahan paling umum dalam menyusun katalog adalah memperlakukan semuanya sebagai satu daftar datar. Satu kaus dalam lima ukuran dan empat warna lalu tercatat sebagai dua puluh produk terpisah dengan nama hampir sama. Akibatnya halaman toko dipenuhi duplikat, ulasan terpecah, dan pencarian menampilkan hasil berulang." },
   { type: "p", text: "Model yang lebih sehat membedakan tiga lapisan. Lapisan pertama adalah produk induk: konsep barang yang dijual, lengkap dengan nama, deskripsi umum, kategori, dan foto utama. Lapisan kedua adalah varian: kombinasi pilihan yang bisa dibeli, seperti ukuran dan warna, masing-masing dengan harga, foto, dan stok sendiri bila perlu. Lapisan ketiga adalah unit stok yang dihitung di gudang, yang biasanya satu-satu dengan varian tetapi bisa berbeda ketika ada paket atau satuan kemasan." },
-  { type: "p", text: "Dengan pemisahan ini, halaman toko menampilkan satu produk dengan pilihan varian, ulasan terkumpul di satu tempat, dan stok dihitung per varian. Kasir di toko fisik memindai kode varian yang sama sehingga stok online dan offline berasal dari sumber yang sama. Bila Anda memakai sistem ERP atau kasir, pastikan struktur ini cocok dengan cara sistem tersebut menyimpan barang sebelum mulai mengimpor data." },
+  { type: "p", text: "Dengan pemisahan ini, halaman toko menampilkan satu produk dengan pilihan varian, ulasan terkumpul di satu tempat, dan stok dihitung per varian. Kasir di toko fisik memindai kode varian yang sama sehingga stok online dan offline berasal dari sumber yang sama. Bila Anda memakai [sistem ERP](/services/erp) atau kasir, pastikan struktur ini cocok dengan cara sistem tersebut menyimpan barang sebelum mulai mengimpor data." },
   { type: "h3", text: "Produk paket dan bundel" },
   { type: "p", text: "Paket, misalnya satu set perlengkapan berisi tiga barang, perlu perlakuan khusus. Tentukan apakah paket memiliki stok sendiri atau stoknya diturunkan dari komponen. Jika diturunkan, penjualan satu paket harus mengurangi stok tiap komponen, dan stok paket yang ditampilkan adalah jumlah paket lengkap yang masih bisa dirakit. Tanpa aturan ini, toko bisa menjual paket yang komponennya sudah habis." },
   { type: "h2", text: "Kode barang yang unik dan stabil" },
@@ -56,7 +56,7 @@ export const body: Block[] = [
   { type: "p", text: "Foto varian sebaiknya dikaitkan dengan varian yang sesuai, sehingga ketika pelanggan memilih warna tertentu gambar ikut berganti. Jangan menampilkan foto warna biru untuk varian merah hanya karena belum sempat difoto. Ketidaksesuaian antara foto dan barang yang tiba adalah salah satu penyebab retur yang paling mudah dicegah." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    src: "/blog/images/photo-1523474253046-8cd2748b5fd2",
     alt: "Ponsel yang menampilkan aplikasi belanja online di atas meja",
     caption: "Sebagian besar pelanggan membuka katalog dari ponsel, jadi foto dan teks harus nyaman dibaca di layar kecil.",
   },

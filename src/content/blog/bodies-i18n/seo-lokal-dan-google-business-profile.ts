@@ -36,7 +36,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    src: "/blog/images/photo-1533292362155-d79af6b08b77",
     alt: "A person using Google Maps on a phone",
     caption: "Local SEO is consistent, tidy work: completing information, tending reviews, and updating content.",
   },
@@ -119,7 +119,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    src: "/blog/images/photo-1498050108023-c5249f4df085",
     alt: "A laptop showing code on a white desk with work tools around it",
     caption: "A fast, clear, well structured website reinforces the signals already built through the business profile.",
   },
@@ -212,7 +212,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文介绍本地 SEO 的运作方式、如何优化 Google 商家资料、网站在本地信号中的作用、如何管理评价,以及常常让企业落后于竞争对手的错误。这一切都可以在没有广告预算的情况下开始,而且大部分是持续而细致的整理工作。",
+    text: "本文介绍本地 SEO 的运作方式、如何优化 Google 商家资料、[网站](/services/website)在本地信号中的作用、如何管理评价,以及常常让企业落后于竞争对手的错误。这一切都可以在没有广告预算的情况下开始,而且大部分是持续而细致的整理工作。",
   },
   { type: "h2", text: "要点摘要" },
   {
@@ -237,7 +237,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    src: "/blog/images/photo-1533292362155-d79af6b08b77",
     alt: "使用手机谷歌地图的人",
     caption: "本地 SEO 是持续而细致的工作:完善信息、维护评价、更新内容。",
   },
@@ -320,7 +320,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    src: "/blog/images/photo-1498050108023-c5249f4df085",
     alt: "白色办公桌上的笔记本电脑显示着代码,周围摆放着办公用品",
     caption: "快速、清晰、结构良好的网站,会强化通过商家资料已经建立的信号。",
   },

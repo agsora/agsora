@@ -64,7 +64,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dari kewalahan menjadi rutinitas yang bermakna" },
   {
     type: "p",
-    text: "Bayangkan seorang pemilik toko kelontong yang baru pertama kali memakai sistem kasir modern, mencoba membuka semua laporan yang tersedia setiap pagi. Setelah beberapa hari, ia merasa kewalahan dengan banyaknya angka yang tidak sepenuhnya ia pahami maknanya, dan akhirnya berhenti membuka laporan sama sekali, kembali hanya mengandalkan perasaan untuk menilai apakah harinya bagus atau tidak.",
+    text: "Bayangkan seorang pemilik toko kelontong yang baru pertama kali memakai [sistem kasir](/services/pos) modern, mencoba membuka semua laporan yang tersedia setiap pagi. Setelah beberapa hari, ia merasa kewalahan dengan banyaknya angka yang tidak sepenuhnya ia pahami maknanya, dan akhirnya berhenti membuka laporan sama sekali, kembali hanya mengandalkan perasaan untuk menilai apakah harinya bagus atau tidak.",
   },
   {
     type: "p",

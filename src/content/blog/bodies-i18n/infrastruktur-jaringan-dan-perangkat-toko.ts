@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "There is a data side too. If the connection often drops and transactions are not saved properly, sales and stock reports become inaccurate. Small repeated discrepancies pile up into recording problems that are hard to trace. Reliable infrastructure keeps data clean from the very first point where a transaction happens." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+    src: "/blog/images/photo-1544197150-b99a580bb7a8",
     alt: "Blue and grey network cables plugged into a patch panel",
     caption: "Behind a smooth checkout are cables, network equipment, and power that have been laid out neatly.",
   },
@@ -43,7 +43,7 @@ const en: Block[] = [
   },
   { type: "p", text: "A backup route is often considered excessive until the first outage. One provider can suffer an area outage for hours, and your store can do nothing. With a backup connection, even a simple one, sales carry on. The cost of a backup is generally far smaller than the sales lost in a single day of outage." },
   { type: "h3", text: "Offline mode in the software" },
-  { type: "p", text: "Choose a POS system that can still record transactions when the internet drops, then synchronise them once the connection returns. This feature saves the store from total paralysis. Understand its limits: digital payments generally need a connection, so offline mode is more useful for cash and record keeping. Test it for real by deliberately cutting the connection, and make sure cashiers know what to do. This topic relates to our discussion of when an app needs to work offline." },
+  { type: "p", text: "Choose a [POS system](/services/pos) that can still record transactions when the internet drops, then synchronise them once the connection returns. This feature saves the store from total paralysis. Understand its limits: digital payments generally need a connection, so offline mode is more useful for cash and record keeping. Test it for real by deliberately cutting the connection, and make sure cashiers know what to do. This topic relates to our discussion of when an app needs to work offline." },
   { type: "h2", text: "The local network inside the store" },
   { type: "p", text: "Good internet is useless if the network inside the store is poor. Many problems blamed on \"slow internet\" actually come from the local network: a cheap router that is overwhelmed, weak wifi signal in certain corners, or too many devices fighting over one channel." },
   { type: "p", text: "For devices that do not move, such as the POS computer and printer, a wired connection is usually more stable and faster than wifi. Use wifi for mobile devices such as stock tablets and waiters' phones. If the store is fairly large, one router will not cover the whole area; consider several access points placed strategically, then test signal strength in frequently used corners." },
@@ -56,7 +56,7 @@ const en: Block[] = [
   { type: "p", text: "Think also about ease of maintenance and replacement. A device whose spare parts are easy to get and which can be replaced quickly is worth more than an advanced device that breaks and then has to wait for weeks. For critical devices such as receipt printers and scanners, many stores keep one spare unit so replacement takes minutes." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1604754742629-3e5728249d73",
+    src: "/blog/images/photo-1604754742629-3e5728249d73",
     alt: "A technician installing components inside a computer case",
     caption: "Devices that are easy to maintain and replace keep the store serving when something breaks.",
   },
@@ -131,7 +131,7 @@ const zh: Block[] = [
   { type: "p", text: "还有数据方面。如果连接经常中断、交易没有被正确保存,销售和库存报表就会不准确。反复出现的小差额会堆积成难以追查的记录问题。可靠的基础设施从交易发生的第一个点起,就让数据保持干净。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+    src: "/blog/images/photo-1544197150-b99a580bb7a8",
     alt: "配线架上插着蓝色和灰色的网线",
     caption: "顺畅的收银背后,是被整齐布置的线缆、网络设备和电力。",
   },
@@ -140,7 +140,7 @@ const zh: Block[] = [
   { type: "p", text: "零售门店常见的设备清单包括:POS 设备(电脑、平板或专用终端)、条码扫描枪、小票打印机、钱箱、刷卡或 QRIS 支付机、用于库存的平板、监控摄像头,有时还有价格显示屏或广告屏。每一种的网络和电力需求都不同。了解它们的数量和类型,有助于你估算所需的网络容量。" },
   { type: "p", text: "还要考虑增长。如果你计划在未来一年开设分店、增加收银员或增加设备类型,请在设计基础设施时留出成长空间。在最初安装时多拉一些线,比以后拆墙要便宜得多。" },
   { type: "h2", text: "互联网连接:选择与备份" },
-  { type: "p", text: "大多数现代 POS 系统基于云,或至少需要互联网来同步数据、完成数字支付和更新库存。因此互联网连接就是门店的血管。几点考虑有助于选择和保障它。" },
+  { type: "p", text: "大多数现代 [POS 系统](/services/pos)基于云,或至少需要互联网来同步数据、完成数字支付和更新库存。因此互联网连接就是门店的血管。几点考虑有助于选择和保障它。" },
   {
     type: "ol",
     items: [
@@ -166,7 +166,7 @@ const zh: Block[] = [
   { type: "p", text: "也要想到易维护和易更换。备件容易买到、可以快速更换的设备,比一台先进却一坏就要等数周的设备更有价值。对于小票打印机和扫描枪这类关键设备,许多门店会备一台备用机,几分钟就能替换。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1604754742629-3e5728249d73",
+    src: "/blog/images/photo-1604754742629-3e5728249d73",
     alt: "技术人员正在电脑机箱内安装组件",
     caption: "易于维护和更换的设备,能让门店在出现故障时继续提供服务。",
   },

@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "One morning, the point of sale system will not open. The server in the back room has died because of a power fault, or the storage service the business uses has suffered a major outage, or an employee has accidentally encrypted all the data by opening a deceptive email attachment. The question that arises within seconds is always the same: how long can we operate without this system, and how do we get it back?" },
-  { type: "p", text: "Most businesses never think about that question until it actually happens. Yet for a business whose work depends on digital systems, whether an online store, clinic, distribution, or service firm, an outage of just a few hours can mean lost orders, disappointed customers, and losses that are hard to recover." },
+  { type: "p", text: "Most businesses never think about that question until it actually happens. Yet for a business whose work depends on digital systems, whether an [online store](/services/website), clinic, distribution, or service firm, an outage of just a few hours can mean lost orders, disappointed customers, and losses that are hard to recover." },
   { type: "p", text: "This article covers disaster recovery and business continuity planning in practical language. We will look at the difference between the two, how to decide how fast systems must recover, what needs to be prepared, how to practise the plan, and how to start with limited resources without building expensive infrastructure." },
   { type: "h2", text: "Summary" },
   {
@@ -32,7 +32,7 @@ const en: Block[] = [
   { type: "p", text: "For each type, think about the likelihood and the impact on your business. A simple assessment, even a table with high, medium, and low, is enough to set priorities. You do not need to prepare for everything at once; just start with what is most likely and most damaging." },
   { type: "h2", text: "Two numbers that decide everything: RTO and RPO" },
   { type: "p", text: "These two technical terms are very useful because they turn an abstract conversation into concrete decisions. Recovery time objective, or RTO, is how long a system may be down before the impact becomes unacceptable. Recovery point objective, or RPO, is how much data may be lost, measured as time backward from the moment of disruption." },
-  { type: "p", text: "If the RPO of a point of sale system is one hour, you can afford to lose the last hour of transactions, so backups need to be made at least hourly. If its RTO is four hours, the system must be running again within four hours of the disruption. The tighter the numbers, the more expensive the solution." },
+  { type: "p", text: "If the RPO of a [point of sale system](/services/pos) is one hour, you can afford to lose the last hour of transactions, so backups need to be made at least hourly. If its RTO is four hours, the system must be running again within four hours of the disruption. The tighter the numbers, the more expensive the solution." },
   { type: "callout", title: "Set the numbers with process owners, not only IT", text: "The IT team can explain what is technically possible, but only business process owners know what an hour of downtime costs. Involve finance, sales, warehouse, and customer service when setting RTO and RPO. The result becomes a defensible basis for the budget." },
   { type: "p", text: "Not all systems need the same numbers. Point of sale and order processing may need fast recovery, while a monthly reporting system can wait a day. Grouping systems into criticality tiers saves cost because the best resources go to what matters most." },
   { type: "h2", text: "A backup strategy you can rely on" },
@@ -48,7 +48,7 @@ const en: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1601737487795-dab272f52420",
+    src: "/blog/images/photo-1601737487795-dab272f52420",
     alt: "A silver and black external hard drive",
     caption: "Backups must sit in a separate location and have their recovery tested, not merely be stored.",
   },
@@ -135,7 +135,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "某天早上，收银系统打不开了。后屋的服务器因为电力故障而宕机，或者企业使用的存储服务发生重大中断，又或者某位员工因为打开了一封欺骗性邮件的附件，不小心把全部数据加密了。几秒钟之内浮现的问题总是一样的：没有这个系统我们还能运转多久，又该如何把它恢复？" },
-  { type: "p", text: "大多数企业在事情真正发生之前，从不思考这个问题。然而对于工作依赖数字系统的企业，无论是网店、诊所、分销还是服务公司，仅仅几个小时的中断，就可能意味着订单流失、客户失望，以及难以挽回的损失。" },
+  { type: "p", text: "大多数企业在事情真正发生之前，从不思考这个问题。然而对于工作依赖数字系统的企业，无论是[网店](/services/website)、诊所、分销还是服务公司，仅仅几个小时的中断，就可能意味着订单流失、客户失望，以及难以挽回的损失。" },
   { type: "p", text: "本文用实用的语言介绍灾难恢复与业务连续性规划。我们将看看两者的区别、如何决定系统需要多快恢复、需要准备什么、如何演练计划，以及如何在资源有限的情况下起步，而无需建设昂贵的基础设施。" },
   { type: "h2", text: "摘要" },
   {
@@ -165,7 +165,7 @@ const zh: Block[] = [
   { type: "p", text: "对每种类型，思考其发生的可能性及对您业务的影响。简单的评估，哪怕只是一张带有高、中、低的表格，就足以确定优先级。您不必一次准备所有事情；只需从最可能发生、危害最大的开始。" },
   { type: "h2", text: "决定一切的两个数字：RTO 与 RPO" },
   { type: "p", text: "这两个技术术语非常有用，因为它们把抽象的讨论变成具体的决策。恢复时间目标（RTO）是系统在影响变得不可接受之前允许宕机的时长。恢复点目标（RPO）是允许丢失多少数据，以从中断时刻向前回溯的时间来衡量。" },
-  { type: "p", text: "如果收银系统的 RPO 是一小时，意味着您可以承受丢失最后一小时的交易，因此至少需要每小时备份一次。如果它的 RTO 是四小时，系统必须在中断后四小时内重新运行。数字越严格，方案就越昂贵。" },
+  { type: "p", text: "如果[收银系统](/services/pos)的 RPO 是一小时，意味着您可以承受丢失最后一小时的交易，因此至少需要每小时备份一次。如果它的 RTO 是四小时，系统必须在中断后四小时内重新运行。数字越严格，方案就越昂贵。" },
   { type: "callout", title: "与流程负责人一起确定数字，而不仅仅是 IT", text: "IT 团队可以解释技术上可行的方案，但只有业务流程的负责人才知道一小时的中断会造成多少损失。设定 RTO 和 RPO 时，请让财务、销售、仓库和客服参与。结果将成为预算的有据可依的基础。" },
   { type: "p", text: "并非所有系统都需要相同的数字。收银和订单处理可能需要快速恢复，而月度报表系统可以等一天。按关键程度对系统分级可以节省成本，因为最好的资源用在最重要的地方。" },
   { type: "h2", text: "值得信赖的备份策略" },
@@ -181,7 +181,7 @@ const zh: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1601737487795-dab272f52420",
+    src: "/blog/images/photo-1601737487795-dab272f52420",
     alt: "一块银黑色的外置硬盘",
     caption: "备份必须存放在独立的位置并经过恢复测试，而不只是被存起来。",
   },

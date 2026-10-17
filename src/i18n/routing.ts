@@ -32,10 +32,10 @@ export const ogLocales: Record<Locale, string> = {
 };
 
 /**
- * Served to searchers whose language matches none of the versions.
- * English, since that's the international audience.
+ * x-default: served to searchers whose language matches none of the versions.
+ * Indonesian, the canonical version and the main market.
  */
-export const fallbackLocale: Locale = "en";
+export const fallbackLocale: Locale = "id";
 
 /** "/services" → "/en/services". Non-path hrefs (https:, mailto:, #hash) pass through. */
 export function localizePath(href: string, locale: Locale) {

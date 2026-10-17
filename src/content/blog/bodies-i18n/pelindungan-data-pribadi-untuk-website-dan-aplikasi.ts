@@ -20,7 +20,7 @@ const en: Block[] = [
   { type: "p", text: "Small businesses often assume these rules are only for large companies. Yet the basic principles apply to anyone who processes personal data, and the size of the business usually affects only how formal governance needs to be, not whether responsibility exists. A wise approach is to apply measures proportionate to your risk and scale, then raise them as you grow." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "A hand signing a document on a table",
     caption: "Personal data protection starts with the awareness that every piece of data collected carries responsibility.",
   },
@@ -84,7 +84,7 @@ const en: Block[] = [
   { type: "p", text: "From the development side, design systems so these capabilities are easy to meet: customer data centralised and linked by consistent identities, functions to export and delete or anonymise a person's data, and data in backups with a clear retention period. Building them from the start is far cheaper than patching when the first request arrives." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "A laptop screen showing lines of program code in a dark room",
     caption: "Good privacy is designed into the code: collection as needed, limited access, and the ability to delete data.",
   },
@@ -179,7 +179,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "几乎每个企业网站和应用都会收集个人数据,而所有者往往没有意识到。联系表单保存姓名和电话号码,网店保存地址和订单历史,应用保存设备标识和位置,分析工具记录访客行为。这些都是个人数据,管理它们不再只是技术问题,而是法律责任和信任责任。" },
   { type: "p", text: "在印度尼西亚,关于个人数据保护的规定现已由专门的法律及其实施细则加以规范。对企业主来说,实际的问题不是背诵条文,而是理解原则并把它们转化为工作习惯:收集了什么,用于什么目的,存放在哪里,谁可以访问,出了问题怎么办。养成这些习惯的企业,更能适应不断发展的规则,也更受顾客信任。" },
-  { type: "p", text: "本文介绍管理网站和应用个人数据的实用步骤。我们讨论数据盘点、收集依据与同意、隐私声明、数据主体的权利、安全、第三方、保留期、泄露处理和治理习惯。请注意,本文仅用于科普,不构成法律意见。规则可能变化,其适用取决于你的业务类型,因此请参考最新的官方来源,并就你的情况咨询法律顾问。我们有意不引用可能已经变化的具体数字或期限。" },
+  { type: "p", text: "本文介绍管理[网站](/services/website)和应用个人数据的实用步骤。我们讨论数据盘点、收集依据与同意、隐私声明、数据主体的权利、安全、第三方、保留期、泄露处理和治理习惯。请注意,本文仅用于科普,不构成法律意见。规则可能变化,其适用取决于你的业务类型,因此请参考最新的官方来源,并就你的情况咨询法律顾问。我们有意不引用可能已经变化的具体数字或期限。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -196,7 +196,7 @@ const zh: Block[] = [
   { type: "p", text: "小企业常以为这些规定只针对大公司。但基本原则适用于任何处理个人数据的人,企业规模通常只影响治理需要多正式,而不影响是否有责任。明智的做法是采取与你的风险和规模相称的措施,然后随着成长再提高。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "手在桌上签署文件",
     caption: "个人数据保护始于一种意识:收集的每一份数据都带有责任。",
   },
@@ -260,7 +260,7 @@ const zh: Block[] = [
   { type: "p", text: "从开发的角度,设计系统使这些能力易于满足:客户数据集中,并通过一致的身份相连;具备导出和删除或匿名化某人数据的功能;备份中的数据有明确的保留期。从一开始就构建它们,比第一个请求到来时再去打补丁便宜得多。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "昏暗房间里笔记本电脑屏幕显示着一行行程序代码",
     caption: "好的隐私是设计在代码里的:按需收集、有限访问,以及删除数据的能力。",
   },

@@ -20,7 +20,7 @@ export const body: Block[] = [
   { type: "p", text: "Bisnis kecil sering mengira aturan ini hanya untuk perusahaan besar. Padahal prinsip dasarnya berlaku bagi siapa pun yang memproses data pribadi, dan ukuran bisnis biasanya hanya memengaruhi seberapa formal tata kelola yang diperlukan, bukan ada tidaknya tanggung jawab. Pendekatan yang bijak adalah menerapkan langkah yang proporsional dengan risiko dan skala Anda, lalu meningkatkannya seiring pertumbuhan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "Tangan menandatangani dokumen di atas meja",
     caption: "Pelindungan data pribadi berawal dari kesadaran bahwa setiap data yang dikumpulkan membawa tanggung jawab.",
   },
@@ -84,7 +84,7 @@ export const body: Block[] = [
   { type: "p", text: "Dari sisi pengembangan, rancang sistem agar kemampuan ini mudah dipenuhi: data pelanggan terpusat dan terhubung dengan identitas yang konsisten, ada fungsi untuk mengekspor dan menghapus atau menganonimkan data seseorang, dan data di cadangan memiliki masa simpan yang jelas. Membangunnya sejak awal jauh lebih murah daripada menambalnya saat permintaan pertama datang." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "Layar laptop menampilkan baris-baris kode program di ruangan gelap",
     caption: "Privasi yang baik dirancang dalam kode: pengumpulan seperlunya, akses terbatas, dan kemampuan menghapus data.",
   },

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Di banyak perusahaan, laporan keuangan bulan lalu baru selesai ketika bulan berjalan sudah hampir habis. Tim keuangan menghabiskan minggu-minggu pertama mengejar nota yang belum masuk, mencocokkan rekening, dan memperbaiki catatan yang keliru. Ketika laporan akhirnya tiba di meja pemilik, isinya sudah menjadi sejarah: keputusan yang seharusnya diambil berdasarkan angka itu sudah terlanjur diambil dengan perkiraan." },
   { type: "p", text: "Tutup buku yang lambat jarang disebabkan oleh tim keuangan yang lambat. Penyebabnya hampir selalu berada di hulu: transaksi yang dicatat terlambat, data yang tersebar di beberapa tempat, dan pekerjaan pencocokan yang ditumpuk sampai akhir bulan. Tim keuangan hanya berada di ujung alur, tempat semua keterlambatan itu berkumpul." },
-  { type: "p", text: "Artikel ini membahas cara mempercepat tutup buku bulanan dengan bantuan ERP dan disiplin proses. Kami membahas kalender penutupan, rekonsiliasi, pisah batas, persediaan, jurnal penyesuaian, pemeriksaan, dan peran otomasi. Tidak ada angka rekaan tentang berapa hari yang ideal; setiap bisnis berbeda. Yang kami tawarkan adalah cara berpikir dan urutan kerja yang bisa diterapkan bertahap." },
+  { type: "p", text: "Artikel ini membahas cara mempercepat tutup buku bulanan dengan bantuan [ERP](/services/erp) dan disiplin proses. Kami membahas kalender penutupan, rekonsiliasi, pisah batas, persediaan, jurnal penyesuaian, pemeriksaan, dan peran otomasi. Tidak ada angka rekaan tentang berapa hari yang ideal; setiap bisnis berbeda. Yang kami tawarkan adalah cara berpikir dan urutan kerja yang bisa diterapkan bertahap." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Selain itu ada manfaat bagi tim. Tim keuangan yang setiap bulan terjebak dalam pekerjaan penutupan tidak punya waktu untuk analisis. Mempercepat penutupan berarti membebaskan orang-orang yang paling memahami angka perusahaan untuk mengerjakan hal yang lebih berguna daripada mengejar nota." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07",
+    src: "/blog/images/photo-1554224154-26032ffc0d07",
     alt: "Dokumen keuangan, kalkulator, dan secangkir kopi di atas meja kerja",
     caption: "Semakin banyak pekerjaan yang diselesaikan sepanjang bulan, semakin ringan beban di hari-hari penutupan.",
   },
@@ -43,7 +43,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pencatatan di sumbernya" },
   { type: "p", text: "Prinsip terpenting dalam ERP adalah transaksi dicatat sekali, di tempat terjadinya, oleh orang yang melakukannya. Kasir mencatat penjualan, gudang mencatat penerimaan barang, bagian pembelian mencatat pesanan, dan semuanya mengalir ke pembukuan tanpa diketik ulang. Tim keuangan memeriksa, bukan menyalin." },
   { type: "p", text: "Agar aliran ini berjalan, pemetaan akun harus disiapkan dengan benar. Setiap jenis transaksi perlu tahu ke akun mana ia dicatat: penjualan produk tertentu ke akun pendapatan tertentu, pembelian bahan ke akun persediaan, biaya pengiriman ke akun biaya. Pemetaan yang dikerjakan teliti di awal menghemat ribuan jurnal manual sesudahnya." },
-  { type: "p", text: "Sistem yang berjalan terpisah, seperti toko online atau aplikasi kasir yang belum terhubung, sebaiknya disambungkan lewat integrasi daripada lewat ekspor dan impor berkas bulanan. Integrasi harian membuat selisih terlihat pada hari yang sama, ketika penyebabnya masih mudah dilacak." },
+  { type: "p", text: "Sistem yang berjalan terpisah, seperti [toko online](/services/website) atau aplikasi kasir yang belum terhubung, sebaiknya disambungkan lewat integrasi daripada lewat ekspor dan impor berkas bulanan. Integrasi harian membuat selisih terlihat pada hari yang sama, ketika penyebabnya masih mudah dilacak." },
   { type: "callout", title: "Tutup buku adalah hasil, bukan kegiatan", text: "Bila pencatatan harian rapi, tutup buku hanya memastikan dan merangkum. Bila pencatatan harian berantakan, tutup buku menjadi upaya menyusun ulang sebulan penuh dalam beberapa hari. Perbaikan paling besar hampir selalu ada di kebiasaan harian." },
   { type: "h2", text: "Rekonsiliasi sepanjang bulan" },
   { type: "p", text: "Rekonsiliasi berarti memastikan dua catatan tentang hal yang sama benar-benar cocok: buku kas dengan rekening koran, buku piutang dengan daftar tagihan, buku persediaan dengan stok fisik. Bila hanya dilakukan sekali di akhir bulan, satu selisih kecil pada tanggal tiga harus dicari di antara ratusan transaksi." },
@@ -51,7 +51,7 @@ export const body: Block[] = [
   { type: "p", text: "Tinjau juga akun sementara dan akun selisih secara berkala. Akun seperti ini wajar ada, tetapi saldonya tidak boleh dibiarkan tumbuh. Saldo akun sementara yang terus membesar adalah tanda ada jenis transaksi yang belum punya aturan pencatatan jelas." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "Seseorang duduk di meja dengan kalkulator dan buku catatan",
     caption: "Pencocokan yang dilakukan rutin menghemat waktu pencarian selisih di akhir bulan.",
   },
@@ -84,7 +84,7 @@ export const body: Block[] = [
   { type: "p", text: "Jejak audit yang mencatat siapa mengubah apa dan kapan adalah kemampuan dasar ERP yang patut dimanfaatkan. Ia melindungi perusahaan sekaligus melindungi karyawan, karena setiap perubahan punya penanggung jawab yang jelas." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "Laptop menampilkan dashboard berisi grafik dan tabel laporan",
     caption: "Laporan yang tiba lebih awal masih bisa memengaruhi keputusan bulan berjalan.",
   },

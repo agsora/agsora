@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "After a website or app is launched, the most frequent question is: is it working? A satisfying answer seldom comes from feeling or from the number of messages received. A trustworthy answer comes from data about how people actually use your product: where they come from, what they do, where they stop, and whether they come back." },
-  { type: "p", text: "Unfortunately, many businesses install an analytics tool and then just look at a default dashboard full of aimless numbers. Visits go up, but sales do not. App downloads are high, but users vanish after a day. Without a clear plan, the data collected does not answer business questions, and decisions still rest on guesses." },
+  { type: "p", text: "Unfortunately, many businesses install an analytics tool and then just look at a default [dashboard](/services/dashboard) full of aimless numbers. Visits go up, but sales do not. App downloads are high, but users vanish after a day. Without a clear plan, the data collected does not answer business questions, and decisions still rest on guesses." },
   { type: "p", text: "This article covers how to set up analytics for websites and mobile apps that really help decisions. We discuss starting from business questions, drawing up a tracking plan, which metrics are worth watching, funnels and retention, data quality, privacy and user consent, testing changes, and the habit of reviewing data. We use no invented figures about benchmarks; what we offer are principles and a checklist you can apply at various scales." },
   { type: "h2", text: "Summary" },
   {
@@ -27,7 +27,7 @@ const en: Block[] = [
   { type: "p", text: "This order also prevents overcollection. Every piece of data collected has a cost: development time, storage, compliance burden, and risk if it leaks. Data that answers no question should not be collected." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "A screen showing click and impression charts with a fluctuating blue line",
     caption: "Charts are useful only when tied to a clear question and the decision to be made.",
   },
@@ -89,7 +89,7 @@ const en: Block[] = [
   { type: "p", text: "Privacy is not only a legal obligation but also a matter of trust. Users who feel excessively tracked will leave, and a data leak damages reputation for longer than the short term gain from extra data. An approach that respects privacy and still answers business questions is almost always available, for example using aggregated or anonymous data when individual identity is not needed." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    src: "/blog/images/photo-1551288049-bebda4e38f71",
     alt: "A dashboard with several data charts displayed side by side",
     caption: "A good dashboard shows a few numbers tied to decisions, not every number that can be pulled.",
   },
@@ -125,7 +125,7 @@ const en: Block[] = [
     "Watch for costs that can grow with event volume",
     "Avoid installing many overlapping tools whose figures contradict one another",
   ] },
-  { type: "p", text: "Do not forget the data you already have. Transaction databases, till systems, CRM, and ERP often hold more accurate answers to certain questions than behaviour tracking tools. Combining the two, for example linking visit source with real orders, gives a more complete picture." },
+  { type: "p", text: "Do not forget the data you already have. Transaction databases, till systems, [CRM](/services/crm), and ERP often hold more accurate answers to certain questions than behaviour tracking tools. Combining the two, for example linking visit source with real orders, gives a more complete picture." },
   { type: "h2", text: "Common mistakes to avoid" },
   { type: "ul", items: [
     "Installing a tool with no business question and no tracking plan",
@@ -157,8 +157,8 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "网站或应用上线之后,最常被问到的问题是:它有效吗?令人满意的答案很少来自感觉或收到消息的数量。可信的答案来自关于人们实际如何使用你的产品的数据:他们从哪里来,做了什么,在哪里停下,以及是否会回来。" },
-  { type: "p", text: "遗憾的是,许多企业装上分析工具后,只是看着默认的仪表盘,里面全是漫无方向的数字。访问量上升了,销售却没有。应用下载量很高,用户一天后就消失了。没有明确的计划,收集的数据回答不了业务问题,决策仍然靠猜测。" },
-  { type: "p", text: "本文介绍如何为网站和移动应用设置真正有助于决策的分析。我们讨论从业务问题出发、制定追踪计划、哪些指标值得关注、漏斗与留存、数据质量、隐私与用户同意、测试变更,以及复盘数据的习惯。我们不使用杜撰的基准数字;提供的是适用于不同规模的原则和检查清单。" },
+  { type: "p", text: "遗憾的是,许多企业装上分析工具后,只是看着默认的[仪表盘](/services/dashboard),里面全是漫无方向的数字。访问量上升了,销售却没有。应用下载量很高,用户一天后就消失了。没有明确的计划,收集的数据回答不了业务问题,决策仍然靠猜测。" },
+  { type: "p", text: "本文介绍如何为[网站](/services/website)和移动应用设置真正有助于决策的分析。我们讨论从业务问题出发、制定追踪计划、哪些指标值得关注、漏斗与留存、数据质量、隐私与用户同意、测试变更,以及复盘数据的习惯。我们不使用杜撰的基准数字;提供的是适用于不同规模的原则和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -182,7 +182,7 @@ const zh: Block[] = [
   { type: "p", text: "这个顺序还能防止过度收集。收集的每一份数据都有成本:开发时间、存储、合规负担,以及泄露时的风险。不回答任何问题的数据不应被收集。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "屏幕上显示点击量和展示量图表,蓝色线条上下波动",
     caption: "只有与明确的问题和将要做出的决策相关联,图表才有用。",
   },
@@ -220,7 +220,7 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "数字显示问题在哪里,却很少解释为什么。要理解原因,就要结合定性反馈:与用户的简短访谈、评价、对客服的提问,以及观看真人试用你的产品。两种信息的结合,才能产生有的放矢的改进。" },
   { type: "h2", text: "数据质量:一切的基础" },
-  { type: "p", text: "决策的好坏取决于数据。错误的数据比没有数据更危险,因为它给人错误的信心。常见问题包括事件被记录两次、某些设备或版本上的事件未被记录、用户身份被拆散,以及自动化机器的流量污染了数字。" },
+  { type: "p", text: "决策的好坏取决于数据。错误的数据比没有数据更危险,因为它给人错误的信心。常见问题包括事件被记录两次、某些设备或版本上的事件未被记录、用户身份被拆散,以及[自动化](/services/ai-automation)机器的流量污染了数字。" },
   { type: "ul", items: [
     "发布前测试追踪:确保事件在所有平台上带着正确的属性出现",
     "把分析数字与真实来源(如数据库中的订单数)比较,并调查大的差距",
@@ -244,7 +244,7 @@ const zh: Block[] = [
   { type: "p", text: "隐私不只是法律义务,也关乎信任。感觉被过度追踪的用户会离开,而数据泄露对声誉的损害,比额外数据带来的短期收益持续得更久。尊重隐私又能回答业务问题的方法几乎总是存在,例如在不需要个体身份时使用聚合或匿名数据。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    src: "/blog/images/photo-1551288049-bebda4e38f71",
     alt: "并排显示多个数据图表的仪表盘",
     caption: "好的仪表盘展示与决策相关的少数数字,而不是所有能提取的数字。",
   },

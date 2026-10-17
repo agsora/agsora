@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak website company profile dibuat sebagai formalitas: halaman tentang perusahaan, visi dan misi, daftar layanan, dan alamat kontak. Website seperti itu tidak salah, dan memang membantu membangun kesan profesional. Tetapi jarang menghasilkan prospek, karena disusun dari sudut pandang perusahaan, apa yang ingin perusahaan ceritakan, bukan dari pertanyaan yang ada di kepala calon klien.",
+    text: "Banyak [website company profile](/services/website) dibuat sebagai formalitas: halaman tentang perusahaan, visi dan misi, daftar layanan, dan alamat kontak. Website seperti itu tidak salah, dan memang membantu membangun kesan profesional. Tetapi jarang menghasilkan prospek, karena disusun dari sudut pandang perusahaan, apa yang ingin perusahaan ceritakan, bukan dari pertanyaan yang ada di kepala calon klien.",
   },
   {
     type: "p",

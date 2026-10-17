@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "For many business owners, tax matters are synonymous with an exhausting month end: collecting invoices from various places, matching figures across several spreadsheets, then hoping nothing is missed before the reporting deadline. Small mistakes, such as duplicate invoice numbers or a wrong rate, can lead to corrections, penalties, and wasted time." },
   { type: "p", text: "In many countries, tax authorities increasingly encourage or require invoices to be issued in electronic form. The aim is to make transaction data easier to verify and report. For businesses still relying on manual processes, this change can feel like an extra burden. But handled properly, electronic invoicing can be an opportunity to tidy the whole billing and bookkeeping flow." },
-  { type: "p", text: "This article covers how ERP helps issue tidy electronic invoices, maintain compliance continuously, and reduce month end work. It is important to note that tax rules differ between countries and change over time. This article is general and not tax advice; always consult the applicable rules with a tax consultant or the relevant authority." },
+  { type: "p", text: "This article covers how [ERP](/services/erp) helps issue tidy electronic invoices, maintain compliance continuously, and reduce month end work. It is important to note that tax rules differ between countries and change over time. This article is general and not tax advice; always consult the applicable rules with a tax consultant or the relevant authority." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ const en: Block[] = [
   { type: "p", text: "Clean up data gradually. Start with the customers who transact most often and the best selling products. Assigning one person or one department as master data owner prevents the data from becoming messy again after cleaning." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Financial report documents and a calculator on a work desk",
     caption: "Tidy master data is the foundation of invoices and tax reports you can trust.",
   },
@@ -58,7 +58,7 @@ const en: Block[] = [
   { type: "p", text: "If transactions come from several channels, such as the website, marketplaces, and the cashier, make sure all flow into one system. Bookkeeping split across many channels is a common cause of discrepancies between reported sales and those recorded in the books." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "A hand signing a document on a desk",
     caption: "Recorded signing and approval make every document traceable.",
   },
@@ -129,7 +129,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "对许多企业主来说，税务事务就等同于令人疲惫的月末：从各处收集发票，在几张电子表格之间核对数字，然后在申报截止日之前祈祷没有遗漏。小错误，比如发票编号重复或税率错误，都可能导致更正、罚款和浪费时间。" },
   { type: "p", text: "在许多国家，税务机关越来越多地鼓励或要求以电子形式开具发票。目的是让交易数据更容易核实和申报。对于仍依赖手工流程的企业，这一变化可能让人觉得是额外的负担。但如果处理得当，电子发票反而可能是整理整个开票和记账流程的机会。" },
-  { type: "p", text: "本文介绍 ERP 如何帮助开具整齐的电子发票、持续保持合规，并减少月末工作。需要特别说明的是，税务规则因国家而异，并会随时间变化。本文是一般性介绍，不构成税务建议；请务必向税务顾问或相关机关确认适用的规定。" },
+  { type: "p", text: "本文介绍 [ERP](/services/erp) 如何帮助开具整齐的电子发票、持续保持合规，并减少月末工作。需要特别说明的是，税务规则因国家而异，并会随时间变化。本文是一般性介绍，不构成税务建议；请务必向税务顾问或相关机关确认适用的规定。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -158,7 +158,7 @@ const zh: Block[] = [
   { type: "p", text: "逐步清理数据。从交易最频繁的客户和最畅销的产品开始。指定一个人或一个部门作为主数据负责人，可避免数据在清理后再次变乱。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "办公桌上的财务报告文件和计算器",
     caption: "整洁的主数据是值得信赖的发票和税务报表的基础。",
   },
@@ -181,10 +181,10 @@ const zh: Block[] = [
   { type: "h2", text: "付款与对账" },
   { type: "p", text: "合规并不止于开具发票。收到的付款需要与发票匹配，以保证应收账款准确，也使在许多方案中取决于交易确认时间的税务报表正确。月末的手工对账容易出错且耗时。" },
   { type: "p", text: "ERP 可以按参考编号或金额自动把收款与发票匹配，并把不匹配的标出来供复核。部分付款、重复付款以及因转账手续费造成的小额差异，都按一致的规则处理，而不是由每位员工临时决定。" },
-  { type: "p", text: "如果交易来自多个渠道，如网站、电商平台和收银台，要确保它们都流入同一个系统。账务分散在许多渠道，是造成申报销售额与账簿记录之间差异的常见原因。" },
+  { type: "p", text: "如果交易来自多个渠道，如[网站](/services/website)、电商平台和收银台，要确保它们都流入同一个系统。账务分散在许多渠道，是造成申报销售额与账簿记录之间差异的常见原因。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "手在桌上签署文件",
     caption: "有记录的签署和批准，让每份文件都可追溯。",
   },

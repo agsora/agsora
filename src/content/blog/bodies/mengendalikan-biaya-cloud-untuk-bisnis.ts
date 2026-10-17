@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Selain itu, struktur harga cloud memang rumit. Ada biaya komputasi, penyimpanan, basis data, transfer keluar, layanan terkelola, alamat jaringan, dan banyak lagi. Satu keputusan teknis yang tampak sepele, seperti menempatkan dua layanan di wilayah berbeda, dapat menimbulkan biaya transfer yang tidak terduga. Karena itu pemahaman dasar tentang komponen tagihan sangat berguna bahkan bagi pemilik bisnis nonteknis." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    src: "/blog/images/photo-1550751827-4bd374c3f58b",
     alt: "Papan sirkuit bercahaya dengan jalur-jalur rangkaian, tampak miring",
     caption: "Di balik layanan cloud ada perangkat nyata; setiap sumber daya yang menyala punya harga, dipakai atau tidak.",
   },
@@ -79,7 +79,7 @@ export const body: Block[] = [
   { type: "p", text: "Transfer data keluar dari penyedia sering menjadi biaya kejutan. Lalu lintas dalam satu wilayah biasanya murah atau gratis, sedangkan lalu lintas ke internet atau ke wilayah lain ditagih. Letakkan layanan yang sering berkomunikasi di wilayah yang sama, gunakan jaringan pengiriman konten untuk berkas statis, dan kompres respons. Perhatikan pula biaya jika suatu saat Anda ingin memindahkan data besar ke penyedia lain." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "Layar laptop menampilkan grafik dan laporan analitik bisnis",
     caption: "Biaya cloud baru bisa dikendalikan ketika tren per layanan dan per proyek terlihat jelas.",
   },

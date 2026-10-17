@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "In recent years, QR codes on restaurant and cafe tables have become a common sight. Customers scan the code with their phones, see the full menu with photos, choose their order, and even pay without having to call a waiter. For food and beverage owners, the idea sounds attractive: faster orders, fewer mistakes, and a team that can serve more tables." },
   { type: "p", text: "But a digital menu is not just replacing the printed menu book with a web page. It touches how the kitchen, cashier, waiters, stock, and even the atmosphere of your place work. A rushed rollout can confuse customers, overwhelm the kitchen, and leave customers who are not comfortable with phones feeling abandoned." },
-  { type: "p", text: "This article covers how to design a digital menu and QR ordering that genuinely helps: its benefits and limits, which features matter, how to connect it with the point of sale and kitchen systems, how to protect the customer experience, and how to start without disturbing current operations." },
+  { type: "p", text: "This article covers how to design a digital menu and QR ordering that genuinely helps: its benefits and limits, which features matter, how to connect it with the [point of sale](/services/pos) and kitchen systems, how to protect the customer experience, and how to start without disturbing current operations." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ const en: Block[] = [
   { type: "p", text: "The type of business determines the fit. Cafes and fast casual restaurants with a clear menu often suit self ordering. Fine dining restaurants, whose main value lies in personal service and waiter recommendations, may do better using the digital menu only as a reference, not as a replacement for interaction." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
+    src: "/blog/images/photo-1555396273-367ea4eb4db5",
     alt: "A cafe interior with a cashier counter and customer seating area",
     caption: "A digital menu should support the atmosphere of your place, not replace the hospitality of service.",
   },
@@ -167,7 +167,7 @@ const zh: Block[] = [
   { type: "p", text: "业态决定适合程度。菜单清晰的咖啡馆和快休闲餐厅，往往适合自助点单。以个性化服务和服务员推荐为主要价值的高档餐厅，也许更适合仅把电子菜单当作参考，而不是互动的替代品。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
+    src: "/blog/images/photo-1555396273-367ea4eb4db5",
     alt: "咖啡馆内部，设有收银台和顾客座位区",
     caption: "电子菜单应当烘托您场所的氛围，而不是取代服务的待客之道。",
   },
@@ -234,7 +234,7 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "利用数据谨慎地做实验。更改菜单顺序、替换照片或推出套餐，然后观察对订单的影响。经过衡量的小改动，往往比凭猜测的大改版效果更好。" },
   { type: "h2", text: "安全、隐私与可靠性" },
-  { type: "p", text: "由于顾客使用自己的手机，从一开始就要重视安全。贴在桌上的二维码可能被指向诈骗网站的假贴纸覆盖。定期检查二维码，并设计页面使其清楚显示您餐厅的身份，让顾客能识别合法的链接。" },
+  { type: "p", text: "由于顾客使用自己的手机，从一开始就要重视安全。贴在桌上的二维码可能被指向诈骗[网站](/services/website)的假贴纸覆盖。定期检查二维码，并设计页面使其清楚显示您餐厅的身份，让顾客能识别合法的链接。" },
   { type: "p", text: "尽量少收集顾客数据。如果您要求提供手机号码或邮箱，请说明目的，并依照适用的个人数据保护规定安全存放。只想点单的顾客不应被强迫创建账号。" },
   { type: "p", text: "准备好备用方案。如果在繁忙的午餐时段网络中断或系统出了问题怎么办？备用的纸质菜单、手工记录订单的流程以及替代的收款方式，能让糟糕的一天不至于演变成灾难。" },
   { type: "h2", text: "从小步开始" },

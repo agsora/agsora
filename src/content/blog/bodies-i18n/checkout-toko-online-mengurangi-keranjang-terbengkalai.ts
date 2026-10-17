@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    src: "/blog/images/photo-1556742111-a301076d9d18",
     alt: "Two hands making a contactless phone payment on a card reader",
     caption: "A customer ready to pay is closest to buying; don't let the checkout flow make them hesitate.",
   },
@@ -85,7 +85,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    src: "/blog/images/photo-1556740738-b6a63e27c4df",
     alt: "A smiling shop attendant in front of a tablet register in a high ceilinged cafe",
     caption: "A customer ready to buy shouldn't be made to wait or be confused at the final step.",
   },
@@ -149,7 +149,7 @@ const en: Block[] = [
   { type: "h2", text: "The role of systems behind the scenes" },
   {
     type: "p",
-    text: "A smooth checkout experience depends on the systems behind it. Stock must be accurate so customers don't pay for goods that are actually gone. Shipping costs must be calculated automatically and correctly. Payment status must be received and recorded reliably, and orders must enter the operations system without reentry. When an online store is connected to your POS, inventory, and accounting systems, the whole flow from clicking buy to goods arriving becomes tidier.",
+    text: "A smooth checkout experience depends on the systems behind it. Stock must be accurate so customers don't pay for goods that are actually gone. Shipping costs must be calculated automatically and correctly. Payment status must be received and recorded reliably, and orders must enter the operations system without reentry. When an [online store](/services/website) is connected to your POS, inventory, and accounting systems, the whole flow from clicking buy to goods arriving becomes tidier.",
   },
   {
     type: "p",
@@ -225,7 +225,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文讨论人们离开结账页面的常见原因及对应的实用修复,从意外费用、令人疲惫的表单、支付选项不足,到信任与速度。我们不使用杜撰的购物车放弃率数字;我们提供的是检视你自己网店数据并逐步改进的方法。",
+    text: "本文讨论人们离开结账页面的常见原因及对应的实用修复,从意外费用、令人疲惫的表单、支付选项不足,到信任与速度。我们不使用杜撰的购物车放弃率数字;我们提供的是检视你自己[网店](/services/website)数据并逐步改进的方法。",
   },
   { type: "h2", text: "摘要" },
   {
@@ -249,7 +249,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    src: "/blog/images/photo-1556742111-a301076d9d18",
     alt: "两只手用手机在读卡器上进行非接触式支付",
     caption: "已经准备付款的客户离购买最近;不要让结账流程使他们犹豫。",
   },
@@ -299,7 +299,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    src: "/blog/images/photo-1556740738-b6a63e27c4df",
     alt: "在挑高咖啡馆里,微笑的店员站在平板收银机前",
     caption: "准备购买的客户不应在最后一步被迫等待或感到困惑。",
   },

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Kata sandi adalah bagian dari aplikasi yang paling dibenci semua orang. Pelanggan lupa kata sandinya dan meninggalkan keranjang belanja. Karyawan menuliskannya di kertas yang ditempel di monitor. Tim layanan pelanggan menghabiskan waktu mengatur ulang akun. Dan ketika terjadi kebocoran data di tempat lain, kata sandi yang sama yang dipakai di banyak layanan membuka pintu ke aplikasi Anda juga." },
   { type: "p", text: "Selama bertahun-tahun jawaban yang ditawarkan adalah menambah aturan: kata sandi harus lebih panjang, memakai simbol, diganti berkala, lalu ditambah kode lewat SMS. Setiap tambahan membuat masuk ke aplikasi sedikit lebih aman dan jauh lebih merepotkan. Sekarang ada pendekatan yang menjanjikan keduanya sekaligus: lebih aman dan lebih mudah. Namanya passkey." },
-  { type: "p", text: "Artikel ini menjelaskan passkey dan cara masuk tanpa kata sandi dari sudut pandang pemilik bisnis. Kami membahas cara kerjanya secara sederhana, manfaat dan batasannya, pilihan lain seperti tautan ajaib dan kode sekali pakai, pemulihan akun, serta cara menerapkannya bertahap di website dan aplikasi mobile. Dukungan perangkat dan peramban terus berkembang, jadi periksa keadaan terkini bersama pengembang Anda sebelum memutuskan." },
+  { type: "p", text: "Artikel ini menjelaskan passkey dan cara masuk tanpa kata sandi dari sudut pandang pemilik bisnis. Kami membahas cara kerjanya secara sederhana, manfaat dan batasannya, pilihan lain seperti tautan ajaib dan kode sekali pakai, pemulihan akun, serta cara menerapkannya bertahap di website dan [aplikasi mobile](/services/mobile). Dukungan perangkat dan peramban terus berkembang, jadi periksa keadaan terkini bersama pengembang Anda sebelum memutuskan." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Ancaman yang paling sulit dilawan dengan kata sandi adalah penipuan lewat situs tiruan. Pengguna menerima pesan yang tampak resmi, mengeklik tautan, lalu memasukkan kata sandinya di halaman yang meniru aplikasi Anda. Kata sandi yang paling panjang sekalipun tidak menolong, karena pengguna sendiri yang menyerahkannya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+    src: "/blog/images/photo-1614064641938-3bbee52942c7",
     alt: "Gembok merah di atas keyboard komputer hitam",
     caption: "Selama pintu masuk bergantung pada rahasia yang harus diingat manusia, pintu itu akan tetap menjadi titik lemah.",
   },
@@ -40,7 +40,7 @@ export const body: Block[] = [
   { type: "p", text: "Pengguna juga bisa masuk di perangkat lain dengan memindai kode dari ponselnya, tanpa passkey ikut berpindah. Alur ini berguna untuk komputer bersama. Sebagai pemilik aplikasi, Anda tidak mengatur tempat penyimpanan passkey pelanggan, tetapi Anda dapat menetapkan kebijakan yang lebih ketat untuk akun karyawan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    src: "/blog/images/photo-1563986768609-322da13575f3",
     alt: "Seseorang memegang ponsel di depan laptop yang membuka aplikasi serupa",
     caption: "Ponsel pengguna dapat menjadi kunci untuk masuk di perangkat lain tanpa mengetik rahasia apa pun.",
   },
@@ -73,12 +73,12 @@ export const body: Block[] = [
   ] },
   { type: "p", text: "Perhatikan kata-kata di layar. Istilah passkey belum akrab bagi banyak orang. Kalimat seperti masuk dengan sidik jari atau wajah, tanpa kata sandi lebih mudah dipahami daripada istilah teknis. Jelaskan dalam satu atau dua kalimat bahwa data biometrik tetap berada di perangkat." },
   { type: "h2", text: "Menerapkan pada karyawan dan sistem internal" },
-  { type: "p", text: "Sistem internal seperti ERP, panel admin toko, dan dasbor keuangan menyimpan data yang jauh lebih peka daripada akun pelanggan. Di sinilah cara masuk yang kuat paling layak diwajibkan. Mulailah dari peran berisiko tertinggi: administrator, keuangan, dan siapa pun yang dapat mengubah harga, mengembalikan dana, atau mengekspor data pelanggan." },
+  { type: "p", text: "Sistem internal seperti [ERP](/services/erp), panel admin toko, dan dasbor keuangan menyimpan data yang jauh lebih peka daripada akun pelanggan. Di sinilah cara masuk yang kuat paling layak diwajibkan. Mulailah dari peran berisiko tertinggi: administrator, keuangan, dan siapa pun yang dapat mengubah harga, mengembalikan dana, atau mengekspor data pelanggan." },
   { type: "p", text: "Jika perusahaan memakai banyak aplikasi, pertimbangkan masuk tunggal lewat satu penyedia identitas. Karyawan masuk sekali dengan cara yang kuat, lalu mendapat akses ke aplikasi sesuai perannya. Ketika karyawan keluar, akses ke semua aplikasi dicabut dari satu tempat. Pendekatan ini mengurangi akun yatim yang terlupa dan masih aktif." },
   { type: "p", text: "Siapkan pula proses untuk karyawan baru, karyawan yang berganti perangkat, dan perangkat yang hilang. Prosedur yang jelas mencegah jalan pintas berbahaya, seperti berbagi akun antarkaryawan ketika seseorang tidak bisa masuk." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1592744254966-58c65cfd2e69",
+    src: "/blog/images/photo-1592744254966-58c65cfd2e69",
     alt: "Kunci kombinasi berwarna perak dan hitam",
     caption: "Cara masuk yang kuat paling layak diwajibkan pada akun yang memegang data dan uang perusahaan.",
   },

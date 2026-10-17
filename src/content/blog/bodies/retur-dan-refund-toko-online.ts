@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Retur adalah bagian tak terhindarkan dari berjualan online. Barang bisa rusak dalam perjalanan, ukurannya tidak pas, warnanya tampak berbeda dari foto, atau salah kirim. Pelanggan yang berbelanja tanpa menyentuh barang secara wajar ingin tahu bahwa mereka bisa mengembalikannya bila ada masalah. Karena itu, cara toko menangani retur sering menjadi penentu apakah pelanggan akan membeli lagi atau tidak." },
   { type: "p", text: "Banyak toko menganggap retur sebagai gangguan yang harus ditekan sekecil mungkin. Pandangan yang lebih berguna adalah menganggapnya sebagai bagian dari proses penjualan yang perlu dirancang. Retur yang ditangani rapi menjaga kepercayaan, memberi data tentang kualitas produk dan deskripsi, serta tidak menimbulkan selisih stok maupun selisih uang. Retur yang ditangani seadanya menimbulkan sengketa, ulasan buruk, dan pembukuan yang berantakan." },
-  { type: "p", text: "Artikel ini membahas cara merancang proses retur dan pengembalian dana untuk toko online dan aplikasi belanja. Kami membahas kebijakan, alur permintaan, pemeriksaan barang, pengembalian dana, pengaruhnya pada stok dan pembukuan, serta cara mengurangi retur dari sumbernya. Kami tidak memakai angka rekaan tentang tingkat retur; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada toko berbagai skala." },
+  { type: "p", text: "Artikel ini membahas cara merancang proses retur dan pengembalian dana untuk [toko online](/services/website) dan aplikasi belanja. Kami membahas kebijakan, alur permintaan, pemeriksaan barang, pengembalian dana, pengaruhnya pada stok dan pembukuan, serta cara mengurangi retur dari sumbernya. Kami tidak memakai angka rekaan tentang tingkat retur; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada toko berbagai skala." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Dari sudut pandang bisnis, retur membawa informasi berharga. Barang yang sering dikembalikan karena ukuran tidak pas menunjukkan panduan ukuran yang kurang baik. Barang yang sering rusak menunjukkan masalah kemasan atau pemasok. Toko yang membaca pola ini bisa memperbaiki sumber masalahnya, bukan hanya menanggung akibatnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+    src: "/blog/images/photo-1586528116311-ad8dd3c8310d",
     alt: "Gudang distribusi besar dengan rak dan tumpukan kontainer kuning",
     caption: "Barang yang kembali harus melewati pemeriksaan yang sama rapinya dengan barang yang keluar dari gudang.",
   },
@@ -56,14 +56,14 @@ export const body: Block[] = [
   { type: "p", text: "Putuskan apakah ongkos kirim awal dikembalikan, dan perlakukan promo dengan hati-hati. Jika pesanan memakai voucher atau diskon, tentukan bagaimana nilainya dihitung ketika sebagian barang saja yang dikembalikan. Aturan ini sebaiknya ditulis dalam kebijakan dan diterapkan otomatis di sistem, agar tidak ditentukan ulang setiap kasus oleh orang berbeda." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "Seseorang memegang kartu pembayaran sambil berbelanja di laptop",
     caption: "Pelanggan yang meminta pengembalian dana ingin kepastian jalur dan waktu, bukan sekadar janji.",
   },
   { type: "h2", text: "Dampak retur pada stok dan pembukuan" },
   { type: "p", text: "Retur menyentuh dua buku sekaligus: stok dan keuangan. Di sisi stok, barang yang kembali dan lolos pemeriksaan menambah jumlah yang bisa dijual, sedangkan barang rusak tidak. Jika petugas hanya menambahkan stok begitu paket tiba tanpa pemeriksaan, toko bisa menjual barang yang sebenarnya cacat. Jika sebaliknya stok tidak pernah ditambahkan, barang baik hilang dari catatan dan muncul sebagai selisih saat penghitungan." },
   { type: "p", text: "Di sisi keuangan, pengembalian dana mengurangi pendapatan dan harus tercatat pada periode yang benar dengan rujukan ke penjualan asalnya. Bila toko berjualan di beberapa kanal, pastikan retur dari tiap kanal masuk ke laporan yang sama. Retur yang dicatat sebagai pengeluaran biasa, bukan sebagai pengurang penjualan, membuat laporan laba tampak lebih baik atau lebih buruk dari kenyataan." },
-  { type: "p", text: "Sistem ERP atau kasir yang baik mencatat retur sebagai transaksi yang terhubung dengan penjualan asli, sehingga stok, penjualan bersih, dan pengembalian dana bergerak bersamaan. Jika Anda masih memakai catatan terpisah, setidaknya samakan nomor rujukan di semua catatan agar pencocokan bisa dilakukan saat tutup buku." },
+  { type: "p", text: "Sistem [ERP](/services/erp) atau kasir yang baik mencatat retur sebagai transaksi yang terhubung dengan penjualan asli, sehingga stok, penjualan bersih, dan pengembalian dana bergerak bersamaan. Jika Anda masih memakai catatan terpisah, setidaknya samakan nomor rujukan di semua catatan agar pencocokan bisa dilakukan saat tutup buku." },
   { type: "h2", text: "Penyalahgunaan dan cara menanganinya dengan adil" },
   { type: "p", text: "Sebagian kecil permintaan retur memang tidak jujur: barang yang sudah dipakai lalu dikembalikan, klaim tidak diterima padahal paket sampai, atau pengembalian barang yang berbeda dari yang dibeli. Menghadapinya dengan kecurigaan terhadap semua pelanggan akan merusak pengalaman mayoritas yang jujur. Yang lebih efektif adalah mengandalkan proses yang menghasilkan bukti." },
   { type: "ul", items: [

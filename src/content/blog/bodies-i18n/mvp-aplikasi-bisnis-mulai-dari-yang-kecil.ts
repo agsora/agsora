@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e",
+    src: "/blog/images/photo-1581291518633-83b4ebd1d83e",
     alt: "A hand holding a pencil, sketching an app interface layout on paper",
     caption: "An MVP's scope should fit into one simple flow you can sketch before development begins.",
   },
@@ -66,7 +66,7 @@ const en: Block[] = [
   { type: "h3", text: "Which problem is the most expensive right now?" },
   {
     type: "p",
-    text: "Start with the problem that eats the most time, money, or opportunity. If manually recorded orders are often wrong and cause redeliveries, the ordering workflow is very likely your MVP candidate. If the biggest problem is late reporting, perhaps the MVP is a simple dashboard that pulls data from sources you already have.",
+    text: "Start with the problem that eats the most time, money, or opportunity. If manually recorded orders are often wrong and cause redeliveries, the ordering workflow is very likely your MVP candidate. If the biggest problem is late reporting, perhaps the MVP is a simple [dashboard](/services/dashboard) that pulls data from sources you already have.",
   },
   { type: "h3", text: "Who is the primary user?" },
   {
@@ -118,7 +118,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    src: "/blog/images/photo-1531482615713-2afd69097998",
     alt: "Several team members discussing while looking at a computer screen in a workspace",
     caption: "Feedback from everyday users is the main input for deciding the next stage of development.",
   },
@@ -199,7 +199,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e",
+    src: "/blog/images/photo-1581291518633-83b4ebd1d83e",
     alt: "一只手握着铅笔,在纸上绘制应用界面的草图",
     caption: "在开发开始之前,MVP 的范围最好能用一条简单的流程画出来。",
   },
@@ -230,7 +230,7 @@ const zh: Block[] = [
   { type: "h3", text: "当前哪个问题代价最高?" },
   {
     type: "p",
-    text: "从消耗时间、金钱或机会最多的问题入手。如果手工记录的订单经常出错并导致重新发货,那么下单流程很可能就是 MVP 的候选。如果最大的问题是报表延迟,那么 MVP 也许是一个从现有数据源提取数据的简单仪表盘。",
+    text: "从消耗时间、金钱或机会最多的问题入手。如果手工记录的订单经常出错并导致重新发货,那么下单流程很可能就是 MVP 的候选。如果最大的问题是报表延迟,那么 MVP 也许是一个从现有数据源提取数据的简单[仪表盘](/services/dashboard)。",
   },
   { type: "h3", text: "主要用户是谁?" },
   {
@@ -282,7 +282,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    src: "/blog/images/photo-1531482615713-2afd69097998",
     alt: "几位团队成员在办公区一边看着电脑屏幕一边讨论",
     caption: "日常用户的反馈,是决定下一阶段开发内容的主要依据。",
   },

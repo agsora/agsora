@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Chatbot semakin mudah dibuat, terutama dengan kemajuan AI generatif yang bisa memahami bahasa alami jauh lebih baik dari sebelumnya. Bagi bisnis yang menerima banyak pertanyaan serupa setiap hari, chatbot tampak seperti solusi yang jelas: hemat biaya, tersedia 24 jam, dan tidak pernah lelah. Tetapi chatbot yang dirancang tanpa batas yang jelas justru bisa merusak pengalaman pelanggan lebih parah daripada tidak punya chatbot sama sekali.",
+    text: "Chatbot semakin mudah dibuat, terutama dengan kemajuan AI generatif yang bisa memahami bahasa alami jauh lebih baik dari sebelumnya. Bagi bisnis yang menerima banyak pertanyaan serupa setiap hari, [chatbot](/services/ai-automation) tampak seperti solusi yang jelas: hemat biaya, tersedia 24 jam, dan tidak pernah lelah. Tetapi chatbot yang dirancang tanpa batas yang jelas justru bisa merusak pengalaman pelanggan lebih parah daripada tidak punya chatbot sama sekali.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -113,7 +113,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: chatbot yang membantu vs yang merepotkan" },
   {
     type: "p",
-    text: "Bayangkan toko online yang memasang chatbot untuk menjawab status pengiriman. Chatbot terhubung langsung ke sistem pelacakan, sehingga jawabannya selalu akurat dan real time. Untuk pertanyaan di luar itu, chatbot langsung menawarkan opsi menghubungi tim customer service lewat WhatsApp. Pelanggan senang karena pertanyaan sederhana terjawab instan, dan pertanyaan rumit tidak terjebak di alur chatbot yang membingungkan.",
+    text: "Bayangkan [toko online](/services/website) yang memasang chatbot untuk menjawab status pengiriman. Chatbot terhubung langsung ke sistem pelacakan, sehingga jawabannya selalu akurat dan real time. Untuk pertanyaan di luar itu, chatbot langsung menawarkan opsi menghubungi tim customer service lewat WhatsApp. Pelanggan senang karena pertanyaan sederhana terjawab instan, dan pertanyaan rumit tidak terjebak di alur chatbot yang membingungkan.",
   },
   {
     type: "p",

@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "Many businesses prepare a budget once a year, usually at year end, with spreadsheets and a lot of guesswork. Once approved, the document is filed away and opened only when someone asks why costs exceeded the plan. By midyear, reality has drifted far from the assumptions, and the budget loses its function as a guide." },
-  { type: "p", text: "A good budget and forecast is not an attempt to predict the future exactly. Its function is to give direction, make choices explicit, and let the owner see early when things deviate from the plan. The data stored in the ERP is the best raw material for that purpose, because it records what actually happened." },
+  { type: "p", text: "A good budget and forecast is not an attempt to predict the future exactly. Its function is to give direction, make choices explicit, and let the owner see early when things deviate from the plan. The data stored in the [ERP](/services/erp) is the best raw material for that purpose, because it records what actually happened." },
   { type: "p", text: "This article covers how to prepare a practical budget and forecast for small and medium businesses using operational data: the difference between a budget and a forecast, how to start from historical data, set assumptions, monitor variances, and update the plan regularly. We use no invented figures; the focus is a way of thinking you can apply." },
   { type: "h2", text: "Summary" },
   {
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Distinguishing the two matters. A budget that is constantly changed to follow reality loses its function as a yardstick, while a forecast frozen at the original figures does not help decisions. Using both side by side lets you see the variance against the plan and what is likely to happen." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
+    src: "/blog/images/photo-1543286386-713bdd548da4",
     alt: "A sheet with a rising line chart next to a ruler and a pen on a wooden desk",
     caption: "A budget gives direction; an updated forecast tells how far the business has drifted from it.",
   },
@@ -52,7 +52,7 @@ const en: Block[] = [
   { type: "p", text: "Create a concise one page report that highlights what matters: the lines with the largest variances, the trend over recent months, and the latest year end estimate. A report that is too long is not read, and decisions are still made by feeling." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "A laptop showing a dashboard with charts and report tables",
     caption: "A one page report highlighting the most important variances is more useful than a long unread table.",
   },
@@ -114,7 +114,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "许多企业每年只编制一次预算，通常在年底，用电子表格和大量猜测完成。一旦获批，这份文件就被归档，只有在有人问为什么成本超出计划时才被打开。到了年中，现实已经与假设相去甚远，预算也就失去了作为指引的作用。" },
-  { type: "p", text: "好的预算和预测并不是要精确预言未来。它的作用是提供方向、让选择变得明确，并让老板在情况偏离计划时尽早发现。ERP 中保存的数据是实现这一目的的最佳原材料，因为它记录了实际发生的事情。" },
+  { type: "p", text: "好的预算和预测并不是要精确预言未来。它的作用是提供方向、让选择变得明确，并让老板在情况偏离计划时尽早发现。[ERP](/services/erp) 中保存的数据是实现这一目的的最佳原材料，因为它记录了实际发生的事情。" },
   { type: "p", text: "本文介绍如何利用运营数据，为中小企业编制实用的预算和预测：预算与预测的区别、如何从历史数据出发、设定假设、监控差异，以及定期更新计划。我们不使用捏造的数字；重点是你可以应用的思维方式。" },
   { type: "h2", text: "摘要" },
   {
@@ -133,7 +133,7 @@ const zh: Block[] = [
   { type: "p", text: "区分两者很重要。不断为了跟随现实而修改的预算，会失去作为尺度的作用，而冻结在初始数字上的预测对决策没有帮助。把两者并列使用，让你既能看到相对于计划的差异，也能看到可能发生的情况。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
+    src: "/blog/images/photo-1543286386-713bdd548da4",
     alt: "木桌上一张带有上升折线图的纸，旁边是尺子和笔",
     caption: "预算提供方向；更新后的预测说明企业偏离这个方向有多远。",
   },
@@ -164,7 +164,7 @@ const zh: Block[] = [
   { type: "p", text: "编制一份简洁的一页报告，突出重要的内容：差异最大的项目、最近几个月的趋势以及最新的年末估计。过长的报告没人读，决策仍然靠感觉。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "笔记本电脑显示带有图表和报告表格的仪表盘",
     caption: "突出最重要差异的一页报告，比无人阅读的长表格更有用。",
   },

@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Both ways have their place. Webhooks suit events that need to be acted on quickly. Polling remains useful as a safety net to make sure no event is missed, and for systems that do not provide webhooks. Many reliable integrations use both." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    src: "/blog/images/photo-1518770660439-4636190af475",
     alt: "A close view of an electronic circuit board with chips and components",
     caption: "Good integration connects systems like circuit paths: simple on the surface, careful within.",
   },
@@ -58,7 +58,7 @@ const en: Block[] = [
   { type: "p", text: "Provide a way to reprocess failed messages once the problem is fixed. Without this ability, repairs must be done manually one by one and it is hard to be sure they are complete." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+    src: "/blog/images/photo-1526628953301-3e589a6a8b74",
     alt: "A screen showing a metrics panel with small line charts and performance figures",
     caption: "A simple monitoring panel helps catch a failing integration before customers feel it.",
   },
@@ -67,7 +67,7 @@ const en: Block[] = [
   { type: "p", text: "Building your own deserves consideration when volume is high, business rules are complex, data is very sensitive, or the integration is a core part of operations that must not depend on a third party. Building your own gives full control, but also the responsibility of maintenance." },
   { type: "p", text: "Often a mixed approach makes the most sense: ready made services for supporting flows, and custom integration for flows that directly touch money, stock, and customer data. Document both so no integration is known to only one person." },
   { type: "h2", text: "A flow from event to action" },
-  { type: "p", text: "As an illustration, imagine a customer pays for an order in the online store. The payment provider sends word that payment succeeded. The store receives it, checks its signature, changes the order status to paid, then tells the warehouse system to prepare the goods. The warehouse reduces reserved stock and tells all channels that stock has changed." },
+  { type: "p", text: "As an illustration, imagine a customer pays for an order in the [online store](/services/website). The payment provider sends word that payment succeeded. The store receives it, checks its signature, changes the order status to paid, then tells the warehouse system to prepare the goods. The warehouse reduces reserved stock and tells all channels that stock has changed." },
   { type: "p", text: "When the parcel is handed to the courier, the warehouse system tells the store, and the store sends the customer a message with the tracking number. Each step is triggered by the previous event, without anyone needing to copy data. Behind that, the finance system receives the same news and records the sale." },
   { type: "p", text: "This flow looks smooth to the customer, but each link must tolerate duplicate messages, delays, and failures. Writing the flow as a simple diagram with events and actions is a good way to find weak points before building." },
   { type: "h2", text: "Testing integrations before and after launch" },
@@ -137,7 +137,7 @@ const zh: Block[] = [
   { type: "p", text: "两种方式各有位置。Webhook 适合需要快速处理的事件。轮询仍然可以作为安全网，确保没有事件被遗漏，也适用于不提供 webhook 的系统。许多可靠的集成同时使用两者。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    src: "/blog/images/photo-1518770660439-4636190af475",
     alt: "带有芯片和元件的电子电路板近景",
     caption: "好的集成像电路走线一样连接系统：表面简单，内里严谨。",
   },
@@ -174,7 +174,7 @@ const zh: Block[] = [
   { type: "p", text: "提供在问题修复后重新处理失败消息的方法。没有这种能力，修复就得一条条手工完成，也很难确定是否完整。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+    src: "/blog/images/photo-1526628953301-3e589a6a8b74",
     alt: "屏幕上显示的指标面板，带有小型折线图和性能数字",
     caption: "简单的监控面板有助于在顾客察觉之前发现失败的集成。",
   },
@@ -183,7 +183,7 @@ const zh: Block[] = [
   { type: "p", text: "当业务量高、业务规则复杂、数据非常敏感，或集成是不能依赖第三方的核心运营部分时，值得考虑自行搭建。自行搭建能获得完全的控制，但同时也要承担维护的责任。" },
   { type: "p", text: "往往混合方式最合理：支持性流程使用现成服务，而直接触及资金、库存和顾客数据的流程使用定制集成。把两者都记录下来，避免任何集成只有一个人知道。" },
   { type: "h2", text: "从事件到行动的流程" },
-  { type: "p", text: "作为说明，设想顾客在网店为订单付款。支付服务商发来消息，说明付款成功。网店收到后，检查其签名，把订单状态改为已支付，然后通知仓库系统准备货物。仓库扣减预留库存，并通知所有渠道库存已变化。" },
+  { type: "p", text: "作为说明，设想顾客在[网店](/services/website)为订单付款。支付服务商发来消息，说明付款成功。网店收到后，检查其签名，把订单状态改为已支付，然后通知仓库系统准备货物。仓库扣减预留库存，并通知所有渠道库存已变化。" },
   { type: "p", text: "当包裹交给快递员时，仓库系统通知网店，网店向顾客发送带有运单号的消息。每一步都由前一个事件触发，无需任何人复制数据。在这背后，财务系统收到同样的消息并记录销售。" },
   { type: "p", text: "这个流程对顾客来说看起来很顺畅，但每个环节都必须容忍重复的消息、延迟和失败。把流程写成带有事件和动作的简单图表，是在搭建之前发现薄弱点的好办法。" },
   { type: "h2", text: "上线前后测试集成" },

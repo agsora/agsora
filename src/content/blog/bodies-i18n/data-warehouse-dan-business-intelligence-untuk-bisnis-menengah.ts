@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "At a certain stage, a growing business starts to face a strange problem: data is everywhere, yet answers to simple questions are hard to get. What was profit per product last month? Which customers are the most profitable? Which branch is growing more slowly? Every question needs several exports, manual merging, and debate about which number is right." },
-  { type: "p", text: "Operational systems such as the cashier, online store, ERP, and CRM are designed to run transactions, not to answer analytical questions across systems. When people force those systems to report everything, the result is slow, conflicting reports that burden systems that should be serving customers." },
+  { type: "p", text: "Operational systems such as the cashier, [online store](/services/website), ERP, and CRM are designed to run transactions, not to answer analytical questions across systems. When people force those systems to report everything, the result is slow, conflicting reports that burden systems that should be serving customers." },
   { type: "p", text: "A data warehouse and business intelligence, often abbreviated BI, is an approach to separating analytical needs from transactional systems. This article explains the concept for business owners and nontechnical managers: what a data warehouse is, when a midsized business needs one, how to start gradually, and what traps to avoid. There are no invented figures; what is given is a framework that can be adapted." },
   { type: "h2", text: "Summary" },
   {
@@ -17,7 +17,7 @@ const en: Block[] = [
   },
   { type: "h2", text: "Why reports from operational systems are not enough" },
   { type: "p", text: "Operational systems manage what happens today: new orders, stock decreasing, payments coming in. They are optimised to record quickly and accurately. Answering a question like what is the sales trend per category over the last two years demands very different work and often slows a system that is serving customers." },
-  { type: "p", text: "Another problem is fragmentation. Sales sit in the cashier and online store systems, costs in the ERP, customer relations in the CRM, and advertising on other platforms. Interesting business questions almost always cross several systems, for example what is net profit per channel after all costs, or which customers from which ads later bought again." },
+  { type: "p", text: "Another problem is fragmentation. Sales sit in the cashier and online store systems, costs in the [ERP](/services/erp), customer relations in the CRM, and advertising on other platforms. Interesting business questions almost always cross several systems, for example what is net profit per channel after all costs, or which customers from which ads later bought again." },
   { type: "p", text: "As a result, people build their own reports in spreadsheets. Each spreadsheet has slightly different definitions and data, so meetings are spent debating numbers, not decisions. The problem is not a lack of data, but a lack of one agreed source of truth." },
   { type: "h2", text: "What a data warehouse and BI are" },
   { type: "p", text: "A data warehouse is a central store that holds data from various source systems, cleaned, aligned, and arranged so it is easy to analyse. It keeps a long history, not just the current state, so you can compare across periods and see trends." },
@@ -31,7 +31,7 @@ const en: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "A laptop showing a dashboard with charts and report tables",
     caption: "A good dashboard answers business questions, not just displays charts.",
   },
@@ -44,7 +44,7 @@ const en: Block[] = [
     "Important decisions are still made on feeling because data is too hard to access",
     "The owner or managers depend on one person who knows how to combine the data",
   ] },
-  { type: "p", text: "If two or three of these signs feel familiar, you may have passed the point where the spreadsheet approach is still efficient. But not every business needs a full data warehouse; sometimes a dashboard directly on one system is sufficient, and that is fine." },
+  { type: "p", text: "If two or three of these signs feel familiar, you may have passed the point where the spreadsheet approach is still efficient. But not every business needs a full data warehouse; sometimes a [dashboard](/services/dashboard) directly on one system is sufficient, and that is fine." },
   { type: "h2", text: "Start from questions, not tools" },
   { type: "p", text: "The most common mistake is to begin by choosing an attractive visualisation tool, then looking for what can be shown. A healthier approach is to start with a list of business questions that really affect decisions, then trace what data is needed to answer them." },
   { type: "ol", items: [
@@ -79,7 +79,7 @@ const en: Block[] = [
   { type: "p", text: "For large volumes, many sources, and complex analysis needs, a data warehouse with scheduled loading pipelines, an alignment layer, and governance makes sense. It requires more investment and expertise, so it should be reached gradually after benefits at the early stage are proven." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    src: "/blog/images/photo-1558494949-ef010cbdcc31",
     alt: "A server rack with neatly arranged network cables",
     caption: "Simple, well maintained data infrastructure is often more valuable than a big architecture that goes unused.",
   },
@@ -146,7 +146,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "在某个阶段，成长中的企业会遇到一个奇怪的问题：到处都是数据，简单问题的答案却很难得到。上个月每个产品的利润是多少？哪些顾客最赚钱？哪个分店的增长放缓了？每个问题都需要几次导出、手工合并，以及关于哪个数字才对的争论。" },
-  { type: "p", text: "收银台、网店、ERP 和 CRM 等运营系统，是为运行交易而设计的，而不是为跨系统回答分析性问题。当人们强迫这些系统报告一切时，结果就是缓慢、相互矛盾的报表，并且拖累本该服务顾客的系统。" },
+  { type: "p", text: "收银台、[网店](/services/website)、ERP 和 CRM 等运营系统，是为运行交易而设计的，而不是为跨系统回答分析性问题。当人们强迫这些系统报告一切时，结果就是缓慢、相互矛盾的报表，并且拖累本该服务顾客的系统。" },
   { type: "p", text: "数据仓库与商业智能（常缩写为 BI）是把分析需求与交易系统分离的一种方法。本文为企业主和非技术经理解释这个概念：什么是数据仓库，中型企业何时需要它，如何逐步起步，以及要避开哪些陷阱。没有编造的数字，提供的是可以调整的框架。" },
   { type: "h2", text: "摘要" },
   {
@@ -161,7 +161,7 @@ const zh: Block[] = [
   },
   { type: "h2", text: "为什么运营系统的报表不够用" },
   { type: "p", text: "运营系统管理今天发生的事：新订单、库存减少、付款进来。它们被优化为快速而准确地记录。要回答诸如过去两年各类别的销售趋势如何这样的问题，需要截然不同的工作，而且常常会拖慢正在服务顾客的系统。" },
-  { type: "p", text: "另一个问题是碎片化。销售在收银和网店系统里，成本在 ERP 里，客户关系在 CRM 里，广告在别的平台上。有意义的业务问题几乎总是跨越多个系统，例如扣除所有成本后每个渠道的净利润是多少，或者哪些广告带来的顾客后来再次购买。" },
+  { type: "p", text: "另一个问题是碎片化。销售在收银和网店系统里，成本在 [ERP](/services/erp) 里，客户关系在 CRM 里，广告在别的平台上。有意义的业务问题几乎总是跨越多个系统，例如扣除所有成本后每个渠道的净利润是多少，或者哪些广告带来的顾客后来再次购买。" },
   { type: "p", text: "结果，人们在电子表格里自己制作报表。每张表格的定义和数据都略有不同，于是会议时间都花在争论数字上，而不是决策。问题不是缺少数据，而是缺少一个共同认可的单一事实来源。" },
   { type: "h2", text: "什么是数据仓库和 BI" },
   { type: "p", text: "数据仓库是一个集中的存储，容纳来自各个源系统的数据，经过清洗、对齐和整理，便于分析。它保存长期历史，而不只是当前状态，因此你可以跨时期比较并看到趋势。" },
@@ -175,7 +175,7 @@ const zh: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "笔记本电脑显示着带有图表和报表的仪表板",
     caption: "好的仪表板回答业务问题，而不只是展示图表。",
   },
@@ -223,7 +223,7 @@ const zh: Block[] = [
   { type: "p", text: "对于数据量大、来源多、分析需求复杂的情形，带有定时加载流水线、对齐层和治理机制的数据仓库就变得合理。它需要更多的投资和专业能力，因此应在早期阶段的益处得到证明之后，逐步达到。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    src: "/blog/images/photo-1558494949-ef010cbdcc31",
     alt: "网线排列整齐的服务器机架",
     caption: "简单且维护良好的数据基础设施，往往比无人使用的大型架构更有价值。",
   },

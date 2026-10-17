@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Sebagian besar toko online mengeluarkan banyak tenaga dan biaya untuk mendatangkan pembeli baru, lalu hampir tidak melakukan apa-apa setelah pesanan pertama selesai. Pelanggan menerima barang, toko menerima uang, dan hubungan berhenti di situ. Bulan berikutnya toko kembali membayar iklan untuk mencari orang baru, padahal ratusan orang yang sudah pernah membeli dan puas tidak pernah disapa lagi." },
   { type: "p", text: "Email dan pesan otomatis adalah cara paling murah untuk memperbaiki keadaan itu. Berbeda dengan pengikut di media sosial, daftar kontak pelanggan adalah aset yang Anda miliki sendiri. Jangkauannya tidak bergantung pada perubahan algoritma, dan biayanya tidak naik setiap kali pesaing menaikkan tawaran iklan." },
-  { type: "p", text: "Artikel ini membahas cara membangun email marketing dan otomasi untuk toko online secara bertanggung jawab. Kami membahas cara mengumpulkan kontak dengan izin, alur otomatis yang layak didahulukan, segmentasi, isi pesan, keterkiriman, hubungan dengan WhatsApp dan pemberitahuan aplikasi, serta cara mengukur hasilnya. Tidak ada angka rekaan tentang tingkat buka atau penjualan; hasil tiap toko berbeda dan hanya bisa diketahui dengan mengukur sendiri." },
+  { type: "p", text: "Artikel ini membahas cara membangun email marketing dan otomasi untuk [toko online](/services/website) secara bertanggung jawab. Kami membahas cara mengumpulkan kontak dengan izin, alur otomatis yang layak didahulukan, segmentasi, isi pesan, keterkiriman, hubungan dengan WhatsApp dan pemberitahuan aplikasi, serta cara mengukur hasilnya. Tidak ada angka rekaan tentang tingkat buka atau penjualan; hasil tiap toko berbeda dan hanya bisa diketahui dengan mengukur sendiri." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Email memiliki sifat yang cocok untuk tugas ini. Ia bisa memuat penjelasan panjang, gambar produk, dan tautan langsung ke keranjang. Ia tidak mengganggu seperti panggilan telepon. Dan hampir setiap pembeli online memilikinya, karena alamat email diperlukan untuk menerima konfirmasi pesanan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "Layar laptop menampilkan grafik dan laporan analitik bisnis",
     caption: "Kanal milik sendiri memungkinkan Anda mengukur hubungan dengan pelanggan dari pesan sampai pembelian.",
   },
@@ -51,7 +51,7 @@ export const body: Block[] = [
   { type: "p", text: "Batasi jumlah pengingat dan hentikan segera setelah pelanggan membeli. Pengingat yang masih datang setelah pesanan selesai menunjukkan sistem yang tidak terhubung dan membuat toko tampak ceroboh. Pastikan alur ini membaca status pesanan terbaru sebelum mengirim." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1",
+    src: "/blog/images/photo-1512758017271-d7b84c2113f1",
     alt: "Papan tulis penuh catatan tempel kuning hasil sesi perencanaan",
     caption: "Alur otomatis sebaiknya digambar dulu sebagai perjalanan pelanggan sebelum dibangun di sistem.",
   },
@@ -90,7 +90,7 @@ export const body: Block[] = [
   { type: "p", text: "Setiap kanal memerlukan izin sendiri dan memiliki ketentuan penyedia layanannya sendiri. Persetujuan menerima email tidak otomatis berarti persetujuan menerima pesan promosi di WhatsApp. Catat izin per kanal di data pelanggan dan hormati pilihannya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    src: "/blog/images/photo-1686061592689-312bbfb5c055",
     alt: "Layar komputer menampilkan dasbor analitik dengan tabel retensi pengguna",
     caption: "Ukuran yang paling bermakna adalah apakah pelanggan kembali membeli, bukan sekadar membuka pesan.",
   },

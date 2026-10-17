@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "When a business is small, managing suppliers feels simple: the owner knows every supplier, remembers the last price, and knows who is often late. As the business grows, memory is no longer enough. Suppliers multiply, the goods bought vary, and several people in different departments order from the same supplier without knowing about each other." },
   { type: "p", text: "The result is a set of recurring problems: inconsistent purchase prices, late orders that nobody records, duplicate invoices, and supplier choices based on closeness rather than data. Purchasing usually absorbs the largest part of the money leaving the business, so small improvements here have a large effect on profit." },
-  { type: "p", text: "This article covers how to manage suppliers in a structured way with the help of ERP: supplier master data, the procurement process, performance evaluation, contract and price management, and dependency risk. We use no invented figures; what we provide is a framework you can apply to fit the scale of your business." },
+  { type: "p", text: "This article covers how to manage suppliers in a structured way with the help of [ERP](/services/erp): supplier master data, the procurement process, performance evaluation, contract and price management, and dependency risk. We use no invented figures; what we provide is a framework you can apply to fit the scale of your business." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Good supplier management does not mean extra bureaucracy. The essence is to make sure the important information is in one place, decisions are made with data, and relationships with suppliers stay healthy. Suppliers who are treated clearly and paid on time are usually also more willing to help when you need it." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    src: "/blog/images/photo-1521791136064-7986c2920216",
     alt: "Two people shaking hands in an office",
     caption: "A healthy supplier relationship depends on clear rules and punctual payment.",
   },
@@ -50,7 +50,7 @@ const en: Block[] = [
   { type: "p", text: "Share the evaluation results with suppliers periodically. Good suppliers will appreciate clear, data based feedback and often improve on their own. Suppliers who do not improve despite being told give you an objective reason to look for alternatives." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
+    src: "/blog/images/photo-1553413077-190dd305871c",
     alt: "A warehouse aisle with tall shelves holding stacks of boxes",
     caption: "Goods receipt data in the warehouse is the main material for judging supplier punctuality and accuracy.",
   },
@@ -113,7 +113,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "企业规模小的时候，管理供应商似乎很简单：老板认识每一家供应商，记得上次的价格，也知道谁经常迟到。随着业务增长，记忆就不够用了。供应商越来越多，采购的货品五花八门，不同部门的几个人向同一家供应商下单却互不知情。" },
   { type: "p", text: "结果是反复出现的问题：采购价格不统一、无人记录的延迟订单、重复发票，以及基于关系亲疏而不是数据的供应商选择。采购通常占企业支出的最大部分，因此这里的小改进会对利润产生很大影响。" },
-  { type: "p", text: "本文介绍如何借助 ERP 以结构化的方式管理供应商：供应商主数据、采购流程、绩效评估、合同与价格管理，以及依赖风险。我们不使用捏造的数字，提供的是可以按你的业务规模应用的框架。" },
+  { type: "p", text: "本文介绍如何借助 [ERP](/services/erp) 以结构化的方式管理供应商：供应商主数据、采购流程、绩效评估、合同与价格管理，以及依赖风险。我们不使用捏造的数字，提供的是可以按你的业务规模应用的框架。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -131,7 +131,7 @@ const zh: Block[] = [
   { type: "p", text: "好的供应商管理并不意味着额外的官僚程序。核心是确保重要信息集中在一个地方，用数据做决定，并保持与供应商的良好关系。被清楚对待、按时付款的供应商，通常在你需要时也更愿意帮忙。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    src: "/blog/images/photo-1521791136064-7986c2920216",
     alt: "两个人在办公室里握手",
     caption: "良好的供应商关系取决于规则清晰和付款准时。",
   },
@@ -160,7 +160,7 @@ const zh: Block[] = [
   { type: "p", text: "定期把评估结果分享给供应商。好的供应商会重视清晰、基于数据的反馈，并常常自行改进。被告知后仍不改进的供应商，则为你寻找替代者提供了客观的理由。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
+    src: "/blog/images/photo-1553413077-190dd305871c",
     alt: "仓库过道，高大的货架上堆放着纸箱",
     caption: "仓库的收货数据是判断供应商准时性和准确性的主要依据。",
   },

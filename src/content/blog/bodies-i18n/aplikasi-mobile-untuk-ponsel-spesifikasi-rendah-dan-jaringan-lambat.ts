@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Mobile apps are often designed and tested on the latest phones with a fast network in the office. Your customers may use a phone several years old with limited memory, nearly full storage, and a signal that rises and falls on the road, in the market, or in areas far from a cell tower. An experience that is smooth for the development team can be frustrating for real users." },
   { type: "p", text: "In markets like Indonesia, the diversity of devices and network quality is very wide. An app that is slow to open, wastes data, or drains the battery is quickly deleted. Many users delete apps not because they do not need them but because their storage only fits a few of the most useful ones." },
-  { type: "p", text: "This article covers how to design and maintain a mobile app that stays comfortable on modest devices and slow networks: app size, launch speed, data use, battery, working without a network, and how to test it. There are no invented figures; the focus is on principles and working habits that can be applied from the start." },
+  { type: "p", text: "This article covers how to design and maintain a [mobile app](/services/mobile) that stays comfortable on modest devices and slow networks: app size, launch speed, data use, battery, working without a network, and how to test it. There are no invented figures; the focus is on principles and working habits that can be applied from the start." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Consider the context of use as well. Users in the field, in vehicles, or in areas with weak signal have different needs from users at home on a fixed connection. Understand where and when your app is actually used." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
+    src: "/blog/images/photo-1512428559087-560fa5ceab42",
     alt: "A person holding a white Android phone",
     caption: "Test the app on devices your customers actually use, not only on the development team's latest phones.",
   },
@@ -48,7 +48,7 @@ const en: Block[] = [
   { type: "p", text: "Schedule heavy work, such as large syncs or file uploads, for when the device is charging and connected to Wi-Fi where possible. Users will not notice, but their battery and data are saved." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "A hand holding a phone showing a home screen full of app icons",
     caption: "Every app competes for the limited space, memory, and battery on the user's phone.",
   },
@@ -113,7 +113,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "手机应用往往是在最新的手机和办公室的高速网络上设计与测试的。而你的顾客可能使用已有几年历史的手机，内存有限、存储空间几乎已满，信号在路上、市场里或远离基站的地区时强时弱。对开发团队来说很顺畅的体验，对真实用户来说可能令人沮丧。" },
   { type: "p", text: "在印度尼西亚这样的市场，设备的多样性和网络质量的差异非常大。打开缓慢、耗费流量或耗尽电量的应用很快就会被删除。许多用户删除应用并不是因为不需要，而是因为他们的存储空间只够放几个最有用的应用。" },
-  { type: "p", text: "本文介绍如何设计和维护在普通设备与慢速网络上仍然舒适的手机应用：应用体积、启动速度、流量使用、电量、无网络工作以及如何测试。没有捏造的数字；重点是可以从一开始就应用的原则和工作习惯。" },
+  { type: "p", text: "本文介绍如何设计和维护在普通设备与慢速网络上仍然舒适的[手机应用](/services/mobile)：应用体积、启动速度、流量使用、电量、无网络工作以及如何测试。没有捏造的数字；重点是可以从一开始就应用的原则和工作习惯。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -126,12 +126,12 @@ const zh: Block[] = [
     ],
   },
   { type: "h2", text: "了解顾客的设备和网络" },
-  { type: "p", text: "从数据而不是假设开始。查看你的应用或网站用户统计，了解最常用的品牌、操作系统版本、屏幕尺寸和网络类型。这些数据常常令人惊讶：被认为陈旧的设备，原来被大多数顾客使用。" },
+  { type: "p", text: "从数据而不是假设开始。查看你的应用或[网站](/services/website)用户统计，了解最常用的品牌、操作系统版本、屏幕尺寸和网络类型。这些数据常常令人惊讶：被认为陈旧的设备，原来被大多数顾客使用。" },
   { type: "p", text: "根据这些数据设定一台参考设备：一部配置普通、代表典型用户的手机。这台设备成为基准。如果应用在参考设备上很舒适，在更好的设备上几乎肯定也舒适。反过来则不然。" },
   { type: "p", text: "也要考虑使用场景。在外勤、车辆上或信号弱的地区的用户，与在家使用固定网络的用户有不同的需求。了解你的应用实际是在何时何地被使用的。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
+    src: "/blog/images/photo-1512428559087-560fa5ceab42",
     alt: "一个人拿着一部白色的安卓手机",
     caption: "在顾客实际使用的设备上测试应用，而不只是在开发团队最新的手机上。",
   },
@@ -158,7 +158,7 @@ const zh: Block[] = [
   { type: "p", text: "如有可能，把繁重的工作，例如大规模同步或文件上传，安排在设备正在充电并连接 Wi-Fi 时进行。用户不会察觉，但他们的电量和流量得到了节省。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "一只手拿着手机，主屏幕上布满了应用图标",
     caption: "每个应用都在争夺用户手机上有限的空间、内存和电量。",
   },

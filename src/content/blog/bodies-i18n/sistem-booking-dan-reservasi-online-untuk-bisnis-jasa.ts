@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "A service business sells something that cannot be kept in a warehouse: time. An empty salon chair at two in the afternoon, an idle consulting room, an unused court, or a technician waiting with no job is lost income that cannot be sold again tomorrow. That is why the way a service business manages its schedule largely decides what it earns." },
   { type: "p", text: "In many places the schedule is still managed with a notebook, the phone, and chat. A customer sends a message at night, gets a reply the next morning, and then several messages go back and forth to find a time. Some customers have already booked elsewhere before the reply arrives. Others turn up at a time that was already taken because two staff members wrote it down in different places." },
-  { type: "p", text: "This article covers how to design an online booking and reservation system for a service business, through a website or a mobile app. We discuss availability and capacity, the booking flow, deposits, reminders, schedule changes, the link with the till and customer data, and the measures worth watching. There are no invented figures here; what we offer are principles you can adapt to your type of service." },
+  { type: "p", text: "This article covers how to design an online booking and reservation system for a service business, through a website or a [mobile app](/services/mobile). We discuss availability and capacity, the booking flow, deposits, reminders, schedule changes, the link with the till and customer data, and the measures worth watching. There are no invented figures here; what we offer are principles you can adapt to your type of service." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "A manual appointment book also stores no knowledge. It does not know which customers often cancel, which services are most in demand on which days, or which staff member is always fully booked. All that information exists, but it cannot be queried. A system that records bookings in a structured way turns it into material for decisions." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
+    src: "/blog/images/photo-1556745757-8d76bdb6984b",
     alt: "A shop owner handling a transaction on a tablet till at the counter",
     caption: "Staff who are not busy answering scheduling messages have more time for the customer in front of them.",
   },
@@ -58,7 +58,7 @@ const en: Block[] = [
   { type: "p", text: "The second tool is a deposit or guarantee. Customers who have already paid part tend to come. Fit this to your type of service and your customers' habits; a deposit makes sense for long services, peak hours, or new customers, but can feel excessive for a small service to a regular." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    src: "/blog/images/photo-1556742111-a301076d9d18",
     alt: "Two hands making a contactless payment with a phone on a card reader",
     caption: "A deposit paid at the time of booking makes customers more likely to keep their appointment.",
   },
@@ -76,18 +76,18 @@ const en: Block[] = [
   { type: "p", text: "Because this data is personal, and in fields such as health highly sensitive, handle it with care. Collect only what is needed, limit who may see it, and comply with the personal data protection rules that apply to you. For health services, also check the sector specific rules with an adviser who knows that field." },
   { type: "h2", text: "The link with the till, ERP, and calendars" },
   { type: "p", text: "Booking is not an island. When the customer arrives, the appointment turns into a transaction at the till. If the two systems are connected, staff simply open the appointment and complete the payment, with the deposit already accounted for. If they are not, data is typed twice and the sales report per service becomes inaccurate." },
-  { type: "p", text: "The link with employee data is useful too. Work rosters and leave recorded in the HR system can directly affect availability, and the number of services each staff member performs can form the basis for commission. Without that link, commission is calculated by hand from records that are often disputed." },
+  { type: "p", text: "The link with employee data is useful too. Work rosters and leave recorded in the [HR system](/services/hris) can directly affect availability, and the number of services each staff member performs can form the basis for commission. Without that link, commission is calculated by hand from records that are often disputed." },
   { type: "p", text: "Many staff also rely on the personal calendar on their phone. Syncing with that calendar prevents clashes with other commitments, but set it up carefully so that customer details do not spread to places they should not be." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551650975-87deedd944c3",
+    src: "/blog/images/photo-1551650975-87deedd944c3",
     alt: "A hand holding a phone showing a dashboard app with a laptop in the background",
     caption: "A schedule that can be seen on a phone helps owners and staff grasp the state of the day at a glance.",
   },
   { type: "h2", text: "Website, app, or third party" },
   { type: "p", text: "There are several places to put the booking door. A booking page on your own website is the foundation that is almost always needed, because it can be linked from a social media profile, maps, and messages. A mobile app makes sense if your customers book repeatedly and you want to offer a more personal experience with notifications and quick rebooking." },
   { type: "p", text: "Third party booking platforms can bring new customers, but usually take a commission and hold the customer relationship. Many businesses use both: the platform to be found by new people, their own channel for returning customers. If you use several doors, make sure all of them sync to one calendar." },
-  { type: "p", text: "To choose between an off the shelf service and a custom built system, look at how complex your rules are. An off the shelf service is enough for common rules. A custom system becomes worthwhile when your availability rules are unusual, when you need close ties with the till and other systems, or when booking is the core of your brand experience." },
+  { type: "p", text: "To choose between an off the shelf service and a custom built system, look at how complex your rules are. An off the shelf service is enough for common rules. A [custom system](/services/custom-software) becomes worthwhile when your availability rules are unusual, when you need close ties with the till and other systems, or when booking is the core of your brand experience." },
   { type: "h2", text: "Measures worth watching" },
   { type: "ul", items: [
     "Schedule occupancy per day, per hour, and per staff member",
@@ -130,7 +130,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "服务型企业卖的是一种无法存进仓库的东西：时间。下午两点空着的美发椅、闲置的诊室、没人用的球场，或者等不到工作的技师，都是流失的收入，而且明天也无法再卖一次。因此，一家服务型企业如何安排日程，在很大程度上决定了它的收入。" },
   { type: "p", text: "在很多地方，日程仍然靠笔记本、电话和聊天来安排。顾客晚上发来消息，第二天早上才得到回复，接着又来回几条消息协调时间。有些顾客在回复到来之前就已经在别处预约了。还有些人按时到店，却发现那个时段已经被占用，因为两名员工记在了不同的地方。" },
-  { type: "p", text: "本文讨论如何为服务型企业设计在线预约与预订系统，无论是通过网站还是移动应用。我们会谈到可预约时间与容量、预约流程、订金、提醒、改期、与收银和顾客数据的关系，以及值得关注的指标。这里没有编造的数字，我们提供的是可以根据你的服务类型调整的原则。" },
+  { type: "p", text: "本文讨论如何为服务型企业设计在线预约与预订系统，无论是通过[网站](/services/website)还是移动应用。我们会谈到可预约时间与容量、预约流程、订金、提醒、改期、与收银和顾客数据的关系，以及值得关注的指标。这里没有编造的数字，我们提供的是可以根据你的服务类型调整的原则。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -148,7 +148,7 @@ const zh: Block[] = [
   { type: "p", text: "手写的预约本也不会积累知识。它不知道哪位顾客经常取消，哪项服务在哪一天最受欢迎，或者哪位员工的日程总是排满。这些信息都存在，却无法被查询。以结构化方式记录预约的系统，能把它们变成决策的依据。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
+    src: "/blog/images/photo-1556745757-8d76bdb6984b",
     alt: "店主在收银台用平板收银设备办理交易",
     caption: "不必忙着回复排期消息的员工，有更多时间留给眼前的顾客。",
   },
@@ -185,14 +185,14 @@ const zh: Block[] = [
   { type: "p", text: "第二项工具是订金或保证金。已经付了一部分钱的顾客往往会到场。要根据你的服务类型和顾客习惯来调整：对于时间长的服务、繁忙时段或新顾客，收订金是合理的，但对老顾客的小项目来说可能显得过分。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    src: "/blog/images/photo-1556742111-a301076d9d18",
     alt: "两只手正在用手机在刷卡机上进行非接触式支付",
     caption: "预约时支付的订金，让顾客更有可能按时到场。",
   },
   { type: "h2", text: "订金、付款与取消政策" },
   { type: "p", text: "如果你收取订金，就把预约系统与支付服务商对接，让款项一到账预约就自动确认。等待付款的预约应当只在短时间内占用时段，未付款就释放，以免时段被白白占住。" },
   { type: "p", text: "把取消政策写清楚，并在顾客付款之前展示出来：在什么时间之前取消可以全额退款、什么时候订金不退，以及顾客迟到会怎样。从一开始就让人知道的政策很少引起纠纷。政策内容要符合适用于你的消费者保护规定。" },
-  { type: "p", text: "确保订金在账务中被正确记录。在提供服务之前，订金属于代为保管的款项，并且必须在收银时从最终账单中扣除。没有与收银系统连接的预约系统，常常让员工忘记扣除，或者扣了两次。" },
+  { type: "p", text: "确保订金在账务中被正确记录。在提供服务之前，订金属于代为保管的款项，并且必须在收银时从最终账单中扣除。没有与[收银系统](/services/pos)连接的预约系统，常常让员工忘记扣除，或者扣了两次。" },
   { type: "h2", text: "改期与候补名单" },
   { type: "p", text: "日程总是在变。顾客想换时间，员工生病了，或者上一项服务超时了。好的系统让改动变得容易，而不会造成混乱。允许顾客在你设定的范围内自行改期，这样不必每次改动都经过管理员。" },
   { type: "p", text: "当需要改期的是企业一方，例如员工有事无法到岗时，系统需要帮助找出所有受影响的预约，并通知顾客、提供可替换的时间。在繁忙的早晨逐个联系二十位顾客，很容易出错。" },
@@ -207,12 +207,12 @@ const zh: Block[] = [
   { type: "p", text: "许多员工还依赖手机上的个人日历。与这些日历同步可以避免与其他事务冲突，但要谨慎设置，以免顾客的详细信息流到不该出现的地方。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551650975-87deedd944c3",
+    src: "/blog/images/photo-1551650975-87deedd944c3",
     alt: "手里拿着显示仪表盘应用的手机，背景是一台笔记本电脑",
     caption: "能在手机上查看的日程，让店主和员工一眼就了解当天的情况。",
   },
   { type: "h2", text: "网站、应用，还是第三方平台" },
-  { type: "p", text: "预约入口可以放在好几个地方。自己网站上的预约页面是几乎总是需要的基础，因为它可以从社交媒体主页、地图和消息中链接过来。如果你的顾客会反复预约，而你又想通过通知和快速再次预约提供更个性化的体验，移动应用就很有意义。" },
+  { type: "p", text: "预约入口可以放在好几个地方。自己网站上的预约页面是几乎总是需要的基础，因为它可以从社交媒体主页、地图和消息中链接过来。如果你的顾客会反复预约，而你又想通过通知和快速再次预约提供更个性化的体验，[移动应用](/services/mobile)就很有意义。" },
   { type: "p", text: "第三方预约平台可以带来新顾客，但通常会抽取佣金，并掌握与顾客的关系。许多企业两者并用：用平台让新顾客找到自己，用自有渠道服务回头客。如果使用多个入口，要确保它们都同步到同一份日历。" },
   { type: "p", text: "在现成服务和定制开发的系统之间做选择时，要看你的规则有多复杂。现成服务足以应付常见的规则。当你的可预约规则比较特殊、需要与收银和其他系统紧密相连，或者预约是你品牌体验的核心时，定制系统才变得值得。" },
   { type: "h2", text: "值得关注的指标" },

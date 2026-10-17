@@ -71,11 +71,11 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: bisnis yang terhubung vs yang terpisah" },
   {
     type: "p",
-    text: "Bayangkan dua toko online dengan volume pesanan yang sama. Toko pertama menerima pesanan dari marketplace, lalu setiap pagi admin mengunduh daftar pesanan dan mengetik ulang ke sistem stok internal secara manual. Prosesnya memakan waktu dua jam setiap hari, dan sesekali ada pesanan yang terlewat diinput karena kelelahan admin.",
+    text: "Bayangkan dua [toko online](/services/website) dengan volume pesanan yang sama. Toko pertama menerima pesanan dari marketplace, lalu setiap pagi admin mengunduh daftar pesanan dan mengetik ulang ke sistem stok internal secara manual. Prosesnya memakan waktu dua jam setiap hari, dan sesekali ada pesanan yang terlewat diinput karena kelelahan admin.",
   },
   {
     type: "p",
-    text: "Toko kedua menggunakan integrasi API antara marketplace dan sistem stok mereka. Setiap pesanan yang masuk otomatis mengurangi stok dan tercatat di sistem internal tanpa campur tangan manusia. Admin mereka menghabiskan waktu yang dulu terpakai untuk input manual itu untuk hal lain yang lebih bernilai, seperti menganalisis produk mana yang paling laris.",
+    text: "Toko kedua menggunakan [integrasi API](/services/api-integration) antara marketplace dan sistem stok mereka. Setiap pesanan yang masuk otomatis mengurangi stok dan tercatat di sistem internal tanpa campur tangan manusia. Admin mereka menghabiskan waktu yang dulu terpakai untuk input manual itu untuk hal lain yang lebih bernilai, seperti menganalisis produk mana yang paling laris.",
   },
   { type: "h2", text: "Memulai percakapan tentang integrasi dengan vendor" },
   {
@@ -125,7 +125,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: keputusan yang salah karena tidak bertanya" },
   {
     type: "p",
-    text: "Sebuah bisnis ritel dengan banyak cabang memutuskan membeli sistem kasir baru tanpa menanyakan ketersediaan API sama sekali, karena harganya menarik dan fiturnya terlihat lengkap di demo penjualan. Belakangan, saat mereka ingin menghubungkan data penjualan dari sistem kasir ke software akuntansi yang sudah dipakai bertahun-tahun, ternyata sistem kasir baru itu tidak menyediakan cara otomatis untuk mengeluarkan data, satu-satunya opsi adalah mengekspor file setiap hari secara manual dan mengimpornya satu per satu.",
+    text: "Sebuah bisnis ritel dengan banyak cabang memutuskan membeli [sistem kasir](/services/pos) baru tanpa menanyakan ketersediaan API sama sekali, karena harganya menarik dan fiturnya terlihat lengkap di demo penjualan. Belakangan, saat mereka ingin menghubungkan data penjualan dari sistem kasir ke software akuntansi yang sudah dipakai bertahun-tahun, ternyata sistem kasir baru itu tidak menyediakan cara otomatis untuk mengeluarkan data, satu-satunya opsi adalah mengekspor file setiap hari secara manual dan mengimpornya satu per satu.",
   },
   {
     type: "p",

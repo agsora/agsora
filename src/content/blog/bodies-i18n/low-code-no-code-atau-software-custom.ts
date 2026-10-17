@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This article compares low code, no code, and custom built software fairly. We'll look at what each term means, where each excels, where the limits lie, and a decision framework you can use to choose. We write this as a custom software developer, but the conclusion is honest: there are many situations where an off the shelf tool is the better choice.",
+    text: "This article compares low code, no code, and custom built software fairly. We'll look at what each term means, where each excels, where the limits lie, and a decision framework you can use to choose. We write this as a [custom software](/services/custom-software) developer, but the conclusion is honest: there are many situations where an off the shelf tool is the better choice.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -51,7 +51,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "A laptop screen showing lines of program code in a dark room",
     caption: "The choice between off the shelf tools and custom code depends on needs, not on which sounds more sophisticated.",
   },
@@ -122,7 +122,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1494059980473-813e73ee784b",
+    src: "/blog/images/photo-1494059980473-813e73ee784b",
     alt: "A stack of jigsaw puzzle pieces",
     caption: "Technology decisions are best made together with the people who understand the process and will use the system every day.",
   },
@@ -217,7 +217,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文公平地比较低代码、无代码和定制开发的软件。我们将了解每个术语的含义、各自的优势、局限所在,以及可用于选择的决策框架。我们是以定制软件开发商的身份来写的,但结论是诚实的:在很多情况下,现成工具是更合适的选择。",
+    text: "本文公平地比较低代码、无代码和定制开发的软件。我们将了解每个术语的含义、各自的优势、局限所在,以及可用于选择的决策框架。我们是以[定制软件](/services/custom-software)开发商的身份来写的,但结论是诚实的:在很多情况下,现成工具是更合适的选择。",
   },
   { type: "h2", text: "要点摘要" },
   {
@@ -237,7 +237,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "无代码平台让没有编程背景的人通过可视化界面创建应用、表单、工作流或网页。组件已经提供,构建者只需组装和配置。使用示例包括内部申请表单、简单的任务跟踪器、目录,或连接多个常用应用的自动化。",
+    text: "无代码平台让没有编程背景的人通过可视化界面创建应用、表单、工作流或网页。组件已经提供,构建者只需组装和配置。使用示例包括内部申请表单、简单的任务跟踪器、目录,或连接多个常用应用的[自动化](/services/ai-automation)。",
   },
   {
     type: "h3",
@@ -257,7 +257,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "昏暗房间里笔记本电脑屏幕上显示着一行行程序代码",
     caption: "在现成工具和定制代码之间选择,取决于需求,而不是哪个听起来更先进。",
   },
@@ -308,7 +308,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "许多平台提供与常用应用的连接器,但与老旧系统、特殊设备或不常见的 API 集成可能很困难,甚至不可能。如果你的业务流程依赖不常见的系统,请先确认所考虑的平台是否真的能连接到它们。",
+    text: "许多平台提供与常用应用的连接器,但与老旧系统、特殊设备或不常见的 [API 集成](/services/api-integration)可能很困难,甚至不可能。如果你的业务流程依赖不常见的系统,请先确认所考虑的平台是否真的能连接到它们。",
   },
   {
     type: "h3",
@@ -328,7 +328,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1494059980473-813e73ee784b",
+    src: "/blog/images/photo-1494059980473-813e73ee784b",
     alt: "一叠拼图碎片",
     caption: "技术决策最好与了解流程、并将每天使用系统的人共同做出。",
   },

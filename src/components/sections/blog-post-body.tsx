@@ -1,10 +1,9 @@
 "use client";
 
-import Link from "@/i18n/link";
 import { useEffect, useMemo, useSyncExternalStore } from "react";
-import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
+import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { PostCover } from "@/components/sections/post-cover";
 import { PostBody } from "@/components/sections/post-body";
 import { PostTocMobile, PostTocSidebar } from "@/components/sections/post-toc";
@@ -90,13 +89,15 @@ export function BlogPostBody({
           <div className="absolute -left-32 top-10 h-[320px] w-[320px] rounded-full bg-gold/20 blur-[110px]" />
         </div>
         <Container className="relative max-w-6xl">
-          <Link
-            href="/blog"
-            className="tap focus-ring inline-flex items-center gap-2 rounded-full border border-line bg-surface-0 px-3.5 py-1.5 text-[13px] font-medium text-ink-muted transition-colors hover:border-ink hover:text-ink"
-          >
-            <ArrowLeft className="h-3.5 w-3.5" />
-            {t.blogPost.allArticles}
-          </Link>
+          {/* Same trail as the BreadcrumbList schema in app/[lang]/blog/[slug]/page.tsx */}
+          <Breadcrumbs
+            label={t.breadcrumbLabel}
+            items={[
+              { name: t.breadcrumbHome, href: "/" },
+              { name: t.nav.blog, href: "/blog" },
+              { name: getPostTitle(post, locale), href: `/blog/${post.slug}` },
+            ]}
+          />
 
           <div className="mt-8 max-w-3xl">
             <span className="inline-flex items-center gap-2 rounded-full bg-gold/15 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">

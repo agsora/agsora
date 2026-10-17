@@ -7,7 +7,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Stories like this are common, and so is the question that follows: is now the right time to implement ERP, or should we wait until the business is 'more ready'? That question itself is often pointed in the wrong direction. ERP isn't a reward for businesses that have already gotten big, it's a response to a particular growth stage, and that stage can usually be recognized earlier than most owners assume.",
+    text: "Stories like this are common, and so is the question that follows: is now the right time to implement [ERP](/services/erp), or should we wait until the business is 'more ready'? That question itself is often pointed in the wrong direction. ERP isn't a reward for businesses that have already gotten big, it's a response to a particular growth stage, and that stage can usually be recognized earlier than most owners assume.",
   },
   {
     type: "p",
@@ -153,7 +153,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "这样的故事很常见,随之而来的问题也很相似:现在是上 ERP 的合适时机吗,还是应该等企业“更成熟一些”再说?这个问题本身往往就问偏了方向。ERP 不是给已经做大的企业的奖励,而是对特定成长阶段的回应，而这个阶段,往往比大多数老板以为的更早就能被识别出来。",
+    text: "这样的故事很常见,随之而来的问题也很相似:现在是上 [ERP](/services/erp) 的合适时机吗,还是应该等企业“更成熟一些”再说?这个问题本身往往就问偏了方向。ERP 不是给已经做大的企业的奖励,而是对特定成长阶段的回应，而这个阶段,往往比大多数老板以为的更早就能被识别出来。",
   },
   {
     type: "p",
@@ -267,7 +267,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "为特定需求定制的 ERP 需要更长时间才能上线,但如果你的业务流程确实带有大量特殊规则,它能在长期带来更好的契合度。在实践中,许多企业会先用现成 ERP 处理标准模块,等需求变得更清晰、更具体之后,再转向更贴合自身的定制系统。",
+    text: "为特定需求定制的 ERP 需要更长时间才能上线,但如果你的业务流程确实带有大量特殊规则,它能在长期带来更好的契合度。在实践中,许多企业会先用现成 ERP 处理标准模块,等需求变得更清晰、更具体之后,再转向更贴合自身的[定制系统](/services/custom-software)。",
   },
   { type: "h2", text: "为转型准备好团队" },
   {

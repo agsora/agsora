@@ -50,7 +50,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pendekatan ini, memproses yang jelas secara otomatis, menandai yang meragukan untuk diperiksa, jauh lebih realistis daripada mengharapkan otomatisasi sempurna sejak hari pertama.",
+    text: "Pendekatan ini, memproses yang jelas secara otomatis, menandai yang meragukan untuk diperiksa, jauh lebih realistis daripada mengharapkan [otomatisasi](/services/ai-automation) sempurna sejak hari pertama.",
   },
   {
     type: "callout",

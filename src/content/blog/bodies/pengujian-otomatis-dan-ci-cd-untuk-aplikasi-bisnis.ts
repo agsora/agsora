@@ -31,7 +31,7 @@ export const body: Block[] = [
   { type: "callout", title: "Piramida, bukan lingkaran", text: "Strategi yang sehat biasanya memiliki banyak pengujian unit yang cepat, lebih sedikit pengujian integrasi, dan sedikit sekali pengujian ujung ke ujung. Bila terbalik, pengujian lambat, sering gagal tanpa alasan jelas, dan tim berhenti memercayainya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    src: "/blog/images/photo-1555066931-4365d14bab8c",
     alt: "Layar laptop menampilkan kode program berwarna di editor",
     caption: "Pengujian otomatis adalah kode yang memeriksa kode lain, dijalankan berulang tanpa lelah.",
   },
@@ -52,7 +52,7 @@ export const body: Block[] = [
   { type: "p", text: "Tidak semua tim perlu menerapkan semuanya sejak hari pertama. Bisnis kecil bisa memulai dari dua hal: pengujian otomatis pada alur terpenting dan satu perintah yang membangun serta merilis aplikasi dengan cara yang sama setiap kali. Setelah dua hal itu berjalan stabil, tambahkan lapisan berikutnya satu per satu, misalnya lingkungan uji yang menyerupai produksi, pemindaian keamanan otomatis, dan pemantauan pascarilis. Pertumbuhan bertahap membuat tim sempat belajar, dan setiap langkah sudah memberi manfaat tersendiri sebelum langkah berikutnya diambil." },
   { type: "h2", text: "Apa yang paling layak diuji lebih dulu" },
   { type: "p", text: "Godaan umum adalah mengejar angka cakupan yang tinggi, yaitu persentase kode yang tersentuh pengujian. Angka ini mudah dihitung tetapi tidak menjamin mutu. Pengujian yang banyak tetapi tidak memeriksa hal penting hanya memberi rasa aman palsu." },
-  { type: "p", text: "Pendekatan yang lebih berguna adalah bertanya: bagian mana yang paling merugikan bila rusak? Mulailah dari sana. Bagi toko online, itu biasanya proses pembayaran, perhitungan harga dan diskon, pengurangan stok, serta pengiriman email konfirmasi. Bagi ERP, itu perhitungan nilai persediaan, jurnal otomatis, dan hak akses." },
+  { type: "p", text: "Pendekatan yang lebih berguna adalah bertanya: bagian mana yang paling merugikan bila rusak? Mulailah dari sana. Bagi [toko online](/services/website), itu biasanya proses pembayaran, perhitungan harga dan diskon, pengurangan stok, serta pengiriman email konfirmasi. Bagi ERP, itu perhitungan nilai persediaan, jurnal otomatis, dan hak akses." },
   { type: "ul", items: [
     "Perhitungan uang: harga, diskon, pajak, ongkos kirim, dan pembulatan",
     "Alur yang menghasilkan pendapatan: pendaftaran, checkout, pembayaran, dan penagihan",
@@ -67,7 +67,7 @@ export const body: Block[] = [
   { type: "p", text: "Pastikan juga rahasia seperti kunci akses dan kata sandi layanan tidak ditulis di dalam kode atau disimpan sembarangan di alur otomatis. Simpan di tempat yang dirancang untuk itu, dengan akses terbatas dan jejak audit." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    src: "/blog/images/photo-1488590528505-98d2b5aba04b",
     alt: "Layar laptop menampilkan baris-baris kode program di ruangan gelap",
     caption: "Lingkungan uji yang terpisah memungkinkan tim mencoba perubahan tanpa mengganggu pelanggan.",
   },

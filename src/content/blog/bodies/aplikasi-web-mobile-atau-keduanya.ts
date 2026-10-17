@@ -61,7 +61,7 @@ export const body: Block[] = [
   { type: "h2", text: "Aplikasi web yang tetap nyaman di ponsel" },
   {
     type: "p",
-    text: "Aplikasi web bisa dirancang secara responsif sehingga tetap terasa nyaman diakses dari ponsel, bahkan bisa ditambahkan ke layar utama ponsel layaknya aplikasi biasa untuk akses yang lebih cepat. Untuk pengguna yang hanya membuka sistem sesekali dan tidak membutuhkan fitur khusus perangkat, pendekatan responsif seperti ini sering kali sudah memadai tanpa perlu membangun aplikasi mobile native yang lebih mahal.",
+    text: "Aplikasi web bisa dirancang secara responsif sehingga tetap terasa nyaman diakses dari ponsel, bahkan bisa ditambahkan ke layar utama ponsel layaknya aplikasi biasa untuk akses yang lebih cepat. Untuk pengguna yang hanya membuka sistem sesekali dan tidak membutuhkan fitur khusus perangkat, pendekatan responsif seperti ini sering kali sudah memadai tanpa perlu membangun [aplikasi mobile](/services/mobile) native yang lebih mahal.",
   },
   { type: "h2", text: "Ilustrasi: dua kebutuhan, dua solusi berbeda" },
   {
@@ -125,7 +125,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyatukan data di balik dua bentuk aplikasi yang berbeda" },
   {
     type: "p",
-    text: "Ketika sebuah bisnis akhirnya membangun aplikasi web dan mobile sekaligus, tantangan terbesar bukan pada tampilan masing-masing, melainkan memastikan keduanya benar-benar mengambil data dari sumber yang sama. Jika aplikasi web dan mobile dibangun terpisah dengan basis data masing-masing, data bisa menjadi tidak sinkron, stok yang terlihat di aplikasi mobile mandor lapangan berbeda dengan yang tercatat di dashboard kantor, misalnya.",
+    text: "Ketika sebuah bisnis akhirnya membangun aplikasi web dan mobile sekaligus, tantangan terbesar bukan pada tampilan masing-masing, melainkan memastikan keduanya benar-benar mengambil data dari sumber yang sama. Jika aplikasi web dan mobile dibangun terpisah dengan basis data masing-masing, data bisa menjadi tidak sinkron, stok yang terlihat di aplikasi mobile mandor lapangan berbeda dengan yang tercatat di [dashboard](/services/dashboard) kantor, misalnya.",
   },
   {
     type: "p",

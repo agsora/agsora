@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kalau adegan itu terasa akrab, masalahnya hampir pasti bukan pada tim Anda. Masalahnya ada pada cara data bisnis Anda disimpan: terpisah-pisah, disalin berulang kali, dan disatukan dengan tangan. Banyak pemilik bisnis menunda ERP karena menganggapnya hanya untuk perusahaan besar. Padahal yang menentukan kapan bisnis butuh ERP bukan jumlah karyawan atau omzet, melainkan seberapa mahal kekacauan datanya.",
+    text: "Kalau adegan itu terasa akrab, masalahnya hampir pasti bukan pada tim Anda. Masalahnya ada pada cara data bisnis Anda disimpan: terpisah-pisah, disalin berulang kali, dan disatukan dengan tangan. Banyak pemilik bisnis menunda [ERP](/services/erp) karena menganggapnya hanya untuk perusahaan besar. Padahal yang menentukan kapan bisnis butuh ERP bukan jumlah karyawan atau omzet, melainkan seberapa mahal kekacauan datanya.",
   },
   {
     type: "p",
@@ -45,7 +45,7 @@ export const body: Block[] = [
   { type: "h2", text: "2. Angka stok di sistem berbeda dengan stok fisik" },
   {
     type: "p",
-    text: "Selisih stok yang terus berulang biasanya bukan kesalahan satu orang, melainkan tanda bahwa pergerakan barang dicatat di lebih dari satu tempat: nota manual di gudang, spreadsheet admin, dan aplikasi kasir yang tidak saling terhubung. Setiap perpindahan data antar tempat itu membuka peluang salah ketik, lupa catat, atau pencatatan ganda.",
+    text: "Selisih stok yang terus berulang biasanya bukan kesalahan satu orang, melainkan tanda bahwa pergerakan barang dicatat di lebih dari satu tempat: nota manual di gudang, spreadsheet admin, dan [aplikasi kasir](/services/pos) yang tidak saling terhubung. Setiap perpindahan data antar tempat itu membuka peluang salah ketik, lupa catat, atau pencatatan ganda.",
   },
   {
     type: "p",

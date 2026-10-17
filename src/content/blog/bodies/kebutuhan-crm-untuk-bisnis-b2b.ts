@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Menjual kepada bisnis lain sangat berbeda dengan menjual kepada konsumen individu. Satu transaksi B2B bisa melibatkan pengguna, atasan yang memberi pengaruh, bagian pengadaan, dan bagian keuangan sekaligus. Prosesnya melewati presentasi, uji coba produk, negosiasi berlapis, dan persetujuan internal yang panjang di sisi klien. CRM sederhana yang dirancang untuk transaksi cepat dan sederhana sering kali tidak cukup menangani kompleksitas ini.",
+    text: "Menjual kepada bisnis lain sangat berbeda dengan menjual kepada konsumen individu. Satu transaksi B2B bisa melibatkan pengguna, atasan yang memberi pengaruh, bagian pengadaan, dan bagian keuangan sekaligus. Prosesnya melewati presentasi, uji coba produk, negosiasi berlapis, dan persetujuan internal yang panjang di sisi klien. [CRM](/services/crm) sederhana yang dirancang untuk transaksi cepat dan sederhana sering kali tidak cukup menangani kompleksitas ini.",
   },
   { type: "h2", text: "Ringkasan" },
   {

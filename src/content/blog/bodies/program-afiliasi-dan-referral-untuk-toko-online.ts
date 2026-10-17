@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "callout", title: "Bayar setelah masa retur lewat", text: "Komisi yang dibayar saat pesanan masuk akan menjadi kerugian bila pesanan itu dibatalkan atau diretur. Tetapkan masa tunggu, misalnya sampai masa retur berakhir, sebelum komisi dinyatakan final dan bisa dicairkan. Beritahu peserta aturan ini sejak awal agar tidak menimbulkan kekecewaan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    src: "/blog/images/photo-1531482615713-2afd69097998",
     alt: "Beberapa anggota tim berdiskusi sambil melihat layar komputer di ruang kerja",
     caption: "Struktur imbalan sebaiknya dibahas bersama bagian keuangan agar margin tetap sehat.",
   },
@@ -61,7 +61,7 @@ export const body: Block[] = [
   { type: "p", text: "Ingat bahwa kualitas produk dan layanan adalah fondasinya. Program referral memperbesar pengalaman yang sudah ada, baik atau buruk. Bila pelanggan kecewa, imbalan sebesar apa pun tidak akan membuat mereka mau mengajak orang lain." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    src: "/blog/images/photo-1523474253046-8cd2748b5fd2",
     alt: "Ponsel yang menampilkan aplikasi belanja online di atas meja",
     caption: "Ajakan membagikan kode paling efektif muncul saat pelanggan baru saja puas dengan pesanannya.",
   },
@@ -111,7 +111,7 @@ export const body: Block[] = [
   ] },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Program referral dan afiliasi tidak menggantikan produk yang baik dan layanan yang jujur, tetapi bisa memperbesar efeknya. Dengan pelacakan yang andal, imbalan yang dihitung dari margin, dan aturan yang jelas, rekomendasi dari mulut ke mulut berubah menjadi saluran pertumbuhan yang terukur." },
-  { type: "p", text: "Mulailah kecil, belajar dari data, dan perbaiki bertahap. Pelanggan yang direkomendasikan oleh orang yang dipercayainya adalah pelanggan yang datang dengan kepercayaan awal, dan itu modal berharga bagi toko online mana pun." },
+  { type: "p", text: "Mulailah kecil, belajar dari data, dan perbaiki bertahap. Pelanggan yang direkomendasikan oleh orang yang dipercayainya adalah pelanggan yang datang dengan kepercayaan awal, dan itu modal berharga bagi [toko online](/services/website) mana pun." },
   {
     type: "cta",
     title: "Ingin membangun program referral atau afiliasi di toko online Anda?",

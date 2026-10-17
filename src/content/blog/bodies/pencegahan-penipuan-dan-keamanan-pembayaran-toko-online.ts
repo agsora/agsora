@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Setiap toko online yang mulai ramai cepat atau lambat bertemu dengan penipuan. Bentuknya beragam: pembeli yang memakai kartu curian, pesanan palsu untuk menguji kartu, pengembalian dana yang disalahgunakan, akun yang diambil alih, hingga pesan yang menyamar sebagai toko Anda untuk meminta pelanggan mentransfer uang. Sebagian besar tidak terlihat sampai kerugiannya muncul di laporan." },
   { type: "p", text: "Banyak pemilik toko menganggap keamanan pembayaran sepenuhnya urusan penyedia pembayaran. Sebagian memang benar: data kartu yang sensitif sebaiknya tidak pernah menyentuh server Anda. Namun keputusan menerima atau menolak sebuah pesanan, cara menangani sengketa, dan pengamanan akun pelanggan tetap berada di tangan Anda." },
-  { type: "p", text: "Artikel ini membahas jenis penipuan yang lazim di toko online, sinyal yang patut diwaspadai, lapisan pertahanan yang masuk akal untuk bisnis kecil dan menengah, serta cara menangani sengketa pembayaran. Kami tidak menyebut angka kerugian rekaan; fokusnya adalah cara berpikir dan kebiasaan kerja yang bisa diterapkan." },
+  { type: "p", text: "Artikel ini membahas jenis penipuan yang lazim di [toko online](/services/website), sinyal yang patut diwaspadai, lapisan pertahanan yang masuk akal untuk bisnis kecil dan menengah, serta cara menangani sengketa pembayaran. Kami tidak menyebut angka kerugian rekaan; fokusnya adalah cara berpikir dan kebiasaan kerja yang bisa diterapkan." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada pula penipuan yang berasal dari pembeli sungguhan: mengaku barang tidak sampai padahal diterima, mengembalikan barang yang berbeda dari yang dikirim, atau menyalahgunakan kebijakan retur. Dan di sisi sebaliknya, ada penipuan yang menyasar pelanggan Anda, seperti halaman palsu yang meniru toko atau pesan yang meminta transfer ke rekening lain." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "Seseorang memegang kartu pembayaran sambil berbelanja di laptop",
     caption: "Pembayaran online yang tampak berhasil belum tentu final; sengketa dapat muncul beberapa minggu kemudian.",
   },
@@ -51,7 +51,7 @@ export const body: Block[] = [
   { type: "p", text: "Aktifkan pemberitahuan untuk kejadian sensitif: login dari perangkat baru, perubahan alamat surel, perubahan metode pembayaran, dan pengembalian dana bernilai besar. Pemberitahuan memberi pelanggan dan tim kesempatan menghentikan penyalahgunaan sebelum merugikan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+    src: "/blog/images/photo-1614064641938-3bbee52942c7",
     alt: "Gembok merah di atas keyboard komputer hitam",
     caption: "Akun staf dengan akses luas perlu perlindungan paling kuat.",
   },

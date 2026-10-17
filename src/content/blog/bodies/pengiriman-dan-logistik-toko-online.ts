@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Banyak pemilik toko online menghabiskan energi untuk iklan, foto produk, dan deskripsi yang menarik, lalu memperlakukan pengiriman sebagai urusan belakang yang \"pokoknya sampai\". Padahal bagi pelanggan, pengiriman adalah bagian dari produk itu sendiri. Barang yang bagus tetapi tiba terlambat, rusak, atau tanpa kabar akan meninggalkan kesan buruk yang lebih kuat daripada kesan baik dari halaman produk yang rapi." },
   { type: "p", text: "Pengiriman juga langsung menyentuh uang. Ongkos kirim yang salah hitung menggerus margin atau membuat pelanggan membatalkan pesanan di langkah terakhir. Pengemasan yang asal menambah barang rusak dan klaim. Pelacakan yang tidak jelas membuat tim layanan pelanggan kebanjiran pertanyaan yang sama berulang kali, \"Paket saya di mana?\". Semua itu bisa ditata, dan penataannya tidak harus mahal." },
-  { type: "p", text: "Artikel ini membahas logistik toko online dari sudut pandang pemilik bisnis, bukan ahli rantai pasok. Kita mulai dari cara memilih kurir dan menyusun tarif, lalu pengemasan, pelacakan, pengiriman dari banyak titik, hingga retur dan cara mengukur apakah semuanya berjalan baik. Kami sengaja tidak memakai angka rekaan tentang tarif atau persentase keterlambatan, karena tarif kurir berubah dan berbeda di tiap wilayah. Yang kami tawarkan adalah cara berpikir dan daftar periksa yang bisa Anda terapkan pada data toko Anda sendiri." },
+  { type: "p", text: "Artikel ini membahas logistik [toko online](/services/website) dari sudut pandang pemilik bisnis, bukan ahli rantai pasok. Kita mulai dari cara memilih kurir dan menyusun tarif, lalu pengemasan, pelacakan, pengiriman dari banyak titik, hingga retur dan cara mengukur apakah semuanya berjalan baik. Kami sengaja tidak memakai angka rekaan tentang tarif atau persentase keterlambatan, karena tarif kurir berubah dan berbeda di tiap wilayah. Yang kami tawarkan adalah cara berpikir dan daftar periksa yang bisa Anda terapkan pada data toko Anda sendiri." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagi bisnis, tiga hal itu berujung pada biaya yang nyata. Klaim barang rusak, kiriman ulang, dan waktu tim menjawab pertanyaan pelacakan semuanya memakan uang dan jam kerja. Memperbaiki hulu masalah, yaitu cara Anda memilih kurir, mengemas, dan memberi informasi, hampir selalu lebih murah daripada terus menambal akibatnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
+    src: "/blog/images/photo-1566576721346-d4a3b4eaeb55",
     alt: "Dua orang menyerahkan sebuah paket kardus yang sudah dilakban",
     caption: "Momen paket berpindah tangan adalah saat pelanggan menilai seluruh pengalaman belanja, bukan hanya produknya.",
   },
@@ -63,7 +63,7 @@ export const body: Block[] = [
   { type: "p", text: "Gratis ongkir adalah alat pemasaran yang kuat, tetapi ongkir tidak benar-benar gratis; seseorang tetap membayarnya. Pastikan Anda tahu persis dari mana biaya itu ditutup: dari margin, dari harga yang sedikit lebih tinggi, atau dari syarat belanja minimum. Hitung dengan data pesanan Anda sendiri sebelum meluncurkannya, dan tinjau ulang secara berkala karena tarif kurir bisa berubah." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3",
+    src: "/blog/images/photo-1494412574643-ff11b0a5c1c3",
     alt: "Pemandangan udara pelabuhan peti kemas dengan derek dan tumpukan kontainer",
     caption: "Di balik satu paket kecil ada jaringan logistik besar; memahami alurnya membantu Anda memilih layanan yang tepat.",
   },
@@ -91,7 +91,7 @@ export const body: Block[] = [
   { type: "p", text: "Tidak semua barang tersedia di gudang saat dipesan. Untuk preorder atau barang yang dibuat setelah pesanan masuk, komunikasikan estimasi waktu produksi secara terpisah dari estimasi pengiriman. Pelanggan perlu tahu dua hal itu: kapan barang selesai dibuat dan berapa lama pengirimannya. Mencampur keduanya dalam satu angka sering memicu kesalahpahaman." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    src: "/blog/images/photo-1523474253046-8cd2748b5fd2",
     alt: "Ponsel yang menampilkan aplikasi belanja online di atas meja",
     caption: "Pelanggan terbiasa memantau pesanan dari ponsel; informasi status yang jelas menghemat banyak pertanyaan ke tim Anda.",
   },
@@ -120,7 +120,7 @@ export const body: Block[] = [
     ],
   },
   { type: "h2", text: "Penutup" },
-  { type: "p", text: "Pengiriman bukan beban tambahan di ujung proses penjualan; ia adalah bagian dari janji yang Anda buat kepada pelanggan. Toko yang mengelola pengiriman dengan baik mendapat keuntungan ganda: pelanggan lebih puas dan biaya tersembunyi, mulai dari klaim, kiriman ulang, hingga waktu menjawab pertanyaan, menyusut. Mulailah dari yang paling sederhana, yaitu memahami alur Anda, memilih kurir yang tepat, mengemas dengan standar yang konsisten, dan memberi kabar proaktif. Setelah dasar itu kokoh, otomatisasi dan integrasi sistem akan melipatgandakan hasilnya." },
+  { type: "p", text: "Pengiriman bukan beban tambahan di ujung proses penjualan; ia adalah bagian dari janji yang Anda buat kepada pelanggan. Toko yang mengelola pengiriman dengan baik mendapat keuntungan ganda: pelanggan lebih puas dan biaya tersembunyi, mulai dari klaim, kiriman ulang, hingga waktu menjawab pertanyaan, menyusut. Mulailah dari yang paling sederhana, yaitu memahami alur Anda, memilih kurir yang tepat, mengemas dengan standar yang konsisten, dan memberi kabar proaktif. Setelah dasar itu kokoh, [otomatisasi](/services/ai-automation) dan integrasi sistem akan melipatgandakan hasilnya." },
   { type: "p", text: "Jika toko Anda sudah tumbuh dan pengelolaan pesanan, stok, serta pengiriman mulai terasa berantakan, mungkin sudah saatnya memiliki sistem yang menyatukan semuanya." },
   {
     type: "cta",

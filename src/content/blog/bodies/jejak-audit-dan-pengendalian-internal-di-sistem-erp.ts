@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Pada suatu bulan, laporan stok menunjukkan selisih besar yang tidak bisa dijelaskan siapa pun. Seseorang mengubah angka, tetapi tidak ada catatan siapa, kapan, dan mengapa. Rapat berlangsung berjam-jam dengan saling menduga, dan pada akhirnya tim hanya bisa menyimpulkan bahwa hal itu pasti kesalahan input yang tidak sengaja. Selisihnya diratakan dengan penyesuaian, dan masalah yang sebenarnya, apa pun itu, tidak pernah ditemukan." },
   { type: "p", text: "Situasi seperti ini menunjukkan celah yang sangat umum pada bisnis yang bertumbuh: data berubah, tetapi jejaknya tidak ada. Selama bisnis kecil dan semua orang saling kenal, kepercayaan sering menutupi celah ini. Ketika jumlah karyawan, cabang, dan transaksi bertambah, kepercayaan saja tidak lagi memadai, dan ketiadaan jejak menjadi risiko keuangan sekaligus risiko kepatuhan." },
-  { type: "p", text: "Artikel ini membahas jejak audit dan pengendalian internal di sistem ERP dengan bahasa yang bisa dipahami pemilik bisnis dan manajer. Kita akan melihat apa itu jejak audit, apa yang layak dicatat, bagaimana pemisahan tugas dan persetujuan bekerja, cara menyiapkan diri untuk audit, serta langkah bertahap agar pengendalian terasa membantu, bukan membebani." },
+  { type: "p", text: "Artikel ini membahas jejak audit dan pengendalian internal di [sistem ERP](/services/erp) dengan bahasa yang bisa dipahami pemilik bisnis dan manajer. Kita akan melihat apa itu jejak audit, apa yang layak dicatat, bagaimana pemisahan tugas dan persetujuan bekerja, cara menyiapkan diri untuk audit, serta langkah bertahap agar pengendalian terasa membantu, bukan membebani." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -30,7 +30,7 @@ export const body: Block[] = [
   { type: "p", text: "Pada bisnis kecil, pemisahan penuh sering tidak mungkin karena jumlah orang terbatas. Dalam situasi itu, gunakan kompensasi: tinjauan berkala oleh pemilik, batas nilai transaksi, dan laporan pengecualian yang menyoroti hal tidak biasa. Tujuannya mengurangi risiko, bukan mencapai kesempurnaan formal." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "Tangan memeriksa dokumen dan kalkulator di atas meja untuk keperluan audit",
     caption: "Pemeriksaan independen dan catatan yang jelas adalah inti dari pengendalian internal.",
   },
@@ -56,7 +56,7 @@ export const body: Block[] = [
   { type: "p", text: "Jelaskan tujuannya. Orang lebih mudah menerima aturan bila memahami bahwa ia melindungi bisnis dan mereka sendiri dari tuduhan yang tidak berdasar. Jejak audit yang jelas juga melindungi karyawan jujur ketika muncul pertanyaan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    src: "/blog/images/photo-1563986768609-322da13575f3",
     alt: "Ikon gembok keamanan digital di atas latar bernuansa teknologi",
     caption: "Kontrol akses dan catatan yang tidak dapat diubah menjaga integritas data bisnis.",
   },

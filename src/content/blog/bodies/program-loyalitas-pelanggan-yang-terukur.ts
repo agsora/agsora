@@ -43,7 +43,7 @@ export const body: Block[] = [
   { type: "h2", text: "Hubungkan dengan sistem kasir" },
   {
     type: "p",
-    text: "Program loyalitas paling mudah dijalankan dan paling akurat datanya ketika terintegrasi langsung dengan sistem kasir: pelanggan dikenali secara otomatis saat melakukan transaksi, poin bertambah tanpa perlu dihitung manual, dan setiap penukaran poin tercatat rapi. Program yang masih dicatat secara manual di buku atau spreadsheet terpisah sangat mudah salah hitung dan hampir mustahil dianalisis secara mendalam.",
+    text: "Program loyalitas paling mudah dijalankan dan paling akurat datanya ketika terintegrasi langsung dengan [sistem kasir](/services/pos): pelanggan dikenali secara otomatis saat melakukan transaksi, poin bertambah tanpa perlu dihitung manual, dan setiap penukaran poin tercatat rapi. Program yang masih dicatat secara manual di buku atau spreadsheet terpisah sangat mudah salah hitung dan hampir mustahil dianalisis secara mendalam.",
   },
   {
     type: "callout",

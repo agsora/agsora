@@ -1,26 +1,20 @@
 /**
  * Custom next/image loader.
  *
- * Unsplash serves images through imgix, which already handles resizing and
- * format negotiation (`auto=format` returns AVIF/WebP based on the request).
- * Routing those through Next's optimizer means downloading an already
- * optimised image only to re-encode it — added latency and server CPU for no
- * gain. This loader points srcset entries straight at Unsplash instead.
+ * Article photos are self-hosted under /blog/images as pre-cropped 16:9 WebP
+ * files in two widths (800 and 1400), named "<id>-<width>.webp". The `src`
+ * in an image block is the path without the suffix; this picks the smaller
+ * file whenever it covers the requested width, so a phone never downloads the
+ * large one. Re-encoding through Next's optimizer would only add server work.
  *
- * Non-Unsplash sources pass through untouched.
+ * Anything else passes through untouched.
  */
-export default function imageLoader({
-  src,
-  width,
-  quality,
-}: {
-  src: string;
-  width: number;
-  quality?: number;
-}) {
-  if (src.startsWith("https://images.unsplash.com")) {
-    const base = src.split("?")[0];
-    return `${base}?auto=format&fit=crop&q=${quality ?? 75}&w=${width}`;
+const BLOG_IMAGE_WIDTHS = [800, 1400];
+
+export default function imageLoader({ src, width }: { src: string; width: number; quality?: number }) {
+  if (src.startsWith("/blog/images/")) {
+    const fit = BLOG_IMAGE_WIDTHS.find((w) => w >= width) ?? BLOG_IMAGE_WIDTHS[BLOG_IMAGE_WIDTHS.length - 1];
+    return `${src}-${fit}.webp`;
   }
   return src;
 }

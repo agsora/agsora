@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Sisi lainnya juga perlu dipahami. Pendapatan dari seorang pelanggan baru tiba sedikit demi sedikit, sedangkan biaya mendapatkannya dikeluarkan di depan. Bisnis langganan yang tumbuh cepat bisa justru kekurangan kas bila pelanggan berhenti sebelum biaya itu kembali. Model ini menghadiahi kesabaran dan menghukum pertumbuhan yang tidak diikuti retensi." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
+    src: "/blog/images/photo-1543286386-713bdd548da4",
     alt: "Kertas berisi grafik garis naik di samping penggaris dan pena di meja kayu",
     caption: "Pendapatan berulang tumbuh dengan menumpuk, asalkan pelanggan yang sudah ada tetap bertahan.",
   },
@@ -50,10 +50,10 @@ export const body: Block[] = [
     "Apa yang terjadi pada akses atau pengiriman ketika pembayaran tertunda",
     "Bagaimana jeda, pembatalan, dan pengaktifan kembali diperlakukan",
   ] },
-  { type: "p", text: "Ada layanan tagihan berlangganan yang menangani sebagian besar kerumitan ini, dan ada penyedia pembayaran yang menawarkan fitur tagihan berulang. Untuk kebutuhan sederhana, keduanya memadai. Bila aturan Anda khas, misalnya gabungan langganan barang fisik dengan jadwal pengiriman dan stok, sistem yang dibangun khusus dan terhubung ke ERP sering lebih tepat." },
+  { type: "p", text: "Ada layanan tagihan berlangganan yang menangani sebagian besar kerumitan ini, dan ada penyedia pembayaran yang menawarkan fitur tagihan berulang. Untuk kebutuhan sederhana, keduanya memadai. Bila aturan Anda khas, misalnya gabungan langganan barang fisik dengan jadwal pengiriman dan stok, sistem yang dibangun khusus dan terhubung ke [ERP](/services/erp) sering lebih tepat." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
+    src: "/blog/images/photo-1556742502-ec7c0e9f34b1",
     alt: "Pelanggan menempelkan kartu pembayaran ke mesin pembaca nontunai",
     caption: "Metode pembayaran yang dipilih menentukan seberapa mulus tagihan berikutnya bisa ditarik.",
   },
@@ -79,7 +79,7 @@ export const body: Block[] = [
   { type: "p", text: "Kirim pemberitahuan pada saat yang penting: sebelum masa percobaan berakhir, sebelum perpanjangan tahunan, setelah pembayaran berhasil, dan ketika ada perubahan harga. Pelanggan yang tahu apa yang akan ditagih dan kapan jarang merasa dirugikan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
+    src: "/blog/images/photo-1600880292203-757bb62b4baf",
     alt: "Dua rekan kerja saling tos di meja rapat",
     caption: "Dalam model langganan, pelanggan yang bertahan dan merasa terbantu adalah hasil kerja seluruh tim.",
   },

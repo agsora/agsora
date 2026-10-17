@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
+    src: "/blog/images/photo-1556745757-8d76bdb6984b",
     alt: "A shop owner processing a transaction on a tablet point of sale device at the counter",
     caption: "Digitalising a family business often starts with the daily transactions that happen most often.",
   },
@@ -70,7 +70,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "These notes become the main input for designing the system. Pricing rules can become price lists and discount schemes in the sales system. Knowledge about customers can become data in a CRM. Stock patterns can become minimum levels and purchase reminders in the inventory system. This way the system isn't something foreign, but a reflection of how everyone already works.",
+    text: "These notes become the main input for designing the system. Pricing rules can become price lists and discount schemes in the sales system. Knowledge about customers can become data in a [CRM](/services/crm). Stock patterns can become minimum levels and purchase reminders in the inventory system. This way the system isn't something foreign, but a reflection of how everyone already works.",
   },
   { type: "h2", text: "A realistic order of steps" },
   {
@@ -89,11 +89,11 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This order deliberately puts new sales channels last. Many next generation owners want to open an online store or build an app straight away, but new channels only add chaos if stock, prices, and orders inside the business aren't yet properly recorded. A strong foundation makes digital expansion much easier and safer.",
+    text: "This order deliberately puts new sales channels last. Many next generation owners want to open an [online store](/services/website) or build an app straight away, but new channels only add chaos if stock, prices, and orders inside the business aren't yet properly recorded. A strong foundation makes digital expansion much easier and safer.",
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1596784269480-039b2a893af0",
+    src: "/blog/images/photo-1596784269480-039b2a893af0",
     alt: "A stone staircase climbing a grassy hillside",
     caption: "Well organised systems prepare a family business to grow and welcome new team members.",
   },
@@ -200,7 +200,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
+    src: "/blog/images/photo-1556745757-8d76bdb6984b",
     alt: "店主在收银台使用平板收银设备处理交易",
     caption: "家族企业的数字化,往往从最频繁发生的日常交易开始。",
   },
@@ -235,7 +235,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "这些记录将成为系统设计的主要依据。定价规则可以转化为销售系统中的价目表和折扣方案;客户相关的知识可以成为 CRM 中的数据;库存规律可以成为库存系统中的最低库存量和采购提醒。这样一来,所构建的系统就不是陌生的东西,而是大家早已熟悉的工作方式的映照。",
+    text: "这些记录将成为系统设计的主要依据。定价规则可以转化为销售系统中的价目表和折扣方案;客户相关的知识可以成为 [CRM](/services/crm) 中的数据;库存规律可以成为库存系统中的最低库存量和采购提醒。这样一来,所构建的系统就不是陌生的东西,而是大家早已熟悉的工作方式的映照。",
   },
   { type: "h2", text: "切实可行的步骤顺序" },
   {
@@ -254,11 +254,11 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "这个顺序有意把新的销售渠道放在最后。许多接班人希望立刻开设网店或开发应用,但如果企业内部的库存、价格和订单尚未被妥善记录,新渠道只会增添混乱。坚实的基础会让数字化扩张更加容易,也更加安全。",
+    text: "这个顺序有意把新的销售渠道放在最后。许多接班人希望立刻开设[网店](/services/website)或开发应用,但如果企业内部的库存、价格和订单尚未被妥善记录,新渠道只会增添混乱。坚实的基础会让数字化扩张更加容易,也更加安全。",
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1596784269480-039b2a893af0",
+    src: "/blog/images/photo-1596784269480-039b2a893af0",
     alt: "沿草坡向上的石阶",
     caption: "井然有序的系统,让家族企业做好成长和迎接新成员的准备。",
   },

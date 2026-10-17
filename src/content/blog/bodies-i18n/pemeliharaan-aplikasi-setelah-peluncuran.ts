@@ -42,7 +42,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    src: "/blog/images/photo-1774645215883-14d1553f3fa0",
     alt: "A set of metal wrenches in a toolbox",
     caption: "Healthy business software is cared for by a clear team or partner, not left until it breaks.",
   },
@@ -129,7 +129,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "A person sitting at a desk with a calculator and a notebook",
     caption: "Periodic reviews with the development team help the business plan improvements before problems appear.",
   },
@@ -202,7 +202,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "本文介绍应用维护包括什么、为什么应该从一开始就做规划、如何制定合理的预算和服务协议,以及在项目被宣布完成之前你应该向开发者提出哪些要求。适合即将上线、正在上线或刚刚上线应用或网站的企业主。",
+    text: "本文介绍应用维护包括什么、为什么应该从一开始就做规划、如何制定合理的预算和服务协议,以及在项目被宣布完成之前你应该向开发者提出哪些要求。适合即将上线、正在上线或刚刚上线应用或[网站](/services/website)的企业主。",
   },
   { type: "h2", text: "要点摘要" },
   {
@@ -233,7 +233,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1774645215883-14d1553f3fa0",
+    src: "/blog/images/photo-1774645215883-14d1553f3fa0",
     alt: "工具箱里的一组金属扳手",
     caption: "健康的企业软件由明确的团队或合作伙伴维护,而不是放任到出问题为止。",
   },
@@ -320,7 +320,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "坐在书桌前、面前有计算器和笔记本的人",
     caption: "与开发团队定期复盘,有助于企业在问题出现之前规划改进。",
   },

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Ada satu tombol di sebuah aplikasi pemesanan yang bertuliskan Submit. Pengguna menekannya, lalu bertanya-tanya: apakah pesanan saya sudah dikirim, atau baru formulirnya? Beberapa menekannya dua kali, dan akibatnya pesanan ganda. Masalahnya bukan pada kode atau desain visual, melainkan pada dua kata di atas tombol yang tidak menjawab pertanyaan paling sederhana pengguna: apa yang akan terjadi setelah ini?" },
   { type: "p", text: "Teks-teks kecil seperti label tombol, pesan galat, petunjuk di bawah kolom isian, dan notifikasi sering diperlakukan sebagai hal terakhir yang diisi, kadang oleh programmer yang sedang terburu-buru. Padahal teks itulah yang dibaca pengguna di setiap langkah, dan kualitasnya sangat memengaruhi apakah mereka menyelesaikan pendaftaran, membayar, atau meninggalkan aplikasi dengan frustrasi." },
-  { type: "p", text: "Artikel ini membahas penulisan antarmuka atau UX writing dan microcopy untuk aplikasi serta website bisnis: prinsip dasarnya, cara menulis tombol, formulir, pesan galat dan keadaan kosong, cara menjaga nada merek, pertimbangan untuk beberapa bahasa, serta cara menguji dan memperbaiki teks agar benar-benar meningkatkan konversi dan kepuasan pengguna." },
+  { type: "p", text: "Artikel ini membahas penulisan antarmuka atau UX writing dan microcopy untuk aplikasi serta [website bisnis](/services/website): prinsip dasarnya, cara menulis tombol, formulir, pesan galat dan keadaan kosong, cara menjaga nada merek, pertimbangan untuk beberapa bahasa, serta cara menguji dan memperbaiki teks agar benar-benar meningkatkan konversi dan kepuasan pengguna." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -25,7 +25,7 @@ export const body: Block[] = [
   { type: "p", text: "Ketiga, tulis dari sudut pandang pengguna dan pada saat yang tepat. Informasi sebaiknya muncul tepat ketika dibutuhkan, bukan dalam blok teks panjang di awal. Petunjuk kecil di samping kolom yang membingungkan jauh lebih efektif daripada halaman bantuan yang tidak pernah dibuka." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1618044733300-9472054094ee",
+    src: "/blog/images/photo-1618044733300-9472054094ee",
     alt: "Rancangan antarmuka aplikasi pada layar komputer di meja desainer",
     caption: "Setiap kata pada antarmuka adalah bagian dari rancangan, bukan tambahan di akhir.",
   },
@@ -48,7 +48,7 @@ export const body: Block[] = [
   { type: "p", text: "Saat berhasil, konfirmasi dengan jelas apa yang terjadi dan apa selanjutnya: nomor pesanan, perkiraan tiba, dan ke mana mencari informasi. Pesan keberhasilan yang informatif mengurangi pertanyaan ke layanan pelanggan dan menutup pengalaman dengan rasa tuntas." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    src: "/blog/images/photo-1581091226825-a6a2a5aee158",
     alt: "Seseorang bekerja dengan laptop di meja sambil mencatat gagasan",
     caption: "Menulis teks antarmuka adalah pekerjaan merancang percakapan antara bisnis dan pengguna.",
   },

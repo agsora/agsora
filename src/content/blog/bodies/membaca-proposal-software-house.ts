@@ -140,7 +140,7 @@ export const body: Block[] = [
   { type: "h2", text: "Perhatikan bahasa yang terlalu umum atau ambigu" },
   {
     type: "p",
-    text: "Frasa seperti “sistem yang user friendly” atau “dashboard yang lengkap” terdengar meyakinkan tapi sebenarnya tidak menjelaskan apa pun secara konkret tentang apa yang akan Anda terima. Proposal yang baik menerjemahkan klaim semacam ini menjadi hal yang bisa diverifikasi: fitur apa saja yang termasuk dalam dashboard tersebut, laporan apa yang bisa dihasilkan, dan bagaimana bentuknya secara spesifik.",
+    text: "Frasa seperti “sistem yang user friendly” atau “[dashboard](/services/dashboard) yang lengkap” terdengar meyakinkan tapi sebenarnya tidak menjelaskan apa pun secara konkret tentang apa yang akan Anda terima. Proposal yang baik menerjemahkan klaim semacam ini menjadi hal yang bisa diverifikasi: fitur apa saja yang termasuk dalam dashboard tersebut, laporan apa yang bisa dihasilkan, dan bagaimana bentuknya secara spesifik.",
   },
   {
     type: "p",

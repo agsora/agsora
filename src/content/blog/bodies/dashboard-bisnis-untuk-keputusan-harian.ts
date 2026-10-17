@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dashboard bisnis hadir untuk mengubah pola itu. Alih-alih menunggu laporan bulanan, pemilik dan manajer bisa melihat kondisi bisnis kapan saja dari satu layar: penjualan hari ini, posisi kas, stok yang menipis, pesanan yang tertunda, atau performa tim. Namun dashboard yang baik bukan sekadar kumpulan grafik berwarna. Banyak dashboard dibuat dengan penuh semangat lalu ditinggalkan dalam sebulan karena tidak menjawab pertanyaan yang benar-benar penting.",
+    text: "Dashboard bisnis hadir untuk mengubah pola itu. Alih-alih menunggu laporan bulanan, pemilik dan manajer bisa melihat kondisi bisnis kapan saja dari satu layar: penjualan hari ini, posisi kas, stok yang menipis, pesanan yang tertunda, atau performa tim. Namun [dashboard](/services/dashboard) yang baik bukan sekadar kumpulan grafik berwarna. Banyak dashboard dibuat dengan penuh semangat lalu ditinggalkan dalam sebulan karena tidak menjawab pertanyaan yang benar-benar penting.",
   },
   {
     type: "p",
@@ -36,7 +36,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
     caption: "Dashboard yang baik menjawab pertanyaan keputusan dalam hitungan detik, bukan menampilkan sebanyak mungkin data.",
   },
@@ -86,7 +86,7 @@ export const body: Block[] = [
   { type: "h2", text: "Dari mana datangnya data" },
   {
     type: "p",
-    text: "Dashboard hanya menampilkan apa yang masuk ke dalamnya. Pada kebanyakan bisnis, data tersebar di beberapa tempat: sistem kasir atau penjualan, aplikasi akuntansi, ERP, CRM, lembar kerja, dan kadang catatan manual. Tantangan terbesarnya bukan membuat grafik, melainkan menyatukan data dari sumber-sumber ini dengan benar.",
+    text: "Dashboard hanya menampilkan apa yang masuk ke dalamnya. Pada kebanyakan bisnis, data tersebar di beberapa tempat: [sistem kasir](/services/pos) atau penjualan, aplikasi akuntansi, ERP, CRM, lembar kerja, dan kadang catatan manual. Tantangan terbesarnya bukan membuat grafik, melainkan menyatukan data dari sumber-sumber ini dengan benar.",
   },
   {
     type: "h3",
@@ -131,7 +131,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    src: "/blog/images/photo-1686061592689-312bbfb5c055",
     alt: "Layar komputer menampilkan dasbor analitik dengan tabel retensi pengguna",
     caption: "Rancangan yang sederhana dan konsisten membuat orang berani mengambil keputusan dari apa yang mereka lihat.",
   },

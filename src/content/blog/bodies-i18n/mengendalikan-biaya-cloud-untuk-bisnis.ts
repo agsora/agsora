@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Moreover, cloud price structures really are complicated. There are charges for compute, storage, databases, outbound transfer, managed services, network addresses, and much more. One technical decision that looks trivial, such as placing two services in different regions, can create unexpected transfer charges. A basic understanding of the bill components is therefore very useful even for nontechnical business owners." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    src: "/blog/images/photo-1550751827-4bd374c3f58b",
     alt: "A glowing circuit board with traces of the circuit, seen at an angle",
     caption: "Behind cloud services are real devices; every running resource has a price, used or not.",
   },
@@ -79,7 +79,7 @@ const en: Block[] = [
   { type: "p", text: "Outbound data transfer from the provider is often the surprise cost. Traffic within one region is usually cheap or free, while traffic to the internet or to other regions is billed. Place services that talk to each other often in the same region, use a content delivery network for static files, and compress responses. Note also the cost if you ever want to move large data to another provider." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "A laptop screen showing business analytics charts and reports",
     caption: "Cloud costs can be controlled only when trends per service and per project are clearly visible.",
   },
@@ -154,7 +154,7 @@ const zh: Block[] = [
   { type: "p", text: "此外,云的价格结构确实复杂。有计算、存储、数据库、出站传输、托管服务、网络地址等许多费用。一个看似微不足道的技术决定,比如把两个服务放在不同区域,就可能产生意想不到的传输费用。因此即使对非技术的企业主,对账单组成有基本了解也很有用。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    src: "/blog/images/photo-1550751827-4bd374c3f58b",
     alt: "斜角拍摄的发光电路板,可见电路走线",
     caption: "云服务背后是真实的设备;每个运行中的资源都有价格,无论是否被使用。",
   },
@@ -212,7 +212,7 @@ const zh: Block[] = [
   { type: "p", text: "从服务商出站的数据传输往往是意外的成本。同一区域内的流量通常便宜或免费,而流向互联网或其他区域的流量则要计费。把经常通信的服务放在同一区域,为静态文件使用内容分发网络,并压缩响应。还要注意将来若想把大量数据迁往其他服务商时的成本。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "笔记本电脑屏幕显示商业分析图表和报告",
     caption: "只有当各服务和各项目的趋势清晰可见时,云成本才能被控制。",
   },

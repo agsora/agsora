@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Ini bukan kegagalan manajemen. Ini tanda bahwa sistem kasir yang dirancang untuk satu toko sedang dipaksa mengurus beberapa lokasi sekaligus. Saat outlet bertambah, pertanyaan yang Anda butuhkan berubah dari “berapa penjualan hari ini” menjadi “outlet mana yang paling menguntungkan, dan kenapa”. Artikel ini membahas apa saja yang harus dimiliki sistem POS untuk bisnis multioutlet, dan cara mengujinya sebelum Anda terlanjur memilih.",
+    text: "Ini bukan kegagalan manajemen. Ini tanda bahwa [sistem kasir](/services/pos) yang dirancang untuk satu toko sedang dipaksa mengurus beberapa lokasi sekaligus. Saat outlet bertambah, pertanyaan yang Anda butuhkan berubah dari “berapa penjualan hari ini” menjadi “outlet mana yang paling menguntungkan, dan kenapa”. Artikel ini membahas apa saja yang harus dimiliki sistem POS untuk bisnis multioutlet, dan cara mengujinya sebelum Anda terlanjur memilih.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -96,7 +96,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pertimbangan yang baru terasa belakangan" },
   {
     type: "p",
-    text: "Dua hal biasanya baru terasa setelah beberapa bulan: apakah data Anda bisa diekspor sewaktu-waktu, dan apakah sistem bisa disambungkan ke software akuntansi atau ERP. Keduanya menentukan seberapa mudah Anda berkembang atau berpindah di kemudian hari. Sistem yang mengunci data Anda di dalamnya membatasi pilihan di masa depan.",
+    text: "Dua hal biasanya baru terasa setelah beberapa bulan: apakah data Anda bisa diekspor sewaktu-waktu, dan apakah sistem bisa disambungkan ke software akuntansi atau [ERP](/services/erp). Keduanya menentukan seberapa mudah Anda berkembang atau berpindah di kemudian hari. Sistem yang mengunci data Anda di dalamnya membatasi pilihan di masa depan.",
   },
   {
     type: "p",

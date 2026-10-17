@@ -2,16 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    // Unsplash's CDN already resizes and format-negotiates; see the loader.
+    // Article photos are self-hosted, pre-sized WebP files; see the loader.
     loader: "custom",
     loaderFile: "./src/lib/image-loader.ts",
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-        pathname: "/**",
-      },
-    ],
+    // The widest image on the site is the 672px article column (1344px at 2x),
+    // so srcset never needs to list the 2048/3840 defaults.
+    deviceSizes: [640, 828, 1080, 1400],
   },
   async redirects() {
     // Page 1 of the archive is /blog; never let a second URL compete with it.

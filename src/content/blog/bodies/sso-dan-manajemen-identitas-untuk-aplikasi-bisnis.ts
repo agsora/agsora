@@ -31,7 +31,7 @@ export const body: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+    src: "/blog/images/photo-1584433144859-1fc3ab64a957",
     alt: "Ponsel pintar menampilkan ikon kunci keamanan di atas meja kayu",
     caption: "Identitas yang dikelola terpusat membuat akses lebih aman sekaligus lebih mudah bagi pengguna.",
   },
@@ -46,7 +46,7 @@ export const body: Block[] = [
   { type: "p", text: "Kebijakan akses kontekstual menambah lapisan lain tanpa membebani pengguna. Misalnya, masuk dari perangkat dan lokasi yang biasa berjalan lancar, sedangkan masuk dari negara yang tidak lazim atau perangkat baru memicu verifikasi tambahan. Dengan begitu keamanan meningkat tepat pada saat risikonya meningkat." },
   { type: "h2", text: "Karyawan masuk, pindah, dan keluar: siklus hidup akun" },
   { type: "p", text: "Nilai terbesar manajemen identitas sering terlihat pada saat karyawan berpindah posisi atau berhenti. Tanpa pengelolaan terpusat, pencabutan akses bergantung pada ingatan seseorang untuk menghubungi pemilik tiap aplikasi. Dengan pengelolaan terpusat, satu tindakan menonaktifkan akun di semua aplikasi yang terhubung dalam hitungan menit." },
-  { type: "p", text: "Idealnya, daftar karyawan di sistem HR menjadi sumber kebenaran. Ketika seorang karyawan dicatat bergabung, akun dan hak akses dasarnya dibuat otomatis. Ketika jabatannya berubah, hak akses menyesuaikan. Ketika statusnya berakhir, seluruh akses dicabut. Penyedia identitas dapat menerima perubahan ini dan meneruskannya ke aplikasi lain melalui mekanisme provisioning otomatis." },
+  { type: "p", text: "Idealnya, daftar karyawan di [sistem HR](/services/hris) menjadi sumber kebenaran. Ketika seorang karyawan dicatat bergabung, akun dan hak akses dasarnya dibuat otomatis. Ketika jabatannya berubah, hak akses menyesuaikan. Ketika statusnya berakhir, seluruh akses dicabut. Penyedia identitas dapat menerima perubahan ini dan meneruskannya ke aplikasi lain melalui mekanisme provisioning otomatis." },
   { type: "ol", items: [
     "Karyawan dicatat di sistem HR dengan jabatan dan unit kerjanya",
     "Penyedia identitas membuat akun dan memasukkannya ke grup sesuai peran",
@@ -60,11 +60,11 @@ export const body: Block[] = [
   { type: "p", text: "Prinsip hak minimum berarti setiap orang hanya mendapat akses yang benar-benar dibutuhkan pekerjaannya. Prinsip ini terdengar sederhana, tetapi sering dilanggar karena memberi akses luas terasa lebih praktis. Akibatnya, kesalahan atau akun yang dibobol dapat merusak jauh lebih banyak daripada seharusnya." },
   { type: "p", text: "Pisahkan tugas yang berisiko jika dipegang satu orang. Orang yang membuat pesanan pembelian sebaiknya bukan orang yang menyetujui pembayarannya. Pemisahan tugas ini adalah kontrol internal klasik yang melindungi bisnis sekaligus orangnya, dan manajemen identitas yang rapi membuatnya mudah ditegakkan dan dibuktikan." },
   { type: "h2", text: "Identitas pelanggan dan mitra" },
-  { type: "p", text: "Pertanyaan identitas tidak berhenti pada karyawan. Pelanggan yang masuk ke toko online atau aplikasi Anda, serta mitra dan pemasok yang mengakses portal, juga memerlukan cara masuk yang aman dan nyaman. Persyaratannya berbeda: pengalaman harus ringan, tetapi risikonya tetap nyata." },
+  { type: "p", text: "Pertanyaan identitas tidak berhenti pada karyawan. Pelanggan yang masuk ke [toko online](/services/website) atau aplikasi Anda, serta mitra dan pemasok yang mengakses portal, juga memerlukan cara masuk yang aman dan nyaman. Persyaratannya berbeda: pengalaman harus ringan, tetapi risikonya tetap nyata." },
   { type: "p", text: "Untuk pelanggan, opsi login dengan akun yang sudah dimiliki atau metode tanpa kata sandi seperti passkey dapat mengurangi gesekan sekaligus meningkatkan keamanan. Untuk mitra, pertimbangkan memberi mereka akses lewat identitas perusahaan mereka sendiri bila memungkinkan, sehingga ketika mitra mencabut akses karyawannya, akses ke portal Anda ikut tercabut." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+    src: "/blog/images/photo-1614064641938-3bbee52942c7",
     alt: "Gembok merah di atas keyboard komputer hitam",
     caption: "Keamanan akun bukan hanya soal kata sandi, tetapi juga siapa yang boleh melakukan apa.",
   },
@@ -81,7 +81,7 @@ export const body: Block[] = [
   ] },
   { type: "h2", text: "Rencana penerapan bertahap" },
   { type: "p", text: "Menerapkan SSO sekaligus untuk semua aplikasi adalah resep kekacauan. Mulailah dengan inventaris: daftar semua aplikasi yang dipakai, siapa pemiliknya, siapa penggunanya, dan data apa yang disimpan. Inventaris ini sendiri sering menghasilkan temuan mengejutkan, seperti aplikasi yang dibeli satu divisi tanpa sepengetahuan IT." },
-  { type: "p", text: "Lalu pilih beberapa aplikasi dengan risiko tertinggi atau pengguna terbanyak sebagai gelombang pertama, misalnya sistem keuangan dan ERP. Uji dengan kelompok kecil, siapkan jalur bantuan, dan baru perluas. Komunikasikan perubahan ini dengan jelas kepada karyawan: apa yang berubah, kapan, dan ke mana bertanya." },
+  { type: "p", text: "Lalu pilih beberapa aplikasi dengan risiko tertinggi atau pengguna terbanyak sebagai gelombang pertama, misalnya sistem keuangan dan [ERP](/services/erp). Uji dengan kelompok kecil, siapkan jalur bantuan, dan baru perluas. Komunikasikan perubahan ini dengan jelas kepada karyawan: apa yang berubah, kapan, dan ke mana bertanya." },
   { type: "ol", items: [
     "Buat inventaris aplikasi, pemilik, pengguna, dan jenis data yang disimpan",
     "Pilih penyedia identitas dan tetapkan kebijakan kata sandi serta MFA",

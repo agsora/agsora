@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "A visitor who types something into your online store's search box is telling you, in their own words, what they want to buy. There is no clearer signal of intent than that. Yet in many stores the search box is the least examined part of the site: installed once when the store was built, then left for years without anyone checking what it returns." },
   { type: "p", text: "The consequences are easy to guess. A shopper types a product name with a slightly different spelling and gets an empty page. Another picks a category and has to scroll through hundreds of products because there is no size or price filter. They do not complain; they close the tab and look elsewhere. The store loses sales from people who were ready to buy, even though the goods were sitting in the warehouse." },
-  { type: "p", text: "This article covers how to design product search and filters that help shoppers find items quickly, on both a website and a mobile app. We discuss the data underneath it, typo tolerance, synonyms, autocomplete, filters, sorting, the no results page, and how to read search data. We use no invented figures; what we offer are principles and steps you can check for yourself in your own store." },
+  { type: "p", text: "This article covers how to design product search and filters that help shoppers find items quickly, on both a website and a [mobile app](/services/mobile). We discuss the data underneath it, typo tolerance, synonyms, autocomplete, filters, sorting, the no results page, and how to read search data. We use no invented figures; what we offer are principles and steps you can check for yourself in your own store." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -16,12 +16,12 @@ const en: Block[] = [
     ],
   },
   { type: "h2", text: "Why search deserves special attention" },
-  { type: "p", text: "Visitors to an online store generally fall into two groups. Some come to browse and wander through categories. Others already know what they are looking for and head straight for the search box. This second group is usually the closest to a buying decision, because they arrive with a clear need and only want to confirm that the item exists, fits, and is sensibly priced." },
+  { type: "p", text: "Visitors to an [online store](/services/website) generally fall into two groups. Some come to browse and wander through categories. Others already know what they are looking for and head straight for the search box. This second group is usually the closest to a buying decision, because they arrive with a clear need and only want to confirm that the item exists, fits, and is sensibly priced." },
   { type: "p", text: "The larger the catalogue, the more search matters. A store with thirty products can rely on menus and category pages. A store with three thousand cannot. Without decent search and filters, adding products actually makes the store feel harder to use, because every new item lengthens the list a shopper has to scroll through." },
   { type: "p", text: "Search is also a free source of market research. Every word typed is real demand, including demand for goods you do not yet sell. A store that records and reads this data knows which products are sought but unavailable, which terms customers use, and which categories confuse people the most." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
+    src: "/blog/images/photo-1586880244406-556ebe35f282",
     alt: "A laptop showing the home page of an online store platform",
     caption: "The search box is often the first place a shopper goes when they already know what they want.",
   },
@@ -54,7 +54,7 @@ const en: Block[] = [
   { type: "p", text: "On a phone screen, filters need their own design. A side panel that is comfortable on a wide screen does not fit on a small one. The common pattern is a filter button that opens a full panel, with an apply button that is always visible and shows the number of results. Shoppers must be able to change filters without losing their place and without waiting for the whole page to reload." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "A person holding a payment card while shopping on a laptop",
     caption: "The faster a shopper finds the right item, the closer they are to the payment step.",
   },
@@ -86,7 +86,7 @@ const en: Block[] = [
   { type: "p", text: "Whichever you choose, make sure the search index is always in step with the store's data. Changes to prices, stock, and new products must reach the index within a short time. Search results that show an old price or an item that has sold out cause disappointment at exactly the moment the shopper is ready to buy." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "A screen showing click and impression charts with a fluctuating blue line",
     caption: "Search data shows what shoppers look for and how often they find it.",
   },
@@ -132,7 +132,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "在网店搜索框里输入内容的访客，正在用自己的话告诉你他想买什么。没有比这更清晰的购买意图信号了。然而在许多店铺里，搜索框恰恰是最少被关注的部分：建站时装上一次，之后多年没有人检查过它到底返回了什么结果。" },
   { type: "p", text: "后果不难想象。顾客输入的商品名称写法稍有不同，就得到一个空白页面。另一位顾客选了分类，却因为没有尺码或价格筛选，只能在几百件商品里不停下滑。他们不会抱怨，只会关掉页面去别处寻找。店铺失去的是那些本来已经准备购买的人，而商品明明就在仓库里。" },
-  { type: "p", text: "本文讨论如何设计能帮助顾客快速找到商品的搜索与筛选功能，无论是在网站还是移动应用中。我们会谈到作为基础的数据、对拼写错误的容忍、同义词、输入建议、筛选、排序、无结果页面，以及如何解读搜索数据。我们不使用编造的数字，提供的是你可以在自己店铺中亲自验证的原则和步骤。" },
+  { type: "p", text: "本文讨论如何设计能帮助顾客快速找到商品的搜索与筛选功能，无论是在[网站](/services/website)还是移动应用中。我们会谈到作为基础的数据、对拼写错误的容忍、同义词、输入建议、筛选、排序、无结果页面，以及如何解读搜索数据。我们不使用编造的数字，提供的是你可以在自己店铺中亲自验证的原则和步骤。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -150,7 +150,7 @@ const zh: Block[] = [
   { type: "p", text: "搜索还是免费的市场调研来源。每一个被输入的词都是真实的需求，包括对你尚未销售的商品的需求。记录并阅读这些数据的店铺，会知道哪些商品有人找却没有货、顾客使用什么说法，以及哪些分类最让人困惑。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
+    src: "/blog/images/photo-1586880244406-556ebe35f282",
     alt: "笔记本电脑上显示着网店平台的首页",
     caption: "对已经知道要买什么的顾客来说，搜索框往往是他们最先去的地方。",
   },
@@ -183,7 +183,7 @@ const zh: Block[] = [
   { type: "p", text: "在手机屏幕上，筛选需要单独设计。宽屏上很舒服的侧边栏，在小屏幕上放不下。常见的做法是用一个筛选按钮打开全屏面板，并让应用按钮始终可见、同时显示结果数量。顾客必须能够在不丢失浏览位置、不必等待整页重新加载的情况下调整筛选。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "一个人拿着支付卡在笔记本电脑上购物",
     caption: "顾客越快找到合适的商品，就离付款那一步越近。",
   },
@@ -202,7 +202,7 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "记录每一次无结果的搜索。这份列表是网店里最有价值的报告之一，因为它直接指出了尚未被满足的需求。有些可以用同义词解决，有些靠改进商品名称，还有一些则成为是否增加新品类的参考。" },
   { type: "h2", text: "移动应用中的搜索" },
-  { type: "p", text: "在移动应用里，由于放菜单的空间非常有限，搜索通常是主要的浏览方式。把搜索框放在拇指容易够到的位置，并让它在主页面上始终可见。把最近的搜索记录保存在设备上，让顾客一点就能重复搜索。" },
+  { type: "p", text: "在[移动应用](/services/mobile)里，由于放菜单的空间非常有限，搜索通常是主要的浏览方式。把搜索框放在拇指容易够到的位置，并让它在主页面上始终可见。把最近的搜索记录保存在设备上，让顾客一点就能重复搜索。" },
   { type: "p", text: "在适合你的商品类型时，利用设备本身的能力。扫描条形码能帮助想要重新订购手头已有商品的顾客。语音搜索能帮助当下不方便打字的用户。拍照搜索对难以用文字描述的商品可能有用，不过在依赖它之前需要认真测试。" },
   { type: "p", text: "也要留意网络状况。手机用户常常处在信号较弱的环境中。分批显示结果，保留上一次的结果让返回键感觉即时，并在搜索进行时给出清楚的提示。屏幕一动不动又没有任何说明，会让用户以为应用卡死了。" },
   { type: "h2", text: "智能搜索与推荐：什么才现实" },
@@ -215,7 +215,7 @@ const zh: Block[] = [
   { type: "p", text: "无论选择哪一种，都要确保搜索索引始终与店铺数据保持一致。价格、库存的变化和新商品，必须在短时间内同步到索引。搜索结果显示旧价格或已售罄的商品，会恰好在顾客准备购买的那一刻带来失望。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "屏幕上显示点击量和展示量图表，蓝色线条上下波动",
     caption: "搜索数据显示顾客在找什么，以及他们找到的频率有多高。",
   },

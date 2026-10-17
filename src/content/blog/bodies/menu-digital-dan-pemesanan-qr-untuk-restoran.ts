@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Beberapa tahun terakhir, kode QR di atas meja restoran dan kafe menjadi pemandangan yang biasa. Pelanggan memindai kode dengan ponselnya, melihat menu lengkap dengan foto, memilih pesanan, bahkan membayar tanpa harus memanggil pelayan. Bagi pemilik usaha makanan dan minuman, gagasan ini terdengar menarik: pesanan lebih cepat, kesalahan berkurang, dan tim dapat melayani lebih banyak meja." },
   { type: "p", text: "Namun menu digital bukan sekadar mengganti buku menu cetak dengan halaman web. Ia menyentuh cara kerja dapur, kasir, pelayan, stok, dan bahkan suasana tempat Anda. Penerapan yang terburu-buru dapat membuat pelanggan bingung, dapur kewalahan, dan pelanggan yang tidak nyaman dengan ponsel merasa ditinggalkan." },
-  { type: "p", text: "Artikel ini membahas bagaimana merancang menu digital dan pemesanan lewat kode QR yang benar-benar membantu: apa manfaat dan batasannya, fitur apa yang penting, bagaimana menghubungkannya dengan sistem kasir dan dapur, bagaimana menjaga pengalaman pelanggan, serta bagaimana memulai tanpa mengganggu operasional yang sedang berjalan." },
+  { type: "p", text: "Artikel ini membahas bagaimana merancang menu digital dan pemesanan lewat kode QR yang benar-benar membantu: apa manfaat dan batasannya, fitur apa yang penting, bagaimana menghubungkannya dengan [sistem kasir](/services/pos) dan dapur, bagaimana menjaga pengalaman pelanggan, serta bagaimana memulai tanpa mengganggu operasional yang sedang berjalan." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "p", text: "Jenis usaha menentukan kecocokan. Kafe dan restoran cepat saji dengan menu yang jelas sering cocok dengan pemesanan mandiri. Restoran fine dining, yang nilai utamanya terletak pada layanan pribadi dan rekomendasi pelayan, mungkin lebih baik memakai menu digital hanya sebagai referensi, bukan pengganti interaksi." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
+    src: "/blog/images/photo-1555396273-367ea4eb4db5",
     alt: "Interior kafe dengan meja kasir dan area duduk pelanggan",
     caption: "Menu digital sebaiknya mendukung suasana tempat Anda, bukan menggantikan keramahan layanan.",
   },

@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Pada tahap tertentu, bisnis yang bertumbuh mulai menghadapi masalah yang aneh: data ada di mana-mana, tetapi jawaban atas pertanyaan sederhana sulit didapat. Berapa laba per produk bulan lalu? Pelanggan mana yang paling menguntungkan? Cabang mana yang pertumbuhannya melambat? Setiap pertanyaan memerlukan beberapa ekspor, penggabungan manual, dan perdebatan tentang angka mana yang benar." },
-  { type: "p", text: "Sistem operasional seperti kasir, toko online, ERP, dan CRM dirancang untuk menjalankan transaksi, bukan untuk menjawab pertanyaan analitis lintas sistem. Ketika orang memaksa sistem-sistem itu untuk melaporkan segala hal, hasilnya adalah laporan lambat, saling bertentangan, dan membebani sistem yang seharusnya melayani pelanggan." },
+  { type: "p", text: "Sistem operasional seperti kasir, [toko online](/services/website), ERP, dan CRM dirancang untuk menjalankan transaksi, bukan untuk menjawab pertanyaan analitis lintas sistem. Ketika orang memaksa sistem-sistem itu untuk melaporkan segala hal, hasilnya adalah laporan lambat, saling bertentangan, dan membebani sistem yang seharusnya melayani pelanggan." },
   { type: "p", text: "Gudang data dan business intelligence, sering disingkat BI, adalah pendekatan untuk memisahkan kebutuhan analitis dari sistem transaksi. Artikel ini menjelaskan konsepnya untuk pemilik bisnis dan manajer nonteknis: apa itu gudang data, kapan sebuah bisnis menengah membutuhkannya, bagaimana memulainya secara bertahap, dan jebakan apa yang perlu dihindari. Tidak ada angka rekaan; yang diberikan adalah kerangka yang dapat disesuaikan." },
   { type: "h2", text: "Ringkasan" },
   {
@@ -17,7 +17,7 @@ export const body: Block[] = [
   },
   { type: "h2", text: "Mengapa laporan dari sistem operasional tidak cukup" },
   { type: "p", text: "Sistem operasional mengelola kejadian hari ini: pesanan baru, stok berkurang, pembayaran masuk. Ia dioptimalkan untuk mencatat dengan cepat dan akurat. Menjawab pertanyaan seperti bagaimana tren penjualan per kategori selama dua tahun terakhir meminta pekerjaan yang sangat berbeda dan sering memperlambat sistem yang sedang melayani pelanggan." },
-  { type: "p", text: "Masalah lain adalah keterpecahan. Penjualan ada di sistem kasir dan toko online, biaya ada di ERP, hubungan pelanggan ada di CRM, dan iklan ada di platform lain. Pertanyaan bisnis yang menarik hampir selalu melintasi beberapa sistem, misalnya berapa laba bersih per kanal setelah semua biaya, atau pelanggan hasil iklan mana yang kemudian membeli ulang." },
+  { type: "p", text: "Masalah lain adalah keterpecahan. Penjualan ada di [sistem kasir](/services/pos) dan toko online, biaya ada di ERP, hubungan pelanggan ada di CRM, dan iklan ada di platform lain. Pertanyaan bisnis yang menarik hampir selalu melintasi beberapa sistem, misalnya berapa laba bersih per kanal setelah semua biaya, atau pelanggan hasil iklan mana yang kemudian membeli ulang." },
   { type: "p", text: "Akibatnya, orang menyusun laporan sendiri di tabel hitung. Setiap tabel memiliki definisi dan data yang sedikit berbeda, sehingga rapat habis untuk memperdebatkan angka, bukan keputusan. Masalahnya bukan kurangnya data, melainkan kurangnya satu sumber kebenaran yang disepakati." },
   { type: "h2", text: "Apa itu gudang data dan BI" },
   { type: "p", text: "Gudang data adalah penyimpanan terpusat yang menampung data dari berbagai sistem sumber, dibersihkan, diselaraskan, dan disusun supaya mudah dianalisis. Ia menyimpan riwayat panjang, tidak sekadar kondisi terkini, sehingga Anda bisa membandingkan antarperiode dan melihat tren." },
@@ -31,7 +31,7 @@ export const body: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "Laptop menampilkan dashboard berisi grafik dan tabel laporan",
     caption: "Dasbor yang baik menjawab pertanyaan bisnis, bukan sekadar memamerkan grafik.",
   },
@@ -72,14 +72,14 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan pendekatan teknis" },
   { type: "p", text: "Tidak ada satu jawaban untuk semua. Pilihan bergantung pada jumlah sumber data, volume, keahlian tim, dan anggaran." },
   { type: "h3", text: "Dasbor langsung di atas satu sistem" },
-  { type: "p", text: "Bila sebagian besar pertanyaan hanya melibatkan satu sistem, misalnya ERP yang sudah menyimpan penjualan, stok, dan keuangan, laporan dan dasbor bawaannya mungkin sudah cukup. Ini adalah pilihan tercepat dan termurah, dan tidak ada alasan untuk menambah kompleksitas yang belum perlu." },
+  { type: "p", text: "Bila sebagian besar pertanyaan hanya melibatkan satu sistem, misalnya [ERP](/services/erp) yang sudah menyimpan penjualan, stok, dan keuangan, laporan dan dasbor bawaannya mungkin sudah cukup. Ini adalah pilihan tercepat dan termurah, dan tidak ada alasan untuk menambah kompleksitas yang belum perlu." },
   { type: "h3", text: "Basis data analitis sederhana" },
   { type: "p", text: "Salin data dari beberapa sistem secara terjadwal ke satu basis data terpisah, lalu hubungkan alat visualisasi ke sana. Pendekatan ini memisahkan beban analitis dari sistem transaksi dan memungkinkan penggabungan lintas sistem tanpa membangun arsitektur besar." },
   { type: "h3", text: "Gudang data penuh dengan alur yang terkelola" },
   { type: "p", text: "Untuk volume besar, banyak sumber, dan kebutuhan analisis yang kompleks, gudang data dengan alur pemuatan terjadwal, lapisan penyelarasan, dan tata kelola menjadi masuk akal. Memerlukan investasi dan keahlian lebih, sehingga sebaiknya dicapai bertahap setelah manfaat pada tahap awal terbukti." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    src: "/blog/images/photo-1558494949-ef010cbdcc31",
     alt: "Rak server dengan kabel jaringan yang tersusun rapat",
     caption: "Infrastruktur data yang sederhana dan terawat sering lebih bernilai daripada arsitektur besar yang tidak terpakai.",
   },

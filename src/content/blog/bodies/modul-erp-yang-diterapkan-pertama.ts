@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pendekatan “sekaligus” memang terdengar efisien: integrasi langsung terasa, dan tidak perlu mengulang proses peralihan berkali-kali. Tetapi dalam praktik, cara ini justru menjadi salah satu penyebab paling umum penerapan ERP yang tersendat. Terlalu banyak yang berubah dalam waktu yang sama, dan ketika ada masalah, sulit mengetahui dari mana asalnya.",
+    text: "Pendekatan “sekaligus” memang terdengar efisien: integrasi langsung terasa, dan tidak perlu mengulang proses peralihan berkali-kali. Tetapi dalam praktik, cara ini justru menjadi salah satu penyebab paling umum penerapan [ERP](/services/erp) yang tersendat. Terlalu banyak yang berubah dalam waktu yang sama, dan ketika ada masalah, sulit mengetahui dari mana asalnya.",
   },
   {
     type: "p",

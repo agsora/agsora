@@ -36,7 +36,6 @@ type Growth = {
   toc: string;
   byline: string;
   proof: { clients: string; services: string; languages: string; pricing: string };
-  industryCta: string;
   estimator: {
     eyebrow: string;
     title: string;
@@ -84,7 +83,6 @@ export const growth: Record<Locale, Growth> = {
     toc: "Isi artikel",
     byline: "Ditulis oleh tim AG·SORA",
     proof: { clients: "klien dipercaya", services: "layanan", languages: "bahasa", pricing: "harga mulai dari tertera" },
-    industryCta: "Diskusikan untuk industri Anda",
     estimator: {
       eyebrow: "Estimasi Biaya",
       title: "Hitung perkiraan investasi Anda",
@@ -131,7 +129,6 @@ export const growth: Record<Locale, Growth> = {
     toc: "In this article",
     byline: "Written by the AG·SORA team",
     proof: { clients: "trusted clients", services: "services", languages: "languages", pricing: "starting prices listed" },
-    industryCta: "Discuss it for your industry",
     estimator: {
       eyebrow: "Cost Estimator",
       title: "Estimate your investment",
@@ -178,7 +175,6 @@ export const growth: Record<Locale, Growth> = {
     toc: "本文目录",
     byline: "AG·SORA 团队撰写",
     proof: { clients: "位受信赖的客户", services: "项服务", languages: "种语言", pricing: "公开起步价" },
-    industryCta: "为您的行业洽谈",
     estimator: {
       eyebrow: "费用估算",
       title: "估算您的投入",

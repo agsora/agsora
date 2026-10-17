@@ -11,7 +11,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Artikel ini membahas prinsip-prinsip UX yang paling berpengaruh terhadap konversi di website bisnis, kesalahan yang paling sering membuat pengunjung pergi, dan cara memperbaikinya secara bertahap tanpa harus membangun ulang seluruh website dari nol.",
+    text: "Artikel ini membahas prinsip-prinsip UX yang paling berpengaruh terhadap konversi di [website bisnis](/services/website), kesalahan yang paling sering membuat pengunjung pergi, dan cara memperbaikinya secara bertahap tanpa harus membangun ulang seluruh website dari nol.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -31,11 +31,11 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Cara paling mudah memahami UX adalah membayangkan pengunjung sebagai orang yang sibuk dengan satu tugas. Seorang manajer pembelian ingin tahu apakah Anda bisa memenuhi volume pesanannya. Seorang pemilik toko ingin tahu apakah sistem kasir Anda mendukung beberapa cabang. Seorang calon pasien ingin tahu jam praktik dan cara membuat janji. Tugas website adalah mengantarkan masing-masing orang ini dari pertanyaan ke jawaban, lalu dari jawaban ke tindakan, dengan hambatan sesedikit mungkin.",
+    text: "Cara paling mudah memahami UX adalah membayangkan pengunjung sebagai orang yang sibuk dengan satu tugas. Seorang manajer pembelian ingin tahu apakah Anda bisa memenuhi volume pesanannya. Seorang pemilik toko ingin tahu apakah [sistem kasir](/services/pos) Anda mendukung beberapa cabang. Seorang calon pasien ingin tahu jam praktik dan cara membuat janji. Tugas website adalah mengantarkan masing-masing orang ini dari pertanyaan ke jawaban, lalu dari jawaban ke tindakan, dengan hambatan sesedikit mungkin.",
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1576153192396-180ecef2a715",
+    src: "/blog/images/photo-1576153192396-180ecef2a715",
     alt: "Tangan menggambar sketsa wireframe beberapa layar aplikasi di atas kertas",
     caption: "Alur pengunjung sebaiknya dirancang di atas kertas atau wireframe sebelum masuk ke detail visual.",
   },
@@ -99,7 +99,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1615914143778-1a1a6e50c5dd",
+    src: "/blog/images/photo-1615914143778-1a1a6e50c5dd",
     alt: "Seseorang menulis di buku catatan di meja kerja hitam",
     caption: "Konsistensi visual membangun kepercayaan, tapi hanya setelah pesan dan alur halaman sudah jelas.",
   },
@@ -129,7 +129,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Poin terakhir sering diremehkan. Formulir yang sempurna tidak ada gunanya jika kirimannya masuk ke email yang tidak dipantau. Menghubungkan formulir langsung ke CRM atau setidaknya ke notifikasi tim sales memastikan setiap prospek mendapat tanggapan cepat, dan kecepatan tanggapan sering menentukan siapa yang memenangkan calon pelanggan.",
+    text: "Poin terakhir sering diremehkan. Formulir yang sempurna tidak ada gunanya jika kirimannya masuk ke email yang tidak dipantau. Menghubungkan formulir langsung ke [CRM](/services/crm) atau setidaknya ke notifikasi tim sales memastikan setiap prospek mendapat tanggapan cepat, dan kecepatan tanggapan sering menentukan siapa yang memenangkan calon pelanggan.",
   },
   { type: "h2", text: "Membangun kepercayaan di halaman yang tepat" },
   {

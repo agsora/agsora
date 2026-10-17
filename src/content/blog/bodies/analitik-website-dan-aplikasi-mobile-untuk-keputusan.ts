@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Setelah website atau aplikasi diluncurkan, pertanyaan yang paling sering muncul adalah: apakah ini berhasil? Jawaban yang memuaskan jarang datang dari perasaan atau dari jumlah pesan yang masuk. Jawaban yang bisa dipercaya datang dari data tentang bagaimana orang benar-benar memakai produk Anda: dari mana mereka datang, apa yang mereka lakukan, di mana mereka berhenti, dan apakah mereka kembali." },
   { type: "p", text: "Sayangnya, banyak bisnis memasang alat analitik lalu hanya melihat dasbor bawaan yang penuh angka tanpa arah. Jumlah kunjungan naik, tetapi penjualan tidak. Unduhan aplikasi tinggi, tetapi pengguna hilang setelah sehari. Tanpa rencana yang jelas, data yang terkumpul tidak menjawab pertanyaan bisnis, dan keputusan tetap berdasarkan tebakan." },
-  { type: "p", text: "Artikel ini membahas cara menyusun analitik untuk website dan aplikasi mobile yang benar-benar membantu keputusan. Kami membahas cara memulai dari pertanyaan bisnis, menyusun rencana pelacakan, metrik yang layak dipantau, corong dan retensi, kualitas data, privasi dan persetujuan pengguna, pengujian perubahan, serta kebiasaan meninjau data. Kami tidak memakai angka rekaan tentang tolok ukur; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada berbagai skala." },
+  { type: "p", text: "Artikel ini membahas cara menyusun analitik untuk website dan [aplikasi mobile](/services/mobile) yang benar-benar membantu keputusan. Kami membahas cara memulai dari pertanyaan bisnis, menyusun rencana pelacakan, metrik yang layak dipantau, corong dan retensi, kualitas data, privasi dan persetujuan pengguna, pengujian perubahan, serta kebiasaan meninjau data. Kami tidak memakai angka rekaan tentang tolok ukur; yang kami tawarkan adalah prinsip dan daftar periksa yang bisa diterapkan pada berbagai skala." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "p", text: "Urutan ini juga mencegah pengumpulan data berlebihan. Setiap potong data yang dikumpulkan punya biaya: waktu pengembangan, penyimpanan, beban kepatuhan, dan risiko bila bocor. Data yang tidak menjawab pertanyaan apa pun sebaiknya tidak dikumpulkan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
     caption: "Grafik hanya berguna bila terkait pertanyaan yang jelas dan keputusan yang akan diambil.",
   },
@@ -89,7 +89,7 @@ export const body: Block[] = [
   { type: "p", text: "Privasi bukan hanya kewajiban hukum, tetapi juga soal kepercayaan. Pengguna yang merasa dilacak berlebihan akan pergi, dan insiden kebocoran data merusak reputasi lebih lama daripada keuntungan jangka pendek yang diperoleh dari data tambahan. Pendekatan yang menghormati privasi dan tetap menjawab pertanyaan bisnis hampir selalu tersedia, misalnya memakai data agregat atau anonim bila identitas individu tidak diperlukan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    src: "/blog/images/photo-1551288049-bebda4e38f71",
     alt: "Dashboard berisi beberapa grafik data yang ditampilkan berdampingan",
     caption: "Dasbor yang baik menampilkan sedikit angka yang berkaitan dengan keputusan, bukan semua angka yang bisa diambil.",
   },
@@ -125,7 +125,7 @@ export const body: Block[] = [
     "Perhatikan biaya yang bisa membesar seiring volume peristiwa",
     "Hindari memasang banyak alat yang tumpang tindih sehingga angkanya saling bertentangan",
   ] },
-  { type: "p", text: "Jangan lupakan data yang sudah Anda miliki. Basis data transaksi, sistem kasir, CRM, dan ERP sering memuat jawaban yang lebih akurat untuk pertanyaan tertentu daripada alat pelacakan perilaku. Menggabungkan keduanya, misalnya mengaitkan sumber kunjungan dengan pesanan nyata, memberi gambaran yang lebih utuh." },
+  { type: "p", text: "Jangan lupakan data yang sudah Anda miliki. Basis data transaksi, [sistem kasir](/services/pos), CRM, dan ERP sering memuat jawaban yang lebih akurat untuk pertanyaan tertentu daripada alat pelacakan perilaku. Menggabungkan keduanya, misalnya mengaitkan sumber kunjungan dengan pesanan nyata, memberi gambaran yang lebih utuh." },
   { type: "h2", text: "Kesalahan umum yang sebaiknya dihindari" },
   { type: "ul", items: [
     "Memasang alat tanpa pertanyaan bisnis dan tanpa rencana pelacakan",

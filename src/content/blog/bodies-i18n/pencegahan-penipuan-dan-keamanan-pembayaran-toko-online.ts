@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "There is also fraud from genuine buyers: claiming goods never arrived when they did, returning goods different from those sent, or abusing the return policy. And on the other side, there is fraud targeting your customers, such as fake pages imitating the store or messages asking for transfers to another account." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "A person holding a payment card while shopping on a laptop",
     caption: "An online payment that looks successful is not necessarily final; a dispute can arrive weeks later.",
   },
@@ -51,7 +51,7 @@ const en: Block[] = [
   { type: "p", text: "Enable notifications for sensitive events: logins from a new device, email address changes, payment method changes, and large refunds. Notifications give customers and the team a chance to stop misuse before it does damage." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+    src: "/blog/images/photo-1614064641938-3bbee52942c7",
     alt: "A red padlock on top of a black computer keyboard",
     caption: "Staff accounts with broad access need the strongest protection.",
   },
@@ -73,7 +73,7 @@ const en: Block[] = [
   { type: "p", text: "For bank transfers and e-wallets, the main risk is fake transfer proof and forged confirmations. Do not rely on screenshots; confirm payments through the provider's official notification or account reconciliation. A system that verifies payments automatically closes this gap while also speeding up order processing." },
   { type: "h2", text: "Monitoring, recording, and learning from incidents" },
   { type: "p", text: "Good security needs a trail. Make sure the system records who changed what and when: price changes, refunds, address changes, and access to customer data. These records are invaluable when an incident must be investigated, and their mere existence reduces the temptation of misuse within the organisation." },
-  { type: "p", text: "Build a simple dashboard that tracks a few numbers: failed payments per day, orders held, disputes, and refund value. A sudden jump in any of them is a signal to check, often before any customer complains." },
+  { type: "p", text: "Build a simple [dashboard](/services/dashboard) that tracks a few numbers: failed payments per day, orders held, disputes, and refund value. A sudden jump in any of them is a signal to check, often before any customer complains." },
   { type: "p", text: "After every serious incident, hold a short review without hunting for scapegoats. What happened, why did it slip through, and what rule needs adding? Reviews like this turn every loss into an improvement that makes the store stronger." },
   { type: "h2", text: "Privacy and duties toward customer data" },
   { type: "p", text: "Fraud prevention often involves collecting extra data such as network addresses, device information, and order history. Collect only what is necessary, inform customers through a clear privacy policy, and keep it only as long as needed. Excessive data collection makes you carry unnecessary risk." },
@@ -115,7 +115,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "每一家开始热闹起来的网店，迟早都会遇到欺诈。形式多种多样：买家使用被盗的银行卡、用虚假订单测试卡片、滥用退款、账户被盗用，以及冒充你的店铺要求顾客转账的消息。大部分欺诈在损失体现在报表里之前都不会被察觉。" },
   { type: "p", text: "许多店主认为支付安全完全是支付服务商的事。这在一定程度上是对的：敏感的银行卡数据不应该接触你的服务器。但是否接受或拒绝一笔订单、如何处理争议、如何保护顾客账户，仍然掌握在你手中。" },
-  { type: "p", text: "本文介绍网店常见的欺诈类型、值得留意的信号、适合中小企业的防御层次，以及如何处理支付争议。我们不引用捏造的损失数字，重点是可以应用的思路和工作习惯。" },
+  { type: "p", text: "本文介绍[网店](/services/website)常见的欺诈类型、值得留意的信号、适合中小企业的防御层次，以及如何处理支付争议。我们不引用捏造的损失数字，重点是可以应用的思路和工作习惯。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -133,7 +133,7 @@ const zh: Block[] = [
   { type: "p", text: "还有来自真实买家的欺诈：明明收到却声称没收到，退回与所发不同的商品，或滥用退货政策。而在另一面，还有针对你的顾客的欺诈，例如模仿店铺的虚假页面，或要求转账到其他账户的消息。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "一个人拿着银行卡在笔记本电脑上购物",
     caption: "看起来成功的在线支付不一定是最终的；争议可能在几周后才出现。",
   },
@@ -163,7 +163,7 @@ const zh: Block[] = [
   { type: "p", text: "为敏感事件开启通知：从新设备登录、更改电子邮件地址、更改支付方式以及大额退款。通知让顾客和团队有机会在造成损害之前制止滥用。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7",
+    src: "/blog/images/photo-1614064641938-3bbee52942c7",
     alt: "黑色电脑键盘上的一把红色挂锁",
     caption: "拥有广泛权限的员工账户需要最强的保护。",
   },
@@ -185,7 +185,7 @@ const zh: Block[] = [
   { type: "p", text: "对于银行转账和电子钱包，主要风险是伪造的转账凭证和伪造的确认。不要依赖截图；应通过服务商的官方通知或账户对账来确认付款。自动核实付款的系统既能堵住这一漏洞，又能加快订单处理。" },
   { type: "h2", text: "监控、记录并从事件中学习" },
   { type: "p", text: "良好的安全需要留下痕迹。确保系统记录谁在何时更改了什么：价格变更、退款、地址变更以及对顾客数据的访问。当需要调查事件时，这些记录非常宝贵，而它们的存在本身就会减少组织内部滥用的诱惑。" },
-  { type: "p", text: "建立一个简单的仪表盘，跟踪几个数字：每天支付失败次数、被暂缓的订单数、争议数和退款金额。其中任何一项突然激增，都是需要检查的信号，往往在任何顾客投诉之前。" },
+  { type: "p", text: "建立一个简单的[仪表盘](/services/dashboard)，跟踪几个数字：每天支付失败次数、被暂缓的订单数、争议数和退款金额。其中任何一项突然激增，都是需要检查的信号，往往在任何顾客投诉之前。" },
   { type: "p", text: "每次严重事件之后，进行一次简短的复盘，不追究替罪羊。发生了什么、为什么漏过、需要增加什么规则？这样的复盘把每一次损失转化为让店铺更强大的改进。" },
   { type: "h2", text: "隐私与对顾客数据的责任" },
   { type: "p", text: "防欺诈往往涉及收集额外的数据，例如网络地址、设备信息和订单历史。只收集必要的数据，通过清晰的隐私政策告知顾客，并且只保留必要的时间。过度收集数据会让你承担不必要的风险。" },

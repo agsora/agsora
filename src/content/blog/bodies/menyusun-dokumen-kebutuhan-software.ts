@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa dokumen kebutuhan penting" },
   {
     type: "p",
-    text: "Tanpa dokumen kebutuhan, setiap vendor menyusun asumsi sendiri tentang apa yang Anda maksud. Vendor A mungkin mengasumsikan Anda butuh aplikasi mobile lengkap dengan notifikasi push. Vendor B mungkin mengasumsikan cukup aplikasi web sederhana. Kedua asumsi itu valid tanpa penjelasan lebih lanjut, tetapi menghasilkan harga dan ruang lingkup yang sangat berbeda, dan Anda tidak akan tahu perbedaan itu sampai membandingkan detail penawaran.",
+    text: "Tanpa dokumen kebutuhan, setiap vendor menyusun asumsi sendiri tentang apa yang Anda maksud. Vendor A mungkin mengasumsikan Anda butuh [aplikasi mobile](/services/mobile) lengkap dengan notifikasi push. Vendor B mungkin mengasumsikan cukup aplikasi web sederhana. Kedua asumsi itu valid tanpa penjelasan lebih lanjut, tetapi menghasilkan harga dan ruang lingkup yang sangat berbeda, dan Anda tidak akan tahu perbedaan itu sampai membandingkan detail penawaran.",
   },
   {
     type: "p",
@@ -67,7 +67,7 @@ export const body: Block[] = [
   { type: "h3", text: "6. Sistem yang sudah dipakai" },
   {
     type: "p",
-    text: "Sebutkan aplikasi lain yang sedang dipakai dan yang mungkin perlu dihubungkan dengan sistem baru: software akuntansi, payment gateway, marketplace, atau sistem HR. Ini membantu vendor menilai kompleksitas integrasi sejak awal.",
+    text: "Sebutkan aplikasi lain yang sedang dipakai dan yang mungkin perlu dihubungkan dengan sistem baru: software akuntansi, payment gateway, marketplace, atau [sistem HR](/services/hris). Ini membantu vendor menilai kompleksitas integrasi sejak awal.",
   },
   { type: "h3", text: "7. Batasan" },
   {
@@ -124,7 +124,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua permintaan, dua hasil" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko bangunan yang menghubungi vendor dengan pesan singkat: “Kami butuh sistem kasir dan stok.” Vendor memberi harga berdasarkan sistem kasir standar. Setelah pengerjaan dimulai, baru diketahui bahwa toko ini butuh pencatatan stok per gudang, harga grosir untuk pelanggan tertentu, dan pembayaran termin, semua di luar asumsi awal vendor. Biaya tambahan dan jadwal molor menjadi tidak terhindarkan.",
+    text: "Bayangkan sebuah toko bangunan yang menghubungi vendor dengan pesan singkat: “Kami butuh [sistem kasir](/services/pos) dan stok.” Vendor memberi harga berdasarkan sistem kasir standar. Setelah pengerjaan dimulai, baru diketahui bahwa toko ini butuh pencatatan stok per gudang, harga grosir untuk pelanggan tertentu, dan pembayaran termin, semua di luar asumsi awal vendor. Biaya tambahan dan jadwal molor menjadi tidak terhindarkan.",
   },
   {
     type: "p",

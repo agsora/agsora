@@ -33,7 +33,7 @@ export const body: Block[] = [
   { type: "p", text: "Pilih satu atau dua negara untuk dipelajari mendalam. Lebih baik mengerti satu pasar dengan baik daripada melayani dua puluh pasar secara dangkal. Pelajaran yang diperoleh dari pasar pertama akan mempercepat dan mempermurah ekspansi berikutnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    src: "/blog/images/photo-1578575437130-527eed3abbec",
     alt: "Pelabuhan kontainer dengan derek besar dan kapal bermuatan kontainer",
     caption: "Penjualan lintas negara menyentuh pengiriman, bea cukai, dan aturan impor di negara tujuan.",
   },
@@ -91,7 +91,7 @@ export const body: Block[] = [
   { type: "p", text: "Struktur situs multibahasa juga memengaruhi visibilitas di mesin pencari. Pastikan setiap versi bahasa memiliki alamat tersendiri dan ditandai dengan benar sehingga mesin pencari dapat menampilkan versi yang tepat kepada pengguna di setiap negara, serta menghindari konten duplikat yang membingungkan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    src: "/blog/images/photo-1451187580459-43490279c0fa",
     alt: "Foto bumi dari luar angkasa dengan cahaya kota di malam hari",
     caption: "Pembeli di berbagai zona waktu mengharapkan jawaban dan informasi yang jelas tanpa menunggu lama.",
   },
@@ -111,7 +111,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada dua jalur utama. Marketplace internasional menawarkan akses langsung ke pembeli, infrastruktur pembayaran, dan terkadang program pengiriman, dengan imbalan komisi dan batasan atas hubungan pelanggan. Toko sendiri memberi kendali penuh atas merek, data, dan pengalaman, tetapi Anda menanggung lalu lintas, kepercayaan, dan operasional." },
   { type: "p", text: "Banyak bisnis memulai lewat marketplace untuk menguji permintaan dengan cepat dan murah, lalu membangun toko sendiri untuk pelanggan yang sudah mengenal merek. Keduanya tidak saling meniadakan. Yang penting adalah memahami struktur biaya masing-masing dan bahwa merek yang kuat adalah aset jangka panjang yang tidak dimiliki marketplace." },
   { type: "h2", text: "Menyiapkan sistem dan operasional" },
-  { type: "p", text: "Ekspor menambah kompleksitas yang harus ditangani sistem, bukan orang secara manual. Toko online perlu mendukung banyak mata uang, perhitungan pajak dan bea per negara, ongkos kirim internasional berdasarkan berat dan tujuan, serta dokumen ekspor. ERP atau sistem pesanan perlu mencatat penjualan ekspor secara terpisah untuk pembukuan dan pelaporan pajak." },
+  { type: "p", text: "Ekspor menambah kompleksitas yang harus ditangani sistem, bukan orang secara manual. Toko online perlu mendukung banyak mata uang, perhitungan pajak dan bea per negara, ongkos kirim internasional berdasarkan berat dan tujuan, serta dokumen ekspor. [ERP](/services/erp) atau sistem pesanan perlu mencatat penjualan ekspor secara terpisah untuk pembukuan dan pelaporan pajak." },
   { type: "ul", items: [
     "Katalog dengan data tambahan: berat, dimensi, kode klasifikasi barang, dan negara asal",
     "Aturan pengiriman dan ongkos per zona, dengan batasan produk yang tidak dapat dikirim ke negara tertentu",

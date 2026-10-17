@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Cerita seperti ini sangat umum, dan pertanyaan yang menyertainya juga sama: apakah sekarang waktu yang tepat untuk menerapkan ERP, atau haruskah menunggu sampai bisnis 'lebih siap'? Pertanyaan itu sendiri sering salah arah. ERP bukan hadiah untuk bisnis yang sudah besar, melainkan respons terhadap tahap pertumbuhan tertentu, dan tahap itu bisa dikenali lebih awal daripada yang dikira kebanyakan pemilik bisnis.",
+    text: "Cerita seperti ini sangat umum, dan pertanyaan yang menyertainya juga sama: apakah sekarang waktu yang tepat untuk menerapkan [ERP](/services/erp), atau haruskah menunggu sampai bisnis 'lebih siap'? Pertanyaan itu sendiri sering salah arah. ERP bukan hadiah untuk bisnis yang sudah besar, melainkan respons terhadap tahap pertumbuhan tertentu, dan tahap itu bisa dikenali lebih awal daripada yang dikira kebanyakan pemilik bisnis.",
   },
   {
     type: "p",
@@ -36,7 +36,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tahap 1: Satu lokasi, tim kecil, biasanya belum perlu" },
   {
     type: "p",
-    text: "Ketika bisnis masih berjalan di satu lokasi dengan tim yang bisa saling berkoordinasi langsung, spreadsheet yang dikelola rapi dan sistem kasir atau pembukuan sederhana biasanya sudah cukup. Menambahkan ERP di tahap ini sering kali menambah kerumitan tanpa manfaat yang sepadan, karena volume data belum cukup besar untuk membuat proses manual terasa berat.",
+    text: "Ketika bisnis masih berjalan di satu lokasi dengan tim yang bisa saling berkoordinasi langsung, spreadsheet yang dikelola rapi dan [sistem kasir](/services/pos) atau pembukuan sederhana biasanya sudah cukup. Menambahkan ERP di tahap ini sering kali menambah kerumitan tanpa manfaat yang sepadan, karena volume data belum cukup besar untuk membuat proses manual terasa berat.",
   },
   { type: "h2", text: "Tahap 2: Cabang atau lini bisnis baru mulai dibuka" },
   {

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Every day an online store receives orders and payments through various routes: bank transfer, digital wallet, card, QR code, cash on delivery, and sometimes instalments. On the other side, money enters the bank account with a delay, minus fees, and is often combined into one payout from the payment provider. When month end arrives, a simple question emerges: does the money that came into the account equal the sales recorded in the system?" },
   { type: "p", text: "Answering that question is the job of payment reconciliation. Without it, a business may think its sales are healthy while there are orders never paid, payments stuck, refunds unrecorded, or service fees growing unnoticed. Many stores do it by hand in spreadsheets, and the work becomes ever more painful as transactions grow." },
-  { type: "p", text: "This article covers how to design payment reconciliation that is tidy and, as far as possible, automatic for an online store and app. We discuss the sources of discrepancy, matching keys, daily and monthly flows, handling exceptions, recording fees, internal controls, and tool choices. We use no invented figures about service fees or settlement times; those terms differ by provider and need to be checked in your latest agreement and documentation." },
+  { type: "p", text: "This article covers how to design payment reconciliation that is tidy and, as far as possible, automatic for an [online store](/services/website) and app. We discuss the sources of discrepancy, matching keys, daily and monthly flows, handling exceptions, recording fees, internal controls, and tool choices. We use no invented figures about service fees or settlement times; those terms differ by provider and need to be checked in your latest agreement and documentation." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Operationally, tidy reconciliation makes the month end close take days, not weeks. The finance team no longer hunts for proof of payment one by one, and the customer service team can answer questions about payment status with certainty." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Financial report documents and a calculator on a work desk",
     caption: "Reconciliation makes sure the figures in the report equal the money actually received in the account.",
   },
@@ -81,7 +81,7 @@ const en: Block[] = [
   { type: "p", text: "Money the customer has paid but that has not yet reached the account is a receivable from the payment provider, not cash. Treat it as a clearing account emptied when the payout is received. This account also serves as a control: its balance must always be explainable by uncleared transactions, and a balance that grows with no reason signals something left behind." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
+    src: "/blog/images/photo-1556742502-ec7c0e9f34b1",
     alt: "A customer tapping a payment card on a contactless reader",
     caption: "Every successful payment must be traceable to an order and to a deposit in the account.",
   },
@@ -111,7 +111,7 @@ const en: Block[] = [
   ] },
   { type: "p", text: "Pay attention to payment data security too. A store does not need to, and preferably should not, store full card data; leave processing to an authorised payment provider and keep only the transaction reference. Check the payment data security rules currently in force if your store handles card data in any form." },
   { type: "h2", text: "Choosing tools and the level of automation" },
-  { type: "p", text: "The choice of tools depends on transaction volume and channel complexity. At small volumes, a spreadsheet with report import and matching formulas may be enough, as long as the matching key is consistent. When transactions reach hundreds a day or channels multiply, automation becomes an investment that pays back." },
+  { type: "p", text: "The choice of tools depends on transaction volume and channel complexity. At small volumes, a spreadsheet with report import and matching formulas may be enough, as long as the matching key is consistent. When transactions reach hundreds a day or channels multiply, [automation](/services/ai-automation) becomes an investment that pays back." },
   { type: "ul", items: [
     "The built in reconciliation features of your store system, ERP, or accounting software, where available",
     "Automatic import of transaction reports from the payment provider through an interface or scheduled files",
@@ -153,7 +153,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "网店每天通过各种途径接收订单和付款:银行转账、电子钱包、银行卡、二维码、货到付款,有时还有分期。另一方面,资金进入银行账户存在延迟,扣除了费用,且常常合并为支付服务商的一笔结算。到了月底,一个简单的问题出现了:进入账户的钱,是否等于系统里记录的销售额?" },
   { type: "p", text: "回答这个问题,就是支付对账的工作。没有它,企业可能以为销售很健康,而实际上有从未付款的订单、卡住的付款、未记录的退款,或悄悄增长的服务费。许多店铺用表格手工对账,交易越多,这项工作越折磨人。" },
-  { type: "p", text: "本文介绍如何为网店和应用设计整齐且尽可能自动化的支付对账。我们讨论差异的来源、匹配键、每日和每月流程、异常处理、费用记录、内部控制和工具选择。我们不使用杜撰的服务费或结算时间数字;这些条款因服务商而异,需要在你最新的协议和文档中核查。" },
+  { type: "p", text: "本文介绍如何为[网店](/services/website)和应用设计整齐且尽可能自动化的支付对账。我们讨论差异的来源、匹配键、每日和每月流程、异常处理、费用记录、内部控制和工具选择。我们不使用杜撰的服务费或结算时间数字;这些条款因服务商而异,需要在你最新的协议和文档中核查。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -171,7 +171,7 @@ const zh: Block[] = [
   { type: "p", text: "从运营角度看,整齐的对账让月末结账只需几天,而不是几周。财务团队不再逐个追查付款凭证,客服团队也能确定地回答有关付款状态的问题。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "办公桌上的财务报告文件和计算器",
     caption: "对账确保报表中的数字等于账户里真正收到的钱。",
   },
@@ -204,7 +204,7 @@ const zh: Block[] = [
   ] },
   { type: "p", text: "为每个订单或每位客户设立虚拟账号,对银行转账有很大帮助,因为每笔进账都已带有订单身份。没有它,转账金额不同或忘记填写备注的买家,会成为令人疲惫的异常来源。" },
   { type: "h2", text: "轻量的每日流程" },
-  { type: "p", text: "一个月做一次的对账,会让问题堆积到难以追查。轻量的每日例行流程有效得多,因为差异是在记忆犹新、证据容易找到时被发现的。大部分步骤可以借助服务商的编程接口和银行流水导入实现自动化。" },
+  { type: "p", text: "一个月做一次的对账,会让问题堆积到难以追查。轻量的每日例行流程有效得多,因为差异是在记忆犹新、证据容易找到时被发现的。大部分步骤可以借助服务商的编程接口和银行流水导入实现[自动化](/services/ai-automation)。" },
   { type: "ol", items: [
     "从支付服务商拉取前一天的交易报告,尽可能自动进行",
     "按参考编号把每笔成功的交易与订单匹配,然后把订单标记为已付款并已核对",
@@ -231,14 +231,14 @@ const zh: Block[] = [
   { type: "p", text: "顾客已付款但尚未到达账户的钱,是对支付服务商的应收款,而不是现金。把它当作在收到结算时清零的过渡账户。这个账户同时也是一种控制:其余额必须始终能由未结算的交易来解释,余额无故增大则说明有东西被遗漏。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1",
+    src: "/blog/images/photo-1556742502-ec7c0e9f34b1",
     alt: "顾客把银行卡贴近非接触式读卡器",
     caption: "每笔成功的付款都必须能追溯到订单,并追溯到账户中的入账。",
   },
   { type: "h2", text: "货到付款及其他渠道" },
   { type: "p", text: "货到付款带来自己的对账挑战。钱由快递员或物流公司持有,几天后才汇付,常常由许多包裹合并,并扣除服务费。对账是把已送达并已代收的包裹清单与承运商的结算相匹配。投递失败或被退回的包裹不得计入收入。" },
   { type: "p", text: "如果店铺也通过电商平台销售,每个平台会在扣除佣金、运费和推广费后,按自己的时间表结算资金。研究每个平台的结算报告,并与订单和银行流水配对。这些报告通常带有逐单明细,所以销售额与实收资金之间的差额可以得到解释。" },
-  { type: "p", text: "对于实体店的销售,现金与非现金的对账是对照收银系统的报表进行的。所有渠道使用同一个记录系统,会让匹配容易得多,因为订单号、商品编码和数据结构是统一的。" },
+  { type: "p", text: "对于实体店的销售,现金与非现金的对账是对照[收银系统](/services/pos)的报表进行的。所有渠道使用同一个记录系统,会让匹配容易得多,因为订单号、商品编码和数据结构是统一的。" },
   { type: "h2", text: "不再令人紧张的月末结账" },
   { type: "p", text: "每日例行流程运转起来之后,月末结账就变成最后的核实,而不是大规模搜寻。设定一致的截止日期,用于拉取报告、解决异常和批准结果。留意跨月的交易,例如月底付款、下月初才结算的情况,并根据你的会计政策一致地处理。" },
   { type: "ol", items: [

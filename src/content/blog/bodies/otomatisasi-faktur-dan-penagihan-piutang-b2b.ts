@@ -25,7 +25,7 @@ export const body: Block[] = [
   { type: "p", text: "Pastikan faktur memenuhi ketentuan perpajakan yang berlaku, termasuk format dan penomoran. Ketentuan ini dapat berubah, sehingga rujuk selalu aturan terbaru dari otoritas pajak dan konsultasikan dengan akuntan atau konsultan pajak Anda." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    src: "/blog/images/photo-1554224155-6726b3ff858f",
     alt: "Tumpukan formulir, nota, dan kalkulator di atas meja",
     caption: "Faktur yang dibuat dari data pesanan dan pengiriman mengurangi kesalahan yang menunda pembayaran.",
   },
@@ -49,11 +49,11 @@ export const body: Block[] = [
   { type: "p", text: "Sisakan ruang bagi penilaian manusia. Pelanggan besar yang bayarnya selalu tertunda dua hari mungkin tidak perlu pengingat keras, sedangkan pelanggan baru dengan tagihan besar perlu perhatian lebih awal. Sistem yang baik memungkinkan pengecualian per pelanggan dan menghentikan pengingat otomatis ketika ada sengketa yang sedang diselesaikan." },
   { type: "h2", text: "Mencocokkan pembayaran yang masuk" },
   { type: "p", text: "Pembayaran yang masuk ke rekening perlu dicocokkan dengan faktur yang dibayarnya. Masalahnya, pelanggan sering membayar beberapa faktur sekaligus, membayar sebagian, atau memotong biaya tanpa penjelasan. Mencocokkan ini secara manual memakan waktu dan rawan salah." },
-  { type: "p", text: "Banyak ERP mengimpor mutasi rekening dan mengusulkan pasangan antara pembayaran dan faktur berdasarkan nominal, nama pengirim, dan referensi. Cocokkan yang pasti secara otomatis, dan sisakan yang meragukan untuk ditinjau orang. Gunakan nomor faktur sebagai referensi pembayaran dan mintalah pelanggan mencantumkannya." },
+  { type: "p", text: "Banyak [ERP](/services/erp) mengimpor mutasi rekening dan mengusulkan pasangan antara pembayaran dan faktur berdasarkan nominal, nama pengirim, dan referensi. Cocokkan yang pasti secara otomatis, dan sisakan yang meragukan untuk ditinjau orang. Gunakan nomor faktur sebagai referensi pembayaran dan mintalah pelanggan mencantumkannya." },
   { type: "p", text: "Tangani selisih dengan aturan jelas: pembayaran kurang, pembayaran lebih, atau potongan. Selisih kecil dapat dibukukan sebagai penyesuaian dengan batas yang disetujui, sedangkan selisih besar perlu ditelusuri. Tanpa aturan, selisih ini menumpuk di akun sementara dan menyulitkan penutupan buku." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Dokumen laporan keuangan dan kalkulator di atas meja kerja",
     caption: "Pencocokan pembayaran yang rapi membuat umur piutang yang dilaporkan benar-benar mencerminkan keadaan.",
   },

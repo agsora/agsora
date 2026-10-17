@@ -11,7 +11,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Artikel ini membahas bagaimana notifikasi push dan strategi retensi lain dirancang dengan sehat untuk aplikasi mobile bisnis. Kita akan melihat jenis notifikasi yang bermanfaat, cara meminta izin dengan benar, pentingnya segmentasi dan waktu pengiriman, serta cara mengukur apakah semua upaya itu benar-benar bekerja. Pembahasannya bersifat praktis dan tidak memakai angka rekaan; yang kita pakai adalah penalaran yang bisa Anda uji sendiri pada data bisnis Anda.",
+    text: "Artikel ini membahas bagaimana notifikasi push dan strategi retensi lain dirancang dengan sehat untuk [aplikasi mobile](/services/mobile) bisnis. Kita akan melihat jenis notifikasi yang bermanfaat, cara meminta izin dengan benar, pentingnya segmentasi dan waktu pengiriman, serta cara mengukur apakah semua upaya itu benar-benar bekerja. Pembahasannya bersifat praktis dan tidak memakai angka rekaan; yang kita pakai adalah penalaran yang bisa Anda uji sendiri pada data bisnis Anda.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -39,7 +39,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d",
+    src: "/blog/images/photo-1522542550221-31fd19575a2d",
     alt: "Sketsa wireframe berwarna dari beberapa tata letak layar aplikasi",
     caption: "Ponsel pelanggan penuh aplikasi; yang bertahan adalah yang memberi manfaat nyata, bukan yang paling sering berbunyi.",
   },
@@ -89,7 +89,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Contoh nyata: sebuah kedai kopi tidak perlu mengirim promo menu sarapan kepada pelanggan yang selalu datang sore hari. Sebuah toko perlengkapan bayi tidak perlu memberi tahu pelanggan yang hanya membeli kebutuhan dapur. Dengan data riwayat pembelian yang tersimpan rapi di sistem, penyesuaian seperti ini bisa dilakukan otomatis. Itulah salah satu alasan aplikasi mobile sebaiknya terhubung dengan sistem POS atau CRM, bukan berdiri sebagai silo terpisah.",
+    text: "Contoh nyata: sebuah kedai kopi tidak perlu mengirim promo menu sarapan kepada pelanggan yang selalu datang sore hari. Sebuah toko perlengkapan bayi tidak perlu memberi tahu pelanggan yang hanya membeli kebutuhan dapur. Dengan data riwayat pembelian yang tersimpan rapi di sistem, penyesuaian seperti ini bisa dilakukan otomatis. Itulah salah satu alasan aplikasi mobile sebaiknya terhubung dengan [sistem POS](/services/pos) atau CRM, bukan berdiri sebagai silo terpisah.",
   },
   {
     type: "p",
@@ -120,7 +120,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512314889357-e157c22f938d",
+    src: "/blog/images/photo-1512314889357-e157c22f938d",
     alt: "Catatan tempel kuning bergambar bola lampu di papan gabus",
     caption: "Retensi dirancang sejak ide pertama: alur singkat, manfaat jelas, dan alasan nyata untuk kembali.",
   },

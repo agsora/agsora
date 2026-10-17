@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Banyak pemilik bisnis tahu omzet mereka naik, tetapi tidak yakin apakah labanya ikut naik. Penyebab yang sering muncul adalah harga pokok yang tidak dihitung dengan benar. Harga jual ditetapkan dari perkiraan, biaya bahan baku berubah tanpa disadari, dan ongkos tenaga kerja serta listrik tidak pernah dibebankan ke produk. Akhirnya, produk yang tampak laris ternyata menggerus margin." },
   { type: "p", text: "Harga pokok penjualan (HPP) dan akuntansi biaya menjawab pertanyaan mendasar: berapa sebenarnya biaya untuk membuat atau mengadakan satu unit barang atau jasa. Jawaban yang akurat memengaruhi penetapan harga, keputusan produk mana yang dipertahankan, negosiasi dengan pemasok, dan kesehatan keuangan secara keseluruhan." },
-  { type: "p", text: "Artikel ini menjelaskan komponen HPP, metode penilaian persediaan yang umum, cara membebankan biaya tidak langsung, bagaimana ERP membantu menghitung dan memantau biaya, serta kesalahan yang sering terjadi. Standar akuntansi dan ketentuan pajak dapat berbeda dan berubah, sehingga konfirmasikan penerapan pada bisnis Anda dengan akuntan atau konsultan pajak." },
+  { type: "p", text: "Artikel ini menjelaskan komponen HPP, metode penilaian persediaan yang umum, cara membebankan biaya tidak langsung, bagaimana [ERP](/services/erp) membantu menghitung dan memantau biaya, serta kesalahan yang sering terjadi. Standar akuntansi dan ketentuan pajak dapat berbeda dan berubah, sehingga konfirmasikan penerapan pada bisnis Anda dengan akuntan atau konsultan pajak." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -19,7 +19,7 @@ export const body: Block[] = [
   { type: "p", text: "Untuk bisnis dagang, HPP relatif sederhana: harga beli barang ditambah biaya yang melekat untuk membawanya ke gudang, seperti ongkos kirim masuk, bea, dan asuransi, dikurangi potongan pembelian. Harga yang tertera di faktur pemasok sering bukan biaya sebenarnya." },
   { type: "p", text: "Untuk bisnis manufaktur, HPP lebih berlapis. Bahan langsung adalah bahan yang menjadi bagian produk, misalnya kain pada pakaian. Tenaga kerja langsung adalah upah pekerja yang mengerjakan produk. Biaya overhead pabrik mencakup biaya tidak langsung seperti listrik, penyusutan mesin, sewa, perawatan, dan gaji penyelia." },
   { type: "p", text: "Untuk bisnis jasa, komponen utamanya adalah waktu staf dan biaya pendukung yang dapat dibebankan ke proyek atau klien. Tanpa pencatatan jam kerja per proyek, perusahaan jasa sulit mengetahui proyek mana yang menguntungkan." },
-  { type: "image", src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f", alt: "Tumpukan formulir, nota, dan kalkulator di atas meja", caption: "Nota pembelian, ongkos kirim, dan biaya produksi harus tercatat agar HPP mencerminkan kenyataan." },
+  { type: "image", src: "/blog/images/photo-1554224155-6726b3ff858f", alt: "Tumpukan formulir, nota, dan kalkulator di atas meja", caption: "Nota pembelian, ongkos kirim, dan biaya produksi harus tercatat agar HPP mencerminkan kenyataan." },
   { type: "h2", text: "Biaya langsung, tidak langsung, tetap, dan variabel" },
   { type: "p", text: "Biaya langsung dapat ditelusuri ke produk tertentu, sedangkan biaya tidak langsung dipakai bersama oleh banyak produk. Pembedaan lain adalah biaya variabel, yang naik seiring volume seperti bahan baku, dan biaya tetap, yang relatif tetap dalam rentang tertentu seperti sewa pabrik. Keduanya menjawab pertanyaan berbeda." },
   { type: "p", text: "Untuk penetapan harga jangka panjang, semua biaya harus tertutup, termasuk bagian overhead. Untuk keputusan jangka pendek, misalnya menerima pesanan tambahan dengan harga khusus, biaya variabel sering lebih relevan karena biaya tetap sudah terjadi apa pun keputusannya. Memahami perbedaan ini mencegah dua kesalahan: menolak pesanan yang sebenarnya menguntungkan secara marjinal dan menetapkan harga reguler yang tidak menutup biaya penuh." },
@@ -41,7 +41,7 @@ export const body: Block[] = [
     "Varians overhead: apakah biaya tidak langsung melebihi anggaran atau kapasitas tidak terpakai",
   ] },
   { type: "p", text: "Varians tidak dimaksudkan untuk mencari kambing hitam, melainkan memicu pertanyaan. Selisih pemakaian bahan yang konsisten bisa menandakan resep yang usang, mesin yang bocor takaran, atau pencurian. Tinjauan varians bulanan yang singkat biasanya sudah cukup untuk mengungkap masalah sebelum membesar." },
-  { type: "image", src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85", alt: "Tangan menandatangani dokumen di atas meja", caption: "Resep produk dan standar biaya perlu disetujui dan diperbarui secara berkala." },
+  { type: "image", src: "/blog/images/photo-1450101499163-c8848c66ca85", alt: "Tangan menandatangani dokumen di atas meja", caption: "Resep produk dan standar biaya perlu disetujui dan diperbarui secara berkala." },
   { type: "h2", text: "Bagaimana ERP membantu" },
   { type: "p", text: "Spreadsheet dapat dipakai untuk menghitung biaya pada skala kecil, tetapi menjadi rapuh ketika produk bertambah dan harga bahan sering berubah. ERP menghubungkan data yang diperlukan dalam satu sistem sehingga biaya terhitung dari transaksi nyata, bukan dari salinan manual." },
   { type: "ul", items: [

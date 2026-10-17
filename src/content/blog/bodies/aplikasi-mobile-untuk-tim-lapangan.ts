@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Sebagian pekerjaan terpenting di banyak perusahaan terjadi jauh dari meja kantor. Tenaga penjual mengunjungi toko pelanggan, teknisi memperbaiki mesin di lokasi, pengemudi mengantar barang, dan petugas survei memeriksa keadaan di lapangan. Merekalah yang bertemu pelanggan dan menghasilkan pendapatan, tetapi sering justru merekalah yang paling sedikit didukung oleh sistem perusahaan." },
   { type: "p", text: "Di banyak tempat, tim lapangan masih bekerja dengan kertas, foto di galeri ponsel, dan laporan lewat grup obrolan. Pesanan ditulis di buku lalu diketik ulang admin keesokan harinya. Laporan kunjungan dikirim sebagai pesan panjang yang tidak pernah direkap. Kantor tidak tahu apa yang terjadi sampai sore hari, dan tim lapangan tidak tahu stok, harga terbaru, atau riwayat pelanggan yang sedang mereka hadapi." },
-  { type: "p", text: "Artikel ini membahas cara merancang aplikasi mobile untuk tim lapangan: penjual, teknisi, pengantar, dan petugas survei. Kami membahas pekerjaan yang layak dipindahkan ke aplikasi, kerja tanpa sinyal, bukti kunjungan, hubungan dengan ERP dan CRM, privasi dan keamanan, serta cara agar aplikasi benar-benar dipakai. Tidak ada angka rekaan; yang kami tawarkan adalah prinsip dan daftar periksa dari sudut pandang pemilik bisnis." },
+  { type: "p", text: "Artikel ini membahas cara merancang [aplikasi mobile](/services/mobile) untuk tim lapangan: penjual, teknisi, pengantar, dan petugas survei. Kami membahas pekerjaan yang layak dipindahkan ke aplikasi, kerja tanpa sinyal, bukti kunjungan, hubungan dengan ERP dan CRM, privasi dan keamanan, serta cara agar aplikasi benar-benar dipakai. Tidak ada angka rekaan; yang kami tawarkan adalah prinsip dan daftar periksa dari sudut pandang pemilik bisnis." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Aplikasi mobile menutup jarak itu dengan dua arah. Data kantor sampai ke tangan orang lapangan pada saat ia membutuhkannya, dan kejadian di lapangan sampai ke sistem kantor pada saat terjadi. Nilai aplikasi terletak pada pertukaran dua arah ini, bukan pada sekadar mengganti kertas dengan layar." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492",
+    src: "/blog/images/photo-1565793298595-6a879b1d9492",
     alt: "Pemandangan udara deretan truk kargo yang diparkir di area distribusi",
     caption: "Semakin banyak orang dan kendaraan yang bekerja di luar kantor, semakin mahal jarak informasi di antaranya.",
   },
@@ -52,7 +52,7 @@ export const body: Block[] = [
   { type: "p", text: "Agar bukti berguna, tautkan langsung ke transaksinya. Foto yang tersimpan di galeri ponsel pribadi karyawan tidak bisa dicari tiga bulan kemudian. Foto yang diambil lewat aplikasi dan melekat pada nomor pengiriman atau perintah kerja dapat ditemukan dalam hitungan detik oleh siapa pun yang berwenang." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    src: "/blog/images/photo-1533292362155-d79af6b08b77",
     alt: "Seseorang menggunakan Google Maps di ponsel",
     caption: "Lokasi membantu merencanakan rute dan membuktikan kunjungan, asalkan penggunaannya dijelaskan dengan terbuka.",
   },
@@ -61,7 +61,7 @@ export const body: Block[] = [
   { type: "p", text: "Bedakan pencatatan lokasi pada saat kejadian dari pelacakan terus-menerus. Mencatat titik saat petugas memulai dan menyelesaikan kunjungan biasanya sudah memenuhi kebutuhan bisnis. Pelacakan sepanjang hari memerlukan alasan yang lebih kuat, misalnya untuk armada pengiriman, dan sebaiknya hanya aktif selama jam kerja." },
   { type: "p", text: "Jelaskan kepada tim data apa yang dikumpulkan, kapan, siapa yang melihat, dan untuk tujuan apa. Tuangkan dalam kebijakan tertulis dan patuhi ketentuan ketenagakerjaan serta pelindungan data pribadi yang berlaku. Keterbukaan ini bukan sekadar kewajiban; aplikasi yang dianggap alat mata-mata akan dilawan dengan berbagai cara kreatif." },
   { type: "h2", text: "Hubungan dengan ERP dan CRM" },
-  { type: "p", text: "Aplikasi lapangan yang berdiri sendiri hanya memindahkan pekerjaan mengetik ulang dari kertas ke layar lain. Manfaat sebenarnya muncul ketika aplikasi terhubung dengan sistem inti. Pesanan yang dibuat penjual langsung menjadi pesanan penjualan di ERP, memotong stok, dan muncul di antrean gudang tanpa campur tangan admin." },
+  { type: "p", text: "Aplikasi lapangan yang berdiri sendiri hanya memindahkan pekerjaan mengetik ulang dari kertas ke layar lain. Manfaat sebenarnya muncul ketika aplikasi terhubung dengan sistem inti. Pesanan yang dibuat penjual langsung menjadi pesanan penjualan di [ERP](/services/erp), memotong stok, dan muncul di antrean gudang tanpa campur tangan admin." },
   { type: "p", text: "Dari arah sebaliknya, aplikasi menarik data yang membuat orang lapangan lebih siap: harga khusus per pelanggan, batas kredit, tagihan yang belum dibayar, stok tersedia, dan riwayat perbaikan suatu mesin. Penjual yang tahu pelanggannya masih memiliki tagihan tertunggak akan berbicara dengan cara yang berbeda." },
   { type: "p", text: "Sambungan ini memerlukan antarmuka data yang rapi di sisi sistem inti dan data induk yang bersih. Kode barang dan kode pelanggan yang sama harus dipakai di semua tempat. Sebelum membangun aplikasi, periksa apakah sistem Anda saat ini dapat menyediakan data yang diperlukan; bila belum, pekerjaan itu perlu masuk ke dalam rencana." },
   { type: "h2", text: "Sisi kantor: penjadwalan dan pemantauan" },
@@ -70,7 +70,7 @@ export const body: Block[] = [
   { type: "p", text: "Pelanggan juga dapat diberi sedikit jendela ke dalam proses ini: pemberitahuan bahwa teknisi sedang dalam perjalanan, perkiraan waktu tiba, dan salinan berita acara setelah pekerjaan selesai. Hal sederhana seperti ini mengurangi telepon bertanya dan memberi kesan perusahaan yang tertata." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
+    src: "/blog/images/photo-1518186285589-2f7649de83e0",
     alt: "Layar laptop menampilkan grafik data operasional bisnis",
     caption: "Data dari lapangan baru bernilai ketika dirangkum menjadi gambaran yang bisa dipakai untuk memutuskan.",
   },

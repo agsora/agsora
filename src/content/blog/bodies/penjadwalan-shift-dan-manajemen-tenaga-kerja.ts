@@ -39,7 +39,7 @@ export const body: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc",
+    src: "/blog/images/photo-1542626991-cbc4e32524cc",
     alt: "Tangan menempelkan catatan tempel pada papan perencanaan yang penuh",
     caption: "Jadwal yang adil dimulai dari kebutuhan yang jelas dan aturan yang transparan.",
   },

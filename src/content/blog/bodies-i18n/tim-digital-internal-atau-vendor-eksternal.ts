@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "So do not decide on the cost in the first month alone. Consider the total cost over several years, the risk of dependency, the speed of responding to change, and how strategic the system is to your business. A system that is the core of your competitive edge deserves more control than a supporting system whose function resembles that of other companies." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b",
+    src: "/blog/images/photo-1553028826-f4804a6dba3b",
     alt: "A team working on laptops at a long shared desk",
     caption: "Who builds and maintains the system matters as much as which system is built.",
   },
@@ -67,7 +67,7 @@ const en: Block[] = [
   { type: "p", text: "Do not read this list as a score to be added up. Some factors matter far more to a particular business than others. For a business that values launch speed highly, the speed of starting factor can outweigh all the rest. For a business whose system holds trade secrets or its main edge, control and knowledge within the company can be the main consideration." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
+    src: "/blog/images/photo-1600880292203-757bb62b4baf",
     alt: "Two colleagues high fiving at a meeting table",
     caption: "Healthy cooperation between an in house team and a vendor comes from clear roles and a shared goal.",
   },
@@ -122,7 +122,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "每一家开始认真推进运营数字化的企业都会面对一个大问题:这一切由谁来构建和维护?是自己招聘开发团队,交给供应商或软件公司,还是两者结合?答案会影响成本、速度、对系统的控制,以及半夜出问题时你有多从容。" },
-  { type: "p", text: "对每家企业来说,并没有唯一正确的答案。核心产品就是软件的初创公司,与只需要 POS 和网站的零售店,需求不同。预算有限、需求明确的企业,与系统每月都在变化的大公司,考虑的因素也不同。正确的决定取决于你的阶段、规模以及需求的性质。" },
+  { type: "p", text: "对每家企业来说,并没有唯一正确的答案。核心产品就是软件的初创公司,与只需要 POS 和[网站](/services/website)的零售店,需求不同。预算有限、需求明确的企业,与系统每月都在变化的大公司,考虑的因素也不同。正确的决定取决于你的阶段、规模以及需求的性质。" },
   { type: "p", text: "本文帮助企业主权衡三种模式:内部团队、外部供应商和混合模式。我们讨论每种模式的优缺点、常被计算遗漏的事项、哪种模式适合的迹象,以及如何安排合作,使任何一方都不吃亏。我们不使用具体的薪资或费率数字,因为它们因地区、经验和时间差异很大;请使用你自己市场上的最新参照。" },
   { type: "h2", text: "摘要" },
   {
@@ -141,14 +141,14 @@ const zh: Block[] = [
   { type: "p", text: "因此,不要只根据第一个月的成本做决定。要考虑几年的总成本、依赖风险、应对变化的速度,以及该系统对你业务的战略意义。作为你竞争优势核心的系统,比起功能与其他公司类似的辅助系统,更值得掌握更多的控制权。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b",
+    src: "/blog/images/photo-1553028826-f4804a6dba3b",
     alt: "一个团队在一张长长的共享工作桌前用笔记本电脑工作",
     caption: "由谁来构建和维护系统,与构建什么系统同样重要。",
   },
   { type: "h2", text: "第一种模式:内部团队" },
   { type: "p", text: "在这种模式下,你聘用开发人员、设计师,也许还有测试人员作为员工。团队全职为你公司的系统工作,从内部理解业务,并且每天触手可及。" },
   { type: "p", text: "它的主要优势是控制和理解。内部团队随着时间推移了解你的业务,因此建议和解决方案会越来越准确。小的改动可以很快完成,无需合同谈判或在供应商那里排队。有关系统的知识留在公司内部,团队的优先级完全跟随你的业务优先级。对于业务核心且经常变化的系统,这种模式非常合理。" },
-  { type: "p", text: "但缺点也很现实。成本是固定的:无论工作繁忙还是清闲,薪资、福利、设备和培训每月都要支付。招聘优秀的开发人员需要时间和精力,而小团队很容易受到一个人离开的冲击。很难一次性获得所有专长:一个人很少同时精通界面、服务器、安全和移动应用。而且团队需要良好的管理,包括能把控质量的技术负责人。" },
+  { type: "p", text: "但缺点也很现实。成本是固定的:无论工作繁忙还是清闲,薪资、福利、设备和培训每月都要支付。招聘优秀的开发人员需要时间和精力,而小团队很容易受到一个人离开的冲击。很难一次性获得所有专长:一个人很少同时精通界面、服务器、安全和[移动应用](/services/mobile)。而且团队需要良好的管理,包括能把控质量的技术负责人。" },
   { type: "p", text: "当数字系统是业务的中心、变化需求持续不断、预算又能支撑固定成本时,这种模式最合适。对于需求有限的小企业,全职内部团队往往过剩,而且很难让他们有足够的工作可做。" },
   { type: "h3", text: "常被计算遗漏的事项" },
   { type: "p", text: "薪资只是成本的一部分。还要加上招聘成本、设备和许可证、培训、福利、办公空间,以及领导技术团队所需的管理时间。还要考虑有人离职时的成本:寻找替代者的时间,以及如果没有文档化就随之流失的知识。" },
@@ -187,7 +187,7 @@ const zh: Block[] = [
   { type: "p", text: "不要把这份清单理解为需要相加的得分。有些因素对特定企业比其他因素重要得多。对于非常看重上线速度的企业,启动速度这一因素可能压过所有其他因素。对于系统里存有商业机密或核心优势的企业,公司内部的控制和知识可能是主要考虑。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
+    src: "/blog/images/photo-1600880292203-757bb62b4baf",
     alt: "两位同事在会议桌前击掌",
     caption: "内部团队与供应商之间的良好合作,源于清晰的角色和共同的目标。",
   },

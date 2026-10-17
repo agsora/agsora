@@ -31,7 +31,7 @@ export const body: Block[] = [
   { type: "callout", title: "Segmen yang baik harus bisa ditindaklanjuti", text: "Sebelum membuat segmen, tanyakan: apa yang akan kita lakukan secara berbeda untuk kelompok ini? Bila jawabannya tidak jelas, segmen itu hanya hiasan di laporan. Lebih baik sedikit segmen dengan tindakan nyata daripada puluhan segmen yang tidak pernah dipakai." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    src: "/blog/images/photo-1551288049-bebda4e38f71",
     alt: "Dashboard berisi beberapa grafik data yang ditampilkan berdampingan",
     caption: "Segmentasi dimulai dengan melihat pola dalam data pembelian yang sudah ada.",
   },
@@ -44,7 +44,7 @@ export const body: Block[] = [
     "Respons terhadap komunikasi: pesan yang dibuka, tautan yang diklik, dan promosi yang dipakai",
     "Preferensi yang diberikan sendiri oleh pelanggan, misalnya kategori favorit atau frekuensi pesan",
   ] },
-  { type: "p", text: "Kuncinya adalah satu tampilan pelanggan yang terpadu. Bila data pelanggan tersebar di tabel hitung penjualan, kasir, dan percakapan, yang terlihat hanya potongan-potongan. Sistem CRM atau ERP yang menyatukan data membuat segmentasi menjadi pekerjaan beberapa klik, bukan proyek berminggu-minggu." },
+  { type: "p", text: "Kuncinya adalah satu tampilan pelanggan yang terpadu. Bila data pelanggan tersebar di tabel hitung penjualan, kasir, dan percakapan, yang terlihat hanya potongan-potongan. Sistem [CRM](/services/crm) atau ERP yang menyatukan data membuat segmentasi menjadi pekerjaan beberapa klik, bukan proyek berminggu-minggu." },
   { type: "h2", text: "Mulai sederhana: segmen yang bisa dibuat minggu ini" },
   { type: "p", text: "Berikut contoh segmen yang sering sudah dapat dibuat dari data dasar, beserta tindakan yang pantas untuk masing-masing." },
   { type: "ul", items: [
@@ -67,7 +67,7 @@ export const body: Block[] = [
   ] },
   { type: "p", text: "Uji dengan perspektif pelanggan. Bila Anda menerima pesan itu, apakah Anda merasa dibantu atau diawasi? Bila ragu, pilih yang lebih konservatif. Kepercayaan lebih mahal untuk dibangun kembali daripada untuk dijaga." },
   { type: "h2", text: "Contoh: toko perlengkapan rumah tangga" },
-  { type: "p", text: "Bayangkan toko online perlengkapan rumah tangga dengan beberapa ribu pelanggan. Sebelumnya, setiap bulan seluruh daftar menerima surel promosi yang sama. Tingkat pembukaan menurun, dan sebagian pelanggan mulai berhenti berlangganan. Pemilik toko menduga masalahnya ada pada desain pesan, padahal akar masalahnya adalah relevansi." },
+  { type: "p", text: "Bayangkan [toko online](/services/website) perlengkapan rumah tangga dengan beberapa ribu pelanggan. Sebelumnya, setiap bulan seluruh daftar menerima surel promosi yang sama. Tingkat pembukaan menurun, dan sebagian pelanggan mulai berhenti berlangganan. Pemilik toko menduga masalahnya ada pada desain pesan, padahal akar masalahnya adalah relevansi." },
   { type: "p", text: "Setelah menyatukan data pembelian, ia mengelompokkan pelanggan menjadi lima: pembeli baru, pembeli berulang, pelanggan bernilai besar, pelanggan yang lama tidak aktif, dan pembeli yang meninggalkan keranjang. Untuk pembeli baru, ia mengirim panduan perawatan produk dan ajakan memberi ulasan. Untuk pembeli berulang, ia mengirim rekomendasi barang pelengkap yang berkaitan dengan pembelian sebelumnya." },
   { type: "p", text: "Pelanggan yang lama tidak aktif menerima pesan singkat yang menanyakan apakah ada hal yang bisa diperbaiki, disertai penawaran terbatas. Pembeli yang meninggalkan keranjang menerima pengingat yang menjawab keraguan paling umum: ongkos kirim dan kebijakan retur. Hasilnya, jumlah pesan yang dikirim turun, tetapi respons dan pembelian ulang meningkat, dan keluhan tentang pesan yang mengganggu berkurang." },
   { type: "p", text: "Pelajaran dari contoh ini sederhana: relevansi lebih penting daripada volume. Satu pesan yang tepat sasaran lebih berharga daripada sepuluh pesan yang disebar tanpa pandang bulu, dan hampir semua yang dibutuhkan untuk memulainya sudah ada di data penjualan Anda." },
@@ -77,7 +77,7 @@ export const body: Block[] = [
   { type: "p", text: "Batasi frekuensi. Pelanggan yang menerima terlalu banyak pesan akan berhenti berlangganan atau mengabaikan semuanya. Tetapkan batas pesan per periode untuk setiap orang, apa pun jumlah kampanye yang berjalan di belakang." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556155092-490a1ba16284",
+    src: "/blog/images/photo-1556155092-490a1ba16284",
     alt: "Tangan mengetik di laptop yang menampilkan dasbor tabel di sebuah kafe",
     caption: "Satu tampilan pelanggan yang terpadu membuat segmentasi menjadi pekerjaan harian, bukan proyek besar.",
   },

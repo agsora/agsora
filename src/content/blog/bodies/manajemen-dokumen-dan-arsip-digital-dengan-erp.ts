@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Setiap bisnis menghasilkan dokumen setiap hari: faktur, pesanan pembelian, kontrak, bukti transfer, surat jalan, laporan, dan lampiran yang tak terhitung. Pada awalnya dokumen itu tersimpan di map, laci, dan folder komputer masing-masing orang. Ketika bisnis tumbuh, pertanyaan sederhana seperti \"mana kontrak pemasok yang ditandatangani tahun lalu?\" berubah menjadi pencarian setengah hari yang melelahkan." },
   { type: "p", text: "Masalahnya bukan hanya kehilangan waktu. Dokumen yang tidak terkelola menciptakan risiko nyata: versi lama yang terpakai, dokumen penting hilang saat pemeriksaan pajak atau audit, informasi sensitif yang tersebar di surel dan aplikasi percakapan, serta karyawan yang membawa pengetahuan penting ketika mereka pergi." },
-  { type: "p", text: "Artikel ini membahas manajemen dokumen dan arsip digital yang terhubung dengan ERP. Kita akan melihat mengapa dokumen sebaiknya menempel pada transaksi, bagaimana menyusun struktur dan penamaan, cara mengatur hak akses dan masa simpan, serta bagaimana mengubah tumpukan kertas menjadi arsip yang rapi tanpa menghentikan pekerjaan sehari-hari." },
+  { type: "p", text: "Artikel ini membahas manajemen dokumen dan arsip digital yang terhubung dengan [ERP](/services/erp). Kita akan melihat mengapa dokumen sebaiknya menempel pada transaksi, bagaimana menyusun struktur dan penamaan, cara mengatur hak akses dan masa simpan, serta bagaimana mengubah tumpukan kertas menjadi arsip yang rapi tanpa menghentikan pekerjaan sehari-hari." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "p", text: "Untuk setiap jenis, tentukan siapa pemiliknya, siapa yang boleh melihat, apakah perlu persetujuan, berapa lama harus disimpan, dan apa yang terjadi setelah masa simpan berakhir. Jawaban-jawaban ini menjadi dasar konfigurasi sistem, bukan sekadar kebijakan di atas kertas." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1565688534245-05d6b5be184a",
+    src: "/blog/images/photo-1565688534245-05d6b5be184a",
     alt: "Dua orang meninjau dokumen kertas di atas meja",
     caption: "Dokumen yang menempel pada transaksi membuat peninjauan dan audit jauh lebih cepat.",
   },
@@ -73,7 +73,7 @@ export const body: Block[] = [
   { type: "p", text: "Pengenalan teks otomatis dan ekstraksi data dapat mempercepat pekerjaan, terutama untuk faktur dan dokumen berpola tetap. Namun hasilnya tetap perlu diverifikasi manusia, terutama untuk angka dan nama pihak. Anggap otomasi sebagai asisten yang mempercepat entri, bukan pengganti pemeriksaan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "Tangan menandatangani dokumen di atas meja",
     caption: "Persetujuan dan tanda tangan yang tercatat di sistem membuat jejak dokumen jelas dan dapat dibuktikan.",
   },

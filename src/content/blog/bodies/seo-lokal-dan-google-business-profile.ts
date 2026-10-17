@@ -36,7 +36,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1533292362155-d79af6b08b77",
+    src: "/blog/images/photo-1533292362155-d79af6b08b77",
     alt: "Seseorang menggunakan Google Maps di ponsel",
     caption: "SEO lokal adalah pekerjaan rapi yang konsisten: melengkapi informasi, merawat ulasan, dan memperbarui konten.",
   },
@@ -119,7 +119,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    src: "/blog/images/photo-1498050108023-c5249f4df085",
     alt: "Laptop menampilkan kode di atas meja kerja putih dengan peralatan kerja di sekitarnya",
     caption: "Website yang cepat, jelas, dan terstruktur memperkuat sinyal yang sudah dibangun lewat profil bisnis.",
   },

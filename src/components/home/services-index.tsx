@@ -2,7 +2,7 @@
 
 import Link from "@/i18n/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import { featuredServices } from "@/config/services";
+import { services } from "@/config/services";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { HomeHeading } from "@/components/home/heading";
@@ -24,21 +24,22 @@ export function ServicesIndex() {
         description={t.home.servicesDescription}
       />
 
-      <div className="mt-12 grid gap-4 sm:grid-cols-2 md:mt-16 lg:grid-cols-3 lg:gap-5">
-        {featuredServices.map((service) => {
+      {/* All ten services: four per row on desktop, the last row centred. */}
+      <div className="mt-12 flex flex-wrap justify-center gap-4 md:mt-16 lg:gap-5">
+        {services.map((service) => {
           const Icon = service.icon;
           const highlight = service.id === HIGHLIGHT;
           return (
             <div
               key={service.id}
               className={cn(
-                "rounded-3xl p-px transition-transform duration-300 hover:-translate-y-1",
+                "w-full rounded-3xl p-px transition-transform duration-300 hover:-translate-y-1 sm:w-[calc(50%-8px)] lg:w-[calc(25%-15px)]",
                 highlight ? "bg-[image:var(--gradient-text)] shadow-elev" : "bg-line"
               )}
             >
               <Link
                 href={service.href}
-                className="focus-ring group flex h-full flex-col rounded-[calc(1.5rem-1px)] bg-surface-0 p-6 md:p-7"
+                className="focus-ring group flex h-full flex-col rounded-[calc(1.5rem-1px)] bg-surface-0 p-6"
               >
                 <div className="flex items-start justify-between">
                   <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-surface-2 text-ink transition-colors group-hover:bg-ink group-hover:text-surface-0">
@@ -46,7 +47,7 @@ export function ServicesIndex() {
                   </span>
                   <ArrowUpRight className="h-5 w-5 text-ink-subtle transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-ink" />
                 </div>
-                <h3 className="mt-6 text-[20px] font-bold tracking-tight text-ink">
+                <h3 className="mt-6 text-[18px] font-bold tracking-tight text-ink">
                   {service.title[locale]}
                 </h3>
                 <p className="mt-2.5 flex-1 text-pretty text-[14px] leading-relaxed text-ink-muted">

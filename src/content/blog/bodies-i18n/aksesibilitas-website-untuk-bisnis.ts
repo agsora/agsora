@@ -39,7 +39,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    src: "/blog/images/photo-1499951360447-b19be8fe80f5",
     alt: "A desk with a monitor and laptop showing a website page, a desk lamp, and a plant",
     caption: "Accessibility is cheapest when thought about at the design stage, not after the page is built.",
   },
@@ -137,7 +137,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    src: "/blog/images/photo-1517694712202-14dd9538aa97",
     alt: "A laptop showing program code on a white desk with a plant in a yellow pot",
     caption: "Test the website on various devices and ways of using it, not only on the screens its builders use.",
   },
@@ -167,7 +167,7 @@ const en: Block[] = [
   { type: "h2", text: "The impact on sales and service" },
   {
     type: "p",
-    text: "For an online store, accessibility is directly tied to sales. A payment process that can only be completed with a mouse, an unlabeled address field, or a pay button that is hard to recognize will stop some buyers at the last step. For a company profile website, a hard to reach contact means lost prospects. For a service business, an appointment form that isn't keyboard friendly means some customers can't book.",
+    text: "For an [online store](/services/website), accessibility is directly tied to sales. A payment process that can only be completed with a mouse, an unlabeled address field, or a pay button that is hard to recognize will stop some buyers at the last step. For a company profile website, a hard to reach contact means lost prospects. For a service business, an appointment form that isn't keyboard friendly means some customers can't book.",
   },
   {
     type: "p",
@@ -230,7 +230,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "想象一下:视力有限而使用屏幕阅读器的人、需要更大字体的长者、手部受伤只能用键盘的用户,或是在烈日下用反光屏幕打开你网站的客户。他们都是潜在客户。对他们而言难以使用的网站会失去机会,而且往往连网站所有者都没有察觉。",
+    text: "想象一下:视力有限而使用屏幕阅读器的人、需要更大字体的长者、手部受伤只能用键盘的用户,或是在烈日下用反光屏幕打开你[网站](/services/website)的客户。他们都是潜在客户。对他们而言难以使用的网站会失去机会,而且往往连网站所有者都没有察觉。",
   },
   {
     type: "p",
@@ -262,7 +262,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    src: "/blog/images/photo-1499951360447-b19be8fe80f5",
     alt: "书桌上的显示器和笔记本电脑显示着网页,旁边有台灯和绿植",
     caption: "无障碍在设计阶段考虑成本最低,而不是等页面做好之后。",
   },
@@ -345,7 +345,7 @@ const zh: Block[] = [
   { type: "h2", text: "如何检查你网站的无障碍" },
   {
     type: "p",
-    text: "良好的无障碍检查结合自动化工具与人工测试。自动化工具以浏览器扩展或审计功能的形式提供,能快速发现技术性问题,如没有替代文本的图片、对比度不足或缺少表单标签。但自动化工具只能捕捉一部分问题;许多涉及含义与体验的事情只能由人来判断。",
+    text: "良好的无障碍检查结合[自动化](/services/ai-automation)工具与人工测试。自动化工具以浏览器扩展或审计功能的形式提供,能快速发现技术性问题,如没有替代文本的图片、对比度不足或缺少表单标签。但自动化工具只能捕捉一部分问题;许多涉及含义与体验的事情只能由人来判断。",
   },
   {
     type: "ol",
@@ -360,7 +360,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    src: "/blog/images/photo-1517694712202-14dd9538aa97",
     alt: "白色桌面上的笔记本电脑显示着程序代码,旁边有黄色花盆里的植物",
     caption: "在各种设备和使用方式下测试网站,而不只是在建站团队所用的屏幕上。",
   },

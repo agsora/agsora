@@ -11,7 +11,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "This article looks at AI assistant trends for small businesses with a cool head. We'll cover uses that are already sensible, those that remain risky, how to choose a first use case, what to watch regarding data and security, and how to measure whether AI really saves time. There are no market figures or unsupportable claims here; what you get is practical guidance you can test yourself.",
+    text: "This article looks at [AI assistant](/services/ai-automation) trends for small businesses with a cool head. We'll cover uses that are already sensible, those that remain risky, how to choose a first use case, what to watch regarding data and security, and how to measure whether AI really saves time. There are no market figures or unsupportable claims here; what you get is practical guidance you can test yourself.",
   },
   { type: "h2", text: "Summary" },
   {
@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    src: "/blog/images/photo-1620712943543-bcc4688e7485",
     alt: "A humanoid robot sitting on a red bench holding reading material",
     caption: "AI is most valuable when applied to a clear task, not when made the answer to everything.",
   },
@@ -110,7 +110,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    src: "/blog/images/photo-1526374965328-7f61d4dc18c5",
     alt: "Rows of green code falling down a dark screen",
     caption: "An AI assistant is only as good as the information given to it, so tidy your data before deploying one.",
   },
@@ -137,7 +137,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "An important consideration in choosing is integration. AI that stands alone, separate from your POS, ERP, and CRM, can only work with information you copy manually. Connected AI can read relevant data and act within the limits you set, so its benefit is far greater. That is why API integration is an important part of a serious AI plan.",
+    text: "An important consideration in choosing is integration. AI that stands alone, separate from your POS, [ERP](/services/erp), and CRM, can only work with information you copy manually. Connected AI can read relevant data and act within the limits you set, so its benefit is far greater. That is why API integration is an important part of a serious AI plan.",
   },
   { type: "h2", text: "Measuring whether AI really helps" },
   {
@@ -218,7 +218,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "一方面,有人承诺 AI 将取代许多工作并节省大笔成本。另一方面,也有聊天机器人答错、摘要编造事实、昂贵的 AI 项目从未被使用的故事。真相介于两者之间。当 AI 被用在对的问题上并有适当监督时,它是非常有用的工具;如果指望它成为解决一切的神奇方案,则会令人非常失望。",
+    text: "一方面,有人承诺 AI 将取代许多工作并节省大笔成本。另一方面,也有[聊天机器人](/services/ai-automation)答错、摘要编造事实、昂贵的 AI 项目从未被使用的故事。真相介于两者之间。当 AI 被用在对的问题上并有适当监督时,它是非常有用的工具;如果指望它成为解决一切的神奇方案,则会令人非常失望。",
   },
   {
     type: "p",
@@ -246,7 +246,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    src: "/blog/images/photo-1620712943543-bcc4688e7485",
     alt: "坐在红色长凳上拿着阅读材料的人形机器人",
     caption: "当 AI 用于明确的任务时最有价值,而不是被当作一切问题的答案。",
   },
@@ -321,7 +321,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    src: "/blog/images/photo-1526374965328-7f61d4dc18c5",
     alt: "深色屏幕上向下流动的绿色代码",
     caption: "AI 助手的水平取决于提供给它的信息,所以部署之前先整理好数据。",
   },
@@ -348,7 +348,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "选择时一个重要的考量是集成。独立运行、与你的 POS、ERP 和 CRM 分离的 AI,只能处理你手工复制过去的信息。互联的 AI 可以读取相关数据,并在你设定的范围内行动,因此好处大得多。这就是 API 集成成为严肃 AI 计划重要组成部分的原因。",
+    text: "选择时一个重要的考量是集成。独立运行、与你的 POS、[ERP](/services/erp) 和 CRM 分离的 AI,只能处理你手工复制过去的信息。互联的 AI 可以读取相关数据,并在你设定的范围内行动,因此好处大得多。这就是 API 集成成为严肃 AI 计划重要组成部分的原因。",
   },
   { type: "h2", text: "衡量 AI 是否真的有帮助" },
   {

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { blogPageHref, blogPosts, getTotalPages, isPostAvailable } from "@/config/blog";
+import { industries } from "@/config/industries";
 import { services } from "@/config/services";
 import { siteConfig } from "@/config/site";
 import { absoluteUrl, locales, type Locale } from "@/i18n/routing";
@@ -30,8 +31,24 @@ function localized(
   }));
 }
 
-/** Bump when the static pages or service copy change in a way worth re-crawling. */
-const STATIC_PAGES_UPDATED = new Date("2026-10-17");
+/**
+ * When each page's own copy last changed in a way worth re-crawling. Bump the
+ * date of the page you edit, not all of them: identical dates everywhere read
+ * as build dates and teach crawlers to ignore lastmod. Home and the blog
+ * index follow the newest post instead.
+ */
+const PAGE_UPDATED: Record<string, string> = {
+  "/services": "2026-10-06",
+  "/industries": "2026-10-18",
+  "/pricing": "2026-09-27",
+  "/about": "2026-10-06",
+  "/contact": "2026-10-06",
+  "/checklist": "2026-10-06",
+  "/privacy-policy": "2026-10-06",
+  "/terms-conditions": "2026-09-26",
+};
+const SERVICE_PAGES_UPDATED = new Date("2026-10-06");
+const INDUSTRY_PAGES_UPDATED = new Date("2026-10-18");
 
 const routes = [
   "/",
@@ -53,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     Math.max(...blogPosts.map((p) => new Date(p.updatedAt ?? p.publishedAt).getTime()))
   );
   const lastModifiedFor = (route: string) =>
-    route === "/" || route === "/blog" ? latestPost : STATIC_PAGES_UPDATED;
+    route === "/" || route === "/blog" ? latestPost : new Date(PAGE_UPDATED[route]);
 
   const pages = routes.flatMap((route) =>
     localized(route, {
@@ -66,9 +83,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Service pages carry the commercial keywords — rank them just below home.
   const servicePages = services.flatMap((service) =>
     localized(`/services/${service.id}`, {
-      lastModified: STATIC_PAGES_UPDATED,
+      lastModified: SERVICE_PAGES_UPDATED,
       changeFrequency: "monthly",
       priority: 0.9,
+    })
+  );
+
+  // One page per industry, in every language.
+  const industryPages = industries.flatMap((industry) =>
+    localized(`/industries/${industry.slug}`, {
+      lastModified: INDUSTRY_PAGES_UPDATED,
+      changeFrequency: "monthly",
+      priority: 0.8,
     })
   );
 
@@ -96,5 +122,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       )
     );
 
-  return [...pages, ...servicePages, ...posts, ...blogArchivePages];
+  return [...pages, ...servicePages, ...industryPages, ...posts, ...blogArchivePages];
 }

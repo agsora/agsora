@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Aplikasi mobile sering dirancang dan diuji pada ponsel terbaru dengan jaringan cepat di kantor. Pelanggan Anda mungkin memakai ponsel berusia beberapa tahun dengan memori terbatas, penyimpanan yang hampir penuh, dan sinyal yang naik turun di jalan, di pasar, atau di daerah yang jauh dari menara. Pengalaman yang mulus bagi tim pengembang bisa menjadi menjengkelkan bagi pengguna sesungguhnya." },
   { type: "p", text: "Di pasar seperti Indonesia, keragaman perangkat dan kualitas jaringan sangat lebar. Aplikasi yang lambat dibuka, boros kuota, atau menghabiskan baterai akan cepat dihapus. Banyak pengguna menghapus aplikasi bukan karena tidak butuh, melainkan karena ruang penyimpanan mereka hanya cukup untuk beberapa aplikasi yang paling berguna." },
-  { type: "p", text: "Artikel ini membahas cara merancang dan memelihara aplikasi mobile yang tetap nyaman di perangkat sederhana dan jaringan lambat: ukuran aplikasi, kecepatan membuka, pemakaian data, baterai, kerja tanpa jaringan, dan cara mengujinya. Tidak ada angka rekaan; fokusnya adalah prinsip dan kebiasaan kerja yang bisa diterapkan sejak awal." },
+  { type: "p", text: "Artikel ini membahas cara merancang dan memelihara [aplikasi mobile](/services/mobile) yang tetap nyaman di perangkat sederhana dan jaringan lambat: ukuran aplikasi, kecepatan membuka, pemakaian data, baterai, kerja tanpa jaringan, dan cara mengujinya. Tidak ada angka rekaan; fokusnya adalah prinsip dan kebiasaan kerja yang bisa diterapkan sejak awal." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Pertimbangkan juga konteks pemakaian. Pengguna di lapangan, di kendaraan, atau di area dengan sinyal lemah punya kebutuhan berbeda dari pengguna di rumah dengan jaringan tetap. Pahami di mana dan kapan aplikasi Anda sebenarnya dipakai." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42",
+    src: "/blog/images/photo-1512428559087-560fa5ceab42",
     alt: "Seseorang memegang ponsel Android putih",
     caption: "Uji aplikasi pada perangkat yang benar-benar dipakai pelanggan, bukan hanya pada ponsel terbaru tim pengembang.",
   },
@@ -48,7 +48,7 @@ export const body: Block[] = [
   { type: "p", text: "Jadwalkan pekerjaan berat, seperti sinkronisasi besar atau pengunggahan berkas, pada saat perangkat sedang mengisi daya dan tersambung Wi-Fi bila memungkinkan. Pengguna tidak akan menyadarinya, tetapi baterai dan kuotanya terselamatkan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "Tangan memegang ponsel yang menampilkan layar utama penuh ikon aplikasi",
     caption: "Setiap aplikasi bersaing memperebutkan ruang, memori, dan baterai yang terbatas di ponsel pengguna.",
   },

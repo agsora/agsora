@@ -39,7 +39,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    src: "/blog/images/photo-1499951360447-b19be8fe80f5",
     alt: "Meja kerja dengan monitor dan laptop yang menampilkan halaman website, lampu meja, dan tanaman",
     caption: "Aksesibilitas paling murah ketika dipikirkan sejak tahap rancangan, bukan setelah halaman jadi.",
   },
@@ -71,7 +71,7 @@ export const body: Block[] = [
   { type: "h2", text: "Perbaikan yang paling berdampak" },
   {
     type: "p",
-    text: "Kabar baiknya, sebagian besar masalah aksesibilitas yang umum bisa diatasi dengan perbaikan yang relatif sederhana. Berikut yang paling sering memberi dampak terbesar pada website bisnis biasa seperti company profile, toko online, dan landing page.",
+    text: "Kabar baiknya, sebagian besar masalah aksesibilitas yang umum bisa diatasi dengan perbaikan yang relatif sederhana. Berikut yang paling sering memberi dampak terbesar pada [website bisnis](/services/website) biasa seperti company profile, toko online, dan landing page.",
   },
   { type: "h3", text: "Kontras dan keterbacaan teks" },
   {
@@ -137,7 +137,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    src: "/blog/images/photo-1517694712202-14dd9538aa97",
     alt: "Laptop menampilkan kode program di meja putih dengan tanaman dalam pot kuning",
     caption: "Uji website di berbagai perangkat dan cara pakai, bukan hanya di layar yang dipakai tim pembuatnya.",
   },

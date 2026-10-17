@@ -12,8 +12,8 @@ import {
 
 /**
  * hreflang alternates for a page that exists in `available` languages.
- * x-default points to English when there is one (the international
- * version), otherwise to whatever exists.
+ * x-default points to the Indonesian original when it exists, otherwise to
+ * whatever does (see fallbackLocale).
  */
 export function languageAlternates(
   path: string,

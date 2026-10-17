@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "One month, the stock report shows a large discrepancy that nobody can explain. Someone changed a number, but there is no record of who, when, or why. The meeting goes on for hours with people guessing at each other, and in the end the team can only conclude that it must have been an unintentional input error. The difference is smoothed over with an adjustment, and the real problem, whatever it was, is never found." },
   { type: "p", text: "A situation like this exposes a very common gap in growing businesses: data changes, but the trail is missing. While the business is small and everyone knows each other, trust often covers the gap. As employees, branches, and transactions multiply, trust alone is no longer enough, and the absence of a trail becomes both a financial risk and a compliance risk." },
-  { type: "p", text: "This article covers audit trails and internal control in an ERP system in language business owners and managers can follow. We will look at what an audit trail is, what deserves to be recorded, how segregation of duties and approvals work, how to prepare for an audit, and a staged path so that controls feel helpful rather than burdensome." },
+  { type: "p", text: "This article covers audit trails and internal control in an [ERP system](/services/erp) in language business owners and managers can follow. We will look at what an audit trail is, what deserves to be recorded, how segregation of duties and approvals work, how to prepare for an audit, and a staged path so that controls feel helpful rather than burdensome." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -30,7 +30,7 @@ const en: Block[] = [
   { type: "p", text: "In small businesses, full segregation is often impossible because of limited staff. In that situation use compensating measures: periodic review by the owner, transaction value limits, and exception reports highlighting the unusual. The aim is to reduce risk, not to achieve formal perfection." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "Hands checking documents and a calculator on a desk for an audit",
     caption: "Independent checks and clear records are the heart of internal control.",
   },
@@ -56,7 +56,7 @@ const en: Block[] = [
   { type: "p", text: "Explain the purpose. People accept rules more readily when they understand that they protect the business and themselves from baseless accusations. A clear audit trail also protects honest employees when questions arise." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    src: "/blog/images/photo-1563986768609-322da13575f3",
     alt: "A digital security padlock icon on a technology themed background",
     caption: "Access control and records that cannot be altered protect the integrity of business data.",
   },
@@ -117,7 +117,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "某个月，库存报表出现了一笔谁也解释不清的巨大差异。有人改了一个数字，却没有任何记录显示是谁、何时、为什么改的。会议开了好几个小时，大家互相猜测，最后团队只能得出结论：这一定是无意的录入错误。差异用一笔调整抹平了，而真正的问题，不管它是什么，始终没有被找到。" },
   { type: "p", text: "这样的情形暴露了成长中企业非常常见的漏洞：数据变了，轨迹却缺失。当企业还小、人人彼此熟悉时，信任往往掩盖了这个漏洞。随着员工、分店和交易的增多，仅靠信任已经不够，没有轨迹既是财务风险，也是合规风险。" },
-  { type: "p", text: "本文用企业主和管理者都能看懂的语言，讨论 ERP 系统中的审计轨迹与内部控制。我们将介绍什么是审计轨迹、哪些内容值得记录、职责分离与审批如何运作、如何为审计做准备，以及分阶段的路径，让控制措施感觉是帮助而不是负担。" },
+  { type: "p", text: "本文用企业主和管理者都能看懂的语言，讨论 [ERP 系统](/services/erp)中的审计轨迹与内部控制。我们将介绍什么是审计轨迹、哪些内容值得记录、职责分离与审批如何运作、如何为审计做准备，以及分阶段的路径，让控制措施感觉是帮助而不是负担。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -144,7 +144,7 @@ const zh: Block[] = [
   { type: "p", text: "在小企业中，由于人手有限，完全分离往往不可能。这时要采用补偿措施：由老板定期复核、设置交易金额上限，以及用例外报表突出异常之处。目的是降低风险，而不是追求形式上的完美。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    src: "/blog/images/photo-1454165804606-c3d57bc86b40",
     alt: "桌上的手在检查文件和计算器，用于审计",
     caption: "独立的检查和清晰的记录是内部控制的核心。",
   },
@@ -170,7 +170,7 @@ const zh: Block[] = [
   { type: "p", text: "说明目的。当人们明白规则保护的是企业和他们自己，使他们免受毫无根据的指控时，更容易接受规则。清晰的审计轨迹也会在出现疑问时保护诚实的员工。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    src: "/blog/images/photo-1563986768609-322da13575f3",
     alt: "科技感背景上的数字安全挂锁图标",
     caption: "访问控制和不可更改的记录保护着业务数据的完整性。",
   },

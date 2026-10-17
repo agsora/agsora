@@ -25,7 +25,7 @@ const en: Block[] = [
   { type: "p", text: "Make sure invoices comply with the applicable tax requirements, including format and numbering. These requirements can change, so always refer to the latest rules from the tax authority and consult your accountant or tax consultant." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    src: "/blog/images/photo-1554224155-6726b3ff858f",
     alt: "A pile of forms, receipts, and a calculator on a desk",
     caption: "Invoices created from order and shipment data reduce the errors that delay payment.",
   },
@@ -38,7 +38,7 @@ const en: Block[] = [
   { type: "p", text: "Consider early payment incentives for certain customers, for example a small discount if paid within a short period. Calculate carefully whether the cost of the incentive is smaller than the benefit of faster cash for your business. For some businesses this pays off, for others it does not." },
   { type: "p", text: "Consider late fees too, if they are in the agreement. Apply them consistently and communicate them from the start; applying them suddenly to customers who were never told only damages the relationship. Many businesses choose not to apply them, but still mention them as a reason for discipline." },
   { type: "h2", text: "Polite and consistent reminders" },
-  { type: "p", text: "Automatic reminders are one of the most noticeable benefits of automation. Design the sequence: a friendly notice a few days before the due date, a reminder on the due date, then reminders after the due date with an increasingly firm tone. Each message carries the invoice details and how to pay so the recipient need not ask." },
+  { type: "p", text: "Automatic reminders are one of the most noticeable benefits of [automation](/services/ai-automation). Design the sequence: a friendly notice a few days before the due date, a reminder on the due date, then reminders after the due date with an increasingly firm tone. Each message carries the invoice details and how to pay so the recipient need not ask." },
   { type: "ul", items: [
     "Before the due date: a short notice with a summary and payment link",
     "On the due date: a friendly reminder that payment is due today",
@@ -49,11 +49,11 @@ const en: Block[] = [
   { type: "p", text: "Leave room for human judgement. A large customer who always pays two days late may not need a harsh reminder, while a new customer with a large invoice needs attention earlier. A good system allows per customer exceptions and stops automatic reminders when a dispute is being resolved." },
   { type: "h2", text: "Matching incoming payments" },
   { type: "p", text: "Payments arriving in the account must be matched with the invoices they pay. The trouble is that customers often pay several invoices at once, pay part, or deduct fees without explanation. Matching this manually takes time and is error prone." },
-  { type: "p", text: "Many ERP systems import bank transactions and propose pairs between payments and invoices based on amount, sender name, and reference. Match the certain ones automatically, and leave the doubtful for people to review. Use the invoice number as the payment reference and ask customers to include it." },
+  { type: "p", text: "Many [ERP](/services/erp) systems import bank transactions and propose pairs between payments and invoices based on amount, sender name, and reference. Match the certain ones automatically, and leave the doubtful for people to review. Use the invoice number as the payment reference and ask customers to include it." },
   { type: "p", text: "Handle differences with clear rules: underpayment, overpayment, or deductions. Small differences can be booked as an adjustment within an approved limit, while large ones need tracing. Without rules, these differences pile up in a suspense account and complicate the close." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "Financial report documents and a calculator on a work desk",
     caption: "Tidy payment matching makes the reported receivables ageing genuinely reflect reality.",
   },
@@ -117,7 +117,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "在企业对企业的交易中，带账期销售是常态。货物今天发出或服务今天完成，付款预计在三十天之后。在这两个时间点之间有一项常被忽视的工作：开具正确的发票、按时发给正确的人、提醒，以及核对收到的付款。" },
   { type: "p", text: "在许多企业中，这项工作是用电子表格和电子邮件手工完成的。发票因为等待送货单而延迟开具，被发到错误的地址，或在到期日过后无人跟进。本应到账的钱被搁置在无人处理的账单里，而企业仍然需要按时支付工资和供应商。" },
-  { type: "p", text: "本文介绍如何整理并自动化从订单到收款的周期：发票开具、发送、提醒、付款核对以及争议处理。我们不承诺具体的提速数字，我们提供的是适合中小企业的合理工作顺序。" },
+  { type: "p", text: "本文介绍如何整理并[自动化](/services/ai-automation)从订单到收款的周期：发票开具、发送、提醒、付款核对以及争议处理。我们不承诺具体的提速数字，我们提供的是适合中小企业的合理工作顺序。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -139,7 +139,7 @@ const zh: Block[] = [
   { type: "p", text: "确保发票符合适用的税务要求，包括格式和编号。这些要求可能会变化，因此务必参考税务机关的最新规定，并咨询你的会计师或税务顾问。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    src: "/blog/images/photo-1554224155-6726b3ff858f",
     alt: "桌上堆放的表格、收据和计算器",
     caption: "根据订单和发货数据生成的发票，可减少延误付款的错误。",
   },
@@ -163,11 +163,11 @@ const zh: Block[] = [
   { type: "p", text: "为人的判断留出空间。总是迟付两天的大客户可能不需要严厉的提醒，而有大额账单的新客户则需要更早的关注。好的系统允许按客户设置例外，并在争议处理期间停止自动提醒。" },
   { type: "h2", text: "核对收到的付款" },
   { type: "p", text: "进入账户的付款必须与它所支付的发票相核对。麻烦在于客户经常一次支付多张发票、只付一部分，或不加说明地扣除费用。手工核对既费时又容易出错。" },
-  { type: "p", text: "许多 ERP 会导入银行流水，并根据金额、付款人名称和参考信息推荐付款与发票的配对。自动核对确定的，把有疑问的留给人审核。把发票号作为付款参考，并请客户注明。" },
+  { type: "p", text: "许多 [ERP](/services/erp) 会导入银行流水，并根据金额、付款人名称和参考信息推荐付款与发票的配对。自动核对确定的，把有疑问的留给人审核。把发票号作为付款参考，并请客户注明。" },
   { type: "p", text: "用明确的规则处理差异：少付、多付或扣款。小额差异可以在批准的限额内作为调整入账，大额差异则需要追查。没有规则，这些差异会堆积在暂记账户中，使结账变得复杂。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
+    src: "/blog/images/photo-1553877522-43269d4ea984",
     alt: "办公桌上的财务报告文件和计算器",
     caption: "整齐的付款核对，使所报告的应收账款账龄真正反映实际情况。",
   },

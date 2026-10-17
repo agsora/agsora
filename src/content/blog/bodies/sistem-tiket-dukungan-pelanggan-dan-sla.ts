@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "p", text: "Sebagian bisnis kecil dapat bertahan lama dengan kotak masuk bersama yang rapi. Namun begitu lebih dari satu orang menangani permintaan atau volume mulai terasa, sistem yang memberi struktur akan menghemat waktu dan menjaga kepercayaan pelanggan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
+    src: "/blog/images/photo-1626863905121-3b0c0ed7b94c",
     alt: "Dua perempuan memakai headset di ruang kerja kantor yang terang",
     caption: "Layanan dukungan yang baik dimulai dari antrean yang jelas dan riwayat yang bisa dilihat siapa pun yang menangani.",
   },
@@ -58,7 +58,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagikan temuan kepada bagian lain secara berkala. Tiket adalah sumber masukan paling jujur tentang produk dan layanan. Pola keluhan yang berulang seharusnya sampai kepada orang yang bisa memperbaiki penyebabnya, bukan berhenti di meja dukungan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    src: "/blog/images/photo-1531482615713-2afd69097998",
     alt: "Beberapa anggota tim berdiskusi sambil melihat layar komputer di ruang kerja",
     caption: "Pola keluhan dari tiket menjadi bahan diskusi lintas bagian untuk memperbaiki penyebabnya.",
   },
@@ -87,7 +87,7 @@ export const body: Block[] = [
   { type: "p", text: "Tentukan aturan prioritas khusus untuk masa sibuk, misalnya masalah pembayaran dan pengiriman didahulukan dibanding pertanyaan umum. Komunikasikan kepada pelanggan bila waktu respons akan lebih lama dari biasa; transparansi mengurangi tekanan pada tim." },
   { type: "p", text: "Setelah masa sibuk berlalu, lakukan tinjauan singkat: apa yang terlewat, apa yang berhasil, dan apa yang perlu disiapkan lebih awal pada musim berikutnya. Setiap lonjakan adalah latihan yang membuat tim lebih siap." },
   { type: "h2", text: "Memilih alat yang sesuai skala" },
-  { type: "p", text: "Pilihan alat mulai dari kotak masuk bersama dengan fitur penugasan, sistem tiket khusus, hingga modul layanan pelanggan di dalam CRM. Pilih yang paling sederhana yang memenuhi kebutuhan Anda sekarang dan dapat tumbuh. Kemampuan yang paling penting adalah antrean bersama, riwayat per pelanggan, penugasan, dan laporan dasar." },
+  { type: "p", text: "Pilihan alat mulai dari kotak masuk bersama dengan fitur penugasan, sistem tiket khusus, hingga modul layanan pelanggan di dalam [CRM](/services/crm). Pilih yang paling sederhana yang memenuhi kebutuhan Anda sekarang dan dapat tumbuh. Kemampuan yang paling penting adalah antrean bersama, riwayat per pelanggan, penugasan, dan laporan dasar." },
   { type: "p", text: "Periksa integrasinya dengan sistem lain. Petugas yang dapat melihat riwayat pesanan, pembayaran, dan pengiriman pelanggan dari dalam tiket menyelesaikan masalah jauh lebih cepat daripada yang harus berpindah-pindah aplikasi." },
   { type: "h2", text: "Kesalahan umum yang sebaiknya dihindari" },
   { type: "ul", items: [

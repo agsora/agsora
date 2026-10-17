@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Karena itu manajemen pesanan bukan urusan gudang semata. Ia menghubungkan penjualan, pembayaran, stok, pengiriman, dan layanan pelanggan. Toko yang merancangnya sebagai satu alur utuh akan jauh lebih tenang saat ramai daripada toko yang membiarkan setiap bagian bekerja dengan catatannya sendiri." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
+    src: "/blog/images/photo-1553413077-190dd305871c",
     alt: "Lorong gudang dengan rak tinggi berisi tumpukan kardus",
     caption: "Alur pesanan yang jelas membuat barang berpindah dari rak ke kurir tanpa menebak-nebak.",
   },
@@ -57,7 +57,7 @@ export const body: Block[] = [
   { type: "p", text: "Varian yang mirip adalah sumber salah ambil terbesar: ukuran M dan L, warna hitam dan biru tua, isi 250 dan 500 gram. Pisahkan penyimpanan varian yang mirip, beri label besar, dan bila memungkinkan pakai pemindaian kode batang saat mengambil. Pemindaian menangkap kesalahan sebelum barang masuk ke kardus." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55",
+    src: "/blog/images/photo-1566576721346-d4a3b4eaeb55",
     alt: "Dua orang menyerahkan sebuah paket kardus yang sudah dilakban",
     caption: "Paket yang berpindah tangan dengan catatan yang jelas lebih mudah dilacak ketika ada pertanyaan.",
   },
@@ -86,13 +86,13 @@ export const body: Block[] = [
   { type: "p", text: "Sediakan halaman status pesanan yang bisa dibuka pelanggan kapan saja, baik di website maupun di aplikasi. Halaman ini mengurangi beban layanan pelanggan sekaligus menunjukkan bahwa toko Anda bekerja dengan sistem, bukan dengan ingatan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7",
+    src: "/blog/images/photo-1601584115197-04ecc0da31d7",
     alt: "Truk pengiriman melaju di jalan raya di bawah langit cerah",
     caption: "Setelah paket berada di jalan, pelacakan dan kabar yang jujur menjaga kepercayaan pelanggan.",
   },
   { type: "h2", text: "Kapan memerlukan sistem manajemen pesanan" },
   { type: "p", text: "Lembar kerja bersama cukup untuk tahap awal. Tanda bahwa Anda sudah melewati batasnya biasanya jelas: pesanan terlewat saat ramai, stok di marketplace sering tidak cocok dengan gudang, admin menghabiskan waktu menyalin data antarlayar, dan tidak ada yang bisa menjawab cepat berapa pesanan yang belum dikirim hari ini." },
-  { type: "p", text: "Sistem manajemen pesanan menyatukan pesanan, stok, dan pengiriman dalam satu tempat. Sebagian toko cukup dengan fitur bawaan platform toko online mereka. Toko dengan banyak kanal, beberapa gudang, atau aturan khusus biasanya memerlukan sistem tersendiri yang terhubung dengan toko, marketplace, kurir, dan pembukuan atau ERP." },
+  { type: "p", text: "Sistem manajemen pesanan menyatukan pesanan, stok, dan pengiriman dalam satu tempat. Sebagian toko cukup dengan fitur bawaan platform [toko online](/services/website) mereka. Toko dengan banyak kanal, beberapa gudang, atau aturan khusus biasanya memerlukan sistem tersendiri yang terhubung dengan toko, marketplace, kurir, dan pembukuan atau ERP." },
   { type: "p", text: "Saat menilai pilihan, perhatikan sambungan yang tersedia, kemudahan dipakai petugas gudang di perangkat sederhana, kemampuan menangani pengecualian, dan laporan yang dihasilkan. Sistem yang hebat di atas kertas tetapi lambat dipakai di meja kemas akan ditinggalkan dan tim kembali ke cara lama." },
   { type: "h2", text: "Ukuran kinerja yang layak dipantau" },
   { type: "ul", items: [

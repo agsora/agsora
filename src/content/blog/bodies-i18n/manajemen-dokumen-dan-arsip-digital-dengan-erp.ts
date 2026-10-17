@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Every business produces documents every day: invoices, purchase orders, contracts, transfer receipts, delivery notes, reports, and countless attachments. At first they sit in folders, drawers, and each person's computer. As the business grows, a simple question such as \"where is the supplier contract signed last year?\" turns into an exhausting half day search." },
   { type: "p", text: "The problem is not only lost time. Unmanaged documents create real risks: old versions get used, important documents go missing during a tax inspection or audit, sensitive information scatters across email and chat apps, and employees take essential knowledge with them when they leave." },
-  { type: "p", text: "This article covers document management and digital archives connected to ERP. We will look at why documents should attach to transactions, how to design structure and naming, how to set access rights and retention periods, and how to turn piles of paper into a tidy archive without stopping daily work." },
+  { type: "p", text: "This article covers document management and digital archives connected to [ERP](/services/erp). We will look at why documents should attach to transactions, how to design structure and naming, how to set access rights and retention periods, and how to turn piles of paper into a tidy archive without stopping daily work." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -32,7 +32,7 @@ const en: Block[] = [
   { type: "p", text: "For each type, decide who owns it, who may view it, whether it needs approval, how long it must be kept, and what happens when the retention period ends. These answers become the basis of system configuration, not just policy on paper." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1565688534245-05d6b5be184a",
+    src: "/blog/images/photo-1565688534245-05d6b5be184a",
     alt: "Two people reviewing paper documents on a table",
     caption: "Documents attached to transactions make review and audit far faster.",
   },
@@ -70,10 +70,10 @@ const en: Block[] = [
     "Set a cut off date: after that, all new documents are processed digitally only",
     "Destroy paper only after verification and in line with retention rules",
   ] },
-  { type: "p", text: "Automatic text recognition and data extraction can speed up the work, especially for invoices and fixed pattern documents. But the results still need human verification, especially for figures and party names. Treat automation as an assistant that speeds up entry, not a replacement for checking." },
+  { type: "p", text: "Automatic text recognition and data extraction can speed up the work, especially for invoices and fixed pattern documents. But the results still need human verification, especially for figures and party names. Treat [automation](/services/ai-automation) as an assistant that speeds up entry, not a replacement for checking." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "A hand signing a document on a table",
     caption: "Approvals and signatures recorded in the system make the document trail clear and provable.",
   },
@@ -124,7 +124,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "每家企业每天都会产生文件：发票、采购订单、合同、转账凭证、送货单、报告，以及数不清的附件。起初它们存放在文件夹、抽屉和每个人的电脑里。随着业务增长，像“去年签署的供应商合同在哪里？”这样简单的问题，会变成耗时半天的疲惫搜寻。" },
   { type: "p", text: "问题不仅是浪费时间。缺乏管理的文件会带来实实在在的风险：旧版本被误用、税务检查或审计时重要文件找不到、敏感信息散落在邮件和聊天应用里，以及员工离开时带走了关键知识。" },
-  { type: "p", text: "本文介绍与 ERP 相连的文档管理与数字档案。我们将看看为什么文件应当附着在交易上、如何设计结构与命名、如何设置访问权限和保存期限，以及如何在不中断日常工作的前提下，把成堆的纸张变成整洁的档案。" },
+  { type: "p", text: "本文介绍与 [ERP](/services/erp) 相连的文档管理与数字档案。我们将看看为什么文件应当附着在交易上、如何设计结构与命名、如何设置访问权限和保存期限，以及如何在不中断日常工作的前提下，把成堆的纸张变成整洁的档案。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -153,7 +153,7 @@ const zh: Block[] = [
   { type: "p", text: "对每种类型，要确定谁是负责人、谁可以查看、是否需要审批、必须保存多久，以及保存期满后如何处理。这些答案将成为系统配置的依据，而不只是纸面上的政策。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1565688534245-05d6b5be184a",
+    src: "/blog/images/photo-1565688534245-05d6b5be184a",
     alt: "两个人在桌上查阅纸质文件",
     caption: "附着在交易上的文件，让复核和审计快得多。",
   },
@@ -191,10 +191,10 @@ const zh: Block[] = [
     "设定截止日期：此后所有新文件仅以数字方式处理",
     "只有在核实之后，并且符合保存期限规定时，才销毁纸质件",
   ] },
-  { type: "p", text: "自动文字识别和数据提取可以加快工作，尤其是对发票和格式固定的文件。但结果仍需人工核对，尤其是数字和相关方名称。把自动化当作加快录入的助手，而不是检查的替代品。" },
+  { type: "p", text: "自动文字识别和数据提取可以加快工作，尤其是对发票和格式固定的文件。但结果仍需人工核对，尤其是数字和相关方名称。把[自动化](/services/ai-automation)当作加快录入的助手，而不是检查的替代品。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    src: "/blog/images/photo-1450101499163-c8848c66ca85",
     alt: "桌上一只手正在签署文件",
     caption: "记录在系统中的审批与签名，让文件轨迹清晰且可以证明。",
   },
@@ -205,7 +205,7 @@ const zh: Block[] = [
   { type: "p", text: "用他们自己工作中的真实例子来培训用户，而不是泛泛的演示。展示采购人员如何附加发票、财务人员在出现差异时如何查找，以及主管如何用手机批准文件。当人们看到这个系统为自己省了事，新习惯就会更自然地形成。" },
   { type: "h2", text: "需要与 ERP 连接的内容" },
   { type: "p", text: "要让文件真正附着在交易上，需要设计几个集成点。第一，每个产生或接收文件的模块，如采购、销售、财务和人事，都必须在其记录上提供附加文件的位置。第二，系统生成的文件，例如打印的发票或送货单，应自动存为档案，而不是手工保存。" },
-  { type: "p", text: "第三，连接外部的文件来源。包含供应商发票的邮件、客户在网站上填写的表单，以及办公设备的扫描件，都可以直接路由到 ERP 中的文件收件箱，再与相应的交易匹配。手工步骤越少，文件放错位置的概率就越小。" },
+  { type: "p", text: "第三，连接外部的文件来源。包含供应商发票的邮件、客户在[网站](/services/website)上填写的表单，以及办公设备的扫描件，都可以直接路由到 ERP 中的文件收件箱，再与相应的交易匹配。手工步骤越少，文件放错位置的概率就越小。" },
   { type: "p", text: "第四，考虑反方向：从文件到数据。当发票被自动读取后，结果可以填入采购交易草稿，让员工只需检查并批准。这减少了缓慢且容易出错的重复录入，同时仍把最终决定权留给人。" },
   { type: "h2", text: "安全、备份与恢复" },
   { type: "p", text: "数字档案把大量有价值的信息集中在一处，因此必须认真保护。静态与传输中的加密、对用户的强认证，以及基于角色的访问限制，是不可跳过的基础。要确保存储提供方，无论是云服务还是自有服务器，都满足您所需的标准。" },

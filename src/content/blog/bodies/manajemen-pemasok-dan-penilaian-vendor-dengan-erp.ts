@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Ketika bisnis kecil, mengelola pemasok terasa sederhana: pemilik mengenal setiap pemasok, mengingat harga terakhir, dan tahu siapa yang sering terlambat. Seiring pertumbuhan, ingatan itu tidak lagi cukup. Pemasok bertambah, barang yang dibeli bervariasi, dan beberapa orang di bagian berbeda memesan dari pemasok yang sama tanpa saling tahu." },
   { type: "p", text: "Akibatnya muncul masalah yang berulang: harga beli yang tidak seragam, pesanan yang terlambat tanpa ada yang mencatat, tagihan ganda, dan keputusan memilih pemasok yang didasarkan pada kedekatan, bukan data. Pembelian biasanya menyerap bagian terbesar dari uang yang keluar dari bisnis, sehingga perbaikan kecil di sini berdampak besar pada laba." },
-  { type: "p", text: "Artikel ini membahas cara mengelola pemasok secara terstruktur dengan bantuan ERP: data induk pemasok, proses pengadaan, penilaian kinerja, pengelolaan kontrak dan harga, hingga risiko ketergantungan. Kami tidak memakai angka rekaan; yang kami berikan adalah kerangka kerja yang bisa Anda terapkan sesuai skala bisnis Anda." },
+  { type: "p", text: "Artikel ini membahas cara mengelola pemasok secara terstruktur dengan bantuan [ERP](/services/erp): data induk pemasok, proses pengadaan, penilaian kinerja, pengelolaan kontrak dan harga, hingga risiko ketergantungan. Kami tidak memakai angka rekaan; yang kami berikan adalah kerangka kerja yang bisa Anda terapkan sesuai skala bisnis Anda." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Pengelolaan pemasok yang baik bukan berarti birokrasi tambahan. Intinya adalah memastikan informasi yang penting tersedia di satu tempat, keputusan dibuat dengan data, dan hubungan dengan pemasok tetap sehat. Pemasok yang diperlakukan jelas dan dibayar tepat waktu biasanya juga lebih bersedia membantu saat Anda membutuhkan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    src: "/blog/images/photo-1521791136064-7986c2920216",
     alt: "Dua orang berjabat tangan di ruang kantor",
     caption: "Hubungan dengan pemasok yang sehat bergantung pada kejelasan aturan dan ketepatan pembayaran.",
   },
@@ -50,7 +50,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagikan hasil penilaian kepada pemasok secara berkala. Pemasok yang baik akan menghargai umpan balik yang jelas dan berbasis data, dan sering kali memperbaiki dirinya sendiri. Pemasok yang tidak memperbaiki meski sudah diberi tahu memberi Anda alasan yang objektif untuk mencari alternatif." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553413077-190dd305871c",
+    src: "/blog/images/photo-1553413077-190dd305871c",
     alt: "Lorong gudang dengan rak tinggi berisi tumpukan kardus",
     caption: "Data penerimaan barang di gudang menjadi bahan utama untuk menilai ketepatan dan kesesuaian pemasok.",
   },

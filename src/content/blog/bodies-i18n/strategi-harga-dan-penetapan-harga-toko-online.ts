@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "Price is one of the most influential decisions in a business, yet it is often set in the simplest way: look at competitors' prices, add a certain percentage on top of cost, then hope for the best. That approach is not wrong as a starting point, but it is rarely enough for an online store that wants to grow healthily." },
-  { type: "p", text: "In an online store, price has special characteristics. Buyers can compare dozens of sellers in seconds, prices can be changed instantly, and buyer behaviour data is available for analysis. The opportunity is large, but so are the risks: price wars that erode margin, discounts that make customers wait for promotions, or prices that do not reflect a product's real value." },
+  { type: "p", text: "In an [online store](/services/website), price has special characteristics. Buyers can compare dozens of sellers in seconds, prices can be changed instantly, and buyer behaviour data is available for analysis. The opportunity is large, but so are the risks: price wars that erode margin, discounts that make customers wait for promotions, or prices that do not reflect a product's real value." },
   { type: "p", text: "This article covers how to think about price in a structured way: understanding true costs, choosing a pricing approach, building a tidy price structure, managing discounts, and testing changes safely. We give no benchmark figures because every business differs; what we give is a framework you can apply to your own products." },
   { type: "h2", text: "Summary" },
   {
@@ -38,7 +38,7 @@ const en: Block[] = [
   { type: "p", text: "Price is set from the benefit the buyer perceives: quality, convenience, guarantee, service, or brand image. This approach allows healthier margins if you can explain the value well. It requires understanding customers and honesty about what differentiates your product." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "A person sitting at a desk with a calculator and notebook",
     caption: "Calculating every layer of cost is the first step before setting a healthy price.",
   },
@@ -81,7 +81,7 @@ const en: Block[] = [
   { type: "p", text: "There are several ways to handle it: build part of the shipping cost into the item price, offer free shipping above a certain spend, or show the total cost from the start. Each has consequences for margin and perception, so it needs testing on your products and customers." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    src: "/blog/images/photo-1745270917233-65e776a47547",
     alt: "A stock chart showing an upward trend and potential profit",
     caption: "Price changes need their impact measured on profit, not only on sales volume.",
   },
@@ -145,7 +145,7 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "价格是企业中影响最大的决策之一，却常常以最简单的方式制定：看看竞争对手的价格，在成本之上加一定的百分比，然后听天由命。作为起点，这种做法并没有错，但对于想要健康成长的网店来说，往往不够。" },
-  { type: "p", text: "在网店中，价格有其特殊性。买家可以在几秒内比较几十个卖家，价格可以即时更改，买家行为数据也可用于分析。机会很大，风险也一样：侵蚀利润的价格战、让顾客等待促销的折扣，或是没有反映产品真实价值的价格。" },
+  { type: "p", text: "在[网店](/services/website)中，价格有其特殊性。买家可以在几秒内比较几十个卖家，价格可以即时更改，买家行为数据也可用于分析。机会很大，风险也一样：侵蚀利润的价格战、让顾客等待促销的折扣，或是没有反映产品真实价值的价格。" },
   { type: "p", text: "本文介绍如何有结构地思考价格：理解真实成本，选择定价方法，建立整洁的价格结构，管理折扣，以及安全地测试变更。我们不提供基准数字，因为每家企业都不同；我们提供的是可以应用于你自己产品的框架。" },
   { type: "h2", text: "摘要" },
   {
@@ -181,7 +181,7 @@ const zh: Block[] = [
   { type: "p", text: "价格由买家感知到的益处决定：质量、便利、保障、服务或品牌形象。如果你能很好地阐明价值，这种方法可以带来更健康的利润率。它需要理解顾客，并诚实面对你的产品与众不同之处。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1707902665498-a202981fb5ac",
+    src: "/blog/images/photo-1707902665498-a202981fb5ac",
     alt: "坐在桌前、带着计算器和笔记本的人",
     caption: "计算每一层成本，是制定健康价格之前的第一步。",
   },
@@ -224,7 +224,7 @@ const zh: Block[] = [
   { type: "p", text: "有几种处理方式：把部分运费计入商品价格、在一定消费额以上提供免运费，或从一开始就显示总费用。每种方式对利润率和感知都有影响，需要在你的产品和顾客上测试。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1745270917233-65e776a47547",
+    src: "/blog/images/photo-1745270917233-65e776a47547",
     alt: "显示上升趋势和潜在利润的股票图表",
     caption: "价格变更需要衡量其对利润的影响，而不只是对销量的影响。",
   },

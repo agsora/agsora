@@ -33,7 +33,7 @@ const en: Block[] = [
   { type: "p", text: "Pick one or two countries to study in depth. It is better to understand one market well than to serve twenty markets superficially. Lessons from the first market will speed up and cheapen the next expansion." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    src: "/blog/images/photo-1578575437130-527eed3abbec",
     alt: "A container port with large cranes and a ship loaded with containers",
     caption: "Cross border selling touches shipping, customs, and import rules in the destination country.",
   },
@@ -91,7 +91,7 @@ const en: Block[] = [
   { type: "p", text: "The structure of a multilingual site also affects search engine visibility. Make sure each language version has its own address and is correctly marked so search engines can show the right version to users in each country, and avoid confusing duplicate content." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    src: "/blog/images/photo-1451187580459-43490279c0fa",
     alt: "A photo of the Earth from space with city lights at night",
     caption: "Buyers across time zones expect clear answers and information without a long wait.",
   },
@@ -111,7 +111,7 @@ const en: Block[] = [
   { type: "p", text: "There are two main paths. International marketplaces offer direct access to buyers, payment infrastructure, and sometimes shipping programmes, in exchange for commission and limits on the customer relationship. Your own store gives full control over brand, data, and experience, but you carry the traffic, trust, and operations." },
   { type: "p", text: "Many businesses start through a marketplace to test demand quickly and cheaply, then build their own store for customers who already know the brand. The two are not mutually exclusive. What matters is understanding each one's cost structure and that a strong brand is a long term asset a marketplace does not own." },
   { type: "h2", text: "Preparing systems and operations" },
-  { type: "p", text: "Export adds complexity that must be handled by systems, not by people manually. The online store needs to support multiple currencies, tax and duty calculation per country, international shipping rates by weight and destination, and export documents. The ERP or order system needs to record export sales separately for bookkeeping and tax reporting." },
+  { type: "p", text: "Export adds complexity that must be handled by systems, not by people manually. The [online store](/services/website) needs to support multiple currencies, tax and duty calculation per country, international shipping rates by weight and destination, and export documents. The ERP or order system needs to record export sales separately for bookkeeping and tax reporting." },
   { type: "ul", items: [
     "A catalogue with extra data: weight, dimensions, goods classification code, and country of origin",
     "Shipping rules and rates per zone, with restrictions on products that cannot be shipped to certain countries",
@@ -184,7 +184,7 @@ const zh: Block[] = [
   { type: "p", text: "挑选一两个国家深入研究。深入了解一个市场，胜过肤浅地服务二十个市场。从第一个市场获得的经验，会让下一次扩张更快、更省钱。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    src: "/blog/images/photo-1578575437130-527eed3abbec",
     alt: "有大型起重机和满载集装箱货轮的集装箱港口",
     caption: "跨境销售涉及目的国的物流、海关和进口规则。",
   },
@@ -230,7 +230,7 @@ const zh: Block[] = [
   { type: "p", text: "制定您能够承受的清晰退货政策。写明什么可以退、谁承担费用，以及期限。对于高价值产品，可考虑提供退货标签并详细说明流程。透明的政策能建立来自其他国家的买家非常需要的信任。" },
   { type: "p", text: "也要了解目的国的消费者保护规定。有些国家赋予消费者某些权利，例如网购的冷静期，即使卖家在国外也可能适用。从一开始就了解这些，能避免日后的意外。" },
   { type: "h2", text: "本地化：不止于翻译" },
-  { type: "p", text: "把网站翻译成买家的语言是个好的开始，但真正的本地化更深入。语言、术语、尺码、日期和地址格式、图片、示例，乃至礼貌的说话方式都各不相同。生硬的机器翻译会立刻给人不专业的印象并降低信任。" },
+  { type: "p", text: "把[网站](/services/website)翻译成买家的语言是个好的开始，但真正的本地化更深入。语言、术语、尺码、日期和地址格式、图片、示例，乃至礼貌的说话方式都各不相同。生硬的机器翻译会立刻给人不专业的印象并降低信任。" },
   { type: "ul", items: [
     "对重要页面和结账流程，由母语者审校的自然译文",
     "合适的计量单位、服装尺码、地址格式和电话号码",
@@ -242,7 +242,7 @@ const zh: Block[] = [
   { type: "p", text: "多语言网站的结构也影响搜索引擎中的可见度。确保每个语言版本都有自己的地址并被正确标记，使搜索引擎能向每个国家的用户展示正确的版本，并避免造成混淆的重复内容。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    src: "/blog/images/photo-1451187580459-43490279c0fa",
     alt: "从太空拍摄的地球，夜晚城市灯光闪烁",
     caption: "身处不同时区的买家，期望无需久等就获得清晰的答复和信息。",
   },
@@ -262,7 +262,7 @@ const zh: Block[] = [
   { type: "p", text: "主要有两条路径。国际电商平台提供直接触达买家、支付基础设施，有时还有物流计划，代价是佣金以及对客户关系的限制。自有商店让您对品牌、数据和体验拥有完全的控制，但流量、信任和运营都要由您承担。" },
   { type: "p", text: "许多企业先通过平台快速、低成本地测试需求，再为已经认识品牌的客户建立自己的商店。两者并不互斥。重要的是了解各自的成本结构，以及强大的品牌是平台所不拥有的长期资产。" },
   { type: "h2", text: "准备系统与运营" },
-  { type: "p", text: "出口增加了必须由系统而不是人工处理的复杂性。网店需要支持多种货币、按国家计算的税费和关税、按重量和目的地计算的国际运费，以及出口文件。ERP 或订单系统需要单独记录出口销售，以便记账和税务申报。" },
+  { type: "p", text: "出口增加了必须由系统而不是人工处理的复杂性。网店需要支持多种货币、按国家计算的税费和关税、按重量和目的地计算的国际运费，以及出口文件。[ERP](/services/erp) 或订单系统需要单独记录出口销售，以便记账和税务申报。" },
   { type: "ul", items: [
     "带有额外数据的商品目录：重量、尺寸、商品分类编码和原产国",
     "按区域设定的物流规则和运费，并对无法发往特定国家的产品设置限制",

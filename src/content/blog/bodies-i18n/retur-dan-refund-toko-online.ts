@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Returns are an unavoidable part of selling online. Goods can be damaged in transit, the size may not fit, the colour may look different from the photo, or the wrong item may be sent. Customers who shop without touching the goods reasonably want to know they can send them back if something is wrong. That is why how a store handles returns often decides whether a customer buys again." },
   { type: "p", text: "Many stores treat returns as a nuisance to be minimised. A more useful view is to treat them as a part of the sales process that needs designing. A return handled neatly protects trust, gives data on product quality and descriptions, and creates neither stock discrepancies nor money discrepancies. A return handled carelessly produces disputes, bad reviews, and messy books." },
-  { type: "p", text: "This article covers how to design the returns and refund process for an online store or shopping app. We discuss policy, the request flow, inspecting goods, refunds, the effect on stock and accounting, and how to reduce returns at the source. We use no invented figures about return rates; what we offer are principles and a checklist you can apply to stores of various sizes." },
+  { type: "p", text: "This article covers how to design the returns and refund process for an [online store](/services/website) or shopping app. We discuss policy, the request flow, inspecting goods, refunds, the effect on stock and accounting, and how to reduce returns at the source. We use no invented figures about return rates; what we offer are principles and a checklist you can apply to stores of various sizes." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "From the business side, returns carry valuable information. Goods often returned because the size does not fit show a weak size guide. Goods often damaged show a packaging or supplier problem. A store that reads these patterns can fix the source of the problem rather than merely absorb the consequences." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+    src: "/blog/images/photo-1586528116311-ad8dd3c8310d",
     alt: "A large distribution warehouse with shelves and stacks of yellow containers",
     caption: "Returned goods must go through inspection as careful as the goods leaving the warehouse.",
   },
@@ -56,14 +56,14 @@ const en: Block[] = [
   { type: "p", text: "Decide whether the original shipping fee is refunded, and treat promotions carefully. If an order used a voucher or discount, decide how the value is calculated when only part of the items is returned. This rule should be written in the policy and applied automatically in the system, so it is not redecided in each case by different people." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "A person holding a payment card while shopping on a laptop",
     caption: "A customer asking for a refund wants certainty about the channel and the timing, not just a promise.",
   },
   { type: "h2", text: "How returns affect stock and accounting" },
   { type: "p", text: "Returns touch two books at once: stock and finance. On the stock side, returned goods that pass inspection add to the sellable quantity, while damaged goods do not. If staff simply add stock as soon as a parcel arrives without inspection, the store can sell goods that are actually defective. If, conversely, stock is never added, good goods vanish from the records and appear as discrepancies at the count." },
   { type: "p", text: "On the finance side, a refund reduces revenue and must be recorded in the correct period with a reference to the original sale. If the store sells on several channels, make sure returns from each channel flow into the same reports. A return recorded as an ordinary expense rather than a deduction from sales makes the profit report look better or worse than reality." },
-  { type: "p", text: "A good ERP or point of sale system records a return as a transaction linked to the original sale, so stock, net sales, and the refund move together. If you still use separate records, at least align the reference numbers across all of them so matching can be done at month end close." },
+  { type: "p", text: "A good [ERP](/services/erp) or point of sale system records a return as a transaction linked to the original sale, so stock, net sales, and the refund move together. If you still use separate records, at least align the reference numbers across all of them so matching can be done at month end close." },
   { type: "h2", text: "Abuse and how to handle it fairly" },
   { type: "p", text: "A small share of return requests are indeed dishonest: goods that have been used and then returned, claims of nonreceipt even though the parcel arrived, or returns of a different item than the one bought. Meeting this with suspicion toward all customers damages the experience of the honest majority. More effective is relying on a process that produces evidence." },
   { type: "ul", items: [
@@ -124,7 +124,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "退货是网上销售不可避免的一部分。商品可能在运输中损坏,尺码可能不合适,颜色可能与图片不同,或者发错了货。没有亲手触摸商品就下单的顾客,理所当然想知道出问题时可以退回。因此,店铺如何处理退货,往往决定顾客是否会再次购买。" },
   { type: "p", text: "许多店铺把退货当作要尽量压低的麻烦。更有用的看法,是把它当作销售流程中需要设计的一环。处理得当的退货能维护信任,提供关于商品质量和描述的数据,也不会造成库存差异或资金差异。处理草率的退货则会带来纠纷、差评和混乱的账目。" },
-  { type: "p", text: "本文介绍如何为网店或购物应用设计退货与退款流程。我们讨论政策、申请流程、商品检验、退款、对库存和会计的影响,以及如何从源头减少退货。我们不使用杜撰的退货率数字;提供的是适用于各种规模店铺的原则和检查清单。" },
+  { type: "p", text: "本文介绍如何为[网店](/services/website)或购物应用设计退货与退款流程。我们讨论政策、申请流程、商品检验、退款、对库存和会计的影响,以及如何从源头减少退货。我们不使用杜撰的退货率数字;提供的是适用于各种规模店铺的原则和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -142,7 +142,7 @@ const zh: Block[] = [
   { type: "p", text: "从业务的角度看,退货蕴含宝贵的信息。常因尺码不合而退回的商品,说明尺码指南不够好。经常损坏的商品,说明包装或供应商有问题。读懂这些规律的店铺,可以修正问题的根源,而不只是承担后果。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+    src: "/blog/images/photo-1586528116311-ad8dd3c8310d",
     alt: "有货架和成堆黄色容器的大型配送仓库",
     caption: "退回的商品必须经过与出库商品同样严谨的检验。",
   },
@@ -177,14 +177,14 @@ const zh: Block[] = [
   { type: "p", text: "决定是否退还原运费,并谨慎处理促销。如果订单使用了优惠券或折扣,要决定只退回部分商品时价值如何计算。这条规则应写入政策并在系统中自动执行,而不是每个案例由不同的人重新决定。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "有人手持银行卡在笔记本电脑上购物",
     caption: "要求退款的顾客想要的是渠道和时间上的确定性,而不仅是一个承诺。",
   },
   { type: "h2", text: "退货如何影响库存与会计" },
   { type: "p", text: "退货同时涉及两本账:库存和财务。在库存方面,检验合格的退回商品增加可售数量,而损坏的商品不增加。如果员工在包裹到达时不经检验就直接加库存,店铺可能卖出实际有缺陷的商品。反之,如果从不加库存,好商品就会从记录中消失,并在盘点时显示为差异。" },
   { type: "p", text: "在财务方面,退款会减少收入,必须记录在正确的期间,并注明原销售的关联。如果店铺在多个渠道销售,要确保各渠道的退货流入同一份报表。把退货记为普通支出,而不是销售的扣减,会让利润表看起来比实际更好或更差。" },
-  { type: "p", text: "好的 ERP 或收银系统会把退货记录为与原销售关联的交易,让库存、净销售额和退款同步变动。如果你仍在使用分散的记录,至少要在所有记录中统一编号,以便月末结账时核对。" },
+  { type: "p", text: "好的 [ERP](/services/erp) 或收银系统会把退货记录为与原销售关联的交易,让库存、净销售额和退款同步变动。如果你仍在使用分散的记录,至少要在所有记录中统一编号,以便月末结账时核对。" },
   { type: "h2", text: "滥用行为及公平的处理方式" },
   { type: "p", text: "一小部分退货申请确实不诚实:用过的商品再退回,包裹已送达却声称没收到,或退回与所购不同的商品。对所有顾客都抱以怀疑,会损害诚实多数人的体验。更有效的是依靠能产生证据的流程。" },
   { type: "ul", items: [

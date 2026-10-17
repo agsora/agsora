@@ -53,11 +53,11 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: pelajaran dari kesalahan chatbot" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko online yang memasang chatbot berbasis AI generatif untuk menjawab pertanyaan pelanggan tanpa batasan yang jelas tentang apa yang boleh dan tidak boleh dijanjikan. Suatu hari, chatbot tersebut menjanjikan pengembalian dana penuh kepada seorang pelanggan yang sebenarnya sudah melewati batas waktu kebijakan retur yang berlaku, hanya karena chatbot “menyusun” jawaban yang terdengar membantu berdasarkan konteks percakapan, bukan berdasarkan kebijakan resmi yang sebenarnya berlaku.",
+    text: "Bayangkan sebuah [toko online](/services/website) yang memasang chatbot berbasis AI generatif untuk menjawab pertanyaan pelanggan tanpa batasan yang jelas tentang apa yang boleh dan tidak boleh dijanjikan. Suatu hari, chatbot tersebut menjanjikan pengembalian dana penuh kepada seorang pelanggan yang sebenarnya sudah melewati batas waktu kebijakan retur yang berlaku, hanya karena chatbot “menyusun” jawaban yang terdengar membantu berdasarkan konteks percakapan, bukan berdasarkan kebijakan resmi yang sebenarnya berlaku.",
   },
   {
     type: "p",
-    text: "Setelah insiden ini, tim menyadari perlunya membatasi chatbot agar hanya menjawab berdasarkan sumber informasi resmi yang sudah diverifikasi, dan menetapkan bahwa segala bentuk kompensasi atau pengecualian kebijakan harus melalui persetujuan petugas manusia terlebih dahulu sebelum dijanjikan kepada pelanggan mana pun.",
+    text: "Setelah insiden ini, tim menyadari perlunya membatasi [chatbot](/services/ai-automation) agar hanya menjawab berdasarkan sumber informasi resmi yang sudah diverifikasi, dan menetapkan bahwa segala bentuk kompensasi atau pengecualian kebijakan harus melalui persetujuan petugas manusia terlebih dahulu sebelum dijanjikan kepada pelanggan mana pun.",
   },
   { type: "h2", text: "Cara menerapkan AI dengan lebih aman" },
   {

@@ -3,8 +3,11 @@ import {
   Store,
   UtensilsCrossed,
   Truck,
+  Bus,
   GraduationCap,
   Stethoscope,
+  HandCoins,
+  WashingMachine,
   Factory,
   Briefcase,
   Building2,
@@ -12,6 +15,8 @@ import {
 } from "lucide-react";
 
 export type Industry = {
+  /** URL segment of the industry page: /industries/{slug}. */
+  slug: string;
   name: { id: string; en: string; zh: string };
   icon: LucideIcon;
   description: { id: string; en: string; zh: string };
@@ -19,6 +24,7 @@ export type Industry = {
 
 export const industries: Industry[] = [
   {
+    slug: "ritel",
     name: { id: "Ritel", en: "Retail", zh: "零售" },
     icon: Store,
     description: {
@@ -28,6 +34,7 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "kuliner",
     name: { id: "Kuliner (F&B)", en: "F&B", zh: "餐饮" },
     icon: UtensilsCrossed,
     description: {
@@ -37,6 +44,7 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "distribusi",
     name: { id: "Distribusi", en: "Distribution", zh: "分销" },
     icon: Truck,
     description: {
@@ -46,6 +54,17 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "transportasi",
+    name: { id: "Transportasi & Logistik", en: "Transport & Logistics", zh: "运输与物流" },
+    icon: Bus,
+    description: {
+      id: "Jadwal armada, order pengiriman, dan biaya per perjalanan.",
+      en: "Fleet schedules, delivery orders, and cost per trip.",
+      zh: "车队排班、运输订单与单趟成本。",
+    },
+  },
+  {
+    slug: "sekolah",
     name: { id: "Sekolah / Pendidikan", en: "School / Education", zh: "学校 / 教育" },
     icon: GraduationCap,
     description: {
@@ -55,6 +74,7 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "klinik",
     name: { id: "Klinik / Kesehatan", en: "Clinic / Healthcare", zh: "诊所 / 医疗" },
     icon: Stethoscope,
     description: {
@@ -64,6 +84,27 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "koperasi",
+    name: { id: "Koperasi", en: "Cooperatives", zh: "合作社" },
+    icon: HandCoins,
+    description: {
+      id: "Data anggota, simpanan, pinjaman, dan laporan yang transparan.",
+      en: "Member data, savings, loans, and transparent reporting.",
+      zh: "社员资料、储蓄、贷款与透明的报表。",
+    },
+  },
+  {
+    slug: "laundry",
+    name: { id: "Laundry", en: "Laundry", zh: "洗衣店" },
+    icon: WashingMachine,
+    description: {
+      id: "Order kiloan dan satuan, status cucian, dan nota digital.",
+      en: "Per kilo and per item orders, wash status, and digital receipts.",
+      zh: "按公斤与按件订单、洗衣进度与电子单据。",
+    },
+  },
+  {
+    slug: "manufaktur",
     name: { id: "Manufaktur", en: "Manufacturing", zh: "制造业" },
     icon: Factory,
     description: {
@@ -73,6 +114,7 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "jasa-profesional",
     name: { id: "Jasa Profesional", en: "Professional Services", zh: "专业服务" },
     icon: Briefcase,
     description: {
@@ -82,6 +124,7 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "umkm",
     name: { id: "UMKM", en: "SME", zh: "中小企业" },
     icon: Building2,
     description: {
@@ -91,6 +134,7 @@ export const industries: Industry[] = [
     },
   },
   {
+    slug: "korporasi",
     name: { id: "Korporasi", en: "Enterprise", zh: "大型企业" },
     icon: Landmark,
     description: {

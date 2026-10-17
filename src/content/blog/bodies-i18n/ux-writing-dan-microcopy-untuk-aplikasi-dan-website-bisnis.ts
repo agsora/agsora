@@ -25,7 +25,7 @@ const en: Block[] = [
   { type: "p", text: "Third, write from the user's point of view and at the right moment. Information should appear exactly when it is needed, not in a long block of text at the start. A small hint beside a confusing field is far more effective than a help page that is never opened." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1618044733300-9472054094ee",
+    src: "/blog/images/photo-1618044733300-9472054094ee",
     alt: "An app interface design on a computer screen at a designer's desk",
     caption: "Every word in an interface is part of the design, not an add on at the end.",
   },
@@ -48,7 +48,7 @@ const en: Block[] = [
   { type: "p", text: "On success, confirm clearly what happened and what comes next: order number, estimated arrival, and where to find information. An informative success message reduces questions to customer service and closes the experience with a sense of completion." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    src: "/blog/images/photo-1581091226825-a6a2a5aee158",
     alt: "A person working with a laptop at a desk while taking notes of ideas",
     caption: "Writing interface text is the work of designing a conversation between the business and the user.",
   },
@@ -110,7 +110,7 @@ const en: Block[] = [
 const zh: Block[] = [
   { type: "p", text: "某个订餐应用里有一个标着“提交”的按钮。用户点了它，然后疑惑：我的订单已经发出去了，还是只是表单被提交了？有些人点了两次，结果是订单重复。问题不在代码或视觉设计，而在于按钮上的两个字没能回答用户最简单的问题：这之后会发生什么？" },
   { type: "p", text: "按钮标签、错误提示、输入框下的提示语和通知等小文字，常被当作最后才填写的东西，有时由赶时间的程序员来写。然而用户在每一步读到的正是这些文字，其质量在很大程度上影响他们是完成注册、付款，还是沮丧地离开应用。" },
-  { type: "p", text: "本文讨论企业应用和网站的界面文案（UX Writing）与微文案：基本原则、如何撰写按钮、表单、错误提示和空状态，如何保持品牌语气，多语言的注意事项，以及如何测试和改进文案，使其真正提升转化率和用户满意度。" },
+  { type: "p", text: "本文讨论企业应用和[网站](/services/website)的界面文案（UX Writing）与微文案：基本原则、如何撰写按钮、表单、错误提示和空状态，如何保持品牌语气，多语言的注意事项，以及如何测试和改进文案，使其真正提升转化率和用户满意度。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -132,7 +132,7 @@ const zh: Block[] = [
   { type: "p", text: "第三，从用户的角度出发，并在恰当的时刻书写。信息应在需要的时候出现，而不是在开头的一大段文字里。令人困惑的字段旁边的小提示，比从未被打开的帮助页面有效得多。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1618044733300-9472054094ee",
+    src: "/blog/images/photo-1618044733300-9472054094ee",
     alt: "设计师桌面上电脑屏幕中的应用界面设计稿",
     caption: "界面中的每一个词都是设计的一部分，而不是最后的附加物。",
   },
@@ -155,7 +155,7 @@ const zh: Block[] = [
   { type: "p", text: "成功时，清楚确认发生了什么以及接下来是什么：订单号、预计送达时间，以及到哪里查找信息。信息丰富的成功提示减少向客服的询问，并让体验以完成的感觉收尾。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    src: "/blog/images/photo-1581091226825-a6a2a5aee158",
     alt: "一个人在桌前用笔记本电脑工作并记录想法",
     caption: "撰写界面文案，就是设计企业与用户之间对话的工作。",
   },

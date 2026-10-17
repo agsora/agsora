@@ -22,7 +22,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada juga istilah realitas campuran yang menggabungkan keduanya, serta istilah umum seperti pengalaman imersif. Untuk keperluan keputusan bisnis, cukup bedakan dua hal: apakah pelanggan bisa memakainya dengan perangkat yang sudah ia miliki, atau butuh perangkat tambahan. Pertanyaan sederhana ini sering langsung mempersempit pilihan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+    src: "/blog/images/photo-1535223289827-42f1e9919769",
     alt: "Seseorang mengenakan headset realitas virtual dengan ekspresi terkejut",
     caption: "Pengalaman virtual bisa memukau, tetapi memukau bukan berarti menghasilkan penjualan; ujilah dengan pelanggan nyata.",
   },
@@ -63,7 +63,7 @@ export const body: Block[] = [
   { type: "p", text: "Alternatif-alternatif ini juga lebih tahan lama. Ia tidak bergantung pada dukungan perangkat tertentu dan bisa dibuat dengan keahlian yang lebih mudah ditemukan. Jika ternyata pelanggan memberi respons baik pada visual yang lebih kaya, itu bisa menjadi sinyal bahwa investasi AR layak dipertimbangkan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    src: "/blog/images/photo-1497366216548-37526070297c",
     alt: "Lorong kantor modern yang lengang dengan dinding kaca",
     caption: "Ruang fisik yang kosong bisa dibayangkan lewat AR, tetapi untuk banyak bisnis foto dan denah yang baik sudah menjawab pertanyaan yang sama.",
   },

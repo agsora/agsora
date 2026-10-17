@@ -2,8 +2,8 @@ import type { Block } from "@/config/blog";
 
 const en: Block[] = [
   { type: "p", text: "Many online store owners spend weeks choosing a theme, colours, and a logo, but only a few hours organising the product catalogue. Yet the catalogue is the core of an online store. Customers come to find items, compare them, and decide to buy. If product names are inconsistent, photos are uneven, variants are confusing, or stock is out of sync, no amount of attractive design will save the sale." },
-  { type: "p", text: "A tidy catalogue is not only about appearance either. Product data flows to many places: the storefront, internal search, search engines, marketplaces, the point of sale system, the warehouse, financial reports, and ads. One error in the product data, such as a duplicate item code, spreads to all of them and is hard to clean up once you have hundreds or thousands of products." },
-  { type: "p", text: "This article covers how to build a structured product catalogue for an online store or shopping app. We discuss the product data model, naming, categories and attributes, variants, photos and descriptions, prices and stock, and how to maintain the catalogue over time. We use no invented figures about sales gains; what we offer are principles and a checklist you can apply to a store of any size." },
+  { type: "p", text: "A tidy catalogue is not only about appearance either. Product data flows to many places: the storefront, internal search, search engines, marketplaces, the [point of sale system](/services/pos), the warehouse, financial reports, and ads. One error in the product data, such as a duplicate item code, spreads to all of them and is hard to clean up once you have hundreds or thousands of products." },
+  { type: "p", text: "This article covers how to build a structured product catalogue for an [online store](/services/website) or shopping app. We discuss the product data model, naming, categories and attributes, variants, photos and descriptions, prices and stock, and how to maintain the catalogue over time. We use no invented figures about sales gains; what we offer are principles and a checklist you can apply to a store of any size." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,14 +21,14 @@ const en: Block[] = [
   { type: "p", text: "The indirect effects matter just as much. Search engines read the name, description, and structure of a product page. A consistent catalogue makes pages easier to understand and tell apart. Conversely, hundreds of pages with nearly identical descriptions compete with each other and blur the signal you want to send." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
+    src: "/blog/images/photo-1607082348824-0a96f2a4b9da",
     alt: "Red and black shopping bags lined up against a dark background",
     caption: "Online customers cannot handle the goods; tidy product data takes the place of the shop window.",
   },
   { type: "h2", text: "Understanding the product data model" },
   { type: "p", text: "The most common mistake in building a catalogue is treating everything as one flat list. One T-shirt in five sizes and four colours ends up recorded as twenty separate products with almost the same name. The result is a storefront full of duplicates, split reviews, and search showing repeated results." },
   { type: "p", text: "A healthier model separates three layers. The first is the parent product: the concept of the item sold, with its name, general description, category, and main photo. The second is the variant: the combination of choices that can be bought, such as size and colour, each with its own price, photo, and stock where needed. The third is the stock unit counted in the warehouse, which is usually one to one with the variant but can differ when there are bundles or pack sizes." },
-  { type: "p", text: "With this separation, the storefront shows one product with variant options, reviews collect in one place, and stock is counted per variant. The cashier in a physical shop scans the same variant code, so online and offline stock come from the same source. If you use an ERP or point of sale system, make sure this structure fits how that system stores items before you start importing data." },
+  { type: "p", text: "With this separation, the storefront shows one product with variant options, reviews collect in one place, and stock is counted per variant. The cashier in a physical shop scans the same variant code, so online and offline stock come from the same source. If you use an [ERP](/services/erp) or point of sale system, make sure this structure fits how that system stores items before you start importing data." },
   { type: "h3", text: "Bundles and sets" },
   { type: "p", text: "Bundles, for example a kit of three items, need special treatment. Decide whether the bundle has its own stock or derives its stock from its components. If derived, selling one bundle must reduce the stock of each component, and the bundle stock shown is the number of complete bundles that can still be assembled. Without this rule, the store can sell a bundle whose components have run out." },
   { type: "h2", text: "Unique and stable item codes" },
@@ -56,7 +56,7 @@ const en: Block[] = [
   { type: "p", text: "Variant photos should be tied to the matching variant, so when a customer chooses a colour the image changes with it. Do not show a blue photo for a red variant just because it has not been photographed yet. A mismatch between the photo and the item that arrives is one of the easiest causes of returns to prevent." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    src: "/blog/images/photo-1523474253046-8cd2748b5fd2",
     alt: "A phone showing an online shopping app on a table",
     caption: "Most customers open the catalogue on a phone, so photos and text must be comfortable to read on a small screen.",
   },
@@ -123,8 +123,8 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "许多网店老板会花几周时间挑选主题、配色和标志,却只花几个小时整理商品目录。然而目录才是网店的核心。顾客上门是为了找到商品、比较商品并决定购买。如果商品名称不一致、图片参差不齐、规格令人困惑,或者库存对不上,再漂亮的页面也救不了这笔交易。" },
-  { type: "p", text: "整洁的目录也不只是外观问题。商品数据会流向许多地方:店铺页面、站内搜索、搜索引擎、电商平台、收银系统、仓库、财务报表和广告。商品数据中的一个错误,比如重复的商品编码,会扩散到所有这些地方,当商品增加到数百甚至数千个时就很难清理。" },
-  { type: "p", text: "本文介绍如何为网店或购物应用建立结构清晰的商品目录。我们讨论商品数据模型、命名、分类与属性、规格、图片与描述、价格与库存,以及如何长期维护目录。我们不使用杜撰的销售增长数字;提供的是适用于任何规模店铺的原则和检查清单。" },
+  { type: "p", text: "整洁的目录也不只是外观问题。商品数据会流向许多地方:店铺页面、站内搜索、搜索引擎、电商平台、[收银系统](/services/pos)、仓库、财务报表和广告。商品数据中的一个错误,比如重复的商品编码,会扩散到所有这些地方,当商品增加到数百甚至数千个时就很难清理。" },
+  { type: "p", text: "本文介绍如何为[网店](/services/website)或购物应用建立结构清晰的商品目录。我们讨论商品数据模型、命名、分类与属性、规格、图片与描述、价格与库存,以及如何长期维护目录。我们不使用杜撰的销售增长数字;提供的是适用于任何规模店铺的原则和检查清单。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -142,14 +142,14 @@ const zh: Block[] = [
   { type: "p", text: "间接影响同样重要。搜索引擎会读取商品页面的名称、描述和结构。一致的目录让页面更容易被理解和区分。反之,数百个描述几乎相同的页面会互相竞争,模糊你想传递的信号。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
+    src: "/blog/images/photo-1607082348824-0a96f2a4b9da",
     alt: "深色背景前排成一列的红色和黑色购物袋",
     caption: "网络顾客无法亲手触摸商品;整洁的商品数据就是橱窗的替代品。",
   },
   { type: "h2", text: "理解商品数据模型" },
   { type: "p", text: "建立目录时最常见的错误,是把一切都当作一张扁平的清单。一件T恤有五个尺码、四种颜色,结果被记录成二十个名称几乎相同的独立商品。后果是店铺里充满重复项、评价被拆散、搜索结果反复出现。" },
   { type: "p", text: "更健康的模型分为三层。第一层是主商品:所售商品的概念,包括名称、通用描述、分类和主图。第二层是规格:可购买的选项组合,如尺码和颜色,必要时各自有价格、图片和库存。第三层是仓库盘点的库存单位,通常与规格一一对应,但在有组合装或包装规格时可能不同。" },
-  { type: "p", text: "有了这种区分,店铺页面显示一个带规格选项的商品,评价集中在一处,库存按规格计算。实体店的收银员扫描同一个规格编码,因此线上线下库存来自同一来源。如果你使用 ERP 或收银系统,开始导入数据之前,请确认这种结构与该系统存放商品的方式相符。" },
+  { type: "p", text: "有了这种区分,店铺页面显示一个带规格选项的商品,评价集中在一处,库存按规格计算。实体店的收银员扫描同一个规格编码,因此线上线下库存来自同一来源。如果你使用 [ERP](/services/erp) 或收银系统,开始导入数据之前,请确认这种结构与该系统存放商品的方式相符。" },
   { type: "h3", text: "组合装与套装" },
   { type: "p", text: "组合装,例如一套三件的套装,需要特殊处理。要决定套装是否拥有独立库存,还是由组件库存推算。如果是推算,卖出一套就必须扣减每个组件的库存,显示的套装库存是仍可组装的完整套数。没有这条规则,店铺可能会卖出组件已经售罄的套装。" },
   { type: "h2", text: "唯一而稳定的商品编码" },
@@ -177,7 +177,7 @@ const zh: Block[] = [
   { type: "p", text: "规格图片应与对应的规格绑定,这样顾客选择某个颜色时图片也随之切换。不要因为还没拍照,就用蓝色的图片展示红色规格。图片与收到的商品不符,是最容易避免的退货原因之一。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    src: "/blog/images/photo-1523474253046-8cd2748b5fd2",
     alt: "桌上的手机显示着网络购物应用",
     caption: "大多数顾客用手机打开目录,所以图片和文字必须在小屏幕上读起来舒适。",
   },

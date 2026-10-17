@@ -35,7 +35,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "A hand holding a phone showing a home screen full of app icons",
     caption: "A PWA can sit on the home screen and open like any other app, without going through an app store.",
   },
@@ -109,7 +109,7 @@ const en: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    src: "/blog/images/photo-1633356122544-f134324a6cee",
     alt: "A computer screen showing program code in an editor with the React logo beside it",
     caption: "A PWA is built with the same modern web technology as a website, then given app like capabilities.",
   },
@@ -179,7 +179,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "在普通网站和原生应用之间,有一条近年来日趋成熟的中间道路:渐进式网页应用,即 PWA。PWA 是一种可以安装到手机主屏幕、像应用一样打开、在网络较弱时仍能工作,并且在许多情况下可以发送通知的网页应用，这一切都不需要经过应用商店。",
+    text: "在普通[网站](/services/website)和原生应用之间,有一条近年来日趋成熟的中间道路:渐进式网页应用,即 PWA。PWA 是一种可以安装到手机主屏幕、像应用一样打开、在网络较弱时仍能工作,并且在许多情况下可以发送通知的网页应用，这一切都不需要经过应用商店。",
   },
   {
     type: "p",
@@ -207,7 +207,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6",
+    src: "/blog/images/photo-1555774698-0b77e0d5fac6",
     alt: "一只手拿着手机,屏幕上是布满应用图标的主屏幕",
     caption: "PWA 可以放在主屏幕上,像其他应用一样打开,无需经过应用商店。",
   },
@@ -281,7 +281,7 @@ const zh: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    src: "/blog/images/photo-1633356122544-f134324a6cee",
     alt: "电脑屏幕上的编辑器中显示着程序代码,旁边是 React 标志",
     caption: "PWA 使用与网站相同的现代网页技术构建,再加上类似应用的能力。",
   },

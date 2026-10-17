@@ -29,7 +29,7 @@ export const body: Block[] = [
   { type: "p", text: "Agile juga menuntut waktu Anda. Tim memerlukan keputusan cepat dari seseorang yang memahami bisnis, setiap minggu bahkan setiap hari. Bila pemilik bisnis hanya muncul saat peluncuran, agile kehilangan kekuatan utamanya dan berubah menjadi waterfall yang kacau." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+    src: "/blog/images/photo-1542744173-8e7e53415bb0",
     alt: "Tim berdiskusi di depan papan tulis yang penuh catatan dan diagram",
     caption: "Agile bergantung pada diskusi rutin antara tim teknis dan pemilik bisnis.",
   },
@@ -92,7 +92,7 @@ export const body: Block[] = [
     ],
   },
   { type: "h2", text: "Contoh: toko online yang memilih pendekatan campuran" },
-  { type: "p", text: "Sebuah toko online ingin membangun sistem pesanan baru yang terhubung dengan gudang dan kurir. Bagian integrasi dengan gudang memiliki aturan yang jelas dan stabil, sehingga dikerjakan dengan perencanaan rinci dan harga tetap. Pengalaman checkout untuk pelanggan, sebaliknya, masih banyak hal yang belum diketahui." },
+  { type: "p", text: "Sebuah [toko online](/services/website) ingin membangun sistem pesanan baru yang terhubung dengan gudang dan kurir. Bagian integrasi dengan gudang memiliki aturan yang jelas dan stabil, sehingga dikerjakan dengan perencanaan rinci dan harga tetap. Pengalaman checkout untuk pelanggan, sebaliknya, masih banyak hal yang belum diketahui." },
   { type: "p", text: "Tim memecahnya: integrasi gudang dikerjakan lebih terstruktur dalam enam minggu, sementara checkout dikembangkan dalam siklus dua minggu dengan uji coba ke pelanggan nyata setiap siklus. Hasilnya, jadwal terkendali pada bagian yang pasti dan tetap fleksibel pada bagian yang masih dicari bentuknya." },
   { type: "h2", text: "Pertanyaan yang sering diajukan" },
   { type: "p", text: "Apakah agile selalu lebih murah? Tidak selalu. Agile tidak otomatis menghemat uang; ia mengurangi risiko membangun hal yang salah. Total biaya bisa sama atau bahkan lebih tinggi, tetapi nilai yang diterima lebih terarah karena fitur yang tidak berguna cenderung tidak pernah dibangun." },

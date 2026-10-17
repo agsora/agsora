@@ -8,7 +8,7 @@ import { HomeFaq } from "@/components/home/home-faq";
 import { FinalCta } from "@/components/home/final-cta";
 import { HowWeWork } from "@/components/sections/how-we-work";
 import { Section } from "@/components/ui/section";
-import { featuredServices } from "@/config/services";
+import { services } from "@/config/services";
 import { formatPostDate, getCategoryLabel, getSortedPosts } from "@/config/blog";
 import { siteConfig } from "@/config/site";
 import { dictionaries } from "@/i18n/dictionaries";
@@ -66,7 +66,7 @@ function homeSchema(locale: Locale) {
       {
         "@type": "ItemList",
         name: `${siteConfig.brandMark} | ${t.nav.services}`,
-        itemListElement: featuredServices.map((service, i) => ({
+        itemListElement: services.map((service, i) => ({
           "@type": "ListItem",
           position: i + 1,
           item: {

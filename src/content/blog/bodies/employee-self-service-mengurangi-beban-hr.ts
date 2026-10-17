@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Apa itu employee self service" },
   {
     type: "p",
-    text: "Employee self service adalah bagian sistem HR yang bisa diakses langsung oleh karyawan untuk melihat informasi dan mengajukan permintaan sendiri, tanpa perantara staf HR untuk setiap transaksi kecil. Tim HR tetap memegang kendali atas persetujuan, kebijakan, dan data yang sensitif, yang berubah bukan wewenang HR, melainkan siapa yang mengetik dan mencari informasi rutin sehari-hari.",
+    text: "Employee self service adalah bagian [sistem HR](/services/hris) yang bisa diakses langsung oleh karyawan untuk melihat informasi dan mengajukan permintaan sendiri, tanpa perantara staf HR untuk setiap transaksi kecil. Tim HR tetap memegang kendali atas persetujuan, kebijakan, dan data yang sensitif, yang berubah bukan wewenang HR, melainkan siapa yang mengetik dan mencari informasi rutin sehari-hari.",
   },
   {
     type: "p",

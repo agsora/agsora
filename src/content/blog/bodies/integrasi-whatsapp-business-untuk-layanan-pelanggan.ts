@@ -11,7 +11,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Artikel ini membahas perbedaan WhatsApp Business biasa dan WhatsApp Business Platform (API), apa saja yang bisa diintegrasikan ke website, aplikasi, CRM, atau ERP, bagaimana merancang alur layanan yang tidak terasa seperti robot, serta hal-hal yang perlu diwaspadai dari sisi kebijakan dan keamanan data. Tujuannya membantu Anda memutuskan apakah integrasi sudah dibutuhkan, dan kalau ya, bagaimana memulainya dengan langkah yang masuk akal.",
+    text: "Artikel ini membahas perbedaan WhatsApp Business biasa dan WhatsApp Business Platform (API), apa saja yang bisa diintegrasikan ke website, aplikasi, [CRM](/services/crm), atau ERP, bagaimana merancang alur layanan yang tidak terasa seperti robot, serta hal-hal yang perlu diwaspadai dari sisi kebijakan dan keamanan data. Tujuannya membantu Anda memutuskan apakah integrasi sudah dibutuhkan, dan kalau ya, bagaimana memulainya dengan langkah yang masuk akal.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -35,7 +35,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    src: "/blog/images/photo-1512941937669-90a1b58e7e9c",
     alt: "Ponsel pintar menampilkan layar utama dengan berbagai ikon aplikasi komunikasi",
     caption: "Pelanggan sudah nyaman di WhatsApp; tantangannya adalah mengelola percakapan itu secara rapi di sisi bisnis.",
   },
@@ -94,7 +94,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Tombol WhatsApp di website bisa dibuat lebih cerdas: membawa konteks halaman yang sedang dilihat pengunjung, misalnya produk atau layanan yang diminati, sehingga agen tidak perlu bertanya dari nol. Di aplikasi mobile, hal serupa berlaku untuk bantuan pelanggan: pengguna menekan tombol bantuan dan percakapan terbuka dengan data akun yang relevan sudah menyertai. Pengunjung website yang sulit dilacak sumbernya pun bisa dikaitkan dengan kampanye yang membawa mereka datang.",
+    text: "Tombol WhatsApp di website bisa dibuat lebih cerdas: membawa konteks halaman yang sedang dilihat pengunjung, misalnya produk atau layanan yang diminati, sehingga agen tidak perlu bertanya dari nol. Di [aplikasi mobile](/services/mobile), hal serupa berlaku untuk bantuan pelanggan: pengguna menekan tombol bantuan dan percakapan terbuka dengan data akun yang relevan sudah menyertai. Pengunjung website yang sulit dilacak sumbernya pun bisa dikaitkan dengan kampanye yang membawa mereka datang.",
   },
   { type: "h2", text: "Merancang alur percakapan yang tidak terasa seperti robot" },
   {
@@ -132,7 +132,7 @@ export const body: Block[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957",
+    src: "/blog/images/photo-1584433144859-1fc3ab64a957",
     alt: "Ponsel pintar menampilkan ikon kunci keamanan di atas meja kayu",
     caption: "Percakapan pelanggan sering tersebar di banyak perangkat; integrasi menyatukannya di satu tempat yang terkontrol.",
   },
@@ -147,7 +147,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Sebelum menyentuh teknologi, petakan bagaimana percakapan WhatsApp mengalir sekarang. Siapa yang menjawab, jenis pertanyaan apa yang paling sering, di mana pesan sering terlewat, dan informasi apa yang perlu dilihat agen saat menjawab. Dokumentasikan 10 sampai 20 pertanyaan paling umum beserta jawaban terbaiknya. Dokumen sederhana ini akan menjadi bahan baku seluruh otomatisasi berikutnya.",
+    text: "Sebelum menyentuh teknologi, petakan bagaimana percakapan WhatsApp mengalir sekarang. Siapa yang menjawab, jenis pertanyaan apa yang paling sering, di mana pesan sering terlewat, dan informasi apa yang perlu dilihat agen saat menjawab. Dokumentasikan 10 sampai 20 pertanyaan paling umum beserta jawaban terbaiknya. Dokumen sederhana ini akan menjadi bahan baku seluruh [otomatisasi](/services/ai-automation) berikutnya.",
   },
   {
     type: "h3",

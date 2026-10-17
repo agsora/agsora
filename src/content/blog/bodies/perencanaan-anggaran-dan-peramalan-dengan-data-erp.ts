@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Banyak bisnis menyusun anggaran sekali setahun, biasanya pada akhir tahun, dengan tabel hitung dan banyak tebakan. Setelah disetujui, dokumen itu disimpan dan hanya dibuka ketika ada yang bertanya mengapa biaya melebihi rencana. Pada pertengahan tahun, kenyataan sudah jauh berbeda dari asumsi, dan anggaran kehilangan fungsinya sebagai pegangan." },
-  { type: "p", text: "Anggaran dan peramalan yang baik bukan upaya menebak masa depan dengan tepat. Fungsinya adalah memberi arah, membuat pilihan menjadi eksplisit, dan memungkinkan pemilik melihat lebih awal ketika keadaan menyimpang dari rencana. Data yang tersimpan dalam ERP adalah bahan baku terbaik untuk tujuan itu, karena merekam apa yang benar-benar terjadi." },
+  { type: "p", text: "Anggaran dan peramalan yang baik bukan upaya menebak masa depan dengan tepat. Fungsinya adalah memberi arah, membuat pilihan menjadi eksplisit, dan memungkinkan pemilik melihat lebih awal ketika keadaan menyimpang dari rencana. Data yang tersimpan dalam [ERP](/services/erp) adalah bahan baku terbaik untuk tujuan itu, karena merekam apa yang benar-benar terjadi." },
   { type: "p", text: "Artikel ini membahas cara menyusun anggaran dan peramalan yang praktis untuk bisnis kecil dan menengah dengan memanfaatkan data operasional: bedanya anggaran dan peramalan, cara memulai dari data historis, menentukan asumsi, memantau selisih, dan memperbarui rencana secara berkala. Kami tidak memakai angka rekaan; fokusnya adalah kerangka berpikir yang bisa Anda terapkan." },
   { type: "h2", text: "Ringkasan" },
   {
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Membedakan keduanya penting. Anggaran yang terus diubah mengikuti kenyataan kehilangan fungsinya sebagai tolok ukur, sedangkan peramalan yang membeku pada angka awal tidak menolong pengambilan keputusan. Memakai keduanya berdampingan memungkinkan Anda melihat selisih terhadap rencana sekaligus apa yang mungkin terjadi." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
+    src: "/blog/images/photo-1543286386-713bdd548da4",
     alt: "Kertas berisi grafik garis naik di samping penggaris dan pena di meja kayu",
     caption: "Anggaran memberi arah; peramalan yang diperbarui memberi tahu seberapa jauh bisnis menyimpang dari arah itu.",
   },
@@ -52,7 +52,7 @@ export const body: Block[] = [
   { type: "p", text: "Buat laporan ringkas satu halaman yang menyorot hal yang berarti: pos dengan selisih terbesar, tren selama beberapa bulan terakhir, dan perkiraan terbaru akhir tahun. Laporan yang terlalu panjang tidak dibaca, dan keputusan tetap diambil dengan perasaan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",
+    src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3",
     alt: "Laptop menampilkan dashboard berisi grafik dan tabel laporan",
     caption: "Laporan satu halaman yang menyorot selisih terpenting lebih berguna daripada tabel panjang yang tak dibaca.",
   },

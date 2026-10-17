@@ -106,7 +106,7 @@ export const body: Block[] = [
   { type: "h2", text: "Jaga konsistensi promo di semua saluran penjualan" },
   {
     type: "p",
-    text: "Bisnis yang berjualan lewat toko fisik sekaligus platform online perlu memastikan aturan promo diterapkan secara konsisten di semua saluran tersebut. Promo yang hanya berlaku di satu saluran tapi tidak dikomunikasikan dengan jelas sering menimbulkan kebingungan pelanggan dan keluhan yang sebenarnya bisa dihindari. Jika sistem kasir dan platform online terhubung ke katalog produk yang sama, perubahan aturan promo cukup dilakukan sekali dan otomatis berlaku di semua tempat, mengurangi risiko satu saluran terlewat saat promo diperbarui atau dihentikan.",
+    text: "Bisnis yang berjualan lewat toko fisik sekaligus platform online perlu memastikan aturan promo diterapkan secara konsisten di semua saluran tersebut. Promo yang hanya berlaku di satu saluran tapi tidak dikomunikasikan dengan jelas sering menimbulkan kebingungan pelanggan dan keluhan yang sebenarnya bisa dihindari. Jika [sistem kasir](/services/pos) dan platform online terhubung ke katalog produk yang sama, perubahan aturan promo cukup dilakukan sekali dan otomatis berlaku di semua tempat, mengurangi risiko satu saluran terlewat saat promo diperbarui atau dihentikan.",
   },
   { type: "h2", text: "Kelola stok selama promo berlangsung" },
   {

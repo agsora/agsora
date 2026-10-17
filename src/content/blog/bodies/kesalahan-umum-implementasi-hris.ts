@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "HRIS menyentuh hal yang paling sensitif bagi karyawan: kehadiran, gaji, dan penilaian kinerja. Karena itu, kesalahan penerapan tidak hanya merepotkan tim HR, tetapi juga cepat menurunkan kepercayaan seluruh perusahaan terhadap sistem baru. Kabar baiknya, sebagian besar kesalahan itu bisa diprediksi dan dicegah. Berikut kesalahan yang paling sering terjadi, beserta cara menghindarinya.",
+    text: "[HRIS](/services/hris) menyentuh hal yang paling sensitif bagi karyawan: kehadiran, gaji, dan penilaian kinerja. Karena itu, kesalahan penerapan tidak hanya merepotkan tim HR, tetapi juga cepat menurunkan kepercayaan seluruh perusahaan terhadap sistem baru. Kabar baiknya, sebagian besar kesalahan itu bisa diprediksi dan dicegah. Berikut kesalahan yang paling sering terjadi, beserta cara menghindarinya.",
   },
   { type: "h2", text: "Ringkasan" },
   {

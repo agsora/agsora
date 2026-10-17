@@ -2,7 +2,7 @@ import type { Block } from "@/config/blog";
 
 export const body: Block[] = [
   { type: "p", text: "Pada suatu pagi, sistem kasir tidak bisa dibuka. Server di ruang belakang mati karena gangguan listrik, atau layanan penyimpanan yang dipakai bisnis mengalami gangguan besar, atau seorang karyawan tanpa sengaja mengenkripsi seluruh data karena membuka lampiran surel yang menipu. Pertanyaan yang muncul dalam hitungan detik adalah sama: berapa lama kita bisa beroperasi tanpa sistem ini, dan bagaimana mengembalikannya?" },
-  { type: "p", text: "Sebagian besar bisnis tidak pernah memikirkan pertanyaan itu sampai kejadiannya benar-benar datang. Padahal bagi bisnis yang pekerjaannya bergantung pada sistem digital, entah itu toko online, klinik, distribusi, atau layanan jasa, gangguan beberapa jam saja dapat berarti pesanan hilang, pelanggan kecewa, dan kerugian yang sulit dipulihkan." },
+  { type: "p", text: "Sebagian besar bisnis tidak pernah memikirkan pertanyaan itu sampai kejadiannya benar-benar datang. Padahal bagi bisnis yang pekerjaannya bergantung pada sistem digital, entah itu [toko online](/services/website), klinik, distribusi, atau layanan jasa, gangguan beberapa jam saja dapat berarti pesanan hilang, pelanggan kecewa, dan kerugian yang sulit dipulihkan." },
   { type: "p", text: "Artikel ini membahas rencana pemulihan bencana dan kesinambungan bisnis dengan bahasa yang praktis. Kita akan melihat perbedaan keduanya, bagaimana menentukan seberapa cepat sistem harus pulih, apa saja yang perlu disiapkan, bagaimana melatih rencana itu, dan bagaimana memulai dengan sumber daya yang terbatas tanpa harus membangun infrastruktur yang mahal." },
   { type: "h2", text: "Ringkasan" },
   {
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "p", text: "Untuk setiap jenis, pikirkan kemungkinan terjadinya dan dampaknya pada bisnis Anda. Penilaian sederhana, bahkan dalam bentuk tabel dengan tingkat tinggi, sedang, dan rendah, sudah cukup untuk menentukan prioritas. Anda tidak perlu menyiapkan segalanya sekaligus; cukup mulai dari yang paling mungkin dan paling merugikan." },
   { type: "h2", text: "Dua angka yang menentukan segalanya: RTO dan RPO" },
   { type: "p", text: "Dua istilah teknis ini sangat berguna karena mengubah pembicaraan yang abstrak menjadi keputusan konkret. Recovery time objective, atau RTO, adalah berapa lama sebuah sistem boleh mati sebelum dampaknya tidak dapat diterima. Recovery point objective, atau RPO, adalah berapa banyak data yang boleh hilang, diukur dalam waktu mundur dari saat gangguan." },
-  { type: "p", text: "Bila RPO sebuah sistem kasir adalah satu jam, artinya Anda sanggup kehilangan transaksi satu jam terakhir sehingga cadangan perlu dibuat paling tidak setiap jam. Bila RTO-nya empat jam, sistem harus bisa berjalan kembali dalam empat jam setelah gangguan. Semakin ketat angkanya, semakin mahal solusinya." },
+  { type: "p", text: "Bila RPO sebuah [sistem kasir](/services/pos) adalah satu jam, artinya Anda sanggup kehilangan transaksi satu jam terakhir sehingga cadangan perlu dibuat paling tidak setiap jam. Bila RTO-nya empat jam, sistem harus bisa berjalan kembali dalam empat jam setelah gangguan. Semakin ketat angkanya, semakin mahal solusinya." },
   { type: "callout", title: "Tentukan angka bersama pemilik proses, bukan hanya tim IT", text: "Tim IT dapat menjelaskan apa yang mungkin secara teknis, tetapi hanya pemilik proses bisnis yang tahu berapa kerugian satu jam gangguan. Libatkan keuangan, penjualan, gudang, dan layanan pelanggan saat menetapkan RTO dan RPO. Hasilnya menjadi dasar anggaran yang bisa dipertanggungjawabkan." },
   { type: "p", text: "Tidak semua sistem membutuhkan angka yang sama. Sistem kasir dan pemrosesan pesanan mungkin memerlukan pemulihan cepat, sedangkan sistem pelaporan bulanan dapat menunggu sehari. Mengelompokkan sistem ke dalam tingkat kritikalitas menghemat biaya karena sumber daya terbaik dipakai untuk yang paling penting." },
   { type: "h2", text: "Strategi cadangan yang bisa diandalkan" },
@@ -48,7 +48,7 @@ export const body: Block[] = [
   ] },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1601737487795-dab272f52420",
+    src: "/blog/images/photo-1601737487795-dab272f52420",
     alt: "Hard disk eksternal berwarna perak dan hitam",
     caption: "Cadangan harus berada di lokasi terpisah dan diuji pemulihannya, bukan hanya disimpan.",
   },

@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak project ERP dinyatakan selesai begitu sistemnya sudah dipasang dan mulai dipakai sehari-hari. Tetapi apakah sistem itu benar-benar memperbaiki operasional bisnis secara nyata? Tanpa ukuran keberhasilan yang ditetapkan sejak awal, pertanyaan ini sangat sulit dijawab dengan pasti, dan investasi besar yang sudah dikeluarkan hanya bisa dinilai berdasarkan kesan subjektif, bukan data yang objektif.",
+    text: "Banyak project [ERP](/services/erp) dinyatakan selesai begitu sistemnya sudah dipasang dan mulai dipakai sehari-hari. Tetapi apakah sistem itu benar-benar memperbaiki operasional bisnis secara nyata? Tanpa ukuran keberhasilan yang ditetapkan sejak awal, pertanyaan ini sangat sulit dijawab dengan pasti, dan investasi besar yang sudah dikeluarkan hanya bisa dinilai berdasarkan kesan subjektif, bukan data yang objektif.",
   },
   { type: "h2", text: "Ringkasan" },
   {

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   { type: "p", text: "Most online stores spend a great deal of effort and money bringing in new buyers, then do almost nothing once the first order is complete. The customer receives the goods, the store receives the money, and the relationship stops there. The following month the store pays for advertising again to find new people, while hundreds of people who have already bought and were satisfied are never spoken to again." },
   { type: "p", text: "Email and automated messages are the cheapest way to fix that. Unlike followers on social media, a customer contact list is an asset you own yourself. Its reach does not depend on algorithm changes, and its cost does not rise every time a competitor raises their ad bid." },
-  { type: "p", text: "This article covers how to build email marketing and automation for an online store responsibly. We discuss collecting contacts with permission, the automated flows worth doing first, segmentation, message content, deliverability, the relationship with WhatsApp and app notifications, and how to measure results. There are no invented figures on open rates or sales; each store's results differ and can only be known by measuring them yourself." },
+  { type: "p", text: "This article covers how to build email marketing and [automation](/services/ai-automation) for an online store responsibly. We discuss collecting contacts with permission, the automated flows worth doing first, segmentation, message content, deliverability, the relationship with WhatsApp and app notifications, and how to measure results. There are no invented figures on open rates or sales; each store's results differ and can only be known by measuring them yourself." },
   { type: "h2", text: "Summary" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ const en: Block[] = [
   { type: "p", text: "Email has properties that suit this task. It can carry a long explanation, product images, and a direct link to the basket. It does not intrude the way a phone call does. And almost every online shopper has it, because an email address is needed to receive an order confirmation." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "A laptop screen showing business analytics charts and reports",
     caption: "Owned channels let you measure the customer relationship from message through to purchase.",
   },
@@ -51,7 +51,7 @@ const en: Block[] = [
   { type: "p", text: "Limit the number of reminders and stop them as soon as the customer buys. A reminder that still arrives after the order is complete reveals a disconnected system and makes the store look careless. Make sure this flow reads the latest order status before sending." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1",
+    src: "/blog/images/photo-1512758017271-d7b84c2113f1",
     alt: "A whiteboard full of yellow sticky notes from a planning session",
     caption: "An automated flow is best drawn as a customer journey before it is built in the system.",
   },
@@ -90,7 +90,7 @@ const en: Block[] = [
   { type: "p", text: "Each channel needs its own permission and has its own provider rules. Consent to receive email does not automatically mean consent to receive promotional messages on WhatsApp. Record permission per channel in the customer data and respect the choice." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    src: "/blog/images/photo-1686061592689-312bbfb5c055",
     alt: "A computer screen showing an analytics dashboard with a user retention table",
     caption: "The most meaningful measure is whether customers come back to buy, not merely whether they open a message.",
   },
@@ -133,8 +133,8 @@ const en: Block[] = [
 
 const zh: Block[] = [
   { type: "p", text: "大多数网店花大量精力和费用吸引新买家，却在第一笔订单完成之后几乎什么都不做。顾客收到商品，店铺收到钱，关系就此结束。下个月，店铺又付广告费去找新的人，而几百位已经买过并且满意的顾客，却再也没有被问候过。" },
-  { type: "p", text: "电子邮件和自动化消息是改变这种状况最便宜的办法。与社交媒体上的粉丝不同，顾客联系人名单是你自己拥有的资产。它的触达范围不取决于算法的变化，成本也不会因为竞争对手提高广告出价而上涨。" },
-  { type: "p", text: "本文讨论如何负责任地为网店建立邮件营销和自动化。我们会谈到如何在获得许可的前提下收集联系方式、值得优先做的自动化流程、分群、消息内容、送达率、与 WhatsApp 和应用通知的关系，以及如何衡量结果。这里没有关于打开率或销售额的编造数字，每家店铺的结果都不同，只有自己测量才能知道。" },
+  { type: "p", text: "电子邮件和[自动化](/services/ai-automation)消息是改变这种状况最便宜的办法。与社交媒体上的粉丝不同，顾客联系人名单是你自己拥有的资产。它的触达范围不取决于算法的变化，成本也不会因为竞争对手提高广告出价而上涨。" },
+  { type: "p", text: "本文讨论如何负责任地为[网店](/services/website)建立邮件营销和自动化。我们会谈到如何在获得许可的前提下收集联系方式、值得优先做的自动化流程、分群、消息内容、送达率、与 WhatsApp 和应用通知的关系，以及如何衡量结果。这里没有关于打开率或销售额的编造数字，每家店铺的结果都不同，只有自己测量才能知道。" },
   { type: "h2", text: "摘要" },
   {
     type: "ul",
@@ -152,7 +152,7 @@ const zh: Block[] = [
   { type: "p", text: "电子邮件的特点很适合这项任务。它可以承载较长的说明、商品图片和直达购物车的链接。它不像电话那样打扰人。而且几乎每位网购者都有邮箱，因为接收订单确认需要邮箱地址。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    src: "/blog/images/photo-1460925895917-afdab827c52f",
     alt: "笔记本电脑屏幕上显示着业务分析图表和报告",
     caption: "自有渠道让你能够衡量从消息到购买的整段顾客关系。",
   },
@@ -182,7 +182,7 @@ const zh: Block[] = [
   { type: "p", text: "限制提醒的次数，并在顾客购买后立即停止。订单完成之后还收到提醒，说明系统之间没有打通，也让店铺显得粗心。确保这条流程在发送之前读取最新的订单状态。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1",
+    src: "/blog/images/photo-1512758017271-d7b84c2113f1",
     alt: "贴满黄色便利贴的白板，是一次规划会议的成果",
     caption: "自动化流程最好先画成顾客旅程，再到系统里搭建。",
   },
@@ -221,7 +221,7 @@ const zh: Block[] = [
   { type: "p", text: "每个渠道都需要各自的许可，也有各自服务商的规定。同意接收电子邮件，并不自动等于同意在 WhatsApp 上接收促销消息。在顾客数据中按渠道记录许可，并尊重顾客的选择。" },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1686061592689-312bbfb5c055",
+    src: "/blog/images/photo-1686061592689-312bbfb5c055",
     alt: "电脑屏幕上显示着带有用户留存表格的分析仪表盘",
     caption: "最有意义的指标是顾客是否回来再买，而不只是是否打开了消息。",
   },

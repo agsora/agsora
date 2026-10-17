@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Pengunjung yang mengetik sesuatu di kotak pencarian toko online sedang memberi tahu Anda dengan kata-katanya sendiri apa yang ingin ia beli. Tidak ada sinyal niat yang lebih jelas daripada itu. Namun di banyak toko, kotak pencarian justru menjadi bagian yang paling jarang diperhatikan: dipasang sekali saat toko dibangun, lalu dibiarkan bertahun-tahun tanpa pernah diperiksa hasilnya." },
   { type: "p", text: "Akibatnya mudah ditebak. Pembeli mengetik nama barang dengan ejaan yang sedikit berbeda dan mendapat halaman kosong. Pembeli lain memilih kategori lalu harus menggulir ratusan produk karena tidak ada filter ukuran atau harga. Mereka tidak mengeluh; mereka menutup tab dan mencari di tempat lain. Toko kehilangan penjualan dari orang yang sebenarnya sudah siap membeli, padahal barangnya tersedia di gudang." },
-  { type: "p", text: "Artikel ini membahas cara merancang pencarian dan filter produk yang membantu pembeli menemukan barang dengan cepat, baik di website maupun di aplikasi mobile. Kami membahas data yang menjadi dasarnya, toleransi salah ketik, sinonim, saran otomatis, filter, pengurutan, halaman tanpa hasil, dan cara membaca data pencarian. Kami tidak memakai angka rekaan; yang kami tawarkan adalah prinsip dan langkah yang bisa diperiksa sendiri di toko Anda." },
+  { type: "p", text: "Artikel ini membahas cara merancang pencarian dan filter produk yang membantu pembeli menemukan barang dengan cepat, baik di website maupun di [aplikasi mobile](/services/mobile). Kami membahas data yang menjadi dasarnya, toleransi salah ketik, sinonim, saran otomatis, filter, pengurutan, halaman tanpa hasil, dan cara membaca data pencarian. Kami tidak memakai angka rekaan; yang kami tawarkan adalah prinsip dan langkah yang bisa diperiksa sendiri di toko Anda." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -16,12 +16,12 @@ export const body: Block[] = [
     ],
   },
   { type: "h2", text: "Mengapa pencarian layak mendapat perhatian khusus" },
-  { type: "p", text: "Pengunjung toko online umumnya terbagi dua. Sebagian datang untuk melihat-lihat dan menelusuri kategori. Sebagian lagi sudah tahu apa yang dicari dan langsung menuju kotak pencarian. Kelompok kedua ini biasanya paling dekat dengan keputusan membeli, karena mereka datang dengan kebutuhan yang sudah jelas dan hanya ingin memastikan barangnya ada, cocok, dan harganya masuk akal." },
+  { type: "p", text: "Pengunjung [toko online](/services/website) umumnya terbagi dua. Sebagian datang untuk melihat-lihat dan menelusuri kategori. Sebagian lagi sudah tahu apa yang dicari dan langsung menuju kotak pencarian. Kelompok kedua ini biasanya paling dekat dengan keputusan membeli, karena mereka datang dengan kebutuhan yang sudah jelas dan hanya ingin memastikan barangnya ada, cocok, dan harganya masuk akal." },
   { type: "p", text: "Semakin besar katalog, semakin penting pencarian. Toko dengan tiga puluh produk bisa mengandalkan menu dan halaman kategori. Toko dengan tiga ribu produk tidak bisa. Tanpa pencarian dan filter yang layak, menambah produk justru membuat toko terasa lebih sulit dipakai, karena setiap barang baru memperpanjang daftar yang harus digulir pembeli." },
   { type: "p", text: "Pencarian juga merupakan sumber riset pasar yang gratis. Setiap kata yang diketik adalah permintaan nyata, termasuk untuk barang yang belum Anda jual. Toko yang mencatat dan membaca data ini tahu produk apa yang dicari tetapi tidak tersedia, istilah apa yang dipakai pelanggan, dan kategori mana yang paling membingungkan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
+    src: "/blog/images/photo-1586880244406-556ebe35f282",
     alt: "Laptop menampilkan halaman beranda platform toko online",
     caption: "Kotak pencarian sering menjadi tempat pertama yang dituju pembeli yang sudah tahu apa yang dicari.",
   },
@@ -54,7 +54,7 @@ export const body: Block[] = [
   { type: "p", text: "Di layar ponsel, filter memerlukan rancangan tersendiri. Panel samping yang nyaman di layar lebar tidak muat di layar kecil. Pola yang umum dipakai adalah tombol filter yang membuka panel penuh, dengan tombol terapkan yang selalu terlihat dan menunjukkan jumlah hasil. Pembeli harus dapat mengubah filter tanpa kehilangan posisi dan tanpa menunggu halaman dimuat ulang seluruhnya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+    src: "/blog/images/photo-1563013544-824ae1b704d3",
     alt: "Seseorang memegang kartu pembayaran sambil berbelanja di laptop",
     caption: "Semakin cepat pembeli menemukan barang yang cocok, semakin dekat ia dengan langkah pembayaran.",
   },
@@ -86,7 +86,7 @@ export const body: Block[] = [
   { type: "p", text: "Apa pun pilihannya, pastikan indeks pencarian selalu selaras dengan data toko. Perubahan harga, stok, dan produk baru harus sampai ke indeks dalam waktu singkat. Hasil pencarian yang menampilkan harga lama atau barang yang sudah habis menimbulkan kekecewaan tepat di saat pembeli siap membeli." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    src: "/blog/images/photo-1560472354-b33ff0c44a43",
     alt: "Layar menampilkan grafik klik dan tayangan dengan garis biru berfluktuasi",
     caption: "Data pencarian menunjukkan apa yang dicari pembeli dan seberapa sering mereka menemukannya.",
   },

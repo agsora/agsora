@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Ada pula sisi data. Jika koneksi sering terputus dan transaksi tidak tersimpan dengan benar, laporan penjualan dan stok menjadi tidak akurat. Selisih kecil yang berulang menumpuk menjadi masalah pencatatan yang sulit ditelusuri. Infrastruktur yang andal menjaga data tetap bersih sejak titik pertama transaksi terjadi." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+    src: "/blog/images/photo-1544197150-b99a580bb7a8",
     alt: "Kabel jaringan biru dan abu-abu tertancap pada panel patch",
     caption: "Di balik kasir yang lancar ada kabel, perangkat jaringan, dan listrik yang ditata dengan rapi.",
   },
@@ -30,7 +30,7 @@ export const body: Block[] = [
   { type: "p", text: "Daftar perangkat yang umum di toko ritel mencakup perangkat kasir berupa komputer, tablet, atau terminal khusus, pemindai barcode, printer struk, laci uang, mesin pembayaran kartu atau QRIS, tablet untuk stok, kamera pengawas, dan kadang layar tampilan harga atau iklan. Masing-masing punya kebutuhan koneksi dan daya berbeda. Mengetahui jumlah dan jenisnya membantu Anda memperkirakan kapasitas jaringan yang dibutuhkan." },
   { type: "p", text: "Pertimbangkan juga pertumbuhan. Jika Anda berencana membuka cabang, menambah kasir, atau menambah jenis perangkat dalam setahun ke depan, rancang infrastruktur dengan ruang untuk tumbuh. Menarik kabel tambahan saat pemasangan awal jauh lebih murah daripada membongkar dinding kemudian." },
   { type: "h2", text: "Koneksi internet: pilihan dan cadangan" },
-  { type: "p", text: "Sebagian besar sistem kasir modern berbasis cloud atau setidaknya membutuhkan internet untuk sinkronisasi data, pembayaran digital, dan pembaruan stok. Jadi koneksi internet adalah pembuluh darah toko. Beberapa pertimbangan membantu memilih dan mengamankannya." },
+  { type: "p", text: "Sebagian besar [sistem kasir](/services/pos) modern berbasis cloud atau setidaknya membutuhkan internet untuk sinkronisasi data, pembayaran digital, dan pembaruan stok. Jadi koneksi internet adalah pembuluh darah toko. Beberapa pertimbangan membantu memilih dan mengamankannya." },
   {
     type: "ol",
     items: [
@@ -56,7 +56,7 @@ export const body: Block[] = [
   { type: "p", text: "Pikirkan juga kemudahan perawatan dan penggantian. Perangkat yang suku cadangnya mudah didapat dan penggantiannya cepat lebih berharga daripada perangkat canggih yang rusak lalu harus menunggu berminggu-minggu. Untuk perangkat kritis seperti printer struk dan pemindai, banyak toko menyimpan satu unit cadangan agar penggantian bisa dilakukan dalam hitungan menit." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1604754742629-3e5728249d73",
+    src: "/blog/images/photo-1604754742629-3e5728249d73",
     alt: "Teknisi memasang komponen di dalam casing komputer",
     caption: "Perangkat yang mudah dirawat dan diganti menjaga toko tetap melayani saat terjadi kerusakan.",
   },

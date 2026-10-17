@@ -37,7 +37,7 @@ const en: Block[] = [
   { type: "h2", text: "System integration: from nice to have to baseline" },
   {
     type: "p",
-    text: "Modern businesses typically run several tools at once, POS, accounting, CRM, payment platforms, and marketplaces. For years, many businesses simply accepted that these tools didn't talk to each other, and relied on staff to move data between systems by hand. The shift now is that API integration between systems has become far more affordable and far easier to implement than it was a few years ago.",
+    text: "Modern businesses typically run several tools at once, POS, accounting, [CRM](/services/crm), payment platforms, and marketplaces. For years, many businesses simply accepted that these tools didn't talk to each other, and relied on staff to move data between systems by hand. The shift now is that API integration between systems has become far more affordable and far easier to implement than it was a few years ago.",
   },
   {
     type: "p",
@@ -64,11 +64,11 @@ const en: Block[] = [
   { type: "h2", text: "No code and low code tools speeding up internal processes" },
   {
     type: "p",
-    text: "Not every automation need has to wait for a development team to build a system from scratch. No code and low code tools let nontechnical staff build simple workflows themselves, a request form that automatically feeds into an approval system, or an automatic alert when stock runs low, without writing code. This is especially useful for internal processes specific to one business that aren't big enough to justify a full development project.",
+    text: "Not every [automation](/services/ai-automation) need has to wait for a development team to build a system from scratch. No code and low code tools let nontechnical staff build simple workflows themselves, a request form that automatically feeds into an approval system, or an automatic alert when stock runs low, without writing code. This is especially useful for internal processes specific to one business that aren't big enough to justify a full development project.",
   },
   {
     type: "p",
-    text: "The limits are worth knowing too. No code tools suit relatively simple, standalone workflows, but start feeling constrained once needs grow more complex or need to connect deeply with core business systems like ERP or a customer database. At that point, custom development usually delivers a more stable result long term.",
+    text: "The limits are worth knowing too. No code tools suit relatively simple, standalone workflows, but start feeling constrained once needs grow more complex or need to connect deeply with core business systems like [ERP](/services/erp) or a customer database. At that point, custom development usually delivers a more stable result long term.",
   },
   { type: "h2", text: "Personalization using data the business already has" },
   {
@@ -165,7 +165,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "决定应用成败的,通常不是技术有多先进,而是要解决的问题有多具体。针对单一狭窄任务的 AI，比如按类别整理收到的邮件，远比被期望“全面自动化客服”却没有明确边界的 AI 更容易成功。",
+    text: "决定应用成败的,通常不是技术有多先进,而是要解决的问题有多具体。针对单一狭窄任务的 AI，比如按类别整理收到的邮件，远比被期望“全面[自动化](/services/ai-automation)客服”却没有明确边界的 AI 更容易成功。",
   },
   {
     type: "callout",
@@ -175,7 +175,7 @@ const zh: Block[] = [
   { type: "h2", text: "系统集成:从“锦上添花”变为基本需求" },
   {
     type: "p",
-    text: "现代企业通常同时使用多种工具，收银系统、会计软件、CRM、支付平台和电商平台。多年来,许多企业已经习惯这些工具彼此不互通,靠员工手动在系统之间搬运数据。如今的转变是,系统之间的 API 集成变得比几年前便宜得多,也容易实现得多。",
+    text: "现代企业通常同时使用多种工具，[收银系统](/services/pos)、会计软件、CRM、支付平台和电商平台。多年来,许多企业已经习惯这些工具彼此不互通,靠员工手动在系统之间搬运数据。如今的转变是,系统之间的 API 集成变得比几年前便宜得多,也容易实现得多。",
   },
   {
     type: "p",
@@ -206,7 +206,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "但也要清楚它的局限。无代码工具适合相对简单、独立的工作流,一旦需求变得更复杂,或需要与 ERP、客户数据库等核心业务系统深度对接,就会开始显得力不从心。到了这个阶段,定制开发通常能在长期内提供更稳定的结果。",
+    text: "但也要清楚它的局限。无代码工具适合相对简单、独立的工作流,一旦需求变得更复杂,或需要与 [ERP](/services/erp)、客户数据库等核心业务系统深度对接,就会开始显得力不从心。到了这个阶段,定制开发通常能在长期内提供更稳定的结果。",
   },
   { type: "h2", text: "利用已有数据实现个性化" },
   {

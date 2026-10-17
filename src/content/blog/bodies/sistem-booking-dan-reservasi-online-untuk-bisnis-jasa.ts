@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   { type: "p", text: "Bisnis jasa menjual sesuatu yang tidak bisa disimpan di gudang: waktu. Kursi salon yang kosong pada pukul dua siang, ruang praktik yang menganggur, lapangan yang tidak terpakai, atau teknisi yang menunggu tanpa pekerjaan adalah pendapatan yang hilang dan tidak bisa dijual kembali besok. Karena itu cara sebuah bisnis jasa mengatur jadwalnya sangat menentukan penghasilannya." },
   { type: "p", text: "Di banyak tempat, jadwal masih diatur lewat buku tulis, telepon, dan obrolan. Pelanggan mengirim pesan pada malam hari, baru dibalas keesokan paginya, lalu terjadi tawar-menawar waktu selama beberapa pesan. Sebagian pelanggan sudah memesan di tempat lain sebelum balasan tiba. Sebagian lagi datang pada jam yang ternyata sudah terisi karena dua petugas mencatat di tempat berbeda." },
-  { type: "p", text: "Artikel ini membahas cara merancang sistem booking dan reservasi online untuk bisnis jasa, baik lewat website maupun aplikasi mobile. Kami membahas ketersediaan dan kapasitas, alur pemesanan, uang muka, pengingat, perubahan jadwal, hubungan dengan kasir dan data pelanggan, serta ukuran yang layak dipantau. Tidak ada angka rekaan di sini; yang kami tawarkan adalah prinsip yang bisa disesuaikan dengan jenis jasa Anda." },
+  { type: "p", text: "Artikel ini membahas cara merancang sistem booking dan reservasi online untuk bisnis jasa, baik lewat website maupun [aplikasi mobile](/services/mobile). Kami membahas ketersediaan dan kapasitas, alur pemesanan, uang muka, pengingat, perubahan jadwal, hubungan dengan kasir dan data pelanggan, serta ukuran yang layak dipantau. Tidak ada angka rekaan di sini; yang kami tawarkan adalah prinsip yang bisa disesuaikan dengan jenis jasa Anda." },
   { type: "h2", text: "Ringkasan" },
   {
     type: "ul",
@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Buku jadwal manual juga tidak menyimpan pengetahuan. Ia tidak tahu pelanggan mana yang sering batal, layanan mana yang paling diminati pada hari apa, atau petugas mana yang jadwalnya selalu penuh. Semua informasi itu ada, tetapi tidak bisa ditanyakan. Sistem yang mencatat pemesanan secara terstruktur menjadikannya bahan keputusan." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
+    src: "/blog/images/photo-1556745757-8d76bdb6984b",
     alt: "Pemilik toko melayani transaksi menggunakan perangkat kasir tablet di meja kasir",
     caption: "Petugas yang tidak sibuk membalas pesan jadwal punya lebih banyak waktu untuk pelanggan di depannya.",
   },
@@ -58,7 +58,7 @@ export const body: Block[] = [
   { type: "p", text: "Alat kedua adalah uang muka atau jaminan. Pelanggan yang sudah membayar sebagian cenderung datang. Sesuaikan dengan jenis jasa dan kebiasaan pelanggan Anda; uang muka masuk akal untuk layanan berdurasi panjang, jam sibuk, atau pelanggan baru, tetapi bisa terasa berlebihan untuk layanan kecil bagi pelanggan tetap." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1556742111-a301076d9d18",
+    src: "/blog/images/photo-1556742111-a301076d9d18",
     alt: "Dua tangan melakukan pembayaran nirsentuh dengan ponsel pada mesin pembaca kartu",
     caption: "Uang muka yang dibayar saat memesan membuat pelanggan lebih mungkin hadir sesuai janji.",
   },
@@ -80,7 +80,7 @@ export const body: Block[] = [
   { type: "p", text: "Banyak petugas juga mengandalkan kalender pribadi di ponselnya. Sinkronisasi dengan kalender tersebut mencegah bentrokan dengan urusan lain, tetapi atur dengan hati-hati agar rincian pelanggan tidak ikut tersebar ke tempat yang tidak semestinya." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1551650975-87deedd944c3",
+    src: "/blog/images/photo-1551650975-87deedd944c3",
     alt: "Tangan memegang ponsel yang menampilkan aplikasi dasbor dengan laptop di latar belakang",
     caption: "Jadwal yang bisa dilihat dari ponsel membantu pemilik dan petugas mengetahui keadaan hari itu dalam sekejap.",
   },

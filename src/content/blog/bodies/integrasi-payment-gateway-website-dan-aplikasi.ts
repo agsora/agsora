@@ -21,7 +21,7 @@ export const body: Block[] = [
   { type: "p", text: "Penting dipahami bahwa gateway berbeda dari rekening bank bisnis Anda. Gateway adalah perantara. Dana yang dibayar pelanggan biasanya ditampung dahulu oleh penyedia, lalu dicairkan ke rekening Anda sesuai jadwal dan ketentuan penyedia tersebut. Jadwal itu berpengaruh pada arus kas, jadi periksa dengan teliti sebelum memilih." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1553729459-efe14ef6055d",
+    src: "/blog/images/photo-1553729459-efe14ef6055d",
     alt: "Tangan memegang setumpuk uang kertas",
     caption: "Di balik tombol bayar ada rantai panjang yang memastikan uang pelanggan tercatat tepat dan sampai ke rekening bisnis.",
   },
@@ -74,7 +74,7 @@ export const body: Block[] = [
   { type: "p", text: "Tahap kelima dan keenam adalah yang paling sering salah dirancang. Banyak implementasi pemula hanya mengandalkan halaman \"pembayaran berhasil\" yang dilihat pelanggan di browser. Padahal pelanggan bisa menutup halaman sebelum kembali ke toko Anda, koneksi bisa putus, atau halaman itu bisa dipalsukan. Cara yang benar adalah mengandalkan notifikasi server ke server dari gateway, sering disebut webhook atau callback, sebagai sumber kebenaran status pembayaran." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
+    src: "/blog/images/photo-1586880244406-556ebe35f282",
     alt: "Laptop menampilkan halaman beranda platform toko online",
     caption: "Banyak platform toko online menyediakan integrasi gateway siap pakai, yang bisa memangkas waktu peluncuran.",
   },
@@ -111,7 +111,7 @@ export const body: Block[] = [
   { type: "p", text: "Setelah lolos di lingkungan percobaan, lakukan uji terbatas dengan transaksi sungguhan bernilai kecil sebelum membuka untuk semua pelanggan. Pastikan seluruh rangkaian berjalan: pesanan tercatat, stok berkurang, email konfirmasi terkirim, dana tercatat di dasbor, dan laporan sesuai. Libatkan orang dari tim operasional dan keuangan, bukan hanya pengembang, karena merekalah yang akan memakai hasilnya sehari-hari." },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    src: "/blog/images/photo-1486312338219-ce68d2c6f44d",
     alt: "Tangan mengetik di keyboard laptop",
     caption: "Pengujian yang teliti terhadap setiap skenario pembayaran lebih murah daripada memperbaiki masalah setelah pelanggan sungguhan terdampak.",
   },

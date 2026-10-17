@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pekerjaan seperti ini, disusun dengan langkah yang sama persis setiap periode, dari sumber data yang sudah tersedia di sistem, adalah kandidat otomatisasi yang paling jelas dan paling mudah dikerjakan. Waktunya bisa dipakai untuk membaca dan menganalisis laporan, bukan menghabiskan waktu berjam-jam menyusunnya secara manual setiap minggu.",
+    text: "Pekerjaan seperti ini, disusun dengan langkah yang sama persis setiap periode, dari sumber data yang sudah tersedia di sistem, adalah kandidat [otomatisasi](/services/ai-automation) yang paling jelas dan paling mudah dikerjakan. Waktunya bisa dipakai untuk membaca dan menganalisis laporan, bukan menghabiskan waktu berjam-jam menyusunnya secara manual setiap minggu.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -68,7 +68,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dari dua jam menjadi otomatis sepenuhnya" },
   {
     type: "p",
-    text: "Bayangkan sebuah perusahaan retail yang setiap Senin pagi menghabiskan sekitar dua jam untuk menyusun laporan penjualan mingguan gabungan dari lima toko, mengunduh data satu per satu dari masing-masing sistem kasir, lalu menggabungkannya secara manual di spreadsheet sebelum dikirim ke manajemen.",
+    text: "Bayangkan sebuah perusahaan retail yang setiap Senin pagi menghabiskan sekitar dua jam untuk menyusun laporan penjualan mingguan gabungan dari lima toko, mengunduh data satu per satu dari masing-masing [sistem kasir](/services/pos), lalu menggabungkannya secara manual di spreadsheet sebelum dikirim ke manajemen.",
   },
   {
     type: "p",
@@ -151,7 +151,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mengukur apakah laporan otomatis benar-benar dibaca" },
   {
     type: "p",
-    text: "Otomatisasi memastikan laporan terkirim tepat waktu, tetapi tidak menjamin laporan tersebut benar-benar dibaca dan dipakai untuk mengambil keputusan. Sesekali, tanyakan langsung kepada penerima apakah mereka masih membutuhkan laporan tersebut dan bagian mana yang paling sering mereka lihat. Beberapa sistem juga memungkinkan pelacakan sederhana seperti kapan sebuah laporan atau dashboard terakhir dibuka oleh penerimanya.",
+    text: "Otomatisasi memastikan laporan terkirim tepat waktu, tetapi tidak menjamin laporan tersebut benar-benar dibaca dan dipakai untuk mengambil keputusan. Sesekali, tanyakan langsung kepada penerima apakah mereka masih membutuhkan laporan tersebut dan bagian mana yang paling sering mereka lihat. Beberapa sistem juga memungkinkan pelacakan sederhana seperti kapan sebuah laporan atau [dashboard](/services/dashboard) terakhir dibuka oleh penerimanya.",
   },
   {
     type: "p",
