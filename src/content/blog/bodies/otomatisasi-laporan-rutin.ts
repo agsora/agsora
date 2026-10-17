@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pekerjaan seperti ini — disusun dengan langkah yang sama persis setiap periode, dari sumber data yang sudah tersedia di sistem — adalah kandidat otomatisasi yang paling jelas dan paling mudah dikerjakan. Waktunya bisa dipakai untuk membaca dan menganalisis laporan, bukan menghabiskan waktu berjam-jam menyusunnya secara manual setiap minggu.",
+    text: "Pekerjaan seperti ini, disusun dengan langkah yang sama persis setiap periode, dari sumber data yang sudah tersedia di sistem, adalah kandidat otomatisasi yang paling jelas dan paling mudah dikerjakan. Waktunya bisa dipakai untuk membaca dan menganalisis laporan, bukan menghabiskan waktu berjam-jam menyusunnya secara manual setiap minggu.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -32,7 +32,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Laporan yang formatnya sering berubah-ubah sesuai permintaan mendadak, atau yang membutuhkan analisis dan interpretasi khusus setiap kalinya, kurang cocok untuk diotomatiskan sepenuhnya — meski sebagian prosesnya, seperti pengumpulan data mentah, tetap bisa dipercepat.",
+    text: "Laporan yang formatnya sering berubah-ubah sesuai permintaan mendadak, atau yang membutuhkan analisis dan interpretasi khusus setiap kalinya, kurang cocok untuk diotomatiskan sepenuhnya, meski sebagian prosesnya, seperti pengumpulan data mentah, tetap bisa dipercepat.",
   },
   { type: "h2", text: "Tahapan otomatisasi laporan" },
   {
@@ -63,7 +63,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tetap sediakan ruang untuk catatan" },
   {
     type: "p",
-    text: "Angka tanpa penjelasan konteks mudah disalahartikan oleh pembacanya. Untuk laporan yang ditujukan bagi manajemen, sediakan tempat bagi penanggung jawab untuk menambahkan catatan singkat tentang kejadian-kejadian yang memengaruhi angka pada periode tersebut — misalnya penurunan penjualan karena ada gangguan operasional tertentu yang sudah diketahui.",
+    text: "Angka tanpa penjelasan konteks mudah disalahartikan oleh pembacanya. Untuk laporan yang ditujukan bagi manajemen, sediakan tempat bagi penanggung jawab untuk menambahkan catatan singkat tentang kejadian-kejadian yang memengaruhi angka pada periode tersebut, misalnya penurunan penjualan karena ada gangguan operasional tertentu yang sudah diketahui.",
   },
   { type: "h2", text: "Ilustrasi: dari dua jam menjadi otomatis sepenuhnya" },
   {
@@ -87,11 +87,11 @@ export const body: Block[] = [
   { type: "h2", text: "Akses dan kerahasiaan laporan otomatis" },
   {
     type: "p",
-    text: "Laporan yang tadinya disusun manual biasanya melewati satu orang yang secara alami menjadi penyaring — ia tahu laporan ini hanya untuk manajemen, bukan untuk disebar ke grup yang lebih luas. Ketika proses dibuat otomatis dan terjadwal, penyaring manual ini hilang, sehingga daftar penerima dan hak akses terhadap laporan perlu ditetapkan secara eksplisit di dalam sistem, bukan mengandalkan kehati-hatian seseorang seperti sebelumnya.",
+    text: "Laporan yang tadinya disusun manual biasanya melewati satu orang yang secara alami menjadi penyaring, ia tahu laporan ini hanya untuk manajemen, bukan untuk disebar ke grup yang lebih luas. Ketika proses dibuat otomatis dan terjadwal, penyaring manual ini hilang, sehingga daftar penerima dan hak akses terhadap laporan perlu ditetapkan secara eksplisit di dalam sistem, bukan mengandalkan kehati-hatian seseorang seperti sebelumnya.",
   },
   {
     type: "p",
-    text: "Tinjau juga siapa saja yang berwenang mengubah pengaturan otomatisasi itu sendiri — daftar penerima, jadwal pengiriman, atau metrik yang ditampilkan. Tanpa batasan yang jelas, perubahan kecil yang dilakukan sembarangan bisa membuat laporan sensitif tanpa sengaja terkirim ke pihak yang seharusnya tidak menerimanya.",
+    text: "Tinjau juga siapa saja yang berwenang mengubah pengaturan otomatisasi itu sendiri, daftar penerima, jadwal pengiriman, atau metrik yang ditampilkan. Tanpa batasan yang jelas, perubahan kecil yang dilakukan sembarangan bisa membuat laporan sensitif tanpa sengaja terkirim ke pihak yang seharusnya tidak menerimanya.",
   },
   { type: "h2", text: "Melatih tim membaca laporan otomatis" },
   {
@@ -133,7 +133,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilih visualisasi yang sesuai dengan jenis data" },
   {
     type: "p",
-    text: "Tabel angka yang padat sering kali lebih sulit dicerna dibanding grafik sederhana yang menunjukkan tren dengan jelas dalam sekali lihat. Saat merancang ulang laporan menjelang otomatisasi, pertimbangkan jenis visualisasi yang paling sesuai untuk setiap metrik — grafik garis untuk tren dari waktu ke waktu, grafik batang untuk perbandingan antar kategori, dan tabel hanya untuk data rinci yang memang perlu dibaca angka per angka oleh penerimanya.",
+    text: "Tabel angka yang padat sering kali lebih sulit dicerna dibanding grafik sederhana yang menunjukkan tren dengan jelas dalam sekali lihat. Saat merancang ulang laporan menjelang otomatisasi, pertimbangkan jenis visualisasi yang paling sesuai untuk setiap metrik, grafik garis untuk tren dari waktu ke waktu, grafik batang untuk perbandingan antar kategori, dan tabel hanya untuk data rinci yang memang perlu dibaca angka per angka oleh penerimanya.",
   },
   {
     type: "p",
@@ -142,7 +142,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menggabungkan data dari banyak cabang atau anak usaha" },
   {
     type: "p",
-    text: "Bisnis dengan beberapa cabang atau anak usaha sering menghadapi tantangan tambahan: setiap unit mungkin mencatat data dengan sedikit perbedaan konvensi, atau bahkan memakai sistem yang berbeda satu sama lain karena sejarah pertumbuhan bisnis yang tidak seragam. Sebelum laporan gabungan bisa diotomatiskan dengan andal, perbedaan-perbedaan kecil ini perlu diselaraskan lebih dulu — misalnya penamaan kategori produk yang sama tapi ditulis berbeda di setiap cabang.",
+    text: "Bisnis dengan beberapa cabang atau anak usaha sering menghadapi tantangan tambahan: setiap unit mungkin mencatat data dengan sedikit perbedaan konvensi, atau bahkan memakai sistem yang berbeda satu sama lain karena sejarah pertumbuhan bisnis yang tidak seragam. Sebelum laporan gabungan bisa diotomatiskan dengan andal, perbedaan-perbedaan kecil ini perlu diselaraskan lebih dulu, misalnya penamaan kategori produk yang sama tapi ditulis berbeda di setiap cabang.",
   },
   {
     type: "p",
@@ -160,7 +160,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Mengotomatiskan laporan rutin adalah salah satu perbaikan dengan usaha relatif kecil tapi dampaknya terasa langsung — mengembalikan waktu tim untuk benar-benar menganalisis data, bukan sekadar menyusunnya berulang kali dengan cara yang sama setiap periode. Mulai dari laporan yang paling memakan waktu, sepakati definisinya, dan biarkan sistem yang mengerjakan bagian yang berulang.",
+    text: "Mengotomatiskan laporan rutin adalah salah satu perbaikan dengan usaha relatif kecil tapi dampaknya terasa langsung, mengembalikan waktu tim untuk benar-benar menganalisis data, bukan sekadar menyusunnya berulang kali dengan cara yang sama setiap periode. Mulai dari laporan yang paling memakan waktu, sepakati definisinya, dan biarkan sistem yang mengerjakan bagian yang berulang.",
   },
   {
     type: "cta",

@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dalam banyak kasus, masalahnya bukan pada jumlah atau kualitas pengunjung, melainkan pada apa yang terjadi setelah mereka tiba. Pengunjung datang dengan satu pertanyaan di kepala, lalu harus mencari jawabannya di antara menu yang membingungkan, paragraf yang terlalu umum, dan halaman yang lambat terbuka. Sebagian besar dari mereka tidak mengeluh — mereka hanya menutup tab dan membuka website pesaing. Inilah wilayah yang disebut user experience, atau UX: seberapa mudah seseorang mencapai tujuannya di website Anda.",
+    text: "Dalam banyak kasus, masalahnya bukan pada jumlah atau kualitas pengunjung, melainkan pada apa yang terjadi setelah mereka tiba. Pengunjung datang dengan satu pertanyaan di kepala, lalu harus mencari jawabannya di antara menu yang membingungkan, paragraf yang terlalu umum, dan halaman yang lambat terbuka. Sebagian besar dari mereka tidak mengeluh, mereka hanya menutup tab dan membuka website pesaing. Inilah wilayah yang disebut user experience, atau UX: seberapa mudah seseorang mencapai tujuannya di website Anda.",
   },
   {
     type: "p",
@@ -129,7 +129,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Poin terakhir sering diremehkan. Formulir yang sempurna tidak ada gunanya jika kirimannya masuk ke email yang tidak dipantau. Menghubungkan formulir langsung ke CRM atau setidaknya ke notifikasi tim sales memastikan setiap prospek mendapat tanggapan cepat — dan kecepatan tanggapan sering menentukan siapa yang memenangkan calon pelanggan.",
+    text: "Poin terakhir sering diremehkan. Formulir yang sempurna tidak ada gunanya jika kirimannya masuk ke email yang tidak dipantau. Menghubungkan formulir langsung ke CRM atau setidaknya ke notifikasi tim sales memastikan setiap prospek mendapat tanggapan cepat, dan kecepatan tanggapan sering menentukan siapa yang memenangkan calon pelanggan.",
   },
   { type: "h2", text: "Membangun kepercayaan di halaman yang tepat" },
   {
@@ -149,7 +149,7 @@ export const body: Block[] = [
     type: "ol",
     items: [
       "Pasang alat analitik dan tentukan beberapa tindakan yang dianggap konversi, seperti kiriman formulir atau klik tombol WhatsApp",
-      "Identifikasi halaman dengan kunjungan tinggi tapi konversi rendah — di sanalah perbaikan paling berharga",
+      "Identifikasi halaman dengan kunjungan tinggi tapi konversi rendah, di sanalah perbaikan paling berharga",
       "Periksa kecepatan dan tampilan ponsel halaman-halaman tersebut lebih dulu",
       "Perjelas judul, pesan utama, dan ajakan bertindak di halaman prioritas",
       "Sederhanakan formulir dan pastikan kirimannya tersambung ke sistem tim sales",
@@ -158,7 +158,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Jika setelah beberapa putaran perbaikan website masih terasa terhambat oleh fondasinya — misalnya platform yang lambat, struktur yang sulit diubah, atau desain yang tidak responsif — barulah membangun ulang menjadi pilihan yang masuk akal. Pada titik itu, Anda juga sudah punya data dan pemahaman yang jauh lebih baik tentang apa yang dibutuhkan pengunjung, sehingga website baru bisa dirancang di atas bukti, bukan asumsi.",
+    text: "Jika setelah beberapa putaran perbaikan website masih terasa terhambat oleh fondasinya, misalnya platform yang lambat, struktur yang sulit diubah, atau desain yang tidak responsif, barulah membangun ulang menjadi pilihan yang masuk akal. Pada titik itu, Anda juga sudah punya data dan pemahaman yang jauh lebih baik tentang apa yang dibutuhkan pengunjung, sehingga website baru bisa dirancang di atas bukti, bukan asumsi.",
   },
   { type: "h2", text: "Penutup" },
   {

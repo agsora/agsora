@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Di antara pilihan membuat website biasa dan membuat aplikasi native, ada jalan tengah yang semakin matang dalam beberapa tahun terakhir: progressive web app, atau PWA. PWA adalah aplikasi web yang bisa dipasang di layar utama ponsel, dibuka seperti aplikasi, tetap bisa bekerja saat koneksi lemah, dan dalam banyak kasus bisa mengirim notifikasi — semuanya tanpa melalui toko aplikasi.",
+    text: "Di antara pilihan membuat website biasa dan membuat aplikasi native, ada jalan tengah yang semakin matang dalam beberapa tahun terakhir: progressive web app, atau PWA. PWA adalah aplikasi web yang bisa dipasang di layar utama ponsel, dibuka seperti aplikasi, tetap bisa bekerja saat koneksi lemah, dan dalam banyak kasus bisa mengirim notifikasi, semuanya tanpa melalui toko aplikasi.",
   },
   {
     type: "p",
@@ -73,7 +73,7 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Akses ke fitur perangkat tertentu — seperti Bluetooth untuk printer khusus, sensor tertentu, atau integrasi mendalam dengan sistem operasi — masih lebih terbatas dibanding aplikasi native",
+      "Akses ke fitur perangkat tertentu, seperti Bluetooth untuk printer khusus, sensor tertentu, atau integrasi mendalam dengan sistem operasi, masih lebih terbatas dibanding aplikasi native",
       "Dukungan fitur bisa berbeda antar platform dan browser, sehingga pengujian di berbagai perangkat tetap penting",
       "Tanpa kehadiran di toko aplikasi, sebagian pengguna mungkin tidak tahu bahwa layanan Anda bisa dipasang seperti aplikasi",
       "Aplikasi yang sangat berat secara grafis atau membutuhkan pemrosesan intensif di perangkat biasanya lebih cocok dibangun native",
@@ -120,7 +120,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pilihannya juga tidak harus salah satu. Banyak bisnis memulai dengan PWA untuk menguji kebutuhan dan membangun basis pengguna, lalu menambahkan aplikasi native di kemudian hari untuk fitur yang memang membutuhkannya. Jika arsitektur back-end dirancang dengan baik sejak awal — misalnya dengan API yang terpisah dari tampilan — kedua jenis aplikasi bisa memakai data dan logika bisnis yang sama.",
+    text: "Pilihannya juga tidak harus salah satu. Banyak bisnis memulai dengan PWA untuk menguji kebutuhan dan membangun basis pengguna, lalu menambahkan aplikasi native di kemudian hari untuk fitur yang memang membutuhkannya. Jika arsitektur back-end dirancang dengan baik sejak awal, misalnya dengan API yang terpisah dari tampilan, kedua jenis aplikasi bisa memakai data dan logika bisnis yang sama.",
   },
   { type: "h2", text: "Perbandingan singkat: website, PWA, dan aplikasi native" },
   {
@@ -161,7 +161,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Teknologi web telah berkembang jauh, dan PWA adalah salah satu hasilnya yang paling praktis untuk bisnis. Bagi banyak kebutuhan — katalog, pemesanan, portal pelanggan, dan aplikasi tim lapangan — PWA menawarkan pengalaman seperti aplikasi dengan biaya dan kerumitan yang lebih rendah. Mulailah dari cara pengguna Anda benar-benar berinteraksi dengan layanan, periksa fitur yang dibutuhkan, lalu pilih pendekatan yang paling sesuai. Keputusan yang didasarkan pada kebutuhan nyata hampir selalu lebih baik daripada keputusan yang didasarkan pada tren.",
+    text: "Teknologi web telah berkembang jauh, dan PWA adalah salah satu hasilnya yang paling praktis untuk bisnis. Bagi banyak kebutuhan, katalog, pemesanan, portal pelanggan, dan aplikasi tim lapangan, PWA menawarkan pengalaman seperti aplikasi dengan biaya dan kerumitan yang lebih rendah. Mulailah dari cara pengguna Anda benar-benar berinteraksi dengan layanan, periksa fitur yang dibutuhkan, lalu pilih pendekatan yang paling sesuai. Keputusan yang didasarkan pada kebutuhan nyata hampir selalu lebih baik daripada keputusan yang didasarkan pada tren.",
   },
   {
     type: "cta",

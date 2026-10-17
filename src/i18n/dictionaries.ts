@@ -218,7 +218,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       titleLead: "Software house Indonesia untuk",
       titleHighlight: "sistem bisnis yang terintegrasi.",
       description:
-        "PT Agsora Teknologi Indonesia membangun custom software, website, aplikasi, ERP, POS, HRIS, dan CRM — dirancang mengikuti proses kerja perusahaan Anda agar bekerja lebih efisien, terintegrasi, dan scalable.",
+        "PT Agsora Teknologi Indonesia membangun custom software, website, aplikasi, ERP, POS, HRIS, dan CRM, dirancang mengikuti proses kerja perusahaan Anda agar bekerja lebih efisien, terintegrasi, dan scalable.",
       ctaPrimary: "Konsultasi Gratis",
       ctaSecondary: "Lihat Solusi",
     },
@@ -228,7 +228,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     contactCta: {
       title: "Siap membangun sistem yang tumbuh bersama bisnis Anda?",
       description:
-        "Diskusikan kebutuhan Anda dengan tim AG·SORA — tanpa biaya, tanpa komitmen.",
+        "Diskusikan kebutuhan Anda dengan tim AG·SORA, tanpa biaya, tanpa komitmen.",
       ctaPrimary: "Konsultasi Gratis",
       ctaSecondary: "Minta Proposal",
     },
@@ -307,7 +307,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       },
       servicesTitle: "Jasa pembuatan software & aplikasi untuk bisnis Anda",
       servicesDescription:
-        "Custom software, ERP, POS, HRIS, CRM, website, dan aplikasi mobile — dirancang mengikuti proses kerja perusahaan Anda, dengan harga yang dipublikasikan.",
+        "Custom software, ERP, POS, HRIS, CRM, website, dan aplikasi mobile, dirancang mengikuti proses kerja perusahaan Anda, dengan harga yang dipublikasikan.",
       blogTitle: "Panduan & wawasan sistem bisnis",
       blogCta: "Lihat semua artikel",
       faqTitle: "Pertanyaan yang sering diajukan",
@@ -319,7 +319,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "Pengembangan Custom",
       title: "Layanan yang membangun fondasi digital bisnis Anda",
       description:
-        "Dari website sederhana hingga sistem enterprise — tim AG·SORA merancang solusi yang sesuai dengan proses kerja Anda.",
+        "Dari website sederhana hingga sistem enterprise, tim AG·SORA merancang solusi yang sesuai dengan proses kerja Anda.",
       seeAll: "Lihat Semua Layanan",
       startingFrom: "Mulai dari",
     },
@@ -333,7 +333,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "Kapabilitas",
       title: "Apa yang bisa kami bangun dan hubungkan",
       description:
-        "Ruang lingkup teknis yang kami tangani — dari bentuk aplikasinya, sistem yang perlu disambungkan, sampai cara sistem itu dijalankan.",
+        "Ruang lingkup teknis yang kami tangani, dari bentuk aplikasinya, sistem yang perlu disambungkan, sampai cara sistem itu dijalankan.",
     },
     principlesSection: {
       eyebrow: "Cara Kami Berpikir",
@@ -352,7 +352,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       positioningEyebrow: "Posisi Kami",
       positioningTitle: "Perusahaan teknologi modern untuk bisnis yang ingin bertumbuh",
       positioningDescription:
-        "AG·SORA adalah mitra pengembangan software custom: kami memetakan proses bisnis Anda lebih dulu, lalu membangun sistem yang mengikutinya — bukan memaksa bisnis Anda menyesuaikan diri dengan template.",
+        "AG·SORA adalah mitra pengembangan software custom: kami memetakan proses bisnis Anda lebih dulu, lalu membangun sistem yang mengikutinya, bukan memaksa bisnis Anda menyesuaikan diri dengan template.",
       brandPersonality: "Karakter Merek",
       brandTraits: [
         "Cerdas",
@@ -370,7 +370,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     industriesPage: {
       heroTitle: "Sistem yang menyesuaikan kebutuhan industri Anda",
       heroDescription:
-        "Dari UMKM hingga enterprise multi-cabang — AG·SORA merancang solusi yang relevan dengan tantangan operasional di industri Anda.",
+        "Dari UMKM hingga enterprise multi-cabang, AG·SORA merancang solusi yang relevan dengan tantangan operasional di industri Anda.",
       gridTitle: "Dirancang untuk berbagai jenis bisnis",
       gridDescription:
         "Sistem AG·SORA dirancang fleksibel untuk kebutuhan operasional yang berbeda di setiap industri.",
@@ -423,7 +423,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       descriptionPlaceholder: "Ceritakan kebutuhan dan tantangan bisnis Anda...",
       submit: "Kirim via WhatsApp",
       thankYou:
-        "Terima kasih! Pesan Anda telah disiapkan di WhatsApp — silakan kirim untuk menyelesaikan permintaan konsultasi.",
+        "Terima kasih! Pesan Anda telah disiapkan di WhatsApp, silakan kirim untuk menyelesaikan permintaan konsultasi.",
     },
     servicesPage: {
       heroTitle: "Solusi teknologi yang dirancang untuk cara kerja Anda",
@@ -443,7 +443,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     blogPage: {
       heroTitle: "Catatan tentang membangun sistem bisnis",
       heroDescription:
-        "Hal-hal praktis yang kami temui saat merancang dan menerapkan sistem — ditulis untuk pemilik bisnis dan tim operasional, bukan hanya untuk developer.",
+        "Hal-hal praktis yang kami temui saat merancang dan menerapkan sistem, ditulis untuk pemilik bisnis dan tim operasional, bukan hanya untuk developer.",
       pageTitle: "Semua artikel",
       pageLabel: "Halaman",
       latestEyebrow: "Terbaru",
@@ -490,7 +490,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       titleLead: "Indonesian software house for",
       titleHighlight: "integrated business systems.",
       description:
-        "PT Agsora Teknologi Indonesia builds custom software, websites, apps, ERP, POS, HRIS, and CRM — designed around how your company works, so it runs more efficiently, stays integrated, and scales with ease.",
+        "PT Agsora Teknologi Indonesia builds custom software, websites, apps, ERP, POS, HRIS, and CRM, designed around how your company works, so it runs more efficiently, stays integrated, and scales with ease.",
       ctaPrimary: "Free Consultation",
       ctaSecondary: "See Solutions",
     },
@@ -500,7 +500,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     contactCta: {
       title: "Ready to build a system that grows with your business?",
       description:
-        "Discuss your needs with the AG·SORA team — no cost, no commitment.",
+        "Discuss your needs with the AG·SORA team, no cost, no commitment.",
       ctaPrimary: "Free Consultation",
       ctaSecondary: "Request Proposal",
     },
@@ -579,7 +579,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       },
       servicesTitle: "Custom software & app development for your business",
       servicesDescription:
-        "Custom software, ERP, POS, HRIS, CRM, websites, and mobile apps — designed around how your company works, with published pricing.",
+        "Custom software, ERP, POS, HRIS, CRM, websites, and mobile apps, designed around how your company works, with published pricing.",
       blogTitle: "Guides & insights on business systems",
       blogCta: "See all articles",
       faqTitle: "Frequently asked questions",
@@ -591,7 +591,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "Custom Development",
       title: "Services that build the digital foundation of your business",
       description:
-        "From simple websites to enterprise systems — the AG·SORA team designs solutions that fit how you work.",
+        "From simple websites to enterprise systems, the AG·SORA team designs solutions that fit how you work.",
       seeAll: "See All Services",
       startingFrom: "Starting from",
     },
@@ -605,7 +605,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "Capabilities",
       title: "What we can build and connect",
       description:
-        "The technical scope we cover — from the type of application, to the systems that need connecting, to how it all runs.",
+        "The technical scope we cover, from the type of application, to the systems that need connecting, to how it all runs.",
     },
     principlesSection: {
       eyebrow: "How We Think",
@@ -624,7 +624,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       positioningEyebrow: "Positioning",
       positioningTitle: "A modern technology company for businesses ready to grow",
       positioningDescription:
-        "AG·SORA is a custom software development partner: we map your business process first, then build a system that follows it — instead of forcing your business to fit a template.",
+        "AG·SORA is a custom software development partner: we map your business process first, then build a system that follows it, instead of forcing your business to fit a template.",
       brandPersonality: "Brand Personality",
       brandTraits: [
         "Intelligent",
@@ -642,7 +642,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     industriesPage: {
       heroTitle: "Systems tailored to your industry's needs",
       heroDescription:
-        "From SMEs to multi-branch enterprises — AG·SORA designs solutions relevant to the operational challenges in your industry.",
+        "From SMEs to multi-branch enterprises, AG·SORA designs solutions relevant to the operational challenges in your industry.",
       gridTitle: "Designed for every kind of business",
       gridDescription:
         "AG·SORA systems are built flexibly for the different operational needs of each industry.",
@@ -695,7 +695,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       descriptionPlaceholder: "Tell us about your business needs and challenges...",
       submit: "Send via WhatsApp",
       thankYou:
-        "Thank you! Your message has been prepared in WhatsApp — please send it to complete your consultation request.",
+        "Thank you! Your message has been prepared in WhatsApp, please send it to complete your consultation request.",
     },
     servicesPage: {
       heroTitle: "Technology solutions designed for how you work",
@@ -715,7 +715,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     blogPage: {
       heroTitle: "Notes on building business systems",
       heroDescription:
-        "Practical things we've learned designing and implementing systems — written for business owners and operations teams, not just developers.",
+        "Practical things we've learned designing and implementing systems, written for business owners and operations teams, not just developers.",
       pageTitle: "All articles",
       pageLabel: "Page",
       latestEyebrow: "Latest",
@@ -762,7 +762,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       titleLead: "印尼软件公司，打造",
       titleHighlight: "一体化商业系统。",
       description:
-        "PT Agsora Teknologi Indonesia 为企业构建定制软件、网站、应用、ERP、POS、HRIS 和 CRM 系统——贴合贵公司的业务流程设计，帮助您的企业更高效、更集成、更具扩展性地运营。",
+        "PT Agsora Teknologi Indonesia 为企业构建定制软件、网站、应用、ERP、POS、HRIS 和 CRM 系统，贴合贵公司的业务流程设计，帮助您的企业更高效、更集成、更具扩展性地运营。",
       ctaPrimary: "免费咨询",
       ctaSecondary: "查看解决方案",
     },
@@ -771,7 +771,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     },
     contactCta: {
       title: "准备好构建与您业务共同成长的系统了吗？",
-      description: "与 AG·SORA 团队讨论您的需求 — 完全免费，无需承诺。",
+      description: "与 AG·SORA 团队讨论您的需求, 完全免费，无需承诺。",
       ctaPrimary: "免费咨询",
       ctaSecondary: "索取方案",
     },
@@ -847,7 +847,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       // break there or at punctuation, so a word like 业务 never splits.
       servicesTitle: "为您的企业\u200B定制\u200B软件与应用",
       servicesDescription:
-        "定制软件、ERP、POS、HRIS、CRM、网站与移动应用 —— 贴合贵公司的业务流程设计，价格公开透明。",
+        "定制软件、ERP、POS、HRIS、CRM、网站与移动应用，贴合贵公司的业务流程设计，价格公开透明。",
       blogTitle: "商业系统\u200B指南与洞见",
       blogCta: "查看全部文章",
       faqTitle: "常见问题解答",
@@ -859,7 +859,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "定制开发",
       title: "为您的业务打造数字化基础的服务",
       description:
-        "从简单网站到企业级系统 — AG·SORA 团队设计的方案贴合您的工作方式。",
+        "从简单网站到企业级系统, AG·SORA 团队设计的方案贴合您的工作方式。",
       seeAll: "查看全部服务",
       startingFrom: "起价",
     },
@@ -873,7 +873,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       eyebrow: "能力范围",
       title: "我们能构建与对接的内容",
       description:
-        "我们所覆盖的技术范围 — 从应用形态、需要对接的系统，到系统的运行方式。",
+        "我们所覆盖的技术范围, 从应用形态、需要对接的系统，到系统的运行方式。",
     },
     principlesSection: {
       eyebrow: "我们的思考方式",
@@ -901,7 +901,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     industriesPage: {
       heroTitle: "贴合您所在行业需求的系统",
       heroDescription:
-        "从中小微企业到多分店企业 — AG·SORA 设计的方案贴合您行业中的实际运营挑战。",
+        "从中小微企业到多分店企业, AG·SORA 设计的方案贴合您行业中的实际运营挑战。",
       gridTitle: "为各类企业量身打造",
       gridDescription:
         "AG·SORA 的系统设计灵活，可满足各行业不同的运营需求。",
@@ -954,7 +954,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       descriptionPlaceholder: "请描述您的业务需求与挑战……",
       submit: "通过 WhatsApp 发送",
       thankYou:
-        "感谢您！您的消息已在 WhatsApp 中准备好 — 请发送以完成咨询请求。",
+        "感谢您！您的消息已在 WhatsApp 中准备好, 请发送以完成咨询请求。",
     },
     servicesPage: {
       heroTitle: "为您的工作方式量身设计的技术解决方案",
@@ -974,7 +974,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     blogPage: {
       heroTitle: "关于构建业务系统的笔记",
       heroDescription:
-        "我们在设计与实施系统过程中总结的实用经验 — 面向企业主与运营团队撰写，而不仅仅是开发者。",
+        "我们在设计与实施系统过程中总结的实用经验, 面向企业主与运营团队撰写，而不仅仅是开发者。",
       pageTitle: "全部文章",
       pageLabel: "第",
       latestEyebrow: "最新",

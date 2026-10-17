@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Rapat Senin pagi. Tim sales membawa angka penjualan bulan lalu. Tim keuangan membawa angka yang berbeda. Kepala gudang punya versi ketiga. Tiga puluh menit pertama rapat habis untuk berdebat soal angka mana yang benar — dan keputusan yang seharusnya diambil hari itu ditunda sampai minggu depan.",
+    text: "Rapat Senin pagi. Tim sales membawa angka penjualan bulan lalu. Tim keuangan membawa angka yang berbeda. Kepala gudang punya versi ketiga. Tiga puluh menit pertama rapat habis untuk berdebat soal angka mana yang benar, dan keputusan yang seharusnya diambil hari itu ditunda sampai minggu depan.",
   },
   {
     type: "p",
@@ -33,7 +33,7 @@ export const body: Block[] = [
   { type: "h3", text: "Pertumbuhan cabang dan saluran baru" },
   {
     type: "p",
-    text: "Setiap cabang atau saluran penjualan baru — toko online, marketplace, sales lapangan — sering dimulai dengan pencatatannya sendiri agar cepat berjalan. Tanpa rencana penyatuan, setiap saluran menjadi pulau data yang terpisah.",
+    text: "Setiap cabang atau saluran penjualan baru, toko online, marketplace, sales lapangan, sering dimulai dengan pencatatannya sendiri agar cepat berjalan. Tanpa rencana penyatuan, setiap saluran menjadi pulau data yang terpisah.",
   },
   { type: "h3", text: "Solusi sementara yang menjadi permanen" },
   {
@@ -59,7 +59,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Karena tersebar di banyak orang dan banyak hari, waktu ini jarang dihitung. Tetapi jika dijumlahkan dalam sebulan, hasilnya sering mengejutkan — setara dengan beberapa hari kerja, bahkan beberapa minggu kerja, yang dihabiskan untuk memindahkan dan mencocokkan data.",
+    text: "Karena tersebar di banyak orang dan banyak hari, waktu ini jarang dihitung. Tetapi jika dijumlahkan dalam sebulan, hasilnya sering mengejutkan, setara dengan beberapa hari kerja, bahkan beberapa minggu kerja, yang dihabiskan untuk memindahkan dan mencocokkan data.",
   },
   { type: "h2", text: "Biaya kedua: keputusan yang meleset" },
   {
@@ -69,12 +69,12 @@ export const body: Block[] = [
   { type: "h2", text: "Biaya ketiga: rapat yang tidak memutuskan" },
   {
     type: "p",
-    text: "Rapat seharusnya menjadi tempat mengambil keputusan. Dalam organisasi dengan data silo, rapat berubah menjadi tempat menyepakati fakta. Waktu para pengambil keputusan — yang biasanya paling mahal — habis untuk hal yang seharusnya sudah jelas sebelum rapat dimulai.",
+    text: "Rapat seharusnya menjadi tempat mengambil keputusan. Dalam organisasi dengan data silo, rapat berubah menjadi tempat menyepakati fakta. Waktu para pengambil keputusan, yang biasanya paling mahal, habis untuk hal yang seharusnya sudah jelas sebelum rapat dimulai.",
   },
   {
     type: "callout",
     title: "Gejala paling mudah dikenali",
-    text: "Jika rapat rutin Anda sering dimulai dengan perdebatan tentang angka mana yang benar, Anda sedang membayar biaya data silo setiap minggu — hanya saja tagihannya tidak pernah datang dalam bentuk invoice.",
+    text: "Jika rapat rutin Anda sering dimulai dengan perdebatan tentang angka mana yang benar, Anda sedang membayar biaya data silo setiap minggu, hanya saja tagihannya tidak pernah datang dalam bentuk invoice.",
   },
   { type: "h2", text: "Biaya keempat: kepercayaan dan audit" },
   {
@@ -131,7 +131,7 @@ export const body: Block[] = [
   { type: "h2", text: "Setiap data butuh pemilik" },
   {
     type: "p",
-    text: "Satu sumber data hanya bertahan jika ada orang yang bertanggung jawab menjaganya. Pemilik data bukan orang yang mengetik data, melainkan orang yang berwenang memutuskan aturan dan kebenarannya. Kepala gudang untuk data stok, manajer penjualan untuk data pelanggan, kepala keuangan untuk data biaya. Ketika muncul perbedaan, semua pihak tahu kepada siapa harus bertanya — dan perdebatan tidak lagi berputar tanpa ujung.",
+    text: "Satu sumber data hanya bertahan jika ada orang yang bertanggung jawab menjaganya. Pemilik data bukan orang yang mengetik data, melainkan orang yang berwenang memutuskan aturan dan kebenarannya. Kepala gudang untuk data stok, manajer penjualan untuk data pelanggan, kepala keuangan untuk data biaya. Ketika muncul perbedaan, semua pihak tahu kepada siapa harus bertanya, dan perdebatan tidak lagi berputar tanpa ujung.",
   },
   { type: "h2", text: "Membongkar silo secara bertahap" },
   {
@@ -206,7 +206,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Lelah berdebat soal angka mana yang benar?",
-    text: "Kami bantu memetakan di mana data Anda terpisah dan cara paling ringan untuk menyatukannya — lewat integrasi atau sistem terpadu.",
+    text: "Kami bantu memetakan di mana data Anda terpisah dan cara paling ringan untuk menyatukannya, lewat integrasi atau sistem terpadu.",
     href: "/services/api-integration",
     label: "Pelajari Integrasi Sistem",
   },

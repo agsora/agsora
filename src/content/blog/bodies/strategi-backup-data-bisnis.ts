@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Laptop admin keuangan terkena ransomware Jumat sore. File yang terenkripsi termasuk data pelanggan tiga tahun terakhir. Ada backup, katanya. Ternyata backup terakhir yang berhasil adalah delapan bulan lalu — folder tujuan backup sudah penuh sejak saat itu dan tidak ada yang memperhatikan notifikasi errornya.",
+    text: "Laptop admin keuangan terkena ransomware Jumat sore. File yang terenkripsi termasuk data pelanggan tiga tahun terakhir. Ada backup, katanya. Ternyata backup terakhir yang berhasil adalah delapan bulan lalu, folder tujuan backup sudah penuh sejak saat itu dan tidak ada yang memperhatikan notifikasi errornya.",
   },
   {
     type: "p",
-    text: "Server rusak, ransomware, karyawan tidak sengaja menghapus data, atau layanan cloud yang bermasalah — penyebab kehilangan data beragam, dan sebagian besar tidak bisa diprediksi kapan terjadinya. Yang bisa dikendalikan adalah seberapa siap bisnis Anda ketika itu terjadi. Artikel ini membahas strategi backup yang benar-benar bisa diandalkan, bukan sekadar rutinitas yang dijalankan tanpa pernah diuji.",
+    text: "Server rusak, ransomware, karyawan tidak sengaja menghapus data, atau layanan cloud yang bermasalah, penyebab kehilangan data beragam, dan sebagian besar tidak bisa diprediksi kapan terjadinya. Yang bisa dikendalikan adalah seberapa siap bisnis Anda ketika itu terjadi. Artikel ini membahas strategi backup yang benar-benar bisa diandalkan, bukan sekadar rutinitas yang dijalankan tanpa pernah diuji.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -33,19 +33,19 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Simpan setidaknya tiga salinan data — data asli plus dua salinan",
+      "Simpan setidaknya tiga salinan data, data asli plus dua salinan",
       "Di dua jenis media atau penyimpanan yang berbeda, misalnya server lokal dan cloud",
       "Dengan satu salinan berada di lokasi yang secara fisik terpisah dari yang lain",
     ],
   },
   {
     type: "p",
-    text: "Tujuannya sederhana: satu kejadian — kebakaran, kerusakan perangkat, pencurian, atau serangan siber — tidak menghapus semua salinan sekaligus. Jika hanya ada satu salinan cadangan yang tersimpan di komputer yang sama dengan data aslinya, itu bukan strategi backup yang aman.",
+    text: "Tujuannya sederhana: satu kejadian, kebakaran, kerusakan perangkat, pencurian, atau serangan siber, tidak menghapus semua salinan sekaligus. Jika hanya ada satu salinan cadangan yang tersimpan di komputer yang sama dengan data aslinya, itu bukan strategi backup yang aman.",
   },
   { type: "h2", text: "Tentukan berapa banyak data yang boleh hilang" },
   {
     type: "p",
-    text: "Pertanyaan yang lebih berguna daripada sekadar “seberapa sering backup?” adalah: jika terjadi masalah sekarang, data berapa jam atau berapa hari terakhir yang masih bisa ditoleransi hilang? Ini disebut recovery point objective dalam istilah teknis, tapi konsepnya sederhana — jawaban untuk sistem kasir yang ramai transaksi setiap menit berbeda dengan jawaban untuk arsip dokumen yang jarang berubah.",
+    text: "Pertanyaan yang lebih berguna daripada sekadar “seberapa sering backup?” adalah: jika terjadi masalah sekarang, data berapa jam atau berapa hari terakhir yang masih bisa ditoleransi hilang? Ini disebut recovery point objective dalam istilah teknis, tapi konsepnya sederhana, jawaban untuk sistem kasir yang ramai transaksi setiap menit berbeda dengan jawaban untuk arsip dokumen yang jarang berubah.",
   },
   {
     type: "p",
@@ -59,12 +59,12 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Backup yang tidak pernah diuji belum tentu berfungsi",
-    text: "Masalah yang paling sering ditemukan bukan ketiadaan backup, melainkan backup yang ternyata tidak lengkap, rusak, atau tidak bisa dipulihkan saat benar-benar dibutuhkan. Lakukan uji pemulihan secara berkala ke lingkungan terpisah, dan catat berapa lama prosesnya benar-benar memakan waktu — bukan hanya berasumsi backup berjalan lancar karena tidak ada notifikasi error.",
+    text: "Masalah yang paling sering ditemukan bukan ketiadaan backup, melainkan backup yang ternyata tidak lengkap, rusak, atau tidak bisa dipulihkan saat benar-benar dibutuhkan. Lakukan uji pemulihan secara berkala ke lingkungan terpisah, dan catat berapa lama prosesnya benar-benar memakan waktu, bukan hanya berasumsi backup berjalan lancar karena tidak ada notifikasi error.",
   },
   { type: "h2", text: "Lindungi dari ransomware" },
   {
     type: "p",
-    text: "Ransomware modern sering menargetkan tidak hanya data utama, tetapi juga backup yang terus-menerus terhubung ke sistem yang sama — sehingga backup ikut terenkripsi bersama data aslinya. Setidaknya satu salinan sebaiknya terpisah secara jaringan (air-gapped) atau tidak bisa diubah untuk periode tertentu (immutable), sehingga tetap aman meski sistem utama berhasil diserang.",
+    text: "Ransomware modern sering menargetkan tidak hanya data utama, tetapi juga backup yang terus-menerus terhubung ke sistem yang sama, sehingga backup ikut terenkripsi bersama data aslinya. Setidaknya satu salinan sebaiknya terpisah secara jaringan (air-gapped) atau tidak bisa diubah untuk periode tertentu (immutable), sehingga tetap aman meski sistem utama berhasil diserang.",
   },
   { type: "h2", text: "Jangan lupakan data di luar server utama" },
   {
@@ -88,7 +88,7 @@ export const body: Block[] = [
   { type: "h2", text: "Memilih layanan backup yang tepat" },
   {
     type: "p",
-    text: "Untuk bisnis tanpa tim IT khusus, layanan backup cloud terkelola sering menjadi pilihan paling praktis — penyedia menangani sebagian besar aspek teknis. Yang tetap perlu diperiksa: seberapa mudah proses pemulihan, berapa biaya untuk volume data Anda, dan apakah penyedia menawarkan enkripsi yang memadai untuk data sensitif.",
+    text: "Untuk bisnis tanpa tim IT khusus, layanan backup cloud terkelola sering menjadi pilihan paling praktis, penyedia menangani sebagian besar aspek teknis. Yang tetap perlu diperiksa: seberapa mudah proses pemulihan, berapa biaya untuk volume data Anda, dan apakah penyedia menawarkan enkripsi yang memadai untuk data sensitif.",
   },
   { type: "h2", text: "Langkah menyusun strategi backup" },
   {
@@ -128,7 +128,7 @@ export const body: Block[] = [
   { type: "h2", text: "Enkripsi backup, bukan hanya data asli" },
   {
     type: "p",
-    text: "Perusahaan yang sudah mengenkripsi data di server utama kadang lupa bahwa salinan backup-nya perlu perlindungan yang setara. Backup yang tersimpan tanpa enkripsi — terutama yang dikirim ke penyimpanan eksternal atau layanan cloud pihak ketiga — menjadi celah keamanan tersendiri. Jika media penyimpanan backup hilang, dicuri, atau diakses pihak yang tidak berwenang, data sensitif pelanggan dan bisnis bisa bocor meski sistem utama Anda sendiri tetap aman.",
+    text: "Perusahaan yang sudah mengenkripsi data di server utama kadang lupa bahwa salinan backup-nya perlu perlindungan yang setara. Backup yang tersimpan tanpa enkripsi, terutama yang dikirim ke penyimpanan eksternal atau layanan cloud pihak ketiga, menjadi celah keamanan tersendiri. Jika media penyimpanan backup hilang, dicuri, atau diakses pihak yang tidak berwenang, data sensitif pelanggan dan bisnis bisa bocor meski sistem utama Anda sendiri tetap aman.",
   },
   {
     type: "p",
@@ -137,7 +137,7 @@ export const body: Block[] = [
   { type: "h2", text: "Jangan simpan semuanya selamanya" },
   {
     type: "p",
-    text: "Menyimpan setiap versi backup tanpa batas waktu terdengar aman, tetapi dalam praktiknya menimbulkan masalah tersendiri: biaya penyimpanan yang terus membengkak, dan proses pencarian versi yang tepat saat pemulihan menjadi lebih rumit karena terlalu banyak pilihan. Di sisi lain, kebijakan retensi juga perlu mempertimbangkan kebutuhan bisnis dan hukum — beberapa jenis dokumen mungkin perlu disimpan untuk periode tertentu sesuai kebutuhan audit atau kontrak dengan klien.",
+    text: "Menyimpan setiap versi backup tanpa batas waktu terdengar aman, tetapi dalam praktiknya menimbulkan masalah tersendiri: biaya penyimpanan yang terus membengkak, dan proses pencarian versi yang tepat saat pemulihan menjadi lebih rumit karena terlalu banyak pilihan. Di sisi lain, kebijakan retensi juga perlu mempertimbangkan kebutuhan bisnis dan hukum, beberapa jenis dokumen mungkin perlu disimpan untuk periode tertentu sesuai kebutuhan audit atau kontrak dengan klien.",
   },
   {
     type: "p",
@@ -146,7 +146,7 @@ export const body: Block[] = [
   { type: "h2", text: "Backup untuk aplikasi dan layanan pihak ketiga" },
   {
     type: "p",
-    text: "Banyak bisnis kini bergantung pada berbagai aplikasi berbasis cloud — sistem akuntansi, CRM, platform e-commerce — yang datanya tersimpan di server penyedia layanan tersebut, bukan di infrastruktur milik bisnis sendiri. Asumsi bahwa penyedia layanan ini otomatis menjamin backup yang memadai untuk kebutuhan Anda sering kali keliru; sebagian besar layanan memang punya mekanisme pemulihan bencana untuk melindungi infrastruktur mereka sendiri, tapi itu berbeda dengan memberi Anda kemampuan memulihkan data yang tidak sengaja terhapus atau rusak akibat kesalahan pengguna.",
+    text: "Banyak bisnis kini bergantung pada berbagai aplikasi berbasis cloud, sistem akuntansi, CRM, platform e-commerce, yang datanya tersimpan di server penyedia layanan tersebut, bukan di infrastruktur milik bisnis sendiri. Asumsi bahwa penyedia layanan ini otomatis menjamin backup yang memadai untuk kebutuhan Anda sering kali keliru; sebagian besar layanan memang punya mekanisme pemulihan bencana untuk melindungi infrastruktur mereka sendiri, tapi itu berbeda dengan memberi Anda kemampuan memulihkan data yang tidak sengaja terhapus atau rusak akibat kesalahan pengguna.",
   },
   {
     type: "p",
@@ -155,12 +155,12 @@ export const body: Block[] = [
   { type: "h2", text: "Dokumentasikan rencana pemulihan, bukan hanya jadwal backup" },
   {
     type: "p",
-    text: "Memiliki backup yang lengkap tidak banyak membantu jika, saat insiden terjadi, tidak ada yang tahu persis langkah-langkah untuk memulihkannya. Dokumentasikan urutan langkah pemulihan secara tertulis — sistem mana yang perlu dipulihkan lebih dulu, siapa yang punya akses untuk melakukannya, dan kepada siapa harus melapor jika prosesnya menemui kendala — sehingga siapa pun yang tersedia saat insiden terjadi bisa mengikuti langkahnya tanpa harus menunggu satu orang tertentu yang kebetulan sedang tidak bisa dihubungi.",
+    text: "Memiliki backup yang lengkap tidak banyak membantu jika, saat insiden terjadi, tidak ada yang tahu persis langkah-langkah untuk memulihkannya. Dokumentasikan urutan langkah pemulihan secara tertulis, sistem mana yang perlu dipulihkan lebih dulu, siapa yang punya akses untuk melakukannya, dan kepada siapa harus melapor jika prosesnya menemui kendala, sehingga siapa pun yang tersedia saat insiden terjadi bisa mengikuti langkahnya tanpa harus menunggu satu orang tertentu yang kebetulan sedang tidak bisa dihubungi.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Backup yang baik bukan sekadar rutinitas yang berjalan di latar belakang tanpa diperhatikan, melainkan strategi yang direncanakan, diuji, dan dipertanggungjawabkan. Ketika insiden benar-benar terjadi — dan cepat atau lambat akan terjadi — perbedaan antara bisnis yang pulih dalam hitungan jam dan yang kehilangan data selamanya sering kali hanya soal seberapa serius backup ini disiapkan sebelumnya.",
+    text: "Backup yang baik bukan sekadar rutinitas yang berjalan di latar belakang tanpa diperhatikan, melainkan strategi yang direncanakan, diuji, dan dipertanggungjawabkan. Ketika insiden benar-benar terjadi, dan cepat atau lambat akan terjadi, perbedaan antara bisnis yang pulih dalam hitungan jam dan yang kehilangan data selamanya sering kali hanya soal seberapa serius backup ini disiapkan sebelumnya.",
   },
   {
     type: "cta",

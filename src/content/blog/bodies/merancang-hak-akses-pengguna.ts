@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Karyawan magang yang baru dua minggu bergabung ternyata bisa melihat gaji seluruh direksi di sistem HR. Bukan karena ia mencoba meretas apa pun — akunnya memang diberi akses penuh sejak awal karena admin IT “biar praktis, tinggal salin dari akun karyawan lain yang sudah ada”.",
+    text: "Karyawan magang yang baru dua minggu bergabung ternyata bisa melihat gaji seluruh direksi di sistem HR. Bukan karena ia mencoba meretas apa pun, akunnya memang diberi akses penuh sejak awal karena admin IT “biar praktis, tinggal salin dari akun karyawan lain yang sudah ada”.",
   },
   {
     type: "p",
-    text: "Di awal penggunaan sebuah sistem, sering kali semua pengguna diberi akses yang sama agar tidak repot mengatur satu per satu. Ketika jumlah pengguna terus bertambah seiring pertumbuhan bisnis, kebiasaan ini membuat data sensitif — gaji, harga modal, data pelanggan — bisa dilihat bahkan diubah oleh orang yang sebenarnya sama sekali tidak memerlukannya untuk pekerjaan mereka.",
+    text: "Di awal penggunaan sebuah sistem, sering kali semua pengguna diberi akses yang sama agar tidak repot mengatur satu per satu. Ketika jumlah pengguna terus bertambah seiring pertumbuhan bisnis, kebiasaan ini membuat data sensitif, gaji, harga modal, data pelanggan, bisa dilihat bahkan diubah oleh orang yang sebenarnya sama sekali tidak memerlukannya untuk pekerjaan mereka.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa kebiasaan akses longgar berbahaya" },
   {
     type: "p",
-    text: "Memberi akses penuh kepada semua orang memang terasa lebih praktis di awal — tidak perlu repot mengatur siapa boleh apa. Tetapi setiap orang dengan akses berlebih adalah titik risiko tambahan: kesalahan yang mereka buat bisa berdampak lebih luas dari yang seharusnya, dan jika akun mereka disusupi pihak luar, dampaknya jauh lebih besar dibanding jika akses mereka dibatasi sejak awal sesuai kebutuhan pekerjaan.",
+    text: "Memberi akses penuh kepada semua orang memang terasa lebih praktis di awal, tidak perlu repot mengatur siapa boleh apa. Tetapi setiap orang dengan akses berlebih adalah titik risiko tambahan: kesalahan yang mereka buat bisa berdampak lebih luas dari yang seharusnya, dan jika akun mereka disusupi pihak luar, dampaknya jauh lebih besar dibanding jika akses mereka dibatasi sejak awal sesuai kebutuhan pekerjaan.",
   },
   { type: "h2", text: "Prinsip akses secukupnya" },
   {
@@ -33,7 +33,7 @@ export const body: Block[] = [
   { type: "h2", text: "Atur berdasarkan peran, bukan per individu" },
   {
     type: "p",
-    text: "Mengatur akses untuk setiap orang satu per satu secara individual cepat menjadi tidak terkendali seiring bertambahnya jumlah karyawan. Pendekatan yang jauh lebih rapi dan mudah dikelola adalah membuat peran-peran standar — misalnya kasir, supervisor, staf gudang, admin keuangan — masing-masing dengan hak akses yang sudah ditentukan, lalu menetapkan setiap pengguna baru ke salah satu peran tersebut sesuai posisinya.",
+    text: "Mengatur akses untuk setiap orang satu per satu secara individual cepat menjadi tidak terkendali seiring bertambahnya jumlah karyawan. Pendekatan yang jauh lebih rapi dan mudah dikelola adalah membuat peran-peran standar, misalnya kasir, supervisor, staf gudang, admin keuangan, masing-masing dengan hak akses yang sudah ditentukan, lalu menetapkan setiap pengguna baru ke salah satu peran tersebut sesuai posisinya.",
   },
   { type: "h2", text: "Bedakan jenis akses secara spesifik" },
   {
@@ -64,12 +64,12 @@ export const body: Block[] = [
   { type: "h2", text: "Tinjau secara berkala" },
   {
     type: "p",
-    text: "Hak akses cenderung bertambah secara diam-diam seiring waktu — karyawan yang pindah divisi sering kali tetap membawa akses lamanya karena tidak ada yang mencabutnya, lalu ditambah akses baru sesuai peran barunya. Tinjau seluruh hak akses secara berkala, misalnya setiap enam bulan, dan pastikan akses segera ditutup ketika karyawan resmi keluar dari perusahaan.",
+    text: "Hak akses cenderung bertambah secara diam-diam seiring waktu, karyawan yang pindah divisi sering kali tetap membawa akses lamanya karena tidak ada yang mencabutnya, lalu ditambah akses baru sesuai peran barunya. Tinjau seluruh hak akses secara berkala, misalnya setiap enam bulan, dan pastikan akses segera ditutup ketika karyawan resmi keluar dari perusahaan.",
   },
   { type: "h2", text: "Ilustrasi: dampak dari akses yang tidak dikelola" },
   {
     type: "p",
-    text: "Bayangkan sebuah perusahaan retail yang memberikan akses admin penuh kepada semua staf toko “agar mudah kalau ada yang perlu diperbaiki mendadak”. Suatu hari, seorang staf yang baru saja diberi teguran tanpa sengaja — atau mungkin sengaja karena kesal — mengubah harga puluhan produk menjadi sangat rendah sebelum akhirnya disadari beberapa jam kemudian, menyebabkan kerugian yang cukup signifikan.",
+    text: "Bayangkan sebuah perusahaan retail yang memberikan akses admin penuh kepada semua staf toko “agar mudah kalau ada yang perlu diperbaiki mendadak”. Suatu hari, seorang staf yang baru saja diberi teguran tanpa sengaja, atau mungkin sengaja karena kesal, mengubah harga puluhan produk menjadi sangat rendah sebelum akhirnya disadari beberapa jam kemudian, menyebabkan kerugian yang cukup signifikan.",
   },
   {
     type: "p",
@@ -78,12 +78,12 @@ export const body: Block[] = [
   { type: "h2", text: "Lindungi akun dengan kuat" },
   {
     type: "p",
-    text: "Hak akses yang dirancang dengan rapi tetap rentan jika kata sandi yang dipakai lemah atau dipakai bersama-sama oleh beberapa orang. Terapkan kebijakan kata sandi yang kuat, aktifkan verifikasi dua langkah untuk akun-akun dengan akses penting, dan jangan pernah izinkan satu akun dipakai bergantian oleh beberapa orang — karena ini menghilangkan seluruh manfaat dari jejak audit yang sudah dibangun dengan susah payah.",
+    text: "Hak akses yang dirancang dengan rapi tetap rentan jika kata sandi yang dipakai lemah atau dipakai bersama-sama oleh beberapa orang. Terapkan kebijakan kata sandi yang kuat, aktifkan verifikasi dua langkah untuk akun-akun dengan akses penting, dan jangan pernah izinkan satu akun dipakai bergantian oleh beberapa orang, karena ini menghilangkan seluruh manfaat dari jejak audit yang sudah dibangun dengan susah payah.",
   },
   { type: "h2", text: "Menangani akses untuk pihak eksternal" },
   {
     type: "p",
-    text: "Kadang bisnis perlu memberi akses terbatas kepada pihak eksternal — akuntan publik, konsultan, atau vendor teknologi yang sedang membantu perbaikan sistem. Buat kategori akses khusus untuk kebutuhan seperti ini, dengan batas waktu yang jelas dan cakupan yang benar-benar minimal sesuai kebutuhan spesifik mereka, lalu pastikan akses tersebut dicabut segera setelah tidak lagi diperlukan.",
+    text: "Kadang bisnis perlu memberi akses terbatas kepada pihak eksternal, akuntan publik, konsultan, atau vendor teknologi yang sedang membantu perbaikan sistem. Buat kategori akses khusus untuk kebutuhan seperti ini, dengan batas waktu yang jelas dan cakupan yang benar-benar minimal sesuai kebutuhan spesifik mereka, lalu pastikan akses tersebut dicabut segera setelah tidak lagi diperlukan.",
   },
   { type: "h2", text: "Langkah merancang hak akses yang aman" },
   {
@@ -129,7 +129,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menguji hak akses sebelum diterapkan penuh" },
   {
     type: "p",
-    text: "Sebelum menerapkan struktur peran baru ke seluruh organisasi, uji coba dulu pada satu tim atau divisi kecil selama beberapa minggu. Ini membantu menemukan celah dalam desain peran — misalnya ada tugas rutin yang ternyata tidak bisa dijalankan karena aksesnya terlalu ketat — sebelum masalah tersebut dialami oleh seluruh organisasi sekaligus dan menimbulkan keluhan yang lebih luas.",
+    text: "Sebelum menerapkan struktur peran baru ke seluruh organisasi, uji coba dulu pada satu tim atau divisi kecil selama beberapa minggu. Ini membantu menemukan celah dalam desain peran, misalnya ada tugas rutin yang ternyata tidak bisa dijalankan karena aksesnya terlalu ketat, sebelum masalah tersebut dialami oleh seluruh organisasi sekaligus dan menimbulkan keluhan yang lebih luas.",
   },
   { type: "h3", text: "Bagaimana cara mengetahui hak akses seseorang sudah terlalu longgar?" },
   {
@@ -139,16 +139,16 @@ export const body: Block[] = [
   { type: "h2", text: "Dokumentasikan struktur peran, jangan simpan hanya di kepala satu orang" },
   {
     type: "p",
-    text: "Struktur hak akses yang dirancang dengan cermat sering kali hanya benar-benar dipahami secara utuh oleh satu orang — biasanya admin IT yang membangunnya sejak awal. Ketika orang tersebut cuti panjang, resign, atau sekadar lupa detail keputusan yang diambil bertahun-tahun lalu, perusahaan kehilangan pemahaman tentang mengapa suatu peran dirancang seperti itu, dan perubahan berikutnya menjadi tebak-tebakan yang berisiko merusak struktur yang sebenarnya sudah cukup baik.",
+    text: "Struktur hak akses yang dirancang dengan cermat sering kali hanya benar-benar dipahami secara utuh oleh satu orang, biasanya admin IT yang membangunnya sejak awal. Ketika orang tersebut cuti panjang, resign, atau sekadar lupa detail keputusan yang diambil bertahun-tahun lalu, perusahaan kehilangan pemahaman tentang mengapa suatu peran dirancang seperti itu, dan perubahan berikutnya menjadi tebak-tebakan yang berisiko merusak struktur yang sebenarnya sudah cukup baik.",
   },
   {
     type: "p",
-    text: "Buat dokumentasi sederhana yang mencatat setiap peran yang ada, hak akses apa saja yang melekat padanya, dan alasan singkat mengapa akses tersebut diberikan seperti itu. Dokumentasi ini tidak perlu rumit atau formal — cukup catatan yang bisa dipahami oleh siapa pun yang menggantikan peran admin di kemudian hari, dan diperbarui setiap kali ada perubahan signifikan pada struktur peran. Ketiadaan dokumentasi semacam ini adalah salah satu alasan mengapa banyak perusahaan akhirnya membiarkan hak akses menjadi longgar dari waktu ke waktu — bukan karena sengaja mengabaikan, melainkan karena tidak ada lagi yang benar-benar memahami rancangan aslinya untuk bisa mempertahankannya dengan konsisten.",
+    text: "Buat dokumentasi sederhana yang mencatat setiap peran yang ada, hak akses apa saja yang melekat padanya, dan alasan singkat mengapa akses tersebut diberikan seperti itu. Dokumentasi ini tidak perlu rumit atau formal, cukup catatan yang bisa dipahami oleh siapa pun yang menggantikan peran admin di kemudian hari, dan diperbarui setiap kali ada perubahan signifikan pada struktur peran. Ketiadaan dokumentasi semacam ini adalah salah satu alasan mengapa banyak perusahaan akhirnya membiarkan hak akses menjadi longgar dari waktu ke waktu, bukan karena sengaja mengabaikan, melainkan karena tidak ada lagi yang benar-benar memahami rancangan aslinya untuk bisa mempertahankannya dengan konsisten.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Merancang hak akses yang tepat bukan tentang tidak mempercayai karyawan, melainkan tentang membangun sistem yang membatasi dampak ketika kesalahan atau hal tak terduga terjadi — dan itu pasti akan terjadi cepat atau lambat di bisnis mana pun. Dengan akses berbasis peran, pemisahan tugas, dan tinjauan berkala, risiko yang selama ini tersembunyi dalam akses yang terlalu longgar bisa dikendalikan jauh lebih baik.",
+    text: "Merancang hak akses yang tepat bukan tentang tidak mempercayai karyawan, melainkan tentang membangun sistem yang membatasi dampak ketika kesalahan atau hal tak terduga terjadi, dan itu pasti akan terjadi cepat atau lambat di bisnis mana pun. Dengan akses berbasis peran, pemisahan tugas, dan tinjauan berkala, risiko yang selama ini tersembunyi dalam akses yang terlalu longgar bisa dikendalikan jauh lebih baik.",
   },
   {
     type: "cta",

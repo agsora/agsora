@@ -31,7 +31,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "But the same strengths also hide weak spots. When relationships and knowledge are attached to people rather than to systems, the business becomes highly dependent on particular individuals being there. If the founder falls ill, if a key employee resigns, or when the time comes to hand control to the next generation, some of that knowledge can simply disappear. In this context, digitalisation isn't just about efficiency — it's about keeping the business going.",
+    text: "But the same strengths also hide weak spots. When relationships and knowledge are attached to people rather than to systems, the business becomes highly dependent on particular individuals being there. If the founder falls ill, if a key employee resigns, or when the time comes to hand control to the next generation, some of that knowledge can simply disappear. In this context, digitalisation isn't just about efficiency, it's about keeping the business going.",
   },
   {
     type: "image",
@@ -80,7 +80,7 @@ const en: Block[] = [
   {
     type: "ol",
     items: [
-      "Record daily transactions digitally — sales, purchases, and payments received — so there's one trusted source of figures",
+      "Record daily transactions digitally, sales, purchases, and payments received, so there's one trusted source of figures",
       "Centralise customer and supplier data that is currently scattered across notebooks, personal phones, and memory",
       "Manage inventory in the system so stock can be monitored without having to ask one particular person",
       "Build simple reports that the founding and next generations can read together",
@@ -127,7 +127,7 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "Buying a system first and thinking about processes later — so the system doesn't fit how people work and is eventually abandoned",
+      "Buying a system first and thinking about processes later, so the system doesn't fit how people work and is eventually abandoned",
       "Running the new system and the old way in parallel indefinitely, so the team does everything twice and the data never fully moves over",
       "Handing the entire project to one younger family member without support or clear authority",
       "Overlooking the habits of long-standing customers who may not be ready for new ways of ordering or paying",
@@ -154,7 +154,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing thoughts" },
   {
     type: "p",
-    text: "Digitalising a family business isn't about leaving the past behind — it's about carrying the best of the past into the future. The founding generation's experience is enormously valuable capital, and technology is a way to keep it from being lost, apply it more consistently, and build on it further. Start with conversations, document what has already proven itself, then build the system step by step together with every generation involved.",
+    text: "Digitalising a family business isn't about leaving the past behind, it's about carrying the best of the past into the future. The founding generation's experience is enormously valuable capital, and technology is a way to keep it from being lost, apply it more consistently, and build on it further. Start with conversations, document what has already proven itself, then build the system step by step together with every generation involved.",
   },
   {
     type: "cta",
@@ -245,7 +245,7 @@ const zh: Block[] = [
   {
     type: "ol",
     items: [
-      "以数字方式记录日常交易——销售、采购和收款,形成一个值得信赖的数据来源",
+      "以数字方式记录日常交易，销售、采购和收款,形成一个值得信赖的数据来源",
       "把目前散落在笔记本、个人手机和记忆中的客户与供应商数据集中起来",
       "在系统中管理库存,无需询问某一个人就能掌握库存情况",
       "编制简单的报表,让创业一代和接班一代可以一起阅读",
@@ -292,7 +292,7 @@ const zh: Block[] = [
   {
     type: "ul",
     items: [
-      "先买系统、后考虑流程——结果系统与工作方式不匹配,最终被弃用",
+      "先买系统、后考虑流程，结果系统与工作方式不匹配,最终被弃用",
       "新系统和老办法无限期并行,团队重复劳动,数据始终没有真正迁移过去",
       "把整个项目交给一位年轻的家庭成员,却没有给予支持和明确的权限",
       "忽视老客户的习惯,他们可能还没有准备好接受新的下单或付款方式",

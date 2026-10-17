@@ -28,7 +28,7 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Largest Contentful Paint (LCP): seberapa cepat konten utama halaman — biasanya gambar atau judul besar — benar-benar terlihat oleh pengunjung",
+      "Largest Contentful Paint (LCP): seberapa cepat konten utama halaman, biasanya gambar atau judul besar, benar-benar terlihat oleh pengunjung",
       "Interaction to Next Paint (INP): seberapa cepat halaman merespons ketika pengunjung mengklik tombol atau mengetuk sesuatu",
       "Cumulative Layout Shift (CLS): apakah tampilan halaman tiba-tiba bergeser saat sedang dimuat, membuat pengunjung salah klik",
     ],
@@ -93,7 +93,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kecepatan adalah pekerjaan berkelanjutan" },
   {
     type: "p",
-    text: "Website cenderung melambat secara perlahan seiring waktu karena konten, gambar, dan skrip baru terus ditambahkan tanpa evaluasi terhadap yang lama. Jadikan pengecekan kecepatan sebagai bagian rutin setiap kali ada perubahan signifikan pada website — bukan hanya sekali di awal peluncuran lalu dilupakan begitu saja.",
+    text: "Website cenderung melambat secara perlahan seiring waktu karena konten, gambar, dan skrip baru terus ditambahkan tanpa evaluasi terhadap yang lama. Jadikan pengecekan kecepatan sebagai bagian rutin setiap kali ada perubahan signifikan pada website, bukan hanya sekali di awal peluncuran lalu dilupakan begitu saja.",
   },
   { type: "h2", text: "Langkah memperbaiki kecepatan website" },
   {
@@ -116,7 +116,7 @@ export const body: Block[] = [
   { type: "h3", text: "Apakah hosting murah selalu menjadi penyebab website lambat?" },
   {
     type: "p",
-    text: "Hosting yang kurang memadai bisa menjadi salah satu faktor, tetapi sering kali penyebab utama justru ada di sisi konten dan kode website itu sendiri — gambar yang tidak dioptimalkan atau skrip yang berlebihan. Perbaiki dulu faktor-faktor ini sebelum berasumsi masalahnya di hosting.",
+    text: "Hosting yang kurang memadai bisa menjadi salah satu faktor, tetapi sering kali penyebab utama justru ada di sisi konten dan kode website itu sendiri, gambar yang tidak dioptimalkan atau skrip yang berlebihan. Perbaiki dulu faktor-faktor ini sebelum berasumsi masalahnya di hosting.",
   },
   { type: "h2", text: "Peran hosting dan pengiriman konten" },
   {
@@ -125,7 +125,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kapasitas hosting juga menentukan bagaimana website merespons saat pengunjung sedang ramai-ramainya, misalnya saat sedang ada promosi besar. Website yang terasa cukup cepat dalam kondisi normal bisa melambat drastis justru pada momen yang paling penting — ketika trafik sedang tinggi dan seharusnya setiap detik kecepatan benar-benar berarti bagi konversi penjualan.",
+    text: "Kapasitas hosting juga menentukan bagaimana website merespons saat pengunjung sedang ramai-ramainya, misalnya saat sedang ada promosi besar. Website yang terasa cukup cepat dalam kondisi normal bisa melambat drastis justru pada momen yang paling penting, ketika trafik sedang tinggi dan seharusnya setiap detik kecepatan benar-benar berarti bagi konversi penjualan.",
   },
   { type: "h2", text: "Kesalahan umum saat mencoba mempercepat website" },
   {
@@ -157,11 +157,11 @@ export const body: Block[] = [
   { type: "h2", text: "Kecepatan khusus di halaman checkout" },
   {
     type: "p",
-    text: "Jika sebagian besar halaman website sudah cukup cepat tetapi halaman checkout justru lambat, dampaknya bisa lebih merugikan dibanding jika masalahnya tersebar merata di semua halaman. Pengunjung yang sudah sampai ke tahap checkout adalah pengunjung yang paling siap membeli — mereka sudah melewati tahap mempertimbangkan dan memutuskan. Kehilangan mereka justru di langkah terakhir karena halaman lambat memuat atau macet saat memproses pembayaran adalah kerugian yang jauh lebih terasa dibanding kehilangan pengunjung yang baru sekadar melihat-lihat di halaman awal.",
+    text: "Jika sebagian besar halaman website sudah cukup cepat tetapi halaman checkout justru lambat, dampaknya bisa lebih merugikan dibanding jika masalahnya tersebar merata di semua halaman. Pengunjung yang sudah sampai ke tahap checkout adalah pengunjung yang paling siap membeli, mereka sudah melewati tahap mempertimbangkan dan memutuskan. Kehilangan mereka justru di langkah terakhir karena halaman lambat memuat atau macet saat memproses pembayaran adalah kerugian yang jauh lebih terasa dibanding kehilangan pengunjung yang baru sekadar melihat-lihat di halaman awal.",
   },
   {
     type: "p",
-    text: "Perlakukan halaman checkout dengan perhatian ekstra saat mengevaluasi kecepatan website — kurangi skrip pihak ketiga yang tidak esensial di halaman ini secara khusus, pastikan proses verifikasi pembayaran tidak menambah waktu tunggu yang tidak perlu, dan uji langsung proses pembayaran dari awal hingga selesai di kondisi jaringan yang mewakili pengunjung sesungguhnya. Sedikit perlambatan di halaman lain mungkin masih bisa ditoleransi pengunjung, tapi di halaman checkout, setiap detik tambahan adalah kesempatan bagi mereka untuk ragu dan membatalkan pembelian yang sudah hampir selesai.",
+    text: "Perlakukan halaman checkout dengan perhatian ekstra saat mengevaluasi kecepatan website, kurangi skrip pihak ketiga yang tidak esensial di halaman ini secara khusus, pastikan proses verifikasi pembayaran tidak menambah waktu tunggu yang tidak perlu, dan uji langsung proses pembayaran dari awal hingga selesai di kondisi jaringan yang mewakili pengunjung sesungguhnya. Sedikit perlambatan di halaman lain mungkin masih bisa ditoleransi pengunjung, tapi di halaman checkout, setiap detik tambahan adalah kesempatan bagi mereka untuk ragu dan membatalkan pembelian yang sudah hampir selesai.",
   },
   { type: "h2", text: "Penutup" },
   {

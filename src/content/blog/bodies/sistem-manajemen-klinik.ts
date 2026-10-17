@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa klinik butuh pendekatan berbeda" },
   {
     type: "p",
-    text: "Klinik bukan sekadar bisnis jasa biasa. Data yang dikelola menyangkut kesehatan orang, keputusan yang diambil bisa berdampak pada keselamatan pasien, dan setiap tahap dalam alur kerja saling memengaruhi. Kesalahan kecil — resep yang salah dibaca, riwayat alergi yang tidak tercatat, antrian yang kacau — bisa berakibat serius, bukan sekadar merepotkan.",
+    text: "Klinik bukan sekadar bisnis jasa biasa. Data yang dikelola menyangkut kesehatan orang, keputusan yang diambil bisa berdampak pada keselamatan pasien, dan setiap tahap dalam alur kerja saling memengaruhi. Kesalahan kecil, resep yang salah dibaca, riwayat alergi yang tidak tercatat, antrian yang kacau, bisa berakibat serius, bukan sekadar merepotkan.",
   },
   {
     type: "p",
@@ -33,7 +33,7 @@ export const body: Block[] = [
   { type: "h3", text: "Pendaftaran dan antrian" },
   {
     type: "p",
-    text: "Pendaftaran adalah kesan pertama pasien. Sistem yang baik memungkinkan pendaftaran sebelum pasien datang — lewat telepon, aplikasi, atau website — dan pencarian data pasien lama yang cepat. Nomor antrian yang jelas dan estimasi waktu tunggu mengurangi kegelisahan pasien di ruang tunggu.",
+    text: "Pendaftaran adalah kesan pertama pasien. Sistem yang baik memungkinkan pendaftaran sebelum pasien datang, lewat telepon, aplikasi, atau website, dan pencarian data pasien lama yang cepat. Nomor antrian yang jelas dan estimasi waktu tunggu mengurangi kegelisahan pasien di ruang tunggu.",
   },
   { type: "h3", text: "Rekam medis elektronik" },
   {
@@ -97,7 +97,7 @@ export const body: Block[] = [
   { type: "h2", text: "Libatkan tenaga medis sejak awal" },
   {
     type: "p",
-    text: "Dokter dan perawat adalah pengguna utama sistem, dan waktu mereka sangat berharga. Sistem yang memperlambat pemeriksaan — terlalu banyak klik, alur yang membingungkan — akan ditolak atau diakali dengan mencatat di kertas terlebih dahulu. Libatkan mereka saat memilih dan menguji sistem agar alurnya benar-benar sesuai praktik sehari-hari.",
+    text: "Dokter dan perawat adalah pengguna utama sistem, dan waktu mereka sangat berharga. Sistem yang memperlambat pemeriksaan, terlalu banyak klik, alur yang membingungkan, akan ditolak atau diakali dengan mencatat di kertas terlebih dahulu. Libatkan mereka saat memilih dan menguji sistem agar alurnya benar-benar sesuai praktik sehari-hari.",
   },
   { type: "h2", text: "Integrasi dengan laboratorium dan penunjang lain" },
   {
@@ -180,7 +180,7 @@ export const body: Block[] = [
   { type: "h2", text: "Memilih antara membangun sendiri atau memakai produk siap pakai" },
   {
     type: "p",
-    text: "Untuk klinik dengan alur kerja yang relatif standar, sistem manajemen klinik siap pakai bisa menjadi pilihan yang lebih cepat dan terjangkau untuk memulai. Untuk klinik dengan spesialisasi khusus atau alur kerja yang tidak umum — misalnya klinik yang menggabungkan beberapa layanan kesehatan sekaligus — sistem yang dibangun mengikuti kebutuhan spesifik mungkin lebih tepat dalam jangka panjang.",
+    text: "Untuk klinik dengan alur kerja yang relatif standar, sistem manajemen klinik siap pakai bisa menjadi pilihan yang lebih cepat dan terjangkau untuk memulai. Untuk klinik dengan spesialisasi khusus atau alur kerja yang tidak umum, misalnya klinik yang menggabungkan beberapa layanan kesehatan sekaligus, sistem yang dibangun mengikuti kebutuhan spesifik mungkin lebih tepat dalam jangka panjang.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -190,7 +190,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Ingin klinik Anda melayani lebih cepat dan lebih aman?",
-    text: "Diskusikan kebutuhan sistem manajemen klinik Anda bersama tim AG·SORA — dari alur pasien hingga kepatuhan regulasi.",
+    text: "Diskusikan kebutuhan sistem manajemen klinik Anda bersama tim AG·SORA, dari alur pasien hingga kepatuhan regulasi.",
     href: "/contact",
     label: "Konsultasi Gratis",
   },

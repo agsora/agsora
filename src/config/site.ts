@@ -6,7 +6,7 @@ export const siteConfig = {
   url: "https://www.agsora.tech",
   tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
   description:
-    "AG·SORA membangun software dan sistem bisnis yang membantu perusahaan bekerja lebih efisien, terintegrasi, dan scalable — dari website dan aplikasi hingga ERP, POS, HRIS, dan CRM.",
+    "AG·SORA membangun software dan sistem bisnis yang membantu perusahaan bekerja lebih efisien, terintegrasi, dan scalable, dari website dan aplikasi hingga ERP, POS, HRIS, dan CRM.",
   email: "hello@agsora.tech",
   whatsapp: {
     display: "WhatsApp",

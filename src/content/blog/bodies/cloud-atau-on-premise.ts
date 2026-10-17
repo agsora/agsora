@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Satu pendapat di rapat: “Semua sudah pakai cloud, kita juga harus pindah.” Pendapat lain: “Data kita terlalu penting untuk disimpan di server orang lain.” Keduanya disampaikan dengan yakin. Tidak ada yang sepenuhnya salah — dan tidak ada yang sepenuhnya benar.",
+    text: "Satu pendapat di rapat: “Semua sudah pakai cloud, kita juga harus pindah.” Pendapat lain: “Data kita terlalu penting untuk disimpan di server orang lain.” Keduanya disampaikan dengan yakin. Tidak ada yang sepenuhnya salah, dan tidak ada yang sepenuhnya benar.",
   },
   {
     type: "p",
@@ -130,7 +130,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak yang terkejut menemukan bahwa on-premise, setelah semua komponen dihitung, tidak selalu lebih murah seperti anggapan awal — terutama ketika biaya waktu orang yang merawat server dihitung dengan wajar, bukan dianggap gratis karena “sudah jadi tugas tambahan” staf IT yang ada.",
+    text: "Banyak yang terkejut menemukan bahwa on-premise, setelah semua komponen dihitung, tidak selalu lebih murah seperti anggapan awal, terutama ketika biaya waktu orang yang merawat server dihitung dengan wajar, bukan dianggap gratis karena “sudah jadi tugas tambahan” staf IT yang ada.",
   },
   { type: "h2", text: "Ilustrasi: dua bisnis, dua pilihan" },
   {
@@ -139,7 +139,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Sekarang bayangkan sebuah pabrik di kawasan industri dengan koneksi internet yang sering bermasalah, mesin produksi yang terhubung ke sistem lokal, dan tim IT internal yang cukup kuat. Untuk pabrik ini, menjalankan sistem produksi di server lokal bisa lebih tepat, sementara laporan manajemen dikirim ke cloud secara berkala. Keduanya mengambil keputusan berbeda — dan keduanya benar untuk kondisinya.",
+    text: "Sekarang bayangkan sebuah pabrik di kawasan industri dengan koneksi internet yang sering bermasalah, mesin produksi yang terhubung ke sistem lokal, dan tim IT internal yang cukup kuat. Untuk pabrik ini, menjalankan sistem produksi di server lokal bisa lebih tepat, sementara laporan manajemen dikirim ke cloud secara berkala. Keduanya mengambil keputusan berbeda, dan keduanya benar untuk kondisinya.",
   },
   { type: "h2", text: "Kesalahan umum" },
   {
@@ -155,7 +155,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyiapkan rencana pemulihan bencana" },
   {
     type: "p",
-    text: "Apa pun pilihannya, siapkan rencana untuk skenario terburuk: kebakaran, banjir, atau kegagalan perangkat keras yang parah. Untuk on-premise, ini berarti cadangan data di lokasi terpisah dan idealnya perangkat pengganti yang bisa segera dipasang. Untuk cloud, ini berarti memahami jaminan pemulihan dari penyedia dan menyimpan cadangan tambahan yang independen dari penyedia utama. Rencana yang hanya ada di kepala satu orang bukan rencana — tuliskan langkahnya dan uji secara berkala.",
+    text: "Apa pun pilihannya, siapkan rencana untuk skenario terburuk: kebakaran, banjir, atau kegagalan perangkat keras yang parah. Untuk on-premise, ini berarti cadangan data di lokasi terpisah dan idealnya perangkat pengganti yang bisa segera dipasang. Untuk cloud, ini berarti memahami jaminan pemulihan dari penyedia dan menyimpan cadangan tambahan yang independen dari penyedia utama. Rencana yang hanya ada di kepala satu orang bukan rencana, tuliskan langkahnya dan uji secara berkala.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah cloud selalu lebih murah?" },

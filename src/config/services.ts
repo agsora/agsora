@@ -123,9 +123,9 @@ export const services: Service[] = [
     id: "ai-automation",
     title: { id: "Otomasi AI", en: "AI Automation", zh: "AI 自动化" },
     description: {
-      id: "Otomatisasi proses berulang dengan AI — dari customer service hingga operasional internal.",
-      en: "Automate repetitive processes with AI — from customer service to internal operations.",
-      zh: "利用 AI 自动化重复性流程 — 从客户服务到内部运营。",
+      id: "Otomatisasi proses berulang dengan AI, dari customer service hingga operasional internal.",
+      en: "Automate repetitive processes with AI, from customer service to internal operations.",
+      zh: "利用 AI 自动化重复性流程, 从客户服务到内部运营。",
     },
     icon: Bot,
     startingFrom: 5_000_000,

@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Tidak ada yang salah dengan orang-orang ini. Mereka mengerjakan tugasnya dengan baik. Masalahnya, sebagian besar waktu mereka habis untuk pekerjaan yang berulang, berpola, dan tidak membutuhkan pertimbangan manusia. Di sinilah otomatisasi berbasis AI mulai masuk akal — bukan untuk menggantikan orang, tetapi untuk memindahkan pekerjaan membosankan dari tangan mereka.",
+    text: "Tidak ada yang salah dengan orang-orang ini. Mereka mengerjakan tugasnya dengan baik. Masalahnya, sebagian besar waktu mereka habis untuk pekerjaan yang berulang, berpola, dan tidak membutuhkan pertimbangan manusia. Di sinilah otomatisasi berbasis AI mulai masuk akal, bukan untuk menggantikan orang, tetapi untuk memindahkan pekerjaan membosankan dari tangan mereka.",
   },
   {
     type: "p",
@@ -97,12 +97,12 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "AI bisa salah dengan sangat meyakinkan",
-    text: "Model AI generatif dapat menghasilkan jawaban yang terdengar tepat tetapi keliru, termasuk angka atau fakta yang tidak ada. Batasi AI pada sumber informasi yang Anda kendalikan, dan jangan izinkan sistem membuat janji — harga, jadwal, atau kompensasi — tanpa konfirmasi manusia.",
+    text: "Model AI generatif dapat menghasilkan jawaban yang terdengar tepat tetapi keliru, termasuk angka atau fakta yang tidak ada. Batasi AI pada sumber informasi yang Anda kendalikan, dan jangan izinkan sistem membuat janji, harga, jadwal, atau kompensasi, tanpa konfirmasi manusia.",
   },
   { type: "h2", text: "Ukur sebelum dan sesudah" },
   {
     type: "p",
-    text: "Catat berapa lama pekerjaan itu dikerjakan sebelum otomatisasi diterapkan, berapa sering terjadi kesalahan, dan berapa banyak volume yang ditangani. Tanpa angka pembanding, sulit menilai apakah otomatisasi benar-benar membantu atau hanya memindahkan pekerjaan ke tempat lain — misalnya dari mengetik data menjadi memeriksa hasil AI yang sering salah.",
+    text: "Catat berapa lama pekerjaan itu dikerjakan sebelum otomatisasi diterapkan, berapa sering terjadi kesalahan, dan berapa banyak volume yang ditangani. Tanpa angka pembanding, sulit menilai apakah otomatisasi benar-benar membantu atau hanya memindahkan pekerjaan ke tempat lain, misalnya dari mengetik data menjadi memeriksa hasil AI yang sering salah.",
   },
   {
     type: "ul",
@@ -167,7 +167,7 @@ export const body: Block[] = [
     type: "ol",
     items: [
       "Minggu 1: kumpulkan daftar pekerjaan berulang dari tim dan pilih satu kandidat",
-      "Minggu 1: catat kondisi awal — waktu, volume, dan kesalahan",
+      "Minggu 1: catat kondisi awal, waktu, volume, dan kesalahan",
       "Minggu 2: rancang alur otomatisasi beserta titik pemeriksaan manusia",
       "Minggu 3: uji coba dalam skala kecil dengan data sungguhan",
       "Minggu 4: tinjau hasil, catat kasus yang gagal, dan putuskan langkah berikutnya",
@@ -201,7 +201,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "AI automation bukan tentang terlihat modern. Ini tentang mengembalikan waktu tim Anda dari pekerjaan yang membosankan ke pekerjaan yang benar-benar membutuhkan manusia. Mulailah dari satu proses kecil, tetapkan batas yang jelas, ukur hasilnya dengan jujur — dan biarkan hasil itu yang menentukan langkah berikutnya.",
+    text: "AI automation bukan tentang terlihat modern. Ini tentang mengembalikan waktu tim Anda dari pekerjaan yang membosankan ke pekerjaan yang benar-benar membutuhkan manusia. Mulailah dari satu proses kecil, tetapkan batas yang jelas, ukur hasilnya dengan jujur, dan biarkan hasil itu yang menentukan langkah berikutnya.",
   },
   {
     type: "cta",

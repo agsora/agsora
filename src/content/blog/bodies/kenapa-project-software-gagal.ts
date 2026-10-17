@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Enam bulan pengerjaan. Anggaran terpakai habis. Sistemnya akhirnya jadi, lengkap dengan semua fitur yang diminta. Tiga bulan setelah peluncuran, sebagian besar tim diam-diam kembali ke spreadsheet lama. Tidak ada yang secara resmi menyebutnya gagal — tetapi semua orang tahu.",
+    text: "Enam bulan pengerjaan. Anggaran terpakai habis. Sistemnya akhirnya jadi, lengkap dengan semua fitur yang diminta. Tiga bulan setelah peluncuran, sebagian besar tim diam-diam kembali ke spreadsheet lama. Tidak ada yang secara resmi menyebutnya gagal, tetapi semua orang tahu.",
   },
   {
     type: "p",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kegagalan jarang soal teknologi" },
   {
     type: "p",
-    text: "Teknologi untuk membangun sistem bisnis saat ini sudah sangat matang. Hampir semua kebutuhan umum — transaksi, laporan, integrasi, aplikasi mobile — bisa dibangun dengan andal. Karena itu, ketika project gagal, pertanyaan yang lebih berguna bukan “teknologi apa yang salah”, melainkan “keputusan apa yang salah, dan kapan keputusan itu diambil”.",
+    text: "Teknologi untuk membangun sistem bisnis saat ini sudah sangat matang. Hampir semua kebutuhan umum, transaksi, laporan, integrasi, aplikasi mobile, bisa dibangun dengan andal. Karena itu, ketika project gagal, pertanyaan yang lebih berguna bukan “teknologi apa yang salah”, melainkan “keputusan apa yang salah, dan kapan keputusan itu diambil”.",
   },
   {
     type: "p",
@@ -54,7 +54,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penyebab 2: Pengguna sehari-hari tidak dilibatkan" },
   {
     type: "p",
-    text: "Keputusan tentang sistem sering diambil di tingkat manajemen, sementara yang menjalankan sistem setiap hari adalah staf operasional: kasir, admin gudang, tim sales, staf keuangan. Ketika mereka baru dilibatkan saat pelatihan, biasanya muncul banyak hal yang ternyata tidak sesuai kenyataan lapangan — urutan kerja yang berbeda, pengecualian yang sering terjadi, atau langkah yang terlalu lambat untuk jam sibuk.",
+    text: "Keputusan tentang sistem sering diambil di tingkat manajemen, sementara yang menjalankan sistem setiap hari adalah staf operasional: kasir, admin gudang, tim sales, staf keuangan. Ketika mereka baru dilibatkan saat pelatihan, biasanya muncul banyak hal yang ternyata tidak sesuai kenyataan lapangan, urutan kerja yang berbeda, pengecualian yang sering terjadi, atau langkah yang terlalu lambat untuk jam sibuk.",
   },
   {
     type: "p",
@@ -77,7 +77,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penyebab 4: Perubahan kebutuhan tidak dikelola" },
   {
     type: "p",
-    text: "Kebutuhan berubah — itu wajar dan hampir tidak bisa dihindari. Yang bermasalah adalah ketika perubahan diterima terus-menerus tanpa perhitungan ulang timeline dan biaya. Setiap perubahan kecil terasa masuk akal, tetapi jika dijumlahkan, project melar jauh dari rencana. Anggaran habis, jadwal molor, dan bagian inti yang paling penting justru belum selesai.",
+    text: "Kebutuhan berubah, itu wajar dan hampir tidak bisa dihindari. Yang bermasalah adalah ketika perubahan diterima terus-menerus tanpa perhitungan ulang timeline dan biaya. Setiap perubahan kecil terasa masuk akal, tetapi jika dijumlahkan, project melar jauh dari rencana. Anggaran habis, jadwal molor, dan bagian inti yang paling penting justru belum selesai.",
   },
   {
     type: "p",
@@ -114,7 +114,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penyebab 9: Komunikasi yang macet" },
   {
     type: "p",
-    text: "Project yang bermasalah hampir selalu didahului periode hening yang panjang. Tidak ada kabar dari vendor, dan tidak ada yang bertanya dari sisi klien. Ketika akhirnya ada pertemuan, masalah sudah menumpuk. Pembaruan rutin yang singkat — bahkan ketika tidak ada kemajuan besar — jauh lebih sehat daripada laporan besar yang jarang.",
+    text: "Project yang bermasalah hampir selalu didahului periode hening yang panjang. Tidak ada kabar dari vendor, dan tidak ada yang bertanya dari sisi klien. Ketika akhirnya ada pertemuan, masalah sudah menumpuk. Pembaruan rutin yang singkat, bahkan ketika tidak ada kemajuan besar, jauh lebih sehat daripada laporan besar yang jarang.",
   },
   { type: "h2", text: "Tanda peringatan dini" },
   {
@@ -154,7 +154,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Perusahaan kedua memulai dengan satu tujuan terukur: menghilangkan input ganda pesanan antara sales dan gudang. Dua sales dan satu admin gudang dilibatkan sejak rancangan pertama. Modul pesanan dan stok diluncurkan lebih dulu di satu cabang, diperbaiki berdasarkan masukan, lalu diperluas. Penagihan dan laporan menyusul di tahap berikutnya. Perusahaan kedua mungkin terlihat lebih lambat di awal, tetapi sistemnya benar-benar dipakai — dan setiap tahap berikutnya dibangun di atas pelajaran nyata.",
+    text: "Perusahaan kedua memulai dengan satu tujuan terukur: menghilangkan input ganda pesanan antara sales dan gudang. Dua sales dan satu admin gudang dilibatkan sejak rancangan pertama. Modul pesanan dan stok diluncurkan lebih dulu di satu cabang, diperbaiki berdasarkan masukan, lalu diperluas. Penagihan dan laporan menyusul di tahap berikutnya. Perusahaan kedua mungkin terlihat lebih lambat di awal, tetapi sistemnya benar-benar dipakai, dan setiap tahap berikutnya dibangun di atas pelajaran nyata.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Siapa yang biasanya disalahkan ketika project gagal?" },
@@ -183,7 +183,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Project software yang berhasil jarang terjadi karena keberuntungan atau teknologi yang paling canggih. Ia terjadi karena masalahnya jelas, penggunanya dilibatkan, ruang lingkupnya realistis, perubahannya dikelola, dan adopsinya direncanakan. Kelima hal itu tidak membutuhkan anggaran besar — hanya disiplin untuk memikirkannya sebelum pengerjaan dimulai.",
+    text: "Project software yang berhasil jarang terjadi karena keberuntungan atau teknologi yang paling canggih. Ia terjadi karena masalahnya jelas, penggunanya dilibatkan, ruang lingkupnya realistis, perubahannya dikelola, dan adopsinya direncanakan. Kelima hal itu tidak membutuhkan anggaran besar, hanya disiplin untuk memikirkannya sebelum pengerjaan dimulai.",
   },
   {
     type: "cta",

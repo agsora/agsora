@@ -28,7 +28,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mulai dari tujuan yang jelas" },
   {
     type: "p",
-    text: "Apa sebenarnya yang ingin diubah dengan program ini? Frekuensi kunjungan pelanggan yang lebih sering, nilai belanja per transaksi yang lebih besar, atau mencegah pelanggan berpindah ke pesaing? Tujuan yang berbeda membutuhkan mekanisme program yang berbeda pula — dan cara mengukur keberhasilannya juga akan berbeda sesuai tujuan yang ditetapkan.",
+    text: "Apa sebenarnya yang ingin diubah dengan program ini? Frekuensi kunjungan pelanggan yang lebih sering, nilai belanja per transaksi yang lebih besar, atau mencegah pelanggan berpindah ke pesaing? Tujuan yang berbeda membutuhkan mekanisme program yang berbeda pula, dan cara mengukur keberhasilannya juga akan berbeda sesuai tujuan yang ditetapkan.",
   },
   { type: "h2", text: "Mekanisme yang umum dipakai" },
   {
@@ -58,7 +58,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: menemukan program yang perlu direvisi" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko kosmetik yang menjalankan program poin di mana setiap pembelian mendapat poin yang bisa ditukar produk gratis. Setelah dua tahun berjalan tanpa evaluasi mendalam, mereka mulai menganalisis data secara rinci dan menemukan bahwa nilai poin yang ditukarkan pelanggan ternyata jauh lebih besar dari peningkatan frekuensi belanja yang dihasilkan program ini — pelanggan tetap belanja dengan pola yang hampir sama seperti sebelum menjadi member, tapi kini mendapat diskon tambahan yang sebenarnya tidak mengubah perilaku mereka.",
+    text: "Bayangkan sebuah toko kosmetik yang menjalankan program poin di mana setiap pembelian mendapat poin yang bisa ditukar produk gratis. Setelah dua tahun berjalan tanpa evaluasi mendalam, mereka mulai menganalisis data secara rinci dan menemukan bahwa nilai poin yang ditukarkan pelanggan ternyata jauh lebih besar dari peningkatan frekuensi belanja yang dihasilkan program ini, pelanggan tetap belanja dengan pola yang hampir sama seperti sebelum menjadi member, tapi kini mendapat diskon tambahan yang sebenarnya tidak mengubah perilaku mereka.",
   },
   {
     type: "p",
@@ -99,16 +99,16 @@ export const body: Block[] = [
   { type: "h2", text: "Kesalahan umum saat merancang program loyalitas" },
   {
     type: "p",
-    text: "Kesalahan paling umum adalah meniru mentah-mentah program loyalitas milik bisnis lain tanpa mempertimbangkan apakah mekanismenya benar-benar cocok dengan pola belanja pelanggan sendiri. Program poin yang bagus untuk minimarket dengan transaksi kecil dan sering belum tentu cocok diterapkan di toko furnitur dengan transaksi besar tapi jarang — pelanggan furnitur mungkin hanya berbelanja sekali dalam beberapa tahun, sehingga insentif untuk “kembali lagi demi poin” hampir tidak relevan bagi mereka.",
+    text: "Kesalahan paling umum adalah meniru mentah-mentah program loyalitas milik bisnis lain tanpa mempertimbangkan apakah mekanismenya benar-benar cocok dengan pola belanja pelanggan sendiri. Program poin yang bagus untuk minimarket dengan transaksi kecil dan sering belum tentu cocok diterapkan di toko furnitur dengan transaksi besar tapi jarang, pelanggan furnitur mungkin hanya berbelanja sekali dalam beberapa tahun, sehingga insentif untuk “kembali lagi demi poin” hampir tidak relevan bagi mereka.",
   },
   {
     type: "p",
-    text: "Kesalahan lain adalah membuat mekanisme yang terlalu rumit sehingga pelanggan sendiri kebingungan memahami cara kerjanya — berapa poin yang didapat, kapan bisa ditukar, apa saja syaratnya. Program yang sulit dipahami cenderung diabaikan pelanggan meski sebenarnya menawarkan nilai yang cukup baik. Kesederhanaan mekanisme, bahkan jika berarti keuntungan yang ditawarkan sedikit lebih kecil, sering menghasilkan partisipasi yang jauh lebih tinggi dibanding program yang kompleks namun membingungkan.",
+    text: "Kesalahan lain adalah membuat mekanisme yang terlalu rumit sehingga pelanggan sendiri kebingungan memahami cara kerjanya, berapa poin yang didapat, kapan bisa ditukar, apa saja syaratnya. Program yang sulit dipahami cenderung diabaikan pelanggan meski sebenarnya menawarkan nilai yang cukup baik. Kesederhanaan mekanisme, bahkan jika berarti keuntungan yang ditawarkan sedikit lebih kecil, sering menghasilkan partisipasi yang jauh lebih tinggi dibanding program yang kompleks namun membingungkan.",
   },
   { type: "h2", text: "Mendorong partisipasi awal pelanggan" },
   {
     type: "p",
-    text: "Program loyalitas hanya efektif jika pelanggan benar-benar mendaftar dan aktif menggunakannya. Proses pendaftaran yang rumit — formulir panjang, syarat berbelit, atau kewajiban mengunduh aplikasi terpisah — sering menjadi penghalang terbesar, bahkan bagi pelanggan yang sebenarnya tertarik bergabung. Buat proses pendaftaran sesederhana mungkin, idealnya bisa dilakukan langsung di kasir saat transaksi berlangsung, tanpa membebani pelanggan dengan langkah tambahan yang terasa merepotkan.",
+    text: "Program loyalitas hanya efektif jika pelanggan benar-benar mendaftar dan aktif menggunakannya. Proses pendaftaran yang rumit, formulir panjang, syarat berbelit, atau kewajiban mengunduh aplikasi terpisah, sering menjadi penghalang terbesar, bahkan bagi pelanggan yang sebenarnya tertarik bergabung. Buat proses pendaftaran sesederhana mungkin, idealnya bisa dilakukan langsung di kasir saat transaksi berlangsung, tanpa membebani pelanggan dengan langkah tambahan yang terasa merepotkan.",
   },
   {
     type: "p",
@@ -122,7 +122,7 @@ export const body: Block[] = [
   { type: "h2", text: "Melibatkan staf garis depan dalam desain program" },
   {
     type: "p",
-    text: "Staf kasir dan pelayan toko adalah pihak yang paling sering berhadapan langsung dengan reaksi pelanggan terhadap program loyalitas — keluhan tentang mekanisme yang membingungkan, pertanyaan yang berulang tentang cara kerja poin, atau usulan yang muncul spontan dari percakapan sehari-hari dengan pelanggan. Melibatkan mereka saat merancang atau merevisi program sering menghasilkan masukan praktis yang tidak terlihat dari data transaksi semata.",
+    text: "Staf kasir dan pelayan toko adalah pihak yang paling sering berhadapan langsung dengan reaksi pelanggan terhadap program loyalitas, keluhan tentang mekanisme yang membingungkan, pertanyaan yang berulang tentang cara kerja poin, atau usulan yang muncul spontan dari percakapan sehari-hari dengan pelanggan. Melibatkan mereka saat merancang atau merevisi program sering menghasilkan masukan praktis yang tidak terlihat dari data transaksi semata.",
   },
   {
     type: "p",
@@ -131,7 +131,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani penipuan dan penyalahgunaan poin" },
   {
     type: "p",
-    text: "Program dengan nilai poin yang cukup besar berpotensi menarik penyalahgunaan — mulai dari pelanggan yang mendaftar dengan banyak akun berbeda untuk mengumpulkan bonus pendaftaran berulang kali, sampai potensi kecurangan internal oleh staf yang punya akses ke sistem poin. Sistem yang terintegrasi dengan kasir setidaknya membantu mendeteksi pola transaksi yang janggal, seperti penambahan poin tanpa transaksi pembelian yang sesuai.",
+    text: "Program dengan nilai poin yang cukup besar berpotensi menarik penyalahgunaan, mulai dari pelanggan yang mendaftar dengan banyak akun berbeda untuk mengumpulkan bonus pendaftaran berulang kali, sampai potensi kecurangan internal oleh staf yang punya akses ke sistem poin. Sistem yang terintegrasi dengan kasir setidaknya membantu mendeteksi pola transaksi yang janggal, seperti penambahan poin tanpa transaksi pembelian yang sesuai.",
   },
   {
     type: "p",
@@ -156,7 +156,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Tahu apakah program loyalitas Anda benar-benar menguntungkan?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

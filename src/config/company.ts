@@ -171,8 +171,8 @@ export const principles: Principle[] = [
       zh: "为第二年而建",
     },
     description: {
-      id: "Arsitektur dirancang untuk kondisi saat data sudah menumpuk dan pengguna bertambah — bukan hanya agar terlihat baik di hari peluncuran.",
-      en: "Architecture is designed for the point when data has piled up and users have grown — not just to look good on launch day.",
+      id: "Arsitektur dirancang untuk kondisi saat data sudah menumpuk dan pengguna bertambah, bukan hanya agar terlihat baik di hari peluncuran.",
+      en: "Architecture is designed for the point when data has piled up and users have grown, not just to look good on launch day.",
       zh: "架构设计着眼于数据累积、用户增长后的状态，而不仅仅是为了上线当天看起来光鲜。",
     },
   },
@@ -209,7 +209,7 @@ export const principles: Principle[] = [
     description: {
       id: "Kami memilih rilis kecil yang bisa dievaluasi daripada satu peluncuran besar yang sulit dikoreksi ketika ada yang meleset.",
       en: "We prefer small, evaluable releases over one big launch that's hard to correct when something goes wrong.",
-      zh: "我们倾向于采用可评估的小规模发布，而非一次性大规模上线——后者一旦出错将难以修正。",
+      zh: "我们倾向于采用可评估的小规模发布，而非一次性大规模上线，后者一旦出错将难以修正。",
     },
   },
 ];
@@ -231,8 +231,8 @@ export const commitments: Commitment[] = [
       zh: "源代码归属",
     },
     description: {
-      id: "Skema kepemilikan source code untuk project custom dinyatakan tertulis dalam kontrak sejak awal — tidak disamarkan di belakang jargon lisensi.",
-      en: "The source code ownership arrangement for custom projects is stated in writing in the contract from the start — never disguised behind licensing jargon.",
+      id: "Skema kepemilikan source code untuk project custom dinyatakan tertulis dalam kontrak sejak awal, tidak disamarkan di belakang jargon lisensi.",
+      en: "The source code ownership arrangement for custom projects is stated in writing in the contract from the start, never disguised behind licensing jargon.",
       zh: "定制项目的源代码归属方案会在合同中从一开始就以书面形式明确约定，绝不会被授权术语所掩盖。",
     },
   },
@@ -255,9 +255,9 @@ export const commitments: Commitment[] = [
       zh: "诚实的报价",
     },
     description: {
-      id: "Jika sebuah kebutuhan di luar keahlian kami atau tidak realistis dengan anggaran yang ada, kami sampaikan di awal — bukan setelah kontrak berjalan.",
-      en: "If a requirement is outside our expertise or unrealistic for the available budget, we say so upfront — not after the contract is underway.",
-      zh: "如果某项需求超出我们的专业能力，或与预算不符，我们会提前告知——而不是等合同开始执行后才说。",
+      id: "Jika sebuah kebutuhan di luar keahlian kami atau tidak realistis dengan anggaran yang ada, kami sampaikan di awal, bukan setelah kontrak berjalan.",
+      en: "If a requirement is outside our expertise or unrealistic for the available budget, we say so upfront, not after the contract is underway.",
+      zh: "如果某项需求超出我们的专业能力，或与预算不符，我们会提前告知，而不是等合同开始执行后才说。",
     },
   },
   {
@@ -369,7 +369,7 @@ export const faqsTranslated: FaqTranslated[] = [
     en: {
       question: "Can the new system connect with software we already use?",
       answer:
-        "In most cases, yes — as long as that system offers an API or a data export path. During the Discover phase we review your system's technical documentation and let you know whether integration is feasible before it goes into the proposal.",
+        "In most cases, yes, as long as that system offers an API or a data export path. During the Discover phase we review your system's technical documentation and let you know whether integration is feasible before it goes into the proposal.",
     },
     zh: {
       question: "新系统能与我们现有的软件对接吗？",
@@ -400,17 +400,17 @@ export const faqsTranslated: FaqTranslated[] = [
     id: {
       question: "Apakah AG·SORA menangani bisnis kecil?",
       answer:
-        "Ya. Kebutuhan sederhana bisa dimulai dari ruang lingkup kecil — landing page atau sistem kasir — lalu dikembangkan bertahap. Kami tidak mengharuskan sebuah project dimulai dari paket besar.",
+        "Ya. Kebutuhan sederhana bisa dimulai dari ruang lingkup kecil, landing page atau sistem kasir, lalu dikembangkan bertahap. Kami tidak mengharuskan sebuah project dimulai dari paket besar.",
     },
     en: {
       question: "Does AG·SORA work with small businesses?",
       answer:
-        "Yes. Simple needs can start small — a landing page or a POS system — and grow from there. We don't require every project to start with a large package.",
+        "Yes. Simple needs can start small, a landing page or a POS system, and grow from there. We don't require every project to start with a large package.",
     },
     zh: {
       question: "AG·SORA 也服务小型企业吗？",
       answer:
-        "是的。简单的需求可以从小范围开始——例如落地页或收银系统——之后再逐步扩展。我们不要求每个项目都从大套餐开始。",
+        "是的。简单的需求可以从小范围开始，例如落地页或收银系统，之后再逐步扩展。我们不要求每个项目都从大套餐开始。",
     },
   },
   {

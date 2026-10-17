@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak website company profile dibuat sebagai formalitas: halaman tentang perusahaan, visi dan misi, daftar layanan, dan alamat kontak. Website seperti itu tidak salah, dan memang membantu membangun kesan profesional. Tetapi jarang menghasilkan prospek, karena disusun dari sudut pandang perusahaan — apa yang ingin perusahaan ceritakan — bukan dari pertanyaan yang ada di kepala calon klien.",
+    text: "Banyak website company profile dibuat sebagai formalitas: halaman tentang perusahaan, visi dan misi, daftar layanan, dan alamat kontak. Website seperti itu tidak salah, dan memang membantu membangun kesan profesional. Tetapi jarang menghasilkan prospek, karena disusun dari sudut pandang perusahaan, apa yang ingin perusahaan ceritakan, bukan dari pertanyaan yang ada di kepala calon klien.",
   },
   {
     type: "p",
@@ -31,12 +31,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Website yang menghasilkan prospek menjawab pertanyaan-pertanyaan itu secara berurutan, tanpa membuat pengunjung harus mencari. Website yang tidak bekerja biasanya menjawab pertanyaan yang tidak ditanyakan — misalnya sejarah perusahaan yang panjang di halaman pertama — sementara pertanyaan yang benar-benar penting tersembunyi atau tidak dijawab sama sekali.",
+    text: "Website yang menghasilkan prospek menjawab pertanyaan-pertanyaan itu secara berurutan, tanpa membuat pengunjung harus mencari. Website yang tidak bekerja biasanya menjawab pertanyaan yang tidak ditanyakan, misalnya sejarah perusahaan yang panjang di halaman pertama, sementara pertanyaan yang benar-benar penting tersembunyi atau tidak dijawab sama sekali.",
   },
   { type: "h2", text: "Halaman depan yang langsung jelas" },
   {
     type: "p",
-    text: "Dalam beberapa detik pertama, pengunjung harus mengerti apa yang Anda tawarkan dan untuk siapa. Judul utama yang terlalu umum atau terlalu puitis — seperti “Mewujudkan masa depan bersama” — terdengar indah tetapi tidak memberi tahu apa pun. Lebih baik judul yang langsung menyebutkan layanan dan manfaatnya, disertai tombol yang jelas untuk langkah berikutnya.",
+    text: "Dalam beberapa detik pertama, pengunjung harus mengerti apa yang Anda tawarkan dan untuk siapa. Judul utama yang terlalu umum atau terlalu puitis, seperti “Mewujudkan masa depan bersama”, terdengar indah tetapi tidak memberi tahu apa pun. Lebih baik judul yang langsung menyebutkan layanan dan manfaatnya, disertai tombol yang jelas untuk langkah berikutnya.",
   },
   {
     type: "p",
@@ -95,7 +95,7 @@ export const body: Block[] = [
   { type: "h2", text: "Konten yang membantu, bukan hanya menjual" },
   {
     type: "p",
-    text: "Artikel atau panduan yang menjawab pertanyaan calon klien — misalnya cara memilih layanan, perbandingan pilihan, atau kesalahan yang perlu dihindari — membantu dua hal sekaligus. Pertama, website lebih mudah ditemukan lewat pencarian. Kedua, calon klien melihat bahwa perusahaan Anda memahami masalah mereka, bahkan sebelum mereka menghubungi.",
+    text: "Artikel atau panduan yang menjawab pertanyaan calon klien, misalnya cara memilih layanan, perbandingan pilihan, atau kesalahan yang perlu dihindari, membantu dua hal sekaligus. Pertama, website lebih mudah ditemukan lewat pencarian. Kedua, calon klien melihat bahwa perusahaan Anda memahami masalah mereka, bahkan sebelum mereka menghubungi.",
   },
   { type: "h2", text: "Ukur, lalu perbaiki" },
   {
@@ -115,7 +115,7 @@ export const body: Block[] = [
   { type: "h2", text: "Halaman tentang perusahaan yang tetap berguna" },
   {
     type: "p",
-    text: "Halaman tentang perusahaan tidak harus dihilangkan, tetapi perannya berbeda dari yang sering dikira. Halaman ini bukan tempat pertama yang dilihat calon klien, melainkan tempat yang dikunjungi setelah mereka tertarik, untuk meyakinkan diri lebih jauh. Isinya sebaiknya menjawab pertanyaan seperti siapa yang mengerjakan, bagaimana pendekatan kerja perusahaan, dan apa yang membedakan cara kerja Anda — bukan sekadar riwayat berdirinya perusahaan.",
+    text: "Halaman tentang perusahaan tidak harus dihilangkan, tetapi perannya berbeda dari yang sering dikira. Halaman ini bukan tempat pertama yang dilihat calon klien, melainkan tempat yang dikunjungi setelah mereka tertarik, untuk meyakinkan diri lebih jauh. Isinya sebaiknya menjawab pertanyaan seperti siapa yang mengerjakan, bagaimana pendekatan kerja perusahaan, dan apa yang membedakan cara kerja Anda, bukan sekadar riwayat berdirinya perusahaan.",
   },
   { type: "h2", text: "Ilustrasi: dua website dengan isi yang sama" },
   {
@@ -124,7 +124,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Website kedua dibuka dengan kalimat yang jelas tentang apa yang dikerjakan dan untuk siapa. Setiap layanan punya halaman sendiri dengan penjelasan proses, kisaran biaya, dan pertanyaan umum. Tombol WhatsApp selalu terlihat, dan formulirnya hanya empat kolom. Informasi yang ditawarkan kedua perusahaan sebenarnya hampir sama — tetapi hanya website kedua yang membuat calon klien mudah mengambil langkah berikutnya.",
+    text: "Website kedua dibuka dengan kalimat yang jelas tentang apa yang dikerjakan dan untuk siapa. Setiap layanan punya halaman sendiri dengan penjelasan proses, kisaran biaya, dan pertanyaan umum. Tombol WhatsApp selalu terlihat, dan formulirnya hanya empat kolom. Informasi yang ditawarkan kedua perusahaan sebenarnya hampir sama, tetapi hanya website kedua yang membuat calon klien mudah mengambil langkah berikutnya.",
   },
   { type: "h2", text: "Langkah memperbaiki website yang sudah ada" },
   {
@@ -142,7 +142,7 @@ export const body: Block[] = [
   { type: "h2", text: "Merawat website setelah diluncurkan" },
   {
     type: "p",
-    text: "Website yang menghasilkan prospek jarang selesai di hari peluncuran. Kata kunci pencarian berubah, layanan bertambah, dan kebiasaan calon klien bergeser. Jadwalkan peninjauan rutin — misalnya setiap tiga bulan — untuk memeriksa halaman mana yang performanya menurun, konten mana yang perlu diperbarui, dan pertanyaan baru dari calon klien yang belum terjawab di website.",
+    text: "Website yang menghasilkan prospek jarang selesai di hari peluncuran. Kata kunci pencarian berubah, layanan bertambah, dan kebiasaan calon klien bergeser. Jadwalkan peninjauan rutin, misalnya setiap tiga bulan, untuk memeriksa halaman mana yang performanya menurun, konten mana yang perlu diperbarui, dan pertanyaan baru dari calon klien yang belum terjawab di website.",
   },
   { type: "h2", text: "Kesalahan umum" },
   {
@@ -184,7 +184,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menjaga konsistensi dengan kanal lain" },
   {
     type: "p",
-    text: "Calon klien sering menemukan Anda lewat media sosial atau iklan sebelum mengunjungi website. Pastikan pesan, harga, dan penawaran yang mereka lihat di kanal lain konsisten dengan yang ada di website. Ketidaksesuaian informasi antar kanal — misalnya promo yang disebut di Instagram tetapi tidak muncul di website — menimbulkan keraguan yang tidak perlu.",
+    text: "Calon klien sering menemukan Anda lewat media sosial atau iklan sebelum mengunjungi website. Pastikan pesan, harga, dan penawaran yang mereka lihat di kanal lain konsisten dengan yang ada di website. Ketidaksesuaian informasi antar kanal, misalnya promo yang disebut di Instagram tetapi tidak muncul di website, menimbulkan keraguan yang tidak perlu.",
   },
   { type: "h2", text: "Penutup" },
   {

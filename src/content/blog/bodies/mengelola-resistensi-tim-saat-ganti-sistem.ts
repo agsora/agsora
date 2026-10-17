@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa resistensi hampir selalu muncul" },
   {
     type: "p",
-    text: "Perubahan sistem mengganggu rutinitas yang sudah terbentuk dan terasa nyaman bagi karyawan, meski rutinitas itu sebenarnya tidak efisien. Ada rasa aman dalam melakukan sesuatu dengan cara yang sudah dikuasai, dan perubahan apa pun — sebagus apa pun tujuannya — secara alami memicu kekhawatiran tentang kemampuan diri sendiri untuk beradaptasi dengan cara baru tersebut.",
+    text: "Perubahan sistem mengganggu rutinitas yang sudah terbentuk dan terasa nyaman bagi karyawan, meski rutinitas itu sebenarnya tidak efisien. Ada rasa aman dalam melakukan sesuatu dengan cara yang sudah dikuasai, dan perubahan apa pun, sebagus apa pun tujuannya, secara alami memicu kekhawatiran tentang kemampuan diri sendiri untuk beradaptasi dengan cara baru tersebut.",
   },
   { type: "h2", text: "Sumber resistensi yang umum ditemui" },
   {
@@ -39,7 +39,7 @@ export const body: Block[] = [
   { type: "h2", text: "Jelaskan alasannya, bukan hanya perintahnya" },
   {
     type: "p",
-    text: "Karyawan jauh lebih mudah menerima sebuah perubahan ketika mereka benar-benar memahami masalah apa yang sedang diselesaikan oleh sistem baru tersebut — terutama jika masalah itu juga mereka rasakan sendiri sehari-hari, seperti input data berulang-ulang atau data yang sering tidak cocok antar bagian. Perintah tanpa penjelasan yang memadai hanya akan diikuti secara terpaksa, bukan diterima dengan sepenuh hati.",
+    text: "Karyawan jauh lebih mudah menerima sebuah perubahan ketika mereka benar-benar memahami masalah apa yang sedang diselesaikan oleh sistem baru tersebut, terutama jika masalah itu juga mereka rasakan sendiri sehari-hari, seperti input data berulang-ulang atau data yang sering tidak cocok antar bagian. Perintah tanpa penjelasan yang memadai hanya akan diikuti secara terpaksa, bukan diterima dengan sepenuh hati.",
   },
   { type: "h2", text: "Libatkan pengguna sejak tahap awal" },
   {
@@ -106,17 +106,17 @@ export const body: Block[] = [
   { type: "h2", text: "Rancang pelatihan berdasarkan peran, bukan generik" },
   {
     type: "p",
-    text: "Pelatihan satu arah yang menjelaskan seluruh fitur sistem kepada semua orang sekaligus sering membuat peserta kewalahan dan kesulitan mengingat bagian mana yang benar-benar relevan dengan pekerjaan mereka sehari-hari. Susun materi pelatihan berdasarkan peran masing-masing — bagian penjualan hanya perlu fokus pada modul yang mereka pakai setiap hari, bagian gudang pada modul yang berbeda lagi. Pelatihan yang relevan dan langsung bisa dipraktikkan pada pekerjaan nyata jauh lebih mudah diserap dibanding sesi umum yang mencakup semua hal sekaligus tanpa konteks yang jelas.",
+    text: "Pelatihan satu arah yang menjelaskan seluruh fitur sistem kepada semua orang sekaligus sering membuat peserta kewalahan dan kesulitan mengingat bagian mana yang benar-benar relevan dengan pekerjaan mereka sehari-hari. Susun materi pelatihan berdasarkan peran masing-masing, bagian penjualan hanya perlu fokus pada modul yang mereka pakai setiap hari, bagian gudang pada modul yang berbeda lagi. Pelatihan yang relevan dan langsung bisa dipraktikkan pada pekerjaan nyata jauh lebih mudah diserap dibanding sesi umum yang mencakup semua hal sekaligus tanpa konteks yang jelas.",
   },
   { type: "h2", text: "Rayakan kemajuan kecil selama masa transisi" },
   {
     type: "p",
-    text: "Masa transisi yang panjang dan terasa berat bisa membuat tim kehilangan semangat jika tidak ada tanda-tanda kemajuan yang terlihat. Tunjukkan secara konkret setiap perbaikan yang mulai terlihat, sekecil apa pun — misalnya satu proses yang sebelumnya butuh waktu lama kini selesai lebih cepat, atau satu masalah data yang sering terjadi kini sudah tidak muncul lagi. Mengakui kemajuan ini secara terbuka membantu tim melihat bahwa usaha beradaptasi mereka benar-benar membuahkan hasil, bukan sekadar beban tambahan tanpa manfaat yang jelas.",
+    text: "Masa transisi yang panjang dan terasa berat bisa membuat tim kehilangan semangat jika tidak ada tanda-tanda kemajuan yang terlihat. Tunjukkan secara konkret setiap perbaikan yang mulai terlihat, sekecil apa pun, misalnya satu proses yang sebelumnya butuh waktu lama kini selesai lebih cepat, atau satu masalah data yang sering terjadi kini sudah tidak muncul lagi. Mengakui kemajuan ini secara terbuka membantu tim melihat bahwa usaha beradaptasi mereka benar-benar membuahkan hasil, bukan sekadar beban tambahan tanpa manfaat yang jelas.",
   },
   { type: "h2", text: "Perhatikan perbedaan tingkat kenyamanan terhadap teknologi" },
   {
     type: "p",
-    text: "Tidak semua anggota tim memiliki tingkat kenyamanan yang sama terhadap teknologi baru, dan ini bukan semata soal usia meski sering dikaitkan dengan itu. Sebagian orang butuh lebih banyak waktu berlatih langsung sebelum merasa percaya diri, sementara yang lain bisa beradaptasi dengan cepat hanya dari membaca panduan singkat. Sediakan beberapa format pendampingan — sesi tatap muka, panduan tertulis, video singkat — sehingga setiap orang bisa belajar dengan cara yang paling sesuai untuk mereka, alih-alih memaksakan satu format pelatihan untuk semua orang.",
+    text: "Tidak semua anggota tim memiliki tingkat kenyamanan yang sama terhadap teknologi baru, dan ini bukan semata soal usia meski sering dikaitkan dengan itu. Sebagian orang butuh lebih banyak waktu berlatih langsung sebelum merasa percaya diri, sementara yang lain bisa beradaptasi dengan cepat hanya dari membaca panduan singkat. Sediakan beberapa format pendampingan, sesi tatap muka, panduan tertulis, video singkat, sehingga setiap orang bisa belajar dengan cara yang paling sesuai untuk mereka, alih-alih memaksakan satu format pelatihan untuk semua orang.",
   },
   { type: "h3", text: "Apakah wajar jika sebagian tim masih membutuhkan bantuan setelah masa transisi resmi berakhir?" },
   {
@@ -130,12 +130,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Manajer menengah juga sering punya kekhawatiran tersendiri yang jarang disuarakan secara terbuka — misalnya takut laporan yang mereka hasilkan selama ini ternyata tidak lagi relevan di sistem baru, atau khawatir kehilangan kendali atas cara timnya bekerja karena semua proses kini tercatat dan terlihat oleh atasan yang lebih tinggi. Libatkan mereka dalam sesi terpisah sebelum peluncuran untuk membahas kekhawatiran spesifik ini secara jujur, dan pastikan mereka memahami bagaimana peran mereka justru diperkuat, bukan dipersempit, oleh visibilitas data yang lebih baik dari sistem baru.",
+    text: "Manajer menengah juga sering punya kekhawatiran tersendiri yang jarang disuarakan secara terbuka, misalnya takut laporan yang mereka hasilkan selama ini ternyata tidak lagi relevan di sistem baru, atau khawatir kehilangan kendali atas cara timnya bekerja karena semua proses kini tercatat dan terlihat oleh atasan yang lebih tinggi. Libatkan mereka dalam sesi terpisah sebelum peluncuran untuk membahas kekhawatiran spesifik ini secara jujur, dan pastikan mereka memahami bagaimana peran mereka justru diperkuat, bukan dipersempit, oleh visibilitas data yang lebih baik dari sistem baru.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Resistensi terhadap perubahan sistem adalah reaksi manusiawi yang wajar, bukan tanda kegagalan project. Dengan memahami akar kekhawatirannya, melibatkan tim sejak awal, dan memberikan dukungan yang cukup selama masa transisi, resistensi ini bisa dikelola dengan baik — mengubah penolakan awal menjadi penerimaan yang tulus terhadap sistem yang baru.",
+    text: "Resistensi terhadap perubahan sistem adalah reaksi manusiawi yang wajar, bukan tanda kegagalan project. Dengan memahami akar kekhawatirannya, melibatkan tim sejak awal, dan memberikan dukungan yang cukup selama masa transisi, resistensi ini bisa dikelola dengan baik, mengubah penolakan awal menjadi penerimaan yang tulus terhadap sistem yang baru.",
   },
   {
     type: "cta",

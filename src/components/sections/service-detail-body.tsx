@@ -78,9 +78,9 @@ export function ServiceDetailBody({
               </p>
               <p className="mt-3 text-[12px] leading-relaxed text-ink-subtle">
                 {locale === "id"
-                  ? "Harga final menyesuaikan ruang lingkup, integrasi, dan timeline — disampaikan dalam proposal."
+                  ? "Harga final menyesuaikan ruang lingkup, integrasi, dan timeline, disampaikan dalam proposal."
                   : locale === "en"
-                    ? "Final pricing depends on scope, integrations, and timeline — shared in the proposal."
+                    ? "Final pricing depends on scope, integrations, and timeline, shared in the proposal."
                     : "最终价格取决于范围、对接需求与工期，将在提案中提供。"}
               </p>
             </div>
@@ -164,7 +164,7 @@ export function ServiceDetailBody({
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1fr] lg:gap-16">
             <SectionHeading
               eyebrow={t.faqSection.eyebrow}
-              title={`${t.faqSection.title.replace(/\?$/, "")} — ${service.title[locale]}`}
+              title={`${t.faqSection.title.replace(/\?$/, "")} | ${service.title[locale]}`}
             />
             <div className="divide-y divide-line border-y border-line">
               {detail.faqs.map((faq, i) => (

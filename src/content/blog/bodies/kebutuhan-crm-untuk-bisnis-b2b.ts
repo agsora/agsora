@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Deal senilai ratusan juta sudah delapan bulan berjalan. Ada lima orang di sisi klien yang terlibat: pengguna yang antusias, IT yang skeptis soal keamanan, keuangan yang menahan anggaran, dan akhirnya direktur yang harus menyetujui. Sales mencatat semuanya di notes ponsel pribadinya — dan ketika ia cuti dua minggu, tidak ada yang tahu persis di tahap mana negosiasi ini sebenarnya berada.",
+    text: "Deal senilai ratusan juta sudah delapan bulan berjalan. Ada lima orang di sisi klien yang terlibat: pengguna yang antusias, IT yang skeptis soal keamanan, keuangan yang menahan anggaran, dan akhirnya direktur yang harus menyetujui. Sales mencatat semuanya di notes ponsel pribadinya, dan ketika ia cuti dua minggu, tidak ada yang tahu persis di tahap mana negosiasi ini sebenarnya berada.",
   },
   {
     type: "p",
@@ -55,7 +55,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Serah terima ke tim pelaksana harus rapi",
-    text: "Setelah kesepakatan tercapai, seluruh informasi yang telah dikumpulkan sales selama proses penjualan — kebutuhan spesifik klien, janji yang dibuat, dan harapan yang disampaikan — harus sampai secara utuh ke tim yang akan menjalankan pekerjaan. Banyak ketidakpuasan klien di kemudian hari berawal dari informasi penting yang hilang tepat di titik serah terima ini.",
+    text: "Setelah kesepakatan tercapai, seluruh informasi yang telah dikumpulkan sales selama proses penjualan, kebutuhan spesifik klien, janji yang dibuat, dan harapan yang disampaikan, harus sampai secara utuh ke tim yang akan menjalankan pekerjaan. Banyak ketidakpuasan klien di kemudian hari berawal dari informasi penting yang hilang tepat di titik serah terima ini.",
   },
   { type: "h2", text: "Perkiraan penjualan yang realistis" },
   {
@@ -79,7 +79,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mengelola tim sales yang menangani akun besar bersama-sama" },
   {
     type: "p",
-    text: "Untuk akun-akun besar, sering kali lebih dari satu orang terlibat menangani hubungan dengan klien tersebut — misalnya sales utama dan spesialis teknis yang membantu presentasi. CRM yang mendukung kolaborasi tim pada satu akun, dengan visibilitas yang sama bagi semua pihak yang terlibat, mencegah tumpang tindih komunikasi atau informasi yang tercecer di antara anggota tim.",
+    text: "Untuk akun-akun besar, sering kali lebih dari satu orang terlibat menangani hubungan dengan klien tersebut, misalnya sales utama dan spesialis teknis yang membantu presentasi. CRM yang mendukung kolaborasi tim pada satu akun, dengan visibilitas yang sama bagi semua pihak yang terlibat, mencegah tumpang tindih komunikasi atau informasi yang tercecer di antara anggota tim.",
   },
   { type: "h2", text: "Langkah menyiapkan CRM untuk kebutuhan B2B" },
   {
@@ -107,16 +107,16 @@ export const body: Block[] = [
   { type: "h2", text: "Integrasi dengan alat komunikasi yang sudah dipakai tim" },
   {
     type: "p",
-    text: "Sales B2B menghabiskan sebagian besar waktunya di email dan kalender untuk mengatur pertemuan, mengirim penawaran, dan menindaklanjuti diskusi yang sedang berjalan. Jika CRM berdiri terpisah dari alat-alat ini, sales harus bolak-balik mencatat ulang secara manual apa yang sudah dikirim lewat email ke dalam sistem CRM — pekerjaan tambahan yang membosankan dan gampang terlewat di tengah kesibukan, sampai akhirnya catatan di CRM tertinggal jauh dari kenyataan yang sebenarnya terjadi.",
+    text: "Sales B2B menghabiskan sebagian besar waktunya di email dan kalender untuk mengatur pertemuan, mengirim penawaran, dan menindaklanjuti diskusi yang sedang berjalan. Jika CRM berdiri terpisah dari alat-alat ini, sales harus bolak-balik mencatat ulang secara manual apa yang sudah dikirim lewat email ke dalam sistem CRM, pekerjaan tambahan yang membosankan dan gampang terlewat di tengah kesibukan, sampai akhirnya catatan di CRM tertinggal jauh dari kenyataan yang sebenarnya terjadi.",
   },
   {
     type: "p",
-    text: "CRM yang terhubung dengan email dan kalender secara otomatis mencatat korespondensi dan jadwal pertemuan ke dalam riwayat kontak yang relevan, tanpa sales perlu menyalin ulang secara manual. Ini bukan sekadar soal kenyamanan — data yang tercatat otomatis jauh lebih lengkap dan akurat dibanding data yang bergantung pada kedisiplinan sales mengingat untuk mencatatnya sendiri setiap kali selesai berkomunikasi dengan klien.",
+    text: "CRM yang terhubung dengan email dan kalender secara otomatis mencatat korespondensi dan jadwal pertemuan ke dalam riwayat kontak yang relevan, tanpa sales perlu menyalin ulang secara manual. Ini bukan sekadar soal kenyamanan, data yang tercatat otomatis jauh lebih lengkap dan akurat dibanding data yang bergantung pada kedisiplinan sales mengingat untuk mencatatnya sendiri setiap kali selesai berkomunikasi dengan klien.",
   },
   { type: "h2", text: "Mengukur performa sales dengan data, bukan asumsi" },
   {
     type: "p",
-    text: "Tanpa data yang terstruktur, menilai performa sales cenderung bergantung pada kesan subjektif — siapa yang terlihat paling sibuk, atau siapa yang paling sering melaporkan progres secara lisan. Dengan riwayat pipeline yang tercatat rapi di CRM, manajer bisa melihat data yang lebih objektif: berapa lama rata-rata waktu yang dibutuhkan sales tertentu untuk memindahkan peluang dari satu tahap ke tahap berikutnya, di tahap mana peluang paling sering gagal berlanjut, dan pola apa yang membedakan sales dengan tingkat keberhasilan lebih tinggi dari yang lain.",
+    text: "Tanpa data yang terstruktur, menilai performa sales cenderung bergantung pada kesan subjektif, siapa yang terlihat paling sibuk, atau siapa yang paling sering melaporkan progres secara lisan. Dengan riwayat pipeline yang tercatat rapi di CRM, manajer bisa melihat data yang lebih objektif: berapa lama rata-rata waktu yang dibutuhkan sales tertentu untuk memindahkan peluang dari satu tahap ke tahap berikutnya, di tahap mana peluang paling sering gagal berlanjut, dan pola apa yang membedakan sales dengan tingkat keberhasilan lebih tinggi dari yang lain.",
   },
   {
     type: "p",
@@ -125,12 +125,12 @@ export const body: Block[] = [
   { type: "h3", text: "Bagaimana menangani sales yang enggan mencatat aktivitas di CRM?" },
   {
     type: "p",
-    text: "Penolakan semacam ini sering muncul ketika CRM terasa seperti pekerjaan pencatatan tambahan tanpa manfaat langsung bagi sales itu sendiri. Integrasi otomatis dengan email dan kalender mengurangi beban pencatatan manual secara signifikan, dan menunjukkan manfaat nyata bagi sales sendiri — seperti pengingat follow-up yang tidak lagi terlewat, atau riwayat lengkap yang membantu saat harus mengambil alih akun rekan yang sedang cuti — biasanya jauh lebih efektif dibanding sekadar mewajibkan pencatatan tanpa penjelasan manfaatnya.",
+    text: "Penolakan semacam ini sering muncul ketika CRM terasa seperti pekerjaan pencatatan tambahan tanpa manfaat langsung bagi sales itu sendiri. Integrasi otomatis dengan email dan kalender mengurangi beban pencatatan manual secara signifikan, dan menunjukkan manfaat nyata bagi sales sendiri, seperti pengingat follow-up yang tidak lagi terlewat, atau riwayat lengkap yang membantu saat harus mengambil alih akun rekan yang sedang cuti, biasanya jauh lebih efektif dibanding sekadar mewajibkan pencatatan tanpa penjelasan manfaatnya.",
   },
   { type: "h2", text: "Menjaga kualitas data kontak dari waktu ke waktu" },
   {
     type: "p",
-    text: "CRM yang dipakai bertahun-tahun cenderung terisi kontak duplikat, jabatan yang sudah tidak berlaku karena orangnya sudah pindah perusahaan, atau catatan perusahaan yang tercatat dua kali dengan penulisan nama yang sedikit berbeda. Data yang berantakan semacam ini membuat sales ragu terhadap keakuratan informasi yang mereka lihat, dan pada akhirnya kembali mengandalkan ingatan pribadi ketimbang mempercayai apa yang tertulis di sistem — persis masalah yang seharusnya diselesaikan oleh CRM sejak awal.",
+    text: "CRM yang dipakai bertahun-tahun cenderung terisi kontak duplikat, jabatan yang sudah tidak berlaku karena orangnya sudah pindah perusahaan, atau catatan perusahaan yang tercatat dua kali dengan penulisan nama yang sedikit berbeda. Data yang berantakan semacam ini membuat sales ragu terhadap keakuratan informasi yang mereka lihat, dan pada akhirnya kembali mengandalkan ingatan pribadi ketimbang mempercayai apa yang tertulis di sistem, persis masalah yang seharusnya diselesaikan oleh CRM sejak awal.",
   },
   {
     type: "p",
@@ -144,7 +144,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Deal besar Anda tersebar di notes pribadi sales?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Memilih software house adalah keputusan yang dampaknya terasa bertahun-tahun. Sistem yang mereka bangun akan menopang operasional Anda, dan hubungan dengan mereka sering berlanjut jauh setelah project selesai: pemeliharaan, pengembangan lanjutan, dan perbaikan saat ada masalah. Sayangnya, banyak keputusan ini diambil berdasarkan hal yang paling mudah dinilai — harga dan presentasi — bukan hal yang paling menentukan.",
+    text: "Memilih software house adalah keputusan yang dampaknya terasa bertahun-tahun. Sistem yang mereka bangun akan menopang operasional Anda, dan hubungan dengan mereka sering berlanjut jauh setelah project selesai: pemeliharaan, pengembangan lanjutan, dan perbaikan saat ada masalah. Sayangnya, banyak keputusan ini diambil berdasarkan hal yang paling mudah dinilai, harga dan presentasi, bukan hal yang paling menentukan.",
   },
   {
     type: "p",
@@ -21,7 +21,7 @@ export const body: Block[] = [
       "Pastikan ruang lingkup, kepemilikan source code, dan dukungan setelah rilis tertulis jelas",
       "Portofolio penting, tetapi relevansi dan transparansi proses sama pentingnya",
       "Vendor yang jujur soal batasan biasanya lebih bisa dipercaya",
-      "Perhatikan komunikasi sejak pertemuan pertama — itu cerminan project nanti",
+      "Perhatikan komunikasi sejak pertemuan pertama, itu cerminan project nanti",
     ],
   },
   { type: "h2", text: "Kenapa keputusan ini lebih besar dari kelihatannya" },
@@ -36,7 +36,7 @@ export const body: Block[] = [
   { type: "h2", text: "1. Cara mereka menanggapi kebutuhan Anda" },
   {
     type: "p",
-    text: "Perhatikan apakah pertanyaan vendor menggali proses bisnis Anda, atau langsung menawarkan solusi. Vendor yang langsung memberi angka tanpa memahami alur kerja biasanya akan menemukan banyak kejutan di tengah pengerjaan — dan kejutan itu hampir selalu berujung pada biaya tambahan atau jadwal yang molor.",
+    text: "Perhatikan apakah pertanyaan vendor menggali proses bisnis Anda, atau langsung menawarkan solusi. Vendor yang langsung memberi angka tanpa memahami alur kerja biasanya akan menemukan banyak kejutan di tengah pengerjaan, dan kejutan itu hampir selalu berujung pada biaya tambahan atau jadwal yang molor.",
   },
   {
     type: "p",
@@ -55,7 +55,7 @@ export const body: Block[] = [
   { type: "h2", text: "2. Pemahaman bisnis, bukan hanya teknologi" },
   {
     type: "p",
-    text: "Kemampuan menulis kode adalah syarat dasar. Yang membedakan mitra yang baik adalah kemampuan menerjemahkan masalah bisnis menjadi sistem yang tepat. Perhatikan apakah mereka bisa menjelaskan rekomendasi dalam bahasa bisnis — dampaknya pada waktu kerja, biaya, dan risiko — bukan hanya dalam istilah teknis yang sulit dipahami.",
+    text: "Kemampuan menulis kode adalah syarat dasar. Yang membedakan mitra yang baik adalah kemampuan menerjemahkan masalah bisnis menjadi sistem yang tepat. Perhatikan apakah mereka bisa menjelaskan rekomendasi dalam bahasa bisnis, dampaknya pada waktu kerja, biaya, dan risiko, bukan hanya dalam istilah teknis yang sulit dipahami.",
   },
   { type: "h2", text: "3. Kejelasan ruang lingkup" },
   {
@@ -80,7 +80,7 @@ export const body: Block[] = [
   { type: "h2", text: "5. Kepemilikan source code" },
   {
     type: "p",
-    text: "Tanyakan sejak awal dan minta dinyatakan tertulis. Ini bukan pertanyaan yang tidak sopan — vendor yang baik justru menghargainya karena mencegah salah paham di kemudian hari. Pahami juga apakah ada komponen milik vendor yang hanya dilisensikan, dan apa artinya bagi Anda jika kerja sama berakhir.",
+    text: "Tanyakan sejak awal dan minta dinyatakan tertulis. Ini bukan pertanyaan yang tidak sopan, vendor yang baik justru menghargainya karena mencegah salah paham di kemudian hari. Pahami juga apakah ada komponen milik vendor yang hanya dilisensikan, dan apa artinya bagi Anda jika kerja sama berakhir.",
   },
   {
     type: "callout",
@@ -114,7 +114,7 @@ export const body: Block[] = [
   { type: "h2", text: "9. Komunikasi selama pengerjaan" },
   {
     type: "p",
-    text: "Sepakati sejak awal seberapa sering ada pembaruan progres, dalam bentuk apa, dan lewat kanal apa. Project yang bermasalah hampir selalu didahului oleh periode hening yang panjang. Perhatikan juga kecepatan dan kejelasan komunikasi mereka selama proses penawaran — itu biasanya cerminan yang cukup akurat dari komunikasi selama project.",
+    text: "Sepakati sejak awal seberapa sering ada pembaruan progres, dalam bentuk apa, dan lewat kanal apa. Project yang bermasalah hampir selalu didahului oleh periode hening yang panjang. Perhatikan juga kecepatan dan kejelasan komunikasi mereka selama proses penawaran, itu biasanya cerminan yang cukup akurat dari komunikasi selama project.",
   },
   { type: "h2", text: "10. Kejujuran soal batasan" },
   {
@@ -184,7 +184,7 @@ export const body: Block[] = [
   { type: "h3", text: "Bolehkah meminta tahap kecil sebagai uji coba kerja sama?" },
   {
     type: "p",
-    text: "Sangat boleh, dan sering kali justru langkah paling bijak. Tahap kecil seperti pemetaan kebutuhan, rancangan tampilan, atau satu modul sederhana memberi Anda kesempatan melihat cara vendor bekerja, berkomunikasi, dan memenuhi janji — sebelum berkomitmen pada anggaran yang besar. Vendor yang percaya diri dengan cara kerjanya biasanya terbuka terhadap pendekatan ini, karena hasil tahap pertama menjadi bukti terbaik bagi mereka sendiri.",
+    text: "Sangat boleh, dan sering kali justru langkah paling bijak. Tahap kecil seperti pemetaan kebutuhan, rancangan tampilan, atau satu modul sederhana memberi Anda kesempatan melihat cara vendor bekerja, berkomunikasi, dan memenuhi janji, sebelum berkomitmen pada anggaran yang besar. Vendor yang percaya diri dengan cara kerjanya biasanya terbuka terhadap pendekatan ini, karena hasil tahap pertama menjadi bukti terbaik bagi mereka sendiri.",
   },
   {
     type: "p",
@@ -204,12 +204,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Software house terbaik untuk Anda bukan yang paling murah atau paling terkenal, tetapi yang paling memahami masalah Anda, paling jelas dalam kesepakatan, dan paling jujur ketika ada yang tidak berjalan sesuai rencana. Gunakan checklist ini, ajukan pertanyaan yang tepat, dan dengarkan baik-baik — bukan hanya jawaban mereka, tetapi juga cara mereka menjawab.",
+    text: "Software house terbaik untuk Anda bukan yang paling murah atau paling terkenal, tetapi yang paling memahami masalah Anda, paling jelas dalam kesepakatan, dan paling jujur ketika ada yang tidak berjalan sesuai rencana. Gunakan checklist ini, ajukan pertanyaan yang tepat, dan dengarkan baik-baik, bukan hanya jawaban mereka, tetapi juga cara mereka menjawab.",
   },
   {
     type: "cta",
     title: "Uji kami dengan checklist ini",
-    text: "Ajukan semua pertanyaan di atas kepada tim AG·SORA. Kami akan menjawabnya secara terbuka — termasuk bagian yang mungkin bukan jawaban yang ingin Anda dengar.",
+    text: "Ajukan semua pertanyaan di atas kepada tim AG·SORA. Kami akan menjawabnya secara terbuka, termasuk bagian yang mungkin bukan jawaban yang ingin Anda dengar.",
     href: "/contact",
     label: "Jadwalkan Diskusi",
   },

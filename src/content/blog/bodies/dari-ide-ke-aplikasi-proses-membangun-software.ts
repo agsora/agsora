@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Banyak orang menyimpan ide aplikasi selama bertahun-tahun tanpa pernah benar-benar memulainya. Bukan karena idenya buruk, tapi karena jarak antara 'punya ide' dan 'punya aplikasi yang berjalan' terasa seperti lompatan yang terlalu jauh untuk dipahami. Berapa biayanya, berapa lama waktunya, harus mulai dari mana — pertanyaan-pertanyaan ini sering membuat ide yang sebenarnya layak dicoba akhirnya tidak pernah keluar dari catatan pribadi.",
+    text: "Banyak orang menyimpan ide aplikasi selama bertahun-tahun tanpa pernah benar-benar memulainya. Bukan karena idenya buruk, tapi karena jarak antara 'punya ide' dan 'punya aplikasi yang berjalan' terasa seperti lompatan yang terlalu jauh untuk dipahami. Berapa biayanya, berapa lama waktunya, harus mulai dari mana, pertanyaan-pertanyaan ini sering membuat ide yang sebenarnya layak dicoba akhirnya tidak pernah keluar dari catatan pribadi.",
   },
   {
     type: "p",
-    text: "Kenyataannya, proses membangun software punya tahapan yang cukup jelas, dan memahami tahapan itu adalah langkah pertama untuk mengubah ide menjadi sesuatu yang nyata. Ini bukan berarti prosesnya mudah atau bebas risiko — tetap ada keputusan sulit dan kemungkinan gagal di setiap tahap. Tapi risiko itu jauh lebih mudah dikelola ketika Anda tahu apa yang akan dihadapi, dibanding melompat langsung tanpa gambaran sama sekali.",
+    text: "Kenyataannya, proses membangun software punya tahapan yang cukup jelas, dan memahami tahapan itu adalah langkah pertama untuk mengubah ide menjadi sesuatu yang nyata. Ini bukan berarti prosesnya mudah atau bebas risiko, tetap ada keputusan sulit dan kemungkinan gagal di setiap tahap. Tapi risiko itu jauh lebih mudah dikelola ketika Anda tahu apa yang akan dihadapi, dibanding melompat langsung tanpa gambaran sama sekali.",
   },
   {
     type: "p",
@@ -21,13 +21,13 @@ export const body: Block[] = [
       "Menajamkan ide menjadi masalah spesifik jauh lebih penting daripada menentukan fitur di awal",
       "Validasi kebutuhan sebelum menulis kode menghemat waktu dan biaya yang jauh lebih besar di kemudian hari",
       "MVP dengan cakupan terbatas lebih mungkin berhasil dibanding mencoba membangun semua fitur sejak awal",
-      "Peluncuran bukan garis akhir — pemeliharaan dan iterasi setelahnya sama pentingnya dengan pengembangan awal",
+      "Peluncuran bukan garis akhir, pemeliharaan dan iterasi setelahnya sama pentingnya dengan pengembangan awal",
     ],
   },
   { type: "h2", text: "Kenapa banyak ide tidak pernah jadi aplikasi" },
   {
     type: "p",
-    text: "Sebagian besar ide yang tidak pernah terwujud bukan karena kekurangan modal atau keahlian teknis, tapi karena tidak ada langkah pertama yang jelas. Ide yang masih dalam bentuk 'aplikasi untuk menyelesaikan masalah X' terasa terlalu besar untuk dimulai, sehingga orang menunda sampai merasa 'lebih siap' — yang sering kali tidak pernah datang. Memecah ide besar menjadi tahapan konkret adalah cara paling efektif untuk keluar dari kebuntuan ini.",
+    text: "Sebagian besar ide yang tidak pernah terwujud bukan karena kekurangan modal atau keahlian teknis, tapi karena tidak ada langkah pertama yang jelas. Ide yang masih dalam bentuk 'aplikasi untuk menyelesaikan masalah X' terasa terlalu besar untuk dimulai, sehingga orang menunda sampai merasa 'lebih siap', yang sering kali tidak pernah datang. Memecah ide besar menjadi tahapan konkret adalah cara paling efektif untuk keluar dari kebuntuan ini.",
   },
   { type: "h2", text: "Tahap 1: Menajamkan ide menjadi masalah yang spesifik" },
   {
@@ -41,7 +41,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tahap 2: Validasi kebutuhan sebelum menulis kode" },
   {
     type: "p",
-    text: "Tahap yang paling sering dilewati adalah memastikan masalah yang ingin diselesaikan benar-benar dirasakan oleh calon pengguna, bukan hanya oleh Anda sendiri. Validasi tidak harus rumit — bisa dimulai dari mengobrol langsung dengan calon pengguna, mengamati bagaimana mereka menangani masalah itu sekarang, atau membuat prototipe sederhana untuk melihat reaksi nyata sebelum satu baris kode produksi ditulis.",
+    text: "Tahap yang paling sering dilewati adalah memastikan masalah yang ingin diselesaikan benar-benar dirasakan oleh calon pengguna, bukan hanya oleh Anda sendiri. Validasi tidak harus rumit, bisa dimulai dari mengobrol langsung dengan calon pengguna, mengamati bagaimana mereka menangani masalah itu sekarang, atau membuat prototipe sederhana untuk melihat reaksi nyata sebelum satu baris kode produksi ditulis.",
   },
   {
     type: "callout",
@@ -51,7 +51,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tahap 3: Menentukan cakupan MVP" },
   {
     type: "p",
-    text: "Setelah masalah dan calon pengguna cukup jelas, godaan berikutnya adalah membangun semua fitur yang terpikirkan sejak awal. Pendekatan yang lebih aman adalah menentukan minimum viable product (MVP) — versi paling ramping yang tetap bisa menyelesaikan masalah inti, tanpa fitur tambahan yang belum terbukti dibutuhkan.",
+    text: "Setelah masalah dan calon pengguna cukup jelas, godaan berikutnya adalah membangun semua fitur yang terpikirkan sejak awal. Pendekatan yang lebih aman adalah menentukan minimum viable product (MVP), versi paling ramping yang tetap bisa menyelesaikan masalah inti, tanpa fitur tambahan yang belum terbukti dibutuhkan.",
   },
   {
     type: "p",
@@ -60,20 +60,20 @@ export const body: Block[] = [
   { type: "h2", text: "Tahap 4: Desain yang lebih dari sekadar tampilan" },
   {
     type: "p",
-    text: "Desain sering disalahpahami sebagai soal warna dan tata letak. Padahal bagian yang lebih penting adalah desain alur — bagaimana pengguna berpindah dari satu langkah ke langkah berikutnya untuk mencapai tujuannya. Alur yang membingungkan tidak bisa diperbaiki hanya dengan mempercantik tampilan; strukturnya sendiri yang perlu dirancang ulang.",
+    text: "Desain sering disalahpahami sebagai soal warna dan tata letak. Padahal bagian yang lebih penting adalah desain alur, bagaimana pengguna berpindah dari satu langkah ke langkah berikutnya untuk mencapai tujuannya. Alur yang membingungkan tidak bisa diperbaiki hanya dengan mempercantik tampilan; strukturnya sendiri yang perlu dirancang ulang.",
   },
   {
     type: "p",
-    text: "Pada tahap ini, wireframe sederhana — sketsa struktur halaman tanpa detail visual — jauh lebih berguna daripada langsung membuat desain final yang indah. Wireframe lebih cepat diubah, dan revisi di tahap ini jauh lebih murah dibanding revisi setelah aplikasi selesai dikembangkan.",
+    text: "Pada tahap ini, wireframe sederhana, sketsa struktur halaman tanpa detail visual, jauh lebih berguna daripada langsung membuat desain final yang indah. Wireframe lebih cepat diubah, dan revisi di tahap ini jauh lebih murah dibanding revisi setelah aplikasi selesai dikembangkan.",
   },
   { type: "h2", text: "Tahap 5: Pengembangan bertahap, bukan sekali jadi" },
   {
     type: "p",
-    text: "Pengembangan yang sehat berjalan dalam siklus pendek — membangun bagian kecil, mengujinya, lalu lanjut ke bagian berikutnya — bukan menghilang selama berbulan-bulan lalu muncul dengan aplikasi 'lengkap' yang belum pernah diuji sepanjang jalan. Pendekatan bertahap memungkinkan masalah ditemukan lebih awal, ketika biayanya masih kecil untuk diperbaiki.",
+    text: "Pengembangan yang sehat berjalan dalam siklus pendek, membangun bagian kecil, mengujinya, lalu lanjut ke bagian berikutnya, bukan menghilang selama berbulan-bulan lalu muncul dengan aplikasi 'lengkap' yang belum pernah diuji sepanjang jalan. Pendekatan bertahap memungkinkan masalah ditemukan lebih awal, ketika biayanya masih kecil untuk diperbaiki.",
   },
   {
     type: "p",
-    text: "Bagi pemilik ide yang bukan latar belakang teknis, tahap ini adalah waktu yang tepat untuk tetap terlibat — meninjau progres secara berkala, mencoba versi yang sedang berjalan, dan memberi masukan lebih awal, bukan menunggu sampai semuanya 'selesai' untuk pertama kali melihat hasilnya.",
+    text: "Bagi pemilik ide yang bukan latar belakang teknis, tahap ini adalah waktu yang tepat untuk tetap terlibat, meninjau progres secara berkala, mencoba versi yang sedang berjalan, dan memberi masukan lebih awal, bukan menunggu sampai semuanya 'selesai' untuk pertama kali melihat hasilnya.",
   },
   { type: "h2", text: "Tahap 6: Pengujian sebelum menyentuh pengguna nyata" },
   {
@@ -85,7 +85,7 @@ export const body: Block[] = [
     items: [
       "Uji dengan beberapa calon pengguna nyata, bukan hanya tim internal",
       "Perhatikan di mana mereka bingung atau berhenti tanpa diarahkan",
-      "Uji juga skenario yang tidak ideal — koneksi lambat, input yang salah, atau langkah yang terlewat",
+      "Uji juga skenario yang tidak ideal, koneksi lambat, input yang salah, atau langkah yang terlewat",
       "Catat masukan dengan spesifik, bukan sekadar 'sudah bagus' atau 'ada yang aneh'",
     ],
   },
@@ -98,7 +98,7 @@ export const body: Block[] = [
     type: "p",
     text: "Feedback yang paling berharga di tahap ini sering bukan yang disampaikan secara langsung, tapi yang terlihat dari perilaku: fitur mana yang benar-benar dipakai, di titik mana pengguna berhenti memakai aplikasi, dan seberapa sering mereka kembali. Perilaku nyata sering bercerita lebih jujur dibanding jawaban dalam survei.",
   },
-  { type: "h2", text: "Tahap 8: Setelah peluncuran — pemeliharaan bukan pekerjaan tambahan" },
+  { type: "h2", text: "Tahap 8: Setelah peluncuran, pemeliharaan bukan pekerjaan tambahan" },
   {
     type: "p",
     text: "Banyak orang memperlakukan peluncuran sebagai garis akhir proyek, padahal itu justru awal dari fase yang sama pentingnya: pemeliharaan. Sistem operasi berubah, library yang dipakai perlu diperbarui, dan celah keamanan baru bisa ditemukan kapan saja. Aplikasi yang dibiarkan tanpa pemeliharaan pelan-pelan menjadi rapuh, bahkan jika fiturnya tidak pernah diubah sama sekali.",
@@ -123,7 +123,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Merekrut tim internal masuk akal jika software adalah inti bisnis jangka panjang dan Anda mampu berinvestasi membangun tim yang akan terus berkembang bersama produk. Bekerja sama dengan software house lebih masuk akal ketika Anda butuh tim berpengalaman untuk membangun dan meluncurkan produk tanpa harus merekrut serta mengelola tim teknis sendiri dari nol — terutama pada tahap awal ketika arah produk masih bisa berubah.",
+    text: "Merekrut tim internal masuk akal jika software adalah inti bisnis jangka panjang dan Anda mampu berinvestasi membangun tim yang akan terus berkembang bersama produk. Bekerja sama dengan software house lebih masuk akal ketika Anda butuh tim berpengalaman untuk membangun dan meluncurkan produk tanpa harus merekrut serta mengelola tim teknis sendiri dari nol, terutama pada tahap awal ketika arah produk masih bisa berubah.",
   },
   { type: "h2", text: "Kesalahan yang paling sering diulang" },
   {
@@ -143,12 +143,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Jarak antara ide dan aplikasi yang berjalan terasa jauh terutama karena prosesnya tidak terlihat jelas dari luar. Setelah dipecah menjadi tahapan — menajamkan masalah, memvalidasi kebutuhan, menentukan MVP, mendesain alur, mengembangkan bertahap, menguji, meluncurkan terbatas, lalu memelihara — jarak itu menjadi serangkaian langkah yang bisa diambil satu per satu, bukan lompatan yang harus diambil sekaligus.",
+    text: "Jarak antara ide dan aplikasi yang berjalan terasa jauh terutama karena prosesnya tidak terlihat jelas dari luar. Setelah dipecah menjadi tahapan, menajamkan masalah, memvalidasi kebutuhan, menentukan MVP, mendesain alur, mengembangkan bertahap, menguji, meluncurkan terbatas, lalu memelihara, jarak itu menjadi serangkaian langkah yang bisa diambil satu per satu, bukan lompatan yang harus diambil sekaligus.",
   },
   {
     type: "cta",
     title: "Punya ide yang belum pernah dimulai?",
-    text: "Ceritakan idenya, sesederhana apa pun bentuknya saat ini. Tim AG·SORA akan membantu menajamkan masalah yang ingin diselesaikan dan menyusun MVP yang realistis untuk mulai dibangun — konsultasinya gratis, tanpa komitmen.",
+    text: "Ceritakan idenya, sesederhana apa pun bentuknya saat ini. Tim AG·SORA akan membantu menajamkan masalah yang ingin diselesaikan dan menyusun MVP yang realistis untuk mulai dibangun, konsultasinya gratis, tanpa komitmen.",
     href: "/services/custom-software",
     label: "Konsultasi Gratis",
   },

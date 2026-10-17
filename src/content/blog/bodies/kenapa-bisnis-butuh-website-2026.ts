@@ -7,11 +7,11 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Ini bukan cerita tentang media sosial yang buruk — media sosial tetap alat yang sangat baik untuk menjangkau orang. Ini cerita tentang batas dari apa yang bisa dilakukan platform yang tidak Anda miliki. Algoritma bisa berubah kapan saja, akun bisa diblokir tanpa penjelasan yang jelas, dan setiap pengunjung yang datang ke profil Anda sebenarnya sedang berada di properti milik perusahaan lain. Website adalah satu-satunya ruang digital yang aturannya Anda yang tentukan sendiri.",
+    text: "Ini bukan cerita tentang media sosial yang buruk, media sosial tetap alat yang sangat baik untuk menjangkau orang. Ini cerita tentang batas dari apa yang bisa dilakukan platform yang tidak Anda miliki. Algoritma bisa berubah kapan saja, akun bisa diblokir tanpa penjelasan yang jelas, dan setiap pengunjung yang datang ke profil Anda sebenarnya sedang berada di properti milik perusahaan lain. Website adalah satu-satunya ruang digital yang aturannya Anda yang tentukan sendiri.",
   },
   {
     type: "p",
-    text: "Artikel ini membahas kenapa website masih relevan di tengah dominasi media sosial dan marketplace, tanda-tanda bisnis Anda mulai kehilangan peluang karena belum punya website yang memadai, dan apa yang sebenarnya membuat sebuah website bekerja — bukan sekadar ada.",
+    text: "Artikel ini membahas kenapa website masih relevan di tengah dominasi media sosial dan marketplace, tanda-tanda bisnis Anda mulai kehilangan peluang karena belum punya website yang memadai, dan apa yang sebenarnya membuat sebuah website bekerja, bukan sekadar ada.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -21,17 +21,17 @@ export const body: Block[] = [
       "Website adalah aset digital yang sepenuhnya berada di bawah kendali bisnis Anda",
       "Calon klien, mitra, dan investor biasanya memverifikasi bisnis lewat website sebelum bertransaksi",
       "Website yang bekerja bukan soal tampilan bagus saja, tapi soal kecepatan, kejelasan, dan jawaban atas pertanyaan pengunjung",
-      "Jenis website yang tepat bergantung pada tujuan — landing page, company profile, atau platform yang lebih lengkap",
+      "Jenis website yang tepat bergantung pada tujuan, landing page, company profile, atau platform yang lebih lengkap",
     ],
   },
   { type: "h2", text: "Kenapa media sosial dan marketplace saja tidak cukup" },
   {
     type: "p",
-    text: "Media sosial dan marketplace sangat baik untuk satu hal: mempertemukan Anda dengan orang yang belum mengenal bisnis Anda. Tapi keduanya punya batas yang jarang disadari sampai batas itu terasa. Algoritma menentukan siapa yang melihat konten Anda, dan jangkauan itu bisa turun drastis tanpa peringatan. Kebijakan platform bisa berubah, biaya iklan bisa naik, dan dalam kasus yang lebih ekstrem, akun bisa dibekukan karena kesalahan sistem yang butuh waktu berminggu-minggu untuk diperbaiki — jika bisa diperbaiki sama sekali.",
+    text: "Media sosial dan marketplace sangat baik untuk satu hal: mempertemukan Anda dengan orang yang belum mengenal bisnis Anda. Tapi keduanya punya batas yang jarang disadari sampai batas itu terasa. Algoritma menentukan siapa yang melihat konten Anda, dan jangkauan itu bisa turun drastis tanpa peringatan. Kebijakan platform bisa berubah, biaya iklan bisa naik, dan dalam kasus yang lebih ekstrem, akun bisa dibekukan karena kesalahan sistem yang butuh waktu berminggu-minggu untuk diperbaiki, jika bisa diperbaiki sama sekali.",
   },
   {
     type: "p",
-    text: "Ada juga batas yang lebih halus: apa yang bisa disampaikan dalam sebuah caption atau halaman produk marketplace sangat terbatas. Menjelaskan proses kerja, menunjukkan portofolio lengkap, memberikan kalkulator harga, atau menyediakan halaman khusus untuk setiap layanan — semua itu sulit dilakukan di platform yang formatnya sudah ditentukan orang lain. Website memberi ruang untuk menjelaskan bisnis Anda dengan caranya sendiri, bukan cara yang dipaksakan oleh format platform.",
+    text: "Ada juga batas yang lebih halus: apa yang bisa disampaikan dalam sebuah caption atau halaman produk marketplace sangat terbatas. Menjelaskan proses kerja, menunjukkan portofolio lengkap, memberikan kalkulator harga, atau menyediakan halaman khusus untuk setiap layanan, semua itu sulit dilakukan di platform yang formatnya sudah ditentukan orang lain. Website memberi ruang untuk menjelaskan bisnis Anda dengan caranya sendiri, bukan cara yang dipaksakan oleh format platform.",
   },
   { type: "h2", text: "Website adalah aset yang sepenuhnya Anda kendalikan" },
   {
@@ -40,7 +40,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kendali ini juga berarti keberlanjutan. Media sosial datang dan pergi — banyak bisnis yang membangun audiens besar di satu platform, lalu kehilangan sebagian besar jangkauan ketika platform itu berubah arah atau kehilangan popularitas. Website, sebaliknya, terus terindeks oleh mesin pencari selama bertahun-tahun, dan nilainya justru bertambah seiring waktu ketika semakin banyak orang menemukannya lewat pencarian organik.",
+    text: "Kendali ini juga berarti keberlanjutan. Media sosial datang dan pergi, banyak bisnis yang membangun audiens besar di satu platform, lalu kehilangan sebagian besar jangkauan ketika platform itu berubah arah atau kehilangan popularitas. Website, sebaliknya, terus terindeks oleh mesin pencari selama bertahun-tahun, dan nilainya justru bertambah seiring waktu ketika semakin banyak orang menemukannya lewat pencarian organik.",
   },
   { type: "h2", text: "Tanda Anda mulai kehilangan peluang tanpa website" },
   {
@@ -56,7 +56,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Uji sederhana",
-    text: "Coba cari nama bisnis Anda sendiri di mesin pencari dari perangkat yang belum pernah login ke akun apa pun milik Anda. Apa yang muncul di halaman pertama menentukan kesan pertama calon pelanggan tentang bisnis Anda — dan bagi kebanyakan bisnis, hasil itu mengejutkan.",
+    text: "Coba cari nama bisnis Anda sendiri di mesin pencari dari perangkat yang belum pernah login ke akun apa pun milik Anda. Apa yang muncul di halaman pertama menentukan kesan pertama calon pelanggan tentang bisnis Anda, dan bagi kebanyakan bisnis, hasil itu mengejutkan.",
   },
   { type: "h2", text: "Apa yang membuat website benar-benar bekerja" },
   {
@@ -65,7 +65,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kecepatan bukan detail teknis semata. Pengunjung yang menunggu lebih dari beberapa detik untuk halaman terbuka cenderung meninggalkan situs sebelum sempat membaca apa pun, dan mesin pencari juga memperhitungkan kecepatan saat menentukan peringkat pencarian. Struktur konten yang baik menempatkan jawaban atas pertanyaan paling umum — apa yang Anda tawarkan, untuk siapa, dan berapa kisaran harganya — di bagian yang mudah ditemukan, bukan terkubur di halaman kelima.",
+    text: "Kecepatan bukan detail teknis semata. Pengunjung yang menunggu lebih dari beberapa detik untuk halaman terbuka cenderung meninggalkan situs sebelum sempat membaca apa pun, dan mesin pencari juga memperhitungkan kecepatan saat menentukan peringkat pencarian. Struktur konten yang baik menempatkan jawaban atas pertanyaan paling umum, apa yang Anda tawarkan, untuk siapa, dan berapa kisaran harganya, di bagian yang mudah ditemukan, bukan terkubur di halaman kelima.",
   },
   {
     type: "p",
@@ -74,11 +74,11 @@ export const body: Block[] = [
   { type: "h2", text: "Landing page, company profile, atau platform lengkap?" },
   {
     type: "p",
-    text: "Tidak semua bisnis butuh jenis website yang sama. Landing page satu halaman cocok untuk kampanye tertentu atau produk tunggal yang ingin cepat diluncurkan — biayanya lebih ringan dan waktu pengerjaannya singkat. Website company profile cocok untuk bisnis yang perlu menampilkan kredibilitas: layanan, portofolio, tim, dan cara menghubungi, biasanya menjadi kebutuhan dasar hampir semua bisnis yang serius.",
+    text: "Tidak semua bisnis butuh jenis website yang sama. Landing page satu halaman cocok untuk kampanye tertentu atau produk tunggal yang ingin cepat diluncurkan, biayanya lebih ringan dan waktu pengerjaannya singkat. Website company profile cocok untuk bisnis yang perlu menampilkan kredibilitas: layanan, portofolio, tim, dan cara menghubungi, biasanya menjadi kebutuhan dasar hampir semua bisnis yang serius.",
   },
   {
     type: "p",
-    text: "Platform yang lebih lengkap — dengan sistem member, katalog produk yang bisa dicari, atau integrasi dengan sistem internal seperti inventori dan CRM — baru dibutuhkan ketika website perlu melakukan lebih dari sekadar menampilkan informasi, misalnya memproses transaksi atau menyimpan data pelanggan yang login berulang kali. Memulai dari kebutuhan yang paling mendesak, lalu berkembang seiring waktu, biasanya lebih masuk akal daripada membangun platform besar sejak hari pertama.",
+    text: "Platform yang lebih lengkap, dengan sistem member, katalog produk yang bisa dicari, atau integrasi dengan sistem internal seperti inventori dan CRM, baru dibutuhkan ketika website perlu melakukan lebih dari sekadar menampilkan informasi, misalnya memproses transaksi atau menyimpan data pelanggan yang login berulang kali. Memulai dari kebutuhan yang paling mendesak, lalu berkembang seiring waktu, biasanya lebih masuk akal daripada membangun platform besar sejak hari pertama.",
   },
   { type: "h2", text: "SEO: bukan sekadar menaruh kata kunci" },
   {
@@ -87,7 +87,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Bagi bisnis lokal, faktor lain yang sering terlewat adalah konsistensi informasi bisnis — nama, alamat, dan nomor telepon yang sama di website, direktori bisnis, dan platform peta. Ketidakcocokan kecil, seperti alamat yang ditulis berbeda di dua tempat, bisa membingungkan mesin pencari saat menentukan seberapa kredibel dan relevan bisnis Anda untuk pencarian lokal.",
+    text: "Bagi bisnis lokal, faktor lain yang sering terlewat adalah konsistensi informasi bisnis, nama, alamat, dan nomor telepon yang sama di website, direktori bisnis, dan platform peta. Ketidakcocokan kecil, seperti alamat yang ditulis berbeda di dua tempat, bisa membingungkan mesin pencari saat menentukan seberapa kredibel dan relevan bisnis Anda untuk pencarian lokal.",
   },
   { type: "h2", text: "Kesalahan umum saat membangun website bisnis" },
   {
@@ -122,7 +122,7 @@ export const body: Block[] = [
   { type: "h2", text: "Berapa biaya dan waktu yang realistis" },
   {
     type: "p",
-    text: "Biaya dan waktu pengerjaan website sangat bergantung pada kompleksitas kebutuhan. Landing page sederhana bisa selesai dalam hitungan hari hingga dua minggu. Website company profile dengan beberapa halaman biasanya memakan waktu beberapa minggu, termasuk proses pengumpulan konten dan revisi desain. Platform dengan fitur khusus — katalog dinamis, sistem member, atau integrasi ke sistem lain — realistisnya membutuhkan waktu lebih panjang karena melibatkan pengembangan backend, bukan sekadar tampilan.",
+    text: "Biaya dan waktu pengerjaan website sangat bergantung pada kompleksitas kebutuhan. Landing page sederhana bisa selesai dalam hitungan hari hingga dua minggu. Website company profile dengan beberapa halaman biasanya memakan waktu beberapa minggu, termasuk proses pengumpulan konten dan revisi desain. Platform dengan fitur khusus, katalog dinamis, sistem member, atau integrasi ke sistem lain, realistisnya membutuhkan waktu lebih panjang karena melibatkan pengembangan backend, bukan sekadar tampilan.",
   },
   {
     type: "p",
@@ -131,21 +131,21 @@ export const body: Block[] = [
   { type: "h2", text: "Menjaga website tetap relevan setelah diluncurkan" },
   {
     type: "p",
-    text: "Peluncuran bukan garis akhir. Website yang dibiarkan begitu saja setelah diluncurkan pelan-pelan kehilangan relevansi: harga yang tertulis jadi usang, layanan baru tidak pernah ditambahkan, dan konten lama membuat pengunjung ragu apakah bisnisnya masih berjalan. Menjadwalkan peninjauan konten setiap beberapa bulan — memeriksa apakah informasi masih akurat, menambahkan proyek atau layanan terbaru, dan memperbarui foto — adalah kebiasaan sederhana yang berdampak besar pada kepercayaan pengunjung.",
+    text: "Peluncuran bukan garis akhir. Website yang dibiarkan begitu saja setelah diluncurkan pelan-pelan kehilangan relevansi: harga yang tertulis jadi usang, layanan baru tidak pernah ditambahkan, dan konten lama membuat pengunjung ragu apakah bisnisnya masih berjalan. Menjadwalkan peninjauan konten setiap beberapa bulan, memeriksa apakah informasi masih akurat, menambahkan proyek atau layanan terbaru, dan memperbarui foto, adalah kebiasaan sederhana yang berdampak besar pada kepercayaan pengunjung.",
   },
   {
     type: "p",
-    text: "Pantau juga bagaimana pengunjung sebenarnya berperilaku di website Anda, bukan hanya berapa banyak yang datang. Halaman mana yang paling sering ditinggalkan sebelum selesai dibaca, tombol mana yang jarang diklik, dan dari mana sebagian besar pengunjung datang — informasi ini jauh lebih berguna untuk memperbaiki website dibanding sekadar melihat angka kunjungan yang naik atau turun.",
+    text: "Pantau juga bagaimana pengunjung sebenarnya berperilaku di website Anda, bukan hanya berapa banyak yang datang. Halaman mana yang paling sering ditinggalkan sebelum selesai dibaca, tombol mana yang jarang diklik, dan dari mana sebagian besar pengunjung datang, informasi ini jauh lebih berguna untuk memperbaiki website dibanding sekadar melihat angka kunjungan yang naik atau turun.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Media sosial dan marketplace tetap punya tempat dalam strategi pemasaran bisnis apa pun. Tapi menyerahkan seluruh keberadaan digital Anda pada platform yang tidak Anda kendalikan adalah risiko yang jarang disadari sampai risikonya benar-benar terjadi. Website yang dibangun dengan tujuan yang jelas — bukan sekadar ada — adalah fondasi yang tetap bekerja untuk Anda, tahun ini dan bertahun-tahun ke depan.",
+    text: "Media sosial dan marketplace tetap punya tempat dalam strategi pemasaran bisnis apa pun. Tapi menyerahkan seluruh keberadaan digital Anda pada platform yang tidak Anda kendalikan adalah risiko yang jarang disadari sampai risikonya benar-benar terjadi. Website yang dibangun dengan tujuan yang jelas, bukan sekadar ada, adalah fondasi yang tetap bekerja untuk Anda, tahun ini dan bertahun-tahun ke depan.",
   },
   {
     type: "cta",
     title: "Belum punya website, atau website Anda sudah lama tidak diperbarui?",
-    text: "Ceritakan tujuan bisnis Anda. Tim AG·SORA akan membantu menentukan jenis website yang paling sesuai dan langkah pertama yang realistis — konsultasinya gratis, tanpa komitmen.",
+    text: "Ceritakan tujuan bisnis Anda. Tim AG·SORA akan membantu menentukan jenis website yang paling sesuai dan langkah pertama yang realistis, konsultasinya gratis, tanpa komitmen.",
     href: "/services/website",
     label: "Konsultasi Gratis",
   },

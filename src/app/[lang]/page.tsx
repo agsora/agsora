@@ -63,7 +63,7 @@ function homeSchema(locale: Locale) {
       },
       {
         "@type": "ItemList",
-        name: `${siteConfig.brandMark} — ${t.nav.services}`,
+        name: `${siteConfig.brandMark} | ${t.nav.services}`,
         itemListElement: featuredServices.map((service, i) => ({
           "@type": "ListItem",
           position: i + 1,

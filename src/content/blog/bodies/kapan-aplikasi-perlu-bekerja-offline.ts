@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Kurir sudah sampai di lokasi pengiriman, tapi sinyal di kawasan itu hilang total. Aplikasi pengiriman yang dipakainya membutuhkan koneksi internet untuk setiap langkah — konfirmasi tiba, tanda tangan penerima, foto bukti serah terima. Tanpa sinyal, semua proses itu terhenti. Kurir terpaksa menunggu sampai keluar dari kawasan tersebut untuk bisa menyelesaikan transaksi, membuang waktu yang berharga di tengah jadwal pengiriman yang padat.",
+    text: "Kurir sudah sampai di lokasi pengiriman, tapi sinyal di kawasan itu hilang total. Aplikasi pengiriman yang dipakainya membutuhkan koneksi internet untuk setiap langkah, konfirmasi tiba, tanda tangan penerima, foto bukti serah terima. Tanpa sinyal, semua proses itu terhenti. Kurir terpaksa menunggu sampai keluar dari kawasan tersebut untuk bisa menyelesaikan transaksi, membuang waktu yang berharga di tengah jadwal pengiriman yang padat.",
   },
   {
     type: "p",
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Memahami risiko koneksi yang tidak stabil" },
   {
     type: "p",
-    text: "Koneksi internet, betapa pun stabilnya sebuah jaringan, tetap memiliki celah kegagalan yang tidak sepenuhnya bisa dikendalikan bisnis — gangguan dari penyedia layanan, cuaca buruk yang memengaruhi sinyal, atau sekadar lokasi fisik yang memang sulit dijangkau sinyal dengan baik. Untuk sistem yang menopang aktivitas bisnis sehari-hari, mengabaikan kemungkinan ini sama saja dengan berasumsi bahwa gangguan tidak akan pernah terjadi — asumsi yang cepat atau lambat akan terbukti keliru.",
+    text: "Koneksi internet, betapa pun stabilnya sebuah jaringan, tetap memiliki celah kegagalan yang tidak sepenuhnya bisa dikendalikan bisnis, gangguan dari penyedia layanan, cuaca buruk yang memengaruhi sinyal, atau sekadar lokasi fisik yang memang sulit dijangkau sinyal dengan baik. Untuk sistem yang menopang aktivitas bisnis sehari-hari, mengabaikan kemungkinan ini sama saja dengan berasumsi bahwa gangguan tidak akan pernah terjadi, asumsi yang cepat atau lambat akan terbukti keliru.",
   },
   { type: "h2", text: "Situasi yang biasanya membutuhkan mode offline" },
   {
@@ -62,11 +62,11 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dampak nyata bagi bisnis pengiriman" },
   {
     type: "p",
-    text: "Bayangkan sebuah perusahaan jasa pengiriman yang aplikasinya membutuhkan koneksi internet aktif untuk setiap konfirmasi pengiriman. Di kawasan dengan sinyal lemah — yang cukup sering ditemui di berbagai wilayah pengiriman mereka — kurir harus menunggu hingga menemukan sinyal yang cukup kuat sebelum bisa menyelesaikan satu transaksi pengiriman, memperlambat seluruh rute pengiriman hari itu.",
+    text: "Bayangkan sebuah perusahaan jasa pengiriman yang aplikasinya membutuhkan koneksi internet aktif untuk setiap konfirmasi pengiriman. Di kawasan dengan sinyal lemah, yang cukup sering ditemui di berbagai wilayah pengiriman mereka, kurir harus menunggu hingga menemukan sinyal yang cukup kuat sebelum bisa menyelesaikan satu transaksi pengiriman, memperlambat seluruh rute pengiriman hari itu.",
   },
   {
     type: "p",
-    text: "Setelah aplikasi diperbarui untuk mendukung mode offline — mencatat konfirmasi pengiriman, tanda tangan, dan foto bukti secara lokal di perangkat, lalu menyinkronkannya otomatis begitu sinyal kembali tersedia — kurir bisa terus menyelesaikan pengiriman tanpa hambatan berarti, meski sedang melintasi kawasan dengan sinyal yang buruk sekalipun.",
+    text: "Setelah aplikasi diperbarui untuk mendukung mode offline, mencatat konfirmasi pengiriman, tanda tangan, dan foto bukti secara lokal di perangkat, lalu menyinkronkannya otomatis begitu sinyal kembali tersedia, kurir bisa terus menyelesaikan pengiriman tanpa hambatan berarti, meski sedang melintasi kawasan dengan sinyal yang buruk sekalipun.",
   },
   { type: "h2", text: "Lindungi data yang tersimpan di perangkat" },
   {
@@ -76,7 +76,7 @@ export const body: Block[] = [
   { type: "h2", text: "Uji dalam kondisi nyata, bukan hanya simulasi" },
   {
     type: "p",
-    text: "Mode offline sering terlihat berjalan mulus saat diuji dalam kondisi terkendali di kantor dengan simulasi mematikan koneksi sesaat. Uji sistem ini di lokasi dan kondisi yang benar-benar mewakili penggunaan sesungguhnya — koneksi yang putus-sambung tidak menentu, perangkat dengan kapasitas penyimpanan terbatas, dan skenario penggunaan offline yang berlangsung dalam waktu cukup lama — sebelum benar-benar diterapkan secara luas kepada seluruh tim.",
+    text: "Mode offline sering terlihat berjalan mulus saat diuji dalam kondisi terkendali di kantor dengan simulasi mematikan koneksi sesaat. Uji sistem ini di lokasi dan kondisi yang benar-benar mewakili penggunaan sesungguhnya, koneksi yang putus-sambung tidak menentu, perangkat dengan kapasitas penyimpanan terbatas, dan skenario penggunaan offline yang berlangsung dalam waktu cukup lama, sebelum benar-benar diterapkan secara luas kepada seluruh tim.",
   },
   { type: "h2", text: "Mempertimbangkan biaya pengembangan tambahan" },
   {
@@ -109,7 +109,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menentukan data apa saja yang perlu disimpan lokal" },
   {
     type: "p",
-    text: "Tidak semua data perlu disimpan di perangkat saat offline. Menyimpan seluruh basis data pelanggan atau seluruh riwayat transaksi di ponsel setiap petugas lapangan tidak hanya boros ruang penyimpanan, tapi juga menambah risiko keamanan jika perangkat tersebut hilang. Tentukan secara spesifik data mana yang benar-benar dibutuhkan untuk menyelesaikan tugas di lokasi — misalnya hanya data pelanggan yang dijadwalkan dikunjungi hari itu, bukan seluruh basis data pelanggan perusahaan.",
+    text: "Tidak semua data perlu disimpan di perangkat saat offline. Menyimpan seluruh basis data pelanggan atau seluruh riwayat transaksi di ponsel setiap petugas lapangan tidak hanya boros ruang penyimpanan, tapi juga menambah risiko keamanan jika perangkat tersebut hilang. Tentukan secara spesifik data mana yang benar-benar dibutuhkan untuk menyelesaikan tugas di lokasi, misalnya hanya data pelanggan yang dijadwalkan dikunjungi hari itu, bukan seluruh basis data pelanggan perusahaan.",
   },
   {
     type: "p",
@@ -118,11 +118,11 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani kegagalan sinkronisasi" },
   {
     type: "p",
-    text: "Sinkronisasi data dari perangkat kembali ke server tidak selalu berjalan mulus — koneksi bisa terputus di tengah proses upload, atau server sedang mengalami gangguan tepat saat perangkat mencoba mengirim data yang tertunda. Aplikasi yang andal perlu mendeteksi kegagalan seperti ini dan mencoba lagi secara otomatis tanpa kehilangan data yang sudah dicatat, alih-alih menganggap data tersebut sudah terkirim padahal sebenarnya gagal di tengah jalan.",
+    text: "Sinkronisasi data dari perangkat kembali ke server tidak selalu berjalan mulus, koneksi bisa terputus di tengah proses upload, atau server sedang mengalami gangguan tepat saat perangkat mencoba mengirim data yang tertunda. Aplikasi yang andal perlu mendeteksi kegagalan seperti ini dan mencoba lagi secara otomatis tanpa kehilangan data yang sudah dicatat, alih-alih menganggap data tersebut sudah terkirim padahal sebenarnya gagal di tengah jalan.",
   },
   {
     type: "p",
-    text: "Sediakan juga cara bagi pengguna atau administrator untuk melihat status sinkronisasi secara jelas — data mana yang sudah berhasil dikirim, dan mana yang masih tertunda menunggu koneksi atau percobaan ulang. Tanpa visibilitas ini, masalah sinkronisasi yang gagal bisa tidak disadari selama berhari-hari, dan ketika akhirnya ketahuan, data yang hilang sudah sulit direkonstruksi.",
+    text: "Sediakan juga cara bagi pengguna atau administrator untuk melihat status sinkronisasi secara jelas, data mana yang sudah berhasil dikirim, dan mana yang masih tertunda menunggu koneksi atau percobaan ulang. Tanpa visibilitas ini, masalah sinkronisasi yang gagal bisa tidak disadari selama berhari-hari, dan ketika akhirnya ketahuan, data yang hilang sudah sulit direkonstruksi.",
   },
   { type: "h2", text: "Ilustrasi: sistem kasir di area dengan listrik dan sinyal tidak stabil" },
   {
@@ -131,16 +131,16 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dengan sistem kasir yang mendukung mode offline, transaksi tetap bisa dicatat secara lokal selama gangguan berlangsung — struk tetap bisa dicetak, dan stok tetap berkurang sesuai penjualan yang terjadi. Begitu koneksi kembali, seluruh transaksi yang tertunda tersinkron otomatis ke sistem pusat tanpa perlu campur tangan manual dari kasir maupun pemilik toko.",
+    text: "Dengan sistem kasir yang mendukung mode offline, transaksi tetap bisa dicatat secara lokal selama gangguan berlangsung, struk tetap bisa dicetak, dan stok tetap berkurang sesuai penjualan yang terjadi. Begitu koneksi kembali, seluruh transaksi yang tertunda tersinkron otomatis ke sistem pusat tanpa perlu campur tangan manual dari kasir maupun pemilik toko.",
   },
   { type: "h2", text: "Melatih tim bekerja dalam kondisi offline" },
   {
     type: "p",
-    text: "Aplikasi yang secara teknis mendukung mode offline tidak otomatis membuat tim di lapangan langsung memahami cara memakainya dengan benar. Banyak petugas lapangan terbiasa dengan kebiasaan lama — menunggu sinyal kembali sebelum mencatat apa pun — dan perlu diyakinkan bahwa mencatat data saat offline itu aman dan akan tersinkron dengan sendirinya. Latih tim untuk tetap mencatat transaksi atau laporan secara normal meski indikator koneksi menunjukkan status offline, dan tunjukkan langsung bagaimana proses sinkronisasi bekerja agar mereka percaya data yang dicatat tidak akan hilang begitu saja.",
+    text: "Aplikasi yang secara teknis mendukung mode offline tidak otomatis membuat tim di lapangan langsung memahami cara memakainya dengan benar. Banyak petugas lapangan terbiasa dengan kebiasaan lama, menunggu sinyal kembali sebelum mencatat apa pun, dan perlu diyakinkan bahwa mencatat data saat offline itu aman dan akan tersinkron dengan sendirinya. Latih tim untuk tetap mencatat transaksi atau laporan secara normal meski indikator koneksi menunjukkan status offline, dan tunjukkan langsung bagaimana proses sinkronisasi bekerja agar mereka percaya data yang dicatat tidak akan hilang begitu saja.",
   },
   {
     type: "p",
-    text: "Latihan ini idealnya dilakukan dalam kondisi yang benar-benar menyerupai lapangan, bukan hanya penjelasan di ruang kelas. Simulasikan skenario nyata — mencatat beberapa transaksi berurutan saat offline, lalu mengamati bersama proses sinkronisasi saat koneksi kembali tersedia — sehingga tim bisa melihat sendiri bahwa sistem benar-benar bekerja seperti yang dijanjikan. Kepercayaan tim terhadap mode offline tumbuh jauh lebih cepat lewat pengalaman langsung seperti ini dibanding hanya lewat penjelasan tertulis di buku panduan yang mungkin tidak pernah benar-benar dibaca.",
+    text: "Latihan ini idealnya dilakukan dalam kondisi yang benar-benar menyerupai lapangan, bukan hanya penjelasan di ruang kelas. Simulasikan skenario nyata, mencatat beberapa transaksi berurutan saat offline, lalu mengamati bersama proses sinkronisasi saat koneksi kembali tersedia, sehingga tim bisa melihat sendiri bahwa sistem benar-benar bekerja seperti yang dijanjikan. Kepercayaan tim terhadap mode offline tumbuh jauh lebih cepat lewat pengalaman langsung seperti ini dibanding hanya lewat penjelasan tertulis di buku panduan yang mungkin tidak pernah benar-benar dibaca.",
   },
   { type: "h2", text: "Penutup" },
   {

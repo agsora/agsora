@@ -69,8 +69,8 @@ export const valueProps: ValueProp[] = [
   {
     title: { id: "Sistem Terintegrasi", en: "Integrated Systems", zh: "一体化系统" },
     description: {
-      id: "Setiap modul saling terhubung — data mengalir tanpa silo.",
-      en: "Every module is connected — data flows without silos.",
+      id: "Setiap modul saling terhubung, data mengalir tanpa silo.",
+      en: "Every module is connected, data flows without silos.",
       zh: "各模块相互连接，数据流转无孤岛。",
     },
   },

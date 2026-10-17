@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "“Sisa cuti saya berapa ya?” Pesan itu masuk ke inbox HR untuk ketiga kalinya hari ini, dari tiga orang berbeda. Admin HR membuka spreadsheet, mencari nama, menghitung manual, lalu membalas satu per satu. Lima menit per orang, dikali puluhan pertanyaan serupa setiap minggu — waktu yang habis untuk sesuatu yang sebenarnya bisa dilihat sendiri oleh karyawan.",
+    text: "“Sisa cuti saya berapa ya?” Pesan itu masuk ke inbox HR untuk ketiga kalinya hari ini, dari tiga orang berbeda. Admin HR membuka spreadsheet, mencari nama, menghitung manual, lalu membalas satu per satu. Lima menit per orang, dikali puluhan pertanyaan serupa setiap minggu, waktu yang habis untuk sesuatu yang sebenarnya bisa dilihat sendiri oleh karyawan.",
   },
   {
     type: "p",
-    text: "Berapa sisa cuti saya? Bisa minta slip gaji bulan lalu? Bagaimana cara mengubah nomor rekening? Pertanyaan-pertanyaan ini wajar dan penting bagi karyawan, tetapi ketika semuanya harus melewati tim HR secara manual, pekerjaan yang lebih strategis — perencanaan tenaga kerja, pengembangan karyawan, perbaikan kebijakan — terus tertunda karena waktu habis untuk hal administratif berulang.",
+    text: "Berapa sisa cuti saya? Bisa minta slip gaji bulan lalu? Bagaimana cara mengubah nomor rekening? Pertanyaan-pertanyaan ini wajar dan penting bagi karyawan, tetapi ketika semuanya harus melewati tim HR secara manual, pekerjaan yang lebih strategis, perencanaan tenaga kerja, pengembangan karyawan, perbaikan kebijakan, terus tertunda karena waktu habis untuk hal administratif berulang.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -15,7 +15,7 @@ export const body: Block[] = [
     items: [
       "Employee self-service memindahkan pekerjaan administratif rutin dari HR ke karyawan sendiri",
       "Fitur yang paling terasa manfaatnya: cuti, slip gaji, data pribadi, dan klaim",
-      "Tidak semua perubahan data boleh langsung berlaku — tetapkan mana yang butuh verifikasi",
+      "Tidak semua perubahan data boleh langsung berlaku, tetapkan mana yang butuh verifikasi",
       "Akses dari ponsel menentukan seberapa besar fitur ini benar-benar dipakai",
       "Keamanan akun harus kuat karena menampilkan data gaji dan data pribadi",
     ],
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Apa itu employee self-service" },
   {
     type: "p",
-    text: "Employee self-service adalah bagian sistem HR yang bisa diakses langsung oleh karyawan untuk melihat informasi dan mengajukan permintaan sendiri, tanpa perantara staf HR untuk setiap transaksi kecil. Tim HR tetap memegang kendali atas persetujuan, kebijakan, dan data yang sensitif — yang berubah bukan wewenang HR, melainkan siapa yang mengetik dan mencari informasi rutin sehari-hari.",
+    text: "Employee self-service adalah bagian sistem HR yang bisa diakses langsung oleh karyawan untuk melihat informasi dan mengajukan permintaan sendiri, tanpa perantara staf HR untuk setiap transaksi kecil. Tim HR tetap memegang kendali atas persetujuan, kebijakan, dan data yang sensitif, yang berubah bukan wewenang HR, melainkan siapa yang mengetik dan mencari informasi rutin sehari-hari.",
   },
   {
     type: "p",
@@ -44,7 +44,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tetapkan mana yang butuh verifikasi" },
   {
     type: "p",
-    text: "Tidak semua perubahan data boleh langsung berlaku tanpa pemeriksaan. Perubahan nomor rekening, misalnya, sebaiknya melewati verifikasi karena berkaitan langsung dengan pembayaran gaji — kesalahan atau penyalahgunaan di sini bisa berakibat serius. Tentukan sejak awal data mana yang bisa diubah langsung oleh karyawan dan mana yang membutuhkan persetujuan atau verifikasi tambahan sebelum berlaku.",
+    text: "Tidak semua perubahan data boleh langsung berlaku tanpa pemeriksaan. Perubahan nomor rekening, misalnya, sebaiknya melewati verifikasi karena berkaitan langsung dengan pembayaran gaji, kesalahan atau penyalahgunaan di sini bisa berakibat serius. Tentukan sejak awal data mana yang bisa diubah langsung oleh karyawan dan mana yang membutuhkan persetujuan atau verifikasi tambahan sebelum berlaku.",
   },
   {
     type: "ul",
@@ -86,7 +86,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani penolakan dari karyawan senior" },
   {
     type: "p",
-    text: "Karyawan yang sudah lama terbiasa dengan cara manual — bertanya langsung ke HR atau mengisi formulir kertas — kadang enggan beralih ke sistem digital, terutama jika merasa kurang familiar dengan teknologi. Sediakan pelatihan singkat yang sabar, panduan bergambar langkah demi langkah, dan pendampingan pribadi di minggu-minggu awal untuk kelompok ini, alih-alih memaksakan peralihan sekaligus tanpa dukungan.",
+    text: "Karyawan yang sudah lama terbiasa dengan cara manual, bertanya langsung ke HR atau mengisi formulir kertas, kadang enggan beralih ke sistem digital, terutama jika merasa kurang familiar dengan teknologi. Sediakan pelatihan singkat yang sabar, panduan bergambar langkah demi langkah, dan pendampingan pribadi di minggu-minggu awal untuk kelompok ini, alih-alih memaksakan peralihan sekaligus tanpa dukungan.",
   },
   { type: "h2", text: "Langkah menerapkan employee self-service" },
   {
@@ -109,7 +109,7 @@ export const body: Block[] = [
   { type: "h3", text: "Apakah employee self-service cocok untuk perusahaan kecil?" },
   {
     type: "p",
-    text: "Ya, bahkan untuk perusahaan dengan belasan karyawan, fitur ini tetap menghemat waktu HR atau pemilik yang sering merangkap urusan administratif. Skalanya bisa disesuaikan — tidak perlu semua fitur diterapkan sekaligus.",
+    text: "Ya, bahkan untuk perusahaan dengan belasan karyawan, fitur ini tetap menghemat waktu HR atau pemilik yang sering merangkap urusan administratif. Skalanya bisa disesuaikan, tidak perlu semua fitur diterapkan sekaligus.",
   },
   { type: "h3", text: "Bagaimana jika karyawan mengubah data yang salah?" },
   {
@@ -128,7 +128,7 @@ export const body: Block[] = [
   { type: "h2", text: "Data yang konsisten mengurangi kesalahan penggajian" },
   {
     type: "p",
-    text: "Ketika data cuti, lembur, dan kehadiran diinput manual dari berbagai sumber — catatan kertas, pesan WhatsApp, ingatan supervisor — proses penggajian menjadi rawan kesalahan, dan kesalahan pada gaji adalah salah satu hal yang paling cepat merusak kepercayaan karyawan terhadap perusahaan. Ketika karyawan mengajukan dan melihat sendiri data cuti serta kehadirannya secara real-time melalui sistem yang sama, kemungkinan terjadinya selisih antara catatan HR dan pemahaman karyawan tentang haknya sendiri jauh berkurang.",
+    text: "Ketika data cuti, lembur, dan kehadiran diinput manual dari berbagai sumber, catatan kertas, pesan WhatsApp, ingatan supervisor, proses penggajian menjadi rawan kesalahan, dan kesalahan pada gaji adalah salah satu hal yang paling cepat merusak kepercayaan karyawan terhadap perusahaan. Ketika karyawan mengajukan dan melihat sendiri data cuti serta kehadirannya secara real-time melalui sistem yang sama, kemungkinan terjadinya selisih antara catatan HR dan pemahaman karyawan tentang haknya sendiri jauh berkurang.",
   },
   {
     type: "p",
@@ -141,16 +141,16 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Untuk tim kecil, mulai dari fitur yang paling sederhana — melihat sisa cuti dan mengajukan izin — sudah cukup memberi dampak nyata, tanpa perlu langsung menerapkan seluruh modul yang tersedia sekaligus.",
+    text: "Untuk tim kecil, mulai dari fitur yang paling sederhana, melihat sisa cuti dan mengajukan izin, sudah cukup memberi dampak nyata, tanpa perlu langsung menerapkan seluruh modul yang tersedia sekaligus.",
   },
   { type: "h2", text: "Menjaga fitur tetap relevan seiring pertumbuhan tim" },
   {
     type: "p",
-    text: "Kebutuhan layanan mandiri karyawan di perusahaan dengan dua puluh orang akan terasa berbeda dibanding perusahaan yang sama setelah tumbuh menjadi dua ratus orang. Fitur yang dulu cukup sederhana — misalnya satu jenis formulir cuti untuk semua orang — mungkin perlu disesuaikan lagi ketika perusahaan mulai punya banyak jenis jabatan dengan aturan cuti atau tunjangan yang berbeda-beda. Jangan menganggap sistem layanan mandiri sebagai proyek yang selesai sekali dibangun; tinjau ulang secara berkala apakah aturan dan fiturnya masih relevan dengan struktur organisasi yang sudah berkembang.",
+    text: "Kebutuhan layanan mandiri karyawan di perusahaan dengan dua puluh orang akan terasa berbeda dibanding perusahaan yang sama setelah tumbuh menjadi dua ratus orang. Fitur yang dulu cukup sederhana, misalnya satu jenis formulir cuti untuk semua orang, mungkin perlu disesuaikan lagi ketika perusahaan mulai punya banyak jenis jabatan dengan aturan cuti atau tunjangan yang berbeda-beda. Jangan menganggap sistem layanan mandiri sebagai proyek yang selesai sekali dibangun; tinjau ulang secara berkala apakah aturan dan fiturnya masih relevan dengan struktur organisasi yang sudah berkembang.",
   },
   {
     type: "p",
-    text: "Perubahan kebijakan perusahaan juga perlu segera tercermin di sistem layanan mandiri, bukan hanya diumumkan lewat memo internal yang mudah terlewat. Jika kebijakan cuti berubah tapi sistem masih menampilkan aturan lama, karyawan akan bingung ketika pengajuannya ditolak dengan alasan yang tidak sesuai dengan apa yang mereka baca di aplikasi. Tetapkan tanggung jawab yang jelas — biasanya di tim HR — untuk memastikan setiap perubahan kebijakan langsung diperbarui di sistem pada hari yang sama kebijakan itu mulai berlaku, sehingga karyawan selalu melihat informasi yang akurat.",
+    text: "Perubahan kebijakan perusahaan juga perlu segera tercermin di sistem layanan mandiri, bukan hanya diumumkan lewat memo internal yang mudah terlewat. Jika kebijakan cuti berubah tapi sistem masih menampilkan aturan lama, karyawan akan bingung ketika pengajuannya ditolak dengan alasan yang tidak sesuai dengan apa yang mereka baca di aplikasi. Tetapkan tanggung jawab yang jelas, biasanya di tim HR, untuk memastikan setiap perubahan kebijakan langsung diperbarui di sistem pada hari yang sama kebijakan itu mulai berlaku, sehingga karyawan selalu melihat informasi yang akurat.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -160,7 +160,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "HR Anda masih sibuk menjawab pertanyaan sisa cuti?",
-    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda, absensi, cuti, lembur, dan payroll dalam satu sistem.",
     href: "/services/hris",
     label: "Lihat layanan HRIS",
   },

@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Aplikasi internal perusahaan sudah dipakai dua tahun tanpa masalah berarti. Sampai suatu hari, seorang karyawan magang iseng mengubah angka di alamat browser dan tiba-tiba bisa melihat data gaji karyawan lain yang seharusnya tidak bisa diaksesnya. Tidak ada yang meretas apa pun secara canggih — celahnya memang ada sejak awal, hanya belum pernah ditemukan siapa pun.",
+    text: "Aplikasi internal perusahaan sudah dipakai dua tahun tanpa masalah berarti. Sampai suatu hari, seorang karyawan magang iseng mengubah angka di alamat browser dan tiba-tiba bisa melihat data gaji karyawan lain yang seharusnya tidak bisa diaksesnya. Tidak ada yang meretas apa pun secara canggih, celahnya memang ada sejak awal, hanya belum pernah ditemukan siapa pun.",
   },
   {
     type: "p",
-    text: "Aplikasi bisnis menyimpan data transaksi, data pelanggan, dan informasi internal yang sangat berharga bagi perusahaan maupun pihak yang ingin menyalahgunakannya. Meski begitu, keamanan sering diperlakukan sebagai urusan yang bisa ditunda — dikerjakan setelah semua fitur utama selesai dibangun, atau bahkan baru dipikirkan serius setelah terjadi masalah nyata. Padahal beberapa perlindungan dasar jauh lebih murah dan mudah dibangun sejak awal dibanding ditambal belakangan setelah insiden terjadi.",
+    text: "Aplikasi bisnis menyimpan data transaksi, data pelanggan, dan informasi internal yang sangat berharga bagi perusahaan maupun pihak yang ingin menyalahgunakannya. Meski begitu, keamanan sering diperlakukan sebagai urusan yang bisa ditunda, dikerjakan setelah semua fitur utama selesai dibangun, atau bahkan baru dipikirkan serius setelah terjadi masalah nyata. Padahal beberapa perlindungan dasar jauh lebih murah dan mudah dibangun sejak awal dibanding ditambal belakangan setelah insiden terjadi.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa keamanan sering diabaikan di awal" },
   {
     type: "p",
-    text: "Tekanan untuk segera meluncurkan aplikasi dan menunjukkan hasil sering membuat aspek keamanan terpinggirkan, dianggap sebagai sesuatu yang bisa ditambahkan nanti setelah fitur-fitur utama selesai dan berjalan lancar. Masalahnya, menambahkan keamanan setelah aplikasi sudah dibangun jauh lebih sulit dan mahal dibanding merancangnya sejak arsitektur awal — beberapa celah bahkan hampir mustahil ditambal tanpa membangun ulang sebagian besar sistem.",
+    text: "Tekanan untuk segera meluncurkan aplikasi dan menunjukkan hasil sering membuat aspek keamanan terpinggirkan, dianggap sebagai sesuatu yang bisa ditambahkan nanti setelah fitur-fitur utama selesai dan berjalan lancar. Masalahnya, menambahkan keamanan setelah aplikasi sudah dibangun jauh lebih sulit dan mahal dibanding merancangnya sejak arsitektur awal, beberapa celah bahkan hampir mustahil ditambal tanpa membangun ulang sebagian besar sistem.",
   },
   { type: "h2", text: "Autentikasi yang kuat" },
   {
@@ -43,7 +43,7 @@ export const body: Block[] = [
   { type: "h2", text: "Validasi semua input" },
   {
     type: "p",
-    text: "Data yang dimasukkan pengguna — lewat formulir, unggahan file, atau parameter lainnya — harus divalidasi secara ketat di sisi server sebelum diproses lebih lanjut. Input yang tidak divalidasi dengan benar adalah pintu masuk bagi berbagai jenis serangan umum, termasuk upaya menyisipkan perintah berbahaya ke dalam basis data yang bisa membocorkan atau merusak seluruh data yang tersimpan di dalamnya.",
+    text: "Data yang dimasukkan pengguna, lewat formulir, unggahan file, atau parameter lainnya, harus divalidasi secara ketat di sisi server sebelum diproses lebih lanjut. Input yang tidak divalidasi dengan benar adalah pintu masuk bagi berbagai jenis serangan umum, termasuk upaya menyisipkan perintah berbahaya ke dalam basis data yang bisa membocorkan atau merusak seluruh data yang tersimpan di dalamnya.",
   },
   {
     type: "callout",
@@ -77,7 +77,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tanyakan kepada vendor secara spesifik" },
   {
     type: "p",
-    text: "Saat bekerja sama dengan software house untuk membangun aplikasi bisnis, tanyakan secara spesifik bagaimana mereka menangani setiap aspek keamanan yang dibahas di atas. Vendor yang benar-benar serius soal keamanan akan bisa menjelaskan pendekatan mereka secara konkret dan detail — bukan sekadar memberikan jawaban umum bahwa “aplikasinya pasti aman” tanpa penjelasan lebih lanjut.",
+    text: "Saat bekerja sama dengan software house untuk membangun aplikasi bisnis, tanyakan secara spesifik bagaimana mereka menangani setiap aspek keamanan yang dibahas di atas. Vendor yang benar-benar serius soal keamanan akan bisa menjelaskan pendekatan mereka secara konkret dan detail, bukan sekadar memberikan jawaban umum bahwa “aplikasinya pasti aman” tanpa penjelasan lebih lanjut.",
   },
   { type: "h2", text: "Langkah memastikan keamanan dasar aplikasi" },
   {
@@ -109,7 +109,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kesalahan umum lain adalah memberikan hak akses yang lebih luas dari yang sebenarnya dibutuhkan, hanya karena lebih praktis saat pengembangan berlangsung. Akun yang dipakai aplikasi untuk terhubung ke basis data, misalnya, sering diberi wewenang penuh untuk mengubah dan menghapus data apa pun, padahal sebagian besar operasi sehari-hari hanya membutuhkan izin membaca dan menulis data tertentu saja. Prinsip memberikan akses seminimal mungkin sesuai kebutuhan — bukan seluas mungkin demi kepraktisan — membatasi seberapa jauh kerusakan yang bisa terjadi jika satu bagian sistem berhasil disusupi.",
+    text: "Kesalahan umum lain adalah memberikan hak akses yang lebih luas dari yang sebenarnya dibutuhkan, hanya karena lebih praktis saat pengembangan berlangsung. Akun yang dipakai aplikasi untuk terhubung ke basis data, misalnya, sering diberi wewenang penuh untuk mengubah dan menghapus data apa pun, padahal sebagian besar operasi sehari-hari hanya membutuhkan izin membaca dan menulis data tertentu saja. Prinsip memberikan akses seminimal mungkin sesuai kebutuhan, bukan seluas mungkin demi kepraktisan, membatasi seberapa jauh kerusakan yang bisa terjadi jika satu bagian sistem berhasil disusupi.",
   },
   {
     type: "p",
@@ -136,7 +136,7 @@ export const body: Block[] = [
   { type: "h3", text: "Apakah memasang firewall dan antivirus saja sudah cukup?" },
   {
     type: "p",
-    text: "Tidak. Firewall dan antivirus melindungi lapisan jaringan dan perangkat, tetapi sebagian besar celah yang dibahas di artikel ini — pemeriksaan hak akses yang lemah, validasi input yang kurang, atau kredensial yang tersimpan sembarangan — terjadi di level kode aplikasi itu sendiri, jauh dari jangkauan perlindungan firewall maupun antivirus. Keduanya tetap perlu ada sebagai lapisan pertahanan tambahan, tapi tidak bisa menggantikan kebutuhan membangun keamanan langsung ke dalam arsitektur aplikasi sejak awal.",
+    text: "Tidak. Firewall dan antivirus melindungi lapisan jaringan dan perangkat, tetapi sebagian besar celah yang dibahas di artikel ini, pemeriksaan hak akses yang lemah, validasi input yang kurang, atau kredensial yang tersimpan sembarangan, terjadi di level kode aplikasi itu sendiri, jauh dari jangkauan perlindungan firewall maupun antivirus. Keduanya tetap perlu ada sebagai lapisan pertahanan tambahan, tapi tidak bisa menggantikan kebutuhan membangun keamanan langsung ke dalam arsitektur aplikasi sejak awal.",
   },
   { type: "h2", text: "Penutup" },
   {

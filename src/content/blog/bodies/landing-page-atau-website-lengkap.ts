@@ -82,7 +82,7 @@ export const body: Block[] = [
   { type: "h2", text: "Rencanakan pertumbuhan sejak awal" },
   {
     type: "p",
-    text: "Jika Anda memutuskan memulai dari landing page, pastikan platform dan pendekatan desain yang dipilih bisa dikembangkan menjadi website lengkap di kemudian hari tanpa harus membangun ulang segalanya dari nol. Keputusan teknis kecil yang dibuat di awal — seperti struktur alamat halaman atau platform yang dipakai — bisa menghemat biaya yang cukup besar ketika saatnya tiba untuk berkembang lebih jauh.",
+    text: "Jika Anda memutuskan memulai dari landing page, pastikan platform dan pendekatan desain yang dipilih bisa dikembangkan menjadi website lengkap di kemudian hari tanpa harus membangun ulang segalanya dari nol. Keputusan teknis kecil yang dibuat di awal, seperti struktur alamat halaman atau platform yang dipakai, bisa menghemat biaya yang cukup besar ketika saatnya tiba untuk berkembang lebih jauh.",
   },
   { type: "h2", text: "Biaya yang perlu dipertimbangkan" },
   {
@@ -147,11 +147,11 @@ export const body: Block[] = [
   { type: "h2", text: "Siapa yang bertanggung jawab merawat setelah selesai dibangun" },
   {
     type: "p",
-    text: "Baik landing page maupun website lengkap sama-sama membutuhkan seseorang yang bertanggung jawab merawatnya setelah selesai dibangun — memperbarui informasi yang sudah usang, menambahkan konten baru, atau memastikan tautan dan formulir masih berfungsi dengan baik. Website lengkap dengan lebih banyak halaman jelas membutuhkan komitmen perawatan yang lebih besar dibanding satu landing page tunggal yang relatif lebih mudah dipantau sendirian.",
+    text: "Baik landing page maupun website lengkap sama-sama membutuhkan seseorang yang bertanggung jawab merawatnya setelah selesai dibangun, memperbarui informasi yang sudah usang, menambahkan konten baru, atau memastikan tautan dan formulir masih berfungsi dengan baik. Website lengkap dengan lebih banyak halaman jelas membutuhkan komitmen perawatan yang lebih besar dibanding satu landing page tunggal yang relatif lebih mudah dipantau sendirian.",
   },
   {
     type: "p",
-    text: "Sebelum memutuskan membangun website lengkap, pertimbangkan dengan jujur apakah memang ada orang atau tim yang bisa konsisten meluangkan waktu untuk merawatnya ke depan. Website lengkap yang dibangun megah di awal tapi tidak pernah diperbarui setelahnya justru bisa memberi kesan sebaliknya dari yang diharapkan — terkesan ditinggalkan, bukan terkesan profesional dan terpercaya seperti tujuan awal dibangunnya.",
+    text: "Sebelum memutuskan membangun website lengkap, pertimbangkan dengan jujur apakah memang ada orang atau tim yang bisa konsisten meluangkan waktu untuk merawatnya ke depan. Website lengkap yang dibangun megah di awal tapi tidak pernah diperbarui setelahnya justru bisa memberi kesan sebaliknya dari yang diharapkan, terkesan ditinggalkan, bukan terkesan profesional dan terpercaya seperti tujuan awal dibangunnya.",
   },
   { type: "h2", text: "Pengaruh terhadap kecepatan dan pengalaman pengunjung" },
   {
@@ -169,7 +169,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Sebaliknya, jika strategi pemasaran mengandalkan pencarian organik jangka panjang yang dibangun bertahap melalui konten dan optimasi mesin pencari, investasi pada website lengkap akan lebih masuk akal meski hasilnya baru terasa signifikan setelah beberapa waktu. Kedua pendekatan ini sama-sama valid — yang penting adalah memilih sesuai dengan bagaimana calon pelanggan Anda sebenarnya ditemukan dan diyakinkan.",
+    text: "Sebaliknya, jika strategi pemasaran mengandalkan pencarian organik jangka panjang yang dibangun bertahap melalui konten dan optimasi mesin pencari, investasi pada website lengkap akan lebih masuk akal meski hasilnya baru terasa signifikan setelah beberapa waktu. Kedua pendekatan ini sama-sama valid, yang penting adalah memilih sesuai dengan bagaimana calon pelanggan Anda sebenarnya ditemukan dan diyakinkan.",
   },
   { type: "h2", text: "Penutup" },
   {

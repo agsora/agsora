@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa sistem kasir retail tidak cukup" },
   {
     type: "p",
-    text: "Sistem kasir retail dirancang untuk transaksi yang selesai dalam satu kali proses: barang dipilih, dipindai, dibayar, selesai. Bisnis F&B hampir tidak pernah bekerja seperti itu. Pesanan dibuka ketika pelanggan duduk, bertambah selama mereka makan, dan baru ditutup ketika mereka membayar — kadang satu jam kemudian.",
+    text: "Sistem kasir retail dirancang untuk transaksi yang selesai dalam satu kali proses: barang dipilih, dipindai, dibayar, selesai. Bisnis F&B hampir tidak pernah bekerja seperti itu. Pesanan dibuka ketika pelanggan duduk, bertambah selama mereka makan, dan baru ditutup ketika mereka membayar, kadang satu jam kemudian.",
   },
   {
     type: "p",
@@ -49,7 +49,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Status pesanan juga membantu koordinasi. Ketika dapur menandai pesanan sudah siap, pelayan tahu kapan harus mengantar. Untuk bisnis dengan beberapa stasiun dapur — misalnya minuman dan makanan — pesanan bisa langsung diarahkan ke stasiun yang tepat.",
+    text: "Status pesanan juga membantu koordinasi. Ketika dapur menandai pesanan sudah siap, pelayan tahu kapan harus mengantar. Untuk bisnis dengan beberapa stasiun dapur, misalnya minuman dan makanan, pesanan bisa langsung diarahkan ke stasiun yang tepat.",
   },
   { type: "h2", text: "Resep dan stok bahan baku" },
   {
@@ -68,7 +68,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menu dengan varian dan tambahan" },
   {
     type: "p",
-    text: "Level pedas, ukuran minuman, pilihan susu, tambahan topping — semua ini perlu diatur sebagai varian atau tambahan dengan harga masing-masing, bukan sebagai menu terpisah. Menu yang dipecah menjadi puluhan item terpisah membuat kasir sulit mencari, dan laporan penjualan per menu menjadi sulit dibaca.",
+    text: "Level pedas, ukuran minuman, pilihan susu, tambahan topping, semua ini perlu diatur sebagai varian atau tambahan dengan harga masing-masing, bukan sebagai menu terpisah. Menu yang dipecah menjadi puluhan item terpisah membuat kasir sulit mencari, dan laporan penjualan per menu menjadi sulit dibaca.",
   },
   {
     type: "p",
@@ -87,7 +87,7 @@ export const body: Block[] = [
   { type: "h2", text: "Laporan per shift dan per kasir" },
   {
     type: "p",
-    text: "Di akhir shift, sistem sebaiknya menunjukkan berapa uang yang seharusnya ada di laci berdasarkan transaksi tunai. Kasir menghitung uang fisik, dan selisihnya tercatat — bukan disesuaikan diam-diam. Laporan pembatalan, diskon, dan retur per kasir membantu menemukan pola yang tidak wajar sebelum menjadi masalah besar.",
+    text: "Di akhir shift, sistem sebaiknya menunjukkan berapa uang yang seharusnya ada di laci berdasarkan transaksi tunai. Kasir menghitung uang fisik, dan selisihnya tercatat, bukan disesuaikan diam-diam. Laporan pembatalan, diskon, dan retur per kasir membantu menemukan pola yang tidak wajar sebelum menjadi masalah besar.",
   },
   { type: "h2", text: "Tetap melayani saat internet terputus" },
   {
@@ -158,7 +158,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Memasukkan resep memang membutuhkan waktu di awal, terutama untuk menu yang banyak. Tetapi pekerjaan satu kali ini membuka informasi yang sangat berharga tentang biaya bahan dan margin setiap menu — informasi yang hampir mustahil didapat dari pencatatan manual.",
+    text: "Memasukkan resep memang membutuhkan waktu di awal, terutama untuk menu yang banyak. Tetapi pekerjaan satu kali ini membuka informasi yang sangat berharga tentang biaya bahan dan margin setiap menu, informasi yang hampir mustahil didapat dari pencatatan manual.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah warung kecil juga butuh sistem kasir seperti ini?" },
@@ -194,7 +194,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Antrian kasir masih panjang di jam makan siang?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Mesin absensi di pintu kantor bekerja baik untuk karyawan yang datang ke tempat yang sama setiap hari. Tetapi untuk tim lapangan — sales, kurir, teknisi, petugas survei, merchandiser — cara ini tidak berlaku. Mereka memulai hari di lokasi pelanggan, berpindah beberapa kali, dan jarang menginjak kantor. Akibatnya, kehadiran mereka dicatat lewat laporan manual atau pesan singkat yang sulit diverifikasi dan melelahkan untuk direkap.",
+    text: "Mesin absensi di pintu kantor bekerja baik untuk karyawan yang datang ke tempat yang sama setiap hari. Tetapi untuk tim lapangan, sales, kurir, teknisi, petugas survei, merchandiser, cara ini tidak berlaku. Mereka memulai hari di lokasi pelanggan, berpindah beberapa kali, dan jarang menginjak kantor. Akibatnya, kehadiran mereka dicatat lewat laporan manual atau pesan singkat yang sulit diverifikasi dan melelahkan untuk direkap.",
   },
   {
     type: "p",
@@ -72,7 +72,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pertimbangkan kondisi di lapangan" },
   {
     type: "p",
-    text: "Sinyal internet di lapangan tidak selalu stabil, terutama di gudang, basement, atau daerah yang jauh dari kota. Aplikasi sebaiknya tetap bisa mencatat check-in saat offline — lengkap dengan waktu dan lokasi — lalu mengirim data begitu koneksi kembali. Tanpa kemampuan ini, karyawan terpaksa menunda check-in dan data menjadi tidak akurat.",
+    text: "Sinyal internet di lapangan tidak selalu stabil, terutama di gudang, basement, atau daerah yang jauh dari kota. Aplikasi sebaiknya tetap bisa mencatat check-in saat offline, lengkap dengan waktu dan lokasi, lalu mengirim data begitu koneksi kembali. Tanpa kemampuan ini, karyawan terpaksa menunda check-in dan data menjadi tidak akurat.",
   },
   {
     type: "p",
@@ -81,7 +81,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Keterbukaan mencegah penolakan",
-    text: "Pelacakan lokasi bisa terasa seperti pengawasan berlebihan. Jelaskan sejak awal data apa yang dikumpulkan, kapan, dan untuk apa — misalnya lokasi hanya direkam saat check-in dan check-out, bukan sepanjang hari. Aturan yang jelas dan masuk akal membuat karyawan jauh lebih mudah menerima.",
+    text: "Pelacakan lokasi bisa terasa seperti pengawasan berlebihan. Jelaskan sejak awal data apa yang dikumpulkan, kapan, dan untuk apa, misalnya lokasi hanya direkam saat check-in dan check-out, bukan sepanjang hari. Aturan yang jelas dan masuk akal membuat karyawan jauh lebih mudah menerima.",
   },
   { type: "h2", text: "Menangani kasus yang tidak normal" },
   {
@@ -101,7 +101,7 @@ export const body: Block[] = [
   { type: "h2", text: "Hubungkan dengan payroll" },
   {
     type: "p",
-    text: "Data kehadiran lapangan paling bernilai ketika langsung mengalir ke perhitungan uang transport, tunjangan kunjungan, lembur, atau potongan keterlambatan — tanpa direkap ulang secara manual. Pastikan aturan perhitungannya sudah tertulis dan disepakati sebelum dimasukkan ke sistem, karena aturan yang kabur akan menghasilkan perhitungan yang dipertanyakan.",
+    text: "Data kehadiran lapangan paling bernilai ketika langsung mengalir ke perhitungan uang transport, tunjangan kunjungan, lembur, atau potongan keterlambatan, tanpa direkap ulang secara manual. Pastikan aturan perhitungannya sudah tertulis dan disepakati sebelum dimasukkan ke sistem, karena aturan yang kabur akan menghasilkan perhitungan yang dipertanyakan.",
   },
   { type: "h2", text: "Gunakan untuk kinerja, dengan hati-hati" },
   {
@@ -197,12 +197,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Absensi karyawan lapangan tidak harus berarti menggulir riwayat chat setiap akhir bulan. Dengan mencatat data yang benar-benar dibutuhkan, memilih pendekatan yang sesuai kondisi lapangan, dan menjaga keterbukaan dengan karyawan, kehadiran tim lapangan bisa tercatat rapi — dan admin HR bisa kembali mengerjakan hal yang lebih penting.",
+    text: "Absensi karyawan lapangan tidak harus berarti menggulir riwayat chat setiap akhir bulan. Dengan mencatat data yang benar-benar dibutuhkan, memilih pendekatan yang sesuai kondisi lapangan, dan menjaga keterbukaan dengan karyawan, kehadiran tim lapangan bisa tercatat rapi, dan admin HR bisa kembali mengerjakan hal yang lebih penting.",
   },
   {
     type: "cta",
     title: "Masih merekap absensi dari riwayat chat?",
-    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda, absensi, cuti, lembur, dan payroll dalam satu sistem.",
     href: "/services/hris",
     label: "Lihat layanan HRIS",
   },

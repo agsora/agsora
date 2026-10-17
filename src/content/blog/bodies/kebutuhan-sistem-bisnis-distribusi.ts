@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Sales lapangan menawarkan diskon 15% ke toko langganan seperti biasa, tanpa tahu bahwa toko itu sudah menunggak pembayaran dua bulan dan sebenarnya sudah melewati batas kredit. Pesanan tetap diproses, barang dikirim, dan piutang yang sudah menumpuk makin membengkak — sampai bagian keuangan menyadarinya minggu depan, saat sudah terlambat untuk dicegah.",
+    text: "Sales lapangan menawarkan diskon 15% ke toko langganan seperti biasa, tanpa tahu bahwa toko itu sudah menunggak pembayaran dua bulan dan sebenarnya sudah melewati batas kredit. Pesanan tetap diproses, barang dikirim, dan piutang yang sudah menumpuk makin membengkak, sampai bagian keuangan menyadarinya minggu depan, saat sudah terlambat untuk dicegah.",
   },
   {
     type: "p",
-    text: "Distributor menghubungkan pemasok dengan banyak pelanggan — toko, agen, atau perusahaan lain. Operasionalnya melibatkan pembelian dalam jumlah besar, penyimpanan di satu atau beberapa gudang, pengambilan pesanan oleh sales lapangan, pengiriman, dan penagihan. Masalah kecil di salah satu titik dalam rantai ini cepat berdampak ke titik-titik lainnya, menciptakan efek domino yang sulit dihentikan setelah terlanjur berjalan.",
+    text: "Distributor menghubungkan pemasok dengan banyak pelanggan, toko, agen, atau perusahaan lain. Operasionalnya melibatkan pembelian dalam jumlah besar, penyimpanan di satu atau beberapa gudang, pengambilan pesanan oleh sales lapangan, pengiriman, dan penagihan. Masalah kecil di salah satu titik dalam rantai ini cepat berdampak ke titik-titik lainnya, menciptakan efek domino yang sulit dihentikan setelah terlanjur berjalan.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kompleksitas yang khas bisnis distribusi" },
   {
     type: "p",
-    text: "Berbeda dengan retail yang umumnya menjual langsung ke konsumen akhir, distributor beroperasi di tengah rantai pasok — membeli dalam jumlah besar dari pemasok, lalu menjual dalam jumlah lebih kecil ke banyak pelanggan dengan syarat yang berbeda-beda. Kompleksitas ini menciptakan kebutuhan sistem yang berbeda dari sekadar sistem kasir atau inventori sederhana.",
+    text: "Berbeda dengan retail yang umumnya menjual langsung ke konsumen akhir, distributor beroperasi di tengah rantai pasok, membeli dalam jumlah besar dari pemasok, lalu menjual dalam jumlah lebih kecil ke banyak pelanggan dengan syarat yang berbeda-beda. Kompleksitas ini menciptakan kebutuhan sistem yang berbeda dari sekadar sistem kasir atau inventori sederhana.",
   },
   { type: "h2", text: "Stok yang akurat per gudang" },
   {
@@ -38,22 +38,22 @@ export const body: Block[] = [
   { type: "h2", text: "Harga dan syarat per pelanggan" },
   {
     type: "p",
-    text: "Distributor sering memiliki struktur harga berbeda untuk kategori pelanggan yang berbeda, diskon bertingkat berdasarkan jumlah pembelian, dan batas kredit yang berbeda untuk setiap pelanggan sesuai riwayat dan kepercayaan yang sudah dibangun. Aturan-aturan ini sebaiknya diterapkan secara otomatis di dalam sistem, bukan diingat dan diterapkan manual oleh sales satu per satu — yang rentan salah atau lupa, terutama untuk pelanggan yang jarang ditemui.",
+    text: "Distributor sering memiliki struktur harga berbeda untuk kategori pelanggan yang berbeda, diskon bertingkat berdasarkan jumlah pembelian, dan batas kredit yang berbeda untuk setiap pelanggan sesuai riwayat dan kepercayaan yang sudah dibangun. Aturan-aturan ini sebaiknya diterapkan secara otomatis di dalam sistem, bukan diingat dan diterapkan manual oleh sales satu per satu, yang rentan salah atau lupa, terutama untuk pelanggan yang jarang ditemui.",
   },
   {
     type: "callout",
     title: "Batas kredit mencegah piutang macet",
-    text: "Sistem yang secara otomatis menahan pesanan baru ketika pelanggan sudah melewati batas kredit yang ditetapkan atau memiliki tagihan yang sudah jatuh tempo membantu mengendalikan risiko piutang macet — tanpa harus bergantung pada sales yang mengecek status tagihan secara manual sebelum setiap kali menerima pesanan.",
+    text: "Sistem yang secara otomatis menahan pesanan baru ketika pelanggan sudah melewati batas kredit yang ditetapkan atau memiliki tagihan yang sudah jatuh tempo membantu mengendalikan risiko piutang macet, tanpa harus bergantung pada sales yang mengecek status tagihan secara manual sebelum setiap kali menerima pesanan.",
   },
   { type: "h2", text: "Pengiriman dan bukti terima" },
   {
     type: "p",
-    text: "Perencanaan rute pengiriman, pemuatan barang ke kendaraan, dan bukti serah terima menentukan apakah barang benar-benar sampai ke tangan pelanggan sesuai pesanan. Bukti terima digital — tanda tangan elektronik atau foto kondisi barang di lokasi pengiriman — mempercepat proses penagihan dan secara signifikan mengurangi perselisihan tentang barang yang diklaim belum diterima.",
+    text: "Perencanaan rute pengiriman, pemuatan barang ke kendaraan, dan bukti serah terima menentukan apakah barang benar-benar sampai ke tangan pelanggan sesuai pesanan. Bukti terima digital, tanda tangan elektronik atau foto kondisi barang di lokasi pengiriman, mempercepat proses penagihan dan secara signifikan mengurangi perselisihan tentang barang yang diklaim belum diterima.",
   },
   { type: "h2", text: "Penagihan dan piutang" },
   {
     type: "p",
-    text: "Faktur sebaiknya terbentuk secara otomatis dari pesanan yang sudah terkirim dan terverifikasi, dan status pembayaran bisa dipantau per pelanggan secara real-time. Laporan umur piutang — menunjukkan tagihan mana yang sudah jatuh tempo dan berapa lama — membantu tim penagihan memprioritaskan pelanggan mana yang paling berisiko dan perlu ditindaklanjuti lebih dulu.",
+    text: "Faktur sebaiknya terbentuk secara otomatis dari pesanan yang sudah terkirim dan terverifikasi, dan status pembayaran bisa dipantau per pelanggan secara real-time. Laporan umur piutang, menunjukkan tagihan mana yang sudah jatuh tempo dan berapa lama, membantu tim penagihan memprioritaskan pelanggan mana yang paling berisiko dan perlu ditindaklanjuti lebih dulu.",
   },
   { type: "h2", text: "Ilustrasi: rantai masalah yang saling terkait" },
   {
@@ -78,7 +78,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Karena semua titik ini saling bergantung satu sama lain, bisnis distribusi termasuk yang paling merasakan manfaat besar dari sistem yang benar-benar terintegrasi — dan sebaliknya, paling dirugikan ketika data tersebar di banyak aplikasi terpisah yang tidak saling berbicara.",
+    text: "Karena semua titik ini saling bergantung satu sama lain, bisnis distribusi termasuk yang paling merasakan manfaat besar dari sistem yang benar-benar terintegrasi, dan sebaliknya, paling dirugikan ketika data tersebar di banyak aplikasi terpisah yang tidak saling berbicara.",
   },
   { type: "h2", text: "Mengelola armada pengiriman" },
   {
@@ -111,7 +111,7 @@ export const body: Block[] = [
   { type: "h2", text: "Retur barang dan klaim dari pelanggan" },
   {
     type: "p",
-    text: "Barang yang dikembalikan pelanggan — karena rusak saat pengiriman, salah kirim, atau alasan lain — perlu proses pencatatan yang jelas agar stok dan piutang tetap akurat. Tanpa proses retur yang terstruktur, barang yang sudah dikembalikan bisa saja masih tercatat sebagai terjual di sistem, sementara faktur untuk barang tersebut belum juga disesuaikan, membuat catatan piutang pelanggan tidak mencerminkan kondisi sebenarnya.",
+    text: "Barang yang dikembalikan pelanggan, karena rusak saat pengiriman, salah kirim, atau alasan lain, perlu proses pencatatan yang jelas agar stok dan piutang tetap akurat. Tanpa proses retur yang terstruktur, barang yang sudah dikembalikan bisa saja masih tercatat sebagai terjual di sistem, sementara faktur untuk barang tersebut belum juga disesuaikan, membuat catatan piutang pelanggan tidak mencerminkan kondisi sebenarnya.",
   },
   {
     type: "p",
@@ -129,7 +129,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani produk dengan varian yang banyak" },
   {
     type: "p",
-    text: "Distributor yang menjual produk dengan banyak varian — ukuran, warna, atau kemasan berbeda — menghadapi tantangan tambahan dalam mengelola stok, karena setiap varian pada dasarnya adalah item stok yang terpisah dengan pola permintaan yang bisa sangat berbeda satu sama lain. Sistem yang bisa melacak stok hingga level varian, bukan hanya di level produk induk, membantu mencegah situasi di mana produk secara umum terlihat tersedia di laporan padahal varian spesifik yang diminta pelanggan sebenarnya sudah habis.",
+    text: "Distributor yang menjual produk dengan banyak varian, ukuran, warna, atau kemasan berbeda, menghadapi tantangan tambahan dalam mengelola stok, karena setiap varian pada dasarnya adalah item stok yang terpisah dengan pola permintaan yang bisa sangat berbeda satu sama lain. Sistem yang bisa melacak stok hingga level varian, bukan hanya di level produk induk, membantu mencegah situasi di mana produk secara umum terlihat tersedia di laporan padahal varian spesifik yang diminta pelanggan sebenarnya sudah habis.",
   },
   { type: "h3", text: "Bagaimana menangani pemasok yang pengirimannya sering terlambat?" },
   {
@@ -139,11 +139,11 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani promo dan potongan harga musiman" },
   {
     type: "p",
-    text: "Selain harga standar dan diskon bertingkat berdasarkan jumlah pembelian, distributor sering menjalankan promo terbatas waktu — potongan harga khusus untuk produk tertentu selama periode tertentu, atau bonus barang untuk pembelian dalam jumlah besar. Jika promo semacam ini hanya diingat lewat memo internal atau grup pesan singkat, sales lapangan bisa saja terlambat mengetahui promo sudah berakhir dan tetap menawarkannya ke pelanggan, atau sebaliknya tidak menawarkan promo yang sebenarnya masih berlaku.",
+    text: "Selain harga standar dan diskon bertingkat berdasarkan jumlah pembelian, distributor sering menjalankan promo terbatas waktu, potongan harga khusus untuk produk tertentu selama periode tertentu, atau bonus barang untuk pembelian dalam jumlah besar. Jika promo semacam ini hanya diingat lewat memo internal atau grup pesan singkat, sales lapangan bisa saja terlambat mengetahui promo sudah berakhir dan tetap menawarkannya ke pelanggan, atau sebaliknya tidak menawarkan promo yang sebenarnya masih berlaku.",
   },
   {
     type: "p",
-    text: "Sistem yang bisa mengatur periode berlaku promo secara otomatis — kapan mulai dan kapan berakhir, untuk produk dan kategori pelanggan mana saja — memastikan setiap sales melihat harga yang sama dan benar-benar berlaku pada saat itu, tanpa perlu mengandalkan komunikasi manual yang rawan terlewat atau disalahpahami di lapangan.",
+    text: "Sistem yang bisa mengatur periode berlaku promo secara otomatis, kapan mulai dan kapan berakhir, untuk produk dan kategori pelanggan mana saja, memastikan setiap sales melihat harga yang sama dan benar-benar berlaku pada saat itu, tanpa perlu mengandalkan komunikasi manual yang rawan terlewat atau disalahpahami di lapangan.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -153,7 +153,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Sales lapangan Anda masih pakai daftar harga cetak?",
-    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda — pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda, pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
     href: "/services/erp",
     label: "Lihat layanan ERP",
   },

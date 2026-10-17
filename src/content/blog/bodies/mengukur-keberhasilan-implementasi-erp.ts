@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak project ERP dinyatakan selesai begitu sistemnya sudah dipasang dan mulai dipakai sehari-hari. Tetapi apakah sistem itu benar-benar memperbaiki operasional bisnis secara nyata? Tanpa ukuran keberhasilan yang ditetapkan sejak awal, pertanyaan ini sangat sulit dijawab dengan pasti — dan investasi besar yang sudah dikeluarkan hanya bisa dinilai berdasarkan kesan subjektif, bukan data yang objektif.",
+    text: "Banyak project ERP dinyatakan selesai begitu sistemnya sudah dipasang dan mulai dipakai sehari-hari. Tetapi apakah sistem itu benar-benar memperbaiki operasional bisnis secara nyata? Tanpa ukuran keberhasilan yang ditetapkan sejak awal, pertanyaan ini sangat sulit dijawab dengan pasti, dan investasi besar yang sudah dikeluarkan hanya bisa dinilai berdasarkan kesan subjektif, bukan data yang objektif.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -15,7 +15,7 @@ export const body: Block[] = [
     items: [
       "Tetapkan ukuran keberhasilan sebelum project dimulai, terkait langsung dengan alasan project itu ada",
       "Catat kondisi awal sebagai pembanding, karena perbaikan hanya bermakna jika ada baseline",
-      "Ukur adopsi nyata, bukan hanya keberadaan sistemnya — apakah pengguna benar-benar memakainya",
+      "Ukur adopsi nyata, bukan hanya keberadaan sistemnya, apakah pengguna benar-benar memakainya",
       "Beri waktu yang cukup sebelum menilai, karena produktivitas biasanya turun dulu di awal transisi",
       "Gunakan hasil evaluasi untuk menentukan prioritas pengembangan berikutnya",
     ],
@@ -54,7 +54,7 @@ export const body: Block[] = [
   { type: "h2", text: "Evaluasi secara bertahap dan berkelanjutan" },
   {
     type: "p",
-    text: "Lakukan evaluasi pertama setelah beberapa bulan sistem berjalan, lalu ulangi secara berkala setelahnya — misalnya setiap kuartal atau setiap semester. Hasil evaluasi ini akan menunjukkan area mana yang masih membutuhkan penyesuaian: alur kerja tertentu yang masih terasa lambat, laporan yang ternyata belum benar-benar dipakai penggunanya, atau pelatihan tertentu yang perlu diulang karena hasilnya belum optimal.",
+    text: "Lakukan evaluasi pertama setelah beberapa bulan sistem berjalan, lalu ulangi secara berkala setelahnya, misalnya setiap kuartal atau setiap semester. Hasil evaluasi ini akan menunjukkan area mana yang masih membutuhkan penyesuaian: alur kerja tertentu yang masih terasa lambat, laporan yang ternyata belum benar-benar dipakai penggunanya, atau pelatihan tertentu yang perlu diulang karena hasilnya belum optimal.",
   },
   { type: "h2", text: "Ilustrasi: dari kesan menjadi bukti konkret" },
   {
@@ -63,7 +63,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Enam bulan setelah implementasi, mereka mengukur ulang metrik yang sama: waktu tutup buku turun menjadi tiga hari, jumlah koreksi berkurang signifikan, dan laporan sudah siap dibaca jauh lebih cepat dari sebelumnya. Dengan data konkret ini, mereka bisa dengan yakin menyatakan project ini berhasil kepada direksi — bukan sekadar berdasarkan kesan umum bahwa “sistemnya kelihatan berjalan lancar”.",
+    text: "Enam bulan setelah implementasi, mereka mengukur ulang metrik yang sama: waktu tutup buku turun menjadi tiga hari, jumlah koreksi berkurang signifikan, dan laporan sudah siap dibaca jauh lebih cepat dari sebelumnya. Dengan data konkret ini, mereka bisa dengan yakin menyatakan project ini berhasil kepada direksi, bukan sekadar berdasarkan kesan umum bahwa “sistemnya kelihatan berjalan lancar”.",
   },
   { type: "h2", text: "Menggunakan hasil evaluasi untuk langkah berikutnya" },
   {
@@ -73,7 +73,7 @@ export const body: Block[] = [
   { type: "h2", text: "Melibatkan berbagai pihak dalam evaluasi" },
   {
     type: "p",
-    text: "Jangan hanya mengandalkan data kuantitatif semata. Kumpulkan juga masukan kualitatif dari berbagai pihak yang memakai sistem sehari-hari — apa yang mereka rasakan lebih mudah, apa yang masih terasa menyulitkan, dan saran perbaikan apa yang mereka miliki berdasarkan pengalaman langsung menggunakan sistem tersebut.",
+    text: "Jangan hanya mengandalkan data kuantitatif semata. Kumpulkan juga masukan kualitatif dari berbagai pihak yang memakai sistem sehari-hari, apa yang mereka rasakan lebih mudah, apa yang masih terasa menyulitkan, dan saran perbaikan apa yang mereka miliki berdasarkan pengalaman langsung menggunakan sistem tersebut.",
   },
   { type: "h2", text: "Langkah mengukur keberhasilan implementasi ERP" },
   {
@@ -96,7 +96,7 @@ export const body: Block[] = [
   { type: "h3", text: "Apa yang harus dilakukan jika hasil evaluasi menunjukkan kegagalan?" },
   {
     type: "p",
-    text: "Telusuri akar penyebabnya dengan jujur — apakah karena sistemnya yang kurang tepat, proses yang belum disesuaikan dengan baik, atau kurangnya pelatihan dan dukungan bagi pengguna. Hasil evaluasi yang jujur, meski tidak menyenangkan, jauh lebih berguna dibanding menutupi masalah demi menjaga citra project.",
+    text: "Telusuri akar penyebabnya dengan jujur, apakah karena sistemnya yang kurang tepat, proses yang belum disesuaikan dengan baik, atau kurangnya pelatihan dan dukungan bagi pengguna. Hasil evaluasi yang jujur, meski tidak menyenangkan, jauh lebih berguna dibanding menutupi masalah demi menjaga citra project.",
   },
   { type: "h2", text: "Hindari mengukur terlalu banyak hal sekaligus" },
   {
@@ -121,7 +121,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pisahkan keberhasilan teknis dari keberhasilan bisnis" },
   {
     type: "p",
-    text: "Sistem bisa saja berjalan tanpa error, uptime-nya tinggi, dan tim IT melaporkan implementasi teknis berhasil sepenuhnya — tapi itu belum tentu berarti bisnis benar-benar diuntungkan. Keberhasilan teknis mengukur apakah sistemnya berfungsi sebagaimana mestinya: data tersimpan dengan benar, laporan bisa dibuka tanpa kendala, integrasi antar modul berjalan lancar. Keberhasilan bisnis mengukur sesuatu yang berbeda: apakah keputusan yang diambil manajemen sekarang lebih cepat dan lebih tepat karena data yang tersedia, apakah pelanggan merasakan layanan yang lebih baik, apakah biaya operasional benar-benar turun.",
+    text: "Sistem bisa saja berjalan tanpa error, uptime-nya tinggi, dan tim IT melaporkan implementasi teknis berhasil sepenuhnya, tapi itu belum tentu berarti bisnis benar-benar diuntungkan. Keberhasilan teknis mengukur apakah sistemnya berfungsi sebagaimana mestinya: data tersimpan dengan benar, laporan bisa dibuka tanpa kendala, integrasi antar modul berjalan lancar. Keberhasilan bisnis mengukur sesuatu yang berbeda: apakah keputusan yang diambil manajemen sekarang lebih cepat dan lebih tepat karena data yang tersedia, apakah pelanggan merasakan layanan yang lebih baik, apakah biaya operasional benar-benar turun.",
   },
   {
     type: "p",
@@ -130,7 +130,7 @@ export const body: Block[] = [
   { type: "h2", text: "Hitung juga biaya yang tidak lagi dikeluarkan" },
   {
     type: "p",
-    text: "Selain mengukur perbaikan yang terlihat langsung seperti kecepatan proses atau akurasi data, jangan lupakan biaya-biaya yang sebenarnya sudah berhenti dikeluarkan setelah sistem baru berjalan namun jarang disadari karena sifatnya tidak terlihat secara eksplisit di laporan keuangan. Biaya lembur untuk mengejar tutup buku yang molor, biaya kesalahan pengiriman akibat data stok yang keliru, waktu kerja yang sebelumnya habis untuk mencocokkan data dari beberapa spreadsheet berbeda — semua ini adalah biaya nyata yang berkurang meski tidak muncul sebagai satu baris tersendiri di laporan mana pun.",
+    text: "Selain mengukur perbaikan yang terlihat langsung seperti kecepatan proses atau akurasi data, jangan lupakan biaya-biaya yang sebenarnya sudah berhenti dikeluarkan setelah sistem baru berjalan namun jarang disadari karena sifatnya tidak terlihat secara eksplisit di laporan keuangan. Biaya lembur untuk mengejar tutup buku yang molor, biaya kesalahan pengiriman akibat data stok yang keliru, waktu kerja yang sebelumnya habis untuk mencocokkan data dari beberapa spreadsheet berbeda, semua ini adalah biaya nyata yang berkurang meski tidak muncul sebagai satu baris tersendiri di laporan mana pun.",
   },
   {
     type: "p",
@@ -139,7 +139,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Mengukur keberhasilan implementasi ERP mengubah penilaian dari sekadar kesan subjektif menjadi bukti yang konkret dan bisa dipertanggungjawabkan. Dengan menetapkan ukuran sejak awal, mencatat kondisi baseline, dan mengevaluasi secara berkala, investasi besar dalam sistem ERP bisa dinilai secara objektif — dan hasilnya menjadi dasar yang kuat untuk pengembangan berikutnya.",
+    text: "Mengukur keberhasilan implementasi ERP mengubah penilaian dari sekadar kesan subjektif menjadi bukti yang konkret dan bisa dipertanggungjawabkan. Dengan menetapkan ukuran sejak awal, mencatat kondisi baseline, dan mengevaluasi secara berkala, investasi besar dalam sistem ERP bisa dinilai secara objektif, dan hasilnya menjadi dasar yang kuat untuk pengembangan berikutnya.",
   },
   {
     type: "cta",

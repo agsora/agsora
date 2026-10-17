@@ -18,7 +18,7 @@ export const body: Block[] = [
     type: "ul",
     items: [
       "MVP adalah versi paling sederhana dari aplikasi yang sudah menyelesaikan satu masalah nyata dan bisa dipakai setiap hari",
-      "MVP bukan prototipe asal jadi — kualitas teknisnya harus cukup baik untuk dikembangkan, bukan dibuang",
+      "MVP bukan prototipe asal jadi, kualitas teknisnya harus cukup baik untuk dikembangkan, bukan dibuang",
       "Ruang lingkup MVP ditentukan oleh satu alur kerja paling penting, bukan oleh daftar fitur terpanjang",
       "Umpan balik dari pengguna nyata di minggu-minggu pertama jauh lebih berharga daripada asumsi di tahap perencanaan",
       "Pendekatan bertahap mengurangi risiko biaya, mempercepat manfaat, dan memudahkan tim beradaptasi",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Apa sebenarnya MVP dalam konteks bisnis" },
   {
     type: "p",
-    text: "Dalam dunia startup, MVP sering dipakai untuk menguji apakah pasar menginginkan sebuah produk. Dalam konteks bisnis yang sudah berjalan, tujuannya sedikit berbeda. Anda biasanya sudah tahu masalahnya nyata — pesanan tercecer, stok tidak sinkron, laporan terlambat. Yang belum diketahui adalah bentuk solusi yang paling tepat, fitur mana yang benar-benar dipakai, dan bagaimana tim akan beradaptasi dengan cara kerja baru.",
+    text: "Dalam dunia startup, MVP sering dipakai untuk menguji apakah pasar menginginkan sebuah produk. Dalam konteks bisnis yang sudah berjalan, tujuannya sedikit berbeda. Anda biasanya sudah tahu masalahnya nyata, pesanan tercecer, stok tidak sinkron, laporan terlambat. Yang belum diketahui adalah bentuk solusi yang paling tepat, fitur mana yang benar-benar dipakai, dan bagaimana tim akan beradaptasi dengan cara kerja baru.",
   },
   {
     type: "p",
@@ -76,7 +76,7 @@ export const body: Block[] = [
   { type: "h3", text: "Apa alur minimum dari awal sampai akhir?" },
   {
     type: "p",
-    text: "Tuliskan langkah-langkah alur kerja inti dari awal hingga selesai. Misalnya: sales membuat pesanan, admin memverifikasi, gudang menyiapkan barang, status terkirim tercatat. Setiap langkah dalam alur ini harus ada di MVP, walaupun dalam bentuk sederhana. Fitur yang tidak berada di jalur ini — seperti laporan analitik mendalam, integrasi ke sistem lain, atau pengaturan hak akses yang rumit — bisa menunggu tahap berikutnya.",
+    text: "Tuliskan langkah-langkah alur kerja inti dari awal hingga selesai. Misalnya: sales membuat pesanan, admin memverifikasi, gudang menyiapkan barang, status terkirim tercatat. Setiap langkah dalam alur ini harus ada di MVP, walaupun dalam bentuk sederhana. Fitur yang tidak berada di jalur ini, seperti laporan analitik mendalam, integrasi ke sistem lain, atau pengaturan hak akses yang rumit, bisa menunggu tahap berikutnya.",
   },
   {
     type: "callout",
@@ -95,11 +95,11 @@ export const body: Block[] = [
   { type: "h2", text: "Gambaran ruang lingkup MVP yang sehat" },
   {
     type: "p",
-    text: "Kembali ke contoh bisnis distribusi di awal artikel. Dari daftar keinginan yang panjang, masalah paling mahal ternyata adalah pesanan dari sales lapangan yang dicatat lewat chat, lalu diketik ulang oleh admin — sering terlambat dan kadang salah jumlah. Maka ruang lingkup MVP yang masuk akal adalah aplikasi pemesanan untuk sales: memilih pelanggan, memilih produk dari katalog, melihat stok secara kasar, mengirim pesanan, dan admin menerima daftar pesanan yang rapi untuk diproses.",
+    text: "Kembali ke contoh bisnis distribusi di awal artikel. Dari daftar keinginan yang panjang, masalah paling mahal ternyata adalah pesanan dari sales lapangan yang dicatat lewat chat, lalu diketik ulang oleh admin, sering terlambat dan kadang salah jumlah. Maka ruang lingkup MVP yang masuk akal adalah aplikasi pemesanan untuk sales: memilih pelanggan, memilih produk dari katalog, melihat stok secara kasar, mengirim pesanan, dan admin menerima daftar pesanan yang rapi untuk diproses.",
   },
   {
     type: "p",
-    text: "Portal pemesanan mandiri untuk pelanggan, integrasi otomatis ke akuntansi, dan perhitungan komisi sales tidak dimasukkan. Semuanya tetap penting, tapi bisa menunggu sampai alur pesanan dasar terbukti berjalan dan tim sudah terbiasa. Dengan ruang lingkup seperti ini, manfaat pertama — pesanan yang lebih cepat dan lebih akurat — bisa dirasakan jauh lebih awal, dan data pesanan yang terkumpul menjadi modal berharga untuk tahap berikutnya.",
+    text: "Portal pemesanan mandiri untuk pelanggan, integrasi otomatis ke akuntansi, dan perhitungan komisi sales tidak dimasukkan. Semuanya tetap penting, tapi bisa menunggu sampai alur pesanan dasar terbukti berjalan dan tim sudah terbiasa. Dengan ruang lingkup seperti ini, manfaat pertama, pesanan yang lebih cepat dan lebih akurat, bisa dirasakan jauh lebih awal, dan data pesanan yang terkumpul menjadi modal berharga untuk tahap berikutnya.",
   },
   { type: "h2", text: "Kesalahan umum saat membangun MVP" },
   {
@@ -114,7 +114,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kesalahan terakhir cukup sering terjadi. Setelah MVP berjalan dan masalah paling mendesak teratasi, perhatian perusahaan beralih ke hal lain. Aplikasi tetap dipakai, tapi dengan berbagai solusi darurat di sekitarnya — spreadsheet tambahan, catatan manual, atau grup chat untuk hal-hal yang belum ditangani sistem. Perlahan, keuntungan dari sistem terpusat kembali tergerus. MVP seharusnya menjadi awal dari peta pengembangan, bukan akhirnya.",
+    text: "Kesalahan terakhir cukup sering terjadi. Setelah MVP berjalan dan masalah paling mendesak teratasi, perhatian perusahaan beralih ke hal lain. Aplikasi tetap dipakai, tapi dengan berbagai solusi darurat di sekitarnya, spreadsheet tambahan, catatan manual, atau grup chat untuk hal-hal yang belum ditangani sistem. Perlahan, keuntungan dari sistem terpusat kembali tergerus. MVP seharusnya menjadi awal dari peta pengembangan, bukan akhirnya.",
   },
   {
     type: "image",

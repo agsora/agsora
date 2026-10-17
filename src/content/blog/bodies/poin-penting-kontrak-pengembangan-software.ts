@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Project software hampir selalu menemui perubahan, keterlambatan, atau perbedaan pemahaman di sepanjang perjalanannya — itu bagian normal dari pekerjaan yang kompleks. Kontrak yang disusun dengan baik tidak mencegah semua masalah ini terjadi, tetapi memberikan acuan yang jelas dan disepakati bersama ketika masalah itu muncul. Artikel ini bukan nasihat hukum; untuk kontrak bernilai besar, tetap libatkan penasihat hukum profesional.",
+    text: "Project software hampir selalu menemui perubahan, keterlambatan, atau perbedaan pemahaman di sepanjang perjalanannya, itu bagian normal dari pekerjaan yang kompleks. Kontrak yang disusun dengan baik tidak mencegah semua masalah ini terjadi, tetapi memberikan acuan yang jelas dan disepakati bersama ketika masalah itu muncul. Artikel ini bukan nasihat hukum; untuk kontrak bernilai besar, tetap libatkan penasihat hukum profesional.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa kontrak yang jelas sangat penting" },
   {
     type: "p",
-    text: "Tanpa kontrak yang jelas, setiap ketidaksepakatan bergantung pada ingatan masing-masing pihak tentang apa yang pernah dibicarakan — dan ingatan manusia sangat mudah bias sesuai kepentingan masing-masing. Kontrak yang komprehensif menjadi acuan objektif yang bisa dirujuk kembali kapan pun diperlukan, melindungi kedua belah pihak dari kesalahpahaman yang bisa merusak hubungan kerja yang seharusnya saling menguntungkan.",
+    text: "Tanpa kontrak yang jelas, setiap ketidaksepakatan bergantung pada ingatan masing-masing pihak tentang apa yang pernah dibicarakan, dan ingatan manusia sangat mudah bias sesuai kepentingan masing-masing. Kontrak yang komprehensif menjadi acuan objektif yang bisa dirujuk kembali kapan pun diperlukan, melindungi kedua belah pihak dari kesalahpahaman yang bisa merusak hubungan kerja yang seharusnya saling menguntungkan.",
   },
   { type: "h2", text: "Ruang lingkup yang tertulis rinci" },
   {
@@ -54,7 +54,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Kepemilikan source code harus dinyatakan eksplisit",
-    text: "Jangan pernah berasumsi source code otomatis menjadi milik pemesan hanya karena pembayaran sudah dilakukan penuh. Kontrak sebaiknya menyatakan dengan sangat jelas siapa pemiliknya, apakah ada komponen milik vendor yang hanya dilisensikan untuk dipakai — bukan dimiliki sepenuhnya, dan kapan tepatnya serah terima kepemilikan tersebut dilakukan secara resmi.",
+    text: "Jangan pernah berasumsi source code otomatis menjadi milik pemesan hanya karena pembayaran sudah dilakukan penuh. Kontrak sebaiknya menyatakan dengan sangat jelas siapa pemiliknya, apakah ada komponen milik vendor yang hanya dilisensikan untuk dipakai, bukan dimiliki sepenuhnya, dan kapan tepatnya serah terima kepemilikan tersebut dilakukan secara resmi.",
   },
   { type: "h2", text: "Kewajiban kedua belah pihak, bukan hanya vendor" },
   {
@@ -64,12 +64,12 @@ export const body: Block[] = [
   { type: "h2", text: "Rencanakan jika kerja sama berhenti di tengah jalan" },
   {
     type: "p",
-    text: "Pertimbangkan sejak awal apa yang akan terjadi jika kerja sama berakhir sebelum project benar-benar selesai — entah karena keputusan salah satu pihak atau situasi lain yang tidak terduga. Pekerjaan apa yang akan diserahkan sampai titik tersebut, bagaimana pembayaran untuk pekerjaan yang sudah dilakukan dihitung, dan bagaimana source code serta dokumentasi yang sudah ada diserahkan kepada klien. Membahas skenario ini di awal jauh lebih mudah dan lebih tenang dibanding membahasnya ketika hubungan sudah memburuk dan penuh ketegangan.",
+    text: "Pertimbangkan sejak awal apa yang akan terjadi jika kerja sama berakhir sebelum project benar-benar selesai, entah karena keputusan salah satu pihak atau situasi lain yang tidak terduga. Pekerjaan apa yang akan diserahkan sampai titik tersebut, bagaimana pembayaran untuk pekerjaan yang sudah dilakukan dihitung, dan bagaimana source code serta dokumentasi yang sudah ada diserahkan kepada klien. Membahas skenario ini di awal jauh lebih mudah dan lebih tenang dibanding membahasnya ketika hubungan sudah memburuk dan penuh ketegangan.",
   },
   { type: "h2", text: "Ilustrasi: kontrak yang menyelamatkan hubungan kerja" },
   {
     type: "p",
-    text: "Bayangkan sebuah project pengembangan aplikasi yang di tengah jalan mengalami perubahan kebutuhan cukup signifikan karena kondisi pasar klien berubah. Karena kontraknya mencantumkan mekanisme perubahan ruang lingkup yang jelas — bagaimana dampaknya terhadap waktu dan biaya dihitung serta disepakati — kedua belah pihak bisa duduk bersama, menyesuaikan rencana dengan tenang, dan melanjutkan kerja sama tanpa perselisihan berarti.",
+    text: "Bayangkan sebuah project pengembangan aplikasi yang di tengah jalan mengalami perubahan kebutuhan cukup signifikan karena kondisi pasar klien berubah. Karena kontraknya mencantumkan mekanisme perubahan ruang lingkup yang jelas, bagaimana dampaknya terhadap waktu dan biaya dihitung serta disepakati, kedua belah pihak bisa duduk bersama, menyesuaikan rencana dengan tenang, dan melanjutkan kerja sama tanpa perselisihan berarti.",
   },
   {
     type: "p",
@@ -83,7 +83,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani kerahasiaan dan data sensitif" },
   {
     type: "p",
-    text: "Jika project melibatkan akses ke data sensitif perusahaan — data pelanggan, data keuangan, atau rahasia bisnis lainnya — pastikan kontrak mencantumkan klausul kerahasiaan yang jelas dan ketentuan tentang bagaimana data tersebut akan dikelola, disimpan, dan dihapus setelah project selesai atau kerja sama berakhir.",
+    text: "Jika project melibatkan akses ke data sensitif perusahaan, data pelanggan, data keuangan, atau rahasia bisnis lainnya, pastikan kontrak mencantumkan klausul kerahasiaan yang jelas dan ketentuan tentang bagaimana data tersebut akan dikelola, disimpan, dan dihapus setelah project selesai atau kerja sama berakhir.",
   },
   { type: "h2", text: "Langkah meninjau kontrak sebelum menandatangani" },
   {
@@ -100,16 +100,16 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani perubahan ruang lingkup di tengah jalan" },
   {
     type: "p",
-    text: "Hampir setiap project software mengalami perubahan kebutuhan di tengah perjalanan — ini bukan tanda kegagalan perencanaan, melainkan realitas yang wajar ketika klien semakin memahami kebutuhannya seiring project berjalan. Masalahnya bukan pada perubahan itu sendiri, melainkan pada bagaimana perubahan tersebut ditangani. Kontrak yang baik mencantumkan mekanisme formal untuk mengajukan perubahan ruang lingkup: siapa yang berwenang menyetujuinya, bagaimana dampaknya terhadap waktu dan biaya dihitung, dan berapa lama waktu yang dibutuhkan untuk mengevaluasi permintaan tersebut sebelum dikerjakan.",
+    text: "Hampir setiap project software mengalami perubahan kebutuhan di tengah perjalanan, ini bukan tanda kegagalan perencanaan, melainkan realitas yang wajar ketika klien semakin memahami kebutuhannya seiring project berjalan. Masalahnya bukan pada perubahan itu sendiri, melainkan pada bagaimana perubahan tersebut ditangani. Kontrak yang baik mencantumkan mekanisme formal untuk mengajukan perubahan ruang lingkup: siapa yang berwenang menyetujuinya, bagaimana dampaknya terhadap waktu dan biaya dihitung, dan berapa lama waktu yang dibutuhkan untuk mengevaluasi permintaan tersebut sebelum dikerjakan.",
   },
   {
     type: "p",
-    text: "Tanpa mekanisme ini, perubahan kecil yang diminta secara informal lewat pesan singkat bisa menumpuk menjadi beban kerja signifikan yang tidak pernah tercatat resmi — vendor merasa dieksploitasi karena terus mengerjakan permintaan tambahan tanpa kompensasi yang jelas, sementara klien merasa wajar karena “kan cuma perubahan kecil”. Setiap permintaan perubahan, sekecil apa pun, sebaiknya melalui proses pencatatan resmi meski prosesnya bisa dibuat sederhana dan cepat, agar kedua belah pihak punya catatan yang sama tentang apa yang sudah disepakati.",
+    text: "Tanpa mekanisme ini, perubahan kecil yang diminta secara informal lewat pesan singkat bisa menumpuk menjadi beban kerja signifikan yang tidak pernah tercatat resmi, vendor merasa dieksploitasi karena terus mengerjakan permintaan tambahan tanpa kompensasi yang jelas, sementara klien merasa wajar karena “kan cuma perubahan kecil”. Setiap permintaan perubahan, sekecil apa pun, sebaiknya melalui proses pencatatan resmi meski prosesnya bisa dibuat sederhana dan cepat, agar kedua belah pihak punya catatan yang sama tentang apa yang sudah disepakati.",
   },
   { type: "h2", text: "Struktur pembayaran yang melindungi kedua belah pihak" },
   {
     type: "p",
-    text: "Skema pembayaran di muka penuh berisiko bagi klien jika vendor tidak menyelesaikan pekerjaan sesuai janji, sementara skema pembayaran penuh di akhir berisiko bagi vendor jika klien menunda atau menolak membayar setelah pekerjaan selesai. Skema termin yang mengikat pembayaran pada pencapaian tahap tertentu — misalnya setelah desain disetujui, setelah fitur inti berfungsi, dan setelah pengujian selesai — memberi keseimbangan yang lebih adil bagi kedua belah pihak, sekaligus memberi insentif bagi vendor untuk terus menunjukkan kemajuan yang nyata dan terukur.",
+    text: "Skema pembayaran di muka penuh berisiko bagi klien jika vendor tidak menyelesaikan pekerjaan sesuai janji, sementara skema pembayaran penuh di akhir berisiko bagi vendor jika klien menunda atau menolak membayar setelah pekerjaan selesai. Skema termin yang mengikat pembayaran pada pencapaian tahap tertentu, misalnya setelah desain disetujui, setelah fitur inti berfungsi, dan setelah pengujian selesai, memberi keseimbangan yang lebih adil bagi kedua belah pihak, sekaligus memberi insentif bagi vendor untuk terus menunjukkan kemajuan yang nyata dan terukur.",
   },
   {
     type: "p",
@@ -118,16 +118,16 @@ export const body: Block[] = [
   { type: "h2", text: "Garansi dan tanggung jawab setelah peluncuran" },
   {
     type: "p",
-    text: "Kontrak sebaiknya membedakan dengan jelas antara masa perbaikan bug — periode setelah peluncuran di mana vendor memperbaiki cacat yang ditemukan tanpa biaya tambahan — dengan layanan pemeliharaan berbayar setelah masa tersebut berakhir. Tanpa batasan yang jelas, klien bisa berasumsi semua permintaan perbaikan dan penambahan kecil termasuk dalam garansi gratis, sementara vendor menganggap sebagian besar permintaan tersebut sebagai pekerjaan baru yang harus dibayar terpisah.",
+    text: "Kontrak sebaiknya membedakan dengan jelas antara masa perbaikan bug, periode setelah peluncuran di mana vendor memperbaiki cacat yang ditemukan tanpa biaya tambahan, dengan layanan pemeliharaan berbayar setelah masa tersebut berakhir. Tanpa batasan yang jelas, klien bisa berasumsi semua permintaan perbaikan dan penambahan kecil termasuk dalam garansi gratis, sementara vendor menganggap sebagian besar permintaan tersebut sebagai pekerjaan baru yang harus dibayar terpisah.",
   },
   {
     type: "p",
-    text: "Definisikan juga dengan spesifik apa yang termasuk “bug” dan apa yang termasuk “fitur baru” dalam konteks kontrak tersebut, karena batas antara keduanya sering menjadi area abu-abu yang memicu perdebatan. Sebuah perilaku sistem yang tidak sesuai dengan dokumen ruang lingkup awal biasanya jelas termasuk bug, tetapi permintaan agar sistem berperilaku berbeda dari yang awalnya disepakati — meski terasa seperti “perbaikan kecil” bagi klien — sebenarnya lebih tepat dikategorikan sebagai permintaan fitur baru.",
+    text: "Definisikan juga dengan spesifik apa yang termasuk “bug” dan apa yang termasuk “fitur baru” dalam konteks kontrak tersebut, karena batas antara keduanya sering menjadi area abu-abu yang memicu perdebatan. Sebuah perilaku sistem yang tidak sesuai dengan dokumen ruang lingkup awal biasanya jelas termasuk bug, tetapi permintaan agar sistem berperilaku berbeda dari yang awalnya disepakati, meski terasa seperti “perbaikan kecil” bagi klien, sebenarnya lebih tepat dikategorikan sebagai permintaan fitur baru.",
   },
   { type: "h2", text: "Hukum yang berlaku dan penyelesaian sengketa" },
   {
     type: "p",
-    text: "Untuk kerja sama dengan vendor dari luar negeri, atau bahkan antar kota dengan sistem peradilan yang berbeda kecepatannya, kontrak sebaiknya menyatakan dengan jelas hukum negara atau yurisdiksi mana yang berlaku jika terjadi sengketa, dan mekanisme penyelesaian apa yang akan ditempuh lebih dulu — musyawarah, mediasi, arbitrase, atau langsung ke jalur pengadilan. Tanpa ketentuan ini, sengketa yang muncul bisa terjebak dalam perdebatan tentang yurisdiksi mana yang berwenang, sebelum masalah utamanya sendiri sempat dibahas.",
+    text: "Untuk kerja sama dengan vendor dari luar negeri, atau bahkan antar kota dengan sistem peradilan yang berbeda kecepatannya, kontrak sebaiknya menyatakan dengan jelas hukum negara atau yurisdiksi mana yang berlaku jika terjadi sengketa, dan mekanisme penyelesaian apa yang akan ditempuh lebih dulu, musyawarah, mediasi, arbitrase, atau langsung ke jalur pengadilan. Tanpa ketentuan ini, sengketa yang muncul bisa terjebak dalam perdebatan tentang yurisdiksi mana yang berwenang, sebelum masalah utamanya sendiri sempat dibahas.",
   },
   {
     type: "p",
@@ -147,7 +147,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Kontrak pengembangan software yang baik bukan tentang mengantisipasi setiap kemungkinan buruk, melainkan tentang menciptakan acuan bersama yang jelas ketika situasi tidak berjalan sesuai rencana — dan dalam project software, situasi semacam itu hampir pasti akan terjadi. Luangkan waktu meninjau poin-poin penting ini sebelum menandatangani, dan hubungan kerja Anda dengan vendor akan jauh lebih sehat sepanjang project berjalan.",
+    text: "Kontrak pengembangan software yang baik bukan tentang mengantisipasi setiap kemungkinan buruk, melainkan tentang menciptakan acuan bersama yang jelas ketika situasi tidak berjalan sesuai rencana, dan dalam project software, situasi semacam itu hampir pasti akan terjadi. Luangkan waktu meninjau poin-poin penting ini sebelum menandatangani, dan hubungan kerja Anda dengan vendor akan jauh lebih sehat sepanjang project berjalan.",
   },
   {
     type: "cta",

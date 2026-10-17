@@ -27,7 +27,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Karena itu, kemampuan yang dulu terasa sebagai tambahan — laporan per outlet, hak akses, pencatatan transfer — berubah menjadi kebutuhan pokok. Sistem yang tidak memilikinya memaksa Anda menutup celah dengan pekerjaan manual, dan pekerjaan manual itulah yang tumbuh paling cepat ketika outlet bertambah.",
+    text: "Karena itu, kemampuan yang dulu terasa sebagai tambahan, laporan per outlet, hak akses, pencatatan transfer, berubah menjadi kebutuhan pokok. Sistem yang tidak memilikinya memaksa Anda menutup celah dengan pekerjaan manual, dan pekerjaan manual itulah yang tumbuh paling cepat ketika outlet bertambah.",
   },
   { type: "h2", text: "Kemampuan yang menjadi wajib" },
   { type: "h3", text: "Laporan gabungan tanpa rekap manual" },
@@ -212,7 +212,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Siap melihat semua outlet dari satu layar?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

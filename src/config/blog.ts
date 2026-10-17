@@ -146,7 +146,7 @@ function countWords(body: Block[]) {
 export const blogPosts: BlogPost[] = meta.map((post) => {
   const body = bodies[post.slug];
   if (!body) {
-    throw new Error(`No article body found for slug "${post.slug}" — add src/content/blog/bodies/${post.slug}.ts`);
+    throw new Error(`No article body found for slug "${post.slug}", add src/content/blog/bodies/${post.slug}.ts`);
   }
   const wordCount = countWords(body);
   return {

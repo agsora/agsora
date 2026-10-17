@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Tim customer service bangga menunjukkan chatbot AI baru mereka yang bisa menjawab pertanyaan pelanggan dengan sangat lancar dan meyakinkan. Sampai suatu hari, seorang pelanggan menunjukkan tangkapan layar percakapan di mana chatbot itu dengan percaya diri menjanjikan diskon 50% yang sebenarnya tidak pernah ada dalam kebijakan resmi perusahaan mana pun. Chatbot itu tidak berbohong secara sengaja — ia hanya menyusun jawaban yang terdengar masuk akal berdasarkan pola bahasa, tanpa benar-benar tahu kebijakan yang sebenarnya berlaku.",
+    text: "Tim customer service bangga menunjukkan chatbot AI baru mereka yang bisa menjawab pertanyaan pelanggan dengan sangat lancar dan meyakinkan. Sampai suatu hari, seorang pelanggan menunjukkan tangkapan layar percakapan di mana chatbot itu dengan percaya diri menjanjikan diskon 50% yang sebenarnya tidak pernah ada dalam kebijakan resmi perusahaan mana pun. Chatbot itu tidak berbohong secara sengaja, ia hanya menyusun jawaban yang terdengar masuk akal berdasarkan pola bahasa, tanpa benar-benar tahu kebijakan yang sebenarnya berlaku.",
   },
   {
     type: "p",
@@ -23,12 +23,12 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa risiko AI berbeda dari software biasa" },
   {
     type: "p",
-    text: "Software konvensional bekerja dengan logika yang pasti dan bisa diprediksi — jika kondisi tertentu terpenuhi, hasilnya akan selalu sama. AI generatif bekerja dengan cara yang fundamental berbeda: ia menyusun jawaban berdasarkan pola statistik dari data yang pernah dipelajarinya, yang berarti hasilnya bisa bervariasi dan, yang lebih penting, bisa terdengar sangat meyakinkan meski sebenarnya keliru sama sekali.",
+    text: "Software konvensional bekerja dengan logika yang pasti dan bisa diprediksi, jika kondisi tertentu terpenuhi, hasilnya akan selalu sama. AI generatif bekerja dengan cara yang fundamental berbeda: ia menyusun jawaban berdasarkan pola statistik dari data yang pernah dipelajarinya, yang berarti hasilnya bisa bervariasi dan, yang lebih penting, bisa terdengar sangat meyakinkan meski sebenarnya keliru sama sekali.",
   },
   { type: "h2", text: "Jawaban yang meyakinkan tapi keliru" },
   {
     type: "p",
-    text: "Model AI generatif bisa menghasilkan jawaban yang terdengar sangat tepat dan profesional, tetapi sebenarnya salah — termasuk angka yang tidak akurat, kutipan yang sebenarnya tidak pernah ada, atau fakta yang sepenuhnya dikarang tanpa disadari. Ini bukan kerusakan yang terjadi sesekali secara kebetulan, melainkan memang bagian dari cara kerja dasar teknologi ini. Karena itu, keluaran AI untuk hal-hal yang penting perlu diperiksa secara cermat oleh manusia sebelum benar-benar dipakai atau disebarkan lebih lanjut.",
+    text: "Model AI generatif bisa menghasilkan jawaban yang terdengar sangat tepat dan profesional, tetapi sebenarnya salah, termasuk angka yang tidak akurat, kutipan yang sebenarnya tidak pernah ada, atau fakta yang sepenuhnya dikarang tanpa disadari. Ini bukan kerusakan yang terjadi sesekali secara kebetulan, melainkan memang bagian dari cara kerja dasar teknologi ini. Karena itu, keluaran AI untuk hal-hal yang penting perlu diperiksa secara cermat oleh manusia sebelum benar-benar dipakai atau disebarkan lebih lanjut.",
   },
   { type: "h2", text: "Kebocoran data yang tidak disadari" },
   {
@@ -38,12 +38,12 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Buat aturan pemakaian sebelum AI menyebar tanpa kendali",
-    text: "Karyawan sering kali sudah mulai memakai berbagai alat AI secara mandiri jauh sebelum ada kebijakan resmi dari perusahaan. Aturan sederhana yang jelas — alat mana saja yang boleh dipakai dan data seperti apa yang tidak boleh dimasukkan — jauh lebih efektif diterapkan dibanding larangan total yang pada praktiknya sering diabaikan begitu saja oleh karyawan.",
+    text: "Karyawan sering kali sudah mulai memakai berbagai alat AI secara mandiri jauh sebelum ada kebijakan resmi dari perusahaan. Aturan sederhana yang jelas, alat mana saja yang boleh dipakai dan data seperti apa yang tidak boleh dimasukkan, jauh lebih efektif diterapkan dibanding larangan total yang pada praktiknya sering diabaikan begitu saja oleh karyawan.",
   },
   { type: "h2", text: "Keputusan yang sulit dijelaskan alasannya" },
   {
     type: "p",
-    text: "Ketika AI membantu mengambil keputusan yang berdampak langsung pada kehidupan orang — misalnya menyaring lamaran kerja calon karyawan atau menilai kelayakan kredit pelanggan — sangat sulit menjelaskan secara pasti mengapa sebuah keputusan tertentu diambil oleh sistem. Keputusan-keputusan semacam ini sebaiknya tetap berada di tangan manusia sepenuhnya, dengan AI hanya berperan sebagai alat bantu yang mempercepat proses, bukan sebagai pengambil keputusan akhir yang otonom.",
+    text: "Ketika AI membantu mengambil keputusan yang berdampak langsung pada kehidupan orang, misalnya menyaring lamaran kerja calon karyawan atau menilai kelayakan kredit pelanggan, sangat sulit menjelaskan secara pasti mengapa sebuah keputusan tertentu diambil oleh sistem. Keputusan-keputusan semacam ini sebaiknya tetap berada di tangan manusia sepenuhnya, dengan AI hanya berperan sebagai alat bantu yang mempercepat proses, bukan sebagai pengambil keputusan akhir yang otonom.",
   },
   { type: "h2", text: "Ketergantungan pada penyedia layanan" },
   {
@@ -87,11 +87,11 @@ export const body: Block[] = [
   { type: "h2", text: "Bias yang terwarisi dari data pelatihan" },
   {
     type: "p",
-    text: "Model AI belajar dari data yang sangat besar jumlahnya, dan data tersebut membawa pola-pola yang ada di dalamnya — termasuk bias yang mungkin tidak disadari oleh siapa pun yang menyusun data tersebut. Ketika AI dipakai untuk pekerjaan seperti menyaring kandidat kerja atau menilai kelayakan calon mitra bisnis, bias semacam ini bisa berakibat pada keputusan yang secara sistematis kurang adil bagi kelompok tertentu, tanpa ada yang secara sengaja merancangnya demikian.",
+    text: "Model AI belajar dari data yang sangat besar jumlahnya, dan data tersebut membawa pola-pola yang ada di dalamnya, termasuk bias yang mungkin tidak disadari oleh siapa pun yang menyusun data tersebut. Ketika AI dipakai untuk pekerjaan seperti menyaring kandidat kerja atau menilai kelayakan calon mitra bisnis, bias semacam ini bisa berakibat pada keputusan yang secara sistematis kurang adil bagi kelompok tertentu, tanpa ada yang secara sengaja merancangnya demikian.",
   },
   {
     type: "p",
-    text: "Karena sulit mengetahui persis bias apa yang mungkin terbawa dalam sebuah model, pendekatan paling aman adalah tetap memperlakukan keluaran AI sebagai masukan awal yang perlu ditinjau manusia, bukan sebagai keputusan final yang langsung dieksekusi. Untuk proses yang berdampak pada peluang seseorang — pekerjaan, kredit, atau layanan penting lainnya — audit berkala terhadap pola keputusan yang dihasilkan AI membantu mengenali kejanggalan sebelum berkembang menjadi masalah yang lebih besar dan sulit diperbaiki.",
+    text: "Karena sulit mengetahui persis bias apa yang mungkin terbawa dalam sebuah model, pendekatan paling aman adalah tetap memperlakukan keluaran AI sebagai masukan awal yang perlu ditinjau manusia, bukan sebagai keputusan final yang langsung dieksekusi. Untuk proses yang berdampak pada peluang seseorang, pekerjaan, kredit, atau layanan penting lainnya, audit berkala terhadap pola keputusan yang dihasilkan AI membantu mengenali kejanggalan sebelum berkembang menjadi masalah yang lebih besar dan sulit diperbaiki.",
   },
   { type: "h2", text: "Menyusun kebijakan pemakaian AI yang realistis" },
   {

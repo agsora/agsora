@@ -72,7 +72,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua perusahaan, dua kebutuhan berbeda" },
   {
     type: "p",
-    text: "Bayangkan sebuah startup dengan lima karyawan yang membutuhkan sistem CRM segera untuk mulai mengelola prospek penjualan. Model berlangganan jelas jauh lebih masuk akal bagi mereka — biaya awal yang rendah memungkinkan mereka mulai beroperasi dengan cepat tanpa harus mengeluarkan modal besar di awal yang berisiko bagi bisnis yang masih baru berjalan.",
+    text: "Bayangkan sebuah startup dengan lima karyawan yang membutuhkan sistem CRM segera untuk mulai mengelola prospek penjualan. Model berlangganan jelas jauh lebih masuk akal bagi mereka, biaya awal yang rendah memungkinkan mereka mulai beroperasi dengan cepat tanpa harus mengeluarkan modal besar di awal yang berisiko bagi bisnis yang masih baru berjalan.",
   },
   {
     type: "p",
@@ -81,7 +81,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mempertimbangkan opsi hibrida" },
   {
     type: "p",
-    text: "Beberapa penyedia software kini menawarkan model campuran — lisensi yang dibeli sekali untuk penggunaan inti, ditambah biaya berlangganan opsional untuk fitur tambahan atau dukungan teknis lanjutan. Model seperti ini bisa menjadi jalan tengah yang menarik bagi bisnis yang menginginkan kendali lebih besar tanpa sepenuhnya kehilangan fleksibilitas dari model berlangganan.",
+    text: "Beberapa penyedia software kini menawarkan model campuran, lisensi yang dibeli sekali untuk penggunaan inti, ditambah biaya berlangganan opsional untuk fitur tambahan atau dukungan teknis lanjutan. Model seperti ini bisa menjadi jalan tengah yang menarik bagi bisnis yang menginginkan kendali lebih besar tanpa sepenuhnya kehilangan fleksibilitas dari model berlangganan.",
   },
   { type: "h2", text: "Mengevaluasi risiko ketergantungan pada penyedia" },
   {
@@ -102,7 +102,7 @@ export const body: Block[] = [
   { type: "h2", text: "Keamanan data pada masing-masing model" },
   {
     type: "p",
-    text: "Pada model berlangganan, keamanan data sepenuhnya bergantung pada standar dan praktik penyedia layanan — Anda perlu memeriksa bagaimana mereka mengenkripsi data, siapa saja yang punya akses ke server mereka, dan langkah apa yang mereka ambil jika terjadi insiden keamanan. Tanyakan secara spesifik tentang sertifikasi keamanan yang mereka miliki dan lokasi penyimpanan data, terutama jika bisnis Anda menangani data pelanggan yang sensitif.",
+    text: "Pada model berlangganan, keamanan data sepenuhnya bergantung pada standar dan praktik penyedia layanan, Anda perlu memeriksa bagaimana mereka mengenkripsi data, siapa saja yang punya akses ke server mereka, dan langkah apa yang mereka ambil jika terjadi insiden keamanan. Tanyakan secara spesifik tentang sertifikasi keamanan yang mereka miliki dan lokasi penyimpanan data, terutama jika bisnis Anda menangani data pelanggan yang sensitif.",
   },
   {
     type: "p",
@@ -115,7 +115,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Jika biaya berlangganan mulai mendekati atau bahkan melampaui perkiraan biaya lisensi sekali beli untuk skala operasional Anda saat ini, itu adalah sinyal yang layak dipertimbangkan untuk mengevaluasi ulang model yang dipakai — bukan berarti harus segera berpindah, tetapi setidaknya membuka diskusi dengan penyedia atau mempertimbangkan alternatif lain yang tersedia di pasar.",
+    text: "Jika biaya berlangganan mulai mendekati atau bahkan melampaui perkiraan biaya lisensi sekali beli untuk skala operasional Anda saat ini, itu adalah sinyal yang layak dipertimbangkan untuk mengevaluasi ulang model yang dipakai, bukan berarti harus segera berpindah, tetapi setidaknya membuka diskusi dengan penyedia atau mempertimbangkan alternatif lain yang tersedia di pasar.",
   },
   { type: "h2", text: "Mempertimbangkan kebutuhan kustomisasi" },
   {
@@ -149,7 +149,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Keputusan antara berlangganan atau lisensi sekali beli sebaiknya didasarkan pada perhitungan biaya menyeluruh dalam jangka panjang, kapasitas tim internal Anda, dan kebutuhan spesifik bisnis — bukan sekadar angka harga awal yang terlihat paling menarik. Luangkan waktu menghitung dengan cermat sebelum berkomitmen pada salah satu model, karena keputusan ini akan berdampak pada operasional bisnis Anda selama bertahun-tahun ke depan.",
+    text: "Keputusan antara berlangganan atau lisensi sekali beli sebaiknya didasarkan pada perhitungan biaya menyeluruh dalam jangka panjang, kapasitas tim internal Anda, dan kebutuhan spesifik bisnis, bukan sekadar angka harga awal yang terlihat paling menarik. Luangkan waktu menghitung dengan cermat sebelum berkomitmen pada salah satu model, karena keputusan ini akan berdampak pada operasional bisnis Anda selama bertahun-tahun ke depan.",
   },
   {
     type: "cta",

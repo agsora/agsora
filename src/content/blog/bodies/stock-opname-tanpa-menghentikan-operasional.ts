@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Toko tutup dua hari untuk stock opname akhir tahun. Karyawan lembur menghitung setiap rak, pelanggan yang datang kecewa menemukan pintu terkunci, dan setelah semua dihitung, selisihnya cukup besar — tapi tidak ada yang tahu kapan tepatnya selisih itu terjadi, karena penghitungan terakhir dilakukan setahun lalu.",
+    text: "Toko tutup dua hari untuk stock opname akhir tahun. Karyawan lembur menghitung setiap rak, pelanggan yang datang kecewa menemukan pintu terkunci, dan setelah semua dihitung, selisihnya cukup besar, tapi tidak ada yang tahu kapan tepatnya selisih itu terjadi, karena penghitungan terakhir dilakukan setahun lalu.",
   },
   {
     type: "p",
-    text: "Banyak bisnis melakukan stock opname setahun sekali atau setiap akhir periode dengan menghentikan seluruh aktivitas gudang atau toko. Cara ini memberikan satu angka yang pasti pada satu titik waktu, tetapi mengorbankan penjualan dan operasional selama penghitungan berlangsung — dan selisih yang ditemukan sudah menumpuk berbulan-bulan, sehingga sangat sulit ditelusuri penyebabnya.",
+    text: "Banyak bisnis melakukan stock opname setahun sekali atau setiap akhir periode dengan menghentikan seluruh aktivitas gudang atau toko. Cara ini memberikan satu angka yang pasti pada satu titik waktu, tetapi mengorbankan penjualan dan operasional selama penghitungan berlangsung, dan selisih yang ditemukan sudah menumpuk berbulan-bulan, sehingga sangat sulit ditelusuri penyebabnya.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Masalah dengan stock opname tahunan" },
   {
     type: "p",
-    text: "Stock opname tahunan memang memberikan gambaran menyeluruh, tetapi datang dengan beberapa kelemahan mendasar. Pertama, menutup operasional berarti kehilangan penjualan selama periode tersebut — kerugian yang nyata meski jarang dihitung secara eksplisit. Kedua, selisih yang ditemukan sudah terakumulasi selama setahun penuh, membuatnya hampir mustahil ditelusuri ke penyebab spesifiknya: apakah karena kesalahan pencatatan di bulan tertentu, kehilangan barang, atau kombinasi banyak faktor kecil.",
+    text: "Stock opname tahunan memang memberikan gambaran menyeluruh, tetapi datang dengan beberapa kelemahan mendasar. Pertama, menutup operasional berarti kehilangan penjualan selama periode tersebut, kerugian yang nyata meski jarang dihitung secara eksplisit. Kedua, selisih yang ditemukan sudah terakumulasi selama setahun penuh, membuatnya hampir mustahil ditelusuri ke penyebab spesifiknya: apakah karena kesalahan pencatatan di bulan tertentu, kehilangan barang, atau kombinasi banyak faktor kecil.",
   },
   {
     type: "p",
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "h2", text: "Hitung siklus sebagai alternatif" },
   {
     type: "p",
-    text: "Hitung siklus (cycle count) membagi penghitungan menjadi bagian-bagian kecil yang dilakukan secara rutin — harian atau mingguan. Setiap sesi hanya sebagian kecil barang yang dihitung, sehingga dalam satu periode tertentu seluruh barang tetap tercakup, tanpa toko atau gudang harus ditutup sama sekali.",
+    text: "Hitung siklus (cycle count) membagi penghitungan menjadi bagian-bagian kecil yang dilakukan secara rutin, harian atau mingguan. Setiap sesi hanya sebagian kecil barang yang dihitung, sehingga dalam satu periode tertentu seluruh barang tetap tercakup, tanpa toko atau gudang harus ditutup sama sekali.",
   },
   {
     type: "p",
@@ -71,7 +71,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Selidiki selisih saat masih segar",
-    text: "Keuntungan terbesar hitung siklus bukan hanya stok yang lebih akurat, melainkan selisih yang ditemukan jauh lebih cepat. Ketika selisih diketahui dalam hitungan hari, penyebabnya — salah catat penerimaan, salah ambil barang, atau kehilangan — masih bisa ditelusuri karena ingatan dan bukti pendukung masih segar.",
+    text: "Keuntungan terbesar hitung siklus bukan hanya stok yang lebih akurat, melainkan selisih yang ditemukan jauh lebih cepat. Ketika selisih diketahui dalam hitungan hari, penyebabnya, salah catat penerimaan, salah ambil barang, atau kehilangan, masih bisa ditelusuri karena ingatan dan bukti pendukung masih segar.",
   },
   { type: "h2", text: "Peran sistem dalam hitung siklus" },
   {
@@ -81,7 +81,7 @@ export const body: Block[] = [
   { type: "h2", text: "Hitung tanpa melihat angka sistem lebih dulu" },
   {
     type: "p",
-    text: "Petugas yang melakukan penghitungan fisik sebaiknya tidak melihat jumlah stok menurut sistem sebelum menghitung. Jika angka sistem terlihat lebih dulu, ada kecenderungan alami untuk “menyesuaikan” hasil hitung agar terlihat cocok — baik disengaja maupun tidak — dan selisih yang sebenarnya tidak pernah benar-benar terungkap.",
+    text: "Petugas yang melakukan penghitungan fisik sebaiknya tidak melihat jumlah stok menurut sistem sebelum menghitung. Jika angka sistem terlihat lebih dulu, ada kecenderungan alami untuk “menyesuaikan” hasil hitung agar terlihat cocok, baik disengaja maupun tidak, dan selisih yang sebenarnya tidak pernah benar-benar terungkap.",
   },
   { type: "h2", text: "Ilustrasi: dari sekali setahun menjadi rutin" },
   {
@@ -95,7 +95,7 @@ export const body: Block[] = [
   { type: "h2", text: "Melibatkan tim dalam proses" },
   {
     type: "p",
-    text: "Hitung siklus bekerja paling baik ketika menjadi bagian rutin pekerjaan staf gudang atau toko, bukan tugas tambahan yang dianggap mengganggu. Jelaskan kepada tim bahwa proses ini membantu menemukan masalah lebih cepat, yang pada akhirnya memudahkan pekerjaan mereka sendiri — daripada harus menghadapi penghitungan besar yang melelahkan setahun sekali.",
+    text: "Hitung siklus bekerja paling baik ketika menjadi bagian rutin pekerjaan staf gudang atau toko, bukan tugas tambahan yang dianggap mengganggu. Jelaskan kepada tim bahwa proses ini membantu menemukan masalah lebih cepat, yang pada akhirnya memudahkan pekerjaan mereka sendiri, daripada harus menghadapi penghitungan besar yang melelahkan setahun sekali.",
   },
   { type: "h2", text: "Teknologi yang mempermudah hitung siklus" },
   {
@@ -104,12 +104,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Untuk gudang dengan jumlah SKU yang besar, kemampuan sistem menghasilkan daftar hitung yang sudah terurut berdasarkan lokasi rak juga menghemat waktu petugas — mereka berjalan mengikuti urutan lokasi yang logis, bukan bolak-balik mencari barang yang tersebar acak di daftar.",
+    text: "Untuk gudang dengan jumlah SKU yang besar, kemampuan sistem menghasilkan daftar hitung yang sudah terurut berdasarkan lokasi rak juga menghemat waktu petugas, mereka berjalan mengikuti urutan lokasi yang logis, bukan bolak-balik mencari barang yang tersebar acak di daftar.",
   },
   { type: "h2", text: "Menangani banyak lokasi atau gudang" },
   {
     type: "p",
-    text: "Bisnis dengan lebih dari satu toko atau gudang menghadapi tantangan tambahan: jadwal hitung siklus perlu disusun per lokasi, dan hasilnya perlu bisa dibandingkan antar lokasi untuk melihat apakah ada pola selisih yang muncul konsisten di satu lokasi tertentu tetapi tidak di lokasi lain. Pola seperti ini sering menjadi petunjuk penting — misalnya menunjukkan masalah prosedur di satu cabang spesifik, bukan masalah sistemik yang berlaku di semua lokasi.",
+    text: "Bisnis dengan lebih dari satu toko atau gudang menghadapi tantangan tambahan: jadwal hitung siklus perlu disusun per lokasi, dan hasilnya perlu bisa dibandingkan antar lokasi untuk melihat apakah ada pola selisih yang muncul konsisten di satu lokasi tertentu tetapi tidak di lokasi lain. Pola seperti ini sering menjadi petunjuk penting, misalnya menunjukkan masalah prosedur di satu cabang spesifik, bukan masalah sistemik yang berlaku di semua lokasi.",
   },
   {
     type: "p",
@@ -142,12 +142,12 @@ export const body: Block[] = [
   { type: "h3", text: "Apakah hitung siklus cocok untuk bisnis kecil?" },
   {
     type: "p",
-    text: "Ya, bahkan bisnis kecil dengan jumlah produk terbatas bisa menerapkan versi sederhana — misalnya menghitung sebagian rak setiap hari alih-alih menunggu penghitungan besar tahunan. Skalanya bisa disesuaikan dengan jumlah karyawan dan waktu yang tersedia.",
+    text: "Ya, bahkan bisnis kecil dengan jumlah produk terbatas bisa menerapkan versi sederhana, misalnya menghitung sebagian rak setiap hari alih-alih menunggu penghitungan besar tahunan. Skalanya bisa disesuaikan dengan jumlah karyawan dan waktu yang tersedia.",
   },
   { type: "h3", text: "Apakah stock opname tahunan masih diperlukan jika sudah pakai hitung siklus?" },
   {
     type: "p",
-    text: "Untuk sebagian besar bisnis, hitung siklus yang konsisten bisa menggantikan kebutuhan stock opname tahunan besar-besaran. Namun beberapa kebutuhan pelaporan keuangan atau audit mungkin tetap mensyaratkan verifikasi menyeluruh pada tanggal tertentu — periksa kebutuhan spesifik bisnis Anda.",
+    text: "Untuk sebagian besar bisnis, hitung siklus yang konsisten bisa menggantikan kebutuhan stock opname tahunan besar-besaran. Namun beberapa kebutuhan pelaporan keuangan atau audit mungkin tetap mensyaratkan verifikasi menyeluruh pada tanggal tertentu, periksa kebutuhan spesifik bisnis Anda.",
   },
   { type: "h2", text: "Menangani barang retur dan konsinyasi" },
   {
@@ -156,12 +156,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Tandai lokasi penyimpanan barang retur dan konsinyasi secara terpisah dari rak stok normal, dan pastikan prosedur hitung siklus menjelaskan secara eksplisit bagaimana kategori barang ini seharusnya dicatat. Tanpa pemisahan yang jelas, laporan stok bisa terlihat akurat secara angka tapi sebenarnya mencampuradukkan kepemilikan yang berbeda — masalah yang biasanya baru terlihat saat rekonsiliasi dengan pemasok atau pemilik barang konsinyasi dilakukan.",
+    text: "Tandai lokasi penyimpanan barang retur dan konsinyasi secara terpisah dari rak stok normal, dan pastikan prosedur hitung siklus menjelaskan secara eksplisit bagaimana kategori barang ini seharusnya dicatat. Tanpa pemisahan yang jelas, laporan stok bisa terlihat akurat secara angka tapi sebenarnya mencampuradukkan kepemilikan yang berbeda, masalah yang biasanya baru terlihat saat rekonsiliasi dengan pemasok atau pemilik barang konsinyasi dilakukan.",
   },
   { type: "h2", text: "Melatih petugas agar hasil hitung konsisten" },
   {
     type: "p",
-    text: "Akurasi hitung siklus sangat bergantung pada konsistensi cara petugas menghitung, terutama ketika lebih dari satu orang bergantian melakukannya. Perbedaan kebiasaan — satu petugas menghitung dus utuh sebagai satu unit sementara yang lain membuka dan menghitung isinya satu per satu, atau perbedaan cara menangani barang yang rusak kemasan — bisa menghasilkan selisih yang sebenarnya bukan karena kehilangan barang, melainkan karena perbedaan metode hitung semata.",
+    text: "Akurasi hitung siklus sangat bergantung pada konsistensi cara petugas menghitung, terutama ketika lebih dari satu orang bergantian melakukannya. Perbedaan kebiasaan, satu petugas menghitung dus utuh sebagai satu unit sementara yang lain membuka dan menghitung isinya satu per satu, atau perbedaan cara menangani barang yang rusak kemasan, bisa menghasilkan selisih yang sebenarnya bukan karena kehilangan barang, melainkan karena perbedaan metode hitung semata.",
   },
   {
     type: "p",
@@ -180,7 +180,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Lelah menutup toko setiap kali stock opname?",
-    text: "Tim AG·SORA membangun sistem inventori yang terhubung dengan penjualan dan gudang Anda — stok akurat dari satu sumber.",
+    text: "Tim AG·SORA membangun sistem inventori yang terhubung dengan penjualan dan gudang Anda, stok akurat dari satu sumber.",
     href: "/services/erp",
     label: "Lihat layanan ERP",
   },

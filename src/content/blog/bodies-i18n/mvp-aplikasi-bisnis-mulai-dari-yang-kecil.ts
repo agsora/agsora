@@ -18,7 +18,7 @@ const en: Block[] = [
     type: "ul",
     items: [
       "An MVP is the simplest version of an app that already solves one real problem and can be used every day",
-      "An MVP is not a throwaway prototype — its technical quality must be good enough to build on, not discard",
+      "An MVP is not a throwaway prototype, its technical quality must be good enough to build on, not discard",
       "MVP scope is defined by the single most important workflow, not by the longest feature list",
       "Feedback from real users in the first few weeks is worth far more than assumptions made during planning",
       "A staged approach reduces cost risk, delivers value sooner, and makes it easier for the team to adapt",
@@ -27,11 +27,11 @@ const en: Block[] = [
   { type: "h2", text: "What an MVP really means for a business" },
   {
     type: "p",
-    text: "In the startup world, an MVP is often used to test whether the market wants a product at all. In an established business the goal is slightly different. You usually already know the problem is real — orders go missing, stock is out of sync, reports arrive late. What you don't yet know is the right shape of the solution, which features will actually get used, and how the team will adapt to a new way of working.",
+    text: "In the startup world, an MVP is often used to test whether the market wants a product at all. In an established business the goal is slightly different. You usually already know the problem is real, orders go missing, stock is out of sync, reports arrive late. What you don't yet know is the right shape of the solution, which features will actually get used, and how the team will adapt to a new way of working.",
   },
   {
     type: "p",
-    text: "An MVP for a business app is a first version that handles one core workflow from start to finish, is reliable enough for daily use, and is built on a technical foundation that can be extended. The key word is viable: fit for use. An app that can be demonstrated but can't be used in real operations isn't an MVP — it's a prototype. Prototypes are useful for testing interface ideas, but they give you no data about genuine usage.",
+    text: "An MVP for a business app is a first version that handles one core workflow from start to finish, is reliable enough for daily use, and is built on a technical foundation that can be extended. The key word is viable: fit for use. An app that can be demonstrated but can't be used in real operations isn't an MVP, it's a prototype. Prototypes are useful for testing interface ideas, but they give you no data about genuine usage.",
   },
   {
     type: "image",
@@ -61,7 +61,7 @@ const en: Block[] = [
   { type: "h2", text: "How to define the scope of an MVP" },
   {
     type: "p",
-    text: "The hardest part of an MVP isn't building it — it's deciding what to leave out. Every stakeholder has a favourite feature, and they all sound important. The following questions help you sort through them more objectively.",
+    text: "The hardest part of an MVP isn't building it, it's deciding what to leave out. Every stakeholder has a favourite feature, and they all sound important. The following questions help you sort through them more objectively.",
   },
   { type: "h3", text: "Which problem is the most expensive right now?" },
   {
@@ -76,7 +76,7 @@ const en: Block[] = [
   { type: "h3", text: "What is the minimum end-to-end flow?" },
   {
     type: "p",
-    text: "Write down the steps of the core workflow from beginning to end. For example: a sales rep creates an order, an admin verifies it, the warehouse prepares the goods, the shipped status is recorded. Every step on this path must be in the MVP, even in simple form. Features that sit off this path — deep analytics reports, integrations with other systems, or complex permission settings — can wait for a later stage.",
+    text: "Write down the steps of the core workflow from beginning to end. For example: a sales rep creates an order, an admin verifies it, the warehouse prepares the goods, the shipped status is recorded. Every step on this path must be in the MVP, even in simple form. Features that sit off this path, deep analytics reports, integrations with other systems, or complex permission settings, can wait for a later stage.",
   },
   {
     type: "callout",
@@ -90,16 +90,16 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "The technical foundation also needs thought from day one. The database structure, application architecture, data security, and the way the app will be extended should all be designed with later stages in mind, even though those features aren't built yet. An MVP built on a fragile foundation often ends up being rebuilt — wiping out the very savings it was meant to deliver.",
+    text: "The technical foundation also needs thought from day one. The database structure, application architecture, data security, and the way the app will be extended should all be designed with later stages in mind, even though those features aren't built yet. An MVP built on a fragile foundation often ends up being rebuilt, wiping out the very savings it was meant to deliver.",
   },
   { type: "h2", text: "What a healthy MVP scope looks like" },
   {
     type: "p",
-    text: "Go back to the distribution business from the start of this article. Out of the long wish list, the most expensive problem turned out to be orders from field sales being sent through chat and then retyped by an admin — often late and sometimes with the wrong quantities. So a sensible MVP scope is an ordering app for the sales team: choose a customer, pick products from a catalogue, see a rough stock level, submit the order, and have the admin receive a tidy list of orders to process.",
+    text: "Go back to the distribution business from the start of this article. Out of the long wish list, the most expensive problem turned out to be orders from field sales being sent through chat and then retyped by an admin, often late and sometimes with the wrong quantities. So a sensible MVP scope is an ordering app for the sales team: choose a customer, pick products from a catalogue, see a rough stock level, submit the order, and have the admin receive a tidy list of orders to process.",
   },
   {
     type: "p",
-    text: "A self-service ordering portal for customers, automatic accounting integration, and sales commission calculations were left out. They all still matter, but they can wait until the basic order flow has proven itself and the team has settled in. With a scope like this, the first benefit — faster, more accurate orders — arrives much sooner, and the order data collected along the way becomes valuable groundwork for the next stage.",
+    text: "A self-service ordering portal for customers, automatic accounting integration, and sales commission calculations were left out. They all still matter, but they can wait until the basic order flow has proven itself and the team has settled in. With a scope like this, the first benefit, faster, more accurate orders, arrives much sooner, and the order data collected along the way becomes valuable groundwork for the next stage.",
   },
   { type: "h2", text: "Common mistakes when building an MVP" },
   {
@@ -114,7 +114,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "That last mistake is surprisingly common. Once the MVP is running and the most pressing problem is solved, the company's attention moves elsewhere. The app is still used, but surrounded by workarounds — extra spreadsheets, manual notes, or chat groups for everything the system doesn't handle yet. Slowly, the benefits of a centralised system erode again. An MVP should be the start of a development roadmap, not its end.",
+    text: "That last mistake is surprisingly common. Once the MVP is running and the most pressing problem is solved, the company's attention moves elsewhere. The app is still used, but surrounded by workarounds, extra spreadsheets, manual notes, or chat groups for everything the system doesn't handle yet. Slowly, the benefits of a centralised system erode again. An MVP should be the start of a development roadmap, not its end.",
   },
   {
     type: "image",
@@ -182,7 +182,7 @@ const zh: Block[] = [
     type: "ul",
     items: [
       "MVP 是应用的最简版本,它已经能解决一个真实问题,并且可以每天使用",
-      "MVP 不是随便做做的原型——它的技术质量必须足以在其上继续开发,而不是被丢弃",
+      "MVP 不是随便做做的原型，它的技术质量必须足以在其上继续开发,而不是被丢弃",
       "MVP 的范围由最重要的一条工作流程决定,而不是由最长的功能清单决定",
       "上线头几周来自真实用户的反馈,远比规划阶段的假设更有价值",
       "分阶段的方式能降低成本风险,更快带来收益,也让团队更容易适应",
@@ -191,7 +191,7 @@ const zh: Block[] = [
   { type: "h2", text: "MVP 对企业而言到底意味着什么" },
   {
     type: "p",
-    text: "在创业圈,MVP 常被用来测试市场是否需要某个产品。而对于已经在运营的企业,目标略有不同。你通常已经知道问题是真实存在的——订单遗漏、库存不同步、报表延迟。你还不知道的是:解决方案最合适的形态是什么,哪些功能真正会被使用,以及团队将如何适应新的工作方式。",
+    text: "在创业圈,MVP 常被用来测试市场是否需要某个产品。而对于已经在运营的企业,目标略有不同。你通常已经知道问题是真实存在的，订单遗漏、库存不同步、报表延迟。你还不知道的是:解决方案最合适的形态是什么,哪些功能真正会被使用,以及团队将如何适应新的工作方式。",
   },
   {
     type: "p",
@@ -240,7 +240,7 @@ const zh: Block[] = [
   { type: "h3", text: "从头到尾最精简的流程是什么?" },
   {
     type: "p",
-    text: "把核心工作流程从开始到结束的步骤写下来。例如:销售创建订单,管理员审核,仓库备货,记录已发货状态。这条路径上的每一步都必须包含在 MVP 中,哪怕只是简单形式。不在这条路径上的功能——比如深入的分析报表、与其他系统的集成,或者复杂的权限设置——都可以留到后续阶段。",
+    text: "把核心工作流程从开始到结束的步骤写下来。例如:销售创建订单,管理员审核,仓库备货,记录已发货状态。这条路径上的每一步都必须包含在 MVP 中,哪怕只是简单形式。不在这条路径上的功能，比如深入的分析报表、与其他系统的集成,或者复杂的权限设置，都可以留到后续阶段。",
   },
   {
     type: "callout",
@@ -259,11 +259,11 @@ const zh: Block[] = [
   { type: "h2", text: "健康的 MVP 范围是什么样的" },
   {
     type: "p",
-    text: "回到本文开头那家分销企业。在长长的愿望清单中,代价最高的问题其实是:外勤销售通过聊天发送订单,再由管理员重新录入——经常延迟,有时数量还会出错。因此,合理的 MVP 范围是一个给销售使用的下单应用:选择客户,从产品目录中挑选商品,查看大致库存,提交订单,管理员则收到一份整齐的待处理订单列表。",
+    text: "回到本文开头那家分销企业。在长长的愿望清单中,代价最高的问题其实是:外勤销售通过聊天发送订单,再由管理员重新录入，经常延迟,有时数量还会出错。因此,合理的 MVP 范围是一个给销售使用的下单应用:选择客户,从产品目录中挑选商品,查看大致库存,提交订单,管理员则收到一份整齐的待处理订单列表。",
   },
   {
     type: "p",
-    text: "客户自助下单门户、与会计系统的自动集成以及销售佣金计算都没有放进去。它们依然重要,但可以等到基础下单流程被证明可行、团队也已适应之后再做。按这样的范围,第一个收益——更快、更准确的订单——可以更早体现,而沿途积累的订单数据也会成为下一阶段的宝贵基础。",
+    text: "客户自助下单门户、与会计系统的自动集成以及销售佣金计算都没有放进去。它们依然重要,但可以等到基础下单流程被证明可行、团队也已适应之后再做。按这样的范围,第一个收益，更快、更准确的订单，可以更早体现,而沿途积累的订单数据也会成为下一阶段的宝贵基础。",
   },
   { type: "h2", text: "构建 MVP 时的常见错误" },
   {
@@ -278,7 +278,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "最后一个错误相当常见。MVP 上线、最紧迫的问题解决之后,公司的注意力就转向了别处。应用仍在使用,但周围堆满了临时办法——额外的电子表格、手工记录,或者为系统尚未处理的事情建立的聊天群。集中化系统的优势就这样慢慢被侵蚀。MVP 应该是开发路线图的起点,而不是终点。",
+    text: "最后一个错误相当常见。MVP 上线、最紧迫的问题解决之后,公司的注意力就转向了别处。应用仍在使用,但周围堆满了临时办法，额外的电子表格、手工记录,或者为系统尚未处理的事情建立的聊天群。集中化系统的优势就这样慢慢被侵蚀。MVP 应该是开发路线图的起点,而不是终点。",
   },
   {
     type: "image",

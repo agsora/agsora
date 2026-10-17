@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Tanggal lima. Laporan bulan lalu belum juga selesai. Tim keuangan sudah dua malam lembur, tiga file rekap masih tidak cocok satu sama lain, dan Anda harus memutuskan pembelian stok minggu ini — tanpa tahu pasti berapa barang yang sebenarnya tersisa di gudang.",
+    text: "Tanggal lima. Laporan bulan lalu belum juga selesai. Tim keuangan sudah dua malam lembur, tiga file rekap masih tidak cocok satu sama lain, dan Anda harus memutuskan pembelian stok minggu ini, tanpa tahu pasti berapa barang yang sebenarnya tersisa di gudang.",
   },
   {
     type: "p",
@@ -21,13 +21,13 @@ export const body: Block[] = [
       "Kebutuhannya ditentukan oleh biaya data yang terpisah, bukan ukuran perusahaan",
       "Tujuh gejala di bawah ini adalah sinyal yang paling sering muncul lebih dulu",
       "Satu atau dua gejala belum tentu berarti harus ERP; beberapa gejala sekaligus biasanya iya",
-      "Penerapan tidak harus menyeluruh — bisa dimulai dari modul yang paling mendesak",
+      "Penerapan tidak harus menyeluruh, bisa dimulai dari modul yang paling mendesak",
     ],
   },
   { type: "h2", text: "ERP sebenarnya menyelesaikan masalah apa?" },
   {
     type: "p",
-    text: "ERP (Enterprise Resource Planning) pada dasarnya adalah cara menyimpan data operasional bisnis dalam satu sistem yang saling terhubung. Ketika sebuah penjualan terjadi, stok berkurang, piutang tercatat, dan laporan keuangan ikut bergerak — tanpa ada orang yang mengetik ulang transaksi yang sama di tiga tempat berbeda. Nilai utamanya bukan pada banyaknya fitur, melainkan pada hilangnya pekerjaan menyalin dan mencocokkan data antar divisi.",
+    text: "ERP (Enterprise Resource Planning) pada dasarnya adalah cara menyimpan data operasional bisnis dalam satu sistem yang saling terhubung. Ketika sebuah penjualan terjadi, stok berkurang, piutang tercatat, dan laporan keuangan ikut bergerak, tanpa ada orang yang mengetik ulang transaksi yang sama di tiga tempat berbeda. Nilai utamanya bukan pada banyaknya fitur, melainkan pada hilangnya pekerjaan menyalin dan mencocokkan data antar divisi.",
   },
   {
     type: "p",
@@ -125,7 +125,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Tidak harus langsung menyeluruh",
-    text: "ERP tidak wajib diterapkan sekaligus. Banyak bisnis memulai dari modul yang paling menyakitkan — biasanya inventori atau keuangan — lalu memperluas setelah tim terbiasa dan datanya terbukti bisa dipercaya.",
+    text: "ERP tidak wajib diterapkan sekaligus. Banyak bisnis memulai dari modul yang paling menyakitkan, biasanya inventori atau keuangan, lalu memperluas setelah tim terbiasa dan datanya terbukti bisa dipercaya.",
   },
   { type: "h2", text: "Yang perlu disiapkan sebelum memulai" },
   {
@@ -168,7 +168,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Sebaliknya, jika alur kerja Anda memiliki banyak aturan khusus, integrasi dengan sistem yang sudah berjalan, atau kebutuhan yang tidak diakomodasi produk umum, ERP yang dibangun sesuai proses bisnis Anda bisa menjadi pilihan yang lebih tepat dalam jangka panjang. Dalam praktiknya, keputusan ini paling baik diambil setelah alur kerja dipetakan, bukan sebelumnya — karena hasil pemetaan itulah yang menunjukkan seberapa jauh proses Anda berbeda dari yang umum.",
+    text: "Sebaliknya, jika alur kerja Anda memiliki banyak aturan khusus, integrasi dengan sistem yang sudah berjalan, atau kebutuhan yang tidak diakomodasi produk umum, ERP yang dibangun sesuai proses bisnis Anda bisa menjadi pilihan yang lebih tepat dalam jangka panjang. Dalam praktiknya, keputusan ini paling baik diambil setelah alur kerja dipetakan, bukan sebelumnya, karena hasil pemetaan itulah yang menunjukkan seberapa jauh proses Anda berbeda dari yang umum.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -178,7 +178,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Tiga dari tujuh tanda terasa akrab?",
-    text: "Ceritakan kondisi operasional Anda. Tim AG·SORA akan membantu memetakan di mana data Anda tercecer dan langkah pertama yang paling masuk akal — konsultasinya gratis, tanpa komitmen.",
+    text: "Ceritakan kondisi operasional Anda. Tim AG·SORA akan membantu memetakan di mana data Anda tercecer dan langkah pertama yang paling masuk akal, konsultasinya gratis, tanpa komitmen.",
     href: "/contact",
     label: "Konsultasi Gratis",
   },

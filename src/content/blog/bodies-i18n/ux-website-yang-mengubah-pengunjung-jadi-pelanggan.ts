@@ -7,7 +7,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "In many cases the problem isn't the number or quality of visitors — it's what happens after they arrive. A visitor shows up with one question in mind, then has to dig for the answer through a confusing menu, generic paragraphs, and pages that load slowly. Most of them don't complain. They just close the tab and open a competitor's site. This is the territory of user experience, or UX: how easily someone can get what they came for on your website.",
+    text: "In many cases the problem isn't the number or quality of visitors, it's what happens after they arrive. A visitor shows up with one question in mind, then has to dig for the answer through a confusing menu, generic paragraphs, and pages that load slowly. Most of them don't complain. They just close the tab and open a competitor's site. This is the territory of user experience, or UX: how easily someone can get what they came for on your website.",
   },
   {
     type: "p",
@@ -17,7 +17,7 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "Good UX gets visitors to answers and a next step quickly — it isn't just about making a site look attractive",
+      "Good UX gets visitors to answers and a next step quickly, it isn't just about making a site look attractive",
       "Every page should have one main goal and one clear call to action",
       "Speed, mobile readability, and navigation structure are the foundation that must be sorted first",
       "Long forms and unnecessary questions are a common reason prospects give up on getting in touch",
@@ -65,7 +65,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "The homepage's job is to route visitors to the page relevant to their need. A service page's job is to convince them the service fits and invite them to get in touch. The pricing page's job is to remove uncertainty about cost. The contact page's job is to make reaching out as easy as possible. When every page has a clear role, visitors experience a natural flow — like being guided by a friendly member of staff in a physical shop.",
+    text: "The homepage's job is to route visitors to the page relevant to their need. A service page's job is to convince them the service fits and invite them to get in touch. The pricing page's job is to remove uncertainty about cost. The contact page's job is to make reaching out as easy as possible. When every page has a clear role, visitors experience a natural flow, like being guided by a friendly member of staff in a physical shop.",
   },
   {
     type: "callout",
@@ -81,7 +81,7 @@ const en: Block[] = [
   { type: "h3", text: "Readability on small screens" },
   {
     type: "p",
-    text: "Most visitors to business websites in Indonesia arrive on their phones. That means the mobile view isn't a secondary version of your website — it's the main one. Text should be large enough to read without zooming, buttons wide enough to tap with a thumb, and key information such as contact numbers or the WhatsApp button reachable without scrolling too far. Test your site on several different phones, not just on the design team's laptop screens.",
+    text: "Most visitors to business websites in Indonesia arrive on their phones. That means the mobile view isn't a secondary version of your website, it's the main one. Text should be large enough to read without zooming, buttons wide enough to tap with a thumb, and key information such as contact numbers or the WhatsApp button reachable without scrolling too far. Test your site on several different phones, not just on the design team's laptop screens.",
   },
   { type: "h3", text: "Predictable navigation" },
   {
@@ -129,12 +129,12 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "That last point is often underestimated. A perfect form is useless if submissions land in an email address nobody monitors. Connecting the form straight to a CRM, or at least to sales team notifications, ensures every lead gets a quick response — and speed of response often decides who wins the customer.",
+    text: "That last point is often underestimated. A perfect form is useless if submissions land in an email address nobody monitors. Connecting the form straight to a CRM, or at least to sales team notifications, ensures every lead gets a quick response, and speed of response often decides who wins the customer.",
   },
   { type: "h2", text: "Building trust on the right pages" },
   {
     type: "p",
-    text: "Visitors who don't know your business yet need a reason to trust it. Effective trust signals are verifiable and relevant: real examples of your work, a transparent explanation of your process, company registration details, an office address, and clear policies on warranty or support after a project ends. Place these close to the decision point — on a service page just before the consultation button, for example — rather than only on an about us page that few people open.",
+    text: "Visitors who don't know your business yet need a reason to trust it. Effective trust signals are verifiable and relevant: real examples of your work, a transparent explanation of your process, company registration details, an office address, and clear policies on warranty or support after a project ends. Place these close to the decision point, on a service page just before the consultation button, for example, rather than only on an about us page that few people open.",
   },
   {
     type: "p",
@@ -149,7 +149,7 @@ const en: Block[] = [
     type: "ol",
     items: [
       "Set up analytics and define a few actions that count as conversions, such as form submissions or WhatsApp button clicks",
-      "Identify pages with high traffic but low conversion — that's where improvements are worth the most",
+      "Identify pages with high traffic but low conversion, that's where improvements are worth the most",
       "Check the speed and mobile view of those pages first",
       "Sharpen the headline, main message, and call to action on your priority pages",
       "Simplify forms and make sure submissions connect to the sales team's system",
@@ -158,7 +158,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "If, after a few rounds of improvement, the website still feels held back by its foundations — a slow platform, a structure that's hard to change, or a design that isn't responsive — then rebuilding becomes a sensible option. By that point you'll also have data and a much better understanding of what visitors need, so the new website can be designed on evidence rather than assumptions.",
+    text: "If, after a few rounds of improvement, the website still feels held back by its foundations, a slow platform, a structure that's hard to change, or a design that isn't responsive, then rebuilding becomes a sensible option. By that point you'll also have data and a much better understanding of what visitors need, so the new website can be designed on evidence rather than assumptions.",
   },
   { type: "h2", text: "Closing thoughts" },
   {
@@ -181,7 +181,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "在很多情况下,问题并不在于访客的数量或质量,而在于他们到达之后发生了什么。访客带着一个问题而来,却不得不在混乱的菜单、空泛的段落和加载缓慢的页面中寻找答案。大多数人不会抱怨——他们只是关掉标签页,打开竞争对手的网站。这就是用户体验(UX)的范畴:一个人在你的网站上达成目的有多容易。",
+    text: "在很多情况下,问题并不在于访客的数量或质量,而在于他们到达之后发生了什么。访客带着一个问题而来,却不得不在混乱的菜单、空泛的段落和加载缓慢的页面中寻找答案。大多数人不会抱怨，他们只是关掉标签页,打开竞争对手的网站。这就是用户体验(UX)的范畴:一个人在你的网站上达成目的有多容易。",
   },
   {
     type: "p",
@@ -201,7 +201,7 @@ const zh: Block[] = [
   { type: "h2", text: "UX 关乎达成目标,而不是外观" },
   {
     type: "p",
-    text: "很多人把 UX 等同于视觉设计:配色、字体、动画和好看的图片。这些都很重要,但只是其中一部分。一个网站可以非常漂亮,却依然失败——如果访客不知道该点哪里、找不到价格或服务范围,或者不确定这家企业是否适合自己的需求。反过来,一个外观朴素的网站,只要每个页面都按清晰合理的顺序回答访客的问题,也能带来大量潜在客户。",
+    text: "很多人把 UX 等同于视觉设计:配色、字体、动画和好看的图片。这些都很重要,但只是其中一部分。一个网站可以非常漂亮,却依然失败，如果访客不知道该点哪里、找不到价格或服务范围,或者不确定这家企业是否适合自己的需求。反过来,一个外观朴素的网站,只要每个页面都按清晰合理的顺序回答访客的问题,也能带来大量潜在客户。",
   },
   {
     type: "p",
@@ -265,7 +265,7 @@ const zh: Block[] = [
   { type: "h2", text: "内容要回答问题,而不是自我夸耀" },
   {
     type: "p",
-    text: "像最佳解决方案、经验丰富值得信赖、您可靠的商业伙伴这样的句子,对撰写者来说听起来很有说服力,但对访客几乎毫无意义——所有竞争对手都在写同样的话。真正能说服访客的是具体信息:你具体做什么、流程如何、通常需要多长时间、需要客户提供什么,以及他们联系之后会发生什么。",
+    text: "像最佳解决方案、经验丰富值得信赖、您可靠的商业伙伴这样的句子,对撰写者来说听起来很有说服力,但对访客几乎毫无意义，所有竞争对手都在写同样的话。真正能说服访客的是具体信息:你具体做什么、流程如何、通常需要多长时间、需要客户提供什么,以及他们联系之后会发生什么。",
   },
   {
     type: "p",
@@ -303,7 +303,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "最后一点常常被低估。如果提交内容进入了一个没人查看的邮箱,再完美的表单也毫无用处。把表单直接连接到 CRM,或至少连接到销售团队的通知,可以确保每个潜在客户都能得到快速回应——而回应速度往往决定了谁能赢得客户。",
+    text: "最后一点常常被低估。如果提交内容进入了一个没人查看的邮箱,再完美的表单也毫无用处。把表单直接连接到 CRM,或至少连接到销售团队的通知,可以确保每个潜在客户都能得到快速回应，而回应速度往往决定了谁能赢得客户。",
   },
   { type: "h2", text: "在合适的页面建立信任" },
   {
@@ -323,7 +323,7 @@ const zh: Block[] = [
     type: "ol",
     items: [
       "安装分析工具,并定义几项算作转化的行为,例如表单提交或 WhatsApp 按钮点击",
-      "找出访问量高但转化率低的页面——在那里改进的价值最大",
+      "找出访问量高但转化率低的页面，在那里改进的价值最大",
       "先检查这些页面的加载速度和手机端显示效果",
       "优化重点页面的标题、核心信息和行动号召",
       "简化表单,并确保提交内容连接到销售团队的系统",
@@ -332,7 +332,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "如果经过几轮改进后,网站仍然受制于其基础——例如平台缓慢、结构难以修改,或设计不支持响应式——那么重建就成了合理的选择。到那时,你也已经掌握了数据,对访客需求有了更深入的理解,新网站就可以基于证据而不是假设来设计。",
+    text: "如果经过几轮改进后,网站仍然受制于其基础，例如平台缓慢、结构难以修改,或设计不支持响应式，那么重建就成了合理的选择。到那时,你也已经掌握了数据,对访客需求有了更深入的理解,新网站就可以基于证据而不是假设来设计。",
   },
   { type: "h2", text: "结语" },
   {

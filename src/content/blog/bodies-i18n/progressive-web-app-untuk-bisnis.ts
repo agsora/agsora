@@ -7,7 +7,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Between building an ordinary website and building a native app, there's a middle path that has matured a great deal in recent years: the progressive web app, or PWA. A PWA is a web app that can be installed on a phone's home screen, opens like an app, keeps working on a weak connection, and in many cases can send notifications — all without going through an app store.",
+    text: "Between building an ordinary website and building a native app, there's a middle path that has matured a great deal in recent years: the progressive web app, or PWA. A PWA is a web app that can be installed on a phone's home screen, opens like an app, keeps working on a weak connection, and in many cases can send notifications, all without going through an app store.",
   },
   {
     type: "p",
@@ -58,7 +58,7 @@ const en: Block[] = [
   { type: "h3", text: "Still discoverable in search engines" },
   {
     type: "p",
-    text: "Because a PWA is essentially a website, its pages can be indexed by search engines. Product catalogues, service pages, or location information inside a PWA can appear in search results — something content inside a native app can't do. For businesses that rely on search to bring in new customers, that's a significant advantage.",
+    text: "Because a PWA is essentially a website, its pages can be indexed by search engines. Product catalogues, service pages, or location information inside a PWA can appear in search results, something content inside a native app can't do. For businesses that rely on search to bring in new customers, that's a significant advantage.",
   },
   {
     type: "callout",
@@ -73,7 +73,7 @@ const en: Block[] = [
   {
     type: "ul",
     items: [
-      "Access to certain device features — such as Bluetooth for special printers, particular sensors, or deep operating system integration — is still more limited than for native apps",
+      "Access to certain device features, such as Bluetooth for special printers, particular sensors, or deep operating system integration, is still more limited than for native apps",
       "Feature support can differ across platforms and browsers, so testing on a range of devices remains important",
       "Without an app store presence, some users may not realise your service can be installed like an app",
       "Graphically heavy apps, or apps that need intensive on-device processing, are usually better built natively",
@@ -120,7 +120,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "It doesn't have to be one or the other, either. Many businesses start with a PWA to test demand and build a user base, then add a native app later for the features that truly need it. If the back end is designed well from the start — for example with an API separate from the interface — both kinds of app can share the same data and business logic.",
+    text: "It doesn't have to be one or the other, either. Many businesses start with a PWA to test demand and build a user base, then add a native app later for the features that truly need it. If the back end is designed well from the start, for example with an API separate from the interface, both kinds of app can share the same data and business logic.",
   },
   { type: "h2", text: "A quick comparison: website, PWA, and native app" },
   {
@@ -161,7 +161,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing thoughts" },
   {
     type: "p",
-    text: "Web technology has come a long way, and the PWA is one of its most practical results for business. For many needs — catalogues, ordering, customer portals, and field team apps — a PWA offers an app-like experience at lower cost and complexity. Start with how your users actually interact with your service, check the features you need, then choose the approach that fits best. Decisions based on real needs are almost always better than decisions based on trends.",
+    text: "Web technology has come a long way, and the PWA is one of its most practical results for business. For many needs, catalogues, ordering, customer portals, and field team apps, a PWA offers an app-like experience at lower cost and complexity. Start with how your users actually interact with your service, check the features you need, then choose the approach that fits best. Decisions based on real needs are almost always better than decisions based on trends.",
   },
   {
     type: "cta",
@@ -179,7 +179,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "在普通网站和原生应用之间,有一条近年来日趋成熟的中间道路:渐进式网页应用,即 PWA。PWA 是一种可以安装到手机主屏幕、像应用一样打开、在网络较弱时仍能工作,并且在许多情况下可以发送通知的网页应用——这一切都不需要经过应用商店。",
+    text: "在普通网站和原生应用之间,有一条近年来日趋成熟的中间道路:渐进式网页应用,即 PWA。PWA 是一种可以安装到手机主屏幕、像应用一样打开、在网络较弱时仍能工作,并且在许多情况下可以发送通知的网页应用，这一切都不需要经过应用商店。",
   },
   {
     type: "p",
@@ -230,7 +230,7 @@ const zh: Block[] = [
   { type: "h3", text: "依然可以被搜索引擎发现" },
   {
     type: "p",
-    text: "由于 PWA 本质上是一个网站,它的页面可以被搜索引擎收录。PWA 中的产品目录、服务页面或门店信息都可以出现在搜索结果中——而原生应用内部的内容做不到这一点。对于依靠搜索获取新客户的企业来说,这是一项显著的优势。",
+    text: "由于 PWA 本质上是一个网站,它的页面可以被搜索引擎收录。PWA 中的产品目录、服务页面或门店信息都可以出现在搜索结果中，而原生应用内部的内容做不到这一点。对于依靠搜索获取新客户的企业来说,这是一项显著的优势。",
   },
   {
     type: "callout",
@@ -245,7 +245,7 @@ const zh: Block[] = [
   {
     type: "ul",
     items: [
-      "对某些设备功能的访问——例如连接专用打印机的蓝牙、特定传感器或与操作系统的深度集成——仍比原生应用受限",
+      "对某些设备功能的访问，例如连接专用打印机的蓝牙、特定传感器或与操作系统的深度集成，仍比原生应用受限",
       "不同平台和浏览器对功能的支持可能不同,因此在多种设备上测试依然重要",
       "由于没有出现在应用商店中,部分用户可能不知道你的服务可以像应用一样安装",
       "图形负载很重、或需要在设备上进行大量运算的应用,通常更适合原生开发",
@@ -292,7 +292,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "这也不一定是二选一。许多企业先用 PWA 验证需求、积累用户,之后再为确实需要的功能增加原生应用。如果从一开始就设计好后端架构——例如采用与界面分离的 API——两种应用就可以共享相同的数据和业务逻辑。",
+    text: "这也不一定是二选一。许多企业先用 PWA 验证需求、积累用户,之后再为确实需要的功能增加原生应用。如果从一开始就设计好后端架构，例如采用与界面分离的 API，两种应用就可以共享相同的数据和业务逻辑。",
   },
   { type: "h2", text: "快速对比:网站、PWA 与原生应用" },
   {
@@ -333,7 +333,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   {
     type: "p",
-    text: "网页技术已经取得了长足的进步,而 PWA 是其中对企业最实用的成果之一。对于许多需求——产品目录、在线订购、客户门户以及外勤团队应用——PWA 能以更低的成本和复杂度提供类似应用的体验。从用户与服务的真实互动方式出发,核实所需的功能,再选择最合适的方案。基于真实需求的决策,几乎总是优于基于潮流的决策。",
+    text: "网页技术已经取得了长足的进步,而 PWA 是其中对企业最实用的成果之一。对于许多需求，产品目录、在线订购、客户门户以及外勤团队应用，PWA 能以更低的成本和复杂度提供类似应用的体验。从用户与服务的真实互动方式出发,核实所需的功能,再选择最合适的方案。基于真实需求的决策,几乎总是优于基于潮流的决策。",
   },
   {
     type: "cta",

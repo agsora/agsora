@@ -12,8 +12,8 @@ import { siteConfig } from "@/config/site";
 import { useLocale } from "@/i18n/locale-context";
 
 const aboutIntro: Record<string, string> = {
-  id: `${siteConfig.legalName} adalah perusahaan teknologi yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital — melalui pengembangan software custom yang mengikuti proses kerja masing-masing bisnis.`,
-  en: `${siteConfig.legalName} is a technology company that helps businesses build, integrate, and develop digital systems — through custom development built around how each business works.`,
+  id: `${siteConfig.legalName} adalah perusahaan teknologi yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital, melalui pengembangan software custom yang mengikuti proses kerja masing-masing bisnis.`,
+  en: `${siteConfig.legalName} is a technology company that helps businesses build, integrate, and develop digital systems, through custom development built around how each business works.`,
   zh: `${siteConfig.legalName} 是一家科技公司，通过贴合各企业业务流程的定制开发服务，帮助企业构建、集成并发展其数字系统。`,
 };
 

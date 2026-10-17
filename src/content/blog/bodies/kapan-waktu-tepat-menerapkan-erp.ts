@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Dua tahun lalu, sebuah bisnis distribusi makanan beku hanya punya satu gudang dan tiga orang di bagian administrasi. Spreadsheet dan grup WhatsApp sudah lebih dari cukup. Hari ini, bisnis yang sama punya empat gudang di kota berbeda, belasan sales lapangan, dan seorang pemilik yang mengaku tidak lagi benar-benar tahu berapa keuntungan bulan ini sampai laporan selesai disusun — biasanya tiga minggu setelah bulan itu berakhir.",
+    text: "Dua tahun lalu, sebuah bisnis distribusi makanan beku hanya punya satu gudang dan tiga orang di bagian administrasi. Spreadsheet dan grup WhatsApp sudah lebih dari cukup. Hari ini, bisnis yang sama punya empat gudang di kota berbeda, belasan sales lapangan, dan seorang pemilik yang mengaku tidak lagi benar-benar tahu berapa keuntungan bulan ini sampai laporan selesai disusun, biasanya tiga minggu setelah bulan itu berakhir.",
   },
   {
     type: "p",
-    text: "Cerita seperti ini sangat umum, dan pertanyaan yang menyertainya juga sama: apakah sekarang waktu yang tepat untuk menerapkan ERP, atau haruskah menunggu sampai bisnis 'lebih siap'? Pertanyaan itu sendiri sering salah arah. ERP bukan hadiah untuk bisnis yang sudah besar, melainkan respons terhadap tahap pertumbuhan tertentu — dan tahap itu bisa dikenali lebih awal daripada yang dikira kebanyakan pemilik bisnis.",
+    text: "Cerita seperti ini sangat umum, dan pertanyaan yang menyertainya juga sama: apakah sekarang waktu yang tepat untuk menerapkan ERP, atau haruskah menunggu sampai bisnis 'lebih siap'? Pertanyaan itu sendiri sering salah arah. ERP bukan hadiah untuk bisnis yang sudah besar, melainkan respons terhadap tahap pertumbuhan tertentu, dan tahap itu bisa dikenali lebih awal daripada yang dikira kebanyakan pemilik bisnis.",
   },
   {
     type: "p",
@@ -27,13 +27,13 @@ export const body: Block[] = [
   { type: "h2", text: "ERP mengikuti tahap pertumbuhan, bukan ukuran perusahaan" },
   {
     type: "p",
-    text: "Cara paling keliru menilai kebutuhan ERP adalah membandingkan omzet atau jumlah karyawan dengan bisnis lain yang sudah pakai ERP. Dua bisnis dengan omzet yang mirip bisa punya kebutuhan yang sangat berbeda, tergantung berapa banyak titik operasional yang harus disatukan — jumlah cabang, jumlah saluran penjualan, dan seberapa sering data dari titik-titik itu perlu saling terhubung untuk pengambilan keputusan.",
+    text: "Cara paling keliru menilai kebutuhan ERP adalah membandingkan omzet atau jumlah karyawan dengan bisnis lain yang sudah pakai ERP. Dua bisnis dengan omzet yang mirip bisa punya kebutuhan yang sangat berbeda, tergantung berapa banyak titik operasional yang harus disatukan, jumlah cabang, jumlah saluran penjualan, dan seberapa sering data dari titik-titik itu perlu saling terhubung untuk pengambilan keputusan.",
   },
   {
     type: "p",
     text: "Yang lebih berguna adalah melihat tahap pertumbuhan bisnis Anda saat ini, karena setiap tahap membawa kebutuhan data yang berbeda. Memahami tahap ini membantu menjawab bukan hanya 'apakah butuh ERP', tapi juga 'ERP dengan cakupan seperti apa yang sebenarnya dibutuhkan sekarang'.",
   },
-  { type: "h2", text: "Tahap 1: Satu lokasi, tim kecil — biasanya belum perlu" },
+  { type: "h2", text: "Tahap 1: Satu lokasi, tim kecil, biasanya belum perlu" },
   {
     type: "p",
     text: "Ketika bisnis masih berjalan di satu lokasi dengan tim yang bisa saling berkoordinasi langsung, spreadsheet yang dikelola rapi dan sistem kasir atau pembukuan sederhana biasanya sudah cukup. Menambahkan ERP di tahap ini sering kali menambah kerumitan tanpa manfaat yang sepadan, karena volume data belum cukup besar untuk membuat proses manual terasa berat.",
@@ -41,7 +41,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tahap 2: Cabang atau lini bisnis baru mulai dibuka" },
   {
     type: "p",
-    text: "Ini biasanya titik pertama di mana sinyal kebutuhan ERP mulai terasa. Setiap cabang atau lini bisnis baru membawa data operasionalnya sendiri — stok, penjualan, dan pengeluaran — yang harus digabungkan secara manual jika belum ada sistem terpusat. Beban penggabungan ini bertambah secara tidak linear: dua cabang mungkin masih bisa digabung manual dalam sehari, tapi lima cabang bisa memakan waktu berminggu-minggu dan rawan selisih.",
+    text: "Ini biasanya titik pertama di mana sinyal kebutuhan ERP mulai terasa. Setiap cabang atau lini bisnis baru membawa data operasionalnya sendiri, stok, penjualan, dan pengeluaran, yang harus digabungkan secara manual jika belum ada sistem terpusat. Beban penggabungan ini bertambah secara tidak linear: dua cabang mungkin masih bisa digabung manual dalam sehari, tapi lima cabang bisa memakan waktu berminggu-minggu dan rawan selisih.",
   },
   {
     type: "p",
@@ -50,7 +50,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tahap 3: Data tersebar dan keputusan mulai melambat" },
   {
     type: "p",
-    text: "Tanda paling jelas dari tahap ini adalah ketika pertanyaan sederhana seperti 'produk mana yang paling menguntungkan bulan ini' butuh waktu berhari-hari untuk dijawab. Keputusan yang seharusnya diambil dengan cepat — penyesuaian harga, pembelian stok, atau evaluasi cabang yang merugi — tertunda karena data yang dibutuhkan belum tersedia dalam bentuk yang bisa langsung dipakai.",
+    text: "Tanda paling jelas dari tahap ini adalah ketika pertanyaan sederhana seperti 'produk mana yang paling menguntungkan bulan ini' butuh waktu berhari-hari untuk dijawab. Keputusan yang seharusnya diambil dengan cepat, penyesuaian harga, pembelian stok, atau evaluasi cabang yang merugi, tertunda karena data yang dibutuhkan belum tersedia dalam bentuk yang bisa langsung dipakai.",
   },
   {
     type: "callout",
@@ -64,7 +64,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Tahap ini juga sering ditandai dengan menurunnya kepercayaan internal terhadap angka yang beredar. Ketika dua laporan dari sumber berbeda menunjukkan angka yang tidak sama untuk periode yang sama, dan tidak ada yang bisa menjelaskan dengan pasti mana yang benar, itu bukan lagi soal ketelitian individu — itu tanda bahwa proses pelaporan sudah melampaui apa yang bisa ditangani dengan rekonsiliasi manual antar spreadsheet.",
+    text: "Tahap ini juga sering ditandai dengan menurunnya kepercayaan internal terhadap angka yang beredar. Ketika dua laporan dari sumber berbeda menunjukkan angka yang tidak sama untuk periode yang sama, dan tidak ada yang bisa menjelaskan dengan pasti mana yang benar, itu bukan lagi soal ketelitian individu, itu tanda bahwa proses pelaporan sudah melampaui apa yang bisa ditangani dengan rekonsiliasi manual antar spreadsheet.",
   },
   { type: "h2", text: "Sinyal eksternal yang juga perlu diperhatikan" },
   {
@@ -79,7 +79,7 @@ export const body: Block[] = [
   { type: "h2", text: "Risiko menunda terlalu lama" },
   {
     type: "p",
-    text: "Semakin lama ERP ditunda, semakin banyak data historis yang tersebar di berbagai format dan semakin sulit dirapikan saat migrasi. Kebiasaan kerja tim juga semakin tertanam pada cara lama, sehingga perubahan ke sistem baru terasa lebih berat. Yang lebih mahal, keputusan bisnis yang diambil dari data yang tidak akurat selama masa penundaan itu bisa berdampak jangka panjang — pembelian stok yang salah, ekspansi ke lokasi yang sebenarnya tidak menguntungkan, atau harga yang tidak sesuai dengan biaya sebenarnya.",
+    text: "Semakin lama ERP ditunda, semakin banyak data historis yang tersebar di berbagai format dan semakin sulit dirapikan saat migrasi. Kebiasaan kerja tim juga semakin tertanam pada cara lama, sehingga perubahan ke sistem baru terasa lebih berat. Yang lebih mahal, keputusan bisnis yang diambil dari data yang tidak akurat selama masa penundaan itu bisa berdampak jangka panjang, pembelian stok yang salah, ekspansi ke lokasi yang sebenarnya tidak menguntungkan, atau harga yang tidak sesuai dengan biaya sebenarnya.",
   },
   { type: "h2", text: "Risiko bergerak terlalu cepat" },
   {
@@ -108,13 +108,13 @@ export const body: Block[] = [
   { type: "h2", text: "Memulai dari modul yang paling mendesak" },
   {
     type: "p",
-    text: "Menerapkan ERP tidak harus berarti mengganti semua sistem sekaligus di semua cabang dalam satu waktu. Pendekatan yang lebih aman adalah memulai dari satu atau dua modul yang menyelesaikan masalah paling mendesak — biasanya inventori atau keuangan — lalu memperluas cakupan setelah tim terbiasa dan data terbukti bisa diandalkan. Pendekatan bertahap ini juga membuat investasi awal lebih terjangkau dan risikonya lebih mudah dikelola.",
+    text: "Menerapkan ERP tidak harus berarti mengganti semua sistem sekaligus di semua cabang dalam satu waktu. Pendekatan yang lebih aman adalah memulai dari satu atau dua modul yang menyelesaikan masalah paling mendesak, biasanya inventori atau keuangan, lalu memperluas cakupan setelah tim terbiasa dan data terbukti bisa diandalkan. Pendekatan bertahap ini juga membuat investasi awal lebih terjangkau dan risikonya lebih mudah dikelola.",
   },
   {
     type: "p",
     text: "Penerapan bertahap juga memberi ruang untuk belajar dari kesalahan pada skala kecil sebelum diterapkan ke seluruh organisasi. Masalah yang muncul di satu cabang percontohan jauh lebih mudah diperbaiki dibanding masalah yang sama muncul serentak di sepuluh cabang sekaligus.",
   },
-  { type: "h2", text: "ERP siap pakai atau dibangun khusus — mana yang lebih cepat?" },
+  { type: "h2", text: "ERP siap pakai atau dibangun khusus, mana yang lebih cepat?" },
   {
     type: "p",
     text: "Pilihan bentuk ERP juga memengaruhi kapan Anda bisa mulai merasakan manfaatnya. ERP siap pakai dengan model berlangganan biasanya bisa mulai dipakai dalam hitungan minggu, cocok untuk bisnis yang prosesnya relatif umum dan ingin segera berjalan tanpa investasi awal besar. Ini sering menjadi pilihan yang masuk akal ketika sinyal kebutuhan sudah kuat tapi Anda belum yakin seberapa jauh proses bisnis Anda berbeda dari kebanyakan bisnis sejenis.",
@@ -126,7 +126,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyiapkan tim menghadapi transisi" },
   {
     type: "p",
-    text: "Momentum yang tepat dari sisi bisnis tidak akan banyak berarti jika tim belum siap menjalankannya. Penerapan ERP mengubah cara kerja sehari-hari, dan perubahan itu paling mudah diterima ketika tim memahami alasannya — bukan sekadar diberi tahu bahwa sistem baru akan digunakan mulai bulan depan. Melibatkan penanggung jawab tiap divisi sejak tahap perencanaan membantu memastikan sistem yang dibangun benar-benar mencerminkan cara kerja yang sebenarnya.",
+    text: "Momentum yang tepat dari sisi bisnis tidak akan banyak berarti jika tim belum siap menjalankannya. Penerapan ERP mengubah cara kerja sehari-hari, dan perubahan itu paling mudah diterima ketika tim memahami alasannya, bukan sekadar diberi tahu bahwa sistem baru akan digunakan mulai bulan depan. Melibatkan penanggung jawab tiap divisi sejak tahap perencanaan membantu memastikan sistem yang dibangun benar-benar mencerminkan cara kerja yang sebenarnya.",
   },
   {
     type: "p",
@@ -135,12 +135,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Waktu yang tepat untuk menerapkan ERP bukan angka yang bisa ditentukan dari kalender atau target omzet, melainkan titik ketika biaya mengelola data secara manual sudah melebihi biaya dan usaha untuk menerapkan sistem baru. Mengenali tahap pertumbuhan bisnis Anda saat ini, dan sinyal-sinyal yang menyertainya, adalah cara paling realistis untuk menjawab pertanyaan itu — jauh lebih realistis dibanding menunggu sampai semuanya terasa 'jelas'.",
+    text: "Waktu yang tepat untuk menerapkan ERP bukan angka yang bisa ditentukan dari kalender atau target omzet, melainkan titik ketika biaya mengelola data secara manual sudah melebihi biaya dan usaha untuk menerapkan sistem baru. Mengenali tahap pertumbuhan bisnis Anda saat ini, dan sinyal-sinyal yang menyertainya, adalah cara paling realistis untuk menjawab pertanyaan itu, jauh lebih realistis dibanding menunggu sampai semuanya terasa 'jelas'.",
   },
   {
     type: "cta",
     title: "Sedang mempertimbangkan waktu yang tepat untuk ERP?",
-    text: "Ceritakan tahap pertumbuhan bisnis Anda saat ini. Tim AG·SORA akan membantu memetakan modul yang paling mendesak dan langkah penerapan yang realistis — konsultasinya gratis, tanpa komitmen.",
+    text: "Ceritakan tahap pertumbuhan bisnis Anda saat ini. Tim AG·SORA akan membantu memetakan modul yang paling mendesak dan langkah penerapan yang realistis, konsultasinya gratis, tanpa komitmen.",
     href: "/services/erp",
     label: "Konsultasi Gratis",
   },

@@ -26,14 +26,14 @@ const sections: LegalSection[] = [
     id: {
       title: "1. Ruang Lingkup Layanan",
       body: [
-        `${siteConfig.legalName} ("AG·SORA") menyediakan layanan pengembangan software custom — termasuk website, aplikasi mobile, sistem bisnis seperti ERP, POS, HRIS, dan CRM, AI automation, serta integrasi API — sebagaimana dijelaskan pada halaman Layanan website ini.`,
+        `${siteConfig.legalName} ("AG·SORA") menyediakan layanan pengembangan software custom, termasuk website, aplikasi mobile, sistem bisnis seperti ERP, POS, HRIS, dan CRM, AI automation, serta integrasi API, sebagaimana dijelaskan pada halaman Layanan website ini.`,
         "Ketentuan ini berlaku untuk penggunaan website ini dan untuk setiap project yang dikerjakan AG·SORA, kecuali diatur lain dalam kontrak tertulis. Jika terdapat perbedaan, isi kontrak tertulis yang berlaku.",
       ],
     },
     en: {
       title: "1. Scope of Services",
       body: [
-        `${siteConfig.legalName} ("AG·SORA") provides custom software development services — including websites, mobile apps, business systems such as ERP, POS, HRIS, and CRM, AI automation, and API integration — as described on the Services page of this website.`,
+        `${siteConfig.legalName} ("AG·SORA") provides custom software development services, including websites, mobile apps, business systems such as ERP, POS, HRIS, and CRM, AI automation, and API integration, as described on the Services page of this website.`,
         "These terms apply to the use of this website and to every project AG·SORA undertakes, unless a written contract states otherwise. Where the two differ, the written contract prevails.",
       ],
     },

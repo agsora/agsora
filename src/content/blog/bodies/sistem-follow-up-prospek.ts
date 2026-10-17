@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Prospek itu terlihat sangat tertarik minggu lalu. Bertanya detail harga, minta contoh proposal, bahkan bilang akan diskusikan dengan atasannya. Lalu sunyi. Sales-nya sibuk dengan prospek baru, lupa follow up, dan tiga minggu kemudian baru sadar — prospek itu sudah deal dengan kompetitor.",
+    text: "Prospek itu terlihat sangat tertarik minggu lalu. Bertanya detail harga, minta contoh proposal, bahkan bilang akan diskusikan dengan atasannya. Lalu sunyi. Sales-nya sibuk dengan prospek baru, lupa follow up, dan tiga minggu kemudian baru sadar, prospek itu sudah deal dengan kompetitor.",
   },
   {
     type: "p",
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa follow-up sering terlewat" },
   {
     type: "p",
-    text: "Sales yang menangani banyak prospek sekaligus wajar jika lupa satu atau dua. Masalahnya, prospek yang terlupakan biasanya adalah yang paling berharga — mereka yang sudah menunjukkan minat serius tapi belum menerima kepastian. Tanpa sistem yang mengingatkan, momentum yang sudah dibangun di percakapan sebelumnya hilang begitu saja, dan prospek beralih ke tawaran lain yang lebih responsif.",
+    text: "Sales yang menangani banyak prospek sekaligus wajar jika lupa satu atau dua. Masalahnya, prospek yang terlupakan biasanya adalah yang paling berharga, mereka yang sudah menunjukkan minat serius tapi belum menerima kepastian. Tanpa sistem yang mengingatkan, momentum yang sudah dibangun di percakapan sebelumnya hilang begitu saja, dan prospek beralih ke tawaran lain yang lebih responsif.",
   },
   {
     type: "p",
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "h2", text: "Setiap peluang harus punya langkah berikutnya" },
   {
     type: "p",
-    text: "Prinsip paling sederhana dan paling efektif: tidak boleh ada peluang aktif tanpa jadwal tindakan berikutnya. Setelah setiap interaksi dengan prospek — panggilan telepon, pesan, pertemuan — sales mencatat apa yang akan dilakukan selanjutnya dan kapan. Sistem kemudian mengingatkan secara otomatis ketika waktunya tiba, sehingga tidak ada yang tercecer begitu saja.",
+    text: "Prinsip paling sederhana dan paling efektif: tidak boleh ada peluang aktif tanpa jadwal tindakan berikutnya. Setelah setiap interaksi dengan prospek, panggilan telepon, pesan, pertemuan, sales mencatat apa yang akan dilakukan selanjutnya dan kapan. Sistem kemudian mengingatkan secara otomatis ketika waktunya tiba, sehingga tidak ada yang tercecer begitu saja.",
   },
   { type: "h2", text: "Yang perlu tercatat di setiap follow-up" },
   {
@@ -47,12 +47,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Catatan ini tidak perlu panjang — cukup beberapa kalimat yang membantu siapa pun yang membacanya, termasuk sales itu sendiri di kemudian hari, mengingat konteks percakapan tanpa harus menebak-nebak.",
+    text: "Catatan ini tidak perlu panjang, cukup beberapa kalimat yang membantu siapa pun yang membacanya, termasuk sales itu sendiri di kemudian hari, mengingat konteks percakapan tanpa harus menebak-nebak.",
   },
   { type: "h2", text: "Kenali peluang yang mulai terlupakan" },
   {
     type: "p",
-    text: "Laporan berkala yang menampilkan peluang tanpa aktivitas dalam periode tertentu — misalnya lebih dari dua minggu tanpa kontak — membantu manajer sales melihat prospek yang mulai terlupakan sebelum benar-benar hilang. Laporan ini juga membantu mengevaluasi beban kerja sales: apakah mereka menangani terlalu banyak prospek untuk ditindaklanjuti dengan baik.",
+    text: "Laporan berkala yang menampilkan peluang tanpa aktivitas dalam periode tertentu, misalnya lebih dari dua minggu tanpa kontak, membantu manajer sales melihat prospek yang mulai terlupakan sebelum benar-benar hilang. Laporan ini juga membantu mengevaluasi beban kerja sales: apakah mereka menangani terlalu banyak prospek untuk ditindaklanjuti dengan baik.",
   },
   {
     type: "callout",
@@ -62,12 +62,12 @@ export const body: Block[] = [
   { type: "h2", text: "Atur jarak follow-up yang wajar" },
   {
     type: "p",
-    text: "Terlalu jarang follow-up membuat prospek lupa dengan penawaran Anda. Terlalu sering membuat prospek merasa terganggu dan justru menjauh. Sepakati pola dasar di tim — misalnya follow-up pertama tiga hari setelah proposal dikirim, lalu setiap minggu setelahnya — kemudian sesuaikan berdasarkan respons masing-masing prospek. Prospek yang aktif merespons bisa ditindaklanjuti lebih sering; yang jarang merespons perlu jarak yang lebih longgar agar tidak terkesan memaksa.",
+    text: "Terlalu jarang follow-up membuat prospek lupa dengan penawaran Anda. Terlalu sering membuat prospek merasa terganggu dan justru menjauh. Sepakati pola dasar di tim, misalnya follow-up pertama tiga hari setelah proposal dikirim, lalu setiap minggu setelahnya, kemudian sesuaikan berdasarkan respons masing-masing prospek. Prospek yang aktif merespons bisa ditindaklanjuti lebih sering; yang jarang merespons perlu jarak yang lebih longgar agar tidak terkesan memaksa.",
   },
   { type: "h2", text: "Serah terima saat sales berganti" },
   {
     type: "p",
-    text: "Ketika sales keluar dari perusahaan atau pindah tugas, riwayat follow-up yang tercatat di sistem memungkinkan penggantinya melanjutkan hubungan dengan prospek tanpa memulai dari nol. Tanpa catatan yang memadai, hubungan yang sudah dibangun berbulan-bulan ikut pergi bersama sales tersebut, dan prospek harus menjelaskan ulang kebutuhannya dari awal kepada sales baru — pengalaman yang sering membuat prospek kehilangan minat.",
+    text: "Ketika sales keluar dari perusahaan atau pindah tugas, riwayat follow-up yang tercatat di sistem memungkinkan penggantinya melanjutkan hubungan dengan prospek tanpa memulai dari nol. Tanpa catatan yang memadai, hubungan yang sudah dibangun berbulan-bulan ikut pergi bersama sales tersebut, dan prospek harus menjelaskan ulang kebutuhannya dari awal kepada sales baru, pengalaman yang sering membuat prospek kehilangan minat.",
   },
   { type: "h2", text: "Ilustrasi: dua pendekatan follow-up" },
   {
@@ -81,7 +81,7 @@ export const body: Block[] = [
   { type: "h2", text: "Nilai aktivitas, bukan hanya hasil" },
   {
     type: "p",
-    text: "Selain angka penjualan akhir, perhatikan juga konsistensi follow-up sebagai metrik terpisah. Sales dengan hasil rendah tetapi follow-up yang teratur dan tepat waktu mungkin butuh bantuan di bagian penawaran atau negosiasi. Sales yang jarang follow-up punya masalah yang berbeda — masalah kedisiplinan proses, yang perlu ditangani dengan cara yang berbeda pula.",
+    text: "Selain angka penjualan akhir, perhatikan juga konsistensi follow-up sebagai metrik terpisah. Sales dengan hasil rendah tetapi follow-up yang teratur dan tepat waktu mungkin butuh bantuan di bagian penawaran atau negosiasi. Sales yang jarang follow-up punya masalah yang berbeda, masalah kedisiplinan proses, yang perlu ditangani dengan cara yang berbeda pula.",
   },
   { type: "h2", text: "Langkah membangun sistem follow-up" },
   {
@@ -118,20 +118,20 @@ export const body: Block[] = [
   { type: "h2", text: "Kecepatan respons pertama menentukan banyak hal" },
   {
     type: "p",
-    text: "Prospek yang baru saja menunjukkan minat — mengisi formulir, mengirim pesan, atau bertanya lewat media sosial — berada dalam kondisi paling reseptif tepat setelah mereka melakukan aksi tersebut. Semakin lama jeda sebelum ada yang merespons, semakin besar peluang minat itu mendingin atau prospek sudah terlanjur menghubungi kompetitor yang lebih sigap. Ini terutama berlaku untuk prospek yang membandingkan beberapa penyedia sekaligus, di mana yang merespons lebih dulu sering mendapat keuntungan psikologis sebagai pilihan pertama yang dipertimbangkan.",
+    text: "Prospek yang baru saja menunjukkan minat, mengisi formulir, mengirim pesan, atau bertanya lewat media sosial, berada dalam kondisi paling reseptif tepat setelah mereka melakukan aksi tersebut. Semakin lama jeda sebelum ada yang merespons, semakin besar peluang minat itu mendingin atau prospek sudah terlanjur menghubungi kompetitor yang lebih sigap. Ini terutama berlaku untuk prospek yang membandingkan beberapa penyedia sekaligus, di mana yang merespons lebih dulu sering mendapat keuntungan psikologis sebagai pilihan pertama yang dipertimbangkan.",
   },
   {
     type: "p",
-    text: "Pantau waktu rata-rata dari prospek masuk sampai kontak pertama sebagai metrik tersendiri, terpisah dari metrik follow-up lanjutan. Bisnis yang menetapkan target respons awal — misalnya dalam hitungan jam, bukan hari — dan benar-benar memantau kepatuhannya, biasanya melihat perbedaan nyata pada tingkat konversi prospek menjadi pelanggan.",
+    text: "Pantau waktu rata-rata dari prospek masuk sampai kontak pertama sebagai metrik tersendiri, terpisah dari metrik follow-up lanjutan. Bisnis yang menetapkan target respons awal, misalnya dalam hitungan jam, bukan hari, dan benar-benar memantau kepatuhannya, biasanya melihat perbedaan nyata pada tingkat konversi prospek menjadi pelanggan.",
   },
   { type: "h2", text: "Follow-up yang konsisten di berbagai kanal" },
   {
     type: "p",
-    text: "Prospek modern berpindah-pindah kanal komunikasi — bertanya lewat WhatsApp, lalu membalas email, lalu menghubungi lewat telepon untuk hal yang urgent. Jika riwayat percakapan tidak tercatat di satu tempat yang sama, sales berisiko mengulang pertanyaan yang sudah dijawab di kanal lain, atau lebih buruk, mengirim pesan follow-up yang bertentangan dengan apa yang sudah disepakati di percakapan sebelumnya melalui kanal berbeda.",
+    text: "Prospek modern berpindah-pindah kanal komunikasi, bertanya lewat WhatsApp, lalu membalas email, lalu menghubungi lewat telepon untuk hal yang urgent. Jika riwayat percakapan tidak tercatat di satu tempat yang sama, sales berisiko mengulang pertanyaan yang sudah dijawab di kanal lain, atau lebih buruk, mengirim pesan follow-up yang bertentangan dengan apa yang sudah disepakati di percakapan sebelumnya melalui kanal berbeda.",
   },
   {
     type: "p",
-    text: "Sistem yang mencatat interaksi dari semua kanal dalam satu riwayat per prospek memastikan siapa pun yang menghubungi prospek berikutnya — baik sales yang sama maupun rekan yang menggantikan sementara — punya gambaran lengkap tanpa harus bertanya ke prospek “sebelumnya sudah dibahas apa saja ya?”. Pengalaman berpindah kanal yang mulus seperti ini juga membuat prospek merasa dilayani oleh satu tim yang terorganisir, bukan beberapa orang yang tidak saling tahu.",
+    text: "Sistem yang mencatat interaksi dari semua kanal dalam satu riwayat per prospek memastikan siapa pun yang menghubungi prospek berikutnya, baik sales yang sama maupun rekan yang menggantikan sementara, punya gambaran lengkap tanpa harus bertanya ke prospek “sebelumnya sudah dibahas apa saja ya?”. Pengalaman berpindah kanal yang mulus seperti ini juga membuat prospek merasa dilayani oleh satu tim yang terorganisir, bukan beberapa orang yang tidak saling tahu.",
   },
   { type: "h2", text: "Menangani prospek yang bilang \"belum sekarang\"" },
   {
@@ -140,12 +140,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Alih-alih follow-up intensif seperti prospek aktif, prospek kategori ini cocok dengan ritme yang lebih jarang namun tetap terjadwal — misalnya dihubungi kembali setiap beberapa bulan, atau saat ada penawaran atau perkembangan produk yang relevan dengan kebutuhan mereka sebelumnya. Sistem yang mengingatkan kapan waktunya menghubungi kembali kelompok prospek ini mencegah mereka benar-benar terlupakan sampai akhirnya beralih ke penyedia lain karena tidak pernah dihubungi lagi.",
+    text: "Alih-alih follow-up intensif seperti prospek aktif, prospek kategori ini cocok dengan ritme yang lebih jarang namun tetap terjadwal, misalnya dihubungi kembali setiap beberapa bulan, atau saat ada penawaran atau perkembangan produk yang relevan dengan kebutuhan mereka sebelumnya. Sistem yang mengingatkan kapan waktunya menghubungi kembali kelompok prospek ini mencegah mereka benar-benar terlupakan sampai akhirnya beralih ke penyedia lain karena tidak pernah dihubungi lagi.",
   },
   { type: "h2", text: "Selaraskan pemasaran dan penjualan" },
   {
     type: "p",
-    text: "Prospek yang datang dari kampanye pemasaran sering terputus konteksnya begitu masuk ke tangan sales — sales tidak tahu iklan atau konten apa yang membuat prospek tertarik, sehingga follow-up pertama terasa generik dan tidak menyambung dengan minat spesifik yang sudah ditunjukkan prospek sebelumnya. Menghubungkan data dari sumber pemasaran dengan sistem follow-up sales memungkinkan percakapan pertama langsung relevan dengan apa yang mendorong prospek tersebut menghubungi Anda.",
+    text: "Prospek yang datang dari kampanye pemasaran sering terputus konteksnya begitu masuk ke tangan sales, sales tidak tahu iklan atau konten apa yang membuat prospek tertarik, sehingga follow-up pertama terasa generik dan tidak menyambung dengan minat spesifik yang sudah ditunjukkan prospek sebelumnya. Menghubungkan data dari sumber pemasaran dengan sistem follow-up sales memungkinkan percakapan pertama langsung relevan dengan apa yang mendorong prospek tersebut menghubungi Anda.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -155,7 +155,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Berapa banyak prospek yang terlupakan bulan ini?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

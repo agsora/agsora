@@ -463,7 +463,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
         },
         answer: {
           id: "Dalam banyak kasus bisa, selama software tersebut menyediakan API atau jalur ekspor data. Kami memeriksa kemungkinannya pada tahap Pemetaan.",
-          en: "In most cases, yes — as long as that software offers an API or a data export path. We check the feasibility during the Discover phase.",
+          en: "In most cases, yes, as long as that software offers an API or a data export path. We check the feasibility during the Discover phase.",
           zh: "在大多数情况下可以，只要该软件提供 API 或数据导出功能。我们会在需求探索阶段核实可行性。",
         },
       },
@@ -600,9 +600,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "企业 HRIS 人力资源系统开发服务",
     },
     intro: {
-      id: "HRIS menyentuh hal yang sensitif: kehadiran, gaji, dan kinerja. Kami membangunnya dengan urutan yang aman — merapikan data karyawan dan absensi lebih dulu, baru masuk ke perhitungan payroll.",
-      en: "HRIS touches sensitive things: attendance, pay, and performance. We build it in a safe order — tidying up employee data and attendance first, then moving into payroll calculation.",
-      zh: "HRIS 涉及敏感信息：考勤、薪资与绩效。我们采用稳妥的实施顺序——先梳理员工数据与考勤，再进入薪资计算环节。",
+      id: "HRIS menyentuh hal yang sensitif: kehadiran, gaji, dan kinerja. Kami membangunnya dengan urutan yang aman, merapikan data karyawan dan absensi lebih dulu, baru masuk ke perhitungan payroll.",
+      en: "HRIS touches sensitive things: attendance, pay, and performance. We build it in a safe order, tidying up employee data and attendance first, then moving into payroll calculation.",
+      zh: "HRIS 涉及敏感信息：考勤、薪资与绩效。我们采用稳妥的实施顺序，先梳理员工数据与考勤，再进入薪资计算环节。",
     },
     deliverables: {
       id: [
@@ -808,9 +808,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "仪表盘与报表系统开发服务",
     },
     intro: {
-      id: "Data yang sudah Anda kumpulkan sering kali cukup untuk mengambil keputusan lebih baik — masalahnya hanya pada bagaimana data itu disajikan. Dashboard yang tepat mengubah tumpukan angka menjadi gambaran yang bisa ditindaklanjuti.",
-      en: "The data you already collect is often enough to make better decisions — the problem is usually how it's presented. The right dashboard turns a pile of numbers into a picture you can act on.",
-      zh: "您已收集的数据往往足以支持更好的决策——问题通常在于数据的呈现方式。合适的仪表盘能将一堆数字转化为可付诸行动的洞察。",
+      id: "Data yang sudah Anda kumpulkan sering kali cukup untuk mengambil keputusan lebih baik, masalahnya hanya pada bagaimana data itu disajikan. Dashboard yang tepat mengubah tumpukan angka menjadi gambaran yang bisa ditindaklanjuti.",
+      en: "The data you already collect is often enough to make better decisions, the problem is usually how it's presented. The right dashboard turns a pile of numbers into a picture you can act on.",
+      zh: "您已收集的数据往往足以支持更好的决策，问题通常在于数据的呈现方式。合适的仪表盘能将一堆数字转化为可付诸行动的洞察。",
     },
     deliverables: {
       id: [
@@ -912,8 +912,8 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "面向业务运营的 AI 自动化服务",
     },
     intro: {
-      id: "Otomatisasi paling berhasil pada pekerjaan yang berulang dan berpola jelas — bukan pada keputusan yang butuh pertimbangan manusia. Kami membantu memilih proses mana yang layak diotomatiskan lebih dulu.",
-      en: "Automation works best on repetitive, clearly-patterned work — not on decisions that need human judgment. We help you choose which process is worth automating first.",
+      id: "Otomatisasi paling berhasil pada pekerjaan yang berulang dan berpola jelas, bukan pada keputusan yang butuh pertimbangan manusia. Kami membantu memilih proses mana yang layak diotomatiskan lebih dulu.",
+      en: "Automation works best on repetitive, clearly-patterned work, not on decisions that need human judgment. We help you choose which process is worth automating first.",
       zh: "自动化最适合应用于重复且规律明显的工作，而非需要人工判断的决策。我们会协助您判断优先自动化哪些流程。",
     },
     deliverables: {
@@ -1016,9 +1016,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "API 集成与系统对接服务",
     },
     intro: {
-      id: "Sistem yang tidak saling bicara memaksa tim menyalin data secara manual — sumber selisih laporan yang paling sering kami temui. Integrasi menghubungkan sistem yang sudah Anda pakai sehingga data mengalir satu arah tanpa input ganda.",
-      en: "Systems that don't talk to each other force teams to copy data by hand — the most common source of report discrepancies we see. Integration connects the systems you already use so data flows one way without double entry.",
-      zh: "系统之间无法互通，迫使团队手动复制数据——这是我们最常见到的报表差异来源。系统对接能让您现有的系统相互连接，数据单向流转，无需重复录入。",
+      id: "Sistem yang tidak saling bicara memaksa tim menyalin data secara manual, sumber selisih laporan yang paling sering kami temui. Integrasi menghubungkan sistem yang sudah Anda pakai sehingga data mengalir satu arah tanpa input ganda.",
+      en: "Systems that don't talk to each other force teams to copy data by hand, the most common source of report discrepancies we see. Integration connects the systems you already use so data flows one way without double entry.",
+      zh: "系统之间无法互通，迫使团队手动复制数据，这是我们最常见到的报表差异来源。系统对接能让您现有的系统相互连接，数据单向流转，无需重复录入。",
     },
     deliverables: {
       id: [

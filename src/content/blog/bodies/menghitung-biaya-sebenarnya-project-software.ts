@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Dua penawaran ada di meja Anda. Yang satu hampir separuh harga yang lain. Keduanya menjanjikan sistem yang sama, jadwal yang mirip, dan tim yang berpengalaman. Keputusannya terlihat mudah — sampai enam bulan kemudian tagihan tambahan mulai berdatangan.",
+    text: "Dua penawaran ada di meja Anda. Yang satu hampir separuh harga yang lain. Keduanya menjanjikan sistem yang sama, jadwal yang mirip, dan tim yang berpengalaman. Keputusannya terlihat mudah, sampai enam bulan kemudian tagihan tambahan mulai berdatangan.",
   },
   {
     type: "p",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Masalah lainnya, penawaran hanya menggambarkan biaya dari sisi vendor. Biaya yang ditanggung perusahaan Anda sendiri — waktu karyawan, gangguan operasional, dan layanan pihak ketiga — hampir tidak pernah muncul di dokumen penawaran. Padahal biaya-biaya itulah yang sering menentukan apakah project terasa sepadan atau justru membebani.",
+    text: "Masalah lainnya, penawaran hanya menggambarkan biaya dari sisi vendor. Biaya yang ditanggung perusahaan Anda sendiri, waktu karyawan, gangguan operasional, dan layanan pihak ketiga, hampir tidak pernah muncul di dokumen penawaran. Padahal biaya-biaya itulah yang sering menentukan apakah project terasa sepadan atau justru membebani.",
   },
   { type: "h2", text: "Biaya yang terlihat" },
   { type: "h3", text: "Biaya pengembangan" },
@@ -38,7 +38,7 @@ export const body: Block[] = [
   { type: "h3", text: "Biaya pemeliharaan" },
   {
     type: "p",
-    text: "Sistem yang sudah berjalan tetap membutuhkan perawatan: perbaikan bug, pembaruan keamanan, penyesuaian ketika ada perubahan kecil, dan pemantauan server. Biaya ini biasanya bulanan atau tahunan. Pastikan cakupannya jelas — apa yang termasuk perbaikan, dan apa yang dianggap pengembangan baru dengan biaya terpisah.",
+    text: "Sistem yang sudah berjalan tetap membutuhkan perawatan: perbaikan bug, pembaruan keamanan, penyesuaian ketika ada perubahan kecil, dan pemantauan server. Biaya ini biasanya bulanan atau tahunan. Pastikan cakupannya jelas, apa yang termasuk perbaikan, dan apa yang dianggap pengembangan baru dengan biaya terpisah.",
   },
   { type: "h3", text: "Layanan pihak ketiga" },
   {
@@ -49,7 +49,7 @@ export const body: Block[] = [
   { type: "h3", text: "Waktu tim internal" },
   {
     type: "p",
-    text: "Project software menuntut keterlibatan orang yang paling memahami proses bisnis — dan orang itu biasanya juga orang yang paling sibuk. Mereka harus menghadiri sesi pemetaan kebutuhan, meninjau rancangan, menguji sistem, dan memvalidasi data. Waktu itu diambil dari pekerjaan rutin mereka. Jika tidak direncanakan, project tertunda karena orang kuncinya tidak pernah punya waktu, atau pekerjaan rutin terbengkalai karena mereka sibuk dengan project.",
+    text: "Project software menuntut keterlibatan orang yang paling memahami proses bisnis, dan orang itu biasanya juga orang yang paling sibuk. Mereka harus menghadiri sesi pemetaan kebutuhan, meninjau rancangan, menguji sistem, dan memvalidasi data. Waktu itu diambil dari pekerjaan rutin mereka. Jika tidak direncanakan, project tertunda karena orang kuncinya tidak pernah punya waktu, atau pekerjaan rutin terbengkalai karena mereka sibuk dengan project.",
   },
   { type: "h3", text: "Pembersihan dan migrasi data" },
   {
@@ -59,7 +59,7 @@ export const body: Block[] = [
   { type: "h3", text: "Penurunan produktivitas saat transisi" },
   {
     type: "p",
-    text: "Selama beberapa minggu pertama, tim bekerja lebih lambat karena masih menyesuaikan diri dengan sistem baru. Transaksi yang dulu selesai dalam hitungan detik mungkin butuh waktu lebih lama. Ini normal dan sementara, tetapi dampaknya nyata — terutama jika peralihan dilakukan di musim paling sibuk.",
+    text: "Selama beberapa minggu pertama, tim bekerja lebih lambat karena masih menyesuaikan diri dengan sistem baru. Transaksi yang dulu selesai dalam hitungan detik mungkin butuh waktu lebih lama. Ini normal dan sementara, tetapi dampaknya nyata, terutama jika peralihan dilakukan di musim paling sibuk.",
   },
   { type: "h3", text: "Perubahan ruang lingkup" },
   {
@@ -127,7 +127,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua penawaran yang tidak setara" },
   {
     type: "p",
-    text: "Bayangkan dua penawaran untuk sistem pemesanan internal. Penawaran pertama jauh lebih murah, dengan ruang lingkup berupa daftar fitur singkat. Penawaran kedua lebih mahal, tetapi menjelaskan pemetaan proses, migrasi data pelanggan, pelatihan untuk tiga divisi, dan tiga bulan dukungan setelah rilis. Setelah tabel perbandingan diisi, ternyata penawaran pertama tidak mencakup migrasi, pelatihan, maupun dukungan — yang semuanya tetap dibutuhkan dan akan ditagih terpisah. Selisih harga yang tadinya terlihat besar menyempit drastis, dan keputusan menjadi soal kualitas serta kecocokan, bukan lagi soal harga.",
+    text: "Bayangkan dua penawaran untuk sistem pemesanan internal. Penawaran pertama jauh lebih murah, dengan ruang lingkup berupa daftar fitur singkat. Penawaran kedua lebih mahal, tetapi menjelaskan pemetaan proses, migrasi data pelanggan, pelatihan untuk tiga divisi, dan tiga bulan dukungan setelah rilis. Setelah tabel perbandingan diisi, ternyata penawaran pertama tidak mencakup migrasi, pelatihan, maupun dukungan, yang semuanya tetap dibutuhkan dan akan ditagih terpisah. Selisih harga yang tadinya terlihat besar menyempit drastis, dan keputusan menjadi soal kualitas serta kecocokan, bukan lagi soal harga.",
   },
   { type: "h2", text: "Negosiasi yang sehat dengan vendor" },
   {
@@ -171,7 +171,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Sediakan pos anggaran untuk pengembangan lanjutan di tahun kedua dan ketiga, terpisah dari biaya pemeliharaan. Dengan begitu, permintaan perbaikan yang wajar tidak harus menunggu siklus anggaran berikutnya, dan sistem terus mengikuti perkembangan bisnis alih-alih tertinggal lalu ditinggalkan. Sistem yang tidak pernah dikembangkan setelah rilis hampir selalu kembali dilengkapi spreadsheet tambahan — dan biaya-biaya lama pun pelan-pelan kembali.",
+    text: "Sediakan pos anggaran untuk pengembangan lanjutan di tahun kedua dan ketiga, terpisah dari biaya pemeliharaan. Dengan begitu, permintaan perbaikan yang wajar tidak harus menunggu siklus anggaran berikutnya, dan sistem terus mengikuti perkembangan bisnis alih-alih tertinggal lalu ditinggalkan. Sistem yang tidak pernah dikembangkan setelah rilis hampir selalu kembali dilengkapi spreadsheet tambahan, dan biaya-biaya lama pun pelan-pelan kembali.",
   },
   { type: "h2", text: "Kesalahan umum dalam menganggarkan project" },
   {
@@ -192,7 +192,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Biaya project software yang sebenarnya jarang sama dengan angka di halaman penawaran. Dengan melihat seluruh komponen — yang terlihat maupun yang tersembunyi — dan membandingkannya dalam rentang beberapa tahun, Anda bisa memilih bukan yang paling murah hari ini, tetapi yang paling masuk akal untuk bisnis Anda ke depan.",
+    text: "Biaya project software yang sebenarnya jarang sama dengan angka di halaman penawaran. Dengan melihat seluruh komponen, yang terlihat maupun yang tersembunyi, dan membandingkannya dalam rentang beberapa tahun, Anda bisa memilih bukan yang paling murah hari ini, tetapi yang paling masuk akal untuk bisnis Anda ke depan.",
   },
   {
     type: "cta",

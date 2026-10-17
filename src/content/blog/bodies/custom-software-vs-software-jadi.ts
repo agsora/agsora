@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pertanyaan custom software atau software jadi muncul di hampir setiap diskusi awal tentang sistem bisnis, dan jawabannya jarang hitam putih. Kabar baiknya, ada beberapa pertimbangan yang hampir selalu cukup untuk mengarahkan keputusan — tanpa harus bergantung pada siapa yang presentasinya paling meyakinkan. Artikel ini membantu Anda memutuskan dengan kepala dingin.",
+    text: "Pertanyaan custom software atau software jadi muncul di hampir setiap diskusi awal tentang sistem bisnis, dan jawabannya jarang hitam putih. Kabar baiknya, ada beberapa pertimbangan yang hampir selalu cukup untuk mengarahkan keputusan, tanpa harus bergantung pada siapa yang presentasinya paling meyakinkan. Artikel ini membantu Anda memutuskan dengan kepala dingin.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -46,7 +46,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Satu hal yang sering terlupakan: memakai software jadi juga berarti mengikuti praktik yang sudah terbukti di banyak bisnis. Untuk proses yang memang umum — penggajian, absensi, pencatatan penjualan — menyesuaikan diri dengan praktik standar sering justru memperbaiki cara kerja yang selama ini berantakan.",
+    text: "Satu hal yang sering terlupakan: memakai software jadi juga berarti mengikuti praktik yang sudah terbukti di banyak bisnis. Untuk proses yang memang umum, penggajian, absensi, pencatatan penjualan, menyesuaikan diri dengan praktik standar sering justru memperbaiki cara kerja yang selama ini berantakan.",
   },
   { type: "h2", text: "Kapan custom software lebih masuk akal" },
   {
@@ -66,7 +66,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Pertanyaan penyaring yang paling berguna",
-    text: "Jika Anda harus mengubah cara kerja tim agar cocok dengan sebuah software — apakah perubahan itu memperbaiki proses, atau mengorbankan sesuatu yang selama ini membuat Anda unggul? Kalau memperbaiki, pakai produk jadi. Kalau mengorbankan, pertimbangkan custom.",
+    text: "Jika Anda harus mengubah cara kerja tim agar cocok dengan sebuah software, apakah perubahan itu memperbaiki proses, atau mengorbankan sesuatu yang selama ini membuat Anda unggul? Kalau memperbaiki, pakai produk jadi. Kalau mengorbankan, pertimbangkan custom.",
   },
   { type: "h2", text: "Enam pertanyaan untuk memutuskan" },
   { type: "h3", text: "1. Seberapa unik proses Anda, sebenarnya?" },
@@ -92,7 +92,7 @@ export const body: Block[] = [
   { type: "h3", text: "5. Seberapa penting integrasi?" },
   {
     type: "p",
-    text: "Jika sistem baru harus berbicara dengan banyak aplikasi lain — akuntansi, marketplace, payment gateway, sistem lama — periksa apakah software jadi menyediakan API dan integrasi yang Anda butuhkan. Keterbatasan integrasi sering baru terasa setelah kontrak ditandatangani.",
+    text: "Jika sistem baru harus berbicara dengan banyak aplikasi lain, akuntansi, marketplace, payment gateway, sistem lama, periksa apakah software jadi menyediakan API dan integrasi yang Anda butuhkan. Keterbatasan integrasi sering baru terasa setelah kontrak ditandatangani.",
   },
   { type: "h3", text: "6. Apa yang terjadi jika Anda ingin berhenti?" },
   {
@@ -102,7 +102,7 @@ export const body: Block[] = [
   { type: "h2", text: "Jalan tengah yang sering terlewat" },
   {
     type: "p",
-    text: "Pilihannya tidak harus salah satu untuk seluruh operasional. Banyak bisnis memakai software jadi untuk fungsi yang standar — absensi, penggajian, akuntansi dasar — lalu membangun sistem khusus hanya untuk bagian yang benar-benar membedakan mereka dari pesaing.",
+    text: "Pilihannya tidak harus salah satu untuk seluruh operasional. Banyak bisnis memakai software jadi untuk fungsi yang standar, absensi, penggajian, akuntansi dasar, lalu membangun sistem khusus hanya untuk bagian yang benar-benar membedakan mereka dari pesaing.",
   },
   {
     type: "p",
@@ -161,7 +161,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: dua bisnis, dua keputusan yang sama-sama benar" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko bahan bangunan dengan dua cabang. Mereka menjual barang, mencatat stok, menagih pelanggan, dan membayar pemasok — proses yang pada dasarnya sama dengan ribuan toko lain. Masalah utama mereka adalah pencatatan manual yang lambat. Untuk bisnis seperti ini, sistem kasir dan inventori siap pakai hampir pasti lebih tepat. Mereka bisa mulai dalam hitungan minggu, dan hampir semua kebutuhan sudah tersedia.",
+    text: "Bayangkan sebuah toko bahan bangunan dengan dua cabang. Mereka menjual barang, mencatat stok, menagih pelanggan, dan membayar pemasok, proses yang pada dasarnya sama dengan ribuan toko lain. Masalah utama mereka adalah pencatatan manual yang lambat. Untuk bisnis seperti ini, sistem kasir dan inventori siap pakai hampir pasti lebih tepat. Mereka bisa mulai dalam hitungan minggu, dan hampir semua kebutuhan sudah tersedia.",
   },
   {
     type: "p",
@@ -212,7 +212,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Custom atau software jadi bukan soal mana yang lebih canggih. Ini soal mana yang paling cocok dengan cara bisnis Anda menghasilkan nilai. Mulailah dari proses, bukan dari produk — dan pilihan yang tepat biasanya akan terlihat dengan sendirinya.",
+    text: "Custom atau software jadi bukan soal mana yang lebih canggih. Ini soal mana yang paling cocok dengan cara bisnis Anda menghasilkan nilai. Mulailah dari proses, bukan dari produk, dan pilihan yang tepat biasanya akan terlihat dengan sendirinya.",
   },
   {
     type: "cta",

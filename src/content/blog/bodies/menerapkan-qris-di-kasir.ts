@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Pelanggan menunjukkan layar ponselnya: “Sudah bayar kok, Mas.” Kasir mengangguk, mempercayai tampilan yang ditunjukkan, dan melepas pesanan. Sore harinya saat rekonsiliasi, dana yang seharusnya masuk untuk transaksi itu tidak ditemukan di mutasi rekening. Entah pembayarannya gagal, atau pelanggan menunjukkan bukti yang keliru — tidak ada yang bisa memastikan lagi.",
+    text: "Pelanggan menunjukkan layar ponselnya: “Sudah bayar kok, Mas.” Kasir mengangguk, mempercayai tampilan yang ditunjukkan, dan melepas pesanan. Sore harinya saat rekonsiliasi, dana yang seharusnya masuk untuk transaksi itu tidak ditemukan di mutasi rekening. Entah pembayarannya gagal, atau pelanggan menunjukkan bukti yang keliru, tidak ada yang bisa memastikan lagi.",
   },
   {
     type: "p",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kode dinamis yang terhubung langsung ke sistem kasir jauh mengurangi risiko salah nominal — karena pelanggan tidak perlu mengetik angka sendiri — dan memudahkan pencocokan, karena setiap pembayaran terkait langsung dengan transaksi spesifik di kasir. Kode statis lebih sederhana untuk diterapkan tapi membuka lebih banyak celah kesalahan manusia, baik dari pelanggan yang salah ketik maupun kasir yang lupa mencocokkan.",
+    text: "Kode dinamis yang terhubung langsung ke sistem kasir jauh mengurangi risiko salah nominal, karena pelanggan tidak perlu mengetik angka sendiri, dan memudahkan pencocokan, karena setiap pembayaran terkait langsung dengan transaksi spesifik di kasir. Kode statis lebih sederhana untuk diterapkan tapi membuka lebih banyak celah kesalahan manusia, baik dari pelanggan yang salah ketik maupun kasir yang lupa mencocokkan.",
   },
   { type: "h2", text: "Masalah yang sering muncul" },
   {
@@ -43,7 +43,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Jangan konfirmasi hanya dari layar pelanggan",
-    text: "Tangkapan layar atau tampilan aplikasi di ponsel pelanggan bisa dimanipulasi atau salah tafsir — misalnya pembayaran yang sebenarnya masih dalam status diproses tapi terlihat seperti sudah berhasil. Konfirmasi pembayaran sebaiknya selalu berasal dari notifikasi resmi penyedia pembayaran atau langsung dari sistem kasir yang terhubung dengannya.",
+    text: "Tangkapan layar atau tampilan aplikasi di ponsel pelanggan bisa dimanipulasi atau salah tafsir, misalnya pembayaran yang sebenarnya masih dalam status diproses tapi terlihat seperti sudah berhasil. Konfirmasi pembayaran sebaiknya selalu berasal dari notifikasi resmi penyedia pembayaran atau langsung dari sistem kasir yang terhubung dengannya.",
   },
   { type: "h2", text: "Integrasi dengan sistem kasir" },
   {
@@ -53,17 +53,17 @@ export const body: Block[] = [
   { type: "h2", text: "Pahami biaya dan waktu pencairan" },
   {
     type: "p",
-    text: "Penyedia layanan pembayaran umumnya mengenakan biaya per transaksi, biasanya berupa persentase kecil dari nilai transaksi, dan memiliki jadwal pencairan dana ke rekening bisnis yang bervariasi — ada yang harian, ada yang membutuhkan beberapa hari kerja. Ketentuan ini berbeda antar penyedia dan dapat berubah dari waktu ke waktu, jadi periksa ketentuan terbaru langsung dari penyedia dan masukkan ke dalam perhitungan margin serta perencanaan arus kas bisnis Anda.",
+    text: "Penyedia layanan pembayaran umumnya mengenakan biaya per transaksi, biasanya berupa persentase kecil dari nilai transaksi, dan memiliki jadwal pencairan dana ke rekening bisnis yang bervariasi, ada yang harian, ada yang membutuhkan beberapa hari kerja. Ketentuan ini berbeda antar penyedia dan dapat berubah dari waktu ke waktu, jadi periksa ketentuan terbaru langsung dari penyedia dan masukkan ke dalam perhitungan margin serta perencanaan arus kas bisnis Anda.",
   },
   { type: "h2", text: "Cocokkan secara rutin" },
   {
     type: "p",
-    text: "Cocokkan secara berkala — idealnya setiap hari — total pembayaran digital yang tercatat di sistem kasir dengan dana yang benar-benar diterima dari penyedia pembayaran. Selisih yang ditemukan dan ditelusuri cepat jauh lebih mudah diselesaikan dibanding selisih yang dibiarkan menumpuk berminggu-minggu, di mana detail transaksi sudah sulit diingat siapa pun.",
+    text: "Cocokkan secara berkala, idealnya setiap hari, total pembayaran digital yang tercatat di sistem kasir dengan dana yang benar-benar diterima dari penyedia pembayaran. Selisih yang ditemukan dan ditelusuri cepat jauh lebih mudah diselesaikan dibanding selisih yang dibiarkan menumpuk berminggu-minggu, di mana detail transaksi sudah sulit diingat siapa pun.",
   },
   { type: "h2", text: "Ilustrasi: sebelum dan sesudah integrasi" },
   {
     type: "p",
-    text: "Bayangkan sebuah kedai kopi yang memasang kode QR statis di meja kasir. Setiap transaksi, kasir menyebutkan total secara lisan, pelanggan mengetik nominal sendiri, lalu menunjukkan layar konfirmasi. Kasir mencatat manual di buku sebagai “sudah bayar QRIS”. Di akhir bulan, ada beberapa transaksi yang tercatat lunas tapi dananya tidak ditemukan di mutasi rekening — kemungkinan pembayaran gagal yang tidak terdeteksi saat itu.",
+    text: "Bayangkan sebuah kedai kopi yang memasang kode QR statis di meja kasir. Setiap transaksi, kasir menyebutkan total secara lisan, pelanggan mengetik nominal sendiri, lalu menunjukkan layar konfirmasi. Kasir mencatat manual di buku sebagai “sudah bayar QRIS”. Di akhir bulan, ada beberapa transaksi yang tercatat lunas tapi dananya tidak ditemukan di mutasi rekening, kemungkinan pembayaran gagal yang tidak terdeteksi saat itu.",
   },
   {
     type: "p",
@@ -72,7 +72,7 @@ export const body: Block[] = [
   { type: "h2", text: "Latih kasir untuk kasus tidak normal" },
   {
     type: "p",
-    text: "Pembayaran gagal di tengah proses, pembayaran ganda karena pelanggan mencoba dua kali, atau permintaan pengembalian dana — kasir perlu tahu persis apa yang harus dilakukan dalam setiap situasi ini. Prosedur sederhana yang tertulis dan dilatihkan mencegah keputusan dadakan yang bisa merugikan pelanggan atau justru merugikan bisnis.",
+    text: "Pembayaran gagal di tengah proses, pembayaran ganda karena pelanggan mencoba dua kali, atau permintaan pengembalian dana, kasir perlu tahu persis apa yang harus dilakukan dalam setiap situasi ini. Prosedur sederhana yang tertulis dan dilatihkan mencegah keputusan dadakan yang bisa merugikan pelanggan atau justru merugikan bisnis.",
   },
   { type: "h2", text: "Mempertimbangkan lebih dari satu penyedia" },
   {
@@ -124,7 +124,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyiapkan tim untuk pertanyaan dan komplain pelanggan" },
   {
     type: "p",
-    text: "Pelanggan yang terbiasa dengan QRIS di satu tempat kadang menemui perilaku sedikit berbeda di tempat lain — batas nominal transaksi, aplikasi pembayaran tertentu yang tidak terbaca, atau kode QR yang tidak bisa dipindai karena pencahayaan kurang baik. Kasir yang tidak siap menghadapi situasi semacam ini bisa terlihat gugup di depan pelanggan, yang pada akhirnya memberi kesan kurang profesional meski masalahnya sebenarnya teknis dan wajar terjadi.",
+    text: "Pelanggan yang terbiasa dengan QRIS di satu tempat kadang menemui perilaku sedikit berbeda di tempat lain, batas nominal transaksi, aplikasi pembayaran tertentu yang tidak terbaca, atau kode QR yang tidak bisa dipindai karena pencahayaan kurang baik. Kasir yang tidak siap menghadapi situasi semacam ini bisa terlihat gugup di depan pelanggan, yang pada akhirnya memberi kesan kurang profesional meski masalahnya sebenarnya teknis dan wajar terjadi.",
   },
   {
     type: "p",
@@ -133,7 +133,7 @@ export const body: Block[] = [
   { type: "h2", text: "Memantau tren pemakaian metode pembayaran dari waktu ke waktu" },
   {
     type: "p",
-    text: "Selain memastikan setiap transaksi tercatat dengan benar, data pembayaran digital juga bisa memberi wawasan yang berguna untuk perencanaan bisnis. Memantau bagaimana proporsi pemakaian QRIS dibanding metode pembayaran lain bergeser dari waktu ke waktu membantu Anda memahami preferensi pelanggan yang terus berubah, dan menyesuaikan strategi — misalnya apakah perlu menambah opsi pembayaran baru atau justru menyederhanakan yang sudah ada karena jarang dipakai.",
+    text: "Selain memastikan setiap transaksi tercatat dengan benar, data pembayaran digital juga bisa memberi wawasan yang berguna untuk perencanaan bisnis. Memantau bagaimana proporsi pemakaian QRIS dibanding metode pembayaran lain bergeser dari waktu ke waktu membantu Anda memahami preferensi pelanggan yang terus berubah, dan menyesuaikan strategi, misalnya apakah perlu menambah opsi pembayaran baru atau justru menyederhanakan yang sudah ada karena jarang dipakai.",
   },
   {
     type: "p",
@@ -147,7 +147,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih mengandalkan layar ponsel pelanggan untuk konfirmasi bayar?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

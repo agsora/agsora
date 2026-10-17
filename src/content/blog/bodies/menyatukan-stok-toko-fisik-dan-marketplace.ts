@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Pesanan dari marketplace masuk untuk sepatu ukuran 42, warna hitam. Admin buru-buru mengecek — ternyata stok terakhir baru saja terjual di toko fisik lima menit yang lalu, tapi sistem marketplace belum sempat diperbarui. Pesanan terpaksa dibatalkan, rating toko turun karena pembatalan sepihak, dan pelanggan yang kecewa menulis ulasan negatif yang terlihat oleh calon pembeli lain.",
+    text: "Pesanan dari marketplace masuk untuk sepatu ukuran 42, warna hitam. Admin buru-buru mengecek, ternyata stok terakhir baru saja terjual di toko fisik lima menit yang lalu, tapi sistem marketplace belum sempat diperbarui. Pesanan terpaksa dibatalkan, rating toko turun karena pembatalan sepihak, dan pelanggan yang kecewa menulis ulasan negatif yang terlihat oleh calon pembeli lain.",
   },
   {
     type: "p",
-    text: "Banyak bisnis retail kini berjualan di beberapa tempat sekaligus: toko fisik, satu atau beberapa marketplace, dan kadang toko online milik sendiri. Setiap saluran tambahan membuka peluang penjualan baru. Tetapi ketika stok dicatat secara terpisah di setiap saluran tanpa saling terhubung, risiko menjual barang yang sebenarnya sudah habis — lalu terpaksa membatalkan pesanan — meningkat tajam dan berdampak langsung pada reputasi bisnis.",
+    text: "Banyak bisnis retail kini berjualan di beberapa tempat sekaligus: toko fisik, satu atau beberapa marketplace, dan kadang toko online milik sendiri. Setiap saluran tambahan membuka peluang penjualan baru. Tetapi ketika stok dicatat secara terpisah di setiap saluran tanpa saling terhubung, risiko menjual barang yang sebenarnya sudah habis, lalu terpaksa membatalkan pesanan, meningkat tajam dan berdampak langsung pada reputasi bisnis.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -32,12 +32,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pembatalan pesanan di marketplace bukan sekadar merepotkan — banyak platform marketplace menjatuhkan sanksi berupa penurunan performa toko jika tingkat pembatalan terlalu tinggi, yang pada akhirnya bisa mengurangi visibilitas produk Anda di hasil pencarian platform tersebut.",
+    text: "Pembatalan pesanan di marketplace bukan sekadar merepotkan, banyak platform marketplace menjatuhkan sanksi berupa penurunan performa toko jika tingkat pembatalan terlalu tinggi, yang pada akhirnya bisa mengurangi visibilitas produk Anda di hasil pencarian platform tersebut.",
   },
   { type: "h2", text: "Satu sumber stok sebagai prinsip utama" },
   {
     type: "p",
-    text: "Prinsip utamanya adalah memiliki satu sumber stok yang menjadi acuan resmi bagi semua saluran penjualan. Setiap penjualan yang terjadi di saluran mana pun — toko fisik, marketplace tertentu, atau toko online sendiri — akan mengurangi stok di sumber resmi tersebut, lalu jumlah stok terbaru dikirimkan secara otomatis ke semua saluran lainnya.",
+    text: "Prinsip utamanya adalah memiliki satu sumber stok yang menjadi acuan resmi bagi semua saluran penjualan. Setiap penjualan yang terjadi di saluran mana pun, toko fisik, marketplace tertentu, atau toko online sendiri, akan mengurangi stok di sumber resmi tersebut, lalu jumlah stok terbaru dikirimkan secara otomatis ke semua saluran lainnya.",
   },
   { type: "h2", text: "Cara menghubungkan sistem" },
   {
@@ -47,7 +47,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Sisakan stok penyangga untuk produk yang menipis",
-    text: "Sinkronisasi antar sistem tidak selalu terjadi dalam hitungan detik — bisa ada jeda beberapa menit tergantung platform. Untuk produk yang sisa stoknya sudah sedikit, menampilkan jumlah yang sedikit lebih rendah dari angka sebenarnya di marketplace membantu mengurangi risiko terjual melebihi stok yang benar-benar tersedia saat jeda sinkronisasi terjadi.",
+    text: "Sinkronisasi antar sistem tidak selalu terjadi dalam hitungan detik, bisa ada jeda beberapa menit tergantung platform. Untuk produk yang sisa stoknya sudah sedikit, menampilkan jumlah yang sedikit lebih rendah dari angka sebenarnya di marketplace membantu mengurangi risiko terjual melebihi stok yang benar-benar tersedia saat jeda sinkronisasi terjadi.",
   },
   { type: "h2", text: "Samakan data produk di semua saluran" },
   {
@@ -57,7 +57,7 @@ export const body: Block[] = [
   { type: "h2", text: "Harga yang berbeda per saluran" },
   {
     type: "p",
-    text: "Biaya operasional di setiap marketplace bisa berbeda-beda — komisi platform, biaya iklan, atau biaya layanan lainnya — sehingga harga jual yang ditetapkan per saluran mungkin perlu disesuaikan agar margin tetap terjaga. Sistem yang baik sebaiknya mendukung pengaturan harga berbeda per saluran sambil tetap memakai satu sumber stok yang sama untuk semuanya.",
+    text: "Biaya operasional di setiap marketplace bisa berbeda-beda, komisi platform, biaya iklan, atau biaya layanan lainnya, sehingga harga jual yang ditetapkan per saluran mungkin perlu disesuaikan agar margin tetap terjaga. Sistem yang baik sebaiknya mendukung pengaturan harga berbeda per saluran sambil tetap memakai satu sumber stok yang sama untuk semuanya.",
   },
   { type: "h2", text: "Ilustrasi: dari kekacauan menjadi terkendali" },
   {
@@ -122,7 +122,7 @@ export const body: Block[] = [
   { type: "h2", text: "Produk bundel butuh perhitungan stok yang berbeda" },
   {
     type: "p",
-    text: "Paket atau bundel — misalnya satu set berisi tiga produk berbeda yang dijual sebagai satu unit — tidak bisa diperlakukan sebagai satu item stok yang berdiri sendiri. Ketika satu bundel terjual, stok dari setiap komponen penyusunnya perlu berkurang sesuai jumlah masing-masing, bukan hanya stok bundelnya saja yang berkurang. Jika sistem tidak menangani logika ini dengan benar, komponen yang sebenarnya sudah menipis bisa terus terjual lewat bundel tanpa terdeteksi sampai akhirnya benar-benar habis mendadak.",
+    text: "Paket atau bundel, misalnya satu set berisi tiga produk berbeda yang dijual sebagai satu unit, tidak bisa diperlakukan sebagai satu item stok yang berdiri sendiri. Ketika satu bundel terjual, stok dari setiap komponen penyusunnya perlu berkurang sesuai jumlah masing-masing, bukan hanya stok bundelnya saja yang berkurang. Jika sistem tidak menangani logika ini dengan benar, komponen yang sebenarnya sudah menipis bisa terus terjual lewat bundel tanpa terdeteksi sampai akhirnya benar-benar habis mendadak.",
   },
   {
     type: "p",
@@ -136,11 +136,11 @@ export const body: Block[] = [
   { type: "h2", text: "Opname stok fisik tetap wajib meski sudah terintegrasi" },
   {
     type: "p",
-    text: "Sistem yang terintegrasi dengan baik sering membuat pemilik bisnis merasa angka stok di layar pasti sudah akurat, sampai suatu saat opname fisik menemukan selisih yang tidak bisa dijelaskan. Integrasi antar saluran menjaga agar angka stok konsisten di semua sistem, tapi tidak bisa mendeteksi barang yang hilang karena kesalahan pencatatan penerimaan, kerusakan yang belum dilaporkan, atau kekeliruan saat mengambil barang dari rak yang salah. Semua sistem hanya akan seakurat data yang dimasukkan ke dalamnya — kalau ada kesalahan di titik pencatatan manapun, kesalahan itu ikut tersinkronkan ke semua saluran dengan rapi.",
+    text: "Sistem yang terintegrasi dengan baik sering membuat pemilik bisnis merasa angka stok di layar pasti sudah akurat, sampai suatu saat opname fisik menemukan selisih yang tidak bisa dijelaskan. Integrasi antar saluran menjaga agar angka stok konsisten di semua sistem, tapi tidak bisa mendeteksi barang yang hilang karena kesalahan pencatatan penerimaan, kerusakan yang belum dilaporkan, atau kekeliruan saat mengambil barang dari rak yang salah. Semua sistem hanya akan seakurat data yang dimasukkan ke dalamnya, kalau ada kesalahan di titik pencatatan manapun, kesalahan itu ikut tersinkronkan ke semua saluran dengan rapi.",
   },
   {
     type: "p",
-    text: "Jadwalkan opname stok fisik secara rutin, baik penuh maupun bertahap per kategori produk, dan bandingkan hasilnya dengan angka yang tercatat di sistem. Selisih yang ditemukan perlu ditelusuri penyebabnya, bukan sekadar disesuaikan begitu saja di sistem tanpa investigasi lebih lanjut, karena pola selisih yang berulang di produk atau lokasi tertentu biasanya menandakan ada masalah proses yang lebih mendasar — entah di penerimaan barang, penataan gudang, atau kedisiplinan pencatatan tim yang menangani stok sehari-hari.",
+    text: "Jadwalkan opname stok fisik secara rutin, baik penuh maupun bertahap per kategori produk, dan bandingkan hasilnya dengan angka yang tercatat di sistem. Selisih yang ditemukan perlu ditelusuri penyebabnya, bukan sekadar disesuaikan begitu saja di sistem tanpa investigasi lebih lanjut, karena pola selisih yang berulang di produk atau lokasi tertentu biasanya menandakan ada masalah proses yang lebih mendasar, entah di penerimaan barang, penataan gudang, atau kedisiplinan pencatatan tim yang menangani stok sehari-hari.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -150,7 +150,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih sering membatalkan pesanan marketplace karena stok tidak sinkron?",
-    text: "Tim AG·SORA membangun sistem inventori yang terhubung dengan penjualan dan gudang Anda — stok akurat dari satu sumber.",
+    text: "Tim AG·SORA membangun sistem inventori yang terhubung dengan penjualan dan gudang Anda, stok akurat dari satu sumber.",
     href: "/services/erp",
     label: "Lihat layanan ERP",
   },

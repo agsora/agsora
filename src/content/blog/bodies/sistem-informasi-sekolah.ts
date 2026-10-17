@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Sekolah membeli sistem informasi lengkap tahun lalu — modul nilai, absensi, keuangan, semuanya ada. Bulan pertama semester baru, guru-guru bersemangat memakainya. Bulan ketiga, sebagian besar wali kelas sudah kembali mencatat kehadiran di buku, karena mengisi di aplikasi katanya “ribet dan makan waktu di sela mengajar”.",
+    text: "Sekolah membeli sistem informasi lengkap tahun lalu, modul nilai, absensi, keuangan, semuanya ada. Bulan pertama semester baru, guru-guru bersemangat memakainya. Bulan ketiga, sebagian besar wali kelas sudah kembali mencatat kehadiran di buku, karena mengisi di aplikasi katanya “ribet dan makan waktu di sela mengajar”.",
   },
   {
     type: "p",
@@ -13,7 +13,7 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Guru adalah pengisi data terbanyak — rancang sistem dari beban kerja mereka lebih dulu",
+      "Guru adalah pengisi data terbanyak, rancang sistem dari beban kerja mereka lebih dulu",
       "Kurangi input berulang dengan data yang saling terhubung otomatis",
       "Uji sistem bersama guru sungguhan, bukan hanya demo ke pimpinan sekolah",
       "Data siswa adalah data pribadi anak yang perlu perlindungan ketat",
@@ -23,16 +23,16 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa sistem sekolah sering gagal dipakai konsisten" },
   {
     type: "p",
-    text: "Berbeda dengan sistem bisnis di mana pengguna utamanya adalah karyawan administratif, pengguna utama sistem sekolah sehari-hari adalah guru — orang yang tugas utamanya mengajar, bukan mengoperasikan aplikasi. Setiap menit yang dihabiskan berjuang dengan antarmuka yang rumit adalah menit yang diambil dari waktu mempersiapkan pelajaran atau berinteraksi dengan siswa.",
+    text: "Berbeda dengan sistem bisnis di mana pengguna utamanya adalah karyawan administratif, pengguna utama sistem sekolah sehari-hari adalah guru, orang yang tugas utamanya mengajar, bukan mengoperasikan aplikasi. Setiap menit yang dihabiskan berjuang dengan antarmuka yang rumit adalah menit yang diambil dari waktu mempersiapkan pelajaran atau berinteraksi dengan siswa.",
   },
   {
     type: "p",
-    text: "Ketika sistem dirancang tanpa mempertimbangkan kondisi ini — guru mengajar berpindah kelas, waktu istirahat yang singkat, dan kesibukan menjelang jam pelajaran dimulai — adopsi akan gagal meski fiturnya lengkap secara teknis.",
+    text: "Ketika sistem dirancang tanpa mempertimbangkan kondisi ini, guru mengajar berpindah kelas, waktu istirahat yang singkat, dan kesibukan menjelang jam pelajaran dimulai, adopsi akan gagal meski fiturnya lengkap secara teknis.",
   },
   { type: "h2", text: "Sistem gagal di beban guru, bukan di fiturnya" },
   {
     type: "p",
-    text: "Guru adalah pengisi data terbanyak: kehadiran setiap pertemuan pelajaran, nilai tugas dan ujian, dan catatan perkembangan siswa. Jika mengisi data di sistem memakan waktu lebih lama daripada mencatat di buku — karena terlalu banyak klik, halaman yang lambat, atau alur yang membingungkan — guru akan menunda, lalu berhenti sama sekali, dan data menjadi tidak lengkap.",
+    text: "Guru adalah pengisi data terbanyak: kehadiran setiap pertemuan pelajaran, nilai tugas dan ujian, dan catatan perkembangan siswa. Jika mengisi data di sistem memakan waktu lebih lama daripada mencatat di buku, karena terlalu banyak klik, halaman yang lambat, atau alur yang membingungkan, guru akan menunda, lalu berhenti sama sekali, dan data menjadi tidak lengkap.",
   },
   {
     type: "p",
@@ -57,26 +57,26 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Prinsip ini — data diinput satu kali dan dipakai di banyak tempat — adalah salah satu faktor paling menentukan apakah guru akan terus memakai sistem atau menyerah kembali ke cara manual.",
+    text: "Prinsip ini, data diinput satu kali dan dipakai di banyak tempat, adalah salah satu faktor paling menentukan apakah guru akan terus memakai sistem atau menyerah kembali ke cara manual.",
   },
   {
     type: "callout",
     title: "Uji dengan guru, bukan hanya dengan pimpinan",
-    text: "Demo kepada kepala sekolah atau yayasan menunjukkan fitur yang tersedia di atas kertas. Uji coba bersama beberapa guru sungguhan, di tengah jadwal mengajar yang padat, menunjukkan apakah sistem benar-benar bisa dipakai dalam kondisi nyata — bukan hanya dalam kondisi ideal saat demo berlangsung tenang di ruang rapat.",
+    text: "Demo kepada kepala sekolah atau yayasan menunjukkan fitur yang tersedia di atas kertas. Uji coba bersama beberapa guru sungguhan, di tengah jadwal mengajar yang padat, menunjukkan apakah sistem benar-benar bisa dipakai dalam kondisi nyata, bukan hanya dalam kondisi ideal saat demo berlangsung tenang di ruang rapat.",
   },
   { type: "h2", text: "Komunikasi dengan orang tua" },
   {
     type: "p",
-    text: "Portal atau notifikasi untuk orang tua — kehadiran, nilai, dan tagihan — mengurangi pertanyaan berulang ke wali kelas dan bagian administrasi sekolah. Orang tua bisa memantau perkembangan anak tanpa harus menunggu pertemuan orang tua atau menghubungi sekolah secara langsung untuk hal-hal rutin.",
+    text: "Portal atau notifikasi untuk orang tua, kehadiran, nilai, dan tagihan, mengurangi pertanyaan berulang ke wali kelas dan bagian administrasi sekolah. Orang tua bisa memantau perkembangan anak tanpa harus menunggu pertemuan orang tua atau menghubungi sekolah secara langsung untuk hal-hal rutin.",
   },
   {
     type: "p",
-    text: "Pastikan informasi yang dibagikan kepada orang tua sudah diverifikasi sebelum ditampilkan — nilai yang belum final atau catatan yang masih perlu diklarifikasi sebaiknya tidak langsung terlihat, untuk menghindari kesalahpahaman yang tidak perlu.",
+    text: "Pastikan informasi yang dibagikan kepada orang tua sudah diverifikasi sebelum ditampilkan, nilai yang belum final atau catatan yang masih perlu diklarifikasi sebaiknya tidak langsung terlihat, untuk menghindari kesalahpahaman yang tidak perlu.",
   },
   { type: "h2", text: "Jaga data anak dengan ketat" },
   {
     type: "p",
-    text: "Data siswa adalah data pribadi anak yang perlu dijaga dengan standar keamanan yang tinggi. Batasi akses sesuai peran — guru hanya melihat kelas yang diajarnya, wali kelas melihat kelasnya sendiri — dan jangan tampilkan data siswa lain kepada orang tua yang mengakses portal. Pastikan pengelolaan data ini sesuai ketentuan pelindungan data pribadi yang berlaku, mengingat data anak termasuk kategori yang perlu perhatian ekstra.",
+    text: "Data siswa adalah data pribadi anak yang perlu dijaga dengan standar keamanan yang tinggi. Batasi akses sesuai peran, guru hanya melihat kelas yang diajarnya, wali kelas melihat kelasnya sendiri, dan jangan tampilkan data siswa lain kepada orang tua yang mengakses portal. Pastikan pengelolaan data ini sesuai ketentuan pelindungan data pribadi yang berlaku, mengingat data anak termasuk kategori yang perlu perhatian ekstra.",
   },
   { type: "h2", text: "Ilustrasi: dua sekolah, dua hasil" },
   {
@@ -95,7 +95,7 @@ export const body: Block[] = [
   { type: "h2", text: "Melibatkan siswa untuk jenjang tertentu" },
   {
     type: "p",
-    text: "Untuk sekolah menengah dan perguruan tinggi, siswa sendiri bisa menjadi pengguna aktif sistem — melihat jadwal, nilai, atau mengumpulkan tugas secara digital. Pertimbangkan tingkat kemandirian dan akses teknologi siswa saat merancang fitur ini, karena tidak semua siswa memiliki akses perangkat atau internet yang sama di rumah.",
+    text: "Untuk sekolah menengah dan perguruan tinggi, siswa sendiri bisa menjadi pengguna aktif sistem, melihat jadwal, nilai, atau mengumpulkan tugas secara digital. Pertimbangkan tingkat kemandirian dan akses teknologi siswa saat merancang fitur ini, karena tidak semua siswa memiliki akses perangkat atau internet yang sama di rumah.",
   },
   { type: "h2", text: "Langkah menerapkan sistem informasi sekolah" },
   {
@@ -134,7 +134,7 @@ export const body: Block[] = [
   { type: "h2", text: "Migrasi data dari sistem lama atau catatan manual" },
   {
     type: "p",
-    text: "Sebelum sistem baru bisa dipakai, data siswa, kelas, dan riwayat akademik dari sistem lama — baik itu aplikasi lain atau tumpukan berkas fisik — perlu dipindahkan dengan hati-hati. Proses ini sering diremehkan durasinya, padahal data yang tidak bersih di awal akan terus menimbulkan masalah di kemudian hari, misalnya nama siswa yang tertulis beda ejaan di beberapa dokumen atau riwayat nilai yang terputus di tengah jalan.",
+    text: "Sebelum sistem baru bisa dipakai, data siswa, kelas, dan riwayat akademik dari sistem lama, baik itu aplikasi lain atau tumpukan berkas fisik, perlu dipindahkan dengan hati-hati. Proses ini sering diremehkan durasinya, padahal data yang tidak bersih di awal akan terus menimbulkan masalah di kemudian hari, misalnya nama siswa yang tertulis beda ejaan di beberapa dokumen atau riwayat nilai yang terputus di tengah jalan.",
   },
   {
     type: "p",
@@ -152,7 +152,7 @@ export const body: Block[] = [
   { type: "h2", text: "Biaya yang perlu dipertimbangkan" },
   {
     type: "p",
-    text: "Selain biaya lisensi atau langganan sistem, sekolah perlu memperhitungkan biaya pelatihan guru yang berkelanjutan — terutama karena ada pergantian guru setiap tahun ajaran — biaya perangkat seperti tablet atau komputer di ruang guru, dan kemungkinan pendampingan teknis ekstra di minggu-minggu pertama penerapan. Yayasan yang hanya menganggarkan biaya lisensi sering kaget dengan kebutuhan anggaran sesungguhnya begitu implementasi mulai berjalan di lapangan.",
+    text: "Selain biaya lisensi atau langganan sistem, sekolah perlu memperhitungkan biaya pelatihan guru yang berkelanjutan, terutama karena ada pergantian guru setiap tahun ajaran, biaya perangkat seperti tablet atau komputer di ruang guru, dan kemungkinan pendampingan teknis ekstra di minggu-minggu pertama penerapan. Yayasan yang hanya menganggarkan biaya lisensi sering kaget dengan kebutuhan anggaran sesungguhnya begitu implementasi mulai berjalan di lapangan.",
   },
   { type: "h3", text: "Bagaimana menangani siswa yang pindah sekolah di tengah tahun ajaran?" },
   {
@@ -162,7 +162,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Sistem informasi sekolah yang berhasil bukan yang paling lengkap fiturnya, melainkan yang benar-benar dipakai guru setiap hari tanpa menambah beban kerja mereka. Rancang dari sudut pandang guru, uji sebelum meluncurkan penuh, dan terapkan mengikuti ritme kalender akademik — bukan mengikuti keinginan meluncurkan semuanya sekaligus.",
+    text: "Sistem informasi sekolah yang berhasil bukan yang paling lengkap fiturnya, melainkan yang benar-benar dipakai guru setiap hari tanpa menambah beban kerja mereka. Rancang dari sudut pandang guru, uji sebelum meluncurkan penuh, dan terapkan mengikuti ritme kalender akademik, bukan mengikuti keinginan meluncurkan semuanya sekaligus.",
   },
   {
     type: "cta",

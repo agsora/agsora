@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Menghubungi software house dengan penjelasan yang samar hampir selalu menghasilkan penawaran yang sulit dibandingkan. Setiap vendor menafsirkan kebutuhan dengan caranya sendiri, dan perbedaan tafsir itu baru terasa ketika pengerjaan sudah berjalan — saat itu, memperbaikinya jauh lebih mahal daripada meluruskannya di awal.",
+    text: "Menghubungi software house dengan penjelasan yang samar hampir selalu menghasilkan penawaran yang sulit dibandingkan. Setiap vendor menafsirkan kebutuhan dengan caranya sendiri, dan perbedaan tafsir itu baru terasa ketika pengerjaan sudah berjalan, saat itu, memperbaikinya jauh lebih mahal daripada meluruskannya di awal.",
   },
   {
     type: "p",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa dokumen kebutuhan penting" },
   {
     type: "p",
-    text: "Tanpa dokumen kebutuhan, setiap vendor menyusun asumsi sendiri tentang apa yang Anda maksud. Vendor A mungkin mengasumsikan Anda butuh aplikasi mobile lengkap dengan notifikasi push. Vendor B mungkin mengasumsikan cukup aplikasi web sederhana. Kedua asumsi itu valid tanpa penjelasan lebih lanjut, tetapi menghasilkan harga dan ruang lingkup yang sangat berbeda — dan Anda tidak akan tahu perbedaan itu sampai membandingkan detail penawaran.",
+    text: "Tanpa dokumen kebutuhan, setiap vendor menyusun asumsi sendiri tentang apa yang Anda maksud. Vendor A mungkin mengasumsikan Anda butuh aplikasi mobile lengkap dengan notifikasi push. Vendor B mungkin mengasumsikan cukup aplikasi web sederhana. Kedua asumsi itu valid tanpa penjelasan lebih lanjut, tetapi menghasilkan harga dan ruang lingkup yang sangat berbeda, dan Anda tidak akan tahu perbedaan itu sampai membandingkan detail penawaran.",
   },
   {
     type: "p",
@@ -77,7 +77,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Ceritakan contoh kasus nyata",
-    text: "Satu contoh kejadian nyata — misalnya bagaimana sebuah pesanan diproses dari awal sampai selesai, lengkap dengan pengecualian yang sering terjadi — sering jauh lebih jelas daripada daftar fitur yang panjang. Contoh seperti ini membantu vendor memahami detail yang sulit dijelaskan secara abstrak.",
+    text: "Satu contoh kejadian nyata, misalnya bagaimana sebuah pesanan diproses dari awal sampai selesai, lengkap dengan pengecualian yang sering terjadi, sering jauh lebih jelas daripada daftar fitur yang panjang. Contoh seperti ini membantu vendor memahami detail yang sulit dijelaskan secara abstrak.",
   },
   { type: "h2", text: "Contoh kerangka dokumen sederhana" },
   {
@@ -94,7 +94,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dokumen seperti ini bisa selesai dalam beberapa halaman. Tidak perlu sempurna — tujuannya memberi titik awal yang cukup jelas, bukan menjadi kontrak yang mengikat.",
+    text: "Dokumen seperti ini bisa selesai dalam beberapa halaman. Tidak perlu sempurna, tujuannya memberi titik awal yang cukup jelas, bukan menjadi kontrak yang mengikat.",
   },
   { type: "h2", text: "Kirim dokumen yang sama ke semua vendor" },
   {
@@ -104,12 +104,12 @@ export const body: Block[] = [
   { type: "h2", text: "Dokumen akan berubah, dan itu wajar" },
   {
     type: "p",
-    text: "Diskusi dengan vendor hampir pasti memunculkan hal yang belum terpikir sebelumnya — pengecualian yang terlupakan, kebutuhan integrasi yang baru disadari, atau batasan teknis yang perlu dipertimbangkan. Perbarui dokumen seiring diskusi berlangsung, dan pastikan versi akhirnya menjadi acuan ruang lingkup dalam kontrak yang ditandatangani.",
+    text: "Diskusi dengan vendor hampir pasti memunculkan hal yang belum terpikir sebelumnya, pengecualian yang terlupakan, kebutuhan integrasi yang baru disadari, atau batasan teknis yang perlu dipertimbangkan. Perbarui dokumen seiring diskusi berlangsung, dan pastikan versi akhirnya menjadi acuan ruang lingkup dalam kontrak yang ditandatangani.",
   },
   { type: "h2", text: "Siapa yang sebaiknya menyusun dokumen ini" },
   {
     type: "p",
-    text: "Idealnya, dokumen disusun oleh orang yang memahami proses bisnis dengan baik — bisa pemilik usaha, manajer operasional, atau kepala divisi terkait — bukan diserahkan sepenuhnya ke staf administrasi yang kurang memahami konteksnya. Jika memungkinkan, libatkan juga perwakilan pengguna yang akan memakai sistem sehari-hari untuk memastikan alur kerja yang dijelaskan akurat.",
+    text: "Idealnya, dokumen disusun oleh orang yang memahami proses bisnis dengan baik, bisa pemilik usaha, manajer operasional, atau kepala divisi terkait, bukan diserahkan sepenuhnya ke staf administrasi yang kurang memahami konteksnya. Jika memungkinkan, libatkan juga perwakilan pengguna yang akan memakai sistem sehari-hari untuk memastikan alur kerja yang dijelaskan akurat.",
   },
   { type: "h2", text: "Menyertakan tolok ukur keberhasilan" },
   {
@@ -119,12 +119,12 @@ export const body: Block[] = [
   { type: "h2", text: "Menyertakan tenggat waktu yang realistis" },
   {
     type: "p",
-    text: "Jika ada alasan bisnis di balik tenggat waktu tertentu — misalnya harus siap sebelum musim ramai atau sebelum kontrak lama berakhir — sebutkan dengan jelas beserta alasannya. Tenggat waktu yang disertai konteks membantu vendor menilai apakah jadwal itu realistis, dan jika tidak, mereka bisa menjelaskan trade-off yang perlu dipertimbangkan lebih awal daripada di tengah pengerjaan.",
+    text: "Jika ada alasan bisnis di balik tenggat waktu tertentu, misalnya harus siap sebelum musim ramai atau sebelum kontrak lama berakhir, sebutkan dengan jelas beserta alasannya. Tenggat waktu yang disertai konteks membantu vendor menilai apakah jadwal itu realistis, dan jika tidak, mereka bisa menjelaskan trade-off yang perlu dipertimbangkan lebih awal daripada di tengah pengerjaan.",
   },
   { type: "h2", text: "Ilustrasi: dua permintaan, dua hasil" },
   {
     type: "p",
-    text: "Bayangkan sebuah toko bangunan yang menghubungi vendor dengan pesan singkat: “Kami butuh sistem kasir dan stok.” Vendor memberi harga berdasarkan sistem kasir standar. Setelah pengerjaan dimulai, baru diketahui bahwa toko ini butuh pencatatan stok per gudang, harga grosir untuk pelanggan tertentu, dan pembayaran termin — semua di luar asumsi awal vendor. Biaya tambahan dan jadwal molor menjadi tidak terhindarkan.",
+    text: "Bayangkan sebuah toko bangunan yang menghubungi vendor dengan pesan singkat: “Kami butuh sistem kasir dan stok.” Vendor memberi harga berdasarkan sistem kasir standar. Setelah pengerjaan dimulai, baru diketahui bahwa toko ini butuh pencatatan stok per gudang, harga grosir untuk pelanggan tertentu, dan pembayaran termin, semua di luar asumsi awal vendor. Biaya tambahan dan jadwal molor menjadi tidak terhindarkan.",
   },
   {
     type: "p",
@@ -133,7 +133,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menggunakan dokumen ini sebagai alat internal juga" },
   {
     type: "p",
-    text: "Manfaat dokumen kebutuhan tidak berhenti pada komunikasi dengan vendor. Proses menyusunnya sering mengungkap perbedaan pemahaman di internal perusahaan sendiri — divisi yang satu mengira prosesnya berjalan satu arah, padahal kenyataannya sudah berubah tanpa mereka sadari. Menyusun dokumen ini bersama beberapa perwakilan divisi bisa menjadi kesempatan menyelaraskan pemahaman internal sebelum bicara dengan pihak luar.",
+    text: "Manfaat dokumen kebutuhan tidak berhenti pada komunikasi dengan vendor. Proses menyusunnya sering mengungkap perbedaan pemahaman di internal perusahaan sendiri, divisi yang satu mengira prosesnya berjalan satu arah, padahal kenyataannya sudah berubah tanpa mereka sadari. Menyusun dokumen ini bersama beberapa perwakilan divisi bisa menjadi kesempatan menyelaraskan pemahaman internal sebelum bicara dengan pihak luar.",
   },
   { type: "h2", text: "Kesalahan umum saat menyusun dokumen kebutuhan" },
   {
@@ -153,7 +153,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyimpan dokumen sebagai acuan bersama" },
   {
     type: "p",
-    text: "Setelah vendor dipilih, dokumen kebutuhan yang sudah diperbarui sebaiknya dilampirkan atau dirujuk dalam kontrak sebagai acuan ruang lingkup. Ini memberi kedua pihak pegangan yang jelas ketika terjadi perbedaan pemahaman di tengah project — Anda tinggal merujuk kembali ke dokumen yang sudah disepakati bersama, alih-alih mengandalkan ingatan tentang apa yang dibicarakan di rapat mana.",
+    text: "Setelah vendor dipilih, dokumen kebutuhan yang sudah diperbarui sebaiknya dilampirkan atau dirujuk dalam kontrak sebagai acuan ruang lingkup. Ini memberi kedua pihak pegangan yang jelas ketika terjadi perbedaan pemahaman di tengah project, Anda tinggal merujuk kembali ke dokumen yang sudah disepakati bersama, alih-alih mengandalkan ingatan tentang apa yang dibicarakan di rapat mana.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Berapa panjang dokumen kebutuhan yang ideal?" },
@@ -174,7 +174,7 @@ export const body: Block[] = [
   { type: "h2", text: "Contoh singkat: dari masalah ke dokumen" },
   {
     type: "p",
-    text: "Misalkan masalah Anda adalah “laporan penjualan gabungan dari tiga cabang selalu terlambat karena harus digabung manual dari tiga file Excel”. Dari kalimat ini saja, Anda sudah punya bahan untuk latar belakang, sekaligus petunjuk kebutuhan utama: laporan penjualan yang otomatis tergabung lintas cabang. Kembangkan dari titik ini — siapa yang menyusun laporan sekarang, seberapa sering dibutuhkan, dan format seperti apa yang paling mudah dibaca manajemen — dan dokumen kebutuhan yang solid akan terbentuk secara alami.",
+    text: "Misalkan masalah Anda adalah “laporan penjualan gabungan dari tiga cabang selalu terlambat karena harus digabung manual dari tiga file Excel”. Dari kalimat ini saja, Anda sudah punya bahan untuk latar belakang, sekaligus petunjuk kebutuhan utama: laporan penjualan yang otomatis tergabung lintas cabang. Kembangkan dari titik ini, siapa yang menyusun laporan sekarang, seberapa sering dibutuhkan, dan format seperti apa yang paling mudah dibaca manajemen, dan dokumen kebutuhan yang solid akan terbentuk secara alami.",
   },
   { type: "h2", text: "Penutup" },
   {

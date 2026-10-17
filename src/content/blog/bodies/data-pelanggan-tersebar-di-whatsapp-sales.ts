@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Di banyak bisnis Indonesia, WhatsApp adalah kanal utama berhubungan dengan pelanggan. Sales menyimpan kontak di ponsel pribadi, bernegosiasi lewat chat, dan mengirim penawaran dari akun mereka sendiri. Cara ini terasa cepat dan nyaman — tetapi menyimpan risiko yang baru benar-benar terasa belakangan, sering kali setelah terlambat untuk diperbaiki.",
+    text: "Di banyak bisnis Indonesia, WhatsApp adalah kanal utama berhubungan dengan pelanggan. Sales menyimpan kontak di ponsel pribadi, bernegosiasi lewat chat, dan mengirim penawaran dari akun mereka sendiri. Cara ini terasa cepat dan nyaman, tetapi menyimpan risiko yang baru benar-benar terasa belakangan, sering kali setelah terlambat untuk diperbaiki.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -54,7 +54,7 @@ export const body: Block[] = [
   { type: "h3", text: "Ringkasan wajib di CRM" },
   {
     type: "p",
-    text: "Jika integrasi penuh belum memungkinkan karena keterbatasan anggaran atau teknis, minimal wajibkan setiap sales mencatat ringkasan percakapan penting — penawaran yang disampaikan, keberatan pelanggan, kesepakatan yang dicapai — ke dalam CRM setelah setiap interaksi signifikan dengan pelanggan.",
+    text: "Jika integrasi penuh belum memungkinkan karena keterbatasan anggaran atau teknis, minimal wajibkan setiap sales mencatat ringkasan percakapan penting, penawaran yang disampaikan, keberatan pelanggan, kesepakatan yang dicapai, ke dalam CRM setelah setiap interaksi signifikan dengan pelanggan.",
   },
   {
     type: "callout",
@@ -73,17 +73,17 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah insiden ini, perusahaan beralih ke nomor WhatsApp Business terpusat yang terintegrasi dengan CRM. Ketika sales lain resign beberapa bulan kemudian, transisi berjalan mulus — pelanggan tetap dihubungi dari nomor yang sama, dan sales pengganti bisa langsung melihat riwayat lengkap percakapan sebelumnya tanpa harus memulai hubungan dari nol.",
+    text: "Setelah insiden ini, perusahaan beralih ke nomor WhatsApp Business terpusat yang terintegrasi dengan CRM. Ketika sales lain resign beberapa bulan kemudian, transisi berjalan mulus, pelanggan tetap dihubungi dari nomor yang sama, dan sales pengganti bisa langsung melihat riwayat lengkap percakapan sebelumnya tanpa harus memulai hubungan dari nol.",
   },
   { type: "h2", text: "Mulai dari kebiasaan, bukan hanya dari aplikasi" },
   {
     type: "p",
-    text: "Perubahan ini lebih banyak soal kebiasaan tim daripada sekadar memasang teknologi baru. Jelaskan alasannya kepada sales dengan jujur — ini adalah perlindungan bagi pelanggan, bagi perusahaan, dan juga bagi sales itu sendiri ketika terjadi perselisihan tentang apa yang pernah disepakati — agar perubahan ini tidak dianggap sekadar bentuk pengawasan yang tidak percaya kepada mereka.",
+    text: "Perubahan ini lebih banyak soal kebiasaan tim daripada sekadar memasang teknologi baru. Jelaskan alasannya kepada sales dengan jujur, ini adalah perlindungan bagi pelanggan, bagi perusahaan, dan juga bagi sales itu sendiri ketika terjadi perselisihan tentang apa yang pernah disepakati, agar perubahan ini tidak dianggap sekadar bentuk pengawasan yang tidak percaya kepada mereka.",
   },
   { type: "h2", text: "Menangani transisi dari nomor pribadi ke nomor bisnis" },
   {
     type: "p",
-    text: "Perpindahan dari kebiasaan lama ke sistem baru membutuhkan waktu dan komunikasi yang jelas kepada pelanggan. Informasikan perubahan nomor kontak resmi kepada pelanggan yang sudah ada, dan berikan masa transisi di mana kedua nomor — lama dan baru — tetap bisa dipakai sementara sebelum sepenuhnya beralih, agar pelanggan tidak merasa kehilangan kontak yang sudah mereka kenal.",
+    text: "Perpindahan dari kebiasaan lama ke sistem baru membutuhkan waktu dan komunikasi yang jelas kepada pelanggan. Informasikan perubahan nomor kontak resmi kepada pelanggan yang sudah ada, dan berikan masa transisi di mana kedua nomor, lama dan baru, tetap bisa dipakai sementara sebelum sepenuhnya beralih, agar pelanggan tidak merasa kehilangan kontak yang sudah mereka kenal.",
   },
   { type: "h2", text: "Langkah memindahkan komunikasi ke sistem resmi" },
   {
@@ -106,7 +106,7 @@ export const body: Block[] = [
   { type: "h3", text: "Bagaimana jika sales menolak beralih dari nomor pribadi?" },
   {
     type: "p",
-    text: "Jelaskan manfaatnya bagi mereka juga — perlindungan hukum jika ada perselisihan dengan pelanggan, dan kemudahan tidak perlu mencampur kontak pribadi dengan kontak kerja. Libatkan sales dalam proses transisi agar mereka merasa dilibatkan, bukan dipaksa.",
+    text: "Jelaskan manfaatnya bagi mereka juga, perlindungan hukum jika ada perselisihan dengan pelanggan, dan kemudahan tidak perlu mencampur kontak pribadi dengan kontak kerja. Libatkan sales dalam proses transisi agar mereka merasa dilibatkan, bukan dipaksa.",
   },
   { type: "h2", text: "Bukan hanya soal sales yang resign" },
   {
@@ -129,7 +129,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menjaga kepercayaan pelanggan selama transisi" },
   {
     type: "p",
-    text: "Pelanggan yang sudah terbiasa berkomunikasi dengan sales tertentu lewat nomor pribadi bisa merasa canggung atau curiga ketika tiba-tiba diminta beralih ke nomor perusahaan yang tidak mereka kenal. Perkenalkan perubahan ini dengan konteks yang jelas — misalnya menjelaskan bahwa ini adalah peningkatan layanan agar pelanggan bisa tetap terhubung dengan perusahaan meski ada pergantian tim di kemudian hari — bukan sekadar pemberitahuan singkat tanpa penjelasan.",
+    text: "Pelanggan yang sudah terbiasa berkomunikasi dengan sales tertentu lewat nomor pribadi bisa merasa canggung atau curiga ketika tiba-tiba diminta beralih ke nomor perusahaan yang tidak mereka kenal. Perkenalkan perubahan ini dengan konteks yang jelas, misalnya menjelaskan bahwa ini adalah peningkatan layanan agar pelanggan bisa tetap terhubung dengan perusahaan meski ada pergantian tim di kemudian hari, bukan sekadar pemberitahuan singkat tanpa penjelasan.",
   },
   {
     type: "p",
@@ -147,7 +147,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani pelanggan yang berpindah cabang atau sales" },
   {
     type: "p",
-    text: "Bisnis dengan banyak cabang atau area penjualan sering menghadapi situasi di mana satu pelanggan pernah berhubungan dengan lebih dari satu sales — misalnya karena pindah domisili, atau karena awalnya dihubungi tim marketing sebelum diserahkan ke sales area. Tanpa sistem yang terpusat, riwayat pelanggan ini bisa terpecah di beberapa ponsel berbeda, membuat sales yang menangani belakangan tidak tahu apa yang sudah pernah dibicarakan sebelumnya dan berisiko mengulang pertanyaan atau penawaran yang sama kepada pelanggan yang sama.",
+    text: "Bisnis dengan banyak cabang atau area penjualan sering menghadapi situasi di mana satu pelanggan pernah berhubungan dengan lebih dari satu sales, misalnya karena pindah domisili, atau karena awalnya dihubungi tim marketing sebelum diserahkan ke sales area. Tanpa sistem yang terpusat, riwayat pelanggan ini bisa terpecah di beberapa ponsel berbeda, membuat sales yang menangani belakangan tidak tahu apa yang sudah pernah dibicarakan sebelumnya dan berisiko mengulang pertanyaan atau penawaran yang sama kepada pelanggan yang sama.",
   },
   {
     type: "p",
@@ -156,12 +156,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Data pelanggan yang tersebar di WhatsApp pribadi sales adalah risiko yang sering diabaikan sampai benar-benar terjadi kerugian. Dengan memindahkan komunikasi ke nomor resmi perusahaan dan mencatat kesepakatan penting di sistem, hubungan dengan pelanggan menjadi aset perusahaan yang tahan terhadap pergantian karyawan — bukan aset pribadi yang bisa pergi kapan saja.",
+    text: "Data pelanggan yang tersebar di WhatsApp pribadi sales adalah risiko yang sering diabaikan sampai benar-benar terjadi kerugian. Dengan memindahkan komunikasi ke nomor resmi perusahaan dan mencatat kesepakatan penting di sistem, hubungan dengan pelanggan menjadi aset perusahaan yang tahan terhadap pergantian karyawan, bukan aset pribadi yang bisa pergi kapan saja.",
   },
   {
     type: "cta",
     title: "Berapa banyak riwayat pelanggan yang tersimpan di HP sales Anda?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

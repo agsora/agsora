@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Promo akhir bulan sukses besar — omzet naik 40%. Tapi saat pemilik menghitung margin bulan itu, angkanya justru lebih kecil dari bulan biasa. Diskon yang diberikan kasir ternyata jauh lebih besar dari yang direncanakan, karena aturannya hanya disampaikan lisan dan setiap kasir menafsirkannya sedikit berbeda.",
+    text: "Promo akhir bulan sukses besar, omzet naik 40%. Tapi saat pemilik menghitung margin bulan itu, angkanya justru lebih kecil dari bulan biasa. Diskon yang diberikan kasir ternyata jauh lebih besar dari yang direncanakan, karena aturannya hanya disampaikan lisan dan setiap kasir menafsirkannya sedikit berbeda.",
   },
   {
     type: "p",
-    text: "Promo adalah alat penjualan yang umum dipakai: potongan harga, beli dua gratis satu, diskon member, atau harga khusus di jam tertentu. Masalahnya, ketika promo diterapkan secara manual — kasir mengetik potongan sendiri berdasarkan ingatan atau perkiraan — laporan penjualan menjadi sulit dibaca dan dampak sebenarnya dari promo tersebut tidak pernah benar-benar diketahui secara pasti.",
+    text: "Promo adalah alat penjualan yang umum dipakai: potongan harga, beli dua gratis satu, diskon member, atau harga khusus di jam tertentu. Masalahnya, ketika promo diterapkan secara manual, kasir mengetik potongan sendiri berdasarkan ingatan atau perkiraan, laporan penjualan menjadi sulit dibaca dan dampak sebenarnya dari promo tersebut tidak pernah benar-benar diketahui secara pasti.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -49,7 +49,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Ukur dampak, bukan hanya volume penjualan",
-    text: "Promo yang berhasil menaikkan jumlah transaksi belum tentu benar-benar menguntungkan bisnis. Bandingkan margin keseluruhan, bukan hanya angka omzet kasar, dan perhatikan juga apakah penjualan produk lain yang tidak sedang dipromosikan justru ikut turun selama periode promo berlangsung — mungkin pelanggan hanya mengalihkan pembelian mereka, bukan menambah belanja secara keseluruhan.",
+    text: "Promo yang berhasil menaikkan jumlah transaksi belum tentu benar-benar menguntungkan bisnis. Bandingkan margin keseluruhan, bukan hanya angka omzet kasar, dan perhatikan juga apakah penjualan produk lain yang tidak sedang dipromosikan justru ikut turun selama periode promo berlangsung, mungkin pelanggan hanya mengalihkan pembelian mereka, bukan menambah belanja secara keseluruhan.",
   },
   { type: "h2", text: "Batasi diskon manual dengan ketat" },
   {
@@ -59,7 +59,7 @@ export const body: Block[] = [
   { type: "h2", text: "Hati-hati dengan promo yang bertumpuk" },
   {
     type: "p",
-    text: "Ketika beberapa promo berlaku secara bersamaan — misalnya diskon member dan diskon akhir bulan terjadi di waktu yang sama — sistem perlu memiliki aturan yang jelas: apakah kedua promo tersebut boleh digabungkan, atau hanya salah satu yang berlaku untuk satu transaksi. Tanpa aturan yang tegas ini, pelanggan bisa mendapatkan potongan harga jauh lebih besar dari yang sebenarnya direncanakan, mengikis margin tanpa disadari.",
+    text: "Ketika beberapa promo berlaku secara bersamaan, misalnya diskon member dan diskon akhir bulan terjadi di waktu yang sama, sistem perlu memiliki aturan yang jelas: apakah kedua promo tersebut boleh digabungkan, atau hanya salah satu yang berlaku untuk satu transaksi. Tanpa aturan yang tegas ini, pelanggan bisa mendapatkan potongan harga jauh lebih besar dari yang sebenarnya direncanakan, mengikis margin tanpa disadari.",
   },
   { type: "h2", text: "Ilustrasi: sebelum dan sesudah kontrol promo" },
   {
@@ -111,12 +111,12 @@ export const body: Block[] = [
   { type: "h2", text: "Kelola stok selama promo berlangsung" },
   {
     type: "p",
-    text: "Promo yang sukses menarik pelanggan bisa membuat stok produk tertentu habis jauh lebih cepat dari perkiraan. Pantau tingkat stok produk yang sedang dipromosikan secara lebih ketat dibanding hari biasa, dan siapkan keputusan sejak awal tentang apa yang akan dilakukan jika stok habis di tengah periode promo — apakah promo dihentikan untuk produk tersebut, atau pelanggan diberi opsi lain sebagai penukar. Kehabisan stok tanpa rencana yang jelas bisa mengecewakan pelanggan yang datang khusus karena promo tersebut dan merusak kepercayaan mereka terhadap toko Anda.",
+    text: "Promo yang sukses menarik pelanggan bisa membuat stok produk tertentu habis jauh lebih cepat dari perkiraan. Pantau tingkat stok produk yang sedang dipromosikan secara lebih ketat dibanding hari biasa, dan siapkan keputusan sejak awal tentang apa yang akan dilakukan jika stok habis di tengah periode promo, apakah promo dihentikan untuk produk tersebut, atau pelanggan diberi opsi lain sebagai penukar. Kehabisan stok tanpa rencana yang jelas bisa mengecewakan pelanggan yang datang khusus karena promo tersebut dan merusak kepercayaan mereka terhadap toko Anda.",
   },
   { type: "h2", text: "Komunikasikan syarat dan ketentuan dengan jelas" },
   {
     type: "p",
-    text: "Kekecewaan pelanggan sering muncul bukan karena promonya kurang menarik, melainkan karena syarat dan ketentuannya tidak dikomunikasikan dengan jelas sejak awal — misalnya batasan jumlah pembelian per pelanggan, produk tertentu yang dikecualikan dari promo, atau periode berlaku yang ternyata sudah berakhir. Pastikan syarat ini tertulis jelas di materi promosi dan juga tersedia bagi kasir untuk dijelaskan dengan cepat dan konsisten ketika ada pelanggan yang bertanya di kasir.",
+    text: "Kekecewaan pelanggan sering muncul bukan karena promonya kurang menarik, melainkan karena syarat dan ketentuannya tidak dikomunikasikan dengan jelas sejak awal, misalnya batasan jumlah pembelian per pelanggan, produk tertentu yang dikecualikan dari promo, atau periode berlaku yang ternyata sudah berakhir. Pastikan syarat ini tertulis jelas di materi promosi dan juga tersedia bagi kasir untuk dijelaskan dengan cepat dan konsisten ketika ada pelanggan yang bertanya di kasir.",
   },
   { type: "h3", text: "Bagaimana cara menghindari pelanggan yang menyalahgunakan promo?" },
   {
@@ -126,7 +126,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mempersiapkan kasir dan staf sebelum promo diluncurkan" },
   {
     type: "p",
-    text: "Sebaik apa pun aturan promo dirancang di sistem, staf yang berhadapan langsung dengan pelanggan tetap perlu memahami logikanya — bukan hanya cara memprosesnya di kasir, tapi juga alasan di balik syarat dan ketentuan tertentu, sehingga mereka bisa menjawab pertanyaan pelanggan dengan yakin tanpa harus bolak-balik bertanya ke supervisor. Briefing singkat sebelum promo dimulai, meski hanya beberapa menit, sering membuat perbedaan besar pada kelancaran pelaksanaan di lapangan.",
+    text: "Sebaik apa pun aturan promo dirancang di sistem, staf yang berhadapan langsung dengan pelanggan tetap perlu memahami logikanya, bukan hanya cara memprosesnya di kasir, tapi juga alasan di balik syarat dan ketentuan tertentu, sehingga mereka bisa menjawab pertanyaan pelanggan dengan yakin tanpa harus bolak-balik bertanya ke supervisor. Briefing singkat sebelum promo dimulai, meski hanya beberapa menit, sering membuat perbedaan besar pada kelancaran pelaksanaan di lapangan.",
   },
   {
     type: "p",
@@ -139,7 +139,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Seiring waktu, arsip promo ini juga membantu mengenali pola musiman atau jenis mekanisme yang cenderung lebih efektif untuk bisnis Anda secara spesifik — sesuatu yang sulit disimpulkan hanya dari mengingat-ingat pengalaman tanpa catatan yang terstruktur. Bisnis yang mendokumentasikan promonya dengan disiplin pada akhirnya membangun basis pengetahuan sendiri yang semakin tajam dari satu periode promosi ke periode berikutnya.",
+    text: "Seiring waktu, arsip promo ini juga membantu mengenali pola musiman atau jenis mekanisme yang cenderung lebih efektif untuk bisnis Anda secara spesifik, sesuatu yang sulit disimpulkan hanya dari mengingat-ingat pengalaman tanpa catatan yang terstruktur. Bisnis yang mendokumentasikan promonya dengan disiplin pada akhirnya membangun basis pengetahuan sendiri yang semakin tajam dari satu periode promosi ke periode berikutnya.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -149,7 +149,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Promo Anda sering bocor tanpa jejak yang jelas?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

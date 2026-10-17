@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa alur persetujuan dibutuhkan" },
   {
     type: "p",
-    text: "Tanpa alur yang jelas, setiap orang bisa membeli apa saja atas nama perusahaan, dan pengeluaran menjadi sulit dipantau sampai laporan keuangan bulanan keluar — pada saat itu, uang sudah terlanjur keluar. Alur persetujuan memberi kesempatan meninjau kebutuhan, harga, dan kesesuaian anggaran sebelum komitmen dibuat, bukan sesudahnya.",
+    text: "Tanpa alur yang jelas, setiap orang bisa membeli apa saja atas nama perusahaan, dan pengeluaran menjadi sulit dipantau sampai laporan keuangan bulanan keluar, pada saat itu, uang sudah terlanjur keluar. Alur persetujuan memberi kesempatan meninjau kebutuhan, harga, dan kesesuaian anggaran sebelum komitmen dibuat, bukan sesudahnya.",
   },
   {
     type: "p",
@@ -32,7 +32,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mulai dari risiko, bukan dari jabatan" },
   {
     type: "p",
-    text: "Alur persetujuan sebaiknya ditentukan oleh besarnya risiko sebuah pembelian, bukan sekadar hierarki organisasi. Pembelian rutin bernilai kecil — alat tulis, konsumsi rapat — tidak perlu melewati jalur yang sama dengan pembelian aset bernilai besar atau kontrak jasa jangka panjang.",
+    text: "Alur persetujuan sebaiknya ditentukan oleh besarnya risiko sebuah pembelian, bukan sekadar hierarki organisasi. Pembelian rutin bernilai kecil, alat tulis, konsumsi rapat, tidak perlu melewati jalur yang sama dengan pembelian aset bernilai besar atau kontrak jasa jangka panjang.",
   },
   {
     type: "ul",
@@ -61,7 +61,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Siapkan pengganti saat penyetuju tidak ada",
-    text: "Penyebab paling umum pembelian tertahan adalah penyetuju yang sedang cuti, sakit, atau dinas luar kota. Sistem sebaiknya mendukung delegasi persetujuan untuk periode tertentu — bukan menunggu penyetuju utama kembali — dan mengirim pengingat otomatis ketika pengajuan terlalu lama menunggu tanpa tindakan.",
+    text: "Penyebab paling umum pembelian tertahan adalah penyetuju yang sedang cuti, sakit, atau dinas luar kota. Sistem sebaiknya mendukung delegasi persetujuan untuk periode tertentu, bukan menunggu penyetuju utama kembali, dan mengirim pengingat otomatis ketika pengajuan terlalu lama menunggu tanpa tindakan.",
   },
   { type: "h2", text: "Menghubungkan persetujuan dengan anggaran" },
   {
@@ -70,12 +70,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah barang datang, penerimaan barang perlu dicocokkan dengan pesanan pembelian dan tagihan dari pemasok. Pencocokan tiga arah ini — pesanan, penerimaan, dan tagihan — mencegah pembayaran untuk barang yang tidak pernah benar-benar diterima, atau jumlah yang tidak sesuai dengan yang dipesan.",
+    text: "Setelah barang datang, penerimaan barang perlu dicocokkan dengan pesanan pembelian dan tagihan dari pemasok. Pencocokan tiga arah ini, pesanan, penerimaan, dan tagihan, mencegah pembayaran untuk barang yang tidak pernah benar-benar diterima, atau jumlah yang tidak sesuai dengan yang dipesan.",
   },
   { type: "h2", text: "Menangani pembelian mendesak" },
   {
     type: "p",
-    text: "Beberapa kebutuhan benar-benar mendesak dan tidak bisa menunggu proses persetujuan normal — misalnya suku cadang mesin yang rusak dan menghentikan produksi. Siapkan jalur khusus untuk kondisi darurat dengan batas nilai yang wajar, disertai kewajiban melaporkan dan mendapatkan persetujuan retroaktif segera setelahnya. Tanpa jalur ini, karyawan akan mengambil jalan pintas di luar sistem saat benar-benar terdesak, dan jalan pintas itu biasanya tidak terdokumentasi sama sekali.",
+    text: "Beberapa kebutuhan benar-benar mendesak dan tidak bisa menunggu proses persetujuan normal, misalnya suku cadang mesin yang rusak dan menghentikan produksi. Siapkan jalur khusus untuk kondisi darurat dengan batas nilai yang wajar, disertai kewajiban melaporkan dan mendapatkan persetujuan retroaktif segera setelahnya. Tanpa jalur ini, karyawan akan mengambil jalan pintas di luar sistem saat benar-benar terdesak, dan jalan pintas itu biasanya tidak terdokumentasi sama sekali.",
   },
   { type: "h2", text: "Ilustrasi: sebelum dan sesudah" },
   {
@@ -84,7 +84,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah alur diubah menjadi berjenjang berdasarkan nilai — kepala divisi untuk pembelian kecil, keuangan untuk menengah, direktur hanya untuk pembelian besar — pengajuan kecil selesai dalam hitungan jam. Direktur hanya menerima notifikasi untuk keputusan yang benar-benar membutuhkan perhatiannya, dan pengeluaran informal berkurang drastis karena jalur resmi jauh lebih praktis dipakai.",
+    text: "Setelah alur diubah menjadi berjenjang berdasarkan nilai, kepala divisi untuk pembelian kecil, keuangan untuk menengah, direktur hanya untuk pembelian besar, pengajuan kecil selesai dalam hitungan jam. Direktur hanya menerima notifikasi untuk keputusan yang benar-benar membutuhkan perhatiannya, dan pengeluaran informal berkurang drastis karena jalur resmi jauh lebih praktis dipakai.",
   },
   { type: "h2", text: "Mengukur efektivitas alur persetujuan" },
   {
@@ -126,20 +126,20 @@ export const body: Block[] = [
   { type: "h2", text: "Jejak audit yang bisa dipertanggungjawabkan" },
   {
     type: "p",
-    text: "Setiap pengajuan yang melewati alur persetujuan sebaiknya meninggalkan jejak yang jelas: siapa yang mengajukan, siapa yang menyetujui, kapan setiap langkah terjadi, dan catatan apa pun yang ditambahkan di sepanjang proses. Jejak ini bukan sekadar formalitas administratif — ketika audit internal atau eksternal bertanya mengapa sebuah pembelian besar disetujui, jawabannya harus bisa ditelusuri dalam hitungan menit, bukan dengan mencari-cari email lama atau bertanya ke orang yang mungkin sudah lupa detailnya.",
+    text: "Setiap pengajuan yang melewati alur persetujuan sebaiknya meninggalkan jejak yang jelas: siapa yang mengajukan, siapa yang menyetujui, kapan setiap langkah terjadi, dan catatan apa pun yang ditambahkan di sepanjang proses. Jejak ini bukan sekadar formalitas administratif, ketika audit internal atau eksternal bertanya mengapa sebuah pembelian besar disetujui, jawabannya harus bisa ditelusuri dalam hitungan menit, bukan dengan mencari-cari email lama atau bertanya ke orang yang mungkin sudah lupa detailnya.",
   },
   {
     type: "p",
-    text: "Jejak audit yang rapi juga melindungi penyetuju itu sendiri. Ketika keputusan pembelian dipertanyakan di kemudian hari — misalnya karena harga yang ternyata lebih mahal dari pasar, atau pemasok yang bermasalah — penyetuju bisa menunjukkan pertimbangan apa yang tersedia saat itu, bukan disalahkan berdasarkan informasi yang baru diketahui belakangan. Ini mengubah persetujuan dari sekadar formalitas menjadi keputusan yang bisa dipertanggungjawabkan.",
+    text: "Jejak audit yang rapi juga melindungi penyetuju itu sendiri. Ketika keputusan pembelian dipertanyakan di kemudian hari, misalnya karena harga yang ternyata lebih mahal dari pasar, atau pemasok yang bermasalah, penyetuju bisa menunjukkan pertimbangan apa yang tersedia saat itu, bukan disalahkan berdasarkan informasi yang baru diketahui belakangan. Ini mengubah persetujuan dari sekadar formalitas menjadi keputusan yang bisa dipertanggungjawabkan.",
   },
   { type: "h2", text: "Menangani pengajuan yang ditolak" },
   {
     type: "p",
-    text: "Alur persetujuan yang sehat bukan hanya soal menyetujui, tapi juga soal menolak dengan cara yang jelas dan membangun. Penolakan tanpa alasan membuat pengaju bingung harus memperbaiki apa, dan sering berujung pada pengajuan ulang yang sama persis karena tidak tahu bagian mana yang bermasalah. Setiap penolakan sebaiknya disertai alasan singkat — nilainya melebihi anggaran, spesifikasi kurang jelas, atau pemasok belum terverifikasi — sehingga pengaju bisa memperbaiki dan mengajukan kembali dengan tepat.",
+    text: "Alur persetujuan yang sehat bukan hanya soal menyetujui, tapi juga soal menolak dengan cara yang jelas dan membangun. Penolakan tanpa alasan membuat pengaju bingung harus memperbaiki apa, dan sering berujung pada pengajuan ulang yang sama persis karena tidak tahu bagian mana yang bermasalah. Setiap penolakan sebaiknya disertai alasan singkat, nilainya melebihi anggaran, spesifikasi kurang jelas, atau pemasok belum terverifikasi, sehingga pengaju bisa memperbaiki dan mengajukan kembali dengan tepat.",
   },
   {
     type: "p",
-    text: "Perlu juga dibedakan antara penolakan permanen dan penolakan yang sebenarnya hanya butuh informasi tambahan. Banyak sistem yang hanya mengenal dua status — disetujui atau ditolak — padahal status ketiga seperti “butuh klarifikasi” akan jauh lebih membantu, karena pengajuan tetap berada di tangan pengaju untuk dilengkapi, bukan mati begitu saja dan harus dibuat ulang dari awal.",
+    text: "Perlu juga dibedakan antara penolakan permanen dan penolakan yang sebenarnya hanya butuh informasi tambahan. Banyak sistem yang hanya mengenal dua status, disetujui atau ditolak, padahal status ketiga seperti “butuh klarifikasi” akan jauh lebih membantu, karena pengajuan tetap berada di tangan pengaju untuk dilengkapi, bukan mati begitu saja dan harus dibuat ulang dari awal.",
   },
   { type: "h2", text: "Melibatkan tim di awal, bukan memaksakan dari atas" },
   {
@@ -163,11 +163,11 @@ export const body: Block[] = [
   { type: "h2", text: "Menyelaraskan approval dengan evaluasi pemasok" },
   {
     type: "p",
-    text: "Alur persetujuan sering dirancang seolah-olah hanya soal nilai rupiah, padahal keputusan membeli dari pemasok tertentu juga membawa risiko tersendiri yang layak dipertimbangkan dalam proses yang sama. Pemasok baru yang belum pernah bertransaksi dengan perusahaan idealnya melewati pemeriksaan dasar — legalitas usaha, riwayat pengiriman jika tersedia referensinya, dan kejelasan syarat pembayaran — sebelum pesanan pertama dibuat, bukan setelah barang sudah dikirim dan ternyata bermasalah. Menggabungkan pemeriksaan pemasok ke dalam alur persetujuan, alih-alih menjadikannya proses terpisah yang mudah terlewat, memastikan setiap pembelian dari pemasok baru otomatis melalui langkah verifikasi ini tanpa bergantung pada inisiatif orang per orang untuk mengingatnya.",
+    text: "Alur persetujuan sering dirancang seolah-olah hanya soal nilai rupiah, padahal keputusan membeli dari pemasok tertentu juga membawa risiko tersendiri yang layak dipertimbangkan dalam proses yang sama. Pemasok baru yang belum pernah bertransaksi dengan perusahaan idealnya melewati pemeriksaan dasar, legalitas usaha, riwayat pengiriman jika tersedia referensinya, dan kejelasan syarat pembayaran, sebelum pesanan pertama dibuat, bukan setelah barang sudah dikirim dan ternyata bermasalah. Menggabungkan pemeriksaan pemasok ke dalam alur persetujuan, alih-alih menjadikannya proses terpisah yang mudah terlewat, memastikan setiap pembelian dari pemasok baru otomatis melalui langkah verifikasi ini tanpa bergantung pada inisiatif orang per orang untuk mengingatnya.",
   },
   {
     type: "p",
-    text: "Untuk pemasok yang sudah lama bekerja sama dan terbukti dapat diandalkan, alur persetujuan sebaiknya tidak memperlakukan mereka sama ketatnya dengan pemasok baru yang belum punya rekam jejak. Sistem yang menyimpan riwayat transaksi dengan setiap pemasok — ketepatan waktu pengiriman, kesesuaian kualitas, dan konsistensi harga dari waktu ke waktu — memberi penyetuju konteks yang jauh lebih kaya dibanding sekadar melihat nominal pengajuan. Pembelian rutin dari pemasok dengan rekam jejak baik bisa diberi jalur persetujuan yang lebih ringkas, sementara pemasok dengan riwayat bermasalah otomatis mendapat pengawasan lebih ketat pada pengajuan berikutnya.",
+    text: "Untuk pemasok yang sudah lama bekerja sama dan terbukti dapat diandalkan, alur persetujuan sebaiknya tidak memperlakukan mereka sama ketatnya dengan pemasok baru yang belum punya rekam jejak. Sistem yang menyimpan riwayat transaksi dengan setiap pemasok, ketepatan waktu pengiriman, kesesuaian kualitas, dan konsistensi harga dari waktu ke waktu, memberi penyetuju konteks yang jauh lebih kaya dibanding sekadar melihat nominal pengajuan. Pembelian rutin dari pemasok dengan rekam jejak baik bisa diberi jalur persetujuan yang lebih ringkas, sementara pemasok dengan riwayat bermasalah otomatis mendapat pengawasan lebih ketat pada pengajuan berikutnya.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -177,7 +177,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Alur persetujuan pembelian Anda masih lewat WhatsApp?",
-    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda — pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda, pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
     href: "/services/erp",
     label: "Lihat layanan ERP",
   },

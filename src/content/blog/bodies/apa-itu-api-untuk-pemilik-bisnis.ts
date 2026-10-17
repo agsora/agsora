@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Rapat evaluasi vendor. Salah satu kandidat bertanya, “Sistem lama Bapak punya API tidak?” Pemilik bisnis mengangguk sopan sambil diam-diam bertanya dalam hati apa maksudnya. Ia tidak mau terlihat tidak paham, jadi pertanyaan itu dibiarkan berlalu — padahal jawabannya sangat menentukan apakah project integrasi yang direncanakan bisa berjalan atau tidak.",
+    text: "Rapat evaluasi vendor. Salah satu kandidat bertanya, “Sistem lama Bapak punya API tidak?” Pemilik bisnis mengangguk sopan sambil diam-diam bertanya dalam hati apa maksudnya. Ia tidak mau terlihat tidak paham, jadi pertanyaan itu dibiarkan berlalu, padahal jawabannya sangat menentukan apakah project integrasi yang direncanakan bisa berjalan atau tidak.",
   },
   {
     type: "p",
@@ -15,7 +15,7 @@ export const body: Block[] = [
     items: [
       "API adalah cara dua sistem saling bertukar data secara otomatis tanpa campur tangan manusia",
       "Banyak proses bisnis sehari-hari sebenarnya sudah bergantung pada API tanpa Anda sadari",
-      "Tanpa integrasi, data harus dipindahkan manual — memakan waktu dan rawan kesalahan",
+      "Tanpa integrasi, data harus dipindahkan manual, memakan waktu dan rawan kesalahan",
       "Tanyakan ketersediaan API sebelum membeli software baru",
       "Rencanakan penanganan kegagalan koneksi sejak awal perancangan integrasi",
     ],
@@ -23,11 +23,11 @@ export const body: Block[] = [
   { type: "h2", text: "Analogi sederhana untuk memahami API" },
   {
     type: "p",
-    text: "Bayangkan pelayan di sebuah restoran. Anda tidak masuk ke dapur untuk memasak makanan sendiri; Anda menyampaikan pesanan kepada pelayan dengan cara yang sudah disepakati — menu yang tersedia, format pemesanan yang jelas — lalu pelayan membawakan hasilnya kepada Anda tanpa Anda perlu tahu detail proses memasaknya.",
+    text: "Bayangkan pelayan di sebuah restoran. Anda tidak masuk ke dapur untuk memasak makanan sendiri; Anda menyampaikan pesanan kepada pelayan dengan cara yang sudah disepakati, menu yang tersedia, format pemesanan yang jelas, lalu pelayan membawakan hasilnya kepada Anda tanpa Anda perlu tahu detail proses memasaknya.",
   },
   {
     type: "p",
-    text: "API (Application Programming Interface) bekerja dengan cara yang serupa. Satu sistem mengirim permintaan dengan format tertentu yang sudah disepakati, dan sistem lain membalas dengan data atau hasil yang diminta — tanpa kedua sistem perlu saling mengetahui cara kerja internal masing-masing secara mendetail. Yang penting hanya “bahasa” komunikasi di antara keduanya sudah disepakati dan dipahami bersama.",
+    text: "API (Application Programming Interface) bekerja dengan cara yang serupa. Satu sistem mengirim permintaan dengan format tertentu yang sudah disepakati, dan sistem lain membalas dengan data atau hasil yang diminta, tanpa kedua sistem perlu saling mengetahui cara kerja internal masing-masing secara mendetail. Yang penting hanya “bahasa” komunikasi di antara keduanya sudah disepakati dan dipahami bersama.",
   },
   { type: "h2", text: "Contoh dalam bisnis sehari-hari" },
   {
@@ -42,7 +42,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Jika bisnis Anda sudah memakai salah satu contoh di atas, Anda sebenarnya sudah memanfaatkan API tanpa perlu memahami detail teknisnya — yang penting adalah hasilnya: data mengalir otomatis tanpa harus dipindahkan manual oleh manusia.",
+    text: "Jika bisnis Anda sudah memakai salah satu contoh di atas, Anda sebenarnya sudah memanfaatkan API tanpa perlu memahami detail teknisnya, yang penting adalah hasilnya: data mengalir otomatis tanpa harus dipindahkan manual oleh manusia.",
   },
   { type: "h2", text: "Kenapa ini penting bagi keputusan bisnis Anda" },
   {
@@ -51,7 +51,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "API memungkinkan data mengalir otomatis antar sistem, sehingga setiap bagian bisnis bekerja dengan informasi yang sama dan selalu terbaru — mengurangi risiko kesalahan sekaligus menghemat waktu yang selama ini terbuang untuk pekerjaan salin-tempel yang berulang.",
+    text: "API memungkinkan data mengalir otomatis antar sistem, sehingga setiap bagian bisnis bekerja dengan informasi yang sama dan selalu terbaru, mengurangi risiko kesalahan sekaligus menghemat waktu yang selama ini terbuang untuk pekerjaan salin-tempel yang berulang.",
   },
   {
     type: "callout",
@@ -66,7 +66,7 @@ export const body: Block[] = [
   { type: "h2", text: "Rencanakan saat integrasi gagal" },
   {
     type: "p",
-    text: "Koneksi internet bisa terputus dan layanan pihak ketiga bisa mengalami gangguan sewaktu-waktu, di luar kendali Anda maupun vendor. Integrasi yang dirancang dengan baik memiliki mekanisme mencoba ulang secara otomatis, pencatatan setiap kegagalan yang terjadi, dan pemberitahuan kepada tim terkait — sehingga data yang gagal terkirim tidak hilang begitu saja tanpa disadari siapa pun.",
+    text: "Koneksi internet bisa terputus dan layanan pihak ketiga bisa mengalami gangguan sewaktu-waktu, di luar kendali Anda maupun vendor. Integrasi yang dirancang dengan baik memiliki mekanisme mencoba ulang secara otomatis, pencatatan setiap kegagalan yang terjadi, dan pemberitahuan kepada tim terkait, sehingga data yang gagal terkirim tidak hilang begitu saja tanpa disadari siapa pun.",
   },
   { type: "h2", text: "Ilustrasi: bisnis yang terhubung vs yang terpisah" },
   {
@@ -80,7 +80,7 @@ export const body: Block[] = [
   { type: "h2", text: "Memulai percakapan tentang integrasi dengan vendor" },
   {
     type: "p",
-    text: "Anda tidak perlu memahami detail teknis API untuk memulai diskusi yang produktif dengan vendor. Cukup jelaskan sistem apa saja yang ingin Anda hubungkan dan data apa yang perlu mengalir di antaranya — misalnya “pesanan dari toko online harus otomatis mengurangi stok di sistem gudang”. Vendor yang kompeten akan menerjemahkan kebutuhan ini menjadi solusi teknis yang tepat.",
+    text: "Anda tidak perlu memahami detail teknis API untuk memulai diskusi yang produktif dengan vendor. Cukup jelaskan sistem apa saja yang ingin Anda hubungkan dan data apa yang perlu mengalir di antaranya, misalnya “pesanan dari toko online harus otomatis mengurangi stok di sistem gudang”. Vendor yang kompeten akan menerjemahkan kebutuhan ini menjadi solusi teknis yang tepat.",
   },
   { type: "h2", text: "Langkah mengevaluasi kebutuhan integrasi" },
   {
@@ -116,7 +116,7 @@ export const body: Block[] = [
   { type: "h2", text: "Keamanan dalam integrasi API" },
   {
     type: "p",
-    text: "Setiap kali dua sistem saling terhubung lewat API, ada jalur baru yang perlu diamankan. Akses ke API biasanya dikendalikan lewat kunci atau token khusus yang harus dijaga kerahasiaannya seperti kata sandi — jika kunci ini bocor atau tersebar tanpa sengaja, misalnya tertinggal di kode yang dibagikan secara terbuka, pihak yang tidak berwenang bisa saja mengakses data yang mengalir lewat integrasi tersebut.",
+    text: "Setiap kali dua sistem saling terhubung lewat API, ada jalur baru yang perlu diamankan. Akses ke API biasanya dikendalikan lewat kunci atau token khusus yang harus dijaga kerahasiaannya seperti kata sandi, jika kunci ini bocor atau tersebar tanpa sengaja, misalnya tertinggal di kode yang dibagikan secara terbuka, pihak yang tidak berwenang bisa saja mengakses data yang mengalir lewat integrasi tersebut.",
   },
   {
     type: "p",
@@ -125,7 +125,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: keputusan yang salah karena tidak bertanya" },
   {
     type: "p",
-    text: "Sebuah bisnis ritel dengan banyak cabang memutuskan membeli sistem kasir baru tanpa menanyakan ketersediaan API sama sekali, karena harganya menarik dan fiturnya terlihat lengkap di demo penjualan. Belakangan, saat mereka ingin menghubungkan data penjualan dari sistem kasir ke software akuntansi yang sudah dipakai bertahun-tahun, ternyata sistem kasir baru itu tidak menyediakan cara otomatis untuk mengeluarkan data — satu-satunya opsi adalah mengekspor file setiap hari secara manual dan mengimpornya satu per satu.",
+    text: "Sebuah bisnis ritel dengan banyak cabang memutuskan membeli sistem kasir baru tanpa menanyakan ketersediaan API sama sekali, karena harganya menarik dan fiturnya terlihat lengkap di demo penjualan. Belakangan, saat mereka ingin menghubungkan data penjualan dari sistem kasir ke software akuntansi yang sudah dipakai bertahun-tahun, ternyata sistem kasir baru itu tidak menyediakan cara otomatis untuk mengeluarkan data, satu-satunya opsi adalah mengekspor file setiap hari secara manual dan mengimpornya satu per satu.",
   },
   {
     type: "p",
@@ -134,7 +134,7 @@ export const body: Block[] = [
   { type: "h2", text: "Peran developer atau vendor teknis Anda" },
   {
     type: "p",
-    text: "Anda sebagai pemilik bisnis tidak perlu bisa menulis kode untuk memanfaatkan API, tetapi perlu memiliki akses ke seseorang — baik staf internal maupun vendor — yang bisa menerjemahkan kebutuhan bisnis Anda menjadi implementasi teknis yang berjalan. Peran ini penting sejak tahap evaluasi vendor, bukan baru dilibatkan setelah kontrak diteken, karena mereka bisa membantu menilai apakah dokumentasi API benar-benar memadai atau ternyata banyak celah yang baru terasa saat implementasi sudah berjalan.",
+    text: "Anda sebagai pemilik bisnis tidak perlu bisa menulis kode untuk memanfaatkan API, tetapi perlu memiliki akses ke seseorang, baik staf internal maupun vendor, yang bisa menerjemahkan kebutuhan bisnis Anda menjadi implementasi teknis yang berjalan. Peran ini penting sejak tahap evaluasi vendor, bukan baru dilibatkan setelah kontrak diteken, karena mereka bisa membantu menilai apakah dokumentasi API benar-benar memadai atau ternyata banyak celah yang baru terasa saat implementasi sudah berjalan.",
   },
   { type: "h3", text: "Apakah saya perlu menyewa developer khusus untuk mengelola API?" },
   {
@@ -148,7 +148,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Vendor juga sewaktu-waktu memperbarui API mereka — menambah fitur, mengubah format data, atau menghentikan dukungan untuk versi lama. Perubahan seperti ini, jika tidak dikomunikasikan dan diantisipasi dengan baik, bisa membuat integrasi yang tadinya berjalan lancar tiba-tiba berhenti berfungsi tanpa peringatan. Vendor yang matang biasanya memberi masa transisi yang cukup panjang sebelum menghentikan dukungan versi lama, disertai dokumentasi perubahan yang jelas. Saat mengevaluasi vendor, tanyakan juga bagaimana mereka menangani perubahan versi API di masa depan, dan apakah tim teknis Anda atau vendor akan diberi tahu lebih dulu sebelum perubahan itu benar-benar diterapkan.",
+    text: "Vendor juga sewaktu-waktu memperbarui API mereka, menambah fitur, mengubah format data, atau menghentikan dukungan untuk versi lama. Perubahan seperti ini, jika tidak dikomunikasikan dan diantisipasi dengan baik, bisa membuat integrasi yang tadinya berjalan lancar tiba-tiba berhenti berfungsi tanpa peringatan. Vendor yang matang biasanya memberi masa transisi yang cukup panjang sebelum menghentikan dukungan versi lama, disertai dokumentasi perubahan yang jelas. Saat mengevaluasi vendor, tanyakan juga bagaimana mereka menangani perubahan versi API di masa depan, dan apakah tim teknis Anda atau vendor akan diberi tahu lebih dulu sebelum perubahan itu benar-benar diterapkan.",
   },
   { type: "h2", text: "Penutup" },
   {

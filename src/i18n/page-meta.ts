@@ -167,17 +167,17 @@ export function blogArchiveMeta(locale: Locale, page: number, total: number): Me
   switch (locale) {
     case "en":
       return {
-        title: `Blog — Page ${page}`,
+        title: `Blog, Page ${page}`,
         description: `Page ${page} of ${total}: practical guides on ERP, POS, HRIS, CRM, and software development for businesses.`,
       };
     case "zh":
       return {
-        title: `博客 — 第 ${page} 页`,
+        title: `博客, 第 ${page} 页`,
         description: `第 ${page} / ${total} 页：ERP、POS、HRIS、CRM 与软件开发实用指南。`,
       };
     default:
       return {
-        title: `Blog — Halaman ${page}`,
+        title: `Blog, Halaman ${page}`,
         description: `Halaman ${page} dari ${total}: panduan praktis seputar ERP, POS, HRIS, CRM, dan pengembangan software untuk bisnis di Indonesia.`,
       };
   }

@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Jawabannya hampir selalu ada pada jarak antara keuntungan dan arus kas. Penjualan yang tercatat belum tentu sudah dibayar. Stok yang menumpuk di gudang adalah uang yang tertahan. Tagihan pemasok jatuh tempo pada tanggal yang tidak selalu sejalan dengan tanggal pelanggan membayar. Ketika informasi tentang semua hal ini tersebar di sistem yang berbeda — aplikasi kasir, spreadsheet piutang, catatan gudang, dan rekening bank — tidak ada yang bisa melihat gambaran lengkapnya sampai masalah sudah terjadi.",
+    text: "Jawabannya hampir selalu ada pada jarak antara keuntungan dan arus kas. Penjualan yang tercatat belum tentu sudah dibayar. Stok yang menumpuk di gudang adalah uang yang tertahan. Tagihan pemasok jatuh tempo pada tanggal yang tidak selalu sejalan dengan tanggal pelanggan membayar. Ketika informasi tentang semua hal ini tersebar di sistem yang berbeda, aplikasi kasir, spreadsheet piutang, catatan gudang, dan rekening bank, tidak ada yang bisa melihat gambaran lengkapnya sampai masalah sudah terjadi.",
   },
   {
     type: "p",
@@ -127,7 +127,7 @@ export const body: Block[] = [
       "Transaksi dicatat saat terjadi, bukan dikumpulkan dan diinput di akhir minggu atau akhir bulan",
       "Tanggal jatuh tempo dan syarat pembayaran diisi dengan benar untuk setiap pelanggan dan pemasok",
       "Penerimaan dan pengeluaran bank direkonsiliasi secara rutin, idealnya harian atau mingguan",
-      "Pergerakan stok — penerimaan, pengeluaran, retur, dan penyesuaian — tercatat lengkap di sistem",
+      "Pergerakan stok, penerimaan, pengeluaran, retur, dan penyesuaian, tercatat lengkap di sistem",
       "Ada pemilik proses yang jelas untuk setiap jenis data, sehingga kesalahan cepat diketahui dan diperbaiki",
     ],
   },
@@ -155,7 +155,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Kesulitan kas jarang datang tiba-tiba. Tanda-tandanya biasanya sudah ada di data — piutang yang mulai menua, stok yang tidak bergerak, jadwal pembayaran yang menumpuk di minggu yang sama. Masalahnya, data itu tersebar di tempat yang berbeda dan baru disatukan ketika sudah terlambat. ERP yang diterapkan dengan disiplin membuat tanda-tanda itu terlihat lebih awal, sehingga keputusan bisa diambil ketika pilihannya masih banyak, bukan ketika hanya tersisa langkah darurat.",
+    text: "Kesulitan kas jarang datang tiba-tiba. Tanda-tandanya biasanya sudah ada di data, piutang yang mulai menua, stok yang tidak bergerak, jadwal pembayaran yang menumpuk di minggu yang sama. Masalahnya, data itu tersebar di tempat yang berbeda dan baru disatukan ketika sudah terlambat. ERP yang diterapkan dengan disiplin membuat tanda-tanda itu terlihat lebih awal, sehingga keputusan bisa diambil ketika pilihannya masih banyak, bukan ketika hanya tersisa langkah darurat.",
   },
   {
     type: "cta",

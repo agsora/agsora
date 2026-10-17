@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Partner senior bertanya di rapat evaluasi tahunan, “Project konsultasi untuk klien besar bulan lalu itu untung berapa sebenarnya?” Tidak ada yang bisa menjawab dengan pasti. Fee yang diterima memang tercatat jelas, tapi berapa jam kerja tim sebenarnya dihabiskan untuk project itu — terutama revisi-revisi yang di luar rencana awal — tidak pernah benar-benar dicatat dengan rapi.",
+    text: "Partner senior bertanya di rapat evaluasi tahunan, “Project konsultasi untuk klien besar bulan lalu itu untung berapa sebenarnya?” Tidak ada yang bisa menjawab dengan pasti. Fee yang diterima memang tercatat jelas, tapi berapa jam kerja tim sebenarnya dihabiskan untuk project itu, terutama revisi-revisi yang di luar rencana awal, tidak pernah benar-benar dicatat dengan rapi.",
   },
   {
     type: "p",
-    text: "Bisnis jasa profesional — konsultan, agensi kreatif, kantor akuntan, firma arsitek, dan sejenisnya — tidak mengelola stok barang fisik seperti bisnis retail. Yang mereka kelola adalah waktu orang, banyak project yang berjalan bersamaan, dan hubungan jangka panjang dengan klien. Tanpa sistem yang tepat, sangat sulit mengetahui apakah sebuah project benar-benar menguntungkan sampai semuanya selesai dikerjakan — dan pada saat itu, sering sudah terlambat untuk melakukan koreksi.",
+    text: "Bisnis jasa profesional, konsultan, agensi kreatif, kantor akuntan, firma arsitek, dan sejenisnya, tidak mengelola stok barang fisik seperti bisnis retail. Yang mereka kelola adalah waktu orang, banyak project yang berjalan bersamaan, dan hubungan jangka panjang dengan klien. Tanpa sistem yang tepat, sangat sulit mengetahui apakah sebuah project benar-benar menguntungkan sampai semuanya selesai dikerjakan, dan pada saat itu, sering sudah terlambat untuk melakukan koreksi.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa bisnis jasa profesional butuh pendekatan berbeda" },
   {
     type: "p",
-    text: "Berbeda dengan bisnis yang menjual barang fisik di mana biaya produksi relatif mudah dihitung, bisnis jasa profesional menjual waktu dan keahlian — aset yang jauh lebih sulit diukur dan dilacak secara konkret. Tanpa sistem pencatatan yang tepat, perusahaan bisa saja terlihat sibuk dan ramai dengan banyak project, tetapi sebenarnya kehilangan uang di beberapa project tanpa ada yang menyadarinya.",
+    text: "Berbeda dengan bisnis yang menjual barang fisik di mana biaya produksi relatif mudah dihitung, bisnis jasa profesional menjual waktu dan keahlian, aset yang jauh lebih sulit diukur dan dilacak secara konkret. Tanpa sistem pencatatan yang tepat, perusahaan bisa saja terlihat sibuk dan ramai dengan banyak project, tetapi sebenarnya kehilangan uang di beberapa project tanpa ada yang menyadarinya.",
   },
   { type: "h2", text: "Kebutuhan yang biasanya paling utama" },
   {
@@ -45,7 +45,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Catat waktu saat itu juga, bukan belakangan",
-    text: "Waktu kerja yang diisi di akhir minggu berdasarkan ingatan cenderung tidak akurat dan sering diisi asal-asalan hanya untuk memenuhi kewajiban administratif. Pencatatan yang mudah dilakukan saat pekerjaan sedang berlangsung — langsung dari ponsel atau terintegrasi dengan daftar tugas yang sedang dikerjakan — menghasilkan data yang jauh lebih bisa dipercaya untuk pengambilan keputusan.",
+    text: "Waktu kerja yang diisi di akhir minggu berdasarkan ingatan cenderung tidak akurat dan sering diisi asal-asalan hanya untuk memenuhi kewajiban administratif. Pencatatan yang mudah dilakukan saat pekerjaan sedang berlangsung, langsung dari ponsel atau terintegrasi dengan daftar tugas yang sedang dikerjakan, menghasilkan data yang jauh lebih bisa dipercaya untuk pengambilan keputusan.",
   },
   { type: "h2", text: "Profitabilitas per project yang sebenarnya" },
   {
@@ -60,7 +60,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: menemukan project yang sebenarnya merugi" },
   {
     type: "p",
-    text: "Bayangkan sebuah agensi desain yang menangani beberapa project sekaligus dengan fee tetap yang disepakati di awal untuk masing-masing project. Setelah menerapkan pencatatan waktu yang konsisten selama beberapa bulan, mereka menemukan bahwa satu jenis project — pembuatan identitas merek lengkap — secara konsisten membutuhkan waktu jauh lebih banyak dari yang diperhitungkan dalam penetapan fee, karena klien di kategori ini cenderung meminta revisi berkali-kali.",
+    text: "Bayangkan sebuah agensi desain yang menangani beberapa project sekaligus dengan fee tetap yang disepakati di awal untuk masing-masing project. Setelah menerapkan pencatatan waktu yang konsisten selama beberapa bulan, mereka menemukan bahwa satu jenis project, pembuatan identitas merek lengkap, secara konsisten membutuhkan waktu jauh lebih banyak dari yang diperhitungkan dalam penetapan fee, karena klien di kategori ini cenderung meminta revisi berkali-kali.",
   },
   {
     type: "p",
@@ -74,7 +74,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mengelola project dengan skema penagihan berbeda" },
   {
     type: "p",
-    text: "Bisnis jasa profesional sering menangani beberapa skema penagihan sekaligus — beberapa klien dengan fee tetap, beberapa dengan penagihan per jam, dan beberapa lagi dengan skema retainer bulanan. Sistem yang bisa menangani berbagai skema ini secara fleksibel dalam satu platform yang sama memudahkan tim keuangan tanpa harus mengelola banyak sistem terpisah untuk setiap jenis klien.",
+    text: "Bisnis jasa profesional sering menangani beberapa skema penagihan sekaligus, beberapa klien dengan fee tetap, beberapa dengan penagihan per jam, dan beberapa lagi dengan skema retainer bulanan. Sistem yang bisa menangani berbagai skema ini secara fleksibel dalam satu platform yang sama memudahkan tim keuangan tanpa harus mengelola banyak sistem terpisah untuk setiap jenis klien.",
   },
   { type: "h2", text: "Mulai dari satu kebutuhan yang paling bernilai" },
   {
@@ -95,20 +95,20 @@ export const body: Block[] = [
   { type: "h2", text: "Mengelola perubahan ruang lingkup (scope creep)" },
   {
     type: "p",
-    text: "Hampir setiap project jasa profesional mengalami permintaan tambahan di tengah jalan — klien meminta satu revisi lagi, satu fitur tambahan, atau satu putaran diskusi ekstra yang sebenarnya di luar kesepakatan awal. Masalahnya bukan pada permintaan itu sendiri, tetapi pada kebiasaan tim langsung mengerjakannya demi menjaga hubungan baik dengan klien, tanpa ada proses persetujuan yang jelas soal apakah pekerjaan tambahan ini akan ditagih terpisah atau tidak.",
+    text: "Hampir setiap project jasa profesional mengalami permintaan tambahan di tengah jalan, klien meminta satu revisi lagi, satu fitur tambahan, atau satu putaran diskusi ekstra yang sebenarnya di luar kesepakatan awal. Masalahnya bukan pada permintaan itu sendiri, tetapi pada kebiasaan tim langsung mengerjakannya demi menjaga hubungan baik dengan klien, tanpa ada proses persetujuan yang jelas soal apakah pekerjaan tambahan ini akan ditagih terpisah atau tidak.",
   },
   {
     type: "p",
-    text: "Sistem yang mewajibkan setiap permintaan di luar ruang lingkup awal dicatat dan disetujui sebelum dikerjakan — meski hanya lewat persetujuan cepat via chat yang terdokumentasi — memberi tim dasar yang jelas untuk menagih pekerjaan tambahan tersebut nantinya, sekaligus memberi klien transparansi soal kenapa tagihan akhir bisa berbeda dari penawaran awal.",
+    text: "Sistem yang mewajibkan setiap permintaan di luar ruang lingkup awal dicatat dan disetujui sebelum dikerjakan, meski hanya lewat persetujuan cepat via chat yang terdokumentasi, memberi tim dasar yang jelas untuk menagih pekerjaan tambahan tersebut nantinya, sekaligus memberi klien transparansi soal kenapa tagihan akhir bisa berbeda dari penawaran awal.",
   },
   { type: "h2", text: "Kolaborasi dan dokumentasi antar anggota tim" },
   {
     type: "p",
-    text: "Project jasa profesional jarang dikerjakan satu orang dari awal sampai akhir. Ketika beberapa orang bergantian menangani bagian yang berbeda dari project yang sama, catatan tentang keputusan yang sudah diambil, revisi yang sudah disetujui klien, dan status terkini pekerjaan perlu tersimpan di satu tempat yang bisa diakses semua orang yang terlibat — bukan tersebar di percakapan pribadi atau ingatan masing-masing anggota tim.",
+    text: "Project jasa profesional jarang dikerjakan satu orang dari awal sampai akhir. Ketika beberapa orang bergantian menangani bagian yang berbeda dari project yang sama, catatan tentang keputusan yang sudah diambil, revisi yang sudah disetujui klien, dan status terkini pekerjaan perlu tersimpan di satu tempat yang bisa diakses semua orang yang terlibat, bukan tersebar di percakapan pribadi atau ingatan masing-masing anggota tim.",
   },
   {
     type: "p",
-    text: "Tanpa dokumentasi yang terpusat seperti ini, pergantian anggota tim di tengah project — karena cuti, resign, atau sekadar pembagian ulang beban kerja — sering menyebabkan pekerjaan mundur karena orang baru harus menebak-nebak konteks yang seharusnya sudah tercatat rapi sejak awal.",
+    text: "Tanpa dokumentasi yang terpusat seperti ini, pergantian anggota tim di tengah project, karena cuti, resign, atau sekadar pembagian ulang beban kerja, sering menyebabkan pekerjaan mundur karena orang baru harus menebak-nebak konteks yang seharusnya sudah tercatat rapi sejak awal.",
   },
   { type: "h2", text: "Kesalahan umum dalam penerapan" },
   {
@@ -125,26 +125,26 @@ export const body: Block[] = [
   { type: "h3", text: "Bagaimana mendorong tim yang enggan mencatat waktu kerja secara rutin?" },
   {
     type: "p",
-    text: "Jelaskan manfaatnya bagi mereka juga — data ini membantu membuktikan beban kerja mereka yang sebenarnya, yang berguna saat negosiasi penambahan tim atau penyesuaian target. Pastikan juga proses pencatatannya semudah mungkin, idealnya hanya butuh beberapa detik setiap kali berpindah tugas.",
+    text: "Jelaskan manfaatnya bagi mereka juga, data ini membantu membuktikan beban kerja mereka yang sebenarnya, yang berguna saat negosiasi penambahan tim atau penyesuaian target. Pastikan juga proses pencatatannya semudah mungkin, idealnya hanya butuh beberapa detik setiap kali berpindah tugas.",
   },
   { type: "h3", text: "Apakah cocok untuk firma kecil dengan hanya beberapa orang?" },
   {
     type: "p",
-    text: "Manfaatnya tetap terasa bahkan untuk tim kecil, terutama untuk memastikan setiap project yang dikerjakan benar-benar menguntungkan. Skalanya bisa disesuaikan — tidak perlu sistem yang rumit untuk tim dengan jumlah orang yang masih sedikit.",
+    text: "Manfaatnya tetap terasa bahkan untuk tim kecil, terutama untuk memastikan setiap project yang dikerjakan benar-benar menguntungkan. Skalanya bisa disesuaikan, tidak perlu sistem yang rumit untuk tim dengan jumlah orang yang masih sedikit.",
   },
   { type: "h2", text: "Standarisasi pekerjaan berulang tanpa mematikan fleksibilitas" },
   {
     type: "p",
-    text: "Banyak project jasa profesional terlihat unik di permukaan, tetapi sebenarnya mengandung tahapan yang berulang dari satu klien ke klien lain — proses onboarding klien baru, struktur dasar proposal, atau urutan langkah dalam mengerjakan jenis project tertentu. Tanpa checklist atau template standar untuk tahapan berulang ini, setiap anggota tim cenderung mengerjakannya dengan caranya sendiri, dan kualitas hasil akhir jadi bergantung pada siapa yang kebetulan menangani project tersebut.",
+    text: "Banyak project jasa profesional terlihat unik di permukaan, tetapi sebenarnya mengandung tahapan yang berulang dari satu klien ke klien lain, proses onboarding klien baru, struktur dasar proposal, atau urutan langkah dalam mengerjakan jenis project tertentu. Tanpa checklist atau template standar untuk tahapan berulang ini, setiap anggota tim cenderung mengerjakannya dengan caranya sendiri, dan kualitas hasil akhir jadi bergantung pada siapa yang kebetulan menangani project tersebut.",
   },
   {
     type: "p",
-    text: "Template dan checklist untuk tahapan yang benar-benar berulang bukan berarti mematikan kreativitas atau fleksibilitas dalam mengerjakan project. Justru sebaliknya — dengan bagian rutin sudah terstandarisasi dan tidak perlu dipikirkan ulang dari nol setiap kali, tim punya lebih banyak ruang dan waktu untuk fokus pada bagian project yang benar-benar membutuhkan pemikiran khusus dan keahlian personal mereka. Sistem yang menyimpan template ini dan memudahkan tim menerapkannya ke project baru membantu menjaga konsistensi kualitas, terutama saat tim bertambah besar dan tidak semua orang punya pengalaman yang sama.",
+    text: "Template dan checklist untuk tahapan yang benar-benar berulang bukan berarti mematikan kreativitas atau fleksibilitas dalam mengerjakan project. Justru sebaliknya, dengan bagian rutin sudah terstandarisasi dan tidak perlu dipikirkan ulang dari nol setiap kali, tim punya lebih banyak ruang dan waktu untuk fokus pada bagian project yang benar-benar membutuhkan pemikiran khusus dan keahlian personal mereka. Sistem yang menyimpan template ini dan memudahkan tim menerapkannya ke project baru membantu menjaga konsistensi kualitas, terutama saat tim bertambah besar dan tidak semua orang punya pengalaman yang sama.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Bisnis jasa profesional yang tidak melacak waktu dan biaya dengan konsisten sebenarnya sedang beroperasi dalam kegelapan finansial, meski terlihat sibuk dan ramai dengan banyak project. Dengan pencatatan waktu yang rapi sebagai fondasi, profitabilitas setiap project dan setiap klien menjadi terlihat jelas — memungkinkan keputusan bisnis yang jauh lebih tepat ke depannya.",
+    text: "Bisnis jasa profesional yang tidak melacak waktu dan biaya dengan konsisten sebenarnya sedang beroperasi dalam kegelapan finansial, meski terlihat sibuk dan ramai dengan banyak project. Dengan pencatatan waktu yang rapi sebagai fondasi, profitabilitas setiap project dan setiap klien menjadi terlihat jelas, memungkinkan keputusan bisnis yang jauh lebih tepat ke depannya.",
   },
   {
     type: "cta",

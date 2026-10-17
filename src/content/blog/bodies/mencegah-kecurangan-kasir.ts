@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Uang di laci kurang Rp150.000 lagi. Kasir bilang mungkin ada yang salah kembalian. Minggu depan, kurang lagi. Pemilik mulai curiga, tapi tidak tahu harus mulai dari mana — apakah dari kasir yang sedang bertugas, dari sistem kasirnya, atau dari sesuatu yang selama ini tidak terlihat.",
+    text: "Uang di laci kurang Rp150.000 lagi. Kasir bilang mungkin ada yang salah kembalian. Minggu depan, kurang lagi. Pemilik mulai curiga, tapi tidak tahu harus mulai dari mana, apakah dari kasir yang sedang bertugas, dari sistem kasirnya, atau dari sesuatu yang selama ini tidak terlihat.",
   },
   {
     type: "p",
-    text: "Selisih uang di laci kasir, stok yang berkurang tanpa penjualan tercatat, atau diskon yang tidak pernah disetujui pemilik — masalah seperti ini sering baru ketahuan setelah berulang kali terjadi, dan seringnya baru disadari setelah kerugian sudah cukup besar. Tujuan kontrol sistem bukan untuk mencurigai semua karyawan, melainkan membuat kesalahan dan penyalahgunaan sulit terjadi, sekaligus mudah ditelusuri ketika memang terjadi.",
+    text: "Selisih uang di laci kasir, stok yang berkurang tanpa penjualan tercatat, atau diskon yang tidak pernah disetujui pemilik, masalah seperti ini sering baru ketahuan setelah berulang kali terjadi, dan seringnya baru disadari setelah kerugian sudah cukup besar. Tujuan kontrol sistem bukan untuk mencurigai semua karyawan, melainkan membuat kesalahan dan penyalahgunaan sulit terjadi, sekaligus mudah ditelusuri ketika memang terjadi.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -50,7 +50,7 @@ export const body: Block[] = [
   { type: "h3", text: "Persetujuan untuk tindakan berisiko" },
   {
     type: "p",
-    text: "Pembatalan transaksi, diskon di atas batas tertentu, dan retur sebaiknya membutuhkan persetujuan supervisor — dengan PIN terpisah atau login akun berbeda — dan tercatat siapa yang menyetujui beserta waktunya. Ini menciptakan jeda yang membuat tindakan impulsif atau tidak jujur lebih sulit dilakukan tanpa terdeteksi.",
+    text: "Pembatalan transaksi, diskon di atas batas tertentu, dan retur sebaiknya membutuhkan persetujuan supervisor, dengan PIN terpisah atau login akun berbeda, dan tercatat siapa yang menyetujui beserta waktunya. Ini menciptakan jeda yang membuat tindakan impulsif atau tidak jujur lebih sulit dilakukan tanpa terdeteksi.",
   },
   { type: "h3", text: "Jejak perubahan yang lengkap" },
   {
@@ -60,12 +60,12 @@ export const body: Block[] = [
   { type: "h3", text: "Pencocokan kas per shift" },
   {
     type: "p",
-    text: "Di akhir shift, sistem menunjukkan berapa uang yang seharusnya ada di laci berdasarkan seluruh transaksi tunai. Kasir menghitung uang fisik, dan selisihnya tercatat sebagai data — bukan disesuaikan diam-diam atau dibiarkan tanpa penjelasan.",
+    text: "Di akhir shift, sistem menunjukkan berapa uang yang seharusnya ada di laci berdasarkan seluruh transaksi tunai. Kasir menghitung uang fisik, dan selisihnya tercatat sebagai data, bukan disesuaikan diam-diam atau dibiarkan tanpa penjelasan.",
   },
   {
     type: "callout",
     title: "Pola lebih penting dari satu kejadian",
-    text: "Satu pembatalan transaksi bukan masalah — itu bagian normal dari operasional. Yang patut diperhatikan adalah pola: kasir tertentu yang pembatalannya jauh lebih sering dari yang lain, atau pembatalan yang selalu menumpuk di jam tertentu ketika supervisor sedang tidak mengawasi. Laporan pengecualian membantu menemukan pola ini tanpa harus memeriksa setiap transaksi satu per satu.",
+    text: "Satu pembatalan transaksi bukan masalah, itu bagian normal dari operasional. Yang patut diperhatikan adalah pola: kasir tertentu yang pembatalannya jauh lebih sering dari yang lain, atau pembatalan yang selalu menumpuk di jam tertentu ketika supervisor sedang tidak mengawasi. Laporan pengecualian membantu menemukan pola ini tanpa harus memeriksa setiap transaksi satu per satu.",
   },
   { type: "h2", text: "Laporan pengecualian yang layak dipantau" },
   {
@@ -99,7 +99,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: menemukan pola dari laporan" },
   {
     type: "p",
-    text: "Bayangkan sebuah minimarket dengan empat kasir bergantian shift. Setelah menerapkan laporan pengecualian mingguan, pemilik memperhatikan satu kasir memiliki jumlah pembatalan transaksi tiga kali lipat dibanding rekan-rekannya, selalu terjadi menjelang pergantian shift. Setelah ditelusuri, ternyata kasir tersebut membatalkan transaksi kecil dan mengambil selisihnya sebelum shift berakhir — pola yang tidak akan terlihat tanpa laporan yang membandingkan data antar kasir.",
+    text: "Bayangkan sebuah minimarket dengan empat kasir bergantian shift. Setelah menerapkan laporan pengecualian mingguan, pemilik memperhatikan satu kasir memiliki jumlah pembatalan transaksi tiga kali lipat dibanding rekan-rekannya, selalu terjadi menjelang pergantian shift. Setelah ditelusuri, ternyata kasir tersebut membatalkan transaksi kecil dan mengambil selisihnya sebelum shift berakhir, pola yang tidak akan terlihat tanpa laporan yang membandingkan data antar kasir.",
   },
   { type: "h2", text: "Menerapkan budaya transparansi, bukan kecurigaan" },
   {
@@ -132,7 +132,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tanda peringatan di luar data transaksi" },
   {
     type: "p",
-    text: "Tidak semua indikasi kecurangan muncul dari angka di laporan. Perubahan gaya hidup yang mencolok dan tidak sesuai dengan penghasilan, keengganan mengambil cuti atau libur dalam waktu lama, atau justru terlalu bersemangat menangani shift tertentu sendirian tanpa mau digantikan, semuanya layak diperhatikan sebagai konteks tambahan. Tanda-tanda ini bukan bukti, dan tidak boleh langsung dijadikan tuduhan — tapi jika muncul bersamaan dengan pola mencurigakan di laporan pengecualian, kombinasi keduanya jauh lebih layak ditelusuri lebih dalam dibanding masing-masing dilihat secara terpisah.",
+    text: "Tidak semua indikasi kecurangan muncul dari angka di laporan. Perubahan gaya hidup yang mencolok dan tidak sesuai dengan penghasilan, keengganan mengambil cuti atau libur dalam waktu lama, atau justru terlalu bersemangat menangani shift tertentu sendirian tanpa mau digantikan, semuanya layak diperhatikan sebagai konteks tambahan. Tanda-tanda ini bukan bukti, dan tidak boleh langsung dijadikan tuduhan, tapi jika muncul bersamaan dengan pola mencurigakan di laporan pengecualian, kombinasi keduanya jauh lebih layak ditelusuri lebih dalam dibanding masing-masing dilihat secara terpisah.",
   },
   { type: "h2", text: "Menyusun prosedur eskalasi saat kecurigaan muncul" },
   {
@@ -142,17 +142,17 @@ export const body: Block[] = [
   { type: "h2", text: "Melibatkan supplier dan proses penerimaan barang" },
   {
     type: "p",
-    text: "Kecurangan tidak selalu terjadi di meja kasir. Selisih stok juga bisa berasal dari proses penerimaan barang dari supplier — jumlah yang diterima tidak dicocokkan dengan jumlah yang tertulis di nota pengiriman, atau barang yang diterima dalam kondisi kurang baik tetap dicatat sebagai stok penuh tanpa catatan pengecualian. Terapkan prosedur penerimaan barang yang mengharuskan penghitungan ulang secara fisik dan pencatatan selisih di sistem, bukan sekadar mempercayai angka yang tertulis di dokumen pengiriman dari pihak luar.",
+    text: "Kecurangan tidak selalu terjadi di meja kasir. Selisih stok juga bisa berasal dari proses penerimaan barang dari supplier, jumlah yang diterima tidak dicocokkan dengan jumlah yang tertulis di nota pengiriman, atau barang yang diterima dalam kondisi kurang baik tetap dicatat sebagai stok penuh tanpa catatan pengecualian. Terapkan prosedur penerimaan barang yang mengharuskan penghitungan ulang secara fisik dan pencatatan selisih di sistem, bukan sekadar mempercayai angka yang tertulis di dokumen pengiriman dari pihak luar.",
   },
   { type: "h3", text: "Apa yang sebaiknya dilakukan jika kecurangan sudah terlanjur ditemukan?" },
   {
     type: "p",
-    text: "Kumpulkan bukti dari sistem terlebih dahulu — jejak audit, laporan pengecualian, dan rekaman kamera jika tersedia — sebelum melakukan konfrontasi langsung dengan karyawan yang bersangkutan. Tangani situasi ini secara konsisten mengikuti kebijakan internal yang sudah ditetapkan, dan pastikan prosesnya adil serta terdokumentasi dengan baik, sehingga keputusan yang diambil bisa dipertanggungjawabkan jika dipertanyakan di kemudian hari.",
+    text: "Kumpulkan bukti dari sistem terlebih dahulu, jejak audit, laporan pengecualian, dan rekaman kamera jika tersedia, sebelum melakukan konfrontasi langsung dengan karyawan yang bersangkutan. Tangani situasi ini secara konsisten mengikuti kebijakan internal yang sudah ditetapkan, dan pastikan prosesnya adil serta terdokumentasi dengan baik, sehingga keputusan yang diambil bisa dipertanggungjawabkan jika dipertanyakan di kemudian hari.",
   },
   { type: "h2", text: "Mengevaluasi kontrol setelah diterapkan" },
   {
     type: "p",
-    text: "Menerapkan kontrol sistem bukan pekerjaan yang selesai sekali lalu dibiarkan berjalan sendiri selamanya. Setelah beberapa bulan berjalan, tinjau kembali apakah batas persetujuan yang ditetapkan masih relevan, apakah laporan pengecualian benar-benar rutin diperiksa oleh pihak yang bertanggung jawab, dan apakah ada celah baru yang muncul seiring perubahan cara operasional toko — misalnya penambahan metode pembayaran baru atau kanal penjualan tambahan yang belum tercakup dalam kontrol yang ada.",
+    text: "Menerapkan kontrol sistem bukan pekerjaan yang selesai sekali lalu dibiarkan berjalan sendiri selamanya. Setelah beberapa bulan berjalan, tinjau kembali apakah batas persetujuan yang ditetapkan masih relevan, apakah laporan pengecualian benar-benar rutin diperiksa oleh pihak yang bertanggung jawab, dan apakah ada celah baru yang muncul seiring perubahan cara operasional toko, misalnya penambahan metode pembayaran baru atau kanal penjualan tambahan yang belum tercakup dalam kontrol yang ada.",
   },
   {
     type: "p",
@@ -166,7 +166,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Selisih kas masih jadi misteri setiap bulan?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

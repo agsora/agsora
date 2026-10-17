@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Setiap awal tahun, daftar 'tren teknologi yang wajib diikuti' beredar di mana-mana, dan sebagian besar bisnis mengabaikannya karena terdengar seperti hype yang tidak relevan dengan operasional sehari-hari. Sikap skeptis itu sering kali beralasan — banyak 'tren' hanyalah kata kunci pemasaran tanpa dampak nyata. Tapi di antara kebisingan itu, ada beberapa pergeseran teknologi yang benar-benar memengaruhi cara bisnis beroperasi, bukan karena sedang tren, tapi karena menyelesaikan masalah yang sudah lama ada.",
+    text: "Setiap awal tahun, daftar 'tren teknologi yang wajib diikuti' beredar di mana-mana, dan sebagian besar bisnis mengabaikannya karena terdengar seperti hype yang tidak relevan dengan operasional sehari-hari. Sikap skeptis itu sering kali beralasan, banyak 'tren' hanyalah kata kunci pemasaran tanpa dampak nyata. Tapi di antara kebisingan itu, ada beberapa pergeseran teknologi yang benar-benar memengaruhi cara bisnis beroperasi, bukan karena sedang tren, tapi karena menyelesaikan masalah yang sudah lama ada.",
   },
   {
     type: "p",
-    text: "Artikel ini tidak membahas teknologi yang terdengar futuristik tapi belum siap dipakai bisnis kebanyakan. Fokusnya adalah pergeseran yang sudah cukup matang untuk diterapkan tahun ini, disertai konteks kapan pergeseran itu benar-benar relevan untuk bisnis Anda — dan kapan sebaiknya belum.",
+    text: "Artikel ini tidak membahas teknologi yang terdengar futuristik tapi belum siap dipakai bisnis kebanyakan. Fokusnya adalah pergeseran yang sudah cukup matang untuk diterapkan tahun ini, disertai konteks kapan pergeseran itu benar-benar relevan untuk bisnis Anda, dan kapan sebaiknya belum.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -17,7 +17,7 @@ export const body: Block[] = [
       "Integrasi sistem menjadi kebutuhan dasar, bukan lagi fitur tambahan",
       "Aplikasi yang bekerja offline semakin penting bagi bisnis dengan operasional lapangan",
       "Keamanan data menjadi tanggung jawab dasar setiap bisnis, bukan hanya perusahaan besar",
-      "Bukan berarti bisnis harus mengadopsi semuanya sekaligus — relevansi tiap tren berbeda tergantung jenis bisnis",
+      "Bukan berarti bisnis harus mengadopsi semuanya sekaligus, relevansi tiap tren berbeda tergantung jenis bisnis",
     ],
   },
   { type: "h2", text: "AI automation: dari eksperimen ke alat operasional" },
@@ -27,7 +27,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Yang membedakan penerapan yang berhasil dari yang gagal biasanya bukan seberapa canggih teknologinya, tapi seberapa spesifik masalah yang coba diselesaikan. AI yang diarahkan untuk satu tugas sempit — misalnya menyortir email masuk berdasarkan kategori — jauh lebih mudah berhasil dibanding AI yang diharapkan 'mengotomatiskan customer service' secara keseluruhan tanpa batasan yang jelas.",
+    text: "Yang membedakan penerapan yang berhasil dari yang gagal biasanya bukan seberapa canggih teknologinya, tapi seberapa spesifik masalah yang coba diselesaikan. AI yang diarahkan untuk satu tugas sempit, misalnya menyortir email masuk berdasarkan kategori, jauh lebih mudah berhasil dibanding AI yang diharapkan 'mengotomatiskan customer service' secara keseluruhan tanpa batasan yang jelas.",
   },
   {
     type: "callout",
@@ -37,7 +37,7 @@ export const body: Block[] = [
   { type: "h2", text: "Integrasi sistem: dari nice-to-have menjadi kebutuhan dasar" },
   {
     type: "p",
-    text: "Bisnis modern biasanya memakai banyak alat sekaligus — sistem kasir, akuntansi, CRM, platform pembayaran, dan marketplace. Selama bertahun-tahun, banyak bisnis menerima kenyataan bahwa alat-alat ini tidak saling terhubung, dan mengandalkan staf untuk memindahkan data secara manual antar sistem. Pergeseran yang terjadi sekarang adalah integrasi API antar sistem menjadi jauh lebih terjangkau dan lebih mudah diterapkan dibanding beberapa tahun lalu.",
+    text: "Bisnis modern biasanya memakai banyak alat sekaligus, sistem kasir, akuntansi, CRM, platform pembayaran, dan marketplace. Selama bertahun-tahun, banyak bisnis menerima kenyataan bahwa alat-alat ini tidak saling terhubung, dan mengandalkan staf untuk memindahkan data secara manual antar sistem. Pergeseran yang terjadi sekarang adalah integrasi API antar sistem menjadi jauh lebih terjangkau dan lebih mudah diterapkan dibanding beberapa tahun lalu.",
   },
   {
     type: "p",
@@ -46,11 +46,11 @@ export const body: Block[] = [
   { type: "h2", text: "Aplikasi yang tetap bekerja tanpa koneksi internet" },
   {
     type: "p",
-    text: "Untuk bisnis dengan operasional di lapangan — pengiriman, kunjungan sales, atau layanan di lokasi pelanggan — koneksi internet yang stabil tidak selalu bisa diandalkan. Aplikasi yang dirancang untuk tetap berfungsi saat koneksi terputus, lalu menyinkronkan data begitu koneksi kembali tersedia, semakin menjadi standar yang diharapkan, bukan lagi fitur mewah.",
+    text: "Untuk bisnis dengan operasional di lapangan, pengiriman, kunjungan sales, atau layanan di lokasi pelanggan, koneksi internet yang stabil tidak selalu bisa diandalkan. Aplikasi yang dirancang untuk tetap berfungsi saat koneksi terputus, lalu menyinkronkan data begitu koneksi kembali tersedia, semakin menjadi standar yang diharapkan, bukan lagi fitur mewah.",
   },
   {
     type: "p",
-    text: "Ini relevan khususnya bagi bisnis yang timnya bekerja di area dengan sinyal tidak stabil — gudang bawah tanah, daerah pinggiran, atau lokasi konstruksi. Kehilangan akses ke data hanya karena sinyal hilang sejenak bisa berarti transaksi yang tertunda atau data yang hilang sama sekali jika tidak dirancang untuk menangani kondisi ini.",
+    text: "Ini relevan khususnya bagi bisnis yang timnya bekerja di area dengan sinyal tidak stabil, gudang bawah tanah, daerah pinggiran, atau lokasi konstruksi. Kehilangan akses ke data hanya karena sinyal hilang sejenak bisa berarti transaksi yang tertunda atau data yang hilang sama sekali jika tidak dirancang untuk menangani kondisi ini.",
   },
   { type: "h2", text: "Keamanan data: tanggung jawab semua ukuran bisnis" },
   {
@@ -64,7 +64,7 @@ export const body: Block[] = [
   { type: "h2", text: "Alat no-code dan low-code mempercepat proses internal" },
   {
     type: "p",
-    text: "Tidak semua kebutuhan otomatisasi harus menunggu tim developer membangun sistem dari nol. Alat no-code dan low-code memungkinkan tim non-teknis membangun alur kerja sederhana sendiri — misalnya formulir permintaan yang otomatis masuk ke sistem approval, atau notifikasi otomatis ketika stok menipis — tanpa menulis kode. Ini sangat berguna untuk proses internal yang spesifik bagi satu bisnis dan tidak cukup besar untuk membenarkan proyek pengembangan penuh.",
+    text: "Tidak semua kebutuhan otomatisasi harus menunggu tim developer membangun sistem dari nol. Alat no-code dan low-code memungkinkan tim non-teknis membangun alur kerja sederhana sendiri, misalnya formulir permintaan yang otomatis masuk ke sistem approval, atau notifikasi otomatis ketika stok menipis, tanpa menulis kode. Ini sangat berguna untuk proses internal yang spesifik bagi satu bisnis dan tidak cukup besar untuk membenarkan proyek pengembangan penuh.",
   },
   {
     type: "p",
@@ -73,16 +73,16 @@ export const body: Block[] = [
   { type: "h2", text: "Personalisasi memakai data yang sudah dimiliki bisnis" },
   {
     type: "p",
-    text: "Banyak bisnis sebenarnya sudah punya data yang cukup untuk mempersonalisasi pengalaman pelanggan — riwayat pembelian, preferensi produk, atau pola kunjungan — tapi data itu tersebar dan tidak pernah dipakai secara aktif. Pergeseran yang terjadi adalah bisnis mulai memanfaatkan data yang sudah ada ini untuk hal-hal sederhana namun berdampak: rekomendasi produk yang relevan, pengingat pembelian ulang pada waktu yang tepat, atau promosi yang ditargetkan berdasarkan kebiasaan nyata, bukan tebakan.",
+    text: "Banyak bisnis sebenarnya sudah punya data yang cukup untuk mempersonalisasi pengalaman pelanggan, riwayat pembelian, preferensi produk, atau pola kunjungan, tapi data itu tersebar dan tidak pernah dipakai secara aktif. Pergeseran yang terjadi adalah bisnis mulai memanfaatkan data yang sudah ada ini untuk hal-hal sederhana namun berdampak: rekomendasi produk yang relevan, pengingat pembelian ulang pada waktu yang tepat, atau promosi yang ditargetkan berdasarkan kebiasaan nyata, bukan tebakan.",
   },
   {
     type: "p",
-    text: "Yang membuat ini mungkin dilakukan bisnis kecil sekalipun adalah data itu sudah ada di sistem kasir atau CRM yang mereka pakai sehari-hari — tantangannya bukan mengumpulkan data baru, melainkan menyusun cara sederhana untuk memakainya secara konsisten, bukan membiarkannya hanya tersimpan tanpa pernah dianalisis.",
+    text: "Yang membuat ini mungkin dilakukan bisnis kecil sekalipun adalah data itu sudah ada di sistem kasir atau CRM yang mereka pakai sehari-hari, tantangannya bukan mengumpulkan data baru, melainkan menyusun cara sederhana untuk memakainya secara konsisten, bukan membiarkannya hanya tersimpan tanpa pernah dianalisis.",
   },
   { type: "h2", text: "Dashboard dan data real-time menggantikan laporan mingguan" },
   {
     type: "p",
-    text: "Pergeseran lain yang terjadi pelan-pelan adalah beralihnya kebiasaan menunggu laporan mingguan atau bulanan menjadi memantau dashboard yang datanya diperbarui secara real-time. Pemilik bisnis yang bisa melihat kondisi penjualan, stok, atau arus kas kapan pun dibutuhkan — bukan menunggu laporan disusun — bisa mengambil keputusan lebih cepat saat masalah masih kecil, bukan setelah membesar.",
+    text: "Pergeseran lain yang terjadi pelan-pelan adalah beralihnya kebiasaan menunggu laporan mingguan atau bulanan menjadi memantau dashboard yang datanya diperbarui secara real-time. Pemilik bisnis yang bisa melihat kondisi penjualan, stok, atau arus kas kapan pun dibutuhkan, bukan menunggu laporan disusun, bisa mengambil keputusan lebih cepat saat masalah masih kecil, bukan setelah membesar.",
   },
   {
     type: "p",
@@ -109,16 +109,16 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dari lima pertanyaan ini, biasanya akan terlihat satu atau dua area yang paling mendesak untuk ditangani lebih dulu — dan itu titik awal yang jauh lebih masuk akal dibanding mencoba mengejar semua tren sekaligus.",
+    text: "Dari lima pertanyaan ini, biasanya akan terlihat satu atau dua area yang paling mendesak untuk ditangani lebih dulu, dan itu titik awal yang jauh lebih masuk akal dibanding mencoba mengejar semua tren sekaligus.",
   },
   { type: "h2", text: "Pembayaran digital yang semakin menyatu dengan sistem operasional" },
   {
     type: "p",
-    text: "Menerima pembayaran digital — QRIS, transfer instan, atau dompet digital — sudah jadi hal yang umum di hampir semua jenis bisnis. Pergeseran yang lebih baru adalah bagaimana pembayaran-pembayaran ini semakin terhubung langsung dengan sistem pencatatan, sehingga setiap transaksi otomatis masuk ke laporan keuangan tanpa perlu direkap ulang secara manual di akhir hari.",
+    text: "Menerima pembayaran digital, QRIS, transfer instan, atau dompet digital, sudah jadi hal yang umum di hampir semua jenis bisnis. Pergeseran yang lebih baru adalah bagaimana pembayaran-pembayaran ini semakin terhubung langsung dengan sistem pencatatan, sehingga setiap transaksi otomatis masuk ke laporan keuangan tanpa perlu direkap ulang secara manual di akhir hari.",
   },
   {
     type: "p",
-    text: "Bagi bisnis yang masih mencocokkan mutasi rekening dengan catatan penjualan secara manual setiap hari, ini adalah salah satu area dengan potensi penghematan waktu paling besar untuk usaha yang relatif kecil. Kesalahan pencocokan manual juga menjadi sumber selisih yang sering sulit ditelusuri — sesuatu yang bisa dihindari sepenuhnya jika pencatatan sudah terhubung sejak transaksi terjadi.",
+    text: "Bagi bisnis yang masih mencocokkan mutasi rekening dengan catatan penjualan secara manual setiap hari, ini adalah salah satu area dengan potensi penghematan waktu paling besar untuk usaha yang relatif kecil. Kesalahan pencocokan manual juga menjadi sumber selisih yang sering sulit ditelusuri, sesuatu yang bisa dihindari sepenuhnya jika pencatatan sudah terhubung sejak transaksi terjadi.",
   },
   { type: "h2", text: "Risiko mengejar tren tanpa kebutuhan yang jelas" },
   {
@@ -127,7 +127,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pendekatan yang lebih aman adalah memulai dari masalah, bukan dari teknologi. Setelah masalahnya jelas, baru dicari teknologi yang paling sesuai untuk menyelesaikannya — bukan sebaliknya, mencari-cari masalah yang cocok dengan teknologi yang sedang populer.",
+    text: "Pendekatan yang lebih aman adalah memulai dari masalah, bukan dari teknologi. Setelah masalahnya jelas, baru dicari teknologi yang paling sesuai untuk menyelesaikannya, bukan sebaliknya, mencari-cari masalah yang cocok dengan teknologi yang sedang populer.",
   },
   {
     type: "p",
@@ -136,12 +136,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Tren teknologi yang benar-benar berpengaruh biasanya bukan yang paling ramai dibicarakan, tapi yang paling langsung menjawab masalah operasional yang sudah lama dirasakan. AI automation untuk pekerjaan berulang, integrasi sistem yang menghilangkan input ganda, aplikasi yang tetap bekerja tanpa koneksi, dan keamanan data yang mendasar — semuanya bukan soal mengikuti tren, tapi soal menghilangkan gesekan yang sudah terlalu lama dianggap normal.",
+    text: "Tren teknologi yang benar-benar berpengaruh biasanya bukan yang paling ramai dibicarakan, tapi yang paling langsung menjawab masalah operasional yang sudah lama dirasakan. AI automation untuk pekerjaan berulang, integrasi sistem yang menghilangkan input ganda, aplikasi yang tetap bekerja tanpa koneksi, dan keamanan data yang mendasar, semuanya bukan soal mengikuti tren, tapi soal menghilangkan gesekan yang sudah terlalu lama dianggap normal.",
   },
   {
     type: "cta",
     title: "Ingin tahu tren mana yang paling relevan untuk bisnis Anda?",
-    text: "Ceritakan proses operasional Anda saat ini. Tim AG·SORA akan membantu memetakan teknologi yang benar-benar berdampak, bukan sekadar mengikuti tren — konsultasinya gratis.",
+    text: "Ceritakan proses operasional Anda saat ini. Tim AG·SORA akan membantu memetakan teknologi yang benar-benar berdampak, bukan sekadar mengikuti tren, konsultasinya gratis.",
     href: "/services/ai-automation",
     label: "Konsultasi Gratis",
   },

@@ -7,7 +7,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Banyak tim sales mulai memakai CRM dengan tahapan bawaan seperti Lead, Prospek, dan Negosiasi, tanpa pernah menyepakati artinya. Akibatnya, dua sales bisa menempatkan peluang yang kondisinya persis sama di tahap yang berbeda. Angka pipeline terlihat rapi di layar, tetapi tidak mencerminkan kenyataan — dan keputusan yang diambil dari angka itu ikut meleset.",
+    text: "Banyak tim sales mulai memakai CRM dengan tahapan bawaan seperti Lead, Prospek, dan Negosiasi, tanpa pernah menyepakati artinya. Akibatnya, dua sales bisa menempatkan peluang yang kondisinya persis sama di tahap yang berbeda. Angka pipeline terlihat rapi di layar, tetapi tidak mencerminkan kenyataan, dan keputusan yang diambil dari angka itu ikut meleset.",
   },
   {
     type: "p",
@@ -36,7 +36,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tahapan berdasarkan kejadian, bukan perasaan" },
   {
     type: "p",
-    text: "Tahapan yang baik didefinisikan oleh sesuatu yang benar-benar terjadi dan bisa dicek oleh orang lain — bukan oleh keyakinan sales bahwa peluangnya “sudah hangat”. Perasaan setiap orang berbeda; kejadian tidak.",
+    text: "Tahapan yang baik didefinisikan oleh sesuatu yang benar-benar terjadi dan bisa dicek oleh orang lain, bukan oleh keyakinan sales bahwa peluangnya “sudah hangat”. Perasaan setiap orang berbeda; kejadian tidak.",
   },
   {
     type: "ul",
@@ -79,7 +79,7 @@ export const body: Block[] = [
   { type: "h2", text: "Catat alasan kalah" },
   {
     type: "p",
-    text: "Peluang yang kalah sama berharganya dengan yang menang, asalkan alasannya tercatat. Dengan pilihan alasan yang seragam — harga, waktu yang tidak tepat, memilih pesaing, kebutuhan berubah, tidak ada anggaran — Anda bisa melihat pola yang berulang dan memperbaiki penawaran.",
+    text: "Peluang yang kalah sama berharganya dengan yang menang, asalkan alasannya tercatat. Dengan pilihan alasan yang seragam, harga, waktu yang tidak tepat, memilih pesaing, kebutuhan berubah, tidak ada anggaran, Anda bisa melihat pola yang berulang dan memperbaiki penawaran.",
   },
   {
     type: "p",
@@ -203,7 +203,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Pipeline Anda terlihat penuh, tapi realisasinya jauh?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

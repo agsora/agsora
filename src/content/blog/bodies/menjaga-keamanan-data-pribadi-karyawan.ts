@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Laptop staf HR hilang di transportasi umum sepulang kerja. Di dalamnya ada spreadsheet berisi data lengkap seluruh karyawan — nomor identitas, rekening bank, riwayat gaji, bahkan catatan kesehatan dari klaim asuransi. Tidak ada enkripsi, tidak ada kata sandi pada file itu sendiri. Perusahaan baru sadar betapa rentannya data ratusan karyawan mereka setelah kejadian ini.",
+    text: "Laptop staf HR hilang di transportasi umum sepulang kerja. Di dalamnya ada spreadsheet berisi data lengkap seluruh karyawan, nomor identitas, rekening bank, riwayat gaji, bahkan catatan kesehatan dari klaim asuransi. Tidak ada enkripsi, tidak ada kata sandi pada file itu sendiri. Perusahaan baru sadar betapa rentannya data ratusan karyawan mereka setelah kejadian ini.",
   },
   {
     type: "p",
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa data HR sangat berisiko tinggi" },
   {
     type: "p",
-    text: "Data yang dikelola tim HR bukan sekadar informasi bisnis biasa, melainkan data pribadi yang menyangkut kehidupan nyata setiap karyawan. Kebocoran data ini bisa berdampak serius bagi karyawan yang bersangkutan — mulai dari risiko penipuan finansial hingga masalah privasi yang lebih luas — sekaligus menimbulkan konsekuensi hukum dan reputasi yang berat bagi perusahaan yang gagal melindunginya dengan baik.",
+    text: "Data yang dikelola tim HR bukan sekadar informasi bisnis biasa, melainkan data pribadi yang menyangkut kehidupan nyata setiap karyawan. Kebocoran data ini bisa berdampak serius bagi karyawan yang bersangkutan, mulai dari risiko penipuan finansial hingga masalah privasi yang lebih luas, sekaligus menimbulkan konsekuensi hukum dan reputasi yang berat bagi perusahaan yang gagal melindunginya dengan baik.",
   },
   { type: "h2", text: "Kewajiban hukum yang perlu dipahami" },
   {
@@ -48,7 +48,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Hentikan kebiasaan mengirim data lewat spreadsheet",
-    text: "Data karyawan yang dikirim sebagai lampiran email atau pesan singkat sangat mudah tersebar tanpa kendali — diteruskan ke pihak lain, diunduh, dan tersimpan di banyak perangkat berbeda tanpa jejak yang jelas. Akses melalui sistem terpusat dengan hak akses yang jelas jauh lebih aman dibanding kebiasaan berbagi file secara bebas seperti ini.",
+    text: "Data karyawan yang dikirim sebagai lampiran email atau pesan singkat sangat mudah tersebar tanpa kendali, diteruskan ke pihak lain, diunduh, dan tersimpan di banyak perangkat berbeda tanpa jejak yang jelas. Akses melalui sistem terpusat dengan hak akses yang jelas jauh lebih aman dibanding kebiasaan berbagi file secara bebas seperti ini.",
   },
   { type: "h2", text: "Lindungi secara teknis" },
   {
@@ -105,12 +105,12 @@ export const body: Block[] = [
   { type: "h2", text: "Perhatikan keamanan data saat bekerja dengan pihak ketiga" },
   {
     type: "p",
-    text: "Data karyawan sering perlu dibagikan ke pihak ketiga untuk keperluan tertentu, seperti penyedia asuransi kesehatan, lembaga penyalur gaji, atau konsultan pajak. Sebelum membagikan data ke pihak mana pun, pastikan ada kesepakatan tertulis yang mengatur bagaimana pihak tersebut wajib menjaga kerahasiaan dan keamanan data yang diterima, serta batasan penggunaan data tersebut hanya untuk keperluan yang disepakati. Tanggung jawab menjaga data tidak sepenuhnya berpindah begitu data dibagikan ke pihak lain — perusahaan Anda tetap perlu memastikan mitra tersebut memiliki standar keamanan yang memadai.",
+    text: "Data karyawan sering perlu dibagikan ke pihak ketiga untuk keperluan tertentu, seperti penyedia asuransi kesehatan, lembaga penyalur gaji, atau konsultan pajak. Sebelum membagikan data ke pihak mana pun, pastikan ada kesepakatan tertulis yang mengatur bagaimana pihak tersebut wajib menjaga kerahasiaan dan keamanan data yang diterima, serta batasan penggunaan data tersebut hanya untuk keperluan yang disepakati. Tanggung jawab menjaga data tidak sepenuhnya berpindah begitu data dibagikan ke pihak lain, perusahaan Anda tetap perlu memastikan mitra tersebut memiliki standar keamanan yang memadai.",
   },
   { type: "h2", text: "Amankan perangkat kerja, bukan hanya sistemnya" },
   {
     type: "p",
-    text: "Sistem yang aman bisa menjadi tidak berguna jika perangkat yang dipakai mengaksesnya justru rentan — laptop tanpa kata sandi, ponsel pribadi yang dipakai membuka data perusahaan tanpa kendali, atau kebiasaan meninggalkan layar tetap terbuka saat meninggalkan meja kerja. Terapkan kebijakan dasar keamanan perangkat bagi siapa pun yang mengakses data karyawan: kunci layar otomatis, kata sandi perangkat yang kuat, dan pembatasan mengunduh data ke perangkat pribadi yang tidak terkelola oleh perusahaan.",
+    text: "Sistem yang aman bisa menjadi tidak berguna jika perangkat yang dipakai mengaksesnya justru rentan, laptop tanpa kata sandi, ponsel pribadi yang dipakai membuka data perusahaan tanpa kendali, atau kebiasaan meninggalkan layar tetap terbuka saat meninggalkan meja kerja. Terapkan kebijakan dasar keamanan perangkat bagi siapa pun yang mengakses data karyawan: kunci layar otomatis, kata sandi perangkat yang kuat, dan pembatasan mengunduh data ke perangkat pribadi yang tidak terkelola oleh perusahaan.",
   },
   { type: "h2", text: "Libatkan karyawan dalam transparansi pengelolaan data mereka" },
   {
@@ -139,7 +139,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Seberapa aman data karyawan Anda tersimpan saat ini?",
-    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda, absensi, cuti, lembur, dan payroll dalam satu sistem.",
     href: "/services/hris",
     label: "Lihat layanan HRIS",
   },

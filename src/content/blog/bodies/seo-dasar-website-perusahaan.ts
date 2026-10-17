@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "“Website kami sudah online setahun, tapi kok nggak pernah muncul di Google ya?” Pertanyaan ini muncul setiap kali membahas kenapa website yang sudah dibangun dengan biaya cukup besar hanya dikunjungi orang yang sudah tahu alamatnya — bukan calon klien baru yang sedang mencari layanan seperti yang Anda tawarkan.",
+    text: "“Website kami sudah online setahun, tapi kok nggak pernah muncul di Google ya?” Pertanyaan ini muncul setiap kali membahas kenapa website yang sudah dibangun dengan biaya cukup besar hanya dikunjungi orang yang sudah tahu alamatnya, bukan calon klien baru yang sedang mencari layanan seperti yang Anda tawarkan.",
   },
   {
     type: "p",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "SEO pada dasarnya adalah upaya membuat website Anda lebih mudah dipahami dan dinilai relevan oleh mesin pencari untuk pencarian yang benar-benar dilakukan calon klien Anda — bukan mengakali sistem, melainkan menyelaraskan diri dengannya.",
+    text: "SEO pada dasarnya adalah upaya membuat website Anda lebih mudah dipahami dan dinilai relevan oleh mesin pencari untuk pencarian yang benar-benar dilakukan calon klien Anda, bukan mengakali sistem, melainkan menyelaraskan diri dengannya.",
   },
   { type: "h2", text: "Satu halaman, satu topik utama" },
   {
@@ -53,21 +53,21 @@ export const body: Block[] = [
   { type: "h2", text: "Tulis dengan bahasa calon klien" },
   {
     type: "p",
-    text: "Pikirkan kata-kata yang benar-benar diketik calon klien ketika mencari layanan Anda di mesin pencari. Istilah internal perusahaan — jargon yang biasa dipakai tim Anda sehari-hari — sering berbeda jauh dengan bahasa yang dipakai orang awam saat mencari. Gunakan kata-kata yang benar-benar dicari secara wajar di dalam tulisan, disebar alami dalam konteks, bukan diulang-ulang berlebihan hingga terasa dipaksakan.",
+    text: "Pikirkan kata-kata yang benar-benar diketik calon klien ketika mencari layanan Anda di mesin pencari. Istilah internal perusahaan, jargon yang biasa dipakai tim Anda sehari-hari, sering berbeda jauh dengan bahasa yang dipakai orang awam saat mencari. Gunakan kata-kata yang benar-benar dicari secara wajar di dalam tulisan, disebar alami dalam konteks, bukan diulang-ulang berlebihan hingga terasa dipaksakan.",
   },
   {
     type: "p",
-    text: "Cara sederhana menemukan kata-kata ini: tanyakan pada diri sendiri, jika saya calon klien yang butuh layanan ini, apa yang akan saya ketik di Google? Atau lihat pertanyaan yang sering diajukan calon klien saat menghubungi Anda — kata-kata itu sering sama persis dengan yang mereka ketik saat mencari.",
+    text: "Cara sederhana menemukan kata-kata ini: tanyakan pada diri sendiri, jika saya calon klien yang butuh layanan ini, apa yang akan saya ketik di Google? Atau lihat pertanyaan yang sering diajukan calon klien saat menghubungi Anda, kata-kata itu sering sama persis dengan yang mereka ketik saat mencari.",
   },
   {
     type: "callout",
     title: "Tidak ada yang bisa menjamin peringkat",
-    text: "Hati-hati dengan tawaran jasa SEO yang menjanjikan posisi pertama Google dalam waktu singkat dengan harga tertentu. Mesin pencari terus memperbarui cara penilaiannya, dan praktik yang mencoba mengakali sistem — seperti membeli banyak tautan murah atau menyembunyikan teks — justru bisa merugikan website Anda dalam jangka panjang, bahkan membuatnya diturunkan dari hasil pencarian.",
+    text: "Hati-hati dengan tawaran jasa SEO yang menjanjikan posisi pertama Google dalam waktu singkat dengan harga tertentu. Mesin pencari terus memperbarui cara penilaiannya, dan praktik yang mencoba mengakali sistem, seperti membeli banyak tautan murah atau menyembunyikan teks, justru bisa merugikan website Anda dalam jangka panjang, bahkan membuatnya diturunkan dari hasil pencarian.",
   },
   { type: "h2", text: "Kecepatan dan kenyamanan di ponsel" },
   {
     type: "p",
-    text: "Mesin pencari mempertimbangkan pengalaman pengguna sebagai bagian dari penilaian, termasuk kecepatan muat halaman dan kenyamanan tampilan di layar ponsel. Sebagian besar pencarian saat ini dilakukan dari ponsel, dan halaman yang lambat dimuat atau sulit dibaca di layar kecil membuat pengunjung pergi sebelum sempat membaca isi halaman — sinyal negatif yang ikut memengaruhi penilaian mesin pencari.",
+    text: "Mesin pencari mempertimbangkan pengalaman pengguna sebagai bagian dari penilaian, termasuk kecepatan muat halaman dan kenyamanan tampilan di layar ponsel. Sebagian besar pencarian saat ini dilakukan dari ponsel, dan halaman yang lambat dimuat atau sulit dibaca di layar kecil membuat pengunjung pergi sebelum sempat membaca isi halaman, sinyal negatif yang ikut memengaruhi penilaian mesin pencari.",
   },
   { type: "h2", text: "Tautan antar halaman" },
   {
@@ -82,7 +82,7 @@ export const body: Block[] = [
   { type: "h2", text: "Konten yang menjawab pertanyaan, bukan sekadar menjual" },
   {
     type: "p",
-    text: "Artikel yang menjawab pertanyaan nyata calon klien — cara memilih layanan tertentu, perbandingan pilihan, kesalahan yang perlu dihindari — cenderung lebih berhasil menarik pengunjung dari pencarian organik dibanding halaman yang murni berisi promosi. Konten seperti ini juga membangun kepercayaan, karena menunjukkan pemahaman Anda terhadap masalah calon klien sebelum mereka menghubungi.",
+    text: "Artikel yang menjawab pertanyaan nyata calon klien, cara memilih layanan tertentu, perbandingan pilihan, kesalahan yang perlu dihindari, cenderung lebih berhasil menarik pengunjung dari pencarian organik dibanding halaman yang murni berisi promosi. Konten seperti ini juga membangun kepercayaan, karena menunjukkan pemahaman Anda terhadap masalah calon klien sebelum mereka menghubungi.",
   },
   { type: "h2", text: "Ilustrasi: dua pendekatan SEO" },
   {
@@ -96,7 +96,7 @@ export const body: Block[] = [
   { type: "h2", text: "Konsisten lebih penting daripada cepat" },
   {
     type: "p",
-    text: "SEO adalah pekerjaan jangka panjang, bukan proyek sekali jadi. Konten yang berguna dan diperbarui secara konsisten dari waktu ke waktu biasanya memberi hasil yang lebih bertahan dibanding perubahan besar yang dilakukan sekali lalu ditinggalkan begitu saja. Hasilnya juga tidak instan — biasanya butuh beberapa bulan sebelum perubahan mulai terlihat di hasil pencarian.",
+    text: "SEO adalah pekerjaan jangka panjang, bukan proyek sekali jadi. Konten yang berguna dan diperbarui secara konsisten dari waktu ke waktu biasanya memberi hasil yang lebih bertahan dibanding perubahan besar yang dilakukan sekali lalu ditinggalkan begitu saja. Hasilnya juga tidak instan, biasanya butuh beberapa bulan sebelum perubahan mulai terlihat di hasil pencarian.",
   },
   { type: "h2", text: "Langkah memulai SEO untuk website perusahaan" },
   {
@@ -124,11 +124,11 @@ export const body: Block[] = [
   { type: "h2", text: "Data terstruktur (schema markup)" },
   {
     type: "p",
-    text: "Data terstruktur adalah kode tambahan di balik layar yang menjelaskan kepada mesin pencari secara eksplisit apa arti sebuah informasi di halaman Anda — bahwa deretan angka tertentu adalah nomor telepon, bahwa satu blok teks adalah alamat kantor, atau bahwa halaman tersebut berisi jawaban atas pertanyaan tertentu. Tanpa data terstruktur, mesin pencari tetap bisa membaca halaman, tapi harus menebak-nebak konteksnya; dengan data terstruktur, konteks itu dinyatakan secara jelas.",
+    text: "Data terstruktur adalah kode tambahan di balik layar yang menjelaskan kepada mesin pencari secara eksplisit apa arti sebuah informasi di halaman Anda, bahwa deretan angka tertentu adalah nomor telepon, bahwa satu blok teks adalah alamat kantor, atau bahwa halaman tersebut berisi jawaban atas pertanyaan tertentu. Tanpa data terstruktur, mesin pencari tetap bisa membaca halaman, tapi harus menebak-nebak konteksnya; dengan data terstruktur, konteks itu dinyatakan secara jelas.",
   },
   {
     type: "p",
-    text: "Manfaat yang paling terasa bagi bisnis adalah tampilan hasil pencarian yang lebih kaya — misalnya bintang ulasan, daftar pertanyaan umum yang bisa diperluas langsung di halaman hasil pencarian, atau informasi jam operasional yang muncul tanpa pengunjung perlu membuka website Anda dulu. Tampilan seperti ini membuat halaman Anda lebih menonjol dibanding hasil pencarian lain yang polos, dan cenderung meningkatkan rasio orang yang mengklik untuk masuk ke website Anda.",
+    text: "Manfaat yang paling terasa bagi bisnis adalah tampilan hasil pencarian yang lebih kaya, misalnya bintang ulasan, daftar pertanyaan umum yang bisa diperluas langsung di halaman hasil pencarian, atau informasi jam operasional yang muncul tanpa pengunjung perlu membuka website Anda dulu. Tampilan seperti ini membuat halaman Anda lebih menonjol dibanding hasil pencarian lain yang polos, dan cenderung meningkatkan rasio orang yang mengklik untuk masuk ke website Anda.",
   },
   { type: "h2", text: "Kehadiran di Google Business Profile" },
   {
@@ -137,12 +137,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Lengkapi profil dengan kategori bisnis yang tepat, jam operasional yang akurat, foto yang mewakili bisnis Anda, dan tanggapi ulasan yang masuk secara rutin. Konsistensi informasi — nama, alamat, nomor telepon — antara Google Business Profile dan website Anda juga ikut membantu mesin pencari memvalidasi bahwa bisnis Anda memang benar-benar ada dan terpercaya di lokasi yang disebutkan.",
+    text: "Lengkapi profil dengan kategori bisnis yang tepat, jam operasional yang akurat, foto yang mewakili bisnis Anda, dan tanggapi ulasan yang masuk secara rutin. Konsistensi informasi, nama, alamat, nomor telepon, antara Google Business Profile dan website Anda juga ikut membantu mesin pencari memvalidasi bahwa bisnis Anda memang benar-benar ada dan terpercaya di lokasi yang disebutkan.",
   },
   { type: "h2", text: "Tautan dari website lain (backlink)" },
   {
     type: "p",
-    text: "Selain elemen di dalam website Anda sendiri, mesin pencari juga mempertimbangkan seberapa banyak dan seberapa relevan website lain yang menautkan ke website Anda. Tautan dari website yang relevan dan terpercaya berfungsi sebagai semacam pengakuan bahwa konten Anda layak dirujuk. Cara paling wajar mendapatkannya adalah dengan membuat konten yang benar-benar bermanfaat sehingga orang lain terdorong menautkannya secara sukarela — misalnya panduan mendalam, data yang berguna, atau opini ahli yang dikutip pihak lain.",
+    text: "Selain elemen di dalam website Anda sendiri, mesin pencari juga mempertimbangkan seberapa banyak dan seberapa relevan website lain yang menautkan ke website Anda. Tautan dari website yang relevan dan terpercaya berfungsi sebagai semacam pengakuan bahwa konten Anda layak dirujuk. Cara paling wajar mendapatkannya adalah dengan membuat konten yang benar-benar bermanfaat sehingga orang lain terdorong menautkannya secara sukarela, misalnya panduan mendalam, data yang berguna, atau opini ahli yang dikutip pihak lain.",
   },
   {
     type: "p",
@@ -156,7 +156,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Website Anda sulit ditemukan di Google?",
-    text: "AG·SORA membangun website dengan struktur SEO dasar yang benar sejak awal — metadata, sitemap, dan performa yang optimal.",
+    text: "AG·SORA membangun website dengan struktur SEO dasar yang benar sejak awal, metadata, sitemap, dan performa yang optimal.",
     href: "/services/website",
     label: "Pelajari Layanan Website",
   },

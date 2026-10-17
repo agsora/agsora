@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 const en: Block[] = [
   {
     type: "p",
-    text: "Plenty of people carry an app idea around for years without ever actually starting it. Not because the idea is bad, but because the distance between 'having an idea' and 'having a working app' feels like too large a leap to make sense of. How much will it cost, how long will it take, where do you even begin — these questions often keep an idea that's genuinely worth trying stuck in a personal notes app forever.",
+    text: "Plenty of people carry an app idea around for years without ever actually starting it. Not because the idea is bad, but because the distance between 'having an idea' and 'having a working app' feels like too large a leap to make sense of. How much will it cost, how long will it take, where do you even begin, these questions often keep an idea that's genuinely worth trying stuck in a personal notes app forever.",
   },
   {
     type: "p",
-    text: "In reality, the process of building software follows fairly clear stages, and understanding those stages is the first step toward turning an idea into something real. That doesn't mean the process is easy or risk-free — hard decisions and the possibility of failure exist at every stage. But that risk becomes far easier to manage once you know what to expect, compared to jumping in with no picture at all.",
+    text: "In reality, the process of building software follows fairly clear stages, and understanding those stages is the first step toward turning an idea into something real. That doesn't mean the process is easy or risk-free, hard decisions and the possibility of failure exist at every stage. But that risk becomes far easier to manage once you know what to expect, compared to jumping in with no picture at all.",
   },
   {
     type: "p",
@@ -21,13 +21,13 @@ const en: Block[] = [
       "Sharpening an idea into a specific problem matters far more than deciding on features early",
       "Validating the need before writing code saves far more time and cost later on",
       "A tightly-scoped MVP is more likely to succeed than trying to build every feature from day one",
-      "Launch isn't the finish line — maintenance and iteration afterward matter just as much as the initial build",
+      "Launch isn't the finish line, maintenance and iteration afterward matter just as much as the initial build",
     ],
   },
   { type: "h2", text: "Why so many ideas never become an app" },
   {
     type: "p",
-    text: "Most ideas that never come to life aren't held back by a lack of capital or technical skill, but by the absence of a clear first step. An idea still framed as 'an app to solve problem X' feels too big to start, so people wait until they feel 'more ready' — a feeling that often never arrives. Breaking a big idea into concrete stages is the most effective way out of that stall.",
+    text: "Most ideas that never come to life aren't held back by a lack of capital or technical skill, but by the absence of a clear first step. An idea still framed as 'an app to solve problem X' feels too big to start, so people wait until they feel 'more ready', a feeling that often never arrives. Breaking a big idea into concrete stages is the most effective way out of that stall.",
   },
   { type: "h2", text: "Stage 1: Sharpening the idea into a specific problem" },
   {
@@ -36,12 +36,12 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "A simple test for how sharp an idea is: try explaining it in one sentence — 'this app helps [who] do [what] without having to [the problem they currently face]'. If that sentence still feels vague or could apply to too many different people at once, the idea usually needs more sharpening first.",
+    text: "A simple test for how sharp an idea is: try explaining it in one sentence, 'this app helps [who] do [what] without having to [the problem they currently face]'. If that sentence still feels vague or could apply to too many different people at once, the idea usually needs more sharpening first.",
   },
   { type: "h2", text: "Stage 2: Validating the need before writing code" },
   {
     type: "p",
-    text: "The most commonly skipped stage is confirming that the problem you want to solve is genuinely felt by prospective users, not just by you. Validation doesn't have to be elaborate — it can start with talking directly to prospective users, observing how they currently deal with the problem, or building a simple prototype to gauge a real reaction before a single line of production code gets written.",
+    text: "The most commonly skipped stage is confirming that the problem you want to solve is genuinely felt by prospective users, not just by you. Validation doesn't have to be elaborate, it can start with talking directly to prospective users, observing how they currently deal with the problem, or building a simple prototype to gauge a real reaction before a single line of production code gets written.",
   },
   {
     type: "callout",
@@ -51,29 +51,29 @@ const en: Block[] = [
   { type: "h2", text: "Stage 3: Defining the MVP scope" },
   {
     type: "p",
-    text: "Once the problem and prospective users are clear enough, the next temptation is building every feature you've thought of from day one. A safer approach is defining a minimum viable product (MVP) — the leanest version that still solves the core problem, without extra features that haven't proven necessary yet.",
+    text: "Once the problem and prospective users are clear enough, the next temptation is building every feature you've thought of from day one. A safer approach is defining a minimum viable product (MVP), the leanest version that still solves the core problem, without extra features that haven't proven necessary yet.",
   },
   {
     type: "p",
-    text: "Defining MVP scope means making choices that aren't always comfortable: features that feel 'important' but aren't core have to wait. That's fine. The goal of an MVP isn't building a complete app in miniature — it's building just enough to start learning from real usage as quickly as possible.",
+    text: "Defining MVP scope means making choices that aren't always comfortable: features that feel 'important' but aren't core have to wait. That's fine. The goal of an MVP isn't building a complete app in miniature, it's building just enough to start learning from real usage as quickly as possible.",
   },
   { type: "h2", text: "Stage 4: Design as more than just visuals" },
   {
     type: "p",
-    text: "Design is often misunderstood as being about color and layout. The more important part is actually flow design — how a user moves from one step to the next to accomplish their goal. A confusing flow can't be fixed just by making the visuals prettier; the structure itself needs to be reworked.",
+    text: "Design is often misunderstood as being about color and layout. The more important part is actually flow design, how a user moves from one step to the next to accomplish their goal. A confusing flow can't be fixed just by making the visuals prettier; the structure itself needs to be reworked.",
   },
   {
     type: "p",
-    text: "At this stage, simple wireframes — sketches of page structure without visual detail — are far more useful than jumping straight to a polished final design. Wireframes change faster, and revisions at this stage are much cheaper than revisions after the app is already built.",
+    text: "At this stage, simple wireframes, sketches of page structure without visual detail, are far more useful than jumping straight to a polished final design. Wireframes change faster, and revisions at this stage are much cheaper than revisions after the app is already built.",
   },
   { type: "h2", text: "Stage 5: Building in stages, not all at once" },
   {
     type: "p",
-    text: "Healthy development runs in short cycles — build a small piece, test it, then move to the next piece — rather than disappearing for months and reappearing with a 'complete' app that's never been tested along the way. A staged approach lets problems surface early, when they're still cheap to fix.",
+    text: "Healthy development runs in short cycles, build a small piece, test it, then move to the next piece, rather than disappearing for months and reappearing with a 'complete' app that's never been tested along the way. A staged approach lets problems surface early, when they're still cheap to fix.",
   },
   {
     type: "p",
-    text: "For idea owners without a technical background, this stage is the right time to stay involved — reviewing progress regularly, trying the in-progress version, and giving feedback early, rather than waiting until everything is 'done' to see the result for the first time.",
+    text: "For idea owners without a technical background, this stage is the right time to stay involved, reviewing progress regularly, trying the in-progress version, and giving feedback early, rather than waiting until everything is 'done' to see the result for the first time.",
   },
   { type: "h2", text: "Stage 6: Testing before it touches real users" },
   {
@@ -85,7 +85,7 @@ const en: Block[] = [
     items: [
       "Test with a handful of real prospective users, not just the internal team",
       "Watch for where they get confused or stop without being prompted",
-      "Test non-ideal scenarios too — slow connections, wrong input, or a skipped step",
+      "Test non-ideal scenarios too, slow connections, wrong input, or a skipped step",
       "Record feedback specifically, not just 'looks good' or 'something felt off'",
     ],
   },
@@ -98,7 +98,7 @@ const en: Block[] = [
     type: "p",
     text: "The most valuable feedback at this stage often isn't what people say directly, but what shows up in behavior: which features actually get used, at what point users stop using the app, and how often they come back. Real behavior often tells a more honest story than survey answers.",
   },
-  { type: "h2", text: "Stage 8: After launch — maintenance isn't extra work" },
+  { type: "h2", text: "Stage 8: After launch, maintenance isn't extra work" },
   {
     type: "p",
     text: "Many people treat launch as the finish line of a project, when it's actually the start of a phase just as important: maintenance. Operating systems change, libraries in use need updating, and new security gaps can surface at any time. An app left without maintenance slowly becomes fragile, even if its features are never touched again.",
@@ -123,7 +123,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Hiring an in-house team makes sense if software is a long-term core of the business and you can invest in building a team that grows alongside the product. Working with a software house makes more sense when you need an experienced team to build and launch a product without recruiting and managing a technical team from scratch — especially early on, when the product's direction may still change.",
+    text: "Hiring an in-house team makes sense if software is a long-term core of the business and you can invest in building a team that grows alongside the product. Working with a software house makes more sense when you need an experienced team to build and launch a product without recruiting and managing a technical team from scratch, especially early on, when the product's direction may still change.",
   },
   { type: "h2", text: "The mistakes that get repeated most often" },
   {
@@ -143,12 +143,12 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   {
     type: "p",
-    text: "The distance between an idea and a working app feels large mainly because the process isn't visible from the outside. Once broken into stages — sharpening the problem, validating the need, defining an MVP, designing the flow, building in stages, testing, launching to a limited group, and then maintaining — that distance becomes a series of steps you can take one at a time, not a leap you have to take all at once.",
+    text: "The distance between an idea and a working app feels large mainly because the process isn't visible from the outside. Once broken into stages, sharpening the problem, validating the need, defining an MVP, designing the flow, building in stages, testing, launching to a limited group, and then maintaining, that distance becomes a series of steps you can take one at a time, not a leap you have to take all at once.",
   },
   {
     type: "cta",
     title: "Have an idea you've never started on?",
-    text: "Tell us about it, however rough it still is. The AG·SORA team will help sharpen the problem you want to solve and shape a realistic MVP to start building — the consultation is free, no commitment required.",
+    text: "Tell us about it, however rough it still is. The AG·SORA team will help sharpen the problem you want to solve and shape a realistic MVP to start building, the consultation is free, no commitment required.",
     href: "/services/custom-software",
     label: "Free Consultation",
   },
@@ -157,11 +157,11 @@ const en: Block[] = [
 const zh: Block[] = [
   {
     type: "p",
-    text: "很多人心里揣着一个应用的想法好几年,却从未真正动手。不是因为这个想法不好,而是因为从“有一个想法”到“有一个能运行的应用”之间的距离,感觉是一次难以理解的巨大跳跃。要花多少钱、要花多长时间、该从哪里开始——这些问题常常让一个本来值得一试的想法,永远停留在备忘录里。",
+    text: "很多人心里揣着一个应用的想法好几年,却从未真正动手。不是因为这个想法不好,而是因为从“有一个想法”到“有一个能运行的应用”之间的距离,感觉是一次难以理解的巨大跳跃。要花多少钱、要花多长时间、该从哪里开始，这些问题常常让一个本来值得一试的想法,永远停留在备忘录里。",
   },
   {
     type: "p",
-    text: "但现实是,搭建软件的过程有相当清晰的阶段,理解这些阶段正是把想法变成现实的第一步。这并不意味着过程会很轻松或没有风险——每个阶段都存在艰难的决策和失败的可能。但一旦你知道接下来会面对什么,这种风险就比毫无头绪地一头扎进去要容易管理得多。",
+    text: "但现实是,搭建软件的过程有相当清晰的阶段,理解这些阶段正是把想法变成现实的第一步。这并不意味着过程会很轻松或没有风险，每个阶段都存在艰难的决策和失败的可能。但一旦你知道接下来会面对什么,这种风险就比毫无头绪地一头扎进去要容易管理得多。",
   },
   {
     type: "p",
@@ -175,13 +175,13 @@ const zh: Block[] = [
       "把想法打磨成一个具体的问题,比一开始就确定功能重要得多",
       "在写代码之前验证需求,能在后期省下多得多的时间和成本",
       "范围收紧的 MVP,比一开始就想做齐所有功能更容易成功",
-      "上线不是终点——之后的维护和迭代,和最初的开发同样重要",
+      "上线不是终点，之后的维护和迭代,和最初的开发同样重要",
     ],
   },
   { type: "h2", text: "为什么很多想法从未变成应用" },
   {
     type: "p",
-    text: "大多数从未实现的想法,阻碍它们的不是资金或技术能力的欠缺,而是缺少一个清晰的第一步。一个还停留在“一个解决 X 问题的应用”这种表述阶段的想法,会显得太大而难以开始,于是人们一直等到自己感觉“更准备好了”——而这种感觉常常永远不会到来。把一个大想法拆解成具体的阶段,是走出这种停滞最有效的方法。",
+    text: "大多数从未实现的想法,阻碍它们的不是资金或技术能力的欠缺,而是缺少一个清晰的第一步。一个还停留在“一个解决 X 问题的应用”这种表述阶段的想法,会显得太大而难以开始,于是人们一直等到自己感觉“更准备好了”，而这种感觉常常永远不会到来。把一个大想法拆解成具体的阶段,是走出这种停滞最有效的方法。",
   },
   { type: "h2", text: "阶段一:把想法打磨成一个具体的问题" },
   {
@@ -190,12 +190,12 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "检验一个想法是否足够清晰,有一个简单的方法:试着用一句话解释它——“这个应用帮助[谁]完成[什么],而不必再[他们目前面临的问题]”。如果这句话依然含糊,或者可以套用在太多不同的人身上,那这个想法通常还需要进一步打磨。",
+    text: "检验一个想法是否足够清晰,有一个简单的方法:试着用一句话解释它，“这个应用帮助[谁]完成[什么],而不必再[他们目前面临的问题]”。如果这句话依然含糊,或者可以套用在太多不同的人身上,那这个想法通常还需要进一步打磨。",
   },
   { type: "h2", text: "阶段二:在写代码之前验证需求" },
   {
     type: "p",
-    text: "最常被跳过的阶段,是确认你想解决的问题,是潜在用户真正感受到的,而不仅仅是你自己的想法。验证不必很复杂——可以从直接和潜在用户交流开始,观察他们目前是如何应对这个问题的,或者做一个简单的原型,在写下一行正式代码之前,先看看真实的反应。",
+    text: "最常被跳过的阶段,是确认你想解决的问题,是潜在用户真正感受到的,而不仅仅是你自己的想法。验证不必很复杂，可以从直接和潜在用户交流开始,观察他们目前是如何应对这个问题的,或者做一个简单的原型,在写下一行正式代码之前,先看看真实的反应。",
   },
   {
     type: "callout",
@@ -205,7 +205,7 @@ const zh: Block[] = [
   { type: "h2", text: "阶段三:确定 MVP 的范围" },
   {
     type: "p",
-    text: "当问题和目标用户都足够清晰之后,下一个诱惑就是想把所有想到的功能都在一开始就做出来。更稳妥的做法是定义一个最小可行产品(MVP)——一个依然能解决核心问题、但最精简的版本,不包含那些还没被证明真正需要的附加功能。",
+    text: "当问题和目标用户都足够清晰之后,下一个诱惑就是想把所有想到的功能都在一开始就做出来。更稳妥的做法是定义一个最小可行产品(MVP)，一个依然能解决核心问题、但最精简的版本,不包含那些还没被证明真正需要的附加功能。",
   },
   {
     type: "p",
@@ -214,7 +214,7 @@ const zh: Block[] = [
   { type: "h2", text: "阶段四:设计不只是视觉" },
   {
     type: "p",
-    text: "设计常被误解为只关乎颜色和排版。实际上更重要的部分是流程设计——用户如何从一个步骤走到下一个步骤,最终完成自己的目标。一个令人困惑的流程,不可能靠把界面做得更好看来解决;需要重新设计的是结构本身。",
+    text: "设计常被误解为只关乎颜色和排版。实际上更重要的部分是流程设计，用户如何从一个步骤走到下一个步骤,最终完成自己的目标。一个令人困惑的流程,不可能靠把界面做得更好看来解决;需要重新设计的是结构本身。",
   },
   {
     type: "p",
@@ -223,11 +223,11 @@ const zh: Block[] = [
   { type: "h2", text: "阶段五:分阶段开发,而不是一次做完" },
   {
     type: "p",
-    text: "健康的开发是以短周期进行的——做一小块、测试一小块,再进行下一块——而不是消失几个月,然后拿出一个从未在过程中被测试过的“完整”应用。分阶段的方式能让问题更早暴露出来,在修复成本还很低的时候就被发现。",
+    text: "健康的开发是以短周期进行的，做一小块、测试一小块,再进行下一块，而不是消失几个月,然后拿出一个从未在过程中被测试过的“完整”应用。分阶段的方式能让问题更早暴露出来,在修复成本还很低的时候就被发现。",
   },
   {
     type: "p",
-    text: "对于没有技术背景的想法拥有者来说,这个阶段正是应该保持参与的时候——定期查看进展、试用正在开发中的版本、尽早给出反馈,而不是等到一切都“完成”了才第一次看到结果。",
+    text: "对于没有技术背景的想法拥有者来说,这个阶段正是应该保持参与的时候，定期查看进展、试用正在开发中的版本、尽早给出反馈,而不是等到一切都“完成”了才第一次看到结果。",
   },
   { type: "h2", text: "阶段六:在触及真实用户之前进行测试" },
   {
@@ -239,7 +239,7 @@ const zh: Block[] = [
     items: [
       "找几位真实的潜在用户测试,而不只是内部团队",
       "留意他们在哪里感到困惑,或在没人引导时就停了下来",
-      "也要测试非理想场景——网络慢、输入错误,或跳过了某个步骤",
+      "也要测试非理想场景，网络慢、输入错误,或跳过了某个步骤",
       "记录具体的反馈,而不只是“挺好的”或“感觉哪里怪怪的”",
     ],
   },
@@ -252,7 +252,7 @@ const zh: Block[] = [
     type: "p",
     text: "这个阶段最有价值的反馈,往往不是人们直接说出来的话,而是体现在行为中的东西:哪些功能真的被用到、用户在哪个节点停止使用、他们多久回来一次。真实的行为,往往比调查问卷的答案更诚实。",
   },
-  { type: "h2", text: "阶段八:上线之后——维护不是额外的工作" },
+  { type: "h2", text: "阶段八:上线之后，维护不是额外的工作" },
   {
     type: "p",
     text: "很多人把上线当作项目的终点,但实际上,那正是同样重要的一个阶段的开始:维护。操作系统会变化,使用的库需要更新,新的安全漏洞随时可能被发现。一个被放任不管的应用,即便功能从未改动过,也会逐渐变得脆弱。",
@@ -277,7 +277,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "如果软件是长期业务的核心,并且你有能力投入组建一个能随产品共同成长的团队,组建内部团队是合理的选择。而如果你需要一支有经验的团队来搭建并上线产品,又不想从零开始招募和管理技术团队——尤其是在产品方向还可能改变的早期阶段——与软件开发公司合作则更为合理。",
+    text: "如果软件是长期业务的核心,并且你有能力投入组建一个能随产品共同成长的团队,组建内部团队是合理的选择。而如果你需要一支有经验的团队来搭建并上线产品,又不想从零开始招募和管理技术团队，尤其是在产品方向还可能改变的早期阶段，与软件开发公司合作则更为合理。",
   },
   { type: "h2", text: "最常被重复的错误" },
   {
@@ -297,12 +297,12 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   {
     type: "p",
-    text: "想法与一个能运行的应用之间的距离之所以感觉遥远,主要是因为这个过程从外部看不清楚。一旦拆解成阶段——打磨问题、验证需求、确定 MVP、设计流程、分阶段开发、测试、向有限群体上线,再到后续维护——这段距离就会变成一步一步可以走的台阶,而不是必须一次跨过去的鸿沟。",
+    text: "想法与一个能运行的应用之间的距离之所以感觉遥远,主要是因为这个过程从外部看不清楚。一旦拆解成阶段，打磨问题、验证需求、确定 MVP、设计流程、分阶段开发、测试、向有限群体上线,再到后续维护，这段距离就会变成一步一步可以走的台阶,而不是必须一次跨过去的鸿沟。",
   },
   {
     type: "cta",
     title: "有一个从未开始动手的想法?",
-    text: "告诉我们这个想法,哪怕现在还很粗糙。AG·SORA 团队会帮你打磨想要解决的问题,并规划一个切实可行的 MVP 开始搭建——咨询完全免费,无需任何承诺。",
+    text: "告诉我们这个想法,哪怕现在还很粗糙。AG·SORA 团队会帮你打磨想要解决的问题,并规划一个切实可行的 MVP 开始搭建，咨询完全免费,无需任何承诺。",
     href: "/services/custom-software",
     label: "免费咨询",
   },

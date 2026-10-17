@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Apa sebenarnya arti digitalisasi" },
   {
     type: "p",
-    text: "Digitalisasi sering disamakan dengan memiliki aplikasi atau berjualan online. Padahal inti digitalisasi adalah memindahkan informasi bisnis — penjualan, stok, uang, pelanggan — dari ingatan, buku, dan kertas ke dalam sistem yang tercatat rapi, bisa dicari, dan bisa dianalisis. Aplikasi hanyalah alatnya.",
+    text: "Digitalisasi sering disamakan dengan memiliki aplikasi atau berjualan online. Padahal inti digitalisasi adalah memindahkan informasi bisnis, penjualan, stok, uang, pelanggan, dari ingatan, buku, dan kertas ke dalam sistem yang tercatat rapi, bisa dicari, dan bisa dianalisis. Aplikasi hanyalah alatnya.",
   },
   {
     type: "p",
@@ -151,7 +151,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Ketika tanda-tanda ini muncul, saatnya mempertimbangkan sistem yang lebih terintegrasi. Pada titik itu, Anda sudah punya data yang cukup untuk memutuskan dengan tepat — bukan berdasarkan tebakan.",
+    text: "Ketika tanda-tanda ini muncul, saatnya mempertimbangkan sistem yang lebih terintegrasi. Pada titik itu, Anda sudah punya data yang cukup untuk memutuskan dengan tepat, bukan berdasarkan tebakan.",
   },
   { type: "h2", text: "Rencana 30 hari pertama" },
   {
@@ -188,7 +188,7 @@ export const body: Block[] = [
   { type: "h3", text: "Berapa lama sampai manfaatnya terasa?" },
   {
     type: "p",
-    text: "Manfaat pertama biasanya terasa cukup cepat: menghitung penjualan harian tidak lagi memakan waktu, dan uang di laci lebih mudah dicocokkan. Manfaat yang lebih besar — seperti mengetahui produk paling menguntungkan atau pola penjualan musiman — baru terlihat setelah data terkumpul beberapa bulan. Karena itu, konsistensi mencatat sejak hari pertama jauh lebih penting daripada banyaknya fitur yang dipakai.",
+    text: "Manfaat pertama biasanya terasa cukup cepat: menghitung penjualan harian tidak lagi memakan waktu, dan uang di laci lebih mudah dicocokkan. Manfaat yang lebih besar, seperti mengetahui produk paling menguntungkan atau pola penjualan musiman, baru terlihat setelah data terkumpul beberapa bulan. Karena itu, konsistensi mencatat sejak hari pertama jauh lebih penting daripada banyaknya fitur yang dipakai.",
   },
   {
     type: "p",
@@ -207,7 +207,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Siap meninggalkan buku catatan kasir?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

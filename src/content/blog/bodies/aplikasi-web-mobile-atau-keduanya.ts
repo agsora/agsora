@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "“Kami mau aplikasi mobile untuk semuanya, biar keren dan modern.” Enam bulan dan anggaran yang cukup besar kemudian, aplikasi mobile itu jadi, tapi tim admin di kantor yang seharusnya jadi pengguna utama justru mengeluh — mereka kerja di depan komputer seharian, dan mengetik laporan panjang lewat layar ponsel kecil ternyata jauh lebih merepotkan dibanding versi web yang sederhana.",
+    text: "“Kami mau aplikasi mobile untuk semuanya, biar keren dan modern.” Enam bulan dan anggaran yang cukup besar kemudian, aplikasi mobile itu jadi, tapi tim admin di kantor yang seharusnya jadi pengguna utama justru mengeluh, mereka kerja di depan komputer seharian, dan mengetik laporan panjang lewat layar ponsel kecil ternyata jauh lebih merepotkan dibanding versi web yang sederhana.",
   },
   {
     type: "p",
-    text: "Ketika merencanakan sistem baru, banyak bisnis langsung membayangkan aplikasi yang diunduh dari Play Store atau App Store sebagai standar modern yang wajib dimiliki. Padahal, untuk banyak kebutuhan bisnis, aplikasi web yang cukup dibuka lewat browser sudah lebih dari cukup — bahkan lebih cepat dibangun dan jauh lebih mudah dirawat dalam jangka panjang.",
+    text: "Ketika merencanakan sistem baru, banyak bisnis langsung membayangkan aplikasi yang diunduh dari Play Store atau App Store sebagai standar modern yang wajib dimiliki. Padahal, untuk banyak kebutuhan bisnis, aplikasi web yang cukup dibuka lewat browser sudah lebih dari cukup, bahkan lebih cepat dibangun dan jauh lebih mudah dirawat dalam jangka panjang.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -47,7 +47,7 @@ export const body: Block[] = [
     type: "ol",
     items: [
       "Siapa pengguna utamanya, dan di lingkungan seperti apa mereka bekerja sehari-hari?",
-      "Seberapa sering sistem akan dibuka — sesekali dalam sehari, atau berkali-kali setiap jam?",
+      "Seberapa sering sistem akan dibuka, sesekali dalam sehari, atau berkali-kali setiap jam?",
       "Apakah dibutuhkan akses ke kamera, lokasi, atau notifikasi push secara langsung?",
       "Apakah pengguna sering berada di lokasi dengan koneksi internet yang tidak stabil?",
       "Apakah aplikasi ini untuk digunakan pelanggan umum, atau khusus untuk karyawan internal?",
@@ -80,7 +80,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mempertimbangkan biaya pemeliharaan jangka panjang" },
   {
     type: "p",
-    text: "Aplikasi mobile membutuhkan pemeliharaan berkelanjutan yang berbeda dari aplikasi web — pembaruan sistem operasi ponsel yang terus berubah, persyaratan toko aplikasi yang bisa berubah sewaktu-waktu, dan pengujian di berbagai jenis perangkat. Pertimbangkan biaya pemeliharaan jangka panjang ini, bukan hanya biaya pembangunan awal, saat memutuskan antara aplikasi web atau mobile.",
+    text: "Aplikasi mobile membutuhkan pemeliharaan berkelanjutan yang berbeda dari aplikasi web, pembaruan sistem operasi ponsel yang terus berubah, persyaratan toko aplikasi yang bisa berubah sewaktu-waktu, dan pengujian di berbagai jenis perangkat. Pertimbangkan biaya pemeliharaan jangka panjang ini, bukan hanya biaya pembangunan awal, saat memutuskan antara aplikasi web atau mobile.",
   },
   { type: "h2", text: "Langkah memutuskan bentuk aplikasi yang tepat" },
   {
@@ -107,7 +107,7 @@ export const body: Block[] = [
   { type: "h2", text: "Progressive Web App: jalan tengah yang sering terlewat" },
   {
     type: "p",
-    text: "Di antara aplikasi web biasa dan aplikasi mobile native, ada pendekatan yang disebut progressive web app — aplikasi web yang dibangun dengan teknik khusus sehingga bisa dipasang ke layar utama ponsel, berjalan dalam tampilan layar penuh tanpa bilah alamat browser, dan tetap menyimpan sebagian data untuk diakses meski koneksi sedang terputus sebentar. Pendekatan ini sering luput dari pertimbangan karena kurang dikenal, padahal untuk banyak kasus penggunaan bisa memberi pengalaman yang terasa seperti aplikasi native dengan biaya pengembangan yang jauh lebih dekat ke aplikasi web.",
+    text: "Di antara aplikasi web biasa dan aplikasi mobile native, ada pendekatan yang disebut progressive web app, aplikasi web yang dibangun dengan teknik khusus sehingga bisa dipasang ke layar utama ponsel, berjalan dalam tampilan layar penuh tanpa bilah alamat browser, dan tetap menyimpan sebagian data untuk diakses meski koneksi sedang terputus sebentar. Pendekatan ini sering luput dari pertimbangan karena kurang dikenal, padahal untuk banyak kasus penggunaan bisa memberi pengalaman yang terasa seperti aplikasi native dengan biaya pengembangan yang jauh lebih dekat ke aplikasi web.",
   },
   {
     type: "p",
@@ -116,20 +116,20 @@ export const body: Block[] = [
   { type: "h2", text: "Dampak proses toko aplikasi terhadap kecepatan rilis" },
   {
     type: "p",
-    text: "Salah satu perbedaan yang sering diremehkan antara aplikasi web dan mobile adalah kecepatan merilis perbaikan. Ketika ditemukan kesalahan kecil pada aplikasi web, perbaikan bisa langsung diterapkan ke server dan semua pengguna otomatis mendapat versi terbaru saat membuka browser mereka berikutnya. Aplikasi mobile native harus melewati proses peninjauan di toko aplikasi setiap kali ada pembaruan, yang bisa memakan waktu beberapa hari, dan pengguna masih harus mengunduh pembaruan itu secara manual — sebagian bahkan menunda memperbarui aplikasi mereka selama berbulan-bulan.",
+    text: "Salah satu perbedaan yang sering diremehkan antara aplikasi web dan mobile adalah kecepatan merilis perbaikan. Ketika ditemukan kesalahan kecil pada aplikasi web, perbaikan bisa langsung diterapkan ke server dan semua pengguna otomatis mendapat versi terbaru saat membuka browser mereka berikutnya. Aplikasi mobile native harus melewati proses peninjauan di toko aplikasi setiap kali ada pembaruan, yang bisa memakan waktu beberapa hari, dan pengguna masih harus mengunduh pembaruan itu secara manual, sebagian bahkan menunda memperbarui aplikasi mereka selama berbulan-bulan.",
   },
   {
     type: "p",
-    text: "Bagi bisnis yang operasionalnya membutuhkan perbaikan cepat — misalnya menyesuaikan harga atau memperbaiki kesalahan penghitungan yang baru ditemukan — pertimbangan kecepatan rilis ini sama pentingnya dengan pertimbangan fitur saat memilih bentuk aplikasi yang tepat.",
+    text: "Bagi bisnis yang operasionalnya membutuhkan perbaikan cepat, misalnya menyesuaikan harga atau memperbaiki kesalahan penghitungan yang baru ditemukan, pertimbangan kecepatan rilis ini sama pentingnya dengan pertimbangan fitur saat memilih bentuk aplikasi yang tepat.",
   },
   { type: "h2", text: "Menyatukan data di balik dua bentuk aplikasi yang berbeda" },
   {
     type: "p",
-    text: "Ketika sebuah bisnis akhirnya membangun aplikasi web dan mobile sekaligus, tantangan terbesar bukan pada tampilan masing-masing, melainkan memastikan keduanya benar-benar mengambil data dari sumber yang sama. Jika aplikasi web dan mobile dibangun terpisah dengan basis data masing-masing, data bisa menjadi tidak sinkron — stok yang terlihat di aplikasi mobile mandor lapangan berbeda dengan yang tercatat di dashboard kantor, misalnya.",
+    text: "Ketika sebuah bisnis akhirnya membangun aplikasi web dan mobile sekaligus, tantangan terbesar bukan pada tampilan masing-masing, melainkan memastikan keduanya benar-benar mengambil data dari sumber yang sama. Jika aplikasi web dan mobile dibangun terpisah dengan basis data masing-masing, data bisa menjadi tidak sinkron, stok yang terlihat di aplikasi mobile mandor lapangan berbeda dengan yang tercatat di dashboard kantor, misalnya.",
   },
   {
     type: "p",
-    text: "Merancang satu sistem inti dengan API yang melayani baik aplikasi web maupun mobile sejak awal mencegah masalah ini. Pendekatan ini juga membuat penambahan bentuk aplikasi baru di masa depan — misalnya aplikasi mobile tambahan untuk mitra eksternal — menjadi jauh lebih murah, karena logika bisnis inti dan datanya sudah tersedia dan tinggal dihubungkan.",
+    text: "Merancang satu sistem inti dengan API yang melayani baik aplikasi web maupun mobile sejak awal mencegah masalah ini. Pendekatan ini juga membuat penambahan bentuk aplikasi baru di masa depan, misalnya aplikasi mobile tambahan untuk mitra eksternal, menjadi jauh lebih murah, karena logika bisnis inti dan datanya sudah tersedia dan tinggal dihubungkan.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah progressive web app bisa menggantikan aplikasi mobile native sepenuhnya?" },
@@ -145,7 +145,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menguji pengalaman di berbagai perangkat" },
   {
     type: "p",
-    text: "Baik aplikasi web maupun mobile perlu diuji di lebih dari satu jenis perangkat sebelum dianggap siap dipakai secara luas. Untuk aplikasi web, ini berarti memastikan tampilan tetap rapi dan fungsional di berbagai ukuran layar — dari laptop kantor beresolusi besar hingga ponsel dengan layar kecil — karena pengguna yang sama mungkin membuka sistem yang sama dari perangkat yang berbeda tergantung situasi. Tombol yang terlalu kecil untuk disentuh di layar ponsel, atau tabel data yang terpotong dan tidak bisa digulir dengan nyaman, adalah masalah yang sering baru terlihat saat pengujian nyata di perangkat sungguhan, bukan hanya di layar simulasi milik pengembang.",
+    text: "Baik aplikasi web maupun mobile perlu diuji di lebih dari satu jenis perangkat sebelum dianggap siap dipakai secara luas. Untuk aplikasi web, ini berarti memastikan tampilan tetap rapi dan fungsional di berbagai ukuran layar, dari laptop kantor beresolusi besar hingga ponsel dengan layar kecil, karena pengguna yang sama mungkin membuka sistem yang sama dari perangkat yang berbeda tergantung situasi. Tombol yang terlalu kecil untuk disentuh di layar ponsel, atau tabel data yang terpotong dan tidak bisa digulir dengan nyaman, adalah masalah yang sering baru terlihat saat pengujian nyata di perangkat sungguhan, bukan hanya di layar simulasi milik pengembang.",
   },
   {
     type: "p",

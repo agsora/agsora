@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Sistem kasir baru bisa menghasilkan lebih dari tiga puluh jenis laporan berbeda. Pemilik toko awalnya bersemangat, mencoba membuka semuanya di hari pertama. Minggu kedua, ia sudah kembali hanya membuka satu laporan saja — total penjualan hari ini — karena laporan lainnya terasa terlalu rumit dan tidak jelas apa yang harus dilakukan dengan angka-angka itu.",
+    text: "Sistem kasir baru bisa menghasilkan lebih dari tiga puluh jenis laporan berbeda. Pemilik toko awalnya bersemangat, mencoba membuka semuanya di hari pertama. Minggu kedua, ia sudah kembali hanya membuka satu laporan saja, total penjualan hari ini, karena laporan lainnya terasa terlalu rumit dan tidak jelas apa yang harus dilakukan dengan angka-angka itu.",
   },
   {
     type: "p",
@@ -23,13 +23,13 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa terlalu banyak laporan justru kontraproduktif" },
   {
     type: "p",
-    text: "Ketika dihadapkan dengan terlalu banyak pilihan laporan sekaligus, kebanyakan orang justru merasa kewalahan dan akhirnya tidak membuka satu pun secara konsisten. Fenomena ini dikenal sebagai kelumpuhan akibat terlalu banyak pilihan — semakin banyak opsi yang tersedia, semakin sulit seseorang memutuskan mana yang benar-benar penting untuk diperhatikan setiap harinya.",
+    text: "Ketika dihadapkan dengan terlalu banyak pilihan laporan sekaligus, kebanyakan orang justru merasa kewalahan dan akhirnya tidak membuka satu pun secara konsisten. Fenomena ini dikenal sebagai kelumpuhan akibat terlalu banyak pilihan, semakin banyak opsi yang tersedia, semakin sulit seseorang memutuskan mana yang benar-benar penting untuk diperhatikan setiap harinya.",
   },
   { type: "h2", text: "Laporan harian yang paling berguna" },
   { type: "h3", text: "Penjualan dibanding periode pembanding" },
   {
     type: "p",
-    text: "Angka penjualan hari ini baru benar-benar bermakna jika dibandingkan dengan sesuatu — misalnya dengan hari yang sama minggu lalu, atau dengan rata-rata penjualan di hari serupa selama sebulan terakhir. Perbandingan seperti ini jauh lebih informatif dibanding sekadar melihat angka tunggal tanpa konteks apa pun.",
+    text: "Angka penjualan hari ini baru benar-benar bermakna jika dibandingkan dengan sesuatu, misalnya dengan hari yang sama minggu lalu, atau dengan rata-rata penjualan di hari serupa selama sebulan terakhir. Perbandingan seperti ini jauh lebih informatif dibanding sekadar melihat angka tunggal tanpa konteks apa pun.",
   },
   { type: "h3", text: "Penjualan per metode pembayaran" },
   {
@@ -68,7 +68,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah dibantu memilih hanya lima laporan paling relevan untuk dipantau setiap hari — penjualan dibanding minggu lalu, metode pembayaran, produk terlaris, stok menipis, dan selisih kas — pemilik toko ini kembali rutin memeriksa laporan setiap pagi sebelum toko buka. Kebiasaan sederhana ini membantunya menangkap masalah stok lebih awal dan menyadari pola penjualan yang sebelumnya tidak pernah ia perhatikan.",
+    text: "Setelah dibantu memilih hanya lima laporan paling relevan untuk dipantau setiap hari, penjualan dibanding minggu lalu, metode pembayaran, produk terlaris, stok menipis, dan selisih kas, pemilik toko ini kembali rutin memeriksa laporan setiap pagi sebelum toko buka. Kebiasaan sederhana ini membantunya menangkap masalah stok lebih awal dan menyadari pola penjualan yang sebelumnya tidak pernah ia perhatikan.",
   },
   { type: "h2", text: "Terima ringkasan tanpa perlu membuka sistem" },
   {
@@ -111,16 +111,16 @@ export const body: Block[] = [
   { type: "h2", text: "Kesalahan umum dalam membaca laporan harian" },
   {
     type: "p",
-    text: "Salah satu kesalahan yang sering terjadi adalah bereaksi berlebihan terhadap fluktuasi angka harian yang sebenarnya masih dalam rentang wajar. Penjualan yang turun dibanding hari sebelumnya tidak selalu berarti ada masalah — bisa jadi memang hari itu secara historis selalu lebih sepi, misalnya karena faktor cuaca atau hari kerja biasa yang bukan musim ramai. Membandingkan dengan periode yang benar-benar setara, bukan sekadar hari sebelumnya, membantu membedakan fluktuasi normal dari sinyal masalah yang sungguhan.",
+    text: "Salah satu kesalahan yang sering terjadi adalah bereaksi berlebihan terhadap fluktuasi angka harian yang sebenarnya masih dalam rentang wajar. Penjualan yang turun dibanding hari sebelumnya tidak selalu berarti ada masalah, bisa jadi memang hari itu secara historis selalu lebih sepi, misalnya karena faktor cuaca atau hari kerja biasa yang bukan musim ramai. Membandingkan dengan periode yang benar-benar setara, bukan sekadar hari sebelumnya, membantu membedakan fluktuasi normal dari sinyal masalah yang sungguhan.",
   },
   {
     type: "p",
-    text: "Kesalahan lain adalah hanya melihat angka total tanpa pernah menelusuri lebih dalam apa yang ada di baliknya. Total penjualan yang terlihat stabil bisa saja menyembunyikan pergeseran signifikan di dalamnya — misalnya satu produk andalan yang penjualannya menurun tajam, tapi tertutupi oleh kenaikan di produk lain sehingga totalnya terlihat baik-baik saja. Sesekali menelusuri detail di balik angka ringkasan tetap penting, meski tidak perlu dilakukan setiap hari untuk semua laporan.",
+    text: "Kesalahan lain adalah hanya melihat angka total tanpa pernah menelusuri lebih dalam apa yang ada di baliknya. Total penjualan yang terlihat stabil bisa saja menyembunyikan pergeseran signifikan di dalamnya, misalnya satu produk andalan yang penjualannya menurun tajam, tapi tertutupi oleh kenaikan di produk lain sehingga totalnya terlihat baik-baik saja. Sesekali menelusuri detail di balik angka ringkasan tetap penting, meski tidak perlu dilakukan setiap hari untuk semua laporan.",
   },
   { type: "h2", text: "Melibatkan tim, bukan hanya pemilik bisnis" },
   {
     type: "p",
-    text: "Laporan harian sering kali hanya dipantau oleh pemilik atau manajer, padahal staf di lapangan — kasir, kepala gudang, atau supervisor shift — adalah pihak yang paling langsung bersentuhan dengan apa yang sebenarnya terjadi di balik angka-angka tersebut. Membagikan laporan yang relevan kepada mereka, bukan hanya kepada pemilik, membuat tanggung jawab menjaga performa harian tidak bertumpu pada satu orang saja.",
+    text: "Laporan harian sering kali hanya dipantau oleh pemilik atau manajer, padahal staf di lapangan, kasir, kepala gudang, atau supervisor shift, adalah pihak yang paling langsung bersentuhan dengan apa yang sebenarnya terjadi di balik angka-angka tersebut. Membagikan laporan yang relevan kepada mereka, bukan hanya kepada pemilik, membuat tanggung jawab menjaga performa harian tidak bertumpu pada satu orang saja.",
   },
   {
     type: "p",
@@ -129,21 +129,21 @@ export const body: Block[] = [
   { type: "h3", text: "Apakah laporan harian sebaiknya dibagikan ke semua staf?" },
   {
     type: "p",
-    text: "Tidak semua laporan perlu dibagikan secara luas — beberapa data seperti margin keuntungan mungkin memang sebaiknya dibatasi hanya untuk pemilik atau manajer senior. Namun laporan operasional yang berkaitan langsung dengan tanggung jawab staf tertentu, seperti selisih kas atau stok yang menipis, akan jauh lebih bermanfaat jika staf terkait juga memiliki akses untuk melihatnya sendiri.",
+    text: "Tidak semua laporan perlu dibagikan secara luas, beberapa data seperti margin keuntungan mungkin memang sebaiknya dibatasi hanya untuk pemilik atau manajer senior. Namun laporan operasional yang berkaitan langsung dengan tanggung jawab staf tertentu, seperti selisih kas atau stok yang menipis, akan jauh lebih bermanfaat jika staf terkait juga memiliki akses untuk melihatnya sendiri.",
   },
   { type: "h2", text: "Menyesuaikan ambang batas peringatan otomatis" },
   {
     type: "p",
-    text: "Selain laporan yang dibuka secara aktif, beberapa sistem bisa mengirim peringatan otomatis ketika angka tertentu melewati ambang batas yang ditetapkan — misalnya stok yang turun di bawah jumlah tertentu, atau jumlah pembatalan transaksi yang melonjak dibanding hari biasa. Peringatan semacam ini membantu menangkap masalah bahkan di hari-hari ketika pemilik atau manajer tidak sempat membuka laporan secara menyeluruh karena kesibukan lain.",
+    text: "Selain laporan yang dibuka secara aktif, beberapa sistem bisa mengirim peringatan otomatis ketika angka tertentu melewati ambang batas yang ditetapkan, misalnya stok yang turun di bawah jumlah tertentu, atau jumlah pembatalan transaksi yang melonjak dibanding hari biasa. Peringatan semacam ini membantu menangkap masalah bahkan di hari-hari ketika pemilik atau manajer tidak sempat membuka laporan secara menyeluruh karena kesibukan lain.",
   },
   {
     type: "p",
-    text: "Ambang batas ini perlu ditetapkan dengan hati-hati agar tidak terlalu sering memicu peringatan untuk hal-hal yang sebenarnya masih wajar, karena peringatan yang terlalu sering justru akan diabaikan begitu saja seperti halnya laporan yang terlalu banyak. Mulailah dengan ambang batas yang cukup longgar, lalu sesuaikan secara bertahap berdasarkan pengalaman aktual — jika suatu ambang batas ternyata tidak pernah relevan atau terlalu sering salah menandai kondisi normal sebagai masalah.",
+    text: "Ambang batas ini perlu ditetapkan dengan hati-hati agar tidak terlalu sering memicu peringatan untuk hal-hal yang sebenarnya masih wajar, karena peringatan yang terlalu sering justru akan diabaikan begitu saja seperti halnya laporan yang terlalu banyak. Mulailah dengan ambang batas yang cukup longgar, lalu sesuaikan secara bertahap berdasarkan pengalaman aktual, jika suatu ambang batas ternyata tidak pernah relevan atau terlalu sering salah menandai kondisi normal sebagai masalah.",
   },
   { type: "h2", text: "Menjadikan pemantauan sebagai kebiasaan, bukan tugas tambahan" },
   {
     type: "p",
-    text: "Laporan yang tepat sekalipun tidak akan berguna jika akhirnya jarang dibuka karena dianggap sebagai tugas tambahan di tengah kesibukan operasional. Kaitkan pemantauan laporan dengan rutinitas yang sudah ada — misalnya sebagai bagian dari briefing singkat sebelum toko buka, atau sebagai langkah pertama sebelum memeriksa email di pagi hari. Kebiasaan yang menempel pada rutinitas yang sudah berjalan jauh lebih mudah dipertahankan dibanding kebiasaan baru yang berdiri sendiri dan mudah terlupakan saat sedang sibuk.",
+    text: "Laporan yang tepat sekalipun tidak akan berguna jika akhirnya jarang dibuka karena dianggap sebagai tugas tambahan di tengah kesibukan operasional. Kaitkan pemantauan laporan dengan rutinitas yang sudah ada, misalnya sebagai bagian dari briefing singkat sebelum toko buka, atau sebagai langkah pertama sebelum memeriksa email di pagi hari. Kebiasaan yang menempel pada rutinitas yang sudah berjalan jauh lebih mudah dipertahankan dibanding kebiasaan baru yang berdiri sendiri dan mudah terlupakan saat sedang sibuk.",
   },
   {
     type: "p",
@@ -152,7 +152,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyesuaikan laporan seiring pertumbuhan bisnis" },
   {
     type: "p",
-    text: "Laporan yang relevan saat bisnis masih kecil bisa berubah kebutuhannya seiring bisnis berkembang — bertambahnya outlet, jenis produk, atau jumlah staf yang terlibat dalam operasional harian. Laporan penjualan per cabang yang dulu tidak diperlukan karena hanya ada satu lokasi, misalnya, menjadi laporan inti begitu cabang kedua dibuka.",
+    text: "Laporan yang relevan saat bisnis masih kecil bisa berubah kebutuhannya seiring bisnis berkembang, bertambahnya outlet, jenis produk, atau jumlah staf yang terlibat dalam operasional harian. Laporan penjualan per cabang yang dulu tidak diperlukan karena hanya ada satu lokasi, misalnya, menjadi laporan inti begitu cabang kedua dibuka.",
   },
   {
     type: "p",
@@ -166,7 +166,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Bingung laporan mana yang perlu dipantau setiap hari?",
-    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda — transaksi, stok, dan laporan penjualan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem POS yang mengikuti cara kerja outlet Anda, transaksi, stok, dan laporan penjualan dalam satu sistem.",
     href: "/services/pos",
     label: "Lihat layanan POS",
   },

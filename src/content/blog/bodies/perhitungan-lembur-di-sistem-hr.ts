@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Karyawan gudang komplain slip gajinya kurang dibanding bulan lalu, padahal ia merasa lembur lebih banyak. HR mengecek catatan manual dari kepala shift, yang ternyata cuma coretan di buku dengan tulisan yang setengah tidak terbaca. Setelah dihitung ulang manual selama satu jam, ternyata memang ada kesalahan — tapi kepercayaan karyawan terhadap sistem penggajian sudah terlanjur goyah.",
+    text: "Karyawan gudang komplain slip gajinya kurang dibanding bulan lalu, padahal ia merasa lembur lebih banyak. HR mengecek catatan manual dari kepala shift, yang ternyata cuma coretan di buku dengan tulisan yang setengah tidak terbaca. Setelah dihitung ulang manual selama satu jam, ternyata memang ada kesalahan, tapi kepercayaan karyawan terhadap sistem penggajian sudah terlanjur goyah.",
   },
   {
     type: "p",
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa perhitungan lembur rawan kesalahan" },
   {
     type: "p",
-    text: "Lembur melibatkan banyak variabel sekaligus: jam kerja normal, jam lembur hari kerja, jam lembur hari libur, komponen upah yang menjadi dasar perhitungan, dan kadang aturan khusus untuk shift tertentu. Ketika semua variabel ini dihitung manual dengan kalkulator atau spreadsheet sederhana, peluang kesalahan sangat besar — terutama untuk perusahaan dengan banyak karyawan dan pola kerja yang bervariasi.",
+    text: "Lembur melibatkan banyak variabel sekaligus: jam kerja normal, jam lembur hari kerja, jam lembur hari libur, komponen upah yang menjadi dasar perhitungan, dan kadang aturan khusus untuk shift tertentu. Ketika semua variabel ini dihitung manual dengan kalkulator atau spreadsheet sederhana, peluang kesalahan sangat besar, terutama untuk perusahaan dengan banyak karyawan dan pola kerja yang bervariasi.",
   },
   { type: "h2", text: "Pahami aturan yang berlaku" },
   {
@@ -43,7 +43,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kebijakan yang belum benar-benar jelas dituliskan di atas kertas akan menghasilkan rumus perhitungan yang salah begitu diterjemahkan ke dalam sistem — sistem hanya sebaik aturan yang dimasukkan ke dalamnya.",
+    text: "Kebijakan yang belum benar-benar jelas dituliskan di atas kertas akan menghasilkan rumus perhitungan yang salah begitu diterjemahkan ke dalam sistem, sistem hanya sebaik aturan yang dimasukkan ke dalamnya.",
   },
   {
     type: "callout",
@@ -63,7 +63,7 @@ export const body: Block[] = [
   { type: "h2", text: "Ilustrasi: menemukan kesalahan sebelum berdampak" },
   {
     type: "p",
-    text: "Bayangkan sebuah pabrik yang mulai menerapkan sistem perhitungan lembur otomatis. Selama masa uji paralel, tim HR menemukan bahwa perhitungan untuk karyawan shift malam yang lemburnya melewati tengah malam menghasilkan angka yang berbeda dari perhitungan manual sebelumnya — ternyata aturan tentang bagaimana lembur lintas hari dihitung belum sepenuhnya dikonfigurasi dengan benar di sistem.",
+    text: "Bayangkan sebuah pabrik yang mulai menerapkan sistem perhitungan lembur otomatis. Selama masa uji paralel, tim HR menemukan bahwa perhitungan untuk karyawan shift malam yang lemburnya melewati tengah malam menghasilkan angka yang berbeda dari perhitungan manual sebelumnya, ternyata aturan tentang bagaimana lembur lintas hari dihitung belum sepenuhnya dikonfigurasi dengan benar di sistem.",
   },
   {
     type: "p",
@@ -107,7 +107,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Karyawan paruh waktu juga memerlukan perhatian khusus. Ada perusahaan yang menghitung lembur paruh waktu berdasarkan jam kerja normal penuh waktu, padahal jam kerja normal karyawan tersebut sebenarnya lebih pendek — sehingga jam kerja yang sebenarnya sudah melebihi kontrak paruh waktunya belum tentu terhitung sebagai lembur oleh sistem jika acuannya keliru. Tinjau kembali bagaimana kontrak kerja paruh waktu mendefinisikan jam kerja normal, dan pastikan definisi itulah yang menjadi dasar perhitungan lembur di sistem, bukan asumsi umum yang berlaku untuk karyawan tetap.",
+    text: "Karyawan paruh waktu juga memerlukan perhatian khusus. Ada perusahaan yang menghitung lembur paruh waktu berdasarkan jam kerja normal penuh waktu, padahal jam kerja normal karyawan tersebut sebenarnya lebih pendek, sehingga jam kerja yang sebenarnya sudah melebihi kontrak paruh waktunya belum tentu terhitung sebagai lembur oleh sistem jika acuannya keliru. Tinjau kembali bagaimana kontrak kerja paruh waktu mendefinisikan jam kerja normal, dan pastikan definisi itulah yang menjadi dasar perhitungan lembur di sistem, bukan asumsi umum yang berlaku untuk karyawan tetap.",
   },
   { type: "h2", text: "Melibatkan atasan langsung dalam proses persetujuan" },
   {
@@ -116,7 +116,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Namun, proses persetujuan yang terlalu berbelit juga bisa menjadi masalah tersendiri — jika atasan sulit dihubungi atau lambat merespons, karyawan yang sudah terlanjur bekerja lembur akhirnya tetap melakukannya tanpa persetujuan resmi karena kebutuhan operasional mendesak. Pastikan proses persetujuan cukup cepat dan sederhana untuk dijalankan, misalnya melalui notifikasi di ponsel yang bisa disetujui dalam hitungan menit, sehingga alur formal ini tidak malah menjadi hambatan yang membuat karyawan mengabaikannya.",
+    text: "Namun, proses persetujuan yang terlalu berbelit juga bisa menjadi masalah tersendiri, jika atasan sulit dihubungi atau lambat merespons, karyawan yang sudah terlanjur bekerja lembur akhirnya tetap melakukannya tanpa persetujuan resmi karena kebutuhan operasional mendesak. Pastikan proses persetujuan cukup cepat dan sederhana untuk dijalankan, misalnya melalui notifikasi di ponsel yang bisa disetujui dalam hitungan menit, sehingga alur formal ini tidak malah menjadi hambatan yang membuat karyawan mengabaikannya.",
   },
   { type: "h2", text: "Pertanyaan yang sering muncul" },
   { type: "h3", text: "Apakah aturan lembur sama untuk semua jenis industri?" },
@@ -147,7 +147,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Masih menghitung lembur karyawan dengan kalkulator manual?",
-    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda, absensi, cuti, lembur, dan payroll dalam satu sistem.",
     href: "/services/hris",
     label: "Lihat layanan HRIS",
   },

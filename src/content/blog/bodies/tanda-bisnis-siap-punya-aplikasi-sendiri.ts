@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Seorang pemilik bisnis jasa pengiriman bercerita bahwa timnya menghabiskan hampir dua jam setiap pagi hanya untuk menyusun rute kurir — menyalin alamat dari pesan WhatsApp pelanggan, mencocokkannya dengan catatan di spreadsheet, lalu membagikannya lewat grup chat yang isinya sudah ratusan pesan. Ketika ditanya kenapa belum punya aplikasi sendiri, jawabannya sederhana: 'rasanya belum butuh, masih bisa jalan pakai cara lama.'",
+    text: "Seorang pemilik bisnis jasa pengiriman bercerita bahwa timnya menghabiskan hampir dua jam setiap pagi hanya untuk menyusun rute kurir, menyalin alamat dari pesan WhatsApp pelanggan, mencocokkannya dengan catatan di spreadsheet, lalu membagikannya lewat grup chat yang isinya sudah ratusan pesan. Ketika ditanya kenapa belum punya aplikasi sendiri, jawabannya sederhana: 'rasanya belum butuh, masih bisa jalan pakai cara lama.'",
   },
   {
     type: "p",
@@ -17,7 +17,7 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Aplikasi dibutuhkan ketika proses manual mulai menimbulkan biaya nyata — waktu, kesalahan, atau pelanggan yang kecewa",
+      "Aplikasi dibutuhkan ketika proses manual mulai menimbulkan biaya nyata, waktu, kesalahan, atau pelanggan yang kecewa",
       "Tim lapangan yang butuh data real-time adalah salah satu pemicu paling umum",
       "Tidak semua bisnis perlu aplikasi mobile; sebagian cukup dengan aplikasi web",
       "Memulai dari versi minimum (MVP) lebih aman daripada langsung membangun semua fitur",
@@ -27,7 +27,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa pertanyaannya bukan 'aplikasi atau tidak'" },
   {
     type: "p",
-    text: "Pertanyaan yang lebih berguna bukan 'apakah bisnis saya butuh aplikasi', tapi 'proses mana yang paling mahal jika terus dikerjakan manual'. Aplikasi bukan simbol status atau sekadar tren digital — ia adalah alat untuk menghilangkan pekerjaan berulang yang rawan salah, dan untuk memberi akses data kepada orang yang membutuhkannya, kapan pun dan di mana pun mereka berada. Jika tidak ada proses yang benar-benar diuntungkan oleh itu, aplikasi hanya akan menjadi biaya tanpa manfaat yang sepadan.",
+    text: "Pertanyaan yang lebih berguna bukan 'apakah bisnis saya butuh aplikasi', tapi 'proses mana yang paling mahal jika terus dikerjakan manual'. Aplikasi bukan simbol status atau sekadar tren digital, ia adalah alat untuk menghilangkan pekerjaan berulang yang rawan salah, dan untuk memberi akses data kepada orang yang membutuhkannya, kapan pun dan di mana pun mereka berada. Jika tidak ada proses yang benar-benar diuntungkan oleh itu, aplikasi hanya akan menjadi biaya tanpa manfaat yang sepadan.",
   },
   { type: "h2", text: "Tanda 1: Proses bisnis sudah terlalu rumit untuk WhatsApp dan spreadsheet" },
   {
@@ -37,7 +37,7 @@ export const body: Block[] = [
   { type: "h2", text: "Tanda 2: Tim lapangan butuh data secara real-time" },
   {
     type: "p",
-    text: "Sales yang bertemu klien, kurir yang mengantar barang, atau teknisi yang menangani perbaikan di lokasi pelanggan — semuanya bekerja jauh dari kantor, tapi tetap butuh data terbaru: stok yang tersedia, status pesanan, atau riwayat pelanggan. Ketika mereka harus menelepon kantor untuk mengecek hal-hal ini, atau sebaliknya kantor tidak tahu di mana posisi mereka dan pekerjaan apa yang sudah selesai, itu adalah beban yang bisa dihilangkan dengan aplikasi yang memberi akses data langsung dari lapangan.",
+    text: "Sales yang bertemu klien, kurir yang mengantar barang, atau teknisi yang menangani perbaikan di lokasi pelanggan, semuanya bekerja jauh dari kantor, tapi tetap butuh data terbaru: stok yang tersedia, status pesanan, atau riwayat pelanggan. Ketika mereka harus menelepon kantor untuk mengecek hal-hal ini, atau sebaliknya kantor tidak tahu di mana posisi mereka dan pekerjaan apa yang sudah selesai, itu adalah beban yang bisa dihilangkan dengan aplikasi yang memberi akses data langsung dari lapangan.",
   },
   {
     type: "callout",
@@ -47,17 +47,17 @@ export const body: Block[] = [
   { type: "h2", text: "Tanda 3: Pelanggan mengharapkan pengalaman digital yang konsisten" },
   {
     type: "p",
-    text: "Pelanggan yang terbiasa memesan lewat aplikasi, melacak status pesanan secara langsung, atau melihat riwayat transaksi mereka sendiri akan menganggap proses manual — menunggu balasan chat, menelepon untuk konfirmasi, atau mengisi formulir kertas — sebagai pengalaman yang terasa ketinggalan. Ini bukan soal gengsi, tapi soal ekspektasi yang sudah terbentuk dari interaksi mereka dengan bisnis lain. Ketika ekspektasi itu tidak terpenuhi, sebagian pelanggan memilih pindah ke kompetitor yang menawarkan pengalaman lebih mudah.",
+    text: "Pelanggan yang terbiasa memesan lewat aplikasi, melacak status pesanan secara langsung, atau melihat riwayat transaksi mereka sendiri akan menganggap proses manual, menunggu balasan chat, menelepon untuk konfirmasi, atau mengisi formulir kertas, sebagai pengalaman yang terasa ketinggalan. Ini bukan soal gengsi, tapi soal ekspektasi yang sudah terbentuk dari interaksi mereka dengan bisnis lain. Ketika ekspektasi itu tidak terpenuhi, sebagian pelanggan memilih pindah ke kompetitor yang menawarkan pengalaman lebih mudah.",
   },
   { type: "h2", text: "Tanda 4: Kesalahan manual mulai berbiaya nyata" },
   {
     type: "p",
-    text: "Salah catat pesanan, salah kirim alamat, atau data pelanggan yang hilang saat staf yang menyimpannya resign — semua ini adalah biaya yang jarang dihitung sebagai biaya, tapi nyata dampaknya. Ketika kesalahan seperti ini mulai berulang dan berdampak pada kepuasan pelanggan atau kerugian finansial langsung, biaya membangun aplikasi yang mengurangi kesalahan itu biasanya jauh lebih kecil dibanding biaya yang terus ditanggung dari kesalahan yang berulang.",
+    text: "Salah catat pesanan, salah kirim alamat, atau data pelanggan yang hilang saat staf yang menyimpannya resign, semua ini adalah biaya yang jarang dihitung sebagai biaya, tapi nyata dampaknya. Ketika kesalahan seperti ini mulai berulang dan berdampak pada kepuasan pelanggan atau kerugian finansial langsung, biaya membangun aplikasi yang mengurangi kesalahan itu biasanya jauh lebih kecil dibanding biaya yang terus ditanggung dari kesalahan yang berulang.",
   },
   { type: "h2", text: "Tanda 5: Bisnis mulai bertumbuh melewati kapasitas manual" },
   {
     type: "p",
-    text: "Proses yang berjalan baik untuk sepuluh transaksi sehari belum tentu bertahan untuk seratus. Pertumbuhan yang sehat seharusnya membuat operasional semakin lancar, bukan semakin kacau. Jika setiap penambahan pelanggan atau transaksi terasa proporsional dengan penambahan masalah administratif, itu tanda bahwa sistem manual sudah mendekati batasnya — dan aplikasi bisa menjadi cara untuk memisahkan pertumbuhan bisnis dari pertumbuhan beban administratif.",
+    text: "Proses yang berjalan baik untuk sepuluh transaksi sehari belum tentu bertahan untuk seratus. Pertumbuhan yang sehat seharusnya membuat operasional semakin lancar, bukan semakin kacau. Jika setiap penambahan pelanggan atau transaksi terasa proporsional dengan penambahan masalah administratif, itu tanda bahwa sistem manual sudah mendekati batasnya, dan aplikasi bisa menjadi cara untuk memisahkan pertumbuhan bisnis dari pertumbuhan beban administratif.",
   },
   {
     type: "p",
@@ -66,7 +66,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kapan justru belum saatnya" },
   {
     type: "p",
-    text: "Tidak semua bisnis perlu buru-buru membangun aplikasi. Jika proses bisnis masih sederhana, volume transaksi masih kecil, dan tim masih bisa saling koordinasi dengan lancar tanpa banyak kesalahan, membangun aplikasi justru bisa menjadi beban baru — biaya pengembangan, biaya perawatan, dan waktu tim untuk belajar sistem baru, padahal manfaatnya belum sepadan.",
+    text: "Tidak semua bisnis perlu buru-buru membangun aplikasi. Jika proses bisnis masih sederhana, volume transaksi masih kecil, dan tim masih bisa saling koordinasi dengan lancar tanpa banyak kesalahan, membangun aplikasi justru bisa menjadi beban baru, biaya pengembangan, biaya perawatan, dan waktu tim untuk belajar sistem baru, padahal manfaatnya belum sepadan.",
   },
   {
     type: "ul",
@@ -84,7 +84,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mulai dari MVP, bukan dari semua fitur sekaligus" },
   {
     type: "p",
-    text: "Salah satu kesalahan paling umum adalah mencoba membangun aplikasi yang menyelesaikan semua masalah sekaligus sejak versi pertama. Pendekatan yang lebih aman adalah membangun minimum viable product (MVP) — versi aplikasi dengan fitur paling inti yang menyelesaikan masalah paling mendesak, lalu dikembangkan bertahap berdasarkan bagaimana tim dan pelanggan benar-benar menggunakannya.",
+    text: "Salah satu kesalahan paling umum adalah mencoba membangun aplikasi yang menyelesaikan semua masalah sekaligus sejak versi pertama. Pendekatan yang lebih aman adalah membangun minimum viable product (MVP), versi aplikasi dengan fitur paling inti yang menyelesaikan masalah paling mendesak, lalu dikembangkan bertahap berdasarkan bagaimana tim dan pelanggan benar-benar menggunakannya.",
   },
   {
     type: "p",
@@ -107,9 +107,9 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Siapa yang akan memakai aplikasi ini — tim internal, pelanggan, atau keduanya?",
+      "Siapa yang akan memakai aplikasi ini, tim internal, pelanggan, atau keduanya?",
       "Satu proses mana yang jika diperbaiki akan memberi dampak paling besar dalam waktu dekat?",
-      "Perangkat apa yang dipakai pengguna sehari-hari — ponsel Android, iPhone, atau komputer?",
+      "Perangkat apa yang dipakai pengguna sehari-hari, ponsel Android, iPhone, atau komputer?",
       "Apakah aplikasi perlu tetap berfungsi saat koneksi internet terputus?",
       "Siapa di internal yang akan bertanggung jawab memastikan data di aplikasi tetap akurat?",
     ],
@@ -121,7 +121,7 @@ export const body: Block[] = [
   { type: "h2", text: "Software jadi, custom development, atau keduanya?" },
   {
     type: "p",
-    text: "Jika kebutuhan Anda relatif umum — pemesanan, pembayaran, manajemen stok dasar — aplikasi siap pakai atau platform SaaS sering kali sudah cukup dan jauh lebih cepat digunakan. Namun jika proses bisnis Anda punya aturan khusus yang tidak diakomodasi produk umum, atau Anda butuh integrasi mendalam dengan sistem internal yang sudah berjalan, custom development memberi fleksibilitas yang tidak bisa didapat dari software jadi.",
+    text: "Jika kebutuhan Anda relatif umum, pemesanan, pembayaran, manajemen stok dasar, aplikasi siap pakai atau platform SaaS sering kali sudah cukup dan jauh lebih cepat digunakan. Namun jika proses bisnis Anda punya aturan khusus yang tidak diakomodasi produk umum, atau Anda butuh integrasi mendalam dengan sistem internal yang sudah berjalan, custom development memberi fleksibilitas yang tidak bisa didapat dari software jadi.",
   },
   {
     type: "p",
@@ -130,7 +130,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menyiapkan tim, bukan hanya menyiapkan aplikasi" },
   {
     type: "p",
-    text: "Aplikasi yang bagus bisa gagal kalau tim yang akan memakainya tidak dilibatkan sejak awal. Perubahan dari kebiasaan lama ke sistem baru butuh waktu, terutama bagi anggota tim yang sudah nyaman dengan cara kerja lama meski merepotkan. Melibatkan mereka sejak tahap perencanaan — menanyakan kesulitan yang mereka alami sehari-hari, bukan hanya menyampaikan keputusan yang sudah jadi — membuat adopsi jauh lebih lancar dibanding meluncurkan aplikasi secara tiba-tiba.",
+    text: "Aplikasi yang bagus bisa gagal kalau tim yang akan memakainya tidak dilibatkan sejak awal. Perubahan dari kebiasaan lama ke sistem baru butuh waktu, terutama bagi anggota tim yang sudah nyaman dengan cara kerja lama meski merepotkan. Melibatkan mereka sejak tahap perencanaan, menanyakan kesulitan yang mereka alami sehari-hari, bukan hanya menyampaikan keputusan yang sudah jadi, membuat adopsi jauh lebih lancar dibanding meluncurkan aplikasi secara tiba-tiba.",
   },
   {
     type: "p",
@@ -139,12 +139,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Tidak ada angka omzet atau jumlah karyawan yang secara otomatis menandakan sebuah bisnis sudah 'cukup besar' untuk punya aplikasi sendiri. Yang menentukan adalah seberapa mahal proses manual yang sedang berjalan — dalam waktu, kesalahan, dan peluang yang hilang. Jika beberapa tanda di atas terasa familiar, langkah paling masuk akal bukan langsung membangun aplikasi besar, tapi memetakan proses mana yang paling mendesak untuk diubah lebih dulu.",
+    text: "Tidak ada angka omzet atau jumlah karyawan yang secara otomatis menandakan sebuah bisnis sudah 'cukup besar' untuk punya aplikasi sendiri. Yang menentukan adalah seberapa mahal proses manual yang sedang berjalan, dalam waktu, kesalahan, dan peluang yang hilang. Jika beberapa tanda di atas terasa familiar, langkah paling masuk akal bukan langsung membangun aplikasi besar, tapi memetakan proses mana yang paling mendesak untuk diubah lebih dulu.",
   },
   {
     type: "cta",
     title: "Mengenali beberapa tanda di atas pada bisnis Anda?",
-    text: "Ceritakan proses yang paling terasa berat. Tim AG·SORA akan membantu menentukan apakah aplikasi memang solusinya, dan bagaimana memulai dari MVP yang realistis — konsultasinya gratis.",
+    text: "Ceritakan proses yang paling terasa berat. Tim AG·SORA akan membantu menentukan apakah aplikasi memang solusinya, dan bagaimana memulai dari MVP yang realistis, konsultasinya gratis.",
     href: "/services/mobile",
     label: "Konsultasi Gratis",
   },

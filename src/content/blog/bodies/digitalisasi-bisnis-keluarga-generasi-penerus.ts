@@ -127,7 +127,7 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Membeli sistem lebih dulu, baru memikirkan proses — akibatnya sistem tidak cocok dengan cara kerja dan akhirnya ditinggalkan",
+      "Membeli sistem lebih dulu, baru memikirkan proses, akibatnya sistem tidak cocok dengan cara kerja dan akhirnya ditinggalkan",
       "Menjalankan sistem baru dan cara lama secara paralel tanpa batas waktu, sehingga tim bekerja dua kali dan data tidak pernah benar-benar pindah",
       "Menyerahkan seluruh proyek kepada satu anggota keluarga muda tanpa dukungan dan wewenang yang jelas",
       "Mengabaikan kebiasaan pelanggan lama yang mungkin belum siap dengan cara pemesanan atau pembayaran yang baru",

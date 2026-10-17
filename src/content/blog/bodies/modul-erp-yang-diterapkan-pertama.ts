@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Keputusan sudah diambil: bisnis Anda akan beralih ke ERP. Brosur vendor menampilkan belasan modul — keuangan, inventori, pembelian, penjualan, produksi, aset, proyek, SDM. Semua terlihat penting. Semua terlihat mendesak. Godaannya adalah menyalakan semuanya sekaligus di hari yang sama.",
+    text: "Keputusan sudah diambil: bisnis Anda akan beralih ke ERP. Brosur vendor menampilkan belasan modul, keuangan, inventori, pembelian, penjualan, produksi, aset, proyek, SDM. Semua terlihat penting. Semua terlihat mendesak. Godaannya adalah menyalakan semuanya sekaligus di hari yang sama.",
   },
   {
     type: "p",
@@ -100,7 +100,7 @@ export const body: Block[] = [
   { type: "h2", text: "Siapa yang harus terlibat di tahap pertama" },
   {
     type: "p",
-    text: "Tahap pertama menentukan kesan seluruh perusahaan terhadap ERP. Karena itu, orang yang terlibat di tahap ini perlu dipilih dengan cermat. Selain penanggung jawab project dari sisi bisnis, libatkan pengguna kunci dari divisi yang modulnya diterapkan — orang yang paham detail proses dan dihormati rekan kerjanya.",
+    text: "Tahap pertama menentukan kesan seluruh perusahaan terhadap ERP. Karena itu, orang yang terlibat di tahap ini perlu dipilih dengan cermat. Selain penanggung jawab project dari sisi bisnis, libatkan pengguna kunci dari divisi yang modulnya diterapkan, orang yang paham detail proses dan dihormati rekan kerjanya.",
   },
   {
     type: "p",
@@ -133,7 +133,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Distributor kedua merapikan data master lebih dulu, lalu menerapkan inventori dan pembelian di satu cabang. Setelah stok di cabang itu terbukti akurat, modul yang sama diperluas ke dua cabang lain, disusul penjualan dan keuangan. Jalur ini terlihat lebih lambat di atas kertas, tetapi setiap tahap berdiri di atas fondasi yang sudah teruji — dan sistemnya benar-benar dipakai.",
+    text: "Distributor kedua merapikan data master lebih dulu, lalu menerapkan inventori dan pembelian di satu cabang. Setelah stok di cabang itu terbukti akurat, modul yang sama diperluas ke dua cabang lain, disusul penjualan dan keuangan. Jalur ini terlihat lebih lambat di atas kertas, tetapi setiap tahap berdiri di atas fondasi yang sudah teruji, dan sistemnya benar-benar dipakai.",
   },
   { type: "h2", text: "Kesalahan umum dalam menentukan urutan" },
   {

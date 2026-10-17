@@ -185,7 +185,7 @@ export function BlogIndex({ page }: { page: number }) {
         title={
           isFirst
             ? t.blogPage.heroTitle
-            : `${t.blogPage.pageTitle} — ${t.blogPage.pageLabel.toLowerCase()} ${page}`
+            : `${t.blogPage.pageTitle} | ${t.blogPage.pageLabel.toLowerCase()} ${page}`
         }
         description={isFirst ? t.blogPage.heroDescription : undefined}
       />

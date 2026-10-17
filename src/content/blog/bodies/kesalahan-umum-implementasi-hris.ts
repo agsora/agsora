@@ -32,7 +32,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Kebijakan dulu, sistem kemudian",
-    text: "Sebelum konfigurasi dimulai, tuliskan kebijakan HR yang berlaku dan minta pihak terkait menyepakatinya. Proses ini sering memunculkan perbedaan tafsir yang selama ini tidak terlihat — dan jauh lebih murah diselesaikan di atas kertas daripada di slip gaji.",
+    text: "Sebelum konfigurasi dimulai, tuliskan kebijakan HR yang berlaku dan minta pihak terkait menyepakatinya. Proses ini sering memunculkan perbedaan tafsir yang selama ini tidak terlihat, dan jauh lebih murah diselesaikan di atas kertas daripada di slip gaji.",
   },
   { type: "h2", text: "Kesalahan 2: Mengabaikan pengecualian yang nyata" },
   {
@@ -165,7 +165,7 @@ export const body: Block[] = [
   { type: "h2", text: "Berapa lama penerapan HRIS?" },
   {
     type: "p",
-    text: "Tidak ada durasi yang berlaku untuk semua perusahaan. Waktu penerapan dipengaruhi oleh jumlah karyawan, keragaman pola kerja, kerapian kebijakan yang sudah ada, kondisi data karyawan, dan jumlah integrasi. Perusahaan dengan kebijakan yang sudah tertulis rapi dan data yang bersih biasanya bisa bergerak jauh lebih cepat. Karena itu, pekerjaan merapikan kebijakan dan data di awal bukan pemborosan waktu — justru itulah yang paling mempercepat seluruh project.",
+    text: "Tidak ada durasi yang berlaku untuk semua perusahaan. Waktu penerapan dipengaruhi oleh jumlah karyawan, keragaman pola kerja, kerapian kebijakan yang sudah ada, kondisi data karyawan, dan jumlah integrasi. Perusahaan dengan kebijakan yang sudah tertulis rapi dan data yang bersih biasanya bisa bergerak jauh lebih cepat. Karena itu, pekerjaan merapikan kebijakan dan data di awal bukan pemborosan waktu, justru itulah yang paling mempercepat seluruh project.",
   },
   { type: "h2", text: "Mengomunikasikan perubahan ke karyawan" },
   {
@@ -202,7 +202,7 @@ export const body: Block[] = [
   { type: "h2", text: "Pilihan di AG·SORA" },
   {
     type: "p",
-    text: "Bagi perusahaan dengan kebutuhan HR yang relatif umum, platform HR siap pakai sering kali sudah memadai. Untuk organisasi dengan pola kerja yang kompleks — banyak shift, tim lapangan, atau aturan tunjangan khusus — sistem HRIS bisa dirancang mengikuti kebijakan Anda. Apa pun pilihannya, urutan penerapan dan persiapan di atas tetap berlaku.",
+    text: "Bagi perusahaan dengan kebutuhan HR yang relatif umum, platform HR siap pakai sering kali sudah memadai. Untuk organisasi dengan pola kerja yang kompleks, banyak shift, tim lapangan, atau aturan tunjangan khusus, sistem HRIS bisa dirancang mengikuti kebijakan Anda. Apa pun pilihannya, urutan penerapan dan persiapan di atas tetap berlaku.",
   },
   { type: "h2", text: "Penutup" },
   {
@@ -212,7 +212,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Ingin hari gajian tanpa drama?",
-    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda, absensi, cuti, lembur, dan payroll dalam satu sistem.",
     href: "/services/hris",
     label: "Lihat layanan HRIS",
   },

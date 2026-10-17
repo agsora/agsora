@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section className="border-b border-line">
       <Container className="max-w-6xl pt-16 md:pt-24">
-        {/* LCP element — deliberately not animated. */}
+        {/* LCP element, deliberately not animated. */}
         <h1 className="zh-phrases max-w-4xl text-balance text-[38px] font-semibold leading-[1.06] tracking-[-0.025em] text-ink sm:text-[52px] lg:text-[64px]">
           {t.hero.titleLead} {t.hero.titleHighlight}
         </h1>

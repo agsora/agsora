@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Setiap pagi, satu staf admin membuka tumpukan faktur dari pemasok — ada yang hasil scan, ada yang foto dari WhatsApp, ada yang PDF rapi. Ia mengetik ulang nomor faktur, tanggal, nama pemasok, dan total tagihan ke sistem, satu per satu. Tiga jam kemudian, tumpukan itu belum juga habis, dan besok akan datang tumpukan baru.",
+    text: "Setiap pagi, satu staf admin membuka tumpukan faktur dari pemasok, ada yang hasil scan, ada yang foto dari WhatsApp, ada yang PDF rapi. Ia mengetik ulang nomor faktur, tanggal, nama pemasok, dan total tagihan ke sistem, satu per satu. Tiga jam kemudian, tumpukan itu belum juga habis, dan besok akan datang tumpukan baru.",
   },
   {
     type: "p",
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Apa yang bisa diotomatiskan" },
   {
     type: "p",
-    text: "Teknologi pengenalan teks (OCR) yang dipadukan dengan AI kini mampu membaca dokumen — termasuk hasil pindaian dan foto yang tidak selalu sempurna kualitasnya — lalu mengambil informasi seperti nomor faktur, tanggal, nama pemasok, dan nilai tagihan secara otomatis. Data yang berhasil dibaca itu kemudian bisa dimasukkan langsung ke sistem tanpa diketik manual satu per satu.",
+    text: "Teknologi pengenalan teks (OCR) yang dipadukan dengan AI kini mampu membaca dokumen, termasuk hasil pindaian dan foto yang tidak selalu sempurna kualitasnya, lalu mengambil informasi seperti nomor faktur, tanggal, nama pemasok, dan nilai tagihan secara otomatis. Data yang berhasil dibaca itu kemudian bisa dimasukkan langsung ke sistem tanpa diketik manual satu per satu.",
   },
   {
     type: "p",
@@ -41,7 +41,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dokumen yang formatnya sangat bervariasi, tulisan tangan yang sulit dibaca, atau volumenya sangat kecil sering kali tidak sepadan untuk diotomatiskan — biaya pengembangan dan pemeliharaannya bisa lebih besar dari waktu yang dihemat.",
+    text: "Dokumen yang formatnya sangat bervariasi, tulisan tangan yang sulit dibaca, atau volumenya sangat kecil sering kali tidak sepadan untuk diotomatiskan, biaya pengembangan dan pemeliharaannya bisa lebih besar dari waktu yang dihemat.",
   },
   { type: "h2", text: "Tetap perlu pemeriksaan manusia" },
   {
@@ -50,12 +50,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Pendekatan ini — memproses yang jelas secara otomatis, menandai yang meragukan untuk diperiksa — jauh lebih realistis daripada mengharapkan otomatisasi sempurna sejak hari pertama.",
+    text: "Pendekatan ini, memproses yang jelas secara otomatis, menandai yang meragukan untuk diperiksa, jauh lebih realistis daripada mengharapkan otomatisasi sempurna sejak hari pertama.",
   },
   {
     type: "callout",
     title: "Cocokkan, jangan hanya salin",
-    text: "Otomatisasi paling bernilai ketika data yang terbaca langsung dicocokkan dengan data lain — misalnya faktur yang dicocokkan dengan pesanan pembelian dan catatan penerimaan barang. Ketidakcocokan antara ketiganya menjadi daftar yang perlu ditinjau petugas, bukan kesalahan yang lolos begitu saja tanpa disadari.",
+    text: "Otomatisasi paling bernilai ketika data yang terbaca langsung dicocokkan dengan data lain, misalnya faktur yang dicocokkan dengan pesanan pembelian dan catatan penerimaan barang. Ketidakcocokan antara ketiganya menjadi daftar yang perlu ditinjau petugas, bukan kesalahan yang lolos begitu saja tanpa disadari.",
   },
   { type: "h2", text: "Mulai dari satu jenis dokumen" },
   {
@@ -65,7 +65,7 @@ export const body: Block[] = [
   { type: "h2", text: "Perhatikan kerahasiaan data" },
   {
     type: "p",
-    text: "Dokumen keuangan dan formulir yang diproses sering berisi data sensitif — nilai transaksi, data pemasok, kadang data pribadi. Jika proses pembacaan memakai layanan pihak ketiga, pahami bagaimana penyedia layanan menyimpan dan menggunakan data tersebut, pilih layanan yang ketentuannya sesuai kebijakan internal perusahaan, dan pastikan sesuai dengan ketentuan pelindungan data yang berlaku.",
+    text: "Dokumen keuangan dan formulir yang diproses sering berisi data sensitif, nilai transaksi, data pemasok, kadang data pribadi. Jika proses pembacaan memakai layanan pihak ketiga, pahami bagaimana penyedia layanan menyimpan dan menggunakan data tersebut, pilih layanan yang ketentuannya sesuai kebijakan internal perusahaan, dan pastikan sesuai dengan ketentuan pelindungan data yang berlaku.",
   },
   { type: "h2", text: "Simpan dokumen aslinya" },
   {
@@ -79,7 +79,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah menerapkan otomatisasi pembacaan faktur, sebagian besar dokumen dengan format yang sudah dikenali sistem — dari pemasok tetap yang formatnya konsisten — terbaca otomatis dalam hitungan detik dan langsung dicocokkan dengan pesanan pembelian yang ada. Staf tersebut kini hanya perlu memeriksa sekitar sepuluh faktur yang ditandai sistem karena formatnya baru atau kualitas gambarnya kurang jelas, menghabiskan waktu sekitar tiga puluh menit alih-alih tiga jam.",
+    text: "Setelah menerapkan otomatisasi pembacaan faktur, sebagian besar dokumen dengan format yang sudah dikenali sistem, dari pemasok tetap yang formatnya konsisten, terbaca otomatis dalam hitungan detik dan langsung dicocokkan dengan pesanan pembelian yang ada. Staf tersebut kini hanya perlu memeriksa sekitar sepuluh faktur yang ditandai sistem karena formatnya baru atau kualitas gambarnya kurang jelas, menghabiskan waktu sekitar tiga puluh menit alih-alih tiga jam.",
   },
   { type: "h2", text: "Menangani perubahan format dari pemasok" },
   {
@@ -93,7 +93,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Jika sistem yang dipakai belum mendukung pemisahan otomatis seperti ini, langkah sementara yang lebih realistis adalah meminta staf memisahkan berkas gabungan menjadi dokumen tunggal sebelum diproses sistem — masih jauh lebih cepat dibanding mengetik ulang seluruh isinya secara manual satu per satu.",
+    text: "Jika sistem yang dipakai belum mendukung pemisahan otomatis seperti ini, langkah sementara yang lebih realistis adalah meminta staf memisahkan berkas gabungan menjadi dokumen tunggal sebelum diproses sistem, masih jauh lebih cepat dibanding mengetik ulang seluruh isinya secara manual satu per satu.",
   },
   { type: "h2", text: "Mengukur laba atas investasi otomatisasi" },
   {
@@ -150,12 +150,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Tanggung jawab ini tidak harus dipegang satu orang penuh waktu — untuk volume yang belum terlalu besar, cukup dijadikan bagian dari tugas harian staf admin yang sudah ada, dengan waktu khusus yang dialokasikan setiap hari untuk meninjau dokumen yang ditandai sistem. Yang penting bukan besarnya alokasi waktu, melainkan kejelasan bahwa tugas ini benar-benar menjadi milik seseorang.",
+    text: "Tanggung jawab ini tidak harus dipegang satu orang penuh waktu, untuk volume yang belum terlalu besar, cukup dijadikan bagian dari tugas harian staf admin yang sudah ada, dengan waktu khusus yang dialokasikan setiap hari untuk meninjau dokumen yang ditandai sistem. Yang penting bukan besarnya alokasi waktu, melainkan kejelasan bahwa tugas ini benar-benar menjadi milik seseorang.",
   },
   { type: "h2", text: "Menangani dokumen dalam mata uang atau bahasa berbeda" },
   {
     type: "p",
-    text: "Bisnis yang berhubungan dengan pemasok atau pelanggan dari luar negeri sering menerima dokumen dalam bahasa asing atau dengan format mata uang dan tanggal yang berbeda dari konvensi lokal. Sistem otomatisasi perlu dikonfigurasi untuk mengenali variasi ini — misalnya format tanggal hari-bulan-tahun versus bulan-hari-tahun, atau simbol mata uang yang berbeda-beda — agar tidak salah menafsirkan angka yang sebenarnya sudah jelas bagi manusia yang membacanya secara langsung.",
+    text: "Bisnis yang berhubungan dengan pemasok atau pelanggan dari luar negeri sering menerima dokumen dalam bahasa asing atau dengan format mata uang dan tanggal yang berbeda dari konvensi lokal. Sistem otomatisasi perlu dikonfigurasi untuk mengenali variasi ini, misalnya format tanggal hari-bulan-tahun versus bulan-hari-tahun, atau simbol mata uang yang berbeda-beda, agar tidak salah menafsirkan angka yang sebenarnya sudah jelas bagi manusia yang membacanya secara langsung.",
   },
   {
     type: "p",

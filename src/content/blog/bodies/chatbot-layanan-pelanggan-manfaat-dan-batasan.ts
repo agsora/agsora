@@ -16,14 +16,14 @@ export const body: Block[] = [
       "Chatbot unggul untuk pertanyaan berulang dengan jawaban yang jelas dan terbatas",
       "Chatbot berisiko gagal pada keluhan, kasus tidak biasa, dan hal yang menyangkut uang",
       "Jalur ke manusia harus selalu tersedia dan mudah ditemukan",
-      "AI generatif bisa menjawab dengan meyakinkan tapi keliru — batasi sumber informasinya",
+      "AI generatif bisa menjawab dengan meyakinkan tapi keliru, batasi sumber informasinya",
       "Tinjau percakapan secara rutin agar chatbot tidak tertinggal dari kenyataan bisnis",
     ],
   },
   { type: "h2", text: "Dua jenis chatbot yang perlu dibedakan" },
   {
     type: "p",
-    text: "Chatbot berbasis aturan bekerja dengan alur menu atau kata kunci tertentu: jika pelanggan mengetik “jam buka”, chatbot menjawab dengan jawaban yang sudah ditentukan. Jenis ini terbatas tapi bisa diprediksi — jawabannya selalu sesuai dengan yang Anda tulis.",
+    text: "Chatbot berbasis aturan bekerja dengan alur menu atau kata kunci tertentu: jika pelanggan mengetik “jam buka”, chatbot menjawab dengan jawaban yang sudah ditentukan. Jenis ini terbatas tapi bisa diprediksi, jawabannya selalu sesuai dengan yang Anda tulis.",
   },
   {
     type: "p",
@@ -62,7 +62,7 @@ export const body: Block[] = [
   { type: "h2", text: "Jalur ke manusia harus jelas dan mudah" },
   {
     type: "p",
-    text: "Pelanggan yang terjebak dalam percakapan berulang dengan chatbot biasanya kesal pada bisnisnya, bukan pada teknologinya. Sediakan jalan yang jelas dan mudah ditemukan untuk berbicara dengan petugas manusia — bukan tersembunyi di menu yang sulit dicari.",
+    text: "Pelanggan yang terjebak dalam percakapan berulang dengan chatbot biasanya kesal pada bisnisnya, bukan pada teknologinya. Sediakan jalan yang jelas dan mudah ditemukan untuk berbicara dengan petugas manusia, bukan tersembunyi di menu yang sulit dicari.",
   },
   {
     type: "p",
@@ -71,7 +71,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Chatbot berbasis AI bisa salah dengan sangat yakin",
-    text: "Model AI generatif dapat menghasilkan jawaban yang terdengar tepat tetapi keliru, termasuk kebijakan yang tidak pernah ada atau harga yang salah. Batasi chatbot pada sumber informasi yang Anda kendalikan sepenuhnya, dan jangan izinkan chatbot membuat janji — harga khusus, jadwal, kompensasi — tanpa konfirmasi petugas manusia.",
+    text: "Model AI generatif dapat menghasilkan jawaban yang terdengar tepat tetapi keliru, termasuk kebijakan yang tidak pernah ada atau harga yang salah. Batasi chatbot pada sumber informasi yang Anda kendalikan sepenuhnya, dan jangan izinkan chatbot membuat janji, harga khusus, jadwal, kompensasi, tanpa konfirmasi petugas manusia.",
   },
   { type: "h2", text: "Mulai dari pertanyaan yang paling sering" },
   {
@@ -104,7 +104,7 @@ export const body: Block[] = [
   { type: "h2", text: "Melatih chatbot dengan data yang tepat" },
   {
     type: "p",
-    text: "Chatbot berbasis AI generatif bekerja dengan sumber informasi yang Anda sediakan, bukan menebak-nebak dari internet secara umum. Susun kumpulan informasi resmi yang jelas — kebijakan pengembalian, daftar produk, prosedur layanan — dan batasi chatbot untuk menjawab hanya berdasarkan sumber tersebut. Semakin jelas dan terstruktur sumbernya, semakin akurat dan konsisten jawaban chatbot.",
+    text: "Chatbot berbasis AI generatif bekerja dengan sumber informasi yang Anda sediakan, bukan menebak-nebak dari internet secara umum. Susun kumpulan informasi resmi yang jelas, kebijakan pengembalian, daftar produk, prosedur layanan, dan batasi chatbot untuk menjawab hanya berdasarkan sumber tersebut. Semakin jelas dan terstruktur sumbernya, semakin akurat dan konsisten jawaban chatbot.",
   },
   {
     type: "p",
@@ -170,7 +170,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menentukan kapan waktunya membangun chatbot sendiri" },
   {
     type: "p",
-    text: "Banyak layanan chatbot siap pakai kini tersedia dengan biaya berlangganan yang terjangkau, cocok untuk kebutuhan yang relatif umum. Chatbot yang dibangun khusus lebih masuk akal ketika Anda membutuhkan integrasi mendalam dengan sistem internal — misalnya mengecek stok real-time atau status pesanan langsung dari database Anda — yang sulit dilakukan layanan generik.",
+    text: "Banyak layanan chatbot siap pakai kini tersedia dengan biaya berlangganan yang terjangkau, cocok untuk kebutuhan yang relatif umum. Chatbot yang dibangun khusus lebih masuk akal ketika Anda membutuhkan integrasi mendalam dengan sistem internal, misalnya mengecek stok real-time atau status pesanan langsung dari database Anda, yang sulit dilakukan layanan generik.",
   },
   { type: "h2", text: "Menentukan nada bicara chatbot" },
   {
@@ -179,12 +179,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Nada bicara ini juga perlu konsisten di seluruh percakapan, termasuk saat menyampaikan berita yang kurang menyenangkan — pesanan yang tertunda, stok yang habis, atau permintaan yang tidak bisa dipenuhi. Chatbot yang tetap sopan dan jelas saat menyampaikan kabar buruk jauh lebih membantu dibanding chatbot yang hanya pandai berbasa-basi saat semuanya berjalan lancar.",
+    text: "Nada bicara ini juga perlu konsisten di seluruh percakapan, termasuk saat menyampaikan berita yang kurang menyenangkan, pesanan yang tertunda, stok yang habis, atau permintaan yang tidak bisa dipenuhi. Chatbot yang tetap sopan dan jelas saat menyampaikan kabar buruk jauh lebih membantu dibanding chatbot yang hanya pandai berbasa-basi saat semuanya berjalan lancar.",
   },
   { type: "h2", text: "Menyiapkan tim untuk bekerja berdampingan dengan chatbot" },
   {
     type: "p",
-    text: "Kehadiran chatbot mengubah pekerjaan tim customer service, bukan menghilangkannya. Tim yang dulu menjawab pertanyaan sederhana berulang kali kini lebih banyak menangani kasus yang dieskalasi dari chatbot — kasus yang cenderung lebih rumit dan lebih membutuhkan kesabaran, karena pelanggan yang sampai ke tahap ini biasanya sudah mencoba mencari jawaban sendiri lebih dulu lewat chatbot dan belum berhasil.",
+    text: "Kehadiran chatbot mengubah pekerjaan tim customer service, bukan menghilangkannya. Tim yang dulu menjawab pertanyaan sederhana berulang kali kini lebih banyak menangani kasus yang dieskalasi dari chatbot, kasus yang cenderung lebih rumit dan lebih membutuhkan kesabaran, karena pelanggan yang sampai ke tahap ini biasanya sudah mencoba mencari jawaban sendiri lebih dulu lewat chatbot dan belum berhasil.",
   },
   {
     type: "p",
@@ -202,7 +202,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Chatbot yang baik bukan yang mencoba menjawab segalanya, melainkan yang tahu batasannya sendiri. Fokuskan pada pertanyaan berulang dengan jawaban pasti, sediakan jalur cepat ke manusia untuk sisanya, dan rawat chatbot Anda seperti karyawan baru yang terus belajar — bukan sistem yang dipasang lalu dilupakan.",
+    text: "Chatbot yang baik bukan yang mencoba menjawab segalanya, melainkan yang tahu batasannya sendiri. Fokuskan pada pertanyaan berulang dengan jawaban pasti, sediakan jalur cepat ke manusia untuk sisanya, dan rawat chatbot Anda seperti karyawan baru yang terus belajar, bukan sistem yang dipasang lalu dilupakan.",
   },
   {
     type: "cta",

@@ -7,7 +7,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "The answer almost always lies in the gap between profit and cash flow. Recorded sales haven't necessarily been paid. Stock piling up in the warehouse is money that's tied up. Supplier invoices fall due on dates that don't always line up with when customers pay. When information about all of this is scattered across different systems — the cashier app, a receivables spreadsheet, warehouse notes, and the bank account — nobody can see the full picture until the problem has already happened.",
+    text: "The answer almost always lies in the gap between profit and cash flow. Recorded sales haven't necessarily been paid. Stock piling up in the warehouse is money that's tied up. Supplier invoices fall due on dates that don't always line up with when customers pay. When information about all of this is scattered across different systems, the cashier app, a receivables spreadsheet, warehouse notes, and the bank account, nobody can see the full picture until the problem has already happened.",
   },
   {
     type: "p",
@@ -127,7 +127,7 @@ const en: Block[] = [
       "Transactions are recorded when they happen, not collected and entered at the end of the week or month",
       "Due dates and payment terms are set correctly for every customer and supplier",
       "Bank receipts and payments are reconciled regularly, ideally daily or weekly",
-      "Stock movements — receipts, issues, returns, and adjustments — are fully recorded in the system",
+      "Stock movements, receipts, issues, returns, and adjustments, are fully recorded in the system",
       "Every type of data has a clear process owner, so errors are spotted and fixed quickly",
     ],
   },
@@ -155,7 +155,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing thoughts" },
   {
     type: "p",
-    text: "Cash trouble rarely arrives out of nowhere. The signs are usually already in the data — receivables starting to age, stock that isn't moving, payment schedules bunching up in the same week. The problem is that this data is scattered in different places and only brought together when it's too late. An ERP implemented with discipline makes those signs visible earlier, so decisions can be made while there are still plenty of options, not when only emergency measures remain.",
+    text: "Cash trouble rarely arrives out of nowhere. The signs are usually already in the data, receivables starting to age, stock that isn't moving, payment schedules bunching up in the same week. The problem is that this data is scattered in different places and only brought together when it's too late. An ERP implemented with discipline makes those signs visible earlier, so decisions can be made while there are still plenty of options, not when only emergency measures remain.",
   },
   {
     type: "cta",
@@ -173,7 +173,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "答案几乎总是在于利润与现金流之间的差距。已记录的销售未必已经收款;仓库里堆积的库存是被占用的资金;供应商账单的到期日,并不总是与客户付款的日期一致。当这些信息分散在不同的系统中——收银应用、应收账款表格、仓库记录和银行账户——在问题真正发生之前,没有人能看到完整的全貌。",
+    text: "答案几乎总是在于利润与现金流之间的差距。已记录的销售未必已经收款;仓库里堆积的库存是被占用的资金;供应商账单的到期日,并不总是与客户付款的日期一致。当这些信息分散在不同的系统中，收银应用、应收账款表格、仓库记录和银行账户，在问题真正发生之前,没有人能看到完整的全貌。",
   },
   {
     type: "p",
@@ -293,7 +293,7 @@ const zh: Block[] = [
       "交易在发生时就记录,而不是攒到周末或月底再录入",
       "为每位客户和供应商正确设置到期日和付款条件",
       "定期核对银行收付款,最好每天或每周进行",
-      "库存变动——入库、出库、退货和调整——都完整记录在系统中",
+      "库存变动，入库、出库、退货和调整，都完整记录在系统中",
       "每类数据都有明确的流程负责人,错误能被迅速发现和纠正",
     ],
   },
@@ -321,7 +321,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   {
     type: "p",
-    text: "现金困难很少突然降临。迹象通常早已存在于数据之中——开始老化的应收账款、不动的库存、集中在同一周的付款计划。问题在于,这些数据分散在不同的地方,等到被汇总在一起时已经太晚。以纪律推行的 ERP 能让这些迹象更早显现,使决策可以在选择仍然很多的时候作出,而不是只剩下应急措施的时候。",
+    text: "现金困难很少突然降临。迹象通常早已存在于数据之中，开始老化的应收账款、不动的库存、集中在同一周的付款计划。问题在于,这些数据分散在不同的地方,等到被汇总在一起时已经太晚。以纪律推行的 ERP 能让这些迹象更早显现,使决策可以在选择仍然很多的时候作出,而不是只剩下应急措施的时候。",
   },
   {
     type: "cta",

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Aplikasinya sudah siap. Pelatihan sudah dijadwalkan. Tanggal peluncuran sudah diumumkan ke seluruh tim. Lalu seseorang membuka file data pelanggan lama — dan menemukan nama yang sama tercatat tujuh kali dengan ejaan berbeda, nomor telepon di kolom alamat, dan ratusan pelanggan yang sudah bertahun-tahun tidak aktif.",
+    text: "Aplikasinya sudah siap. Pelatihan sudah dijadwalkan. Tanggal peluncuran sudah diumumkan ke seluruh tim. Lalu seseorang membuka file data pelanggan lama, dan menemukan nama yang sama tercatat tujuh kali dengan ejaan berbeda, nomor telepon di kolom alamat, dan ratusan pelanggan yang sudah bertahun-tahun tidak aktif.",
   },
   {
     type: "p",
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa migrasi data sering meleset dari jadwal" },
   {
     type: "p",
-    text: "Penyebab utamanya adalah waktu. Tim pengembang bisa membangun sistem sesuai jadwal, tetapi pembersihan data membutuhkan keputusan dari orang-orang bisnis yang memahami data tersebut. Keputusan seperti “pelanggan mana yang merupakan duplikat” atau “kode produk mana yang masih berlaku” tidak bisa diambil oleh vendor. Jika orang yang berwenang sibuk, pekerjaan ini tertunda sampai menjelang peluncuran — dan pada saat itu, waktunya sudah tidak cukup.",
+    text: "Penyebab utamanya adalah waktu. Tim pengembang bisa membangun sistem sesuai jadwal, tetapi pembersihan data membutuhkan keputusan dari orang-orang bisnis yang memahami data tersebut. Keputusan seperti “pelanggan mana yang merupakan duplikat” atau “kode produk mana yang masih berlaku” tidak bisa diambil oleh vendor. Jika orang yang berwenang sibuk, pekerjaan ini tertunda sampai menjelang peluncuran, dan pada saat itu, waktunya sudah tidak cukup.",
   },
   {
     type: "p",
@@ -72,7 +72,7 @@ export const body: Block[] = [
   {
     type: "ul",
     items: [
-      "Hapus duplikat — pelanggan, pemasok, atau produk yang tercatat lebih dari sekali",
+      "Hapus duplikat, pelanggan, pemasok, atau produk yang tercatat lebih dari sekali",
       "Seragamkan format tanggal, nomor telepon, satuan, dan penulisan nama",
       "Lengkapi kolom yang akan menjadi wajib di sistem baru",
       "Tandai data yang tidak aktif agar tidak ikut terbawa",
@@ -194,7 +194,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Sistem baru hanya sebaik data yang dimasukkan ke dalamnya. Dengan memulai persiapan lebih awal, membawa hanya data yang diperlukan, membersihkannya sebelum dipindahkan, dan menguji hasilnya dengan data sungguhan, Anda memberi sistem baru awal yang bersih — dan memberi tim alasan untuk mempercayainya sejak hari pertama.",
+    text: "Sistem baru hanya sebaik data yang dimasukkan ke dalamnya. Dengan memulai persiapan lebih awal, membawa hanya data yang diperlukan, membersihkannya sebelum dipindahkan, dan menguji hasilnya dengan data sungguhan, Anda memberi sistem baru awal yang bersih, dan memberi tim alasan untuk mempercayainya sejak hari pertama.",
   },
   {
     type: "cta",

@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Target bulan ini tidak tercapai. Manajer memanggil sales dengan pencapaian terendah, bertanya kenapa. Jawabannya samar — “lagi sepi aja, Pak”. Tidak ada data yang bisa menjelaskan lebih jauh: apakah prospeknya memang sedikit, apakah konversinya yang rendah, atau apakah follow-up-nya yang kurang konsisten. Rapat evaluasi berakhir tanpa solusi konkret, hanya dorongan semangat yang tidak menyelesaikan akar masalahnya.",
+    text: "Target bulan ini tidak tercapai. Manajer memanggil sales dengan pencapaian terendah, bertanya kenapa. Jawabannya samar, “lagi sepi aja, Pak”. Tidak ada data yang bisa menjelaskan lebih jauh: apakah prospeknya memang sedikit, apakah konversinya yang rendah, atau apakah follow-up-nya yang kurang konsisten. Rapat evaluasi berakhir tanpa solusi konkret, hanya dorongan semangat yang tidak menyelesaikan akar masalahnya.",
   },
   {
     type: "p",
@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa angka penjualan saja tidak cukup" },
   {
     type: "p",
-    text: "Angka penjualan akhir adalah hasil dari serangkaian proses yang panjang: mencari prospek, menjalin komunikasi, memahami kebutuhan, mengirim penawaran, bernegosiasi, hingga akhirnya menutup transaksi. Ketika hanya angka akhir yang dipantau, Anda kehilangan visibilitas terhadap seluruh proses ini — dan tanpa visibilitas itu, sulit menentukan intervensi yang tepat ketika hasilnya tidak sesuai harapan.",
+    text: "Angka penjualan akhir adalah hasil dari serangkaian proses yang panjang: mencari prospek, menjalin komunikasi, memahami kebutuhan, mengirim penawaran, bernegosiasi, hingga akhirnya menutup transaksi. Ketika hanya angka akhir yang dipantau, Anda kehilangan visibilitas terhadap seluruh proses ini, dan tanpa visibilitas itu, sulit menentukan intervensi yang tepat ketika hasilnya tidak sesuai harapan.",
   },
   { type: "h2", text: "Metrik hasil" },
   {
@@ -57,7 +57,7 @@ export const body: Block[] = [
   {
     type: "callout",
     title: "Hati-hati dengan metrik aktivitas",
-    text: "Jumlah telepon yang dilakukan atau jumlah kunjungan ke pelanggan mudah diukur, tapi juga mudah dinaikkan tanpa menghasilkan apa pun yang berarti — sekadar menelepon banyak orang tanpa persiapan yang matang. Gunakan metrik aktivitas sebagai petunjuk pendukung, bukan sebagai tujuan utama, agar sales tidak terjebak mengejar angka kunjungan yang sebenarnya tidak menghasilkan nilai bagi bisnis.",
+    text: "Jumlah telepon yang dilakukan atau jumlah kunjungan ke pelanggan mudah diukur, tapi juga mudah dinaikkan tanpa menghasilkan apa pun yang berarti, sekadar menelepon banyak orang tanpa persiapan yang matang. Gunakan metrik aktivitas sebagai petunjuk pendukung, bukan sebagai tujuan utama, agar sales tidak terjebak mengejar angka kunjungan yang sebenarnya tidak menghasilkan nilai bagi bisnis.",
   },
   { type: "h2", text: "Data harus bisa dipercaya lebih dulu" },
   {
@@ -71,12 +71,12 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Dengan temuan spesifik ini, manajer bisa menindaklanjuti dengan tepat sasaran — meninjau kembali isi dan struktur proposal yang dikirim tim, alih-alih sekadar mendorong sales untuk “bekerja lebih keras” tanpa arah yang jelas. Masalah yang ditemukan lewat metrik proses jauh lebih mudah diperbaiki dibanding masalah yang hanya terlihat sebagai angka penjualan rendah tanpa penjelasan.",
+    text: "Dengan temuan spesifik ini, manajer bisa menindaklanjuti dengan tepat sasaran, meninjau kembali isi dan struktur proposal yang dikirim tim, alih-alih sekadar mendorong sales untuk “bekerja lebih keras” tanpa arah yang jelas. Masalah yang ditemukan lewat metrik proses jauh lebih mudah diperbaiki dibanding masalah yang hanya terlihat sebagai angka penjualan rendah tanpa penjelasan.",
   },
   { type: "h2", text: "Sesuaikan dengan konteks masing-masing sales" },
   {
     type: "p",
-    text: "Target dan metrik yang sama persis belum tentu adil diterapkan untuk semua sales. Wilayah yang berbeda memiliki potensi pasar yang berbeda, jenis pelanggan yang berbeda punya siklus penjualan yang berbeda pula, dan pengalaman masing-masing sales juga bervariasi. Bandingkan kinerja dengan mempertimbangkan konteks-konteks ini, dan gunakan metrik untuk membantu sales berkembang secara individual — bukan semata-mata untuk memeringkat mereka satu sama lain secara kaku.",
+    text: "Target dan metrik yang sama persis belum tentu adil diterapkan untuk semua sales. Wilayah yang berbeda memiliki potensi pasar yang berbeda, jenis pelanggan yang berbeda punya siklus penjualan yang berbeda pula, dan pengalaman masing-masing sales juga bervariasi. Bandingkan kinerja dengan mempertimbangkan konteks-konteks ini, dan gunakan metrik untuk membantu sales berkembang secara individual, bukan semata-mata untuk memeringkat mereka satu sama lain secara kaku.",
   },
   { type: "h2", text: "Tinjau secara rutin, bukan hanya di akhir periode" },
   {
@@ -114,16 +114,16 @@ export const body: Block[] = [
   { type: "h2", text: "Metrik untuk kualitas prospek, bukan hanya jumlahnya" },
   {
     type: "p",
-    text: "Jumlah peluang baru yang banyak tidak selalu berarti baik jika sebagian besar berasal dari prospek yang sebenarnya tidak sesuai profil pelanggan ideal. Perhatikan juga tingkat konversi dari peluang baru menuju transaksi yang benar-benar ditutup — jika angka ini rendah meski jumlah peluang tinggi, kemungkinan sumber prospek yang dipakai tim perlu ditinjau ulang, bukan sekadar mendorong tim untuk mencari lebih banyak lagi peluang dari sumber yang sama.",
+    text: "Jumlah peluang baru yang banyak tidak selalu berarti baik jika sebagian besar berasal dari prospek yang sebenarnya tidak sesuai profil pelanggan ideal. Perhatikan juga tingkat konversi dari peluang baru menuju transaksi yang benar-benar ditutup, jika angka ini rendah meski jumlah peluang tinggi, kemungkinan sumber prospek yang dipakai tim perlu ditinjau ulang, bukan sekadar mendorong tim untuk mencari lebih banyak lagi peluang dari sumber yang sama.",
   },
   {
     type: "p",
-    text: "Sebagian tim juga memantau dari mana asal peluang yang paling sering berujung pada transaksi — apakah dari referensi pelanggan lama, dari pameran, atau dari pencarian aktif sales sendiri. Informasi ini membantu mengarahkan waktu dan sumber daya tim ke saluran yang selama ini paling efektif, alih-alih membagi rata usaha ke semua saluran tanpa mempertimbangkan mana yang sebenarnya menghasilkan.",
+    text: "Sebagian tim juga memantau dari mana asal peluang yang paling sering berujung pada transaksi, apakah dari referensi pelanggan lama, dari pameran, atau dari pencarian aktif sales sendiri. Informasi ini membantu mengarahkan waktu dan sumber daya tim ke saluran yang selama ini paling efektif, alih-alih membagi rata usaha ke semua saluran tanpa mempertimbangkan mana yang sebenarnya menghasilkan.",
   },
   { type: "h2", text: "Alasan kalah yang tercatat dengan jujur" },
   {
     type: "p",
-    text: "Ketika sebuah peluang gagal ditutup, mencatat alasannya secara spesifik — kalah harga, kalah fitur, prospek menunda keputusan, atau prospek memilih tidak melakukan apa pun — memberi wawasan yang jauh lebih berguna dibanding sekadar menandai peluang tersebut sebagai “hilang” tanpa penjelasan. Pola alasan kalah yang berulang bisa menunjukkan masalah yang lebih besar, misalnya penawaran yang secara konsisten kalah bersaing di segmen harga tertentu.",
+    text: "Ketika sebuah peluang gagal ditutup, mencatat alasannya secara spesifik, kalah harga, kalah fitur, prospek menunda keputusan, atau prospek memilih tidak melakukan apa pun, memberi wawasan yang jauh lebih berguna dibanding sekadar menandai peluang tersebut sebagai “hilang” tanpa penjelasan. Pola alasan kalah yang berulang bisa menunjukkan masalah yang lebih besar, misalnya penawaran yang secara konsisten kalah bersaing di segmen harga tertentu.",
   },
   {
     type: "p",
@@ -151,12 +151,12 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Metrik performa sales yang baik memberi gambaran lebih dari sekadar angka akhir — ia menunjukkan di mana dalam proses penjualan masalah sebenarnya terjadi, sehingga perbaikan bisa dilakukan dengan tepat sasaran. Dengan kombinasi metrik hasil dan proses yang dibaca bersamaan, evaluasi tim sales berubah dari sekadar menghakimi hasil menjadi alat nyata untuk pengembangan berkelanjutan.",
+    text: "Metrik performa sales yang baik memberi gambaran lebih dari sekadar angka akhir, ia menunjukkan di mana dalam proses penjualan masalah sebenarnya terjadi, sehingga perbaikan bisa dilakukan dengan tepat sasaran. Dengan kombinasi metrik hasil dan proses yang dibaca bersamaan, evaluasi tim sales berubah dari sekadar menghakimi hasil menjadi alat nyata untuk pengembangan berkelanjutan.",
   },
   {
     type: "cta",
     title: "Masih menilai tim sales hanya dari angka penjualan akhir bulan?",
-    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda — pipeline, follow-up, dan laporan performa dalam satu sistem.",
+    text: "Tim AG·SORA membangun CRM yang mengikuti proses penjualan tim Anda, pipeline, follow-up, dan laporan performa dalam satu sistem.",
     href: "/services/crm",
     label: "Lihat layanan CRM",
   },

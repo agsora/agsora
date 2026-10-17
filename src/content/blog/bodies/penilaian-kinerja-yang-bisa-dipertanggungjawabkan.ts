@@ -3,7 +3,7 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "“Kenapa nilai saya kurang tahun ini?” Atasan terdiam sejenak, mencoba mengingat-ingat kejadian sepanjang tahun yang relevan, lalu menjawab dengan alasan yang samar tentang “kurang inisiatif”. Karyawan itu pulang dengan perasaan tidak adil — bukan karena penilaiannya salah, tapi karena tidak ada bukti konkret yang bisa ditunjukkan untuk mendukungnya.",
+    text: "“Kenapa nilai saya kurang tahun ini?” Atasan terdiam sejenak, mencoba mengingat-ingat kejadian sepanjang tahun yang relevan, lalu menjawab dengan alasan yang samar tentang “kurang inisiatif”. Karyawan itu pulang dengan perasaan tidak adil, bukan karena penilaiannya salah, tapi karena tidak ada bukti konkret yang bisa ditunjukkan untuk mendukungnya.",
   },
   {
     type: "p",
@@ -23,12 +23,12 @@ export const body: Block[] = [
   { type: "h2", text: "Kenapa penilaian tahunan sering terasa tidak adil" },
   {
     type: "p",
-    text: "Ingatan manusia secara alami condong ke kejadian yang paling baru — fenomena yang dikenal sebagai recency bias. Jika penilaian dilakukan setahun sekali tanpa catatan yang memadai sepanjang periode, kesan dari beberapa minggu terakhir cenderung mendominasi penilaian, sementara kontribusi besar di awal tahun mungkin terlupakan begitu saja. Ini membuat penilaian menjadi tidak proporsional dan sulit dipertanggungjawabkan ketika dipertanyakan.",
+    text: "Ingatan manusia secara alami condong ke kejadian yang paling baru, fenomena yang dikenal sebagai recency bias. Jika penilaian dilakukan setahun sekali tanpa catatan yang memadai sepanjang periode, kesan dari beberapa minggu terakhir cenderung mendominasi penilaian, sementara kontribusi besar di awal tahun mungkin terlupakan begitu saja. Ini membuat penilaian menjadi tidak proporsional dan sulit dipertanggungjawabkan ketika dipertanyakan.",
   },
   { type: "h2", text: "Sepakati apa yang dinilai sejak awal" },
   {
     type: "p",
-    text: "Karyawan sebaiknya sudah tahu di awal periode apa yang akan dinilai dan seperti apa hasil yang dianggap baik untuk peran mereka. Target yang baru diumumkan saat sesi penilaian bukanlah target yang adil — itu lebih tepat disebut kejutan, karena karyawan tidak pernah punya kesempatan untuk mengarahkan usahanya ke sana sejak awal.",
+    text: "Karyawan sebaiknya sudah tahu di awal periode apa yang akan dinilai dan seperti apa hasil yang dianggap baik untuk peran mereka. Target yang baru diumumkan saat sesi penilaian bukanlah target yang adil, itu lebih tepat disebut kejutan, karena karyawan tidak pernah punya kesempatan untuk mengarahkan usahanya ke sana sejak awal.",
   },
   { type: "h2", text: "Gabungkan hasil dan perilaku dalam penilaian" },
   {
@@ -45,7 +45,7 @@ export const body: Block[] = [
   { type: "h2", text: "Catat sepanjang periode, bukan di akhir saja" },
   {
     type: "p",
-    text: "Kebiasaan mencatat pencapaian penting dan masalah signifikan saat terjadi — baik oleh atasan maupun oleh karyawan sendiri — secara nyata mengurangi bias terhadap kejadian terakhir. Sistem HR yang mendukung fitur catatan berkala dan umpan balik sepanjang tahun membantu memastikan penilaian akhir tidak sepenuhnya bergantung pada ingatan yang mungkin sudah kabur atau tidak lengkap.",
+    text: "Kebiasaan mencatat pencapaian penting dan masalah signifikan saat terjadi, baik oleh atasan maupun oleh karyawan sendiri, secara nyata mengurangi bias terhadap kejadian terakhir. Sistem HR yang mendukung fitur catatan berkala dan umpan balik sepanjang tahun membantu memastikan penilaian akhir tidak sepenuhnya bergantung pada ingatan yang mungkin sudah kabur atau tidak lengkap.",
   },
   {
     type: "callout",
@@ -55,7 +55,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kurangi perbedaan standar antar atasan" },
   {
     type: "p",
-    text: "Atasan yang berbeda cenderung memberi nilai dengan standar yang berbeda pula — ada yang cenderung murah hati dalam menilai, ada yang jauh lebih ketat. Sesi kalibrasi, di mana beberapa atasan berdiskusi bersama membahas penilaian tim masing-masing sebelum hasilnya difinalisasi, membantu menyamakan standar penilaian di seluruh organisasi sehingga karyawan di divisi berbeda dinilai dengan keadilan yang setara.",
+    text: "Atasan yang berbeda cenderung memberi nilai dengan standar yang berbeda pula, ada yang cenderung murah hati dalam menilai, ada yang jauh lebih ketat. Sesi kalibrasi, di mana beberapa atasan berdiskusi bersama membahas penilaian tim masing-masing sebelum hasilnya difinalisasi, membantu menyamakan standar penilaian di seluruh organisasi sehingga karyawan di divisi berbeda dinilai dengan keadilan yang setara.",
   },
   { type: "h2", text: "Beri ruang bagi karyawan untuk merespons" },
   {
@@ -74,17 +74,17 @@ export const body: Block[] = [
   { type: "h2", text: "Simpan riwayat dengan aman" },
   {
     type: "p",
-    text: "Hasil penilaian kinerja adalah data yang sangat sensitif bagi karyawan. Batasi akses terhadap data ini hanya kepada pihak yang benar-benar berkepentingan, seperti atasan langsung dan HR, dan simpan riwayatnya dengan rapi dan aman agar keputusan terkait karier — promosi, kenaikan gaji, atau bahkan pemutusan hubungan kerja — bisa dipertanggungjawabkan dengan bukti yang jelas di kemudian hari jika diperlukan.",
+    text: "Hasil penilaian kinerja adalah data yang sangat sensitif bagi karyawan. Batasi akses terhadap data ini hanya kepada pihak yang benar-benar berkepentingan, seperti atasan langsung dan HR, dan simpan riwayatnya dengan rapi dan aman agar keputusan terkait karier, promosi, kenaikan gaji, atau bahkan pemutusan hubungan kerja, bisa dipertanggungjawabkan dengan bukti yang jelas di kemudian hari jika diperlukan.",
   },
   { type: "h2", text: "Menghubungkan penilaian dengan pengembangan karyawan" },
   {
     type: "p",
-    text: "Penilaian kinerja seharusnya tidak berhenti pada angka atau predikat, melainkan menjadi dasar untuk merencanakan pengembangan karyawan ke depannya — pelatihan apa yang dibutuhkan, keterampilan apa yang perlu diasah. Sistem yang menghubungkan hasil penilaian dengan rencana pengembangan membuat proses ini terasa lebih bermakna bagi karyawan, bukan sekadar formalitas administratif tahunan.",
+    text: "Penilaian kinerja seharusnya tidak berhenti pada angka atau predikat, melainkan menjadi dasar untuk merencanakan pengembangan karyawan ke depannya, pelatihan apa yang dibutuhkan, keterampilan apa yang perlu diasah. Sistem yang menghubungkan hasil penilaian dengan rencana pengembangan membuat proses ini terasa lebih bermakna bagi karyawan, bukan sekadar formalitas administratif tahunan.",
   },
   { type: "h2", text: "Menangani ketidaksepakatan atas hasil penilaian" },
   {
     type: "p",
-    text: "Sekuat apa pun sistem yang dirancang, akan selalu ada momen di mana karyawan tidak sepakat dengan hasil penilaiannya. Sediakan jalur resmi bagi karyawan untuk mengajukan keberatan, disertai proses peninjauan oleh pihak yang tidak terlibat langsung dalam penilaian awal — misalnya HR atau atasan dari atasan langsung. Jalur keberatan yang jelas membuat karyawan merasa didengar, bahkan ketika hasil akhirnya tidak berubah.",
+    text: "Sekuat apa pun sistem yang dirancang, akan selalu ada momen di mana karyawan tidak sepakat dengan hasil penilaiannya. Sediakan jalur resmi bagi karyawan untuk mengajukan keberatan, disertai proses peninjauan oleh pihak yang tidak terlibat langsung dalam penilaian awal, misalnya HR atau atasan dari atasan langsung. Jalur keberatan yang jelas membuat karyawan merasa didengar, bahkan ketika hasil akhirnya tidak berubah.",
   },
   {
     type: "p",
@@ -93,7 +93,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menilai peran yang hasilnya sulit diukur angka" },
   {
     type: "p",
-    text: "Tidak semua peran punya target yang mudah dikuantifikasi seperti angka penjualan atau jumlah unit yang diproduksi. Peran seperti staf layanan pelanggan, admin, atau bagian kreatif membutuhkan kombinasi indikator kualitatif yang tetap konkret — misalnya jumlah keluhan yang berhasil diselesaikan dengan baik, ketepatan waktu penyelesaian tugas, atau kualitas hasil kerja yang dinilai berdasarkan kriteria yang sudah disepakati sejak awal, bukan sekadar kesan umum atasan.",
+    text: "Tidak semua peran punya target yang mudah dikuantifikasi seperti angka penjualan atau jumlah unit yang diproduksi. Peran seperti staf layanan pelanggan, admin, atau bagian kreatif membutuhkan kombinasi indikator kualitatif yang tetap konkret, misalnya jumlah keluhan yang berhasil diselesaikan dengan baik, ketepatan waktu penyelesaian tugas, atau kualitas hasil kerja yang dinilai berdasarkan kriteria yang sudah disepakati sejak awal, bukan sekadar kesan umum atasan.",
   },
   {
     type: "p",
@@ -120,17 +120,17 @@ export const body: Block[] = [
   { type: "h3", text: "Seberapa sering pencatatan sepanjang periode sebaiknya dilakukan?" },
   {
     type: "p",
-    text: "Tidak perlu setiap hari — cukup setiap ada pencapaian atau masalah yang signifikan, atau minimal sesi check-in singkat setiap bulan atau kuartal. Yang penting adalah konsistensi, bukan frekuensi yang berlebihan hingga terasa membebani.",
+    text: "Tidak perlu setiap hari, cukup setiap ada pencapaian atau masalah yang signifikan, atau minimal sesi check-in singkat setiap bulan atau kuartal. Yang penting adalah konsistensi, bukan frekuensi yang berlebihan hingga terasa membebani.",
   },
   { type: "h3", text: "Bagaimana menangani atasan yang menolak melakukan pencatatan rutin?" },
   {
     type: "p",
-    text: "Jelaskan manfaatnya bagi atasan itu sendiri — penilaian yang didukung catatan jauh lebih mudah dipertahankan ketika dipertanyakan karyawan, dan mengurangi beban mengingat-ingat semuanya di akhir tahun. Sistem yang memudahkan pencatatan singkat, misalnya lewat ponsel, juga membantu mengurangi resistensi.",
+    text: "Jelaskan manfaatnya bagi atasan itu sendiri, penilaian yang didukung catatan jauh lebih mudah dipertahankan ketika dipertanyakan karyawan, dan mengurangi beban mengingat-ingat semuanya di akhir tahun. Sistem yang memudahkan pencatatan singkat, misalnya lewat ponsel, juga membantu mengurangi resistensi.",
   },
   { type: "h2", text: "Menilai karyawan yang belum genap satu periode penuh" },
   {
     type: "p",
-    text: "Karyawan yang baru bergabung di pertengahan periode penilaian menghadapi situasi yang berbeda — mereka belum punya cukup waktu untuk menunjukkan kontribusi penuh dibanding rekan kerja yang sudah setahun penuh di posisinya. Menilai mereka dengan kriteria dan bobot yang sama persis dengan karyawan lama sering kali tidak adil dan tidak mencerminkan kondisi yang sebenarnya.",
+    text: "Karyawan yang baru bergabung di pertengahan periode penilaian menghadapi situasi yang berbeda, mereka belum punya cukup waktu untuk menunjukkan kontribusi penuh dibanding rekan kerja yang sudah setahun penuh di posisinya. Menilai mereka dengan kriteria dan bobot yang sama persis dengan karyawan lama sering kali tidak adil dan tidak mencerminkan kondisi yang sebenarnya.",
   },
   {
     type: "p",
@@ -153,7 +153,7 @@ export const body: Block[] = [
   {
     type: "cta",
     title: "Penilaian kinerja tim Anda masih berdasarkan ingatan akhir tahun?",
-    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda — absensi, cuti, lembur, dan payroll dalam satu sistem.",
+    text: "Tim AG·SORA membangun HRIS yang mengikuti kebijakan perusahaan Anda, absensi, cuti, lembur, dan payroll dalam satu sistem.",
     href: "/services/hris",
     label: "Lihat layanan HRIS",
   },

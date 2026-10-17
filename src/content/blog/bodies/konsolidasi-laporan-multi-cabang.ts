@@ -3,11 +3,11 @@ import type { Block } from "@/config/blog";
 export const body: Block[] = [
   {
     type: "p",
-    text: "Tanggal lima setiap bulan, tim keuangan pusat menerima lima file Excel dari lima cabang, masing-masing dengan format kolom yang sedikit berbeda. Satu cabang menulis “Ongkos Kirim”, cabang lain menulis “Biaya Pengiriman” untuk hal yang sama. Menggabungkan semuanya menjadi satu laporan yang koheren memakan waktu hampir seminggu penuh — dan itu pun sering masih ada yang salah hitung.",
+    text: "Tanggal lima setiap bulan, tim keuangan pusat menerima lima file Excel dari lima cabang, masing-masing dengan format kolom yang sedikit berbeda. Satu cabang menulis “Ongkos Kirim”, cabang lain menulis “Biaya Pengiriman” untuk hal yang sama. Menggabungkan semuanya menjadi satu laporan yang koheren memakan waktu hampir seminggu penuh, dan itu pun sering masih ada yang salah hitung.",
   },
   {
     type: "p",
-    text: "Bisnis dengan beberapa cabang biasanya menerima laporan dari setiap lokasi dalam format yang sedikit berbeda-beda, lalu menggabungkannya secara manual di spreadsheet. Proses ini sangat memakan waktu, dan angka gabungan sering baru tersedia jauh setelah periode berakhir — pada saat itu, sudah terlalu terlambat untuk mengambil tindakan korektif yang berarti.",
+    text: "Bisnis dengan beberapa cabang biasanya menerima laporan dari setiap lokasi dalam format yang sedikit berbeda-beda, lalu menggabungkannya secara manual di spreadsheet. Proses ini sangat memakan waktu, dan angka gabungan sering baru tersedia jauh setelah periode berakhir, pada saat itu, sudah terlalu terlambat untuk mengambil tindakan korektif yang berarti.",
   },
   { type: "h2", text: "Ringkasan" },
   {
@@ -23,11 +23,11 @@ export const body: Block[] = [
   { type: "h2", text: "Masalahnya biasanya bukan di penggabungan angka" },
   {
     type: "p",
-    text: "Kesulitan konsolidasi jarang disebabkan oleh proses menjumlahkan angka itu sendiri — komputer bisa menjumlahkan ribuan angka dalam sekejap. Penyebab utamanya adalah setiap cabang mencatat dengan cara yang sedikit berbeda: nama akun yang tidak seragam, kategori biaya yang berbeda penafsirannya, atau waktu pencatatan transaksi yang tidak konsisten antar lokasi.",
+    text: "Kesulitan konsolidasi jarang disebabkan oleh proses menjumlahkan angka itu sendiri, komputer bisa menjumlahkan ribuan angka dalam sekejap. Penyebab utamanya adalah setiap cabang mencatat dengan cara yang sedikit berbeda: nama akun yang tidak seragam, kategori biaya yang berbeda penafsirannya, atau waktu pencatatan transaksi yang tidak konsisten antar lokasi.",
   },
   {
     type: "p",
-    text: "Ketika struktur dasarnya berbeda, penggabungan menjadi pekerjaan menerjemahkan dan menyesuaikan data satu per satu sebelum bisa dijumlahkan dengan benar — pekerjaan yang jauh lebih memakan waktu dan rawan kesalahan dibanding sekadar menjumlahkan angka yang sudah seragam formatnya.",
+    text: "Ketika struktur dasarnya berbeda, penggabungan menjadi pekerjaan menerjemahkan dan menyesuaikan data satu per satu sebelum bisa dijumlahkan dengan benar, pekerjaan yang jauh lebih memakan waktu dan rawan kesalahan dibanding sekadar menjumlahkan angka yang sudah seragam formatnya.",
   },
   { type: "h2", text: "Seragamkan struktur lebih dulu" },
   {
@@ -46,7 +46,7 @@ export const body: Block[] = [
   { type: "h2", text: "Transaksi antar cabang perlu perlakuan khusus" },
   {
     type: "p",
-    text: "Transfer barang atau dana antar cabang perlu dicatat dengan cara khusus yang berbeda dari transaksi biasa. Jika tidak ditandai secara khusus, transaksi internal semacam ini bisa terhitung sebagai pendapatan atau biaya ganda dalam laporan gabungan — cabang pengirim mencatatnya sebagai pengeluaran, cabang penerima mencatatnya sebagai pemasukan, dan jika keduanya ikut dijumlahkan begitu saja, hasilnya akan menggelembungkan angka yang sebenarnya.",
+    text: "Transfer barang atau dana antar cabang perlu dicatat dengan cara khusus yang berbeda dari transaksi biasa. Jika tidak ditandai secara khusus, transaksi internal semacam ini bisa terhitung sebagai pendapatan atau biaya ganda dalam laporan gabungan, cabang pengirim mencatatnya sebagai pengeluaran, cabang penerima mencatatnya sebagai pemasukan, dan jika keduanya ikut dijumlahkan begitu saja, hasilnya akan menggelembungkan angka yang sebenarnya.",
   },
   {
     type: "p",
@@ -60,7 +60,7 @@ export const body: Block[] = [
   { type: "h2", text: "Satu sistem atau banyak sistem" },
   {
     type: "p",
-    text: "Konsolidasi paling mudah dan paling akurat ketika semua cabang memakai sistem pencatatan yang sama persis. Jika cabang tertentu terpaksa memakai sistem yang berbeda — misalnya karena hasil akuisisi bisnis lain yang sudah punya sistemnya sendiri — pemetaan antara struktur akun kedua sistem menjadi pekerjaan tambahan yang perlu direncanakan dan dikelola dengan cermat agar tidak menimbulkan kesalahan konsolidasi.",
+    text: "Konsolidasi paling mudah dan paling akurat ketika semua cabang memakai sistem pencatatan yang sama persis. Jika cabang tertentu terpaksa memakai sistem yang berbeda, misalnya karena hasil akuisisi bisnis lain yang sudah punya sistemnya sendiri, pemetaan antara struktur akun kedua sistem menjadi pekerjaan tambahan yang perlu direncanakan dan dikelola dengan cermat agar tidak menimbulkan kesalahan konsolidasi.",
   },
   { type: "h2", text: "Ilustrasi: dari seminggu menjadi sehari" },
   {
@@ -69,7 +69,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Setelah menyeragamkan daftar akun dan kategori di seluruh cabang, serta menandai transaksi antar cabang secara otomatis di sistem, laporan gabungan yang dulu butuh seminggu kini bisa dihasilkan dalam waktu kurang dari sehari setelah periode ditutup — bahkan bisa dilihat secara real-time kapan saja sepanjang bulan berjalan.",
+    text: "Setelah menyeragamkan daftar akun dan kategori di seluruh cabang, serta menandai transaksi antar cabang secara otomatis di sistem, laporan gabungan yang dulu butuh seminggu kini bisa dihasilkan dalam waktu kurang dari sehari setelah periode ditutup, bahkan bisa dilihat secara real-time kapan saja sepanjang bulan berjalan.",
   },
   { type: "h2", text: "Laporan yang layak dipantau" },
   {
@@ -88,7 +88,7 @@ export const body: Block[] = [
   { type: "h2", text: "Melibatkan kepala cabang dalam prosesnya" },
   {
     type: "p",
-    text: "Konsolidasi yang lancar membutuhkan kerja sama dari setiap kepala cabang dalam menutup periode tepat waktu dan memastikan pencatatan mereka sudah sesuai standar yang disepakati bersama. Jelaskan kepada mereka bagaimana laporan gabungan yang akurat dan cepat juga bermanfaat bagi cabang mereka sendiri — misalnya untuk perbandingan performa yang adil antar cabang.",
+    text: "Konsolidasi yang lancar membutuhkan kerja sama dari setiap kepala cabang dalam menutup periode tepat waktu dan memastikan pencatatan mereka sudah sesuai standar yang disepakati bersama. Jelaskan kepada mereka bagaimana laporan gabungan yang akurat dan cepat juga bermanfaat bagi cabang mereka sendiri, misalnya untuk perbandingan performa yang adil antar cabang.",
   },
   { type: "h2", text: "Langkah menyusun konsolidasi yang rapi" },
   {
@@ -116,7 +116,7 @@ export const body: Block[] = [
   { type: "h2", text: "Menangani penyesuaian setelah periode ditutup" },
   {
     type: "p",
-    text: "Meski periode sudah ditutup dan terkunci, terkadang kesalahan pencatatan baru ditemukan setelahnya — misalnya transaksi yang salah kategori atau angka yang tertukar antar cabang. Mengizinkan perubahan bebas pada data yang sudah ditutup akan merusak keandalan laporan yang sudah dipakai untuk pengambilan keputusan, tapi melarang koreksi sama sekali juga tidak realistis karena kesalahan memang bisa terjadi.",
+    text: "Meski periode sudah ditutup dan terkunci, terkadang kesalahan pencatatan baru ditemukan setelahnya, misalnya transaksi yang salah kategori atau angka yang tertukar antar cabang. Mengizinkan perubahan bebas pada data yang sudah ditutup akan merusak keandalan laporan yang sudah dipakai untuk pengambilan keputusan, tapi melarang koreksi sama sekali juga tidak realistis karena kesalahan memang bisa terjadi.",
   },
   {
     type: "p",
@@ -125,7 +125,7 @@ export const body: Block[] = [
   { type: "h2", text: "Automasi dengan pengawasan tetap diperlukan" },
   {
     type: "p",
-    text: "Automasi konsolidasi mengurangi banyak pekerjaan manual, tapi bukan berarti prosesnya bisa sepenuhnya dilepas tanpa pengawasan. Perubahan struktur bisnis — cabang baru yang dibuka, kategori produk baru yang diperkenalkan, atau perubahan cara pencatatan tertentu — perlu ditinjau agar aturan konsolidasi otomatis tetap relevan dan tidak diam-diam menghasilkan angka yang keliru tanpa disadari siapa pun.",
+    text: "Automasi konsolidasi mengurangi banyak pekerjaan manual, tapi bukan berarti prosesnya bisa sepenuhnya dilepas tanpa pengawasan. Perubahan struktur bisnis, cabang baru yang dibuka, kategori produk baru yang diperkenalkan, atau perubahan cara pencatatan tertentu, perlu ditinjau agar aturan konsolidasi otomatis tetap relevan dan tidak diam-diam menghasilkan angka yang keliru tanpa disadari siapa pun.",
   },
   {
     type: "p",
@@ -148,7 +148,7 @@ export const body: Block[] = [
   { type: "h2", text: "Mata uang dan pajak berbeda antar lokasi" },
   {
     type: "p",
-    text: "Bisnis yang cabangnya tersebar di beberapa kota atau bahkan lintas negara sering menghadapi lapisan kerumitan tambahan: tarif pajak daerah yang berbeda, atau bahkan mata uang transaksi yang tidak sama. Laporan gabungan yang mengabaikan perbedaan ini akan menghasilkan angka yang secara teknis terjumlah, tapi secara substansi menyesatkan — membandingkan pendapatan yang dikenakan tarif pajak berbeda seolah-olah setara begitu saja.",
+    text: "Bisnis yang cabangnya tersebar di beberapa kota atau bahkan lintas negara sering menghadapi lapisan kerumitan tambahan: tarif pajak daerah yang berbeda, atau bahkan mata uang transaksi yang tidak sama. Laporan gabungan yang mengabaikan perbedaan ini akan menghasilkan angka yang secara teknis terjumlah, tapi secara substansi menyesatkan, membandingkan pendapatan yang dikenakan tarif pajak berbeda seolah-olah setara begitu saja.",
   },
   {
     type: "p",
@@ -161,17 +161,17 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Laporan resmi setelah periode ditutup dan dikunci adalah versi yang seharusnya dipakai untuk pengambilan keputusan formal, pelaporan ke pihak eksternal, atau perbandingan performa antar cabang yang membutuhkan angka final. Jangan mencampuradukkan kedua jenis laporan ini — jelaskan kepada semua pengguna sistem mana yang bersifat indikatif dan mana yang bersifat final, agar tidak muncul kebingungan ketika angka dashboard hari ini ternyata sedikit berbeda dari laporan resmi bulan tersebut setelah ditutup.",
+    text: "Laporan resmi setelah periode ditutup dan dikunci adalah versi yang seharusnya dipakai untuk pengambilan keputusan formal, pelaporan ke pihak eksternal, atau perbandingan performa antar cabang yang membutuhkan angka final. Jangan mencampuradukkan kedua jenis laporan ini, jelaskan kepada semua pengguna sistem mana yang bersifat indikatif dan mana yang bersifat final, agar tidak muncul kebingungan ketika angka dashboard hari ini ternyata sedikit berbeda dari laporan resmi bulan tersebut setelah ditutup.",
   },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Konsolidasi laporan multi-cabang yang lancar dimulai jauh sebelum proses penggabungan itu sendiri — dimulai dari keseragaman struktur data di setiap cabang. Dengan fondasi yang tepat, laporan gabungan yang dulu memakan waktu berhari-hari bisa tersedia dalam hitungan jam, memberi manajemen gambaran bisnis yang jauh lebih cepat dan lebih bisa diandalkan.",
+    text: "Konsolidasi laporan multi-cabang yang lancar dimulai jauh sebelum proses penggabungan itu sendiri, dimulai dari keseragaman struktur data di setiap cabang. Dengan fondasi yang tepat, laporan gabungan yang dulu memakan waktu berhari-hari bisa tersedia dalam hitungan jam, memberi manajemen gambaran bisnis yang jauh lebih cepat dan lebih bisa diandalkan.",
   },
   {
     type: "cta",
     title: "Konsolidasi laporan cabang Anda masih makan waktu seminggu?",
-    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda — pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
+    text: "Tim AG·SORA membangun sistem ERP yang mengikuti alur kerja perusahaan Anda, pembelian, persetujuan, stok, hingga laporan keuangan dalam satu sistem.",
     href: "/services/erp",
     label: "Lihat layanan ERP",
   },
