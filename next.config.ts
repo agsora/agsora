@@ -14,6 +14,13 @@ const nextConfig: NextConfig = {
     return [
       { source: "/blog/page/1", destination: "/blog", permanent: true },
       { source: "/:lang(en|zh)/blog/page/1", destination: "/:lang/blog", permanent: true },
+      // Pages removed in the 3-language redesign. Google still knows them
+      // (GSC lists /portfolio as a referring page), so send them to the
+      // closest page that exists now instead of a 404.
+      { source: "/portfolio", destination: "/industries", permanent: true },
+      { source: "/:lang(en|zh)/portfolio", destination: "/:lang/industries", permanent: true },
+      { source: "/products", destination: "/services", permanent: true },
+      { source: "/:lang(en|zh)/products", destination: "/:lang/services", permanent: true },
     ];
   },
 };
