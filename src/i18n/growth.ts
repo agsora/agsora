@@ -55,7 +55,7 @@ export const growth: Record<Locale, Growth> = {
     waChat: {
       title: "AG·SORA",
       status: "Cari solusi yang pas",
-      greeting: "Halo! 👋 Jawab 2 pertanyaan singkat, kami rekomendasikan solusi yang pas untuk bisnis Anda.",
+      greeting: "Halo! Jawab 2 pertanyaan singkat, kami rekomendasikan solusi yang pas untuk bisnis Anda.",
       close: "Tutup chat",
       humanCta: "Bicara dengan tim via WhatsApp",
       back: "Kembali ke chat",
@@ -102,7 +102,7 @@ export const growth: Record<Locale, Growth> = {
     waChat: {
       title: "AG·SORA",
       status: "Find the right solution",
-      greeting: "Hi! 👋 Answer 2 quick questions and we'll recommend the right solution for your business.",
+      greeting: "Hi! Answer 2 quick questions and we'll recommend the right solution for your business.",
       close: "Close chat",
       humanCta: "Talk to the team on WhatsApp",
       back: "Back to chat",
@@ -149,7 +149,7 @@ export const growth: Record<Locale, Growth> = {
     waChat: {
       title: "AG·SORA",
       status: "找到合适的方案",
-      greeting: "您好！👋 回答 2 个简单问题，我们将为您的业务推荐合适的方案。",
+      greeting: "您好！回答 2 个简单问题，我们将为您的业务推荐合适的方案。",
       close: "关闭聊天",
       humanCta: "通过 WhatsApp 联系团队",
       back: "返回聊天",
