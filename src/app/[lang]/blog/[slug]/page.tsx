@@ -113,7 +113,8 @@ export default async function BlogPostPage({ params }: Props) {
         wordCount: post.wordCount,
         keywords: post.tags.join(", "),
         inLanguage: hreflangs[locale],
-        author: { "@type": "Organization", name: siteConfig.legalName },
+        // Same name as the visible byline (growth.byline).
+        author: { "@type": "Organization", name: "agsora.tech", url: siteConfig.url },
         publisher: {
           "@type": "Organization",
           name: siteConfig.legalName,

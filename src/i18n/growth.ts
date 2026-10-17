@@ -81,7 +81,7 @@ export const growth: Record<Locale, Growth> = {
     copyNumber: "Salin nomor",
     copied: "Tersalin",
     toc: "Isi artikel",
-    byline: "Ditulis oleh tim AG·SORA",
+    byline: "Ditulis oleh agsora.tech",
     proof: { clients: "klien dipercaya", services: "layanan", languages: "bahasa", pricing: "harga mulai dari tertera" },
     estimator: {
       eyebrow: "Estimasi Biaya",
@@ -127,7 +127,7 @@ export const growth: Record<Locale, Growth> = {
     copyNumber: "Copy number",
     copied: "Copied",
     toc: "In this article",
-    byline: "Written by the AG·SORA team",
+    byline: "Written by agsora.tech",
     proof: { clients: "trusted clients", services: "services", languages: "languages", pricing: "starting prices listed" },
     estimator: {
       eyebrow: "Cost Estimator",
@@ -173,7 +173,7 @@ export const growth: Record<Locale, Growth> = {
     copyNumber: "复制号码",
     copied: "已复制",
     toc: "本文目录",
-    byline: "AG·SORA 团队撰写",
+    byline: "作者：agsora.tech",
     proof: { clients: "位受信赖的客户", services: "项服务", languages: "种语言", pricing: "公开起步价" },
     estimator: {
       eyebrow: "费用估算",
