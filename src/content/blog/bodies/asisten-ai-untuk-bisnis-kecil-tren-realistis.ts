@@ -197,6 +197,7 @@ export const body: Block[] = [
     "type": "p",
     "text": "Bandingkan hasil dengan ukuran yang ditetapkan di awal. Apakah waktu benar-benar terhemat setelah memperhitungkan pemeriksaan? Apakah kualitasnya memadai? Apakah tim merasa terbantu? Putuskan secara terbuka: perluas ke pekerjaan serupa, sesuaikan pendekatan, atau berhenti. Berhenti karena bukti menunjukkan manfaatnya kecil adalah hasil yang baik juga, sebab Anda menghindari biaya yang lebih besar."
   },
+  { type: "p", text: "Setelah asisten AI dipakai sehari-hari, langkah berikutnya adalah AI yang tidak hanya menjawab tetapi juga menjalankan langkah kerja. Cara menerapkannya dengan aman kami bahas dalam artikel [AI agent untuk otomatisasi proses bisnis](/blog/ai-agent-untuk-otomatisasi-proses-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

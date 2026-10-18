@@ -191,6 +191,7 @@ export const body: Block[] = [
       "Tidak menyimpan cadangan data lama sebelum peralihan",
     ],
   },
+  { type: "p", text: "Bila migrasi data merupakan bagian dari penggantian sistem lama yang masih dipakai setiap hari, pendekatan bertahap dapat mengurangi risiko. Strateginya kami bahas dalam artikel [modernisasi sistem lama tanpa menghentikan operasional](/blog/modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

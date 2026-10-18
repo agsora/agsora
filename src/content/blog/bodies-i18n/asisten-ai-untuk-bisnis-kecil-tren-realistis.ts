@@ -197,6 +197,7 @@ const en: Block[] = [
     "type": "p",
     "text": "Compare results with the measures set at the start. Was time really saved after accounting for checking? Is the quality adequate? Does the team feel helped? Decide openly: expand to similar tasks, adjust the approach, or stop. Stopping because evidence shows the benefit is small is also a good outcome, because you avoid larger costs."
   },
+  { type: "p", text: "Once AI assistants are part of daily work, the next step is AI that not only answers but also carries out work steps. We discuss how to apply it safely in our article on [AI agents for business process automation](/blog/ai-agent-untuk-otomatisasi-proses-bisnis)." },
   { type: "h2", text: "Closing" },
   {
     type: "p",
@@ -408,6 +409,7 @@ const zh: Block[] = [
     "type": "p",
     "text": "把结果与开始时设定的衡量标准比较。计入检查时间后,是否真的节省了时间?质量是否足够?团队觉得有帮助吗?公开地做出决定:扩展到类似的工作、调整做法,或者停止。因为证据显示好处很小而停止,同样是好结果,因为你避免了更大的成本。"
   },
+  { type: "p", text: "当 AI 助手成为日常工作的一部分后，下一步就是不仅能回答、还能执行工作步骤的 AI。我们在[用 AI 智能体实现业务流程自动化](/blog/ai-agent-untuk-otomatisasi-proses-bisnis)一文中讨论了如何安全地应用它。" },
   { type: "h2", text: "结语" },
   {
     type: "p",

@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "ai-agent-untuk-otomatisasi-proses-bisnis",
+    title: "AI Agent untuk Otomatisasi Proses Bisnis: Panduan Aman dan Realistis",
+    excerpt: "Apa itu AI agent, bedanya dengan otomasi berbasis aturan, proses bisnis yang cocok, arsitektur dasar, kendali keamanan, cara mengukur hasil, dan langkah memulai.",
+    category: "Teknologi",
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    tags: ["ai","otomasi","integrasi"],
+    titleTranslations: {
+      en: "AI Agents for Business Process Automation: A Safe and Realistic Guide",
+      zh: "用 AI 智能体实现业务流程自动化：安全务实的指南",
+    },
+    excerptTranslations: {
+      en: "What an AI agent is, how it differs from rule based automation, suitable business processes, a basic architecture, security controls, measuring results, and how to start.",
+      zh: "什么是 AI 智能体、与基于规则的自动化有何不同、适合的业务流程、基本架构、安全控制、效果衡量以及起步方法。",
+    },
+  },
+  {
+    slug: "outsourcing-pengembangan-software-ke-indonesia",
+    title: "Outsourcing Pengembangan Software ke Indonesia: Panduan untuk Perusahaan Luar Negeri",
+    excerpt: "Alasan memilih Indonesia, model kerja sama, cara menilai mitra, kontrak dan kepemilikan kode, pelindungan data, serta cara menjaga komunikasi dan mutu proyek.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    tags: ["vendor","custom-software","kontrak"],
+    titleTranslations: {
+      en: "Outsourcing Software Development to Indonesia: A Guide for Overseas Companies",
+      zh: "把软件开发外包到印尼：海外企业指南",
+    },
+    excerptTranslations: {
+      en: "Why companies choose Indonesia, engagement models, how to assess a partner, contracts and code ownership, data protection, and keeping communication and quality on track.",
+      zh: "企业为何选择印尼、合作模式、如何评估合作伙伴、合同与代码归属、数据保护，以及如何保持沟通与项目质量。",
+    },
+  },
+  {
+    slug: "modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional",
+    title: "Modernisasi Sistem Legacy: Strategi Tanpa Menghentikan Operasional",
+    excerpt: "Tanda sistem lama perlu diganti, pilihan strategi modernisasi, pendekatan bertahap strangler fig, penanganan data, perkiraan biaya, dan kesalahan yang perlu dihindari.",
+    category: "Teknologi",
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    tags: ["custom-software","migrasi-data","integrasi"],
+    titleTranslations: {
+      en: "Legacy System Modernisation Without Downtime: A Gradual Strategy",
+      zh: "在不中断运营的前提下实现遗留系统现代化",
+    },
+    excerptTranslations: {
+      en: "Signs a legacy system needs replacing, modernisation strategy options, the gradual strangler fig approach, data handling, cost estimates, and mistakes to avoid.",
+      zh: "遗留系统需要更换的迹象、现代化策略选择、渐进式“绞杀者无花果”方法、数据处理、成本估算以及应避免的错误。",
+    },
+  },
+  {
+    slug: "erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional",
+    title: "ERP Multi Mata Uang dan Multi Entitas: Panduan Ekspansi Regional",
+    excerpt: "Konsep mata uang fungsional, selisih kurs, transaksi antarperusahaan, konsolidasi laporan, pajak lintas negara, serta cara merancang dan menerapkan ERP untuk grup usaha.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    tags: ["erp","keuangan","multi-cabang"],
+    titleTranslations: {
+      en: "Multi Currency and Multi Entity ERP: A Regional Expansion Guide",
+      zh: "支持区域扩张的多币种、多实体 ERP",
+    },
+    excerptTranslations: {
+      en: "Functional currency, exchange differences, intercompany transactions, consolidated reporting, cross border tax, and how to design and implement an ERP for a business group.",
+      zh: "功能货币、汇兑差额、公司间交易、合并报表、跨境税务，以及如何为企业集团设计和实施 ERP。",
+    },
+  },
+  {
+    slug: "menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor",
+    title: "Menyelamatkan Proyek Software yang Macet: Pindah Vendor dengan Aman",
+    excerpt: "Tanda proyek bermasalah, mengamankan kode dan akses, penilaian teknis objektif, pilihan keputusan, serah terima ke vendor baru, dan cara mencegah masalah terulang.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-10-18",
+    updatedAt: "2026-10-18",
+    tags: ["vendor","implementasi","kontrak"],
+    titleTranslations: {
+      en: "Rescuing a Stalled Software Project: Switching Vendors Safely",
+      zh: "挽救停滞的软件项目并安全更换供应商",
+    },
+    excerptTranslations: {
+      en: "Signs a project is in trouble, securing code and access, an objective technical assessment, decision options, handing over to a new vendor, and preventing a repeat.",
+      zh: "项目出问题的迹象、保护代码与访问权、客观的技术评估、可选决策、向新供应商交接，以及如何防止问题重演。",
+    },
+  },
+  {
     slug: "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag",
     title: "Chatbot AI Berbasis Pengetahuan Perusahaan dengan RAG: Jawaban Akurat dari Dokumen Anda",
     excerpt: "Cara kerja RAG, kasus penggunaan untuk bisnis, tahapan membangun asisten AI dari dokumen sendiri, keamanan data, serta cara mengukur mutu jawaban.",

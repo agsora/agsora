@@ -180,6 +180,7 @@ export const body: Block[] = [
       "Rencana adopsi dan pelatihan sudah disusun",
     ],
   },
+  { type: "p", text: "Bila proyek Anda sudah telanjur macet, langkah penilaian, pilihan keputusan, dan serah terima ke vendor baru kami uraikan dalam artikel [menyelamatkan proyek software yang macet](/blog/menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

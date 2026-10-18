@@ -161,6 +161,11 @@ import { body as b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga } fr
 import { body as b_hpp_dan_akuntansi_biaya_produk_di_erp } from "./hpp-dan-akuntansi-biaya-produk-di-erp";
 import { body as b_rekrutmen_dan_applicant_tracking_system_untuk_bisnis_berkembang } from "./rekrutmen-dan-applicant-tracking-system-untuk-bisnis-berkembang";
 import { body as b_kebijakan_penggunaan_ai_dan_tata_kelola_ai_di_perusahaan } from "./kebijakan-penggunaan-ai-dan-tata-kelola-ai-di-perusahaan";
+import { body as b_ai_agent_untuk_otomatisasi_proses_bisnis } from "./ai-agent-untuk-otomatisasi-proses-bisnis";
+import { body as b_outsourcing_pengembangan_software_ke_indonesia } from "./outsourcing-pengembangan-software-ke-indonesia";
+import { body as b_modernisasi_sistem_lama_legacy_tanpa_menghentikan_operasional } from "./modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional";
+import { body as b_erp_multi_mata_uang_dan_multi_entitas_untuk_ekspansi_regional } from "./erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional";
+import { body as b_menyelamatkan_proyek_software_yang_macet_dan_pindah_vendor } from "./menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor";
 export const bodies: Record<string, Block[]> = {
   "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": b_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag,
   "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga": b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga,
@@ -322,4 +327,9 @@ export const bodies: Record<string, Block[]> = {
   "rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai": b_rekomendasi_produk_dan_personalisasi_toko_online_dengan_ai,
   "monolit-atau-microservices-arsitektur-aplikasi-bisnis": b_monolit_atau_microservices_arsitektur_aplikasi_bisnis,
   "phishing-ransomware-dan-keamanan-siber-untuk-umkm": b_phishing_ransomware_dan_keamanan_siber_untuk_umkm,
+  "ai-agent-untuk-otomatisasi-proses-bisnis": b_ai_agent_untuk_otomatisasi_proses_bisnis,
+  "outsourcing-pengembangan-software-ke-indonesia": b_outsourcing_pengembangan_software_ke_indonesia,
+  "modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional": b_modernisasi_sistem_lama_legacy_tanpa_menghentikan_operasional,
+  "erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional": b_erp_multi_mata_uang_dan_multi_entitas_untuk_ekspansi_regional,
+  "menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor": b_menyelamatkan_proyek_software_yang_macet_dan_pindah_vendor,
 };

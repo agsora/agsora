@@ -108,6 +108,7 @@ export const body: Block[] = [
       "Evaluasi model secara berkala dan ubah seiring pertumbuhan bisnis",
     ],
   },
+  { type: "p", text: "Bila Anda mempertimbangkan vendor di kota atau negara lain, panduan [outsourcing pengembangan software ke Indonesia](/blog/outsourcing-pengembangan-software-ke-indonesia) membahas model kerja sama, kontrak, dan cara menjaga transparansi dalam proyek lintas lokasi." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Tim internal, vendor, dan model gabungan bukan pilihan benar atau salah, melainkan pertukaran yang harus ditimbang sesuai keadaan bisnis Anda. Yang terpenting adalah memilih dengan mata terbuka: memahami biaya sebenarnya, menjaga kendali atas hal-hal yang strategis, dan tidak membiarkan pengetahuan inti hanya berada di satu tempat." },
   { type: "p", text: "Jika Anda masih ragu, mulailah dari yang kecil dan jelas, belajar dari pengalaman, lalu sesuaikan. Mitra yang baik, baik karyawan maupun vendor, adalah mereka yang membantu bisnis Anda tumbuh tanpa membuat Anda tersandera." },
