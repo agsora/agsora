@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis",
+    title: "Model Context Protocol (MCP) untuk Bisnis: Menghubungkan AI dengan ERP, CRM, dan Sistem Internal",
+    excerpt: "Apa itu MCP, cara kerjanya, kapan layak dipakai, contoh penerapan di ERP dan CRM, kendali keamanan, serta langkah menerapkannya secara bertahap dan aman.",
+    category: "Teknologi",
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    tags: ["ai","integrasi","api"],
+    titleTranslations: {
+      en: "Model Context Protocol (MCP) for Business: Connecting AI to Your ERP, CRM, and Internal Systems",
+      zh: "模型上下文协议（MCP）：把 AI 连接到 ERP、CRM 与业务系统",
+    },
+    excerptTranslations: {
+      en: "What MCP is, how it works, when it is worth using, example uses with ERP and CRM, security controls, and how to roll it out gradually and safely.",
+      zh: "什么是 MCP、它如何工作、何时值得使用、在 ERP 和 CRM 中的应用示例、安全控制，以及如何安全地分步落地。",
+    },
+  },
+  {
+    slug: "pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu",
+    title: "Pengembangan Software dengan Bantuan AI: Peluang, Risiko, dan Kendali Mutu",
+    excerpt: "Apa yang berubah ketika kode ditulis dengan bantuan AI, peluang nyata bagi bisnis, risiko keamanan dan perawatan, kendali mutu yang wajib, dan pertanyaan untuk calon vendor.",
+    category: "Teknologi",
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    tags: ["ai","custom-software","keamanan"],
+    titleTranslations: {
+      en: "AI Assisted Software Development: Opportunities, Risks, and Quality Control",
+      zh: "AI 辅助软件开发：机会、风险与质量控制",
+    },
+    excerptTranslations: {
+      en: "What changes when code is written with AI help, real opportunities for businesses, security and maintenance risks, essential quality controls, and questions to ask a vendor.",
+      zh: "借助 AI 编写代码会带来哪些变化、企业的真实机会、安全与维护风险、必不可少的质量控制，以及向供应商提出的问题。",
+    },
+  },
+  {
+    slug: "pelacakan-lot-batch-dan-tanggal-kedaluwarsa-dengan-erp",
+    title: "Pelacakan Lot, Batch, dan Tanggal Kedaluwarsa dengan ERP: FEFO hingga Penarikan Produk",
+    excerpt: "Cara kerja pelacakan lot di ERP, aturan FEFO, ketertelusuran dua arah, pemindaian barcode, kesiapan penarikan produk, dan langkah penerapan tanpa memperlambat gudang.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    tags: ["erp","inventori","industri"],
+    titleTranslations: {
+      en: "Lot, Batch, and Expiry Date Tracking with ERP: From FEFO to Product Recalls",
+      zh: "用 ERP 管理批次与到期日：从 FEFO 到产品召回",
+    },
+    excerptTranslations: {
+      en: "How lot tracking works in an ERP, FEFO rules, two way traceability, barcode scanning, recall readiness, and implementation steps that keep the warehouse moving.",
+      zh: "ERP 中批次追踪的工作方式、FEFO 规则、双向追溯、条码扫描、召回准备，以及不拖慢仓库的实施步骤。",
+    },
+  },
+  {
+    slug: "pelaporan-esg-dan-jejak-karbon-dengan-data-erp",
+    title: "Pelaporan ESG dan Jejak Karbon dengan Data ERP: Panduan untuk Pemasok dan Eksportir",
+    excerpt: "Mengapa pembeli meminta data emisi, memahami cakupan 1, 2, dan 3, data ERP yang bisa dipakai, merancang pencatatan yang siap dilaporkan, dan langkah memulai bertahap.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    tags: ["erp","pelaporan","data"],
+    titleTranslations: {
+      en: "ESG and Carbon Footprint Reporting with ERP Data: A Guide for Suppliers and Exporters",
+      zh: "用 ERP 数据做 ESG 与碳足迹报告：供应商与出口企业指南",
+    },
+    excerptTranslations: {
+      en: "Why buyers ask for emissions data, Scopes 1, 2, and 3 explained, ERP data you can use, designing records that are ready to report, and how to start step by step.",
+      zh: "买家为何索要排放数据、范围一二三的含义、可利用的 ERP 数据、如何设计便于报告的记录，以及循序渐进的起步方法。",
+    },
+  },
+  {
+    slug: "beralih-dari-excel-ke-sistem-bisnis-terintegrasi",
+    title: "Beralih dari Excel ke Sistem Bisnis Terintegrasi: Tanda, Pilihan, dan Langkah Aman",
+    excerpt: "Tanda spreadsheet sudah menjadi hambatan, apa yang berubah dengan sistem, memilih jenis pengganti, membersihkan dan memindahkan data, serta mengajak tim berpindah.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-19",
+    updatedAt: "2026-10-19",
+    tags: ["data","custom-software","umkm"],
+    titleTranslations: {
+      en: "Moving from Excel to an Integrated Business System: Signs, Options, and Safe Steps",
+      zh: "从 Excel 迁移到一体化业务系统：迹象、选择与稳妥步骤",
+    },
+    excerptTranslations: {
+      en: "Signs spreadsheets have become a bottleneck, what changes with a system, choosing a replacement, cleaning and migrating data, and bringing the team along.",
+      zh: "电子表格成为瓶颈的迹象、上系统后的变化、如何选择替代方案、数据清洗与迁移，以及如何带动团队转变。",
+    },
+  },
+  {
     slug: "ai-agent-untuk-otomatisasi-proses-bisnis",
     title: "AI Agent untuk Otomatisasi Proses Bisnis: Panduan Aman dan Realistis",
     excerpt: "Apa itu AI agent, bedanya dengan otomasi berbasis aturan, proses bisnis yang cocok, arsitektur dasar, kendali keamanan, cara mengukur hasil, dan langkah memulai.",

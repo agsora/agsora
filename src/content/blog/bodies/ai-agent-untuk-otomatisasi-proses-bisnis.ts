@@ -45,7 +45,7 @@ export const body: Block[] = [
       "Antarmuka persetujuan: tempat staf melihat usulan agent, mengoreksi, menyetujui, atau menolak",
     ],
   },
-  { type: "p", text: "Lapisan alat adalah kunci keamanan. Daripada memberi agent akses langsung ke basis data, buat fungsi spesifik seperti cari pelanggan berdasarkan nomor telepon atau buat draf pesanan penjualan. Fungsi tersebut memeriksa hak akses dan validitas data seperti layaknya aplikasi biasa. Dengan begitu, sekalipun model salah memahami instruksi, kerusakan yang mungkin terjadi tetap terbatas." },
+  { type: "p", text: "Lapisan alat adalah kunci keamanan. Daripada memberi agent akses langsung ke basis data, buat fungsi spesifik seperti cari pelanggan berdasarkan nomor telepon atau buat draf pesanan penjualan. Fungsi tersebut memeriksa hak akses dan validitas data seperti layaknya aplikasi biasa. Dengan begitu, sekalipun model salah memahami instruksi, kerusakan yang mungkin terjadi tetap terbatas. Standar terbuka seperti [Model Context Protocol (MCP)](/blog/model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis) kini sering dipakai untuk membungkus fungsi-fungsi ini agar dapat dipakai ulang oleh berbagai agent dan model." },
   { type: "image", src: "/blog/images/photo-1620712943543-bcc4688e7485", alt: "Robot humanoid duduk sambil memegang bahan bacaan", caption: "Agent bekerja sebaik konteks dan alat yang diberikan kepadanya, bukan sekadar sepintar modelnya." },
   { type: "h2", text: "Kendali, keamanan, dan akuntabilitas" },
   { type: "h3", text: "Prinsip hak akses minimum" },

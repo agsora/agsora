@@ -140,7 +140,8 @@ import { body as b_menu_digital_dan_pemesanan_qr_untuk_restoran } from "./menu-d
 import { body as b_penjadwalan_shift_dan_manajemen_tenaga_kerja } from "./penjadwalan-shift-dan-manajemen-tenaga-kerja";
 import { body as b_keamanan_dependensi_dan_rantai_pasok_perangkat_lunak } from "./keamanan-dependensi-dan-rantai-pasok-perangkat-lunak";
 import { body as b_menjual_ke_luar_negeri_dengan_toko_online_lintas_negara } from "./menjual-ke-luar-negeri-dengan-toko-online-lintas-negara";
-import { body as b_observabilitas_log_dan_penanganan_error_aplikasi_bisnis } from "./observabilitas-log-dan-penanganan-error-aplikasi-bisnis";
+
+import { body as b_observabilitas_log_dan_penanganan_error_aplikasi_bisnis } from "./observabilitas-log-dan-penanganan-error-aplikasi-bisnis";
 import { body as b_ulasan_pelanggan_dan_manajemen_reputasi_online } from "./ulasan-pelanggan-dan-manajemen-reputasi-online";
 import { body as b_agile_atau_waterfall_metode_proyek_software_untuk_bisnis } from "./agile-atau-waterfall-metode-proyek-software-untuk-bisnis";
 import { body as b_performa_database_dan_aplikasi_bisnis_yang_melambat } from "./performa-database-dan-aplikasi-bisnis-yang-melambat";
@@ -166,6 +167,11 @@ import { body as b_outsourcing_pengembangan_software_ke_indonesia } from "./outs
 import { body as b_modernisasi_sistem_lama_legacy_tanpa_menghentikan_operasional } from "./modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional";
 import { body as b_erp_multi_mata_uang_dan_multi_entitas_untuk_ekspansi_regional } from "./erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional";
 import { body as b_menyelamatkan_proyek_software_yang_macet_dan_pindah_vendor } from "./menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor";
+import { body as b_model_context_protocol_mcp_menghubungkan_ai_dengan_sistem_bisnis } from "./model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis";
+import { body as b_pengembangan_software_dengan_bantuan_ai_peluang_risiko_dan_kendali_mutu } from "./pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu";
+import { body as b_pelacakan_lot_batch_dan_tanggal_kedaluwarsa_dengan_erp } from "./pelacakan-lot-batch-dan-tanggal-kedaluwarsa-dengan-erp";
+import { body as b_pelaporan_esg_dan_jejak_karbon_dengan_data_erp } from "./pelaporan-esg-dan-jejak-karbon-dengan-data-erp";
+import { body as b_beralih_dari_excel_ke_sistem_bisnis_terintegrasi } from "./beralih-dari-excel-ke-sistem-bisnis-terintegrasi";
 export const bodies: Record<string, Block[]> = {
   "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": b_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag,
   "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga": b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga,
@@ -332,4 +338,9 @@ export const bodies: Record<string, Block[]> = {
   "modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional": b_modernisasi_sistem_lama_legacy_tanpa_menghentikan_operasional,
   "erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional": b_erp_multi_mata_uang_dan_multi_entitas_untuk_ekspansi_regional,
   "menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor": b_menyelamatkan_proyek_software_yang_macet_dan_pindah_vendor,
+  "model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis": b_model_context_protocol_mcp_menghubungkan_ai_dengan_sistem_bisnis,
+  "pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu": b_pengembangan_software_dengan_bantuan_ai_peluang_risiko_dan_kendali_mutu,
+  "pelacakan-lot-batch-dan-tanggal-kedaluwarsa-dengan-erp": b_pelacakan_lot_batch_dan_tanggal_kedaluwarsa_dengan_erp,
+  "pelaporan-esg-dan-jejak-karbon-dengan-data-erp": b_pelaporan_esg_dan_jejak_karbon_dengan_data_erp,
+  "beralih-dari-excel-ke-sistem-bisnis-terintegrasi": b_beralih_dari_excel_ke_sistem_bisnis_terintegrasi,
 };

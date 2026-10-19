@@ -23,7 +23,7 @@ export const body: Block[] = [
   { type: "h2", text: "Bagaimana data silo terbentuk" },
   {
     type: "p",
-    text: "Hampir tidak ada perusahaan yang sengaja membangun silo. Silo tumbuh pelan-pelan dari keputusan yang masing-masing masuk akal. Satu tim membutuhkan laporan yang tidak disediakan sistem, lalu membuat spreadsheet sendiri. Tim lain melakukan hal serupa untuk kebutuhan berbeda. Beberapa bulan kemudian, ada empat versi angka penjualan, dan tidak ada yang sepenuhnya salah.",
+    text: "Hampir tidak ada perusahaan yang sengaja membangun silo. Silo tumbuh pelan-pelan dari keputusan yang masing-masing masuk akal. Satu tim membutuhkan laporan yang tidak disediakan sistem, lalu membuat spreadsheet sendiri. Tim lain melakukan hal serupa untuk kebutuhan berbeda. Beberapa bulan kemudian, ada empat versi angka penjualan, dan tidak ada yang sepenuhnya salah. Bagi banyak bisnis, silo pertama berbentuk tumpukan spreadsheet; langkah keluarnya dibahas dalam [beralih dari Excel ke sistem bisnis terintegrasi](/blog/beralih-dari-excel-ke-sistem-bisnis-terintegrasi).",
   },
   { type: "h3", text: "Aplikasi dipilih per divisi" },
   {

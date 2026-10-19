@@ -53,7 +53,7 @@ const en: Block[] = [
   { type: "p", text: "With an ERP that supports consolidation, most of these steps run automatically according to configured rules. The finance team can focus on analysis and adjustments that genuinely need judgement. Consolidated reports can also be produced more often, monthly for instance rather than only at year end, so owners see group [cash flow](/blog/erp-dan-visibilitas-arus-kas) and performance in a more timely way." },
   { type: "h2", text: "Cross border tax and compliance" },
   { type: "p", text: "Every country has its own tax system, invoice format, and reporting obligations. Indonesia, for example, has electronic tax invoice rules integrated with the tax authority's system, which we discuss in our article on [e invoicing and tax compliance with an ERP](/blog/faktur-elektronik-dan-kepatuhan-pajak-dengan-erp). Other countries have value added tax or goods and services tax rules with different formats and filing schedules." },
-  { type: "p", text: "A multi entity ERP needs to allow tax settings per entity: tax types and rates, document numbering formats, invoice language and currency, and local tax reports. In some cases integration with a tax system or local provider is required. Also ensure a complete audit trail in every entity, as explained in our article on [audit trails and internal control](/blog/jejak-audit-dan-pengendalian-internal-di-sistem-erp)." },
+  { type: "p", text: "A multi entity ERP needs to allow tax settings per entity: tax types and rates, document numbering formats, invoice language and currency, and local tax reports. In some cases integration with a tax system or local provider is required. Also ensure a complete audit trail in every entity, as explained in our article on [audit trails and internal control](/blog/jejak-audit-dan-pengendalian-internal-di-sistem-erp). The same entity structure is also useful when buyers or a parent company ask for sustainability data, as explained in [ESG and carbon footprint reporting with ERP data](/blog/pelaporan-esg-dan-jejak-karbon-dengan-data-erp)." },
   { type: "h2", text: "Designing the structure in an ERP" },
   { type: "p", text: "Design decisions at the start determine operational ease for years ahead. Some questions to answer before configuration:" },
   {
@@ -160,7 +160,7 @@ const zh: Block[] = [
   { type: "p", text: "借助支持合并的 ERP，大多数步骤都可以根据配置的规则自动完成。财务团队可以把精力集中在真正需要判断的分析和调整上。合并报表也可以更频繁地编制，例如按月而不是只在年末，让企业主更及时地了解集团的[现金流](/blog/erp-dan-visibilitas-arus-kas)和经营表现。" },
   { type: "h2", text: "跨境税务与合规" },
   { type: "p", text: "每个国家都有自己的税制、发票格式和申报义务。例如，印尼有与税务机关系统对接的电子税务发票规定，我们在[电子发票与 ERP 税务合规](/blog/faktur-elektronik-dan-kepatuhan-pajak-dengan-erp)一文中有详细讨论。其他国家则有格式和申报周期各不相同的增值税或商品及服务税规定。" },
-  { type: "p", text: "多实体 ERP 需要支持按实体进行税务设置：税种和税率、单据编号格式、发票语言和币种，以及本地税务报表。某些情况下还需要与税务系统或本地服务商集成。同时要确保每个实体都有完整的审计轨迹，详见我们关于[审计轨迹与内部控制](/blog/jejak-audit-dan-pengendalian-internal-di-sistem-erp)的文章。" },
+  { type: "p", text: "多实体 ERP 需要支持按实体进行税务设置：税种和税率、单据编号格式、发票语言和币种，以及本地税务报表。某些情况下还需要与税务系统或本地服务商集成。同时要确保每个实体都有完整的审计轨迹，详见我们关于[审计轨迹与内部控制](/blog/jejak-audit-dan-pengendalian-internal-di-sistem-erp)的文章。当买家或母公司索要可持续发展数据时，同样的实体结构也很有用，详见[用 ERP 数据做 ESG 与碳足迹报告](/blog/pelaporan-esg-dan-jejak-karbon-dengan-data-erp)。" },
   { type: "h2", text: "在 ERP 中设计架构" },
   { type: "p", text: "初期的设计决策决定了未来多年的运营便利程度。配置之前需要回答以下问题：" },
   {

@@ -105,6 +105,11 @@ import { translations as t_outsourcing_pengembangan_software_ke_indonesia } from
 import { translations as t_modernisasi_sistem_lama_legacy_tanpa_menghentikan_operasional } from "./modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional";
 import { translations as t_erp_multi_mata_uang_dan_multi_entitas_untuk_ekspansi_regional } from "./erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional";
 import { translations as t_menyelamatkan_proyek_software_yang_macet_dan_pindah_vendor } from "./menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor";
+import { translations as t_model_context_protocol_mcp_menghubungkan_ai_dengan_sistem_bisnis } from "./model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis";
+import { translations as t_pengembangan_software_dengan_bantuan_ai_peluang_risiko_dan_kendali_mutu } from "./pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu";
+import { translations as t_pelacakan_lot_batch_dan_tanggal_kedaluwarsa_dengan_erp } from "./pelacakan-lot-batch-dan-tanggal-kedaluwarsa-dengan-erp";
+import { translations as t_pelaporan_esg_dan_jejak_karbon_dengan_data_erp } from "./pelaporan-esg-dan-jejak-karbon-dengan-data-erp";
+import { translations as t_beralih_dari_excel_ke_sistem_bisnis_terintegrasi } from "./beralih-dari-excel-ke-sistem-bisnis-terintegrasi";
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
 /**
@@ -219,4 +224,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional": t_modernisasi_sistem_lama_legacy_tanpa_menghentikan_operasional,
   "erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional": t_erp_multi_mata_uang_dan_multi_entitas_untuk_ekspansi_regional,
   "menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor": t_menyelamatkan_proyek_software_yang_macet_dan_pindah_vendor,
+  "model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis": t_model_context_protocol_mcp_menghubungkan_ai_dengan_sistem_bisnis,
+  "pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu": t_pengembangan_software_dengan_bantuan_ai_peluang_risiko_dan_kendali_mutu,
+  "pelacakan-lot-batch-dan-tanggal-kedaluwarsa-dengan-erp": t_pelacakan_lot_batch_dan_tanggal_kedaluwarsa_dengan_erp,
+  "pelaporan-esg-dan-jejak-karbon-dengan-data-erp": t_pelaporan_esg_dan_jejak_karbon_dengan_data_erp,
+  "beralih-dari-excel-ke-sistem-bisnis-terintegrasi": t_beralih_dari_excel_ke_sistem_bisnis_terintegrasi,
 };

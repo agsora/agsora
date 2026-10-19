@@ -63,7 +63,7 @@ const en: Block[] = [
     "Tools that propose updates automatically for human review",
   ] },
   { type: "h2", text: "Choosing and assessing components before using them" },
-  { type: "p", text: "The cheapest prevention happens before a component enters your application. Before using a new library, ask a few simple questions that can be answered in minutes: is it actively maintained, how many people use it, is there a history of security problems, and what is its licence." },
+  { type: "p", text: "The cheapest prevention happens before a component enters your application. Before using a new library, ask a few simple questions that can be answered in minutes: is it actively maintained, how many people use it, is there a history of security problems, and what is its licence. These checks matter even more when code is written with an AI assistant, which sometimes suggests outdated or even non existent libraries, as discussed in [AI assisted software development](/blog/pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu)." },
   { type: "ul", items: [
     "Maintenance activity: last release, response to issues, and number of maintainers",
     "Popularity and usage: widely used components get more scrutiny from others",
@@ -194,7 +194,7 @@ const zh: Block[] = [
     "能自动提出更新建议供人工审阅的工具",
   ] },
   { type: "h2", text: "在使用之前选择并评估组件" },
-  { type: "p", text: "最便宜的预防发生在组件进入您的应用之前。在使用新库之前，问几个几分钟就能回答的简单问题：它是否被积极维护、有多少人在用、是否有安全问题的历史，以及它的许可证是什么。" },
+  { type: "p", text: "最便宜的预防发生在组件进入您的应用之前。在使用新库之前，问几个几分钟就能回答的简单问题：它是否被积极维护、有多少人在用、是否有安全问题的历史，以及它的许可证是什么。当代码借助 AI 助手编写时，这些检查更加重要，因为 AI 有时会推荐过时甚至并不存在的库，详见 [AI 辅助软件开发](/blog/pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu)。" },
   { type: "ul", items: [
     "维护活跃度：最近一次发布、对问题的响应，以及维护者数量",
     "流行度与使用情况：被广泛使用的组件会受到更多他人的审视",

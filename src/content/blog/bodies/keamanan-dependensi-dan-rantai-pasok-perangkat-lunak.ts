@@ -63,7 +63,7 @@ export const body: Block[] = [
     "Alat yang mengusulkan pembaruan secara otomatis untuk ditinjau manusia",
   ] },
   { type: "h2", text: "Memilih dan menilai komponen sebelum memakainya" },
-  { type: "p", text: "Pencegahan paling murah terjadi sebelum sebuah komponen masuk ke aplikasi Anda. Sebelum memakai pustaka baru, tanyakan beberapa hal sederhana yang dapat dijawab dalam beberapa menit: apakah ia dipelihara secara aktif, berapa banyak yang memakainya, apakah ada riwayat masalah keamanan, dan bagaimana lisensinya." },
+  { type: "p", text: "Pencegahan paling murah terjadi sebelum sebuah komponen masuk ke aplikasi Anda. Sebelum memakai pustaka baru, tanyakan beberapa hal sederhana yang dapat dijawab dalam beberapa menit: apakah ia dipelihara secara aktif, berapa banyak yang memakainya, apakah ada riwayat masalah keamanan, dan bagaimana lisensinya. Pemeriksaan ini makin penting ketika kode ditulis dengan bantuan asisten AI, yang kadang menyarankan pustaka usang atau bahkan tidak ada, seperti dibahas dalam [pengembangan software dengan bantuan AI](/blog/pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu)." },
   { type: "ul", items: [
     "Aktivitas pemeliharaan: rilis terakhir, respons terhadap masalah, dan jumlah pemelihara",
     "Popularitas dan penggunaan: komponen yang dipakai luas lebih banyak dikaji pihak lain",
