@@ -151,7 +151,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "SEO dasar bukan trik rahasia, melainkan disiplin membuat website Anda mudah dipahami mesin pencari dan benar-benar berguna bagi pengunjungnya. Dengan struktur halaman yang jelas, bahasa yang sesuai dengan cara calon klien mencari, dan konten yang konsisten, website Anda punya peluang lebih besar ditemukan oleh orang yang benar-benar membutuhkan layanan Anda.",
+    text: "SEO dasar bukan trik rahasia, melainkan disiplin membuat website Anda mudah dipahami mesin pencari dan benar-benar berguna bagi pengunjungnya. Dengan struktur halaman yang jelas, bahasa yang sesuai dengan cara calon klien mencari, dan konten yang konsisten, website Anda punya peluang lebih besar ditemukan oleh orang yang benar-benar membutuhkan layanan Anda. Jika Anda berencana mengganti desain atau platform website, baca juga panduan [redesain dan migrasi website tanpa kehilangan peringkat SEO](/blog/redesign-dan-migrasi-website-tanpa-kehilangan-peringkat-seo).",
   },
   {
     type: "cta",

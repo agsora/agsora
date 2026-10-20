@@ -157,7 +157,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "The fourth mistake is not factoring promotion plans and seasons into calculations, so the system is caught off guard when demand surges. The fifth is letting slow items pile up with no exit plan, such as targeted discounts or bundles. Goods that sit unmoving for long not only tie up capital but also crowd out space for more profitable items.",
+    text: "The fourth mistake is not factoring promotion plans and seasons into calculations, so the system is caught off guard when demand surges. The fifth is letting slow items pile up with no exit plan, such as targeted discounts or bundles. Goods that sit unmoving for long not only tie up capital but also crowd out space for more profitable items. For portfolios with complex demand patterns, [demand forecasting with AI and ERP data](/blog/peramalan-permintaan-dengan-ai-dan-data-erp) can help, as long as its accuracy is measured honestly.",
   },
   { type: "h2", text: "Starting simple" },
   {
@@ -367,7 +367,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "第四个错误是没有把促销计划和季节纳入计算,于是需求激增时系统措手不及。第五个错误是任由滞销商品堆积而没有出清计划,例如定向折扣或组合销售。长期不动的商品不仅占用资金,还挤占了更赚钱商品的空间。",
+    text: "第四个错误是没有把促销计划和季节纳入计算,于是需求激增时系统措手不及。第五个错误是任由滞销商品堆积而没有出清计划,例如定向折扣或组合销售。长期不动的商品不仅占用资金,还挤占了更赚钱商品的空间。对于需求规律复杂的商品组合，[用 AI 和 ERP 数据做需求预测](/blog/peramalan-permintaan-dengan-ai-dan-data-erp)会有帮助，前提是要诚实地衡量预测准确度。",
   },
   { type: "h2", text: "从简单处开始" },
   {

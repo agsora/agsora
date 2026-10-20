@@ -172,6 +172,11 @@ import { body as b_pengembangan_software_dengan_bantuan_ai_peluang_risiko_dan_ke
 import { body as b_pelacakan_lot_batch_dan_tanggal_kedaluwarsa_dengan_erp } from "./pelacakan-lot-batch-dan-tanggal-kedaluwarsa-dengan-erp";
 import { body as b_pelaporan_esg_dan_jejak_karbon_dengan_data_erp } from "./pelaporan-esg-dan-jejak-karbon-dengan-data-erp";
 import { body as b_beralih_dari_excel_ke_sistem_bisnis_terintegrasi } from "./beralih-dari-excel-ke-sistem-bisnis-terintegrasi";
+import { body as b_redesign_dan_migrasi_website_tanpa_kehilangan_peringkat_seo } from "./redesign-dan-migrasi-website-tanpa-kehilangan-peringkat-seo";
+import { body as b_memilih_teknologi_aplikasi_mobile_flutter_react_native_atau_native } from "./memilih-teknologi-aplikasi-mobile-flutter-react-native-atau-native";
+import { body as b_composable_erp_sistem_modular_dan_api_first_untuk_bisnis_menengah } from "./composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah";
+import { body as b_peramalan_permintaan_dengan_ai_dan_data_erp } from "./peramalan-permintaan-dengan-ai-dan-data-erp";
+import { body as b_kesiapan_data_perusahaan_sebelum_memulai_proyek_ai } from "./kesiapan-data-perusahaan-sebelum-memulai-proyek-ai";
 export const bodies: Record<string, Block[]> = {
   "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": b_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag,
   "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga": b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga,
@@ -343,4 +348,9 @@ export const bodies: Record<string, Block[]> = {
   "pelacakan-lot-batch-dan-tanggal-kedaluwarsa-dengan-erp": b_pelacakan_lot_batch_dan_tanggal_kedaluwarsa_dengan_erp,
   "pelaporan-esg-dan-jejak-karbon-dengan-data-erp": b_pelaporan_esg_dan_jejak_karbon_dengan_data_erp,
   "beralih-dari-excel-ke-sistem-bisnis-terintegrasi": b_beralih_dari_excel_ke_sistem_bisnis_terintegrasi,
+  "redesign-dan-migrasi-website-tanpa-kehilangan-peringkat-seo": b_redesign_dan_migrasi_website_tanpa_kehilangan_peringkat_seo,
+  "memilih-teknologi-aplikasi-mobile-flutter-react-native-atau-native": b_memilih_teknologi_aplikasi_mobile_flutter_react_native_atau_native,
+  "composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah": b_composable_erp_sistem_modular_dan_api_first_untuk_bisnis_menengah,
+  "peramalan-permintaan-dengan-ai-dan-data-erp": b_peramalan_permintaan_dengan_ai_dan_data_erp,
+  "kesiapan-data-perusahaan-sebelum-memulai-proyek-ai": b_kesiapan_data_perusahaan_sebelum_memulai_proyek_ai,
 };

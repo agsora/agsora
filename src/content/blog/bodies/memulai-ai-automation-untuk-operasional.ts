@@ -201,7 +201,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "AI automation bukan tentang terlihat modern. Ini tentang mengembalikan waktu tim Anda dari pekerjaan yang membosankan ke pekerjaan yang benar-benar membutuhkan manusia. Mulailah dari satu proses kecil, tetapkan batas yang jelas, ukur hasilnya dengan jujur, dan biarkan hasil itu yang menentukan langkah berikutnya.",
+    text: "AI automation bukan tentang terlihat modern. Ini tentang mengembalikan waktu tim Anda dari pekerjaan yang membosankan ke pekerjaan yang benar-benar membutuhkan manusia. Mulailah dari satu proses kecil, tetapkan batas yang jelas, ukur hasilnya dengan jujur, dan biarkan hasil itu yang menentukan langkah berikutnya. Sebelum memulai, periksa juga [kesiapan data](/blog/kesiapan-data-perusahaan-sebelum-memulai-proyek-ai) untuk proses yang Anda pilih.",
   },
   {
     type: "cta",

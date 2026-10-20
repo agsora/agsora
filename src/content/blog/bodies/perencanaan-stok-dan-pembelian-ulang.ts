@@ -157,7 +157,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Kesalahan keempat adalah tidak memasukkan rencana promosi dan musim ke dalam perhitungan sehingga sistem terkejut saat permintaan melonjak. Kesalahan kelima adalah membiarkan barang lambat menumpuk tanpa rencana keluar, misalnya diskon terarah atau paket penjualan. Barang yang tidak bergerak lama bukan hanya mengikat modal, tetapi juga menutup ruang untuk barang yang lebih menguntungkan.",
+    text: "Kesalahan keempat adalah tidak memasukkan rencana promosi dan musim ke dalam perhitungan sehingga sistem terkejut saat permintaan melonjak. Kesalahan kelima adalah membiarkan barang lambat menumpuk tanpa rencana keluar, misalnya diskon terarah atau paket penjualan. Barang yang tidak bergerak lama bukan hanya mengikat modal, tetapi juga menutup ruang untuk barang yang lebih menguntungkan. Untuk portofolio dengan pola permintaan yang rumit, [peramalan permintaan dengan AI dan data ERP](/blog/peramalan-permintaan-dengan-ai-dan-data-erp) dapat membantu, asalkan akurasinya diukur dengan jujur.",
   },
   { type: "h2", text: "Memulai dari yang sederhana" },
   {

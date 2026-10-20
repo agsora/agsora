@@ -62,7 +62,7 @@ const en: Block[] = [
   { type: "p", text: "Also ask how module boundaries are protected, how the database is managed, and how hard it will be to separate a part in future. A good vendor will gladly explain why they chose a modular monolith for the early stage and show a sensible evolution path as your business grows." },
   { type: "h2", text: "Closing" },
   { type: "p", text: "Monolith versus microservices is not old versus modern but a question of fit. For most small and medium businesses, starting with a tidy modular monolith gives speed, low cost, and room to grow. Microservices deserve consideration when organisational scale and technical needs truly demand them and operational ability is ready." },
-  { type: "p", text: "Focus on what matters most: clear module boundaries, automated testing, reliable deployment, and good monitoring. With this foundation you can change the architecture whenever needed, without staking the business on a decision made too early." },
+  { type: "p", text: "Focus on what matters most: clear module boundaries, automated testing, reliable deployment, and good monitoring. With this foundation you can change the architecture whenever needed, without staking the business on a decision made too early. Similar logic applies at the level of business systems, as discussed in our article on [composable ERP](/blog/composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah)." },
   {
     type: "cta",
     title: "Unsure which architecture suits your business application?",
@@ -134,7 +134,7 @@ const zh: Block[] = [
   { type: "p", text: "还要问模块边界如何保护、数据库如何管理，以及将来拆分某个部分有多难。好的供应商会乐于解释他们为何在早期选择模块化单体，并展示随着业务增长的合理演进路径。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "单体与微服务之争并不是陈旧与现代之争，而是适配度问题。对大多数中小企业而言，从整洁的模块化单体起步，能带来速度、低成本和成长空间。当组织规模和技术需求确实要求，且运维能力已经就绪时，微服务才值得考虑。" },
-  { type: "p", text: "把重点放在最关键的事情上：清晰的模块边界、[自动化](/services/ai-automation)测试、可靠的部署和良好的监控。有了这个基础，您随时可以调整架构，而不必把业务押在一个过早做出的决定上。" },
+  { type: "p", text: "把重点放在最关键的事情上：清晰的模块边界、[自动化](/services/ai-automation)测试、可靠的部署和良好的监控。有了这个基础，您随时可以调整架构，而不必把业务押在一个过早做出的决定上。类似的逻辑同样适用于业务系统层面，详见[可组合式 ERP](/blog/composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah)一文。" },
   {
     type: "cta",
     title: "不确定哪种架构适合您的业务应用吗？",

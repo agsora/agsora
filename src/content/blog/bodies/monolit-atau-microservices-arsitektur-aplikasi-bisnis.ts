@@ -62,7 +62,7 @@ export const body: Block[] = [
   { type: "p", text: "Tanyakan pula bagaimana batas modul dijaga, bagaimana basis data dikelola, dan seberapa sulit memisahkan suatu bagian di masa depan. Vendor yang baik akan dengan senang hati menjelaskan alasan memilih monolit modular untuk tahap awal dan menunjukkan jalur evolusi yang masuk akal ketika bisnis Anda tumbuh." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Monolit dan microservices bukan soal kuno melawan modern, melainkan soal kecocokan. Untuk sebagian besar bisnis kecil dan menengah, memulai dengan monolit modular yang rapi memberi kecepatan, biaya rendah, dan fleksibilitas untuk berkembang. Microservices layak dipertimbangkan ketika skala organisasi dan kebutuhan teknis benar-benar menuntutnya, dan ketika kemampuan operasional sudah siap." },
-  { type: "p", text: "Fokuslah pada hal yang paling menentukan: batas modul yang jelas, pengujian otomatis, penerapan yang andal, dan pemantauan yang baik. Dengan fondasi ini, Anda dapat mengubah arsitektur kapan pun diperlukan, tanpa harus mempertaruhkan bisnis pada keputusan yang dibuat terlalu dini." },
+  { type: "p", text: "Fokuslah pada hal yang paling menentukan: batas modul yang jelas, pengujian otomatis, penerapan yang andal, dan pemantauan yang baik. Dengan fondasi ini, Anda dapat mengubah arsitektur kapan pun diperlukan, tanpa harus mempertaruhkan bisnis pada keputusan yang dibuat terlalu dini. Logika serupa berlaku di tingkat sistem bisnis, seperti dibahas dalam artikel [composable ERP](/blog/composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah)." },
   {
     type: "cta",
     title: "Bingung memilih arsitektur yang tepat untuk aplikasi bisnis Anda?",

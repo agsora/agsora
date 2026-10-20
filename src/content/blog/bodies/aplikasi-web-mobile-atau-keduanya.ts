@@ -154,7 +154,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Memilih antara aplikasi web, mobile, atau keduanya bukan soal mana yang terlihat lebih modern, melainkan soal mana yang benar-benar sesuai dengan cara kerja pengguna Anda sehari-hari. Pahami kebutuhan setiap kelompok pengguna dengan jujur, dan bentuk aplikasi yang tepat akan terlihat dengan sendirinya tanpa perlu mengikuti tren semata.",
+    text: "Memilih antara aplikasi web, mobile, atau keduanya bukan soal mana yang terlihat lebih modern, melainkan soal mana yang benar-benar sesuai dengan cara kerja pengguna Anda sehari-hari. Pahami kebutuhan setiap kelompok pengguna dengan jujur, dan bentuk aplikasi yang tepat akan terlihat dengan sendirinya tanpa perlu mengikuti tren semata. Jika jawabannya aplikasi mobile, langkah berikutnya adalah [memilih teknologinya: Flutter, React Native, atau native](/blog/memilih-teknologi-aplikasi-mobile-flutter-react-native-atau-native).",
   },
   {
     type: "cta",

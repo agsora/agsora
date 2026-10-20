@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "redesign-dan-migrasi-website-tanpa-kehilangan-peringkat-seo",
+    title: "Redesain dan Migrasi Website Tanpa Kehilangan Peringkat SEO: Panduan Langkah demi Langkah",
+    excerpt: "Cara merencanakan redesain, pindah CMS, atau pindah domain tanpa kehilangan trafik: inventaris URL, peta pengalihan 301, cek teknis staging, dan pemantauan setelah peluncuran.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    tags: ["website","seo","migrasi-data"],
+    titleTranslations: {
+      en: "Website Redesign and Migration Without Losing SEO Rankings: A Step by Step Guide",
+      zh: "网站改版与迁移如何不丢失 SEO 排名：分步指南",
+    },
+    excerptTranslations: {
+      en: "How to plan a redesign, CMS change, or domain move without losing traffic: URL inventory, 301 redirect maps, staging checks, and monitoring after launch.",
+      zh: "如何在改版、更换内容管理系统或更换域名时不流失流量：网址盘点、301 重定向映射、测试环境检查与上线后监控。",
+    },
+  },
+  {
+    slug: "memilih-teknologi-aplikasi-mobile-flutter-react-native-atau-native",
+    title: "Flutter, React Native, atau Native? Memilih Teknologi Aplikasi Mobile untuk Bisnis",
+    excerpt: "Perbandingan Flutter, React Native, Kotlin Multiplatform, dan native dari sisi biaya, pengalaman pengguna, perawatan, dan ketersediaan pengembang, plus pertanyaan untuk vendor.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    tags: ["mobile","custom-software","vendor"],
+    titleTranslations: {
+      en: "Flutter, React Native, or Native? Choosing Mobile App Technology for Your Business",
+      zh: "Flutter、React Native 还是原生开发？企业移动应用技术选型",
+    },
+    excerptTranslations: {
+      en: "Flutter, React Native, Kotlin Multiplatform, and native compared on cost, user experience, maintenance, and developer availability, plus questions to ask vendors.",
+      zh: "从成本、用户体验、维护和开发人员供给等方面比较 Flutter、React Native、Kotlin Multiplatform 与原生开发，并附向供应商提问的清单。",
+    },
+  },
+  {
+    slug: "composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah",
+    title: "Composable ERP: Sistem Modular dan API-First untuk Bisnis Menengah",
+    excerpt: "Apa itu composable ERP, bedanya dengan ERP monolitik, kapan menguntungkan, risiko integrasi dan data, prinsip desain, serta langkah menerapkannya secara bertahap.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    tags: ["erp","integrasi","api"],
+    titleTranslations: {
+      en: "Composable ERP: Modular, API First Systems for Mid Sized Businesses",
+      zh: "可组合式 ERP：面向中型企业的模块化与 API 优先系统",
+    },
+    excerptTranslations: {
+      en: "What composable ERP is, how it differs from monolithic ERP, when it pays off, integration and data risks, design principles, and how to adopt it step by step.",
+      zh: "什么是可组合式 ERP、与单体式 ERP 有何不同、何时值得采用、集成与数据风险、设计原则，以及循序渐进的落地方法。",
+    },
+  },
+  {
+    slug: "peramalan-permintaan-dengan-ai-dan-data-erp",
+    title: "Peramalan Permintaan dengan AI dan Data ERP: Panduan Realistis untuk Stok dan Pembelian",
+    excerpt: "Data ERP yang dibutuhkan, metode statistik hingga machine learning, mengukur akurasi dan bias ramalan, serta menghubungkannya ke stok pengaman dan pesanan pembelian.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    tags: ["ai","inventori","data"],
+    titleTranslations: {
+      en: "Demand Forecasting with AI and ERP Data: A Realistic Guide for Stock and Purchasing",
+      zh: "用 AI 和 ERP 数据做需求预测：库存与采购的务实指南",
+    },
+    excerptTranslations: {
+      en: "The ERP data you need, statistical methods through machine learning, measuring forecast accuracy and bias, and connecting forecasts to safety stock and purchase orders.",
+      zh: "所需的 ERP 数据、从统计方法到机器学习、如何衡量预测准确度与偏差，以及如何把预测接入安全库存和采购订单。",
+    },
+  },
+  {
+    slug: "kesiapan-data-perusahaan-sebelum-memulai-proyek-ai",
+    title: "Kesiapan Data Sebelum Memulai Proyek AI: Cara Menilai dan Menyiapkannya",
+    excerpt: "Mengapa data menentukan hasil AI, enam dimensi kesiapan data, pekerjaan persiapan paling berdampak, memilih kasus penggunaan pertama, dan daftar periksa sebelum mulai.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    tags: ["ai","data","integrasi"],
+    titleTranslations: {
+      en: "AI Data Readiness: How to Assess and Prepare Company Data Before an AI Project",
+      zh: "AI 项目前的数据就绪：如何评估并准备企业数据",
+    },
+    excerptTranslations: {
+      en: "Why data determines AI results, six dimensions of data readiness, the preparation work with most impact, choosing a first use case, and a checklist before you start.",
+      zh: "为什么数据决定 AI 成效、数据就绪的六个维度、影响最大的准备工作、如何选择第一个用例，以及启动前的检查清单。",
+    },
+  },
+  {
     slug: "model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis",
     title: "Model Context Protocol (MCP) untuk Bisnis: Menghubungkan AI dengan ERP, CRM, dan Sistem Internal",
     excerpt: "Apa itu MCP, cara kerjanya, kapan layak dipakai, contoh penerapan di ERP dan CRM, kendali keamanan, serta langkah menerapkannya secara bertahap dan aman.",
