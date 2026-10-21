@@ -91,6 +91,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Tata kelola AI yang baik bukan rem bagi inovasi, melainkan pondasi agar inovasi dapat dipercaya. Dengan klasifikasi data yang jelas, alat yang disetujui, pengawasan manusia yang bermakna, dan pelatihan yang praktis, bisnis dapat memanfaatkan AI tanpa mempertaruhkan kepercayaan pelanggan." },
   { type: "p", text: "Mulailah sederhana, jalankan dengan konsisten, dan tinjau secara berkala. Kebijakan satu halaman yang dipahami dan dipatuhi lebih berharga daripada dokumen tebal yang tak pernah dibuka. Karena regulasi terus berkembang, pantau ketentuan terkini dan libatkan penasihat hukum untuk penggunaan yang berisiko tinggi." },
+  { type: "p", text: "Risiko keamanan khusus aplikasi AI dibahas di [keamanan aplikasi AI: prompt injection dan kebocoran data](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)." },
   {
     type: "cta",
     title: "Ingin menerapkan AI di bisnis dengan aman dan terukur?",

@@ -126,6 +126,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Bisnis jasa yang sehat bukan hanya yang pekerjaannya bagus, tetapi yang pekerjaannya dibayar tepat waktu dan menguntungkan. Penagihan berbasis milestone, dengan kriteria penerimaan yang jelas, jadwal yang selaras dengan arus kas, dan pengelolaan perubahan yang disiplin, membuat keduanya tercapai." },
   { type: "p", text: "Mulailah dengan satu proyek berikutnya: rancang milestone dengan kriteria tertulis, hitung kebutuhan kasnya, catat jam kerja dan biaya, lalu tagih dengan tertib. Dengan alur yang tersambung di ERP, pelajaran dari setiap proyek akan memperbaiki penawaran berikutnya." },
+  { type: "p", text: "Untuk bisnis proyek konstruksi, lihat juga [ERP untuk kontraktor dan perusahaan konstruksi](/blog/erp-untuk-kontraktor-dan-perusahaan-konstruksi)." },
   {
     type: "cta",
     title: "Ingin merapikan penagihan proyek dan margin bisnis jasa Anda?",

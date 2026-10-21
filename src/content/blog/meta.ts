@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "erp-untuk-kontraktor-dan-perusahaan-konstruksi",
+    title: "ERP untuk Kontraktor dan Perusahaan Konstruksi: Biaya Proyek, Subkontraktor, dan Penagihan Progres",
+    excerpt: "Cara ERP membantu kontraktor mengendalikan anggaran dan biaya proyek, mengelola subkontraktor dan retensi, menagih berdasarkan progres, serta menerapkannya bertahap.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    tags: ["erp","operasional","industri"],
+    titleTranslations: {
+      en: "ERP for Contractors and Construction Companies: Project Costing, Subcontractors, and Progress Billing",
+      zh: "面向承包商与建筑企业的 ERP：项目成本、分包商与进度结算",
+    },
+    excerptTranslations: {
+      en: "How ERP helps contractors control project budgets and costs, manage subcontractors and retention, bill on progress, and roll it out in stages.",
+      zh: "ERP 如何帮助承包商控制项目预算与成本、管理分包商和质保金、按进度结算，并分阶段落地。",
+    },
+  },
+  {
+    slug: "keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data",
+    title: "Keamanan Aplikasi AI: Prompt Injection, Kebocoran Data, dan Cara Mengendalikannya",
+    excerpt: "Risiko utama saat AI terhubung ke data dan sistem perusahaan, mulai dari prompt injection hingga akses berlebihan, beserta kendali berlapis yang praktis.",
+    category: "Teknologi",
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    tags: ["ai","keamanan","data"],
+    titleTranslations: {
+      en: "AI Application Security: Prompt Injection, Data Leakage, and How to Control Them",
+      zh: "AI 应用安全：提示注入、数据泄露及其控制方法",
+    },
+    excerptTranslations: {
+      en: "The main risks when AI connects to company data and systems, from prompt injection to excessive access, with practical layered controls.",
+      zh: "AI 连接企业数据和系统时的主要风险，从提示注入到权限过大，以及实用的分层控制措施。",
+    },
+  },
+  {
+    slug: "manajemen-armada-dan-transportasi-dengan-gps-dan-erp",
+    title: "Manajemen Armada dan Transportasi dengan GPS dan ERP: Biaya per Kilometer hingga Perawatan",
+    excerpt: "Mengelola kendaraan, pengemudi, bahan bakar, dan perawatan, menghubungkan data GPS dengan pesanan dan biaya di ERP, serta indikator yang layak dipantau.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    tags: ["operasional","mobile","integrasi"],
+    titleTranslations: {
+      en: "Fleet and Transport Management with GPS and ERP: From Cost per Kilometer to Maintenance",
+      zh: "结合 GPS 与 ERP 的车队与运输管理：从每公里成本到车辆维护",
+    },
+    excerptTranslations: {
+      en: "Managing vehicles, drivers, fuel, and maintenance, linking GPS data with orders and costs in the ERP, and the indicators worth tracking.",
+      zh: "管理车辆、司机、燃油和维护，把 GPS 数据与 ERP 中的订单和成本关联，以及值得跟踪的指标。",
+    },
+  },
+  {
+    slug: "model-harga-proyek-software-fixed-price-time-and-material-retainer",
+    title: "Fixed Price, Time and Material, atau Retainer? Memilih Model Harga Proyek Software",
+    excerpt: "Membandingkan tiga model harga proyek software, risiko dan kecocokannya, model campuran, serta hal yang harus tertulis di kontrak sebelum menandatangani.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    tags: ["vendor","biaya","kontrak"],
+    titleTranslations: {
+      en: "Fixed Price, Time and Material, or Retainer? Choosing a Software Project Pricing Model",
+      zh: "固定价格、按实际投入计费还是包月服务？软件项目定价模式选择",
+    },
+    excerptTranslations: {
+      en: "Three software project pricing models compared, with their risks and fit, hybrid models, and what must be in the contract before you sign.",
+      zh: "比较三种软件项目定价模式、各自的风险与适用场景、混合模式，以及签约前合同必须写明的内容。",
+    },
+  },
+  {
+    slug: "kendali-mutu-qc-di-manufaktur-dengan-erp",
+    title: "Kendali Mutu (QC) di Manufaktur dengan ERP: Dari Pemeriksaan hingga Penelusuran Lot",
+    excerpt: "Titik pemeriksaan bahan masuk, proses, dan produk jadi, menangani produk tidak sesuai, tindakan korektif, penelusuran lot, dan langkah menerapkan QC di ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    tags: ["erp","industri","operasional"],
+    titleTranslations: {
+      en: "Quality Control (QC) in Manufacturing with ERP: From Inspection to Lot Traceability",
+      zh: "制造业中借助 ERP 的质量控制（QC）：从检验到批次追溯",
+    },
+    excerptTranslations: {
+      en: "Incoming, in process, and final inspection points, handling nonconforming products, corrective action, lot traceability, and steps to implement QC in the ERP.",
+      zh: "来料、过程和成品检验点，不合格品处理、纠正措施、批次追溯，以及在 ERP 中实施 QC 的步骤。",
+    },
+  },
+  {
     slug: "redesign-dan-migrasi-website-tanpa-kehilangan-peringkat-seo",
     title: "Redesain dan Migrasi Website Tanpa Kehilangan Peringkat SEO: Panduan Langkah demi Langkah",
     excerpt: "Cara merencanakan redesain, pindah CMS, atau pindah domain tanpa kehilangan trafik: inventaris URL, peta pengalihan 301, cek teknis staging, dan pemantauan setelah peluncuran.",
@@ -96,7 +181,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu MCP, cara kerjanya, kapan layak dipakai, contoh penerapan di ERP dan CRM, kendali keamanan, serta langkah menerapkannya secara bertahap dan aman.",
     category: "Teknologi",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-10-19",
+    updatedAt: "2026-10-21",
     tags: ["ai","integrasi","api"],
     titleTranslations: {
       en: "Model Context Protocol (MCP) for Business: Connecting AI to Your ERP, CRM, and Internal Systems",
@@ -334,7 +419,7 @@ export const meta: PostMeta[] = [
     excerpt: "Risiko AI di tempat kerja, unsur kebijakan penggunaan AI, klasifikasi data, penilaian alat, pengawasan manusia, pelatihan, dan peninjauan berkala.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-17",
+    updatedAt: "2026-10-21",
     tags: ["ai","keamanan","operasional"],
     titleTranslations: {
       en: "AI Usage Policy and AI Governance in the Company: Safe and Responsible",
@@ -657,7 +742,7 @@ export const meta: PostMeta[] = [
     excerpt: "Merancang penagihan proyek yang sehat: memilih model, milestone dengan kriteria penerimaan, jadwal yang selaras dengan arus kas, perubahan lingkup, pencatatan jam kerja, dan pengakuan pendapatan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-10-21",
     tags: ["erp","keuangan","operasional"],
     titleTranslations: {
       en: "Project and Milestone Billing for Service Businesses: Keeping Cash Flow and Margin Healthy",
@@ -776,7 +861,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-10-21",
     tags: ["erp","operasional","inventori","biaya"],
     titleTranslations: {
       en: "Asset Management and Equipment Maintenance with ERP: From Asset Register to Replacement Decisions",
@@ -1558,7 +1643,7 @@ export const meta: PostMeta[] = [
     excerpt: "Pengiriman sering menjadi penentu apakah pelanggan membeli lagi atau tidak. Cara memilih kurir, menghitung ongkir, mengemas barang, melacak paket, dan menangani retur secara rapi di toko online.",
     category: "POS & Retail",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-10-21",
     tags: ["ecommerce","operasional","pelanggan"],
     titleTranslations: {
       en: "Shipping and Logistics for Online Stores: Balancing Cost, Speed, and Customer Satisfaction",
@@ -2112,6 +2197,7 @@ export const meta: PostMeta[] = [
     excerpt: "Yang membedakan vendor bukan portofolio yang paling banyak, tapi kejelasan cara mereka bekerja dan jujur soal batasannya.",
     category: "Panduan Memilih",
     publishedAt: "2026-07-31",
+    updatedAt: "2026-10-21",
     tags: [
       "vendor",
       "custom-software",
@@ -2349,6 +2435,7 @@ export const meta: PostMeta[] = [
     excerpt: "Dua proposal dengan harga berbeda jauh sering kali sebenarnya menawarkan ruang lingkup yang berbeda. Ini yang perlu diperiksa sebelum membandingkan angka.",
     category: "Panduan Memilih",
     publishedAt: "2026-08-01",
+    updatedAt: "2026-10-21",
     tags: [
       "vendor",
       "biaya",
@@ -2447,6 +2534,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis distribusi bergerak di antara gudang, armada, sales lapangan, dan tagihan pelanggan. Sistemnya harus menyatukan semua titik itu, bukan hanya mencatat stok.",
     category: "Panduan Industri",
     publishedAt: "2026-07-16",
+    updatedAt: "2026-10-21",
     tags: [
       "industri",
       "inventori",
@@ -2556,6 +2644,7 @@ export const meta: PostMeta[] = [
     excerpt: "Manufaktur skala menengah sering terjebak di antara spreadsheet yang sudah tidak cukup dan sistem besar yang terlalu rumit. Ini kebutuhan yang biasanya paling mendesak.",
     category: "Panduan Industri",
     publishedAt: "2026-06-28",
+    updatedAt: "2026-10-21",
     tags: [
       "industri",
       "inventori",
@@ -2568,6 +2657,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kontrak yang jelas melindungi kedua pihak ketika project tidak berjalan sesuai rencana. Ini bagian-bagian yang layak diperhatikan sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-06-26",
+    updatedAt: "2026-10-21",
     tags: [
       "kontrak",
       "vendor",

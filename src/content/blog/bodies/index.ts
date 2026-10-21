@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_erp_untuk_kontraktor_dan_perusahaan_konstruksi } from "./erp-untuk-kontraktor-dan-perusahaan-konstruksi";
+import { body as b_keamanan_aplikasi_ai_prompt_injection_dan_kebocoran_data } from "./keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data";
+import { body as b_manajemen_armada_dan_transportasi_dengan_gps_dan_erp } from "./manajemen-armada-dan-transportasi-dengan-gps-dan-erp";
+import { body as b_model_harga_proyek_software_fixed_price_time_and_material_retainer } from "./model-harga-proyek-software-fixed-price-time-and-material-retainer";
+import { body as b_kendali_mutu_qc_di_manufaktur_dengan_erp } from "./kendali-mutu-qc-di-manufaktur-dengan-erp";
 import { body as b_alur_approval_pembelian } from "./alur-approval-pembelian";
 import { body as b_apa_itu_api_untuk_pemilik_bisnis } from "./apa-itu-api-untuk-pemilik-bisnis";
 import { body as b_aplikasi_web_mobile_atau_keduanya } from "./aplikasi-web-mobile-atau-keduanya";
@@ -353,4 +358,9 @@ export const bodies: Record<string, Block[]> = {
   "composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah": b_composable_erp_sistem_modular_dan_api_first_untuk_bisnis_menengah,
   "peramalan-permintaan-dengan-ai-dan-data-erp": b_peramalan_permintaan_dengan_ai_dan_data_erp,
   "kesiapan-data-perusahaan-sebelum-memulai-proyek-ai": b_kesiapan_data_perusahaan_sebelum_memulai_proyek_ai,
+  "erp-untuk-kontraktor-dan-perusahaan-konstruksi": b_erp_untuk_kontraktor_dan_perusahaan_konstruksi,
+  "keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data": b_keamanan_aplikasi_ai_prompt_injection_dan_kebocoran_data,
+  "manajemen-armada-dan-transportasi-dengan-gps-dan-erp": b_manajemen_armada_dan_transportasi_dengan_gps_dan_erp,
+  "model-harga-proyek-software-fixed-price-time-and-material-retainer": b_model_harga_proyek_software_fixed_price_time_and_material_retainer,
+  "kendali-mutu-qc-di-manufaktur-dengan-erp": b_kendali_mutu_qc_di_manufaktur_dengan_erp,
 };

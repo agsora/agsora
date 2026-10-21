@@ -92,6 +92,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Model Context Protocol makes the connection between AI and business systems more uniform, easier to reuse, and not locked to a single provider. Its value is real for companies that want AI to work with ERP, CRM, and internal document data. A connection standard, however, is not a security guarantee. Permissions, logging, separation of read and write tools, and human approval remain the responsibility of whoever designs the system." },
   { type: "p", text: "Start small: one system, one use case, read only functions, and a clear measure of success. From there, expand with confidence because every step can be explained and controlled." },
+  { type: "p", text: "AI specific security risks are covered in [AI application security: prompt injection and data leakage](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)." },
   {
     type: "cta",
     title: "Want to connect AI to your ERP or CRM safely?",
@@ -193,6 +194,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "模型上下文协议让 AI 与业务系统之间的连接更统一、更易复用，也不会被锁定在单一供应商上。对于希望 AI 使用 ERP、CRM 和内部文档数据的企业，它的价值是实实在在的。但连接标准并不等于安全保障。权限、日志、读写工具分离和人工审批，仍然是系统设计者的责任。" },
   { type: "p", text: "从小处着手：一个系统、一个用例、只读功能，以及明确的成功指标。在此基础上稳步扩展，因为每一步都可以解释、也可以控制。" },
+  { type: "p", text: "AI 应用特有的安全风险见[AI 应用安全：提示注入与数据泄露](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)。" },
   {
     type: "cta",
     title: "想把 AI 安全地连接到您的 ERP 或 CRM 吗？",

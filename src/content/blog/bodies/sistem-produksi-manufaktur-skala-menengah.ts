@@ -154,6 +154,7 @@ export const body: Block[] = [
     type: "p",
     text: "Sistem produksi yang tepat untuk pabrik skala menengah memberi visibilitas yang selama ini hilang: berapa sebenarnya biaya produksi setiap produk, di mana pemborosan terjadi, dan kapan bahan perlu dipesan ulang. Dengan fondasi data master yang rapi dan pencatatan yang konsisten, keputusan bisnis bisa diambil berdasarkan angka nyata, bukan lagi perkiraan yang diwariskan turun-temurun.",
   },
+  { type: "p", text: "Untuk pembahasan pemeriksaan bahan masuk, karantina, dan penelusuran lot di lantai produksi, baca [kendali mutu (QC) di manufaktur dengan ERP](/blog/kendali-mutu-qc-di-manufaktur-dengan-erp)." },
   {
     type: "cta",
     title: "Tahu berapa biaya produksi sebenarnya dari setiap produk Anda?",

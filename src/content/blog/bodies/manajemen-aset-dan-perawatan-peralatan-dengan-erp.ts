@@ -123,6 +123,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Pengelolaan aset yang baik tidak glamor, tetapi dampaknya terasa: operasional lebih stabil, biaya lebih terprediksi, dan keputusan penggantian lebih rasional. Kuncinya bukan perangkat lunak yang mahal, melainkan kebiasaan mencatat dengan konsisten dan menggunakan catatan itu untuk bertindak." },
   { type: "p", text: "ERP membantu karena aset, pembelian, persediaan, dan keuangan berada dalam satu sistem sehingga data tidak perlu dimasukkan berulang. Mulailah dari aset kritis, bangun kebiasaan, lalu perluas. Aset yang dirawat baik adalah aset yang bekerja untuk bisnis Anda, bukan sebaliknya." },
+  { type: "p", text: "Untuk kendaraan dan pengiriman, baca [manajemen armada dan transportasi dengan GPS dan ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   {
     type: "cta",
     title: "Aset dan riwayat servis masih tersebar di banyak catatan?",

@@ -123,6 +123,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Good asset management is not glamorous, but its impact is felt: more stable operations, more predictable costs, and more rational replacement decisions. The key is not expensive software but the habit of recording consistently and using those records to act." },
   { type: "p", text: "ERP helps because assets, purchasing, inventory, and finance live in one system so data does not need to be entered repeatedly. Start with critical assets, build the habit, then expand. A well maintained asset is one that works for your business, not the other way round." },
+  { type: "p", text: "For vehicles and deliveries, read [fleet and transport management with GPS and ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   {
     type: "cta",
     title: "Assets and service history still scattered across many notes?",
@@ -255,6 +256,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "良好的资产管理并不光鲜，但影响是实实在在的：运营更稳定，成本更可预测，更换决策更理性。关键不是昂贵的软件，而是持续记录并利用这些记录采取行动的习惯。" },
   { type: "p", text: "ERP 之所以有帮助，是因为资产、采购、库存和财务在同一个系统中，数据无需重复录入。从关键资产开始，养成习惯，再逐步扩展。维护良好的资产，是为你的业务工作的资产，而不是反过来。" },
+  { type: "p", text: "关于车辆和配送，请阅读[结合 GPS 与 ERP 的车队与运输管理](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)。" },
   {
     type: "cta",
     title: "资产和维修历史仍散落在许多记录里？",

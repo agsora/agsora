@@ -149,6 +149,7 @@ export const body: Block[] = [
     type: "p",
     text: "Kontrak pengembangan software yang baik bukan tentang mengantisipasi setiap kemungkinan buruk, melainkan tentang menciptakan acuan bersama yang jelas ketika situasi tidak berjalan sesuai rencana, dan dalam project software, situasi semacam itu hampir pasti akan terjadi. Luangkan waktu meninjau poin-poin penting ini sebelum menandatangani, dan hubungan kerja Anda dengan vendor akan jauh lebih sehat sepanjang project berjalan.",
   },
+  { type: "p", text: "Untuk membandingkan model penagihan vendor, baca [fixed price, time and material, atau retainer](/blog/model-harga-proyek-software-fixed-price-time-and-material-retainer)." },
   {
     type: "cta",
     title: "Akan menandatangani kontrak pengembangan software?",

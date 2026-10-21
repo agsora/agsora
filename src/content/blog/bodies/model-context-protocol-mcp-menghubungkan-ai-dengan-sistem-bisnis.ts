@@ -92,6 +92,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Model Context Protocol membuat koneksi antara AI dan sistem bisnis menjadi lebih seragam, lebih mudah dipakai ulang, dan tidak terkunci pada satu penyedia. Nilainya nyata bagi perusahaan yang ingin AI bekerja dengan data ERP, CRM, dan dokumen internal. Namun standar koneksi tidak sama dengan jaminan keamanan. Hak akses, pencatatan, pemisahan alat baca dan tulis, serta persetujuan manusia tetap menjadi tanggung jawab perancang sistem." },
   { type: "p", text: "Mulailah kecil: satu sistem, satu kasus penggunaan, fungsi baca saja, dan ukuran keberhasilan yang jelas. Dari sana, perluas dengan percaya diri karena setiap langkah dapat dijelaskan dan dikendalikan." },
+  { type: "p", text: "Risiko keamanan khusus aplikasi AI dibahas di [keamanan aplikasi AI: prompt injection dan kebocoran data](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)." },
   {
     type: "cta",
     title: "Ingin menghubungkan AI dengan ERP atau CRM Anda secara aman?",

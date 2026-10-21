@@ -156,6 +156,7 @@ export const body: Block[] = [
     type: "p",
     text: "Proposal software house adalah dokumen yang perlu dibaca dengan teliti, bukan hanya dilihat angka totalnya. Dengan memeriksa ruang lingkup, hal yang sering tidak tertulis, dan cara perubahan kebutuhan ditangani, Anda bisa membandingkan penawaran secara adil dan menghindari kejutan biaya yang tidak perlu di tengah project.",
   },
+  { type: "p", text: "Untuk membandingkan model penagihan vendor, baca [fixed price, time and material, atau retainer](/blog/model-harga-proyek-software-fixed-price-time-and-material-retainer)." },
   {
     type: "cta",
     title: "Butuh bantuan membandingkan proposal yang Anda terima?",

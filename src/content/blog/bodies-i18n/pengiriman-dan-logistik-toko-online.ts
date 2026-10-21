@@ -122,6 +122,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Shipping is not an extra burden at the end of the sales process; it is part of the promise you make to customers. Stores that manage shipping well get a double benefit: customers are happier and hidden costs, from claims to reshipments to time spent answering questions, shrink. Start with the simplest things: understand your flow, choose the right couriers, pack to a consistent standard, and give proactive updates. Once that foundation is solid, [automation](/services/ai-automation) and system integration will multiply the results." },
   { type: "p", text: "If your store has grown and managing orders, stock, and shipping is starting to feel messy, it may be time to have a system that brings it all together." },
+  { type: "p", text: "For vehicles and deliveries, read [fleet and transport management with GPS and ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   {
     type: "cta",
     title: "Want tidy, connected online store shipping?",
@@ -253,6 +254,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "配送不是销售流程末尾的额外负担,而是你对客户所做承诺的一部分。把配送管理好的网店会获得双重好处:客户更满意,从索赔、重新发货到回答咨询所花时间等隐性成本也随之缩减。从最简单的事情开始:了解你的流程、选对快递、按一致的标准打包,并主动提供更新。基础稳固之后,[自动化](/services/ai-automation)和系统集成会让成果成倍放大。" },
   { type: "p", text: "如果你的网店已经成长,管理订单、库存和配送开始变得混乱,也许是时候拥有一个把一切整合起来的系统了。" },
+  { type: "p", text: "关于车辆和配送，请阅读[结合 GPS 与 ERP 的车队与运输管理](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)。" },
   {
     type: "cta",
     title: "想要整齐且互联的网店配送吗?",

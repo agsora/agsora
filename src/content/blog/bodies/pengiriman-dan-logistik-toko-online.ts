@@ -122,6 +122,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Pengiriman bukan beban tambahan di ujung proses penjualan; ia adalah bagian dari janji yang Anda buat kepada pelanggan. Toko yang mengelola pengiriman dengan baik mendapat keuntungan ganda: pelanggan lebih puas dan biaya tersembunyi, mulai dari klaim, kiriman ulang, hingga waktu menjawab pertanyaan, menyusut. Mulailah dari yang paling sederhana, yaitu memahami alur Anda, memilih kurir yang tepat, mengemas dengan standar yang konsisten, dan memberi kabar proaktif. Setelah dasar itu kokoh, [otomatisasi](/services/ai-automation) dan integrasi sistem akan melipatgandakan hasilnya." },
   { type: "p", text: "Jika toko Anda sudah tumbuh dan pengelolaan pesanan, stok, serta pengiriman mulai terasa berantakan, mungkin sudah saatnya memiliki sistem yang menyatukan semuanya." },
+  { type: "p", text: "Untuk kendaraan dan pengiriman, baca [manajemen armada dan transportasi dengan GPS dan ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   {
     type: "cta",
     title: "Ingin pengiriman toko online yang rapi dan terhubung?",

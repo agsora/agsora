@@ -126,6 +126,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "A healthy service business is not one whose work is merely good, but one whose work is paid on time and profitable. Milestone billing, with clear acceptance criteria, a schedule aligned with cash flow, and disciplined change management, makes both achievable." },
   { type: "p", text: "Start with your next project: design milestones with written criteria, calculate its cash needs, record hours and costs, then bill in an orderly way. With a connected flow in the ERP, lessons from each project will improve the next quotation." },
+  { type: "p", text: "For construction project businesses, see also [ERP for contractors and construction companies](/blog/erp-untuk-kontraktor-dan-perusahaan-konstruksi)." },
   {
     type: "cta",
     title: "Want to tidy project billing and the margins of your service business?",
@@ -261,6 +262,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "健康的服务企业，不只是工作做得好，而是工作能按时收款并且盈利。基于里程碑的收费，配合清晰的验收标准、与现金流一致的计划以及有纪律的变更管理，能让这两者都得以实现。" },
   { type: "p", text: "就从下一个项目开始：用书面标准设计里程碑，计算其现金需求，记录工时和成本，然后有序地开票收款。有了 ERP 中连通的流程，每个项目的经验教训都会改进下一次报价。" },
+  { type: "p", text: "对于建筑工程类业务，另见[面向承包商与建筑企业的 ERP](/blog/erp-untuk-kontraktor-dan-perusahaan-konstruksi)。" },
   {
     type: "cta",
     title: "想理顺项目收费和服务业务的利润率吗？",

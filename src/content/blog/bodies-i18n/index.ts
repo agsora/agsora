@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_erp_untuk_kontraktor_dan_perusahaan_konstruksi } from "./erp-untuk-kontraktor-dan-perusahaan-konstruksi";
+import { translations as t_keamanan_aplikasi_ai_prompt_injection_dan_kebocoran_data } from "./keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data";
+import { translations as t_manajemen_armada_dan_transportasi_dengan_gps_dan_erp } from "./manajemen-armada-dan-transportasi-dengan-gps-dan-erp";
+import { translations as t_model_harga_proyek_software_fixed_price_time_and_material_retainer } from "./model-harga-proyek-software-fixed-price-time-and-material-retainer";
+import { translations as t_kendali_mutu_qc_di_manufaktur_dengan_erp } from "./kendali-mutu-qc-di-manufaktur-dengan-erp";
 import { translations as t_dari_ide_ke_aplikasi_proses_membangun_software } from "./dari-ide-ke-aplikasi-proses-membangun-software";
 import { translations as t_digitalisasi_bisnis_keluarga_generasi_penerus } from "./digitalisasi-bisnis-keluarga-generasi-penerus";
 import { translations as t_erp_dan_visibilitas_arus_kas } from "./erp-dan-visibilitas-arus-kas";
@@ -239,4 +244,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah": t_composable_erp_sistem_modular_dan_api_first_untuk_bisnis_menengah,
   "peramalan-permintaan-dengan-ai-dan-data-erp": t_peramalan_permintaan_dengan_ai_dan_data_erp,
   "kesiapan-data-perusahaan-sebelum-memulai-proyek-ai": t_kesiapan_data_perusahaan_sebelum_memulai_proyek_ai,
+  "erp-untuk-kontraktor-dan-perusahaan-konstruksi": t_erp_untuk_kontraktor_dan_perusahaan_konstruksi,
+  "keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data": t_keamanan_aplikasi_ai_prompt_injection_dan_kebocoran_data,
+  "manajemen-armada-dan-transportasi-dengan-gps-dan-erp": t_manajemen_armada_dan_transportasi_dengan_gps_dan_erp,
+  "model-harga-proyek-software-fixed-price-time-and-material-retainer": t_model_harga_proyek_software_fixed_price_time_and_material_retainer,
+  "kendali-mutu-qc-di-manufaktur-dengan-erp": t_kendali_mutu_qc_di_manufaktur_dengan_erp,
 };
