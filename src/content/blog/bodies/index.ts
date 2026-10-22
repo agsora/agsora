@@ -187,6 +187,11 @@ import { body as b_memilih_teknologi_aplikasi_mobile_flutter_react_native_atau_n
 import { body as b_composable_erp_sistem_modular_dan_api_first_untuk_bisnis_menengah } from "./composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah";
 import { body as b_peramalan_permintaan_dengan_ai_dan_data_erp } from "./peramalan-permintaan-dengan-ai-dan-data-erp";
 import { body as b_kesiapan_data_perusahaan_sebelum_memulai_proyek_ai } from "./kesiapan-data-perusahaan-sebelum-memulai-proyek-ai";
+import { body as b_llm_self_hosted_atau_api_cloud_memilih_model_ai_untuk_data_bisnis } from "./llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis";
+import { body as b_arsitektur_multi_tenant_untuk_membangun_produk_saas } from "./arsitektur-multi-tenant-untuk-membangun-produk-saas";
+import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./sales-and-operations-planning-sop-dengan-data-erp";
+import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
+import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
   "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": b_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag,
   "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga": b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga,
@@ -373,4 +378,9 @@ export const bodies: Record<string, Block[]> = {
   "agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis": b_agen_suara_ai_untuk_layanan_pelanggan_dan_telepon_bisnis,
   "dapur-pusat-central-kitchen-dan-resep-standar-untuk-jaringan-fnb": b_dapur_pusat_central_kitchen_dan_resep_standar_untuk_jaringan_fnb,
   "landed-cost-menghitung-biaya-barang-impor-di-erp": b_landed_cost_menghitung_biaya_barang_impor_di_erp,
+  "llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis": b_llm_self_hosted_atau_api_cloud_memilih_model_ai_untuk_data_bisnis,
+  "arsitektur-multi-tenant-untuk-membangun-produk-saas": b_arsitektur_multi_tenant_untuk_membangun_produk_saas,
+  "sales-and-operations-planning-sop-dengan-data-erp": b_sales_and_operations_planning_sop_dengan_data_erp,
+  "sistem-manajemen-rental-dan-penyewaan-peralatan": b_sistem_manajemen_rental_dan_penyewaan_peralatan,
+  "pemetaan-proses-bisnis-sebelum-membangun-software": b_pemetaan_proses_bisnis_sebelum_membangun_software,
 };

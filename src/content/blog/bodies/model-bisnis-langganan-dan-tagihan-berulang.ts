@@ -57,6 +57,7 @@ export const body: Block[] = [
     alt: "Pelanggan menempelkan kartu pembayaran ke mesin pembaca nontunai",
     caption: "Metode pembayaran yang dipilih menentukan seberapa mulus tagihan berikutnya bisa ditarik.",
   },
+  { type: "p", text: "Jika yang Anda jual adalah aplikasi berlangganan untuk banyak perusahaan, mesin tagihan ini perlu berjalan di atas fondasi yang tepat: satu aplikasi yang melayani banyak pelanggan dengan data terpisah. Pilihan model isolasi data dan dampaknya terhadap biaya dibahas di artikel [arsitektur multi-tenant untuk produk SaaS](/blog/arsitektur-multi-tenant-untuk-membangun-produk-saas)." },
   { type: "h2", text: "Metode pembayaran untuk tagihan berulang" },
   { type: "p", text: "Tidak semua metode pembayaran mendukung penarikan otomatis. Kartu dan sebagian dompet digital dapat ditagih berulang setelah pelanggan memberi persetujuan sekali. Transfer bank dan pembayaran lewat kode umumnya memerlukan tindakan pelanggan setiap periode, sehingga Anda perlu mengirim tagihan dan pengingat." },
   { type: "p", text: "Pilihan ini berpengaruh besar pada tingkat keberhasilan penagihan. Penarikan otomatis menghilangkan lupa bayar, tetapi tidak semua pelanggan memiliki atau mau memakai metode yang mendukungnya. Tagihan manual menjangkau lebih banyak orang, tetapi setiap periode menjadi kesempatan bagi pelanggan untuk menunda. Banyak bisnis menyediakan keduanya dan mendorong pelanggan memilih penarikan otomatis." },

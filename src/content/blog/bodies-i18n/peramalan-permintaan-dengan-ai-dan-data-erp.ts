@@ -66,6 +66,7 @@ const en: Block[] = [
   { type: "image", src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3", alt: "A laptop displaying a dashboard with charts and report tables", caption: "A good forecasting dashboard shows the numbers, the range of uncertainty, and the items that need attention." },
   { type: "h3", text: "The role of human judgement" },
   { type: "p", text: "Sales and marketing teams often know things that are not in the data: a large customer opening a new branch, a competitor running out of stock, or a campaign launching next month. A good system leaves room for manual adjustments but records who changed what, by how much, and why. With that record, the company can judge whether manual adjustments actually improve forecasts or add bias." },
+  { type: "p", text: "To make sure forecasts are actually used, many companies discuss them in a monthly cross-department meeting that brings sales, supply, and financial plans together. This process is explained in the article on [Sales and Operations Planning (S&OP) with ERP data](/blog/sales-and-operations-planning-sop-dengan-data-erp)." },
   { type: "h2", text: "How to start" },
   {
     type: "ol",
@@ -167,6 +168,7 @@ const zh: Block[] = [
   { type: "image", src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3", alt: "笔记本电脑上显示包含图表和报表的仪表板", caption: "好的预测仪表板会显示数字、不确定性范围以及需要关注的物料。" },
   { type: "h3", text: "人工判断的作用" },
   { type: "p", text: "销售和营销团队常常掌握数据中没有的信息：大客户即将开设新分店、竞争对手正在断货，或下个月将推出一项营销活动。好的系统会为人工调整留出空间，但会记录是谁修改的、调整幅度多大以及原因是什么。有了这些记录，企业就能判断人工调整究竟是改善了预测，还是增加了偏差。" },
+  { type: "p", text: "为了让预测真正被采用，许多企业会在每月的跨部门会议上讨论预测结果，把销售、供应和财务计划整合在一起。这一流程详见[基于 ERP 数据的销售与运营计划（S&OP）](/blog/sales-and-operations-planning-sop-dengan-data-erp)一文。" },
   { type: "h2", text: "如何起步" },
   {
     type: "ol",

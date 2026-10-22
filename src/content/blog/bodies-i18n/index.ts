@@ -125,6 +125,11 @@ import { translations as t_memilih_teknologi_aplikasi_mobile_flutter_react_nativ
 import { translations as t_composable_erp_sistem_modular_dan_api_first_untuk_bisnis_menengah } from "./composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah";
 import { translations as t_peramalan_permintaan_dengan_ai_dan_data_erp } from "./peramalan-permintaan-dengan-ai-dan-data-erp";
 import { translations as t_kesiapan_data_perusahaan_sebelum_memulai_proyek_ai } from "./kesiapan-data-perusahaan-sebelum-memulai-proyek-ai";
+import { translations as t_llm_self_hosted_atau_api_cloud_memilih_model_ai_untuk_data_bisnis } from "./llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis";
+import { translations as t_arsitektur_multi_tenant_untuk_membangun_produk_saas } from "./arsitektur-multi-tenant-untuk-membangun-produk-saas";
+import { translations as t_sales_and_operations_planning_sop_dengan_data_erp } from "./sales-and-operations-planning-sop-dengan-data-erp";
+import { translations as t_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
+import { translations as t_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export type BodyTranslations = { en: Block[]; zh: Block[] };
 
 /**
@@ -259,4 +264,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis": t_agen_suara_ai_untuk_layanan_pelanggan_dan_telepon_bisnis,
   "dapur-pusat-central-kitchen-dan-resep-standar-untuk-jaringan-fnb": t_dapur_pusat_central_kitchen_dan_resep_standar_untuk_jaringan_fnb,
   "landed-cost-menghitung-biaya-barang-impor-di-erp": t_landed_cost_menghitung_biaya_barang_impor_di_erp,
+  "llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis": t_llm_self_hosted_atau_api_cloud_memilih_model_ai_untuk_data_bisnis,
+  "arsitektur-multi-tenant-untuk-membangun-produk-saas": t_arsitektur_multi_tenant_untuk_membangun_produk_saas,
+  "sales-and-operations-planning-sop-dengan-data-erp": t_sales_and_operations_planning_sop_dengan_data_erp,
+  "sistem-manajemen-rental-dan-penyewaan-peralatan": t_sistem_manajemen_rental_dan_penyewaan_peralatan,
+  "pemetaan-proses-bisnis-sebelum-membangun-software": t_pemetaan_proses_bisnis_sebelum_membangun_software,
 };

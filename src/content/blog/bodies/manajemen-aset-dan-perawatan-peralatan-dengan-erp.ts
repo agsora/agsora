@@ -69,6 +69,7 @@ export const body: Block[] = [
     "Sistem menyimpan seluruh riwayat dan memperbarui biaya total aset",
   ] },
   { type: "p", text: "Langkah terakhir sering diabaikan. Aset yang dinyatakan selesai oleh teknisi tetapi masih bermasalah bagi pemakainya akan menghasilkan laporan berulang yang menghabiskan kepercayaan. Konfirmasi dari pemakai adalah pemeriksaan mutu yang murah dan efektif." },
+  { type: "p", text: "Bagi perusahaan yang menyewakan peralatan kepada pelanggan, perawatan terjadwal perlu terhubung langsung dengan kalender sewa, agar unit yang jatuh tempo servis tidak ikut dipesan. Pembahasannya ada di artikel [sistem manajemen rental dan penyewaan peralatan](/blog/sistem-manajemen-rental-dan-penyewaan-peralatan)." },
   { type: "h2", text: "Memahami biaya total kepemilikan" },
   { type: "p", text: "Harga beli hanyalah satu bagian dari biaya sebuah aset. Ada biaya energi, perawatan, suku cadang, pelatihan operator, asuransi, dan waktu henti. Dua mesin dengan harga beli sama bisa memiliki biaya total yang jauh berbeda setelah beberapa tahun, tergantung kemudahan perawatan dan ketersediaan suku cadangnya." },
   { type: "p", text: "Dengan data riwayat dari sistem, Anda dapat membandingkan merek atau model berdasarkan pengalaman nyata, bukan brosur. Saat membeli aset berikutnya, gunakan data itu: berapa sering model sebelumnya rusak, seberapa cepat vendor merespons, dan apakah suku cadangnya mudah didapat. Keputusan pembelian yang lebih baik adalah hasil jangka panjang dari pencatatan yang disiplin." },

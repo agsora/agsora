@@ -66,6 +66,7 @@ export const body: Block[] = [
   { type: "image", src: "/blog/images/photo-1504868584819-f8e8b4b6d7e3", alt: "Laptop menampilkan dashboard berisi grafik dan tabel laporan", caption: "Dashboard ramalan yang baik menunjukkan angka, rentang ketidakpastian, dan barang yang perlu perhatian." },
   { type: "h3", text: "Peran penilaian manusia" },
   { type: "p", text: "Tim penjualan dan pemasaran sering tahu hal yang tidak ada di data: pelanggan besar yang akan membuka cabang baru, pesaing yang sedang kehabisan stok, atau kampanye yang akan diluncurkan bulan depan. Sistem yang baik memberi ruang bagi penyesuaian manual, tetapi mencatat siapa yang mengubah, berapa besar, dan alasannya. Dengan catatan ini, perusahaan bisa menilai apakah penyesuaian manual benar-benar memperbaiki ramalan atau justru menambah bias." },
+  { type: "p", text: "Agar ramalan benar-benar dipakai, banyak perusahaan membahasnya dalam rapat bulanan lintas departemen yang menyatukan rencana penjualan, pasokan, dan keuangan. Proses ini dijelaskan di artikel [Sales and Operations Planning (S&OP) dengan data ERP](/blog/sales-and-operations-planning-sop-dengan-data-erp)." },
   { type: "h2", text: "Langkah memulai" },
   {
     type: "ol",

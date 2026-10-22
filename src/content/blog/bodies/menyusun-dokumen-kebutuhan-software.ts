@@ -38,6 +38,7 @@ export const body: Block[] = [
     type: "p",
     text: "Ini kesalahpahaman yang umum. Banyak pemilik bisnis merasa harus memahami istilah teknis atau menentukan teknologi yang dipakai sebelum bisa menghubungi vendor. Padahal, bagian teknis adalah pekerjaan vendor. Yang dibutuhkan dari Anda adalah pemahaman yang jelas tentang masalah, pengguna, dan hasil yang diinginkan.",
   },
+  { type: "p", text: "Sebelum menulis dokumen ini, ada baiknya menggambar dulu alur kerja yang akan didukung sistem, dari awal sampai akhir, bersama orang yang mengerjakannya. Caranya dijelaskan di artikel [pemetaan proses bisnis sebelum membangun software](/blog/pemetaan-proses-bisnis-sebelum-membangun-software)." },
   { type: "h2", text: "Isi yang sebaiknya ada" },
   { type: "h3", text: "1. Latar belakang" },
   {

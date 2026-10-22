@@ -43,6 +43,7 @@ const en: Block[] = [
   { type: "p", text: "The rule employees find easiest to grasp is dividing data into levels. Public data, such as published marketing material, may be used in any tool. Ordinary internal data, such as draft procedures, may only be used in approved tools. Confidential data, such as customer lists, client specific prices, and core source code, may only be used in environments whose security has been assessed and that fit contracts." },
   { type: "p", text: "Sensitive personal data, such as health, personal finances, and identity documents, requires the strictest treatment and generally must not be entered into AI tools without a clear legal basis and safeguards. When in doubt, employees must know that the answer is to ask, not to guess." },
   { type: "callout", title: "Provide a safe path, don't only prohibit", text: "A total ban pushes employees to use personal tools quietly, which is more dangerous. Provide official tools with suitable privacy settings, explain how to use them, and make it easy to request approval of new tools." },
+  { type: "p", text: "This classification also determines where AI models may run. Public and internal data can generally be processed through a cloud API on a business plan, while confidential data may need a model on a private endpoint or your own servers. The trade-offs are covered in the article on [self-hosted LLMs versus cloud APIs](/blog/llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis)." },
   { type: "h2", text: "Assessing tools and use cases" },
   { type: "p", text: "Not all AI use carries the same risk. Summarising a public article is very different from screening job applicants. A risk based approach helps match oversight effort to potential impact." },
   { type: "ul", items: [
@@ -144,6 +145,7 @@ const zh: Block[] = [
   { type: "p", text: "员工最容易理解的规则，是把数据分成若干等级。公开数据，如已发布的营销材料，可以在任何工具中使用。普通内部数据，如流程草稿，只能在已批准的工具中使用。机密数据，如客户名单、客户专属价格和核心源代码，只能在已评估过安全性且符合合同要求的环境中使用。" },
   { type: "p", text: "敏感个人数据，如健康、个人财务和身份证件，需要最严格的处理，在没有明确法律依据和保护措施的情况下，一般不得输入 AI 工具。有疑问时，员工要知道答案是询问，而不是猜测。" },
   { type: "callout", title: "提供安全的路径，而不只是禁止", text: "全面禁止会促使员工悄悄使用个人工具，这反而更危险。提供隐私设置合适的正式工具，说明使用方法，并让申请批准新工具的流程变得容易。" },
+  { type: "p", text: "这种分类还决定了 AI 模型可以在哪里运行。公开和内部数据通常可以通过商业版云端 API 处理，而机密数据可能需要使用私有端点或自有服务器上的模型。相关取舍详见[自托管 LLM 还是云端 API](/blog/llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis)一文。" },
   { type: "h2", text: "评估工具与使用场景" },
   { type: "p", text: "并非所有 AI 使用的风险都相同。总结一篇公开文章与筛选求职者有天壤之别。基于风险的方法有助于使监督力度与潜在影响相匹配。" },
   { type: "ul", items: [

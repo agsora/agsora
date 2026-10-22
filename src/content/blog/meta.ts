@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis",
+    title: "LLM Self-Hosted atau API Cloud: Memilih Model AI yang Aman untuk Data Bisnis",
+    excerpt: "Perbedaan LLM yang dijalankan sendiri dan API cloud, privasi data, perhitungan biaya yang jujur, risiko yang sering terlewat, dan pola campuran berdasarkan sensitivitas data.",
+    category: "Teknologi",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["ai","keamanan","infrastruktur"],
+    titleTranslations: {
+      en: "Self-Hosted LLM or Cloud API: Choosing a Secure AI Model for Business Data",
+      zh: "自托管 LLM 还是云端 API：为企业数据选择安全的 AI 模型",
+    },
+    excerptTranslations: {
+      en: "The difference between self-hosted LLMs and cloud APIs, data privacy, honest cost calculation, overlooked risks, and a mixed pattern that routes requests by data sensitivity.",
+      zh: "自托管大语言模型与云端 API 的区别、数据隐私、诚实的成本计算、常被忽视的风险，以及按数据敏感度分流请求的混合模式。",
+    },
+  },
+  {
+    slug: "arsitektur-multi-tenant-untuk-membangun-produk-saas",
+    title: "Arsitektur Multi-Tenant untuk Membangun Produk SaaS: Model Isolasi Data dan Cara Memilihnya",
+    excerpt: "Tiga model isolasi data multi-tenant, risiko kebocoran antar tenant, masalah tetangga yang berisik, kebutuhan keamanan pelanggan B2B, dan cara memilih model sesuai tahap bisnis.",
+    category: "Teknologi",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["saas","custom-software","infrastruktur"],
+    titleTranslations: {
+      en: "Multi-Tenant Architecture for Building a SaaS Product: Data Isolation Models and How to Choose",
+      zh: "构建 SaaS 产品的多租户架构：数据隔离模式及选择方法",
+    },
+    excerptTranslations: {
+      en: "Three multi-tenant data isolation models, cross-tenant leak risks, the noisy neighbor problem, B2B security requirements, and how to choose a model for your business stage.",
+      zh: "三种多租户数据隔离模式、租户间数据泄露风险、吵闹邻居问题、B2B 客户的安全要求，以及如何根据业务阶段选择合适的模式。",
+    },
+  },
+  {
+    slug: "sales-and-operations-planning-sop-dengan-data-erp",
+    title: "Sales and Operations Planning (S&OP) dengan Data ERP: Satu Rencana untuk Penjualan, Stok, dan Keuangan",
+    excerpt: "Siklus S&OP bulanan, data ERP yang dibutuhkan, peran ramalan permintaan dan AI, menyeimbangkan permintaan dan pasokan, kesalahan umum, dan cara memulainya di perusahaan menengah.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["erp","inventori","pelaporan"],
+    titleTranslations: {
+      en: "Sales and Operations Planning (S&OP) with ERP Data: One Plan for Sales, Stock, and Finance",
+      zh: "基于 ERP 数据的销售与运营计划（S&OP）：销售、库存与财务的统一计划",
+    },
+    excerptTranslations: {
+      en: "The monthly S&OP cycle, the ERP data it needs, the role of demand forecasting and AI, balancing demand and supply, common mistakes, and how to start in a mid-sized company.",
+      zh: "S&OP 月度循环、所需的 ERP 数据、需求预测与 AI 的作用、平衡需求与供应、常见错误，以及中型企业如何起步。",
+    },
+  },
+  {
+    slug: "sistem-manajemen-rental-dan-penyewaan-peralatan",
+    title: "Sistem Manajemen Rental dan Penyewaan Peralatan: Ketersediaan, Perawatan, dan Utilisasi Aset",
+    excerpt: "Fitur inti sistem rental, alur dari reservasi sampai pengembalian, pemeriksaan unit bergambar, perawatan terjadwal, indikator utilisasi, integrasi, dan pilihan software jadi atau khusus.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["industri","operasional","custom-software"],
+    titleTranslations: {
+      en: "Equipment Rental Management Systems: Availability, Maintenance, and Asset Utilization",
+      zh: "设备租赁管理系统：可用性、保养与资产利用率",
+    },
+    excerptTranslations: {
+      en: "Core rental system features, the flow from reservation to return, photo-backed unit inspections, scheduled maintenance, utilization indicators, integrations, and off-the-shelf versus custom.",
+      zh: "租赁系统的核心功能、从预订到归还的流程、附照片的设备检查、定期保养、利用率指标、系统集成，以及现成软件与定制系统的选择。",
+    },
+  },
+  {
+    slug: "pemetaan-proses-bisnis-sebelum-membangun-software",
+    title: "Pemetaan Proses Bisnis Sebelum Membangun Software: Dari Peta As-Is ke Kebutuhan Sistem",
+    excerpt: "Cara memetakan proses kondisi saat ini dan yang diinginkan, menjalankan lokakarya, memilih notasi swimlane atau BPMN, menemukan pemborosan, dan mengubah peta menjadi kebutuhan software.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["implementasi","operasional","custom-software"],
+    titleTranslations: {
+      en: "Business Process Mapping Before Building Software: From As-Is Maps to System Requirements",
+      zh: "开发软件之前的业务流程梳理：从现状图到系统需求",
+    },
+    excerptTranslations: {
+      en: "How to map current and future state processes, run a workshop, choose swimlane or BPMN notation, find waste, and turn the map into software requirements.",
+      zh: "如何绘制现状与目标流程图、组织工作坊、选择泳道图或 BPMN、发现浪费，并把流程图转化为软件需求。",
+    },
+  },
+  {
     slug: "otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp",
     title: "Otomatisasi Utang Usaha (AP) dan Pencocokan Tiga Arah di ERP: Bayar Tagihan Pemasok Tanpa Salah",
     excerpt: "Cara pencocokan dua, tiga, dan empat arah bekerja, menetapkan toleransi selisih, menangani pengecualian, peran AI dan OCR, serta langkah menerapkan otomatisasi AP di ERP.",
@@ -232,7 +317,7 @@ export const meta: PostMeta[] = [
     excerpt: "Data ERP yang dibutuhkan, metode statistik hingga machine learning, mengukur akurasi dan bias ramalan, serta menghubungkannya ke stok pengaman dan pesanan pembelian.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-20",
-    updatedAt: "2026-10-20",
+    updatedAt: "2026-10-22",
     tags: ["ai","inventori","data"],
     titleTranslations: {
       en: "Demand Forecasting with AI and ERP Data: A Realistic Guide for Stock and Purchasing",
@@ -504,7 +589,7 @@ export const meta: PostMeta[] = [
     excerpt: "Risiko AI di tempat kerja, unsur kebijakan penggunaan AI, klasifikasi data, penilaian alat, pengawasan manusia, pelatihan, dan peninjauan berkala.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-22",
     tags: ["ai","keamanan","operasional"],
     titleTranslations: {
       en: "AI Usage Policy and AI Governance in the Company: Safe and Responsible",
@@ -946,7 +1031,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-22",
     tags: ["erp","operasional","inventori","biaya"],
     titleTranslations: {
       en: "Asset Management and Equipment Maintenance with ERP: From Asset Register to Replacement Decisions",
@@ -1422,7 +1507,7 @@ export const meta: PostMeta[] = [
     excerpt: "Langganan mengubah cara menagih, mencatat, dan melayani. Kecocokan model, rancangan paket dan harga, mesin tagihan berulang, pembayaran gagal, pembatalan yang jujur, pencatatan pendapatan, dan ukuran retensi.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-10-22",
     tags: ["pembayaran","pelanggan","saas","keuangan","ecommerce"],
     titleTranslations: {
       en: "The Subscription Business Model and Recurring Billing: More Predictable Revenue and How to Manage It",
@@ -2410,6 +2495,7 @@ export const meta: PostMeta[] = [
     excerpt: "Dokumen kebutuhan yang sederhana membuat penawaran dari vendor bisa dibandingkan, dan mencegah salah paham yang mahal di tengah project.",
     category: "Panduan Memilih",
     publishedAt: "2026-08-23",
+    updatedAt: "2026-10-22",
     tags: [
       "vendor",
       "custom-software",
