@@ -202,7 +202,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   {
     type: "p",
-    text: "Chatbot yang baik bukan yang mencoba menjawab segalanya, melainkan yang tahu batasannya sendiri. Fokuskan pada pertanyaan berulang dengan jawaban pasti, sediakan jalur cepat ke manusia untuk sisanya, dan rawat chatbot Anda seperti karyawan baru yang terus belajar, bukan sistem yang dipasang lalu dilupakan.",
+    text: "Chatbot yang baik bukan yang mencoba menjawab segalanya, melainkan yang tahu batasannya sendiri. Fokuskan pada pertanyaan berulang dengan jawaban pasti, sediakan jalur cepat ke manusia untuk sisanya, dan rawat chatbot Anda seperti karyawan baru yang terus belajar, bukan sistem yang dipasang lalu dilupakan. Prinsip yang sama berlaku untuk kanal telepon, yang dibahas dalam artikel [agen suara AI untuk layanan pelanggan](/blog/agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis).",
   },
   {
     type: "cta",

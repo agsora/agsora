@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_otomatisasi_utang_usaha_dan_pencocokan_tiga_arah_di_erp } from "./otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp";
+import { body as b_utang_teknis_technical_debt_mengukur_dan_melunasinya } from "./utang-teknis-technical-debt-mengukur-dan-melunasinya";
+import { body as b_agen_suara_ai_untuk_layanan_pelanggan_dan_telepon_bisnis } from "./agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis";
+import { body as b_dapur_pusat_central_kitchen_dan_resep_standar_untuk_jaringan_fnb } from "./dapur-pusat-central-kitchen-dan-resep-standar-untuk-jaringan-fnb";
+import { body as b_landed_cost_menghitung_biaya_barang_impor_di_erp } from "./landed-cost-menghitung-biaya-barang-impor-di-erp";
 import { body as b_erp_untuk_kontraktor_dan_perusahaan_konstruksi } from "./erp-untuk-kontraktor-dan-perusahaan-konstruksi";
 import { body as b_keamanan_aplikasi_ai_prompt_injection_dan_kebocoran_data } from "./keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data";
 import { body as b_manajemen_armada_dan_transportasi_dengan_gps_dan_erp } from "./manajemen-armada-dan-transportasi-dengan-gps-dan-erp";
@@ -363,4 +368,9 @@ export const bodies: Record<string, Block[]> = {
   "manajemen-armada-dan-transportasi-dengan-gps-dan-erp": b_manajemen_armada_dan_transportasi_dengan_gps_dan_erp,
   "model-harga-proyek-software-fixed-price-time-and-material-retainer": b_model_harga_proyek_software_fixed_price_time_and_material_retainer,
   "kendali-mutu-qc-di-manufaktur-dengan-erp": b_kendali_mutu_qc_di_manufaktur_dengan_erp,
+  "otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp": b_otomatisasi_utang_usaha_dan_pencocokan_tiga_arah_di_erp,
+  "utang-teknis-technical-debt-mengukur-dan-melunasinya": b_utang_teknis_technical_debt_mengukur_dan_melunasinya,
+  "agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis": b_agen_suara_ai_untuk_layanan_pelanggan_dan_telepon_bisnis,
+  "dapur-pusat-central-kitchen-dan-resep-standar-untuk-jaringan-fnb": b_dapur_pusat_central_kitchen_dan_resep_standar_untuk_jaringan_fnb,
+  "landed-cost-menghitung-biaya-barang-impor-di-erp": b_landed_cost_menghitung_biaya_barang_impor_di_erp,
 };

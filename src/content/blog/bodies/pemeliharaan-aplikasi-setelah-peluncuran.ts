@@ -65,7 +65,7 @@ export const body: Block[] = [
   },
   {
     type: "p",
-    text: "Mencegah masalah sebelum terjadi: memperbarui pustaka dan kerangka kerja, menambal celah keamanan, memperpanjang sertifikat, memeriksa konfigurasi server, dan meninjau hak akses. Pekerjaan ini jarang terlihat dari luar, tetapi sering kali menentukan apakah bisnis Anda aman dari insiden yang merugikan.",
+    text: "Mencegah masalah sebelum terjadi: memperbarui pustaka dan kerangka kerja, menambal celah keamanan, memperpanjang sertifikat, memeriksa konfigurasi server, dan meninjau hak akses. Pekerjaan ini jarang terlihat dari luar, tetapi sering kali menentukan apakah bisnis Anda aman dari insiden yang merugikan. Pekerjaan ini juga mencicil utang teknis, yang cara mengukur dan memprioritaskannya dibahas dalam [utang teknis pada aplikasi bisnis](/blog/utang-teknis-technical-debt-mengukur-dan-melunasinya).",
   },
   {
     type: "h3",

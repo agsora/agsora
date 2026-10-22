@@ -65,7 +65,7 @@ const en: Block[] = [
   },
   {
     type: "p",
-    text: "Preventing problems before they happen: updating libraries and frameworks, patching security flaws, renewing certificates, checking server configuration, and reviewing access rights. This work is rarely visible from outside, but it often determines whether your business is safe from damaging incidents.",
+    text: "Preventing problems before they happen: updating libraries and frameworks, patching security flaws, renewing certificates, checking server configuration, and reviewing access rights. This work is rarely visible from outside, but it often determines whether your business is safe from damaging incidents. This work also pays down technical debt; how to measure and prioritize it is covered in [technical debt in business applications](/blog/utang-teknis-technical-debt-mengukur-dan-melunasinya).",
   },
   {
     type: "h3",
@@ -256,7 +256,7 @@ const zh: Block[] = [
   },
   {
     type: "p",
-    text: "在问题发生之前预防:更新库和框架、修补安全漏洞、续期证书、检查服务器配置以及审查访问权限。这类工作从外部很少看得见,却往往决定了你的企业是否能免于有害的事故。",
+    text: "在问题发生之前预防:更新库和框架、修补安全漏洞、续期证书、检查服务器配置以及审查访问权限。这类工作从外部很少看得见,却往往决定了你的企业是否能免于有害的事故。这类工作也是在偿还技术债务，如何衡量并排定优先级，详见 [业务应用中的技术债务](/blog/utang-teknis-technical-debt-mengukur-dan-melunasinya)。",
   },
   {
     type: "h3",

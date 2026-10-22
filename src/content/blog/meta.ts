@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp",
+    title: "Otomatisasi Utang Usaha (AP) dan Pencocokan Tiga Arah di ERP: Bayar Tagihan Pemasok Tanpa Salah",
+    excerpt: "Cara pencocokan dua, tiga, dan empat arah bekerja, menetapkan toleransi selisih, menangani pengecualian, peran AI dan OCR, serta langkah menerapkan otomatisasi AP di ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["erp","keuangan","otomasi"],
+    titleTranslations: {
+      en: "Accounts Payable Automation and Three Way Matching in ERP: Paying Supplier Invoices Without Errors",
+      zh: "ERP 中的应付账款自动化与三单匹配：准确无误地支付供应商发票",
+    },
+    excerptTranslations: {
+      en: "How two, three, and four way matching work, setting variance tolerances, handling exceptions, the role of AI and OCR, and steps to implement AP automation in the ERP.",
+      zh: "两单、三单和四单匹配如何运作，如何设定差异容差、处理例外、AI 与 OCR 的作用，以及在 ERP 中实施应付账款自动化的步骤。",
+    },
+  },
+  {
+    slug: "utang-teknis-technical-debt-mengukur-dan-melunasinya",
+    title: "Utang Teknis (Technical Debt) pada Aplikasi Bisnis: Cara Mengukur, Memprioritaskan, dan Melunasinya",
+    excerpt: "Penjelasan utang teknis dalam bahasa bisnis, jenis-jenisnya, indikator untuk mengukurnya, cara memprioritaskan, strategi pelunasan, dan cara membicarakannya dengan manajemen.",
+    category: "Teknologi",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["custom-software","biaya","implementasi"],
+    titleTranslations: {
+      en: "Technical Debt in Business Applications: How to Measure, Prioritize, and Pay It Down",
+      zh: "业务应用中的技术债务：如何衡量、排定优先级并逐步偿还",
+    },
+    excerptTranslations: {
+      en: "Technical debt explained in business terms, its types, indicators to measure it, how to prioritize, repayment strategies, and how to discuss it with management.",
+      zh: "用商业语言解释技术债务、它的类型、衡量指标、优先级排序方法、偿还策略，以及如何与管理层沟通。",
+    },
+  },
+  {
+    slug: "agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis",
+    title: "Agen Suara AI (Voice AI) untuk Layanan Pelanggan dan Telepon Bisnis: Kasus Penggunaan dan Cara Menerapkannya",
+    excerpt: "Cara kerja agen suara AI, kasus penggunaan realistis seperti jadwal dan status pesanan, integrasi dengan sistem bisnis, keamanan dan privasi, serta langkah menerapkannya bertahap.",
+    category: "Teknologi",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["ai","pelanggan","otomasi"],
+    titleTranslations: {
+      en: "Voice AI Agents for Customer Service and Business Phone Lines: Use Cases and How to Implement Them",
+      zh: "用于客户服务和企业电话的 AI 语音代理：应用场景与实施方法",
+    },
+    excerptTranslations: {
+      en: "How voice AI agents work, realistic use cases such as scheduling and order status, integration with business systems, security and privacy, and steps to roll out in stages.",
+      zh: "AI 语音代理的工作原理、预约和订单状态等切实可行的应用场景、与业务系统的集成、安全与隐私，以及分阶段落地的步骤。",
+    },
+  },
+  {
+    slug: "dapur-pusat-central-kitchen-dan-resep-standar-untuk-jaringan-fnb",
+    title: "Dapur Pusat (Central Kitchen) dan Resep Standar untuk Jaringan F&B: Rasa Seragam, Biaya Terkendali",
+    excerpt: "Kapan jaringan F&B butuh dapur pusat, resep standar bertingkat, pesanan cabang berbasis data, batch dan kedaluwarsa, HPP per menu, serta pemakaian teoretis dan aktual.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["fnb","inventori","multi-cabang"],
+    titleTranslations: {
+      en: "Central Kitchen and Standard Recipes for F&B Chains: Consistent Taste, Controlled Costs",
+      zh: "餐饮连锁的中央厨房与标准配方：口味统一，成本可控",
+    },
+    excerptTranslations: {
+      en: "When an F&B chain needs a central kitchen, multi level standard recipes, data driven branch orders, batches and expiry, cost per dish, and theoretical versus actual usage.",
+      zh: "餐饮连锁何时需要中央厨房、多级标准配方、基于数据的门店订货、批次与保质期、每道菜品成本，以及理论用量与实际用量对比。",
+    },
+  },
+  {
+    slug: "landed-cost-menghitung-biaya-barang-impor-di-erp",
+    title: "Landed Cost: Menghitung Biaya Sebenarnya Barang Impor di ERP",
+    excerpt: "Komponen landed cost, perlakuan bea masuk dan pajak impor, dasar alokasi biaya per barang, pengaruh kurs, estimasi biaya yang datang belakangan, dan cara ERP mengotomatiskannya.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-22",
+    updatedAt: "2026-10-22",
+    tags: ["erp","inventori","biaya"],
+    titleTranslations: {
+      en: "Landed Cost: Calculating the True Cost of Imported Goods in an ERP",
+      zh: "到岸成本：在 ERP 中计算进口货物的真实成本",
+    },
+    excerptTranslations: {
+      en: "Landed cost components, treatment of import duty and taxes, cost allocation bases per item, exchange rate effects, estimating late arriving costs, and how an ERP automates it.",
+      zh: "到岸成本的构成、进口关税和税费的处理、按商品分摊费用的基础、汇率影响、对较晚到达费用的估算，以及 ERP 如何自动完成计算。",
+    },
+  },
+  {
     slug: "erp-untuk-kontraktor-dan-perusahaan-konstruksi",
     title: "ERP untuk Kontraktor dan Perusahaan Konstruksi: Biaya Proyek, Subkontraktor, dan Penagihan Progres",
     excerpt: "Cara ERP membantu kontraktor mengendalikan anggaran dan biaya proyek, mengelola subkontraktor dan retensi, menagih berdasarkan progres, serta menerapkannya bertahap.",
@@ -317,7 +402,7 @@ export const meta: PostMeta[] = [
     excerpt: "Konsep mata uang fungsional, selisih kurs, transaksi antarperusahaan, konsolidasi laporan, pajak lintas negara, serta cara merancang dan menerapkan ERP untuk grup usaha.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-18",
+    updatedAt: "2026-10-22",
     tags: ["erp","keuangan","multi-cabang"],
     titleTranslations: {
       en: "Multi Currency and Multi Entity ERP: A Regional Expansion Guide",
@@ -385,7 +470,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen HPP, metode penilaian persediaan, pembebanan overhead, biaya standar dan varians, serta cara ERP menghitung dan memantau margin per produk.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-17",
+    updatedAt: "2026-10-22",
     tags: ["erp","keuangan","inventori"],
     titleTranslations: {
       en: "COGS and Product Cost Accounting in an ERP: Knowing Your True Margin",
@@ -657,7 +742,7 @@ export const meta: PostMeta[] = [
     excerpt: "Standar bersama, data penjualan waktu nyata, royalti transparan, pengadaan terpusat, pelatihan mitra, dan keseimbangan antara kendali pusat dan otonomi.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-10-15",
+    updatedAt: "2026-10-22",
     tags: ["multi-cabang","retail","pos"],
     titleTranslations: {
       en: "Franchise and Branch Network Management with a Centralised System: Growing Fast, Keeping the Brand Consistent",
@@ -1864,7 +1949,7 @@ export const meta: PostMeta[] = [
     excerpt: "Software yang tidak dirawat menurun pelan-pelan. Apa saja yang termasuk pemeliharaan, beda garansi dan pemeliharaan, cara menyusun perjanjian layanan, dan apa yang harus diserahterimakan saat peluncuran.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-06",
+    updatedAt: "2026-10-22",
     tags: ["implementasi", "keamanan", "infrastruktur", "biaya"],
     titleTranslations: {
       en: "Application Maintenance After Launch: Launch Is Not the Finish Line",
@@ -2337,6 +2422,7 @@ export const meta: PostMeta[] = [
     excerpt: "Chatbot bisa menjawab pertanyaan berulang kapan saja, tapi juga bisa membuat pelanggan frustrasi. Kuncinya ada pada batas yang ditetapkan sejak awal.",
     category: "Teknologi",
     publishedAt: "2026-08-19",
+    updatedAt: "2026-10-22",
     tags: [
       "ai",
       "otomasi",
@@ -2362,6 +2448,7 @@ export const meta: PostMeta[] = [
     excerpt: "Alur persetujuan pembelian dibuat untuk mengendalikan pengeluaran, tapi yang terlalu berlapis justru membuat operasional menunggu. Ini cara menyeimbangkannya.",
     category: "ERP & Operasional",
     publishedAt: "2026-08-15",
+    updatedAt: "2026-10-22",
     tags: [
       "erp",
       "keuangan",

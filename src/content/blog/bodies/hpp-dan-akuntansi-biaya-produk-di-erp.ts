@@ -16,7 +16,7 @@ export const body: Block[] = [
     ],
   },
   { type: "h2", text: "Apa yang termasuk dalam HPP" },
-  { type: "p", text: "Untuk bisnis dagang, HPP relatif sederhana: harga beli barang ditambah biaya yang melekat untuk membawanya ke gudang, seperti ongkos kirim masuk, bea, dan asuransi, dikurangi potongan pembelian. Harga yang tertera di faktur pemasok sering bukan biaya sebenarnya." },
+  { type: "p", text: "Untuk bisnis dagang, HPP relatif sederhana: harga beli barang ditambah biaya yang melekat untuk membawanya ke gudang, seperti ongkos kirim masuk, bea, dan asuransi, dikurangi potongan pembelian. Harga yang tertera di faktur pemasok sering bukan biaya sebenarnya. Bagi importir, cara membagi ongkos angkut, bea masuk, dan biaya pelabuhan ke setiap barang dibahas dalam artikel [landed cost barang impor](/blog/landed-cost-menghitung-biaya-barang-impor-di-erp)." },
   { type: "p", text: "Untuk bisnis manufaktur, HPP lebih berlapis. Bahan langsung adalah bahan yang menjadi bagian produk, misalnya kain pada pakaian. Tenaga kerja langsung adalah upah pekerja yang mengerjakan produk. Biaya overhead pabrik mencakup biaya tidak langsung seperti listrik, penyusutan mesin, sewa, perawatan, dan gaji penyelia." },
   { type: "p", text: "Untuk bisnis jasa, komponen utamanya adalah waktu staf dan biaya pendukung yang dapat dibebankan ke proyek atau klien. Tanpa pencatatan jam kerja per proyek, perusahaan jasa sulit mengetahui proyek mana yang menguntungkan." },
   { type: "image", src: "/blog/images/photo-1554224155-6726b3ff858f", alt: "Tumpukan formulir, nota, dan kalkulator di atas meja", caption: "Nota pembelian, ongkos kirim, dan biaya produksi harus tercatat agar HPP mencerminkan kenyataan." },
