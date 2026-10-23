@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_core_web_vitals_lcp_inp_cls_panduan_untuk_website_bisnis } from "./core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis";
+import { body as b_rpa_api_atau_ai_agent_memilih_pendekatan_otomasi_proses_bisnis } from "./rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis";
+import { body as b_manajemen_konsinyasi_dan_titip_jual_dengan_erp } from "./manajemen-konsinyasi-dan-titip-jual-dengan-erp";
+import { body as b_erp_make_to_order_job_costing_untuk_percetakan_dan_fabrikasi } from "./erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi";
+import { body as b_rencana_respons_insiden_keamanan_siber_untuk_bisnis } from "./rencana-respons-insiden-keamanan-siber-untuk-bisnis";
 import { body as b_otomatisasi_utang_usaha_dan_pencocokan_tiga_arah_di_erp } from "./otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp";
 import { body as b_utang_teknis_technical_debt_mengukur_dan_melunasinya } from "./utang-teknis-technical-debt-mengukur-dan-melunasinya";
 import { body as b_agen_suara_ai_untuk_layanan_pelanggan_dan_telepon_bisnis } from "./agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis";
@@ -383,4 +388,9 @@ export const bodies: Record<string, Block[]> = {
   "sales-and-operations-planning-sop-dengan-data-erp": b_sales_and_operations_planning_sop_dengan_data_erp,
   "sistem-manajemen-rental-dan-penyewaan-peralatan": b_sistem_manajemen_rental_dan_penyewaan_peralatan,
   "pemetaan-proses-bisnis-sebelum-membangun-software": b_pemetaan_proses_bisnis_sebelum_membangun_software,
+  "core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis": b_core_web_vitals_lcp_inp_cls_panduan_untuk_website_bisnis,
+  "rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis": b_rpa_api_atau_ai_agent_memilih_pendekatan_otomasi_proses_bisnis,
+  "manajemen-konsinyasi-dan-titip-jual-dengan-erp": b_manajemen_konsinyasi_dan_titip_jual_dengan_erp,
+  "erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi": b_erp_make_to_order_job_costing_untuk_percetakan_dan_fabrikasi,
+  "rencana-respons-insiden-keamanan-siber-untuk-bisnis": b_rencana_respons_insiden_keamanan_siber_untuk_bisnis,
 };

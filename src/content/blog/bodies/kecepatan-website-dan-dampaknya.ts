@@ -163,6 +163,7 @@ export const body: Block[] = [
     type: "p",
     text: "Perlakukan halaman checkout dengan perhatian ekstra saat mengevaluasi kecepatan website, kurangi skrip pihak ketiga yang tidak esensial di halaman ini secara khusus, pastikan proses verifikasi pembayaran tidak menambah waktu tunggu yang tidak perlu, dan uji langsung proses pembayaran dari awal hingga selesai di kondisi jaringan yang mewakili pengunjung sesungguhnya. Sedikit perlambatan di halaman lain mungkin masih bisa ditoleransi pengunjung, tapi di halaman checkout, setiap detik tambahan adalah kesempatan bagi mereka untuk ragu dan membatalkan pembelian yang sudah hampir selesai.",
   },
+  { type: "p", text: "Untuk panduan teknis tentang tiga metrik yang dipakai Google menilai pengalaman halaman, baca [Core Web Vitals: LCP, INP, dan CLS](/blog/core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

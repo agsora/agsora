@@ -198,6 +198,7 @@ export const body: Block[] = [
     type: "p",
     text: "Membuat daftar sederhana berisi jenis data yang boleh dan tidak boleh diproses membantu seluruh tim mengambil keputusan yang konsisten, tanpa harus bertanya setiap kali ingin memakai alat AI untuk pekerjaan sehari-hari.",
   },
+  { type: "p", text: "Untuk memilih antara RPA, integrasi API, dan agen AI pada otomasi pertama Anda, baca [RPA, API, atau agen AI](/blog/rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

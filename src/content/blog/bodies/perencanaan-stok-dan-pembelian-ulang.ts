@@ -196,6 +196,7 @@ export const body: Block[] = [
     "type": "p",
     "text": "Perencanaan stok bukan proyek sekali jadi. Pola penjualan berubah, pemasok berganti, harga bergerak, dan produk baru masuk. Aturan yang tepat enam bulan lalu bisa tidak lagi cocok hari ini. Jadwalkan tinjauan rutin, misalnya bulanan, untuk memeriksa apakah titik pemesanan ulang dan stok pengaman masih masuk akal, barang mana yang mulai melambat, dan pemasok mana yang waktu tunggunya memburuk. Libatkan orang yang paling dekat dengan lapangan, karena mereka sering mengetahui perubahan sebelum data menunjukkannya."
   },
+  { type: "p", text: "Bila sebagian stok Anda berstatus titipan, pelajari pencatatannya di [manajemen konsinyasi dengan ERP](/blog/manajemen-konsinyasi-dan-titip-jual-dengan-erp)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

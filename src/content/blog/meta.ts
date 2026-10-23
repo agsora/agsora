@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis",
+    title: "Core Web Vitals (LCP, INP, CLS): Panduan Praktis Memperbaiki Kecepatan Website Bisnis",
+    excerpt: "Arti tiga metrik Core Web Vitals, cara mengecek skor di Search Console dan PageSpeed Insights, penyebab nilai buruk, dan urutan perbaikan yang memberi hasil terbesar.",
+    category: "Teknologi",
+    publishedAt: "2026-10-23",
+    updatedAt: "2026-10-23",
+    tags: ["website","seo","infrastruktur"],
+    titleTranslations: {
+      en: "Core Web Vitals (LCP, INP, CLS): A Practical Guide to Fixing Business Website Speed",
+      zh: "核心网页指标（LCP、INP、CLS）：改善企业网站速度的实用指南",
+    },
+    excerptTranslations: {
+      en: "What the three Core Web Vitals metrics mean, how to check scores in Search Console and PageSpeed Insights, causes of poor results, and the fix order with the biggest payoff.",
+      zh: "三项核心网页指标的含义、如何在 Search Console 和 PageSpeed Insights 中查看得分、成绩不佳的原因，以及回报最大的修复顺序。",
+    },
+  },
+  {
+    slug: "rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis",
+    title: "RPA, API, atau Agen AI: Memilih Pendekatan Otomasi Proses Bisnis yang Tepat",
+    excerpt: "Perbandingan RPA, integrasi API, dan agen AI: cara kerja, kapan masing-masing cocok, risiko tersembunyi, pola gabungan, dan kerangka keputusan lima pertanyaan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-23",
+    updatedAt: "2026-10-23",
+    tags: ["otomasi","ai","integrasi"],
+    titleTranslations: {
+      en: "RPA, API, or AI Agents: Choosing the Right Business Process Automation Approach",
+      zh: "RPA、API 还是 AI 智能体：选择合适的业务流程自动化方式",
+    },
+    excerptTranslations: {
+      en: "Comparing RPA, API integration, and AI agents: how each works, when each fits, hidden risks, combined patterns, and a five-question decision framework.",
+      zh: "对比 RPA、API 集成和 AI 智能体：各自如何运作、何时适用、隐藏的风险、组合模式，以及五个问题的决策框架。",
+    },
+  },
+  {
+    slug: "manajemen-konsinyasi-dan-titip-jual-dengan-erp",
+    title: "Manajemen Konsinyasi dan Titip Jual dengan ERP: Stok, Penjualan, dan Rekonsiliasi dengan Mitra",
+    excerpt: "Konsinyasi keluar dan masuk, pemisahan kepemilikan stok, laporan penjualan mitra, rekonsiliasi selisih, dampak arus kas, dan langkah menerapkannya di ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-23",
+    updatedAt: "2026-10-23",
+    tags: ["erp","inventori","keuangan"],
+    titleTranslations: {
+      en: "Consignment Management with ERP: Stock, Sales, and Reconciliation with Partners",
+      zh: "借助 ERP 管理寄售：库存、销售与合作方对账",
+    },
+    excerptTranslations: {
+      en: "Outbound and inbound consignment, separating stock ownership, partner sales reports, reconciling differences, cash flow impact, and steps to implement it in an ERP.",
+      zh: "寄出与寄入寄售、库存所有权分离、合作方销售报告、差异对账、对现金流的影响，以及在 ERP 中实施的步骤。",
+    },
+  },
+  {
+    slug: "erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi",
+    title: "ERP untuk Produksi Berbasis Pesanan (Make-to-Order): Job Costing bagi Percetakan dan Fabrikasi",
+    excerpt: "Alur dari estimasi sampai penagihan, job costing per pesanan, alokasi overhead, pengelolaan revisi, penjadwalan kapasitas, dan indikator margin untuk bisnis make-to-order.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-23",
+    updatedAt: "2026-10-23",
+    tags: ["erp","industri","biaya"],
+    titleTranslations: {
+      en: "ERP for Make-to-Order Production: Job Costing for Print Shops and Fabrication",
+      zh: "按订单生产的 ERP：印刷与加工制造企业的工单成本核算",
+    },
+    excerptTranslations: {
+      en: "The flow from estimate to billing, job costing per order, overhead allocation, revision handling, capacity scheduling, and margin indicators for make-to-order businesses.",
+      zh: "从估算到开票的流程、按订单的工单成本核算、制造费用分摊、修订管理、产能排程，以及按订单生产企业的利润率指标。",
+    },
+  },
+  {
+    slug: "rencana-respons-insiden-keamanan-siber-untuk-bisnis",
+    title: "Rencana Respons Insiden Keamanan Siber untuk Bisnis: Langkah dari Deteksi sampai Pemulihan",
+    excerpt: "Menyusun rencana respons insiden: peran tim, persiapan cadangan dan log, enam fase respons, skenario umum, kewajiban pemberitahuan data pribadi, dan latihan simulasi.",
+    category: "Teknologi",
+    publishedAt: "2026-10-23",
+    updatedAt: "2026-10-23",
+    tags: ["keamanan","infrastruktur","operasional"],
+    titleTranslations: {
+      en: "Cybersecurity Incident Response Plan for Business: Steps from Detection to Recovery",
+      zh: "企业网络安全事件响应计划：从发现到恢复的步骤",
+    },
+    excerptTranslations: {
+      en: "Building an incident response plan: team roles, backup and log preparation, six response phases, common scenarios, personal data notification duties, and tabletop exercises.",
+      zh: "制定事件响应计划：团队角色、备份与日志准备、六个响应阶段、常见场景、个人数据通知义务以及桌面推演。",
+    },
+  },
+  {
     slug: "llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis",
     title: "LLM Self-Hosted atau API Cloud: Memilih Model AI yang Aman untuk Data Bisnis",
     excerpt: "Perbedaan LLM yang dijalankan sendiri dan API cloud, privasi data, perhitungan biaya yang jujur, risiko yang sering terlewat, dan pola campuran berdasarkan sensitivitas data.",
@@ -436,7 +521,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu AI agent, bedanya dengan otomasi berbasis aturan, proses bisnis yang cocok, arsitektur dasar, kendali keamanan, cara mengukur hasil, dan langkah memulai.",
     category: "Teknologi",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-18",
+    updatedAt: "2026-10-23",
     tags: ["ai","otomasi","integrasi"],
     titleTranslations: {
       en: "AI Agents for Business Process Automation: A Safe and Realistic Guide",
@@ -555,7 +640,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen HPP, metode penilaian persediaan, pembebanan overhead, biaya standar dan varians, serta cara ERP menghitung dan memantau margin per produk.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-10-23",
     tags: ["erp","keuangan","inventori"],
     titleTranslations: {
       en: "COGS and Product Cost Accounting in an ERP: Knowing Your True Margin",
@@ -674,7 +759,7 @@ export const meta: PostMeta[] = [
     excerpt: "Ancaman siber yang paling sering menimpa UMKM dan langkah pertahanan murah: kebiasaan karyawan, autentikasi dua langkah, cadangan 3-2-1, pembaruan, dan rencana respons insiden.",
     category: "Teknologi",
     publishedAt: "2026-10-16",
-    updatedAt: "2026-10-16",
+    updatedAt: "2026-10-23",
     tags: ["keamanan","umkm","infrastruktur"],
     titleTranslations: {
       en: "Phishing, Ransomware, and Cybersecurity for Small Businesses: A Realistic Defence Guide",
@@ -1915,7 +2000,7 @@ export const meta: PostMeta[] = [
     excerpt: "Stok terlalu sedikit membuat pelanggan kecewa, terlalu banyak menahan modal. Konsep stok pengaman dan titik pemesanan ulang, pengelompokan barang, dan peran ERP dalam menjalankannya.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-06",
+    updatedAt: "2026-10-23",
     tags: ["inventori","erp","operasional","keuangan"],
     titleTranslations: {
       en: "Inventory Planning and Reordering: When to Order and How Much",
@@ -2355,6 +2440,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bukan soal mengganti orang, tapi memindahkan pekerjaan berulang yang menghabiskan waktu tanpa menambah nilai.",
     category: "Teknologi",
     publishedAt: "2026-08-06",
+    updatedAt: "2026-10-23",
     tags: [
       "ai",
       "otomasi",
@@ -2573,6 +2659,7 @@ export const meta: PostMeta[] = [
     excerpt: "Backup baru terasa penting saat data sudah hilang. Strategi yang baik bukan sekadar menyalin data, tapi memastikan data itu benar-benar bisa dipulihkan.",
     category: "Teknologi",
     publishedAt: "2026-08-07",
+    updatedAt: "2026-10-23",
     tags: [
       "infrastruktur",
       "keamanan",
@@ -2585,6 +2672,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
+    updatedAt: "2026-10-23",
     tags: [
       "seo",
       "website"
@@ -2696,6 +2784,7 @@ export const meta: PostMeta[] = [
     excerpt: "Website yang lambat kehilangan pengunjung sebelum mereka sempat membaca penawaran. Kecepatan juga termasuk hal yang diperhatikan mesin pencari.",
     category: "Website & Digital",
     publishedAt: "2026-07-18",
+    updatedAt: "2026-10-23",
     tags: [
       "website",
       "seo"
@@ -2817,7 +2906,7 @@ export const meta: PostMeta[] = [
     excerpt: "Manufaktur skala menengah sering terjebak di antara spreadsheet yang sudah tidak cukup dan sistem besar yang terlalu rumit. Ini kebutuhan yang biasanya paling mendesak.",
     category: "Panduan Industri",
     publishedAt: "2026-06-28",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-23",
     tags: [
       "industri",
       "inventori",
@@ -2855,6 +2944,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menjual di toko fisik dan beberapa marketplace sekaligus membuka pasar baru, sekaligus risiko menjual barang yang sebenarnya sudah habis.",
     category: "POS & Retail",
     publishedAt: "2026-06-22",
+    updatedAt: "2026-10-23",
     tags: [
       "pos",
       "ecommerce",

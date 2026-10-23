@@ -196,6 +196,7 @@ const en: Block[] = [
     "type": "p",
     "text": "Inventory planning isn't a one off project. Sales patterns change, suppliers switch, prices move, and new products come in. A rule that was right six months ago may no longer fit today. Schedule routine reviews, for example monthly, to check whether reorder points and safety stock still make sense, which items are starting to slow, and which suppliers' lead times are getting worse. Involve the people closest to the floor, because they often know of changes before the data shows them."
   },
+  { type: "p", text: "If part of your stock is held on consignment, learn how to record it in [consignment management with ERP](/blog/manajemen-konsinyasi-dan-titip-jual-dengan-erp)." },
   { type: "h2", text: "Closing" },
   {
     type: "p",
@@ -406,6 +407,7 @@ const zh: Block[] = [
     "type": "p",
     "text": "库存计划不是一次性的项目。销售规律会变化,供应商会更换,价格会波动,新产品会进来。六个月前正确的规则,今天可能已不再适用。安排例行复盘,例如每月一次,检查再订货点和安全库存是否仍然合理、哪些商品开始变慢,以及哪些供应商的交货周期在变差。让最贴近一线的人参与,因为他们往往在数据显示之前就知道变化。"
   },
+  { type: "p", text: "如果您的部分库存是寄售性质，请在[借助 ERP 管理寄售](/blog/manajemen-konsinyasi-dan-titip-jual-dengan-erp)中了解如何记录。" },
   { type: "h2", text: "结语" },
   {
     type: "p",

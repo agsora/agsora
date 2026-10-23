@@ -157,6 +157,7 @@ export const body: Block[] = [
     type: "p",
     text: "Memiliki backup yang lengkap tidak banyak membantu jika, saat insiden terjadi, tidak ada yang tahu persis langkah-langkah untuk memulihkannya. Dokumentasikan urutan langkah pemulihan secara tertulis, sistem mana yang perlu dipulihkan lebih dulu, siapa yang punya akses untuk melakukannya, dan kepada siapa harus melapor jika prosesnya menemui kendala, sehingga siapa pun yang tersedia saat insiden terjadi bisa mengikuti langkahnya tanpa harus menunggu satu orang tertentu yang kebetulan sedang tidak bisa dihubungi.",
   },
+  { type: "p", text: "Cadangan paling berguna bila dipadukan dengan [rencana respons insiden keamanan siber](/blog/rencana-respons-insiden-keamanan-siber-untuk-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

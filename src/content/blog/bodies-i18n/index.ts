@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_core_web_vitals_lcp_inp_cls_panduan_untuk_website_bisnis } from "./core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis";
+import { translations as t_rpa_api_atau_ai_agent_memilih_pendekatan_otomasi_proses_bisnis } from "./rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis";
+import { translations as t_manajemen_konsinyasi_dan_titip_jual_dengan_erp } from "./manajemen-konsinyasi-dan-titip-jual-dengan-erp";
+import { translations as t_erp_make_to_order_job_costing_untuk_percetakan_dan_fabrikasi } from "./erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi";
+import { translations as t_rencana_respons_insiden_keamanan_siber_untuk_bisnis } from "./rencana-respons-insiden-keamanan-siber-untuk-bisnis";
 import { translations as t_otomatisasi_utang_usaha_dan_pencocokan_tiga_arah_di_erp } from "./otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp";
 import { translations as t_utang_teknis_technical_debt_mengukur_dan_melunasinya } from "./utang-teknis-technical-debt-mengukur-dan-melunasinya";
 import { translations as t_agen_suara_ai_untuk_layanan_pelanggan_dan_telepon_bisnis } from "./agen-suara-ai-untuk-layanan-pelanggan-dan-telepon-bisnis";
@@ -269,4 +274,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "sales-and-operations-planning-sop-dengan-data-erp": t_sales_and_operations_planning_sop_dengan_data_erp,
   "sistem-manajemen-rental-dan-penyewaan-peralatan": t_sistem_manajemen_rental_dan_penyewaan_peralatan,
   "pemetaan-proses-bisnis-sebelum-membangun-software": t_pemetaan_proses_bisnis_sebelum_membangun_software,
+  "core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis": t_core_web_vitals_lcp_inp_cls_panduan_untuk_website_bisnis,
+  "rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis": t_rpa_api_atau_ai_agent_memilih_pendekatan_otomasi_proses_bisnis,
+  "manajemen-konsinyasi-dan-titip-jual-dengan-erp": t_manajemen_konsinyasi_dan_titip_jual_dengan_erp,
+  "erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi": t_erp_make_to_order_job_costing_untuk_percetakan_dan_fabrikasi,
+  "rencana-respons-insiden-keamanan-siber-untuk-bisnis": t_rencana_respons_insiden_keamanan_siber_untuk_bisnis,
 };

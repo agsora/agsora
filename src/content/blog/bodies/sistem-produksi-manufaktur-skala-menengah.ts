@@ -149,6 +149,7 @@ export const body: Block[] = [
     type: "p",
     text: "Sistem yang menyimpan riwayat produksi dan penjualan dari periode-periode sebelumnya memberi dasar yang lebih konkret untuk merencanakan kapasitas dan pembelian bahan baku menjelang periode puncak berikutnya, mengurangi ketergantungan pada ingatan atau firasat semata dalam mengambil keputusan yang berdampak besar pada arus kas dan kepuasan pelanggan.",
   },
+  { type: "p", text: "Jika produk Anda unik untuk setiap pelanggan, baca [ERP untuk produksi make-to-order dan job costing](/blog/erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

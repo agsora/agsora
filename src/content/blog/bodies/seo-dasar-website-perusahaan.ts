@@ -148,6 +148,7 @@ export const body: Block[] = [
     type: "p",
     text: "Hindari membeli tautan secara massal dari layanan yang menjanjikan ratusan backlink instan; praktik ini sering justru merugikan karena mesin pencari mampu mengenali pola tautan yang tidak wajar. Cara yang lebih berkelanjutan adalah membangun hubungan dengan mitra bisnis, asosiasi industri, atau media lokal yang secara alami bisa menautkan ke website Anda ketika relevan.",
   },
+  { type: "p", text: "Setelah dasar-dasar SEO terpenuhi, perbaiki pengalaman halaman dengan panduan [Core Web Vitals](/blog/core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -142,6 +142,7 @@ export const body: Block[] = [
     type: "p",
     text: "Jadwalkan opname stok fisik secara rutin, baik penuh maupun bertahap per kategori produk, dan bandingkan hasilnya dengan angka yang tercatat di sistem. Selisih yang ditemukan perlu ditelusuri penyebabnya, bukan sekadar disesuaikan begitu saja di sistem tanpa investigasi lebih lanjut, karena pola selisih yang berulang di produk atau lokasi tertentu biasanya menandakan ada masalah proses yang lebih mendasar, entah di penerimaan barang, penataan gudang, atau kedisiplinan pencatatan tim yang menangani stok sehari-hari.",
   },
+  { type: "p", text: "Untuk produk yang dititipkan di toko mitra, lihat pencatatan stok dan rekonsiliasinya di [manajemen konsinyasi dengan ERP](/blog/manajemen-konsinyasi-dan-titip-jual-dengan-erp)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
