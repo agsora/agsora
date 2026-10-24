@@ -144,6 +144,7 @@ export const body: Block[] = [
     type: "p",
     text: "Ini patut menjadi tanda peringatan yang perlu ditanyakan lebih lanjut. Vendor yang profesional dan transparan biasanya bersedia mencantumkan hal ini dengan jelas, karena justru melindungi mereka juga dari kesalahpahaman di kemudian hari.",
   },
+  { type: "p", text: "Untuk klausul hak kekayaan intelektual dan penyerahan kode sumber, lihat juga [lisensi open source dan kepemilikan kode](/blog/lisensi-open-source-dan-kepemilikan-kode-di-proyek-software-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

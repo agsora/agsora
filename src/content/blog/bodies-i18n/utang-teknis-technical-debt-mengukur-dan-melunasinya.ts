@@ -91,6 +91,7 @@ const en: Block[] = [
   { type: "p", text: "How do you find the technical debt in an application built by a previous vendor? Start with an independent code and infrastructure audit: technology versions, test coverage, database structure, dependency security, and documentation. This step is also important before [switching vendors or rescuing a stalled project](/blog/menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor)." },
   { type: "p", text: "Is a slow application always caused by technical debt? Not always. Sometimes the cause is growing data volume or insufficient infrastructure. The diagnosis is discussed in the article on [database performance and slowing applications](/blog/performa-database-dan-aplikasi-bisnis-yang-melambat)." },
   { type: "p", text: "Can technical debt be zero? In practice no, and that is not the goal. The goal is to keep debt at a level that is known and controlled, so its interest does not hold the business back." },
+  { type: "p", text: "Flags that are not removed become technical debt; this is covered in [feature flags and gradual rollouts](/blog/feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Technical debt is a normal part of software development, just as debt is a normal part of business financing. The problem arises when debt is invisible, unmeasured, and never repaid. With shared indicators, priorities based on change frequency and impact, regular installments in every work cycle, and conversations in business language, a company can keep its applications fast to develop and safe to run for years." },
   {
@@ -193,6 +194,7 @@ const zh: Block[] = [
   { type: "p", text: "如何了解前任供应商开发的应用中有哪些技术债务？先请独立方对代码和基础设施进行审计：技术版本、测试覆盖率、数据库结构、依赖安全和文档。这一步在 [更换供应商或挽救停滞项目](/blog/menyelamatkan-proyek-software-yang-macet-dan-pindah-vendor) 之前同样重要。" },
   { type: "p", text: "应用变慢一定是技术债务造成的吗？不一定。有时原因是数据量增长或基础设施不足。诊断方法请参阅 [数据库性能与变慢的业务应用](/blog/performa-database-dan-aplikasi-bisnis-yang-melambat)。" },
   { type: "p", text: "技术债务能降到零吗？实际上不能，这也不是目标。目标是把债务保持在已知且可控的水平，让利息不会拖累业务。" },
+  { type: "p", text: "未删除的开关会变成技术债；相关内容见[功能开关与渐进式发布](/blog/feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis)。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "技术债务是软件开发中的正常现象，正如负债是企业融资中的正常现象。问题出在债务隐形、未被衡量且从不偿还的时候。借助共同认可的指标、基于修改频率和影响的优先级、每个工作周期的定期偿还，以及用商业语言进行的沟通，企业可以让自己的应用多年来始终保持开发迅速、运行安全。" },
   {

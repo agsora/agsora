@@ -97,6 +97,7 @@ export const body: Block[] = [
   { type: "p", text: "Di awal ada penyesuaian, tetapi dengan barcode dan pemindai, tambahan waktunya kecil. Banyak gudang justru menjadi lebih cepat karena staf tidak perlu lagi mencari barang lama atau memeriksa tanggal satu per satu." },
   { type: "h3", text: "Bisakah pelacakan lot ditambahkan ke ERP yang sudah berjalan?" },
   { type: "p", text: "Bisa, asalkan struktur data inventori mendukung atau dapat diperluas. Langkah pentingnya adalah menetapkan tanggal mulai, melakukan stock opname per lot, lalu mewajibkan lot di semua transaksi sejak tanggal tersebut." },
+  { type: "p", text: "Penelusuran lot pada hasil panen segar dibahas di [ERP untuk agribisnis dan perkebunan](/blog/erp-untuk-agribisnis-dan-perkebunan-panen-lot-dan-biaya-per-blok)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Pelacakan lot, batch, dan tanggal kedaluwarsa mengubah stok dari sekadar angka menjadi informasi yang bisa dipertanggungjawabkan. Manfaatnya terasa setiap hari dalam bentuk barang kedaluwarsa yang berkurang, dan terasa sangat besar saat terjadi masalah mutu karena penarikan dapat dibatasi pada lot yang benar-benar terdampak." },
   { type: "p", text: "Kuncinya bukan hanya fitur ERP, melainkan disiplin pencatatan di setiap perpindahan barang, didukung pemindaian barcode dan aturan yang diterapkan sistem. Mulailah dari penerimaan, tegakkan FEFO di pengambilan, sambungkan produksi, lalu uji secara berkala." },

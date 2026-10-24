@@ -119,6 +119,7 @@ export const body: Block[] = [
     "Di mana rahasia dan kunci disimpan, dan siapa yang dapat mengaksesnya?",
     "Apa yang akan kita lakukan jika sebuah pustaka populer yang kita pakai ternyata tercemar?",
   ] },
+  { type: "p", text: "Sisi hukum dari komponen pihak ketiga dibahas di [lisensi open source dan kepemilikan kode](/blog/lisensi-open-source-dan-kepemilikan-kode-di-proyek-software-bisnis)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Keamanan rantai pasok perangkat lunak bukan masalah yang dapat diselesaikan sekali dan dilupakan. Ia adalah disiplin berkelanjutan: mengetahui apa yang Anda pakai, memantau kerentanan, memperbarui secara rutin, memilih komponen dengan hati-hati, dan mengamankan proses pembangunan." },
   { type: "p", text: "Bagi pemilik bisnis, langkah terpenting adalah mengajukan pertanyaan yang tepat dan memastikan ada pemilik yang bertanggung jawab. Dengan beberapa kebiasaan dasar yang konsisten, Anda dapat memanfaatkan manfaat komponen pihak ketiga tanpa menanggung risiko yang tidak terkendali." },

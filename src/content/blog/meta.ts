@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "evaluasi-kualitas-output-ai-llm-untuk-aplikasi-bisnis",
+    title: "Evaluasi Kualitas Output AI (LLM Evals): Cara Menguji Chatbot dan Agen AI Sebelum dan Sesudah Rilis",
+    excerpt: "Cara mengukur kualitas AI di bisnis: dimensi kualitas, set uji dari data nyata, penilaian otomatis dan oleh manusia, ambang rilis, dan pemantauan setelah peluncuran.",
+    category: "Teknologi",
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    tags: ["ai","otomasi","operasional"],
+    titleTranslations: {
+      en: "Evaluating AI Output Quality (LLM Evals): How to Test Chatbots and AI Agents Before and After Release",
+      zh: "评估 AI 输出质量（LLM 评测）：发布前后如何测试聊天机器人与 AI 智能体",
+    },
+    excerptTranslations: {
+      en: "How to measure AI quality in a business: quality dimensions, test sets from real data, automated and human scoring, release thresholds, and post-launch monitoring.",
+      zh: "如何衡量企业中的 AI 质量：质量维度、来自真实数据的测试集、自动与人工评分、发布阈值以及上线后的监控。",
+    },
+  },
+  {
+    slug: "lisensi-open-source-dan-kepemilikan-kode-di-proyek-software-bisnis",
+    title: "Lisensi Open Source dan Kepemilikan Kode di Proyek Software Bisnis: Yang Perlu Diperiksa Sebelum Terlambat",
+    excerpt: "Tiga keluarga lisensi open source, beda kepemilikan dan lisensi, klausul kontrak yang perlu diperiksa, daftar komponen (SBOM), kebijakan lisensi, dan risiko di era AI.",
+    category: "Teknologi",
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    tags: ["keamanan","infrastruktur","operasional"],
+    titleTranslations: {
+      en: "Open Source Licenses and Code Ownership in Business Software Projects: What to Check Before It Is Too Late",
+      zh: "企业软件项目中的开源许可证与代码所有权：在为时已晚之前需要检查什么",
+    },
+    excerptTranslations: {
+      en: "Three open source license families, ownership versus license, contract clauses to check, the component list (SBOM), a license policy, and risks in the AI era.",
+      zh: "三大开源许可证家族、所有权与许可的区别、需检查的合同条款、组件清单（SBOM）、许可证政策以及 AI 时代的风险。",
+    },
+  },
+  {
+    slug: "garansi-retur-barang-dan-layanan-purna-jual-rma-dengan-erp",
+    title: "Garansi, Retur Barang, dan Layanan Purna Jual (RMA) dengan ERP: Dari Klaim sampai Tagihan ke Pemasok",
+    excerpt: "Alur RMA dari klaim sampai penutupan, data nomor seri dan garansi, status stok barang retur, akuntansi biaya garansi, klaim ke pemasok, dan analisis data klaim.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    tags: ["erp","inventori","operasional"],
+    titleTranslations: {
+      en: "Warranty, Returns, and After-Sales Service (RMA) with ERP: From Claim to Supplier Recovery",
+      zh: "借助 ERP 管理保修、退货与售后服务（RMA）：从索赔到向供应商追偿",
+    },
+    excerptTranslations: {
+      en: "The RMA flow from claim to closure, serial number and warranty data, stock statuses for returned goods, warranty cost accounting, supplier claims, and claim data analysis.",
+      zh: "从索赔到结案的 RMA 流程、序列号与保修数据、退回货物的库存状态、保修成本会计、供应商索赔以及索赔数据分析。",
+    },
+  },
+  {
+    slug: "erp-untuk-agribisnis-dan-perkebunan-panen-lot-dan-biaya-per-blok",
+    title: "ERP untuk Agribisnis dan Perkebunan: Pencatatan Panen, Lot, dan Biaya per Blok",
+    excerpt: "Kebutuhan khas agribisnis di ERP: struktur blok dan siklus, pencatatan kegiatan lapangan, biaya per blok, lot panen, pergudangan produk segar, tenaga kerja, dan pelaporan.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    tags: ["erp","industri","biaya"],
+    titleTranslations: {
+      en: "ERP for Agribusiness and Plantations: Harvest, Lot, and Cost-per-Block Records",
+      zh: "农业企业与种植园 ERP：收获、批次与按地块成本记录",
+    },
+    excerptTranslations: {
+      en: "Typical agribusiness needs in an ERP: block and cycle structure, field activity records, cost per block, harvest lots, fresh produce warehousing, labor, and reporting.",
+      zh: "农业企业在 ERP 中的典型需求：地块与周期结构、田间作业记录、按地块成本、收获批次、鲜活农产品仓储、劳动力与报告。",
+    },
+  },
+  {
+    slug: "feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis",
+    title: "Feature Flag dan Rilis Bertahap: Cara Merilis Fitur Baru Aplikasi Bisnis dengan Risiko Lebih Rendah",
+    excerpt: "Konsep feature flag, empat jenisnya, pola rilis bertahap, indikator pemantauan, hubungan dengan pengujian dan aplikasi mobile, risiko, serta langkah memulai.",
+    category: "Teknologi",
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    tags: ["website","infrastruktur","operasional"],
+    titleTranslations: {
+      en: "Feature Flags and Gradual Rollouts: Releasing New Business App Features with Lower Risk",
+      zh: "功能开关与渐进式发布：以更低风险发布企业应用新功能",
+    },
+    excerptTranslations: {
+      en: "The feature flag concept, its four types, gradual rollout patterns, monitoring indicators, relation to testing and mobile apps, risks, and steps to start.",
+      zh: "功能开关的概念、四种类型、渐进式发布模式、监控指标、与测试及移动应用的关系、风险以及起步步骤。",
+    },
+  },
+  {
     slug: "core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis",
     title: "Core Web Vitals (LCP, INP, CLS): Panduan Praktis Memperbaiki Kecepatan Website Bisnis",
     excerpt: "Arti tiga metrik Core Web Vitals, cara mengecek skor di Search Console dan PageSpeed Insights, penyebab nilai buruk, dan urutan perbaikan yang memberi hasil terbesar.",
@@ -198,7 +283,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjelasan utang teknis dalam bahasa bisnis, jenis-jenisnya, indikator untuk mengukurnya, cara memprioritaskan, strategi pelunasan, dan cara membicarakannya dengan manajemen.",
     category: "Teknologi",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-10-24",
     tags: ["custom-software","biaya","implementasi"],
     titleTranslations: {
       en: "Technical Debt in Business Applications: How to Measure, Prioritize, and Pay It Down",
@@ -470,7 +555,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja pelacakan lot di ERP, aturan FEFO, ketertelusuran dua arah, pemindaian barcode, kesiapan penarikan produk, dan langkah penerapan tanpa memperlambat gudang.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-10-19",
+    updatedAt: "2026-10-24",
     tags: ["erp","inventori","industri"],
     titleTranslations: {
       en: "Lot, Batch, and Expiry Date Tracking with ERP: From FEFO to Product Recalls",
@@ -487,7 +572,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengapa pembeli meminta data emisi, memahami cakupan 1, 2, dan 3, data ERP yang bisa dipakai, merancang pencatatan yang siap dilaporkan, dan langkah memulai bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-10-19",
+    updatedAt: "2026-10-24",
     tags: ["erp","pelaporan","data"],
     titleTranslations: {
       en: "ESG and Carbon Footprint Reporting with ERP Data: A Guide for Suppliers and Exporters",
@@ -521,7 +606,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu AI agent, bedanya dengan otomasi berbasis aturan, proses bisnis yang cocok, arsitektur dasar, kendali keamanan, cara mengukur hasil, dan langkah memulai.",
     category: "Teknologi",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-10-24",
     tags: ["ai","otomasi","integrasi"],
     titleTranslations: {
       en: "AI Agents for Business Process Automation: A Safe and Realistic Guide",
@@ -606,7 +691,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja RAG, kasus penggunaan untuk bisnis, tahapan membangun asisten AI dari dokumen sendiri, keamanan data, serta cara mengukur mutu jawaban.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-17",
+    updatedAt: "2026-10-24",
     tags: ["ai","data","otomasi"],
     titleTranslations: {
       en: "Chatbot AI Powered by Company Knowledge with RAG: Accurate Answers from Your Documents",
@@ -674,7 +759,7 @@ export const meta: PostMeta[] = [
     excerpt: "Risiko AI di tempat kerja, unsur kebijakan penggunaan AI, klasifikasi data, penilaian alat, pengawasan manusia, pelatihan, dan peninjauan berkala.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-10-24",
     tags: ["ai","keamanan","operasional"],
     titleTranslations: {
       en: "AI Usage Policy and AI Governance in the Company: Safe and Responsible",
@@ -1082,7 +1167,7 @@ export const meta: PostMeta[] = [
     excerpt: "Memahami risiko komponen pihak ketiga: jenis serangan rantai pasok, daftar komponen, pemindaian kerentanan, pembaruan rutin, lisensi, pengamanan proses rilis, dan pertanyaan untuk vendor.",
     category: "Teknologi",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-10-24",
     tags: ["keamanan","custom-software","api"],
     titleTranslations: {
       en: "Dependency and Software Supply Chain Security: Watching for Risk in the Code You Use",
@@ -1167,7 +1252,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan awam tentang pengujian otomatis dan alur rilis: jenis pengujian, apa yang layak diuji lebih dulu, lingkungan uji dan data aman, rilis bertahap, kemampuan membatalkan, serta pertanyaan untuk menilai praktik vendor Anda.",
     category: "Teknologi",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-10-24",
     tags: ["custom-software","infrastruktur","keamanan"],
     titleTranslations: {
       en: "Automated Testing and CI/CD for Business Applications: Calm, Predictable Releases",
@@ -1405,7 +1490,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan sistem tiket diperlukan: satu antrean untuk semua kanal, kategori dan prioritas, perjanjian tingkat layanan yang realistis, basis pengetahuan, eskalasi antarbagian, mengukur mutu, menangani pelanggan kesal, dukungan proaktif, serta privasi data.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-10-24",
     tags: ["crm","pelanggan","operasional","otomasi"],
     titleTranslations: {
       en: "Customer Support Ticket Systems and SLAs: Serving Many Channels with One Orderly Queue",
@@ -1490,7 +1575,7 @@ export const meta: PostMeta[] = [
     excerpt: "Peluncuran aplikasi mobile bukan sekadar menekan tombol unggah. Kepemilikan akun penerbit, materi halaman toko, privasi dan izin, proses tinjauan, aturan pembayaran, pengujian, peluncuran bertahap, dan pemeliharaan.",
     category: "Teknologi",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-10-24",
     tags: ["mobile","implementasi","custom-software","keamanan"],
     titleTranslations: {
       en: "Releasing an App to the App Store and Google Play: What Business Owners Need to Prepare",
@@ -1643,7 +1728,7 @@ export const meta: PostMeta[] = [
     excerpt: "Retur yang ditangani rapi menjaga kepercayaan dan mencegah selisih stok dan uang. Cara menyusun kebijakan, alur permintaan, pemeriksaan barang, pengembalian dana, dan mengurangi retur dari sumbernya.",
     category: "POS & Retail",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-24",
     tags: ["ecommerce","pelanggan","operasional","pembayaran"],
     titleTranslations: {
       en: "Returns and Refunds for Online Stores: Designing a Process That Is Fair, Clear, and Properly Recorded",
@@ -2919,7 +3004,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kontrak yang jelas melindungi kedua pihak ketika project tidak berjalan sesuai rencana. Ini bagian-bagian yang layak diperhatikan sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-06-26",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-24",
     tags: [
       "kontrak",
       "vendor",

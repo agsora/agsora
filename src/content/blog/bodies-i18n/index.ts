@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_evaluasi_kualitas_output_ai_llm_untuk_aplikasi_bisnis } from "./evaluasi-kualitas-output-ai-llm-untuk-aplikasi-bisnis";
+import { translations as t_lisensi_open_source_dan_kepemilikan_kode_di_proyek_software_bisnis } from "./lisensi-open-source-dan-kepemilikan-kode-di-proyek-software-bisnis";
+import { translations as t_garansi_retur_barang_dan_layanan_purna_jual_rma_dengan_erp } from "./garansi-retur-barang-dan-layanan-purna-jual-rma-dengan-erp";
+import { translations as t_erp_untuk_agribisnis_dan_perkebunan_panen_lot_dan_biaya_per_blok } from "./erp-untuk-agribisnis-dan-perkebunan-panen-lot-dan-biaya-per-blok";
+import { translations as t_feature_flag_dan_rilis_bertahap_untuk_aplikasi_bisnis } from "./feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis";
 import { translations as t_core_web_vitals_lcp_inp_cls_panduan_untuk_website_bisnis } from "./core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis";
 import { translations as t_rpa_api_atau_ai_agent_memilih_pendekatan_otomasi_proses_bisnis } from "./rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis";
 import { translations as t_manajemen_konsinyasi_dan_titip_jual_dengan_erp } from "./manajemen-konsinyasi-dan-titip-jual-dengan-erp";
@@ -279,4 +284,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "manajemen-konsinyasi-dan-titip-jual-dengan-erp": t_manajemen_konsinyasi_dan_titip_jual_dengan_erp,
   "erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi": t_erp_make_to_order_job_costing_untuk_percetakan_dan_fabrikasi,
   "rencana-respons-insiden-keamanan-siber-untuk-bisnis": t_rencana_respons_insiden_keamanan_siber_untuk_bisnis,
+  "evaluasi-kualitas-output-ai-llm-untuk-aplikasi-bisnis": t_evaluasi_kualitas_output_ai_llm_untuk_aplikasi_bisnis,
+  "lisensi-open-source-dan-kepemilikan-kode-di-proyek-software-bisnis": t_lisensi_open_source_dan_kepemilikan_kode_di_proyek_software_bisnis,
+  "garansi-retur-barang-dan-layanan-purna-jual-rma-dengan-erp": t_garansi_retur_barang_dan_layanan_purna_jual_rma_dengan_erp,
+  "erp-untuk-agribisnis-dan-perkebunan-panen-lot-dan-biaya-per-blok": t_erp_untuk_agribisnis_dan_perkebunan_panen_lot_dan_biaya_per_blok,
+  "feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis": t_feature_flag_dan_rilis_bertahap_untuk_aplikasi_bisnis,
 };

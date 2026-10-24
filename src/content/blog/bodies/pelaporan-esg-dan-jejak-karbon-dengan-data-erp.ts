@@ -88,6 +88,7 @@ export const body: Block[] = [
   { type: "p", text: "Untuk laporan pertama yang dipakai secara eksternal, pendampingan ahli membantu memastikan metode sesuai standar dan persyaratan pembeli. Namun fondasi datanya tetap harus dibangun di sistem Anda sendiri, karena konsultan tidak dapat memperbaiki data aktivitas yang tidak pernah dicatat." },
   { type: "h3", text: "Seberapa sering laporan perlu diperbarui?" },
   { type: "p", text: "Banyak permintaan pembeli bersifat tahunan, tetapi memantau indikator energi dan emisi setiap bulan jauh lebih berguna untuk operasional dan membuat laporan tahunan hampir tersusun dengan sendirinya." },
+  { type: "p", text: "Contoh penerapan data bahan, bahan bakar, dan kegiatan lapangan ada di [ERP untuk agribisnis dan perkebunan](/blog/erp-untuk-agribisnis-dan-perkebunan-panen-lot-dan-biaya-per-blok)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Permintaan data ESG dan jejak karbon akan semakin sering datang dari pembeli, mitra, dan regulator. Bisnis yang mempersiapkannya dari sekarang tidak perlu panik setiap kali menerima kuesioner baru. Kuncinya adalah memanfaatkan data operasional yang sudah ada di ERP, mencatat kuantitas fisik dengan rapi, memisahkan faktor emisi dengan sumber yang jelas, dan memulai dari cakupan yang paling dapat dikendalikan." },
   { type: "p", text: "Dengan fondasi tersebut, laporan keberlanjutan berubah dari pekerjaan tahunan yang melelahkan menjadi hasil sampingan dari pencatatan harian yang baik, sekaligus sumber wawasan untuk menekan biaya." },

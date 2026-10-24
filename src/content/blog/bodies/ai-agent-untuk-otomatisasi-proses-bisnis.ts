@@ -97,6 +97,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Banyak kegagalan proyek AI sebenarnya bukan masalah AI, melainkan masalah data dan proses. Jika data pelanggan tersebar dan tidak konsisten, agent akan mewarisi kekacauan yang sama. Kadang langkah pertama yang paling bernilai justru merapikan [master data](/blog/master-data-erp-kode-barang-pelanggan-pemasok) dan menyatukan sistem, baru kemudian menambahkan agent di atasnya." },
   { type: "p", text: "Bila ragu apakah proses Anda butuh agen AI, robot RPA, atau cukup integrasi API, lihat perbandingannya di [RPA, API, atau agen AI](/blog/rpa-api-atau-ai-agent-memilih-pendekatan-otomasi-proses-bisnis)." },
+  { type: "p", text: "Sebelum agen AI diberi wewenang menjalankan tindakan, uji dengan [evaluasi kualitas output AI](/blog/evaluasi-kualitas-output-ai-llm-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "AI agent membuka cara baru mengotomasi pekerjaan yang dulu sulit diotomasi karena melibatkan bahasa dan dokumen yang beragam. Nilainya nyata bila diterapkan pada proses yang tepat, dengan akses terbatas, persetujuan manusia pada titik penting, pencatatan yang lengkap, dan ukuran keberhasilan yang jujur." },
   { type: "p", text: "Pendekatan terbaik adalah bertahap: satu proses, mode bayangan, aktivasi terkendali, lalu perluasan. Dengan cara ini, bisnis mendapatkan manfaat AI agent tanpa mempertaruhkan kepercayaan pelanggan dan keandalan operasional yang sudah dibangun bertahun-tahun." },

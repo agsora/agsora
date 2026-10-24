@@ -116,6 +116,7 @@ export const body: Block[] = [
     "Tulis draf deskripsi dan daftar tangkapan layar yang ingin ditampilkan",
     "Tetapkan kelompok penguji tertutup dan skenario yang akan mereka jalankan",
   ] },
+  { type: "p", text: "Fitur bermasalah dapat dimatikan tanpa menunggu peninjauan toko dengan [feature flag dan rilis bertahap](/blog/feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Merilis aplikasi ke App Store dan Google Play adalah pekerjaan yang bisa diperkirakan asalkan dipersiapkan. Kepemilikan akun yang benar, materi toko yang jujur dan menarik, perlakuan data yang transparan, pengujian lewat jalur resmi, dan peluncuran bertahap membuat hari peluncuran berjalan tenang." },
   { type: "p", text: "Perlakukan toko aplikasi sebagai mitra yang punya aturan, bukan sebagai hambatan di menit terakhir. Bisnis yang memahami aturan itu sejak awal menghemat waktu, menghindari penolakan yang bisa dicegah, dan memberi kesan pertama yang baik kepada pengguna barunya." },

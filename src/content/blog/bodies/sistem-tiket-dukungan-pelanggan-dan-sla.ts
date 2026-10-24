@@ -106,6 +106,7 @@ export const body: Block[] = [
     "Tentukan target waktu respons pertama yang bisa Anda tepati",
     "Pilih satu orang sebagai pemilik kualitas layanan dan basis pengetahuan",
   ] },
+  { type: "p", text: "Klaim garansi yang membutuhkan pengiriman dan perbaikan barang dibahas di [garansi, retur, dan purna jual dengan ERP](/blog/garansi-retur-barang-dan-layanan-purna-jual-rma-dengan-erp)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Layanan dukungan yang baik membuat pelanggan merasa didengar dan masalahnya bergerak. Itu bukan hasil dari alat tertentu, melainkan dari kebiasaan: satu antrean, pemilik yang jelas, janji yang realistis, dan belajar dari pola keluhan." },
   { type: "p", text: "Sistem tiket membantu menjalankan kebiasaan itu secara konsisten saat volume tumbuh. Mulailah sederhana, ukur dengan bijak, dan perbaiki bertahap. Pelanggan yang puas dengan penanganan masalahnya sering menjadi pelanggan yang paling setia." },
