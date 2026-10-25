@@ -98,6 +98,7 @@ const en: Block[] = [
     ],
   },
   { type: "p", text: "The answers matter as much as the feature list. Consider the pricing model too, whether [SaaS or a one time licence](/blog/saas-atau-lisensi-sekali-beli), because subscription costs across many components can add up faster than expected." },
+  { type: "p", text: "In a modular system, API quality decides everything; see [business API design](/blog/desain-api-bisnis-versioning-dokumentasi-dan-batas-laju)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Composable ERP is not a trend every company must follow, but an architectural choice with real benefits and costs. For mid sized companies with distinctive processes, many sales channels, or aggressive growth plans, it offers flexibility that is hard to get from one big package. The keys are a stable core, disciplined master data, and an integration layer that is designed and maintained seriously. Without them, a modular system simply becomes a new collection of data silos with a more modern name." },
   {
@@ -207,6 +208,7 @@ const zh: Block[] = [
     ],
   },
   { type: "p", text: "这些问题的答案与功能清单同样重要。同时也要考虑计费模式，是[订阅制还是一次性买断](/blog/saas-atau-lisensi-sekali-beli)，因为多个组件的订阅费用累积起来可能比预期增长得更快。" },
+  { type: "p", text: "在模块化系统中，API 的质量决定一切；请参阅[企业 API 设计](/blog/desain-api-bisnis-versioning-dokumentasi-dan-batas-laju)。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "可组合式 ERP 并不是每家企业都必须追随的潮流，而是一种利弊都很真实的架构选择。对于流程独特、销售渠道众多或增长计划积极的中型企业，它提供了单一大套件难以给予的灵活性。关键在于稳定的核心、严谨的主数据，以及认真设计和维护的集成层。缺少这些，模块化系统只会变成一堆换了时髦名字的新数据孤岛。" },
   {

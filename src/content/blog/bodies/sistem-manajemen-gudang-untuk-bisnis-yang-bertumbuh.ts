@@ -106,6 +106,7 @@ export const body: Block[] = [
     "Mulai penghitungan bergilir untuk sepuluh barang dengan nilai terbesar",
     "Siapkan area dan status terpisah untuk barang retur dan rusak",
   ] },
+  { type: "p", text: "Untuk gudang yang melayani banyak pemilik barang, lihat [ERP untuk logistik pihak ketiga (3PL)](/blog/erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Gudang yang tertata membuat seluruh bisnis lebih tenang: pesanan keluar tepat waktu, stok bisa dipercaya, dan pembelian dapat direncanakan dengan data. Sebaliknya, gudang yang berantakan merembes ke penjualan, layanan pelanggan, dan keuangan." },
   { type: "p", text: "Mulailah dari yang mendasar: lokasi yang jelas, kode yang konsisten, dan kebiasaan mencatat saat terjadi. Tambahkan pemindaian dan sistem yang lebih canggih sesuai pertumbuhan. Peningkatan bertahap yang disiplin hampir selalu mengungguli proyek besar yang terburu-buru." },

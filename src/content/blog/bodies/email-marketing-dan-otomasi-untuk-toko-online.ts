@@ -119,6 +119,7 @@ export const body: Block[] = [
     "Bangun satu alur sambutan dan satu alur setelah pembelian",
     "Tetapkan ukuran yang akan dipantau: pembelian ulang, pendapatan dari pesan, dan angka berhenti berlangganan",
   ] },
+  { type: "p", text: "Agar email kampanye tidak masuk spam, siapkan autentikasi domain seperti di [SPF, DKIM, dan DMARC untuk email bisnis](/blog/spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Email marketing yang baik bukan soal mengirim sebanyak mungkin, melainkan soal mengirim pesan yang tepat kepada orang yang bersedia menerimanya pada saat yang masuk akal. Dilakukan dengan izin, relevansi, dan rasa hormat, kanal ini mengubah pembeli sekali menjadi pelanggan yang kembali dengan biaya yang jauh lebih rendah daripada terus mencari orang baru." },
   { type: "p", text: "Mulailah dari pesan transaksi, tambahkan beberapa alur otomatis, hubungkan dengan data toko, dan ukur hasilnya dengan jujur. Dasar yang rapi itu akan terus bekerja untuk toko Anda setiap hari, termasuk ketika anggaran iklan sedang ditahan." },

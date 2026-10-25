@@ -121,6 +121,7 @@ export const body: Block[] = [
     "Pasang anggaran dan peringatan pada ambang bertahap serta deteksi lonjakan",
     "Jadwalkan tinjauan biaya mingguan singkat dengan penanggung jawab yang jelas",
   ] },
+  { type: "p", text: "Biaya layanan AI berbasis token punya pola berbeda dari server; bahasannya ada di [mengendalikan biaya AI](/blog/mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Biaya cloud yang sehat tidak lahir dari satu kali penghematan besar, melainkan dari kebiasaan kecil yang konsisten: membaca tagihan, memberi label, mematikan yang tidak dipakai, menyesuaikan ukuran, memilih model harga yang tepat, dan memasang peringatan. Semua itu dilakukan tanpa mengorbankan keandalan dan keamanan yang melindungi bisnis." },
   { type: "p", text: "Mulailah dari pos terbesar, beri setiap sumber daya pemilik, dan hubungkan biaya dengan nilai bisnis. Dengan begitu cloud tetap menjadi alat yang membantu bisnis tumbuh, bukan sumber kejutan setiap akhir bulan." },

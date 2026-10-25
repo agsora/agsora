@@ -110,6 +110,7 @@ export const body: Block[] = [
     "Baca alasan retur sebulan terakhir dan perbaiki satu penyebab terbesar pada deskripsi, foto, atau kemasan",
   ] },
   { type: "p", text: "Untuk barang tahan lama yang diklaim garansinya, lihat alur [garansi, retur, dan purna jual dengan ERP](/blog/garansi-retur-barang-dan-layanan-purna-jual-rma-dengan-erp)." },
+  { type: "p", text: "Retur yang tinggi pada produk berukuran dibahas di [ERP untuk bisnis fashion dan apparel](/blog/erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Retur yang dirancang dengan baik bukan beban, melainkan bagian dari layanan yang membangun kepercayaan. Kebijakan yang jelas, alur permintaan yang terdaftar, pemeriksaan yang konsisten, pengembalian dana yang tepat waktu, dan pencatatan stok serta keuangan yang rapi membuat pelanggan merasa aman berbelanja dan tim bekerja tanpa kebingungan." },
   { type: "p", text: "Gunakan data retur untuk memperbaiki sumber masalah, bukan hanya menangani akibatnya. Dengan begitu retur berkurang secara alami, pelanggan kembali berbelanja, dan toko Anda tumbuh di atas dasar yang lebih sehat." },

@@ -87,6 +87,7 @@ const en: Block[] = [
   { type: "p", text: "Is data sent through an API guaranteed to be safe? Nothing is guaranteed. Business plans give far better contractual assurances than consumer plans, but you still need to limit the data sent, encrypt connections, and review provider terms regularly." },
   { type: "p", text: "Can an open-weight model be retrained with company data? Yes, through fine-tuning. For most needs, however, connecting the model to company documents through a [RAG](/blog/chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag) approach is cheaper, easier to update, and easier to audit." },
   { type: "p", text: "How long does it take to set up a self-hosted LLM? A trial with one small model can be done in days. A reliable, secure, monitored production service usually takes several weeks to a few months, depending on security and integration needs." },
+  { type: "p", text: "To work out the break-even between these two options, also read [controlling AI costs](/blog/mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Choosing between a self-hosted LLM and a cloud API is not about which is more modern, but about data, volume, team capability, and the rules that apply. Cloud APIs win on convenience and model capability; self-hosting wins on control over data at high volume. For many companies the answer is both, with an intermediary layer that routes each request according to its data sensitivity. Start with a clear use case, measure results with your own data, and let the numbers decide." },
   {
@@ -185,6 +186,7 @@ const zh: Block[] = [
   { type: "p", text: "通过 API 发送的数据一定安全吗？没有任何东西是绝对的。商业版提供的合同保障远好于个人版，但您仍需限制发送的数据、加密连接，并定期审查提供商的条款。" },
   { type: "p", text: "开放权重模型能否用公司数据重新训练？可以，通过微调实现。但对大多数需求而言，采用 [RAG](/blog/chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag) 方式把模型与公司文档连接起来，成本更低、更新更容易，也更便于审计。" },
   { type: "p", text: "部署自托管 LLM 需要多长时间？用一个小模型做试点，几天内即可完成。一个可靠、安全、受监控的生产服务通常需要数周到数月，具体取决于安全和集成需求。" },
+  { type: "p", text: "要计算这两种选择的盈亏平衡点，另请阅读[控制 AI 成本](/blog/mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis)。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "在自托管 LLM 与云端 API 之间做选择，并不是比较哪个更先进，而是要考虑数据、用量、团队能力和适用的规则。云端 API 在便利性和模型能力上占优，自托管在高用量下对数据的掌控更强。对许多企业来说，答案是两者兼用，并通过中间层按照数据敏感度来分流每个请求。从明确的应用场景开始，用自己的数据衡量结果，让数字来做决定。" },
   {

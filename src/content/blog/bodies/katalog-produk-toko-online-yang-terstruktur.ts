@@ -109,6 +109,7 @@ export const body: Block[] = [
     "Bereskan lima puluh produk terlaris terlebih dahulu dan amati dampaknya pada pencarian dan pertanyaan pelanggan",
     "Jadwalkan pemeriksaan katalog bulanan dengan penanggung jawab yang jelas",
   ] },
+  { type: "p", text: "Untuk produk dengan banyak ukuran dan warna, lihat struktur model dan varian di [ERP untuk bisnis fashion dan apparel](/blog/erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Katalog produk yang terstruktur adalah fondasi toko online yang bisa tumbuh tanpa kekacauan. Model data yang memisahkan produk dan varian, kode barang yang stabil, aturan penamaan yang konsisten, foto dan deskripsi yang jujur, serta satu sumber data untuk semua kanal membuat pelanggan lebih mudah menemukan dan memercayai barang Anda." },
   { type: "p", text: "Mulailah dari aturan sederhana yang ditulis dan dipatuhi, lalu rapikan bagian yang paling berdampak lebih dulu. Dengan katalog yang terawat, tampilan toko, iklan, dan sistem kasir bekerja di atas data yang sama dan saling menguatkan." },

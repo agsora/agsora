@@ -150,6 +150,7 @@ export const body: Block[] = [
     type: "p",
     text: "Vendor juga sewaktu-waktu memperbarui API mereka, menambah fitur, mengubah format data, atau menghentikan dukungan untuk versi lama. Perubahan seperti ini, jika tidak dikomunikasikan dan diantisipasi dengan baik, bisa membuat integrasi yang tadinya berjalan lancar tiba-tiba berhenti berfungsi tanpa peringatan. Vendor yang matang biasanya memberi masa transisi yang cukup panjang sebelum menghentikan dukungan versi lama, disertai dokumentasi perubahan yang jelas. Saat mengevaluasi vendor, tanyakan juga bagaimana mereka menangani perubahan versi API di masa depan, dan apakah tim teknis Anda atau vendor akan diberi tahu lebih dulu sebelum perubahan itu benar-benar diterapkan.",
   },
+  { type: "p", text: "Setelah memahami dasarnya, lanjutkan ke [desain API untuk bisnis](/blog/desain-api-bisnis-versioning-dokumentasi-dan-batas-laju) untuk praktik versioning dan dokumentasi." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

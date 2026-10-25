@@ -104,6 +104,7 @@ export const body: Block[] = [
     "Pastikan ada pencatatan dan pemberitahuan untuk kegagalan integrasi",
     "Buat dokumen satu halaman untuk setiap integrasi yang berjalan saat ini",
   ] },
+  { type: "p", text: "Kontrak, versi, dan batas laju untuk endpoint webhook dan API dibahas di [desain API untuk bisnis](/blog/desain-api-bisnis-versioning-dokumentasi-dan-batas-laju)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Webhook dan integrasi real time membuat sistem-sistem bisnis bekerja seperti satu kesatuan: stok, pesanan, pembayaran, dan layanan pelanggan saling mengabari tanpa menunggu tangan manusia. Manfaatnya terasa pada ketepatan data dan kecepatan reaksi." },
   { type: "p", text: "Namun keandalannya lahir dari detail: ketahanan terhadap pesan ganda, pemeriksaan pesan yang terlewat, keamanan, dan pemantauan. Bila detail itu diperhatikan sejak awal, integrasi menjadi tulang punggung operasional yang tenang, bukan sumber kejutan." },

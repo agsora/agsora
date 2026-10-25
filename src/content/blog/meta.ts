@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis",
+    title: "SPF, DKIM, dan DMARC: Menjaga Email Bisnis Tetap Sampai ke Pelanggan dan Aman dari Pemalsuan Domain",
+    excerpt: "Cara kerja SPF, DKIM, dan DMARC, inventaris sumber email, langkah penerapan bertahap, pemisahan email transaksional dan pemasaran, serta indikator deliverability yang dipantau.",
+    category: "Teknologi",
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    tags: ["keamanan","infrastruktur","operasional"],
+    titleTranslations: {
+      en: "SPF, DKIM, and DMARC: Keeping Business Email Delivered and Safe from Domain Spoofing",
+      zh: "SPF、DKIM 与 DMARC：确保企业邮件送达并防止域名被仿冒",
+    },
+    excerptTranslations: {
+      en: "How SPF, DKIM, and DMARC work, inventorying email sources, a gradual rollout, separating transactional and marketing email, and the deliverability indicators to monitor.",
+      zh: "SPF、DKIM 和 DMARC 的工作原理、邮件来源盘点、逐步推行步骤、事务性与营销邮件的分离，以及需要监控的送达率指标。",
+    },
+  },
+  {
+    slug: "mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis",
+    title: "Mengendalikan Biaya AI: Token, Inferensi, dan Anggaran untuk Chatbot serta Agen di Aplikasi Bisnis",
+    excerpt: "Sumber biaya AI, cara memperkirakannya sebelum membangun, teknik penghematan tanpa menurunkan kualitas, pemantauan anggaran di produksi, dan kesalahan yang sering terjadi.",
+    category: "Teknologi",
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    tags: ["ai","biaya","operasional"],
+    titleTranslations: {
+      en: "Controlling AI Costs: Tokens, Inference, and Budgets for Chatbots and Agents in Business Apps",
+      zh: "控制 AI 成本：企业应用中聊天机器人与智能体的词元、推理与预算",
+    },
+    excerptTranslations: {
+      en: "Where AI costs come from, how to estimate them before building, ways to save without lowering quality, budget monitoring in production, and common mistakes.",
+      zh: "AI 成本的来源、构建前如何估算、不降低质量的节省方法、生产环境中的预算监控以及常见错误。",
+    },
+  },
+  {
+    slug: "erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok",
+    title: "ERP untuk Bisnis Fashion dan Apparel: Varian Ukuran-Warna, Koleksi Musiman, dan Stok Lintas Kanal",
+    excerpt: "Kebutuhan khas fashion di ERP: struktur model dan varian, siklus hidup koleksi, perencanaan pembelian, stok lintas kanal, retur tinggi, dan laporan sell-through.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    tags: ["erp","industri","inventori"],
+    titleTranslations: {
+      en: "ERP for Fashion and Apparel Businesses: Size-Color Variants, Seasonal Collections, and Cross-Channel Stock",
+      zh: "时尚服饰企业 ERP：尺码颜色变体、季节性系列与跨渠道库存",
+    },
+    excerptTranslations: {
+      en: "Typical fashion needs in an ERP: model and variant structure, collection lifecycle, purchase planning, cross-channel stock, high returns, and sell-through reports.",
+      zh: "时尚业在 ERP 中的典型需求：款式与变体结构、系列生命周期、采购计划、跨渠道库存、高退货率以及售罄率报表。",
+    },
+  },
+  {
+    slug: "erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla",
+    title: "ERP untuk Logistik Pihak Ketiga (3PL): Stok Multi-Klien, Penagihan Berbasis Aktivitas, dan SLA Gudang",
+    excerpt: "Kebutuhan sistem 3PL: data multi-pemilik barang, alur penerimaan sampai pengiriman, tarif dan penagihan berbasis aktivitas, pengukuran SLA, portal klien, dan profitabilitas.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    tags: ["erp","industri","inventori"],
+    titleTranslations: {
+      en: "ERP for Third-Party Logistics (3PL): Multi-Client Stock, Activity-Based Billing, and Warehouse SLAs",
+      zh: "第三方物流（3PL）ERP：多客户库存、基于作业的计费与仓库 SLA",
+    },
+    excerptTranslations: {
+      en: "3PL system needs: multi-owner data, the flow from receiving to shipping, activity-based rates and billing, SLA measurement, client portals, and profitability.",
+      zh: "3PL 系统的需求：多货主数据、从收货到发货的流程、基于作业的费率与计费、SLA 衡量、客户门户以及盈利能力。",
+    },
+  },
+  {
+    slug: "desain-api-bisnis-versioning-dokumentasi-dan-batas-laju",
+    title: "Desain API untuk Bisnis: Konsistensi, Versioning, Dokumentasi, dan Pembatasan Laju agar Integrasi Tahan Lama",
+    excerpt: "API sebagai produk: prinsip desain yang konsisten, versioning dan kebijakan deprecation, dokumentasi yang hidup, pembatasan laju, keamanan, dan pemantauan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-25",
+    updatedAt: "2026-10-25",
+    tags: ["integrasi","website","infrastruktur"],
+    titleTranslations: {
+      en: "Business API Design: Consistency, Versioning, Documentation, and Rate Limiting for Durable Integrations",
+      zh: "企业 API 设计：一致性、版本管理、文档与速率限制，打造持久的集成",
+    },
+    excerptTranslations: {
+      en: "An API as a product: consistent design principles, versioning and deprecation policy, living documentation, rate limiting, security, and monitoring.",
+      zh: "把 API 当作产品：一致的设计原则、版本管理与弃用政策、实时文档、速率限制、安全与监控。",
+    },
+  },
+  {
     slug: "evaluasi-kualitas-output-ai-llm-untuk-aplikasi-bisnis",
     title: "Evaluasi Kualitas Output AI (LLM Evals): Cara Menguji Chatbot dan Agen AI Sebelum dan Sesudah Rilis",
     excerpt: "Cara mengukur kualitas AI di bisnis: dimensi kualitas, set uji dari data nyata, penilaian otomatis dan oleh manusia, ambang rilis, dan pemantauan setelah peluncuran.",
@@ -164,7 +249,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun rencana respons insiden: peran tim, persiapan cadangan dan log, enam fase respons, skenario umum, kewajiban pemberitahuan data pribadi, dan latihan simulasi.",
     category: "Teknologi",
     publishedAt: "2026-10-23",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-10-25",
     tags: ["keamanan","infrastruktur","operasional"],
     titleTranslations: {
       en: "Cybersecurity Incident Response Plan for Business: Steps from Detection to Recovery",
@@ -181,7 +266,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perbedaan LLM yang dijalankan sendiri dan API cloud, privasi data, perhitungan biaya yang jujur, risiko yang sering terlewat, dan pola campuran berdasarkan sensitivitas data.",
     category: "Teknologi",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-10-25",
     tags: ["ai","keamanan","infrastruktur"],
     titleTranslations: {
       en: "Self-Hosted LLM or Cloud API: Choosing a Secure AI Model for Business Data",
@@ -385,7 +470,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengelola kendaraan, pengemudi, bahan bakar, dan perawatan, menghubungkan data GPS dengan pesanan dan biaya di ERP, serta indikator yang layak dipantau.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-25",
     tags: ["operasional","mobile","integrasi"],
     titleTranslations: {
       en: "Fleet and Transport Management with GPS and ERP: From Cost per Kilometer to Maintenance",
@@ -470,7 +555,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu composable ERP, bedanya dengan ERP monolitik, kapan menguntungkan, risiko integrasi dan data, prinsip desain, serta langkah menerapkannya secara bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-20",
-    updatedAt: "2026-10-20",
+    updatedAt: "2026-10-25",
     tags: ["erp","integrasi","api"],
     titleTranslations: {
       en: "Composable ERP: Modular, API First Systems for Mid Sized Businesses",
@@ -691,7 +776,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja RAG, kasus penggunaan untuk bisnis, tahapan membangun asisten AI dari dokumen sendiri, keamanan data, serta cara mengukur mutu jawaban.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-10-25",
     tags: ["ai","data","otomasi"],
     titleTranslations: {
       en: "Chatbot AI Powered by Company Knowledge with RAG: Accurate Answers from Your Documents",
@@ -844,7 +929,7 @@ export const meta: PostMeta[] = [
     excerpt: "Ancaman siber yang paling sering menimpa UMKM dan langkah pertahanan murah: kebiasaan karyawan, autentikasi dua langkah, cadangan 3-2-1, pembaruan, dan rencana respons insiden.",
     category: "Teknologi",
     publishedAt: "2026-10-16",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-10-25",
     tags: ["keamanan","umkm","infrastruktur"],
     titleTranslations: {
       en: "Phishing, Ransomware, and Cybersecurity for Small Businesses: A Realistic Defence Guide",
@@ -1456,7 +1541,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan pencatatan stok tidak lagi cukup: tata letak dan kode lokasi, alur terima simpan ambil kirim, kode batang, penghitungan bergilir, lot dan kedaluwarsa, area retur, integrasi kanal penjualan, serta memilih tingkat sistem yang sesuai.",
     category: "POS & Retail",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-10-25",
     tags: ["inventori","operasional","retail","erp"],
     titleTranslations: {
       en: "Warehouse Management for a Growing Business: From Messy Shelves to Stock You Can Trust",
@@ -1473,7 +1558,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjelasan webhook dengan bahasa sederhana: bedanya dengan polling, contoh kejadian yang cocok, pesan terlewat dan ganda, urutan kejadian, keamanan, pemantauan, kapan memakai penghubung siap pakai, serta dokumentasi dan kepemilikan integrasi.",
     category: "Teknologi",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-10-25",
     tags: ["api","integrasi","otomasi","ecommerce"],
     titleTranslations: {
       en: "Webhooks and Real Time Integration for Business: Letting Systems Tell Each Other Without Human Hands",
@@ -1609,7 +1694,7 @@ export const meta: PostMeta[] = [
     excerpt: "Daftar kontak adalah kanal milik sendiri. Cara mengumpulkan izin, merapikan pesan transaksi, membangun alur otomatis, segmentasi, menjaga keterkiriman, menyelaraskan dengan WhatsApp dan notifikasi, serta mengukur hasil.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-10-25",
     tags: ["ecommerce","pelanggan","otomasi","crm","sales"],
     titleTranslations: {
       en: "Email Marketing and Automation for Online Stores: Turning One Time Buyers into Returning Customers",
@@ -1711,7 +1796,7 @@ export const meta: PostMeta[] = [
     excerpt: "Katalog adalah inti toko online. Cara menyusun model data produk dan varian, kode barang yang stabil, aturan penamaan, kategori, foto, deskripsi, dan satu sumber data untuk semua kanal.",
     category: "Website & Digital",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-25",
     tags: ["ecommerce","data","website"],
     titleTranslations: {
       en: "A Structured Online Store Catalogue: A Tidy Foundation for Sales That Can Grow",
@@ -1728,7 +1813,7 @@ export const meta: PostMeta[] = [
     excerpt: "Retur yang ditangani rapi menjaga kepercayaan dan mencegah selisih stok dan uang. Cara menyusun kebijakan, alur permintaan, pemeriksaan barang, pengembalian dana, dan mengurangi retur dari sumbernya.",
     category: "POS & Retail",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-10-25",
     tags: ["ecommerce","pelanggan","operasional","pembayaran"],
     titleTranslations: {
       en: "Returns and Refunds for Online Stores: Designing a Process That Is Fair, Clear, and Properly Recorded",
@@ -1779,7 +1864,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara memahami komponen tagihan cloud, memberi label dan pemilik, menghentikan pemborosan, menyesuaikan ukuran, memilih model harga, mengelola penyimpanan, dan memasang anggaran serta peringatan.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-25",
     tags: ["infrastruktur","biaya","saas"],
     titleTranslations: {
       en: "Controlling Cloud Costs for Business: From Surprising Bills to Measured Spending",
@@ -1796,7 +1881,7 @@ export const meta: PostMeta[] = [
     excerpt: "Portal B2B yang benar-benar dipakai: fitur yang didahulukan, hubungan dengan ERP dan CRM, hak akses dan keamanan, pengalaman pengguna, adopsi oleh mitra, dan cara mengukur keberhasilan.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-25",
     tags: ["crm","erp","integrasi","sales"],
     titleTranslations: {
       en: "B2B Customer and Supplier Portals: Cutting Repeated Questions and Speeding Up Transactions",
@@ -2858,6 +2943,7 @@ export const meta: PostMeta[] = [
     excerpt: "API sering disebut dalam diskusi soal software, tapi jarang dijelaskan. Singkatnya: API adalah cara dua sistem saling bertukar data tanpa perlu diketik ulang manusia.",
     category: "Teknologi",
     publishedAt: "2026-07-20",
+    updatedAt: "2026-10-25",
     tags: [
       "api",
       "integrasi"
@@ -3029,7 +3115,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menjual di toko fisik dan beberapa marketplace sekaligus membuka pasar baru, sekaligus risiko menjual barang yang sebenarnya sudah habis.",
     category: "POS & Retail",
     publishedAt: "2026-06-22",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-10-25",
     tags: [
       "pos",
       "ecommerce",

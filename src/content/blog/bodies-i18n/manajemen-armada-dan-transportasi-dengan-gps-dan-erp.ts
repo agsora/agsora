@@ -93,6 +93,7 @@ const en: Block[] = [
   { type: "p", text: "Is GPS tracking legal for company vehicles? Tracking company vehicles for operational purposes can generally be done with clear notice and policy for drivers, but check the latest rules and consult legal counsel." },
   { type: "p", text: "What if drivers object? Involve them from the start, explain the purpose, and show real benefits such as proof of delivery and protection from false claims." },
   { type: "p", text: "Is a dedicated driver app needed? Not required, but a simple app for proof of delivery, daily checks, and fuel records greatly improves data quality." },
+  { type: "p", text: "Companies that also store and pack clients' goods can read [ERP for third-party logistics (3PL)](/blog/erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Good fleet management does not have to be complicated. It starts with tidy vehicle and document data and consistent fuel and maintenance records, then adds GPS and a driver app connected to orders and costs in the ERP. With indicators such as cost per kilometer and punctuality, companies can see where cost leaks and fix it in a measurable way. Start with disciplined recording on part of the fleet, prove the benefit, then expand." },
   {
@@ -197,6 +198,7 @@ const zh: Block[] = [
   { type: "p", text: "对公司车辆使用 GPS 追踪合法吗？一般而言，出于运营目的追踪公司车辆，在向司机明确告知并制定政策的前提下是可行的，但请核查最新规定并咨询法律顾问。" },
   { type: "p", text: "如果司机反对怎么办？从一开始就让他们参与，说明目的，并展示送达证明、免受不实索赔等实际好处。" },
   { type: "p", text: "需要专门的司机应用吗？并非必须，但一个用于签收凭证、每日检查和燃油记录的简单应用，能大幅提高数据质量。" },
+  { type: "p", text: "同时为客户存储和包装货物的公司可阅读[第三方物流（3PL）ERP](/blog/erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla)。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "良好的车队管理不必复杂。它从整洁的车辆和证件数据、一致的燃油和维护记录开始，再加上与 ERP 中订单和成本相连的 GPS 与司机应用。借助每公里成本和准时率等指标，企业可以看清成本在哪里流失，并以可衡量的方式加以改进。先在部分车队上做到记录严谨，证明其价值，再逐步扩大。" },
   {

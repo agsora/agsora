@@ -98,6 +98,7 @@ export const body: Block[] = [
     ],
   },
   { type: "p", text: "Jawaban atas pertanyaan ini sama pentingnya dengan daftar fitur. Pertimbangkan juga model biaya, apakah [SaaS atau lisensi sekali beli](/blog/saas-atau-lisensi-sekali-beli), karena biaya langganan dari banyak komponen bisa bertambah lebih cepat dari perkiraan." },
+  { type: "p", text: "Pada sistem modular, kualitas API menentukan segalanya; lihat [desain API untuk bisnis](/blog/desain-api-bisnis-versioning-dokumentasi-dan-batas-laju)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Composable ERP bukan tren yang harus diikuti semua perusahaan, melainkan pilihan arsitektur dengan manfaat dan biaya yang nyata. Bagi perusahaan menengah dengan proses yang khas, banyak kanal penjualan, atau rencana pertumbuhan yang agresif, pendekatan ini memberi fleksibilitas yang sulit didapat dari satu paket besar. Kuncinya adalah inti yang stabil, master data yang disiplin, dan lapisan integrasi yang dirancang serta dirawat dengan serius. Tanpa itu, sistem modular hanya akan menjadi kumpulan data silo baru dengan nama yang lebih modern." },
   {

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_spf_dkim_dmarc_keamanan_dan_deliverability_email_bisnis } from "./spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis";
+import { body as b_mengendalikan_biaya_ai_token_dan_inferensi_untuk_aplikasi_bisnis } from "./mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis";
+import { body as b_erp_untuk_bisnis_fashion_dan_apparel_varian_musiman_dan_stok } from "./erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok";
+import { body as b_erp_untuk_logistik_pihak_ketiga_3pl_penagihan_gudang_dan_sla } from "./erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla";
+import { body as b_desain_api_bisnis_versioning_dokumentasi_dan_batas_laju } from "./desain-api-bisnis-versioning-dokumentasi-dan-batas-laju";
 import { body as b_evaluasi_kualitas_output_ai_llm_untuk_aplikasi_bisnis } from "./evaluasi-kualitas-output-ai-llm-untuk-aplikasi-bisnis";
 import { body as b_lisensi_open_source_dan_kepemilikan_kode_di_proyek_software_bisnis } from "./lisensi-open-source-dan-kepemilikan-kode-di-proyek-software-bisnis";
 import { body as b_garansi_retur_barang_dan_layanan_purna_jual_rma_dengan_erp } from "./garansi-retur-barang-dan-layanan-purna-jual-rma-dengan-erp";
@@ -403,4 +408,9 @@ export const bodies: Record<string, Block[]> = {
   "garansi-retur-barang-dan-layanan-purna-jual-rma-dengan-erp": b_garansi_retur_barang_dan_layanan_purna_jual_rma_dengan_erp,
   "erp-untuk-agribisnis-dan-perkebunan-panen-lot-dan-biaya-per-blok": b_erp_untuk_agribisnis_dan_perkebunan_panen_lot_dan_biaya_per_blok,
   "feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis": b_feature_flag_dan_rilis_bertahap_untuk_aplikasi_bisnis,
+  "spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis": b_spf_dkim_dmarc_keamanan_dan_deliverability_email_bisnis,
+  "mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis": b_mengendalikan_biaya_ai_token_dan_inferensi_untuk_aplikasi_bisnis,
+  "erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok": b_erp_untuk_bisnis_fashion_dan_apparel_varian_musiman_dan_stok,
+  "erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla": b_erp_untuk_logistik_pihak_ketiga_3pl_penagihan_gudang_dan_sla,
+  "desain-api-bisnis-versioning-dokumentasi-dan-batas-laju": b_desain_api_bisnis_versioning_dokumentasi_dan_batas_laju,
 };

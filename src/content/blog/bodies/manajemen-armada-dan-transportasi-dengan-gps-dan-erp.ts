@@ -93,6 +93,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah pelacakan GPS legal untuk kendaraan perusahaan? Umumnya pelacakan kendaraan perusahaan untuk keperluan operasional dapat dilakukan dengan pemberitahuan dan kebijakan yang jelas kepada pengemudi, tetapi periksa aturan terbaru dan konsultasikan dengan penasihat hukum." },
   { type: "p", text: "Bagaimana jika pengemudi menolak? Libatkan mereka sejak awal, jelaskan tujuan, dan tunjukkan manfaat nyata seperti bukti pengiriman dan perlindungan dari klaim yang tidak benar." },
   { type: "p", text: "Apakah perlu aplikasi khusus untuk pengemudi? Tidak wajib, tetapi aplikasi sederhana untuk bukti serah terima, pemeriksaan harian, dan pencatatan bahan bakar sangat meningkatkan kualitas data." },
+  { type: "p", text: "Perusahaan yang juga menyimpan dan mengemas barang klien dapat membaca [ERP untuk logistik pihak ketiga (3PL)](/blog/erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Manajemen armada yang baik tidak harus rumit. Ia berawal dari data kendaraan dan dokumen yang rapi, pencatatan bahan bakar dan perawatan yang konsisten, lalu dilengkapi GPS dan aplikasi pengemudi yang terhubung dengan pesanan dan biaya di ERP. Dengan indikator seperti biaya per kilometer dan ketepatan waktu, perusahaan dapat melihat di mana biaya bocor dan memperbaikinya secara terukur. Mulailah dari pencatatan yang disiplin pada sebagian armada, buktikan manfaatnya, lalu perluas." },
   {

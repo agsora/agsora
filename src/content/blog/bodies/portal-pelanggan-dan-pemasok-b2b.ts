@@ -150,6 +150,7 @@ export const body: Block[] = [
     "Tentukan tiga sampai lima mitra yang bersedia menjadi pengguna awal",
     "Tunjuk pemilik portal dan tetapkan ukuran keberhasilan sebelum membangun",
   ] },
+  { type: "p", text: "Contoh portal untuk pemilik barang yang memantau stok dan pesanan ada di [ERP untuk logistik pihak ketiga (3PL)](/blog/erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Portal pelanggan dan pemasok yang dirancang dengan baik menghemat waktu kedua pihak, mengurangi kesalahan, dan menunjukkan keseriusan perusahaan dalam melayani mitra. Kuncinya ada pada fokus pada pertanyaan yang benar-benar berulang, data yang bersumber dari sistem inti, hak akses yang ketat, pengalaman yang sederhana, dan upaya serius agar mitra mau memakainya." },
   { type: "p", text: "Mulailah dari yang kecil dan bernilai tinggi, ukur penggunaannya, dan kembangkan berdasarkan umpan balik nyata. Dengan begitu portal bukan sekadar proyek teknologi, melainkan cara kerja baru yang menguatkan hubungan bisnis Anda." },
