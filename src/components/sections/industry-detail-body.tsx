@@ -6,6 +6,7 @@ import { ArrowRight, ArrowUpRight, CircleAlert } from "lucide-react";
 import { PageHero } from "@/components/sections/page-hero";
 import { PostCard } from "@/components/sections/post-card";
 import { ContactCta } from "@/components/sections/contact-cta";
+import { ProjectCard } from "@/components/portfolio/project-card";
 import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
@@ -13,6 +14,7 @@ import type { BlogPost } from "@/config/blog";
 import { clients } from "@/config/clients";
 import { industries } from "@/config/industries";
 import { industryDetails, industryStrings } from "@/config/industry-details";
+import { portfolioStrings, projects } from "@/config/portfolio";
 import { services } from "@/config/services";
 import { useLocale } from "@/i18n/locale-context";
 
@@ -32,6 +34,7 @@ export function IndustryDetailBody({
   const Icon = industry.icon;
   const industryClients = clients.filter((c) => detail.clients.includes(c.name));
   const others = industries.filter((i) => i.slug !== industry.slug);
+  const caseStudies = projects.filter((p) => p.industry === industry.slug);
 
   return (
     <>
@@ -141,8 +144,24 @@ export function IndustryDetailBody({
         </Section>
       ) : null}
 
-      {relatedPosts.length ? (
+      {caseStudies.length ? (
         <Section className={industryClients.length ? "pt-0" : undefined}>
+          <Container className="max-w-6xl">
+            <SectionHeading
+              eyebrow={portfolioStrings[locale].eyebrow}
+              title={portfolioStrings[locale].industryCaseStudies}
+            />
+            <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {caseStudies.map((project) => (
+                <ProjectCard key={project.slug} project={project} />
+              ))}
+            </div>
+          </Container>
+        </Section>
+      ) : null}
+
+      {relatedPosts.length ? (
+        <Section className={industryClients.length || caseStudies.length ? "pt-0" : undefined}>
           <Container className="max-w-6xl">
             <SectionHeading eyebrow={s.articlesEyebrow} title={s.articlesTitle} />
             <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5">

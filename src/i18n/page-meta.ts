@@ -83,6 +83,38 @@ export const pageMeta = {
         "网站、应用、ERP、POS、HRIS、CRM 与定制软件开发 Rp2,500,000 起，价格公开透明。",
     },
   },
+  portfolio: {
+    id: {
+      title: "Portofolio: Website & Sistem yang Kami Bangun",
+      description:
+        "Studi kasus AG·SORA: website, aplikasi, dan sistem bisnis yang sudah live, lengkap dengan tantangan klien, fitur, teknologi, dan hasilnya.",
+    },
+    en: {
+      title: "Portfolio: Websites & Systems We've Built",
+      description:
+        "AG·SORA case studies: live websites, apps, and business systems, with each client's challenge, the features, the technology, and the results.",
+    },
+    zh: {
+      title: "作品集：我们打造的网站与商业系统",
+      description: "AG·SORA 项目案例：已上线的网站、应用与商业系统，包括客户挑战、功能、技术与成效。",
+    },
+  },
+  products: {
+    id: {
+      title: "Produk",
+      description:
+        "Produk software siap pakai dari AG·SORA segera hadir. Sementara itu, lihat layanan pengembangan custom dan portofolio kami.",
+    },
+    en: {
+      title: "Products",
+      description:
+        "Ready-to-use software products from AG·SORA are coming soon. Meanwhile, see our custom development services and portfolio.",
+    },
+    zh: {
+      title: "产品",
+      description: "AG·SORA 开箱即用的软件产品即将推出。在此之前，欢迎了解我们的定制开发服务与作品集。",
+    },
+  },
   blog: {
     id: {
       title: "Blog: Panduan Sistem Bisnis & Software",

@@ -106,6 +106,8 @@ export function Footer() {
           <FooterColumn
             title={t.footer.company}
             links={[
+              { label: t.nav.portfolio, href: "/portofolio" },
+              { label: t.nav.products, href: "/products" },
               { label: t.nav.industries, href: "/industries" },
               { label: t.nav.pricing, href: "/pricing" },
               { label: t.nav.blog, href: "/blog" },

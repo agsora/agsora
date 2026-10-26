@@ -22,6 +22,8 @@ export function Header() {
 
   const mainNav = [
     { label: t.nav.services, href: "/services" },
+    { label: t.nav.products, href: "/products" },
+    { label: t.nav.portfolio, href: "/portofolio" },
     { label: t.nav.industries, href: "/industries" },
     { label: t.nav.pricing, href: "/pricing" },
     { label: t.nav.blog, href: "/blog" },
@@ -31,6 +33,9 @@ export function Header() {
   // The desktop bar leaves out Contact — the CTA button already opens it.
   // The mobile drawer has room, so it lists everything.
   const primaryNav = mainNav.filter((link) => link.href !== "/contact");
+  // Between lg and xl the bar can't fit every link; About drops out there
+  // (it stays in the footer) and comes back from xl up.
+  const wideOnly = "/about";
   // Nav hrefs are unprefixed; compare against the path without /en or /zh.
   const { path } = splitLocale(pathname);
   const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
@@ -70,7 +75,8 @@ export function Header() {
                 href={link.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "focus-ring rounded-full px-4 py-1.5 text-[13px] font-medium transition-colors",
+                  "focus-ring whitespace-nowrap rounded-full px-3 py-1.5 text-[13px] font-medium transition-colors xl:px-4",
+                  link.href === wideOnly && "hidden xl:block",
                   active ? "bg-ink text-surface-0" : "text-ink-muted hover:bg-surface-2 hover:text-ink"
                 )}
               >
@@ -83,7 +89,7 @@ export function Header() {
         <div className="hidden items-center gap-3 lg:flex">
           <ThemeToggle />
           <LanguageSwitcher />
-          <Button href="/contact" size="sm" icon={<ArrowRight className="h-3.5 w-3.5" />}>
+          <Button href="/contact" size="sm" className="whitespace-nowrap" icon={<ArrowRight className="h-3.5 w-3.5" />}>
             {t.nav.cta}
           </Button>
         </div>

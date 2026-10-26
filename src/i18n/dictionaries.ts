@@ -2,6 +2,8 @@ export type Dictionary = {
   nav: {
     services: string;
     industries: string;
+    products: string;
+    portfolio: string;
     pricing: string;
     blog: string;
     about: string;
@@ -205,6 +207,8 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     nav: {
       services: "Layanan",
       industries: "Industri",
+      products: "Produk",
+      portfolio: "Portofolio",
       pricing: "Harga",
       blog: "Blog",
       about: "Tentang Kami",
@@ -477,6 +481,8 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     nav: {
       services: "Services",
       industries: "Industries",
+      products: "Products",
+      portfolio: "Portfolio",
       pricing: "Pricing",
       blog: "Blog",
       about: "About",
@@ -749,6 +755,8 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     nav: {
       services: "服务",
       industries: "行业",
+      products: "产品",
+      portfolio: "作品集",
       pricing: "价格",
       blog: "博客",
       about: "关于我们",

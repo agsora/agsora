@@ -14,13 +14,14 @@ const nextConfig: NextConfig = {
     return [
       { source: "/blog/page/1", destination: "/blog", permanent: true },
       { source: "/:lang(en|zh)/blog/page/1", destination: "/:lang/blog", permanent: true },
-      // Pages removed in the 3-language redesign. Google still knows them
-      // (GSC lists /portfolio as a referring page), so send them to the
-      // closest page that exists now instead of a 404.
-      { source: "/portfolio", destination: "/industries", permanent: true },
-      { source: "/:lang(en|zh)/portfolio", destination: "/:lang/industries", permanent: true },
-      { source: "/products", destination: "/services", permanent: true },
-      { source: "/:lang(en|zh)/products", destination: "/:lang/services", permanent: true },
+      { source: "/portofolio/page/1", destination: "/portofolio", permanent: true },
+      { source: "/:lang(en|zh)/portofolio/page/1", destination: "/:lang/portofolio", permanent: true },
+      // The old site's English-spelled /portfolio (GSC still lists it as a
+      // referring page) now has a real page under the Indonesian spelling.
+      { source: "/portfolio", destination: "/portofolio", permanent: true },
+      { source: "/:lang(en|zh)/portfolio", destination: "/:lang/portofolio", permanent: true },
+      { source: "/portfolio/:slug", destination: "/portofolio/:slug", permanent: true },
+      { source: "/:lang(en|zh)/portfolio/:slug", destination: "/:lang/portofolio/:slug", permanent: true },
     ];
   },
 };
