@@ -124,6 +124,7 @@ export const body: Block[] = [
     "Tetapkan kebiasaan: setiap bug yang diperbaiki harus disertai pengujiannya",
   ] },
   { type: "p", text: "Untuk mengelola risiko setelah kode terpasang, pelajari [feature flag dan rilis bertahap](/blog/feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis)." },
+  { type: "p", text: "Pipeline rilis juga perlu mengelola kredensial dengan aman; lihat [manajemen secret dan kunci API](/blog/manajemen-secret-dan-kunci-api-di-aplikasi-bisnis)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Pengujian otomatis dan CI/CD bukan kemewahan bagi perusahaan teknologi besar. Bagi bisnis yang bergantung pada aplikasi, praktik ini adalah cara menjaga agar perubahan yang diperlukan tidak berubah menjadi risiko yang ditakuti. Hasilnya adalah rilis yang lebih sering, lebih tenang, dan lebih bisa diprediksi." },
   { type: "p", text: "Mulailah sederhana: lindungi alur yang paling penting, otomatiskan rilis, dan biasakan belajar dari setiap masalah. Seiring waktu, tim yang percaya pada jaring pengamannya akan bergerak lebih cepat dan menghadirkan nilai baru bagi pelanggan dengan lebih sedikit kejutan. Bagi pemilik bisnis, ukuran keberhasilannya sederhana: seberapa jarang pelanggan merasakan masalah akibat perubahan, dan seberapa cepat perbaikan diterima saat dibutuhkan." },

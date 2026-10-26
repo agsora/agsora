@@ -97,6 +97,7 @@ export const body: Block[] = [
       "Rencanakan pemeliharaan dan pengukuran per bahasa, dan tambah bahasa baru hanya jika yang ada sudah terawat",
     ],
   },
+  { type: "p", text: "Detail teknis hreflang, kanonikal, dan struktur URL dibahas di [SEO internasional](/blog/seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Website multibahasa adalah cara ampuh memperluas jangkauan bisnis, asalkan dikerjakan dengan serius. Terjemahan yang baik, struktur teknis yang benar, penyesuaian budaya, dan pemeliharaan yang konsisten membuat pengunjung dari berbagai bahasa merasa dilayani, dan mesin pencari memahami siapa yang harus melihat versi mana." },
   { type: "p", text: "Mulailah dari pasar yang paling nyata bagi bisnis Anda, kerjakan dengan baik, dan perluas bertahap. Dengan begitu website Anda tidak hanya bisa diakses dari mana saja, tetapi benar-benar dapat dipahami oleh orang-orang yang ingin Anda layani." },

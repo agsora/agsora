@@ -145,6 +145,7 @@ export const body: Block[] = [
     type: "p",
     text: "Sistem yang bisa mengatur periode berlaku promo secara otomatis, kapan mulai dan kapan berakhir, untuk produk dan kategori pelanggan mana saja, memastikan setiap sales melihat harga yang sama dan benar-benar berlaku pada saat itu, tanpa perlu mengandalkan komunikasi manual yang rawan terlewat atau disalahpahami di lapangan.",
   },
+  { type: "p", text: "Distributor farmasi punya kebutuhan tambahan soal batch dan golongan produk; lihat [ERP untuk apotek dan distributor farmasi](/blog/erp-untuk-apotek-dan-distributor-farmasi-batch-kedaluwarsa-dan-regulasi)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

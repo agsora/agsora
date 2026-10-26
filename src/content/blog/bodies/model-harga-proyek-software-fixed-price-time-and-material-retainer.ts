@@ -141,6 +141,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagaimana menghindari pembengkakan biaya pada time and material? Tetapkan batas anggaran per periode, minta demo rutin, prioritaskan daftar fitur, dan tinjau laporan jam kerja bersama vendor." },
   { type: "p", text: "Apakah garansi sebaiknya tertulis di kontrak? Ya. Tentukan lamanya, jenis masalah yang ditanggung, dan waktu respons, agar tidak ada perdebatan setelah serah terima." },
   { type: "p", text: "Berapa lama kontrak retainer yang wajar? Mulailah dengan periode pendek disertai tinjauan berkala, lalu perpanjang jika hasilnya memuaskan." },
+  { type: "p", text: "Dari sisi penyedia jasa, pengaruh model harga pada margin dibahas di [ERP untuk agensi kreatif dan digital](/blog/erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Tidak ada model harga yang selalu terbaik. Harga tetap memberi kepastian saat lingkup jelas, time and material memberi fleksibilitas saat kebutuhan berkembang, dan retainer menjaga sistem tetap sehat setelah peluncuran. Banyak proyek paling baik dijalankan dengan gabungan ketiganya secara bertahap. Pilih model berdasarkan kejelasan lingkup, toleransi anggaran, dan tingkat keterlibatan tim Anda, lalu pastikan kontraknya menetapkan lingkup, kriteria penerimaan, dan mekanisme perubahan dengan jelas." },
   {

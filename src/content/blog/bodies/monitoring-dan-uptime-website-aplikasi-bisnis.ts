@@ -118,6 +118,7 @@ export const body: Block[] = [
     "Tulis prosedur insiden satu halaman: siapa memimpin, siapa berkomunikasi, dan langkah pemulihan awal",
     "Jadwalkan uji pemulihan cadangan dan catat hasilnya",
   ] },
+  { type: "p", text: "Pantauan di produksi dilengkapi dengan [load testing sebelum promo besar](/blog/load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Monitoring bukan tentang menghindari semua gangguan, melainkan tentang mengetahuinya lebih cepat, memahaminya lebih baik, dan memulihkannya dengan lebih tenang. Pemeriksaan dari sudut pandang pengguna, peringatan yang bermakna, pencatatan yang rapi, komunikasi yang jujur, dan kebiasaan belajar dari setiap insiden membuat sistem makin tangguh dari waktu ke waktu." },
   { type: "p", text: "Mulailah kecil dengan hal yang paling merugikan bila mati, lalu kembangkan seiring bisnis tumbuh. Dengan begitu Anda tidak lagi bergantung pada pelanggan untuk memberi tahu bahwa ada yang salah." },

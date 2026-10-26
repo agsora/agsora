@@ -118,6 +118,7 @@ export const body: Block[] = [
     "Susun daftar periksa siaran langsung: produk, stok, harga, peran tim, dan alur pesanan",
     "Mulai mencatat sumber setiap pesanan dan tinjau hasilnya tiap minggu",
   ] },
+  { type: "p", text: "Lonjakan trafik saat siaran langsung sebaiknya diuji dulu dengan [load testing](/blog/load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Media sosial dan siaran langsung adalah cara ampuh menjangkau dan meyakinkan pelanggan, tetapi nilai sebenarnya baru terasa ketika penjualan yang dihasilkan tercatat rapi, stok terkendali, dan pelanggan terlayani dengan baik. Satu alur pesanan, satu sumber stok, pembayaran yang jelas, dan pengukuran yang jujur mengubah keramaian menjadi bisnis yang bisa tumbuh." },
   { type: "p", text: "Mulailah dari yang sederhana, rapikan pencatatan sebelum menambah keramaian, dan bangun aset yang Anda miliki sendiri. Dengan begitu perhatian yang Anda peroleh di media sosial benar-benar berubah menjadi penjualan yang berkelanjutan." },

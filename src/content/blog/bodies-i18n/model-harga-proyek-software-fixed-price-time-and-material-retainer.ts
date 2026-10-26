@@ -140,6 +140,7 @@ const en: Block[] = [
   { type: "p", text: "How do you avoid cost overruns on time and material? Set a budget cap per period, ask for regular demos, prioritize the feature list, and review timesheets with the vendor." },
   { type: "p", text: "Should the warranty be written into the contract? Yes. Define its length, the types of issues covered, and response times, so there is no dispute after handover." },
   { type: "p", text: "What is a reasonable retainer term? Start with a short period with periodic review, then extend if the results are satisfactory." },
+  { type: "p", text: "From the service provider's side, the effect of pricing models on margin is covered in [ERP for creative and digital agencies](/blog/erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "No pricing model is always best. Fixed price gives certainty when scope is clear, time and material gives flexibility when requirements evolve, and a retainer keeps the system healthy after launch. Many projects run best with a phased combination of all three. Choose a model based on scope clarity, budget tolerance, and how involved your team can be, then make sure the contract sets out scope, acceptance criteria, and the change mechanism clearly." },
   {
@@ -291,6 +292,7 @@ const zh: Block[] = [
   { type: "p", text: "如何避免按实际投入计费时的成本超支？设定每期预算上限，要求定期演示，对功能清单排定优先级，并与供应商一起复核工时表。" },
   { type: "p", text: "保修应该写进合同吗？应该。要明确保修期限、涵盖的问题类型和响应时间，以免交付后发生争议。" },
   { type: "p", text: "包月合同的合理期限是多长？先从较短的周期开始并定期评审，如果结果令人满意再延长。" },
+  { type: "p", text: "从服务提供方的角度，定价模式对利润率的影响见[创意与数字代理机构 ERP](/blog/erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas)。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "没有哪种定价模式永远最好。固定价格在范围清晰时提供确定性，按实际投入计费在需求演变时提供灵活性，包月服务则在上线后保持系统健康。许多项目以三者分阶段组合的方式运行得最好。请根据范围的清晰度、预算容忍度和团队的参与程度选择模式，并确保合同清楚写明范围、验收标准和变更机制。" },
   {

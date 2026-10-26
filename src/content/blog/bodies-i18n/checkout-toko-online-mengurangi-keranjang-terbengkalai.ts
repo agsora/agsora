@@ -200,6 +200,7 @@ const en: Block[] = [
     "type": "p",
     "text": "So don't just copy other stores. Study your own customers' behavior, from the data of each stage of the shopping flow and the questions that come to customer service to the reviews they write. The most fitting improvements often emerge from listening to repeated complaints, not from a list of general suggestions."
   },
+  { type: "p", text: "A checkout that stays fast under heavy traffic needs to be verified through [load testing](/blog/load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak)." },
   { type: "h2", text: "Closing" },
   {
     type: "p",
@@ -414,6 +415,7 @@ const zh: Block[] = [
     "type": "p",
     "text": "所以不要只是模仿别的网店。研究你自己客户的行为,从购物流程各阶段的数据、进入客服的问题,到他们撰写的评价。最合适的改进往往来自倾听反复出现的抱怨,而不是一份通用建议的清单。"
   },
+  { type: "p", text: "高流量下仍然快速的结账流程需要通过[负载测试](/blog/load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak)来验证。" },
   { type: "h2", text: "结语" },
   {
     type: "p",

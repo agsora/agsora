@@ -200,6 +200,7 @@ export const body: Block[] = [
     "type": "p",
     "text": "Karena itu, jangan hanya meniru toko lain. Pelajari perilaku pelanggan Anda sendiri, mulai dari data tahap-tahap alur belanja, pertanyaan yang masuk ke layanan pelanggan, hingga ulasan yang mereka tulis. Perbaikan yang paling tepat sering muncul dari mendengarkan keluhan yang berulang, bukan dari daftar saran umum."
   },
+  { type: "p", text: "Checkout yang cepat saat ramai perlu diuji lewat [load testing](/blog/load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

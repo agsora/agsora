@@ -141,6 +141,7 @@ export const body: Block[] = [
     type: "p",
     text: "Template dan checklist untuk tahapan yang benar-benar berulang bukan berarti mematikan kreativitas atau fleksibilitas dalam mengerjakan project. Justru sebaliknya, dengan bagian rutin sudah terstandarisasi dan tidak perlu dipikirkan ulang dari nol setiap kali, tim punya lebih banyak ruang dan waktu untuk fokus pada bagian project yang benar-benar membutuhkan pemikiran khusus dan keahlian personal mereka. Sistem yang menyimpan template ini dan memudahkan tim menerapkannya ke project baru membantu menjaga konsistensi kualitas, terutama saat tim bertambah besar dan tidak semua orang punya pengalaman yang sama.",
   },
+  { type: "p", text: "Contoh penerapan pada agensi, termasuk utilisasi dan profitabilitas, ada di [ERP untuk agensi kreatif dan digital](/blog/erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

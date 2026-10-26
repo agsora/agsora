@@ -130,6 +130,7 @@ export const body: Block[] = [
       "Jadwalkan rekonsiliasi rutin dan tentukan siapa yang bertanggung jawab",
     ],
   },
+  { type: "p", text: "Kunci rahasia payment gateway harus disimpan aman; panduannya ada di [manajemen secret dan kunci API](/blog/manajemen-secret-dan-kunci-api-di-aplikasi-bisnis)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Payment gateway adalah salah satu komponen terpenting dalam bisnis online, karena di sinilah minat pelanggan berubah menjadi uang. Integrasi yang dirancang dengan baik membuat pembayaran terasa mulus bagi pelanggan, status pesanan tetap akurat, dan keuangan tertata. Integrasi yang asal-asalan menimbulkan pesanan yang salah status, selisih dana yang sulit dilacak, dan pelanggan yang kehilangan kepercayaan." },
   { type: "p", text: "Kabar baiknya, Anda tidak harus menguasai semua detail teknis. Cukup pahami prinsipnya, ajukan pertanyaan yang tepat, dan pastikan tim atau vendor Anda menjawabnya dengan jelas. Mulailah dari metode yang paling dipakai pelanggan, bangun alur yang andal, dan perluas seiring bisnis Anda tumbuh." },

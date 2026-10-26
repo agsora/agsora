@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "erp-untuk-apotek-dan-distributor-farmasi-batch-kedaluwarsa-dan-regulasi",
+    title: "ERP untuk Apotek dan Distributor Farmasi: Batch, Kedaluwarsa FEFO, Golongan Obat, dan Pelaporan",
+    excerpt: "Kebutuhan khas farmasi di ERP: pelacakan batch dan kedaluwarsa dengan FEFO, golongan obat dan dokumen, harga bertingkat, stok multi-cabang, serta laporan kedaluwarsa dan regulasi.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    tags: ["erp","industri","inventori"],
+    titleTranslations: {
+      en: "ERP for Pharmacies and Pharmaceutical Distributors: Batches, FEFO Expiry, Drug Classes, and Reporting",
+      zh: "药店与药品分销商 ERP：批次、FEFO 效期、药品类别与报表",
+    },
+    excerptTranslations: {
+      en: "Typical pharmaceutical needs in an ERP: batch and expiry tracking with FEFO, drug classes and documents, tiered pricing, multi-branch stock, and expiry and regulatory reports.",
+      zh: "药品行业在 ERP 中的典型需求：基于 FEFO 的批次与效期追踪、药品类别与文件、分级价格、多门店库存以及效期与监管报表。",
+    },
+  },
+  {
+    slug: "seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten",
+    title: "SEO Internasional: Hreflang, Struktur URL, Kanonikal, dan Lokalisasi Konten untuk Menjangkau Pasar Luar Negeri",
+    excerpt: "Panduan SEO internasional untuk website bisnis: memilih struktur URL, hreflang timbal balik, kanonikal, peta situs, pengalih bahasa, lokalisasi konten, dan pengukuran hasil.",
+    category: "Website & Digital",
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    tags: ["seo","website","ecommerce"],
+    titleTranslations: {
+      en: "International SEO: Hreflang, URL Structure, Canonicals, and Content Localization for Reaching Overseas Markets",
+      zh: "国际 SEO：Hreflang、URL 结构、规范标签与内容本地化，触达海外市场",
+    },
+    excerptTranslations: {
+      en: "An international SEO guide for business websites: choosing a URL structure, reciprocal hreflang, canonicals, sitemaps, language switchers, content localization, and measuring results.",
+      zh: "企业网站国际 SEO 指南：选择 URL 结构、相互指向的 hreflang、规范标签、站点地图、语言切换器、内容本地化与效果衡量。",
+    },
+  },
+  {
+    slug: "manajemen-secret-dan-kunci-api-di-aplikasi-bisnis",
+    title: "Manajemen Secret dan Kunci API di Aplikasi Bisnis: Menyimpan, Merotasi, dan Mendeteksi Kebocoran Kredensial",
+    excerpt: "Cara mengelola kata sandi, kunci API, dan token aplikasi: tempat penyimpanan yang benar, pemisahan lingkungan, rotasi, deteksi kebocoran, dan prosedur bila secret bocor.",
+    category: "Teknologi",
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    tags: ["keamanan","integrasi","infrastruktur"],
+    titleTranslations: {
+      en: "Secrets and API Key Management in Business Applications: Storing, Rotating, and Detecting Credential Leaks",
+      zh: "企业应用中的密钥与 API 密钥管理：存放、轮换与凭据泄露检测",
+    },
+    excerptTranslations: {
+      en: "How to manage application passwords, API keys, and tokens: the right place to store them, environment separation, rotation, leak detection, and the procedure when a secret leaks.",
+      zh: "如何管理应用的密码、API 密钥和令牌：正确的存放位置、环境分离、轮换、泄露检测，以及密钥泄露时的处理流程。",
+    },
+  },
+  {
+    slug: "erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas",
+    title: "ERP untuk Agensi Kreatif dan Digital: Timesheet, Utilisasi, Anggaran Proyek, dan Profitabilitas",
+    excerpt: "Kebutuhan sistem agensi: pencatatan waktu yang bisa dipercaya, utilisasi dan tarif realisasi, kontrol lingkup dan anggaran, model penagihan, biaya freelancer, dan laporan margin per proyek.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    tags: ["erp","industri","operasional"],
+    titleTranslations: {
+      en: "ERP for Creative and Digital Agencies: Timesheets, Utilization, Project Budgets, and Profitability",
+      zh: "创意与数字代理机构 ERP：工时表、利用率、项目预算与盈利能力",
+    },
+    excerptTranslations: {
+      en: "Agency system needs: trustworthy time recording, utilization and realization rate, scope and budget control, billing models, freelancer costs, and margin-per-project reports.",
+      zh: "代理机构的系统需求：可信的工时记录、利用率与实现率、范围与预算控制、计费模式、自由职业者成本以及按项目的利润率报表。",
+    },
+  },
+  {
+    slug: "load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak",
+    title: "Load Testing: Uji Beban Toko Online dan Aplikasi Sebelum Promo Besar dan Musim Puncak",
+    excerpt: "Panduan uji beban untuk bisnis: jenis uji, menetapkan target dari data, skenario realistis, metrik persentil, perbaikan leher botol, dan rencana hari puncak.",
+    category: "Teknologi",
+    publishedAt: "2026-10-26",
+    updatedAt: "2026-10-26",
+    tags: ["infrastruktur","website","operasional"],
+    titleTranslations: {
+      en: "Load Testing: Stress-Testing Your Online Store and Apps Before Big Promos and Peak Season",
+      zh: "负载测试：在大促和旺季之前对网店与应用做压力测试",
+    },
+    excerptTranslations: {
+      en: "A load testing guide for businesses: test types, setting targets from data, realistic scenarios, percentile metrics, fixing bottlenecks, and a peak-day plan.",
+      zh: "面向企业的负载测试指南：测试类型、依据数据设定目标、真实场景、百分位指标、修复瓶颈以及高峰日计划。",
+    },
+  },
+  {
     slug: "spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis",
     title: "SPF, DKIM, dan DMARC: Menjaga Email Bisnis Tetap Sampai ke Pelanggan dan Aman dari Pemalsuan Domain",
     excerpt: "Cara kerja SPF, DKIM, dan DMARC, inventaris sumber email, langkah penerapan bertahap, pemisahan email transaksional dan pemasaran, serta indikator deliverability yang dipantau.",
@@ -487,7 +572,7 @@ export const meta: PostMeta[] = [
     excerpt: "Membandingkan tiga model harga proyek software, risiko dan kecocokannya, model campuran, serta hal yang harus tertulis di kontrak sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     tags: ["vendor","biaya","kontrak"],
     titleTranslations: {
       en: "Fixed Price, Time and Material, or Retainer? Choosing a Software Project Pricing Model",
@@ -640,7 +725,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja pelacakan lot di ERP, aturan FEFO, ketertelusuran dua arah, pemindaian barcode, kesiapan penarikan produk, dan langkah penerapan tanpa memperlambat gudang.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-10-26",
     tags: ["erp","inventori","industri"],
     titleTranslations: {
       en: "Lot, Batch, and Expiry Date Tracking with ERP: From FEFO to Product Recalls",
@@ -878,7 +963,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan data terstruktur JSON-LD untuk bisnis: tipe schema yang berguna, cara menerapkan, kesalahan umum, serta pengujian dan pemantauan untuk pencarian tradisional dan AI.",
     category: "Website & Digital",
     publishedAt: "2026-10-16",
-    updatedAt: "2026-10-16",
+    updatedAt: "2026-10-26",
     tags: ["seo","website","data"],
     titleTranslations: {
       en: "Schema Markup and Structured Data for Business Website SEO: Stand Out in Search",
@@ -997,7 +1082,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengapa sistem melambat seiring waktu, cara mengukur sebelum memperbaiki, peran indeks dan cache, pengelolaan data lama, serta kapan perlu menambah server.",
     category: "Teknologi",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-10-15",
+    updatedAt: "2026-10-26",
     tags: ["infrastruktur","data","operasional"],
     titleTranslations: {
       en: "Slowing Database and Business App Performance: Causes and How to Fix Them",
@@ -1167,7 +1252,7 @@ export const meta: PostMeta[] = [
     excerpt: "Merancang penagihan proyek yang sehat: memilih model, milestone dengan kriteria penerimaan, jadwal yang selaras dengan arus kas, perubahan lingkup, pencatatan jam kerja, dan pengakuan pendapatan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     tags: ["erp","keuangan","operasional"],
     titleTranslations: {
       en: "Project and Milestone Billing for Service Businesses: Keeping Cash Flow and Margin Healthy",
@@ -1252,7 +1337,7 @@ export const meta: PostMeta[] = [
     excerpt: "Memahami risiko komponen pihak ketiga: jenis serangan rantai pasok, daftar komponen, pemindaian kerentanan, pembaruan rutin, lisensi, pengamanan proses rilis, dan pertanyaan untuk vendor.",
     category: "Teknologi",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-10-26",
     tags: ["keamanan","custom-software","api"],
     titleTranslations: {
       en: "Dependency and Software Supply Chain Security: Watching for Risk in the Code You Use",
@@ -1269,7 +1354,7 @@ export const meta: PostMeta[] = [
     excerpt: "Pendekatan bertahap untuk ekspor lewat toko online: memilih pasar, pajak dan bea masuk, harga dan mata uang, pembayaran internasional, pengiriman, retur, lokalisasi, dan kesiapan sistem.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-10-26",
     tags: ["ecommerce","website","pembayaran"],
     titleTranslations: {
       en: "Selling Abroad with a Cross Border Online Store: Tax, Shipping, and Localisation",
@@ -1337,7 +1422,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan awam tentang pengujian otomatis dan alur rilis: jenis pengujian, apa yang layak diuji lebih dulu, lingkungan uji dan data aman, rilis bertahap, kemampuan membatalkan, serta pertanyaan untuk menilai praktik vendor Anda.",
     category: "Teknologi",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-10-26",
     tags: ["custom-software","infrastruktur","keamanan"],
     titleTranslations: {
       en: "Automated Testing and CI/CD for Business Applications: Calm, Predictable Releases",
@@ -1830,7 +1915,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merancang pemantauan yang realistis: apa yang dipantau, pemeriksaan alur, peringatan yang tidak melelahkan, pencatatan kesalahan, halaman status, dan penanganan insiden dengan tenang.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-26",
     tags: ["infrastruktur","keamanan","operasional"],
     titleTranslations: {
       en: "Monitoring and Uptime for Business Websites and Apps: Knowing There Is a Problem Before Customers Complain",
@@ -1847,7 +1932,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara menghubungkan media sosial dan siaran langsung dengan toko Anda sendiri: satu alur pesanan, stok yang sinkron, pembayaran yang jelas, layanan pelanggan, data yang bertanggung jawab, dan pengukuran per saluran.",
     category: "Website & Digital",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-26",
     tags: ["ecommerce","sales","pelanggan"],
     titleTranslations: {
       en: "Selling Through Social Media and Live Commerce: Turning Bustle into Properly Recorded Sales",
@@ -2017,7 +2102,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menerima pembayaran online bukan sekadar memasang tombol bayar. Cara memilih payment gateway, metode pembayaran, alur status transaksi, rekonsiliasi, hingga keamanan dan penanganan refund.",
     category: "Teknologi",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-10-26",
     tags: ["pembayaran","ecommerce","integrasi"],
     titleTranslations: {
       en: "Payment Gateway Integration for Websites and Apps: A Guide for Business Owners",
@@ -2119,7 +2204,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyediakan website dalam beberapa bahasa membuka pasar baru, tetapi dikerjakan asal-asalan justru merugikan. Cara merancang struktur alamat, terjemahan berkualitas, hreflang, penyesuaian budaya, dan proses pemeliharaan.",
     category: "Website & Digital",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-10-26",
     tags: ["website","seo","umkm"],
     titleTranslations: {
       en: "Multilingual Websites: Reaching Customers Across Borders Without Sacrificing SEO",
@@ -2204,7 +2289,7 @@ export const meta: PostMeta[] = [
     excerpt: "Pelanggan sudah memilih barang tetapi pergi saat membayar. Lima hambatan checkout yang paling umum, perbaikan praktisnya, cara mengajak kembali, dan daftar periksa sebelum peluncuran.",
     category: "Website & Digital",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-06",
+    updatedAt: "2026-10-26",
     tags: ["ecommerce","pembayaran","website","pelanggan"],
     titleTranslations: {
       en: "Online Store Checkout: Reducing Carts Customers Abandon",
@@ -2842,7 +2927,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-10-26",
     tags: [
       "seo",
       "website"
@@ -2906,6 +2991,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menutup gudang seharian untuk menghitung stok memang sederhana, tapi mahal. Hitung siklus membuat stok tetap akurat tanpa menghentikan penjualan.",
     category: "ERP & Operasional",
     publishedAt: "2026-07-26",
+    updatedAt: "2026-10-26",
     tags: [
       "inventori",
       "erp",
@@ -2967,7 +3053,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis distribusi bergerak di antara gudang, armada, sales lapangan, dan tagihan pelanggan. Sistemnya harus menyatukan semua titik itu, bukan hanya mencatat stok.",
     category: "Panduan Industri",
     publishedAt: "2026-07-16",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-26",
     tags: [
       "industri",
       "inventori",
@@ -3189,6 +3275,7 @@ export const meta: PostMeta[] = [
     excerpt: "Konsultan, agensi, dan firma jasa menjual waktu dan keahlian. Sistem yang tepat membantu melihat ke mana waktu itu pergi dan apakah setiap project menguntungkan.",
     category: "Panduan Industri",
     publishedAt: "2026-06-10",
+    updatedAt: "2026-10-26",
     tags: [
       "industri",
       "crm",
@@ -3240,6 +3327,7 @@ export const meta: PostMeta[] = [
     excerpt: "Keamanan aplikasi bukan fitur tambahan yang bisa dipasang belakangan. Beberapa hal dasar ini seharusnya ada sejak aplikasi pertama kali dibangun.",
     category: "Teknologi",
     publishedAt: "2026-06-02",
+    updatedAt: "2026-10-26",
     tags: [
       "keamanan",
       "custom-software",

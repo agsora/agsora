@@ -172,6 +172,7 @@ export const body: Block[] = [
     type: "p",
     text: "Data selisih dari hitung siklus akan sia-sia jika hanya disimpan sebagai angka tanpa pernah ditinjau ulang secara berkala. Luangkan waktu setiap bulan untuk melihat kategori barang mana yang paling sering mengalami selisih, apakah ada pola berdasarkan waktu, lokasi, atau petugas tertentu, dan apakah tindakan perbaikan yang sudah dilakukan sebelumnya benar-benar berdampak pada penurunan selisih di periode berikutnya. Evaluasi rutin seperti ini mengubah hitung siklus dari sekadar aktivitas administratif menjadi alat perbaikan operasional yang berkelanjutan.",
   },
+  { type: "p", text: "Untuk stok opname per batch dan kedaluwarsa, lihat [ERP untuk apotek dan distributor farmasi](/blog/erp-untuk-apotek-dan-distributor-farmasi-batch-kedaluwarsa-dan-regulasi)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

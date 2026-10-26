@@ -140,6 +140,7 @@ export const body: Block[] = [
     "Tidak memiliki kebijakan retur dan layanan pelanggan yang jelas untuk pembeli luar negeri",
   ] },
   { type: "p", text: "Ketika penjualan lintas negara tumbuh menjadi anak perusahaan atau entitas di negara lain, pembukuan perlu siap menangani beberapa mata uang dan badan hukum. Topik ini kami bahas dalam artikel [ERP multi mata uang dan multi entitas](/blog/erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional)." },
+  { type: "p", text: "Agar toko lintas negara ditemukan pembeli luar negeri, pelajari [SEO internasional](/blog/seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Menjual ke luar negeri adalah peluang pertumbuhan yang nyata, tetapi hadiahnya jatuh kepada bisnis yang mendekatinya dengan disiplin: memilih pasar dengan data, menghitung biaya sebenarnya, jujur tentang pajak dan pengiriman, dan melayani pembeli dengan layanan yang terasa lokal." },
   { type: "p", text: "Mulailah dengan satu pasar dan produk yang paling mungkin berhasil, pelajari angka-angkanya, dan perbaiki sebelum meluas. Dengan sistem yang mendukung banyak mata uang, pajak, dan pengiriman, ekspansi lintas negara dapat menjadi bagian yang terkelola dan menguntungkan dari bisnis Anda." },

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_erp_untuk_apotek_dan_distributor_farmasi_batch_kedaluwarsa_dan_regulasi } from "./erp-untuk-apotek-dan-distributor-farmasi-batch-kedaluwarsa-dan-regulasi";
+import { translations as t_seo_internasional_hreflang_struktur_url_dan_lokalisasi_konten } from "./seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten";
+import { translations as t_manajemen_secret_dan_kunci_api_di_aplikasi_bisnis } from "./manajemen-secret-dan-kunci-api-di-aplikasi-bisnis";
+import { translations as t_erp_untuk_agensi_kreatif_dan_digital_timesheet_utilisasi_dan_profitabilitas } from "./erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas";
+import { translations as t_load_testing_uji_beban_sebelum_promo_besar_dan_musim_puncak } from "./load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak";
 import { translations as t_spf_dkim_dmarc_keamanan_dan_deliverability_email_bisnis } from "./spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis";
 import { translations as t_mengendalikan_biaya_ai_token_dan_inferensi_untuk_aplikasi_bisnis } from "./mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis";
 import { translations as t_erp_untuk_bisnis_fashion_dan_apparel_varian_musiman_dan_stok } from "./erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok";
@@ -299,4 +304,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok": t_erp_untuk_bisnis_fashion_dan_apparel_varian_musiman_dan_stok,
   "erp-untuk-logistik-pihak-ketiga-3pl-penagihan-gudang-dan-sla": t_erp_untuk_logistik_pihak_ketiga_3pl_penagihan_gudang_dan_sla,
   "desain-api-bisnis-versioning-dokumentasi-dan-batas-laju": t_desain_api_bisnis_versioning_dokumentasi_dan_batas_laju,
+  "erp-untuk-apotek-dan-distributor-farmasi-batch-kedaluwarsa-dan-regulasi": t_erp_untuk_apotek_dan_distributor_farmasi_batch_kedaluwarsa_dan_regulasi,
+  "seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten": t_seo_internasional_hreflang_struktur_url_dan_lokalisasi_konten,
+  "manajemen-secret-dan-kunci-api-di-aplikasi-bisnis": t_manajemen_secret_dan_kunci_api_di_aplikasi_bisnis,
+  "erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas": t_erp_untuk_agensi_kreatif_dan_digital_timesheet_utilisasi_dan_profitabilitas,
+  "load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak": t_load_testing_uji_beban_sebelum_promo_besar_dan_musim_puncak,
 };
