@@ -78,11 +78,16 @@ export default async function PortfolioProjectPage({ params }: Props) {
         keywords: project.stack.join(", "),
         creator: organization,
         publisher: organization,
-        about: {
-          "@type": "Organization",
-          name: project.client,
-          ...(project.liveUrl ? { url: project.liveUrl } : {}),
-        },
+        // A concept has no client to name.
+        ...(project.concept
+          ? {}
+          : {
+              about: {
+                "@type": "Organization",
+                name: project.client,
+                ...(project.liveUrl ? { url: project.liveUrl } : {}),
+              },
+            }),
         ...(industry ? { audience: { "@type": "BusinessAudience", name: industry.name[locale] } } : {}),
       },
     ],

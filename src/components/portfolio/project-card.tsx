@@ -24,6 +24,11 @@ export function ProjectCard({ project }: { project: PortfolioProject }) {
           background: `radial-gradient(120% 90% at 50% 0%, ${project.accent}33, transparent 70%)`,
         }}
       >
+        {project.concept ? (
+          <span className="absolute left-4 top-4 z-10 rounded-full bg-ink px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-surface-0">
+            {s.conceptTag}
+          </span>
+        ) : null}
         <div className="translate-y-2 transition-transform duration-500 group-hover:translate-y-0">
           <BrowserFrame
             image={project.cover}

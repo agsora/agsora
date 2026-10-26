@@ -25,6 +25,8 @@ export type PortfolioProject = {
   industry: string;
   category: Text;
   year: string;
+  /** A self-initiated design exercise, not client work: labelled as such on the card and the page. */
+  concept?: boolean;
   /** ISO date the project went live; newest projects are listed first. */
   launchedAt: string;
   liveUrl?: string;
@@ -660,9 +662,263 @@ const maheswara: PortfolioProject = {
   ],
 };
 
-/** Newest first. Add a project here and it appears on /portofolio, in the sitemap, and gets its own page. */
-export const projects: PortfolioProject[] = [koperasiEmas, maheswara].sort(
-  (a, b) => b.launchedAt.localeCompare(a.launchedAt)
+const gandum: PortfolioProject = {
+  slug: "gandum-bakehouse",
+  name: "Gandum Bakehouse",
+  client: "Konsep AG·SORA",
+  industry: "kuliner",
+  category: {
+    id: "Konsep E-commerce Toko Roti",
+    en: "Bakery E-commerce Concept",
+    zh: "烘焙电商概念设计",
+  },
+  year: "2026",
+  concept: true,
+  launchedAt: "2026-10-26",
+  // Hosted by us: the prototype is a static file in /public, served at this URL.
+  liveUrl: "https://www.agsora.tech/portofolio/gandum-bakehouse/demo.html",
+  services: ["website", "custom-software"],
+  accent: "#c8553d",
+  metaTitle: {
+    id: "Konsep: E-commerce Toko Roti dengan Keranjang & Checkout | AG·SORA",
+    en: "Concept: Bakery E-commerce with Cart & Checkout | AG·SORA",
+    zh: "概念：含购物车与结账的烘焙电商 | AG·SORA",
+  },
+  metaDescription: {
+    id: "Proyek konsep AG·SORA: desain e-commerce toko roti dengan katalog, filter, keranjang, kode promo, dan checkout. Merek fiktif, bukan pekerjaan klien.",
+    en: "AG·SORA concept project: a bakery e-commerce design with catalogue, filters, cart, promo codes, and checkout. A fictional brand, not client work.",
+    zh: "AG·SORA 概念项目：烘焙电商设计，含商品目录、筛选、购物车、优惠码与结账。虚构品牌，非客户作品。",
+  },
+  headline: {
+    id: "Dari katalog toko roti menjadi pengalaman belanja online yang cepat",
+    en: "Turning a bakery catalogue into a fast online shopping experience",
+    zh: "把烘焙店商品目录\u200B变成流畅的\u200B线上购物体验",
+  },
+  summary: {
+    id: "Prototipe e-commerce toko roti yang bisa dicoba dari awal sampai akhir: telusuri kategori, cari produk, tambah ke keranjang, pakai kode promo, lalu checkout dengan jadwal antar.",
+    en: "A bakery e-commerce prototype you can try end to end: browse categories, search, add to cart, apply a promo code, and check out with a delivery slot.",
+    zh: "可完整体验的烘焙电商原型：浏览分类、搜索、加入购物车、使用优惠码，并选择配送时段完成结账。",
+  },
+  cover: {
+    src: "/portfolio/gandum-bakehouse/beranda",
+    width: 1440,
+    height: 900,
+    alt: {
+      id: "Beranda konsep e-commerce Gandum Bakehouse dengan roti dan croissant",
+      en: "Home page of the Gandum Bakehouse e-commerce concept with bread and a croissant",
+      zh: "Gandum Bakehouse 电商概念首页，展示面包与可颂",
+    },
+    caption: {
+      id: "Beranda dengan ajakan belanja dan gratis ongkir",
+      en: "Home page with a shop call to action and free delivery",
+      zh: "首页：购物入口与免运费提示",
+    },
+  },
+  stats: [
+    { value: "27", label: { id: "Produk contoh", en: "Sample products", zh: "示例商品" } },
+    { value: "9", label: { id: "Kategori", en: "Categories", zh: "分类" } },
+    { value: "3", label: { id: "Langkah ke pesanan", en: "Steps to an order", zh: "下单步骤" } },
+    { value: "0", label: { id: "Library eksternal", en: "External libraries", zh: "外部库" } },
+  ],
+  challenge: {
+    id: "Banyak toko roti sudah punya katalog online, tetapi pemesanannya masih terasa seperti brosur: produk dijejer, tombol tambah ke keranjang kecil, dan checkout panjang. Pelanggan yang hanya ingin memesan roti untuk besok pagi harus melewati banyak langkah. Konsep ini menjawab satu pertanyaan: seberapa cepat orang bisa dari melihat produk sampai pesanan terkirim?",
+    en: "Many bakeries already have an online catalogue, but ordering still feels like a brochure: products in a row, a small add-to-cart button, and a long checkout. Someone who just wants bread for tomorrow morning has to get through too many steps. This concept asks one question: how fast can a person go from seeing a product to a placed order?",
+    zh: "许多烘焙店已有线上目录，但下单体验仍像一本宣传册：商品平铺、加入购物车按钮很小、结账流程冗长。只想订明早面包的顾客要经过太多步骤。这个概念只回答一个问题：从看到商品到完成下单，最快能多快？",
+  },
+  solution: {
+    id: "Kami merancang alur belanja yang pendek. Kategori, momen (sarapan, rapat, ulang tahun), dan pencarian ada di satu tempat. Keranjang berupa panel samping dengan bilah progres gratis ongkir dan kolom kode promo, jadi pelanggan tidak berpindah halaman. Checkout dibagi tiga kartu: data penerima, jadwal antar, dan pembayaran, dengan ringkasan yang selalu terlihat. Semuanya jalan di satu file tanpa library, dan keranjang tersimpan di perangkat.",
+    en: "We designed a short shopping path. Categories, occasions (breakfast, meetings, birthdays), and search live in one place. The cart is a side panel with a free-delivery progress bar and a promo field, so shoppers never leave the page. Checkout is three cards, recipient, delivery slot, and payment, with the summary always in view. It all runs in a single file with no libraries, and the cart is kept on the device.",
+    zh: "我们设计了一条很短的购物路径。分类、场景（早餐、会议、生日）和搜索集中在一处。购物车是侧边面板，带有免运费进度条和优惠码输入，顾客无需跳转页面。结账分为三张卡片：收货人、配送时段与付款，订单摘要始终可见。整个站点只有一个文件、没有任何库，购物车保存在本机。",
+  },
+  features: [
+    {
+      icon: "layout",
+      title: { id: "Kategori & momen", en: "Categories & occasions", zh: "分类与场景" },
+      text: {
+        id: "Sembilan kategori produk plus pilihan momen seperti sarapan, gathering, dan ulang tahun.",
+        en: "Nine product categories plus occasions such as breakfast, gatherings, and birthdays.",
+        zh: "九大商品分类，外加早餐、聚会、生日等场景入口。",
+      },
+    },
+    {
+      icon: "cart",
+      title: { id: "Katalog dengan filter", en: "Catalogue with filters", zh: "可筛选目录" },
+      text: {
+        id: "Pencarian, filter kategori, urutan harga atau rating, dan paging, dengan alamat yang bisa dibagikan.",
+        en: "Search, category filters, price or rating sorting, and paging, with shareable URLs.",
+        zh: "搜索、分类筛选、按价格或评分排序及分页，链接可分享。",
+      },
+    },
+    {
+      icon: "check",
+      title: { id: "Halaman produk", en: "Product pages", zh: "商品详情页" },
+      text: {
+        id: "Pilihan varian, jumlah, label terlaris dan diskon, serta rekomendasi produk lain.",
+        en: "Variant choice, quantity, best-seller and discount labels, and related product suggestions.",
+        zh: "规格选择、数量、热销与折扣标签，以及相关商品推荐。",
+      },
+    },
+    {
+      icon: "receipt",
+      title: { id: "Keranjang samping", en: "Slide-in cart", zh: "侧边购物车" },
+      text: {
+        id: "Ubah jumlah di tempat, lihat progres gratis ongkir, dan pakai kode promo tanpa pindah halaman.",
+        en: "Change quantities in place, watch free-delivery progress, and apply a promo code without leaving the page.",
+        zh: "就地调整数量、查看免运费进度，并在当前页使用优惠码。",
+      },
+    },
+    {
+      icon: "calculator",
+      title: { id: "Hitung otomatis", en: "Live totals", zh: "实时计算" },
+      text: {
+        id: "Subtotal, diskon, ongkir, dan total dihitung ulang setiap keranjang berubah.",
+        en: "Subtotal, discount, delivery, and total recalculate whenever the cart changes.",
+        zh: "购物车每次变化，小计、折扣、运费与总额都会重新计算。",
+      },
+    },
+    {
+      icon: "clock",
+      title: { id: "Jadwal antar", en: "Delivery slots", zh: "配送时段" },
+      text: {
+        id: "Pelanggan memilih tanggal dan jam antar, cocok untuk pesan hari ini atau besok pagi.",
+        en: "Shoppers pick a delivery date and time, ideal for same-day or next-morning orders.",
+        zh: "顾客可选择配送日期和时间，适合当天或次日早晨送达。",
+      },
+    },
+    {
+      icon: "phone",
+      title: { id: "Mobile first", en: "Mobile first", zh: "移动优先" },
+      text: {
+        id: "Tata letak dua kolom di ponsel, tombol besar, dan keranjang layar penuh.",
+        en: "A two-column layout on phones, large buttons, and a full-screen cart.",
+        zh: "手机端双列布局、大按钮和全屏购物车。",
+      },
+    },
+    {
+      icon: "shield",
+      title: { id: "Aksesibel & ringan", en: "Accessible & light", zh: "无障碍且轻量" },
+      text: {
+        id: "Label untuk pembaca layar, fokus yang jelas, dan animasi yang mengikuti pengaturan reduced motion.",
+        en: "Screen reader labels, clear focus states, and animation that follows reduced-motion settings.",
+        zh: "屏幕阅读器标签、清晰的焦点状态，动画遵循“减少动态效果”设置。",
+      },
+    },
+  ],
+  gallery: [
+    {
+      src: "/portfolio/gandum-bakehouse/katalog",
+      width: 1440,
+      height: 900,
+      alt: {
+        id: "Katalog produk dengan filter kategori dan label diskon",
+        en: "Product catalogue with category filters and discount labels",
+        zh: "带分类筛选和折扣标签的商品目录",
+      },
+      caption: {
+        id: "Katalog dengan filter kategori, urutan, dan label diskon",
+        en: "Catalogue with category filters, sorting, and discount labels",
+        zh: "带分类筛选、排序与折扣标签的目录",
+      },
+    },
+    {
+      src: "/portfolio/gandum-bakehouse/produk",
+      width: 1440,
+      height: 900,
+      alt: {
+        id: "Halaman detail produk red velvet dengan pilihan dan tombol keranjang",
+        en: "Red velvet product page with options and an add-to-cart button",
+        zh: "红丝绒蛋糕商品页，含规格选项与加入购物车按钮",
+      },
+      caption: {
+        id: "Halaman produk dengan pilihan varian dan jaminan kesegaran",
+        en: "Product page with variants and freshness promises",
+        zh: "含规格选择与新鲜保证的商品页",
+      },
+    },
+    {
+      src: "/portfolio/gandum-bakehouse/keranjang",
+      width: 1440,
+      height: 900,
+      alt: {
+        id: "Keranjang samping dengan kode promo dan progres gratis ongkir",
+        en: "Slide-in cart with a promo code and free-delivery progress",
+        zh: "带优惠码与免运费进度的侧边购物车",
+      },
+      caption: {
+        id: "Keranjang samping dengan promo dan progres gratis ongkir",
+        en: "Slide-in cart with promo and free-delivery progress",
+        zh: "带优惠与免运费进度的侧边购物车",
+      },
+    },
+    {
+      src: "/portfolio/gandum-bakehouse/checkout",
+      width: 1440,
+      height: 900,
+      alt: {
+        id: "Halaman checkout dengan data penerima, jadwal antar, dan ringkasan pesanan",
+        en: "Checkout page with recipient details, delivery slot, and order summary",
+        zh: "含收货信息、配送时段与订单摘要的结账页",
+      },
+      caption: {
+        id: "Checkout tiga kartu dengan ringkasan yang selalu terlihat",
+        en: "A three-card checkout with an always-visible summary",
+        zh: "三卡片结账，订单摘要始终可见",
+      },
+    },
+  ],
+  mobile: [
+    {
+      src: "/portfolio/gandum-bakehouse/mobile-produk.webp",
+      width: 480,
+      height: 1039,
+      alt: {
+        id: "Halaman produk croissant di ponsel",
+        en: "Croissant product page on a phone",
+        zh: "手机上的可颂商品页",
+      },
+      caption: { id: "Halaman produk di ponsel", en: "Product page on mobile", zh: "移动端商品页" },
+    },
+    {
+      src: "/portfolio/gandum-bakehouse/mobile-keranjang.webp",
+      width: 480,
+      height: 1039,
+      alt: {
+        id: "Keranjang layar penuh di ponsel",
+        en: "Full-screen cart on a phone",
+        zh: "手机上的全屏购物车",
+      },
+      caption: { id: "Keranjang layar penuh", en: "Full-screen cart", zh: "全屏购物车" },
+    },
+  ],
+  stack: ["HTML5", "CSS3", "JavaScript", "SVG", "localStorage", "Hash routing"],
+  outcomes: [
+    {
+      id: "Dari beranda ke pesanan terkirim hanya butuh tiga langkah: pilih, atur jadwal, bayar.",
+      en: "From home page to a placed order takes three steps: choose, set a slot, pay.",
+      zh: "从首页到下单只需三步：选择、定时段、付款。",
+    },
+    {
+      id: "Pelanggan melihat total akhir, termasuk diskon dan ongkir, sebelum masuk checkout.",
+      en: "Shoppers see the final total, including discount and delivery, before reaching checkout.",
+      zh: "顾客在进入结账前就能看到含折扣与运费的最终总额。",
+    },
+    {
+      id: "Ilustrasi produk berupa SVG, jadi halaman ringan dan tajam di semua layar.",
+      en: "Product illustrations are SVG, so pages stay light and sharp on every screen.",
+      zh: "商品插图采用 SVG，页面轻量且在任何屏幕上都清晰。",
+    },
+    {
+      id: "Pola ini bisa dihubungkan ke stok, pembayaran, dan pengiriman nyata saat menjadi proyek klien.",
+      en: "The pattern can be wired to real stock, payments, and delivery when it becomes a client project.",
+      zh: "成为客户项目时，这一模式可接入真实的库存、支付与配送。",
+    },
+  ],
+};
+
+/** Client work first, then concepts, newest first. Add a project here and it appears on /portofolio, in the sitemap, and gets its own page. */
+export const projects: PortfolioProject[] = [koperasiEmas, maheswara, gandum].sort(
+  // Client work first, concept projects after it; newest first within each group.
+  (a, b) => Number(!!a.concept) - Number(!!b.concept) || b.launchedAt.localeCompare(a.launchedAt)
 );
 
 export function getProject(slug: string) {
@@ -697,6 +953,8 @@ export const portfolioStrings: Record<
     viewCase: string;
     visitSite: string;
     allProjects: string;
+    conceptTag: string;
+    conceptNote: string;
     nextSlotTitle: string;
     nextSlotText: string;
     nextSlotCta: string;
@@ -736,6 +994,8 @@ export const portfolioStrings: Record<
     statProjects: "Studi kasus",
     statIndustries: "Industri dilayani",
     featured: "Proyek unggulan",
+    conceptTag: "Konsep",
+    conceptNote: "Ini proyek konsep AG·SORA, bukan pekerjaan untuk klien. Merek, produk, dan harga di dalamnya fiktif.",
     viewCase: "Lihat studi kasus",
     visitSite: "Kunjungi situs",
     allProjects: "Semua proyek",
@@ -778,6 +1038,8 @@ export const portfolioStrings: Record<
     statProjects: "Case studies",
     statIndustries: "Industries served",
     featured: "Featured project",
+    conceptTag: "Concept",
+    conceptNote: "This is an AG·SORA concept project, not client work. The brand, products, and prices in it are fictional.",
     viewCase: "View case study",
     visitSite: "Visit site",
     allProjects: "All projects",
@@ -819,6 +1081,8 @@ export const portfolioStrings: Record<
     statProjects: "项目案例",
     statIndustries: "服务行业",
     featured: "精选项目",
+    conceptTag: "概念",
+    conceptNote: "这是 AG·SORA 的概念项目，并非客户交付作品。其中的品牌、产品与价格均为虚构。",
     viewCase: "查看案例",
     visitSite: "访问网站",
     allProjects: "全部项目",

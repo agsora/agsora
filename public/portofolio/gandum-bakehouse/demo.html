@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gandum Bakehouse — Roti & kue segar, diantar hari ini</title>
+<meta name="robots" content="noindex,follow">
+<meta name="description" content="Konsep desain ulang e-commerce toko roti: katalog, keranjang, dan checkout. Prototipe oleh AG·SORA, merek fiktif.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf6ee;--card:#fffdf9;--ink:#2b1a12;--mute:#7a665a;--line:#eadfce;--brand:#c8553d;--brand-d:#a8402b;--gold:#e0a84a;--cream:#f4e8d3;--ok:#2f7d4f}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.serif{font-family:'Fraunces',Georgia,serif;letter-spacing:-.02em;line-height:1.05}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 24px;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;font-size:15px;transition:.2s}
+.btn:hover{background:var(--brand-d);transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--bg)}
+.btn.sm{padding:9px 16px;font-size:13px}
+.concept{background:var(--ink);color:#f4e8d3;font-size:12px;text-align:center;padding:7px 12px}
+.concept b{color:var(--gold)}
+header{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:22px;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-family:Fraunces,serif;font-weight:800;font-size:22px;letter-spacing:-.03em}
+.logo i{width:32px;height:32px;border-radius:10px;background:var(--brand);display:grid;place-items:center;color:#fff;font-style:normal;font-size:18px}
+nav{display:flex;gap:6px;margin-left:12px}
+nav a{padding:8px 14px;border-radius:999px;font-size:14px;font-weight:500;color:var(--mute)}
+nav a:hover,nav a.on{background:var(--cream);color:var(--ink)}
+.sp{flex:1}
+.search{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:0 14px;height:42px;width:260px}
+.search input{border:0;outline:0;background:none;font:inherit;font-size:14px;width:100%}
+.cartbtn{position:relative;width:46px;height:46px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center}
+.cartbtn span{position:absolute;top:-4px;right:-4px;background:var(--brand);color:#fff;font-size:11px;font-weight:700;min-width:20px;height:20px;border-radius:10px;display:grid;place-items:center;padding:0 5px}
+.burger{display:none}
+.hero{padding:44px 0 30px}
+.hero-g{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--brand)}
+.eyebrow:before{content:"";width:22px;height:2px;background:var(--brand)}
+.hero h1{font-size:clamp(42px,6.4vw,84px);font-weight:800;margin:18px 0 20px}
+.hero h1 em{font-style:italic;color:var(--brand);font-weight:700}
+.hero p{font-size:18px;color:var(--mute);max-width:470px}
+.cta{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.perks{display:flex;gap:26px;margin-top:34px;flex-wrap:wrap}
+.perks div{font-size:13px;color:var(--mute)}.perks b{display:block;color:var(--ink);font-size:15px}
+.hero-art{position:relative;aspect-ratio:1}
+.hero-art .blob{position:absolute;inset:0;border-radius:46% 54% 50% 50%/52% 46% 54% 48%;background:radial-gradient(circle at 30% 25%,#ffd9a0,#f2b66b 55%,#e39b4f)}
+.hero-art .it{position:absolute;filter:drop-shadow(0 24px 22px rgba(120,60,20,.3))}
+.hero-art .it.m{width:68%;left:16%;top:14%;animation:float 6s ease-in-out infinite}
+.hero-art .it.d{width:34%;right:2%;bottom:6%;animation:float 7s ease-in-out -2s infinite}
+.hero-art .it.c{width:28%;left:4%;bottom:12%;animation:float 8s ease-in-out -4s infinite}
+.hero-art .it.r{width:26%;left:12%;top:3%;animation:float 7s ease-in-out -1s infinite}
+@keyframes float{50%{transform:translateY(-12px) rotate(2deg)}}
+.badge{position:absolute;background:var(--card);border-radius:18px;padding:12px 16px;box-shadow:0 14px 40px -14px rgba(60,30,10,.4);font-size:13px}
+.badge b{display:block;font-size:15px}
+.badge{z-index:3}.badge.a{left:-6px;bottom:2%}.badge.b{right:-4px;top:6%}
+.sec{padding:56px 0}
+.sec-h{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:26px;flex-wrap:wrap}
+.sec-h h2{font-size:clamp(30px,4vw,46px);font-weight:800;margin-top:10px}
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:14px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:16px 10px 14px;text-align:center;transition:.25s}
+.cat:hover{transform:translateY(-4px);border-color:var(--brand);box-shadow:0 16px 30px -18px rgba(120,60,20,.5)}
+.cat svg{width:74px;height:74px;margin:0 auto 8px}
+.cat b{font-size:14px}.cat small{display:block;color:var(--mute);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:26px;overflow:hidden;display:flex;flex-direction:column;transition:.25s;position:relative}
+.card:hover{transform:translateY(-4px);box-shadow:0 22px 40px -24px rgba(120,60,20,.55)}
+.card .img{aspect-ratio:1/.86;display:grid;place-items:center;cursor:pointer;position:relative}
+.card .img svg{width:62%;transition:.35s}
+.card:hover .img svg{transform:scale(1.07) rotate(-3deg)}
+.tag{position:absolute;top:12px;left:12px;background:var(--ink);color:var(--bg);font-size:11px;font-weight:700;padding:4px 10px;border-radius:999px}
+.tag.s{background:var(--brand)}
+.card .b{padding:14px 16px 16px;display:flex;flex-direction:column;gap:4px;flex:1}
+.card .c{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--mute)}
+.card h3{font-size:19px;font-weight:700;letter-spacing:-.01em}
+.card .r{font-size:13px;color:var(--mute)}.card .r b{color:var(--gold)}
+.price{display:flex;align-items:baseline;gap:8px;margin-top:auto;padding-top:8px}
+.price b{font-size:18px}.price s{font-size:13px;color:var(--mute)}
+.add{margin-top:10px;width:100%;padding:11px;border-radius:14px;background:var(--cream);font-weight:700;font-size:14px;transition:.2s}
+.add:hover{background:var(--brand);color:#fff}
+.moments{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.mom{border-radius:26px;padding:22px;min-height:150px;display:flex;flex-direction:column;justify-content:space-between;color:#fff;transition:.25s}
+.mom:hover{transform:translateY(-4px) rotate(-1deg)}
+.mom b{font-family:Fraunces,serif;font-size:24px;line-height:1.05}.mom small{opacity:.85}
+.promo{background:var(--ink);color:var(--bg);border-radius:34px;padding:44px;display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center;position:relative;overflow:hidden}
+.promo h2{font-size:clamp(30px,4vw,48px);font-weight:800}
+.promo p{color:#cdb9a6;margin:14px 0 22px;max-width:440px}
+.code{display:inline-block;border:1.5px dashed var(--gold);color:var(--gold);padding:8px 16px;border-radius:12px;font-weight:700;letter-spacing:.14em}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px}
+.step i{font-style:normal;font-family:Fraunces,serif;font-size:34px;font-weight:800;color:var(--brand)}
+.step b{display:block;margin:6px 0 4px}.step p{font-size:14px;color:var(--mute)}
+footer{background:var(--ink);color:#cdb9a6;margin-top:50px;padding:46px 0 30px;font-size:14px}
+.fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:30px}
+footer h4{color:var(--bg);margin-bottom:12px;font-size:14px}footer a{display:block;padding:3px 0}footer a:hover{color:#fff}
+.fb{border-top:1px solid #4a3326;margin-top:30px;padding-top:18px;font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.shop{display:grid;grid-template-columns:230px 1fr;gap:30px;padding:30px 0}
+.side{position:sticky;top:90px;align-self:start}
+.side h4{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--mute);margin:0 0 10px}
+.side button{display:flex;justify-content:space-between;width:100%;text-align:left;padding:9px 12px;border-radius:12px;font-size:14px;font-weight:500}
+.side button:hover{background:var(--cream)}.side button.on{background:var(--ink);color:var(--bg)}
+.side .g{margin-bottom:22px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:20px;flex-wrap:wrap}
+.top h1{font-size:clamp(30px,4vw,44px);font-weight:800}
+select{font:inherit;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card)}
+.pg{display:flex;gap:6px;justify-content:center;margin-top:34px}
+.pg button{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);font-weight:700}.pg button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.crumb{font-size:13px;color:var(--mute);padding-top:24px}.crumb a:hover{color:var(--brand)}
+.pd{display:grid;grid-template-columns:1fr 1fr;gap:44px;padding:20px 0 40px}
+.pd .big{border-radius:34px;aspect-ratio:1;display:grid;place-items:center}.pd .big svg{width:70%;filter:drop-shadow(0 26px 24px rgba(80,40,10,.25))}
+.pd h1{font-size:clamp(34px,4.6vw,56px);font-weight:800;margin:10px 0}
+.pd .pr{display:flex;align-items:baseline;gap:12px;margin:14px 0}.pd .pr b{font-size:32px}.pd .pr s{color:var(--mute)}
+.pd p.d{color:var(--mute);font-size:16px;max-width:520px}
+.opts{margin:22px 0}.opts h4{font-size:13px;margin-bottom:8px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);font-size:14px;font-weight:500;background:var(--card)}.chip.on{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.qty{display:inline-flex;align-items:center;border:1.5px solid var(--line);border-radius:999px;background:var(--card)}
+.qty button{width:40px;height:42px;font-size:20px}.qty span{min-width:30px;text-align:center;font-weight:700}
+.buy{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px}
+.facts div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;font-size:13px;color:var(--mute)}.facts b{display:block;color:var(--ink);font-size:15px}
+.ov{position:fixed;inset:0;background:rgba(43,26,18,.5);z-index:50;opacity:0;pointer-events:none;transition:.25s}.ov.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--bg);z-index:60;transform:translateX(100%);transition:.35s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column}.drawer.on{transform:none}
+.dh{display:flex;justify-content:space-between;align-items:center;padding:20px 22px;border-bottom:1px solid var(--line)}.dh h3{font-size:24px}
+.dl{flex:1;overflow:auto;padding:14px 22px}
+.li{display:grid;grid-template-columns:72px 1fr auto;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+.li .t{width:72px;height:72px;border-radius:18px;display:grid;place-items:center}.li .t svg{width:70%}
+.li b{font-size:15px;display:block}.li small{color:var(--mute)}
+.li .qty{margin-top:6px}.li .qty button{width:30px;height:30px;font-size:16px}.li .qty span{min-width:24px;font-size:13px}
+.df{padding:18px 22px 22px;border-top:1px solid var(--line);background:var(--card)}
+.row{display:flex;justify-content:space-between;font-size:14px;padding:3px 0}.row.t{font-size:18px;font-weight:700;padding-top:10px}
+.ship{height:8px;background:var(--cream);border-radius:6px;margin:6px 0 14px;overflow:hidden}.ship i{display:block;height:100%;background:var(--brand);border-radius:6px;transition:.4s}
+.promoin{display:flex;gap:8px;margin:12px 0}.promoin input{flex:1;padding:11px 14px;border-radius:12px;border:1px solid var(--line);font:inherit;text-transform:uppercase}
+.empty{text-align:center;padding:60px 10px;color:var(--mute)}
+.co{display:grid;grid-template-columns:1.2fr .8fr;gap:34px;padding:30px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:26px;margin-bottom:18px}.box h3{font-size:22px;margin-bottom:16px}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:12px}.f .w{grid-column:1/-1}
+label{font-size:13px;font-weight:500;display:block}label span{display:block;margin-bottom:5px;color:var(--mute)}
+input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);font:inherit;background:var(--bg)}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--brand);outline-offset:1px}
+.opt{display:flex;gap:12px;align-items:center;padding:14px;border:1.5px solid var(--line);border-radius:16px;margin-bottom:10px;cursor:pointer}.opt.on{border-color:var(--ink);background:var(--cream)}
+.ok{text-align:center;padding:70px 0}.ok i{width:84px;height:84px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;margin:0 auto 22px;font-size:40px;font-style:normal}
+.stores{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;padding:20px 0}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,40px);background:var(--ink);color:var(--bg);padding:12px 20px;border-radius:999px;font-size:14px;z-index:80;opacity:0;transition:.3s;pointer-events:none}.toast.on{opacity:1;transform:translate(-50%,0)}
+.mbar{display:none}
+@media(max-width:900px){
+ nav,.search{display:none}.burger{display:grid;place-items:center;width:44px;height:44px}
+ nav.open{display:flex;position:absolute;top:68px;left:0;right:0;background:var(--bg);flex-direction:column;padding:12px 20px 20px;border-bottom:1px solid var(--line)}
+ .hero-g,.pd,.co,.promo,.fg{grid-template-columns:1fr}.hero-art{max-width:420px;margin:0 auto;width:100%}
+ .shop{grid-template-columns:1fr}.side{position:static;display:flex;gap:6px;overflow:auto;padding-bottom:6px}.side .g{margin:0;display:flex;gap:6px}.side h4{display:none}.side button{white-space:nowrap;width:auto;gap:6px;background:var(--card);border:1px solid var(--line)}
+ .promo{padding:28px}.f{grid-template-columns:1fr}.facts{grid-template-columns:1fr}
+}
+@media(max-width:560px){.grid{grid-template-columns:repeat(2,1fr);gap:12px}.card h3{font-size:16px}.card .b{padding:10px 12px 12px}.wrap{padding:0 16px}.sec{padding:38px 0}.cats{grid-template-columns:repeat(3,1fr)}.cat svg{width:56px;height:56px}.badge{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="concept">Prototipe konsep desain ulang oleh <b>AG·SORA</b>. Merek, produk, dan harga fiktif untuk demonstrasi; tidak ada transaksi nyata.</div>
+<header><div class="wrap bar">
+ <a href="#/" class="logo"><i>G</i>Gandum</a>
+ <nav id="nav"><a href="#/" data-r="home">Beranda</a><a href="#/shop" data-r="shop">Belanja</a><a href="#/shop?tag=box" data-r="box">Snack Box</a><a href="#/stores" data-r="stores">Toko</a></nav>
+ <div class="sp"></div>
+ <form class="search" id="sf" role="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" placeholder="Cari roti, kue, donat…" aria-label="Cari produk"></form>
+ <button class="cartbtn" id="cb" aria-label="Buka keranjang"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 7h12l-1 12H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span id="cc">0</span></button>
+ <button class="burger" id="bg" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div></header>
+<main id="app"></main>
+<footer><div class="wrap"><div class="fg">
+ <div><div class="logo" style="color:#fff;margin-bottom:12px"><i>G</i>Gandum</div><p style="max-width:300px">Roti dan kue yang dipanggang pagi ini, diantar sebelum siang. Konsep fiktif untuk demonstrasi desain e-commerce.</p></div>
+ <div><h4>Belanja</h4><a href="#/shop">Semua produk</a><a href="#/shop?cat=Roti">Roti</a><a href="#/shop?cat=Kue">Kue</a><a href="#/shop?tag=box">Snack Box</a></div>
+ <div><h4>Bantuan</h4><a href="#/stores">Lokasi toko</a><a href="#/">Cara pesan</a><a href="#/">Pengiriman</a></div>
+ <div><h4>Tentang</h4><a href="#/">Cerita kami</a><a href="#/">Karier</a><a href="#/">Kontak</a></div>
+</div><div class="fb"><span>© 2026 Gandum Bakehouse (merek fiktif)</span><span>Desain & prototipe: AG·SORA</span></div></div></footer>
+<div class="ov" id="ov"></div>
+<aside class="drawer" id="dr" aria-label="Keranjang"></aside>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const $=s=>document.querySelector(s),rp=n=>'Rp'+n.toLocaleString('id-ID');
+const CATS=[['Roti','roti'],['Donat','donut'],['Pastry & Danish','pastry'],['Kue','cake'],['Chiffon & Roll','roll'],['Pudding','pudding'],['Lapis','lapis'],['Kue Kering','cookie'],['Snack Box','box']];
+const tint={roti:['#f6d9a8','#c98a3c'],donut:['#ffd6e0','#e5658a'],pastry:['#fbe3b6','#d9892f'],cake:['#e9d3f0','#8a4fa3'],roll:['#d7ecd8','#4f9a5b'],pudding:['#ffe8b8','#c8822a'],lapis:['#f6cfc3','#b8442c'],cookie:['#ecd9c2','#8a5a2f'],box:['#f2e2c4','#b8863a']};
+function art(k,c1,c2){c1=c1||tint[k][1];const t=c2||'#fff';let s='';
+ if(k==='roti')s=`<ellipse cx="100" cy="112" rx="76" ry="52" fill="${c1}"/><ellipse cx="100" cy="100" rx="70" ry="44" fill="${c1}" style="filter:brightness(1.18)"/><g stroke="#fff3" stroke-width="7" stroke-linecap="round"><path d="M62 90l22-18M92 94l22-22M122 94l20-18"/></g><ellipse cx="82" cy="82" rx="22" ry="8" fill="#fff4" transform="rotate(-18 82 82)"/>`;
+ if(k==='donut')s=`<circle cx="100" cy="106" r="70" fill="#d9a05b"/><circle cx="100" cy="98" r="68" fill="${c1}"/><circle cx="100" cy="98" r="22" fill="#f4e8d3"/><g stroke-width="5" stroke-linecap="round"><path d="M50 80l10-6" stroke="#fff"/><path d="M80 52l4 10" stroke="#ffe08a"/><path d="M130 56l-6 9" stroke="#fff"/><path d="M152 100l-10 3" stroke="#ffe08a"/><path d="M134 140l-8-7" stroke="#fff"/><path d="M70 142l8-6" stroke="#ffe08a"/><path d="M46 112l10 2" stroke="#fff"/></g>`;
+ if(k==='pastry')s=`<g transform="translate(0 6)"><ellipse cx="46" cy="128" rx="19" ry="26" transform="rotate(-48 46 128)" fill="#c98a3c"/><ellipse cx="154" cy="128" rx="19" ry="26" transform="rotate(48 154 128)" fill="#c98a3c"/><ellipse cx="68" cy="106" rx="25" ry="34" transform="rotate(-26 68 106)" fill="#d99a48"/><ellipse cx="132" cy="106" rx="25" ry="34" transform="rotate(26 132 106)" fill="#d99a48"/><ellipse cx="100" cy="94" rx="31" ry="40" fill="#e8ae5a"/><g stroke="#fff5" stroke-width="5" stroke-linecap="round" fill="none"><path d="M88 66c-4 20-4 44 0 62"/><path d="M114 68c4 20 4 42 0 60" stroke="#8a551e55"/><path d="M60 88c-10 12-14 28-10 44"/><path d="M142 90c10 12 14 28 10 42" stroke="#8a551e55"/></g><ellipse cx="94" cy="74" rx="9" ry="16" fill="#fff4" transform="rotate(-8 94 74)"/></g>`;
+ if(k==='cake')s=`<path d="M30 124 100 52l70 72v22H30Z" fill="#f6e6c8"/><path d="M30 124 100 52l70 72Z" fill="${c1}"/><path d="M30 124h140v14H30Z" fill="#fff"/><path d="M30 146h140v8c0 6-4 10-10 10H40c-6 0-10-4-10-10Z" fill="#d9a05b"/><circle cx="100" cy="46" r="9" fill="#e5384f"/>`;
+ if(k==='roll')s=`<circle cx="100" cy="104" r="70" fill="#f6e6c8"/><circle cx="100" cy="104" r="70" fill="none" stroke="${c1}" stroke-width="10"/><path d="M100 104m0-8a8 8 0 1 1-8 8c0-16 16-24 28-14s8 34-12 40-46-4-48-34 22-50 52-48" fill="none" stroke="${c1}" stroke-width="9" stroke-linecap="round"/>`;
+ if(k==='pudding')s=`<path d="M52 150h96l10-72H42Z" fill="#f9d98b"/><path d="M42 78h116c0-18-26-30-58-30S42 60 42 78Z" fill="#8a4a1c"/><path d="M60 84c0 12 6 22 6 22M130 84c0 14-4 24-4 24" stroke="#8a4a1c" stroke-width="6" stroke-linecap="round"/><ellipse cx="100" cy="152" rx="52" ry="8" fill="${c1}" opacity=".35"/>`;
+ if(k==='lapis')s=`<g>${['#b8442c','#f6cfc3','#d96a4a','#fbe3d9','#b8442c','#f6cfc3'].map((c,i)=>`<rect x="36" y="${54+i*18}" width="128" height="18" rx="4" fill="${c}"/>`).join('')}</g><rect x="36" y="54" width="128" height="108" rx="10" fill="none" stroke="#7a2a18" stroke-width="3"/>`;
+ if(k==='cookie')s=`<circle cx="100" cy="104" r="70" fill="${c1}"/><circle cx="100" cy="98" r="68" fill="${c1}" style="filter:brightness(1.15)"/><g fill="#4a2a18"><circle cx="72" cy="78" r="8"/><circle cx="118" cy="68" r="7"/><circle cx="132" cy="108" r="9"/><circle cx="88" cy="120" r="7"/><circle cx="64" cy="108" r="6"/><circle cx="108" cy="96" r="6"/><circle cx="104" cy="140" r="7"/></g>`;
+ if(k==='box')s=`<path d="M30 80 100 50l70 30v76l-70 30-70-30Z" fill="${c1}"/><path d="M30 80 100 110l70-30" fill="none" stroke="#fff6" stroke-width="4"/><path d="M100 110v76" stroke="#fff6" stroke-width="4"/><path d="M30 80 100 50l70 30-70 30Z" fill="#f2c26b"/><circle cx="100" cy="80" r="16" fill="#e5384f"/><path d="M92 76l16 8M108 76l-16 8" stroke="#fff" stroke-width="3" stroke-linecap="round"/>`;
+ return `<svg viewBox="0 0 200 200" role="img" aria-hidden="true">${s}</svg>`}
+const P=[
+ ['kaya','Kaya Butter Toast','Roti','roti','Roti panggang tipis dengan selai kaya pandan dan mentega asin.',19000,16500,4.8,'best',['coffee','sarapan']],
+ ['sapi-keju','Sandwich Sapi Asap Keju','Roti','roti','Roti gandum utuh, daging sapi asap, keju leleh, dan selada segar.',21500,19500,4.7,'',['sarapan','gathering']],
+ ['tawar','Roti Tawar Premium','Roti','roti','Roti tawar lembut tanpa pengawet, diiris tebal. Pas untuk sarapan keluarga.',31000,28500,4.9,'best',['sarapan']],
+ ['gandum','Roti Gandum Utuh','Roti','roti','Kaya serat dengan biji bunga matahari dan oat di atasnya.',33000,0,4.6,'new',['sarapan']],
+ ['coklat','Roti Coklat Lumer','Roti','roti','Isian coklat Belgia yang meleleh saat hangat.',13000,11500,4.8,'',['snack','coffee']],
+ ['mocca','Roti Mocca Mesis','Roti','roti','Topping mocca renyah dengan isi krim kopi.',14000,0,4.5,'',['coffee']],
+ ['donat-gula','Donat Gula Salju','Donat','donut','Donat empuk dengan gula halus yang manis ringan.',8500,7500,4.7,'best',['snack']],
+ ['donat-coklat','Donat Coklat Sprinkle','Donat','donut','Selimut coklat susu dan taburan warna-warni.',10500,0,4.8,'',['snack','birthday']],
+ ['donat-strawberi','Donat Strawberi Glaze','Donat','donut','Glasir strawberi dengan isian selai buah.',11500,0,4.6,'new',['snack','birthday']],
+ ['croissant','Croissant Mentega','Pastry & Danish','pastry','Berlapis renyah, dipanggang dengan mentega murni.',18500,16900,4.9,'best',['coffee','sarapan']],
+ ['danish-coklat','Danish Coklat','Pastry & Danish','pastry','Pastry renyah dengan isian coklat pekat.',21000,0,4.7,'',['coffee']],
+ ['danish-keju','Danish Keju Krim','Pastry & Danish','pastry','Krim keju lembut di atas pastry berlapis.',19500,17500,4.6,'',['coffee','gathering']],
+ ['tart','Tart Keju Buah','Kue','cake','Kue tart dengan krim keju dan buah segar.',45000,0,4.8,'new',['dessert','birthday']],
+ ['red-velvet','Red Velvet Slice','Kue','cake','Lapisan red velvet dengan krim keju manis asam.',32000,29000,4.9,'best',['dessert','birthday']],
+ ['black-forest','Black Forest Utuh','Kue','cake','Kue coklat berlapis cherry dan whipped cream, 20 cm.',185000,169000,4.9,'sale',['birthday']],
+ ['chiffon-pandan','Chiffon Pandan','Chiffon & Roll','roll','Chiffon pandan super lembut, ringan di perut.',48000,0,4.7,'',['gathering','snack']],
+ ['roll-coklat','Roll Cake Coklat','Chiffon & Roll','roll','Gulungan sponge coklat dengan krim vanila.',52000,46000,4.8,'best',['gathering','dessert']],
+ ['roll-matcha','Roll Cake Matcha','Chiffon & Roll','roll','Teh hijau Jepang dengan krim susu yang lembut.',56000,0,4.6,'new',['dessert']],
+ ['pudding-karamel','Pudding Karamel','Pudding','pudding','Puding susu dengan saus karamel hangat.',14500,12900,4.8,'',['dessert']],
+ ['pudding-coklat','Pudding Coklat Silky','Pudding','pudding','Coklat pekat yang halus seperti sutra.',15500,0,4.7,'',['dessert']],
+ ['lapis-legit','Lapis Legit Spesial','Lapis','lapis','Lapis legit 20 lapis dengan rempah dan mentega.',165000,149000,4.9,'best',['gathering','birthday']],
+ ['lapis-surabaya','Lapis Surabaya','Lapis','lapis','Tiga lapis, selai nanas di tengah, klasik yang disukai semua usia.',95000,0,4.7,'',['gathering']],
+ ['nastar','Nastar Premium','Kue Kering','cookie','Kue nastar dengan selai nanas buatan sendiri, toples 500 g.',89000,79000,4.9,'best',['gathering']],
+ ['choco-chip','Choco Chip Cookies','Kue Kering','cookie','Renyah di luar, chewy di dalam, banyak coklat.',52000,0,4.8,'',['snack','coffee']],
+ ['box-kantor','Snack Box Kantor','Snack Box','box','Isi 3: roti isi, kue basah, dan puding. Min. pesan 10 box.',32000,29000,4.8,'best',['gathering','box']],
+ ['box-ulangtahun','Snack Box Ulang Tahun','Snack Box','box','Isi 4 dengan donat sprinkle dan kue mini. Min. pesan 10 box.',38000,0,4.7,'',['birthday','box']],
+ ['box-rapat','Snack Box Rapat Sore','Snack Box','box','Kroket, risol, dan pastry gurih, siap saji. Min. pesan 10 box.',35000,0,4.6,'new',['gathering','box']]
+].map(a=>({id:a[0],name:a[1],cat:a[2],art:a[3],desc:a[4],price:a[5],sale:a[6]||0,rate:a[7],badge:a[8],tags:a[9]}));
+const eff=p=>p.sale||p.price,byId=id=>P.find(p=>p.id===id);
+const MOM=[['Coffee break','coffee','#8a4a2c'],['Sarapan','sarapan','#d9892f'],['Gathering','gathering','#4f7a5b'],['Dessert','dessert','#a8456b'],['Ulang tahun','birthday','#4a63b8'],['Snack','snack','#b8442c']];
+const STORES=[['Gandum Senopati','Jl. Senopati No. 12, Jakarta Selatan','07.00–21.00'],['Gandum BSD','Ruko Sektor 1.2, Tangerang Selatan','07.00–21.00'],['Gandum Dago','Jl. Ir. H. Juanda No. 88, Bandung','06.30–21.30'],['Gandum Tunjungan','Jl. Tunjungan No. 40, Surabaya','07.00–21.00'],['Gandum Kemang','Jl. Kemang Raya No. 5, Jakarta Selatan','07.00–22.00'],['Gandum Pettarani','Jl. A.P. Pettarani No. 21, Makassar','07.00–21.00']];
+let cart=JSON.parse(localStorage.getItem('gcart')||'[]'),promo=localStorage.getItem('gpromo')||'',state={};
+const save=()=>{localStorage.setItem('gcart',JSON.stringify(cart));localStorage.setItem('gpromo',promo)};
+const cnt=()=>cart.reduce((a,l)=>a+l.q,0),sub=()=>cart.reduce((a,l)=>a+eff(byId(l.id))*l.q,0);
+const disc=()=>promo==='ROTI10'?Math.round(sub()*.1):0,FREE=150000,ship=()=>sub()-disc()>=FREE||!cart.length?0:15000;
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('on'),1800)}
+function add(id,q=1,opt=''){const k=id+opt,l=cart.find(l=>l.k===k);l?l.q+=q:cart.push({k,id,q,opt});save();upd();toast('Ditambahkan ke keranjang')}
+function upd(){$('#cc').textContent=cnt();drawer()}
+function drawer(){const d=$('#dr');const p=Math.min(100,(sub()-disc())/FREE*100);
+ d.innerHTML=`<div class="dh"><h3>Keranjang (${cnt()})</h3><button id="x" aria-label="Tutup">✕</button></div><div class="dl">${cart.length?cart.map(l=>{const p=byId(l.id);return `<div class="li"><div class="t" style="background:${tint[p.art][0]}">${art(p.art)}</div><div><b>${p.name}</b><small>${l.opt||p.cat} · ${rp(eff(p))}</small><div class="qty"><button data-m="${l.k}">−</button><span>${l.q}</span><button data-p="${l.k}">+</button></div></div><b>${rp(eff(p)*l.q)}</b></div>`}).join(''):`<div class="empty"><div style="font-size:48px">🥐</div><p style="margin:10px 0 18px">Keranjangmu masih kosong.</p><a class="btn sm" href="#/shop">Mulai belanja</a></div>`}</div>${cart.length?`<div class="df"><small style="color:var(--mute)">${p>=100?'Gratis ongkir terpenuhi 🎉':`Belanja ${rp(FREE-(sub()-disc()))} lagi untuk gratis ongkir`}</small><div class="ship"><i style="width:${p}%"></i></div><div class="promoin"><input id="pc" placeholder="Kode promo (coba ROTI10)" value="${promo}"><button class="btn ghost sm" id="pa">Pakai</button></div><div class="row"><span>Subtotal</span><span>${rp(sub())}</span></div>${disc()?`<div class="row" style="color:var(--ok)"><span>Diskon ROTI10</span><span>−${rp(disc())}</span></div>`:''}<div class="row"><span>Ongkir</span><span>${ship()?rp(ship()):'Gratis'}</span></div><div class="row t"><span>Total</span><span>${rp(sub()-disc()+ship())}</span></div><a href="#/checkout" class="btn" style="width:100%;margin-top:14px">Lanjut ke pembayaran</a></div>`:''}`}
+function open(o){$('#dr').classList.toggle('on',o);$('#ov').classList.toggle('on',o)}
+document.addEventListener('click',e=>{const t=e.target.closest('button,a,.cat,.mom');if(!t)return;
+ if(t.id==='cb'){open(true)}else if(t.id==='x'||t.id==='ov'){open(false)}
+ else if(t.dataset.p){cart.find(l=>l.k===t.dataset.p).q++;save();upd()}
+ else if(t.dataset.m){const l=cart.find(l=>l.k===t.dataset.m);l.q--;if(l.q<1)cart=cart.filter(x=>x!==l);save();upd()}
+ else if(t.id==='pa'){const v=$('#pc').value.trim().toUpperCase();if(v==='ROTI10'){promo=v;toast('Promo dipakai: diskon 10%')}else{promo='';toast('Kode promo tidak valid')}save();upd()}
+ else if(t.dataset.add){add(t.dataset.add)}
+ else if(t.id==='bg'){$('#nav').classList.toggle('open')}
+ if(t.tagName==='A'&&t.closest('#dr'))open(false)});
+$('#ov').onclick=()=>open(false);
+$('#sf').onsubmit=e=>{e.preventDefault();location.hash='#/shop?q='+encodeURIComponent($('#q').value)};
+function card(p){const off=p.sale?Math.round((1-p.sale/p.price)*100):0;const tg=p.badge==='sale'||off?`<span class="tag s">−${off||10}%</span>`:p.badge==='best'?'<span class="tag">Terlaris</span>':p.badge==='new'?'<span class="tag">Baru</span>':'';
+ return `<article class="card"><a class="img" href="#/p/${p.id}" style="background:${tint[p.art][0]}" aria-label="${p.name}">${tg}${art(p.art)}</a><div class="b"><span class="c">${p.cat}</span><h3><a href="#/p/${p.id}">${p.name}</a></h3><div class="r"><b>★</b> ${p.rate}</div><div class="price"><b>${rp(eff(p))}</b>${p.sale?`<s>${rp(p.price)}</s>`:''}</div><button class="add" data-add="${p.id}">+ Tambah</button></div></article>`}
+const views={
+home(){return `<section class="hero"><div class="wrap hero-g"><div><span class="eyebrow">Dipanggang pagi ini</span><h1>Roti hangat, <em>diantar</em> sebelum siang.</h1><p>Pesan roti, kue, dan snack box favoritmu dari ponsel. Dipanggang segar setiap pagi dan sampai di pintu dalam 3 jam.</p><div class="cta"><a class="btn" href="#/shop">Belanja sekarang</a><a class="btn ghost" href="#/shop?tag=box">Pesan snack box</a></div><div class="perks"><div><b>3 jam</b>Pengiriman same-day</div><div><b>Tanpa pengawet</b>Dibuat setiap hari</div><div><b>4.8 ★</b>12 rb ulasan</div></div></div><div class="hero-art"><div class="blob"></div><div class="it r">${art('roti','#d9892f')}</div><div class="it m">${art('pastry')}</div><div class="it c">${art('cookie')}</div><div class="it d">${art('donut')}</div><div class="badge b"><b>Croissant Mentega</b>Terlaris minggu ini</div><div class="badge a"><b>Gratis ongkir</b>min. belanja Rp150.000</div></div></div></section>
+<section class="sec"><div class="wrap"><div class="sec-h"><div><span class="eyebrow">Kategori</span><h2>Belanja per kategori</h2></div></div><div class="cats">${CATS.map(c=>`<a class="cat" href="#/shop?cat=${encodeURIComponent(c[0])}">${art(c[1])}<b>${c[0]}</b><small>${P.filter(p=>p.cat===c[0]).length} produk</small></a>`).join('')}</div></div></section>
+<section class="sec" style="padding-top:10px"><div class="wrap"><div class="sec-h"><div><span class="eyebrow">Pilihan kami</span><h2>Menu terlaris</h2></div><a class="btn ghost sm" href="#/shop">Lihat semua</a></div><div class="grid">${P.filter(p=>p.badge==='best').slice(0,8).map(card).join('')}</div></div></section>
+<section class="sec"><div class="wrap"><div class="sec-h"><div><span class="eyebrow">Pilih momenmu</span><h2>Roti untuk setiap suasana</h2></div></div><div class="moments">${MOM.map(m=>`<a class="mom" href="#/shop?tag=${m[1]}" style="background:${m[2]}"><small>${P.filter(p=>p.tags.includes(m[1])).length} pilihan</small><b>${m[0]}</b></a>`).join('')}</div></div></section>
+<section class="sec" style="padding-top:10px"><div class="wrap"><div class="promo"><div><span class="eyebrow" style="color:var(--gold)">Pelanggan baru</span><h2 style="margin-top:12px">Diskon 10% pesanan pertamamu</h2><p>Pakai kode ini di keranjang. Berlaku untuk semua produk, tanpa minimum belanja.</p><span class="code">ROTI10</span></div><div style="display:flex;justify-content:center">${art('cake','#c8553d').replace('<svg','<svg style="width:min(260px,70%)"')}</div></div></div></section>
+<section class="sec"><div class="wrap"><div class="sec-h"><div><span class="eyebrow">Cara pesan</span><h2>Tiga langkah, selesai</h2></div></div><div class="steps"><div class="step"><i>01</i><b>Pilih produk</b><p>Telusuri katalog, cari, atau filter sesuai momen.</p></div><div class="step"><i>02</i><b>Atur jadwal antar</b><p>Pilih tanggal dan jam, bisa untuk besok atau hari ini.</p></div><div class="step"><i>03</i><b>Terima & nikmati</b><p>Roti dipanggang lalu diantar langsung ke alamatmu.</p></div></div></div></section>`},
+shop(q){const per=12;let L=P.slice();const cat=q.get('cat'),tag=q.get('tag'),s=(q.get('q')||'').toLowerCase(),sort=q.get('sort')||'pop',pg=+q.get('page')||1;
+ if(cat)L=L.filter(p=>p.cat===cat);if(tag)L=L.filter(p=>p.tags.includes(tag));if(s)L=L.filter(p=>(p.name+p.desc+p.cat).toLowerCase().includes(s));
+ L.sort(sort==='lo'?(a,b)=>eff(a)-eff(b):sort==='hi'?(a,b)=>eff(b)-eff(a):sort==='rate'?(a,b)=>b.rate-a.rate:(a,b)=>(b.badge==='best')-(a.badge==='best')||b.rate-a.rate);
+ const tp=Math.max(1,Math.ceil(L.length/per)),cur=Math.min(pg,tp),href=o=>{const n=new URLSearchParams(q);Object.entries(o).forEach(([k,v])=>v?n.set(k,v):n.delete(k));return '#/shop?'+n};
+ const title=cat||(tag==='box'?'Snack Box':tag?(MOM.find(m=>m[1]===tag)||[tag])[0]:s?`Hasil untuk “${q.get('q')}”`:'Semua produk');
+ return `<div class="wrap"><div class="crumb"><a href="#/">Beranda</a> / Belanja</div><div class="shop"><aside class="side"><div class="g"><h4>Kategori</h4><button class="${!cat?'on':''}" onclick="location.hash='${href({cat:'',page:''})}'">Semua</button>${CATS.map(c=>`<button class="${cat===c[0]?'on':''}" onclick="location.hash='${href({cat:c[0],page:''}).replace(/'/g,"\\'")}'">${c[0]}<span>${P.filter(p=>p.cat===c[0]).length}</span></button>`).join('')}</div></aside><div><div class="top"><div><h1>${title}</h1><small style="color:var(--mute)">${L.length} produk</small></div><select onchange="location.hash=this.value" aria-label="Urutkan"><option value="${href({sort:'',page:''})}">Terpopuler</option><option value="${href({sort:'rate',page:''})}" ${sort==='rate'?'selected':''}>Rating tertinggi</option><option value="${href({sort:'lo',page:''})}" ${sort==='lo'?'selected':''}>Harga terendah</option><option value="${href({sort:'hi',page:''})}" ${sort==='hi'?'selected':''}>Harga tertinggi</option></select></div>${L.length?`<div class="grid">${L.slice((cur-1)*per,cur*per).map(card).join('')}</div>`:`<div class="empty"><div style="font-size:48px">🔍</div><p>Tidak ada produk yang cocok.</p></div>`}${tp>1?`<div class="pg">${Array.from({length:tp},(_,i)=>`<button class="${i+1===cur?'on':''}" onclick="location.hash='${href({page:i+1})}'">${i+1}</button>`).join('')}</div>`:''}</div></div></div>`},
+product(id){const p=byId(id);if(!p)return views.shop(new URLSearchParams());state.q=1;state.o=p.cat==='Snack Box'?'Isi 10':'Reguler';
+ const opts=p.cat==='Snack Box'?['Isi 10','Isi 25','Isi 50']:p.cat==='Kue'||p.cat==='Lapis'?['Reguler','Kotak kado']:['Reguler','Hangat (dipanaskan)'];
+ const rel=P.filter(x=>x.cat===p.cat&&x.id!==p.id).concat(P.filter(x=>x.cat!==p.cat)).slice(0,4);
+ return `<div class="wrap"><div class="crumb"><a href="#/">Beranda</a> / <a href="#/shop?cat=${encodeURIComponent(p.cat)}">${p.cat}</a> / ${p.name}</div><div class="pd"><div class="big" style="background:${tint[p.art][0]}">${art(p.art)}</div><div><span class="eyebrow">${p.cat}</span><h1>${p.name}</h1><div class="r" style="color:var(--mute)"><b style="color:var(--gold)">★ ${p.rate}</b> · 240+ ulasan</div><div class="pr"><b>${rp(eff(p))}</b>${p.sale?`<s>${rp(p.price)}</s>`:''}</div><p class="d">${p.desc}</p><div class="opts"><h4>Pilihan</h4><div class="chips" id="ch">${opts.map((o,i)=>`<button class="chip ${i?'':'on'}">${o}</button>`).join('')}</div></div><div class="buy"><div class="qty"><button id="qm">−</button><span id="qv">1</span><button id="qp">+</button></div><button class="btn" id="ab" style="flex:1;min-width:200px">Tambah ke keranjang</button></div><div class="facts"><div><b>Segar hari ini</b>Dipanggang pagi</div><div><b>Same-day</b>Antar 3 jam</div><div><b>Tanpa pengawet</b>Tahan 2 hari</div></div></div></div><div class="sec" style="padding-top:20px"><div class="sec-h"><h2 style="font-size:34px;font-weight:800">Mungkin kamu suka</h2></div><div class="grid">${rel.map(card).join('')}</div></div></div>`},
+checkout(){if(!cart.length)return `<div class="wrap"><div class="empty" style="padding:100px 0"><p>Keranjang kosong.</p><br><a class="btn" href="#/shop">Belanja dulu</a></div></div>`;
+ return `<div class="wrap"><div class="crumb"><a href="#/">Beranda</a> / Pembayaran</div><form class="co" id="cf"><div><div class="box"><h3>Data penerima</h3><div class="f"><label><span>Nama lengkap</span><input required placeholder="Nama penerima"></label><label><span>No. WhatsApp</span><input required type="tel" placeholder="08xxxxxxxxxx"></label><label class="w"><span>Alamat lengkap</span><textarea required rows="3" placeholder="Jalan, nomor, kecamatan"></textarea></label></div></div><div class="box"><h3>Jadwal antar</h3><div class="f"><label><span>Tanggal</span><input required type="date" id="dt"></label><label><span>Jam</span><select style="width:100%"><option>08.00–11.00</option><option>11.00–14.00</option><option>14.00–17.00</option></select></label></div></div><div class="box"><h3>Pembayaran</h3><div id="pm">${['QRIS','Transfer bank (VA)','E-wallet','Bayar di tempat'].map((m,i)=>`<div class="opt ${i?'':'on'}" data-pm><span>${['▦','🏦','👛','💵'][i]}</span><b>${m}</b></div>`).join('')}</div></div></div><aside><div class="box" style="position:sticky;top:90px"><h3>Ringkasan</h3>${cart.map(l=>{const p=byId(l.id);return `<div class="row"><span>${l.q}× ${p.name}</span><span>${rp(eff(p)*l.q)}</span></div>`}).join('')}<hr style="border:0;border-top:1px solid var(--line);margin:12px 0"><div class="row"><span>Subtotal</span><span>${rp(sub())}</span></div>${disc()?`<div class="row" style="color:var(--ok)"><span>Diskon</span><span>−${rp(disc())}</span></div>`:''}<div class="row"><span>Ongkir</span><span>${ship()?rp(ship()):'Gratis'}</span></div><div class="row t"><span>Total</span><span>${rp(sub()-disc()+ship())}</span></div><button class="btn" style="width:100%;margin-top:16px">Buat pesanan</button><p style="font-size:12px;color:var(--mute);margin-top:10px;text-align:center">Prototipe: tidak ada pembayaran yang diproses.</p></div></aside></form></div>`},
+done(){return `<div class="wrap ok"><i>✓</i><h1 style="font-size:46px;font-weight:800">Pesanan diterima!</h1><p style="color:var(--mute);margin:12px 0 24px">Nomor pesanan <b style="color:var(--ink)">#GDM-${state.no||'2026'}</b>. Roti kamu sedang disiapkan.</p><a class="btn" href="#/shop">Belanja lagi</a></div>`},
+stores(){return `<div class="wrap"><div class="crumb"><a href="#/">Beranda</a> / Toko</div><div class="top" style="padding-top:16px"><h1 class="serif" style="font-size:44px;font-weight:800">Temukan toko terdekat</h1></div><div class="stores">${STORES.map(s=>`<div class="box" style="margin:0"><h3 style="font-size:20px">${s[0]}</h3><p style="color:var(--mute);font-size:14px;margin-bottom:10px">${s[1]}</p><small><b>Buka</b> ${s[2]}</small></div>`).join('')}</div></div>`}};
+function route(){const h=location.hash.slice(1)||'/',[path,qs]=h.split('?'),q=new URLSearchParams(qs||''),app=$('#app');let v,r='home';
+ if(path==='/')v=views.home();else if(path==='/shop'){v=views.shop(q);r=q.get('tag')==='box'?'box':'shop'}else if(path.startsWith('/p/')){v=views.product(path.slice(3));r='shop'}else if(path==='/checkout')v=views.checkout();else if(path==='/done')v=views.done();else if(path==='/stores'){v=views.stores();r='stores'}else v=views.home();
+ app.innerHTML=v;document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.r===r));$('#nav').classList.remove('open');open(false);scrollTo(0,0);bind(path)}
+function bind(path){
+ if(path.startsWith('/p/')){const p=byId(path.slice(3));if(!p)return;$('#qm').onclick=()=>{state.q=Math.max(1,state.q-1);$('#qv').textContent=state.q};$('#qp').onclick=()=>{state.q++;$('#qv').textContent=state.q};$('#ch').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));b.classList.add('on');state.o=b.textContent};$('#ab').onclick=()=>{add(p.id,state.q,state.o);open(true)}}
+ if(path==='/checkout'&&cart.length){const d=new Date();d.setDate(d.getDate()+1);$('#dt').min=new Date().toISOString().slice(0,10);$('#dt').value=d.toISOString().slice(0,10);$('#pm').onclick=e=>{const o=e.target.closest('[data-pm]');if(!o)return;document.querySelectorAll('[data-pm]').forEach(x=>x.classList.remove('on'));o.classList.add('on')};$('#cf').onsubmit=e=>{e.preventDefault();state.no=String(Math.floor(10000+Math.random()*89999));cart=[];promo='';save();upd();location.hash='#/done'}}}
+addEventListener('hashchange',route);upd();route();
+</script>
+</body>
+</html>

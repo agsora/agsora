@@ -132,6 +132,14 @@ export function PortfolioDetailBody({ slug }: { slug: string }) {
             </dd>
           </div>
         </dl>
+        {project.concept ? (
+          <p className="mt-8 max-w-2xl rounded-2xl border border-line bg-surface-1 px-5 py-4 text-[14px] leading-relaxed text-ink-muted">
+            <span className="mr-2 rounded-full bg-ink px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-surface-0">
+              {s.conceptTag}
+            </span>
+            {s.conceptNote}
+          </p>
+        ) : null}
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           {project.liveUrl ? (
             <Button
