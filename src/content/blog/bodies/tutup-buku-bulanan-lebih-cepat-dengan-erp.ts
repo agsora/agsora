@@ -113,6 +113,7 @@ export const body: Block[] = [
     "Tetapkan dan umumkan batas penyerahan tagihan serta laporan pengeluaran",
     "Daftar jurnal yang berulang setiap bulan dan siapkan sebagai jurnal otomatis",
   ] },
+  { type: "p", text: "Salah satu penghambat terbesar tutup buku dibahas di [rekonsiliasi bank otomatis dengan ERP](/blog/rekonsiliasi-bank-otomatis-dengan-erp)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Tutup buku yang cepat bukan hasil kerja lembur, melainkan hasil kebiasaan harian yang rapi dan sistem yang menyatukan data. Ketika transaksi dicatat di sumbernya, rekonsiliasi dilakukan sepanjang bulan, dan aturan pisah batas dipegang konsisten, hari-hari penutupan berubah dari masa darurat menjadi rutinitas yang tenang." },
   { type: "p", text: "Mulailah dari menemukan sumber keterlambatan terbesar, perbaiki satu per satu, dan ukur kemajuannya setiap bulan. Hasilnya bukan hanya laporan yang lebih cepat, tetapi juga angka yang lebih bisa dipercaya dan tim keuangan yang punya waktu untuk membantu Anda mengambil keputusan." },

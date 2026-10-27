@@ -108,6 +108,7 @@ export const body: Block[] = [
   { type: "p", text: "Siapa yang harus dilibatkan dari luar? Penyedia IT atau konsultan keamanan, penasihat hukum untuk kewajiban pelaporan, bank jika ada transfer dana yang dicurigai, dan pihak berwajib untuk tindak pidana. Siapkan kontaknya sebelum dibutuhkan." },
   { type: "p", text: "Bagaimana mengukur kesiapan? Ukur waktu rata-rata untuk mendeteksi, menahan, dan memulihkan dalam latihan, serta persentase sistem kritis yang cadangannya teruji. Perbaikan angka ini lebih berarti daripada jumlah dokumen kebijakan." },
   { type: "p", text: "Pemalsuan domain email juga perlu dicakup dalam rencana pencegahan; lihat [SPF, DKIM, dan DMARC untuk email bisnis](/blog/spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis)." },
+  { type: "p", text: "Jalur serangan yang terungkap dalam [uji penetrasi dan audit keamanan](/blog/uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis) sebaiknya masuk ke rencana respons Anda." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Rencana respons insiden adalah asuransi yang murah: sedikit waktu menyusunnya hari ini bisa menyelamatkan operasional berhari-hari kelak. Tunjuk peran, inventarisasi sistem penting, jaga cadangan tetap terpisah dan teruji, tulis langkah awal untuk skenario yang paling mungkin, dan latih setiap tahun. Ketika insiden datang, tim yang sudah tahu apa yang harus dilakukan akan menahan kerugian, menjaga kepercayaan pelanggan, dan pulih lebih cepat." },
   {

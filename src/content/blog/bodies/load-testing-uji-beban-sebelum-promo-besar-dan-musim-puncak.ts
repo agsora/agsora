@@ -123,6 +123,7 @@ export const body: Block[] = [
   { type: "p", text: "Bisa pada kondisi tertentu, misalnya beban kecil di luar jam sibuk dengan data uji yang terisolasi, tetapi risikonya lebih tinggi. Untuk beban besar, gunakan lingkungan yang menyerupai produksi dan koordinasikan dengan penyedia hosting serta pihak ketiga." },
   { type: "h3", text: "Apakah memakai layanan cloud berarti saya tidak perlu uji beban?" },
   { type: "p", text: "Tidak. Penskalaan otomatis membantu, tetapi tidak menyelesaikan kueri lambat, batas koneksi database, batas laju pihak ketiga, atau kode yang tidak dapat berjalan paralel. Uji beban justru menunjukkan apakah penskalaan benar-benar bekerja." },
+  { type: "p", text: "Untuk meratakan lonjakan beban, pelajari [arsitektur event-driven dan antrean pesan](/blog/arsitektur-event-driven-dan-antrean-pesan-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Uji beban mengubah ketidakpastian menjadi angka: berapa pengguna yang sanggup dilayani, di mana sistem pertama kali menyerah, dan apa yang perlu diperbaiki. Dengan target dari data nyata, skenario yang menyerupai perilaku pelanggan, pengukuran pada persentil tinggi, serta waktu cukup untuk memperbaiki dan mengulang, hari puncak berubah dari pertaruhan menjadi peristiwa yang sudah dilatih. Investasinya kecil dibandingkan penjualan yang terselamatkan." },
   {

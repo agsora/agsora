@@ -204,6 +204,7 @@ export const body: Block[] = [
     type: "p",
     text: "Bagi perusahaan dengan kebutuhan HR yang relatif umum, platform HR siap pakai sering kali sudah memadai. Untuk organisasi dengan pola kerja yang kompleks, banyak shift, tim lapangan, atau aturan tunjangan khusus, sistem HRIS bisa dirancang mengikuti kebijakan Anda. Apa pun pilihannya, urutan penerapan dan persiapan di atas tetap berlaku.",
   },
+  { type: "p", text: "Modul yang paling menuntut ketelitian dibahas di [penggajian, PPh 21, dan BPJS dengan HRIS](/blog/penggajian-payroll-pph-21-dan-bpjs-dengan-hris)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

@@ -139,6 +139,7 @@ export const body: Block[] = [
     text: "Tidak. Firewall dan antivirus melindungi lapisan jaringan dan perangkat, tetapi sebagian besar celah yang dibahas di artikel ini, pemeriksaan hak akses yang lemah, validasi input yang kurang, atau kredensial yang tersimpan sembarangan, terjadi di level kode aplikasi itu sendiri, jauh dari jangkauan perlindungan firewall maupun antivirus. Keduanya tetap perlu ada sebagai lapisan pertahanan tambahan, tapi tidak bisa menggantikan kebutuhan membangun keamanan langsung ke dalam arsitektur aplikasi sejak awal.",
   },
   { type: "p", text: "Pengelolaan kata sandi dan kunci API dibahas lebih rinci di [manajemen secret dan kunci API](/blog/manajemen-secret-dan-kunci-api-di-aplikasi-bisnis)." },
+  { type: "p", text: "Setelah dasar-dasar terpasang, ukur ketahanannya lewat [uji penetrasi dan audit keamanan](/blog/uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

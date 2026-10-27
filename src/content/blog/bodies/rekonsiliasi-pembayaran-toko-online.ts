@@ -138,6 +138,7 @@ export const body: Block[] = [
     "Pisahkan pencatatan penjualan kotor, biaya layanan, dan pengembalian dana",
     "Jadwalkan rutinitas harian atau mingguan dengan penanggung jawab yang jelas",
   ] },
+  { type: "p", text: "Untuk sisi rekening bank perusahaan, lihat [rekonsiliasi bank otomatis dengan ERP](/blog/rekonsiliasi-bank-otomatis-dengan-erp)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Rekonsiliasi pembayaran bukan pekerjaan administratif yang membosankan semata, melainkan cara memastikan bahwa angka bisnis Anda dapat dipercaya. Kunci pencocokan yang konsisten, rutinitas harian, penanganan pengecualian yang disiplin, pencatatan biaya dan pengembalian yang benar, serta pengendalian sederhana membuat tutup buku menjadi proses yang tenang." },
   { type: "p", text: "Mulailah dari memastikan setiap pembayaran membawa nomor rujukan, lalu otomatiskan bagian yang berulang. Dengan begitu tim keuangan bisa menghabiskan waktu pada hal yang benar-benar butuh penilaian manusia, dan pemilik bisnis bisa mempercayai laporan yang ada di tangannya." },

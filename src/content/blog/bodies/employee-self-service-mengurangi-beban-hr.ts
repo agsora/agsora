@@ -152,6 +152,7 @@ export const body: Block[] = [
     type: "p",
     text: "Perubahan kebijakan perusahaan juga perlu segera tercermin di sistem layanan mandiri, bukan hanya diumumkan lewat memo internal yang mudah terlewat. Jika kebijakan cuti berubah tapi sistem masih menampilkan aturan lama, karyawan akan bingung ketika pengajuannya ditolak dengan alasan yang tidak sesuai dengan apa yang mereka baca di aplikasi. Tetapkan tanggung jawab yang jelas, biasanya di tim HR, untuk memastikan setiap perubahan kebijakan langsung diperbarui di sistem pada hari yang sama kebijakan itu mulai berlaku, sehingga karyawan selalu melihat informasi yang akurat.",
   },
+  { type: "p", text: "Distribusi slip gaji lewat portal dibahas di [penggajian, PPh 21, dan BPJS dengan HRIS](/blog/penggajian-payroll-pph-21-dan-bpjs-dengan-hris)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

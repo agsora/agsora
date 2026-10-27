@@ -146,6 +146,7 @@ export const body: Block[] = [
     type: "p",
     text: "Bisa, tapi perpindahan seperti ini membutuhkan usaha migrasi data yang tidak sedikit. Beberapa penyedia menawarkan kemudahan transisi antar model, tapi selalu periksa terlebih dahulu sebelum memutuskan untuk memastikan prosesnya tidak akan terlalu merepotkan operasional bisnis Anda.",
   },
+  { type: "p", text: "Risiko ketergantungan pada satu penyedia dibahas di [vendor lock-in di cloud dan software bisnis](/blog/vendor-lock-in-di-cloud-dan-software-bisnis-strategi-keluar)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

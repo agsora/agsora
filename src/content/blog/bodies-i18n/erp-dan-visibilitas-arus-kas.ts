@@ -152,6 +152,7 @@ const en: Block[] = [
     type: "p",
     text: "Involve the finance team from the start of the design. They understand best which questions the owner asks most often, which reports are currently compiled by hand, and where figures from different sources most often fail to match. Their input helps ensure the system actually answers day to day cash needs, rather than just producing standard reports that rarely get opened.",
   },
+  { type: "p", text: "Accurate cash balances depend on [automated bank reconciliation with ERP](/blog/rekonsiliasi-bank-otomatis-dengan-erp)." },
   { type: "h2", text: "Closing thoughts" },
   {
     type: "p",
@@ -318,6 +319,7 @@ const zh: Block[] = [
     type: "p",
     text: "从设计之初就让财务部门参与进来。他们最清楚老板最常问哪些问题,目前哪些报表是手工编制的,以及不同来源的数字最常在哪里对不上。他们的意见有助于确保所构建的系统真正满足日常的现金需求,而不只是生成很少有人打开的标准报表。",
   },
+  { type: "p", text: "准确的现金余额取决于[ERP 自动银行对账](/blog/rekonsiliasi-bank-otomatis-dengan-erp)。" },
   { type: "h2", text: "结语" },
   {
     type: "p",

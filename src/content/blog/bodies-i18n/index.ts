@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_uji_penetrasi_dan_audit_keamanan_aplikasi_bisnis } from "./uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis";
+import { translations as t_rekonsiliasi_bank_otomatis_dengan_erp } from "./rekonsiliasi-bank-otomatis-dengan-erp";
+import { translations as t_penggajian_payroll_pph_21_dan_bpjs_dengan_hris } from "./penggajian-payroll-pph-21-dan-bpjs-dengan-hris";
+import { translations as t_arsitektur_event_driven_dan_antrean_pesan_untuk_aplikasi_bisnis } from "./arsitektur-event-driven-dan-antrean-pesan-untuk-aplikasi-bisnis";
+import { translations as t_vendor_lock_in_di_cloud_dan_software_bisnis_strategi_keluar } from "./vendor-lock-in-di-cloud-dan-software-bisnis-strategi-keluar";
 import { translations as t_erp_untuk_apotek_dan_distributor_farmasi_batch_kedaluwarsa_dan_regulasi } from "./erp-untuk-apotek-dan-distributor-farmasi-batch-kedaluwarsa-dan-regulasi";
 import { translations as t_seo_internasional_hreflang_struktur_url_dan_lokalisasi_konten } from "./seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten";
 import { translations as t_manajemen_secret_dan_kunci_api_di_aplikasi_bisnis } from "./manajemen-secret-dan-kunci-api-di-aplikasi-bisnis";
@@ -309,4 +314,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "manajemen-secret-dan-kunci-api-di-aplikasi-bisnis": t_manajemen_secret_dan_kunci_api_di_aplikasi_bisnis,
   "erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas": t_erp_untuk_agensi_kreatif_dan_digital_timesheet_utilisasi_dan_profitabilitas,
   "load-testing-uji-beban-sebelum-promo-besar-dan-musim-puncak": t_load_testing_uji_beban_sebelum_promo_besar_dan_musim_puncak,
+  "uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis": t_uji_penetrasi_dan_audit_keamanan_aplikasi_bisnis,
+  "rekonsiliasi-bank-otomatis-dengan-erp": t_rekonsiliasi_bank_otomatis_dengan_erp,
+  "penggajian-payroll-pph-21-dan-bpjs-dengan-hris": t_penggajian_payroll_pph_21_dan_bpjs_dengan_hris,
+  "arsitektur-event-driven-dan-antrean-pesan-untuk-aplikasi-bisnis": t_arsitektur_event_driven_dan_antrean_pesan_untuk_aplikasi_bisnis,
+  "vendor-lock-in-di-cloud-dan-software-bisnis-strategi-keluar": t_vendor_lock_in_di_cloud_dan_software_bisnis_strategi_keluar,
 };

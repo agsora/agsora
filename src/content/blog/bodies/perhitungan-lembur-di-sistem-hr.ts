@@ -139,6 +139,7 @@ export const body: Block[] = [
     type: "p",
     text: "Segera informasikan kepada karyawan yang terdampak secara transparan begitu kesalahan ditemukan, jelaskan penyebabnya, dan lakukan koreksi pada periode gaji berikutnya atau melalui pembayaran susulan jika nilainya cukup signifikan. Menunda atau menutupi kesalahan semacam ini jauh lebih merusak kepercayaan karyawan dibanding kesalahan itu sendiri, karena karyawan biasanya bisa memaklumi kekeliruan teknis selama ditangani secara jujur dan cepat.",
   },
+  { type: "p", text: "Hasil perhitungan lembur mengalir ke [penggajian, PPh 21, dan BPJS dengan HRIS](/blog/penggajian-payroll-pph-21-dan-bpjs-dengan-hris)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

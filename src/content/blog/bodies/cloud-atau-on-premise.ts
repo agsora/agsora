@@ -193,6 +193,7 @@ export const body: Block[] = [
     type: "p",
     text: "Keputusan infrastruktur sering dibuat oleh manajemen tanpa melibatkan orang yang akan merawatnya sehari-hari. Libatkan tim IT internal atau konsultan teknis sejak diskusi awal, bukan setelah keputusan diambil. Mereka bisa menilai realistis tidaknya rencana perawatan on premise, atau memeriksa reputasi teknis penyedia cloud yang dipertimbangkan.",
   },
+  { type: "p", text: "Apa pun pilihannya, siapkan jalur keluar seperti di [vendor lock-in di cloud dan software bisnis](/blog/vendor-lock-in-di-cloud-dan-software-bisnis-strategi-keluar)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

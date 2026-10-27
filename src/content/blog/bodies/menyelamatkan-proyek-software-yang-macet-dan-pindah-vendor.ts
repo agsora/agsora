@@ -109,6 +109,7 @@ export const body: Block[] = [
     ],
   },
   { type: "p", text: "Bila Anda mempertimbangkan vendor di luar kota atau luar negeri, prinsip yang sama berlaku. Panduan [outsourcing pengembangan software ke Indonesia](/blog/outsourcing-pengembangan-software-ke-indonesia) membahas model kerja sama dan cara menjaga transparansi dalam proyek lintas lokasi." },
+  { type: "p", text: "Agar pindah vendor tidak menjadi krisis, baca [vendor lock-in di cloud dan software bisnis](/blog/vendor-lock-in-di-cloud-dan-software-bisnis-strategi-keluar)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Proyek software yang macet bukan akhir dari segalanya. Dengan mengamankan aset lebih dulu, melakukan penilaian teknis yang objektif, memilih jalan berdasarkan data, dan menjalankan serah terima yang tertib, sebagian besar investasi yang sudah dikeluarkan dapat diselamatkan." },
   { type: "p", text: "Yang terpenting adalah bertindak lebih awal. Semakin lama masalah dibiarkan, semakin besar biaya dan semakin sulit pemulihannya. Bila tanda bahaya sudah terlihat, mintalah penilaian independen sekarang, selagi pilihan Anda masih banyak." },

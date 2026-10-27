@@ -108,6 +108,7 @@ const en: Block[] = [
   { type: "p", text: "Who should be involved from outside? An IT provider or security consultant, legal counsel for reporting obligations, the bank if there are suspected fund transfers, and the authorities for criminal acts. Prepare the contacts before they are needed." },
   { type: "p", text: "How do I measure readiness? Measure the average time to detect, contain, and recover in exercises, and the percentage of critical systems whose backups are tested. Improving these numbers means more than the number of policy documents." },
   { type: "p", text: "Email domain spoofing should also be covered in prevention planning; see [SPF, DKIM, and DMARC for business email](/blog/spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis)." },
+  { type: "p", text: "Attack paths revealed in [penetration testing and security audits](/blog/uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis) should feed into your response plan." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "An incident response plan is cheap insurance: a little time drafting it today can save days of operations later. Assign roles, inventory critical systems, keep backups separate and tested, write first steps for the most likely scenarios, and practice every year. When an incident comes, a team that already knows what to do will contain the loss, keep customer trust, and recover faster." },
   {
@@ -227,6 +228,7 @@ const zh: Block[] = [
   { type: "p", text: "需要哪些外部人员参与？IT 服务商或安全顾问、负责报告义务的法律顾问、涉及可疑资金转移时的银行，以及处理刑事犯罪的执法机关。请在需要之前备好联系方式。" },
   { type: "p", text: "如何衡量准备程度？衡量演练中发现、遏制和恢复的平均时间，以及备份经过测试的关键系统所占比例。这些数字的改善比政策文件的数量更有意义。" },
   { type: "p", text: "邮件域名仿冒也应纳入预防计划；请参阅[企业邮件的 SPF、DKIM 与 DMARC](/blog/spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis)。" },
+  { type: "p", text: "[渗透测试与安全审计](/blog/uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis)中揭示的攻击路径应纳入您的响应计划。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "事件响应计划是便宜的保险：今天花一点时间起草，将来可能挽救数天的运营。指定角色，梳理关键系统，保持备份隔离且经过测试，为最可能的场景写出第一步，并每年演练。当事件来临时，已经知道该怎么做的团队能够控制损失、保住客户信任并更快恢复。" },
   {

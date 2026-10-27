@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis",
+    title: "Uji Penetrasi dan Audit Keamanan Aplikasi Bisnis: Kapan Perlu, Apa yang Diuji, dan Cara Menindaklanjuti Temuan",
+    excerpt: "Beda uji penetrasi dan pemindaian otomatis, kapan perlu dilakukan, cakupan pengujian, persiapan, memilih penyedia, membaca laporan, dan menindaklanjuti temuan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    tags: ["keamanan","website","operasional"],
+    titleTranslations: {
+      en: "Penetration Testing and Security Audits for Business Applications: When You Need Them, What Gets Tested, and How to Act on Findings",
+      zh: "企业应用的渗透测试与安全审计：何时需要、测试什么，以及如何跟进发现",
+    },
+    excerptTranslations: {
+      en: "How a penetration test differs from automated scanning, when to run one, test scope, preparation, choosing a provider, reading the report, and acting on findings.",
+      zh: "渗透测试与自动化扫描的区别、何时进行、测试范围、准备工作、选择服务商、阅读报告以及跟进发现。",
+    },
+  },
+  {
+    slug: "rekonsiliasi-bank-otomatis-dengan-erp",
+    title: "Rekonsiliasi Bank Otomatis dengan ERP: Mencocokkan Mutasi Rekening Tanpa Lembur Setiap Akhir Bulan",
+    excerpt: "Cara kerja rekonsiliasi bank otomatis di ERP: impor mutasi, aturan pencocokan berlapis, data yang perlu disiapkan, kasus khusus, dan langkah penerapan bertahap.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    tags: ["erp","keuangan","pelaporan"],
+    titleTranslations: {
+      en: "Automated Bank Reconciliation with ERP: Matching Bank Statements Without Month-End Overtime",
+      zh: "借助 ERP 实现自动银行对账：告别月底加班的流水匹配",
+    },
+    excerptTranslations: {
+      en: "How automated bank reconciliation works in an ERP: statement import, layered matching rules, data to prepare, special cases, and a staged rollout.",
+      zh: "ERP 中自动银行对账的运作方式：流水导入、分层匹配规则、需准备的数据、特殊情况以及分阶段实施。",
+    },
+  },
+  {
+    slug: "penggajian-payroll-pph-21-dan-bpjs-dengan-hris",
+    title: "Penggajian (Payroll), PPh 21, dan BPJS dengan HRIS: Dari Lembar Kerja ke Sistem yang Dapat Diaudit",
+    excerpt: "Komponen payroll, konfigurasi PPh 21 dan BPJS, alur bulanan yang disiplin, integrasi absensi, pengendalian data gaji, dan cara beralih dari lembar kerja ke HRIS.",
+    category: "HR & Tim",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    tags: ["hris","keuangan","operasional"],
+    titleTranslations: {
+      en: "Payroll, Article 21 Income Tax, and BPJS with an HRIS: From Spreadsheets to an Auditable System",
+      zh: "借助 HRIS 管理薪资、第 21 条个税与 BPJS：从电子表格到可审计的系统",
+    },
+    excerptTranslations: {
+      en: "Payroll components, configuring income tax and BPJS, a disciplined monthly flow, attendance integration, salary data controls, and moving from spreadsheets to an HRIS.",
+      zh: "薪资项目、个税与 BPJS 的配置、严谨的月度流程、考勤集成、薪资数据控制，以及从电子表格过渡到 HRIS。",
+    },
+  },
+  {
+    slug: "arsitektur-event-driven-dan-antrean-pesan-untuk-aplikasi-bisnis",
+    title: "Arsitektur Event-Driven dan Antrean Pesan untuk Aplikasi Bisnis: Cepat, Tahan Lonjakan, dan Mudah Dikembangkan",
+    excerpt: "Konsep antrean pesan dan arsitektur berbasis kejadian, pola umum, risiko, idempotensi, pemantauan, dan cara memulai secara bertahap di aplikasi bisnis.",
+    category: "Teknologi",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    tags: ["integrasi","infrastruktur","website"],
+    titleTranslations: {
+      en: "Event-Driven Architecture and Message Queues for Business Applications: Fast, Spike-Resistant, and Easy to Extend",
+      zh: "企业应用的事件驱动架构与消息队列：快速、抗峰值、易扩展",
+    },
+    excerptTranslations: {
+      en: "Message queue and event-driven concepts, common patterns, risks, idempotency, monitoring, and how to start gradually in a business application.",
+      zh: "消息队列与事件驱动架构的概念、常见模式、风险、幂等性、监控，以及如何在企业应用中逐步起步。",
+    },
+  },
+  {
+    slug: "vendor-lock-in-di-cloud-dan-software-bisnis-strategi-keluar",
+    title: "Vendor Lock-In di Cloud dan Software Bisnis: Cara Menilai Risiko dan Menyiapkan Strategi Keluar",
+    excerpt: "Bentuk keterikatan pada penyedia, cara menilai risikonya, strategi kepemilikan data, arsitektur portabel, kontrak yang adil, rencana keluar, dan software custom.",
+    category: "Teknologi",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+    tags: ["vendor","infrastruktur","kontrak"],
+    titleTranslations: {
+      en: "Vendor Lock-In in Cloud and Business Software: How to Assess the Risk and Prepare an Exit Strategy",
+      zh: "云与企业软件中的供应商锁定：如何评估风险并准备退出策略",
+    },
+    excerptTranslations: {
+      en: "Forms of vendor lock-in, how to assess the risk, data ownership strategy, portable architecture, fair contracts, an exit plan, and custom software.",
+      zh: "供应商锁定的形式、风险评估方法、数据所有权策略、可移植架构、公平合同、退出计划以及定制软件。",
+    },
+  },
+  {
     slug: "erp-untuk-apotek-dan-distributor-farmasi-batch-kedaluwarsa-dan-regulasi",
     title: "ERP untuk Apotek dan Distributor Farmasi: Batch, Kedaluwarsa FEFO, Golongan Obat, dan Pelaporan",
     excerpt: "Kebutuhan khas farmasi di ERP: pelacakan batch dan kedaluwarsa dengan FEFO, golongan obat dan dokumen, harga bertingkat, stok multi-cabang, serta laporan kedaluwarsa dan regulasi.",
@@ -79,7 +164,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan uji beban untuk bisnis: jenis uji, menetapkan target dari data, skenario realistis, metrik persentil, perbaikan leher botol, dan rencana hari puncak.",
     category: "Teknologi",
     publishedAt: "2026-10-26",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-27",
     tags: ["infrastruktur","website","operasional"],
     titleTranslations: {
       en: "Load Testing: Stress-Testing Your Online Store and Apps Before Big Promos and Peak Season",
@@ -334,7 +419,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun rencana respons insiden: peran tim, persiapan cadangan dan log, enam fase respons, skenario umum, kewajiban pemberitahuan data pribadi, dan latihan simulasi.",
     category: "Teknologi",
     publishedAt: "2026-10-23",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-27",
     tags: ["keamanan","infrastruktur","operasional"],
     titleTranslations: {
       en: "Cybersecurity Incident Response Plan for Business: Steps from Detection to Recovery",
@@ -844,7 +929,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tanda proyek bermasalah, mengamankan kode dan akses, penilaian teknis objektif, pilihan keputusan, serah terima ke vendor baru, dan cara mencegah masalah terulang.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-18",
+    updatedAt: "2026-10-27",
     tags: ["vendor","implementasi","kontrak"],
     titleTranslations: {
       en: "Rescuing a Stalled Software Project: Switching Vendors Safely",
@@ -997,7 +1082,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perbedaan monolit dan microservices, biaya tersembunyi, tanda monolit mulai menghambat, jalan tengah monolit modular, dan cara memecah sistem secara bertahap.",
     category: "Teknologi",
     publishedAt: "2026-10-16",
-    updatedAt: "2026-10-16",
+    updatedAt: "2026-10-27",
     tags: ["infrastruktur","custom-software","integrasi"],
     titleTranslations: {
       en: "Monolith or Microservices: Choosing the Right Business Application Architecture",
@@ -1643,7 +1728,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjelasan webhook dengan bahasa sederhana: bedanya dengan polling, contoh kejadian yang cocok, pesan terlewat dan ganda, urutan kejadian, keamanan, pemantauan, kapan memakai penghubung siap pakai, serta dokumentasi dan kepemilikan integrasi.",
     category: "Teknologi",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-27",
     tags: ["api","integrasi","otomasi","ecommerce"],
     titleTranslations: {
       en: "Webhooks and Real Time Integration for Business: Letting Systems Tell Each Other Without Human Hands",
@@ -1762,7 +1847,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tutup buku yang lambat berasal dari hulu. Cara menyusun kalender penutupan, mencatat di sumber, rekonsiliasi sepanjang bulan, aturan pisah batas, persediaan, jurnal berulang, pemeriksaan, dan penguncian periode.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-10-27",
     tags: ["erp","keuangan","pelaporan","otomasi"],
     titleTranslations: {
       en: "A Faster Monthly Close with ERP: From Late Reports to Figures You Can Use",
@@ -1983,7 +2068,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merancang rekonsiliasi yang rapi dan otomatis: tiga sumber data, kunci pencocokan, alur harian, penanganan pengecualian, pencatatan biaya dan pengembalian dana, serta pengendalian internal.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-27",
     tags: ["keuangan","pembayaran","otomasi","ecommerce"],
     titleTranslations: {
       en: "Online Store Payment Reconciliation: Matching Orders, Payment Providers, and Bank Accounts",
@@ -2434,7 +2519,7 @@ export const meta: PostMeta[] = [
     excerpt: "Laporan laba rugi sehat, tapi kas menipis. ERP menghubungkan piutang, utang, dan persediaan sehingga posisi kas terlihat lebih awal, asalkan datanya dicatat dengan disiplin.",
     category: "ERP & Operasional",
     publishedAt: "2026-09-27",
-    updatedAt: "2026-09-27",
+    updatedAt: "2026-10-27",
     tags: [
       "erp",
       "keuangan",
@@ -2644,6 +2729,7 @@ export const meta: PostMeta[] = [
     excerpt: "Sistem HR gagal biasanya bukan karena fiturnya kurang, tapi karena penerapannya melewatkan hal-hal yang tampak sepele.",
     category: "HR & Tim",
     publishedAt: "2026-08-26",
+    updatedAt: "2026-10-27",
     tags: [
       "hris",
       "payroll",
@@ -2799,6 +2885,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menjalankan sistem di cloud atau di server sendiri bukan soal mana yang lebih modern, tapi soal biaya, kendali, dan kemampuan tim merawatnya.",
     category: "Teknologi",
     publishedAt: "2026-08-29",
+    updatedAt: "2026-10-27",
     tags: [
       "infrastruktur",
       "keamanan",
@@ -2888,6 +2975,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tim HR sering menghabiskan waktu menjawab pertanyaan yang jawabannya sudah ada di sistem. Layanan mandiri memindahkan pekerjaan itu ke tempat yang tepat.",
     category: "HR & Tim",
     publishedAt: "2026-08-13",
+    updatedAt: "2026-10-27",
     tags: [
       "hris",
       "karyawan",
@@ -3067,6 +3155,7 @@ export const meta: PostMeta[] = [
     excerpt: "Biaya bulanan terlihat lebih ringan, lisensi sekali beli terlihat lebih hemat. Keduanya bisa benar, tergantung apa saja yang dihitung.",
     category: "Panduan Memilih",
     publishedAt: "2026-07-14",
+    updatedAt: "2026-10-27",
     tags: [
       "saas",
       "biaya",
@@ -3227,6 +3316,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perhitungan lembur yang dilakukan manual rawan selisih dan perselisihan. Memindahkannya ke sistem butuh aturan yang jelas sebelum rumusnya dibuat.",
     category: "HR & Tim",
     publishedAt: "2026-06-18",
+    updatedAt: "2026-10-27",
     tags: [
       "hris",
       "payroll",
@@ -3327,7 +3417,7 @@ export const meta: PostMeta[] = [
     excerpt: "Keamanan aplikasi bukan fitur tambahan yang bisa dipasang belakangan. Beberapa hal dasar ini seharusnya ada sejak aplikasi pertama kali dibangun.",
     category: "Teknologi",
     publishedAt: "2026-06-02",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-27",
     tags: [
       "keamanan",
       "custom-software",

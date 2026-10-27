@@ -152,6 +152,7 @@ export const body: Block[] = [
     type: "p",
     text: "Libatkan bagian keuangan sejak awal perancangan. Merekalah yang paling memahami pertanyaan apa yang sering diajukan pemilik bisnis, laporan apa yang saat ini disusun secara manual, dan di bagian mana angka dari berbagai sumber paling sering tidak cocok. Masukan mereka membantu memastikan sistem yang dibangun benar-benar menjawab kebutuhan kas sehari-hari, bukan sekadar menghasilkan laporan standar yang jarang dibuka.",
   },
+  { type: "p", text: "Saldo kas yang akurat bergantung pada [rekonsiliasi bank otomatis dengan ERP](/blog/rekonsiliasi-bank-otomatis-dengan-erp)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
