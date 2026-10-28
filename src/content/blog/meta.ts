@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek",
+    title: "ERP untuk Developer Properti: Inventori Unit, Skema Pembayaran Pembeli, dan Biaya Proyek dalam Satu Sistem",
+    excerpt: "Cara ERP disesuaikan untuk developer properti: inventori unit dan status, jadwal pembayaran pembeli, KPR, biaya pembangunan per tahap, komisi, serah terima, dan penerapan bertahap.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    tags: ["erp","industri","keuangan"],
+    titleTranslations: {
+      en: "ERP for Property Developers: Unit Inventory, Buyer Payment Schemes, and Project Costs in One System",
+      zh: "房地产开发商的 ERP：单元库存、买家付款方案与项目成本合一",
+    },
+    excerptTranslations: {
+      en: "How an ERP is adapted for property developers: unit inventory and status, buyer payment schedules, mortgages, phase-level construction costs, commissions, handover, and a staged rollout.",
+      zh: "ERP 如何适配房地产开发商：单元库存与状态、买家付款计划、按揭、分阶段建设成本、佣金、交付以及分阶段实施。",
+    },
+  },
+  {
+    slug: "kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah",
+    title: "Kualitas Data dan Tata Kelola Data untuk Bisnis Menengah: Agar Laporan dan Keputusan Bisa Dipercaya",
+    excerpt: "Dimensi kualitas data, sumber masalah, tata kelola ringan dengan pemilik data, membersihkan data lama, pencegahan di titik input, dan rencana 90 hari yang realistis.",
+    category: "Teknologi",
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    tags: ["data","pelaporan","operasional"],
+    titleTranslations: {
+      en: "Data Quality and Data Governance for Mid-Sized Businesses: So Reports and Decisions Can Be Trusted",
+      zh: "中型企业的数据质量与数据治理：让报表与决策值得信赖",
+    },
+    excerptTranslations: {
+      en: "Data quality dimensions, sources of problems, lightweight governance with data owners, cleaning existing data, prevention at the point of entry, and a realistic 90-day plan.",
+      zh: "数据质量的维度、问题来源、由数据负责人主导的轻量治理、清洗现有数据、录入环节的预防以及现实可行的 90 天计划。",
+    },
+  },
+  {
+    slug: "computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja",
+    title: "Computer Vision untuk Bisnis: Inspeksi Cacat, Penghitungan Barang, dan Keselamatan Kerja yang Realistis",
+    excerpt: "Apa yang bisa dilakukan computer vision, kasus penggunaan realistis, syarat keberhasilan, edge atau cloud, kelayakan, privasi, risiko akurasi, dan cara memulai proyek kecil.",
+    category: "Teknologi",
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    tags: ["ai","otomasi","industri"],
+    titleTranslations: {
+      en: "Computer Vision for Business: Realistic Defect Inspection, Item Counting, and Workplace Safety",
+      zh: "企业计算机视觉：务实的缺陷检测、商品清点与工作安全",
+    },
+    excerptTranslations: {
+      en: "What computer vision can do, realistic use cases, requirements for success, edge or cloud, feasibility, privacy, accuracy risks, and how to start a small project.",
+      zh: "计算机视觉能做什么、现实的应用场景、成功的条件、边缘端或云端、可行性、隐私、准确性风险以及如何启动小项目。",
+    },
+  },
+  {
+    slug: "sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu",
+    title: "Sistem Koperasi Simpan Pinjam Digital: Simpanan, Pinjaman, SHU, dan Pengendalian Internal yang Transparan",
+    excerpt: "Modul inti sistem koperasi simpan pinjam, perhitungan bunga dan angsuran, pemantauan tunggakan, pengendalian internal, aplikasi anggota, SHU, dan penerapan bertahap.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    tags: ["keuangan","industri","custom-software"],
+    titleTranslations: {
+      en: "Digital Savings and Loan Cooperative Systems: Savings, Loans, Surplus Distribution, and Transparent Internal Controls",
+      zh: "数字化储蓄信贷合作社系统：储蓄、贷款、盈余分配与透明的内部控制",
+    },
+    excerptTranslations: {
+      en: "Core modules of a savings and loan cooperative system, interest and installment calculation, arrears monitoring, internal controls, member apps, surplus distribution, and a staged rollout.",
+      zh: "储蓄信贷合作社系统的核心模块、利息与分期计算、拖欠监控、内部控制、成员应用、盈余分配以及分阶段实施。",
+    },
+  },
+  {
+    slug: "dokumentasi-teknis-dan-serah-terima-proyek-software",
+    title: "Dokumentasi Teknis dan Serah Terima Proyek Software: Agar Aplikasi Bisnis Tidak Bergantung pada Satu Orang",
+    excerpt: "Dokumen yang perlu ada, cara menilai kualitas dokumentasi, proses serah terima terstruktur, klausul kontrak, dan cara menjaga dokumentasi tetap hidup setelah peluncuran.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+    tags: ["custom-software","vendor","kontrak"],
+    titleTranslations: {
+      en: "Technical Documentation and Software Project Handover: So Your Business App Does Not Depend on One Person",
+      zh: "技术文档与软件项目交接：让业务应用不依赖于某一个人",
+    },
+    excerptTranslations: {
+      en: "Which documents should exist, how to assess documentation quality, a structured handover process, contract clauses, and how to keep documentation alive after launch.",
+      zh: "应有哪些文档、如何评估文档质量、结构化的交接流程、合同条款，以及上线后如何保持文档鲜活。",
+    },
+  },
+  {
     slug: "uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis",
     title: "Uji Penetrasi dan Audit Keamanan Aplikasi Bisnis: Kapan Perlu, Apa yang Diuji, dan Cara Menindaklanjuti Temuan",
     excerpt: "Beda uji penetrasi dan pemindaian otomatis, kapan perlu dilakukan, cakupan pengujian, persiapan, memilih penyedia, membaca laporan, dan menindaklanjuti temuan.",
@@ -538,7 +623,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjelasan utang teknis dalam bahasa bisnis, jenis-jenisnya, indikator untuk mengukurnya, cara memprioritaskan, strategi pelunasan, dan cara membicarakannya dengan manajemen.",
     category: "Teknologi",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-10-28",
     tags: ["custom-software","biaya","implementasi"],
     titleTranslations: {
       en: "Technical Debt in Business Applications: How to Measure, Prioritize, and Pay It Down",
@@ -606,7 +691,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara ERP membantu kontraktor mengendalikan anggaran dan biaya proyek, mengelola subkontraktor dan retensi, menagih berdasarkan progres, serta menerapkannya bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-28",
     tags: ["erp","operasional","industri"],
     titleTranslations: {
       en: "ERP for Contractors and Construction Companies: Project Costing, Subcontractors, and Progress Billing",
@@ -674,7 +759,7 @@ export const meta: PostMeta[] = [
     excerpt: "Titik pemeriksaan bahan masuk, proses, dan produk jadi, menangani produk tidak sesuai, tindakan korektif, penelusuran lot, dan langkah menerapkan QC di ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-28",
     tags: ["erp","industri","operasional"],
     titleTranslations: {
       en: "Quality Control (QC) in Manufacturing with ERP: From Inspection to Lot Traceability",
@@ -759,7 +844,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengapa data menentukan hasil AI, enam dimensi kesiapan data, pekerjaan persiapan paling berdampak, memilih kasus penggunaan pertama, dan daftar periksa sebelum mulai.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-20",
-    updatedAt: "2026-10-20",
+    updatedAt: "2026-10-28",
     tags: ["ai","data","integrasi"],
     titleTranslations: {
       en: "AI Data Readiness: How to Assess and Prepare Company Data Before an AI Project",
@@ -929,7 +1014,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tanda proyek bermasalah, mengamankan kode dan akses, penilaian teknis objektif, pilihan keputusan, serah terima ke vendor baru, dan cara mencegah masalah terulang.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-10-28",
     tags: ["vendor","implementasi","kontrak"],
     titleTranslations: {
       en: "Rescuing a Stalled Software Project: Switching Vendors Safely",
@@ -1184,7 +1269,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu jejak audit, apa yang layak dicatat, pemisahan tugas, alur persetujuan, laporan pengecualian, dan persiapan audit eksternal pada sistem ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-10-15",
+    updatedAt: "2026-10-28",
     tags: ["erp","keamanan","keuangan"],
     titleTranslations: {
       en: "Audit Trails and Internal Control in ERP Systems: Growing Without Losing Control",
@@ -1337,7 +1422,7 @@ export const meta: PostMeta[] = [
     excerpt: "Merancang penagihan proyek yang sehat: memilih model, milestone dengan kriteria penerimaan, jadwal yang selaras dengan arus kas, perubahan lingkup, pencatatan jam kerja, dan pengakuan pendapatan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-28",
     tags: ["erp","keuangan","operasional"],
     titleTranslations: {
       en: "Project and Milestone Billing for Service Businesses: Keeping Cash Flow and Margin Healthy",
@@ -1371,7 +1456,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengelola kontrak pelanggan secara terstruktur: data kunci, siklus hidup kontrak, proses perpanjangan, kenaikan harga, hubungan dengan penagihan dan layanan, serta tinjauan portofolio.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-10-28",
     tags: ["crm","sales","pelanggan"],
     titleTranslations: {
       en: "Customer Contract and Renewal Management: So No Revenue Quietly Expires",
@@ -1609,7 +1694,7 @@ export const meta: PostMeta[] = [
     excerpt: "Memahami gudang data dan BI untuk nonteknisi: mengapa laporan sistem operasional tidak cukup, tanda membutuhkannya, mulai dari pertanyaan bisnis, definisi angka, kualitas data, pilihan teknis, dasbor yang dipakai, dan budaya data.",
     category: "Teknologi",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-10-28",
     tags: ["data","pelaporan","integrasi"],
     titleTranslations: {
       en: "Data Warehouse and Business Intelligence for Mid Sized Businesses: One Source of Truth for Decisions",
@@ -2102,7 +2187,7 @@ export const meta: PostMeta[] = [
     excerpt: "IoT dilihat dari sudut pemilik bisnis kecil: kasus penggunaan yang masuk akal, komponen sistem, konektivitas dan daya, hubungan dengan aplikasi dan ERP, keamanan, biaya tersembunyi, dan uji coba kecil.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-28",
     tags: ["otomasi","infrastruktur","operasional","integrasi"],
     titleTranslations: {
       en: "IoT and Sensors for Small Business: What Is Realistic, What Is Useful, and How to Start",
@@ -2204,7 +2289,7 @@ export const meta: PostMeta[] = [
     excerpt: "ERP secanggih apa pun akan menghasilkan laporan yang salah jika data induknya berantakan. Cara menyusun kode barang, data pelanggan dan pemasok, aturan penamaan, serta tata kelola agar data tetap bersih.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-10-28",
     tags: ["erp","data","migrasi-data"],
     titleTranslations: {
       en: "ERP Master Data: The Often Underrated Foundation of Item Codes, Customers, and Suppliers",
@@ -2459,7 +2544,7 @@ export const meta: PostMeta[] = [
     excerpt: "Software yang tidak dirawat menurun pelan-pelan. Apa saja yang termasuk pemeliharaan, beda garansi dan pemeliharaan, cara menyusun perjanjian layanan, dan apa yang harus diserahterimakan saat peluncuran.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-10-28",
     tags: ["implementasi", "keamanan", "infrastruktur", "biaya"],
     titleTranslations: {
       en: "Application Maintenance After Launch: Launch Is Not the Finish Line",
@@ -3053,6 +3138,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyalin data dari faktur, nota, dan formulir ke sistem adalah pekerjaan berulang yang rawan salah ketik. Otomatisasi bisa membantu, dengan pemeriksaan yang tepat.",
     category: "Teknologi",
     publishedAt: "2026-07-30",
+    updatedAt: "2026-10-28",
     tags: [
       "otomasi",
       "ai",
@@ -3066,6 +3152,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menerima pembayaran QRIS itu mudah. Yang sering terlewat adalah memastikan setiap pembayaran digital tercatat rapi dan cocok dengan laporan penjualan.",
     category: "POS & Retail",
     publishedAt: "2026-07-28",
+    updatedAt: "2026-10-28",
     tags: [
       "pos",
       "pembayaran",
@@ -3265,7 +3352,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kontrak yang jelas melindungi kedua pihak ketika project tidak berjalan sesuai rencana. Ini bagian-bagian yang layak diperhatikan sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-06-26",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-10-28",
     tags: [
       "kontrak",
       "vendor",
@@ -3442,6 +3529,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tidak semua aplikasi perlu mode offline, tapi untuk operasional di lapangan dan di kasir, koneksi yang putus bisa berarti pekerjaan yang berhenti.",
     category: "Teknologi",
     publishedAt: "2026-05-29",
+    updatedAt: "2026-10-28",
     tags: [
       "mobile",
       "operasional",

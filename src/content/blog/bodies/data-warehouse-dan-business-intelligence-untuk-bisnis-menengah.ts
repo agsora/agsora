@@ -132,6 +132,7 @@ export const body: Block[] = [
     "Periksa apakah sistem yang ada sudah menyediakan laporan yang menjawabnya",
     "Bila belum, rancang tahap pertama yang kecil: satu area, beberapa metrik, satu dasbor",
   ] },
+  { type: "p", text: "Analisis hanya sebaik data sumbernya; lihat [kualitas data dan tata kelola data](/blog/kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Gudang data dan BI bukan tentang teknologi mewah, melainkan tentang memberi organisasi kemampuan menjawab pertanyaannya sendiri dengan cepat dan dapat dipercaya. Ketika data dari berbagai sistem bertemu di satu tempat dengan definisi yang disepakati, keputusan menjadi lebih cepat dan lebih tenang." },
   { type: "p", text: "Mulailah dari pertanyaan yang paling penting, bangun secukupnya, dan biarkan manfaat nyata menentukan langkah berikutnya. Bisnis menengah yang membiasakan diri memakai data sejak dini akan lebih siap menghadapi pertumbuhan, karena keputusannya bertumpu pada gambaran yang utuh, bukan potongan-potongan. Dan yang terpenting, jangan menunggu kondisi sempurna: tahap pertama yang kecil tetapi nyata hampir selalu lebih bernilai daripada rencana besar yang belum juga dimulai. Setiap pertanyaan yang akhirnya terjawab dengan cepat dan dapat dipercaya adalah bukti nyata bahwa investasi ini bermanfaat." },

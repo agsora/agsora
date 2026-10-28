@@ -102,6 +102,7 @@ const en: Block[] = [
   { type: "p", text: "Must every product be inspected? Not always. Many processes use sampling based on risk and volume, while safety related characteristics may require full inspection." },
   { type: "p", text: "What if operators object to entering quality data? Simplify the forms, reduce the number of fields, provide a device at the workstation, and show how the data cuts rework that hurts them too." },
   { type: "p", text: "When should you start? When defects or customer complaints are frequent enough that the cost is felt, or when customers demand proof of inspection and traceability." },
+  { type: "p", text: "For automated visual inspection, see [computer vision for business](/blog/computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Quality control connected to the ERP turns inspection from a formality into a source of learning and savings. With clear inspection points, a quarantine status that holds problem goods, tracked corrective actions, and lot traceability from material to customer, manufacturers can reduce defects, cut costs, and answer complaints faster. Start with one line and critical characteristics only, make recording easy, then expand step by step based on data." },
   {
@@ -215,6 +216,7 @@ const zh: Block[] = [
   { type: "p", text: "每件产品都必须检验吗？不一定。许多工序依据风险和产量采用抽样，而涉及安全的特性可能需要全检。" },
   { type: "p", text: "如果操作员不愿填写质量数据怎么办？简化表单、减少填写项、在工位提供设备，并展示这些数据如何减少同样让他们受累的返工。" },
   { type: "p", text: "什么时候开始合适？当缺陷或客户投诉频繁到足以让人感受到成本，或客户要求提供检验和追溯证明时。" },
+  { type: "p", text: "关于自动视觉检测，请参阅[企业计算机视觉](/blog/computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja)。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "与 ERP 相连的质量控制，把检验从形式变成学习和节约的来源。凭借清晰的检验点、冻结问题货物的隔离状态、可追踪的纠正措施，以及从物料到客户的批次追溯，制造企业可以减少缺陷、降低成本，并更快地回应投诉。先从一条生产线和关键特性开始，让记录变得简单，再根据数据逐步扩展。" },
   {

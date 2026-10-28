@@ -102,6 +102,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah perlu memeriksa semua produk? Tidak selalu. Banyak proses memakai pengambilan sampel berdasarkan risiko dan volume, sedangkan karakteristik yang menyangkut keselamatan mungkin memerlukan pemeriksaan penuh." },
   { type: "p", text: "Bagaimana jika operator keberatan mengisi data mutu? Sederhanakan formulir, kurangi jumlah isian, sediakan perangkat di stasiun kerja, dan tunjukkan bagaimana data tersebut mengurangi kerja ulang yang merugikan mereka sendiri." },
   { type: "p", text: "Kapan sebaiknya mulai? Saat cacat atau keluhan pelanggan sudah cukup sering sehingga biayanya terasa, atau ketika pelanggan menuntut bukti pemeriksaan dan penelusuran." },
+  { type: "p", text: "Untuk inspeksi visual otomatis, lihat [computer vision untuk bisnis](/blog/computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Kendali mutu yang terhubung dengan ERP mengubah pemeriksaan dari formalitas menjadi sumber pembelajaran dan penghematan. Dengan titik pemeriksaan yang jelas, status karantina yang menahan barang bermasalah, tindakan korektif yang dilacak, dan penelusuran lot dari bahan hingga pelanggan, produsen dapat mengurangi cacat, menekan biaya, dan menjawab keluhan lebih cepat. Mulailah dari satu lini dan karakteristik kritis saja, pastikan pencatatan mudah, lalu perluas secara bertahap berdasarkan data." },
   {

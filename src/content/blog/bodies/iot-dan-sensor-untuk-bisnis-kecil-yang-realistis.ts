@@ -153,6 +153,7 @@ export const body: Block[] = [
     "Kunjungi lokasi pemasangan untuk memeriksa sinyal, listrik, dan kondisi fisik",
     "Rancang uji coba kecil beberapa minggu dengan ukuran keberhasilan yang jelas",
   ] },
+  { type: "p", text: "Kamera juga dapat berfungsi sebagai sensor; lihat [computer vision untuk bisnis](/blog/computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "IoT dan sensor dapat memberi bisnis kecil kemampuan yang dulu hanya dimiliki perusahaan besar: melihat apa yang terjadi di lapangan secara terus-menerus dan bereaksi sebelum masalah membesar. Namun nilainya tidak datang dari perangkat, melainkan dari masalah yang jelas, rancangan dari ujung ke ujung, keamanan yang diperhatikan, dan pemeliharaan yang konsisten." },
   { type: "p", text: "Mulailah dari satu masalah nyata, uji dalam skala kecil, dan hubungkan datanya dengan tindakan dan sistem bisnis Anda. Dengan begitu teknologi ini menjadi alat yang bekerja untuk Anda, bukan kumpulan perangkat yang dipasang lalu dilupakan." },

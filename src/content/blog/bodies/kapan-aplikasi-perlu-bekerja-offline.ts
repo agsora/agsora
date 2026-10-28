@@ -142,6 +142,7 @@ export const body: Block[] = [
     type: "p",
     text: "Latihan ini idealnya dilakukan dalam kondisi yang benar-benar menyerupai lapangan, bukan hanya penjelasan di ruang kelas. Simulasikan skenario nyata, mencatat beberapa transaksi berurutan saat offline, lalu mengamati bersama proses sinkronisasi saat koneksi kembali tersedia, sehingga tim bisa melihat sendiri bahwa sistem benar-benar bekerja seperti yang dijanjikan. Kepercayaan tim terhadap mode offline tumbuh jauh lebih cepat lewat pengalaman langsung seperti ini dibanding hanya lewat penjelasan tertulis di buku panduan yang mungkin tidak pernah benar-benar dibaca.",
   },
+  { type: "p", text: "Contoh kebutuhan mode offline di wilayah dengan koneksi terbatas ada di [sistem koperasi simpan pinjam digital](/blog/sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

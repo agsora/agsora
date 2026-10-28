@@ -109,6 +109,7 @@ export const body: Block[] = [
       "Tunjuk pemilik data, atur hak akses, dan jadwalkan pemeriksaan kebersihan berkala",
     ],
   },
+  { type: "p", text: "Agar master data tetap bersih dari waktu ke waktu, baca [kualitas data dan tata kelola data](/blog/kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "ERP yang berhasil bukan sekadar yang fiturnya lengkap, melainkan yang datanya dapat dipercaya. Data induk adalah fondasinya: jika fondasi itu retak, bangunan di atasnya akan terus bermasalah, seindah apa pun tampilannya. Waktu yang diinvestasikan untuk menyusun kode, aturan, dan tata kelola data sebelum peluncuran akan terbayar berkali-kali lewat laporan yang akurat dan keputusan yang lebih yakin." },
   { type: "p", text: "Jika bisnis Anda sedang mempertimbangkan ERP atau ingin merapikan data yang sudah menumpuk, mulailah dari data induk. Itu langkah yang tidak glamor, tetapi sering menjadi pembeda antara proyek yang berjalan mulus dan yang berlarut-larut." },

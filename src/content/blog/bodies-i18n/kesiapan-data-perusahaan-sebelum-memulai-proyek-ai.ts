@@ -95,6 +95,7 @@ const en: Block[] = [
       "There is an owner responsible for fixing data when problems are found",
     ],
   },
+  { type: "p", text: "The practical fixes are covered in [data quality and data governance for mid-sized businesses](/blog/kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Successful AI projects rarely start with the model; they start with data that is well understood. Assess data readiness per use case, do the preparation work with the most impact, and choose a first project whose data is good enough to deliver real results. That way AI produces not just an impressive demo but a system that is trusted and used every day, while pushing the company to tidy up data that has long been neglected." },
   {
@@ -201,6 +202,7 @@ const zh: Block[] = [
       "已指定发现问题时负责修正数据的人员",
     ],
   },
+  { type: "p", text: "实用的改进步骤见[中型企业的数据质量与数据治理](/blog/kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah)。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "成功的 AI 项目很少从模型开始，而是从被充分理解的数据开始。按用例评估数据就绪程度，完成影响最大的准备工作，并选择数据足以带来实际成果的第一个项目。这样，AI 带来的就不只是一场精彩的演示，而是一个每天被信任和使用的系统，同时还能推动企业整理长期被忽视的数据。" },
   {

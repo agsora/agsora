@@ -177,6 +177,7 @@ export const body: Block[] = [
       "Memilih mitra pemeliharaan semata berdasarkan harga termurah tanpa melihat kemampuan dan responsivitas",
     ],
   },
+  { type: "p", text: "Pemeliharaan lebih mudah bila ada [dokumentasi teknis dan serah terima proyek software](/blog/dokumentasi-teknis-dan-serah-terima-proyek-software)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

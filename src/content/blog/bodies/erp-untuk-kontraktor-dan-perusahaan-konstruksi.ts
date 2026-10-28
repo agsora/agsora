@@ -77,6 +77,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah ERP konstruksi harus berbasis cloud? Tidak harus, tetapi akses dari lokasi proyek biasanya membuat layanan berbasis web atau cloud lebih praktis, asalkan ada mekanisme kerja offline untuk lokasi dengan sinyal lemah." },
   { type: "p", text: "Berapa lama implementasinya? Bergantung pada cakupan. Modul biaya proyek dan pembelian dasar dapat berjalan lebih dulu pada proyek baru, sementara modul lanjutan menyusul setelah tim terbiasa." },
   { type: "p", text: "Siapa yang harus terlibat? Kepala proyek, pelaksana lapangan, pembelian, keuangan, dan manajemen. Sistem yang hanya dirancang oleh bagian keuangan sering gagal dipakai di lapangan." },
+  { type: "p", text: "Dari sisi pengembang yang sekaligus penjual unit, lihat [ERP untuk developer properti](/blog/erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "ERP untuk konstruksi bukan sekadar akuntansi dengan label proyek. Nilainya terletak pada kemampuan melihat anggaran, komitmen, biaya aktual, dan progres secara berdampingan, sehingga keputusan dapat diambil selagi proyek masih bisa diperbaiki. Dengan struktur biaya yang disiplin, alur subkontraktor dan penagihan yang jelas, serta pencatatan lapangan yang mudah, kontraktor dapat mengurangi kejutan biaya dan memperbaiki arus kas. Mulailah dari modul biaya dan pembelian pada proyek baru, pelajari hasilnya, lalu perluas secara bertahap." },
   {

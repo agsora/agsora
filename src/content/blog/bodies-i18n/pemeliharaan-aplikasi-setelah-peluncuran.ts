@@ -177,6 +177,7 @@ const en: Block[] = [
       "Choosing a maintenance partner purely on the lowest price without looking at capability and responsiveness",
     ],
   },
+  { type: "p", text: "Maintenance is easier with [technical documentation and software project handover](/blog/dokumentasi-teknis-dan-serah-terima-proyek-software) in place." },
   { type: "h2", text: "Conclusion" },
   {
     type: "p",
@@ -368,6 +369,7 @@ const zh: Block[] = [
       "仅凭最低价选择维护合作伙伴,而不考察其能力和响应速度",
     ],
   },
+  { type: "p", text: "有了[技术文档与软件项目交接](/blog/dokumentasi-teknis-dan-serah-terima-proyek-software)，维护会更容易。" },
   { type: "h2", text: "结语" },
   {
     type: "p",

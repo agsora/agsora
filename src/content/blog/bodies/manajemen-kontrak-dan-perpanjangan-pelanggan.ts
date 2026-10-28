@@ -129,6 +129,7 @@ export const body: Block[] = [
     "Memisahkan kontrak, penagihan, dan layanan tanpa integrasi",
     "Tidak ada pemilik yang jelas untuk setiap kontrak",
   ] },
+  { type: "p", text: "Contoh kontrak bernilai besar dengan jadwal pembayaran panjang ada di [ERP untuk developer properti](/blog/erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Kontrak yang dikelola dengan baik adalah sumber pendapatan yang dapat diprediksi dan hubungan pelanggan yang lebih sehat. Dengan data kunci yang terstruktur, pengingat yang bekerja, dan proses perpanjangan yang dimulai lebih awal, bisnis berhenti kehilangan peluang dan kewajiban secara diam-diam." },
   { type: "p", text: "Mulailah dengan inventaris sederhana dan pengingat tanggal berakhir. Dari fondasi itu, hubungkan dengan penagihan dan layanan, lalu tambahkan tinjauan portofolio. Setiap langkah kecil sudah mengurangi risiko dan membuat pendapatan berulang Anda lebih terjaga." },

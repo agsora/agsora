@@ -124,6 +124,7 @@ export const body: Block[] = [
     "Tidak ada pemilik yang jelas untuk menagih dan menindaklanjuti pembayaran",
   ] },
   { type: "p", text: "Untuk agensi yang menghubungkan jam kerja dengan tagihan, lihat [ERP untuk agensi kreatif dan digital](/blog/erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas)." },
+  { type: "p", text: "Penagihan bertahap juga lazim di bisnis properti, seperti di [ERP untuk developer properti](/blog/erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Bisnis jasa yang sehat bukan hanya yang pekerjaannya bagus, tetapi yang pekerjaannya dibayar tepat waktu dan menguntungkan. Penagihan berbasis milestone, dengan kriteria penerimaan yang jelas, jadwal yang selaras dengan arus kas, dan pengelolaan perubahan yang disiplin, membuat keduanya tercapai." },
   { type: "p", text: "Mulailah dengan satu proyek berikutnya: rancang milestone dengan kriteria tertulis, hitung kebutuhan kasnya, catat jam kerja dan biaya, lalu tagih dengan tertib. Dengan alur yang tersambung di ERP, pelajaran dari setiap proyek akan memperbaiki penawaran berikutnya." },

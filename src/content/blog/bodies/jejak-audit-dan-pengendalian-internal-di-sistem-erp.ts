@@ -102,6 +102,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagaimana dengan karyawan yang merasa diawasi? Jelaskan bahwa tujuannya melindungi semua orang, termasuk mereka, dari kesalahan dan tuduhan keliru. Ketika kontrol diterapkan adil kepada semua tingkatan, termasuk pemilik, ia lebih mudah diterima." },
   { type: "h2", text: "Catatan akhir" },
   { type: "p", text: "Ingat bahwa kontrol terbaik adalah yang dijalankan terus-menerus, bukan yang paling canggih di atas kertas. Satu tinjauan bulanan yang konsisten, dengan pemilik yang jelas dan tindak lanjut yang dicatat, lebih berharga daripada seratus aturan yang tidak pernah diperiksa." },
+  { type: "p", text: "Contoh pengendalian internal pada lembaga yang mengelola dana anggota ada di [sistem koperasi simpan pinjam digital](/blog/sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Jejak audit dan pengendalian internal bukan tanda ketidakpercayaan, melainkan fondasi agar bisnis dapat tumbuh tanpa kehilangan kendali. Dengan catatan yang jelas dan alur yang masuk akal, kesalahan lebih cepat ditemukan, kecurangan lebih sulit terjadi, dan keputusan lebih mudah dipertanggungjawabkan." },
   { type: "p", text: "Mulailah dari proses yang paling berisiko dan paling berdampak pada uang. Perbaiki sedikit demi sedikit, ukur hasilnya, dan libatkan tim. Dalam waktu yang tidak terlalu lama, bisnis Anda akan memiliki sistem yang tidak hanya mencatat transaksi, tetapi juga menjaga kepercayaan semua pihak yang bergantung padanya." },

@@ -77,6 +77,7 @@ const en: Block[] = [
   { type: "p", text: "Must construction ERP be cloud based? Not necessarily, but access from project sites usually makes web or cloud services more practical, provided there is an offline mode for sites with weak signal." },
   { type: "p", text: "How long does implementation take? It depends on scope. Project cost and basic purchasing modules can go live first on a new project, with advanced modules following once the team is comfortable." },
   { type: "p", text: "Who should be involved? Project managers, site supervisors, purchasing, finance, and management. A system designed only by the finance team often fails to be used in the field." },
+  { type: "p", text: "From the side of a developer who is also the unit seller, see [ERP for property developers](/blog/erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "ERP for construction is not just accounting with a project label. Its value is the ability to see budget, commitments, actual cost, and progress side by side, so decisions can be made while the project can still be fixed. With a disciplined cost structure, clear subcontractor and billing workflows, and easy field recording, contractors can reduce cost surprises and improve cash flow. Start with cost and purchasing modules on a new project, learn from the results, then extend step by step." },
   {
@@ -165,6 +166,7 @@ const zh: Block[] = [
   { type: "p", text: "建筑 ERP 必须基于云吗？不一定，但要从项目现场访问，网页或云服务通常更实用，前提是在信号弱的现场有离线模式。" },
   { type: "p", text: "实施需要多长时间？取决于范围。项目成本和基础采购模块可以先在新项目上上线，团队熟悉后再推出高级模块。" },
   { type: "p", text: "哪些人应该参与？项目经理、现场施工员、采购、财务和管理层。只由财务部门设计的系统，往往在现场用不起来。" },
+  { type: "p", text: "从既是开发商又是单元卖方的角度，请参阅[房地产开发商的 ERP](/blog/erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek)。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "建筑业 ERP 不只是贴上项目标签的会计软件。它的价值在于能够并排查看预算、承诺、实际成本和进度，让决策在项目仍可补救时作出。凭借严谨的成本结构、清晰的分包和结算流程以及便捷的现场记录，承包商可以减少成本意外并改善现金流。先在新项目上启用成本和采购模块，从结果中学习，再逐步扩展。" },
   {

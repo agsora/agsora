@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_erp_untuk_developer_properti_unit_pembayaran_pembeli_dan_biaya_proyek } from "./erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek";
+import { body as b_kualitas_data_dan_tata_kelola_data_untuk_bisnis_menengah } from "./kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah";
+import { body as b_computer_vision_untuk_bisnis_inspeksi_penghitungan_dan_keselamatan_kerja } from "./computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja";
+import { body as b_sistem_koperasi_simpan_pinjam_digital_simpanan_pinjaman_dan_shu } from "./sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu";
+import { body as b_dokumentasi_teknis_dan_serah_terima_proyek_software } from "./dokumentasi-teknis-dan-serah-terima-proyek-software";
 import { body as b_uji_penetrasi_dan_audit_keamanan_aplikasi_bisnis } from "./uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis";
 import { body as b_rekonsiliasi_bank_otomatis_dengan_erp } from "./rekonsiliasi-bank-otomatis-dengan-erp";
 import { body as b_penggajian_payroll_pph_21_dan_bpjs_dengan_hris } from "./penggajian-payroll-pph-21-dan-bpjs-dengan-hris";
@@ -433,4 +438,9 @@ export const bodies: Record<string, Block[]> = {
   "penggajian-payroll-pph-21-dan-bpjs-dengan-hris": b_penggajian_payroll_pph_21_dan_bpjs_dengan_hris,
   "arsitektur-event-driven-dan-antrean-pesan-untuk-aplikasi-bisnis": b_arsitektur_event_driven_dan_antrean_pesan_untuk_aplikasi_bisnis,
   "vendor-lock-in-di-cloud-dan-software-bisnis-strategi-keluar": b_vendor_lock_in_di_cloud_dan_software_bisnis_strategi_keluar,
+  "erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek": b_erp_untuk_developer_properti_unit_pembayaran_pembeli_dan_biaya_proyek,
+  "kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah": b_kualitas_data_dan_tata_kelola_data_untuk_bisnis_menengah,
+  "computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja": b_computer_vision_untuk_bisnis_inspeksi_penghitungan_dan_keselamatan_kerja,
+  "sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu": b_sistem_koperasi_simpan_pinjam_digital_simpanan_pinjaman_dan_shu,
+  "dokumentasi-teknis-dan-serah-terima-proyek-software": b_dokumentasi_teknis_dan_serah_terima_proyek_software,
 };

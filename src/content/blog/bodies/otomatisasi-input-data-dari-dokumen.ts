@@ -161,6 +161,7 @@ export const body: Block[] = [
     type: "p",
     text: "Untuk volume dokumen asing yang masih kecil, sering kali lebih realistis memperlakukannya sebagai pengecualian yang ditinjau manual sejak awal, dibanding memaksakan sistem mengenali seluruh variasi format yang mungkin muncul dari berbagai negara. Perluas cakupan otomatisasi ke dokumen asing hanya setelah volumenya benar-benar cukup besar untuk membenarkan usaha konfigurasi tambahan tersebut.",
   },
+  { type: "p", text: "Pembacaan teks dari gambar adalah salah satu kemampuan [computer vision untuk bisnis](/blog/computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

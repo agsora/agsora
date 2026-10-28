@@ -92,6 +92,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah aplikasi yang lambat selalu karena utang teknis? Tidak selalu. Kadang penyebabnya adalah beban data yang tumbuh atau infrastruktur yang kurang. Diagnosisnya dibahas di artikel [performa database dan aplikasi yang melambat](/blog/performa-database-dan-aplikasi-bisnis-yang-melambat)." },
   { type: "p", text: "Apakah utang teknis bisa nol? Secara praktis tidak, dan itu bukan tujuannya. Tujuannya adalah menjaga utang pada tingkat yang disadari dan terkendali, sehingga bunganya tidak menghambat bisnis." },
   { type: "p", text: "Flag yang tidak dihapus menjadi utang teknis; bahasannya ada di [feature flag dan rilis bertahap](/blog/feature-flag-dan-rilis-bertahap-untuk-aplikasi-bisnis)." },
+  { type: "p", text: "Dokumentasi yang kurang adalah salah satu bentuk utang; lihat [dokumentasi teknis dan serah terima proyek software](/blog/dokumentasi-teknis-dan-serah-terima-proyek-software)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Utang teknis adalah bagian wajar dari pengembangan perangkat lunak, sama seperti utang adalah bagian wajar dari pembiayaan bisnis. Masalahnya muncul ketika utang tidak terlihat, tidak diukur, dan tidak pernah dicicil. Dengan indikator yang dipahami bersama, prioritas berdasarkan frekuensi perubahan dan dampak, cicilan rutin di setiap siklus kerja, serta percakapan dalam bahasa bisnis, perusahaan dapat menjaga aplikasinya tetap cepat dikembangkan dan aman dijalankan selama bertahun-tahun." },
   {

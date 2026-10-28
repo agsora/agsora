@@ -139,6 +139,7 @@ export const body: Block[] = [
     type: "p",
     text: "Wawasan semacam ini hanya bisa didapat jika data pembayaran tercatat rapi dan konsisten sejak awal, sekali lagi menegaskan pentingnya integrasi yang baik antara sistem kasir dan penyedia layanan pembayaran, bukan sekadar mencatat manual sebagai catatan terpisah yang sulit dianalisis lebih lanjut di kemudian hari.",
   },
+  { type: "p", text: "Pembayaran QRIS juga dipakai untuk setoran dan angsuran, lihat [sistem koperasi simpan pinjam digital](/blog/sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
