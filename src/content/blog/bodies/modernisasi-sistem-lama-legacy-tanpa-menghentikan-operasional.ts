@@ -90,6 +90,7 @@ export const body: Block[] = [
       "Tidak menyiapkan rencana kembali ke sistem lama bila peralihan bermasalah",
     ],
   },
+  { type: "p", text: "Pola perubahan data bertahap dibahas di [migrasi database tanpa downtime](/blog/migrasi-database-tanpa-downtime-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Modernisasi sistem lama tidak harus berupa proyek besar yang mempertaruhkan operasional. Dengan memahami sistem secara menyeluruh, mengunci perilakunya dengan pengujian, memindahkan fungsi sepotong demi sepotong, dan memperlakukan data dengan serius, bisnis dapat beralih ke fondasi modern sambil tetap melayani pelanggan setiap hari." },
   { type: "p", text: "Kuncinya adalah disiplin: tujuan yang jelas untuk setiap tahap, ukuran keberhasilan yang konkret, dan komitmen untuk benar-benar mematikan bagian lama setelah penggantinya stabil. Hasilnya bukan hanya sistem yang lebih aman dan cepat, tetapi juga kemampuan bisnis untuk berubah lebih lincah di masa depan." },

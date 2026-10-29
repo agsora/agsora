@@ -140,6 +140,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Pengelolaan kata sandi dan kunci API dibahas lebih rinci di [manajemen secret dan kunci API](/blog/manajemen-secret-dan-kunci-api-di-aplikasi-bisnis)." },
   { type: "p", text: "Setelah dasar-dasar terpasang, ukur ketahanannya lewat [uji penetrasi dan audit keamanan](/blog/uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis)." },
+  { type: "p", text: "Lapisan perlindungan terhadap lalu lintas otomatis dibahas di [perlindungan bot, scraping, dan serangan otomatis](/blog/perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

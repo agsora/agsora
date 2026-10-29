@@ -102,6 +102,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah model kecil cukup untuk chatbot layanan pelanggan? Sering kali ya untuk pertanyaan sederhana, dengan model yang lebih besar sebagai cadangan untuk kasus rumit. Buktikan dengan set uji, bukan dengan asumsi." },
   { type: "p", text: "Apakah mengompres atau memotong dokumen merusak akurasi? Bisa, bila bagian penting ikut terpotong. Karena itu, ukur akurasi sebelum dan sesudah, dan pangkas berdasarkan relevansi, bukan sekadar panjang." },
   { type: "p", text: "Bagaimana dengan biaya data pribadi yang dikirim ke penyedia? Itu bukan hanya soal biaya. Tinjau kebijakan penyimpanan data penyedia dan minimalkan data pribadi yang dikirim, sesuai prinsip pelindungan data." },
+  { type: "p", text: "Pilihan pendekatan memengaruhi biaya; lihat [prompt, RAG, atau fine-tuning](/blog/prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Biaya AI dapat dikendalikan bila diperlakukan sebagai metrik produk, bukan kejutan akuntansi. Petakan sumber biaya, perkirakan dengan data nyata, terapkan penghematan yang terukur seperti pemilihan model, pemangkasan konteks, cache, dan batch, lalu pasang pemantauan, anggaran, dan batas laju sejak hari pertama. Selalu timbang penghematan terhadap kualitas. Dengan cara itu, AI tetap menjadi investasi yang nilainya jelas, bukan tagihan yang tumbuh diam-diam." },
   {

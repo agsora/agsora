@@ -144,6 +144,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Untuk produk yang dititipkan di toko mitra, lihat pencatatan stok dan rekonsiliasinya di [manajemen konsinyasi dengan ERP](/blog/manajemen-konsinyasi-dan-titip-jual-dengan-erp)." },
   { type: "p", text: "Contoh penerapan di bisnis dengan ledakan varian ada di [ERP untuk bisnis fashion dan apparel](/blog/erp-untuk-bisnis-fashion-dan-apparel-varian-musiman-dan-stok)." },
+  { type: "p", text: "Contoh stok dengan banyak satuan dan banyak lokasi ada di [ERP untuk toko bangunan dan distributor material](/blog/erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

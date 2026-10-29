@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek",
+    title: "ERP untuk Toko Bangunan dan Distributor Material: Satuan Ukur, Harga Bertingkat, dan Kredit Proyek",
+    excerpt: "Cara ERP disesuaikan untuk toko bangunan dan distributor material: konversi satuan, harga bertingkat, kredit kontraktor, pengiriman barang berat, lot, multi-cabang, dan roadmap bertahap.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    tags: ["erp","industri","inventori"],
+    titleTranslations: {
+      en: "ERP for Building Supply Stores and Material Distributors: Units of Measure, Tiered Pricing, and Project Credit",
+      zh: "建材店与建材经销商的 ERP：计量单位、阶梯定价与项目赊销",
+    },
+    excerptTranslations: {
+      en: "How an ERP is adapted for building supply stores and material distributors: unit conversion, tiered pricing, contractor credit, heavy-goods delivery, lots, multi-branch, and a staged roadmap.",
+      zh: "ERP 如何适配建材店与建材经销商：单位换算、阶梯定价、承包商赊销、重货配送、批次、多分店以及分阶段路线图。",
+    },
+  },
+  {
+    slug: "perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis",
+    title: "Perlindungan Bot, Scraping, dan Serangan Otomatis pada Website Bisnis: Rate Limit, WAF, dan Tantangan Manusia",
+    excerpt: "Jenis bot dan risikonya, memulai dari pemantauan, lapisan perlindungan (rate limit, WAF, reputasi IP, tantangan manusia), titik yang dilindungi lebih dulu, dan rencana 30 hari.",
+    category: "Teknologi",
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    tags: ["keamanan","website","operasional"],
+    titleTranslations: {
+      en: "Bot, Scraping, and Automated Attack Protection for Business Websites: Rate Limits, WAF, and Human Challenges",
+      zh: "企业网站的机器人、抓取与自动化攻击防护：速率限制、WAF 与人机验证",
+    },
+    excerptTranslations: {
+      en: "Bot types and their risks, starting from monitoring, protection layers (rate limiting, WAF, IP reputation, human challenges), which points to protect first, and a 30-day plan.",
+      zh: "机器人类型及风险、从监控入手、防护分层（速率限制、WAF、IP 信誉、人机验证）、优先保护的环节以及 30 天计划。",
+    },
+  },
+  {
+    slug: "migrasi-database-tanpa-downtime-untuk-aplikasi-bisnis",
+    title: "Migrasi Database Tanpa Downtime untuk Aplikasi Bisnis: Pola Perluas-Migrasikan-Kecilkan, Backfill, dan Rencana Pembatalan",
+    excerpt: "Cara mengubah struktur database aplikasi bisnis dengan risiko minimal: pola bertahap, backfill data besar, cadangan dan rollback, pengujian, serta kapan jendela pemeliharaan lebih baik.",
+    category: "Teknologi",
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    tags: ["infrastruktur","operasional","custom-software"],
+    titleTranslations: {
+      en: "Zero-Downtime Database Migration for Business Applications: Expand-Migrate-Contract, Backfills, and Rollback Plans",
+      zh: "业务应用的零停机数据库迁移：扩展—迁移—收缩模式、回填与回滚计划",
+    },
+    excerptTranslations: {
+      en: "How to change a business application's database structure with minimal risk: gradual patterns, backfilling large data, backups and rollback, testing, and when a maintenance window is better.",
+      zh: "如何以最小风险修改业务应用的数据库结构：渐进模式、大数据回填、备份与回滚、测试，以及何时维护窗口更合适。",
+    },
+  },
+  {
+    slug: "sistem-manajemen-event-dan-tiket-online-pendaftaran-pembayaran-dan-validasi",
+    title: "Sistem Manajemen Event dan Tiket Online: Pendaftaran, Pembayaran, dan Validasi di Pintu Masuk",
+    excerpt: "Komponen sistem tiket acara: halaman acara, jenis tiket, pembayaran, tiket digital, validasi luring di pintu masuk, penanganan lonjakan penjualan, pengembalian dana, dan analisis pascaacara.",
+    category: "Panduan Industri",
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    tags: ["website","integrasi","industri"],
+    titleTranslations: {
+      en: "Event Management and Online Ticketing Systems: Registration, Payment, and Entrance Validation",
+      zh: "活动管理与在线票务系统：报名、支付与入口验证",
+    },
+    excerptTranslations: {
+      en: "Components of an event ticketing system: event page, ticket types, payment, digital tickets, offline entrance validation, handling sales spikes, refunds, and post-event analysis.",
+      zh: "活动票务系统的组成：活动页面、票种、支付、电子票、离线入口验证、应对销售高峰、退款以及活动后分析。",
+    },
+  },
+  {
+    slug: "prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis",
+    title: "Prompt, RAG, atau Fine-Tuning: Memilih Cara Menyesuaikan AI untuk Kebutuhan Bisnis Anda",
+    excerpt: "Perbedaan prompt engineering, RAG, dan fine-tuning, kapan masing-masing tepat, cara menggabungkannya, pohon keputusan sederhana, dan pentingnya set uji sebelum memutuskan.",
+    category: "Teknologi",
+    publishedAt: "2026-10-29",
+    updatedAt: "2026-10-29",
+    tags: ["ai","otomasi","biaya"],
+    titleTranslations: {
+      en: "Prompt, RAG, or Fine-Tuning: Choosing How to Adapt AI to Your Business Needs",
+      zh: "提示词、RAG 还是微调：选择让 AI 适配您业务需求的方式",
+    },
+    excerptTranslations: {
+      en: "The differences between prompt engineering, RAG, and fine-tuning, when each fits, how to combine them, a simple decision tree, and why a test set matters before deciding.",
+      zh: "提示词工程、RAG 与微调的区别、各自适用的时机、如何组合、简单的决策树，以及决策前测试集的重要性。",
+    },
+  },
+  {
     slug: "erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek",
     title: "ERP untuk Developer Properti: Inventori Unit, Skema Pembayaran Pembeli, dan Biaya Proyek dalam Satu Sistem",
     excerpt: "Cara ERP disesuaikan untuk developer properti: inventori unit dan status, jadwal pembayaran pembeli, KPR, biaya pembangunan per tahap, komisi, serah terima, dan penerapan bertahap.",
@@ -249,7 +334,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan uji beban untuk bisnis: jenis uji, menetapkan target dari data, skenario realistis, metrik persentil, perbaikan leher botol, dan rencana hari puncak.",
     category: "Teknologi",
     publishedAt: "2026-10-26",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-10-29",
     tags: ["infrastruktur","website","operasional"],
     titleTranslations: {
       en: "Load Testing: Stress-Testing Your Online Store and Apps Before Big Promos and Peak Season",
@@ -283,7 +368,7 @@ export const meta: PostMeta[] = [
     excerpt: "Sumber biaya AI, cara memperkirakannya sebelum membangun, teknik penghematan tanpa menurunkan kualitas, pemantauan anggaran di produksi, dan kesalahan yang sering terjadi.",
     category: "Teknologi",
     publishedAt: "2026-10-25",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-29",
     tags: ["ai","biaya","operasional"],
     titleTranslations: {
       en: "Controlling AI Costs: Tokens, Inference, and Budgets for Chatbots and Agents in Business Apps",
@@ -521,7 +606,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perbedaan LLM yang dijalankan sendiri dan API cloud, privasi data, perhitungan biaya yang jujur, risiko yang sering terlewat, dan pola campuran berdasarkan sensitivitas data.",
     category: "Teknologi",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-29",
     tags: ["ai","keamanan","infrastruktur"],
     titleTranslations: {
       en: "Self-Hosted LLM or Cloud API: Choosing a Secure AI Model for Business Data",
@@ -691,7 +776,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara ERP membantu kontraktor mengendalikan anggaran dan biaya proyek, mengelola subkontraktor dan retensi, menagih berdasarkan progres, serta menerapkannya bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-10-29",
     tags: ["erp","operasional","industri"],
     titleTranslations: {
       en: "ERP for Contractors and Construction Companies: Project Costing, Subcontractors, and Progress Billing",
@@ -980,7 +1065,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tanda sistem lama perlu diganti, pilihan strategi modernisasi, pendekatan bertahap strangler fig, penanganan data, perkiraan biaya, dan kesalahan yang perlu dihindari.",
     category: "Teknologi",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-18",
+    updatedAt: "2026-10-29",
     tags: ["custom-software","migrasi-data","integrasi"],
     titleTranslations: {
       en: "Legacy System Modernisation Without Downtime: A Gradual Strategy",
@@ -1031,7 +1116,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja RAG, kasus penggunaan untuk bisnis, tahapan membangun asisten AI dari dokumen sendiri, keamanan data, serta cara mengukur mutu jawaban.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-29",
     tags: ["ai","data","otomasi"],
     titleTranslations: {
       en: "Chatbot AI Powered by Company Knowledge with RAG: Accurate Answers from Your Documents",
@@ -1252,7 +1337,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengapa sistem melambat seiring waktu, cara mengukur sebelum memperbaiki, peran indeks dan cache, pengelolaan data lama, serta kapan perlu menambah server.",
     category: "Teknologi",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-29",
     tags: ["infrastruktur","data","operasional"],
     titleTranslations: {
       en: "Slowing Database and Business App Performance: Causes and How to Fix Them",
@@ -1745,7 +1830,7 @@ export const meta: PostMeta[] = [
     excerpt: "Jenis penipuan yang lazim di toko online, sinyal pesanan yang patut diperiksa, aturan tinjauan yang konsisten, pengamanan akun pelanggan dan staf, penyalahgunaan retur, penanganan sengketa pembayaran, dan perlindungan pelanggan dari penipuan atas nama toko.",
     category: "Website & Digital",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-10-29",
     tags: ["ecommerce","keamanan","pembayaran","pelanggan"],
     titleTranslations: {
       en: "Fraud Prevention and Payment Security for Online Stores: Protecting Sales Without Driving Away Honest Buyers",
@@ -1983,7 +2068,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis jasa menjual waktu. Cara merancang aturan ketersediaan, alur pemesanan singkat, uang muka dan kebijakan pembatalan, pengingat, daftar tunggu, riwayat pelanggan, serta hubungan dengan kasir dan kalender.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-10-29",
     tags: ["website","mobile","pelanggan","otomasi","pembayaran"],
     titleTranslations: {
       en: "Online Booking and Reservation Systems for Service Businesses: A Fuller Schedule, More Certain Customers",
@@ -2272,7 +2357,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menerima pembayaran online bukan sekadar memasang tombol bayar. Cara memilih payment gateway, metode pembayaran, alur status transaksi, rekonsiliasi, hingga keamanan dan penanganan refund.",
     category: "Teknologi",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-29",
     tags: ["pembayaran","ecommerce","integrasi"],
     titleTranslations: {
       en: "Payment Gateway Integration for Websites and Apps: A Guide for Business Owners",
@@ -2854,6 +2939,7 @@ export const meta: PostMeta[] = [
     excerpt: "Migrasi data adalah bagian yang paling sering diremehkan dan paling sering menunda peluncuran. Ini cara menyiapkannya.",
     category: "Teknologi",
     publishedAt: "2026-08-11",
+    updatedAt: "2026-10-29",
     tags: [
       "migrasi-data",
       "data",
@@ -3087,7 +3173,7 @@ export const meta: PostMeta[] = [
     excerpt: "Backup baru terasa penting saat data sudah hilang. Strategi yang baik bukan sekadar menyalin data, tapi memastikan data itu benar-benar bisa dipulihkan.",
     category: "Teknologi",
     publishedAt: "2026-08-07",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-10-29",
     tags: [
       "infrastruktur",
       "keamanan",
@@ -3100,7 +3186,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-29",
     tags: [
       "seo",
       "website"
@@ -3228,7 +3314,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis distribusi bergerak di antara gudang, armada, sales lapangan, dan tagihan pelanggan. Sistemnya harus menyatukan semua titik itu, bukan hanya mencatat stok.",
     category: "Panduan Industri",
     publishedAt: "2026-07-16",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-10-29",
     tags: [
       "industri",
       "inventori",
@@ -3377,7 +3463,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menjual di toko fisik dan beberapa marketplace sekaligus membuka pasar baru, sekaligus risiko menjual barang yang sebenarnya sudah habis.",
     category: "POS & Retail",
     publishedAt: "2026-06-22",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-10-29",
     tags: [
       "pos",
       "ecommerce",
@@ -3504,7 +3590,7 @@ export const meta: PostMeta[] = [
     excerpt: "Keamanan aplikasi bukan fitur tambahan yang bisa dipasang belakangan. Beberapa hal dasar ini seharusnya ada sejak aplikasi pertama kali dibangun.",
     category: "Teknologi",
     publishedAt: "2026-06-02",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-10-29",
     tags: [
       "keamanan",
       "custom-software",

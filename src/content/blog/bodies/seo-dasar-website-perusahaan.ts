@@ -150,6 +150,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Setelah dasar-dasar SEO terpenuhi, perbaiki pengalaman halaman dengan panduan [Core Web Vitals](/blog/core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis)." },
   { type: "p", text: "Bila website punya beberapa bahasa, lanjutkan ke [SEO internasional](/blog/seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten)." },
+  { type: "p", text: "Halaman acara adalah contoh halaman yang perlu SEO baik; lihat [sistem manajemen event dan tiket online](/blog/sistem-manajemen-event-dan-tiket-online-pendaftaran-pembayaran-dan-validasi)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",

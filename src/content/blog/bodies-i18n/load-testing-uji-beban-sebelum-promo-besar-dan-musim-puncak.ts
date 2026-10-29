@@ -124,6 +124,7 @@ const en: Block[] = [
   { type: "h3", text: "Does using a cloud service mean I do not need load testing?" },
   { type: "p", text: "No. Autoscaling helps but does not fix slow queries, database connection limits, third-party rate limits, or code that cannot run in parallel. Load testing shows whether scaling really works." },
   { type: "p", text: "To smooth out load spikes, learn about [event-driven architecture and message queues](/blog/arsitektur-event-driven-dan-antrean-pesan-untuk-aplikasi-bisnis)." },
+  { type: "p", text: "Traffic spikes can come from bots; see [bot, scraping, and automated attack protection](/blog/perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Load testing turns uncertainty into numbers: how many users can be served, where the system first gives up, and what needs fixing. With targets from real data, scenarios resembling customer behavior, measurement at high percentiles, and enough time to fix and repeat, peak day changes from a gamble into a rehearsed event. The investment is small compared with the sales it saves." },
   {
@@ -259,6 +260,7 @@ const zh: Block[] = [
   { type: "h3", text: "使用云服务是不是就不需要负载测试？" },
   { type: "p", text: "不是。自动扩缩容有帮助，但解决不了慢查询、数据库连接上限、第三方速率限制或无法并行运行的代码。负载测试恰恰能显示扩缩容是否真正有效。" },
   { type: "p", text: "要平滑负载峰值，请了解[事件驱动架构与消息队列](/blog/arsitektur-event-driven-dan-antrean-pesan-untuk-aplikasi-bisnis)。" },
+  { type: "p", text: "流量高峰可能来自机器人；请参阅[机器人、抓取与自动化攻击防护](/blog/perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis)。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "负载测试把不确定性变成数字：能服务多少用户，系统最先在哪里投降，哪些需要修复。有了来自真实数据的目标、与顾客行为相似的场景、高百分位的测量，以及足够的修复和重复时间，高峰日就从一场赌博变成一场排练过的事件。与它挽救的销售额相比，这项投入很小。" },
   {

@@ -102,6 +102,7 @@ const en: Block[] = [
   { type: "p", text: "Is a small model enough for a customer service chatbot? Often yes for simple questions, with a larger model as a backup for complex cases. Prove it with a test set, not with assumptions." },
   { type: "p", text: "Does compressing or trimming documents harm accuracy? It can, if important parts get cut. So measure accuracy before and after, and trim by relevance, not merely by length." },
   { type: "p", text: "What about the cost of personal data sent to providers? That is not only a cost matter. Review the provider's data retention policy and minimize personal data sent, in line with data protection principles." },
+  { type: "p", text: "The choice of approach affects cost; see [prompt, RAG, or fine-tuning](/blog/prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "AI cost can be controlled when treated as a product metric rather than an accounting surprise. Map the cost sources, estimate with real data, apply measurable savings such as model selection, context trimming, caching, and batching, then install monitoring, budgets, and rate limits from day one. Always weigh savings against quality. That way AI remains an investment with clear value, not a bill that grows quietly." },
   {
@@ -215,6 +216,7 @@ const zh: Block[] = [
   { type: "p", text: "小模型足以支撑客服聊天机器人吗？简单问题往往可以，复杂情况用更大的模型作为后备。请用测试集证明，而不是靠假设。" },
   { type: "p", text: "压缩或截取文档会损害准确度吗？如果重要部分被截掉就会。因此要在前后衡量准确度，并按相关性而不是单纯按长度进行削减。" },
   { type: "p", text: "发送给供应商的个人数据成本如何？这不仅是成本问题。请审查供应商的数据保留政策，并按照数据保护原则尽量减少发送的个人数据。" },
+  { type: "p", text: "方法的选择会影响成本；请参阅[提示词、RAG 还是微调](/blog/prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis)。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "把 AI 成本当作产品指标而不是会计意外，成本就能被控制。梳理成本来源，用真实数据估算，实施可衡量的节省措施，如模型选择、上下文削减、缓存和批处理，并从第一天起设置监控、预算和速率限制。始终把节省与质量对照权衡。这样，AI 仍是价值清晰的投资，而不是悄悄增长的账单。" },
   {

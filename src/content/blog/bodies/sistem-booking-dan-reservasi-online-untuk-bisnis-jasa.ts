@@ -115,6 +115,7 @@ export const body: Block[] = [
     "Tulis kebijakan pembatalan dan uang muka dalam bahasa sederhana",
     "Satukan semua pesanan ke satu kalender, walau awalnya kalender bersama biasa",
   ] },
+  { type: "p", text: "Untuk pendaftaran dengan kuota dan validasi di lokasi, lihat [sistem manajemen event dan tiket online](/blog/sistem-manajemen-event-dan-tiket-online-pendaftaran-pembayaran-dan-validasi)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Sistem booking online yang baik menjual waktu Anda dengan lebih efisien. Pelanggan memesan kapan saja tanpa menunggu balasan, jadwal terisi lebih rapat, ketidakhadiran berkurang, dan petugas bisa memusatkan perhatian pada pelanggan di depannya. Di baliknya ada aturan ketersediaan yang jujur, satu kalender bersama, pengingat yang tepat waktu, dan hubungan dengan kasir serta data pelanggan." },
   { type: "p", text: "Mulailah dari memahami apa yang sebenarnya dipesan pelanggan Anda dan aturan apa yang mengatur ketersediaannya. Setelah itu jelas, memilih atau membangun alatnya menjadi jauh lebih mudah, dan hasilnya langsung terlihat pada jadwal yang lebih penuh." },

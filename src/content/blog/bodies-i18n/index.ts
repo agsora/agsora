@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_erp_untuk_toko_bangunan_dan_distributor_material_satuan_harga_bertingkat_dan_kredit_proyek } from "./erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek";
+import { translations as t_perlindungan_bot_scraping_dan_serangan_otomatis_pada_website_bisnis } from "./perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis";
+import { translations as t_migrasi_database_tanpa_downtime_untuk_aplikasi_bisnis } from "./migrasi-database-tanpa-downtime-untuk-aplikasi-bisnis";
+import { translations as t_sistem_manajemen_event_dan_tiket_online_pendaftaran_pembayaran_dan_validasi } from "./sistem-manajemen-event-dan-tiket-online-pendaftaran-pembayaran-dan-validasi";
+import { translations as t_prompt_rag_atau_fine_tuning_memilih_cara_menyesuaikan_ai_untuk_bisnis } from "./prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis";
 import { translations as t_erp_untuk_developer_properti_unit_pembayaran_pembeli_dan_biaya_proyek } from "./erp-untuk-developer-properti-unit-pembayaran-pembeli-dan-biaya-proyek";
 import { translations as t_kualitas_data_dan_tata_kelola_data_untuk_bisnis_menengah } from "./kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah";
 import { translations as t_computer_vision_untuk_bisnis_inspeksi_penghitungan_dan_keselamatan_kerja } from "./computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja";
@@ -329,4 +334,9 @@ export const bodiesI18n: Record<string, BodyTranslations> = {
   "computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja": t_computer_vision_untuk_bisnis_inspeksi_penghitungan_dan_keselamatan_kerja,
   "sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu": t_sistem_koperasi_simpan_pinjam_digital_simpanan_pinjaman_dan_shu,
   "dokumentasi-teknis-dan-serah-terima-proyek-software": t_dokumentasi_teknis_dan_serah_terima_proyek_software,
+  "erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek": t_erp_untuk_toko_bangunan_dan_distributor_material_satuan_harga_bertingkat_dan_kredit_proyek,
+  "perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis": t_perlindungan_bot_scraping_dan_serangan_otomatis_pada_website_bisnis,
+  "migrasi-database-tanpa-downtime-untuk-aplikasi-bisnis": t_migrasi_database_tanpa_downtime_untuk_aplikasi_bisnis,
+  "sistem-manajemen-event-dan-tiket-online-pendaftaran-pembayaran-dan-validasi": t_sistem_manajemen_event_dan_tiket_online_pendaftaran_pembayaran_dan_validasi,
+  "prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis": t_prompt_rag_atau_fine_tuning_memilih_cara_menyesuaikan_ai_untuk_bisnis,
 };

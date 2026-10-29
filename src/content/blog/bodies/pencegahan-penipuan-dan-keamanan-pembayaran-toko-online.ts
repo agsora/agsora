@@ -100,6 +100,7 @@ export const body: Block[] = [
     "Susun daftar bukti standar yang selalu disimpan untuk setiap pesanan",
     "Periksa nama yang tampil di tagihan kartu dan kanal resmi toko yang Anda umumkan",
   ] },
+  { type: "p", text: "Bot juga dipakai untuk pengujian kartu; lihat [perlindungan bot, scraping, dan serangan otomatis](/blog/perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis)." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Penipuan tidak bisa dihapus sepenuhnya, tetapi dampaknya bisa dikendalikan. Kombinasi pembayaran yang ditangani penyedia terpercaya, aturan tinjauan yang konsisten, akun yang terlindungi, dan bukti yang tersimpan rapi membuat toko Anda jauh lebih sulit menjadi sasaran empuk." },
   { type: "p", text: "Ingat bahwa tujuannya adalah menjaga penjualan yang sah sekaligus menutup celah penyalahgunaan. Keamanan yang baik terasa nyaris tak terlihat oleh pembeli jujur, dan baru terasa oleh mereka yang berniat curang." },

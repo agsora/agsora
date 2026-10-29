@@ -192,6 +192,7 @@ export const body: Block[] = [
     ],
   },
   { type: "p", text: "Bila migrasi data merupakan bagian dari penggantian sistem lama yang masih dipakai setiap hari, pendekatan bertahap dapat mengurangi risiko. Strateginya kami bahas dalam artikel [modernisasi sistem lama tanpa menghentikan operasional](/blog/modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional)." },
+  { type: "p", text: "Untuk mengubah struktur database yang sedang berjalan, baca [migrasi database tanpa downtime](/blog/migrasi-database-tanpa-downtime-untuk-aplikasi-bisnis)." },
   { type: "h2", text: "Penutup" },
   {
     type: "p",
