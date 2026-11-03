@@ -163,6 +163,7 @@ export const body: Block[] = [
     type: "p",
     text: "Teknologi web telah berkembang jauh, dan PWA adalah salah satu hasilnya yang paling praktis untuk bisnis. Bagi banyak kebutuhan, katalog, pemesanan, portal pelanggan, dan aplikasi tim lapangan, PWA menawarkan pengalaman seperti aplikasi dengan biaya dan kerumitan yang lebih rendah. Mulailah dari cara pengguna Anda benar-benar berinteraksi dengan layanan, periksa fitur yang dibutuhkan, lalu pilih pendekatan yang paling sesuai. Keputusan yang didasarkan pada kebutuhan nyata hampir selalu lebih baik daripada keputusan yang didasarkan pada tren.",
   },
+  { type: "p", text: "Untuk pembahasan lebih dalam tentang service worker, mode offline, notifikasi, dan perbandingan dengan aplikasi native, baca [panduan PWA untuk bisnis lanjutan](/blog/progressive-web-app-pwa-untuk-bisnis-instalasi-offline-dan-notifikasi)." },
   {
     type: "cta",
     title: "Ingin aplikasi untuk pelanggan atau tim, tapi ragu soal pendekatannya?",

@@ -163,6 +163,7 @@ const en: Block[] = [
     type: "p",
     text: "Web technology has come a long way, and the PWA is one of its most practical results for business. For many needs, catalogues, ordering, customer portals, and field team apps, a PWA offers an app like experience at lower cost and complexity. Start with how your users actually interact with your service, check the features you need, then choose the approach that fits best. Decisions based on real needs are almost always better than decisions based on trends.",
   },
+  { type: "p", text: "For a deeper look at service workers, offline mode, notifications, and the comparison with native apps, read the [advanced PWA guide for business](/blog/progressive-web-app-pwa-untuk-bisnis-instalasi-offline-dan-notifikasi)." },
   {
     type: "cta",
     title: "Want an app for customers or your team, but unsure of the approach?",
@@ -335,6 +336,7 @@ const zh: Block[] = [
     type: "p",
     text: "网页技术已经取得了长足的进步,而 PWA 是其中对企业最实用的成果之一。对于许多需求，产品目录、在线订购、客户门户以及外勤团队应用，PWA 能以更低的成本和复杂度提供类似应用的体验。从用户与服务的真实互动方式出发,核实所需的功能,再选择最合适的方案。基于真实需求的决策,几乎总是优于基于潮流的决策。",
   },
+  { type: "p", text: "关于 Service Worker、离线模式、通知以及与原生应用的比较，请阅读[企业 PWA 进阶指南](/blog/progressive-web-app-pwa-untuk-bisnis-instalasi-offline-dan-notifikasi)。" },
   {
     type: "cta",
     title: "想为客户或团队打造应用,却拿不准方案?",

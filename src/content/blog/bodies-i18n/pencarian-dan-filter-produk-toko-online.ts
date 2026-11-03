@@ -120,6 +120,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Search and filters are your shop assistants in the digital world. When both work well, shoppers feel understood: they type in their own language, get an answer that makes sense, and find the right item within a few taps. When both are poor, even the most complete catalogue feels empty." },
   { type: "p", text: "Start with tidy product data, handle typos and synonyms, provide filters that suit each category, and read the search data regularly. Small, continuous improvements in this area are among the investments most directly felt in an online store's sales." },
+  { type: "p", text: "If your catalog is large and keywords alone are not enough, learn about [semantic search and vector search](/blog/pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Want an online store whose search and filters genuinely help shoppers?",
@@ -249,6 +250,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "搜索和筛选就是你在数字世界里的店员。两者运作良好时，顾客会觉得自己被理解了：用自己的语言输入，得到对得上的回答，点几下就找到合适的商品。两者做得不好时，再齐全的目录也显得空空荡荡。" },
   { type: "p", text: "从整洁的商品数据做起，处理拼写错误和同义词，提供适合各分类的筛选条件，并定期阅读搜索数据。在这一环节持续进行的小改进，是对网店销售影响最直接的投入之一。" },
+  { type: "p", text: "如果目录很大、仅靠关键词不够，请了解[语义搜索与向量搜索](/blog/pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "想要一个搜索和筛选真正帮到顾客的网店吗？",

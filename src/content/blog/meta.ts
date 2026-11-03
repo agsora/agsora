@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "erp-untuk-hotel-dan-penginapan-reservasi-tarif-dan-housekeeping",
+    title: "ERP untuk Hotel dan Penginapan: Reservasi, Tarif Dinamis, Housekeeping, dan Pengendalian Biaya",
+    excerpt: "Cara sistem terintegrasi membantu hotel, homestay, dan vila: manajemen kamar, channel manager, tarif musiman, housekeeping, F&B, laporan okupansi, dan roadmap implementasi bertahap.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    tags: ["erp","industri","operasional"],
+    titleTranslations: {
+      en: "ERP for Hotels and Guesthouses: Reservations, Dynamic Rates, Housekeeping, and Cost Control",
+      zh: "酒店与民宿的 ERP：预订、动态房价、客房清洁与成本控制",
+    },
+    excerptTranslations: {
+      en: "How an integrated system helps hotels, homestays, and villas: room management, channel manager, seasonal rates, housekeeping, F&B, occupancy reports, and a staged implementation roadmap.",
+      zh: "集成系统如何帮助酒店、民宿和别墅：房态管理、渠道管理器、季节性房价、客房清洁、餐饮、入住率报表以及分阶段实施路线图。",
+    },
+  },
+  {
+    slug: "sistem-manajemen-bengkel-otomotif-work-order-suku-cadang-dan-garansi-servis",
+    title: "Sistem Manajemen Bengkel Otomotif: Work Order, Suku Cadang, Garansi Servis, dan Pengingat Pelanggan",
+    excerpt: "Panduan membangun sistem bengkel: penerimaan kendaraan, estimasi biaya, work order, stok suku cadang, upah mekanik, garansi servis, pengingat servis berkala, dan laporan profitabilitas.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    tags: ["erp","industri","inventori"],
+    titleTranslations: {
+      en: "Auto Workshop Management Systems: Work Orders, Spare Parts, Service Warranty, and Customer Reminders",
+      zh: "汽车维修厂管理系统：工单、零配件、维修质保与客户提醒",
+    },
+    excerptTranslations: {
+      en: "A guide to building a workshop system: vehicle intake, cost estimates, work orders, spare parts stock, mechanic labor, service warranty, periodic service reminders, and profitability reports.",
+      zh: "构建维修厂系统指南：车辆接待、费用估算、工单、零配件库存、技师工时、维修质保、定期保养提醒以及盈利能力报表。",
+    },
+  },
+  {
+    slug: "pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis",
+    title: "Pencarian Semantik dan Vector Search untuk Website dan Aplikasi Bisnis: Embedding, Hybrid Search, dan Evaluasi",
+    excerpt: "Cara kerja pencarian semantik dengan embedding dan vector search, kapan lebih baik dari pencarian kata kunci, hybrid search, biaya, privasi data, dan cara mengukur kualitas hasil pencarian.",
+    category: "Teknologi",
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    tags: ["ai","data","website"],
+    titleTranslations: {
+      en: "Semantic Search and Vector Search for Business Websites and Apps: Embeddings, Hybrid Search, and Evaluation",
+      zh: "企业网站与应用的语义搜索与向量搜索：嵌入、混合检索与评估",
+    },
+    excerptTranslations: {
+      en: "How semantic search works with embeddings and vector search, when it beats keyword search, hybrid search, costs, data privacy, and how to measure search quality.",
+      zh: "语义搜索如何借助嵌入和向量搜索工作、何时优于关键词搜索、混合检索、成本、数据隐私以及如何衡量搜索质量。",
+    },
+  },
+  {
+    slug: "caching-dan-cdn-mempercepat-website-dan-aplikasi-bisnis",
+    title: "Caching dan CDN: Cara Mempercepat Website dan Aplikasi Bisnis tanpa Menambah Server",
+    excerpt: "Panduan caching berlapis untuk website dan aplikasi bisnis: cache browser, CDN, cache halaman, cache data, invalidasi, header HTTP, risiko data usang, dan cara mengukur dampaknya.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    tags: ["website","infrastruktur","seo"],
+    titleTranslations: {
+      en: "Caching and CDNs: Speeding Up Business Websites and Apps Without Adding Servers",
+      zh: "缓存与 CDN：无需增加服务器即可加速企业网站和应用",
+    },
+    excerptTranslations: {
+      en: "A layered caching guide for business websites and apps: browser cache, CDN, page cache, data cache, invalidation, HTTP headers, stale-data risks, and how to measure impact.",
+      zh: "企业网站和应用的分层缓存指南：浏览器缓存、CDN、页面缓存、数据缓存、失效策略、HTTP 头、过期数据风险以及如何衡量效果。",
+    },
+  },
+  {
+    slug: "progressive-web-app-pwa-untuk-bisnis-instalasi-offline-dan-notifikasi",
+    title: "Progressive Web App (PWA) untuk Bisnis: Instalasi, Mode Offline, Notifikasi, dan Kapan Cukup Dibanding Aplikasi Native",
+    excerpt: "Panduan PWA untuk bisnis: apa yang bisa dan tidak bisa dilakukan, service worker, mode offline, notifikasi push, instalasi ke layar utama, biaya, keamanan, dan perbandingan dengan aplikasi native.",
+    category: "Teknologi",
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+    tags: ["mobile","website","custom-software"],
+    titleTranslations: {
+      en: "Progressive Web Apps (PWA) for Business: Installation, Offline Mode, Notifications, and When They Beat Native Apps",
+      zh: "企业渐进式 Web 应用（PWA）：安装、离线模式、通知，以及何时优于原生应用",
+    },
+    excerptTranslations: {
+      en: "A PWA guide for businesses: what they can and cannot do, service workers, offline mode, push notifications, home-screen install, costs, security, and comparison with native apps.",
+      zh: "企业 PWA 指南：能做什么与不能做什么、Service Worker、离线模式、推送通知、添加到主屏幕、成本、安全以及与原生应用的比较。",
+    },
+  },
+  {
     slug: "erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek",
     title: "ERP untuk Toko Bangunan dan Distributor Material: Satuan Ukur, Harga Bertingkat, dan Kredit Proyek",
     excerpt: "Cara ERP disesuaikan untuk toko bangunan dan distributor material: konversi satuan, harga bertingkat, kredit kontraktor, pengiriman barang berat, lot, multi-cabang, dan roadmap bertahap.",
@@ -1966,7 +2051,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kotak pencarian adalah sinyal niat beli paling jelas. Cara merapikan data produk, menangani salah ketik dan sinonim, merancang saran otomatis, filter, urutan hasil, halaman tanpa hasil, dan membaca data pencarian.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-11-03",
     tags: ["ecommerce","website","pelanggan","data"],
     titleTranslations: {
       en: "Product Search and Filters in an Online Store: Helping Shoppers Find Items Within Seconds",
@@ -2119,7 +2204,7 @@ export const meta: PostMeta[] = [
     excerpt: "Asisten AI dan ringkasan jawaban mengubah cara orang mencari. Apa yang berubah dan yang tetap, konten yang sulit digantikan, dasar teknis, akses perayap AI, reputasi di luar website, dan cara mengukur yang lebih bermakna.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-11-03",
     tags: ["seo","ai","website","data"],
     titleTranslations: {
       en: "AI Based Search and the Future of SEO: Keeping Your Business Website Found and Trusted",
@@ -2711,7 +2796,7 @@ export const meta: PostMeta[] = [
     excerpt: "PWA bisa dipasang di layar utama, bekerja saat sinyal lemah, dan dibangun sekali untuk semua perangkat. Kapan PWA menjadi pilihan tepat untuk bisnis, dan kapan aplikasi native tetap lebih baik.",
     category: "Teknologi",
     publishedAt: "2026-09-27",
-    updatedAt: "2026-09-27",
+    updatedAt: "2026-11-03",
     tags: [
       "mobile",
       "website",

@@ -118,6 +118,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Pencarian berbasis AI mengubah bentuk jawaban dan jalan yang ditempuh orang menuju sebuah bisnis, tetapi tidak mengubah apa yang dicari orang: jawaban yang benar dari pihak yang bisa dipercaya. Bisnis yang memiliki website yang jelas, konten yang lahir dari pengalaman nyata, data yang rapi, dan reputasi yang konsisten berada pada posisi yang baik dalam bentuk pencarian apa pun." },
   { type: "p", text: "Tidak perlu mengejar setiap istilah baru. Perkuat dasarnya, amati data Anda sendiri, dan sesuaikan langkah seiring keadaan menjadi lebih jelas. Di tengah banyaknya konten yang dibuat serba otomatis, kejelasan dan kejujuran justru menjadi pembeda yang makin langka." },
+  { type: "p", text: "Untuk sisi teknis di balik pencarian cerdas, lihat [pencarian semantik dan vector search](/blog/pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Ingin website yang siap untuk pencarian biasa maupun pencarian berbasis AI?",

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_erp_untuk_hotel_dan_penginapan_reservasi_tarif_dan_housekeeping } from "./erp-untuk-hotel-dan-penginapan-reservasi-tarif-dan-housekeeping";
+import { body as b_sistem_manajemen_bengkel_otomotif_work_order_suku_cadang_dan_garansi_servis } from "./sistem-manajemen-bengkel-otomotif-work-order-suku-cadang-dan-garansi-servis";
+import { body as b_pencarian_semantik_dan_vector_search_untuk_website_dan_aplikasi_bisnis } from "./pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis";
+import { body as b_caching_dan_cdn_mempercepat_website_dan_aplikasi_bisnis } from "./caching-dan-cdn-mempercepat-website-dan-aplikasi-bisnis";
+import { body as b_progressive_web_app_pwa_untuk_bisnis_instalasi_offline_dan_notifikasi } from "./progressive-web-app-pwa-untuk-bisnis-instalasi-offline-dan-notifikasi";
 import { body as b_erp_untuk_toko_bangunan_dan_distributor_material_satuan_harga_bertingkat_dan_kredit_proyek } from "./erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek";
 import { body as b_perlindungan_bot_scraping_dan_serangan_otomatis_pada_website_bisnis } from "./perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis";
 import { body as b_migrasi_database_tanpa_downtime_untuk_aplikasi_bisnis } from "./migrasi-database-tanpa-downtime-untuk-aplikasi-bisnis";
@@ -228,6 +233,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "erp-untuk-hotel-dan-penginapan-reservasi-tarif-dan-housekeeping": b_erp_untuk_hotel_dan_penginapan_reservasi_tarif_dan_housekeeping,
+  "sistem-manajemen-bengkel-otomotif-work-order-suku-cadang-dan-garansi-servis": b_sistem_manajemen_bengkel_otomotif_work_order_suku_cadang_dan_garansi_servis,
+  "pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis": b_pencarian_semantik_dan_vector_search_untuk_website_dan_aplikasi_bisnis,
+  "caching-dan-cdn-mempercepat-website-dan-aplikasi-bisnis": b_caching_dan_cdn_mempercepat_website_dan_aplikasi_bisnis,
+  "progressive-web-app-pwa-untuk-bisnis-instalasi-offline-dan-notifikasi": b_progressive_web_app_pwa_untuk_bisnis_instalasi_offline_dan_notifikasi,
   "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": b_chatbot_ai_berbasis_pengetahuan_perusahaan_dengan_rag,
   "first-party-data-dan-pelacakan-tanpa-cookie-pihak-ketiga": b_first_party_data_dan_pelacakan_tanpa_cookie_pihak_ketiga,
   "hpp-dan-akuntansi-biaya-produk-di-erp": b_hpp_dan_akuntansi_biaya_produk_di_erp,
