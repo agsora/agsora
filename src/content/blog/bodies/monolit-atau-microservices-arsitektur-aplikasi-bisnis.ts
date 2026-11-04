@@ -64,6 +64,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Monolit dan microservices bukan soal kuno melawan modern, melainkan soal kecocokan. Untuk sebagian besar bisnis kecil dan menengah, memulai dengan monolit modular yang rapi memberi kecepatan, biaya rendah, dan fleksibilitas untuk berkembang. Microservices layak dipertimbangkan ketika skala organisasi dan kebutuhan teknis benar-benar menuntutnya, dan ketika kemampuan operasional sudah siap." },
   { type: "p", text: "Fokuslah pada hal yang paling menentukan: batas modul yang jelas, pengujian otomatis, penerapan yang andal, dan pemantauan yang baik. Dengan fondasi ini, Anda dapat mengubah arsitektur kapan pun diperlukan, tanpa harus mempertaruhkan bisnis pada keputusan yang dibuat terlalu dini. Logika serupa berlaku di tingkat sistem bisnis, seperti dibahas dalam artikel [composable ERP](/blog/composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah)." },
+  { type: "p", text: "Untuk sisi pengemasan dan rilis aplikasi, baca [Docker dan container untuk aplikasi bisnis](/blog/docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan)." },
   {
     type: "cta",
     title: "Bingung memilih arsitektur yang tepat untuk aplikasi bisnis Anda?",

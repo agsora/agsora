@@ -101,6 +101,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A company blog is not just a notice board but an asset that can bring in prospects continuously if run properly. The key is simple yet demands discipline: understand what customers search for, answer honestly and clearly, publish consistently, and connect it all to the next step." },
   { type: "p", text: "Start small and carry it out diligently. A few articles that genuinely help readers are worth more than dozens of careless pieces. Over time, that collection of articles becomes a knowledge library that builds trust even before the first prospect contacts you." },
+  { type: "p", text: "For articles that search engines and prospects trust, see [E-E-A-T and content credibility](/blog/eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b)." },
   {
     type: "cta",
     title: "Want a website and blog that truly bring in leads?",
@@ -211,6 +212,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "公司博客不只是一块公告板,而是一项只要经营得当就能持续带来潜在客户的资产。关键很简单,却需要自律:理解客户在搜索什么,诚实而清晰地回答,持续地发布,并把这一切与下一步连接起来。" },
   { type: "p", text: "从小处开始,并勤勉地执行。几篇真正帮助读者的文章,比几十篇敷衍的文章更有价值。随着时间推移,这批文章会成为一座知识库,在第一位潜在客户联系你之前就已建立起信任。" },
+  { type: "p", text: "要让文章获得搜索引擎和潜在客户的信任，请参阅[E-E-A-T 与内容可信度](/blog/eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b)。" },
   {
     type: "cta",
     title: "想要真正带来线索的网站和博客吗?",

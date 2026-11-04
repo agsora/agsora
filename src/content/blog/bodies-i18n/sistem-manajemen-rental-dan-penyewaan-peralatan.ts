@@ -82,6 +82,7 @@ const en: Block[] = [
   { type: "p", text: "How should lost or badly damaged units be handled? The system needs a special status, removes the unit from reservations, and creates a claim against the customer or insurer according to the contract. The unit's book value is written off if it cannot be recovered, and its history is kept for assessing customer risk later, for example requiring a larger deposit from customers with a high claims history." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A good rental management system answers the daily questions of a rental business quickly and accurately: what is available, where each unit is, what condition it is in, and how much it earns. With real-time availability, photo-backed inspections, scheduled maintenance, and utilization indicators, owners can reduce disputes, prevent breakdowns in the field, and make fleet investment decisions based on data. Start with the problems that cost you most often, usually scheduling clashes and damage billing, then grow the system as the business grows." },
+  { type: "p", text: "For rental property and boarding houses, see [rental property management systems](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)." },
   {
     type: "cta",
     title: "Want to manage your rental fleet more tidily?",
@@ -173,6 +174,7 @@ const zh: Block[] = [
   { type: "p", text: "设备丢失或严重损坏怎么办？系统需要设置专门的状态，把设备从可预订列表中移除，并根据合同向客户或保险公司提出索赔。如果设备无法追回，其账面价值从资产中核销，而相关历史仍会保留，用于日后评估客户风险，例如要求索赔记录较多的客户缴纳更高押金。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "好的租赁管理系统能够快速、准确地回答租赁业务的日常问题：什么可用、每台设备在哪里、状况如何、创造了多少收入。借助实时可用性、附照片的检查记录、定期保养和利用率指标，老板可以减少纠纷、防止设备在现场故障，并基于数据做出设备投资决策。从最常造成损失的问题入手，通常是排期冲突和损坏收费，然后随着业务成长逐步完善系统。" },
+  { type: "p", text: "关于出租物业和公寓，请参阅[租赁物业管理系统](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)。" },
   {
     type: "cta",
     title: "想更有条理地管理租赁设备？",

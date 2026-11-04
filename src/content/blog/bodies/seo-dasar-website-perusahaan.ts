@@ -156,6 +156,7 @@ export const body: Block[] = [
     type: "p",
     text: "SEO dasar bukan trik rahasia, melainkan disiplin membuat website Anda mudah dipahami mesin pencari dan benar-benar berguna bagi pengunjungnya. Dengan struktur halaman yang jelas, bahasa yang sesuai dengan cara calon klien mencari, dan konten yang konsisten, website Anda punya peluang lebih besar ditemukan oleh orang yang benar-benar membutuhkan layanan Anda. Jika Anda berencana mengganti desain atau platform website, baca juga panduan [redesain dan migrasi website tanpa kehilangan peringkat SEO](/blog/redesign-dan-migrasi-website-tanpa-kehilangan-peringkat-seo).",
   },
+  { type: "p", text: "Untuk membangun kepercayaan pada konten, baca [E-E-A-T dan kredibilitas konten SEO untuk website jasa B2B](/blog/eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b)." },
   {
     type: "cta",
     title: "Website Anda sulit ditemukan di Google?",

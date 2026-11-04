@@ -82,6 +82,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagaimana menangani unit yang hilang atau rusak berat? Sistem perlu mencatat status khusus, menghentikan unit dari reservasi, dan membuat klaim ke pelanggan atau asuransi sesuai kontrak. Nilai buku unit dihapus dari aset jika tidak dapat dipulihkan, dan riwayatnya tetap tersimpan untuk penilaian risiko pelanggan di kemudian hari, misalnya mewajibkan deposit lebih besar bagi pelanggan dengan riwayat klaim tinggi." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Sistem manajemen rental yang baik menjawab pertanyaan harian bisnis penyewaan dengan cepat dan akurat: apa yang tersedia, di mana setiap unit, dalam kondisi apa, dan berapa yang dihasilkannya. Dengan ketersediaan waktu nyata, pemeriksaan bergambar, perawatan terjadwal, dan indikator utilisasi, pemilik usaha bisa mengurangi sengketa, mencegah kerusakan di lapangan, dan mengambil keputusan investasi armada berdasarkan data. Mulailah dari masalah yang paling sering merugikan, biasanya bentrok jadwal dan tagihan kerusakan, lalu kembangkan sistem seiring pertumbuhan usaha." },
+  { type: "p", text: "Untuk properti sewa dan kos-kosan, lihat [sistem manajemen properti sewa](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)." },
   {
     type: "cta",
     title: "Ingin mengelola armada sewa dengan lebih rapi?",

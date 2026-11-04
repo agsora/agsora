@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan",
+    title: "Sistem Manajemen Properti Sewa dan Kos-kosan: Kontrak, Tagihan Bulanan, Deposit, dan Perawatan",
+    excerpt: "Panduan membangun sistem untuk pemilik kos, apartemen sewa, dan ruko: data unit, kontrak, tagihan berulang, deposit, meteran listrik dan air, tiket perawatan, serta laporan okupansi dan piutang.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    tags: ["erp","industri","keuangan"],
+    titleTranslations: {
+      en: "Rental Property and Boarding House Management Systems: Leases, Monthly Billing, Deposits, and Maintenance",
+      zh: "租赁物业与公寓出租管理系统：合同、月度账单、押金与维修",
+    },
+    excerptTranslations: {
+      en: "A guide to systems for boarding house owners, rental apartments, and shophouses: unit data, leases, recurring billing, deposits, utility meters, maintenance tickets, and occupancy and receivables reports.",
+      zh: "面向出租公寓、租赁住宅和商铺业主的系统指南：单元数据、合同、周期性账单、押金、水电表、维修工单以及入住率和应收账款报表。",
+    },
+  },
+  {
+    slug: "docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan",
+    title: "Docker dan Container untuk Aplikasi Bisnis: Kapan Perlu, Kapan Berlebihan, dan Cara Memulainya",
+    excerpt: "Penjelasan container, Docker, dan Kubernetes untuk pemilik bisnis dan tim teknis: manfaat konsistensi lingkungan, biaya kompleksitas, pilihan hosting, keamanan image, dan roadmap adopsi bertahap.",
+    category: "Teknologi",
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    tags: ["infrastruktur","operasional","biaya"],
+    titleTranslations: {
+      en: "Docker and Containers for Business Apps: When You Need Them, When They Are Overkill, and How to Start",
+      zh: "企业应用的 Docker 与容器：何时需要、何时过度，以及如何起步",
+    },
+    excerptTranslations: {
+      en: "Containers, Docker, and Kubernetes explained for business owners and technical teams: environment consistency, the cost of complexity, hosting options, image security, and a staged adoption roadmap.",
+      zh: "为企业主和技术团队讲解容器、Docker 与 Kubernetes：环境一致性、复杂度成本、托管选择、镜像安全以及分阶段采用路线图。",
+    },
+  },
+  {
+    slug: "erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor",
+    title: "ERP untuk Yayasan dan Lembaga Nirlaba: Donasi, Dana Terikat, Anggaran Program, dan Pelaporan Donor",
+    excerpt: "Cara yayasan, lembaga sosial, dan organisasi nirlaba mengelola donasi, dana terikat per program, anggaran, pengeluaran, relawan, serta laporan yang transparan untuk donor, pengurus, dan auditor.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    tags: ["erp","industri","pelaporan"],
+    titleTranslations: {
+      en: "ERP for Foundations and Nonprofits: Donations, Restricted Funds, Program Budgets, and Donor Reporting",
+      zh: "基金会与非营利组织的 ERP：捐赠、限定用途资金、项目预算与捐助方报告",
+    },
+    excerptTranslations: {
+      en: "How foundations, charities, and nonprofit organizations manage donations, restricted funds per program, budgets, expenses, volunteers, and transparent reports for donors, boards, and auditors.",
+      zh: "基金会、慈善机构和非营利组织如何管理捐赠、按项目划分的限定用途资金、预算、支出、志愿者，以及面向捐助方、理事会和审计师的透明报告。",
+    },
+  },
+  {
+    slug: "seo-toko-online-faceted-navigation-halaman-kategori-dan-konten-duplikat",
+    title: "SEO Toko Online: Faceted Navigation, Halaman Kategori, Canonical, dan Mengatasi Konten Duplikat",
+    excerpt: "Panduan teknis dan praktis SEO e-commerce: struktur kategori, filter dan faceted navigation, canonical, paginasi, halaman produk habis, crawl budget, dan cara mengukur dampaknya di Search Console.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    tags: ["seo","ecommerce","website"],
+    titleTranslations: {
+      en: "Online Store SEO: Faceted Navigation, Category Pages, Canonicals, and Fixing Duplicate Content",
+      zh: "网店 SEO：分面导航、分类页面、规范链接与重复内容处理",
+    },
+    excerptTranslations: {
+      en: "A technical and practical guide to e-commerce SEO: category structure, filters and faceted navigation, canonicals, pagination, out-of-stock pages, crawl budget, and measuring impact in Search Console.",
+      zh: "电商 SEO 的技术与实操指南：分类结构、筛选与分面导航、规范链接、分页、缺货页面、抓取预算，以及在 Search Console 中衡量效果。",
+    },
+  },
+  {
+    slug: "eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b",
+    title: "E-E-A-T dan Kredibilitas Konten SEO untuk Website Jasa B2B: Pengalaman, Keahlian, dan Bukti Nyata",
+    excerpt: "Cara membuat konten website jasa dan B2B yang dipercaya mesin pencari dan calon klien: bukti pengalaman, profil penulis, studi kasus, transparansi, pembaruan konten, dan kesalahan yang merusak kepercayaan.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    tags: ["seo","website","pelanggan"],
+    titleTranslations: {
+      en: "E-E-A-T and Content Credibility for B2B Service Websites: Experience, Expertise, and Real Proof",
+      zh: "B2B 服务网站的 E-E-A-T 与内容可信度：经验、专业能力与真实证据",
+    },
+    excerptTranslations: {
+      en: "How to build service and B2B website content that search engines and prospects trust: proof of experience, author profiles, case studies, transparency, content updates, and mistakes that erode trust.",
+      zh: "如何打造搜索引擎和潜在客户都信任的服务型与 B2B 网站内容：经验证明、作者档案、案例研究、透明度、内容更新以及损害信任的常见错误。",
+    },
+  },
+  {
     slug: "erp-untuk-hotel-dan-penginapan-reservasi-tarif-dan-housekeeping",
     title: "ERP untuk Hotel dan Penginapan: Reservasi, Tarif Dinamis, Housekeeping, dan Pengendalian Biaya",
     excerpt: "Cara sistem terintegrasi membantu hotel, homestay, dan vila: manajemen kamar, channel manager, tarif musiman, housekeeping, F&B, laporan okupansi, dan roadmap implementasi bertahap.",
@@ -742,7 +827,7 @@ export const meta: PostMeta[] = [
     excerpt: "Fitur inti sistem rental, alur dari reservasi sampai pengembalian, pemeriksaan unit bergambar, perawatan terjadwal, indikator utilisasi, integrasi, dan pilihan software jadi atau khusus.",
     category: "Panduan Industri",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-04",
     tags: ["industri","operasional","custom-software"],
     titleTranslations: {
       en: "Equipment Rental Management Systems: Availability, Maintenance, and Asset Utilization",
@@ -1082,7 +1167,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengapa pembeli meminta data emisi, memahami cakupan 1, 2, dan 3, data ERP yang bisa dipakai, merancang pencatatan yang siap dilaporkan, dan langkah memulai bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-11-04",
     tags: ["erp","pelaporan","data"],
     titleTranslations: {
       en: "ESG and Carbon Footprint Reporting with ERP Data: A Guide for Suppliers and Exporters",
@@ -1337,7 +1422,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perbedaan monolit dan microservices, biaya tersembunyi, tanda monolit mulai menghambat, jalan tengah monolit modular, dan cara memecah sistem secara bertahap.",
     category: "Teknologi",
     publishedAt: "2026-10-16",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-04",
     tags: ["infrastruktur","custom-software","integrasi"],
     titleTranslations: {
       en: "Monolith or Microservices: Choosing the Right Business Application Architecture",
@@ -1439,7 +1524,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu jejak audit, apa yang layak dicatat, pemisahan tugas, alur persetujuan, laporan pengecualian, dan persiapan audit eksternal pada sistem ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-04",
     tags: ["erp","keamanan","keuangan"],
     titleTranslations: {
       en: "Audit Trails and Internal Control in ERP Systems: Growing Without Losing Control",
@@ -1626,7 +1711,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengelola kontrak pelanggan secara terstruktur: data kunci, siklus hidup kontrak, proses perpanjangan, kenaikan harga, hubungan dengan penagihan dan layanan, serta tinjauan portofolio.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-04",
     tags: ["crm","sales","pelanggan"],
     titleTranslations: {
       en: "Customer Contract and Renewal Management: So No Revenue Quietly Expires",
@@ -1762,7 +1847,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan awam tentang pengujian otomatis dan alur rilis: jenis pengujian, apa yang layak diuji lebih dulu, lingkungan uji dan data aman, rilis bertahap, kemampuan membatalkan, serta pertanyaan untuk menilai praktik vendor Anda.",
     category: "Teknologi",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-04",
     tags: ["custom-software","infrastruktur","keamanan"],
     titleTranslations: {
       en: "Automated Testing and CI/CD for Business Applications: Calm, Predictable Releases",
@@ -2051,7 +2136,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kotak pencarian adalah sinyal niat beli paling jelas. Cara merapikan data produk, menangani salah ketik dan sinonim, merancang saran otomatis, filter, urutan hasil, halaman tanpa hasil, dan membaca data pencarian.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-03",
+    updatedAt: "2026-11-04",
     tags: ["ecommerce","website","pelanggan","data"],
     titleTranslations: {
       en: "Product Search and Filters in an Online Store: Helping Shoppers Find Items Within Seconds",
@@ -2221,7 +2306,7 @@ export const meta: PostMeta[] = [
     excerpt: "Katalog adalah inti toko online. Cara menyusun model data produk dan varian, kode barang yang stabil, aturan penamaan, kategori, foto, deskripsi, dan satu sumber data untuk semua kanal.",
     category: "Website & Digital",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-11-04",
     tags: ["ecommerce","data","website"],
     titleTranslations: {
       en: "A Structured Online Store Catalogue: A Tidy Foundation for Sales That Can Grow",
@@ -2408,7 +2493,7 @@ export const meta: PostMeta[] = [
     excerpt: "Blog yang dikelola dengan benar mendatangkan calon pelanggan yang sudah siap dipercaya. Cara memilih topik dari pertanyaan pelanggan, menulis untuk niat pencarian, menata kalender konten, dan mengukur hasilnya tanpa angka rekaan.",
     category: "Website & Digital",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-11-04",
     tags: ["website","seo","sales"],
     titleTranslations: {
       en: "The Company Blog as a Lead Engine: Writing Content Prospects Actually Search For",
@@ -3271,7 +3356,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-04",
     tags: [
       "seo",
       "website"

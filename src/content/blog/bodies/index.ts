@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_sistem_manajemen_properti_sewa_dan_kos_kosan_kontrak_tagihan_dan_perawatan } from "./sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan";
+import { body as b_docker_dan_container_untuk_aplikasi_bisnis_kapan_perlu_dan_kapan_berlebihan } from "./docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan";
+import { body as b_erp_untuk_yayasan_dan_lembaga_nirlaba_donasi_dana_terikat_dan_pelaporan_donor } from "./erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor";
+import { body as b_seo_toko_online_faceted_navigation_halaman_kategori_dan_konten_duplikat } from "./seo-toko-online-faceted-navigation-halaman-kategori-dan-konten-duplikat";
+import { body as b_eeat_dan_kredibilitas_konten_seo_untuk_website_jasa_b2b } from "./eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b";
 import { body as b_erp_untuk_hotel_dan_penginapan_reservasi_tarif_dan_housekeeping } from "./erp-untuk-hotel-dan-penginapan-reservasi-tarif-dan-housekeeping";
 import { body as b_sistem_manajemen_bengkel_otomotif_work_order_suku_cadang_dan_garansi_servis } from "./sistem-manajemen-bengkel-otomotif-work-order-suku-cadang-dan-garansi-servis";
 import { body as b_pencarian_semantik_dan_vector_search_untuk_website_dan_aplikasi_bisnis } from "./pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis";
@@ -233,6 +238,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan": b_sistem_manajemen_properti_sewa_dan_kos_kosan_kontrak_tagihan_dan_perawatan,
+  "docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan": b_docker_dan_container_untuk_aplikasi_bisnis_kapan_perlu_dan_kapan_berlebihan,
+  "erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor": b_erp_untuk_yayasan_dan_lembaga_nirlaba_donasi_dana_terikat_dan_pelaporan_donor,
+  "seo-toko-online-faceted-navigation-halaman-kategori-dan-konten-duplikat": b_seo_toko_online_faceted_navigation_halaman_kategori_dan_konten_duplikat,
+  "eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b": b_eeat_dan_kredibilitas_konten_seo_untuk_website_jasa_b2b,
   "erp-untuk-hotel-dan-penginapan-reservasi-tarif-dan-housekeeping": b_erp_untuk_hotel_dan_penginapan_reservasi_tarif_dan_housekeeping,
   "sistem-manajemen-bengkel-otomotif-work-order-suku-cadang-dan-garansi-servis": b_sistem_manajemen_bengkel_otomotif_work_order_suku_cadang_dan_garansi_servis,
   "pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis": b_pencarian_semantik_dan_vector_search_untuk_website_dan_aplikasi_bisnis,

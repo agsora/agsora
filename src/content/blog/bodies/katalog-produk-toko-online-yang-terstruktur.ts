@@ -113,6 +113,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Katalog produk yang terstruktur adalah fondasi toko online yang bisa tumbuh tanpa kekacauan. Model data yang memisahkan produk dan varian, kode barang yang stabil, aturan penamaan yang konsisten, foto dan deskripsi yang jujur, serta satu sumber data untuk semua kanal membuat pelanggan lebih mudah menemukan dan memercayai barang Anda." },
   { type: "p", text: "Mulailah dari aturan sederhana yang ditulis dan dipatuhi, lalu rapikan bagian yang paling berdampak lebih dulu. Dengan katalog yang terawat, tampilan toko, iklan, dan sistem kasir bekerja di atas data yang sama dan saling menguatkan." },
+  { type: "p", text: "Struktur katalog juga memengaruhi SEO; lihat [SEO toko online: kategori, canonical, dan konten duplikat](/blog/seo-toko-online-faceted-navigation-halaman-kategori-dan-konten-duplikat)." },
   {
     type: "cta",
     title: "Ingin toko online dengan katalog yang rapi dan terhubung ke kasir serta stok?",

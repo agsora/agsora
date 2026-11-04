@@ -64,6 +64,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Monolith versus microservices is not old versus modern but a question of fit. For most small and medium businesses, starting with a tidy modular monolith gives speed, low cost, and room to grow. Microservices deserve consideration when organisational scale and technical needs truly demand them and operational ability is ready." },
   { type: "p", text: "Focus on what matters most: clear module boundaries, automated testing, reliable deployment, and good monitoring. With this foundation you can change the architecture whenever needed, without staking the business on a decision made too early. Similar logic applies at the level of business systems, as discussed in our article on [composable ERP](/blog/composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah)." },
+  { type: "p", text: "For the packaging and release side of applications, read [Docker and containers for business apps](/blog/docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan)." },
   {
     type: "cta",
     title: "Unsure which architecture suits your business application?",
@@ -137,6 +138,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "单体与微服务之争并不是陈旧与现代之争，而是适配度问题。对大多数中小企业而言，从整洁的模块化单体起步，能带来速度、低成本和成长空间。当组织规模和技术需求确实要求，且运维能力已经就绪时，微服务才值得考虑。" },
   { type: "p", text: "把重点放在最关键的事情上：清晰的模块边界、[自动化](/services/ai-automation)测试、可靠的部署和良好的监控。有了这个基础，您随时可以调整架构，而不必把业务押在一个过早做出的决定上。类似的逻辑同样适用于业务系统层面，详见[可组合式 ERP](/blog/composable-erp-sistem-modular-dan-api-first-untuk-bisnis-menengah)一文。" },
+  { type: "p", text: "关于应用的打包与发布，请阅读[企业应用的 Docker 与容器](/blog/docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan)。" },
   {
     type: "cta",
     title: "不确定哪种架构适合您的业务应用吗？",

@@ -121,6 +121,7 @@ export const body: Block[] = [
   { type: "p", text: "Pencarian dan filter adalah pelayan toko Anda di dunia digital. Ketika keduanya bekerja baik, pembeli merasa dipahami: ia mengetik dengan bahasanya sendiri, mendapat jawaban yang nyambung, dan menemukan barang yang cocok dalam beberapa ketukan. Ketika keduanya buruk, katalog selengkap apa pun terasa kosong." },
   { type: "p", text: "Mulailah dari data produk yang rapi, tangani salah ketik dan sinonim, sediakan filter yang sesuai kategori, dan baca data pencarian secara rutin. Perbaikan kecil yang dilakukan terus-menerus di bagian ini termasuk investasi yang paling langsung terasa pada penjualan toko online." },
   { type: "p", text: "Jika katalog Anda besar dan kata kunci saja tidak cukup, pelajari [pencarian semantik dan vector search](/blog/pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis)." },
+  { type: "p", text: "Dampak filter terhadap SEO dibahas di [SEO toko online: faceted navigation dan konten duplikat](/blog/seo-toko-online-faceted-navigation-halaman-kategori-dan-konten-duplikat)." },
   {
     type: "cta",
     title: "Ingin toko online dengan pencarian dan filter yang benar-benar membantu pembeli?",

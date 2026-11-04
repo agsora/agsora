@@ -92,6 +92,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Requests for ESG and carbon footprint data will come more and more often from buyers, partners, and regulators. Businesses that prepare now will not need to panic every time a new questionnaire arrives. The key is to use the operational data already in the ERP, record physical quantities carefully, keep emission factors separate with clear sources, and start with the scope you control most." },
   { type: "p", text: "On that foundation, sustainability reporting turns from an exhausting annual exercise into a by product of good daily records, and a source of insight for reducing costs." },
+  { type: "p", text: "For reporting to donors and stakeholders, see [ERP for foundations and nonprofits](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)." },
   {
     type: "cta",
     title: "Want your ERP data ready to answer buyers' ESG requests?",
@@ -193,6 +194,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "来自买家、合作伙伴和监管机构的 ESG 与碳足迹数据要求会越来越频繁。现在就做好准备的企业，不必在每次收到新问卷时手忙脚乱。关键在于利用 ERP 中已有的运营数据、认真记录实物数量、把排放因子及其来源单独管理，并从最可控的范围开始。" },
   { type: "p", text: "有了这一基础，可持续发展报告就会从令人疲惫的年度任务，变成良好日常记录的副产品，同时也成为降低成本的洞察来源。" },
+  { type: "p", text: "关于向捐助方和利益相关方报告，请参阅[基金会与非营利组织的 ERP](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)。" },
   {
     type: "cta",
     title: "希望您的 ERP 数据能随时回应买家的 ESG 要求吗？",

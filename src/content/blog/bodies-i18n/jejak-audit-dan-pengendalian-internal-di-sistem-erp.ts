@@ -106,6 +106,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Audit trails and internal control are not signs of distrust but the foundation that lets a business grow without losing control. With clear records and sensible flows, mistakes are found sooner, fraud is harder to commit, and decisions are easier to account for." },
   { type: "p", text: "Start with the processes that are riskiest and most related to money. Improve little by little, measure the results, and involve the team. Before long, your business will have a system that not only records transactions but also keeps the trust of everyone who depends on it." },
+  { type: "p", text: "Its application in nonprofits is discussed in [ERP for foundations and nonprofits](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)." },
   {
     type: "cta",
     title: "Want your ERP system to have tidy controls and audit trails?",
@@ -221,6 +222,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "审计轨迹与内部控制并不是不信任的表现，而是让企业在不失控的前提下成长的基础。有了清晰的记录和合理的流程，错误会更早被发现，舞弊更难得逞，决策也更容易交代。" },
   { type: "p", text: "从风险最高、与资金关系最密切的流程开始。一点一点改进，衡量成果，并让团队参与。不久之后，您的企业将拥有这样一个系统：它不仅记录交易，还守护所有依赖它的各方的信任。" },
+  { type: "p", text: "其在非营利组织中的应用见[基金会与非营利组织的 ERP](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)。" },
   {
     type: "cta",
     title: "希望您的 ERP 系统拥有完善的控制与审计轨迹吗？",
