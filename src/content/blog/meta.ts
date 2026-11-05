@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis",
+    title: "SEO Teknis untuk Website Bisnis: Crawl Budget, Analisis Log Server, dan Masalah Indexing",
+    excerpt: "Panduan SEO teknis untuk bisnis: cara kerja crawling dan indexing, kapan crawl budget penting, membaca laporan Search Console, analisis log server, robots.txt, canonical, sitemap, dan rencana audit 30 hari.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    tags: ["seo","website","infrastruktur"],
+    titleTranslations: {
+      en: "Technical SEO for Business Websites: Crawl Budget, Server Log Analysis, and Indexing Problems",
+      zh: "企业网站的技术 SEO：抓取预算、服务器日志分析与索引问题",
+    },
+    excerptTranslations: {
+      en: "A technical SEO guide for businesses: how crawling and indexing work, when crawl budget matters, reading Search Console reports, server log analysis, robots.txt, canonicals, sitemaps, and a 30-day audit plan.",
+      zh: "面向企业的技术 SEO 指南：抓取与索引如何工作、抓取预算何时重要、解读 Search Console 报告、服务器日志分析、robots.txt、canonical、站点地图以及 30 天审计计划。",
+    },
+  },
+  {
+    slug: "erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman",
+    title: "ERP untuk Freight Forwarding dan Ekspor-Impor: Dokumen, Biaya per Kiriman, dan Pelacakan",
+    excerpt: "Cara sistem terintegrasi membantu forwarder dan agen ekspor-impor: job per kiriman, dokumen pengapalan, biaya pihak ketiga, demurrage, penagihan, multi-mata-uang, laporan laba per job, dan roadmap implementasi.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    tags: ["erp","industri","operasional"],
+    titleTranslations: {
+      en: "ERP for Freight Forwarding and Import-Export: Documents, Cost per Shipment, and Tracking",
+      zh: "货运代理与进出口 ERP：单证、单票成本与货物跟踪",
+    },
+    excerptTranslations: {
+      en: "How an integrated system helps forwarders and import-export agents: jobs per shipment, shipping documents, third-party costs, demurrage, invoicing, multi-currency, profit-per-job reports, and an implementation roadmap.",
+      zh: "集成系统如何帮助货代和进出口代理：按票管理任务、运输单证、第三方成本、滞期费、开票、多币种、单票利润报表以及实施路线图。",
+    },
+  },
+  {
+    slug: "akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan",
+    title: "Akuntansi Aset Tetap dan Penyusutan dengan ERP: Register Aset, Kapitalisasi, dan Pelepasan",
+    excerpt: "Panduan mengelola siklus hidup aset tetap di ERP: register aset, ambang kapitalisasi, metode penyusutan, perbedaan akuntansi dan pajak, aset dalam pembangunan, pelepasan, opname, dan migrasi dari spreadsheet.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    tags: ["erp","keuangan","pelaporan"],
+    titleTranslations: {
+      en: "Fixed Asset Accounting and Depreciation with ERP: Asset Register, Capitalization, and Disposal",
+      zh: "用 ERP 做固定资产会计与折旧：资产登记簿、资本化与处置",
+    },
+    excerptTranslations: {
+      en: "A guide to managing the fixed asset lifecycle in ERP: asset register, capitalization threshold, depreciation methods, accounting versus tax differences, assets under construction, disposal, asset counts, and migrating from spreadsheets.",
+      zh: "在 ERP 中管理固定资产生命周期的指南：资产登记簿、资本化门槛、折旧方法、会计与税务差异、在建工程、处置、盘点以及从电子表格迁移。",
+    },
+  },
+  {
+    slug: "infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis",
+    title: "Infrastructure as Code: Otomatisasi Lingkungan Server dan Cloud untuk Aplikasi Bisnis",
+    excerpt: "Panduan IaC untuk bisnis: manfaat lingkungan yang dapat direproduksi, pendekatan deklaratif, alat umum, risiko state dan rahasia, drift, kapan layak dipakai, dan rencana adopsi bertahap.",
+    category: "Teknologi",
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    tags: ["infrastruktur","keamanan","custom-software"],
+    titleTranslations: {
+      en: "Infrastructure as Code: Automating Server and Cloud Environments for Business Applications",
+      zh: "基础设施即代码：为业务应用自动化服务器与云环境",
+    },
+    excerptTranslations: {
+      en: "An IaC guide for businesses: benefits of reproducible environments, the declarative approach, common tools, state and secret risks, drift, when it is worthwhile, and a staged adoption plan.",
+      zh: "面向企业的 IaC 指南：可复现环境的好处、声明式方法、常见工具、状态与机密风险、漂移、何时值得使用以及分阶段采用计划。",
+    },
+  },
+  {
+    slug: "customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah",
+    title: "Customer Data Platform (CDP): Menyatukan Data Pelanggan untuk Bisnis Menengah",
+    excerpt: "Panduan CDP untuk bisnis menengah: perbedaan dengan CRM dan data warehouse, penyatuan identitas, segmentasi, aktivasi ke saluran, persetujuan dan pelindungan data pribadi, pilihan pendekatan, dan roadmap.",
+    category: "Teknologi",
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    tags: ["data","crm","integrasi"],
+    titleTranslations: {
+      en: "Customer Data Platform (CDP): Unifying Customer Data for Mid-Sized Businesses",
+      zh: "客户数据平台（CDP）：为中型企业统一客户数据",
+    },
+    excerptTranslations: {
+      en: "A CDP guide for mid-sized businesses: differences from CRM and data warehouse, identity resolution, segmentation, channel activation, consent and personal data protection, approach options, and a roadmap.",
+      zh: "面向中型企业的 CDP 指南：与 CRM 和数据仓库的区别、身份解析、细分、渠道激活、同意与个人数据保护、方法选择以及路线图。",
+    },
+  },
+  {
     slug: "sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan",
     title: "Sistem Manajemen Properti Sewa dan Kos-kosan: Kontrak, Tagihan Bulanan, Deposit, dan Perawatan",
     excerpt: "Panduan membangun sistem untuk pemilik kos, apartemen sewa, dan ruko: data unit, kontrak, tagihan berulang, deposit, meteran listrik dan air, tiket perawatan, serta laporan okupansi dan piutang.",
@@ -28,7 +113,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjelasan container, Docker, dan Kubernetes untuk pemilik bisnis dan tim teknis: manfaat konsistensi lingkungan, biaya kompleksitas, pilihan hosting, keamanan image, dan roadmap adopsi bertahap.",
     category: "Teknologi",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-05",
     tags: ["infrastruktur","operasional","biaya"],
     titleTranslations: {
       en: "Docker and Containers for Business Apps: When You Need Them, When They Are Overkill, and How to Start",
@@ -572,7 +657,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kebutuhan sistem 3PL: data multi-pemilik barang, alur penerimaan sampai pengiriman, tarif dan penagihan berbasis aktivitas, pengukuran SLA, portal klien, dan profitabilitas.",
     category: "Panduan Industri",
     publishedAt: "2026-10-25",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-11-05",
     tags: ["erp","industri","inventori"],
     titleTranslations: {
       en: "ERP for Third-Party Logistics (3PL): Multi-Client Stock, Activity-Based Billing, and Warehouse SLAs",
@@ -691,7 +776,7 @@ export const meta: PostMeta[] = [
     excerpt: "Arti tiga metrik Core Web Vitals, cara mengecek skor di Search Console dan PageSpeed Insights, penyebab nilai buruk, dan urutan perbaikan yang memberi hasil terbesar.",
     category: "Teknologi",
     publishedAt: "2026-10-23",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-11-05",
     tags: ["website","seo","infrastruktur"],
     titleTranslations: {
       en: "Core Web Vitals (LCP, INP, CLS): A Practical Guide to Fixing Business Website Speed",
@@ -929,7 +1014,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen landed cost, perlakuan bea masuk dan pajak impor, dasar alokasi biaya per barang, pengaruh kurs, estimasi biaya yang datang belakangan, dan cara ERP mengotomatiskannya.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-05",
     tags: ["erp","inventori","biaya"],
     titleTranslations: {
       en: "Landed Cost: Calculating the True Cost of Imported Goods in an ERP",
@@ -1303,7 +1388,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan membangun first party data: jenis data, nilai tukar yang adil, fondasi teknis, pengelolaan persetujuan, dan cara mengukur pemasaran saat pelacakan lintas situs terbatas.",
     category: "Website & Digital",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-17",
+    updatedAt: "2026-11-05",
     tags: ["data","pelanggan","website"],
     titleTranslations: {
       en: "First Party Data and Tracking Without Third Party Cookies: Knowing Customers the Lawful Way",
@@ -1796,7 +1881,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-05",
     tags: ["erp","operasional","inventori","biaya"],
     titleTranslations: {
       en: "Asset Management and Equipment Maintenance with ERP: From Asset Register to Replacement Decisions",
@@ -1847,7 +1932,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan awam tentang pengujian otomatis dan alur rilis: jenis pengujian, apa yang layak diuji lebih dulu, lingkungan uji dan data aman, rilis bertahap, kemampuan membatalkan, serta pertanyaan untuk menilai praktik vendor Anda.",
     category: "Teknologi",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-05",
     tags: ["custom-software","infrastruktur","keamanan"],
     titleTranslations: {
       en: "Automated Testing and CI/CD for Business Applications: Calm, Predictable Releases",
@@ -1932,7 +2017,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara memulai segmentasi pelanggan dari data sederhana: jenis segmentasi, data yang diperlukan, segmen yang bisa dibuat minggu ini, personalisasi yang membantu, kanal dan momen, otomasi dan AI, privasi, serta cara mengukur dampaknya.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-11-05",
     tags: ["crm","pelanggan","data","ai"],
     titleTranslations: {
       en: "Customer Segmentation and Personalisation with Data: Greeting Customers Right Without Watching Them",
@@ -2187,7 +2272,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tutup buku yang lambat berasal dari hulu. Cara menyusun kalender penutupan, mencatat di sumber, rekonsiliasi sepanjang bulan, aturan pisah batas, persediaan, jurnal berulang, pemeriksaan, dan penguncian periode.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-05",
     tags: ["erp","keuangan","pelaporan","otomasi"],
     titleTranslations: {
       en: "A Faster Monthly Close with ERP: From Late Reports to Figures You Can Use",
@@ -3356,7 +3441,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-05",
     tags: [
       "seo",
       "website"

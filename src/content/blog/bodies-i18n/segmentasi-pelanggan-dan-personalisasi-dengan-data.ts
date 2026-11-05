@@ -129,6 +129,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Segmentation and personalisation are not the monopoly of large companies. With centralised data and a few simple rules, small and medium businesses can also make customers feel recognised and valued, while saving promotion budget." },
   { type: "p", text: "Start from the data you already have, protect privacy sincerely, and measure honestly. Customers who feel understood tend to return, and returning customers are the healthiest foundation for growth." },
+  { type: "p", text: "If customer data is scattered across many systems, consider a [Customer Data Platform for mid-sized businesses](/blog/customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah)." },
   {
     type: "cta",
     title: "Is your customer data scattered and hard to use for greeting customers properly?",
@@ -267,6 +268,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "细分和个性化不是大公司的专利。有了集中的数据和几条简单的规则，中小企业也能让顾客感到被认识、被重视，同时节省促销预算。" },
   { type: "p", text: "从你已有的数据开始，真诚地保护隐私，诚实地衡量。感到被理解的顾客往往会回来，而回头客是最健康的增长基础。" },
+  { type: "p", text: "如果客户数据分散在多个系统中，可以考虑[面向中型企业的客户数据平台](/blog/customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah)。" },
   {
     type: "cta",
     title: "顾客数据分散，难以用来恰当地问候顾客？",

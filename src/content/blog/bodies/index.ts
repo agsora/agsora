@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_seo_teknis_crawl_budget_log_server_dan_indexing_untuk_website_bisnis } from "./seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis";
+import { body as b_erp_untuk_freight_forwarding_dan_ekspor_impor_dokumen_biaya_dan_pelacakan_kiriman } from "./erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman";
+import { body as b_akuntansi_aset_tetap_dan_penyusutan_dengan_erp_register_kapitalisasi_dan_pelepasan } from "./akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan";
+import { body as b_infrastructure_as_code_dan_otomatisasi_lingkungan_untuk_aplikasi_bisnis } from "./infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis";
+import { body as b_customer_data_platform_cdp_menyatukan_data_pelanggan_untuk_bisnis_menengah } from "./customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah";
 import { body as b_sistem_manajemen_properti_sewa_dan_kos_kosan_kontrak_tagihan_dan_perawatan } from "./sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan";
 import { body as b_docker_dan_container_untuk_aplikasi_bisnis_kapan_perlu_dan_kapan_berlebihan } from "./docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan";
 import { body as b_erp_untuk_yayasan_dan_lembaga_nirlaba_donasi_dana_terikat_dan_pelaporan_donor } from "./erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor";
@@ -238,6 +243,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis": b_seo_teknis_crawl_budget_log_server_dan_indexing_untuk_website_bisnis,
+  "erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman": b_erp_untuk_freight_forwarding_dan_ekspor_impor_dokumen_biaya_dan_pelacakan_kiriman,
+  "akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan": b_akuntansi_aset_tetap_dan_penyusutan_dengan_erp_register_kapitalisasi_dan_pelepasan,
+  "infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis": b_infrastructure_as_code_dan_otomatisasi_lingkungan_untuk_aplikasi_bisnis,
+  "customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah": b_customer_data_platform_cdp_menyatukan_data_pelanggan_untuk_bisnis_menengah,
   "sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan": b_sistem_manajemen_properti_sewa_dan_kos_kosan_kontrak_tagihan_dan_perawatan,
   "docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan": b_docker_dan_container_untuk_aplikasi_bisnis_kapan_perlu_dan_kapan_berlebihan,
   "erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor": b_erp_untuk_yayasan_dan_lembaga_nirlaba_donasi_dana_terikat_dan_pelaporan_donor,

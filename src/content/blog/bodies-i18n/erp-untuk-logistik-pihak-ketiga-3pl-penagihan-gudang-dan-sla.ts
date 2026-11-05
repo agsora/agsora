@@ -136,6 +136,7 @@ const en: Block[] = [
   { type: "p", text: "How do we keep client data separate? Design data ownership per client at the database and access rights level, and test that a user of one client cannot see another client's data." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A 3PL company sells operational reliability, and that reliability is proven by data: accurate stock per client, activity that is recorded and billed correctly, measurable SLAs, and visibility for goods owners. A system designed as multi-client with activity-based rates, barcode scanning, a customer portal, and integration to online stores and couriers helps you grow the business without losing control of cost and margin. Start with a tidy core flow, then add profitability analysis and automation gradually." },
+  { type: "p", text: "If you also handle shipping and export-import documents, read [ERP for freight forwarding and import-export](/blog/erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman)." },
   {
     type: "cta",
     title: "Managing a warehouse for many clients and varied rates?",
@@ -281,6 +282,7 @@ const zh: Block[] = [
   { type: "p", text: "如何保持客户数据相互隔离？在数据库和访问权限层面按客户设计数据归属，并测试某一客户的用户无法看到其他客户的数据。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "3PL 公司出售的是运营可靠性，而这种可靠性由数据证明：按客户准确的库存、被正确记录并计费的作业、可衡量的 SLA，以及货主的可见性。按多客户设计，具备基于作业的费率、条码扫描、客户门户以及与网店和快递集成的系统，能帮助您在不失去对成本和利润控制的情况下发展业务。从规整的核心流程起步，再逐步增加盈利分析和自动化。" },
+  { type: "p", text: "如果你同时办理运输和进出口单证，请阅读[货运代理与进出口 ERP](/blog/erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman)。" },
   {
     type: "cta",
     title: "为众多客户和多样费率管理仓库？",

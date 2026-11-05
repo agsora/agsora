@@ -81,6 +81,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Berakhirnya era cookie pihak ketiga memaksa bisnis kembali ke dasar: membangun hubungan langsung dengan pelanggan. First party data bukan sekadar pengganti teknis, melainkan cara mengenal pelanggan dengan hormat, menawarkan nilai yang nyata, dan mengambil keputusan dari bukti milik sendiri." },
   { type: "p", text: "Mulailah dari data yang sudah Anda punya, rapikan, satukan, dan pakai untuk satu atau dua keputusan yang jelas. Jaga kepercayaan dengan transparansi, dan ukur dampak dengan cara yang tidak bergantung pada pelacakan diam-diam. Aset yang Anda bangun hari ini tidak akan hilang ketika kebijakan platform berubah lagi." },
+  { type: "p", text: "Cara menyatukan data milik sendiri menjadi profil pelanggan dibahas di [Customer Data Platform untuk bisnis menengah](/blog/customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah)." },
   {
     type: "cta",
     title: "Ingin menyatukan data pelanggan dari toko, situs, dan CRM Anda?",

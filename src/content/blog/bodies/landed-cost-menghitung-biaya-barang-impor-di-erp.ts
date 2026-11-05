@@ -89,6 +89,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah ERP yang ada sudah mendukung landed cost? Banyak ERP memiliki fitur ini, tetapi sering belum dikonfigurasi atau hanya mendukung satu dasar alokasi. Periksa kemampuannya sebelum memutuskan menambah modul atau integrasi." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Landed cost menjembatani harga pemasok dan biaya sebenarnya barang yang siap dijual. Dengan mencatat semua komponen biaya per kiriman, memisahkan pajak yang menjadi biaya dari yang dapat dikreditkan, mengalokasikan biaya dengan dasar yang masuk akal, dan menyesuaikan estimasi saat tagihan datang, importir dan distributor mendapatkan HPP yang dapat dipercaya. Hasilnya adalah harga jual yang lebih tepat, penilaian pemasok yang lebih adil, dan margin yang benar-benar terlihat." },
+  { type: "p", text: "Bagi perusahaan yang melayani pengurusan ekspor-impor, lihat juga [ERP untuk freight forwarding dan ekspor-impor](/blog/erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman)." },
   {
     type: "cta",
     title: "Ingin tahu biaya sebenarnya setiap barang impor?",

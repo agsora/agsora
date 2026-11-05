@@ -129,6 +129,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Segmentasi dan personalisasi bukan monopoli perusahaan besar. Dengan data yang terpusat dan beberapa aturan sederhana, bisnis kecil dan menengah pun bisa membuat pelanggan merasa dikenali dan dihargai, sambil menghemat anggaran promosi." },
   { type: "p", text: "Mulailah dari data yang sudah Anda miliki, jaga privasi dengan sungguh-sungguh, dan ukur dengan jujur. Pelanggan yang merasa dipahami cenderung kembali, dan pelanggan yang kembali adalah fondasi pertumbuhan yang paling sehat. Tinjau segmen Anda setiap kuartal, karena perilaku pelanggan berubah dan segmen yang berguna tahun lalu belum tentu masih relevan hari ini. Jangan ragu menghapus segmen yang tidak lagi memberi hasil." },
+  { type: "p", text: "Bila data pelanggan tersebar di banyak sistem, pertimbangkan [Customer Data Platform untuk bisnis menengah](/blog/customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah)." },
   {
     type: "cta",
     title: "Data pelanggan Anda tersebar dan sulit dipakai untuk menyapa dengan tepat?",

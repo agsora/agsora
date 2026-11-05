@@ -117,6 +117,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Tutup buku yang cepat bukan hasil kerja lembur, melainkan hasil kebiasaan harian yang rapi dan sistem yang menyatukan data. Ketika transaksi dicatat di sumbernya, rekonsiliasi dilakukan sepanjang bulan, dan aturan pisah batas dipegang konsisten, hari-hari penutupan berubah dari masa darurat menjadi rutinitas yang tenang." },
   { type: "p", text: "Mulailah dari menemukan sumber keterlambatan terbesar, perbaiki satu per satu, dan ukur kemajuannya setiap bulan. Hasilnya bukan hanya laporan yang lebih cepat, tetapi juga angka yang lebih bisa dipercaya dan tim keuangan yang punya waktu untuk membantu Anda mengambil keputusan." },
+  { type: "p", text: "Penyusutan aset yang otomatis ikut mempercepat penutupan; lihat [akuntansi aset tetap dan penyusutan dengan ERP](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)." },
   {
     type: "cta",
     title: "Laporan keuangan selalu terlambat dan penuh koreksi?",

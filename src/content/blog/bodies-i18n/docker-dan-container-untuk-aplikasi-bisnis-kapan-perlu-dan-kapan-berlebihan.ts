@@ -73,6 +73,7 @@ const en: Block[] = [
   { type: "p", text: "Legacy applications can sometimes be wrapped in containers as a first modernization step, but the result depends on how much the application relies on specific server conditions. See the discussion in [modernizing legacy systems without stopping operations](/blog/modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Containers are a powerful tool for making applications run consistently, but they are not a goal. Their value lies in more repeatable releases, uniform environments, and faster recovery, as long as the team understands what it is managing. Start small: one application, one pipeline, one rollback plan. Add complexity only when a real problem demands it, and measure the result at each step." },
+  { type: "p", text: "To build the environment where containers run consistently, read [Infrastructure as Code for business applications](/blog/infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis)." },
   { type: "cta", title: "Need tidy application infrastructure",text: "Discuss your applications and release needs. The Agsora team helps design pipelines and environments that fit your business scale without excess complexity.",href: "/services/custom-software",label: "Free consultation" },
 ];
 
@@ -149,6 +150,7 @@ const zh: Block[] = [
   { type: "p", text: "遗留应用有时可以作为现代化的第一步封装进容器，但结果取决于应用对特定服务器条件的依赖程度。参见[在不中断运营的情况下现代化遗留系统](/blog/modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional)中的讨论。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "容器是让应用一致运行的强大工具，但并不是目的。其价值在于更可重复的发布、统一的环境和更快的恢复，前提是团队了解自己在管理什么。从小处开始：一个应用、一条流水线、一份回滚计划。只有当真实问题需要时才增加复杂度，并在每一步衡量结果。" },
+  { type: "p", text: "要让容器运行的环境保持一致，请阅读[面向业务应用的基础设施即代码](/blog/infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis)。" },
   { type: "cta", title: "需要整洁的应用基础设施",text: "与我们讨论您的应用和发布需求。Agsora 团队帮助设计适合业务规模、不过度复杂的流水线与环境。",href: "/services/custom-software",label: "免费咨询" },
 ];
 

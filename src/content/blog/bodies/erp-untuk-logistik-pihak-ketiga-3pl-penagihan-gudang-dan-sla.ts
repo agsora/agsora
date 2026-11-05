@@ -136,6 +136,7 @@ export const body: Block[] = [
   { type: "p", text: "Bagaimana menjaga data klien tetap terpisah? Rancang kepemilikan data per klien di tingkat basis data dan hak akses, serta uji bahwa pengguna satu klien tidak dapat melihat data klien lain." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Perusahaan 3PL menjual keandalan operasional, dan keandalan itu terbukti dari data: stok yang akurat per klien, aktivitas yang tercatat dan ditagihkan dengan benar, SLA yang terukur, dan visibilitas bagi pemilik barang. Sistem yang dirancang multi-klien dengan tarif berbasis aktivitas, pemindaian barcode, portal pelanggan, dan integrasi ke toko online serta kurir membantu Anda menumbuhkan bisnis tanpa kehilangan kendali atas biaya dan margin. Mulailah dari alur inti yang rapi, lalu tambahkan analisis profitabilitas dan otomatisasi bertahap." },
+  { type: "p", text: "Bila Anda juga mengurus pengapalan dan dokumen ekspor-impor, baca [ERP untuk freight forwarding dan ekspor-impor](/blog/erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman)." },
   {
     type: "cta",
     title: "Mengelola gudang untuk banyak klien dan tarif yang beragam?",

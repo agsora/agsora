@@ -103,6 +103,7 @@ const en: Block[] = [
   { type: "p", text: "Are these fixes also useful for international visitors? Very much. Visitors from regions with slower networks are the most affected by heavy pages. Using a content delivery network and lightweight images helps every market, including for a [multilingual website](/blog/website-multibahasa-untuk-pasar-regional)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Core Web Vitals is not a technical puzzle that only developers can understand. The three questions are simple: how quickly does the main content appear, how quickly does the page respond, and how stable does it look. By measuring real user data, fixing the biggest causes first, and monitoring continuously, a business website can deliver a better experience, healthier SEO prospects, and higher conversion from the same traffic." },
+  { type: "p", text: "Server speed also affects how often search engines crawl your site; read [technical SEO, crawl budget, and server log analysis](/blog/seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis)." },
   {
     type: "cta",
     title: "Does your website feel slow and hard to optimize?",
@@ -215,6 +216,7 @@ const zh: Block[] = [
   { type: "p", text: "这些修复对国际访客也有用吗？非常有用。网络较慢地区的访客受沉重页面的影响最大。使用内容分发网络和轻量图片对每个市场都有帮助，包括[多语言网站](/blog/website-multibahasa-untuk-pasar-regional)。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "核心网页指标并不是只有开发人员才懂的技术谜题。三个问题很简单：主要内容多快出现，页面响应多快，外观有多稳定。通过衡量真实用户数据、先修复最大的原因并持续监控，企业网站可以提供更好的体验、更健康的 SEO 前景，并从同样的流量中获得更高的转化。" },
+  { type: "p", text: "服务器速度也会影响搜索引擎抓取你网站的频率；请阅读[技术 SEO、抓取预算与服务器日志分析](/blog/seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis)。" },
   {
     type: "cta",
     title: "您的网站感觉很慢，又难以优化？",

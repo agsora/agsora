@@ -81,6 +81,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "The end of the third party cookie era pushes businesses back to basics: building a direct relationship with customers. First party data is not just a technical substitute but a way to know customers respectfully, offer real value, and make decisions from your own evidence." },
   { type: "p", text: "Start from the data you already have, tidy it, unite it, and use it for one or two clear decisions. Keep trust through transparency, and measure impact in ways that do not depend on silent tracking. The asset you build today will not vanish when platform policy changes again." },
+  { type: "p", text: "How to unify your own data into customer profiles is covered in [Customer Data Platform for mid-sized businesses](/blog/customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah)." },
   {
     type: "cta",
     title: "Want to unify customer data from your shop, site, and CRM?",
@@ -171,6 +172,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "第三方 Cookie 时代的终结，迫使企业回到基本功：与客户建立直接关系。第一方数据不只是技术上的替代品，而是一种尊重地了解客户、提供实际价值、并根据自身证据做决策的方式。" },
   { type: "p", text: "从您已有的数据开始，整理、整合，并用于一两项明确的决策。以透明维护信任，用不依赖隐秘追踪的方式衡量效果。您今天建立的资产，不会在平台政策再次变化时消失。" },
+  { type: "p", text: "如何把自有数据统一为客户档案，见[面向中型企业的客户数据平台](/blog/customer-data-platform-cdp-menyatukan-data-pelanggan-untuk-bisnis-menengah)。" },
   {
     type: "cta",
     title: "想整合来自网店、网站和 CRM 的客户数据吗？",

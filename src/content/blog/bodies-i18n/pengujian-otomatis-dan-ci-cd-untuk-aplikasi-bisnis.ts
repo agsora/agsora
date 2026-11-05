@@ -129,6 +129,7 @@ const en: Block[] = [
   { type: "p", text: "Automated testing and CI/CD are not a luxury for large technology companies. For businesses that depend on applications, these practices are a way to keep necessary changes from turning into dreaded risks. The result is releases that are more frequent, calmer, and more predictable." },
   { type: "p", text: "Start simple: protect the most important flows, automate releases, and make a habit of learning from every problem. Over time, a team that trusts its safety net will move faster and bring new value to customers with fewer surprises." },
   { type: "p", text: "A pipeline that builds container images is discussed in [Docker and containers for business apps](/blog/docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan)." },
+  { type: "p", text: "The same pipeline can manage infrastructure; see [Infrastructure as Code for business applications](/blog/infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Does every app release feel tense and often bring new problems?",
@@ -267,6 +268,7 @@ const zh: Block[] = [
   { type: "p", text: "自动化测试和 CI/CD 并不是大型科技公司的奢侈品。对依赖应用的企业来说，这些做法能让必要的变更不致变成令人畏惧的风险。成果是更频繁、更平静、更可预测的发布。" },
   { type: "p", text: "从简单做起：保护最重要的流程，使发布自动化，并养成从每个问题中学习的习惯。久而久之，信任自己安全网的团队会行动得更快，并以更少的意外为顾客带来新的价值。" },
   { type: "p", text: "构建容器镜像的流水线见[企业应用的 Docker 与容器](/blog/docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan)。" },
+  { type: "p", text: "同样的流水线也可以管理基础设施；请参阅[面向业务应用的基础设施即代码](/blog/infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "每次应用发布都让人紧张，还常常带来新问题？",

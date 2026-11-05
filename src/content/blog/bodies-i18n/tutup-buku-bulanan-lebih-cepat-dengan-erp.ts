@@ -117,6 +117,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "A fast close is not the result of overtime but of tidy daily habits and a system that brings the data together. When transactions are recorded at the source, reconciliation is done throughout the month, and cut off rules are held consistently, closing days change from an emergency into a calm routine." },
   { type: "p", text: "Start by finding the biggest source of delay, fix them one at a time, and measure progress every month. The result is not only a faster report, but also figures that can be trusted more and a finance team with time to help you make decisions." },
+  { type: "p", text: "Automatic asset depreciation also speeds up closing; see [fixed asset accounting and depreciation with ERP](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)." },
   {
     type: "cta",
     title: "Are your financial reports always late and full of corrections?",
@@ -243,6 +244,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "快速结账不是加班的结果，而是整洁的日常习惯和统一数据的系统带来的结果。当交易在源头记录、对账贯穿整个月、截止规则始终如一地执行时，结账的那几天就从紧急状态变成了从容的例行工作。" },
   { type: "p", text: "从找出最大的延误来源开始，逐项改进，并每个月衡量进展。结果不只是更快的报表，还有更可信的数字，以及一个有时间帮助你做决定的财务团队。" },
+  { type: "p", text: "资产折旧自动化也能加快结账；请参阅[用 ERP 做固定资产会计与折旧](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)。" },
   {
     type: "cta",
     title: "财务报表总是迟到，而且满是更正吗？",

@@ -103,6 +103,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah perbaikan ini juga berguna untuk pengunjung internasional? Sangat berguna. Pengunjung dari wilayah dengan jaringan lebih lambat paling terdampak oleh halaman berat. Menggunakan jaringan pengiriman konten dan gambar yang ringan membantu semua pasar, termasuk untuk [website multibahasa](/blog/website-multibahasa-untuk-pasar-regional)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Core Web Vitals bukan teka-teki teknis yang hanya bisa dipahami pengembang. Tiga pertanyaannya sederhana: seberapa cepat konten utama muncul, seberapa cepat halaman merespons, dan seberapa stabil tampilannya. Dengan mengukur data pengguna nyata, memperbaiki penyebab terbesar lebih dulu, dan memantau secara berkelanjutan, website bisnis dapat memberi pengalaman yang lebih baik, peluang SEO yang lebih sehat, dan konversi yang lebih tinggi dari trafik yang sama." },
+  { type: "p", text: "Kecepatan server juga memengaruhi seberapa sering mesin pencari merayapi situs Anda; baca [SEO teknis, crawl budget, dan analisis log server](/blog/seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis)." },
   {
     type: "cta",
     title: "Website Anda terasa lambat dan sulit dioptimalkan?",
