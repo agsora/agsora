@@ -134,6 +134,7 @@ export const body: Block[] = [
   { type: "p", text: "Kontrak yang dikelola dengan baik adalah sumber pendapatan yang dapat diprediksi dan hubungan pelanggan yang lebih sehat. Dengan data kunci yang terstruktur, pengingat yang bekerja, dan proses perpanjangan yang dimulai lebih awal, bisnis berhenti kehilangan peluang dan kewajiban secara diam-diam." },
   { type: "p", text: "Mulailah dengan inventaris sederhana dan pengingat tanggal berakhir. Dari fondasi itu, hubungkan dengan penagihan dan layanan, lalu tambahkan tinjauan portofolio. Setiap langkah kecil sudah mengurangi risiko dan membuat pendapatan berulang Anda lebih terjaga." },
   { type: "p", text: "Contoh penerapan kontrak berulang pada properti ada di [sistem manajemen properti sewa](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)." },
+  { type: "p", text: "Penandatanganan kontrak dapat dipercepat dengan [tanda tangan elektronik dan e-meterai](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)." },
   {
     type: "cta",
     title: "Ingin merapikan kontrak pelanggan dan perpanjangannya di sistem bisnis Anda?",

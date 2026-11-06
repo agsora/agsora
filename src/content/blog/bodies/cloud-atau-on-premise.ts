@@ -199,6 +199,7 @@ export const body: Block[] = [
     type: "p",
     text: "Cloud atau on premise bukan pertanyaan tentang mana yang lebih modern atau lebih aman secara umum. Ini pertanyaan tentang kondisi bisnis Anda: di mana tim bekerja, seberapa stabil koneksinya, siapa yang merawat sistem, ketentuan apa yang berlaku, dan bagaimana bisnis akan tumbuh. Jawab pertanyaan-pertanyaan itu dengan jujur, dan pilihan yang tepat biasanya menjadi jelas.",
   },
+  { type: "p", text: "Pertimbangan regulasi dan lokasi data dibahas lebih lanjut di [lokasi penyimpanan data dan kepatuhan hosting di Indonesia](/blog/lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia)." },
   {
     type: "cta",
     title: "Masih menimbang tempat terbaik untuk sistem Anda?",

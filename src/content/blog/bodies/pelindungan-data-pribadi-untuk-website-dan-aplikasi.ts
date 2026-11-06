@@ -167,6 +167,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Mengelola data pribadi dengan baik bukan hanya soal menghindari sanksi, melainkan bagian dari membangun bisnis yang dipercaya. Pemetaan data, pengumpulan seperlunya, dasar yang sah, pemberitahuan yang jujur, pengamanan yang layak, pengaturan pihak ketiga, masa simpan yang jelas, dan kesiapan menghadapi insiden membuat bisnis Anda lebih tangguh dan pelanggan lebih tenang." },
   { type: "p", text: "Mulailah dari langkah yang paling sederhana dan paling berdampak, lalu bangun kebiasaan tata kelola yang konsisten. Karena aturan terus berkembang, jadikan peninjauan berkala dan konsultasi dengan penasihat hukum sebagai bagian dari rutinitas Anda." },
+  { type: "p", text: "Di mana data disimpan juga memengaruhi kepatuhan; lihat [lokasi penyimpanan data dan kepatuhan hosting aplikasi](/blog/lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia)." },
   {
     type: "cta",
     title: "Ingin website atau aplikasi yang dirancang dengan memperhatikan privasi dan keamanan data?",

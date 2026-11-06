@@ -102,6 +102,7 @@ const en: Block[] = [
   { type: "p", text: "It depends on the market. In mainland China, users commonly use local search engines with their own rules and hosting requirements. If that is a real target, plan separately. For other markets, focusing on Google usually covers most of the traffic." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "International SEO is a combination of structural decisions and content commitment. Choose a URL structure you can maintain, set up reciprocal hreflang with consistent canonicals, put all versions in the sitemap, and localize content based on keyword research per language. Then measure results per country and language and audit periodically. Businesses that are disciplined about these basics are far more likely to appear in front of international prospects than those that merely add a language menu." },
+  { type: "p", text: "An applied example for manufacturers seeking overseas buyers is in [B2B websites for exporters and manufacturers](/blog/website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional)." },
   {
     type: "cta",
     title: "Want your website to show up correctly on Google for international markets?",
@@ -213,6 +214,7 @@ const zh: Block[] = [
   { type: "p", text: "取决于市场。在中国大陆，用户常用本地搜索引擎，有其自己的规则和托管要求。如果那是真实目标，请另行规划。对其他市场，专注于 Google 通常已覆盖大部分流量。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "国际 SEO 是结构性决策与内容承诺的结合。选择您能够维护的 URL 结构，设置相互指向的 hreflang 并保持规范标签一致，把所有版本放进站点地图，并基于按语言的关键词研究做内容本地化。然后按国家和语言衡量结果并定期审计。对这些基本功保持纪律的企业，远比只是添加语言菜单的企业更有可能出现在国际潜在客户面前。" },
+  { type: "p", text: "面向寻找海外买家的制造商的应用示例见[出口商与制造商的 B2B 网站](/blog/website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional)。" },
   {
     type: "cta",
     title: "想让您的网站在 Google 上正确面向国际市场吗？",

@@ -114,6 +114,7 @@ const en: Block[] = [
   { type: "p", text: "A structured product catalogue is the foundation of an online store that can grow without chaos. A data model that separates products and variants, stable item codes, consistent naming rules, honest photos and descriptions, and one data source for all channels make it easier for customers to find and trust your goods." },
   { type: "p", text: "Start with simple rules that are written down and followed, then tidy the highest impact parts first. With a well kept catalogue, the storefront, ads, and point of sale system work on the same data and reinforce one another." },
   { type: "p", text: "Catalog structure also affects SEO; see [online store SEO: categories, canonicals, and duplicate content](/blog/seo-toko-online-faceted-navigation-halaman-kategori-dan-konten-duplikat)." },
+  { type: "p", text: "A structured catalog is also the foundation for your products to be read by AI assistants; read [agentic commerce and AI shopping agents](/blog/agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai)." },
   {
     type: "cta",
     title: "Want an online store with a tidy catalogue connected to the till and stock?",
@@ -237,6 +238,7 @@ const zh: Block[] = [
   { type: "p", text: "结构清晰的商品目录,是网店能够不混乱地成长的基础。区分商品与规格的数据模型、稳定的商品编码、一致的命名规则、诚实的图片和描述,以及所有渠道共用的一份数据来源,让顾客更容易找到并信任你的商品。" },
   { type: "p", text: "从写下来并遵守的简单规则开始,再先整理影响最大的部分。有了维护良好的目录,店铺页面、广告和收银系统都在同一份数据上工作,彼此相互增强。" },
   { type: "p", text: "目录结构也会影响 SEO；请参阅[网店 SEO：分类、规范链接与重复内容](/blog/seo-toko-online-faceted-navigation-halaman-kategori-dan-konten-duplikat)。" },
+  { type: "p", text: "结构化目录也是让 AI 助手读懂你商品的基础；请阅读[代理式商务与 AI 购物代理](/blog/agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai)。" },
   {
     type: "cta",
     title: "想要一个目录整洁、并与收银和库存相连的网店吗?",

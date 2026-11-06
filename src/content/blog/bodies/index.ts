@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_agentic_commerce_menyiapkan_toko_online_untuk_agen_belanja_ai } from "./agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai";
+import { body as b_erp_untuk_distribusi_rantai_dingin_cold_chain_suhu_fefo_dan_pelacakan } from "./erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan";
+import { body as b_tanda_tangan_elektronik_dan_e_meterai_untuk_alur_dokumen_bisnis } from "./tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis";
+import { body as b_website_b2b_untuk_eksportir_dan_manufaktur_menarik_pembeli_internasional } from "./website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional";
+import { body as b_lokasi_penyimpanan_data_dan_kepatuhan_hosting_aplikasi_bisnis_di_indonesia } from "./lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia";
 import { body as b_seo_teknis_crawl_budget_log_server_dan_indexing_untuk_website_bisnis } from "./seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis";
 import { body as b_erp_untuk_freight_forwarding_dan_ekspor_impor_dokumen_biaya_dan_pelacakan_kiriman } from "./erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman";
 import { body as b_akuntansi_aset_tetap_dan_penyusutan_dengan_erp_register_kapitalisasi_dan_pelepasan } from "./akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan";
@@ -243,6 +248,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai": b_agentic_commerce_menyiapkan_toko_online_untuk_agen_belanja_ai,
+  "erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan": b_erp_untuk_distribusi_rantai_dingin_cold_chain_suhu_fefo_dan_pelacakan,
+  "tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis": b_tanda_tangan_elektronik_dan_e_meterai_untuk_alur_dokumen_bisnis,
+  "website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional": b_website_b2b_untuk_eksportir_dan_manufaktur_menarik_pembeli_internasional,
+  "lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia": b_lokasi_penyimpanan_data_dan_kepatuhan_hosting_aplikasi_bisnis_di_indonesia,
   "seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis": b_seo_teknis_crawl_budget_log_server_dan_indexing_untuk_website_bisnis,
   "erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman": b_erp_untuk_freight_forwarding_dan_ekspor_impor_dokumen_biaya_dan_pelacakan_kiriman,
   "akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan": b_akuntansi_aset_tetap_dan_penyusutan_dengan_erp_register_kapitalisasi_dan_pelepasan,

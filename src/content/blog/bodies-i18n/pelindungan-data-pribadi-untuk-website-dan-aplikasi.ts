@@ -167,6 +167,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Managing personal data well is not only about avoiding sanctions but part of building a business that is trusted. Data mapping, collection as needed, a lawful basis, an honest notice, adequate security, governance of third parties, clear retention, and readiness for incidents make your business more resilient and your customers more at ease." },
   { type: "p", text: "Start from the simplest and highest impact steps, then build consistent governance habits. Because the rules keep evolving, make periodic review and consultation with legal counsel part of your routine." },
+  { type: "p", text: "Where data is stored also affects compliance; see [data residency and hosting compliance for applications](/blog/lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia)." },
   {
     type: "cta",
     title: "Want a website or app designed with privacy and data security in mind?",
@@ -343,6 +344,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "妥善管理个人数据不只是避免处罚,而是建设一个被信任的企业的一部分。数据盘点、按需收集、合法依据、诚实的声明、充分的安全、对第三方的管理、清晰的保留期,以及应对事件的准备,让你的企业更有韧性,顾客也更安心。" },
   { type: "p", text: "从最简单、影响最大的步骤开始,然后建立一贯的治理习惯。由于规则不断发展,请把定期审查和咨询法律顾问纳入你的例行工作。" },
+  { type: "p", text: "数据存放在哪里同样影响合规；参见[业务应用的数据存储位置与托管合规](/blog/lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia)。" },
   {
     type: "cta",
     title: "想要一个在设计时就考虑了隐私和数据安全的网站或应用吗?",

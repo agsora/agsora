@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai",
+    title: "Agentic Commerce: Menyiapkan Toko Online untuk Agen Belanja AI",
+    excerpt: "Panduan agentic commerce untuk toko online dan distributor: apa yang dibaca agen belanja AI, data produk dan harga yang siap mesin, protokol transaksi yang mulai muncul, API pesanan, keamanan, dan langkah bertahap.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    tags: ["ecommerce","ai","website"],
+    titleTranslations: {
+      en: "Agentic Commerce: Preparing Your Online Store for AI Shopping Agents",
+      zh: "代理式商务：让网店为 AI 购物代理做好准备",
+    },
+    excerptTranslations: {
+      en: "An agentic commerce guide for online stores and distributors: what AI shopping agents read, machine-ready product and price data, emerging transaction protocols, order APIs, security, and a staged approach.",
+      zh: "面向网店和分销商的代理式商务指南：AI 购物代理读取什么、机器可读的商品与价格数据、正在出现的交易协议、订单 API、安全以及分阶段做法。",
+    },
+  },
+  {
+    slug: "erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan",
+    title: "ERP untuk Distribusi Rantai Dingin (Cold Chain): Suhu, FEFO, dan Pelacakan Lot",
+    excerpt: "Kebutuhan sistem untuk distributor produk beku dan segar: lot dan kedaluwarsa, zona suhu gudang, pengambilan FEFO, data sensor, penanganan penyimpangan suhu, penarikan produk, margin, dan roadmap implementasi.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    tags: ["erp","inventori","industri"],
+    titleTranslations: {
+      en: "ERP for Cold Chain Distribution: Temperature, FEFO, and Lot Tracking",
+      zh: "冷链分销 ERP：温度、FEFO 与批次跟踪",
+    },
+    excerptTranslations: {
+      en: "System requirements for frozen and fresh product distributors: lots and expiry, warehouse temperature zones, FEFO picking, sensor data, temperature excursion handling, recalls, margins, and an implementation roadmap.",
+      zh: "冷冻与生鲜产品分销商的系统需求：批次与到期日、仓库温区、FEFO 拣货、传感器数据、温度偏差处理、产品召回、毛利以及实施路线图。",
+    },
+  },
+  {
+    slug: "tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis",
+    title: "Tanda Tangan Elektronik dan e-Meterai: Mendigitalkan Alur Dokumen Bisnis",
+    excerpt: "Panduan operasional tanda tangan elektronik tersertifikasi dan tidak tersertifikasi, e-meterai, alur dokumen digital, integrasi dengan ERP, CRM, dan HRIS, jejak audit, arsip, dan cara memilih penyedia.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    tags: ["kontrak","otomasi","integrasi"],
+    titleTranslations: {
+      en: "Electronic Signatures and e-Meterai: Digitizing Business Document Flows in Indonesia",
+      zh: "电子签名与电子印花：让企业文件流程数字化",
+    },
+    excerptTranslations: {
+      en: "An operational guide to certified and non-certified electronic signatures, e-meterai, digital document flows, integration with ERP, CRM, and HRIS, audit trails, archiving, and choosing a provider.",
+      zh: "关于经认证与未经认证电子签名、电子印花、数字化文件流程、与 ERP、CRM 和 HRIS 集成、审计轨迹、归档以及如何选择服务商的运营指南。",
+    },
+  },
+  {
+    slug: "website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional",
+    title: "Website B2B untuk Eksportir dan Manufaktur: Menarik Pembeli Internasional",
+    excerpt: "Cara produsen dan eksportir membangun website yang dipercaya pembeli luar negeri: struktur halaman, spesifikasi produk, bukti kepercayaan, bahasa dan SEO internasional, permintaan penawaran, dan tindak lanjut.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    tags: ["website","seo","sales"],
+    titleTranslations: {
+      en: "B2B Websites for Exporters and Manufacturers: Attracting International Buyers",
+      zh: "出口商与制造商的 B2B 网站：吸引国际买家",
+    },
+    excerptTranslations: {
+      en: "How manufacturers and exporters build a website overseas buyers trust: page structure, product specifications, trust evidence, languages and international SEO, requests for quotation, and follow-up.",
+      zh: "制造商和出口商如何打造海外买家信任的网站：页面结构、产品规格、信任证据、多语言与国际 SEO、询价以及跟进。",
+    },
+  },
+  {
+    slug: "lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia",
+    title: "Lokasi Penyimpanan Data dan Kepatuhan Hosting Aplikasi Bisnis di Indonesia",
+    excerpt: "Data residency dan kedaulatan data untuk aplikasi bisnis: gambaran regulasi di Indonesia, aturan sektoral, transfer data pribadi, latensi, biaya, cadangan, data yang terlupakan, dan cara menyusun kebijakan lokasi data.",
+    category: "Teknologi",
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    tags: ["keamanan","infrastruktur","data"],
+    titleTranslations: {
+      en: "Data Residency and Hosting Compliance for Business Applications in Indonesia",
+      zh: "印度尼西亚业务应用的数据存储位置与托管合规",
+    },
+    excerptTranslations: {
+      en: "Data residency and sovereignty for business applications: an overview of Indonesian regulation, sectoral rules, personal data transfer, latency, cost, backups, forgotten data flows, and how to build a data location policy.",
+      zh: "业务应用的数据驻留与数据主权：印度尼西亚法规概览、行业规定、个人数据传输、延迟、成本、备份、被遗忘的数据流以及如何制定数据位置政策。",
+    },
+  },
+  {
     slug: "seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis",
     title: "SEO Teknis untuk Website Bisnis: Crawl Budget, Analisis Log Server, dan Masalah Indexing",
     excerpt: "Panduan SEO teknis untuk bisnis: cara kerja crawling dan indexing, kapan crawl budget penting, membaca laporan Search Console, analisis log server, robots.txt, canonical, sitemap, dan rencana audit 30 hari.",
@@ -538,7 +623,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan SEO internasional untuk website bisnis: memilih struktur URL, hreflang timbal balik, kanonikal, peta situs, pengalih bahasa, lokalisasi konten, dan pengukuran hasil.",
     category: "Website & Digital",
     publishedAt: "2026-10-26",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-06",
     tags: ["seo","website","ecommerce"],
     titleTranslations: {
       en: "International SEO: Hreflang, URL Structure, Canonicals, and Content Localization for Reaching Overseas Markets",
@@ -1235,7 +1320,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja pelacakan lot di ERP, aturan FEFO, ketertelusuran dua arah, pemindaian barcode, kesiapan penarikan produk, dan langkah penerapan tanpa memperlambat gudang.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-06",
     tags: ["erp","inventori","industri"],
     titleTranslations: {
       en: "Lot, Batch, and Expiry Date Tracking with ERP: From FEFO to Product Recalls",
@@ -1728,7 +1813,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara menata dokumen bisnis agar menempel pada transaksi: struktur dan metadata, hak akses, versi dan persetujuan, masa simpan, digitalisasi arsip kertas, dan rencana 90 hari.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-11-06",
     tags: ["erp","operasional","otomasi"],
     titleTranslations: {
       en: "Document Management and Digital Archives with ERP: From Piles of Files to an Archive You Can Search",
@@ -1796,7 +1881,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengelola kontrak pelanggan secara terstruktur: data kunci, siklus hidup kontrak, proses perpanjangan, kenaikan harga, hubungan dengan penagihan dan layanan, serta tinjauan portofolio.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-06",
     tags: ["crm","sales","pelanggan"],
     titleTranslations: {
       en: "Customer Contract and Renewal Management: So No Revenue Quietly Expires",
@@ -2374,7 +2459,7 @@ export const meta: PostMeta[] = [
     excerpt: "Asisten AI dan ringkasan jawaban mengubah cara orang mencari. Apa yang berubah dan yang tetap, konten yang sulit digantikan, dasar teknis, akses perayap AI, reputasi di luar website, dan cara mengukur yang lebih bermakna.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-03",
+    updatedAt: "2026-11-06",
     tags: ["seo","ai","website","data"],
     titleTranslations: {
       en: "AI Based Search and the Future of SEO: Keeping Your Business Website Found and Trusted",
@@ -2391,7 +2476,7 @@ export const meta: PostMeta[] = [
     excerpt: "Katalog adalah inti toko online. Cara menyusun model data produk dan varian, kode barang yang stabil, aturan penamaan, kategori, foto, deskripsi, dan satu sumber data untuk semua kanal.",
     category: "Website & Digital",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-06",
     tags: ["ecommerce","data","website"],
     titleTranslations: {
       en: "A Structured Online Store Catalogue: A Tidy Foundation for Sales That Can Grow",
@@ -2544,7 +2629,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan edukatif mengelola data pribadi: memetakan data, dasar pengumpulan dan persetujuan, pemberitahuan privasi, hak pemilik data, pengamanan, pihak ketiga, masa simpan, dan kesiapan menghadapi kebocoran.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-11-06",
     tags: ["keamanan","data","pelanggan","kontrak"],
     titleTranslations: {
       en: "Personal Data Protection for Websites and Apps: Practical Steps for Business Owners",
@@ -3311,7 +3396,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menjalankan sistem di cloud atau di server sendiri bukan soal mana yang lebih modern, tapi soal biaya, kendali, dan kemampuan tim merawatnya.",
     category: "Teknologi",
     publishedAt: "2026-08-29",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-06",
     tags: [
       "infrastruktur",
       "keamanan",
@@ -3324,6 +3409,7 @@ export const meta: PostMeta[] = [
     excerpt: "Website perusahaan yang hanya berisi sejarah dan visi misi jarang menghasilkan pertanyaan dari calon klien. Ini yang membedakan website yang bekerja.",
     category: "Website & Digital",
     publishedAt: "2026-08-27",
+    updatedAt: "2026-11-06",
     tags: [
       "website",
       "seo",
@@ -3569,7 +3655,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis distribusi bergerak di antara gudang, armada, sales lapangan, dan tagihan pelanggan. Sistemnya harus menyatukan semua titik itu, bukan hanya mencatat stok.",
     category: "Panduan Industri",
     publishedAt: "2026-07-16",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-06",
     tags: [
       "industri",
       "inventori",

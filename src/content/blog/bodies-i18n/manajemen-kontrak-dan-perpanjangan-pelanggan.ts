@@ -134,6 +134,7 @@ const en: Block[] = [
   { type: "p", text: "Well managed contracts are a source of predictable revenue and healthier customer relationships. With structured key data, reminders that work, and a renewal process that starts earlier, a business stops losing opportunities and obligations quietly." },
   { type: "p", text: "Start with a simple inventory and end date reminders. From that foundation, connect to billing and service, then add portfolio reviews. Each small step already reduces risk and keeps your recurring revenue better protected." },
   { type: "p", text: "An example of recurring leases in property is in [rental property management systems](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)." },
+  { type: "p", text: "Contract signing can be sped up with [electronic signatures and e-meterai](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)." },
   {
     type: "cta",
     title: "Want to tidy customer contracts and their renewals in your business systems?",
@@ -277,6 +278,7 @@ const zh: Block[] = [
   { type: "p", text: "管理良好的合同，是可预测收入和更健康客户关系的来源。有了结构化的关键数据、有效的提醒，以及更早开始的续约流程，企业就不再悄悄流失机会和义务。" },
   { type: "p", text: "从简单的清单和到期提醒开始。在此基础上，与计费和服务连接，再增加组合复盘。每一小步都已经降低了风险，让您的经常性收入更有保障。" },
   { type: "p", text: "物业中周期性合同的应用示例见[租赁物业管理系统](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)。" },
+  { type: "p", text: "借助[电子签名与电子印花](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)可以加快合同签署。" },
   {
     type: "cta",
     title: "想理顺业务系统中的客户合同与续约吗？",

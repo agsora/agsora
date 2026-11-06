@@ -191,6 +191,7 @@ export const body: Block[] = [
     type: "p",
     text: "Website company profile yang menghasilkan prospek bukan yang paling mewah, tetapi yang paling memahami pengunjungnya. Jawab pertanyaan mereka secara berurutan, tunjukkan bukti yang jujur, permudah mereka menghubungi, dan terus perbaiki berdasarkan data. Brosur digital hanya dilihat; website yang bekerja membuat orang bertindak.",
   },
+  { type: "p", text: "Jika target Anda pembeli internasional, baca [website B2B untuk eksportir dan manufaktur](/blog/website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional)." },
   {
     type: "cta",
     title: "Website Anda sepi pertanyaan?",

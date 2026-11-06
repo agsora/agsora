@@ -153,6 +153,7 @@ export const body: Block[] = [
     text: "Bisnis distribusi memiliki rantai operasional yang saling terhubung erat, dari gudang hingga penagihan. Sistem yang tepat menyatukan seluruh rantai ini, memberikan sales data yang akurat di lapangan, mengendalikan risiko piutang, dan mempercepat siklus dari pesanan hingga pembayaran diterima.",
   },
   { type: "p", text: "Untuk kendaraan dan pengiriman, baca [manajemen armada dan transportasi dengan GPS dan ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
+  { type: "p", text: "Distributor produk beku dan segar memiliki kebutuhan tambahan yang dibahas di [ERP untuk distribusi rantai dingin](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)." },
   {
     type: "cta",
     title: "Sales lapangan Anda masih pakai daftar harga cetak?",
