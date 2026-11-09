@@ -67,6 +67,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: localizePath(path, locale),
       languages: languageAlternates(path, available),
+      // Markdown twin for AI agents (see blog/[slug]/md/route.ts).
+      types: { "text/markdown": `${localizePath(path, locale)}.md` },
     },
     openGraph: {
       type: "article",
@@ -104,6 +106,15 @@ export default async function BlogPostPage({ params }: Props) {
     "@graph": [
       {
         "@type": "BlogPosting",
+        "@id": `${absoluteUrl(`/blog/${post.slug}`, locale)}#article`,
+        isPartOf: { "@id": `${siteConfig.url}/#website` },
+        isAccessibleForFree: true,
+        // Topics as named entities, so answer engines can place the article.
+        about: post.tags.map((tag) => ({ "@type": "Thing", name: tag })),
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: ["h1"],
+        },
         headline: title,
         description: getPostExcerpt(post, locale),
         image: `${siteConfig.url}/og/blog/${locale}/${post.slug}`,
@@ -117,6 +128,7 @@ export default async function BlogPostPage({ params }: Props) {
         author: { "@type": "Organization", name: "agsora.tech", url: siteConfig.url },
         publisher: {
           "@type": "Organization",
+          "@id": `${siteConfig.url}/#organization`,
           name: siteConfig.legalName,
           logo: { "@type": "ImageObject", url: `${siteConfig.url}/apple-icon.png` },
         },
