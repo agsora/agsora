@@ -13,6 +13,23 @@ const nextConfig: NextConfig = {
     // Points AI agents that read response headers at the site map for LLMs.
     return [
       {
+        // Security headers. The CSP is limited to frame-ancestors: a full
+        // script policy would need nonces for the site's inline theme script
+        // and JSON-LD blocks, so it is not enabled here.
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          { key: "Content-Security-Policy", value: "frame-ancestors 'self'" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Cross-Origin-Opener-Policy", value: "same-origin-allow-popups" },
+          {
+            key: "Permissions-Policy",
+            value: "camera=(), microphone=(), geolocation=(), payment=()",
+          },
+        ],
+      },
+      {
         source: "/:path((?!_next/|api/).*)",
         headers: [
           { key: "Link", value: '</llms.txt>; rel="describedby"; type="text/plain"' },

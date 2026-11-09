@@ -59,7 +59,7 @@ const koperasiEmas: PortfolioProject = {
   slug: "koperasiemas",
   name: "Koperasi Emas Digital",
   client: "Koperasi Emas Kimberli",
-  logo: "/logos/koperasi-emas-kimberli.png",
+  logo: "/logos/koperasi-emas-kimberli.webp",
   industry: "koperasi",
   category: {
     id: "Platform Koperasi & Fintech",

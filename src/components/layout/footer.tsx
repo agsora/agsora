@@ -132,13 +132,14 @@ export function Footer() {
           <p>{siteConfig.domain.replace(/^www./, "")}</p>
         </div>
       </div>
-      {/* Oversized wordmark, cut off at the bottom edge */}
-      <p
+      {/* Oversized wordmark, cut off at the bottom edge. Purely decorative, so
+          it is drawn from a pseudo-element: it is not page text, which keeps
+          contrast checkers and the accessibility tree from reading it. */}
+      <div
         aria-hidden="true"
-        className="pointer-events-none -mb-[0.22em] select-none text-center font-brand text-[22vw] font-semibold leading-none tracking-[-0.04em] text-ink/[0.045] md:text-[17vw]"
-      >
-        AG·SORA
-      </p>
+        data-text="AG·SORA"
+        className="pointer-events-none -mb-[0.22em] select-none text-center font-brand text-[22vw] font-semibold leading-none tracking-[-0.04em] text-ink/[0.045] before:content-[attr(data-text)] md:text-[17vw]"
+      />
     </footer>
   );
 }

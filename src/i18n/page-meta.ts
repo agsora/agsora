@@ -124,7 +124,7 @@ export const pageMeta = {
     en: {
       title: "Blog: Business Systems & Software Guides",
       description:
-        "Practical guides on ERP, POS, HRIS, custom software, and digital transformation for business owners and operations teams.",
+        "Practical guides on ERP, POS, HRIS, CRM, custom software, and digital transformation for business owners and operations teams in Indonesia.",
     },
     zh: {
       title: "博客：商业系统与软件指南",
