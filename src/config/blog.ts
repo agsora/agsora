@@ -350,9 +350,14 @@ export function getAdjacentPosts(slug: string, locale: Locale = "id") {
 const dateLocales: Record<Locale, string> = { id: "id-ID", en: "en-GB", zh: "zh-CN" };
 
 export function formatPostDate(iso: string, locale: Locale = "id") {
+  // `iso` is a calendar date ("2026-01-05"), parsed as UTC midnight. Format it
+  // in UTC too: otherwise a browser west of UTC shows the previous day, which
+  // no longer matches the server-rendered HTML and breaks hydration (React
+  // error #418).
   return new Date(iso).toLocaleDateString(dateLocales[locale], {
     day: "numeric",
     month: "long",
     year: "numeric",
+    timeZone: "UTC",
   });
 }
