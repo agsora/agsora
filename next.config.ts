@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  experimental: {
+    // The whole stylesheet is ~14 KiB (Tailwind), so inlining it removes the
+    // render-blocking CSS request for first-time visitors.
+    inlineCss: true,
+  },
   images: {
     // Article photos are self-hosted, pre-sized WebP files; see the loader.
     loader: "custom",
