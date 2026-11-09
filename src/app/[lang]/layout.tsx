@@ -129,6 +129,16 @@ export default async function RootLayout({ children, params }: Props) {
           siteConfig.social.facebook,
           siteConfig.social.tiktok,
         ],
+        contactPoint: [
+          {
+            "@type": "ContactPoint",
+            contactType: "sales",
+            email: siteConfig.email,
+            telephone: siteConfig.whatsapp.number,
+            availableLanguage: ["Indonesian", "English", "Chinese"],
+            areaServed: "Worldwide",
+          },
+        ],
         // Based in Indonesia, serving clients anywhere.
         address: { "@type": "PostalAddress", addressCountry: "ID" },
         knowsLanguage: locales.map((l) => hreflangs[l]),
