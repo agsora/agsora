@@ -125,8 +125,14 @@ export default async function BlogPostPage({ params }: Props) {
         wordCount: post.wordCount,
         keywords: post.tags.join(", "),
         inLanguage: hreflangs[locale],
-        // Same name as the visible byline (growth.byline).
-        author: { "@type": "Organization", name: "agsora.tech", url: siteConfig.url },
+        // Same entity as the visible byline (growth.byline): the company,
+        // linked to the Organization node in the layout's JSON-LD graph.
+        author: {
+          "@type": "Organization",
+          "@id": `${siteConfig.url}/#organization`,
+          name: siteConfig.legalName,
+          url: siteConfig.url,
+        },
         publisher: {
           "@type": "Organization",
           "@id": `${siteConfig.url}/#organization`,
