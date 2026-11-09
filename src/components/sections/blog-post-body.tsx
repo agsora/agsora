@@ -16,8 +16,8 @@ import {
   getCategoryLabel,
   getCoverAlt,
   getPersonalizedRecommendations,
-  getPostBlocks,
   getPostTitle,
+  type Block,
   type BlogPost,
 } from "@/config/blog";
 import { getLastReadAt, getReadingHistory, recordPostView } from "@/lib/reading-history";
@@ -53,9 +53,12 @@ function useReaderSnapshot(slug: string): ReaderSnapshot {
 
 export function BlogPostBody({
   post,
+  blocks,
   recommended,
 }: {
   post: BlogPost;
+  /** This article's body in the page's language, resolved on the server. */
+  blocks: Block[];
   recommended: BlogPost[];
 }) {
   const { t, locale } = useLocale();
@@ -157,18 +160,13 @@ export function BlogPostBody({
 
       <Section>
         <Container className="max-w-6xl">
-          {(() => {
-            const blocks = getPostBlocks(post, locale);
-            return (
-              <div className="lg:grid lg:grid-cols-[minmax(0,42rem)_16rem] lg:justify-between lg:gap-12">
-                <div>
-                  <PostTocMobile blocks={blocks} />
-                  <PostBody blocks={blocks} postSlug={post.slug} />
-                </div>
-                <PostTocSidebar blocks={blocks} />
-              </div>
-            );
-          })()}
+          <div className="lg:grid lg:grid-cols-[minmax(0,42rem)_16rem] lg:justify-between lg:gap-12">
+            <div>
+              <PostTocMobile blocks={blocks} />
+              <PostBody blocks={blocks} postSlug={post.slug} />
+            </div>
+            <PostTocSidebar blocks={blocks} />
+          </div>
         </Container>
       </Section>
 

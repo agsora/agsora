@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "blog-stats": "node scripts/blog-stats.mjs",
+    "predev": "node scripts/blog-stats.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/blog-stats.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
