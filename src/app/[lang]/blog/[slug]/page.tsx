@@ -12,6 +12,7 @@ import {
   isPostAvailable,
   type BlogPost,
 } from "@/config/blog";
+import { getPostBlocks } from "@/config/blog-content";
 import { siteConfig } from "@/config/site";
 import { dictionaries } from "@/i18n/dictionaries";
 import {
@@ -167,7 +168,11 @@ export default async function BlogPostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
       />
 
-      <BlogPostBody post={post} recommended={recommended} />
+      <BlogPostBody
+        post={post}
+        blocks={getPostBlocks(post, locale)}
+        recommended={recommended}
+      />
     </>
   );
 }

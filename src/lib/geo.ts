@@ -1,13 +1,13 @@
 import {
   blogPosts,
   getCategoryLabel,
-  getPostBlocks,
   getPostExcerpt,
   getPostTitle,
   isPostAvailable,
   type Block,
   type BlogPost,
 } from "@/config/blog";
+import { getPostBlocks } from "@/config/blog-content";
 import { industries } from "@/config/industries";
 import { services } from "@/config/services";
 import { siteConfig } from "@/config/site";
