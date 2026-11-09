@@ -304,14 +304,15 @@ body {
 }
 
 /* Scroll-in reveal: visible by default, animated only where the browser
-   supports scroll-driven animations and the visitor allows motion. */
+   supports scroll-driven animations and the visitor allows motion.
+   It slides but never fades: a card that is part-way through a fade has
+   washed-out text, and contrast checkers (Lighthouse) sample it in that
+   state and fail it even though the finished page passes. */
 @keyframes reveal-in {
   from {
-    opacity: 0;
     transform: translateY(18px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
