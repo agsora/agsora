@@ -9,6 +9,17 @@ const nextConfig: NextConfig = {
     // so srcset never needs to list the 2048/3840 defaults.
     deviceSizes: [640, 828, 1080, 1400],
   },
+  async headers() {
+    // Points AI agents that read response headers at the site map for LLMs.
+    return [
+      {
+        source: "/:path((?!_next/|api/).*)",
+        headers: [
+          { key: "Link", value: '</llms.txt>; rel="describedby"; type="text/plain"' },
+        ],
+      },
+    ];
+  },
   async redirects() {
     // Page 1 of the archive is /blog; never let a second URL compete with it.
     return [
