@@ -63,6 +63,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Cybersecurity for small businesses is not about buying the most sophisticated tools, but about building a few basic habits and controls and running them with discipline. Verifying payments through another channel, two step authentication, tested backups, regular updates, and a one page response plan already cover most of the real risk small businesses face." },
   { type: "p", text: "Start with what is cheapest and has the most impact, measure progress, then improve step by step. When your business systems, from the website to the point of sale to the [ERP](/services/erp), are built with security from the start, you not only protect yourself from loss but also build the customer trust that fuels growth." },
+  { type: "p", text: "To limit the impact of a compromised account, read [zero trust and access security for mid-sized businesses](/blog/zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan)." },
   {
     type: "cta",
     title: "Want your website and business apps to be secure from the start?",
@@ -135,6 +136,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "中小企业的网络安全并不是购买最先进的工具，而是建立若干基本习惯和控制措施，并严格执行。通过另一渠道核实付款、双重验证、经过测试的备份、定期更新以及一页纸的响应计划，已经覆盖了小企业面临的大部分真实风险。" },
   { type: "p", text: "从最便宜、影响最大的做起，衡量进展，然后逐步提升。当您的业务系统，从网站到收银再到 [ERP](/services/erp)，从一开始就以安全为前提来构建时，您不仅能避免损失，还能建立推动增长的客户信任。" },
+  { type: "p", text: "要限制账号被攻破的影响，请阅读[中型企业的零信任与访问安全](/blog/zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan)。" },
   {
     type: "cta",
     title: "希望您的网站和业务应用从一开始就安全可靠吗？",

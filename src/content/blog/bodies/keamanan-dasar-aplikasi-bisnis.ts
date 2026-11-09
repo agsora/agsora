@@ -146,6 +146,7 @@ export const body: Block[] = [
     type: "p",
     text: "Keamanan aplikasi bisnis bukan fitur tambahan yang bisa dipasang belakangan tanpa konsekuensi, melainkan fondasi yang perlu dipikirkan sejak awal proses perancangan. Dengan autentikasi yang kuat, pemeriksaan hak akses yang konsisten, dan validasi input yang ketat, celah-celah keamanan yang paling umum dan paling merugikan bisa dicegah sejak awal, jauh sebelum menjadi masalah nyata yang merugikan bisnis dan penggunanya.",
   },
+  { type: "p", text: "Langkah lanjutan setelah dasar-dasar ini adalah memverifikasi setiap akses; lihat [zero trust untuk bisnis menengah](/blog/zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan)." },
   {
     type: "cta",
     title: "Yakin aplikasi bisnis Anda sudah aman dari celah dasar?",

@@ -135,6 +135,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Penjadwalan yang baik menyeimbangkan tiga hal yang sering bertentangan: kebutuhan layanan, biaya, dan kesejahteraan karyawan. Ketika ketiganya dipertimbangkan secara terbuka, dengan data, aturan yang jelas, dan alat yang tepat, hasilnya adalah pelanggan yang dilayani lebih baik dan tim yang lebih betah." },
   { type: "p", text: "Mulailah dengan memahami kebutuhan sebenarnya, tuliskan aturan yang adil, dan hubungkan jadwal dengan absensi serta penggajian. Pekerjaan administratif berkurang, kesalahan menurun, dan para supervisor mendapatkan kembali waktu untuk memimpin tim, bukan sekadar menyusun lembar kerja." },
+  { type: "p", text: "Untuk penyedia tenaga kerja alih daya yang menjadwalkan orang di banyak lokasi klien, baca [ERP untuk perusahaan alih daya](/blog/erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll)." },
   {
     type: "cta",
     title: "Ingin merapikan jadwal shift, absensi, dan penggajian tim Anda?",

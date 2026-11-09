@@ -105,6 +105,7 @@ export const body: Block[] = [
   { type: "p", text: "Untuk inspeksi visual otomatis, lihat [computer vision untuk bisnis](/blog/computer-vision-untuk-bisnis-inspeksi-penghitungan-dan-keselamatan-kerja)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Kendali mutu yang terhubung dengan ERP mengubah pemeriksaan dari formalitas menjadi sumber pembelajaran dan penghematan. Dengan titik pemeriksaan yang jelas, status karantina yang menahan barang bermasalah, tindakan korektif yang dilacak, dan penelusuran lot dari bahan hingga pelanggan, produsen dapat mengurangi cacat, menekan biaya, dan menjawab keluhan lebih cepat. Mulailah dari satu lini dan karakteristik kritis saja, pastikan pencatatan mudah, lalu perluas secara bertahap berdasarkan data." },
+  { type: "p", text: "Untuk laboratorium pengujian, pengendalian mutu mencakup sampel dan metode; baca [sistem informasi laboratorium (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
   {
     type: "cta",
     title: "Ingin kendali mutu terhubung dengan ERP produksi Anda?",

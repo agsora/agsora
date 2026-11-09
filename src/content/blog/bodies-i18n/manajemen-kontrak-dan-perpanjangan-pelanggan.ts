@@ -135,6 +135,7 @@ const en: Block[] = [
   { type: "p", text: "Start with a simple inventory and end date reminders. From that foundation, connect to billing and service, then add portfolio reviews. Each small step already reduces risk and keeps your recurring revenue better protected." },
   { type: "p", text: "An example of recurring leases in property is in [rental property management systems](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)." },
   { type: "p", text: "Contract signing can be sped up with [electronic signatures and e-meterai](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)." },
+  { type: "p", text: "For suppliers selling to government agencies, contracts and payment stages have their own particularities; see [systems for government project vendors](/blog/sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin)." },
   {
     type: "cta",
     title: "Want to tidy customer contracts and their renewals in your business systems?",
@@ -279,6 +280,7 @@ const zh: Block[] = [
   { type: "p", text: "从简单的清单和到期提醒开始。在此基础上，与计费和服务连接，再增加组合复盘。每一小步都已经降低了风险，让您的经常性收入更有保障。" },
   { type: "p", text: "物业中周期性合同的应用示例见[租赁物业管理系统](/blog/sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan)。" },
   { type: "p", text: "借助[电子签名与电子印花](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)可以加快合同签署。" },
+  { type: "p", text: "对于向政府机构销售的供应商，合同和付款节点有其特殊性；请参阅[政府项目供应商的系统](/blog/sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin)。" },
   {
     type: "cta",
     title: "想理顺业务系统中的客户合同与续约吗？",

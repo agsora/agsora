@@ -81,6 +81,7 @@ export const body: Block[] = [
   { type: "p", text: "Dari sisi pemasok material bagi kontraktor, baca [ERP untuk toko bangunan dan distributor material](/blog/erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "ERP untuk konstruksi bukan sekadar akuntansi dengan label proyek. Nilainya terletak pada kemampuan melihat anggaran, komitmen, biaya aktual, dan progres secara berdampingan, sehingga keputusan dapat diambil selagi proyek masih bisa diperbaiki. Dengan struktur biaya yang disiplin, alur subkontraktor dan penagihan yang jelas, serta pencatatan lapangan yang mudah, kontraktor dapat mengurangi kejutan biaya dan memperbaiki arus kas. Mulailah dari modul biaya dan pembelian pada proyek baru, pelajari hasilnya, lalu perluas secara bertahap." },
+  { type: "p", text: "Kontraktor yang mengerjakan proyek instansi pemerintah dapat membaca [sistem untuk vendor proyek pemerintah](/blog/sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin)." },
   {
     type: "cta",
     title: "Butuh sistem biaya proyek untuk perusahaan konstruksi Anda?",

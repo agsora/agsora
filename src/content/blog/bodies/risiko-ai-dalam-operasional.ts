@@ -127,6 +127,7 @@ export const body: Block[] = [
     type: "p",
     text: "AI membawa manfaat nyata bagi operasional bisnis, tetapi juga membawa jenis risiko yang berbeda dari software konvensional yang selama ini kita kenal. Dengan memahami keterbatasannya, menetapkan batasan yang jelas, dan menerapkannya secara bertahap dimulai dari yang berisiko rendah, bisnis bisa memanfaatkan teknologi ini secara bertanggung jawab tanpa menciptakan masalah baru yang justru merugikan di kemudian hari.",
   },
+  { type: "p", text: "Salah satu cara menekan risiko ini adalah kontrol manusia yang dirancang baik; lihat [human-in-the-loop untuk AI agent](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)." },
   {
     type: "cta",
     title: "Ingin menerapkan AI di bisnis Anda dengan aman dan terukur?",

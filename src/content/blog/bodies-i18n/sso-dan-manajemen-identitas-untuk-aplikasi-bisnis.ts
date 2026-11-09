@@ -109,6 +109,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Identity management is not glamorous, but it is one of the security investments with the clearest return. One managed entry point reduces the risk of leaks, speeds up new hires, cuts reset requests, and makes access revocation a certainty rather than a hope." },
   { type: "p", text: "Start from the inventory and the two or three most important applications, add MFA, connect it to employee data, then expand. Each small step already closes a real gap, and this foundation will make every new system you add in future easier." },
+  { type: "p", text: "Strong identity is the foundation of a zero trust approach; see [zero trust for mid-sized businesses](/blog/zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan)." },
   {
     type: "cta",
     title: "Want to tidy access and identity across your business systems?",
@@ -227,6 +228,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "身份管理并不光鲜，却是回报最明确的安全投资之一。一个受管理的入口可以降低泄露风险、加快新员工上手、减少重置请求，并让撤销权限成为确定的动作，而不是一种期望。" },
   { type: "p", text: "从盘点和最重要的两三个应用开始，加上 MFA，与员工数据联动，然后再扩展。每一小步都已经堵住了一个真实的缺口，而这个基础会让您今后添加的每个新系统都更容易接入。" },
+  { type: "p", text: "强身份是零信任方法的基础；请参阅[中型企业的零信任](/blog/zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan)。" },
   {
     type: "cta",
     title: "想理顺整个业务系统的访问与身份吗？",

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_erp_untuk_perusahaan_alih_daya_outsourcing_tenaga_kerja_penagihan_per_kepala_dan_payroll } from "./erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll";
+import { body as b_sistem_informasi_laboratorium_lims_sampel_metode_uji_dan_laporan_hasil } from "./sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil";
+import { body as b_zero_trust_dan_keamanan_akses_untuk_bisnis_menengah_tanpa_vpn_berlebihan } from "./zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan";
+import { body as b_human_in_the_loop_persetujuan_manusia_untuk_ai_agent_di_proses_bisnis } from "./human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis";
+import { body as b_sistem_untuk_vendor_proyek_pemerintah_e_katalog_tender_dan_penagihan_termin } from "./sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin";
 import { body as b_agentic_commerce_menyiapkan_toko_online_untuk_agen_belanja_ai } from "./agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai";
 import { body as b_erp_untuk_distribusi_rantai_dingin_cold_chain_suhu_fefo_dan_pelacakan } from "./erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan";
 import { body as b_tanda_tangan_elektronik_dan_e_meterai_untuk_alur_dokumen_bisnis } from "./tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis";
@@ -248,6 +253,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll": b_erp_untuk_perusahaan_alih_daya_outsourcing_tenaga_kerja_penagihan_per_kepala_dan_payroll,
+  "sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil": b_sistem_informasi_laboratorium_lims_sampel_metode_uji_dan_laporan_hasil,
+  "zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan": b_zero_trust_dan_keamanan_akses_untuk_bisnis_menengah_tanpa_vpn_berlebihan,
+  "human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis": b_human_in_the_loop_persetujuan_manusia_untuk_ai_agent_di_proses_bisnis,
+  "sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin": b_sistem_untuk_vendor_proyek_pemerintah_e_katalog_tender_dan_penagihan_termin,
   "agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai": b_agentic_commerce_menyiapkan_toko_online_untuk_agen_belanja_ai,
   "erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan": b_erp_untuk_distribusi_rantai_dingin_cold_chain_suhu_fefo_dan_pelacakan,
   "tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis": b_tanda_tangan_elektronik_dan_e_meterai_untuk_alur_dokumen_bisnis,

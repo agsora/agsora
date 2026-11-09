@@ -94,6 +94,7 @@ const en: Block[] = [
   { type: "p", text: "Good AI governance is not a brake on innovation but a foundation that lets innovation be trusted. With clear data classification, approved tools, meaningful human oversight, and practical training, a business can use AI without staking customer trust." },
   { type: "p", text: "Start simple, run it consistently, and review periodically. A one page policy that is understood and obeyed is worth more than a thick document never opened. Because regulation keeps developing, follow current rules and involve a legal adviser for high risk uses." },
   { type: "p", text: "AI specific security risks are covered in [AI application security: prompt injection and data leakage](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)." },
+  { type: "p", text: "Applying policy at the process level, including autonomy levels and approvals, is covered in [human-in-the-loop for AI agents](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)." },
   {
     type: "cta",
     title: "Want to apply AI in your business safely and measurably?",
@@ -197,6 +198,7 @@ const zh: Block[] = [
   { type: "p", text: "良好的 AI 治理不是创新的刹车，而是让创新值得信赖的基础。有了清晰的数据分类、已批准的工具、有意义的人工监督和实用的培训，企业就能在不拿客户信任冒险的前提下使用 AI。" },
   { type: "p", text: "从简单开始，持续执行，定期复审。一份被理解并遵守的一页纸政策，胜过一份从未被翻开的厚重文件。由于法规持续发展，请关注现行规定，并在高风险使用时请法律顾问参与。" },
   { type: "p", text: "AI 应用特有的安全风险见[AI 应用安全：提示注入与数据泄露](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)。" },
+  { type: "p", text: "在流程层面落实政策（包括自主级别和审批）详见[AI 代理的人在回路](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)。" },
   {
     type: "cta",
     title: "想安全且可衡量地在业务中应用 AI 吗？",

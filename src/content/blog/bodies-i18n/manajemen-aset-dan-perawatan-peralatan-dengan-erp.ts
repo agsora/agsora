@@ -126,6 +126,7 @@ const en: Block[] = [
   { type: "p", text: "ERP helps because assets, purchasing, inventory, and finance live in one system so data does not need to be entered repeatedly. Start with critical assets, build the habit, then expand. A well maintained asset is one that works for your business, not the other way round." },
   { type: "p", text: "For vehicles and deliveries, read [fleet and transport management with GPS and ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   { type: "p", text: "On the bookkeeping side, learn about [fixed asset accounting and depreciation with ERP](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)." },
+  { type: "p", text: "Calibration of measuring instruments in laboratories is covered in [laboratory information management systems (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
   {
     type: "cta",
     title: "Assets and service history still scattered across many notes?",
@@ -261,6 +262,7 @@ const zh: Block[] = [
   { type: "p", text: "ERP 之所以有帮助，是因为资产、采购、库存和财务在同一个系统中，数据无需重复录入。从关键资产开始，养成习惯，再逐步扩展。维护良好的资产，是为你的业务工作的资产，而不是反过来。" },
   { type: "p", text: "关于车辆和配送，请阅读[结合 GPS 与 ERP 的车队与运输管理](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)。" },
   { type: "p", text: "在记账方面，请了解[用 ERP 做固定资产会计与折旧](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)。" },
+  { type: "p", text: "实验室测量仪器的校准详见[实验室信息管理系统（LIMS）](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)。" },
   {
     type: "cta",
     title: "资产和维修历史仍散落在许多记录里？",

@@ -109,6 +109,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Manajemen identitas tidak glamor, tetapi ia adalah salah satu investasi keamanan dengan imbal hasil paling jelas. Satu pintu masuk yang terkelola mengurangi risiko kebocoran, mempercepat karyawan baru, memangkas permintaan reset, dan membuat pencabutan akses menjadi tindakan yang pasti, bukan harapan." },
   { type: "p", text: "Mulailah dari inventaris dan dua atau tiga aplikasi terpenting, tambahkan MFA, hubungkan dengan data karyawan, lalu perluas. Setiap langkah kecil sudah menutup celah nyata, dan fondasi ini akan memudahkan setiap sistem baru yang Anda tambahkan di masa depan." },
+  { type: "p", text: "Identitas yang kuat adalah fondasi pendekatan zero trust; lihat [zero trust untuk bisnis menengah](/blog/zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan)." },
   {
     type: "cta",
     title: "Ingin merapikan akses dan identitas di seluruh sistem bisnis Anda?",

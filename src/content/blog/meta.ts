@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll",
+    title: "ERP untuk Perusahaan Alih Daya (Outsourcing): Penagihan per Kepala, Absensi, dan Payroll",
+    excerpt: "Panduan sistem untuk penyedia tenaga kerja alih daya: kontrak dan tarif per klien, penempatan, absensi di lokasi, persetujuan kehadiran, payroll dan faktur dari data yang sama, perhitungan biaya, dan laporan margin.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    tags: ["erp","hris","industri"],
+    titleTranslations: {
+      en: "ERP for Manpower Outsourcing Companies: Per-Head Billing, Attendance, and Payroll",
+      zh: "人力外包公司 ERP：按人头开票、出勤与工资",
+    },
+    excerptTranslations: {
+      en: "A system guide for outsourced workforce providers: contracts and rates per client, placements, on-site attendance, attendance approval, payroll and invoices from the same data, cost calculation, and margin reports.",
+      zh: "面向人力外包服务商的系统指南：按客户的合同与费率、派驻、现场出勤、出勤确认、同一数据生成工资与发票、成本核算以及毛利报表。",
+    },
+  },
+  {
+    slug: "sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil",
+    title: "Sistem Informasi Laboratorium (LIMS): Sampel, Metode Uji, dan Laporan Hasil",
+    excerpt: "Fungsi inti LIMS untuk laboratorium pengujian: penerimaan dan penandaan sampel, metode dan spesifikasi, peralatan dan kalibrasi, reagen, pengendalian mutu, jejak audit, laporan hasil uji, dan integrasi dengan ERP serta penagihan.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    tags: ["operasional","industri","data"],
+    titleTranslations: {
+      en: "Laboratory Information Management Systems (LIMS): Samples, Test Methods, and Result Reports",
+      zh: "实验室信息管理系统（LIMS）：样品、检测方法与结果报告",
+    },
+    excerptTranslations: {
+      en: "Core LIMS functions for testing laboratories: sample receipt and labeling, methods and specifications, instruments and calibration, reagents, quality control, audit trails, test reports, and integration with ERP and billing.",
+      zh: "检测实验室 LIMS 的核心功能：样品接收与标识、方法与规格、仪器与校准、试剂、质量控制、审计轨迹、检测报告，以及与 ERP 和计费的集成。",
+    },
+  },
+  {
+    slug: "zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan",
+    title: "Zero Trust untuk Bisnis Menengah: Keamanan Akses Tanpa VPN Berlebihan",
+    excerpt: "Pengantar zero trust yang praktis untuk bisnis menengah: identitas dan MFA, kondisi perangkat, segmentasi jaringan, hak akses minimum, akses vendor, visibilitas log, dan rencana penerapan bertahap tanpa produk mahal.",
+    category: "Teknologi",
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    tags: ["keamanan","infrastruktur","operasional"],
+    titleTranslations: {
+      en: "Zero Trust for Mid-Sized Businesses: Access Security Without Overreliance on VPNs",
+      zh: "中型企业的零信任与访问安全：验证每一次访问，而非信任网络",
+    },
+    excerptTranslations: {
+      en: "A practical zero trust primer for mid-sized businesses: identity and MFA, device health, network segmentation, least privilege, vendor access, log visibility, and a staged rollout plan without expensive products.",
+      zh: "面向中型企业的实用零信任入门：身份与多因素认证、设备状态、网络分段、最小权限、供应商访问、日志可见性，以及无需昂贵产品的分阶段实施计划。",
+    },
+  },
+  {
+    slug: "human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis",
+    title: "Human-in-the-Loop: Merancang Persetujuan Manusia untuk AI Agent di Proses Bisnis",
+    excerpt: "Cara menentukan seberapa mandiri AI agent boleh bertindak: tingkat otonomi per jenis tindakan, antarmuka persetujuan, antrean tinjauan, ukuran efektivitas kontrol manusia, jejak audit, dan pola penerapan di dokumen, layanan pelanggan, dan keuangan.",
+    category: "Teknologi",
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    tags: ["ai","otomasi","keamanan"],
+    titleTranslations: {
+      en: "Human-in-the-Loop: Designing Human Approval for AI Agents in Business Processes",
+      zh: "人在回路：为业务流程中的 AI 代理设计人工审批",
+    },
+    excerptTranslations: {
+      en: "How to decide how independently an AI agent may act: autonomy levels per action type, approval interfaces, review queues, measures of human control effectiveness, audit trails, and patterns for documents, customer service, and finance.",
+      zh: "如何决定 AI 代理可以多大程度自主行动：按操作类型的自主级别、审批界面、审查队列、人工控制有效性的衡量、审计轨迹，以及文件、客户服务和财务中的应用模式。",
+    },
+  },
+  {
+    slug: "sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin",
+    title: "Sistem untuk Vendor Proyek Pemerintah: Dokumen Penawaran, Kontrak, dan Penagihan Termin",
+    excerpt: "Kebutuhan sistem bagi penyedia yang menjual ke instansi pemerintah: pustaka dokumen perusahaan dengan pengingat, pemantauan peluang, harga penawaran, pelacakan kontrak dan termin, berkas penagihan, dan proyeksi arus kas.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    tags: ["kontrak","keuangan","operasional"],
+    titleTranslations: {
+      en: "Systems for Government Project Vendors: Bid Documents, Contracts, and Staged Billing",
+      zh: "政府项目供应商的系统：投标文件、合同与分期开票",
+    },
+    excerptTranslations: {
+      en: "System needs for suppliers selling to government agencies: a company document library with reminders, opportunity monitoring, bid pricing, contract and payment stage tracking, billing paperwork, and cash flow projection.",
+      zh: "向政府机构销售的供应商的系统需求：带提醒的公司文件库、机会跟踪、投标定价、合同与付款节点跟踪、开票材料以及现金流预测。",
+    },
+  },
+  {
     slug: "agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai",
     title: "Agentic Commerce: Menyiapkan Toko Online untuk Agen Belanja AI",
     excerpt: "Panduan agentic commerce untuk toko online dan distributor: apa yang dibaca agen belanja AI, data produk dan harga yang siap mesin, protokol transaksi yang mulai muncul, API pesanan, keamanan, dan langkah bertahap.",
@@ -1116,7 +1201,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara ERP membantu kontraktor mengendalikan anggaran dan biaya proyek, mengelola subkontraktor dan retensi, menagih berdasarkan progres, serta menerapkannya bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-09",
     tags: ["erp","operasional","industri"],
     titleTranslations: {
       en: "ERP for Contractors and Construction Companies: Project Costing, Subcontractors, and Progress Billing",
@@ -1184,7 +1269,7 @@ export const meta: PostMeta[] = [
     excerpt: "Titik pemeriksaan bahan masuk, proses, dan produk jadi, menangani produk tidak sesuai, tindakan korektif, penelusuran lot, dan langkah menerapkan QC di ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-09",
     tags: ["erp","industri","operasional"],
     titleTranslations: {
       en: "Quality Control (QC) in Manufacturing with ERP: From Inspection to Lot Traceability",
@@ -1371,7 +1456,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu AI agent, bedanya dengan otomasi berbasis aturan, proses bisnis yang cocok, arsitektur dasar, kendali keamanan, cara mengukur hasil, dan langkah memulai.",
     category: "Teknologi",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-11-09",
     tags: ["ai","otomasi","integrasi"],
     titleTranslations: {
       en: "AI Agents for Business Process Automation: A Safe and Realistic Guide",
@@ -1524,7 +1609,7 @@ export const meta: PostMeta[] = [
     excerpt: "Risiko AI di tempat kerja, unsur kebijakan penggunaan AI, klasifikasi data, penilaian alat, pengawasan manusia, pelatihan, dan peninjauan berkala.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-11-09",
     tags: ["ai","keamanan","operasional"],
     titleTranslations: {
       en: "AI Usage Policy and AI Governance in the Company: Safe and Responsible",
@@ -1609,7 +1694,7 @@ export const meta: PostMeta[] = [
     excerpt: "Ancaman siber yang paling sering menimpa UMKM dan langkah pertahanan murah: kebiasaan karyawan, autentikasi dua langkah, cadangan 3-2-1, pembaruan, dan rencana respons insiden.",
     category: "Teknologi",
     publishedAt: "2026-10-16",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-11-09",
     tags: ["keamanan","umkm","infrastruktur"],
     titleTranslations: {
       en: "Phishing, Ransomware, and Cybersecurity for Small Businesses: A Realistic Defence Guide",
@@ -1796,7 +1881,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merapikan akun karyawan di banyak aplikasi: apa itu SSO, autentikasi multifaktor, siklus hidup akun karyawan, hak akses berbasis peran, dan rencana penerapan bertahap.",
     category: "Teknologi",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-11-09",
     tags: ["keamanan","integrasi","karyawan"],
     titleTranslations: {
       en: "SSO and Identity Management for Business Apps: One Sign In, Controlled Access",
@@ -1847,7 +1932,7 @@ export const meta: PostMeta[] = [
     excerpt: "Merancang penagihan proyek yang sehat: memilih model, milestone dengan kriteria penerimaan, jadwal yang selaras dengan arus kas, perubahan lingkup, pencatatan jam kerja, dan pengakuan pendapatan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-09",
     tags: ["erp","keuangan","operasional"],
     titleTranslations: {
       en: "Project and Milestone Billing for Service Businesses: Keeping Cash Flow and Margin Healthy",
@@ -1881,7 +1966,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengelola kontrak pelanggan secara terstruktur: data kunci, siklus hidup kontrak, proses perpanjangan, kenaikan harga, hubungan dengan penagihan dan layanan, serta tinjauan portofolio.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-09",
     tags: ["crm","sales","pelanggan"],
     titleTranslations: {
       en: "Customer Contract and Renewal Management: So No Revenue Quietly Expires",
@@ -1915,7 +2000,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun jadwal kerja dari kebutuhan layanan: aturan yang adil dan sah, ketersediaan karyawan, tukar shift, hubungan dengan absensi dan penggajian, biaya tenaga kerja, dan retensi.",
     category: "HR & Tim",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-13",
+    updatedAt: "2026-11-09",
     tags: ["hris","karyawan","operasional"],
     titleTranslations: {
       en: "Shift Scheduling and Workforce Management: Fair Schedules, Controlled Costs",
@@ -1966,7 +2051,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-11-05",
+    updatedAt: "2026-11-09",
     tags: ["erp","operasional","inventori","biaya"],
     titleTranslations: {
       en: "Asset Management and Equipment Maintenance with ERP: From Asset Register to Replacement Decisions",
@@ -3370,6 +3455,7 @@ export const meta: PostMeta[] = [
     excerpt: "Sales, kurir, dan teknisi tidak bekerja di satu lokasi. Absensi mereka butuh pendekatan yang berbeda dari mesin sidik jari di kantor.",
     category: "HR & Tim",
     publishedAt: "2026-09-02",
+    updatedAt: "2026-11-09",
     tags: [
       "hris",
       "karyawan",
@@ -3422,6 +3508,7 @@ export const meta: PostMeta[] = [
     excerpt: "Klinik menangani data yang sensitif dengan alur yang padat. Sistem yang tepat harus mempercepat pelayanan tanpa mengorbankan keamanan data pasien.",
     category: "Panduan Industri",
     publishedAt: "2026-08-25",
+    updatedAt: "2026-11-09",
     tags: [
       "industri",
       "data",
@@ -3682,6 +3769,7 @@ export const meta: PostMeta[] = [
     excerpt: "AI bisa mempercepat banyak pekerjaan, tapi membawa risiko yang berbeda dari software biasa. Mengenalinya sejak awal membuat penerapannya lebih aman.",
     category: "Teknologi",
     publishedAt: "2026-07-12",
+    updatedAt: "2026-11-09",
     tags: [
       "ai",
       "otomasi",
@@ -3830,7 +3918,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perhitungan lembur yang dilakukan manual rawan selisih dan perselisihan. Memindahkannya ke sistem butuh aturan yang jelas sebelum rumusnya dibuat.",
     category: "HR & Tim",
     publishedAt: "2026-06-18",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-09",
     tags: [
       "hris",
       "payroll",
@@ -3931,7 +4019,7 @@ export const meta: PostMeta[] = [
     excerpt: "Keamanan aplikasi bukan fitur tambahan yang bisa dipasang belakangan. Beberapa hal dasar ini seharusnya ada sejak aplikasi pertama kali dibangun.",
     category: "Teknologi",
     publishedAt: "2026-06-02",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-09",
     tags: [
       "keamanan",
       "custom-software",

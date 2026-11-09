@@ -101,6 +101,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "AI agents open a new way to automate work that used to be hard to automate because it involves varied language and documents. Their value is real when applied to the right processes, with limited access, human approval at key points, complete logging, and honest measures of success." },
   { type: "p", text: "The best approach is gradual: one process, shadow mode, controlled activation, then expansion. This way a business gains the benefits of AI agents without gambling the customer trust and operational reliability it has built over the years." },
+  { type: "p", text: "To decide when an agent may act on its own and when it needs approval, read [human-in-the-loop for AI agents](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)." },
   {
     type: "cta",
     title: "Want to apply AI agents to your business processes?",
@@ -211,6 +212,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "AI 智能体为那些因涉及多样化语言和文档而难以自动化的工作，提供了新的自动化方式。只要应用在合适的流程上，配合受限权限、关键节点的人工审批、完整的日志以及诚实的成功指标，它的价值是实实在在的。" },
   { type: "p", text: "最好的方法是循序渐进：一个流程、影子模式、受控启用，然后扩展。这样，企业就能获得 AI 智能体的好处，而不必拿多年积累的客户信任和运营可靠性去冒险。" },
+  { type: "p", text: "要决定代理何时可以自主行动、何时需要批准，请阅读[AI 代理的人在回路](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)。" },
   {
     type: "cta",
     title: "想把 AI 智能体应用到您的业务流程中吗？",

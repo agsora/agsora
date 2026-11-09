@@ -135,6 +135,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Good scheduling balances three things that often conflict: service needs, cost, and employee well being. When all three are weighed openly, with data, clear rules, and the right tools, the result is customers who are served better and a team that stays longer." },
   { type: "p", text: "Start by understanding the real needs, write fair rules, and connect the schedule with attendance and payroll. Administrative work decreases, errors fall, and supervisors regain time to lead their teams rather than merely build spreadsheets." },
+  { type: "p", text: "For manpower outsourcing providers that schedule people across many client sites, read [ERP for manpower outsourcing companies](/blog/erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll)." },
   {
     type: "cta",
     title: "Want to tidy your team's shift schedule, attendance, and payroll?",
@@ -279,6 +280,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "好的排班平衡三件常常相互冲突的事：服务需求、成本和员工福祉。当这三者被公开地、依靠数据、清晰的规则和合适的工具加以权衡，结果就是顾客得到更好的服务，团队也更愿意留下。" },
   { type: "p", text: "从理解真正的需求开始，写下公平的规则，并把班表与考勤和薪资连接起来。行政工作减少，错误下降，主管重新获得时间去带领团队，而不只是编电子表格。" },
+  { type: "p", text: "对于在多个客户现场排班的人力外包服务商，请阅读[人力外包公司 ERP](/blog/erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll)。" },
   {
     type: "cta",
     title: "想理顺团队的班次、考勤和薪资吗？",

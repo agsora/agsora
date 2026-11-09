@@ -126,6 +126,7 @@ export const body: Block[] = [
   { type: "p", text: "ERP membantu karena aset, pembelian, persediaan, dan keuangan berada dalam satu sistem sehingga data tidak perlu dimasukkan berulang. Mulailah dari aset kritis, bangun kebiasaan, lalu perluas. Aset yang dirawat baik adalah aset yang bekerja untuk bisnis Anda, bukan sebaliknya." },
   { type: "p", text: "Untuk kendaraan dan pengiriman, baca [manajemen armada dan transportasi dengan GPS dan ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   { type: "p", text: "Dari sisi pembukuan, pelajari [akuntansi aset tetap dan penyusutan dengan ERP](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)." },
+  { type: "p", text: "Kalibrasi alat ukur di laboratorium dibahas di [sistem informasi laboratorium (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
   {
     type: "cta",
     title: "Aset dan riwayat servis masih tersebar di banyak catatan?",

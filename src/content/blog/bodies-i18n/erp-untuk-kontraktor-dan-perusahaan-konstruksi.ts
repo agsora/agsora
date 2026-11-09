@@ -81,6 +81,7 @@ const en: Block[] = [
   { type: "p", text: "From the side of the material supplier to contractors, read [ERP for building supply stores and material distributors](/blog/erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "ERP for construction is not just accounting with a project label. Its value is the ability to see budget, commitments, actual cost, and progress side by side, so decisions can be made while the project can still be fixed. With a disciplined cost structure, clear subcontractor and billing workflows, and easy field recording, contractors can reduce cost surprises and improve cash flow. Start with cost and purchasing modules on a new project, learn from the results, then extend step by step." },
+  { type: "p", text: "Contractors working on government agency projects can read [systems for government project vendors](/blog/sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin)." },
   {
     type: "cta",
     title: "Need a project cost system for your construction company?",
@@ -171,6 +172,7 @@ const zh: Block[] = [
   { type: "p", text: "从向承包商供应材料的角度，请阅读[建材店与建材经销商的 ERP](/blog/erp-untuk-toko-bangunan-dan-distributor-material-satuan-harga-bertingkat-dan-kredit-proyek)。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "建筑业 ERP 不只是贴上项目标签的会计软件。它的价值在于能够并排查看预算、承诺、实际成本和进度，让决策在项目仍可补救时作出。凭借严谨的成本结构、清晰的分包和结算流程以及便捷的现场记录，承包商可以减少成本意外并改善现金流。先在新项目上启用成本和采购模块，从结果中学习，再逐步扩展。" },
+  { type: "p", text: "承接政府机构项目的承包商可以阅读[政府项目供应商的系统](/blog/sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin)。" },
   {
     type: "cta",
     title: "需要为您的建筑企业建立项目成本系统？",

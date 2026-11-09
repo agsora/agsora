@@ -101,6 +101,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "AI agent membuka cara baru mengotomasi pekerjaan yang dulu sulit diotomasi karena melibatkan bahasa dan dokumen yang beragam. Nilainya nyata bila diterapkan pada proses yang tepat, dengan akses terbatas, persetujuan manusia pada titik penting, pencatatan yang lengkap, dan ukuran keberhasilan yang jujur." },
   { type: "p", text: "Pendekatan terbaik adalah bertahap: satu proses, mode bayangan, aktivasi terkendali, lalu perluasan. Dengan cara ini, bisnis mendapatkan manfaat AI agent tanpa mempertaruhkan kepercayaan pelanggan dan keandalan operasional yang sudah dibangun bertahun-tahun." },
+  { type: "p", text: "Untuk menentukan kapan agen boleh bertindak sendiri dan kapan perlu persetujuan, baca [human-in-the-loop untuk AI agent](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)." },
   {
     type: "cta",
     title: "Ingin menerapkan AI agent pada proses bisnis Anda?",

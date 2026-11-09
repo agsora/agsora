@@ -63,6 +63,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Keamanan siber bagi UMKM bukan soal membeli alat paling canggih, melainkan membangun beberapa kebiasaan dan kontrol dasar yang dijalankan dengan disiplin. Verifikasi pembayaran lewat saluran lain, autentikasi dua langkah, cadangan yang teruji, pembaruan rutin, dan rencana respons satu halaman sudah menutup sebagian besar risiko nyata yang dihadapi usaha kecil." },
   { type: "p", text: "Mulailah dari yang paling murah dan paling berdampak, ukur kemajuannya, lalu tingkatkan bertahap. Ketika sistem bisnis Anda, mulai dari website, kasir, hingga [ERP](/services/erp), dibangun dengan keamanan sejak awal, Anda tidak hanya melindungi diri dari kerugian, tetapi juga membangun kepercayaan pelanggan yang menjadi modal pertumbuhan." },
+  { type: "p", text: "Untuk membatasi dampak akun yang jebol, baca [zero trust dan keamanan akses untuk bisnis menengah](/blog/zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan)." },
   {
     type: "cta",
     title: "Ingin memastikan website dan aplikasi bisnis Anda aman sejak awal?",
