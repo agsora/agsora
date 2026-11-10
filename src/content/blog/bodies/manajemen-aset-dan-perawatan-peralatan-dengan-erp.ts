@@ -127,6 +127,7 @@ export const body: Block[] = [
   { type: "p", text: "Untuk kendaraan dan pengiriman, baca [manajemen armada dan transportasi dengan GPS dan ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   { type: "p", text: "Dari sisi pembukuan, pelajari [akuntansi aset tetap dan penyusutan dengan ERP](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)." },
   { type: "p", text: "Kalibrasi alat ukur di laboratorium dibahas di [sistem informasi laboratorium (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
+  { type: "p", text: "Perawatan gedung dan peralatan sebagai layanan berkontrak dibahas di [ERP untuk facility management dan jasa kebersihan](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)." },
   {
     type: "cta",
     title: "Aset dan riwayat servis masih tersebar di banyak catatan?",

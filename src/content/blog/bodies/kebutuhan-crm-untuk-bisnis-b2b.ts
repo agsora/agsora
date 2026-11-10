@@ -141,6 +141,7 @@ export const body: Block[] = [
     type: "p",
     text: "Penjualan B2B dengan siklus panjang dan banyak pihak yang terlibat membutuhkan CRM yang dirancang khusus untuk kompleksitas ini, bukan sekadar buku alamat digital sederhana. Dengan pemetaan kontak yang jelas, riwayat interaksi yang lengkap, dan pelacakan penawaran yang rapi, hubungan dengan klien besar menjadi aset perusahaan yang tahan terhadap pergantian personel maupun gangguan tak terduga.",
   },
+  { type: "p", text: "Untuk penawaran dengan konfigurasi dan diskon yang rumit, baca [CPQ: konfigurasi, harga, dan penawaran B2B](/blog/cpq-konfigurasi-harga-dan-penawaran-untuk-penjualan-b2b-yang-kompleks)." },
   {
     type: "cta",
     title: "Deal besar Anda tersebar di notes pribadi sales?",

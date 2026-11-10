@@ -134,6 +134,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah evaluasi menjamin AI tidak pernah salah? Tidak. Evaluasi mengurangi dan mengukur risiko, bukan menghilangkannya. Karena itu, untuk keputusan berdampak besar tetap sediakan tinjauan manusia dan jalur eskalasi." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "AI yang andal bukan hasil prompt yang cerdas semata, melainkan hasil proses pengukuran yang disiplin. Dengan definisi kualitas yang jelas, set uji dari data nyata, kombinasi penilaian otomatis dan manusia, ambang lulus sebelum rilis, serta pemantauan setelahnya, bisnis dapat memakai AI dengan keyakinan yang berdasar. Mulailah kecil dengan satu kasus penggunaan dan puluhan contoh nyata. Nilai terbesarnya muncul ketika setiap perubahan dapat dijawab dengan angka, bukan firasat." },
+  { type: "p", text: "Contoh pengukuran akurasi pada dokumen kontrak nyata ada di [AI untuk tinjauan kontrak](/blog/ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia)." },
   {
     type: "cta",
     title: "Ingin fitur AI Anda diuji dan dipantau dengan benar?",

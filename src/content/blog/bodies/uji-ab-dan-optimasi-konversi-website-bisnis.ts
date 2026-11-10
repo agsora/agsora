@@ -104,6 +104,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Uji A/B adalah alat yang kuat untuk mengganti perdebatan dengan bukti, tetapi hanya bila dijalankan dengan disiplin: masalah yang jelas, hipotesis tertulis, ukuran yang ditetapkan lebih dulu, dan kesabaran menunggu data yang cukup." },
   { type: "p", text: "Bila lalu lintas Anda belum memadai, jangan memaksakan pengujian. Perbaiki hal-hal yang jelas terlihat bermasalah, lakukan pengamatan langsung terhadap pengunjung, dan simpan pengujian untuk saat volume sudah mendukung. Peningkatan yang pasti dari perbaikan dasar sering lebih besar daripada yang dijanjikan pengujian yang terburu-buru." },
+  { type: "p", text: "Hasil uji hanya bisa dipercaya bila pelacakannya benar; lihat [Google Tag Manager, server-side tagging, dan consent mode](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)." },
   {
     type: "cta",
     title: "Website Anda ramai dikunjungi tetapi sedikit yang menjadi pelanggan?",

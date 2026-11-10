@@ -104,6 +104,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "A/B testing is a powerful tool for replacing debate with evidence, but only when run with discipline: a clear problem, a written hypothesis, a measure set beforehand, and the patience to wait for enough data." },
   { type: "p", text: "If your traffic is not yet adequate, do not force testing. Fix the things that obviously look problematic, observe visitors directly, and save testing for when volume supports it. The sure improvement from basic fixes is often larger than what a rushed test promises." },
+  { type: "p", text: "Test results can only be trusted if tracking is correct; see [Google Tag Manager, server-side tagging, and consent mode](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)." },
   {
     type: "cta",
     title: "Is your website busy with visitors but few become customers?",
@@ -217,6 +218,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "A/B 测试是用证据取代争论的有力工具，但前提是有纪律地运行：清晰的问题、书面的假设、事先设定的指标，以及等待足够数据的耐心。" },
   { type: "p", text: "如果你的流量还不够，不要勉强测试。修复明显有问题的地方，直接观察访客，并把测试留到流量足够时再做。基础修复带来的确定提升，往往比仓促的测试所承诺的更大。" },
+  { type: "p", text: "只有跟踪正确，测试结果才可信；请参阅 [Google Tag Manager、服务器端标记与同意模式](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)。" },
   {
     type: "cta",
     title: "网站访客很多，但成为顾客的很少？",

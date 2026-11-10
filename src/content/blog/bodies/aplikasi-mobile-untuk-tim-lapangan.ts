@@ -123,6 +123,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Aplikasi mobile untuk tim lapangan bernilai ketika menutup jarak antara tempat pekerjaan dilakukan dan tempat data disimpan. Orang lapangan mendapat informasi yang membuat mereka lebih siap, kantor mendapat kejadian pada saat terjadi, dan pelanggan mendapat layanan yang lebih pasti. Tagihan keluar lebih cepat, kesalahan berkurang, dan laporan tidak lagi ditulis ulang." },
   { type: "p", text: "Kuncinya adalah merancang dari sudut pandang orang yang memegang ponsel itu: sederhana, tahan terhadap sinyal buruk, dan terasa membantu. Bila mereka merasakan manfaatnya, data yang baik akan mengikuti dengan sendirinya." },
+  { type: "p", text: "Contoh penerapan checklist digital untuk petugas kebersihan dan pemeliharaan gedung dibahas di [ERP untuk facility management dan jasa kebersihan](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)." },
   {
     type: "cta",
     title: "Tim lapangan Anda masih melapor lewat kertas dan grup obrolan?",

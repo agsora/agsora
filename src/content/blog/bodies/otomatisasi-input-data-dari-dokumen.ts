@@ -167,6 +167,7 @@ export const body: Block[] = [
     type: "p",
     text: "Mengotomatiskan input data dari dokumen bukan tentang menghilangkan pekerjaan manusia sepenuhnya, melainkan memindahkan waktu dari mengetik berulang menjadi memeriksa pengecualian. Mulai dari satu jenis dokumen dengan volume terbesar, ukur hasilnya, dan biarkan data yang menentukan apakah layak diperluas ke dokumen lain.",
   },
+  { type: "p", text: "Contoh penerapan ekstraksi data dari dokumen hukum dibahas di [AI untuk tinjauan kontrak](/blog/ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia)." },
   {
     type: "cta",
     title: "Masih mengetik ulang faktur satu per satu?",

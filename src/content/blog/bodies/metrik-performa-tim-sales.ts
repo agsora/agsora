@@ -153,6 +153,7 @@ export const body: Block[] = [
     type: "p",
     text: "Metrik performa sales yang baik memberi gambaran lebih dari sekadar angka akhir, ia menunjukkan di mana dalam proses penjualan masalah sebenarnya terjadi, sehingga perbaikan bisa dilakukan dengan tepat sasaran. Dengan kombinasi metrik hasil dan proses yang dibaca bersamaan, evaluasi tim sales berubah dari sekadar menghakimi hasil menjadi alat nyata untuk pengembangan berkelanjutan.",
   },
+  { type: "p", text: "Waktu penawaran dan margin per diskon adalah metrik yang dibahas di [CPQ: konfigurasi, harga, dan penawaran B2B](/blog/cpq-konfigurasi-harga-dan-penawaran-untuk-penjualan-b2b-yang-kompleks)." },
   {
     type: "cta",
     title: "Masih menilai tim sales hanya dari angka penjualan akhir bulan?",

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_erp_untuk_facility_management_dan_jasa_kebersihan_jadwal_checklist_dan_sla } from "./erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla";
+import { translations as t_google_tag_manager_server_side_tagging_dan_consent_mode_untuk_pengukuran_yang_patuh } from "./google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh";
+import { translations as t_ai_untuk_tinjauan_kontrak_ekstraksi_klausul_dan_penandaan_risiko_dengan_pengawasan_manusia } from "./ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia";
+import { translations as t_lms_dan_pelatihan_karyawan_jalur_belajar_sertifikasi_kompetensi_dan_kepatuhan } from "./lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan";
+import { translations as t_cpq_konfigurasi_harga_dan_penawaran_untuk_penjualan_b2b_yang_kompleks } from "./cpq-konfigurasi-harga-dan-penawaran-untuk-penjualan-b2b-yang-kompleks";
 import { translations as t_erp_untuk_perusahaan_alih_daya_outsourcing_tenaga_kerja_penagihan_per_kepala_dan_payroll } from "./erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll";
 import { translations as t_sistem_informasi_laboratorium_lims_sampel_metode_uji_dan_laporan_hasil } from "./sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil";
 import { translations as t_zero_trust_dan_keamanan_akses_untuk_bisnis_menengah_tanpa_vpn_berlebihan } from "./zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan";
@@ -199,6 +204,11 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla": t_erp_untuk_facility_management_dan_jasa_kebersihan_jadwal_checklist_dan_sla,
+  "google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh": t_google_tag_manager_server_side_tagging_dan_consent_mode_untuk_pengukuran_yang_patuh,
+  "ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia": t_ai_untuk_tinjauan_kontrak_ekstraksi_klausul_dan_penandaan_risiko_dengan_pengawasan_manusia,
+  "lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan": t_lms_dan_pelatihan_karyawan_jalur_belajar_sertifikasi_kompetensi_dan_kepatuhan,
+  "cpq-konfigurasi-harga-dan-penawaran-untuk-penjualan-b2b-yang-kompleks": t_cpq_konfigurasi_harga_dan_penawaran_untuk_penjualan_b2b_yang_kompleks,
   "erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll": t_erp_untuk_perusahaan_alih_daya_outsourcing_tenaga_kerja_penagihan_per_kepala_dan_payroll,
   "sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil": t_sistem_informasi_laboratorium_lims_sampel_metode_uji_dan_laporan_hasil,
   "zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan": t_zero_trust_dan_keamanan_akses_untuk_bisnis_menengah_tanpa_vpn_berlebihan,

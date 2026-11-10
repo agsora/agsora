@@ -150,6 +150,7 @@ export const body: Block[] = [
     type: "p",
     text: "Penilaian kinerja yang bisa dipertanggungjawabkan bukan tentang menciptakan sistem yang rumit, melainkan tentang mendasarkan penilaian pada bukti yang terkumpul sepanjang periode, bukan hanya ingatan terakhir. Dengan kriteria yang jelas sejak awal, pencatatan yang konsisten, dan proses yang terbuka bagi karyawan untuk merespons, penilaian kinerja bisa menjadi alat yang dipercaya, bukan sumber ketidakpuasan tahunan.",
   },
+  { type: "p", text: "Data pelatihan dan sertifikasi dapat menjadi salah satu masukan evaluasi; lihat [LMS dan pelatihan karyawan](/blog/lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan)." },
   {
     type: "cta",
     title: "Penilaian kinerja tim Anda masih berdasarkan ingatan akhir tahun?",

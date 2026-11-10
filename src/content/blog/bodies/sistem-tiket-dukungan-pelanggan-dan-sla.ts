@@ -110,6 +110,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Layanan dukungan yang baik membuat pelanggan merasa didengar dan masalahnya bergerak. Itu bukan hasil dari alat tertentu, melainkan dari kebiasaan: satu antrean, pemilik yang jelas, janji yang realistis, dan belajar dari pola keluhan." },
   { type: "p", text: "Sistem tiket membantu menjalankan kebiasaan itu secara konsisten saat volume tumbuh. Mulailah sederhana, ukur dengan bijak, dan perbaiki bertahap. Pelanggan yang puas dengan penanganan masalahnya sering menjadi pelanggan yang paling setia." },
+  { type: "p", text: "Untuk penyedia layanan kebersihan dan facility management, tiket keluhan terkait langsung dengan lokasi dan kontrak; lihat [ERP untuk facility management dan jasa kebersihan](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)." },
   {
     type: "cta",
     title: "Pertanyaan pelanggan tersebar dan sulit dipantau?",

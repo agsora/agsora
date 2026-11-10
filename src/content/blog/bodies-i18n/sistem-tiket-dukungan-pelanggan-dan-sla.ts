@@ -110,6 +110,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Good support makes customers feel heard and their problem moving. That is not the result of a particular tool but of habits: one queue, clear owners, realistic promises, and learning from complaint patterns." },
   { type: "p", text: "A ticket system helps run those habits consistently as volume grows. Start simple, measure wisely, and improve step by step. Customers who are satisfied with how their problem was handled often become the most loyal customers." },
+  { type: "p", text: "For cleaning and facility management providers, complaint tickets tie directly to sites and contracts; see [ERP for facility management and cleaning services](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)." },
   {
     type: "cta",
     title: "Customer questions scattered and hard to track?",
@@ -229,6 +230,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "良好的客服让顾客感到被倾听，问题在向前推进。这不是某个工具的结果，而是习惯的结果：一个队列、明确的负责人、切合实际的承诺，以及从投诉模式中学习。" },
   { type: "p", text: "工单系统帮助在业务量增长时一致地执行这些习惯。从简单开始，明智地衡量，并逐步改进。对问题处理方式感到满意的顾客，往往会成为最忠诚的顾客。" },
+  { type: "p", text: "对于保洁和设施管理服务商，投诉工单直接关联场地与合同；请参阅[设施管理与保洁服务 ERP](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)。" },
   {
     type: "cta",
     title: "顾客的问题分散，难以追踪？",

@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla",
+    title: "ERP untuk Facility Management dan Jasa Kebersihan: Jadwal, Checklist, dan SLA",
+    excerpt: "Panduan sistem untuk penyedia facility management dan jasa kebersihan: kontrak dan lingkup layanan per lokasi, jadwal rutin, checklist pekerjaan, laporan temuan, SLA, permintaan perbaikan, biaya bahan dan peralatan, serta penagihan dan margin per kontrak.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    tags: ["erp","operasional","industri"],
+    titleTranslations: {
+      en: "ERP for Facility Management and Cleaning Services: Schedules, Checklists, and SLAs",
+      zh: "设施管理与保洁服务 ERP：排班、检查清单与服务水平协议",
+    },
+    excerptTranslations: {
+      en: "A system guide for facility management and cleaning providers: contracts and service scope per site, recurring schedules, work checklists, issue reports, SLAs, repair requests, consumable and equipment costs, and billing and margin per contract.",
+      zh: "面向设施管理与保洁服务商的系统指南：按场地的合同与服务范围、周期排班、工作清单、问题报告、SLA、维修请求、耗材与设备成本，以及按合同的开票与毛利。",
+    },
+  },
+  {
+    slug: "google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh",
+    title: "Google Tag Manager, Server-Side Tagging, dan Consent Mode: Pengukuran Website yang Patuh dan Akurat",
+    excerpt: "Cara menata pengukuran website bisnis: rencana pengukuran, Google Tag Manager dan data layer, consent mode, server-side tagging, penamaan event, pengujian, dan tata kelola agar data konversi akurat tanpa melanggar privasi pengunjung.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    tags: ["data","keamanan","website"],
+    titleTranslations: {
+      en: "Google Tag Manager, Server-Side Tagging, and Consent Mode: Compliant and Accurate Website Measurement",
+      zh: "Google Tag Manager、服务器端标记与同意模式：合规且准确的网站数据衡量",
+    },
+    excerptTranslations: {
+      en: "How to set up measurement for a business website: measurement plan, Google Tag Manager and the data layer, consent mode, server-side tagging, event naming, testing, and governance so conversion data stays accurate without violating visitor privacy.",
+      zh: "如何为企业网站搭建数据衡量体系：衡量计划、Google Tag Manager 与数据层、同意模式、服务器端标记、事件命名、测试与治理，在不侵犯访客隐私的前提下保持转化数据准确。",
+    },
+  },
+  {
+    slug: "ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia",
+    title: "AI untuk Tinjauan Kontrak: Ekstraksi Klausul dan Penandaan Risiko dengan Pengawasan Manusia",
+    excerpt: "Cara memakai AI membantu tim bisnis dan hukum meninjau kontrak: ekstraksi klausul dan tanggal penting, perbandingan dengan standar perusahaan, penandaan risiko, batas kemampuan model, kerahasiaan data, pengujian akurasi, dan alur persetujuan manusia.",
+    category: "Teknologi",
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    tags: ["ai","kontrak","otomasi"],
+    titleTranslations: {
+      en: "AI for Contract Review: Clause Extraction and Risk Flagging with Human Oversight",
+      zh: "AI 合同审阅：条款提取与风险标注，保留人工把关",
+    },
+    excerptTranslations: {
+      en: "How to use AI to help business and legal teams review contracts: clause and key date extraction, comparison with company standards, risk flagging, model limits, data confidentiality, accuracy testing, and human approval flows.",
+      zh: "如何用 AI 协助业务与法务团队审阅合同：条款与关键日期提取、与公司标准比对、风险标注、模型局限、数据保密、准确率测试以及人工审批流程。",
+    },
+  },
+  {
+    slug: "lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan",
+    title: "LMS dan Pelatihan Karyawan: Jalur Belajar, Sertifikasi Kompetensi, dan Kepatuhan",
+    excerpt: "Panduan memilih dan membangun learning management system untuk perusahaan: katalog dan jalur belajar, penugasan berbasis peran, ujian, sertifikat dan masa berlaku, pelatihan kepatuhan, laporan penyelesaian, integrasi HRIS, serta ukuran dampak pelatihan.",
+    category: "HR & Tim",
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    tags: ["hris","operasional","pelaporan"],
+    titleTranslations: {
+      en: "LMS and Employee Training: Learning Paths, Competency Certification, and Compliance",
+      zh: "学习管理系统与员工培训：学习路径、能力认证与合规",
+    },
+    excerptTranslations: {
+      en: "A guide to choosing and building a learning management system for a company: catalogs and learning paths, role-based assignment, exams, certificates and expiry, compliance training, completion reports, HRIS integration, and measures of training impact.",
+      zh: "企业学习管理系统的选型与搭建指南：课程目录与学习路径、按岗位分配、考试、证书与有效期、合规培训、完成率报表、与 HRIS 集成以及培训效果的衡量。",
+    },
+  },
+  {
+    slug: "cpq-konfigurasi-harga-dan-penawaran-untuk-penjualan-b2b-yang-kompleks",
+    title: "CPQ: Konfigurasi, Harga, dan Penawaran untuk Penjualan B2B yang Kompleks",
+    excerpt: "Kapan bisnis B2B membutuhkan CPQ (configure, price, quote): aturan konfigurasi produk, daftar harga dan diskon bertingkat, persetujuan margin, templat penawaran, versi revisi, konversi ke pesanan, dan integrasi dengan CRM serta ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    tags: ["crm","integrasi","sales"],
+    titleTranslations: {
+      en: "CPQ: Configuration, Pricing, and Quoting for Complex B2B Sales",
+      zh: "CPQ：复杂 B2B 销售的配置、定价与报价",
+    },
+    excerptTranslations: {
+      en: "When a B2B business needs CPQ (configure, price, quote): product configuration rules, price lists and tiered discounts, margin approvals, quote templates, revision versions, conversion to orders, and integration with CRM and ERP.",
+      zh: "B2B 企业何时需要 CPQ（配置、定价、报价）：产品配置规则、价目表与阶梯折扣、毛利审批、报价模板、修订版本、转化为订单，以及与 CRM 和 ERP 的集成。",
+    },
+  },
+  {
     slug: "erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll",
     title: "ERP untuk Perusahaan Alih Daya (Outsourcing): Penagihan per Kepala, Absensi, dan Payroll",
     excerpt: "Panduan sistem untuk penyedia tenaga kerja alih daya: kontrak dan tarif per klien, penempatan, absensi di lokasi, persetujuan kehadiran, payroll dan faktur dari data yang sama, perhitungan biaya, dan laporan margin.",
@@ -861,7 +946,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengukur kualitas AI di bisnis: dimensi kualitas, set uji dari data nyata, penilaian otomatis dan oleh manusia, ambang rilis, dan pemantauan setelah peluncuran.",
     category: "Teknologi",
     publishedAt: "2026-10-24",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-11-10",
     tags: ["ai","otomasi","operasional"],
     titleTranslations: {
       en: "Evaluating AI Output Quality (LLM Evals): How to Test Chatbots and AI Agents Before and After Release",
@@ -1558,7 +1643,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan membangun first party data: jenis data, nilai tukar yang adil, fondasi teknis, pengelolaan persetujuan, dan cara mengukur pemasaran saat pelacakan lintas situs terbatas.",
     category: "Website & Digital",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-11-05",
+    updatedAt: "2026-11-10",
     tags: ["data","pelanggan","website"],
     titleTranslations: {
       en: "First Party Data and Tracking Without Third Party Cookies: Knowing Customers the Lawful Way",
@@ -1966,7 +2051,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengelola kontrak pelanggan secara terstruktur: data kunci, siklus hidup kontrak, proses perpanjangan, kenaikan harga, hubungan dengan penagihan dan layanan, serta tinjauan portofolio.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-10",
     tags: ["crm","sales","pelanggan"],
     titleTranslations: {
       en: "Customer Contract and Renewal Management: So No Revenue Quietly Expires",
@@ -2051,7 +2136,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-10",
     tags: ["erp","operasional","inventori","biaya"],
     titleTranslations: {
       en: "Asset Management and Equipment Maintenance with ERP: From Asset Register to Replacement Decisions",
@@ -2272,7 +2357,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara memulai uji A/B secara sehat: kapan layak dilakukan, merumuskan hipotesis, memilih ukuran keberhasilan, menentukan durasi, membaca hasil tanpa tertipu, hal teknis yang perlu dijaga, serta etika dan privasi pengunjung.",
     category: "Website & Digital",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-11-10",
     tags: ["website","data","ecommerce","pelaporan"],
     titleTranslations: {
       en: "A/B Testing and Conversion Optimisation for Business Websites: Deciding with Evidence, Not Taste",
@@ -2340,7 +2425,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan sistem tiket diperlukan: satu antrean untuk semua kanal, kategori dan prioritas, perjanjian tingkat layanan yang realistis, basis pengetahuan, eskalasi antarbagian, mengukur mutu, menangani pelanggan kesal, dukungan proaktif, serta privasi data.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-11-10",
     tags: ["crm","pelanggan","operasional","otomasi"],
     titleTranslations: {
       en: "Customer Support Ticket Systems and SLAs: Serving Many Channels with One Orderly Queue",
@@ -2510,7 +2595,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merancang aplikasi lapangan yang benar-benar dipakai: pekerjaan yang didahulukan, rancangan untuk sinyal lemah, bukti di tempat, penggunaan lokasi yang wajar, hubungan dengan ERP dan CRM, keamanan perangkat, dan adopsi.",
     category: "Teknologi",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-11-10",
     tags: ["mobile","operasional","sales","integrasi","karyawan"],
     titleTranslations: {
       en: "Mobile Apps for Field Teams: Connecting Sales Reps, Technicians, and Delivery Staff with Office Systems",
@@ -2680,7 +2765,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara menyusun analitik yang membantu keputusan: mulai dari pertanyaan bisnis, rencana pelacakan, metrik akuisisi dan retensi, corong, kualitas data, privasi dan persetujuan, dasbor, dan percobaan.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-11-10",
     tags: ["data","pelaporan","website","mobile"],
     titleTranslations: {
       en: "Website and Mobile App Analytics for Business Decisions: Measuring What Matters While Respecting Privacy",
@@ -3469,6 +3554,7 @@ export const meta: PostMeta[] = [
     excerpt: "CRM hanya seberguna tahapan pipeline di dalamnya. Tahapan yang kabur membuat laporan penjualan terlihat rapi tapi tidak bisa dipercaya.",
     category: "Penjualan & CRM",
     publishedAt: "2026-08-31",
+    updatedAt: "2026-11-10",
     tags: [
       "crm",
       "sales",
@@ -3574,7 +3660,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tim HR sering menghabiskan waktu menjawab pertanyaan yang jawabannya sudah ada di sistem. Layanan mandiri memindahkan pekerjaan itu ke tempat yang tepat.",
     category: "HR & Tim",
     publishedAt: "2026-08-13",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-10",
     tags: [
       "hris",
       "karyawan",
@@ -3652,7 +3738,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyalin data dari faktur, nota, dan formulir ke sistem adalah pekerjaan berulang yang rawan salah ketik. Otomatisasi bisa membantu, dengan pemeriksaan yang tepat.",
     category: "Teknologi",
     publishedAt: "2026-07-30",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-10",
     tags: [
       "otomasi",
       "ai",
@@ -3693,6 +3779,7 @@ export const meta: PostMeta[] = [
     excerpt: "Minggu pertama karyawan baru sering habis untuk menunggu akun, perangkat, dan penjelasan yang tercecer. Onboarding yang terstruktur mempercepat mereka produktif.",
     category: "HR & Tim",
     publishedAt: "2026-07-24",
+    updatedAt: "2026-11-10",
     tags: [
       "hris",
       "karyawan",
@@ -3808,6 +3895,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penilaian kinerja yang hanya mengandalkan kesan atasan di akhir tahun sering terasa tidak adil. Kriteria yang jelas dan catatan sepanjang periode membuatnya lebih objektif.",
     category: "HR & Tim",
     publishedAt: "2026-07-06",
+    updatedAt: "2026-11-10",
     tags: [
       "hris",
       "karyawan",
@@ -3820,6 +3908,7 @@ export const meta: PostMeta[] = [
     excerpt: "Angka penjualan penting, tapi tidak cukup untuk memahami kenapa sebuah tim berhasil atau tertinggal. Metrik yang tepat menunjukkan di tahap mana masalahnya.",
     category: "Penjualan & CRM",
     publishedAt: "2026-07-04",
+    updatedAt: "2026-11-10",
     tags: [
       "crm",
       "sales",
@@ -3931,6 +4020,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjualan B2B melibatkan banyak orang, banyak pertemuan, dan keputusan yang bisa memakan waktu berbulan-bulan. CRM-nya harus dirancang untuk kerumitan itu.",
     category: "Penjualan & CRM",
     publishedAt: "2026-06-16",
+    updatedAt: "2026-11-10",
     tags: [
       "crm",
       "sales",

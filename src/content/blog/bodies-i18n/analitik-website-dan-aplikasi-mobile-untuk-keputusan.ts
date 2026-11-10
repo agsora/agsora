@@ -146,6 +146,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Good analytics is not about collecting as much data as possible but about answering the right business questions with data that can be trusted. A clear tracking plan, metrics tied to goals, data quality maintained, respect for privacy, and the habit of reviewing and testing changes make data the basis of decisions, not report decoration." },
   { type: "p", text: "Start small with the most important question, measure honestly, and follow through. That way your website and app develop on evidence of what users truly need." },
+  { type: "p", text: "How to organize tags, the data layer, and consent so data stays accurate is covered in [Google Tag Manager, server-side tagging, and consent mode](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)." },
   {
     type: "cta",
     title: "Want a website or app equipped with analytics and reporting that answer your business questions?",
@@ -301,6 +302,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "好的分析不是收集尽可能多的数据,而是用可信的数据回答正确的业务问题。清晰的追踪计划、与目标相关的指标、被维护的数据质量、对隐私的尊重,以及复盘和测试变更的习惯,使数据成为决策的基础,而不是报告的装饰。" },
   { type: "p", text: "从最重要的问题开始做小,诚实地衡量,并跟进落实。这样你的网站和应用就是基于用户真正需要什么的证据来发展的。" },
+  { type: "p", text: "如何整理标记、数据层和同意以保持数据准确，详见 [Google Tag Manager、服务器端标记与同意模式](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)。" },
   {
     type: "cta",
     title: "想要一个配备能回答你业务问题的分析和报告的网站或应用吗?",

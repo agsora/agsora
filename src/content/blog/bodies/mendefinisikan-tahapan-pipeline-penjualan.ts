@@ -200,6 +200,7 @@ export const body: Block[] = [
     type: "p",
     text: "Pipeline yang jujur mungkin terlihat lebih kecil daripada pipeline yang kabur, tetapi jauh lebih berguna. Dengan tahapan berbasis kejadian, syarat pindah tahap yang jelas, dan kebiasaan membersihkan secara rutin, pipeline berubah dari laporan yang menyenangkan dilihat menjadi alat yang benar-benar membantu tim menjual.",
   },
+  { type: "p", text: "Tahap penawaran dapat dibantu alat khusus; lihat [CPQ: konfigurasi, harga, dan penawaran B2B](/blog/cpq-konfigurasi-harga-dan-penawaran-untuk-penjualan-b2b-yang-kompleks)." },
   {
     type: "cta",
     title: "Pipeline Anda terlihat penuh, tapi realisasinya jauh?",

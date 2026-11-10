@@ -158,6 +158,7 @@ export const body: Block[] = [
     type: "p",
     text: "Employee self service bukan sekadar fitur tambahan, melainkan cara mengembalikan waktu tim HR untuk pekerjaan yang benar-benar membutuhkan penilaian manusia. Dengan memilih fitur yang tepat, menjaga keamanan data, dan memastikan kemudahan akses dari ponsel, pertanyaan rutin yang dulu memenuhi inbox HR bisa dijawab karyawan sendiri kapan saja mereka butuhkan.",
   },
+  { type: "p", text: "Pelatihan dan sertifikat karyawan juga dapat diakses mandiri; lihat [LMS dan pelatihan karyawan](/blog/lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan)." },
   {
     type: "cta",
     title: "HR Anda masih sibuk menjawab pertanyaan sisa cuti?",

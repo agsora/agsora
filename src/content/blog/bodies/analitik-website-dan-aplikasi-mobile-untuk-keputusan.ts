@@ -146,6 +146,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Analitik yang baik bukan tentang mengumpulkan sebanyak mungkin data, melainkan tentang menjawab pertanyaan bisnis yang benar dengan data yang dapat dipercaya. Rencana pelacakan yang jelas, metrik yang terkait tujuan, kualitas data yang dijaga, penghormatan terhadap privasi, dan kebiasaan meninjau serta menguji perubahan membuat data menjadi dasar keputusan, bukan hiasan laporan." },
   { type: "p", text: "Mulailah kecil dengan pertanyaan yang paling penting, ukur dengan jujur, dan tindaklanjuti. Dengan begitu website dan aplikasi Anda berkembang berdasarkan bukti tentang apa yang benar-benar dibutuhkan pengguna." },
+  { type: "p", text: "Cara menata tag, data layer, dan persetujuan agar data akurat dibahas di [Google Tag Manager, server-side tagging, dan consent mode](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)." },
   {
     type: "cta",
     title: "Ingin website atau aplikasi yang dilengkapi analitik dan pelaporan yang menjawab pertanyaan bisnis Anda?",

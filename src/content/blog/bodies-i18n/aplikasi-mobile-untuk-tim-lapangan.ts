@@ -123,6 +123,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "A mobile app for field teams has value when it closes the gap between where the work is done and where the data is kept. Field workers get information that makes them better prepared, the office gets events as they happen, and customers get more dependable service. Invoices go out faster, errors fall, and reports are no longer rewritten." },
   { type: "p", text: "The key is to design from the point of view of the person holding that phone: simple, resilient to poor signal, and genuinely helpful. If they feel the benefit, good data will follow by itself." },
+  { type: "p", text: "An example of digital checklists for cleaning and building maintenance staff is covered in [ERP for facility management and cleaning services](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)." },
   {
     type: "cta",
     title: "Is your field team still reporting on paper and in chat groups?",
@@ -255,6 +256,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "面向外勤团队的移动应用，价值在于缩短工作发生的地方与数据保存的地方之间的距离。外勤人员得到让他们准备更充分的信息，办公室在事情发生时就得到消息，客户则得到更可靠的服务。发票开得更快，错误减少，报告也不再需要重写。" },
   { type: "p", text: "关键在于从拿着那部手机的人的角度来设计：简单、经得起差信号，并且确实有帮助。只要他们感受到了好处，好的数据自然会随之而来。" },
+  { type: "p", text: "面向保洁和楼宇维护人员的电子清单应用示例，详见[设施管理与保洁服务 ERP](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)。" },
   {
     type: "cta",
     title: "你的外勤团队还在用纸张和聊天群汇报吗？",
