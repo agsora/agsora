@@ -119,6 +119,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "A good online booking system sells your time more efficiently. Customers book at any hour without waiting for a reply, the schedule fills more tightly, no shows fall, and staff can focus on the customer in front of them. Behind it are honest availability rules, one shared calendar, timely reminders, and a link with the till and customer data." },
   { type: "p", text: "Start by understanding what your customers are actually booking and which rules govern its availability. Once that is clear, choosing or building the tool becomes much easier, and the result shows straight away in a fuller schedule." },
+  { type: "p", text: "An example of booking for trial classes and class scheduling is in [systems for course and tutoring centers](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)." },
   {
     type: "cta",
     title: "Want customers to be able to book your service at any time from their phone?",
@@ -247,6 +248,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "好的在线预约系统能更高效地出售你的时间。顾客随时可以预约而不必等待回复，日程排得更满，爽约减少，员工也能把注意力放在眼前的顾客身上。它的背后是如实的可预约规则、一份共用的日历、及时的提醒，以及与收银和顾客数据的连接。" },
   { type: "p", text: "从弄清楚你的顾客实际预约的是什么、哪些规则决定着它是否可约开始。这一点清楚之后，选择或开发工具就容易得多，成效也会直接体现在更满的日程上。" },
+  { type: "p", text: "试听课预约与班级排课的应用示例见[培训与补习机构系统](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)。" },
   {
     type: "cta",
     title: "想让顾客随时用手机预约你的服务吗？",

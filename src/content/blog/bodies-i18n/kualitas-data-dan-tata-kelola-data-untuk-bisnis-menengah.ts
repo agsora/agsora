@@ -147,6 +147,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Data quality is not merely a technical project but an organizational habit. With clear owners, agreed definitions, standard rules enforced by the system, and periodic measurement, a company can reduce daily friction and make decisions on numbers it can trust. Start with the data that most affects money, fix it at the source, and expand step by step." },
   { type: "p", text: "Agsora helps businesses tidy data, design validation and integration between systems, and build dashboards whose numbers can be relied on. If you would like to assess the condition of your company's data, we are ready to talk." },
+  { type: "p", text: "Stale data reduces quality; scheduled cleanup is covered in [data retention policy](/blog/kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Build dashboards on data you can trust",
@@ -303,6 +304,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "数据质量不仅仅是技术项目，更是一种组织习惯。有了明确的负责人、一致认可的定义、由系统强制执行的统一规则和定期衡量，公司就能减少日常摩擦，在可信的数字上做出决策。从对资金影响最大的数据入手，在源头修复，并逐步扩展。" },
   { type: "p", text: "Agsora 协助企业整理数据、设计系统间的校验与集成，并构建数字可靠的仪表盘。如果您想评估公司的数据状况，我们很乐意与您交流。" },
+  { type: "p", text: "过时数据会降低质量；定期清理参见[数据保留政策](/blog/kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "在可信数据之上构建仪表盘",

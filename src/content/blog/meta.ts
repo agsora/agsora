@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak",
+    title: "Serverless dan Edge Computing untuk Aplikasi Bisnis: Kapan Cocok dan Kapan Tidak",
+    excerpt: "Panduan awam tentang serverless dan edge computing: beban kerja yang cocok, yang sebaiknya tetap di server biasa, cara menghitung biaya secara jujur, tantangan debugging dan keamanan, serta contoh penerapan bertahap tanpa mengganggu sistem inti.",
+    category: "Teknologi",
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    tags: ["infrastruktur","biaya","custom-software"],
+    titleTranslations: {
+      en: "Serverless and Edge Computing for Business Applications: When They Fit and When They Don't",
+      zh: "企业应用的无服务器与边缘计算：何时适合，何时不适合",
+    },
+    excerptTranslations: {
+      en: "A plain-language guide to serverless and edge computing: workloads that fit, those better left on ordinary servers, honest cost calculation, debugging and security challenges, and an example of gradual adoption without disturbing core systems.",
+      zh: "无服务器与边缘计算的通俗指南：适合的工作负载、更适合留在普通服务器上的负载、如实的成本计算、调试与安全挑战，以及不干扰核心系统的分阶段采用示例。",
+    },
+  },
+  {
+    slug: "sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp",
+    title: "Sistem untuk Lembaga Kursus dan Bimbel: Pendaftaran, Jadwal Kelas, dan Tagihan SPP",
+    excerpt: "Panduan menyusun sistem lembaga kursus dan bimbingan belajar: data siswa dan program, pendaftaran online, penjadwalan kelas dan pengajar, kehadiran, penilaian, tagihan berulang, honor pengajar, portal orang tua, dan laporan retensi untuk pemilik.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    tags: ["industri","operasional","pelaporan"],
+    titleTranslations: {
+      en: "Systems for Course and Tutoring Centers: Registration, Class Schedules, and Tuition Billing",
+      zh: "培训与补习机构系统：报名、排课与学费账单",
+    },
+    excerptTranslations: {
+      en: "A guide to building a system for course and tutoring centers: student and program data, online registration, class and teacher scheduling, attendance, assessment, recurring invoices, teacher pay, a parent portal, and retention reports for owners.",
+      zh: "培训与补习机构系统搭建指南：学员与课程数据、在线报名、班级与教师排课、出勤、考核、周期性账单、教师课酬、家长门户以及面向老板的留存报表。",
+    },
+  },
+  {
+    slug: "kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis",
+    title: "Kebijakan Retensi Data dan Penghapusan Data Pelanggan di Aplikasi Bisnis",
+    excerpt: "Cara menyusun kebijakan retensi data untuk bisnis: inventarisasi data, masa simpan per jenis data, anonimisasi, alur permintaan penghapusan dari pelanggan, cadangan dan log, serta implementasi teknis tanpa merusak laporan dan kewajiban pembukuan.",
+    category: "Teknologi",
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    tags: ["keamanan","data","operasional"],
+    titleTranslations: {
+      en: "Data Retention Policy and Customer Data Deletion in Business Applications",
+      zh: "企业应用中的数据保留政策与客户数据删除",
+    },
+    excerptTranslations: {
+      en: "How to draft a data retention policy for a business: data inventory, retention periods by data type, anonymization, a flow for customer deletion requests, backups and logs, and technical implementation without breaking reports and bookkeeping duties.",
+      zh: "如何为企业制定数据保留政策：数据盘点、按数据类型设定保留期、匿名化、客户删除请求流程、备份与日志，以及在不破坏报表和账务义务的前提下的技术实现。",
+    },
+  },
+  {
+    slug: "manajemen-perubahan-lingkup-dan-change-request-di-proyek-software",
+    title: "Manajemen Perubahan Lingkup dan Change Request di Proyek Software",
+    excerpt: "Proses change request yang sederhana namun disiplin untuk proyek software: lingkup dan kriteria penerimaan tertulis, klasifikasi permintaan, penilaian dampak, keputusan bersama, cadangan kontingensi, backlog, dan peran klien serta vendor.",
+    category: "Teknologi",
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    tags: ["vendor","kontrak","custom-software"],
+    titleTranslations: {
+      en: "Scope Change and Change Request Management in Software Projects",
+      zh: "软件项目中的范围变更与变更请求管理",
+    },
+    excerptTranslations: {
+      en: "A simple but disciplined change request process for software projects: written scope and acceptance criteria, request classification, impact assessment, joint decisions, contingency reserve, backlog, and the roles of client and vendor.",
+      zh: "适用于软件项目的简单而有纪律的变更请求流程：书面范围与验收标准、请求分类、影响评估、共同决策、应急储备、待办清单，以及客户与供应商的角色。",
+    },
+  },
+  {
+    slug: "sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan",
+    title: "Sistem Laundry dan Dry Cleaning: Order, Status Cucian, dan Tagihan Pelanggan",
+    excerpt: "Panduan sistem untuk laundry kiloan, satuan, dan dry cleaning: penerimaan order dan label, aturan harga, status proses dengan notifikasi WhatsApp, antar-jemput, pembayaran dan langganan, faktur korporat, bahan dan mesin, serta laporan pemilik.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    tags: ["industri","pos","operasional"],
+    titleTranslations: {
+      en: "Laundry and Dry Cleaning Systems: Orders, Laundry Status, and Customer Billing",
+      zh: "洗衣与干洗系统：订单、洗衣状态与客户账单",
+    },
+    excerptTranslations: {
+      en: "A system guide for weight-based laundry, per-piece laundry, and dry cleaning: order intake and labels, pricing rules, process status with WhatsApp notifications, pickup and delivery, payment and subscriptions, corporate invoices, materials and machines, and owner reports.",
+      zh: "面向按公斤洗衣、按件洗衣和干洗业务的系统指南：接单与标签、定价规则、带 WhatsApp 通知的流程状态、上门取送、付款与订阅、企业发票、物料与机器以及老板报表。",
+    },
+  },
+  {
     slug: "erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla",
     title: "ERP untuk Facility Management dan Jasa Kebersihan: Jadwal, Checklist, dan SLA",
     excerpt: "Panduan sistem untuk penyedia facility management dan jasa kebersihan: kontrak dan lingkup layanan per lokasi, jadwal rutin, checklist pekerjaan, laporan temuan, SLA, permintaan perbaikan, biaya bahan dan peralatan, serta penagihan dan margin per kontrak.",
@@ -368,7 +453,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjelasan container, Docker, dan Kubernetes untuk pemilik bisnis dan tim teknis: manfaat konsistensi lingkungan, biaya kompleksitas, pilihan hosting, keamanan image, dan roadmap adopsi bertahap.",
     category: "Teknologi",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-05",
+    updatedAt: "2026-11-11",
     tags: ["infrastruktur","operasional","biaya"],
     titleTranslations: {
       en: "Docker and Containers for Business Apps: When You Need Them, When They Are Overkill, and How to Start",
@@ -487,7 +572,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan caching berlapis untuk website dan aplikasi bisnis: cache browser, CDN, cache halaman, cache data, invalidasi, header HTTP, risiko data usang, dan cara mengukur dampaknya.",
     category: "Website & Digital",
     publishedAt: "2026-11-03",
-    updatedAt: "2026-11-03",
+    updatedAt: "2026-11-11",
     tags: ["website","infrastruktur","seo"],
     titleTranslations: {
       en: "Caching and CDNs: Speeding Up Business Websites and Apps Without Adding Servers",
@@ -623,7 +708,7 @@ export const meta: PostMeta[] = [
     excerpt: "Dimensi kualitas data, sumber masalah, tata kelola ringan dengan pemilik data, membersihkan data lama, pencegahan di titik input, dan rencana 90 hari yang realistis.",
     category: "Teknologi",
     publishedAt: "2026-10-28",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-11",
     tags: ["data","pelaporan","operasional"],
     titleTranslations: {
       en: "Data Quality and Data Governance for Mid-Sized Businesses: So Reports and Decisions Can Be Trusted",
@@ -1337,7 +1422,7 @@ export const meta: PostMeta[] = [
     excerpt: "Membandingkan tiga model harga proyek software, risiko dan kecocokannya, model campuran, serta hal yang harus tertulis di kontrak sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-11",
     tags: ["vendor","biaya","kontrak"],
     titleTranslations: {
       en: "Fixed Price, Time and Material, or Retainer? Choosing a Software Project Pricing Model",
@@ -2578,7 +2663,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis jasa menjual waktu. Cara merancang aturan ketersediaan, alur pemesanan singkat, uang muka dan kebijakan pembatalan, pengingat, daftar tunggu, riwayat pelanggan, serta hubungan dengan kasir dan kalender.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-11",
     tags: ["website","mobile","pelanggan","otomasi","pembayaran"],
     titleTranslations: {
       en: "Online Booking and Reservation Systems for Service Businesses: A Fuller Schedule, More Certain Customers",
@@ -2612,7 +2697,7 @@ export const meta: PostMeta[] = [
     excerpt: "Langganan mengubah cara menagih, mencatat, dan melayani. Kecocokan model, rancangan paket dan harga, mesin tagihan berulang, pembayaran gagal, pembatalan yang jujur, pencatatan pendapatan, dan ukuran retensi.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-11",
     tags: ["pembayaran","pelanggan","saas","keuangan","ecommerce"],
     titleTranslations: {
       en: "The Subscription Business Model and Recurring Billing: More Predictable Revenue and How to Manage It",
@@ -2714,7 +2799,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara memahami komponen tagihan cloud, memberi label dan pemilik, menghentikan pemborosan, menyesuaikan ukuran, memilih model harga, mengelola penyimpanan, dan memasang anggaran serta peringatan.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-11-11",
     tags: ["infrastruktur","biaya","saas"],
     titleTranslations: {
       en: "Controlling Cloud Costs for Business: From Surprising Bills to Measured Spending",
@@ -2799,7 +2884,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan edukatif mengelola data pribadi: memetakan data, dasar pengumpulan dan persetujuan, pemberitahuan privasi, hak pemilik data, pengamanan, pihak ketiga, masa simpan, dan kesiapan menghadapi kebocoran.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-11",
     tags: ["keamanan","data","pelanggan","kontrak"],
     titleTranslations: {
       en: "Personal Data Protection for Websites and Apps: Practical Steps for Business Owners",
@@ -3396,6 +3481,7 @@ export const meta: PostMeta[] = [
     excerpt: "Sistem kasir yang bekerja baik di satu toko belum tentu sanggup menangani lima. Ini yang berubah ketika outlet bertambah.",
     category: "POS & Retail",
     publishedAt: "2026-08-30",
+    updatedAt: "2026-11-11",
     tags: [
       "pos",
       "retail",
@@ -3608,7 +3694,7 @@ export const meta: PostMeta[] = [
     excerpt: "Dokumen kebutuhan yang sederhana membuat penawaran dari vendor bisa dibandingkan, dan mencegah salah paham yang mahal di tengah project.",
     category: "Panduan Memilih",
     publishedAt: "2026-08-23",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-11",
     tags: [
       "vendor",
       "custom-software",
@@ -3634,6 +3720,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kebanyakan kecurangan kasir memanfaatkan celah yang sama: transaksi yang bisa dihapus tanpa jejak. Sistem yang tepat menutup celah itu tanpa mencurigai semua orang.",
     category: "POS & Retail",
     publishedAt: "2026-08-17",
+    updatedAt: "2026-11-11",
     tags: [
       "pos",
       "retail",
@@ -3687,7 +3774,7 @@ export const meta: PostMeta[] = [
     excerpt: "Backup baru terasa penting saat data sudah hilang. Strategi yang baik bukan sekadar menyalin data, tapi memastikan data itu benar-benar bisa dipulihkan.",
     category: "Teknologi",
     publishedAt: "2026-08-07",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-11",
     tags: [
       "infrastruktur",
       "keamanan",
@@ -3712,6 +3799,7 @@ export const meta: PostMeta[] = [
     excerpt: "Banyak sistem sekolah hanya aktif di awal tahun ajaran, lalu ditinggalkan. Penyebabnya jarang soal fitur, lebih sering soal siapa yang harus mengisinya.",
     category: "Panduan Industri",
     publishedAt: "2026-08-03",
+    updatedAt: "2026-11-11",
     tags: [
       "industri",
       "data",
@@ -3752,7 +3840,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menerima pembayaran QRIS itu mudah. Yang sering terlewat adalah memastikan setiap pembayaran digital tercatat rapi dan cocok dengan laporan penjualan.",
     category: "POS & Retail",
     publishedAt: "2026-07-28",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-11",
     tags: [
       "pos",
       "pembayaran",
@@ -3956,7 +4044,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kontrak yang jelas melindungi kedua pihak ketika project tidak berjalan sesuai rencana. Ini bagian-bagian yang layak diperhatikan sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-06-26",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-11",
     tags: [
       "kontrak",
       "vendor",

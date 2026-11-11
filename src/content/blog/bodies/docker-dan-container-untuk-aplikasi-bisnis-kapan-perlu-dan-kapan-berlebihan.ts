@@ -74,5 +74,6 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Container adalah alat yang kuat untuk membuat aplikasi berjalan konsisten, tetapi bukan tujuan. Nilainya terletak pada rilis yang lebih terulang, lingkungan yang seragam, dan pemulihan yang lebih cepat, selama tim memahami apa yang dikelolanya. Mulailah dari yang kecil: satu aplikasi, satu pipeline, satu rencana rollback. Tambahkan kerumitan hanya ketika masalah nyata menuntutnya, dan ukur hasilnya di setiap langkah." },
   { type: "p", text: "Untuk membangun lingkungan tempat container berjalan secara konsisten, baca [Infrastructure as Code untuk aplikasi bisnis](/blog/infrastructure-as-code-dan-otomatisasi-lingkungan-untuk-aplikasi-bisnis)." },
+  { type: "p", text: "Untuk beban yang naik-turun dan tugas pendek, pertimbangkan juga [serverless dan edge computing](/blog/serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak)." },
   { type: "cta", title: "Butuh infrastruktur aplikasi yang rapi",text: "Diskusikan aplikasi dan kebutuhan rilis Anda. Tim Agsora membantu merancang pipeline dan lingkungan yang sesuai skala bisnis, tanpa kerumitan berlebih.",href: "/services/custom-software",label: "Konsultasi gratis" },
 ];

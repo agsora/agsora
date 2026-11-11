@@ -119,6 +119,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "The subscription model gives more predictable revenue and longer customer relationships, but it demands discipline behind the scenes. Billing must be accurate, failed payments must be handled patiently, cancellation must be easy, and revenue must be recorded in its proper period. All of that requires a system designed for cycles, not for single transactions." },
   { type: "p", text: "Start from a customer need that genuinely recurs, test with a simple offer, and build the system as the evidence accumulates. Businesses that run it honestly will find that recurring revenue is the result of customers who keep feeling helped." },
+  { type: "p", text: "Monthly invoices and meeting packages for students are discussed in [systems for course and tutoring centers](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)." },
   {
     type: "cta",
     title: "Want to add subscriptions and recurring billing to your business?",
@@ -247,6 +248,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "订阅模式带来更可预估的收入和更长久的顾客关系，但它要求幕后有严格的纪律。账单必须准确，扣款失败必须耐心处理，取消必须方便，收入必须记在正确的期间。这一切都需要一个为周期而不是为单笔交易设计的系统。" },
   { type: "p", text: "从顾客确实会重复的需求出发，用简单的方案进行测试，并随着证据的积累逐步搭建系统。诚实经营的企业会发现，经常性收入正是顾客持续感到被帮助的结果。" },
+  { type: "p", text: "面向学员的月度账单和课时包，参见[培训与补习机构系统](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)。" },
   {
     type: "cta",
     title: "想为你的业务加入订阅和周期性计费吗？",

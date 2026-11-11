@@ -144,6 +144,7 @@ export const body: Block[] = [
   { type: "p", text: "Dari sisi penyedia jasa, pengaruh model harga pada margin dibahas di [ERP untuk agensi kreatif dan digital](/blog/erp-untuk-agensi-kreatif-dan-digital-timesheet-utilisasi-dan-profitabilitas)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Tidak ada model harga yang selalu terbaik. Harga tetap memberi kepastian saat lingkup jelas, time and material memberi fleksibilitas saat kebutuhan berkembang, dan retainer menjaga sistem tetap sehat setelah peluncuran. Banyak proyek paling baik dijalankan dengan gabungan ketiganya secara bertahap. Pilih model berdasarkan kejelasan lingkup, toleransi anggaran, dan tingkat keterlibatan tim Anda, lalu pastikan kontraknya menetapkan lingkup, kriteria penerimaan, dan mekanisme perubahan dengan jelas." },
+  { type: "p", text: "Pengaruh model harga pada penanganan perubahan dibahas di [manajemen perubahan lingkup dan change request](/blog/manajemen-perubahan-lingkup-dan-change-request-di-proyek-software)." },
   {
     type: "cta",
     title: "Bingung membandingkan penawaran proyek software?",

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_serverless_dan_edge_computing_untuk_aplikasi_bisnis_kapan_cocok_dan_kapan_tidak } from "./serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak";
+import { body as b_sistem_lembaga_kursus_dan_bimbel_pendaftaran_jadwal_kelas_dan_tagihan_spp } from "./sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp";
+import { body as b_kebijakan_retensi_data_dan_penghapusan_data_pelanggan_di_aplikasi_bisnis } from "./kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis";
+import { body as b_manajemen_perubahan_lingkup_dan_change_request_di_proyek_software } from "./manajemen-perubahan-lingkup-dan-change-request-di-proyek-software";
+import { body as b_sistem_laundry_dan_dry_cleaning_order_status_cucian_dan_tagihan_pelanggan } from "./sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan";
 import { body as b_erp_untuk_facility_management_dan_jasa_kebersihan_jadwal_checklist_dan_sla } from "./erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla";
 import { body as b_google_tag_manager_server_side_tagging_dan_consent_mode_untuk_pengukuran_yang_patuh } from "./google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh";
 import { body as b_ai_untuk_tinjauan_kontrak_ekstraksi_klausul_dan_penandaan_risiko_dengan_pengawasan_manusia } from "./ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia";
@@ -258,6 +263,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak": b_serverless_dan_edge_computing_untuk_aplikasi_bisnis_kapan_cocok_dan_kapan_tidak,
+  "sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp": b_sistem_lembaga_kursus_dan_bimbel_pendaftaran_jadwal_kelas_dan_tagihan_spp,
+  "kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis": b_kebijakan_retensi_data_dan_penghapusan_data_pelanggan_di_aplikasi_bisnis,
+  "manajemen-perubahan-lingkup-dan-change-request-di-proyek-software": b_manajemen_perubahan_lingkup_dan_change_request_di_proyek_software,
+  "sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan": b_sistem_laundry_dan_dry_cleaning_order_status_cucian_dan_tagihan_pelanggan,
   "erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla": b_erp_untuk_facility_management_dan_jasa_kebersihan_jadwal_checklist_dan_sla,
   "google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh": b_google_tag_manager_server_side_tagging_dan_consent_mode_untuk_pengukuran_yang_patuh,
   "ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia": b_ai_untuk_tinjauan_kontrak_ekstraksi_klausul_dan_penandaan_risiko_dengan_pengawasan_manusia,

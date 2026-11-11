@@ -88,7 +88,7 @@
   1
  ],
  "caching-dan-cdn-mempercepat-website-dan-aplikasi-bisnis": [
-  2184,
+  2197,
   1
  ],
  "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": [
@@ -172,7 +172,7 @@
   0
  ],
  "docker-dan-container-untuk-aplikasi-bisnis-kapan-perlu-dan-kapan-berlebihan": [
-  1864,
+  1877,
   1
  ],
  "dokumentasi-teknis-dan-serah-terima-proyek-software": [
@@ -351,6 +351,10 @@
   1655,
   1
  ],
+ "kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis": [
+  1769,
+  1
+ ],
  "kebutuhan-crm-untuk-bisnis-b2b": [
   1565,
   0
@@ -388,7 +392,7 @@
   0
  ],
  "kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah": [
-  1881,
+  1892,
   1
  ],
  "landed-cost-menghitung-biaya-barang-impor-di-erp": [
@@ -451,6 +455,10 @@
   2085,
   1
  ],
+ "manajemen-perubahan-lingkup-dan-change-request-di-proyek-software": [
+  1601,
+  1
+ ],
  "manajemen-pesanan-toko-online-dari-masuk-hingga-terkirim": [
   2117,
   1
@@ -472,7 +480,7 @@
   0
  ],
  "memilih-sistem-pos-multi-outlet": [
-  1531,
+  1547,
   0
  ],
  "memilih-teknologi-aplikasi-mobile-flutter-react-native-atau-native": [
@@ -484,7 +492,7 @@
   0
  ],
  "mencegah-kecurangan-kasir": [
-  1548,
+  1565,
   0
  ],
  "mendefinisikan-tahapan-pipeline-penjualan": [
@@ -492,7 +500,7 @@
   0
  ],
  "menerapkan-qris-di-kasir": [
-  1513,
+  1526,
   0
  ],
  "mengelola-absensi-karyawan-lapangan": [
@@ -512,7 +520,7 @@
   1
  ],
  "mengendalikan-biaya-cloud-untuk-bisnis": [
-  2305,
+  2318,
   1
  ],
  "menghitung-biaya-sebenarnya-project-software": [
@@ -544,7 +552,7 @@
   1
  ],
  "menyusun-dokumen-kebutuhan-software": [
-  1560,
+  1576,
   0
  ],
  "menyusun-proses-onboarding-karyawan": [
@@ -568,7 +576,7 @@
   1
  ],
  "model-bisnis-langganan-dan-tagihan-berulang": [
-  2102,
+  2116,
   1
  ],
  "model-context-protocol-mcp-menghubungkan-ai-dengan-sistem-bisnis": [
@@ -576,7 +584,7 @@
   1
  ],
  "model-harga-proyek-software-fixed-price-time-and-material-retainer": [
-  1548,
+  1562,
   1
  ],
  "modernisasi-sistem-lama-legacy-tanpa-menghentikan-operasional": [
@@ -644,7 +652,7 @@
   1
  ],
  "pelindungan-data-pribadi-untuk-website-dan-aplikasi": [
-  2501,
+  2516,
   1
  ],
  "pembayaran-cicilan-dan-paylater-di-toko-online": [
@@ -744,7 +752,7 @@
   1
  ],
  "poin-penting-kontrak-pengembangan-software": [
-  1638,
+  1650,
   0
  ],
  "portal-pelanggan-dan-pemasok-b2b": [
@@ -851,8 +859,12 @@
   2048,
   1
  ],
+ "serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak": [
+  1639,
+  1
+ ],
  "sistem-booking-dan-reservasi-online-untuk-bisnis-jasa": [
-  2054,
+  2070,
   1
  ],
  "sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis": [
@@ -868,7 +880,7 @@
   1
  ],
  "sistem-informasi-sekolah": [
-  1499,
+  1515,
   0
  ],
  "sistem-kasir-offline-first-dan-sinkronisasi-multi-perangkat": [
@@ -877,6 +889,14 @@
  ],
  "sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu": [
   1812,
+  1
+ ],
+ "sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan": [
+  1821,
+  1
+ ],
+ "sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp": [
+  1680,
   1
  ],
  "sistem-manajemen-bengkel-otomotif-work-order-suku-cadang-dan-garansi-servis": [
@@ -932,7 +952,7 @@
   0
  ],
  "strategi-backup-data-bisnis": [
-  1583,
+  1594,
   0
  ],
  "strategi-harga-dan-penetapan-harga-toko-online": [

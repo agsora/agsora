@@ -182,6 +182,7 @@ export const body: Block[] = [
     type: "p",
     text: "Dokumen kebutuhan yang baik adalah investasi kecil yang menghemat banyak waktu, biaya, dan kesalahpahaman di kemudian hari. Ia tidak membutuhkan keahlian teknis, hanya kejelasan tentang masalah dan tujuan Anda. Luangkan waktu menyusunnya sebelum menghubungi vendor mana pun, dan bandingkan penawaran yang Anda terima dengan jauh lebih percaya diri.",
   },
+  { type: "p", text: "Kebutuhan akan berubah di tengah jalan; cara mengelolanya ada di [manajemen perubahan lingkup dan change request](/blog/manajemen-perubahan-lingkup-dan-change-request-di-proyek-software)." },
   {
     type: "cta",
     title: "Butuh bantuan menyusun kebutuhan project Anda?",

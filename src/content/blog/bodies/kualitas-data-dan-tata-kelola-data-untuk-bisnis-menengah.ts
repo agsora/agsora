@@ -147,6 +147,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Kualitas data bukan proyek teknis semata, melainkan kebiasaan organisasi. Dengan pemilik yang jelas, definisi yang disepakati, aturan baku yang ditegakkan sistem, dan pengukuran berkala, perusahaan dapat mengurangi gesekan harian dan membuat keputusan di atas angka yang bisa dipercaya. Mulailah dari data yang paling memengaruhi uang, perbaiki di sumbernya, dan perluas bertahap." },
   { type: "p", text: "Agsora membantu bisnis merapikan data, merancang validasi dan integrasi antarsistem, serta membangun dashboard yang angkanya dapat diandalkan. Jika Anda ingin menilai kondisi data perusahaan, kami siap berdiskusi." },
+  { type: "p", text: "Data usang menurunkan kualitas; pembersihan terjadwal dibahas di [kebijakan retensi data](/blog/kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Bangun dashboard dengan data yang bisa dipercaya",

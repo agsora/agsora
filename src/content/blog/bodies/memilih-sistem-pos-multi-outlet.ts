@@ -209,6 +209,7 @@ export const body: Block[] = [
     type: "p",
     text: "Sistem kasir yang tepat untuk bisnis multioutlet bukan yang paling banyak fiturnya, tetapi yang membuat Anda tetap bisa melihat dan mengendalikan setiap lokasi tanpa harus hadir di sana. Pilih berdasarkan skenario nyata yang Anda hadapi setiap hari, dan uji sebelum berkomitmen.",
   },
+  { type: "p", text: "Contoh penerapan POS multi-outlet untuk laundry kiloan dan satuan ada di [sistem laundry dan dry cleaning](/blog/sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan)." },
   {
     type: "cta",
     title: "Siap melihat semua outlet dari satu layar?",

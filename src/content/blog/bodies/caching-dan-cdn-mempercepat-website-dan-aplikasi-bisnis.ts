@@ -70,5 +70,6 @@ export const body: Block[] = [
   { type: "p", text: "Tidak. Cache melengkapi optimasi, bukan menggantikannya. Perbaiki kueri lambat dan aset yang berat lebih dulu, lalu gunakan cache untuk mempertahankan kecepatan saat lalu lintas naik." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Caching dan CDN adalah cara paling hemat untuk membuat website dan aplikasi bisnis terasa cepat, karena mengurangi pekerjaan yang tidak perlu alih-alih menambah mesin. Kuncinya adalah memahami lapisan-lapisannya, memilah konten berdasarkan sifatnya, merancang invalidasi sejak awal, dan mengukur hasil dengan data nyata. Mulailah dari aset statis dan halaman publik, lalu perluas dengan hati-hati ke data dinamis." },
+  { type: "p", text: "Menjalankan kode kecil di lokasi dekat pengguna dibahas di [serverless dan edge computing](/blog/serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak)." },
   { type: "cta", title: "Percepat website dan aplikasi bisnis Anda",text: "Agsora membantu mengaudit kinerja, merancang strategi caching dan CDN, serta mengimplementasikannya dengan aman. Ceritakan keluhan kecepatan yang Anda hadapi dan kami siapkan rekomendasi awal.",href: "/services/website",label: "Konsultasi gratis" },
 ];

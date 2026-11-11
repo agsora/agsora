@@ -164,6 +164,7 @@ export const body: Block[] = [
     type: "p",
     text: "Sistem informasi sekolah yang berhasil bukan yang paling lengkap fiturnya, melainkan yang benar-benar dipakai guru setiap hari tanpa menambah beban kerja mereka. Rancang dari sudut pandang guru, uji sebelum meluncurkan penuh, dan terapkan mengikuti ritme kalender akademik, bukan mengikuti keinginan meluncurkan semuanya sekaligus.",
   },
+  { type: "p", text: "Untuk lembaga kursus dengan paket, jadwal fleksibel, dan tagihan bulanan, lihat [sistem lembaga kursus dan bimbel](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)." },
   {
     type: "cta",
     title: "Ingin sistem sekolah yang benar-benar dipakai guru?",

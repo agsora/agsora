@@ -145,6 +145,7 @@ export const body: Block[] = [
     type: "p",
     text: "QRIS memudahkan pelanggan membayar, tapi kemudahan itu tidak berarti apa-apa jika bisnis tidak bisa memastikan setiap pembayaran benar-benar diterima dan tercatat dengan benar. Dengan kode dinamis yang terintegrasi, konfirmasi dari sumber resmi, dan pencocokan rutin, pembayaran digital bisa berjalan lancar tanpa meninggalkan misteri di akhir hari.",
   },
+  { type: "p", text: "Contoh pembayaran QRIS pada bisnis laundry dibahas di [sistem laundry dan dry cleaning](/blog/sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan)." },
   {
     type: "cta",
     title: "Masih mengandalkan layar ponsel pelanggan untuk konfirmasi bayar?",

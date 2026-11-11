@@ -125,6 +125,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Biaya cloud yang sehat tidak lahir dari satu kali penghematan besar, melainkan dari kebiasaan kecil yang konsisten: membaca tagihan, memberi label, mematikan yang tidak dipakai, menyesuaikan ukuran, memilih model harga yang tepat, dan memasang peringatan. Semua itu dilakukan tanpa mengorbankan keandalan dan keamanan yang melindungi bisnis." },
   { type: "p", text: "Mulailah dari pos terbesar, beri setiap sumber daya pemilik, dan hubungkan biaya dengan nilai bisnis. Dengan begitu cloud tetap menjadi alat yang membantu bisnis tumbuh, bukan sumber kejutan setiap akhir bulan." },
+  { type: "p", text: "Model bayar sesuai pemakaian dan titik impasnya dibahas di [serverless dan edge computing](/blog/serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak)." },
   {
     type: "cta",
     title: "Ingin infrastruktur cloud yang dirancang efisien dan terkendali biayanya?",

@@ -119,6 +119,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Model langganan memberi pendapatan yang lebih bisa diperkirakan dan hubungan pelanggan yang lebih panjang, tetapi menuntut disiplin di belakang layar. Tagihan harus tepat, pembayaran gagal harus ditangani dengan sabar, pembatalan harus mudah, dan pendapatan harus dicatat sesuai periodenya. Semua itu memerlukan sistem yang dirancang untuk siklus, bukan untuk transaksi tunggal." },
   { type: "p", text: "Mulailah dari kebutuhan pelanggan yang memang berulang, uji dengan penawaran sederhana, dan bangun sistemnya seiring bukti yang terkumpul. Bisnis yang menjalankannya dengan jujur akan menemukan bahwa pendapatan berulang adalah hasil dari pelanggan yang terus merasa terbantu." },
+  { type: "p", text: "Tagihan bulanan dan paket pertemuan untuk siswa dibahas di [sistem lembaga kursus dan bimbel](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)." },
   {
     type: "cta",
     title: "Ingin menambahkan langganan dan tagihan berulang ke bisnis Anda?",

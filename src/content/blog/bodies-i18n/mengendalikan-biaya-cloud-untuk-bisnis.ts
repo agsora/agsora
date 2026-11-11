@@ -125,6 +125,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Healthy cloud costs do not come from one big saving but from small, consistent habits: reading the bill, labelling, switching off what is unused, right sizing, choosing the right pricing model, and setting alerts. All of it is done without sacrificing the reliability and security that protect the business." },
   { type: "p", text: "Start from the largest line, give every resource an owner, and link cost to business value. That way the cloud remains a tool that helps the business grow, not a source of surprises every month end." },
+  { type: "p", text: "Pay-per-use pricing and its break-even point are discussed in [serverless and edge computing](/blog/serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak)." },
   {
     type: "cta",
     title: "Want cloud infrastructure designed to be efficient and cost controlled?",
@@ -259,6 +260,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "健康的云成本并非来自一次大幅节省,而是来自小而持续的习惯:阅读账单、加标签、关闭不用的资源、调整规格、选择合适的定价模式,以及设置告警。所有这些都在不牺牲保护业务的可靠性和安全的前提下进行。" },
   { type: "p", text: "从最大的项目开始,给每个资源一个所有者,并把成本与业务价值联系起来。这样云仍然是帮助业务成长的工具,而不是每个月底的惊吓来源。" },
+  { type: "p", text: "按用量付费的模式及其盈亏平衡点，参见[无服务器与边缘计算](/blog/serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak)。" },
   {
     type: "cta",
     title: "想要设计高效、成本可控的云基础设施吗?",

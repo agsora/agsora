@@ -70,6 +70,7 @@ const en: Block[] = [
   { type: "p", text: "No. Caching complements optimization, it does not replace it. Fix slow queries and heavy assets first, then use caching to maintain speed as traffic rises." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Caching and CDNs are the most economical way to make business websites and apps feel fast, because they reduce unnecessary work instead of adding machines. The key is to understand the layers, sort content by its nature, design invalidation from the start, and measure results with real data. Start with static assets and public pages, then carefully extend to dynamic data." },
+  { type: "p", text: "Running small pieces of code close to users is covered in [serverless and edge computing](/blog/serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak)." },
   { type: "cta", title: "Speed up your business website and apps",text: "Agsora helps audit performance, design caching and CDN strategy, and implement it safely. Tell us about the speed problems you face and we will prepare an initial recommendation.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -143,6 +144,7 @@ const zh: Block[] = [
   { type: "p", text: "不能。缓存是对优化的补充，而不是替代。先修复慢查询和沉重的资源，再用缓存在流量上升时保持速度。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "缓存和 CDN 是让企业网站和应用感觉快速的最经济方式，因为它们减少不必要的工作，而不是增加机器。关键在于理解各个层次、按性质对内容分类、从一开始就设计失效机制，并用真实数据衡量结果。从静态资源和公开页面开始，再谨慎扩展到动态数据。" },
+  { type: "p", text: "在靠近用户的位置运行小段代码，参见[无服务器与边缘计算](/blog/serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak)。" },
   { type: "cta", title: "加速您的企业网站和应用",text: "Agsora 协助审计性能、设计缓存与 CDN 策略并安全地实施。请告诉我们您遇到的速度问题，我们将提供初步建议。",href: "/services/website",label: "免费咨询" },
 ];
 
