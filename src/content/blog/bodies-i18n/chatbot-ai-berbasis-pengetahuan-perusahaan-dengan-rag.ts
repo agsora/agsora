@@ -78,6 +78,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "RAG is not magic and not merely plugging a model into a folder of documents. It is a system that combines knowledge management, retrieval, firm instructions, access control, and continuous evaluation. Designed well, the result is an assistant that answers from your sources, shows its references, and is honest when it does not know." },
   { type: "p", text: "Start small: one domain, tidied documents, a set of test questions, and a human handoff. Measure the results, improve the documents, then expand step by step. That way you get real benefit without staking your reputation on invented answers." },
+  { type: "p", text: "If AI is used to assist agents rather than answer customers directly, see [AI copilots for customer support teams](/blog/ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu)." },
   {
     type: "cta",
     title: "Want an AI assistant that answers from your business documents and data?",
@@ -165,6 +166,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "RAG 不是魔法，也不只是把模型接到一个文档文件夹上。它是一个结合知识管理、检索、明确指令、访问控制和持续评估的系统。设计得当，就能得到一个依据您的资料作答、展示出处、不知道时坦诚相告的助手。" },
   { type: "p", text: "从小处开始：一个领域、整理好的文档、一组测试问题和转人工通道。衡量结果，改进文档，再逐步扩展。这样既能获得实际收益，又不必拿声誉去冒险依赖编造的答案。" },
+  { type: "p", text: "如果让 AI 辅助客服而不是直接回答客户，请参阅[客服团队的 AI 副驾驶](/blog/ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu)。" },
   {
     type: "cta",
     title: "想要一个能依据您的业务文档和数据作答的 AI 助手吗？",

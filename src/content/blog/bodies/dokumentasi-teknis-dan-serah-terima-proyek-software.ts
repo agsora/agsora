@@ -139,6 +139,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Dokumentasi teknis dan serah terima yang baik adalah asuransi murah bagi investasi software Anda. Dengan dokumen yang menjawab pertanyaan nyata, akses yang tercatat dan atas nama perusahaan, proses serah terima yang terstruktur, serta kebiasaan memperbarui, aplikasi bisnis Anda tetap dapat dipelihara siapa pun yang kompeten dan Anda tidak terjebak pada satu orang atau satu vendor. Mulailah dengan menuliskan kewajiban ini di kontrak dan menguji kualitas dokumentasi sejak awal proyek, bukan di akhir." },
   { type: "p", text: "Agsora membangun setiap proyek dengan dokumentasi dan serah terima yang jelas, sehingga klien memegang kendali penuh atas sistem mereka. Bila Anda ingin menilai dokumentasi sistem yang ada atau merencanakan serah terima dari vendor sebelumnya, kami siap berdiskusi." },
+  { type: "p", text: "Untuk dokumentasi proses bisnis sehari-hari di luar proyek software, lihat [knowledge base internal dan wiki perusahaan](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)." },
   {
     type: "cta",
     title: "Pastikan software Anda tetap bisa dipelihara",

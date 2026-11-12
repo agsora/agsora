@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu",
+    title: "AI Copilot untuk Tim Dukungan Pelanggan: Ringkasan Tiket, Saran Balasan, dan Kontrol Mutu",
+    excerpt: "Cara memakai AI sebagai asisten agen dukungan pelanggan: ringkasan tiket otomatis, saran balasan dari basis pengetahuan, klasifikasi dan prioritas, penerjemahan, kontrol mutu, batasan data pribadi, serta cara mengukur dampaknya secara jujur.",
+    category: "Teknologi",
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    tags: ["ai","otomasi","operasional"],
+    titleTranslations: {
+      en: "AI Copilots for Customer Support Teams: Ticket Summaries, Suggested Replies, and Quality Control",
+      zh: "客服团队的 AI 副驾驶：工单摘要、回复建议与质量控制",
+    },
+    excerptTranslations: {
+      en: "How to use AI as an assistant for support agents: automatic ticket summaries, suggested replies from a knowledge base, classification and priority, translation, quality control, personal data limits, and an honest way to measure the impact.",
+      zh: "如何让 AI 成为客服人员的助手：自动工单摘要、基于知识库的回复建议、分类与优先级、翻译、质量控制、个人数据边界，以及如实衡量效果的方法。",
+    },
+  },
+  {
+    slug: "knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi",
+    title: "Knowledge Base Internal dan Wiki Perusahaan: Agar Pengetahuan Tidak Hilang Saat Karyawan Pergi",
+    excerpt: "Panduan membangun basis pengetahuan internal yang benar-benar dipakai: jenis dokumen, struktur, pemilik konten, siklus tinjau, pencarian, integrasi dengan chat dan onboarding, hak akses, serta cara menjaga isi tetap mutakhir tanpa membebani tim.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    tags: ["operasional","data","implementasi"],
+    titleTranslations: {
+      en: "Internal Knowledge Bases and Company Wikis: Keeping Knowledge When People Leave",
+      zh: "企业内部知识库与维基：员工离职时不再丢失知识",
+    },
+    excerptTranslations: {
+      en: "A guide to building an internal knowledge base people actually use: document types, structure, content owners, review cycles, search, integration with chat and onboarding, access rights, and keeping content current without burdening the team.",
+      zh: "构建员工真正会用的内部知识库的指南：文档类型、结构、内容负责人、审阅周期、搜索、与聊天和入职的集成、访问权限，以及在不加重团队负担的前提下保持内容最新。",
+    },
+  },
+  {
+    slug: "whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis",
+    title: "Whistleblowing System dan Kanal Pengaduan Internal untuk Kepatuhan Bisnis",
+    excerpt: "Cara merancang kanal pengaduan internal yang dipercaya karyawan: ruang lingkup laporan, anonimitas, penanganan kasus, perlindungan pelapor, pencatatan dan jejak audit, batas waktu respons, serta pelaporan ke pimpinan tanpa membocorkan identitas.",
+    category: "Teknologi",
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    tags: ["keamanan","operasional","pelaporan"],
+    titleTranslations: {
+      en: "Whistleblowing Systems and Internal Complaint Channels for Business Compliance",
+      zh: "举报系统与内部投诉渠道：企业合规实务",
+    },
+    excerptTranslations: {
+      en: "How to design an internal complaint channel employees trust: report scope, anonymity, case handling, whistleblower protection, records and audit trails, response deadlines, and reporting to leadership without exposing identities.",
+      zh: "如何设计员工信任的内部投诉渠道：举报范围、匿名性、案件处理、举报人保护、记录与审计轨迹、响应时限，以及在不泄露身份的前提下向管理层汇报。",
+    },
+  },
+  {
+    slug: "seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema",
+    title: "SEO Video dan YouTube untuk Website Jasa B2B: Transkrip, Chapter, dan Schema",
+    excerpt: "Panduan memakai video untuk menarik calon klien B2B: topik video yang dicari, judul dan deskripsi, transkrip, chapter, schema VideoObject, penanaman di website tanpa memperlambat halaman, sitemap video, dan cara mengukur prospek dari video.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    tags: ["seo","website","ecommerce"],
+    titleTranslations: {
+      en: "Video SEO and YouTube for B2B Service Websites: Transcripts, Chapters, and Schema",
+      zh: "B2B 服务网站的视频 SEO 与 YouTube：文字稿、章节与结构化数据",
+    },
+    excerptTranslations: {
+      en: "A guide to using video to attract B2B prospects: searched video topics, titles and descriptions, transcripts, chapters, VideoObject schema, embedding without slowing pages, video sitemaps, and measuring leads from video.",
+      zh: "利用视频吸引 B2B 潜在客户的指南：用户会搜索的视频主题、标题与描述、文字稿、章节、VideoObject 结构化数据、不拖慢页面的嵌入方式、视频站点地图，以及衡量视频带来的线索。",
+    },
+  },
+  {
+    slug: "sistem-antrean-dan-manajemen-layanan-pelanggan-tiket-nomor-loket-dan-estimasi-tunggu",
+    title: "Sistem Antrean dan Manajemen Layanan Pelanggan: Tiket Nomor, Loket, dan Estimasi Tunggu",
+    excerpt: "Panduan membangun sistem antrean untuk klinik, bengkel, kantor layanan, dan gerai ritel: tiket nomor dan antrean online, pembagian loket, prioritas, estimasi tunggu, notifikasi, layar panggilan, data kinerja layanan, dan integrasi dengan reservasi serta POS.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    tags: ["industri","operasional","pelaporan"],
+    titleTranslations: {
+      en: "Queue and Customer Service Management Systems: Ticket Numbers, Counters, and Wait Estimates",
+      zh: "排队与客户服务管理系统：取号、窗口与等待时间预估",
+    },
+    excerptTranslations: {
+      en: "A guide to building a queue system for clinics, workshops, service offices, and retail outlets: ticket numbers and online queues, counter allocation, priority, wait estimates, notifications, call screens, service performance data, and integration with booking and POS.",
+      zh: "为诊所、维修厂、服务网点和零售门店搭建排队系统的指南：取号与线上排队、窗口分配、优先级、等待时间预估、通知、叫号屏、服务绩效数据，以及与预约和 POS 的集成。",
+    },
+  },
+  {
     slug: "serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak",
     title: "Serverless dan Edge Computing untuk Aplikasi Bisnis: Kapan Cocok dan Kapan Tidak",
     excerpt: "Panduan awam tentang serverless dan edge computing: beban kerja yang cocok, yang sebaiknya tetap di server biasa, cara menghitung biaya secara jujur, tantangan debugging dan keamanan, serta contoh penerapan bertahap tanpa mengganggu sistem inti.",
@@ -504,7 +589,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara membuat konten website jasa dan B2B yang dipercaya mesin pencari dan calon klien: bukti pengalaman, profil penulis, studi kasus, transparansi, pembaruan konten, dan kesalahan yang merusak kepercayaan.",
     category: "Website & Digital",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-12",
     tags: ["seo","website","pelanggan"],
     titleTranslations: {
       en: "E-E-A-T and Content Credibility for B2B Service Websites: Experience, Expertise, and Real Proof",
@@ -759,7 +844,7 @@ export const meta: PostMeta[] = [
     excerpt: "Dokumen yang perlu ada, cara menilai kualitas dokumentasi, proses serah terima terstruktur, klausul kontrak, dan cara menjaga dokumentasi tetap hidup setelah peluncuran.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-28",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-12",
     tags: ["custom-software","vendor","kontrak"],
     titleTranslations: {
       en: "Technical Documentation and Software Project Handover: So Your Business App Does Not Depend on One Person",
@@ -1031,7 +1116,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengukur kualitas AI di bisnis: dimensi kualitas, set uji dari data nyata, penilaian otomatis dan oleh manusia, ambang rilis, dan pemantauan setelah peluncuran.",
     category: "Teknologi",
     publishedAt: "2026-10-24",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-12",
     tags: ["ai","otomasi","operasional"],
     titleTranslations: {
       en: "Evaluating AI Output Quality (LLM Evals): How to Test Chatbots and AI Agents Before and After Release",
@@ -1184,7 +1269,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun rencana respons insiden: peran tim, persiapan cadangan dan log, enam fase respons, skenario umum, kewajiban pemberitahuan data pribadi, dan latihan simulasi.",
     category: "Teknologi",
     publishedAt: "2026-10-23",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-12",
     tags: ["keamanan","infrastruktur","operasional"],
     titleTranslations: {
       en: "Cybersecurity Incident Response Plan for Business: Steps from Detection to Recovery",
@@ -1711,7 +1796,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja RAG, kasus penggunaan untuk bisnis, tahapan membangun asisten AI dari dokumen sendiri, keamanan data, serta cara mengukur mutu jawaban.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-12",
     tags: ["ai","data","otomasi"],
     titleTranslations: {
       en: "Chatbot AI Powered by Company Knowledge with RAG: Accurate Answers from Your Documents",
@@ -1813,7 +1898,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan data terstruktur JSON-LD untuk bisnis: tipe schema yang berguna, cara menerapkan, kesalahan umum, serta pengujian dan pemantauan untuk pencarian tradisional dan AI.",
     category: "Website & Digital",
     publishedAt: "2026-10-16",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-12",
     tags: ["seo","website","data"],
     titleTranslations: {
       en: "Schema Markup and Structured Data for Business Website SEO: Stand Out in Search",
@@ -1949,7 +2034,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu jejak audit, apa yang layak dicatat, pemisahan tugas, alur persetujuan, laporan pengecualian, dan persiapan audit eksternal pada sistem ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-12",
     tags: ["erp","keamanan","keuangan"],
     titleTranslations: {
       en: "Audit Trails and Internal Control in ERP Systems: Growing Without Losing Control",
@@ -2068,7 +2153,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara menata dokumen bisnis agar menempel pada transaksi: struktur dan metadata, hak akses, versi dan persetujuan, masa simpan, digitalisasi arsip kertas, dan rencana 90 hari.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-12",
     tags: ["erp","operasional","otomasi"],
     titleTranslations: {
       en: "Document Management and Digital Archives with ERP: From Piles of Files to an Archive You Can Search",
@@ -2170,7 +2255,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun jadwal kerja dari kebutuhan layanan: aturan yang adil dan sah, ketersediaan karyawan, tukar shift, hubungan dengan absensi dan penggajian, biaya tenaga kerja, dan retensi.",
     category: "HR & Tim",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-12",
     tags: ["hris","karyawan","operasional"],
     titleTranslations: {
       en: "Shift Scheduling and Workforce Management: Fair Schedules, Controlled Costs",
@@ -2510,7 +2595,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan sistem tiket diperlukan: satu antrean untuk semua kanal, kategori dan prioritas, perjanjian tingkat layanan yang realistis, basis pengetahuan, eskalasi antarbagian, mengukur mutu, menangani pelanggan kesal, dukungan proaktif, serta privasi data.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-12",
     tags: ["crm","pelanggan","operasional","otomasi"],
     titleTranslations: {
       en: "Customer Support Ticket Systems and SLAs: Serving Many Channels with One Orderly Queue",
@@ -2663,7 +2748,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis jasa menjual waktu. Cara merancang aturan ketersediaan, alur pemesanan singkat, uang muka dan kebijakan pembatalan, pengingat, daftar tunggu, riwayat pelanggan, serta hubungan dengan kasir dan kalender.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-12",
     tags: ["website","mobile","pelanggan","otomasi","pembayaran"],
     titleTranslations: {
       en: "Online Booking and Reservation Systems for Service Businesses: A Fuller Schedule, More Certain Customers",
@@ -2918,7 +3003,7 @@ export const meta: PostMeta[] = [
     excerpt: "Blog yang dikelola dengan benar mendatangkan calon pelanggan yang sudah siap dipercaya. Cara memilih topik dari pertanyaan pelanggan, menulis untuk niat pencarian, menata kalender konten, dan mengukur hasilnya tanpa angka rekaan.",
     category: "Website & Digital",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-12",
     tags: ["website","seo","sales"],
     titleTranslations: {
       en: "The Company Blog as a Lead Engine: Writing Content Prospects Actually Search For",
@@ -3680,7 +3765,7 @@ export const meta: PostMeta[] = [
     excerpt: "Klinik menangani data yang sensitif dengan alur yang padat. Sistem yang tepat harus mempercepat pelayanan tanpa mengorbankan keamanan data pasien.",
     category: "Panduan Industri",
     publishedAt: "2026-08-25",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-12",
     tags: [
       "industri",
       "data",
@@ -3720,7 +3805,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kebanyakan kecurangan kasir memanfaatkan celah yang sama: transaksi yang bisa dihapus tanpa jejak. Sistem yang tepat menutup celah itu tanpa mencurigai semua orang.",
     category: "POS & Retail",
     publishedAt: "2026-08-17",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-12",
     tags: [
       "pos",
       "retail",
@@ -3867,7 +3952,7 @@ export const meta: PostMeta[] = [
     excerpt: "Minggu pertama karyawan baru sering habis untuk menunggu akun, perangkat, dan penjelasan yang tercecer. Onboarding yang terstruktur mempercepat mereka produktif.",
     category: "HR & Tim",
     publishedAt: "2026-07-24",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-12",
     tags: [
       "hris",
       "karyawan",

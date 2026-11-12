@@ -161,6 +161,7 @@ export const body: Block[] = [
     text: "Onboarding yang baik bukan tentang seremoni penyambutan yang mewah, melainkan tentang memastikan karyawan baru bisa langsung produktif dan merasa dihargai sejak hari pertama. Dengan persiapan yang dimulai lebih awal, penanggung jawab yang jelas, dan pendampingan yang konsisten, kesan pertama yang baik bisa menjadi fondasi bagi hubungan kerja yang lebih panjang dan lebih produktif.",
   },
   { type: "p", text: "Untuk menjalankan orientasi dan pelatihan awal secara konsisten di banyak lokasi, lihat [LMS dan pelatihan karyawan](/blog/lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan)." },
+  { type: "p", text: "Dokumen prosedur yang rapi mempercepat karyawan baru mandiri; lihat [knowledge base internal dan wiki perusahaan](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)." },
   {
     type: "cta",
     title: "Onboarding karyawan baru masih berantakan?",

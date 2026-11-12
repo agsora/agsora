@@ -139,6 +139,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Good technical documentation and handover are cheap insurance for your software investment. With documents that answer real questions, access that is recorded and in the company's name, a structured handover process, and a habit of updating, your business application stays maintainable by anyone competent and you are not trapped by one person or one vendor. Start by writing these obligations into the contract and testing documentation quality from the start of the project, not at the end." },
   { type: "p", text: "Agsora builds every project with clear documentation and handover, so clients keep full control of their systems. If you want to assess existing system documentation or plan a handover from a previous vendor, we are ready to talk." },
+  { type: "p", text: "For day-to-day business process documentation beyond software projects, see [internal knowledge bases and company wikis](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)." },
   {
     type: "cta",
     title: "Keep your software maintainable",
@@ -287,6 +288,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "良好的技术文档和交接，是为您的软件投资购买的廉价保险。有了回答真实问题的文档、已记录且登记在公司名下的访问权限、结构化的交接流程以及更新的习惯，您的业务应用就能由任何有能力的人维护，您也不会被困在某一个人或某一家供应商手里。从把这些义务写入合同、并在项目一开始而不是结束时测试文档质量做起。" },
   { type: "p", text: "Agsora 为每个项目提供清晰的文档和交接，使客户完全掌控自己的系统。如果您想评估现有系统的文档，或规划从前任供应商的交接，我们很乐意与您交流。" },
+  { type: "p", text: "软件项目之外的日常业务流程文档，请参阅[企业内部知识库与维基](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)。" },
   {
     type: "cta",
     title: "确保您的软件始终可维护",

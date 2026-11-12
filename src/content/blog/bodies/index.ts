@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_ai_copilot_untuk_tim_dukungan_pelanggan_ringkasan_tiket_saran_balasan_dan_kontrol_mutu } from "./ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu";
+import { body as b_knowledge_base_internal_dan_wiki_perusahaan_agar_pengetahuan_tidak_hilang_saat_karyawan_pergi } from "./knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi";
+import { body as b_whistleblowing_system_dan_kanal_pengaduan_internal_untuk_kepatuhan_bisnis } from "./whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis";
+import { body as b_seo_video_dan_youtube_untuk_website_jasa_b2b_transkrip_chapter_dan_schema } from "./seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema";
+import { body as b_sistem_antrean_dan_manajemen_layanan_pelanggan_tiket_nomor_loket_dan_estimasi_tunggu } from "./sistem-antrean-dan-manajemen-layanan-pelanggan-tiket-nomor-loket-dan-estimasi-tunggu";
 import { body as b_serverless_dan_edge_computing_untuk_aplikasi_bisnis_kapan_cocok_dan_kapan_tidak } from "./serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak";
 import { body as b_sistem_lembaga_kursus_dan_bimbel_pendaftaran_jadwal_kelas_dan_tagihan_spp } from "./sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp";
 import { body as b_kebijakan_retensi_data_dan_penghapusan_data_pelanggan_di_aplikasi_bisnis } from "./kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis";
@@ -263,6 +268,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu": b_ai_copilot_untuk_tim_dukungan_pelanggan_ringkasan_tiket_saran_balasan_dan_kontrol_mutu,
+  "knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi": b_knowledge_base_internal_dan_wiki_perusahaan_agar_pengetahuan_tidak_hilang_saat_karyawan_pergi,
+  "whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis": b_whistleblowing_system_dan_kanal_pengaduan_internal_untuk_kepatuhan_bisnis,
+  "seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema": b_seo_video_dan_youtube_untuk_website_jasa_b2b_transkrip_chapter_dan_schema,
+  "sistem-antrean-dan-manajemen-layanan-pelanggan-tiket-nomor-loket-dan-estimasi-tunggu": b_sistem_antrean_dan_manajemen_layanan_pelanggan_tiket_nomor_loket_dan_estimasi_tunggu,
   "serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak": b_serverless_dan_edge_computing_untuk_aplikasi_bisnis_kapan_cocok_dan_kapan_tidak,
   "sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp": b_sistem_lembaga_kursus_dan_bimbel_pendaftaran_jadwal_kelas_dan_tagihan_spp,
   "kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis": b_kebijakan_retensi_data_dan_penghapusan_data_pelanggan_di_aplikasi_bisnis,

@@ -164,6 +164,7 @@ export const body: Block[] = [
     text: "Mencegah kecurangan kasir bukan soal memasang lebih banyak kamera atau menghukum lebih keras, melainkan merancang sistem yang membuat kesalahan dan penyalahgunaan sulit terjadi tanpa jejak. Dengan akun per orang, persetujuan berjenjang, dan laporan pengecualian yang ditinjau rutin, selisih yang dulu misterius berubah menjadi data yang bisa ditelusuri dan diperbaiki.",
   },
   { type: "p", text: "Contoh bisnis dengan banyak transaksi kecil dan risiko kebocoran tunai ada di [sistem laundry dan dry cleaning](/blog/sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan)." },
+  { type: "p", text: "Kecurangan internal sering terungkap dari laporan karyawan; kanalnya dibahas di [whistleblowing system dan kanal pengaduan internal](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)." },
   {
     type: "cta",
     title: "Selisih kas masih jadi misteri setiap bulan?",

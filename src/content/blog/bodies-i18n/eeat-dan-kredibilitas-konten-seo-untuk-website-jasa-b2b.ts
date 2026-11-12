@@ -70,6 +70,7 @@ const en: Block[] = [
   { type: "p", text: "Yes as a tool, as long as the content is checked, enriched with real experience, and accountable. Mass-produced content with no added value risks being rated low and damaging trust." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Content credibility cannot be built with tricks. It comes from real experience, honest explanations, clear authors, evidence that can be checked, and consistent upkeep. For B2B service businesses, it is also what gives prospects the confidence to get in touch. Start with the easiest steps: complete the author profiles, improve the about and contact pages, review the most important articles, then add honest examples and case studies gradually." },
+  { type: "p", text: "Video that features experts directly adds credibility signals; see [video SEO and YouTube for B2B service websites](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
   { type: "cta", title: "Build a service website prospects trust",text: "Discuss your content structure, profiles, and business website SEO with the Agsora team. We help design credible websites that generate leads.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -143,6 +144,7 @@ const zh: Block[] = [
   { type: "p", text: "可以把它作为工具，只要内容经过检查、融入真实经验并有人负责。没有附加价值的批量生产内容有被评低并损害信任的风险。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "内容可信度无法靠技巧建立。它来自真实的经验、诚实的解释、清晰的作者、可核查的证据以及持续的维护。对 B2B 服务企业来说，这也是让潜在客户有信心联系您的原因。从最容易的做起：完善作者档案，改进关于我们和联系页面，审查最重要的文章，然后逐步加入诚实的示例和案例研究。" },
+  { type: "p", text: "由专家直接出镜的视频能增加可信度信号；请参阅[B2B 服务网站的视频 SEO 与 YouTube](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)。" },
   { type: "cta", title: "打造潜在客户信赖的服务网站",text: "与 Agsora 团队讨论您的内容结构、档案和企业网站 SEO。我们帮助设计可信且能带来潜在客户的网站。",href: "/services/website",label: "免费咨询" },
 ];
 

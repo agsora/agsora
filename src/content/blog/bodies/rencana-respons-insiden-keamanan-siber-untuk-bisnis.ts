@@ -111,6 +111,7 @@ export const body: Block[] = [
   { type: "p", text: "Jalur serangan yang terungkap dalam [uji penetrasi dan audit keamanan](/blog/uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis) sebaiknya masuk ke rencana respons Anda." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Rencana respons insiden adalah asuransi yang murah: sedikit waktu menyusunnya hari ini bisa menyelamatkan operasional berhari-hari kelak. Tunjuk peran, inventarisasi sistem penting, jaga cadangan tetap terpisah dan teruji, tulis langkah awal untuk skenario yang paling mungkin, dan latih setiap tahun. Ketika insiden datang, tim yang sudah tahu apa yang harus dilakukan akan menahan kerugian, menjaga kepercayaan pelanggan, dan pulih lebih cepat." },
+  { type: "p", text: "Laporan internal tentang pelanggaran keamanan perlu jalur yang aman; lihat [whistleblowing system dan kanal pengaduan internal](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)." },
   {
     type: "cta",
     title: "Ingin memastikan bisnis Anda siap menghadapi insiden siber?",

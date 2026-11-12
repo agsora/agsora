@@ -107,6 +107,7 @@ export const body: Block[] = [
   { type: "p", text: "Jejak audit dan pengendalian internal bukan tanda ketidakpercayaan, melainkan fondasi agar bisnis dapat tumbuh tanpa kehilangan kendali. Dengan catatan yang jelas dan alur yang masuk akal, kesalahan lebih cepat ditemukan, kecurangan lebih sulit terjadi, dan keputusan lebih mudah dipertanggungjawabkan." },
   { type: "p", text: "Mulailah dari proses yang paling berisiko dan paling berdampak pada uang. Perbaiki sedikit demi sedikit, ukur hasilnya, dan libatkan tim. Dalam waktu yang tidak terlalu lama, bisnis Anda akan memiliki sistem yang tidak hanya mencatat transaksi, tetapi juga menjaga kepercayaan semua pihak yang bergantung padanya." },
   { type: "p", text: "Penerapannya di lembaga nirlaba dibahas di [ERP untuk yayasan dan lembaga nirlaba](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)." },
+  { type: "p", text: "Pengendalian sistem paling efektif bila dilengkapi kanal pelaporan; lihat [whistleblowing system dan kanal pengaduan internal](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)." },
   {
     type: "cta",
     title: "Ingin sistem ERP Anda memiliki kontrol dan jejak audit yang rapi?",

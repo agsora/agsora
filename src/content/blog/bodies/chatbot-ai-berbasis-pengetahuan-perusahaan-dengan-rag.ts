@@ -78,6 +78,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "RAG bukan sihir dan bukan sekadar menyambungkan model ke folder dokumen. Ia adalah sistem yang menggabungkan pengelolaan pengetahuan, pencarian, instruksi yang tegas, kontrol akses, dan evaluasi berkelanjutan. Bila dirancang dengan baik, hasilnya asisten yang menjawab dari sumber Anda, menunjukkan rujukannya, dan jujur ketika tidak tahu." },
   { type: "p", text: "Mulailah kecil: satu domain, dokumen yang sudah dirapikan, kumpulan pertanyaan uji, dan jalur serah ke manusia. Ukur hasilnya, perbaiki dokumen, lalu perluas bertahap. Dengan cara itu Anda mendapat manfaat nyata tanpa mempertaruhkan reputasi pada jawaban yang mengarang." },
+  { type: "p", text: "Jika AI dipakai untuk membantu agen, bukan menjawab langsung ke pelanggan, lihat [AI copilot untuk tim dukungan pelanggan](/blog/ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu)." },
   {
     type: "cta",
     title: "Ingin asisten AI yang menjawab dari dokumen dan data bisnis Anda?",

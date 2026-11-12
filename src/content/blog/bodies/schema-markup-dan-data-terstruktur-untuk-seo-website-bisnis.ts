@@ -63,6 +63,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Data terstruktur bukan trik rahasia, melainkan cara jujur dan terstandar untuk membantu mesin pencari dan sistem AI memahami bisnis Anda. Mulailah dari tipe dasar, hasilkan secara otomatis dari data yang sama dengan tampilan, ujilah dengan alat resmi, dan jaga agar selalu sesuai dengan konten yang terlihat." },
   { type: "p", text: "Digabungkan dengan konten yang bermanfaat, kecepatan halaman yang baik, dan struktur multibahasa yang benar, schema markup membantu bisnis Anda tampil lebih jelas dan lebih meyakinkan di mana pun calon pelanggan mencari, di negara dan bahasa apa pun." },
+  { type: "p", text: "Contoh data terstruktur untuk video (VideoObject) dibahas di [SEO video dan YouTube untuk website jasa B2B](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
   {
     type: "cta",
     title: "Ingin website Anda tampil lebih menonjol di hasil pencarian?",

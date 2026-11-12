@@ -135,6 +135,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Reliable AI is not the result of a clever prompt alone, but of a disciplined measurement process. With a clear quality definition, a test set from real data, a combination of automated and human scoring, pass thresholds before release, and monitoring afterward, a business can use AI with well founded confidence. Start small with one use case and a few dozen real examples. The greatest value appears when every change can be answered with numbers instead of gut feeling." },
   { type: "p", text: "An example of measuring accuracy on real contract documents is in [AI for contract review](/blog/ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia)." },
+  { type: "p", text: "An example of applying evaluation to support agents' suggested replies is in [AI copilots for customer support teams](/blog/ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu)." },
   {
     type: "cta",
     title: "Want your AI features tested and monitored properly?",
@@ -279,6 +280,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "可靠的 AI 不只是巧妙提示词的结果，更是严谨衡量流程的结果。凭借清晰的质量定义、来自真实数据的测试集、自动与人工评分的组合、上线前的通过阈值以及上线后的监控，企业可以带着有依据的信心使用 AI。从一个使用场景和几十个真实例子小处着手。当每一次改动都能用数字而不是直觉来回答时，价值最大。" },
   { type: "p", text: "在真实合同文件上测量准确率的示例见 [AI 合同审阅](/blog/ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia)。" },
+  { type: "p", text: "将评估应用于客服回复建议的示例见[客服团队的 AI 副驾驶](/blog/ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu)。" },
   {
     type: "cta",
     title: "希望您的 AI 功能得到正确的测试与监控？",

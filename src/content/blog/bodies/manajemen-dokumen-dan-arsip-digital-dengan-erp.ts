@@ -113,6 +113,7 @@ export const body: Block[] = [
   { type: "p", text: "Manajemen dokumen yang baik tidak terlihat sebagai fitur menarik, tetapi dampaknya terasa setiap hari: pencarian yang cepat, audit yang tenang, kontrak yang tidak terlewat, dan pengetahuan bisnis yang tidak bergantung pada ingatan satu dua orang. Dokumen yang menempel pada transaksi di ERP membuat semuanya terhubung." },
   { type: "p", text: "Mulailah dari satu alur yang paling sering menimbulkan masalah, misalnya faktur pemasok atau kontrak. Rapikan strukturnya, tetapkan aturan akses dan masa simpan, lalu perluas ke jenis dokumen lain. Dengan langkah bertahap, arsip digital yang rapi bisa dicapai tanpa menghentikan operasional." },
   { type: "p", text: "Agar dokumen dapat diselesaikan tanpa cetak dan pindai, lihat [tanda tangan elektronik dan e-meterai untuk alur dokumen bisnis](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)." },
+  { type: "p", text: "Untuk pengetahuan operasional yang tidak termasuk arsip resmi, lihat [knowledge base internal dan wiki perusahaan](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)." },
   {
     type: "cta",
     title: "Ingin dokumen bisnis Anda tertata dan terhubung dengan ERP?",

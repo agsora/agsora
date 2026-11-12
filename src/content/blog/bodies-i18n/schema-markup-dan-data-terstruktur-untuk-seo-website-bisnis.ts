@@ -63,6 +63,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Structured data is not a secret trick but an honest, standardised way to help search engines and AI systems understand your business. Start with the basic types, generate them automatically from the same data as the display, test them with official tools, and keep them consistent with the visible content." },
   { type: "p", text: "Combined with useful content, good page speed, and a correct multilingual structure, schema markup helps your business appear clearer and more convincing wherever prospective customers search, in any country and language." },
+  { type: "p", text: "An example of structured data for video (VideoObject) is discussed in [video SEO and YouTube for B2B service websites](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
   {
     type: "cta",
     title: "Want your website to stand out in search results?",
@@ -135,6 +136,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "结构化数据不是什么秘密技巧，而是帮助搜索引擎和 AI 系统理解您企业的一种诚实而标准化的方式。从基本类型开始，用与显示相同的数据自动生成，用官方工具测试，并使其始终与可见内容保持一致。" },
   { type: "p", text: "结合有价值的内容、良好的页面速度和正确的多语言结构，schema 标记能帮助您的企业在潜在客户搜索的任何地方，任何国家、任何语言，显得更清晰、更有说服力。" },
+  { type: "p", text: "视频结构化数据（VideoObject）的示例，参见[B2B 服务网站的视频 SEO 与 YouTube](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)。" },
   {
     type: "cta",
     title: "希望您的网站在搜索结果中更加突出吗？",

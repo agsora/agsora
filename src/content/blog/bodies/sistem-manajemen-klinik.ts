@@ -188,6 +188,7 @@ export const body: Block[] = [
     text: "Sistem manajemen klinik yang baik mempercepat pelayanan tanpa mengorbankan keamanan data pasien. Ia dibangun dari pemahaman alur medis yang sebenarnya, mematuhi regulasi yang berlaku, dan dirancang bersama dokter dan perawat yang akan memakainya setiap hari. Investasi ini bukan sekadar soal efisiensi administratif, tetapi soal kualitas pelayanan kepada pasien.",
   },
   { type: "p", text: "Untuk laboratorium klinik atau pengujian, lihat [sistem informasi laboratorium (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
+  { type: "p", text: "Pengelolaan antrean poli dan ruang tunggu dibahas lebih luas di [sistem antrean dan manajemen layanan pelanggan](/blog/sistem-antrean-dan-manajemen-layanan-pelanggan-tiket-nomor-loket-dan-estimasi-tunggu)." },
   {
     type: "cta",
     title: "Ingin klinik Anda melayani lebih cepat dan lebih aman?",

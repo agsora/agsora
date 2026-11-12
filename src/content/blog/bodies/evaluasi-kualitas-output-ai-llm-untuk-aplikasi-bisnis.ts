@@ -135,6 +135,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "AI yang andal bukan hasil prompt yang cerdas semata, melainkan hasil proses pengukuran yang disiplin. Dengan definisi kualitas yang jelas, set uji dari data nyata, kombinasi penilaian otomatis dan manusia, ambang lulus sebelum rilis, serta pemantauan setelahnya, bisnis dapat memakai AI dengan keyakinan yang berdasar. Mulailah kecil dengan satu kasus penggunaan dan puluhan contoh nyata. Nilai terbesarnya muncul ketika setiap perubahan dapat dijawab dengan angka, bukan firasat." },
   { type: "p", text: "Contoh pengukuran akurasi pada dokumen kontrak nyata ada di [AI untuk tinjauan kontrak](/blog/ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia)." },
+  { type: "p", text: "Contoh penerapan evaluasi pada saran balasan agen dukungan ada di [AI copilot untuk tim dukungan pelanggan](/blog/ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu)." },
   {
     type: "cta",
     title: "Ingin fitur AI Anda diuji dan dipantau dengan benar?",

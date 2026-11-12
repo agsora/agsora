@@ -113,6 +113,7 @@ const en: Block[] = [
   { type: "p", text: "Good document management does not look like an exciting feature, but its impact is felt every day: fast searches, calm audits, contracts that are not missed, and business knowledge that does not depend on the memory of one or two people. Documents attached to transactions in the ERP connect everything." },
   { type: "p", text: "Start from the one flow that causes the most trouble, such as supplier invoices or contracts. Tidy its structure, set access and retention rules, then expand to other document types. With staged steps, a tidy digital archive can be reached without stopping operations." },
   { type: "p", text: "To complete documents without printing and scanning, see [electronic signatures and e-meterai for business document flows](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)." },
+  { type: "p", text: "For operational knowledge outside the official archive, see [internal knowledge bases and company wikis](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)." },
   {
     type: "cta",
     title: "Want your business documents organised and connected to the ERP?",
@@ -235,6 +236,7 @@ const zh: Block[] = [
   { type: "p", text: "好的文档管理看起来不像一个令人兴奋的功能，但它的影响每天都能感受到：搜索迅速、审计从容、合同不被遗漏，而且业务知识不再依赖一两个人的记忆。附着在 ERP 交易上的文件，把一切连接起来。" },
   { type: "p", text: "从最让您头疼的一个流程开始，例如供应商发票或合同。整理其结构，设定访问和保存规则，然后扩展到其他文件类型。通过分阶段的步骤，无需中断运营也能建成整洁的数字档案。" },
   { type: "p", text: "若想无需打印和扫描即可完成文件，请参阅[电子签名与电子印花](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)。" },
+  { type: "p", text: "对于不属于正式档案的运营知识，请参阅[企业内部知识库与维基](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)。" },
   {
     type: "cta",
     title: "想让企业文件井然有序并与 ERP 相连吗？",

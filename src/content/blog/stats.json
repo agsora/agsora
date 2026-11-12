@@ -15,6 +15,10 @@
   1774,
   1
  ],
+ "ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu": [
+  1522,
+  1
+ ],
  "ai-generatif-untuk-konten-dan-dokumen-bisnis": [
   2022,
   1
@@ -84,7 +88,7 @@
   0
  ],
  "blog-perusahaan-sebagai-mesin-prospek": [
-  2335,
+  2350,
   1
  ],
  "caching-dan-cdn-mempercepat-website-dan-aplikasi-bisnis": [
@@ -92,7 +96,7 @@
   1
  ],
  "chatbot-ai-berbasis-pengetahuan-perusahaan-dengan-rag": [
-  1855,
+  1873,
   1
  ],
  "chatbot-layanan-pelanggan-manfaat-dan-batasan": [
@@ -176,11 +180,11 @@
   1
  ],
  "dokumentasi-teknis-dan-serah-terima-proyek-software": [
-  1800,
+  1816,
   1
  ],
  "eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b": [
-  1938,
+  1955,
   1
  ],
  "email-marketing-dan-otomasi-untuk-toko-online": [
@@ -260,7 +264,7 @@
   1
  ],
  "evaluasi-kualitas-output-ai-llm-untuk-aplikasi-bisnis": [
-  2058,
+  2074,
   1
  ],
  "faktur-elektronik-dan-kepatuhan-pajak-dengan-erp": [
@@ -320,7 +324,7 @@
   1
  ],
  "jejak-audit-dan-pengendalian-internal-di-sistem-erp": [
-  2046,
+  2061,
   1
  ],
  "kapan-aplikasi-perlu-bekerja-offline": [
@@ -387,6 +391,10 @@
   1620,
   1
  ],
+ "knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi": [
+  1566,
+  1
+ ],
  "konsolidasi-laporan-multi-cabang": [
   1598,
   0
@@ -440,7 +448,7 @@
   1
  ],
  "manajemen-dokumen-dan-arsip-digital-dengan-erp": [
-  2066,
+  2081,
   1
  ],
  "manajemen-konsinyasi-dan-titip-jual-dengan-erp": [
@@ -492,7 +500,7 @@
   0
  ],
  "mencegah-kecurangan-kasir": [
-  1565,
+  1581,
   0
  ],
  "mendefinisikan-tahapan-pipeline-penjualan": [
@@ -556,7 +564,7 @@
   0
  ],
  "menyusun-proses-onboarding-karyawan": [
-  1578,
+  1593,
   0
  ],
  "merancang-hak-akses-pengguna": [
@@ -708,7 +716,7 @@
   0
  ],
  "penjadwalan-shift-dan-manajemen-tenaga-kerja": [
-  2053,
+  2069,
   1
  ],
  "penjualan-lewat-media-sosial-dan-live-commerce": [
@@ -808,7 +816,7 @@
   1
  ],
  "rencana-respons-insiden-keamanan-siber-untuk-bisnis": [
-  1897,
+  1913,
   1
  ],
  "retur-dan-refund-toko-online": [
@@ -832,7 +840,7 @@
   1
  ],
  "schema-markup-dan-data-terstruktur-untuk-seo-website-bisnis": [
-  1563,
+  1579,
   1
  ],
  "segmentasi-pelanggan-dan-personalisasi-dengan-data": [
@@ -859,12 +867,20 @@
   2048,
   1
  ],
+ "seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema": [
+  1499,
+  1
+ ],
  "serverless-dan-edge-computing-untuk-aplikasi-bisnis-kapan-cocok-dan-kapan-tidak": [
   1639,
   1
  ],
+ "sistem-antrean-dan-manajemen-layanan-pelanggan-tiket-nomor-loket-dan-estimasi-tunggu": [
+  1510,
+  1
+ ],
  "sistem-booking-dan-reservasi-online-untuk-bisnis-jasa": [
-  2070,
+  2082,
   1
  ],
  "sistem-desain-dan-konsistensi-antarmuka-aplikasi-bisnis": [
@@ -912,7 +928,7 @@
   1
  ],
  "sistem-manajemen-klinik": [
-  1529,
+  1545,
   0
  ],
  "sistem-manajemen-properti-sewa-dan-kos-kosan-kontrak-tagihan-dan-perawatan": [
@@ -932,7 +948,7 @@
   0
  ],
  "sistem-tiket-dukungan-pelanggan-dan-sla": [
-  2073,
+  2087,
   1
  ],
  "sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin": [
@@ -1033,6 +1049,10 @@
  ],
  "website-multibahasa-untuk-pasar-regional": [
   2379,
+  1
+ ],
+ "whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis": [
+  1529,
   1
  ],
  "zero-trust-dan-keamanan-akses-untuk-bisnis-menengah-tanpa-vpn-berlebihan": [
