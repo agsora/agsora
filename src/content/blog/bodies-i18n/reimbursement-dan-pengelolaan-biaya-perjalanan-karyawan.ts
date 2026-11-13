@@ -85,6 +85,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Good employee expense management benefits both sides at once: employees receive fast reimbursement without hassle, and the company gets control and tidy data. A little investment in policy, tools, and integration yields time savings that are felt every month." },
   { type: "p", text: "Start with a clear policy and easy submission, then add approval, automatic rules, and integration in stages. Measure the results, listen to user complaints, and keep improving. A process that everyone used to avoid can become something that runs quietly in the background." },
+  { type: "p", text: "For advances before an activity and branch petty cash, see [petty cash and operational cash advances with ERP](/blog/kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi)." },
   {
     type: "cta",
     title: "Want to simplify reimbursements and travel expenses for your team?",
@@ -179,6 +180,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "良好的员工费用管理让双方同时受益：员工无需麻烦即可快速获得报销，公司则获得控制和整洁的数据。在政策、工具和集成上的一点点投入，换来每个月都能感受到的时间节省。" },
   { type: "p", text: "从清晰的政策和便捷的提交开始，再分阶段加入审批、自动规则和集成。衡量成果，倾听用户的抱怨，不断改进。一个曾经人人回避的流程，可以变成在后台静静运转的一环。" },
+  { type: "p", text: "关于活动前的预支款和分支机构备用金，请参阅[用 ERP 管理备用金与业务预支款](/blog/kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi)。" },
   {
     type: "cta",
     title: "想简化团队的报销和差旅费用吗？",

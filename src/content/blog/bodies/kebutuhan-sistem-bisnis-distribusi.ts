@@ -154,6 +154,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Untuk kendaraan dan pengiriman, baca [manajemen armada dan transportasi dengan GPS dan ERP](/blog/manajemen-armada-dan-transportasi-dengan-gps-dan-erp)." },
   { type: "p", text: "Distributor produk beku dan segar memiliki kebutuhan tambahan yang dibahas di [ERP untuk distribusi rantai dingin](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)." },
+  { type: "p", text: "Untuk tim salesman di lapangan, lihat [aplikasi sales kanvas dan taking order untuk distributor](/blog/aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan)." },
   {
     type: "cta",
     title: "Sales lapangan Anda masih pakai daftar harga cetak?",

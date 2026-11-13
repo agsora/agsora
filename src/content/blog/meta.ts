@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis",
+    title: "Small Language Model (SLM) dan AI On-Device untuk Aplikasi Bisnis: Kapan Model Kecil Lebih Tepat",
+    excerpt: "Panduan memilih model bahasa kecil yang berjalan di perangkat atau server sendiri: kelebihan soal biaya, latensi, privasi, dan mode offline, batasannya dibanding model besar, pola arsitektur hibrida, serta cara mengujinya sebelum dipakai di aplikasi bisnis.",
+    category: "Teknologi",
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    tags: ["ai","mobile","keamanan"],
+    titleTranslations: {
+      en: "Small Language Models (SLMs) and On-Device AI for Business Apps: When a Small Model Is the Better Choice",
+      zh: "小型语言模型（SLM）与端侧 AI 在企业应用中的应用：何时小模型更合适",
+    },
+    excerptTranslations: {
+      en: "A guide to choosing small language models that run on devices or your own servers: the benefits for cost, latency, privacy, and offline use, their limits compared with large models, hybrid architecture patterns, and how to test them before using them in business apps.",
+      zh: "选择在设备或自有服务器上运行的小型语言模型的指南：在成本、延迟、隐私和离线方面的优势，与大模型相比的局限，混合架构模式，以及在企业应用中上线前的测试方法。",
+    },
+  },
+  {
+    slug: "sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan",
+    title: "Sistem Komisi dan Insentif Sales: Perhitungan Otomatis yang Transparan dan Bisa Diaudit",
+    excerpt: "Cara merancang dan mengotomatiskan komisi sales: skema persentase, bertingkat, target, dan tim, kapan komisi dianggap terutang, retur dan piutang macet, dasbor untuk sales, integrasi dengan CRM, ERP, dan payroll, serta cara menghindari sengketa.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    tags: ["sales","crm","payroll"],
+    titleTranslations: {
+      en: "Sales Commission and Incentive Systems: Transparent, Auditable, Automated Calculations",
+      zh: "销售佣金与激励系统：透明、可审计的自动计算",
+    },
+    excerptTranslations: {
+      en: "How to design and automate sales commissions: percentage, tiered, target-based, and team schemes, when commission becomes payable, returns and bad debts, dashboards for reps, integration with CRM, ERP, and payroll, and how to avoid disputes.",
+      zh: "如何设计并自动化销售佣金：比例制、阶梯制、目标制与团队制方案，佣金何时应付，退货与坏账，面向销售的仪表盘，与 CRM、ERP 和薪资系统的集成，以及如何避免争议。",
+    },
+  },
+  {
+    slug: "kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b",
+    title: "Kalkulator Harga dan Estimator Online sebagai Lead Magnet Website B2B",
+    excerpt: "Cara membangun kalkulator biaya atau estimator di website jasa B2B yang menghasilkan prospek berkualitas: memilih variabel, menampilkan rentang harga yang jujur, kapan meminta kontak, mengirim hasil ke CRM, SEO untuk halaman kalkulator, dan mengukur dampaknya.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    tags: ["website","seo","sales"],
+    titleTranslations: {
+      en: "Price Calculators and Online Estimators as Lead Magnets for B2B Websites",
+      zh: "价格计算器与在线估价工具：B2B 网站的获客利器",
+    },
+    excerptTranslations: {
+      en: "How to build a cost calculator or estimator on a B2B service website that produces qualified leads: choosing inputs, showing honest price ranges, when to ask for contact details, sending results to a CRM, SEO for calculator pages, and measuring the impact.",
+      zh: "如何在 B2B 服务网站上构建能带来优质线索的费用计算器或估价工具：选择输入项、展示诚实的价格区间、何时索取联系方式、将结果发送到 CRM、计算器页面的 SEO，以及衡量效果。",
+    },
+  },
+  {
+    slug: "aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan",
+    title: "Aplikasi Sales Kanvas dan Taking Order untuk Distributor: Rute, Kunjungan, Stok Mobil, dan Penagihan",
+    excerpt: "Panduan aplikasi mobile untuk salesman distributor: perbedaan kanvas dan taking order, rencana rute dan bukti kunjungan, stok di kendaraan, harga dan promo per toko, batas kredit, penagihan di lapangan, mode offline, serta integrasi dengan ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    tags: ["mobile","sales","inventori"],
+    titleTranslations: {
+      en: "Van Sales and Order-Taking Apps for Distributors: Routes, Visits, Van Stock, and Collections",
+      zh: "分销商的车销与访销应用：线路、拜访、车载库存与收款",
+    },
+    excerptTranslations: {
+      en: "A guide to mobile apps for distributor salespeople: the difference between van sales and order taking, route plans and proof of visit, stock in the vehicle, prices and promotions per store, credit limits, field collections, offline mode, and ERP integration.",
+      zh: "面向分销商业务员的移动应用指南：车销与访销的区别、线路计划与拜访凭证、车载库存、按门店的价格与促销、信用额度、现场收款、离线模式以及与 ERP 的集成。",
+    },
+  },
+  {
+    slug: "kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi",
+    title: "Kas Kecil (Petty Cash) dan Uang Muka Operasional dengan ERP: Kontrol, Bukti, dan Rekonsiliasi",
+    excerpt: "Cara mengelola kas kecil dan uang muka karyawan secara tertib: sistem imprest, batas dan kategori pengeluaran, bukti digital, persetujuan, pengisian ulang, pertanggungjawaban uang muka, rekonsiliasi dan opname kas, serta pencatatan otomatis ke jurnal ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    tags: ["erp","keuangan","operasional"],
+    titleTranslations: {
+      en: "Petty Cash and Operational Cash Advances with ERP: Controls, Receipts, and Reconciliation",
+      zh: "用 ERP 管理备用金与业务预支款：控制、凭证与对账",
+    },
+    excerptTranslations: {
+      en: "How to manage petty cash and employee cash advances properly: the imprest system, spending limits and categories, digital receipts, approvals, replenishment, settling advances, reconciliation and cash counts, and automatic posting to ERP journals.",
+      zh: "如何规范地管理备用金与员工预支款：定额备用金制度、支出限额与类别、数字凭证、审批、补充、预支款核销、对账与现金盘点，以及自动过账到 ERP 日记账。",
+    },
+  },
+  {
     slug: "ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu",
     title: "AI Copilot untuk Tim Dukungan Pelanggan: Ringkasan Tiket, Saran Balasan, dan Kontrol Mutu",
     excerpt: "Cara memakai AI sebagai asisten agen dukungan pelanggan: ringkasan tiket otomatis, saran balasan dari basis pengetahuan, klasifikasi dan prioritas, penerjemahan, kontrol mutu, batasan data pribadi, serta cara mengukur dampaknya secara jujur.",
@@ -878,7 +963,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja rekonsiliasi bank otomatis di ERP: impor mutasi, aturan pencocokan berlapis, data yang perlu disiapkan, kasus khusus, dan langkah penerapan bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-27",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-13",
     tags: ["erp","keuangan","pelaporan"],
     titleTranslations: {
       en: "Automated Bank Reconciliation with ERP: Matching Bank Statements Without Month-End Overtime",
@@ -895,7 +980,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen payroll, konfigurasi PPh 21 dan BPJS, alur bulanan yang disiplin, integrasi absensi, pengendalian data gaji, dan cara beralih dari lembar kerja ke HRIS.",
     category: "HR & Tim",
     publishedAt: "2026-10-27",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-13",
     tags: ["hris","keuangan","operasional"],
     titleTranslations: {
       en: "Payroll, Article 21 Income Tax, and BPJS with an HRIS: From Spreadsheets to an Auditable System",
@@ -1048,7 +1133,7 @@ export const meta: PostMeta[] = [
     excerpt: "Sumber biaya AI, cara memperkirakannya sebelum membangun, teknik penghematan tanpa menurunkan kualitas, pemantauan anggaran di produksi, dan kesalahan yang sering terjadi.",
     category: "Teknologi",
     publishedAt: "2026-10-25",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-13",
     tags: ["ai","biaya","operasional"],
     titleTranslations: {
       en: "Controlling AI Costs: Tokens, Inference, and Budgets for Chatbots and Agents in Business Apps",
@@ -1286,7 +1371,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perbedaan LLM yang dijalankan sendiri dan API cloud, privasi data, perhitungan biaya yang jujur, risiko yang sering terlewat, dan pola campuran berdasarkan sensitivitas data.",
     category: "Teknologi",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-13",
     tags: ["ai","keamanan","infrastruktur"],
     titleTranslations: {
       en: "Self-Hosted LLM or Cloud API: Choosing a Secure AI Model for Business Data",
@@ -2051,7 +2136,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kebijakan biaya yang jelas, pengajuan lewat ponsel, persetujuan berjenjang, aturan otomatis, uang muka, dan integrasi dengan akuntansi serta penggajian.",
     category: "HR & Tim",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-10-15",
+    updatedAt: "2026-11-13",
     tags: ["karyawan","keuangan","otomasi"],
     titleTranslations: {
       en: "Reimbursement and Employee Travel Expense Management: From a Pile of Receipts to a Tidy Process",
@@ -2527,7 +2612,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara memulai uji A/B secara sehat: kapan layak dilakukan, merumuskan hipotesis, memilih ukuran keberhasilan, menentukan durasi, membaca hasil tanpa tertipu, hal teknis yang perlu dijaga, serta etika dan privasi pengunjung.",
     category: "Website & Digital",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-13",
     tags: ["website","data","ecommerce","pelaporan"],
     titleTranslations: {
       en: "A/B Testing and Conversion Optimisation for Business Websites: Deciding with Evidence, Not Taste",
@@ -2544,7 +2629,7 @@ export const meta: PostMeta[] = [
     excerpt: "Merapikan siklus pesanan sampai kas: faktur yang benar dari data pesanan, pemicu dan kanal pengiriman, syarat pembayaran, pengingat yang sopan, pencocokan pembayaran otomatis, sengketa tagihan, umur piutang, dan kontrol internal.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-11-13",
     tags: ["erp","keuangan","otomasi","pembayaran"],
     titleTranslations: {
       en: "Automating Invoicing and B2B Receivables Collection: From Order to Cash Received on Time",
@@ -2765,7 +2850,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merancang aplikasi lapangan yang benar-benar dipakai: pekerjaan yang didahulukan, rancangan untuk sinyal lemah, bukti di tempat, penggunaan lokasi yang wajar, hubungan dengan ERP dan CRM, keamanan perangkat, dan adopsi.",
     category: "Teknologi",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-13",
     tags: ["mobile","operasional","sales","integrasi","karyawan"],
     titleTranslations: {
       en: "Mobile Apps for Field Teams: Connecting Sales Reps, Technicians, and Delivery Staff with Office Systems",
@@ -3594,6 +3679,7 @@ export const meta: PostMeta[] = [
     excerpt: "Angka penawaran hanya sebagian dari total biaya. Ini komponen yang sering baru muncul setelah project berjalan.",
     category: "Strategi Bisnis",
     publishedAt: "2026-08-21",
+    updatedAt: "2026-11-13",
     tags: [
       "biaya",
       "vendor",
@@ -3752,7 +3838,7 @@ export const meta: PostMeta[] = [
     excerpt: "Website perusahaan yang hanya berisi sejarah dan visi misi jarang menghasilkan pertanyaan dari calon klien. Ini yang membedakan website yang bekerja.",
     category: "Website & Digital",
     publishedAt: "2026-08-27",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-13",
     tags: [
       "website",
       "seo",
@@ -3819,7 +3905,7 @@ export const meta: PostMeta[] = [
     excerpt: "Alur persetujuan pembelian dibuat untuk mengendalikan pengeluaran, tapi yang terlalu berlapis justru membuat operasional menunggu. Ini cara menyeimbangkannya.",
     category: "ERP & Operasional",
     publishedAt: "2026-08-15",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-13",
     tags: [
       "erp",
       "keuangan",
@@ -4002,7 +4088,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis distribusi bergerak di antara gudang, armada, sales lapangan, dan tagihan pelanggan. Sistemnya harus menyatukan semua titik itu, bukan hanya mencatat stok.",
     category: "Panduan Industri",
     publishedAt: "2026-07-16",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-13",
     tags: [
       "industri",
       "inventori",
@@ -4081,7 +4167,7 @@ export const meta: PostMeta[] = [
     excerpt: "Angka penjualan penting, tapi tidak cukup untuk memahami kenapa sebuah tim berhasil atau tertinggal. Metrik yang tepat menunjukkan di tahap mana masalahnya.",
     category: "Penjualan & CRM",
     publishedAt: "2026-07-04",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-13",
     tags: [
       "crm",
       "sales",
@@ -4193,7 +4279,7 @@ export const meta: PostMeta[] = [
     excerpt: "Penjualan B2B melibatkan banyak orang, banyak pertemuan, dan keputusan yang bisa memakan waktu berbulan-bulan. CRM-nya harus dirancang untuk kerumitan itu.",
     category: "Penjualan & CRM",
     publishedAt: "2026-06-16",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-13",
     tags: [
       "crm",
       "sales",
@@ -4307,7 +4393,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tidak semua aplikasi perlu mode offline, tapi untuk operasional di lapangan dan di kasir, koneksi yang putus bisa berarti pekerjaan yang berhenti.",
     category: "Teknologi",
     publishedAt: "2026-05-29",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-13",
     tags: [
       "mobile",
       "operasional",

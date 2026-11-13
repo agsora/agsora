@@ -91,6 +91,7 @@ export const body: Block[] = [
   { type: "p", text: "Setelah memilih model, tentukan cara menyesuaikannya di [prompt, RAG, atau fine-tuning](/blog/prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Memilih antara LLM self-hosted dan API cloud bukan soal mana yang lebih modern, melainkan soal data, volume, kemampuan tim, dan aturan yang berlaku. API cloud unggul dalam kemudahan dan kemampuan model, self-hosted unggul dalam kendali atas data pada volume tinggi. Bagi banyak perusahaan, jawabannya adalah keduanya, dengan lapisan perantara yang mengarahkan setiap permintaan sesuai sensitivitas datanya. Mulailah dari kasus penggunaan yang jelas, ukur hasilnya dengan data sendiri, dan biarkan angka yang memutuskan." },
+  { type: "p", text: "Untuk tugas sempit yang bisa ditangani model kecil di perangkat atau server sendiri, lihat [small language model dan AI on-device](/blog/small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Butuh arsitektur AI yang aman untuk data perusahaan?",

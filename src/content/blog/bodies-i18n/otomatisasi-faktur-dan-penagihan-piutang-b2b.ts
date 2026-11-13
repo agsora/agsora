@@ -105,6 +105,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Tidy collection is not about pressuring customers but about making sure every piece of work you have completed turns into money on time. The correct invoice, clear delivery, consistent reminders, and careful matching are a chain of habits that together protect the business's cash." },
   { type: "p", text: "Automation helps run those habits every day without depending on people's memory. Start from the most troublesome part, measure receivables ageing regularly, and improve in stages. The result is more predictable cash and more professional customer relationships." },
+  { type: "p", text: "Collections made by salespeople in stores are covered in [van sales and order-taking apps for distributors](/blog/aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan)." },
   {
     type: "cta",
     title: "Are receivables often held up by manual invoicing and collection?",
@@ -219,6 +220,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "整洁的催收并不是向客户施压，而是确保你完成的每一项工作都能按时变成钱。正确的发票、清晰的发送、一致的提醒和细致的核对，是一连串共同守护企业现金的习惯。" },
   { type: "p", text: "自动化帮助这些习惯每天运行，而不依赖人的记忆。从最麻烦的部分开始，定期衡量应收账款账龄，逐步改进。结果是更可预测的现金和更专业的客户关系。" },
+  { type: "p", text: "业务员在门店现场收款的做法，参见[分销商的车销与访销应用](/blog/aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan)。" },
   {
     type: "cta",
     title: "应收账款常因手工开票和催收而被拖住？",

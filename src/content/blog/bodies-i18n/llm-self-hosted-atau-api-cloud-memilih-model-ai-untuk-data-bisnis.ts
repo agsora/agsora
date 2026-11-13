@@ -91,6 +91,7 @@ const en: Block[] = [
   { type: "p", text: "After choosing a model, decide how to adapt it in [prompt, RAG, or fine-tuning](/blog/prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Choosing between a self-hosted LLM and a cloud API is not about which is more modern, but about data, volume, team capability, and the rules that apply. Cloud APIs win on convenience and model capability; self-hosting wins on control over data at high volume. For many companies the answer is both, with an intermediary layer that routes each request according to its data sensitivity. Start with a clear use case, measure results with your own data, and let the numbers decide." },
+  { type: "p", text: "For narrow tasks a small model can handle on a device or your own server, see [small language models and on-device AI](/blog/small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Need a secure AI architecture for company data?",
@@ -191,6 +192,7 @@ const zh: Block[] = [
   { type: "p", text: "选定模型之后，请在[提示词、RAG 还是微调](/blog/prompt-rag-atau-fine-tuning-memilih-cara-menyesuaikan-ai-untuk-bisnis)中决定如何调整它。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "在自托管 LLM 与云端 API 之间做选择，并不是比较哪个更先进，而是要考虑数据、用量、团队能力和适用的规则。云端 API 在便利性和模型能力上占优，自托管在高用量下对数据的掌控更强。对许多企业来说，答案是两者兼用，并通过中间层按照数据敏感度来分流每个请求。从明确的应用场景开始，用自己的数据衡量结果，让数字来做决定。" },
+  { type: "p", text: "对于可由设备或自有服务器上的小模型处理的狭窄任务，请参阅[小型语言模型与端侧 AI](/blog/small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "需要一套保护企业数据的 AI 架构？",

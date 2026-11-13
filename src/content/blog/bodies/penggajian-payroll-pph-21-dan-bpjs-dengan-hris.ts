@@ -150,6 +150,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Payroll yang baik bukan hasil rumus yang cerdas, melainkan kombinasi data masukan yang bersih, parameter pajak dan iuran yang dikonfigurasi dengan benar, alur bulanan yang disiplin, serta pengendalian yang melindungi data sensitif. HRIS menyatukan semuanya sehingga HR dapat beralih dari menghitung ulang ke memeriksa pengecualian, dan karyawan menerima gaji yang tepat waktu dengan slip yang jelas." },
   { type: "p", text: "Agsora membantu perusahaan menerapkan HRIS dan payroll yang sesuai dengan kebijakan Anda, mulai dari pemetaan komponen gaji, integrasi absensi, hingga uji paralel sebelum beralih. Bila proses penggajian Anda masih bergantung pada lembar kerja, mari diskusikan langkah pertamanya." },
+  { type: "p", text: "Komisi sales yang dihitung otomatis dapat dikirim langsung ke payroll; lihat [sistem komisi dan insentif sales](/blog/sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan)." },
   {
     type: "cta",
     title: "Rapikan penggajian dengan HRIS",

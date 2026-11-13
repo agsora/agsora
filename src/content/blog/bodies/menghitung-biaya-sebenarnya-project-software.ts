@@ -194,6 +194,7 @@ export const body: Block[] = [
     type: "p",
     text: "Biaya project software yang sebenarnya jarang sama dengan angka di halaman penawaran. Dengan melihat seluruh komponen, yang terlihat maupun yang tersembunyi, dan membandingkannya dalam rentang beberapa tahun, Anda bisa memilih bukan yang paling murah hari ini, tetapi yang paling masuk akal untuk bisnis Anda ke depan.",
   },
+  { type: "p", text: "Untuk memberi gambaran biaya kepada calon klien di website, lihat [kalkulator harga dan estimator online](/blog/kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b)." },
   {
     type: "cta",
     title: "Ingin gambaran biaya yang jujur sejak awal?",

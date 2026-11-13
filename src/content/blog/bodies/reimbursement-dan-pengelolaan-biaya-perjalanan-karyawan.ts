@@ -85,6 +85,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Pengelolaan biaya karyawan yang baik membuat dua pihak diuntungkan sekaligus: karyawan menerima penggantian cepat tanpa repot, dan perusahaan mendapatkan kontrol serta data yang rapi. Sedikit investasi pada kebijakan, alat, dan integrasi menghasilkan penghematan waktu yang terasa setiap bulan." },
   { type: "p", text: "Mulailah dari kebijakan yang jelas dan pengajuan yang mudah, lalu tambahkan persetujuan, aturan otomatis, dan integrasi secara bertahap. Ukur hasilnya, dengarkan keluhan pengguna, dan perbaiki terus. Proses yang tadinya dihindari semua orang bisa berubah menjadi bagian yang berjalan senyap di latar belakang." },
+  { type: "p", text: "Untuk uang muka sebelum kegiatan dan kas kecil cabang, lihat [kas kecil dan uang muka operasional dengan ERP](/blog/kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi)." },
   {
     type: "cta",
     title: "Ingin menyederhanakan reimbursement dan biaya perjalanan tim Anda?",

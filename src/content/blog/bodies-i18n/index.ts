@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_small_language_model_slm_dan_ai_on_device_untuk_aplikasi_bisnis } from "./small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis";
+import { translations as t_sistem_komisi_dan_insentif_sales_perhitungan_otomatis_yang_transparan } from "./sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan";
+import { translations as t_kalkulator_harga_dan_estimator_online_sebagai_lead_magnet_website_b2b } from "./kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b";
+import { translations as t_aplikasi_sales_kanvas_dan_taking_order_untuk_distributor_rute_kunjungan_dan_penagihan } from "./aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan";
+import { translations as t_kas_kecil_petty_cash_dan_uang_muka_operasional_dengan_erp_kontrol_dan_rekonsiliasi } from "./kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi";
 import { translations as t_ai_copilot_untuk_tim_dukungan_pelanggan_ringkasan_tiket_saran_balasan_dan_kontrol_mutu } from "./ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu";
 import { translations as t_knowledge_base_internal_dan_wiki_perusahaan_agar_pengetahuan_tidak_hilang_saat_karyawan_pergi } from "./knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi";
 import { translations as t_whistleblowing_system_dan_kanal_pengaduan_internal_untuk_kepatuhan_bisnis } from "./whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis";
@@ -214,6 +219,11 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis": t_small_language_model_slm_dan_ai_on_device_untuk_aplikasi_bisnis,
+  "sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan": t_sistem_komisi_dan_insentif_sales_perhitungan_otomatis_yang_transparan,
+  "kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b": t_kalkulator_harga_dan_estimator_online_sebagai_lead_magnet_website_b2b,
+  "aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan": t_aplikasi_sales_kanvas_dan_taking_order_untuk_distributor_rute_kunjungan_dan_penagihan,
+  "kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi": t_kas_kecil_petty_cash_dan_uang_muka_operasional_dengan_erp_kontrol_dan_rekonsiliasi,
   "ai-copilot-untuk-tim-dukungan-pelanggan-ringkasan-tiket-saran-balasan-dan-kontrol-mutu": t_ai_copilot_untuk_tim_dukungan_pelanggan_ringkasan_tiket_saran_balasan_dan_kontrol_mutu,
   "knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi": t_knowledge_base_internal_dan_wiki_perusahaan_agar_pengetahuan_tidak_hilang_saat_karyawan_pergi,
   "whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis": t_whistleblowing_system_dan_kanal_pengaduan_internal_untuk_kepatuhan_bisnis,

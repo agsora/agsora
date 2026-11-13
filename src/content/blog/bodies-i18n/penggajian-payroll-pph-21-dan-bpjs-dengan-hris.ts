@@ -150,6 +150,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Good payroll is not the product of clever formulas but of clean input data, properly configured tax and contribution parameters, a disciplined monthly flow, and controls that protect sensitive data. An HRIS brings it all together so HR can move from recalculating to reviewing exceptions, and employees receive accurate pay on time with a clear payslip." },
   { type: "p", text: "Agsora helps companies implement an HRIS and payroll that fit your policies, from mapping pay components and integrating attendance to parallel testing before the switch. If your payroll still depends on spreadsheets, let us discuss the first step." },
+  { type: "p", text: "Automatically calculated sales commission can be sent straight to payroll; see [sales commission and incentive systems](/blog/sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan)." },
   {
     type: "cta",
     title: "Tidy up payroll with an HRIS",
@@ -309,6 +310,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "好的薪资核算不是巧妙公式的产物，而是干净的输入数据、正确配置的税款与缴费参数、严谨的月度流程，以及保护敏感数据的控制措施的结合。HRIS 将这一切整合在一起，让 HR 从重复计算转向审查例外，员工则能准时收到准确的工资和清晰的工资条。" },
   { type: "p", text: "Agsora 帮助公司实施符合您政策的 HRIS 和薪资系统，从梳理薪酬项目、集成考勤到切换前的并行测试。如果您的薪资核算仍依赖电子表格，欢迎与我们探讨第一步。" },
+  { type: "p", text: "自动计算的销售佣金可以直接发送到薪资系统；请参阅[销售佣金与激励系统](/blog/sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan)。" },
   {
     type: "cta",
     title: "用 HRIS 理顺薪资核算",

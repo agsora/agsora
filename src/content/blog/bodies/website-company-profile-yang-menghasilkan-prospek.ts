@@ -192,6 +192,7 @@ export const body: Block[] = [
     text: "Website company profile yang menghasilkan prospek bukan yang paling mewah, tetapi yang paling memahami pengunjungnya. Jawab pertanyaan mereka secara berurutan, tunjukkan bukti yang jujur, permudah mereka menghubungi, dan terus perbaiki berdasarkan data. Brosur digital hanya dilihat; website yang bekerja membuat orang bertindak.",
   },
   { type: "p", text: "Jika target Anda pembeli internasional, baca [website B2B untuk eksportir dan manufaktur](/blog/website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional)." },
+  { type: "p", text: "Salah satu alat yang efektif untuk menghasilkan prospek adalah [kalkulator harga dan estimator online](/blog/kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b)." },
   {
     type: "cta",
     title: "Website Anda sepi pertanyaan?",

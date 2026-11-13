@@ -153,6 +153,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Automated bank reconciliation does not change the purpose of the work, which is to make sure the figures in the books equal reality at the bank. What changes is the method: machines handle routine matches, people focus on exceptions, and the whole process leaves an auditable trail. With tidy reference data, layered rules, and a staged rollout, closing the books becomes faster, cash more accurate, and errors or fraud easier to detect." },
   { type: "p", text: "Agsora helps businesses set up an ERP with integrated finance flows, from process mapping and data cleanup to reconciliation rules that fit your transaction patterns. If your finance team still spends days at the end of every month, let us discuss the solution." },
+  { type: "p", text: "Reconciling branch cash is covered in [petty cash and operational cash advances with ERP](/blog/kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi)." },
   {
     type: "cta",
     title: "Speed up month-end close with ERP",
@@ -315,6 +316,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "自动银行对账并不改变工作的目的，即确保账面数字与银行实际相符。改变的是方式：机器处理例行匹配，人员专注于例外，整个流程留下可审计的轨迹。有了整洁的参考数据、分层规则和分阶段实施，结账会更快，现金更准确，错误或欺诈也更容易被发现。" },
   { type: "p", text: "Agsora 帮助企业搭建具有集成财务流程的 ERP，从流程梳理、数据整理到符合您交易模式的对账规则。如果您的财务团队每月底仍要花上数天，欢迎与我们探讨解决方案。" },
+  { type: "p", text: "分支机构现金的对账，参见[用 ERP 管理备用金与业务预支款](/blog/kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi)。" },
   {
     type: "cta",
     title: "用 ERP 加快月末结账",

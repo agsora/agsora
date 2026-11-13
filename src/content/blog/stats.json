@@ -36,7 +36,7 @@
   1
  ],
  "alur-approval-pembelian": [
-  1683,
+  1698,
   0
  ],
  "analitik-website-dan-aplikasi-mobile-untuk-keputusan": [
@@ -52,7 +52,11 @@
   1
  ],
  "aplikasi-mobile-untuk-tim-lapangan": [
-  2195,
+  2208,
+  1
+ ],
+ "aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan": [
+  1503,
   1
  ],
  "aplikasi-web-mobile-atau-keduanya": [
@@ -327,12 +331,20 @@
   2061,
   1
  ],
+ "kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b": [
+  1524,
+  1
+ ],
  "kapan-aplikasi-perlu-bekerja-offline": [
-  1570,
+  1588,
   0
  ],
  "kapan-waktu-tepat-menerapkan-erp": [
   1494,
+  1
+ ],
+ "kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi": [
+  1555,
   1
  ],
  "katalog-produk-toko-online-yang-terstruktur": [
@@ -360,11 +372,11 @@
   1
  ],
  "kebutuhan-crm-untuk-bisnis-b2b": [
-  1565,
+  1581,
   0
  ],
  "kebutuhan-sistem-bisnis-distribusi": [
-  1557,
+  1571,
   0
  ],
  "kecepatan-website-dan-dampaknya": [
@@ -420,7 +432,7 @@
   1
  ],
  "llm-self-hosted-atau-api-cloud-memilih-model-ai-untuk-data-bisnis": [
-  1630,
+  1650,
   1
  ],
  "lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan": [
@@ -524,7 +536,7 @@
   0
  ],
  "mengendalikan-biaya-ai-token-dan-inferensi-untuk-aplikasi-bisnis": [
-  1858,
+  1877,
   1
  ],
  "mengendalikan-biaya-cloud-untuk-bisnis": [
@@ -532,7 +544,7 @@
   1
  ],
  "menghitung-biaya-sebenarnya-project-software": [
-  1566,
+  1581,
   0
  ],
  "mengukur-keberhasilan-implementasi-erp": [
@@ -576,7 +588,7 @@
   1
  ],
  "metrik-performa-tim-sales": [
-  1595,
+  1609,
   0
  ],
  "migrasi-database-tanpa-downtime-untuk-aplikasi-bisnis": [
@@ -628,7 +640,7 @@
   1
  ],
  "otomatisasi-faktur-dan-penagihan-piutang-b2b": [
-  2066,
+  2082,
   1
  ],
  "otomatisasi-input-data-dari-dokumen": [
@@ -700,7 +712,7 @@
   1
  ],
  "penggajian-payroll-pph-21-dan-bpjs-dengan-hris": [
-  1746,
+  1762,
   1
  ],
  "pengiriman-dan-logistik-toko-online": [
@@ -792,7 +804,7 @@
   1
  ],
  "reimbursement-dan-pengelolaan-biaya-perjalanan-karyawan": [
-  2053,
+  2071,
   1
  ],
  "rekomendasi-produk-dan-personalisasi-toko-online-dengan-ai": [
@@ -800,7 +812,7 @@
   1
  ],
  "rekonsiliasi-bank-otomatis-dengan-erp": [
-  1906,
+  1921,
   1
  ],
  "rekonsiliasi-pembayaran-toko-online": [
@@ -903,6 +915,10 @@
   2063,
   1
  ],
+ "sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan": [
+  1557,
+  1
+ ],
  "sistem-koperasi-simpan-pinjam-digital-simpanan-pinjaman-dan-shu": [
   1812,
   1
@@ -953,6 +969,10 @@
  ],
  "sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin": [
   1579,
+  1
+ ],
+ "small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis": [
+  1715,
   1
  ],
  "spf-dkim-dmarc-keamanan-dan-deliverability-email-bisnis": [
@@ -1008,7 +1028,7 @@
   1
  ],
  "uji-ab-dan-optimasi-konversi-website-bisnis": [
-  2062,
+  2076,
   1
  ],
  "uji-penetrasi-dan-audit-keamanan-aplikasi-bisnis": [
@@ -1044,7 +1064,7 @@
   1
  ],
  "website-company-profile-yang-menghasilkan-prospek": [
-  1552,
+  1566,
   0
  ],
  "website-multibahasa-untuk-pasar-regional": [

@@ -148,6 +148,7 @@ export const body: Block[] = [
     type: "p",
     text: "Mode offline bukan fitur yang dibutuhkan setiap aplikasi bisnis, tapi untuk sistem yang menopang operasional kritis di lokasi dengan koneksi tidak stabil, kemampuan ini bisa menjadi pembeda antara bisnis yang terus berjalan lancar dan yang terhenti setiap kali sinyal internet bermasalah. Pertimbangkan dengan cermat di mana fitur ini benar-benar dibutuhkan, dan rancang dengan teliti agar sinkronisasi data tetap andal ketika koneksi akhirnya kembali tersedia.",
   },
+  { type: "p", text: "Fitur AI juga bisa tetap berjalan tanpa koneksi; lihat [small language model dan AI on-device untuk aplikasi bisnis](/blog/small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Operasional Anda sering terhambat karena koneksi internet?",

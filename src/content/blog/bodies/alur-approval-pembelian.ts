@@ -174,6 +174,7 @@ export const body: Block[] = [
     type: "p",
     text: "Alur approval pembelian yang baik menyeimbangkan kontrol dan kelancaran. Dengan struktur berjenjang berdasarkan risiko, delegasi yang jelas, dan hubungan langsung ke anggaran, pembelian yang wajar bisa berjalan cepat sementara pembelian berisiko tetap mendapat pengawasan yang layak. Setelah barang diterima, kendali yang sama berlanjut ke pembayaran melalui [pencocokan tiga arah dan otomatisasi utang usaha](/blog/otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp).",
   },
+  { type: "p", text: "Pengeluaran kecil di bawah batas pembelian sebaiknya melalui [kas kecil dengan sistem imprest di ERP](/blog/kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi)." },
   {
     type: "cta",
     title: "Alur persetujuan pembelian Anda masih lewat WhatsApp?",
