@@ -75,7 +75,6 @@ function industriesSection(locale: Locale): string[] {
 const corePages = (locale: Locale): [string, string, string][] => [
   ["About", "/about", "Company profile, approach and values"],
   ["Pricing", "/pricing", "Pricing packages and what each includes"],
-  ["Portfolio", "/portofolio", "Case studies of delivered projects"],
   ["Blog", "/blog", "Practical guides on ERP, POS, HRIS, CRM, websites and AI for business"],
   ["Contact", "/contact", "Talk to the team"],
 ].map(([name, path, note]) => [name, absoluteUrl(path, locale), note]);

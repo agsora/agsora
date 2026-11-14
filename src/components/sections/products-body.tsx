@@ -6,10 +6,53 @@ import { Container } from "@/components/ui/container";
 import { Eyebrow } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
 import { Breadcrumbs, breadcrumbSchema } from "@/components/ui/breadcrumbs";
-import { productsStrings } from "@/config/portfolio";
+import type { Locale } from "@/i18n/routing";
 import { useLocale } from "@/i18n/locale-context";
 import { jsonLd } from "@/lib/seo";
 import { whatsappLink } from "@/lib/whatsapp";
+
+const productsStrings: Record<
+  Locale,
+  {
+    eyebrow: string;
+    title: string;
+    description: string;
+    badge: string;
+    notify: string;
+    notifyMessage: string;
+    services: string;
+  }
+> = {
+  id: {
+    eyebrow: "Produk AG·SORA",
+    title: "Coming Soon",
+    description:
+      "Kami sedang menyiapkan produk software siap pakai dari AG·SORA. Sementara itu, kami tetap membangun sistem custom sesuai proses bisnis Anda.",
+    badge: "Sedang dalam pengembangan",
+    notify: "Kabari saya saat rilis",
+    notifyMessage: "Halo AG·SORA, saya ingin dikabari saat produk AG·SORA rilis.",
+    services: "Lihat layanan custom",
+  },
+  en: {
+    eyebrow: "AG·SORA Products",
+    title: "Coming Soon",
+    description:
+      "We are preparing ready-to-use software products from AG·SORA. In the meantime, we keep building custom systems around how your business works.",
+    badge: "In development",
+    notify: "Notify me at launch",
+    notifyMessage: "Hi AG·SORA, I'd like to hear when AG·SORA products launch.",
+    services: "See custom services",
+  },
+  zh: {
+    eyebrow: "AG·SORA 产品",
+    title: "Coming Soon",
+    description: "我们正在准备 AG·SORA 的开箱即用软件产品。在此期间，我们仍为您按业务流程定制系统。",
+    badge: "开发中",
+    notify: "上线时通知我",
+    notifyMessage: "您好 AG·SORA，产品上线时请通知我。",
+    services: "查看定制服务",
+  },
+};
 
 export function ProductsBody() {
   const { locale, t } = useLocale();
@@ -65,9 +108,6 @@ export function ProductsBody() {
               {s.services}
             </Button>
           </div>
-          <Button href="/portofolio" variant="ghost" className="mt-4">
-            {s.portfolio}
-          </Button>
         </div>
       </Container>
     </div>

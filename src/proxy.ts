@@ -38,5 +38,5 @@ export const config = {
   // Skip Next internals, API routes, the OG image routes, and anything with a
   // file extension (public/ assets, robots.txt, sitemap.xml, icons) except .md
   // (article Markdown twins, handled above).
-  matcher: ["/((?!_next/|api/|og/|opengraph-image|.*\\.(?!md$)[a-zA-Z0-9]+$).*)"],
+  matcher: ["/((?!_next/|api/|admin/|og/|opengraph-image|.*\\.(?!md$)[a-zA-Z0-9]+$).*)"],
 };

@@ -30,6 +30,7 @@ export function LogoStrip() {
             >
               <Image
                 src={client.logo}
+                unoptimized
                 alt={i < clients.length ? client.name : ""}
                 width={112}
                 height={48}

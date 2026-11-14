@@ -23,7 +23,6 @@ export function Header() {
   const mainNav = [
     { label: t.nav.services, href: "/services" },
     { label: t.nav.products, href: "/products" },
-    { label: t.nav.portfolio, href: "/portofolio" },
     { label: t.nav.industries, href: "/industries" },
     { label: t.nav.pricing, href: "/pricing" },
     { label: t.nav.blog, href: "/blog" },

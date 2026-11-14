@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import { blogPageHref, blogPosts, getTotalPages, isPostAvailable } from "@/config/blog";
 import { industries } from "@/config/industries";
-import { getTotalProjectPages, portfolioPageHref, projects } from "@/config/portfolio";
 import { services } from "@/config/services";
 import { siteConfig } from "@/config/site";
 import { absoluteUrl, locales, type Locale } from "@/i18n/routing";
@@ -41,7 +40,6 @@ function localized(
 const PAGE_UPDATED: Record<string, string> = {
   "/services": "2026-10-06",
   "/industries": "2026-10-18",
-  "/portofolio": "2026-10-26",
   "/pricing": "2026-09-27",
   "/about": "2026-10-06",
   "/contact": "2026-10-06",
@@ -56,7 +54,6 @@ const routes = [
   "/",
   "/services",
   "/industries",
-  "/portofolio",
   "/pricing",
   "/blog",
   "/about",
@@ -125,32 +122,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       )
     );
 
-  // Case studies: proof for the commercial pages, so close to them in priority.
-  // /products is left out on purpose while it is a noindex placeholder.
-  const portfolioPages = projects.flatMap((project) =>
-    localized(`/portofolio/${project.slug}`, {
-      lastModified: new Date(PAGE_UPDATED["/portofolio"]),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    })
-  );
-  const portfolioArchivePages = Array.from(
-    { length: getTotalProjectPages() - 1 },
-    (_, i) => i + 2
-  ).flatMap((page) =>
-    localized(portfolioPageHref(page), {
-      lastModified: new Date(PAGE_UPDATED["/portofolio"]),
-      changeFrequency: "monthly",
-      priority: 0.5,
-    })
-  );
-
   return [
     ...pages,
     ...servicePages,
     ...industryPages,
-    ...portfolioPages,
-    ...portfolioArchivePages,
     ...posts,
     ...blogArchivePages,
   ];

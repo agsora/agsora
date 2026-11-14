@@ -61,7 +61,7 @@ export async function POST(request: Request) {
     source_page: clean(body.sourcePage, MAX.sourcePage) || null,
     locale: typeof body.locale === "string" && isLocale(body.locale) ? body.locale : "id",
   };
-  if (!lead.name || !lead.phone || !lead.description || (lead.email && !EMAIL.test(lead.email))) {
+  if (!lead.name || !lead.phone || !lead.description || !EMAIL.test(lead.email)) {
     return new Response(null, { status: 400 });
   }
 

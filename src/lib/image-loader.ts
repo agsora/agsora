@@ -7,13 +7,12 @@
  * file whenever it covers the requested width, so a phone never downloads the
  * large one. Re-encoding through Next's optimizer would only add server work.
  *
- * Portfolio screenshots under /portfolio follow the same scheme when their
- * `src` has no extension. Anything else passes through untouched.
+ * Anything else passes through untouched.
  */
 const BLOG_IMAGE_WIDTHS = [800, 1400];
 
 export default function imageLoader({ src, width }: { src: string; width: number; quality?: number }) {
-  const sized = src.startsWith("/blog/images/") || (src.startsWith("/portfolio/") && !/\.\w+$/.test(src));
+  const sized = src.startsWith("/blog/images/");
   if (sized) {
     const fit = BLOG_IMAGE_WIDTHS.find((w) => w >= width) ?? BLOG_IMAGE_WIDTHS[BLOG_IMAGE_WIDTHS.length - 1];
     return `${src}-${fit}.webp`;

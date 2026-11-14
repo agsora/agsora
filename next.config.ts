@@ -47,14 +47,11 @@ const nextConfig: NextConfig = {
     return [
       { source: "/blog/page/1", destination: "/blog", permanent: true },
       { source: "/:lang(en|zh)/blog/page/1", destination: "/:lang/blog", permanent: true },
-      { source: "/portofolio/page/1", destination: "/portofolio", permanent: true },
-      { source: "/:lang(en|zh)/portofolio/page/1", destination: "/:lang/portofolio", permanent: true },
-      // The old site's English-spelled /portfolio (GSC still lists it as a
-      // referring page) now has a real page under the Indonesian spelling.
-      { source: "/portfolio", destination: "/portofolio", permanent: true },
-      { source: "/:lang(en|zh)/portfolio", destination: "/:lang/portofolio", permanent: true },
-      { source: "/portfolio/:slug", destination: "/portofolio/:slug", permanent: true },
-      { source: "/:lang(en|zh)/portfolio/:slug", destination: "/:lang/portofolio/:slug", permanent: true },
+      // The portfolio section was removed; keep old URLs (and their links) alive.
+      { source: "/:lang(en|zh)/portofolio/:path*", destination: "/:lang/services", permanent: true },
+      { source: "/:lang(en|zh)/portfolio/:path*", destination: "/:lang/services", permanent: true },
+      { source: "/portofolio/:path*", destination: "/services", permanent: true },
+      { source: "/portfolio/:path*", destination: "/services", permanent: true },
     ];
   },
 };
