@@ -24,14 +24,14 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah",
-    title: "Predictive Maintenance dengan IoT dan AI untuk Pabrik Skala Menengah: Mulai dari Mesin yang Paling Mahal Berhenti",
+    title: "Predictive Maintenance Pabrik dengan IoT dan AI: Panduan untuk Pabrik Skala Menengah",
     excerpt: "Panduan praktis perawatan prediktif untuk pabrik menengah: beda perawatan reaktif, terjadwal, dan prediktif, memilih mesin pertama, sensor getaran dan suhu, data yang dibutuhkan model AI, integrasi dengan work order di ERP atau CMMS, serta cara menghitung manfaatnya secara jujur.",
     category: "Teknologi",
     publishedAt: "2026-11-14",
     updatedAt: "2026-11-14",
     tags: ["ai","industri","operasional"],
     titleTranslations: {
-      en: "Predictive Maintenance with IoT and AI for Mid-Sized Factories: Start with the Machine That Costs the Most When It Stops",
+      en: "Predictive Maintenance with IoT and AI: A Practical Guide for Mid-Sized Factories",
       zh: "面向中型工厂的物联网与 AI 预测性维护：从停机代价最高的设备开始",
     },
     excerptTranslations: {
@@ -41,15 +41,15 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis",
-    title: "e-KYC dan Verifikasi Identitas Digital untuk Onboarding Pelanggan di Aplikasi Bisnis",
+    title: "e-KYC dan Verifikasi Identitas Digital: Onboarding Pelanggan yang Aman di Aplikasi Bisnis",
     excerpt: "Cara merancang e-KYC di aplikasi: kapan verifikasi identitas benar-benar dibutuhkan, alur foto KTP, OCR, pencocokan data, selfie dan liveness, memilih penyedia, menyimpan data sesuai UU PDP, menangani kegagalan verifikasi, serta menjaga konversi pendaftaran tetap tinggi.",
     category: "Teknologi",
     publishedAt: "2026-11-14",
     updatedAt: "2026-11-14",
     tags: ["keamanan","mobile","pelanggan"],
     titleTranslations: {
-      en: "e-KYC and Digital Identity Verification for Customer Onboarding in Business Apps",
-      zh: "企业应用中的客户入驻：电子 KYC 与数字身份验证",
+      en: "e-KYC and Digital Identity Verification: Secure Customer Onboarding for Business Apps",
+      zh: "电子 KYC 与数字身份验证：企业应用中的安全客户入驻",
     },
     excerptTranslations: {
       en: "How to design e-KYC in an app: when identity verification is really needed, the ID card photo, OCR, and data matching flow, selfies and liveness checks, choosing a provider, storing data in line with Indonesia's PDP Law, handling failed verifications, and keeping sign-up conversion high.",
@@ -75,14 +75,14 @@ export const meta: PostMeta[] = [
   },
   {
     slug: "manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp",
-    title: "Manajemen Klaim Promo dan Rebate Prinsipal untuk Distributor dengan ERP",
+    title: "Klaim Promo dan Rebate Prinsipal di ERP: Panduan Manajemen untuk Distributor",
     excerpt: "Cara distributor mengelola klaim promo, diskon program, dan rebate dari prinsipal agar tidak ada tagihan yang terlewat: mencatat program, menghitung hak klaim per transaksi, bukti pendukung, pengajuan dan rekonsiliasi dengan prinsipal, pencatatan piutang klaim, serta laporan umur klaim.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-14",
     updatedAt: "2026-11-14",
     tags: ["erp","sales","keuangan"],
     titleTranslations: {
-      en: "Managing Principal Promotion Claims and Rebates for Distributors with ERP",
+      en: "Distributor Promotion Claims and Rebates: Managing Principal Claims with ERP",
       zh: "用 ERP 管理分销商向品牌方的促销索赔与返利",
     },
     excerptTranslations: {
