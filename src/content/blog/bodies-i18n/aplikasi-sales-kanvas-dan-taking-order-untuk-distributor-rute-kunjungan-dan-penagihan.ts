@@ -72,6 +72,7 @@ const en: Block[] = [
   { type: "p", text: "For a mid-sized distributor with a running ERP, a pilot in one area can usually start within a few months, depending on how clean the master data is and how complex the pricing rules are." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Van sales and order-taking apps turn field work from paper records reported late into daily data connected to the warehouse, finance, and management. The keys are routes and proof of visit, automatic prices and promotions, credit limit controls, strict reconciliation of vehicle stock and cash, a reliable offline mode, and full ERP integration. Start with one area, clean up the master data, and involve salespeople in improving the app." },
+  { type: "p", text: "Promotion program codes on every order are the basis for [promotion claims and rebates from principals](/blog/manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp)." },
   { type: "cta", title: "Want your field sales team to work faster with clean records?",text: "Agsora builds van sales and order-taking apps that work offline and integrate with your ERP, warehouse, and receivables.",href: "/services/mobile",label: "Free consultation" },
 ];
 
@@ -147,6 +148,7 @@ const zh: Block[] = [
   { type: "p", text: "对于已有 ERP 在运行的中型分销商，单个区域的试点通常可在几个月内启动，具体取决于主数据的规范程度和定价规则的复杂度。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "车销与访销应用把外勤工作从延迟上报的纸质记录，转变为与仓库、财务和管理层相连的每日数据。关键在于线路与拜访凭证、自动生效的价格与促销、信用额度控制、严格的车载库存与现金对账、可靠的离线模式，以及与 ERP 的全面集成。从一个区域开始，整理主数据，并让业务员参与改进应用。" },
+  { type: "p", text: "每张订单上的促销计划代码，是[向品牌方申请促销索赔与返利](/blog/manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp)的基础。" },
   { type: "cta", title: "想让外勤销售团队工作更快、记录更规范吗？",text: "Agsora 构建可离线运行、并与您的 ERP、仓库和应收系统集成的车销与访销应用。",href: "/services/mobile",label: "免费咨询" },
 ];
 

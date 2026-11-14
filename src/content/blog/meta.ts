@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia",
+    title: "Digital Product Passport (DPP) Uni Eropa: Persiapan Data dan Ketertelusuran Produk untuk Eksportir Indonesia",
+    excerpt: "Apa itu Digital Product Passport dalam regulasi ESPR Uni Eropa, jadwal penerapannya mulai dari baterai pada 2027, data apa saja yang perlu disiapkan pemasok dari Indonesia, serta bagaimana ERP, kode produk, dan pelacakan lot membantu eksportir tetap memenuhi syarat pembeli Eropa.",
+    category: "Panduan Industri",
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    tags: ["erp","data","industri"],
+    titleTranslations: {
+      en: "The EU Digital Product Passport (DPP): Data Readiness and Product Traceability for Indonesian Exporters",
+      zh: "欧盟数字产品护照（DPP）：印尼出口商的数据准备与产品可追溯性",
+    },
+    excerptTranslations: {
+      en: "What the Digital Product Passport is under the EU ESPR regulation, the rollout schedule starting with batteries in 2027, the data suppliers in Indonesia need to prepare, and how ERP, product codes, and lot tracking help exporters keep meeting European buyers' requirements.",
+      zh: "欧盟 ESPR 法规下的数字产品护照是什么，从 2027 年电池开始的实施时间表，印尼供应商需要准备哪些数据，以及 ERP、产品编码和批次追踪如何帮助出口商持续满足欧洲买家的要求。",
+    },
+  },
+  {
+    slug: "predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah",
+    title: "Predictive Maintenance dengan IoT dan AI untuk Pabrik Skala Menengah: Mulai dari Mesin yang Paling Mahal Berhenti",
+    excerpt: "Panduan praktis perawatan prediktif untuk pabrik menengah: beda perawatan reaktif, terjadwal, dan prediktif, memilih mesin pertama, sensor getaran dan suhu, data yang dibutuhkan model AI, integrasi dengan work order di ERP atau CMMS, serta cara menghitung manfaatnya secara jujur.",
+    category: "Teknologi",
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    tags: ["ai","industri","operasional"],
+    titleTranslations: {
+      en: "Predictive Maintenance with IoT and AI for Mid-Sized Factories: Start with the Machine That Costs the Most When It Stops",
+      zh: "面向中型工厂的物联网与 AI 预测性维护：从停机代价最高的设备开始",
+    },
+    excerptTranslations: {
+      en: "A practical guide to predictive maintenance for mid-sized plants: reactive versus scheduled versus predictive maintenance, choosing the first machine, vibration and temperature sensors, the data AI models need, integration with ERP or CMMS work orders, and how to calculate the benefit honestly.",
+      zh: "中型工厂预测性维护实用指南：事后维修、定期保养与预测性维护的区别，如何选择第一台设备，振动与温度传感器，AI 模型所需的数据，与 ERP 或 CMMS 工单的集成，以及如何诚实地计算收益。",
+    },
+  },
+  {
+    slug: "e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis",
+    title: "e-KYC dan Verifikasi Identitas Digital untuk Onboarding Pelanggan di Aplikasi Bisnis",
+    excerpt: "Cara merancang e-KYC di aplikasi: kapan verifikasi identitas benar-benar dibutuhkan, alur foto KTP, OCR, pencocokan data, selfie dan liveness, memilih penyedia, menyimpan data sesuai UU PDP, menangani kegagalan verifikasi, serta menjaga konversi pendaftaran tetap tinggi.",
+    category: "Teknologi",
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    tags: ["keamanan","mobile","pelanggan"],
+    titleTranslations: {
+      en: "e-KYC and Digital Identity Verification for Customer Onboarding in Business Apps",
+      zh: "企业应用中的客户入驻：电子 KYC 与数字身份验证",
+    },
+    excerptTranslations: {
+      en: "How to design e-KYC in an app: when identity verification is really needed, the ID card photo, OCR, and data matching flow, selfies and liveness checks, choosing a provider, storing data in line with Indonesia's PDP Law, handling failed verifications, and keeping sign-up conversion high.",
+      zh: "如何在应用中设计电子 KYC：何时真正需要身份验证，身份证拍照、OCR 与数据比对流程，自拍与活体检测，选择服务商，按印尼个人数据保护法存储数据，处理验证失败，以及保持注册转化率。",
+    },
+  },
+  {
+    slug: "formulir-prospek-b2b-yang-mengonversi-jumlah-field-anti-spam-dan-routing-ke-crm",
+    title: "Formulir Prospek B2B yang Mengonversi: Jumlah Field, Anti-Spam, dan Routing ke CRM",
+    excerpt: "Panduan merancang formulir kontak dan permintaan penawaran di website jasa B2B: field mana yang perlu, pertanyaan kualifikasi, validasi dan pesan error, perlindungan spam tanpa CAPTCHA yang menyebalkan, halaman terima kasih, pengiriman ke CRM dan WhatsApp tim sales, serta cara mengukur kualitas prospek.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    tags: ["website","crm","sales"],
+    titleTranslations: {
+      en: "B2B Lead Forms That Convert: Field Count, Spam Protection, and Routing to Your CRM",
+      zh: "高转化的 B2B 线索表单：字段数量、防垃圾信息与 CRM 分配",
+    },
+    excerptTranslations: {
+      en: "A guide to designing contact and quote request forms on B2B service websites: which fields you need, qualifying questions, validation and error messages, spam protection without annoying CAPTCHAs, thank-you pages, routing to the CRM and the sales team's WhatsApp, and how to measure lead quality.",
+      zh: "B2B 服务网站联系表单与报价申请表单设计指南：需要哪些字段，资格筛选问题，校验与错误提示，不令人厌烦的防垃圾措施，感谢页，分配到 CRM 和销售团队的 WhatsApp，以及如何衡量线索质量。",
+    },
+  },
+  {
+    slug: "manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp",
+    title: "Manajemen Klaim Promo dan Rebate Prinsipal untuk Distributor dengan ERP",
+    excerpt: "Cara distributor mengelola klaim promo, diskon program, dan rebate dari prinsipal agar tidak ada tagihan yang terlewat: mencatat program, menghitung hak klaim per transaksi, bukti pendukung, pengajuan dan rekonsiliasi dengan prinsipal, pencatatan piutang klaim, serta laporan umur klaim.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    tags: ["erp","sales","keuangan"],
+    titleTranslations: {
+      en: "Managing Principal Promotion Claims and Rebates for Distributors with ERP",
+      zh: "用 ERP 管理分销商向品牌方的促销索赔与返利",
+    },
+    excerptTranslations: {
+      en: "How distributors manage promotion claims, program discounts, and rebates from principals so no claim is missed: recording programs, calculating claim entitlement per transaction, supporting evidence, submission and reconciliation with the principal, booking claim receivables, and claim ageing reports.",
+      zh: "分销商如何管理来自品牌方的促销索赔、计划折扣与返利，避免漏报：登记促销计划，按交易计算可索赔金额，支持凭证，向品牌方提交与对账，记录索赔应收款，以及索赔账龄报表。",
+    },
+  },
+  {
     slug: "small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis",
     title: "Small Language Model (SLM) dan AI On-Device untuk Aplikasi Bisnis: Kapan Model Kecil Lebih Tepat",
     excerpt: "Panduan memilih model bahasa kecil yang berjalan di perangkat atau server sendiri: kelebihan soal biaya, latensi, privasi, dan mode offline, batasannya dibanding model besar, pola arsitektur hibrida, serta cara mengujinya sebelum dipakai di aplikasi bisnis.",
@@ -62,7 +147,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan aplikasi mobile untuk salesman distributor: perbedaan kanvas dan taking order, rencana rute dan bukti kunjungan, stok di kendaraan, harga dan promo per toko, batas kredit, penagihan di lapangan, mode offline, serta integrasi dengan ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-13",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-14",
     tags: ["mobile","sales","inventori"],
     titleTranslations: {
       en: "Van Sales and Order-Taking Apps for Distributors: Routes, Visits, Van Stock, and Collections",
@@ -487,7 +572,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara produsen dan eksportir membangun website yang dipercaya pembeli luar negeri: struktur halaman, spesifikasi produk, bukti kepercayaan, bahasa dan SEO internasional, permintaan penawaran, dan tindak lanjut.",
     category: "Website & Digital",
     publishedAt: "2026-11-06",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-14",
     tags: ["website","seo","sales"],
     titleTranslations: {
       en: "B2B Websites for Exporters and Manufacturers: Attracting International Buyers",
@@ -912,7 +997,7 @@ export const meta: PostMeta[] = [
     excerpt: "Modul inti sistem koperasi simpan pinjam, perhitungan bunga dan angsuran, pemantauan tunggakan, pengendalian internal, aplikasi anggota, SHU, dan penerapan bertahap.",
     category: "Panduan Industri",
     publishedAt: "2026-10-28",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-14",
     tags: ["keuangan","industri","custom-software"],
     titleTranslations: {
       en: "Digital Savings and Loan Cooperative Systems: Savings, Loans, Surplus Distribution, and Transparent Internal Controls",
@@ -1745,7 +1830,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja pelacakan lot di ERP, aturan FEFO, ketertelusuran dua arah, pemindaian barcode, kesiapan penarikan produk, dan langkah penerapan tanpa memperlambat gudang.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-14",
     tags: ["erp","inventori","industri"],
     titleTranslations: {
       en: "Lot, Batch, and Expiry Date Tracking with ERP: From FEFO to Product Recalls",
@@ -1762,7 +1847,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengapa pembeli meminta data emisi, memahami cakupan 1, 2, dan 3, data ERP yang bisa dipakai, merancang pencatatan yang siap dilaporkan, dan langkah memulai bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-11-04",
+    updatedAt: "2026-11-14",
     tags: ["erp","pelaporan","data"],
     titleTranslations: {
       en: "ESG and Carbon Footprint Reporting with ERP Data: A Guide for Suppliers and Exporters",
@@ -2391,7 +2476,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola aset dan perawatan peralatan secara terstruktur: daftar aset induk, perawatan terjadwal versus perbaikan, hubungan dengan keuangan dan penyusutan, prioritas aset kritis, dan cara melibatkan teknisi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-14",
     tags: ["erp","operasional","inventori","biaya"],
     titleTranslations: {
       en: "Asset Management and Equipment Maintenance with ERP: From Asset Register to Replacement Decisions",
@@ -2612,7 +2697,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara memulai uji A/B secara sehat: kapan layak dilakukan, merumuskan hipotesis, memilih ukuran keberhasilan, menentukan durasi, membaca hasil tanpa tertipu, hal teknis yang perlu dijaga, serta etika dan privasi pengunjung.",
     category: "Website & Digital",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-14",
     tags: ["website","data","ecommerce","pelaporan"],
     titleTranslations: {
       en: "A/B Testing and Conversion Optimisation for Business Websites: Deciding with Evidence, Not Taste",
@@ -3037,7 +3122,7 @@ export const meta: PostMeta[] = [
     excerpt: "IoT dilihat dari sudut pemilik bisnis kecil: kasus penggunaan yang masuk akal, komponen sistem, konektivitas dan daya, hubungan dengan aplikasi dan ERP, keamanan, biaya tersembunyi, dan uji coba kecil.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-14",
     tags: ["otomasi","infrastruktur","operasional","integrasi"],
     titleTranslations: {
       en: "IoT and Sensors for Small Business: What Is Realistic, What Is Useful, and How to Start",
@@ -3054,7 +3139,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan edukatif mengelola data pribadi: memetakan data, dasar pengumpulan dan persetujuan, pemberitahuan privasi, hak pemilik data, pengamanan, pihak ketiga, masa simpan, dan kesiapan menghadapi kebocoran.",
     category: "Teknologi",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-14",
     tags: ["keamanan","data","pelanggan","kontrak"],
     titleTranslations: {
       en: "Personal Data Protection for Websites and Apps: Practical Steps for Business Owners",
@@ -3156,7 +3241,7 @@ export const meta: PostMeta[] = [
     excerpt: "Banyak aplikasi kehilangan penggunanya dalam beberapa menit pertama. Cara merancang pendaftaran, pengantar fitur, izin, dan momen pertama bernilai agar pengguna baru bertahan dan merasakan manfaat aplikasi.",
     category: "Teknologi",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-11-14",
     tags: ["mobile","pelanggan","implementasi"],
     titleTranslations: {
       en: "Mobile App Onboarding: Turning New Users into Active Users",
@@ -3838,7 +3923,7 @@ export const meta: PostMeta[] = [
     excerpt: "Website perusahaan yang hanya berisi sejarah dan visi misi jarang menghasilkan pertanyaan dari calon klien. Ini yang membedakan website yang bekerja.",
     category: "Website & Digital",
     publishedAt: "2026-08-27",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-14",
     tags: [
       "website",
       "seo",
@@ -3932,6 +4017,7 @@ export const meta: PostMeta[] = [
     excerpt: "Banyak peluang penjualan hilang bukan karena ditolak, tapi karena tidak ada yang menindaklanjuti. Follow up yang terjadwal mengubah itu.",
     category: "Penjualan & CRM",
     publishedAt: "2026-08-09",
+    updatedAt: "2026-11-14",
     tags: [
       "crm",
       "sales",
@@ -4088,7 +4174,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bisnis distribusi bergerak di antara gudang, armada, sales lapangan, dan tagihan pelanggan. Sistemnya harus menyatukan semua titik itu, bukan hanya mencatat stok.",
     category: "Panduan Industri",
     publishedAt: "2026-07-16",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-14",
     tags: [
       "industri",
       "inventori",
@@ -4128,6 +4214,7 @@ export const meta: PostMeta[] = [
     excerpt: "Promo yang diatur manual di kasir sulit diukur dan mudah disalahgunakan. Mengaturnya di sistem membuat hasil promo bisa dinilai dengan jujur.",
     category: "POS & Retail",
     publishedAt: "2026-07-10",
+    updatedAt: "2026-11-14",
     tags: [
       "pos",
       "retail",
@@ -4202,7 +4289,7 @@ export const meta: PostMeta[] = [
     excerpt: "Manufaktur skala menengah sering terjebak di antara spreadsheet yang sudah tidak cukup dan sistem besar yang terlalu rumit. Ini kebutuhan yang biasanya paling mendesak.",
     category: "Panduan Industri",
     publishedAt: "2026-06-28",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-11-14",
     tags: [
       "industri",
       "inventori",

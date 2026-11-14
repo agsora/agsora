@@ -101,6 +101,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Onboarding is the bridge between a built app and an app that is actually used. A feature rich app with poor onboarding will lose to a simple app that brings users to value within minutes. The key is not explaining more but removing obstacles and bringing users to value as quickly as possible." },
   { type: "p", text: "If you are planning a mobile app for your business, think about onboarding from the design stage, not as an add on at the end. Design the user path together, test it with real people, measure the results, and keep improving. That way your development investment turns into active users, not just download numbers." },
+  { type: "p", text: "If sign-up requires identity verification, see [e-KYC for customer onboarding](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Planning a mobile app for your business?",
@@ -211,6 +212,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "引导是已构建的应用与真正被使用的应用之间的桥梁。功能丰富但引导糟糕的应用,会输给能在几分钟内把用户带到价值的简单应用。关键不是解释得更多,而是消除障碍,尽快把用户带到价值面前。" },
   { type: "p", text: "如果你正在为企业规划移动应用,请从设计阶段就考虑引导,而不是把它当作最后的附加项。共同设计用户路径,用真人测试,衡量结果,并不断改进。这样,你的开发投入才会变成活跃用户,而不只是下载数字。" },
+  { type: "p", text: "如果注册需要身份验证，请参阅[客户入驻的电子 KYC](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "正在为你的企业规划移动应用吗?",

@@ -157,6 +157,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "IoT dan sensor dapat memberi bisnis kecil kemampuan yang dulu hanya dimiliki perusahaan besar: melihat apa yang terjadi di lapangan secara terus-menerus dan bereaksi sebelum masalah membesar. Namun nilainya tidak datang dari perangkat, melainkan dari masalah yang jelas, rancangan dari ujung ke ujung, keamanan yang diperhatikan, dan pemeliharaan yang konsisten." },
   { type: "p", text: "Mulailah dari satu masalah nyata, uji dalam skala kecil, dan hubungkan datanya dengan tindakan dan sistem bisnis Anda. Dengan begitu teknologi ini menjadi alat yang bekerja untuk Anda, bukan kumpulan perangkat yang dipasang lalu dilupakan." },
+  { type: "p", text: "Contoh penerapan sensor di pabrik dibahas di [predictive maintenance dengan IoT dan AI](/blog/predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah)." },
   {
     type: "cta",
     title: "Ingin menghubungkan data lapangan dengan aplikasi dan sistem bisnis Anda?",

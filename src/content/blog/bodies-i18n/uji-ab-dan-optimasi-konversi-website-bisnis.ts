@@ -106,6 +106,7 @@ const en: Block[] = [
   { type: "p", text: "If your traffic is not yet adequate, do not force testing. Fix the things that obviously look problematic, observe visitors directly, and save testing for when volume supports it. The sure improvement from basic fixes is often larger than what a rushed test promises." },
   { type: "p", text: "Test results can only be trusted if tracking is correct; see [Google Tag Manager, server-side tagging, and consent mode](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)." },
   { type: "p", text: "A page worth testing is a [price calculator or online estimator used as a lead magnet](/blog/kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b)." },
+  { type: "p", text: "The contact form is one of the elements most worth testing; see [B2B lead forms that convert](/blog/formulir-prospek-b2b-yang-mengonversi-jumlah-field-anti-spam-dan-routing-ke-crm)." },
   {
     type: "cta",
     title: "Is your website busy with visitors but few become customers?",
@@ -221,6 +222,7 @@ const zh: Block[] = [
   { type: "p", text: "如果你的流量还不够，不要勉强测试。修复明显有问题的地方，直接观察访客，并把测试留到流量足够时再做。基础修复带来的确定提升，往往比仓促的测试所承诺的更大。" },
   { type: "p", text: "只有跟踪正确，测试结果才可信；请参阅 [Google Tag Manager、服务器端标记与同意模式](/blog/google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh)。" },
   { type: "p", text: "值得测试的页面之一是[作为获客工具的价格计算器与在线估价工具](/blog/kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b)。" },
+  { type: "p", text: "联系表单是最值得测试的元素之一；请参阅[高转化的 B2B 线索表单](/blog/formulir-prospek-b2b-yang-mengonversi-jumlah-field-anti-spam-dan-routing-ke-crm)。" },
   {
     type: "cta",
     title: "网站访客很多，但成为顾客的很少？",

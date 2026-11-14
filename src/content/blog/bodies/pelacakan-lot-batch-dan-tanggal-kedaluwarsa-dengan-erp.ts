@@ -103,6 +103,7 @@ export const body: Block[] = [
   { type: "p", text: "Pelacakan lot, batch, dan tanggal kedaluwarsa mengubah stok dari sekadar angka menjadi informasi yang bisa dipertanggungjawabkan. Manfaatnya terasa setiap hari dalam bentuk barang kedaluwarsa yang berkurang, dan terasa sangat besar saat terjadi masalah mutu karena penarikan dapat dibatasi pada lot yang benar-benar terdampak." },
   { type: "p", text: "Kuncinya bukan hanya fitur ERP, melainkan disiplin pencatatan di setiap perpindahan barang, didukung pemindaian barcode dan aturan yang diterapkan sistem. Mulailah dari penerimaan, tegakkan FEFO di pengambilan, sambungkan produksi, lalu uji secara berkala." },
   { type: "p", text: "Untuk produk beku dan segar, pelacakan lot perlu dipadukan dengan data suhu; baca [ERP untuk distribusi rantai dingin](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)." },
+  { type: "p", text: "Pembeli Eropa kini juga meminta data ketertelusuran untuk paspor produk; lihat [Digital Product Passport Uni Eropa untuk eksportir Indonesia](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)." },
   {
     type: "cta",
     title: "Butuh pelacakan lot dan kedaluwarsa yang terhubung dari gudang hingga pelanggan?",

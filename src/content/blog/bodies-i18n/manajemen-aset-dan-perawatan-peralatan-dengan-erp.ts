@@ -128,6 +128,7 @@ const en: Block[] = [
   { type: "p", text: "On the bookkeeping side, learn about [fixed asset accounting and depreciation with ERP](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)." },
   { type: "p", text: "Calibration of measuring instruments in laboratories is covered in [laboratory information management systems (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
   { type: "p", text: "Building and equipment maintenance as a contracted service is covered in [ERP for facility management and cleaning services](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)." },
+  { type: "p", text: "For critical machines, scheduled maintenance can be complemented by [IoT and AI-based predictive maintenance](/blog/predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah)." },
   {
     type: "cta",
     title: "Assets and service history still scattered across many notes?",
@@ -265,6 +266,7 @@ const zh: Block[] = [
   { type: "p", text: "在记账方面，请了解[用 ERP 做固定资产会计与折旧](/blog/akuntansi-aset-tetap-dan-penyusutan-dengan-erp-register-kapitalisasi-dan-pelepasan)。" },
   { type: "p", text: "实验室测量仪器的校准详见[实验室信息管理系统（LIMS）](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)。" },
   { type: "p", text: "作为合同化服务的楼宇与设备维护，详见[设施管理与保洁服务 ERP](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)。" },
+  { type: "p", text: "对于关键设备，定期保养可以与[基于物联网和 AI 的预测性维护](/blog/predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah)相结合。" },
   {
     type: "cta",
     title: "资产和维修历史仍散落在许多记录里？",

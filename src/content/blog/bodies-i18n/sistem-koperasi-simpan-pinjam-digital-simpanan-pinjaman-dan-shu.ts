@@ -179,6 +179,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A digital system helps a savings and loan cooperative protect what is most valuable: member trust. With one ledger connecting membership, savings, loans, and accounting, consistent calculations, firm internal controls, and reports ready at any time, officers can work with more calm and transparency. Start with the core modules, make sure rules are written, and add digital capabilities according to member readiness." },
   { type: "p", text: "Agsora helps cooperatives and microfinance institutions build systems tailored to their rules and ways of working, from savings and loan modules and accounting to member apps. If you would like to discuss your cooperative's needs, we are ready to talk." },
+  { type: "p", text: "Member registration from an app is covered in [e-KYC and digital identity verification](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Build a transparent, tidy cooperative system",
@@ -367,6 +368,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "数字系统帮助储蓄信贷合作社守护最宝贵的东西：成员的信任。借助连接会员、储蓄、贷款和会计的同一本账、一致的计算、严格的内部控制以及随时可用的报告，干事能够更从容、更透明地工作。从核心模块开始，确保规则成文，并根据成员的接受程度逐步增加数字能力。" },
   { type: "p", text: "Agsora 协助合作社和小额金融机构构建贴合其规则和工作方式的系统，从储蓄信贷模块、会计到成员应用。如果您想讨论自己合作社的需求，我们很乐意与您交流。" },
+  { type: "p", text: "通过应用注册会员的做法，参见[电子 KYC 与数字身份验证](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "构建透明、规范的合作社系统",

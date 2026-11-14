@@ -169,6 +169,7 @@ const en: Block[] = [
   { type: "p", text: "Start from the simplest and highest impact steps, then build consistent governance habits. Because the rules keep evolving, make periodic review and consultation with legal counsel part of your routine." },
   { type: "p", text: "Where data is stored also affects compliance; see [data residency and hosting compliance for applications](/blog/lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia)." },
   { type: "p", text: "Rules for how long data is kept and how to respond to deletion requests are covered in [data retention policy](/blog/kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis)." },
+  { type: "p", text: "Identity and biometric data from verification is covered in [e-KYC and digital identity verification](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Want a website or app designed with privacy and data security in mind?",
@@ -347,6 +348,7 @@ const zh: Block[] = [
   { type: "p", text: "从最简单、影响最大的步骤开始,然后建立一贯的治理习惯。由于规则不断发展,请把定期审查和咨询法律顾问纳入你的例行工作。" },
   { type: "p", text: "数据存放在哪里同样影响合规；参见[业务应用的数据存储位置与托管合规](/blog/lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia)。" },
   { type: "p", text: "数据保存多久以及如何应对删除请求，参见[数据保留政策](/blog/kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis)。" },
+  { type: "p", text: "验证过程中的身份和生物特征数据，参见[电子 KYC 与数字身份验证](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "想要一个在设计时就考虑了隐私和数据安全的网站或应用吗?",

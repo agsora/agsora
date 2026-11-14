@@ -152,6 +152,7 @@ export const body: Block[] = [
     type: "p",
     text: "Follow up yang konsisten sering menjadi pembeda antara sales yang biasa saja dan yang unggul, bukan karena mereka lebih pandai bicara, tetapi karena mereka tidak pernah membiarkan prospek yang tertarik merasa dilupakan. Bangun sistem yang tidak bergantung pada ingatan siapa pun, dan peluang yang dulu hilang diam-diam bisa berubah menjadi penjualan yang tertutup.",
   },
+  { type: "p", text: "Tindak lanjut yang cepat dimulai dari [formulir prospek yang langsung terhubung ke CRM](/blog/formulir-prospek-b2b-yang-mengonversi-jumlah-field-anti-spam-dan-routing-ke-crm)." },
   {
     type: "cta",
     title: "Berapa banyak prospek yang terlupakan bulan ini?",

@@ -69,5 +69,6 @@ export const body: Block[] = [
   { type: "p", text: "Biasanya beberapa bulan, tergantung persaingan dan kualitas konten. Kombinasikan dengan pameran dagang, direktori industri, dan jaringan asosiasi agar prospek tidak bergantung pada satu kanal." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Bagi eksportir dan produsen, website adalah ruang pamer dan kunjungan pabrik pertama sekaligus. Website yang menjawab pertanyaan pengadaan secara jujur, menampilkan bukti nyata, tersedia dalam bahasa pasar yang benar-benar dilayani, terstruktur untuk SEO internasional, dan didukung proses tindak lanjut yang cepat akan menarik pembeli yang tepat dan mempersingkat jalan menuju pesanan pertama." },
+  { type: "p", text: "Selain website, pembeli Eropa akan meminta data produk yang terstruktur; lihat [Digital Product Passport Uni Eropa](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)." },
   { type: "cta", title: "Bangun website ekspor yang menghasilkan permintaan penawaran",text: "Tim Agsora membantu produsen dan eksportir menyusun website multibahasa dengan katalog teknis, SEO internasional, dan integrasi CRM untuk menindaklanjuti setiap prospek.",href: "/services/website",label: "Konsultasi gratis" },
 ];

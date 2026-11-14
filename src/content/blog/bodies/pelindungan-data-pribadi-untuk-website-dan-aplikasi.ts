@@ -169,6 +169,7 @@ export const body: Block[] = [
   { type: "p", text: "Mulailah dari langkah yang paling sederhana dan paling berdampak, lalu bangun kebiasaan tata kelola yang konsisten. Karena aturan terus berkembang, jadikan peninjauan berkala dan konsultasi dengan penasihat hukum sebagai bagian dari rutinitas Anda." },
   { type: "p", text: "Di mana data disimpan juga memengaruhi kepatuhan; lihat [lokasi penyimpanan data dan kepatuhan hosting aplikasi](/blog/lokasi-penyimpanan-data-dan-kepatuhan-hosting-aplikasi-bisnis-di-indonesia)." },
   { type: "p", text: "Aturan berapa lama data disimpan dan cara menanggapi permintaan penghapusan dibahas di [kebijakan retensi data](/blog/kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis)." },
+  { type: "p", text: "Data identitas dan biometrik dari proses verifikasi dibahas di [e-KYC dan verifikasi identitas digital](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Ingin website atau aplikasi yang dirancang dengan memperhatikan privasi dan keamanan data?",

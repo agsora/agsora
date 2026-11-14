@@ -146,6 +146,7 @@ export const body: Block[] = [
     type: "p",
     text: "Promo yang dikelola dengan baik adalah alat yang efektif untuk mendorong penjualan tanpa mengorbankan kejelasan finansial bisnis Anda. Dengan mendefinisikan aturan di sistem, memisahkan pelaporan diskon, dan mengevaluasi hasilnya secara konsisten, promo berubah dari tebakan menjadi strategi yang bisa diukur dan diperbaiki dari waktu ke waktu.",
   },
+  { type: "p", text: "Bagi distributor, promo dari prinsipal juga perlu ditagih kembali; lihat [manajemen klaim promo dan rebate prinsipal](/blog/manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp)." },
   {
     type: "cta",
     title: "Promo Anda sering bocor tanpa jejak yang jelas?",

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_digital_product_passport_dpp_uni_eropa_dan_ketertelusuran_produk_untuk_eksportir_indonesia } from "./digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia";
+import { translations as t_predictive_maintenance_dengan_iot_dan_ai_untuk_pabrik_skala_menengah } from "./predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah";
+import { translations as t_e_kyc_dan_verifikasi_identitas_digital_untuk_onboarding_pelanggan_di_aplikasi_bisnis } from "./e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis";
+import { translations as t_formulir_prospek_b2b_yang_mengonversi_jumlah_field_anti_spam_dan_routing_ke_crm } from "./formulir-prospek-b2b-yang-mengonversi-jumlah-field-anti-spam-dan-routing-ke-crm";
+import { translations as t_manajemen_klaim_promo_dan_rebate_prinsipal_untuk_distributor_dengan_erp } from "./manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp";
 import { translations as t_small_language_model_slm_dan_ai_on_device_untuk_aplikasi_bisnis } from "./small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis";
 import { translations as t_sistem_komisi_dan_insentif_sales_perhitungan_otomatis_yang_transparan } from "./sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan";
 import { translations as t_kalkulator_harga_dan_estimator_online_sebagai_lead_magnet_website_b2b } from "./kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b";
@@ -219,6 +224,11 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia": t_digital_product_passport_dpp_uni_eropa_dan_ketertelusuran_produk_untuk_eksportir_indonesia,
+  "predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah": t_predictive_maintenance_dengan_iot_dan_ai_untuk_pabrik_skala_menengah,
+  "e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis": t_e_kyc_dan_verifikasi_identitas_digital_untuk_onboarding_pelanggan_di_aplikasi_bisnis,
+  "formulir-prospek-b2b-yang-mengonversi-jumlah-field-anti-spam-dan-routing-ke-crm": t_formulir_prospek_b2b_yang_mengonversi_jumlah_field_anti_spam_dan_routing_ke_crm,
+  "manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp": t_manajemen_klaim_promo_dan_rebate_prinsipal_untuk_distributor_dengan_erp,
   "small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis": t_small_language_model_slm_dan_ai_on_device_untuk_aplikasi_bisnis,
   "sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan": t_sistem_komisi_dan_insentif_sales_perhitungan_otomatis_yang_transparan,
   "kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b": t_kalkulator_harga_dan_estimator_online_sebagai_lead_magnet_website_b2b,

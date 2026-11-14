@@ -157,6 +157,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "IoT and sensors can give small businesses a capability once held only by large companies: seeing continuously what is happening in the field and reacting before problems grow. But the value does not come from the devices; it comes from a clear problem, end to end design, attention to security, and consistent maintenance." },
   { type: "p", text: "Start from one real problem, trial it on a small scale, and connect its data with action and your business systems. That way the technology becomes a tool that works for you, not a collection of devices installed and forgotten." },
+  { type: "p", text: "A factory use case for sensors is covered in [predictive maintenance with IoT and AI](/blog/predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah)." },
   {
     type: "cta",
     title: "Want to connect field data with your apps and business systems?",
@@ -323,6 +324,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "物联网和传感器可以让小企业拥有过去只有大公司才有的能力:持续看到现场发生的事,并在问题扩大之前做出反应。但价值不是来自设备,而是来自明确的问题、端到端的设计、对安全的重视,以及持续的维护。" },
   { type: "p", text: "从一个真实的问题开始,小规模试点,并把数据与行动和你的业务系统连接起来。这样这项技术就成为为你工作的工具,而不是装好后就被遗忘的一堆设备。" },
+  { type: "p", text: "传感器在工厂中的应用示例，参见[物联网与 AI 预测性维护](/blog/predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah)。" },
   {
     type: "cta",
     title: "想把现场数据与你的应用和业务系统连接起来吗?",

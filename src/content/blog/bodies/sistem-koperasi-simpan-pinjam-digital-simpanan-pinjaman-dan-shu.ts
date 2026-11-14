@@ -179,6 +179,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Sistem digital membantu koperasi simpan pinjam menjaga hal yang paling berharga: kepercayaan anggota. Dengan satu pembukuan yang menghubungkan keanggotaan, simpanan, pinjaman, dan akuntansi, perhitungan yang konsisten, pengendalian internal yang tegas, serta laporan yang siap kapan saja, pengurus dapat bekerja lebih tenang dan transparan. Mulailah dari modul inti, pastikan aturan tertulis, dan tambahkan kemampuan digital sesuai kesiapan anggota." },
   { type: "p", text: "Agsora membantu koperasi dan lembaga keuangan mikro membangun sistem yang disesuaikan dengan aturan dan cara kerja mereka, dari modul simpan pinjam, akuntansi, hingga aplikasi anggota. Bila Anda ingin membahas kebutuhan koperasi Anda, kami siap berdiskusi." },
+  { type: "p", text: "Pendaftaran anggota dari aplikasi dibahas di [e-KYC dan verifikasi identitas digital](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Bangun sistem koperasi yang transparan dan rapi",

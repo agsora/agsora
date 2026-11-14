@@ -193,6 +193,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Jika target Anda pembeli internasional, baca [website B2B untuk eksportir dan manufaktur](/blog/website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional)." },
   { type: "p", text: "Salah satu alat yang efektif untuk menghasilkan prospek adalah [kalkulator harga dan estimator online](/blog/kalkulator-harga-dan-estimator-online-sebagai-lead-magnet-website-b2b)." },
+  { type: "p", text: "Detail merancang formulir kontak dibahas di [formulir prospek B2B yang mengonversi](/blog/formulir-prospek-b2b-yang-mengonversi-jumlah-field-anti-spam-dan-routing-ke-crm)." },
   {
     type: "cta",
     title: "Website Anda sepi pertanyaan?",

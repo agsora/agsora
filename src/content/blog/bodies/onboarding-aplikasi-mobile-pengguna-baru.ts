@@ -101,6 +101,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Onboarding adalah jembatan antara aplikasi yang sudah dibangun dan aplikasi yang benar-benar dipakai. Aplikasi dengan fitur lengkap tetapi onboarding buruk akan kalah oleh aplikasi sederhana yang membawa pengguna pada manfaat dalam hitungan menit. Kuncinya bukan menjelaskan lebih banyak, melainkan menghilangkan hambatan dan mengantar pengguna ke nilai secepat mungkin." },
   { type: "p", text: "Jika Anda sedang merencanakan aplikasi mobile untuk bisnis, pikirkan onboarding sejak tahap perancangan, bukan sebagai tambahan di akhir. Rancang bersama jalur pengguna, uji dengan orang sungguhan, ukur hasilnya, dan perbaiki terus. Dengan begitu investasi pengembangan Anda berubah menjadi pengguna aktif, bukan sekadar angka unduhan." },
+  { type: "p", text: "Jika pendaftaran memerlukan verifikasi identitas, lihat [e-KYC untuk onboarding pelanggan](/blog/e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Merencanakan aplikasi mobile untuk bisnis Anda?",

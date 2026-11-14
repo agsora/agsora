@@ -72,5 +72,6 @@ export const body: Block[] = [
   { type: "p", text: "Untuk distributor menengah dengan ERP yang sudah berjalan, uji coba satu wilayah biasanya bisa dimulai dalam beberapa bulan, tergantung kerapian data master dan kompleksitas aturan harga." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Aplikasi sales kanvas dan taking order mengubah pekerjaan lapangan dari catatan kertas yang terlambat dilaporkan menjadi data harian yang terhubung dengan gudang, keuangan, dan manajemen. Kuncinya adalah rute dan bukti kunjungan, harga dan promo yang otomatis, kontrol batas kredit, rekonsiliasi stok kendaraan dan setoran yang ketat, mode offline yang andal, dan integrasi penuh dengan ERP. Mulailah dari satu wilayah, rapikan data master, dan libatkan salesman dalam memperbaiki aplikasinya." },
+  { type: "p", text: "Kode program promo di setiap order menjadi dasar [klaim promo dan rebate kepada prinsipal](/blog/manajemen-klaim-promo-dan-rebate-prinsipal-untuk-distributor-dengan-erp)." },
   { type: "cta", title: "Ingin tim sales lapangan bekerja lebih cepat dan tercatat rapi?",text: "Agsora membangun aplikasi sales kanvas dan taking order yang berjalan offline dan terintegrasi dengan ERP, gudang, dan piutang Anda.",href: "/services/mobile",label: "Konsultasi gratis" },
 ];

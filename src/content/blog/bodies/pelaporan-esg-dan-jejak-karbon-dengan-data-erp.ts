@@ -93,6 +93,7 @@ export const body: Block[] = [
   { type: "p", text: "Permintaan data ESG dan jejak karbon akan semakin sering datang dari pembeli, mitra, dan regulator. Bisnis yang mempersiapkannya dari sekarang tidak perlu panik setiap kali menerima kuesioner baru. Kuncinya adalah memanfaatkan data operasional yang sudah ada di ERP, mencatat kuantitas fisik dengan rapi, memisahkan faktor emisi dengan sumber yang jelas, dan memulai dari cakupan yang paling dapat dikendalikan." },
   { type: "p", text: "Dengan fondasi tersebut, laporan keberlanjutan berubah dari pekerjaan tahunan yang melelahkan menjadi hasil sampingan dari pencatatan harian yang baik, sekaligus sumber wawasan untuk menekan biaya." },
   { type: "p", text: "Untuk pelaporan kepada donor dan pemangku kepentingan, lihat [ERP untuk yayasan dan lembaga nirlaba](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)." },
+  { type: "p", text: "Data yang sama juga menjadi bahan [Digital Product Passport Uni Eropa](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia) bagi eksportir." },
   {
     type: "cta",
     title: "Ingin data ERP Anda siap menjawab permintaan ESG dari pembeli?",

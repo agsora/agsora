@@ -103,6 +103,7 @@ const en: Block[] = [
   { type: "p", text: "Lot, batch, and expiry tracking turns stock from a mere number into information you can stand behind. The benefit shows every day in fewer expired goods, and it becomes enormous when a quality issue occurs because a recall can be limited to the lots that are actually affected." },
   { type: "p", text: "The key is not just an ERP feature but recording discipline at every stock movement, backed by barcode scanning and rules enforced by the system. Start at receiving, enforce FEFO at picking, connect production, then test regularly." },
   { type: "p", text: "For frozen and fresh products, lot tracking needs to be combined with temperature data; read [ERP for cold chain distribution](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)." },
+  { type: "p", text: "European buyers now also ask for traceability data for product passports; see [the EU Digital Product Passport for Indonesian exporters](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)." },
   {
     type: "cta",
     title: "Need lot and expiry tracking connected from warehouse to customer?",
@@ -215,6 +216,7 @@ const zh: Block[] = [
   { type: "p", text: "批次和到期日追踪让库存从单纯的数字变成可以负责的信息。其好处每天都体现在过期商品的减少上；而在发生质量问题时，由于召回可以限定在真正受影响的批次，好处更是巨大。" },
   { type: "p", text: "关键不只是 ERP 的功能，而是在每一次库存移动时坚持记录，并辅以条码扫描和系统强制执行的规则。从收货开始，在拣货中落实 FEFO，打通生产环节，然后定期测试。" },
   { type: "p", text: "对于冷冻和生鲜产品，批次跟踪需要与温度数据结合；请阅读[冷链分销 ERP](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)。" },
+  { type: "p", text: "欧洲买家如今也会为产品护照索取可追溯数据；请参阅[面向印尼出口商的欧盟数字产品护照](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)。" },
   {
     type: "cta",
     title: "需要从仓库一路连接到客户的批次与到期追踪吗？",
