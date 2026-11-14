@@ -298,3 +298,35 @@
   .sn-menu-item { width: auto; margin: 0.25rem; }
   .sn-main { padding: 1rem; }
 }
+
+/* Lead CRM additions: segment badges, follow-up board, charts. */
+.sn-seg-hot { background: rgba(255, 62, 29, 0.16); color: var(--sn-danger); }
+.sn-seg-warm { background: rgba(255, 171, 0, 0.16); color: var(--sn-warning); }
+.sn-seg-cold { background: rgba(3, 195, 236, 0.16); color: var(--sn-info); }
+
+.sn-note { margin-top: 0.4rem; font-size: 0.8125rem; color: var(--sn-muted); white-space: pre-wrap; }
+
+.sn-edit { margin-top: 0.5rem; }
+.sn-edit summary { cursor: pointer; font-size: 0.8125rem; color: var(--sn-primary); }
+.sn-edit form { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
+.sn-edit label { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.75rem; }
+
+.sn-board { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 1rem; align-items: start; }
+.sn-column { background: rgba(67, 89, 113, 0.05); border-radius: var(--sn-radius); padding: 0.75rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.sn-column-head { display: flex; justify-content: space-between; gap: 0.5rem; align-items: flex-start; padding: 0 0.25rem; }
+.sn-kcard { padding: 0.9rem; font-size: 0.875rem; border: 1px solid transparent; }
+.sn-kcard.due { border-color: rgba(255, 62, 29, 0.45); }
+
+.sn-grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); gap: 1.5rem; }
+.sn-alert { display: flex; align-items: center; gap: 0.6rem; padding: 0.9rem 1.25rem; margin-bottom: 1.5rem; text-decoration: none; color: var(--sn-body); border-left: 4px solid var(--sn-danger); }
+
+.sn-bars { padding: 0 1.5rem 1.5rem; display: flex; flex-direction: column; gap: 0.9rem; }
+.sn-bar-row { display: grid; grid-template-columns: 8.5rem 1fr 2.5rem; gap: 0.75rem; align-items: center; }
+.sn-bar-track { height: 0.6rem; background: var(--sn-bg); border-radius: 1rem; overflow: hidden; }
+.sn-bar { height: 100%; background: var(--sn-primary); border-radius: 1rem; min-width: 2px; }
+
+.sn-columns { display: flex; align-items: flex-end; gap: 0.6rem; height: 11rem; padding: 0 1.5rem 1.25rem; }
+.sn-col { flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 0.25rem; }
+.sn-col-bar { width: 100%; max-width: 2.2rem; background: var(--sn-primary-soft); border-top: 3px solid var(--sn-primary); border-radius: 0.25rem 0.25rem 0 0; min-height: 3px; }
+.sn-col-count { font-size: 0.75rem; color: var(--sn-heading); }
+.sn-col-label { font-size: 0.68rem; color: var(--sn-muted); white-space: nowrap; }

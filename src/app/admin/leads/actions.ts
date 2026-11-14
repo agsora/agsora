@@ -1,11 +1,15 @@
 "use server";
 
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { revalidatePath } from "next/cache";
 import { ADMIN_COOKIE, checkPassword, isAdmin, sessionToken } from "@/lib/admin-auth";
-import { LEAD_STATUSES } from "@/lib/lead-status";
+import { LEAD_SEGMENTS, LEAD_STATUSES, type Followup, type LeadSegment, type LeadStatus } from "@/lib/lead-status";
+import { patchLead, queryLeads } from "@/lib/leads-db";
 import { clientIp, rateLimit } from "@/lib/rate-limit";
-import { headers } from "next/headers";
+
+function refresh() {
+  revalidatePath("/admin", "layout");
+}
 
 export async function login(_: string | null, formData: FormData): Promise<string | null> {
   const h = await headers();
@@ -19,31 +23,66 @@ export async function login(_: string | null, formData: FormData): Promise<strin
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "strict",
-    path: "/admin",
+    path: "/",
     maxAge: 60 * 60 * 12,
   });
-  revalidatePath("/admin/leads");
+  refresh();
   return null;
 }
 
 export async function logout() {
-  (await cookies()).delete({ name: ADMIN_COOKIE, path: "/admin" });
-  revalidatePath("/admin/leads");
+  (await cookies()).delete({ name: ADMIN_COOKIE, path: "/" });
+  refresh();
+}
+
+function leadId(formData: FormData) {
+  const id = Number(formData.get("id"));
+  return Number.isInteger(id) && id > 0 ? id : null;
 }
 
 export async function setStatus(formData: FormData) {
   if (!(await isAdmin())) return;
-  const id = Number(formData.get("id"));
-  const status = formData.get("status");
-  if (!Number.isInteger(id) || !LEAD_STATUSES.includes(status as (typeof LEAD_STATUSES)[number])) return;
+  const id = leadId(formData);
+  const status = formData.get("status") as LeadStatus;
+  if (!id || !LEAD_STATUSES.includes(status)) return;
+  await patchLead(id, { status });
+  refresh();
+}
 
-  const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SECRET_KEY;
-  if (!url || !key) return;
-  await fetch(`${url}/rest/v1/leads?id=eq.${id}`, {
-    method: "PATCH",
-    headers: { apikey: key, "Content-Type": "application/json", Prefer: "return=minimal" },
-    body: JSON.stringify({ status }),
+/** Segment, deal value, lost reason and notes from the lead editor. */
+export async function updateLead(formData: FormData) {
+  if (!(await isAdmin())) return;
+  const id = leadId(formData);
+  if (!id) return;
+
+  const text = (name: string, max: number) => {
+    const v = formData.get(name);
+    return typeof v === "string" && v.trim() ? v.trim().slice(0, max) : null;
+  };
+  const segment = formData.get("segment") as LeadSegment;
+  const dealRaw = String(formData.get("deal_value") ?? "").replace(/\D/g, "");
+
+  await patchLead(id, {
+    segment: LEAD_SEGMENTS.includes(segment) ? segment : null,
+    deal_value: dealRaw ? Math.min(Number(dealRaw), 1e13) : null,
+    lost_reason: text("lost_reason", 300),
+    notes: text("notes", 2000),
   });
-  revalidatePath("/admin/leads");
+  refresh();
+}
+
+/** Log one follow-up; the lead moves to the next stage and is marked contacted. */
+export async function logFollowup(formData: FormData) {
+  if (!(await isAdmin())) return;
+  const id = leadId(formData);
+  const note = String(formData.get("note") ?? "").trim().slice(0, 500);
+  if (!id || !note) return;
+
+  const rows = await queryLeads(`select=id,status,followups&id=eq.${id}`);
+  const lead = rows?.[0];
+  if (!lead) return;
+
+  const followups: Followup[] = [...lead.followups, { at: new Date().toISOString(), note }];
+  await patchLead(id, { followups, ...(lead.status === "new" ? { status: "contacted" } : {}) });
+  refresh();
 }
