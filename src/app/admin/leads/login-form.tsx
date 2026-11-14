@@ -1,36 +1,45 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
+import { Eye, EyeOff } from "lucide-react";
+import { AdminBrand } from "../brand";
 import { login } from "./actions";
 
+/** Modelled on Sneat's "auth-login-basic": one centred card on the grey canvas. */
 export function LoginForm() {
   const [error, action, pending] = useActionState(login, null);
+  const [show, setShow] = useState(false);
   return (
     <div className="sn-auth">
-      <div className="sn-card">
-        <div className="sn-brand" style={{ padding: 0, justifyContent: "center" }}>
-          <span className="sn-brand-mark">A</span> AG·SORA
+      <div className="sn-card sn-auth-card">
+        <div style={{ marginBottom: "1.75rem" }}>
+          <AdminBrand center />
         </div>
-        <h2 style={{ fontSize: "1.125rem", margin: "1.5rem 0 0.25rem" }}>Selamat datang 👋</h2>
-        <p style={{ marginBottom: "1.25rem" }}>Masuk untuk melihat leads yang masuk.</p>
-        <form action={action} style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+        <h2 className="sn-auth-title">Selamat datang di AG·SORA! 👋</h2>
+        <p style={{ marginBottom: "1.5rem" }}>Masuk ke dashboard untuk mengelola leads, iklan, dan rekrutmen.</p>
+        <form action={action} style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
           <div>
-            <label htmlFor="password" style={{ display: "block", fontSize: "0.8125rem", marginBottom: "0.35rem" }}>
+            <label htmlFor="password" className="sn-label">
               Password
             </label>
-            <input
-              id="password"
-              className="sn-input"
-              type="password"
-              name="password"
-              required
-              autoFocus
-              autoComplete="current-password"
-              placeholder="••••••••"
-            />
+            <div className="sn-input-group">
+              <input
+                id="password"
+                className="sn-input"
+                type={show ? "text" : "password"}
+                name="password"
+                required
+                autoFocus
+                autoComplete="current-password"
+                placeholder="············"
+              />
+              <button type="button" className="sn-input-addon" onClick={() => setShow((v) => !v)} aria-label={show ? "Sembunyikan password" : "Tampilkan password"}>
+                {show ? <EyeOff size={16} /> : <Eye size={16} />}
+              </button>
+            </div>
           </div>
           {error ? <p style={{ color: "var(--sn-danger)", fontSize: "0.8125rem" }}>{error}</p> : null}
-          <button className="sn-btn sn-btn-primary" style={{ justifyContent: "center", padding: "0.55rem" }} disabled={pending}>
+          <button className="sn-btn sn-btn-primary" style={{ justifyContent: "center", padding: "0.6rem", fontSize: "0.9375rem" }} disabled={pending}>
             {pending ? "Memeriksa…" : "Masuk"}
           </button>
         </form>

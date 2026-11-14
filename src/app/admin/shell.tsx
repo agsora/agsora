@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { BarChart3, ExternalLink, Inbox, LogOut, Repeat } from "lucide-react";
+import { BarChart3, Briefcase, ExternalLink, Inbox, LogOut, Megaphone, Repeat, Search } from "lucide-react";
 import { adminEnabled, isAdmin } from "@/lib/admin-auth";
+import { AdminBrand } from "./brand";
 import { logout } from "./leads/actions";
 import { LoginForm } from "./leads/login-form";
 
@@ -9,8 +10,11 @@ export async function adminGate() {
   if (!adminEnabled()) {
     return (
       <div className="sn-auth">
-        <div className="sn-card">
-          <h2 style={{ fontSize: "1.125rem", marginBottom: "0.5rem" }}>Admin nonaktif</h2>
+        <div className="sn-card sn-auth-card">
+          <div style={{ marginBottom: "1.5rem" }}>
+            <AdminBrand center />
+          </div>
+          <h2 className="sn-auth-title">Admin nonaktif</h2>
           <p>
             Isi <code>ADMIN_PASSWORD</code> di environment untuk mengaktifkan halaman ini.
           </p>
@@ -25,7 +29,9 @@ export async function adminGate() {
 const NAV = [
   { href: "/admin", key: "overview", label: "Ringkasan", icon: BarChart3 },
   { href: "/admin/leads", key: "leads", label: "Leads", icon: Inbox },
-  { href: "/admin/followup", key: "followup", label: "Follow Up", icon: Repeat },
+  { href: "/admin/followup", key: "followup", label: "Follow Up Customer", icon: Repeat },
+  { href: "/admin/ads", key: "ads", label: "Analisa Iklan", icon: Megaphone },
+  { href: "/admin/recruitment", key: "recruitment", label: "Rekrutmen", icon: Briefcase },
 ] as const;
 
 export function AdminShell({
@@ -43,7 +49,7 @@ export function AdminShell({
     <div className="sn-layout">
       <aside className="sn-menu">
         <div className="sn-brand">
-          <span className="sn-brand-mark">A</span> AG·SORA
+          <AdminBrand />
         </div>
         <div className="sn-menu-header">Menu</div>
         {NAV.map(({ href, key, label, icon: Icon }) => (
@@ -51,6 +57,7 @@ export function AdminShell({
             <Icon size={18} /> {label}
           </Link>
         ))}
+        <div className="sn-menu-header">Lainnya</div>
         <a href="https://www.agsora.tech" target="_blank" rel="noopener noreferrer" className="sn-menu-item">
           <ExternalLink size={18} /> Lihat website
         </a>
@@ -62,9 +69,20 @@ export function AdminShell({
       </aside>
       <main className="sn-main">
         <div className="sn-navbar">
-          <strong>{title}</strong>
-          {subtitle ? <span className="sn-muted">{subtitle}</span> : null}
+          <form action="/admin/leads" className="sn-search" role="search">
+            <Search size={18} />
+            <input name="q" placeholder="Cari lead: nama, email, perusahaan…" aria-label="Cari lead" maxLength={60} />
+          </form>
+          <div className="sn-user">
+            <div className="sn-user-text">
+              <strong>Admin</strong>
+              <span className="sn-muted">{title}</span>
+            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/admin/avatar.png" alt="" width={40} height={40} className="sn-avatar" />
+          </div>
         </div>
+        {subtitle ? <p className="sn-muted" style={{ margin: "-0.5rem 0 1.25rem" }}>{subtitle}</p> : null}
         {children}
       </main>
     </div>

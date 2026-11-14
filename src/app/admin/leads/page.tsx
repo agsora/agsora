@@ -20,19 +20,22 @@ const actionLabel: Record<LeadStatus, string> = {
 
 const idr = (n: number) => `Rp${n.toLocaleString("id-ID")}`;
 
-export default async function LeadsPage({ searchParams }: { searchParams: Promise<{ status?: string }> }) {
+export default async function LeadsPage({ searchParams }: { searchParams: Promise<{ status?: string; q?: string }> }) {
   const gate = await adminGate();
   if (gate) return gate;
 
-  const { status } = await searchParams;
+  const { status, q: qParam } = await searchParams;
+  // Only plain characters reach the PostgREST filter, so a search can never inject filter syntax.
+  const q = (qParam ?? "").replace(/[^\p{L}\p{N}@. +-]/gu, "").trim().slice(0, 60);
+  const search = q ? `&or=(${["name", "email", "company", "phone", "need"].map((c) => `${c}.ilike.*${encodeURIComponent(q)}*`).join(",")})` : "";
   const active = status && LEAD_STATUSES.includes(status as LeadStatus) ? (status as LeadStatus) : undefined;
-  const leads = await queryLeads(`select=*&order=created_at.desc&limit=200${active ? `&status=eq.${active}` : ""}`);
+  const leads = await queryLeads(`select=*&order=created_at.desc&limit=200${active ? `&status=eq.${active}` : ""}${search}`);
 
   return (
     <AdminShell active="leads" title="Leads" subtitle="Pesan masuk dari form kontak">
       <section className="sn-card">
         <div className="sn-card-header">
-          <h3 className="sn-card-title">Daftar leads</h3>
+          <h3 className="sn-card-title">{q ? `Hasil pencarian "${q}"` : "Daftar leads"}</h3>
           <nav style={{ display: "flex", gap: "0.25rem", flexWrap: "wrap" }}>
             <Link href="/admin/leads" className={`sn-pill ${!active ? "active" : ""}`}>
               Semua
