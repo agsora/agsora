@@ -132,7 +132,7 @@ export const CATEGORIES: ServiceCategory[] = [
   },
   {
     key: "system",
-    re: /\bpos\b|kasir|hris|\bcrm\b|\berp\b|software|sistem|dashboard|laporan|custom|inventori|inventory/i,
+    re: /\bpos\b|kasir|hris|\bcrm\b|\berp\b|software|sistem|dashboard|laporan|custom|inventori|inventory|e-learning|lms|booking|reservasi|absensi|payroll|gaji|akuntansi|klinik|properti|helpdesk|member|loyalty|\bpwa\b/i,
     label: { id: "Sistem Bisnis & Perangkat Lunak", en: "Business Systems & Software" },
     text: {
       id: "Sistem dikembangkan berdasarkan kebutuhan dan alur kerja yang disepakati pada tahap pemetaan; daftar modul dan fitur pada Lampiran II menjadi acuan uji penerimaan. Hak akses pengguna, peran, dan data awal disiapkan bersama PIHAK KEDUA. Perubahan alur bisnis setelah tahap perancangan disetujui dianggap pekerjaan tambahan. Pelatihan dasar penggunaan sistem diberikan sesuai Lampiran II.",
@@ -150,7 +150,7 @@ export const CATEGORIES: ServiceCategory[] = [
   },
   {
     key: "integration",
-    re: /integrasi|\bapi\b|payment|qris|marketplace|logistik|migrasi/i,
+    re: /integrasi|\bapi\b|payment|qris|marketplace|logistik|migrasi|e-faktur|coretax|\biot\b|sensor/i,
     label: { id: "Integrasi & Migrasi Data", en: "Integration & Data Migration" },
     text: {
       id: "Integrasi mengikuti dokumentasi dan kredensial yang disediakan pemilik layanan terkait. Keterlambatan atau perubahan dari pihak tersebut dapat menggeser jadwal tanpa menjadi kesalahan PIHAK PERTAMA. Untuk migrasi data, PIHAK KEDUA menyediakan data sumber yang dapat dibaca dan menjamin haknya atas data tersebut; PIHAK PERTAMA membuat salinan cadangan sebelum migrasi dan memverifikasi hasilnya bersama PIHAK KEDUA.",
@@ -168,7 +168,7 @@ export const CATEGORIES: ServiceCategory[] = [
   },
   {
     key: "hosting",
-    re: /hosting|domain|cloud|server|ssl/i,
+    re: /hosting|domain|cloud|server|ssl|backup|disaster|email bisnis|workspace/i,
     label: { id: "Domain, Hosting & Cloud", en: "Domain, Hosting & Cloud" },
     text: {
       id: "Domain, hosting, dan server disediakan melalui penyedia pihak ketiga dan didaftarkan atas nama PIHAK KEDUA. Biaya perpanjangan tahunan ditagih sesuai Lampiran II dan wajib dibayar sebelum jatuh tempo; kelalaian memperpanjang dapat mengakibatkan layanan atau domain berhenti dan bukan tanggung jawab PIHAK PERTAMA. Ketersediaan mengikuti tingkat layanan penyedia.",
@@ -177,7 +177,7 @@ export const CATEGORIES: ServiceCategory[] = [
   },
   {
     key: "seo",
-    re: /seo|konten|content|marketing/i,
+    re: /seo|konten|content|marketing|iklan|ads\b|media sosial/i,
     label: { id: "SEO & Konten", en: "SEO & Content" },
     text: {
       id: "Layanan SEO dan konten dilakukan secara berkelanjutan sesuai rencana kerja yang disepakati. Peringkat mesin pencari ditentukan algoritma pihak ketiga sehingga PIHAK PERTAMA tidak menjamin posisi, jumlah kunjungan, atau penjualan tertentu; PIHAK PERTAMA melaporkan kegiatan dan indikator kemajuan secara berkala.",
@@ -195,7 +195,7 @@ export const CATEGORIES: ServiceCategory[] = [
   },
   {
     key: "consulting",
-    re: /konsultasi|consult|audit sistem/i,
+    re: /konsultasi|consult|audit sistem|roadmap/i,
     label: { id: "Konsultasi IT", en: "IT Consulting" },
     text: {
       id: "Konsultasi memberikan rekomendasi profesional berdasarkan informasi yang diberikan PIHAK KEDUA. Keputusan bisnis dan penerapan rekomendasi sepenuhnya menjadi tanggung jawab PIHAK KEDUA.",

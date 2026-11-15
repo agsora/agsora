@@ -3,8 +3,8 @@
 import { useActionState, useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
 import { PRICING_CATEGORIES, PRICING_UNITS, type PricingItem } from "@/config/pricing";
-import type { ContactInfo, PortfolioItem, PromoSettings, ProposalContent, TaxSettings } from "@/config/site-data";
-import { saveContact, savePortfolio, savePricing, savePromo, saveProposal, saveServicePrices, saveTax, type SaveResult } from "./actions";
+import type { ContactInfo, PortfolioItem, ProofStats, PromoSettings, ProposalContent, TaxSettings } from "@/config/site-data";
+import { saveContact, savePortfolio, saveStats, savePricing, savePromo, saveProposal, saveServicePrices, saveTax, type SaveResult } from "./actions";
 
 function Result({ state, pending }: { state: SaveResult; pending: boolean }) {
   if (pending) return <span className="sn-muted">Menyimpan…</span>;
@@ -327,6 +327,34 @@ export function PortfolioForm({ items }: { items: PortfolioItem[] }) {
       <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
         <button className="sn-btn sn-btn-primary" disabled={pending}>
           Simpan portofolio
+        </button>
+        <Result state={state} pending={pending} />
+      </div>
+    </form>
+  );
+}
+
+export function StatsForm({ stats, autoClients, autoServices }: { stats: ProofStats; autoClients: number; autoServices: number }) {
+  const [state, action, pending] = useActionState(saveStats, null);
+  return (
+    <form action={action} style={{ padding: "0 1.5rem 1.5rem", display: "grid", gap: "0.85rem" }}>
+      <div className="sn-form-grid" style={{ marginTop: 0 }}>
+        <label className="sn-field">
+          Jumlah klien (tampil sebagai &quot;300+&quot;)
+          <input name="clients" inputMode="numeric" className="sn-input" defaultValue={stats.clients} placeholder={`0 = otomatis (${autoClients} logo)`} />
+        </label>
+        <label className="sn-field">
+          Jumlah layanan
+          <input name="services" inputMode="numeric" className="sn-input" defaultValue={stats.services} placeholder={`0 = otomatis (${autoServices} di daftar harga)`} />
+        </label>
+      </div>
+      <p className="sn-muted" style={{ margin: 0 }}>
+        Isi 0 agar dihitung otomatis. Angka yang tampil di website harus sesuai catatan nyata perusahaan (UU Perlindungan Konsumen melarang klaim menyesatkan), dan
+        sebaiknya bisa Anda tunjukkan bila klien bertanya.
+      </p>
+      <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
+        <button className="sn-btn sn-btn-primary" disabled={pending}>
+          Simpan angka
         </button>
         <Result state={state} pending={pending} />
       </div>

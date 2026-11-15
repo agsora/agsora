@@ -55,6 +55,12 @@ export type PromoSettings = {
 /** A case study / testimonial shown on the home page. */
 export type PortfolioItem = { client: string; industry: string; summary: string; result: string; testimonial: string; person: string };
 
+/**
+ * Proof numbers on the home page. Set by the owner, who is responsible for them being true.
+ * 0 means "count it automatically" (client logos for clients, the price list for services).
+ */
+export type ProofStats = { clients: number; services: number };
+
 export type SiteData = {
   pricing: PricingItem[];
   /** "Mulai dari" price per service id (home, services pages). */
@@ -64,6 +70,7 @@ export type SiteData = {
   tax: TaxSettings;
   promo: PromoSettings;
   portfolio: PortfolioItem[];
+  stats: ProofStats;
 };
 
 export const defaultContact: ContactInfo = {
@@ -116,4 +123,5 @@ export const defaultSiteData: SiteData = {
   tax: defaultTax,
   promo: defaultPromo,
   portfolio: [],
+  stats: { clients: 300, services: 0 },
 };

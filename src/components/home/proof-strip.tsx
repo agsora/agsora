@@ -3,7 +3,7 @@
 import { BadgeCheck, Globe2, Layers, Tags } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { clients } from "@/config/clients";
-import { services } from "@/config/services";
+import { useSiteData } from "@/components/site-data";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
 import { locales } from "@/i18n/routing";
@@ -12,9 +12,14 @@ import { locales } from "@/i18n/routing";
 export function ProofStrip() {
   const { locale } = useLocale();
   const p = growth[locale].proof;
+  const { stats, pricing } = useSiteData();
+  // Owner-set numbers win; otherwise count. Large counts are rounded down to a round "50+".
+  const round = (n: number) => (n >= 20 ? `${Math.floor(n / 10) * 10}+` : `${n}`);
+  const clientCount = stats.clients > 0 ? `${stats.clients}+` : `${clients.length}`;
+  const serviceCount = stats.services > 0 ? `${stats.services}+` : round(pricing.filter((x) => x.price !== null).length);
   const items = [
-    { icon: BadgeCheck, value: `${clients.length}`, label: p.clients },
-    { icon: Layers, value: `${services.length}`, label: p.services },
+    { icon: BadgeCheck, value: clientCount, label: p.clients },
+    { icon: Layers, value: serviceCount, label: p.services },
     { icon: Globe2, value: `${locales.length}`, label: p.languages },
   ];
   return (

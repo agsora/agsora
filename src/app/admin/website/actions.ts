@@ -175,3 +175,8 @@ export async function savePortfolio(_: SaveResult, formData: FormData): Promise<
     }));
   return put("portfolio", items);
 }
+
+export async function saveStats(_: SaveResult, formData: FormData): Promise<SaveResult> {
+  const n = (k: string) => Math.max(0, Math.min(100000, Math.floor(Number(String(formData.get(k) ?? "").replace(/\D/g, "")) || 0)));
+  return put("stats", { clients: n("clients"), services: n("services") });
+}

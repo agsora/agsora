@@ -103,7 +103,7 @@ export const planOf = (q: { payment_plan?: string | null }): PaymentPlan => (q.p
 
 /** Subscription-style items (maintenance, monthly SEO, hosting/domain) are billed per period, not in project instalments. */
 export const isRecurringItem = (name: string) => {
-  if (/pemeliharaan|maintenance|langganan|subscription/i.test(name)) return true;
+  if (/pemeliharaan|maintenance|langganan|subscription|konten media sosial|kelola iklan/i.test(name)) return true;
   // Bundles and builds that merely mention hosting/SEO are project work, not subscriptions.
   if (/paket|bundle|website|company profile|landing|toko online|aplikasi|sistem|\bpos\b|hris|crm|erp/i.test(name)) return false;
   return /seo|hosting|domain/i.test(name);
