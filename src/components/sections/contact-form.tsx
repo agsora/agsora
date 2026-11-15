@@ -5,6 +5,7 @@ import { useState, useSyncExternalStore, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import { Send } from "lucide-react";
 import { useContact, usePricing } from "@/components/site-data";
+import { templateBySlug } from "@/config/templates";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
 import { track } from "@/lib/track";
@@ -45,6 +46,9 @@ export function ContactForm() {
   const planNames = planIds
     .map((id) => customDevPricing.find((p) => p.id === id)?.name[locale])
     .filter((n): n is string => Boolean(n));
+  // ?template=klinik comes from the template gallery.
+  const template = templateBySlug(params.get("template") ?? "");
+  if (template) planNames.push(`Template ${template.name[locale]}`);
   const plan = planNames.join(", ");
   const industry = params.get("industry");
   const sourcePage = `${params.get("from") ?? pathname}${industry ? ` (${industry})` : ""}`;

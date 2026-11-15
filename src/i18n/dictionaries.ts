@@ -7,6 +7,7 @@ export type Dictionary = {
     blog: string;
     about: string;
     careers: string;
+    templates: string;
     contact: string;
     cta: string;
     openMenu: string;
@@ -215,6 +216,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       blog: "Blog",
       about: "Tentang Kami",
       careers: "Karier",
+      templates: "Template",
       contact: "Kontak",
       cta: "Konsultasi Gratis",
       openMenu: "Buka menu",
@@ -492,6 +494,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       blog: "Blog",
       about: "About",
       careers: "Careers",
+      templates: "Templates",
       contact: "Contact",
       cta: "Free Consultation",
       openMenu: "Open menu",
@@ -769,6 +772,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       blog: "博客",
       about: "关于我们",
       careers: "职业",
+      templates: "模板",
       contact: "联系我们",
       cta: "免费咨询",
       openMenu: "打开菜单",

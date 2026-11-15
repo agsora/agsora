@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { blogPageHref, blogPosts, getTotalPages, isPostAvailable } from "@/config/blog";
 import { industries } from "@/config/industries";
+import { TEMPLATES } from "@/config/templates";
 import { services } from "@/config/services";
 import { siteConfig } from "@/config/site";
 import { absoluteUrl, locales, type Locale } from "@/i18n/routing";
@@ -45,6 +46,7 @@ const PAGE_UPDATED: Record<string, string> = {
   "/contact": "2026-10-06",
   "/checklist": "2026-10-06",
   "/karier": "2026-11-15",
+  "/template": "2026-11-15",
   "/privacy-policy": "2026-10-06",
   "/terms-conditions": "2026-09-26",
 };
@@ -61,6 +63,7 @@ const routes = [
   "/contact",
   "/checklist",
   "/karier",
+  "/template",
   "/privacy-policy",
   "/terms-conditions",
 ];
@@ -100,6 +103,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
+  // One live demo page per template.
+  const templatePages = TEMPLATES.flatMap((t) =>
+    localized(`/template/${t.slug}`, { lastModified: new Date("2026-11-15"), changeFrequency: "monthly", priority: 0.7 })
+  );
+
   // Each post only in the languages it's been translated into.
   const posts = blogPosts.flatMap((post) =>
     localized(
@@ -128,6 +136,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...pages,
     ...servicePages,
     ...industryPages,
+    ...templatePages,
     ...posts,
     ...blogArchivePages,
   ];

@@ -69,6 +69,13 @@ export function proxy(request: NextRequest) {
     return res;
   }
 
+  // Template demos (shown inside the /template viewer): no language prefix, not indexed on their own.
+  if (first === "demo") {
+    const res = NextResponse.next();
+    res.headers.set("X-Robots-Tag", "noindex, follow");
+    return res;
+  }
+
   if (first === "en" || first === "zh") return NextResponse.next();
 
   const url = request.nextUrl.clone();
