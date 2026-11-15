@@ -110,6 +110,7 @@ export async function saveTax(_: SaveResult, formData: FormData): Promise<SaveRe
     ppnRate: Number.isFinite(rate) && rate >= 0 && rate <= 25 ? rate : defaultTax.ppnRate,
     npwp,
     nib: str(formData, "nib", 20).replace(/\D/g, ""),
+    bankInfo: str(formData, "bankInfo", 400),
     pph23Note: formData.get("pph23Note") === "on",
   });
 }
@@ -141,4 +142,36 @@ export async function saveProposal(_: SaveResult, formData: FormData): Promise<S
     commitments: commitments.length ? commitments : defaultProposal.commitments,
     closing: str(formData, "closing", 600) || defaultProposal.closing,
   });
+}
+
+export async function savePromo(_: SaveResult, formData: FormData): Promise<SaveResult> {
+  const pct = Number(String(formData.get("discountPct") ?? "").replace(",", "."));
+  const until = String(formData.get("validUntil") ?? "");
+  return put("promo", {
+    enabled: formData.get("enabled") === "on",
+    code: str(formData, "code", 24).toUpperCase().replace(/[^A-Z0-9_-]/g, ""),
+    title: str(formData, "title", 80),
+    text: str(formData, "text", 200),
+    discountPct: Number.isFinite(pct) && pct >= 0 && pct <= 50 ? pct : 0,
+    validUntil: /^\d{4}-\d{2}-\d{2}$/.test(until) ? until : "",
+    ctaLabel: str(formData, "ctaLabel", 30) || "Konsultasi gratis",
+  });
+}
+
+/** One case study per line: Klien | Industri | Ringkasan | Hasil | Testimoni | Nama, jabatan. */
+export async function savePortfolio(_: SaveResult, formData: FormData): Promise<SaveResult> {
+  const items = str(formData, "items", 12000)
+    .split("\n")
+    .map((line) => line.split("|").map((x) => x.trim()))
+    .filter((p) => p[0])
+    .slice(0, 12)
+    .map(([client, industry = "", summary = "", result = "", testimonial = "", person = ""]) => ({
+      client: client.slice(0, 80),
+      industry: industry.slice(0, 60),
+      summary: summary.slice(0, 300),
+      result: result.slice(0, 160),
+      testimonial: testimonial.slice(0, 400),
+      person: person.slice(0, 80),
+    }));
+  return put("portfolio", items);
 }

@@ -18,6 +18,7 @@ import { sbSelect } from "@/lib/supabase";
 import { LEAD_SEGMENTS, LEAD_STATUSES, type Followup, type LeadSegment, type LeadStatus } from "@/lib/lead-status";
 import { patchLead, queryLeads } from "@/lib/leads-db";
 import { clientIp, rateLimit } from "@/lib/rate-limit";
+import { totpEnabled, verifyTotp } from "@/lib/totp";
 
 function refresh() {
   revalidatePath("/admin", "layout");
@@ -44,6 +45,8 @@ export async function login(_: string | null, formData: FormData): Promise<strin
 
   if (!username || username === ownerUsername()) {
     if (!checkPassword(password)) return wrong;
+    // Second factor for the owner when OWNER_TOTP_SECRET is set.
+    if (totpEnabled() && !verifyTotp(String(formData.get("code") ?? ""))) return "Kode 2FA salah atau kedaluwarsa.";
     jar.delete({ name: SALES_COOKIE, path: "/" });
     jar.set(ADMIN_COOKIE, sessionToken(), cookieOptions);
   } else {

@@ -3,8 +3,8 @@
 import { useActionState, useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
 import { PRICING_CATEGORIES, PRICING_UNITS, type PricingItem } from "@/config/pricing";
-import type { ContactInfo, ProposalContent, TaxSettings } from "@/config/site-data";
-import { saveContact, savePricing, saveProposal, saveServicePrices, saveTax, type SaveResult } from "./actions";
+import type { ContactInfo, PortfolioItem, PromoSettings, ProposalContent, TaxSettings } from "@/config/site-data";
+import { saveContact, savePortfolio, savePricing, savePromo, saveProposal, saveServicePrices, saveTax, type SaveResult } from "./actions";
 
 function Result({ state, pending }: { state: SaveResult; pending: boolean }) {
   if (pending) return <span className="sn-muted">Menyimpan…</span>;
@@ -200,6 +200,10 @@ export function TaxForm({ tax }: { tax: TaxSettings }) {
           <input name="nib" className="sn-input" inputMode="numeric" maxLength={20} placeholder="13 digit" defaultValue={tax.nib} />
         </label>
       </div>
+      <label className="sn-field">
+        Info rekening untuk invoice (satu baris per rekening)
+        <textarea name="bankInfo" rows={3} maxLength={400} className="sn-input" placeholder="BCA 1234567890 a.n. PT Agsora Teknologi Indonesia" defaultValue={tax.bankInfo} />
+      </label>
       <label style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
         <input type="checkbox" name="pph23Note" defaultChecked={tax.pph23Note} />
         <span>Cantumkan catatan PPh 23 (klien badan memotong 2% dan memberi bukti potong) di proposal</span>
@@ -251,6 +255,78 @@ export function ProposalForm({ proposal }: { proposal: ProposalContent }) {
       <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
         <button className="sn-btn sn-btn-primary" disabled={pending}>
           Simpan isi proposal
+        </button>
+        <Result state={state} pending={pending} />
+      </div>
+    </form>
+  );
+}
+
+export function PromoForm({ promo }: { promo: PromoSettings }) {
+  const [state, action, pending] = useActionState(savePromo, null);
+  return (
+    <form action={action} style={{ padding: "0 1.5rem 1.5rem", display: "grid", gap: "0.85rem" }}>
+      <label style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+        <input type="checkbox" name="enabled" defaultChecked={promo.enabled} />
+        <span>Tampilkan banner promo di website (otomatis hilang setelah tanggal berakhir)</span>
+      </label>
+      <div className="sn-form-grid" style={{ marginTop: 0 }}>
+        <label className="sn-field">
+          Judul promo
+          <input name="title" className="sn-input" maxLength={80} placeholder="Promo Peluncuran" defaultValue={promo.title} />
+        </label>
+        <label className="sn-field">
+          Kode promo
+          <input name="code" className="sn-input" maxLength={24} placeholder="LAUNCH10" defaultValue={promo.code} />
+        </label>
+        <label className="sn-field">
+          Diskon (%) yang dipakai di penawaran
+          <input name="discountPct" inputMode="decimal" className="sn-input" defaultValue={promo.discountPct} />
+        </label>
+        <label className="sn-field">
+          Berlaku sampai
+          <input name="validUntil" type="date" className="sn-input" defaultValue={promo.validUntil} />
+        </label>
+      </div>
+      <label className="sn-field">
+        Teks banner
+        <input name="text" className="sn-input" maxLength={200} placeholder="Diskon 10% untuk 10 klien pertama. Sebut kode saat konsultasi." defaultValue={promo.text} />
+      </label>
+      <label className="sn-field">
+        Teks tombol
+        <input name="ctaLabel" className="sn-input" maxLength={30} defaultValue={promo.ctaLabel} />
+      </label>
+      <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
+        <button className="sn-btn sn-btn-primary" disabled={pending}>
+          Simpan promo
+        </button>
+        <Result state={state} pending={pending} />
+      </div>
+    </form>
+  );
+}
+
+export function PortfolioForm({ items }: { items: PortfolioItem[] }) {
+  const [state, action, pending] = useActionState(savePortfolio, null);
+  const text = items.map((p) => [p.client, p.industry, p.summary, p.result, p.testimonial, p.person].join(" | ")).join("\n");
+  return (
+    <form action={action} style={{ padding: "0 1.5rem 1.5rem", display: "grid", gap: "0.85rem" }}>
+      <label className="sn-field">
+        Satu studi kasus per baris: Klien | Industri | Ringkasan | Hasil | Testimoni | Nama, jabatan
+        <textarea
+          name="items"
+          rows={6}
+          className="sn-input"
+          defaultValue={text}
+          placeholder="Toko Emas Sinar | Retail emas | Sistem kasir dan stok terhubung harga emas harian | Selisih stok turun 90% | Laporan harian sekarang selesai dalam 5 menit. | Budi, Pemilik"
+        />
+      </label>
+      <p className="sn-muted" style={{ margin: 0 }}>
+        Tampil di beranda (maks 6). Kosongkan untuk menyembunyikan bagian ini. Pastikan klien setuju namanya ditampilkan.
+      </p>
+      <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
+        <button className="sn-btn sn-btn-primary" disabled={pending}>
+          Simpan portofolio
         </button>
         <Result state={state} pending={pending} />
       </div>

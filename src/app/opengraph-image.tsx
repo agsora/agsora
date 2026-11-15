@@ -94,7 +94,7 @@ export default function OpengraphImage() {
             color: "#a3adbd",
           }}
         >
-          <span>{siteConfig.tagline}</span>
+          <span>{siteConfig.tagline} · {siteConfig.philosophy}</span>
           <span style={{ color: "#7d8899" }}>{siteConfig.domain}</span>
         </div>
       </div>

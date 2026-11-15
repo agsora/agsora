@@ -17,19 +17,19 @@ const brand = siteConfig.brandMark;
 export const pageMeta = {
   home: {
     id: {
-      title: `Software House Indonesia untuk ERP, POS & HRIS | ${brand}`,
+      title: `Software House Indonesia: Website, POS & ERP | ${brand}`,
       description:
-        "Software house Indonesia yang membangun custom software, website, aplikasi, ERP, POS, HRIS, dan CRM sesuai proses bisnis Anda. Konsultasi gratis.",
+        "Sistem yang tumbuh bersama bisnis Anda. Jasa pembuatan website, aplikasi, POS, ERP, HRIS & CRM oleh PT resmi di Sumatera Utara. Konsultasi gratis.",
     },
     en: {
-      title: `Indonesian Software House for ERP, POS & HRIS | ${brand}`,
+      title: `Indonesian Software House: Web, POS & ERP | ${brand}`,
       description:
-        "Indonesian software house building custom software, websites, apps, ERP, POS, HRIS, and CRM systems around your business process. Free consultation.",
+        "Software that grows with your business. Websites, apps, POS, ERP, HRIS and CRM built by a registered Indonesian company. Free consultation.",
     },
     zh: {
       title: `印尼软件开发公司：ERP、POS 与 HRIS 系统 | ${brand}`,
       description:
-        "印尼软件开发公司，为企业定制软件、网站、应用、ERP、POS、HRIS 与 CRM 系统，贴合您的业务流程。欢迎免费咨询。",
+        "与您的业务共同成长的系统。印尼注册软件公司，为企业定制网站、应用、POS、ERP、HRIS 与 CRM 系统。欢迎免费咨询。",
     },
   },
   services: {
@@ -119,12 +119,12 @@ export const pageMeta = {
     id: {
       title: "Tentang Kami",
       description:
-        "PT Agsora Teknologi Indonesia adalah software house yang membantu bisnis membangun, mengintegrasikan, dan mengembangkan sistem digital.",
+        "PT Agsora Teknologi Indonesia adalah software house resmi di Sumatera Utara yang membangun sistem yang tumbuh bersama bisnis Anda.",
     },
     en: {
       title: "About Us",
       description:
-        "PT Agsora Teknologi Indonesia is a software house that helps businesses build, integrate, and grow their digital systems.",
+        "PT Agsora Teknologi Indonesia is a registered Indonesian software house building software that grows with your business.",
     },
     zh: {
       title: "关于我们",

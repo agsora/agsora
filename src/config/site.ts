@@ -4,9 +4,25 @@ export const siteConfig = {
   legalName: "PT Agsora Teknologi Indonesia",
   domain: "www.agsora.tech",
   url: "https://www.agsora.tech",
-  tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
+  /** Main tagline: what we do for the client, in plain words (the default-language version). */
+  tagline: "Sistem yang tumbuh bersama bisnis Anda",
+  taglines: {
+    id: "Sistem yang tumbuh bersama bisnis Anda",
+    en: "Software that grows with your business",
+    zh: "与您的业务共同成长的系统",
+  },
+  /** The brand philosophy; its initials spell AG·SO·RA. */
+  philosophy: "Adaptive Growth. Smart Operations. Real Advancement.",
+  /** Registered company facts, used in structured data and llms.txt so search and AI engines can verify the business. */
+  company: {
+    foundingDate: "2026-09-04",
+    nib: "2109260106509",
+    locality: "Kisaran",
+    region: "Sumatera Utara",
+    postalCode: "21211",
+  },
   description:
-    "AG·SORA membangun software dan sistem bisnis yang membantu perusahaan bekerja lebih efisien, terintegrasi, dan scalable, dari website dan aplikasi hingga ERP, POS, HRIS, dan CRM.",
+    "AG·SORA (PT Agsora Teknologi Indonesia) adalah software house resmi di Sumatera Utara yang membangun sistem yang tumbuh bersama bisnis Anda: website, aplikasi, POS, ERP, HRIS, CRM, dan otomasi AI untuk perusahaan di seluruh Indonesia.",
   email: "hello@agsora.tech",
   whatsapp: {
     display: "WhatsApp",

@@ -32,9 +32,28 @@ export type TaxSettings = {
   npwp: string;
   /** Nomor Induk Berusaha (OSS), shown on the proposal. */
   nib: string;
+  /** Bank account lines printed on invoices, one per line. */
+  bankInfo: string;
   /** Mention PPh 23 withholding (2%) on proposals. */
   pph23Note: boolean;
 };
+
+/** Website promo banner and the discount a quote can apply. */
+export type PromoSettings = {
+  enabled: boolean;
+  /** Short code shown on the banner, e.g. LAUNCH10. */
+  code: string;
+  title: string;
+  text: string;
+  /** Discount in percent that the quote editor can apply for this promo. */
+  discountPct: number;
+  /** ISO date (YYYY-MM-DD); the promo hides itself after this day. Empty = no end date. */
+  validUntil: string;
+  ctaLabel: string;
+};
+
+/** A case study / testimonial shown on the home page. */
+export type PortfolioItem = { client: string; industry: string; summary: string; result: string; testimonial: string; person: string };
 
 export type SiteData = {
   pricing: PricingItem[];
@@ -43,6 +62,8 @@ export type SiteData = {
   contact: ContactInfo;
   proposal: ProposalContent;
   tax: TaxSettings;
+  promo: PromoSettings;
+  portfolio: PortfolioItem[];
 };
 
 export const defaultContact: ContactInfo = {
@@ -56,7 +77,7 @@ export const defaultContact: ContactInfo = {
 };
 
 export const defaultProposal: ProposalContent = {
-  tagline: siteConfig.tagline,
+  tagline: siteConfig.philosophy,
   philosophyTitle: "Filosofi kami",
   philosophy:
     "Software yang baik tidak memaksa perusahaan berubah demi sistem. Kami merancang sistem yang mengikuti cara kerja Anda, tumbuh bersama bisnis Anda, dan terbukti menghemat waktu serta biaya. Setiap keputusan teknis kami timbang dengan satu pertanyaan: apakah ini membuat operasional Anda lebih sederhana dan lebih siap berkembang?",
@@ -81,7 +102,9 @@ export const defaultProposal: ProposalContent = {
   closing: "Terima kasih atas kesempatan yang diberikan. Kami siap berdiskusi untuk menyesuaikan ruang lingkup dan jadwal dengan kebutuhan Anda.",
 };
 
-export const defaultTax: TaxSettings = { pkp: false, ppnRate: 11, npwp: "1000000011213027", nib: "2109260106509", pph23Note: true };
+export const defaultTax: TaxSettings = { pkp: false, ppnRate: 11, npwp: "1000000011213027", nib: "2109260106509", bankInfo: "", pph23Note: true };
+
+export const defaultPromo: PromoSettings = { enabled: false, code: "", title: "", text: "", discountPct: 0, validUntil: "", ctaLabel: "Konsultasi gratis" };
 
 export const defaultServicePrices: Record<string, number> = Object.fromEntries(services.map((s) => [s.id, s.startingFrom]));
 
@@ -91,4 +114,6 @@ export const defaultSiteData: SiteData = {
   contact: defaultContact,
   proposal: defaultProposal,
   tax: defaultTax,
+  promo: defaultPromo,
+  portfolio: [],
 };

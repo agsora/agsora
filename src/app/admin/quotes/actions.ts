@@ -5,8 +5,9 @@ import { revalidatePath } from "next/cache";
 import { getSession, type Session } from "@/lib/admin-auth";
 import { siteConfig } from "@/config/site";
 import { queryLeads } from "@/lib/leads-db";
-import { computeTotals, parseItems, planOf, quoteNumber, type Quote } from "@/lib/quote";
-import { buildContractPdf } from "@/lib/contract-pdf";
+import { clientLink, computeTotals, parseItems, planOf, quoteNumber, type Quote } from "@/lib/quote";
+import { agreementPdf } from "@/lib/agreement";
+import { sendMail } from "@/lib/mail";
 import { buildQuotePdf } from "@/lib/quote-pdf";
 import { getSiteData } from "@/lib/site-content";
 import { sbInsert, sbSelect, sbUpdate } from "@/lib/supabase";
@@ -78,10 +79,14 @@ export async function saveQuote(formData: FormData) {
       const own = await queryLeads(`select=id&id=eq.${leadId}&assigned_to=eq.${session.id}`);
       if (!own?.length) leadId = null;
     }
+    // An addendum must point at a quote the user may see.
+    const parentRaw = numField(formData, "parent_id");
+    const parentId = parentRaw && (await loadQuote(parentRaw, session)) ? parentRaw : null;
     if (problems.length && intent === "save" && !clientName) redirect(`/admin/quotes/new?notice=${encodeURIComponent(problems[0])}&type=err`);
     const created = await sbInsert<Quote>("quotes", {
       ...fields,
       // Only written when not the default, so the default scheme keeps working before the payment_plan migration runs.
+      ...(parentId ? { parent_id: parentId } : {}),
       ...(plan !== "50-50" ? { payment_plan: plan } : {}),
       client_name: fields.client_name || "(tanpa nama)",
       lead_id: leadId,
@@ -175,6 +180,7 @@ export async function sendQuote(formData: FormData) {
         `Yth. ${q.client_name},`,
         "",
         "Terima kasih atas ketertarikan Anda. Terlampir proposal penawaran dari " + siteConfig.legalName + ".",
+        ...(q.share_token ? ["", `Anda juga dapat melihat dan menyetujui penawaran secara online: ${clientLink(siteConfig.url, q.share_token)}`] : []),
         "Jika ada yang ingin didiskusikan, balas email ini atau hubungi kami melalui WhatsApp " + site.contact.whatsappNumber + ".",
         "",
         "Salam,",
@@ -204,31 +210,25 @@ export async function sendContract(formData: FormData) {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) back(id, "Pengiriman email belum aktif: RESEND_API_KEY belum diisi. Unduh perjanjian dan kirim manual.", true);
 
-  const contractNo = quoteNumber(q).replace("AGS/", "PKS/");
   const site = await getSiteData();
-  const pdf = Buffer.from(await buildContractPdf(q, site)).toString("base64");
-  const notifyTo = process.env.LEAD_NOTIFY_EMAIL;
-  const res = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      from: process.env.LEAD_FROM_EMAIL ?? "AGSORA <onboarding@resend.dev>",
-      to: [q.client_email],
-      ...(notifyTo ? { bcc: [notifyTo] } : {}),
-      reply_to: site.contact.email,
-      subject: `Perjanjian ${contractNo} - ${siteConfig.brandMark}`,
-      text: [
-        `Yth. ${q.client_name},`,
-        "",
-        "Terima kasih atas persetujuan proposal. Terlampir perjanjian (Indonesia/English) untuk Anda tinjau dan tandatangani.",
-        "Mohon kembalikan salinan yang sudah ditandatangani dan dibubuhi meterai. Pekerjaan dimulai setelah perjanjian ditandatangani dan pembayaran termin pertama diterima.",
-        "",
-        "Salam,",
-        siteConfig.legalName,
-      ].join("\n"),
-      attachments: [{ filename: `Perjanjian-${contractNo.replace(/\//g, "-")}.pdf`, content: pdf }],
-    }),
+  const doc = await agreementPdf(q, site);
+  const link = q.share_token ? `\nAnda juga dapat mengunduhnya dan mengunggah salinan bertanda tangan di: ${clientLink(siteConfig.url, q.share_token)}\n` : "";
+  const err = await sendMail({
+    to: [q.client_email!],
+    replyTo: site.contact.email,
+    bccOwner: true,
+    subject: `${doc.title} - ${siteConfig.brandMark}`,
+    text: [
+      `Yth. ${q.client_name},`,
+      "",
+      `Terima kasih atas persetujuan proposal. Terlampir ${q.parent_id ? "addendum" : "perjanjian"} (Indonesia/English) untuk Anda tinjau dan tandatangani.`,
+      "Mohon kembalikan salinan yang sudah ditandatangani dan dibubuhi meterai. Pekerjaan dimulai setelah dokumen ditandatangani dan pembayaran termin pertama diterima.",
+      link,
+      "Salam,",
+      siteConfig.legalName,
+    ].join("\n"),
+    attachments: [{ filename: doc.filename, content: Buffer.from(doc.pdf).toString("base64") }],
   });
-  if (!res.ok) back(id, "Email gagal dikirim. Periksa konfigurasi Resend (domain pengirim harus terverifikasi).", true);
+  if (err) back(id, err, true);
   back(id, `Perjanjian dikirim ke ${q.client_email}.`);
 }

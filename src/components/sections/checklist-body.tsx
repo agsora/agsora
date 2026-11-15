@@ -1,5 +1,6 @@
 "use client";
 
+import { readAttribution } from "@/lib/attribution";
 import { useState, useSyncExternalStore, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import Link from "@/i18n/link";
@@ -63,6 +64,7 @@ export function ChecklistBody() {
       headers: { "Content-Type": "application/json" },
       keepalive: true,
       body: JSON.stringify({
+        attribution: readAttribution(),
         name: get("name"),
         company: get("company"),
         email: get("email"),

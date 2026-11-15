@@ -53,6 +53,12 @@ export function LoginForm() {
               </button>
             </div>
           </div>
+          <div>
+            <label htmlFor="code" className="sn-label">
+              Kode 2FA (owner, bila aktif)
+            </label>
+            <input id="code" className="sn-input" name="code" inputMode="numeric" autoComplete="one-time-code" maxLength={6} placeholder="6 digit dari aplikasi authenticator" />
+          </div>
           {error ? <p style={{ color: "var(--sn-danger)", fontSize: "0.8125rem" }}>{error}</p> : null}
           <button className="sn-btn sn-btn-primary" style={{ justifyContent: "center", padding: "0.6rem", fontSize: "0.9375rem" }} disabled={pending}>
             {pending ? "Memeriksa…" : "Masuk"}

@@ -1,5 +1,6 @@
 "use client";
 
+import { readAttribution } from "@/lib/attribution";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import { ArrowLeft, ArrowRight, MessageCircle, Send, X } from "lucide-react";
@@ -110,6 +111,7 @@ export function WhatsAppButton() {
       headers: { "Content-Type": "application/json" },
       keepalive: true,
       body: JSON.stringify({
+        attribution: readAttribution(),
         name: get("name"),
         phone: get("phone"),
         need: get("need"),

@@ -5,6 +5,9 @@ import { IBM_Plex_Mono, Plus_Jakarta_Sans, Sora } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@/components/analytics";
 import { Header } from "@/components/layout/header";
+import { PromoBanner } from "@/components/layout/promo-banner";
+import { AttributionCapture } from "@/components/layout/attribution-capture";
+import { AiAssistant } from "@/components/layout/ai-assistant";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 import { LanguageSuggestion } from "@/components/layout/language-suggestion";
@@ -125,7 +128,18 @@ export default async function RootLayout({ children, params }: Props) {
         alternateName: siteConfig.brandMark,
         url: absoluteUrl("/", lang),
         logo: `${siteConfig.url}/apple-icon.png`,
+        legalName: siteConfig.legalName,
         description: pageMeta.about[lang].description,
+        slogan: siteConfig.taglines[lang],
+        foundingDate: siteConfig.company.foundingDate,
+        taxID: siteData.tax.npwp || undefined,
+        identifier: { "@type": "PropertyValue", propertyID: "NIB", value: siteConfig.company.nib },
+        areaServed: [
+          { "@type": "Country", name: "Indonesia" },
+          { "@type": "City", name: "Medan" },
+          { "@type": "City", name: "Jakarta" },
+          { "@type": "AdministrativeArea", name: "Sumatera Utara" },
+        ],
         email: siteData.contact.email,
         sameAs: [
           siteData.contact.instagram,
@@ -142,8 +156,14 @@ export default async function RootLayout({ children, params }: Props) {
             areaServed: "Worldwide",
           },
         ],
-        // Based in Indonesia, serving clients anywhere.
-        address: { "@type": "PostalAddress", addressCountry: "ID" },
+        // Registered office in Kisaran, Sumatera Utara; serving clients anywhere.
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: siteConfig.company.locality,
+          addressRegion: siteConfig.company.region,
+          postalCode: siteConfig.company.postalCode,
+          addressCountry: "ID",
+        },
         knowsLanguage: locales.map((l) => hreflangs[l]),
         knowsAbout: [
           "Custom Software Development",
@@ -154,6 +174,10 @@ export default async function RootLayout({ children, params }: Props) {
           "Mobile Application Development",
           "API Integration",
           "AI Automation",
+          "Website Development",
+          "E-commerce Development",
+          "WhatsApp Chatbot",
+          "Business Process Digitalization",
         ],
       },
       {
@@ -192,12 +216,16 @@ export default async function RootLayout({ children, params }: Props) {
             >
               {t.skipLink}
             </a>
+            <AttributionCapture />
+            <PromoBanner promo={siteData.promo} contactHref={lang === "id" ? "/contact" : `/${lang}/contact`} />
             <Header />
             <main id="main-content" className="flex-1">
               {children}
             </main>
             <Footer />
             <WhatsAppButton />
+            {/* The AI chat appears only when an Anthropic API key is configured. */}
+            {process.env.ANTHROPIC_API_KEY ? <AiAssistant /> : null}
             <LanguageSuggestion />
             <Analytics />
           </LocaleProvider>

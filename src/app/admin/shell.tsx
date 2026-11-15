@@ -10,9 +10,13 @@ import {
   Inbox,
   LogOut,
   Megaphone,
+  Receipt,
+  Wallet,
+  Workflow,
   Repeat,
   Search,
   Settings,
+  ShieldCheck,
   Users,
 } from "lucide-react";
 import { adminEnabled, getSession, type Session } from "@/lib/admin-auth";
@@ -57,10 +61,14 @@ const NAV = [
   { href: "/admin/leads", key: "leads", label: "Leads", icon: Inbox, roles: ["owner"] },
   { href: "/admin/followup", key: "followup", label: "Follow Up Customer", icon: Repeat, roles: ["owner"] },
   { href: "/admin/quotes", key: "quotes", label: "Proposal Penawaran", icon: FileText, roles: ["owner", "sales"] },
+  { href: "/admin/pipeline", key: "pipeline", label: "Pipeline", icon: Workflow, roles: ["owner"] },
+  { href: "/admin/invoices", key: "invoices", label: "Invoice", icon: Receipt, roles: ["owner"] },
+  { href: "/admin/finance", key: "finance", label: "Keuangan", icon: Wallet, roles: ["owner"] },
   { href: "/admin/content", key: "content", label: "Kalender Konten", icon: CalendarDays, roles: ["owner"] },
   { href: "/admin/ads", key: "ads", label: "Analisa Iklan", icon: Megaphone, roles: ["owner"] },
   { href: "/admin/recruitment", key: "recruitment", label: "Rekrutmen", icon: Briefcase, roles: ["owner"] },
   { href: "/admin/website", key: "website", label: "Atur Website", icon: Settings, roles: ["owner"] },
+  { href: "/admin/security", key: "security", label: "Keamanan", icon: ShieldCheck, roles: ["owner"] },
   { href: "/admin/sales", key: "sales", label: "Tim Sales", icon: Users, roles: ["owner"] },
 ] as const;
 

@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
     // The whole stylesheet is ~14 KiB (Tailwind), so inlining it removes the
     // render-blocking CSS request for first-time visitors.
     inlineCss: true,
+    // Signed agreements and handover scans are uploaded through server actions. Vercel caps a request at 4.5 MB,
+    // so files are limited to 4 MB (see lib/storage.ts).
+    serverActions: { bodySizeLimit: "4.5mb" },
   },
   images: {
     // Article photos are self-hosted, pre-sized WebP files; see the loader.

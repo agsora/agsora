@@ -2,11 +2,16 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Download, Mail } from "lucide-react";
 import { getSession } from "@/lib/admin-auth";
-import { computeTotals, idr, planOf, quoteNumber, quoteStatusLabel, type Quote } from "@/lib/quote";
+import { siteConfig } from "@/config/site";
+import { billableParts, clientLink, computeTotals, idr, invoiceNumber, planOf, quoteNumber, quoteStatusLabel, type Invoice, type Quote } from "@/lib/quote";
 import { sbSelect } from "@/lib/supabase";
 import { AdminShell, adminGate } from "../../shell";
 import { getSiteData } from "@/lib/site-content";
 import { QuoteEditor } from "../quote-editor";
+import { createInvoice } from "../../invoices/actions";
+import { documentsOf } from "@/lib/storage";
+import type { Subscription } from "@/lib/subscriptions";
+import { ProjectPanel } from "./project-panel";
 import { reviewQuote, sendContract, sendQuote } from "../actions";
 
 const dateId = (iso: string) => new Date(iso).toLocaleDateString("id-ID", { timeZone: "Asia/Jakarta", day: "numeric", month: "long", year: "numeric" });
@@ -34,6 +39,10 @@ export default async function QuotePage({
   const owner = session.role === "owner";
   const editable = q.status === "draft" || q.status === "rejected" || (edit === "1" && q.status !== "pending");
   const released = q.status === "approved" || q.status === "sent";
+  const invoices = owner && released ? ((await sbSelect<Invoice>("invoices", `select=*&quote_id=eq.${q.id}`)) ?? []) : [];
+  const parts = released ? billableParts(q) : [];
+  const docs = released && q.accepted_at ? await documentsOf(q.id) : [];
+  const subs = owner && released && q.accepted_at ? ((await sbSelect<Subscription>("subscriptions", `select=*&quote_id=eq.${q.id}&order=created_at.asc`)) ?? []) : [];
 
   return (
     <AdminShell active="quotes" title={`Penawaran ${quoteNumber(q)}`} subtitle={`${q.client_name}${q.client_company ? ` · ${q.client_company}` : ""}`}>
@@ -109,11 +118,68 @@ export default async function QuotePage({
         </section>
       ) : null}
 
+      {released ? (
+        <section className="sn-card" style={{ padding: "1.25rem", marginBottom: "1.5rem" }}>
+          <h3 style={{ marginBottom: "0.4rem" }}>Halaman klien</h3>
+          {q.share_token ? (
+            <p style={{ marginBottom: "0.6rem" }}>
+              <code style={{ userSelect: "all", wordBreak: "break-all" }}>{clientLink(siteConfig.url, q.share_token)}</code>
+            </p>
+          ) : (
+            <p className="sn-muted" style={{ marginBottom: "0.6rem" }}>
+              Tautan klien aktif setelah migrasi database portal klien dijalankan.
+            </p>
+          )}
+          <p className="sn-muted" style={{ marginBottom: "0.4rem" }}>
+            Klien bisa melihat proposal, menyetujui, mengunduh perjanjian, dan melihat invoice di tautan ini.
+          </p>
+          <ul style={{ margin: 0, paddingLeft: "1.1rem" }}>
+            <li>{q.viewed_at ? `Dibuka klien pertama kali ${dateId(q.viewed_at)}` : "Belum dibuka klien"}</li>
+            <li>{q.accepted_at ? `Disetujui oleh ${q.accepted_name} pada ${dateId(q.accepted_at)}` : "Belum disetujui klien"}</li>
+            {q.client_note ? <li>Catatan klien: {q.client_note}</li> : null}
+          </ul>
+        </section>
+      ) : null}
+
+      {released && q.accepted_at ? <ProjectPanel q={q} owner={owner} docs={docs} subs={subs} /> : null}
+
+      {owner && released && parts.length ? (
+        <section className="sn-card" style={{ padding: "1.25rem", marginBottom: "1.5rem" }}>
+          <h3 style={{ marginBottom: "0.6rem" }}>Termin & invoice</h3>
+          <div style={{ display: "grid", gap: "0.6rem" }}>
+            {parts.map((p) => {
+              const inv = invoices.find((i) => i.seq === p.seq && i.status !== "void");
+              return (
+                <div key={p.seq} style={{ display: "flex", justifyContent: "space-between", gap: "0.75rem", flexWrap: "wrap", alignItems: "center" }}>
+                  <div>
+                    <strong>{p.label}</strong>
+                    <div className="sn-muted">{idr(p.amount)}</div>
+                  </div>
+                  {inv ? (
+                    <Link href="/admin/invoices?s=all" className={`sn-badge ${inv.status === "paid" ? "sn-approved" : "sn-pending"}`}>
+                      {invoiceNumber(inv)} · {inv.status === "paid" ? "Lunas" : "Belum dibayar"}
+                    </Link>
+                  ) : (
+                    <form action={createInvoice}>
+                      <input type="hidden" name="quote_id" value={q.id} />
+                      <input type="hidden" name="seq" value={p.seq} />
+                      <input type="hidden" name="return" value={`/admin/quotes/${q.id}`} />
+                      <button className="sn-btn">Terbitkan invoice</button>
+                    </form>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      ) : null}
+
       {editable ? (
         <QuoteEditor
           pricing={site.pricing}
           ppn={site.tax.pkp ? site.tax.ppnRate : 0}
           pph23={site.tax.pph23Note}
+          promo={site.promo}
           initial={{
             id: q.id,
             lead_id: q.lead_id,

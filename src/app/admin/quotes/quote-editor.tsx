@@ -2,13 +2,17 @@
 
 import { useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
+import { QUOTE_PACKAGES } from "@/config/packages";
 import type { PricingItem } from "@/config/pricing";
+import type { PromoSettings } from "@/config/site-data";
 import { computeTotals, idr, paymentPlanLabel, type PaymentPlan, type QuoteItem } from "@/lib/quote";
 import { saveQuote } from "./actions";
 
 export type EditorInitial = {
   id?: number;
   lead_id?: number | null;
+  /** Set when this quote is an addendum (extra work) to an earlier agreement. */
+  parent_id?: number | null;
   client_name: string;
   client_email: string;
   client_company: string;
@@ -21,7 +25,7 @@ export type EditorInitial = {
 };
 
 /** Line-item editor with live totals. Prices start from the website price list and can be changed. */
-export function QuoteEditor({ initial, pricing, ppn, pph23 }: { initial: EditorInitial; pricing: PricingItem[]; ppn: number; pph23: boolean }) {
+export function QuoteEditor({ initial, pricing, ppn, pph23, promo }: { initial: EditorInitial; pricing: PricingItem[]; ppn: number; pph23: boolean; promo?: PromoSettings | null }) {
   const [items, setItems] = useState<QuoteItem[]>(initial.items.length ? initial.items : []);
   const [discount, setDiscount] = useState(String(initial.discount_pct || 0));
 
@@ -34,10 +38,23 @@ export function QuoteEditor({ initial, pricing, ppn, pph23 }: { initial: EditorI
     if (p) setItems((list) => [...list, { name: p.name.id, qty: 1, unit_price: p.price ?? 0 }]);
   };
 
+  const addPackage = (id: string) => {
+    const pkg = QUOTE_PACKAGES.find((x) => x.id === id);
+    if (!pkg) return;
+    const rows: QuoteItem[] = [];
+    for (const it of pkg.items) {
+      const p = pricing.find((x) => x.id === it.id);
+      if (p) rows.push({ name: p.name.id, qty: it.qty ?? 1, unit_price: p.price ?? 0, ...(it.note ? { note: it.note } : {}) });
+    }
+    setItems((list) => [...list, ...rows]);
+  };
+  const promoActive = Boolean(promo?.enabled && promo.discountPct > 0);
+
   return (
     <form action={saveQuote} className="sn-card" style={{ padding: "1.5rem" }}>
       {initial.id ? <input type="hidden" name="id" value={initial.id} /> : null}
       {initial.lead_id ? <input type="hidden" name="lead_id" value={initial.lead_id} /> : null}
+      {initial.parent_id ? <input type="hidden" name="parent_id" value={initial.parent_id} /> : null}
       <input type="hidden" name="items" value={JSON.stringify(items)} />
 
       <div className="sn-form-grid" style={{ marginTop: 0 }}>
@@ -106,6 +123,14 @@ export function QuoteEditor({ initial, pricing, ppn, pph23 }: { initial: EditorI
       {items.length === 0 ? <p className="sn-muted" style={{ margin: "0.5rem 0" }}>Belum ada item. Pilih dari daftar harga atau tambah item bebas.</p> : null}
 
       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", margin: "0.75rem 0 1.25rem" }}>
+        <select className="sn-input" style={{ maxWidth: "20rem" }} value="" onChange={(e) => addPackage(e.target.value)} aria-label="Tambah paket siap pakai">
+          <option value="">+ Paket siap pakai…</option>
+          {QUOTE_PACKAGES.map((p) => (
+            <option key={p.id} value={p.id}>
+              {p.name} · {p.summary}
+            </option>
+          ))}
+        </select>
         <select className="sn-input" style={{ maxWidth: "20rem" }} value="" onChange={(e) => addFromList(e.target.value)} aria-label="Tambah dari daftar harga">
           <option value="">+ Tambah dari daftar harga…</option>
           {pricing.map((p) => (
@@ -124,6 +149,11 @@ export function QuoteEditor({ initial, pricing, ppn, pph23 }: { initial: EditorI
         <label className="sn-field">
           Diskon (%)
           <input name="discount_pct" inputMode="decimal" className="sn-input" value={discount} onChange={(e) => setDiscount(e.target.value)} />
+          {promoActive ? (
+            <button type="button" className="sn-btn sn-btn-sm" style={{ marginTop: "0.4rem" }} onClick={() => setDiscount(String(promo!.discountPct))}>
+              Pakai promo {promo!.code || promo!.title} ({promo!.discountPct}%)
+            </button>
+          ) : null}
         </label>
         <label className="sn-field">
           Skema pembayaran

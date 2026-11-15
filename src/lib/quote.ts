@@ -25,6 +25,19 @@ export type Quote = {
   terms: string | null;
   /** "50-50" (default) or "30-50-20"; missing until the payment_plan migration is applied. */
   payment_plan?: string | null;
+  /** Public client link, acceptance and view tracking; missing until the portal migration is applied. */
+  share_token?: string | null;
+  viewed_at?: string | null;
+  accepted_at?: string | null;
+  accepted_name?: string | null;
+  client_note?: string | null;
+  /** Project tracking and handover; missing until the projects migration is applied. */
+  project_stage?: ProjectStage | null;
+  project_log?: { at: string; stage: ProjectStage; note: string }[] | null;
+  contract_active_at?: string | null;
+  bast_at?: string | null;
+  /** Set on an addendum: the quote of the original agreement. */
+  parent_id?: number | null;
   status: QuoteStatus;
   review_note: string | null;
   approved_at: string | null;
@@ -121,3 +134,46 @@ export function paymentSchedule(plan: PaymentPlan, total: number) {
     return { ...s, amount };
   });
 }
+
+export const PROJECT_STAGES = [
+  { key: "kickoff", label: "Kickoff" },
+  { key: "analisis", label: "Analisis & desain" },
+  { key: "pengembangan", label: "Pengembangan" },
+  { key: "uat", label: "UAT klien" },
+  { key: "golive", label: "Go-live" },
+  { key: "selesai", label: "Selesai" },
+] as const;
+export type ProjectStage = (typeof PROJECT_STAGES)[number]["key"];
+
+export type Invoice = {
+  id: number;
+  quote_id: number;
+  /** 1..3 = project instalment, 0 = subscription services, null = a recurring subscription bill. */
+  seq: number | null;
+  subscription_id?: number | null;
+  label: string;
+  amount: number;
+  due_date: string;
+  status: "unpaid" | "paid" | "void";
+  paid_at: string | null;
+  sent_at: string | null;
+  last_reminder_at: string | null;
+  created_at: string;
+};
+
+export const invoiceNumber = (inv: Pick<Invoice, "id" | "created_at">) =>
+  `INV/${new Date(inv.created_at).getUTCFullYear()}/${String(inv.id).padStart(4, "0")}`;
+
+/** Every bill a quote can produce: each project instalment plus one for subscription services. */
+export function billableParts(q: Pick<Quote, "items" | "discount_pct" | "tax_pct" | "payment_plan">) {
+  const split = splitTotals(q);
+  const parts: { seq: number; label: string; amount: number }[] = [];
+  if (split.oneTimeItems.length) {
+    paymentSchedule(planOf(q), split.oneTime.total).forEach((s, i) => parts.push({ seq: i + 1, label: `Termin ${i + 1} (${s.pct}%): ${s.id}`, amount: s.amount }));
+  }
+  if (split.recurringItems.length) parts.push({ seq: 0, label: "Layanan berlangganan (pemeliharaan, hosting, SEO)", amount: split.recurring.total });
+  return parts;
+}
+
+/** Public client page for a quote. */
+export const clientLink = (base: string, token: string) => `${base.replace(/\/$/, "")}/p/${token}`;

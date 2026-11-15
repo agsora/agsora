@@ -1,4 +1,6 @@
 import { isLocale } from "@/i18n/routing";
+import { channelOf, cleanAttribution } from "@/lib/attribution";
+import { pushOwner } from "@/lib/notify";
 import { clientIp, rateLimit } from "@/lib/rate-limit";
 
 /**
@@ -61,6 +63,7 @@ export async function POST(request: Request) {
     source_page: clean(body.sourcePage, MAX.sourcePage) || null,
     locale: typeof body.locale === "string" && isLocale(body.locale) ? body.locale : "id",
   };
+  const attribution = cleanAttribution(body.attribution);
   if (!lead.name || !lead.phone || !lead.description || !EMAIL.test(lead.email)) {
     return new Response(null, { status: 400 });
   }
@@ -69,15 +72,23 @@ export async function POST(request: Request) {
   const key = process.env.SUPABASE_SECRET_KEY;
   if (!url || !key) return new Response(null, { status: 204 });
 
-  const res = await fetch(`${url}/rest/v1/leads`, {
-    method: "POST",
-    headers: { apikey: key, "Content-Type": "application/json", Prefer: "return=minimal" },
-    body: JSON.stringify(lead),
-  });
+  const insert = (row: object) =>
+    fetch(`${url}/rest/v1/leads`, {
+      method: "POST",
+      headers: { apikey: key, "Content-Type": "application/json", Prefer: "return=minimal" },
+      body: JSON.stringify(row),
+    });
+  let res = await insert(attribution ? { ...lead, attribution } : lead);
+  // Before the attribution migration runs the column does not exist: never lose the lead over it.
+  if (!res.ok && attribution) res = await insert(lead);
   if (!res.ok) {
     console.error("lead insert failed", res.status);
     return new Response(null, { status: 502 });
   }
+
+  await pushOwner(
+    `Lead baru: ${lead.name}${lead.company ? ` (${lead.company})` : ""}\nWA: ${lead.phone}${whatsappDigits(lead.phone) ? ` https://wa.me/${whatsappDigits(lead.phone)}` : ""}\nKebutuhan: ${lead.need ?? "-"}\nBudget: ${lead.budget ?? "-"}\nSumber: ${channelOf(attribution)}\n\n${lead.description.slice(0, 500)}`,
+  );
 
   const resendKey = process.env.RESEND_API_KEY;
   const notifyTo = process.env.LEAD_NOTIFY_EMAIL;
@@ -93,6 +104,7 @@ export async function POST(request: Request) {
       `Budget: ${lead.budget ?? "-"}`,
       `Paket: ${lead.plan ?? "-"}`,
       `Halaman: ${lead.source_page ?? "-"}`,
+      `Sumber: ${channelOf(attribution)}`,
       `Bahasa: ${lead.locale}`,
       "",
       lead.description,

@@ -62,6 +62,13 @@ export function proxy(request: NextRequest) {
     return NextResponse.rewrite(url);
   }
 
+  // Private client pages (proposal link, agreement, invoices): no language prefix, never indexed.
+  if (first === "p") {
+    const res = NextResponse.next();
+    res.headers.set("X-Robots-Tag", "noindex, nofollow");
+    return res;
+  }
+
   if (first === "en" || first === "zh") return NextResponse.next();
 
   const url = request.nextUrl.clone();

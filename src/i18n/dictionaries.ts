@@ -221,9 +221,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     },
     hero: {
       titleLead: "Software house Indonesia untuk",
-      titleHighlight: "sistem bisnis yang terintegrasi.",
+      titleHighlight: "sistem yang tumbuh bersama bisnis Anda.",
       description:
-        "PT Agsora Teknologi Indonesia membangun custom software, website, aplikasi, ERP, POS, HRIS, dan CRM, dirancang mengikuti proses kerja perusahaan Anda agar bekerja lebih efisien, terintegrasi, dan scalable.",
+        "Ubah kerja manual jadi sistem yang rapi. PT Agsora Teknologi Indonesia membangun website, aplikasi, POS, ERP, HRIS, dan CRM yang mengikuti proses kerja perusahaan Anda, dari Sumatera Utara untuk bisnis di seluruh Indonesia.",
       ctaPrimary: "Konsultasi Gratis",
       ctaSecondary: "Lihat Solusi",
     },
@@ -245,7 +245,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       seeAll: "Lihat semua pertanyaan",
     },
     footer: {
-      tagline: "Pertumbuhan Adaptif. Operasional Cerdas. Kemajuan Nyata.",
+      tagline: "Sistem yang tumbuh bersama bisnis Anda. Adaptive Growth · Smart Operations · Real Advancement.",
       services: "Layanan",
       company: "Perusahaan",
       legal: "Legal",
@@ -497,9 +497,9 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     },
     hero: {
       titleLead: "Indonesian software house for",
-      titleHighlight: "integrated business systems.",
+      titleHighlight: "systems that grow with your business.",
       description:
-        "PT Agsora Teknologi Indonesia builds custom software, websites, apps, ERP, POS, HRIS, and CRM, designed around how your company works, so it runs more efficiently, stays integrated, and scales with ease.",
+        "Turn manual work into clean, connected systems. PT Agsora Teknologi Indonesia builds websites, apps, POS, ERP, HRIS and CRM around how your company works, for businesses across Indonesia and beyond.",
       ctaPrimary: "Free Consultation",
       ctaSecondary: "See Solutions",
     },
@@ -521,7 +521,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       seeAll: "See all questions",
     },
     footer: {
-      tagline: "Adaptive Growth. Smart Operations. Real Advancement.",
+      tagline: "Software that grows with your business. Adaptive Growth · Smart Operations · Real Advancement.",
       services: "Services",
       company: "Company",
       legal: "Legal",
@@ -773,7 +773,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
     },
     hero: {
       titleLead: "印尼软件公司，打造",
-      titleHighlight: "一体化商业系统。",
+      titleHighlight: "与您的业务共同成长的系统。",
       description:
         "PT Agsora Teknologi Indonesia 为企业构建定制软件、网站、应用、ERP、POS、HRIS 和 CRM 系统，贴合贵公司的业务流程设计，帮助您的企业更高效、更集成、更具扩展性地运营。",
       ctaPrimary: "免费咨询",
@@ -796,7 +796,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       seeAll: "查看所有问题",
     },
     footer: {
-      tagline: "灵活增长 · 智慧运营 · 切实进步",
+      tagline: "与您的业务共同成长的系统。灵活增长 · 智慧运营 · 切实进步",
       services: "服务",
       company: "公司",
       legal: "法律",
