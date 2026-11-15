@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
 import type { PricingItem } from "@/config/pricing";
-import { computeTotals, idr, type QuoteItem } from "@/lib/quote";
+import { computeTotals, idr, paymentPlanLabel, type PaymentPlan, type QuoteItem } from "@/lib/quote";
 import { saveQuote } from "./actions";
 
 export type EditorInitial = {
@@ -17,6 +17,7 @@ export type EditorInitial = {
   tax_pct: number;
   valid_until: string;
   terms: string;
+  payment_plan: PaymentPlan;
 };
 
 /** Line-item editor with live totals. Prices start from the website price list and can be changed. */
@@ -123,6 +124,16 @@ export function QuoteEditor({ initial, pricing, ppn, pph23 }: { initial: EditorI
         <label className="sn-field">
           Diskon (%)
           <input name="discount_pct" inputMode="decimal" className="sn-input" value={discount} onChange={(e) => setDiscount(e.target.value)} />
+        </label>
+        <label className="sn-field">
+          Skema pembayaran
+          <select name="payment_plan" className="sn-input" defaultValue={initial.payment_plan}>
+            {(Object.keys(paymentPlanLabel) as PaymentPlan[]).map((k) => (
+              <option key={k} value={k}>
+                {paymentPlanLabel[k]}
+              </option>
+            ))}
+          </select>
         </label>
         <div className="sn-field">
           PPN

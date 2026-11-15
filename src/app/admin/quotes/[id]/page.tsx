@@ -2,12 +2,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Download, Mail } from "lucide-react";
 import { getSession } from "@/lib/admin-auth";
-import { computeTotals, idr, quoteNumber, quoteStatusLabel, type Quote } from "@/lib/quote";
+import { computeTotals, idr, planOf, quoteNumber, quoteStatusLabel, type Quote } from "@/lib/quote";
 import { sbSelect } from "@/lib/supabase";
 import { AdminShell, adminGate } from "../../shell";
 import { getSiteData } from "@/lib/site-content";
 import { QuoteEditor } from "../quote-editor";
-import { reviewQuote, sendQuote } from "../actions";
+import { reviewQuote, sendContract, sendQuote } from "../actions";
 
 const dateId = (iso: string) => new Date(iso).toLocaleDateString("id-ID", { timeZone: "Asia/Jakarta", day: "numeric", month: "long", year: "numeric" });
 
@@ -83,12 +83,21 @@ export default async function QuotePage({
           </p>
           <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
             <a className="sn-btn" href={`/admin/quotes/${q.id}/pdf`}>
-              <Download size={14} /> Unduh PDF
+              <Download size={14} /> Unduh Proposal
+            </a>
+            <a className="sn-btn" href={`/admin/quotes/${q.id}/contract`}>
+              <Download size={14} /> Unduh Perjanjian
             </a>
             <form action={sendQuote}>
               <input type="hidden" name="id" value={q.id} />
               <button className="sn-btn sn-btn-primary" disabled={!q.client_email}>
                 <Mail size={14} /> {q.status === "sent" ? "Kirim ulang" : "Kirim ke email klien"}
+              </button>
+            </form>
+            <form action={sendContract}>
+              <input type="hidden" name="id" value={q.id} />
+              <button className="sn-btn" disabled={!q.client_email}>
+                <Mail size={14} /> Kirim perjanjian ke klien
               </button>
             </form>
             {q.status !== "pending" ? (
@@ -116,6 +125,7 @@ export default async function QuotePage({
             tax_pct: Number(q.tax_pct),
             valid_until: q.valid_until ?? "",
             terms: q.terms ?? "",
+            payment_plan: planOf(q),
           }}
         />
       ) : (

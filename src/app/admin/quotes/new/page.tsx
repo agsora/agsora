@@ -40,6 +40,7 @@ export default async function NewQuotePage({ searchParams }: { searchParams: Pro
           tax_pct: 0,
           valid_until: validUntil,
           terms: DEFAULT_TERMS,
+          payment_plan: "50-50",
         }}
       />
     </AdminShell>

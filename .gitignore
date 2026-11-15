@@ -47,3 +47,6 @@ next-env.d.ts
 supabase/.temp/
 .aider*
 !.env.example
+
+# Company legal documents (contain ID numbers); never commit
+/akte/

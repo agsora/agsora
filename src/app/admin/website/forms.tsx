@@ -195,6 +195,10 @@ export function TaxForm({ tax }: { tax: TaxSettings }) {
           NPWP perusahaan (tampil di proposal)
           <input name="npwp" className="sn-input" maxLength={30} placeholder="00.000.000.0-000.000" defaultValue={tax.npwp} />
         </label>
+        <label className="sn-field">
+          NIB (tampil di proposal)
+          <input name="nib" className="sn-input" inputMode="numeric" maxLength={20} placeholder="13 digit" defaultValue={tax.nib} />
+        </label>
       </div>
       <label style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
         <input type="checkbox" name="pph23Note" defaultChecked={tax.pph23Note} />

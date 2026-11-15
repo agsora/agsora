@@ -109,6 +109,7 @@ export async function saveTax(_: SaveResult, formData: FormData): Promise<SaveRe
     pkp: formData.get("pkp") === "on",
     ppnRate: Number.isFinite(rate) && rate >= 0 && rate <= 25 ? rate : defaultTax.ppnRate,
     npwp,
+    nib: str(formData, "nib", 20).replace(/\D/g, ""),
     pph23Note: formData.get("pph23Note") === "on",
   });
 }

@@ -30,6 +30,8 @@ export type TaxSettings = {
   /** Effective PPN in percent: 12% x DPP nilai lain (11/12) = 11%. */
   ppnRate: number;
   npwp: string;
+  /** Nomor Induk Berusaha (OSS), shown on the proposal. */
+  nib: string;
   /** Mention PPh 23 withholding (2%) on proposals. */
   pph23Note: boolean;
 };
@@ -79,7 +81,7 @@ export const defaultProposal: ProposalContent = {
   closing: "Terima kasih atas kesempatan yang diberikan. Kami siap berdiskusi untuk menyesuaikan ruang lingkup dan jadwal dengan kebutuhan Anda.",
 };
 
-export const defaultTax: TaxSettings = { pkp: false, ppnRate: 11, npwp: "", pph23Note: true };
+export const defaultTax: TaxSettings = { pkp: false, ppnRate: 11, npwp: "1000000011213027", nib: "2109260106509", pph23Note: true };
 
 export const defaultServicePrices: Record<string, number> = Object.fromEntries(services.map((s) => [s.id, s.startingFrom]));
 

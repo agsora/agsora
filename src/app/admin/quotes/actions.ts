@@ -5,7 +5,8 @@ import { revalidatePath } from "next/cache";
 import { getSession, type Session } from "@/lib/admin-auth";
 import { siteConfig } from "@/config/site";
 import { queryLeads } from "@/lib/leads-db";
-import { computeTotals, parseItems, quoteNumber, type Quote } from "@/lib/quote";
+import { computeTotals, parseItems, planOf, quoteNumber, type Quote } from "@/lib/quote";
+import { buildContractPdf } from "@/lib/contract-pdf";
 import { buildQuotePdf } from "@/lib/quote-pdf";
 import { getSiteData } from "@/lib/site-content";
 import { sbInsert, sbSelect, sbUpdate } from "@/lib/supabase";
@@ -47,6 +48,7 @@ export async function saveQuote(formData: FormData) {
   const items = parseItems(formData.get("items"));
   const clientName = text(formData, "client_name", 160);
   const clientEmail = text(formData, "client_email", 200);
+  const plan = planOf({ payment_plan: String(formData.get("payment_plan") ?? "") });
   const fields = {
     client_name: clientName ?? "",
     client_email: clientEmail && EMAIL.test(clientEmail) ? clientEmail : null,
@@ -79,6 +81,8 @@ export async function saveQuote(formData: FormData) {
     if (problems.length && intent === "save" && !clientName) redirect(`/admin/quotes/new?notice=${encodeURIComponent(problems[0])}&type=err`);
     const created = await sbInsert<Quote>("quotes", {
       ...fields,
+      // Only written when not the default, so the default scheme keeps working before the payment_plan migration runs.
+      ...(plan !== "50-50" ? { payment_plan: plan } : {}),
       client_name: fields.client_name || "(tanpa nama)",
       lead_id: leadId,
       sales_id: session.role === "sales" ? session.id : null,
@@ -103,6 +107,7 @@ export async function saveQuote(formData: FormData) {
     "quotes",
     {
       ...fields,
+      ...(plan !== planOf(current) ? { payment_plan: plan } : {}),
       client_name: fields.client_name || current.client_name,
       status,
       review_note: null,
@@ -182,4 +187,48 @@ export async function sendQuote(formData: FormData) {
 
   await sbUpdate("quotes", { status: "sent", sent_at: new Date().toISOString() }, `id=eq.${id}`);
   back(id, `Penawaran dikirim ke ${q.client_email}.`);
+}
+
+/** Email the service agreement (PDF) once the client has accepted the proposal. Sent separately from the proposal. */
+export async function sendContract(formData: FormData) {
+  const session = await getSession();
+  if (!session) redirect("/admin");
+  const id = numField(formData, "id");
+  if (!id) redirect("/admin/quotes");
+
+  const q = await loadQuote(id, session);
+  if (!q) redirect("/admin/quotes");
+  if (q.status !== "approved" && q.status !== "sent") back(id, "Penawaran harus disetujui owner dulu.", true);
+  if (!q.client_email || !EMAIL.test(q.client_email)) back(id, "Email klien belum diisi.", true);
+
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) back(id, "Pengiriman email belum aktif: RESEND_API_KEY belum diisi. Unduh perjanjian dan kirim manual.", true);
+
+  const contractNo = quoteNumber(q).replace("AGS/", "PKS/");
+  const site = await getSiteData();
+  const pdf = Buffer.from(await buildContractPdf(q, site)).toString("base64");
+  const notifyTo = process.env.LEAD_NOTIFY_EMAIL;
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      from: process.env.LEAD_FROM_EMAIL ?? "AGSORA <onboarding@resend.dev>",
+      to: [q.client_email],
+      ...(notifyTo ? { bcc: [notifyTo] } : {}),
+      reply_to: site.contact.email,
+      subject: `Perjanjian ${contractNo} - ${siteConfig.brandMark}`,
+      text: [
+        `Yth. ${q.client_name},`,
+        "",
+        "Terima kasih atas persetujuan proposal. Terlampir perjanjian (Indonesia/English) untuk Anda tinjau dan tandatangani.",
+        "Mohon kembalikan salinan yang sudah ditandatangani dan dibubuhi meterai. Pekerjaan dimulai setelah perjanjian ditandatangani dan pembayaran termin pertama diterima.",
+        "",
+        "Salam,",
+        siteConfig.legalName,
+      ].join("\n"),
+      attachments: [{ filename: `Perjanjian-${contractNo.replace(/\//g, "-")}.pdf`, content: pdf }],
+    }),
+  });
+  if (!res.ok) back(id, "Email gagal dikirim. Periksa konfigurasi Resend (domain pengirim harus terverifikasi).", true);
+  back(id, `Perjanjian dikirim ke ${q.client_email}.`);
 }
