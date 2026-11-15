@@ -79,7 +79,7 @@ export const defaultProposal: ProposalContent = {
   closing: "Terima kasih atas kesempatan yang diberikan. Kami siap berdiskusi untuk menyesuaikan ruang lingkup dan jadwal dengan kebutuhan Anda.",
 };
 
-export const defaultTax: TaxSettings = { pkp: true, ppnRate: 11, npwp: "", pph23Note: true };
+export const defaultTax: TaxSettings = { pkp: false, ppnRate: 11, npwp: "", pph23Note: true };
 
 export const defaultServicePrices: Record<string, number> = Object.fromEntries(services.map((s) => [s.id, s.startingFrom]));
 

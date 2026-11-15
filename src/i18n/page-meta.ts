@@ -70,17 +70,17 @@ export const pageMeta = {
     id: {
       title: "Harga Pembuatan Software & Aplikasi",
       description:
-        "Harga jasa pembuatan website, aplikasi, ERP, POS, HRIS, CRM, dan custom software mulai dari Rp4.500.000. Semua harga dipublikasikan.",
+        "Harga jasa pembuatan website, aplikasi, ERP, POS, HRIS, CRM, dan custom software mulai dari Rp3.500.000. Semua harga dipublikasikan.",
     },
     en: {
       title: "Software & App Development Pricing",
       description:
-        "Published pricing for websites, apps, ERP, POS, HRIS, CRM, and custom software development, starting from Rp4,500,000.",
+        "Published pricing for websites, apps, ERP, POS, HRIS, CRM, and custom software development, starting from Rp3,500,000.",
     },
     zh: {
       title: "软件与应用开发价格",
       description:
-        "网站、应用、ERP、POS、HRIS、CRM 与定制软件开发 Rp4,500,000 起，价格公开透明。",
+        "网站、应用、ERP、POS、HRIS、CRM 与定制软件开发 Rp3,500,000 起，价格公开透明。",
     },
   },
   products: {

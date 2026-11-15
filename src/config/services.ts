@@ -32,7 +32,7 @@ export const services: Service[] = [
       zh: "根据贵公司实际运作方式量身定制的业务系统，而非削足适履。",
     },
     icon: Code2,
-    startingFrom: 30_000_000,
+    startingFrom: 25_000_000,
     href: "/services/custom-software",
   },
   {
@@ -44,7 +44,7 @@ export const services: Service[] = [
       zh: "从企业官网到企业级平台，具备扎实的性能与 SEO 表现。",
     },
     icon: Globe,
-    startingFrom: 4_500_000,
+    startingFrom: 3_500_000,
     href: "/services/website",
   },
   {
@@ -68,7 +68,7 @@ export const services: Service[] = [
       zh: "将财务、库存、生产与运营整合到一个统一系统中。",
     },
     icon: Network,
-    startingFrom: 60_000_000,
+    startingFrom: 40_000_000,
     href: "/services/erp",
   },
   {
@@ -80,7 +80,7 @@ export const services: Service[] = [
       zh: "快速可靠的收银系统，直接与业务报表对接。",
     },
     icon: ShoppingCart,
-    startingFrom: 15_000_000,
+    startingFrom: 12_000_000,
     href: "/services/pos",
   },
   {
@@ -92,7 +92,7 @@ export const services: Service[] = [
       zh: "在一个数字化人力资源平台上管理员工数据、考勤、薪资与绩效。",
     },
     icon: Users,
-    startingFrom: 7_500_000,
+    startingFrom: 25_000_000,
     href: "/services/hris",
   },
   {
@@ -104,7 +104,7 @@ export const services: Service[] = [
       zh: "实时跟踪销售管道、客户关系与销售团队表现。",
     },
     icon: UserCircle2,
-    startingFrom: 7_500_000,
+    startingFrom: 25_000_000,
     href: "/services/crm",
   },
   {
@@ -116,7 +116,7 @@ export const services: Service[] = [
       zh: "业务数据可视化，助您做出更快、更准确的决策。",
     },
     icon: LayoutDashboard,
-    startingFrom: 12_000_000,
+    startingFrom: 7_000_000,
     href: "/services/dashboard",
   },
   {
@@ -128,7 +128,7 @@ export const services: Service[] = [
       zh: "利用 AI 自动化重复性流程, 从客户服务到内部运营。",
     },
     icon: Bot,
-    startingFrom: 12_000_000,
+    startingFrom: 7_500_000,
     href: "/services/ai-automation",
   },
   {
@@ -140,7 +140,7 @@ export const services: Service[] = [
       zh: "将内部系统与支付网关、电商平台及第三方服务对接。",
     },
     icon: Plug,
-    startingFrom: 7_500_000,
+    startingFrom: 4_500_000,
     href: "/services/api-integration",
   },
 ];

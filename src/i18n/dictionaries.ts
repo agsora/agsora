@@ -420,11 +420,11 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       budget: "Kisaran anggaran",
       budgetPlaceholder: "Pilih kisaran anggaran",
       budgetRanges: [
-        "< Rp10 juta",
-        "Rp10 - 30 juta",
+        "< Rp5 juta",
+        "Rp5 - 15 juta",
+        "Rp15 - 30 juta",
         "Rp30 - 75 juta",
-        "Rp75 - 200 juta",
-        "> Rp200 juta",
+        "> Rp75 juta",
         "Belum tahu / perlu diskusi",
       ],
       description: "Deskripsi proyek",
@@ -446,7 +446,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       customDevTitle: "Harga mulai dari untuk setiap layanan",
       customQuote: "Penawaran khusus",
       disclaimer:
-        "Harga mulai dari dan dapat berubah sesuai fitur, jumlah user, integrasi, kompleksitas workflow, timeline, serta kebutuhan support. Biaya pihak ketiga tidak termasuk kecuali dinyatakan lain. Semua harga belum termasuk PPN yang berlaku, dan faktur pajak diterbitkan untuk setiap transaksi.",
+        "Harga mulai dari dan dapat berubah sesuai fitur, jumlah user, integrasi, kompleksitas workflow, timeline, serta kebutuhan support. Biaya pihak ketiga tidak termasuk kecuali dinyatakan lain.",
     },
     blogPage: {
       heroTitle: "Catatan tentang membangun sistem bisnis",
@@ -696,11 +696,11 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       budget: "Budget range",
       budgetPlaceholder: "Select a budget range",
       budgetRanges: [
-        "< Rp10 million",
-        "Rp10 - 30 million",
+        "< Rp5 million",
+        "Rp5 - 15 million",
+        "Rp15 - 30 million",
         "Rp30 - 75 million",
-        "Rp75 - 200 million",
-        "> Rp200 million",
+        "> Rp75 million",
         "Not sure yet / need to discuss",
       ],
       description: "Project description",
@@ -722,7 +722,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       customDevTitle: "Starting price for every service",
       customQuote: "Custom quote",
       disclaimer:
-        "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third party costs are not included unless stated otherwise. All prices exclude applicable VAT (PPN), and a tax invoice is issued for every transaction.",
+        "Prices are starting prices and may change based on features, number of users, integrations, workflow complexity, timeline, and support needs. Third party costs are not included unless stated otherwise.",
     },
     blogPage: {
       heroTitle: "Notes on building business systems",
@@ -959,11 +959,11 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       budget: "预算范围",
       budgetPlaceholder: "请选择预算范围",
       budgetRanges: [
-        "< 1000万印尼盾",
-        "1000万 - 3000万印尼盾",
+        "< 500万印尼盾",
+        "500万 - 1500万印尼盾",
+        "1500万 - 3000万印尼盾",
         "3000万 - 7500万印尼盾",
-        "7500万 - 2亿印尼盾",
-        "> 2亿印尼盾",
+        "> 7500万印尼盾",
         "尚未确定 / 需进一步讨论",
       ],
       description: "项目描述",
@@ -985,7 +985,7 @@ export const dictionaries: Record<"id" | "en" | "zh", Dictionary> = {
       customDevTitle: "各项服务起始价格",
       customQuote: "单独报价",
       disclaimer:
-        "以上为起始价格，实际费用将根据功能、用户数量、对接需求、流程复杂度、工期及支持需求而有所不同。除非另有说明，第三方费用不包含在内。所有价格均不含适用的增值税（PPN），每笔交易均开具税务发票。",
+        "以上为起始价格，实际费用将根据功能、用户数量、对接需求、流程复杂度、工期及支持需求而有所不同。除非另有说明，第三方费用不包含在内。",
     },
     blogPage: {
       heroTitle: "关于构建业务系统的笔记",

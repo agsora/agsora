@@ -44,47 +44,47 @@ const { platform, month, year, day, session } = PRICING_UNITS;
  */
 export const customDevPricing: PricingItem[] = [
   // Website & Digital
-  { id: "landing-page", name: L("Landing Page", "Landing Page", "落地页"), price: 4_500_000, category: "Website & Digital" },
-  { id: "company-profile", name: L("Website Company Profile", "Company Profile Website", "企业官网"), price: 8_500_000, category: "Website & Digital" },
-  { id: "starter-bundle", name: L("Paket Starter Korporat (Company Profile + hosting 1 tahun + SEO dasar)", "Corporate Starter Bundle (Company Profile + 1 year hosting + basic SEO)", "企业入门套餐（企业官网 + 1 年主机 + 基础 SEO）"), price: 12_000_000, category: "Website & Digital" },
-  { id: "website", name: L("Website + Dashboard Admin", "Website + Admin Dashboard", "网站 + 管理后台"), price: 15_000_000, category: "Website & Digital" },
-  { id: "ecommerce", name: L("Website Toko Online", "E-Commerce Website", "电商网站"), price: 20_000_000, category: "Website & Digital" },
-  { id: "dashboard", name: L("Dashboard / Laporan", "Dashboard / Reporting", "仪表盘 / 报表"), price: 12_000_000, category: "Website & Digital" },
+  { id: "landing-page", name: L("Landing Page", "Landing Page", "落地页"), price: 3_500_000, category: "Website & Digital" },
+  { id: "company-profile", name: L("Website Company Profile", "Company Profile Website", "企业官网"), price: 5_500_000, category: "Website & Digital" },
+  { id: "starter-bundle", name: L("Paket Starter Korporat (Company Profile + hosting 1 tahun + SEO dasar)", "Corporate Starter Bundle (Company Profile + 1 year hosting + basic SEO)", "企业入门套餐（企业官网 + 1 年主机 + 基础 SEO）"), price: 8_000_000, category: "Website & Digital" },
+  { id: "website", name: L("Website + Dashboard Admin", "Website + Admin Dashboard", "网站 + 管理后台"), price: 9_000_000, category: "Website & Digital" },
+  { id: "ecommerce", name: L("Website Toko Online", "E-Commerce Website", "电商网站"), price: 12_000_000, category: "Website & Digital" },
+  { id: "dashboard", name: L("Dashboard / Laporan", "Dashboard / Reporting", "仪表盘 / 报表"), price: 7_000_000, category: "Website & Digital" },
   { id: "mobile", name: L("Aplikasi Mobile", "Mobile App", "移动应用"), price: 25_000_000, unit: platform, category: "Website & Digital" },
 
   // Sistem Bisnis
-  { id: "pos", name: L("Sistem Kasir (POS) Custom", "Custom POS", "定制 POS 收银系统"), price: 15_000_000, category: "Sistem Bisnis" },
+  { id: "pos", name: L("Sistem Kasir (POS) Custom", "Custom POS", "定制 POS 收银系统"), price: 12_000_000, category: "Sistem Bisnis" },
   { id: "hris", name: L("HRIS Custom", "Custom HRIS", "定制 HRIS 人事系统"), price: 25_000_000, category: "Sistem Bisnis" },
   { id: "crm", name: L("CRM Custom", "Custom CRM", "定制 CRM 客户管理"), price: 25_000_000, category: "Sistem Bisnis" },
-  { id: "custom-software", name: L("Software Custom", "Custom Software", "定制软件"), price: 30_000_000, category: "Sistem Bisnis" },
-  { id: "erp-basic", name: L("ERP Dasar", "ERP Basic", "ERP 基础版"), price: 60_000_000, category: "Sistem Bisnis" },
+  { id: "custom-software", name: L("Software Custom", "Custom Software", "定制软件"), price: 25_000_000, category: "Sistem Bisnis" },
+  { id: "erp-basic", name: L("ERP Dasar", "ERP Basic", "ERP 基础版"), price: 40_000_000, category: "Sistem Bisnis" },
   { id: "erp-advanced", name: L("ERP Lanjutan", "ERP Advanced", "ERP 进阶版"), price: 150_000_000, category: "Sistem Bisnis" },
 
   // Automation & Integrasi
-  { id: "ai-automation", name: L("Otomasi AI", "AI Automation", "AI 自动化"), price: 12_000_000, category: "Automation & Integrasi" },
-  { id: "whatsapp-chatbot", name: L("Chatbot & WhatsApp Business API", "Chatbot & WhatsApp Business API", "聊天机器人与 WhatsApp Business API"), price: 8_500_000, category: "Automation & Integrasi" },
-  { id: "api-integration", name: L("Integrasi API", "API Integration", "API 对接"), price: 7_500_000, category: "Automation & Integrasi" },
-  { id: "payment-integration", name: L("Integrasi Payment Gateway / QRIS", "Payment Gateway / QRIS Integration", "支付网关 / QRIS 对接"), price: 5_000_000, category: "Automation & Integrasi" },
-  { id: "marketplace-integration", name: L("Integrasi Marketplace & Logistik", "Marketplace & Logistics Integration", "电商平台与物流对接"), price: 7_500_000, category: "Automation & Integrasi" },
-  { id: "data-migration", name: L("Migrasi Data", "Data Migration", "数据迁移"), price: 5_000_000, category: "Automation & Integrasi" },
+  { id: "ai-automation", name: L("Otomasi AI", "AI Automation", "AI 自动化"), price: 7_500_000, category: "Automation & Integrasi" },
+  { id: "whatsapp-chatbot", name: L("Chatbot & WhatsApp Business API", "Chatbot & WhatsApp Business API", "聊天机器人与 WhatsApp Business API"), price: 5_000_000, category: "Automation & Integrasi" },
+  { id: "api-integration", name: L("Integrasi API", "API Integration", "API 对接"), price: 4_500_000, category: "Automation & Integrasi" },
+  { id: "payment-integration", name: L("Integrasi Payment Gateway / QRIS", "Payment Gateway / QRIS Integration", "支付网关 / QRIS 对接"), price: 3_500_000, category: "Automation & Integrasi" },
+  { id: "marketplace-integration", name: L("Integrasi Marketplace & Logistik", "Marketplace & Logistics Integration", "电商平台与物流对接"), price: 5_000_000, category: "Automation & Integrasi" },
+  { id: "data-migration", name: L("Migrasi Data", "Data Migration", "数据迁移"), price: 3_500_000, category: "Automation & Integrasi" },
 
   // Desain & Konten
-  { id: "ui-ux", name: L("Desain UI/UX", "UI/UX Design", "UI/UX 设计"), price: 7_500_000, category: "Desain & Konten" },
-  { id: "seo-content", name: L("SEO & Konten", "SEO & Content", "SEO 与内容"), price: 3_500_000, unit: month, category: "Desain & Konten" },
+  { id: "ui-ux", name: L("Desain UI/UX", "UI/UX Design", "UI/UX 设计"), price: 5_000_000, category: "Desain & Konten" },
+  { id: "seo-content", name: L("SEO & Konten", "SEO & Content", "SEO 与内容"), price: 2_500_000, unit: month, category: "Desain & Konten" },
 
   // Infrastruktur & Keamanan
-  { id: "hosting", name: L("Domain, Hosting & SSL", "Domain, Hosting & SSL", "域名、主机与 SSL"), price: 2_500_000, unit: year, category: "Infrastruktur & Keamanan" },
-  { id: "cloud-setup", name: L("Setup Server & Cloud", "Server & Cloud Setup", "服务器与云部署"), price: 5_000_000, category: "Infrastruktur & Keamanan" },
-  { id: "security-audit", name: L("Audit Keamanan Aplikasi", "Application Security Audit", "应用安全审计"), price: 12_000_000, category: "Infrastruktur & Keamanan" },
+  { id: "hosting", name: L("Domain, Hosting & SSL", "Domain, Hosting & SSL", "域名、主机与 SSL"), price: 1_500_000, unit: year, category: "Infrastruktur & Keamanan" },
+  { id: "cloud-setup", name: L("Setup Server & Cloud", "Server & Cloud Setup", "服务器与云部署"), price: 3_500_000, category: "Infrastruktur & Keamanan" },
+  { id: "security-audit", name: L("Audit Keamanan Aplikasi", "Application Security Audit", "应用安全审计"), price: 8_000_000, category: "Infrastruktur & Keamanan" },
 
   // Konsultasi & Pelatihan
-  { id: "it-consulting", name: L("Konsultasi IT & Audit Sistem", "IT Consulting & System Audit", "IT 咨询与系统审计"), price: 7_500_000, category: "Konsultasi & Pelatihan" },
-  { id: "training", name: L("Pelatihan Tim", "Team Training", "团队培训"), price: 3_500_000, unit: session, category: "Konsultasi & Pelatihan" },
+  { id: "it-consulting", name: L("Konsultasi IT & Audit Sistem", "IT Consulting & System Audit", "IT 咨询与系统审计"), price: 4_500_000, category: "Konsultasi & Pelatihan" },
+  { id: "training", name: L("Pelatihan Tim", "Team Training", "团队培训"), price: 2_000_000, unit: session, category: "Konsultasi & Pelatihan" },
 
   // Support & Enterprise
-  { id: "maintenance", name: L("Pemeliharaan Basic", "Maintenance Basic", "基础维护"), price: 2_000_000, unit: month, category: "Support & Enterprise" },
-  { id: "maintenance-standard", name: L("Pemeliharaan Standard", "Maintenance Standard", "标准维护"), price: 4_500_000, unit: month, category: "Support & Enterprise" },
-  { id: "maintenance-premium", name: L("Pemeliharaan Premium", "Maintenance Premium", "高级维护"), price: 9_000_000, unit: month, category: "Support & Enterprise" },
-  { id: "extra-work", name: L("Fitur Tambahan / Pekerjaan di Luar Lingkup", "Additional Features / Out-of-scope Work", "额外功能 / 范围外工作"), price: 2_500_000, unit: day, category: "Support & Enterprise" },
+  { id: "maintenance", name: L("Pemeliharaan Basic", "Maintenance Basic", "基础维护"), price: 1_500_000, unit: month, category: "Support & Enterprise" },
+  { id: "maintenance-standard", name: L("Pemeliharaan Standard", "Maintenance Standard", "标准维护"), price: 3_000_000, unit: month, category: "Support & Enterprise" },
+  { id: "maintenance-premium", name: L("Pemeliharaan Premium", "Maintenance Premium", "高级维护"), price: 6_000_000, unit: month, category: "Support & Enterprise" },
+  { id: "extra-work", name: L("Fitur Tambahan / Pekerjaan di Luar Lingkup", "Additional Features / Out-of-scope Work", "额外功能 / 范围外工作"), price: 1_500_000, unit: day, category: "Support & Enterprise" },
   { id: "enterprise", name: L("Korporasi / Multi Cabang", "Enterprise / Multi Branch", "大型企业 / 多分店"), price: null, category: "Support & Enterprise" },
 ];
