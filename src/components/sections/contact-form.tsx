@@ -4,7 +4,8 @@ import { readAttribution } from "@/lib/attribution";
 import { useState, useSyncExternalStore, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import { Send } from "lucide-react";
-import { useContact, usePricing } from "@/components/site-data";
+import { useContact, usePricing, useSiteData } from "@/components/site-data";
+import { contactPrefill } from "@/config/contact-prefill";
 import { templateBySlug } from "@/config/templates";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
@@ -37,7 +38,13 @@ export function ContactForm() {
   const contact = useContact();
   const g = growth[locale];
   const pathname = usePathname();
-  const params = new URLSearchParams(useQueryString());
+  const query = useQueryString();
+  const params = new URLSearchParams(query);
+  const livePrices = useSiteData().servicePrices;
+  // What the visitor already chose on the page that sent them here (price card, demo, industry), so they do not retype it.
+  const prefill = contactPrefill(params, locale, customDevPricing, livePrices);
+  const needDefault = prefill.need !== undefined ? t.contactForm.needTypes[prefill.need] : "";
+  const budgetDefault = prefill.budget !== undefined ? t.contactForm.budgetRanges[prefill.budget] : "";
   const [submitted, setSubmitted] = useState(false);
 
   // ?plan=erp-basic,crm comes from the price cards and the estimator; ?from=
@@ -103,7 +110,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+    <form key={query} onSubmit={handleSubmit} className="grid grid-cols-1 gap-5 sm:grid-cols-2">
       {plan ? (
         <p className="rounded-xl border border-line bg-surface-0 px-4 py-3 text-[14px] text-ink-muted sm:col-span-2">
           <span className="text-ink-subtle">{g.selectedPlan}:</span> {plan}
@@ -142,7 +149,7 @@ export function ContactForm() {
         <label htmlFor="need" className={labelClass}>
           {t.contactForm.needType}
         </label>
-        <select required id="need" name="need" defaultValue="" className={inputClass()}>
+        <select required id="need" name="need" defaultValue={needDefault} className={inputClass()}>
           <option value="" disabled>
             {t.contactForm.needTypePlaceholder}
           </option>
@@ -157,7 +164,7 @@ export function ContactForm() {
         <label htmlFor="budget" className={labelClass}>
           {t.contactForm.budget}
         </label>
-        <select required id="budget" name="budget" defaultValue="" className={inputClass()}>
+        <select required id="budget" name="budget" defaultValue={budgetDefault} className={inputClass()}>
           <option value="" disabled>
             {t.contactForm.budgetPlaceholder}
           </option>
@@ -177,6 +184,7 @@ export function ContactForm() {
           id="description"
           name="description"
           rows={5}
+          defaultValue={prefill.description}
           className={inputClass()}
           placeholder={t.contactForm.descriptionPlaceholder}
         />
