@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
-import { customDevPricing } from "@/config/pricing";
+import type { PricingItem } from "@/config/pricing";
 import { computeTotals, idr, type QuoteItem } from "@/lib/quote";
 import { saveQuote } from "./actions";
 
@@ -20,7 +20,7 @@ export type EditorInitial = {
 };
 
 /** Line-item editor with live totals. Prices start from the website price list and can be changed. */
-export function QuoteEditor({ initial }: { initial: EditorInitial }) {
+export function QuoteEditor({ initial, pricing }: { initial: EditorInitial; pricing: PricingItem[] }) {
   const [items, setItems] = useState<QuoteItem[]>(initial.items.length ? initial.items : []);
   const [discount, setDiscount] = useState(String(initial.discount_pct || 0));
   const [tax, setTax] = useState(String(initial.tax_pct || 0));
@@ -30,7 +30,7 @@ export function QuoteEditor({ initial }: { initial: EditorInitial }) {
 
   const update = (i: number, patch: Partial<QuoteItem>) => setItems((list) => list.map((it, n) => (n === i ? { ...it, ...patch } : it)));
   const addFromList = (id: string) => {
-    const p = customDevPricing.find((x) => x.id === id);
+    const p = pricing.find((x) => x.id === id);
     if (p) setItems((list) => [...list, { name: p.name.id, qty: 1, unit_price: p.price ?? 0 }]);
   };
 
@@ -108,7 +108,7 @@ export function QuoteEditor({ initial }: { initial: EditorInitial }) {
       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", margin: "0.75rem 0 1.25rem" }}>
         <select className="sn-input" style={{ maxWidth: "20rem" }} value="" onChange={(e) => addFromList(e.target.value)} aria-label="Tambah dari daftar harga">
           <option value="">+ Tambah dari daftar harga…</option>
-          {customDevPricing.map((p) => (
+          {pricing.map((p) => (
             <option key={p.id} value={p.id}>
               {p.name.id}
               {p.price ? ` (mulai ${idr(p.price)})` : " (sesuai kesepakatan)"}

@@ -6,6 +6,7 @@ import { services } from "@/config/services";
 import { serviceDetails } from "@/config/service-details";
 import { getPostBySlug, type BlogTag } from "@/config/blog";
 import { useLocale } from "@/i18n/locale-context";
+import { useSiteData } from "@/components/site-data";
 import { formatRupiah } from "@/lib/utils";
 
 const MAX_SERVICES = 3;
@@ -52,6 +53,7 @@ const tagToService: Partial<Record<BlogTag, string>> = {
  */
 export function RelatedServices({ postSlug }: { postSlug: string }) {
   const { t, locale } = useLocale();
+  const prices = useSiteData().servicePrices;
   const post = getPostBySlug(postSlug);
   if (!post) return null;
 
@@ -89,7 +91,7 @@ export function RelatedServices({ postSlug }: { postSlug: string }) {
                   {serviceDetails[service.id].h1[locale]}
                 </span>
                 <span className="mt-0.5 block text-[12px] text-ink-subtle">
-                  {t.servicesGrid.startingFrom} {formatRupiah(service.startingFrom, locale)}
+                  {t.servicesGrid.startingFrom} {formatRupiah(prices[service.id] ?? service.startingFrom, locale)}
                 </span>
               </span>
               <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-subtle transition-colors group-hover:text-accent" />

@@ -9,6 +9,7 @@ import { siteConfig } from "@/config/site";
 import { growth } from "@/i18n/growth";
 import Link from "@/i18n/link";
 import { useLocale } from "@/i18n/locale-context";
+import { useSiteData } from "@/components/site-data";
 import { formatRupiah } from "@/lib/utils";
 import { track } from "@/lib/track";
 import { whatsappLink } from "@/lib/whatsapp";
@@ -30,6 +31,8 @@ const chip =
  */
 export function WhatsAppButton() {
   const { t, locale } = useLocale();
+  const prices = useSiteData().servicePrices;
+  const waHref = useSiteData().contact.whatsappHref;
   const g = growth[locale];
   const f = chatFlowText;
   const pathname = usePathname();
@@ -101,7 +104,7 @@ export function WhatsAppButton() {
 
     // Open WhatsApp straight from the click (popup blockers allow it), and
     // save the lead in the background so it survives an unsent message.
-    window.open(whatsappLink(message), "_blank", "noopener,noreferrer");
+    window.open(whatsappLink(message, waHref), "_blank", "noopener,noreferrer");
     fetch("/api/lead", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -266,7 +269,7 @@ export function WhatsAppButton() {
                       <p className="text-[14px] font-semibold text-ink">{s.title[locale]}</p>
                       <p className="mt-1 text-[12.5px] leading-relaxed text-ink-muted">{s.description[locale]}</p>
                       <p className="mt-2 text-[12.5px] text-ink">
-                        {f.startingFrom[locale]} <span className="font-semibold">{formatRupiah(s.startingFrom, locale)}</span>
+                        {f.startingFrom[locale]} <span className="font-semibold">{formatRupiah(prices[s.id] ?? s.startingFrom, locale)}</span>
                       </p>
                       <Link
                         href={s.href}

@@ -4,18 +4,19 @@ import Link from "@/i18n/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ArrowRight, Menu, X } from "lucide-react";
-import { siteConfig } from "@/config/site";
 import { BrandLockup } from "@/components/brand-logo";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { useLocale } from "@/i18n/locale-context";
+import { useContact } from "@/components/site-data";
 import { splitLocale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
 export function Header() {
   const pathname = usePathname();
   const { t } = useLocale();
+  const contact = useContact();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [lastPathname, setLastPathname] = useState(pathname);
@@ -131,7 +132,7 @@ export function Header() {
                 {t.nav.cta}
               </Button>
               <Button
-                href={siteConfig.whatsapp.href}
+                href={contact.whatsappHref}
                 external
                 variant="outline"
                 className="w-full justify-center"

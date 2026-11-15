@@ -3,7 +3,7 @@
 import { useState, useSyncExternalStore, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import { Send } from "lucide-react";
-import { customDevPricing } from "@/config/pricing";
+import { useContact, usePricing } from "@/components/site-data";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
 import { track } from "@/lib/track";
@@ -31,6 +31,8 @@ function useQueryString() {
 
 export function ContactForm() {
   const { t, locale } = useLocale();
+  const customDevPricing = usePricing();
+  const contact = useContact();
   const g = growth[locale];
   const pathname = usePathname();
   const params = new URLSearchParams(useQueryString());
@@ -71,7 +73,7 @@ export function ContactForm() {
 
     // Open WhatsApp straight from the click (popup blockers allow it), and
     // save the lead in the background so it survives an unsent message.
-    window.open(whatsappLink(lines), "_blank", "noopener,noreferrer");
+    window.open(whatsappLink(lines, contact.whatsappHref), "_blank", "noopener,noreferrer");
     fetch("/api/lead", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

@@ -23,7 +23,7 @@ export default async function QuotesPage({ searchParams }: { searchParams: Promi
   return (
     <AdminShell
       active="quotes"
-      title="Penawaran Harga"
+      title="Proposal Penawaran"
       subtitle={session.role === "owner" ? "Setujui penawaran sebelum sales mengirimnya ke klien" : "Susun harga, ajukan ke owner, lalu kirim setelah disetujui"}
     >
       <section className="sn-card">

@@ -7,6 +7,7 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { HomeHeading } from "@/components/home/heading";
 import { useLocale } from "@/i18n/locale-context";
+import { useSiteData } from "@/components/site-data";
 import { cn, formatRupiah } from "@/lib/utils";
 
 /** The service drawn with a gradient frame, as the one most clients start with. */
@@ -14,6 +15,7 @@ const HIGHLIGHT = "erp";
 
 export function ServicesIndex() {
   const { t, locale } = useLocale();
+  const prices = useSiteData().servicePrices;
 
   return (
     <Container className="max-w-6xl">
@@ -56,7 +58,7 @@ export function ServicesIndex() {
                 <div className="mt-6 flex items-center justify-between rounded-2xl bg-surface-1 px-4 py-3">
                   <span className="text-[12px] text-ink-subtle">{t.servicesGrid.startingFrom}</span>
                   <span className="text-[14px] font-bold tabular-nums text-ink">
-                    {formatRupiah(service.startingFrom, locale)}
+                    {formatRupiah(prices[service.id] ?? service.startingFrom, locale)}
                   </span>
                 </div>
               </Link>

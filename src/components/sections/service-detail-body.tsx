@@ -14,6 +14,7 @@ import { services } from "@/config/services";
 import type { ServiceDetail } from "@/config/service-details";
 import type { BlogPost } from "@/config/blog";
 import { useLocale } from "@/i18n/locale-context";
+import { useSiteData } from "@/components/site-data";
 import { formatRupiah } from "@/lib/utils";
 
 /** Service pages whose pricing-table entry has a different id. */
@@ -34,6 +35,7 @@ export function ServiceDetailBody({
   relatedPosts: BlogPost[];
 }) {
   const { t, locale } = useLocale();
+  const prices = useSiteData().servicePrices;
   const service = services.find((s) => s.id === slug)!;
   const otherServices = services.filter((s) => s.id !== slug);
   const Icon = service.icon;
@@ -81,7 +83,7 @@ export function ServiceDetailBody({
                 {t.servicesGrid.startingFrom}
               </p>
               <p className="relative mt-3 text-[34px] font-extrabold tracking-tight tabular-nums">
-                {formatRupiah(service.startingFrom, locale)}
+                {formatRupiah(prices[service.id] ?? service.startingFrom, locale)}
               </p>
               <p className="relative mt-3 text-[13px] leading-relaxed text-white/65">
                 {locale === "id"
@@ -246,7 +248,7 @@ export function ServiceDetailBody({
                 <div>
                   <p className="text-[15px] font-bold text-ink">{s.title[locale]}</p>
                   <p className="mt-1 text-[12px] text-ink-subtle">
-                    {t.servicesGrid.startingFrom} {formatRupiah(s.startingFrom, locale)}
+                    {t.servicesGrid.startingFrom} {formatRupiah(prices[s.id] ?? s.startingFrom, locale)}
                   </p>
                 </div>
                 <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-subtle transition-colors group-hover:text-accent" />

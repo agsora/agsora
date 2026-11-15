@@ -166,7 +166,7 @@ export default async function WorksheetPage({ searchParams }: { searchParams: Pr
                   className="sn-btn sn-btn-sm"
                   style={{ marginTop: "0.75rem", justifyContent: "center", width: "100%" }}
                 >
-                  <FileText size={14} /> Buat penawaran harga
+                  <FileText size={14} /> Buat proposal penawaran
                 </Link>
               </section>
             );

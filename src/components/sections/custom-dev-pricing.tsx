@@ -2,7 +2,8 @@
 
 import Link from "@/i18n/link";
 import { ArrowRight, Globe, Layers, Zap, ShieldCheck, type LucideIcon } from "lucide-react";
-import { customDevPricing, type PricingCategory } from "@/config/pricing";
+import type { PricingCategory } from "@/config/pricing";
+import { usePricing } from "@/components/site-data";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
@@ -16,12 +17,10 @@ const categoryIcons: Record<PricingCategory, LucideIcon> = {
   "Support & Enterprise": ShieldCheck,
 };
 
-const categories = Array.from(
-  new Set(customDevPricing.map((item) => item.category))
-);
-
 export function CustomDevPricing() {
   const { t, locale } = useLocale();
+  const customDevPricing = usePricing();
+  const categories = Array.from(new Set(customDevPricing.map((item) => item.category)));
   const categoryLabels: Record<PricingCategory, string> = {
     "Website & Digital": t.pricingCategories.websiteDigital,
     "Sistem Bisnis": t.pricingCategories.businessSystems,

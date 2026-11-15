@@ -3,18 +3,17 @@
 import { useState } from "react";
 import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { customDevPricing } from "@/config/pricing";
+import { usePricing } from "@/components/site-data";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
 import { Eyebrow } from "@/components/ui/section";
 import { cn, formatRupiah } from "@/lib/utils";
 
-// Quoted-per-project items have no price to add up.
-const selectable = customDevPricing.filter((item) => item.price !== null);
-
 /** Adds up the starting prices of the services a visitor ticks, then sends them to the quote form. */
 export function PriceEstimator() {
   const { locale } = useLocale();
+  // Quoted-per-project items have no price to add up.
+  const selectable = usePricing().filter((item) => item.price !== null);
   const g = growth[locale].estimator;
   const [picked, setPicked] = useState<string[]>([]);
 

@@ -3,6 +3,7 @@ import { DEFAULT_TERMS } from "@/lib/quote";
 import { nowMs } from "@/lib/lead-status";
 import { queryLeads } from "@/lib/leads-db";
 import { AdminShell, adminGate } from "../../shell";
+import { getSiteData } from "@/lib/site-content";
 import { QuoteEditor } from "../quote-editor";
 
 export default async function NewQuotePage({ searchParams }: { searchParams: Promise<{ lead?: string; notice?: string; type?: string }> }) {
@@ -25,6 +26,7 @@ export default async function NewQuotePage({ searchParams }: { searchParams: Pro
     <AdminShell active="quotes" title="Penawaran baru" subtitle={lead ? `Untuk ${lead.name}` : undefined}>
       {notice ? <p className={`sn-notice ${type === "err" ? "err" : ""}`}>{notice}</p> : null}
       <QuoteEditor
+        pricing={(await getSiteData()).pricing}
         initial={{
           lead_id: lead?.id ?? null,
           client_name: lead?.name ?? "",

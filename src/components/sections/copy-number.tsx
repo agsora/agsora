@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { Check, Copy } from "lucide-react";
-import { siteConfig } from "@/config/site";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
+import { useContact } from "@/components/site-data";
 
 /**
  * The WhatsApp number as text with a copy button: a fallback for visitors
@@ -12,12 +12,13 @@ import { useLocale } from "@/i18n/locale-context";
  */
 export function CopyNumber() {
   const { locale } = useLocale();
+  const contact = useContact();
   const g = growth[locale];
   const [copied, setCopied] = useState(false);
 
   async function copy() {
     try {
-      await navigator.clipboard.writeText(siteConfig.whatsapp.number);
+      await navigator.clipboard.writeText(contact.whatsappNumber);
       setCopied(true);
       window.setTimeout(() => setCopied(false), 2000);
     } catch {
@@ -27,7 +28,7 @@ export function CopyNumber() {
 
   return (
     <p className="mt-1.5 flex items-center gap-2 text-[13px] text-ink-muted">
-      <span className="tabular-nums">{siteConfig.whatsapp.number}</span>
+      <span className="tabular-nums">{contact.whatsappNumber}</span>
       <button
         type="button"
         onClick={copy}

@@ -7,6 +7,7 @@ import { siteConfig } from "@/config/site";
 import { queryLeads } from "@/lib/leads-db";
 import { computeTotals, parseItems, quoteNumber, type Quote } from "@/lib/quote";
 import { buildQuotePdf } from "@/lib/quote-pdf";
+import { getSiteData } from "@/lib/site-content";
 import { sbInsert, sbSelect, sbUpdate } from "@/lib/supabase";
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -151,7 +152,8 @@ export async function sendQuote(formData: FormData) {
   if (!apiKey) back(id, "Pengiriman email belum aktif: RESEND_API_KEY belum diisi. Unduh PDF dan kirim manual.", true);
 
   const number = quoteNumber(q);
-  const pdf = Buffer.from(await buildQuotePdf(q)).toString("base64");
+  const site = await getSiteData();
+  const pdf = Buffer.from(await buildQuotePdf(q, site)).toString("base64");
   const notifyTo = process.env.LEAD_NOTIFY_EMAIL;
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
@@ -160,18 +162,18 @@ export async function sendQuote(formData: FormData) {
       from: process.env.LEAD_FROM_EMAIL ?? "AGSORA <onboarding@resend.dev>",
       to: [q.client_email],
       ...(notifyTo ? { bcc: [notifyTo] } : {}),
-      reply_to: siteConfig.email,
-      subject: `Penawaran Harga ${number} - ${siteConfig.brandMark}`,
+      reply_to: site.contact.email,
+      subject: `Proposal Penawaran ${number} - ${siteConfig.brandMark}`,
       text: [
         `Yth. ${q.client_name},`,
         "",
-        "Terima kasih atas ketertarikan Anda. Terlampir penawaran harga dari " + siteConfig.legalName + ".",
-        "Jika ada yang ingin didiskusikan, balas email ini atau hubungi kami melalui WhatsApp " + siteConfig.whatsapp.number + ".",
+        "Terima kasih atas ketertarikan Anda. Terlampir proposal penawaran dari " + siteConfig.legalName + ".",
+        "Jika ada yang ingin didiskusikan, balas email ini atau hubungi kami melalui WhatsApp " + site.contact.whatsappNumber + ".",
         "",
         "Salam,",
         siteConfig.legalName,
       ].join("\n"),
-      attachments: [{ filename: `Penawaran-${number.replace(/\//g, "-")}.pdf`, content: pdf }],
+      attachments: [{ filename: `Proposal-${number.replace(/\//g, "-")}.pdf`, content: pdf }],
     }),
   });
   if (!res.ok) back(id, "Email gagal dikirim. Periksa konfigurasi Resend (domain pengirim harus terverifikasi).", true);

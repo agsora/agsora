@@ -8,6 +8,7 @@ import { services } from "@/config/services";
 import { BrandLockup } from "@/components/brand-logo";
 import { Mail, MessageCircle } from "lucide-react";
 import { useLocale } from "@/i18n/locale-context";
+import { useContact } from "@/components/site-data";
 
 const socialClass =
   "focus-ring flex h-10 w-10 items-center justify-center rounded-xl border border-line bg-surface-0 text-ink-muted transition-all hover:-translate-y-0.5 hover:border-ink hover:text-ink";
@@ -42,6 +43,7 @@ function FooterColumn({
 
 export function Footer() {
   const { t, locale } = useLocale();
+  const contact = useContact();
   return (
     <footer className="relative overflow-hidden border-t border-line bg-surface-1">
       <div className="relative mx-auto max-w-6xl container-px pb-10 pt-16 md:pt-20">
@@ -55,25 +57,25 @@ export function Footer() {
             </p>
             <div className="mt-6 flex flex-col gap-2.5 text-[14px]">
               <a
-                href={siteConfig.whatsapp.href}
+                href={contact.whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="focus-ring inline-flex items-center gap-2.5 text-ink-muted transition-colors hover:text-ink"
               >
                 <MessageCircle className="h-4 w-4 text-accent" />
-                {siteConfig.whatsapp.number}
+                {contact.whatsappNumber}
               </a>
               <a
-                href={`mailto:${siteConfig.email}`}
+                href={`mailto:${contact.email}`}
                 className="focus-ring inline-flex items-center gap-2.5 text-ink-muted transition-colors hover:text-ink"
               >
                 <Mail className="h-4 w-4 text-accent" />
-                {siteConfig.email}
+                {contact.email}
               </a>
             </div>
             <div className="mt-6 flex items-center gap-2">
               <a
-                href={siteConfig.social.instagram}
+                href={contact.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram AGSORA"
@@ -82,7 +84,7 @@ export function Footer() {
                 <InstagramIcon className="h-4 w-4" />
               </a>
               <a
-                href={siteConfig.social.facebook}
+                href={contact.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook AGSORA"
@@ -91,7 +93,7 @@ export function Footer() {
                 <FacebookIcon className="h-4 w-4" />
               </a>
               <a
-                href={siteConfig.social.tiktok}
+                href={contact.tiktok}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok AGSORA"

@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site";
 
 /** wa.me link with a ready-typed message. */
-export function whatsappLink(text: string) {
-  return `${siteConfig.whatsapp.href}?text=${encodeURIComponent(text)}`;
+export function whatsappLink(text: string, href: string = siteConfig.whatsapp.href) {
+  return `${href}?text=${encodeURIComponent(text)}`;
 }

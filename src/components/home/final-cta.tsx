@@ -2,13 +2,14 @@
 
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { LogoMark } from "@/components/brand-logo";
-import { siteConfig } from "@/config/site";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/i18n/locale-context";
+import { useContact } from "@/components/site-data";
 
 export function FinalCta() {
   const { t } = useLocale();
+  const contact = useContact();
   return (
     <Container className="max-w-6xl">
       <div className="relative overflow-hidden rounded-[2rem] bg-navy px-6 py-14 text-center text-white md:px-16 md:py-20 ring-1 ring-white/10">
@@ -40,7 +41,7 @@ export function FinalCta() {
               {t.contactCta.ctaPrimary}
             </Button>
             <Button
-              href={siteConfig.whatsapp.href}
+              href={contact.whatsappHref}
               external
               size="lg"
               variant="outline"
@@ -54,10 +55,10 @@ export function FinalCta() {
             <CheckCircle2 className="h-4 w-4 text-gold" />
             {t.home.ctaEmail}{" "}
             <a
-              href={`mailto:${siteConfig.email}`}
+              href={`mailto:${contact.email}`}
               className="focus-ring font-medium text-white underline-offset-4 hover:underline"
             >
-              {siteConfig.email}
+              {contact.email}
             </a>
           </p>
         </div>

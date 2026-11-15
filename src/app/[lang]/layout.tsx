@@ -21,6 +21,8 @@ import {
   ogLocales,
 } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
+import { SiteDataProvider } from "@/components/site-data";
+import { getSiteData } from "@/lib/site-content";
 import "../globals.css";
 
 // Plus Jakarta Sans for text and headlines (geometric, Indonesian-designed);
@@ -109,6 +111,7 @@ export default async function RootLayout({ children, params }: Props) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const t = dictionaries[lang];
+  const siteData = await getSiteData();
 
   // LinkedIn is excluded: unlike Instagram/Facebook/TikTok it hasn't been
   // confirmed as a live, active profile for this business.
@@ -123,18 +126,18 @@ export default async function RootLayout({ children, params }: Props) {
         url: absoluteUrl("/", lang),
         logo: `${siteConfig.url}/apple-icon.png`,
         description: pageMeta.about[lang].description,
-        email: siteConfig.email,
+        email: siteData.contact.email,
         sameAs: [
-          siteConfig.social.instagram,
-          siteConfig.social.facebook,
-          siteConfig.social.tiktok,
+          siteData.contact.instagram,
+          siteData.contact.facebook,
+          siteData.contact.tiktok,
         ],
         contactPoint: [
           {
             "@type": "ContactPoint",
             contactType: "sales",
-            email: siteConfig.email,
-            telephone: siteConfig.whatsapp.number,
+            email: siteData.contact.email,
+            telephone: siteData.contact.whatsappNumber,
             availableLanguage: ["Indonesian", "English", "Chinese"],
             areaServed: "Worldwide",
           },
@@ -181,6 +184,7 @@ export default async function RootLayout({ children, params }: Props) {
           dangerouslySetInnerHTML={{ __html: jsonLd(organizationSchema) }}
         />
         <ThemeProvider>
+          <SiteDataProvider data={siteData}>
           <LocaleProvider locale={lang} translatedPosts={translatedPostSlugs}>
             <a
               href="#main-content"
@@ -197,6 +201,7 @@ export default async function RootLayout({ children, params }: Props) {
             <LanguageSuggestion />
             <Analytics />
           </LocaleProvider>
+          </SiteDataProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -8,10 +8,12 @@ import { SectionHeading } from "@/components/ui/section";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/i18n/locale-context";
+import { useSiteData } from "@/components/site-data";
 import { formatRupiah } from "@/lib/utils";
 
 export function ServicesGrid({ compact = false }: { compact?: boolean }) {
   const { t, locale } = useLocale();
+  const prices = useSiteData().servicePrices;
   const items = compact ? services.slice(0, 6) : services;
 
   return (
@@ -53,7 +55,7 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
                 <p className="mt-5 flex items-center justify-between rounded-2xl bg-surface-1 px-4 py-3 text-[12px] text-ink-subtle sm:mt-6">
                   {t.servicesGrid.startingFrom}{" "}
                   <span className="text-[14px] font-bold tabular-nums text-ink">
-                    {formatRupiah(service.startingFrom, locale)}
+                    {formatRupiah(prices[service.id] ?? service.startingFrom, locale)}
                   </span>
                 </p>
               </Link>

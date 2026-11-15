@@ -5,6 +5,7 @@ import { getSession } from "@/lib/admin-auth";
 import { computeTotals, idr, quoteNumber, quoteStatusLabel, type Quote } from "@/lib/quote";
 import { sbSelect } from "@/lib/supabase";
 import { AdminShell, adminGate } from "../../shell";
+import { getSiteData } from "@/lib/site-content";
 import { QuoteEditor } from "../quote-editor";
 import { reviewQuote, sendQuote } from "../actions";
 
@@ -100,6 +101,7 @@ export default async function QuotePage({
 
       {editable ? (
         <QuoteEditor
+          pricing={(await getSiteData()).pricing}
           initial={{
             id: q.id,
             lead_id: q.lead_id,

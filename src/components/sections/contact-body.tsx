@@ -9,9 +9,11 @@ import { ContactForm } from "@/components/sections/contact-form";
 import { Reveal } from "@/components/motion/reveal";
 import { siteConfig } from "@/config/site";
 import { useLocale } from "@/i18n/locale-context";
+import { useContact } from "@/components/site-data";
 
 export function ContactBody() {
   const { t } = useLocale();
+  const contact = useContact();
   return (
     <>
       <PageHero
@@ -33,10 +35,10 @@ export function ContactBody() {
                     <div>
                       <p className="text-[12px] font-medium uppercase tracking-[0.1em] text-ink-subtle">{t.contactPage.email}</p>
                       <a
-                        href={`mailto:${siteConfig.email}`}
+                        href={`mailto:${contact.email}`}
                         className="tap focus-ring text-[15px] font-semibold text-ink transition-colors hover:text-accent"
                       >
-                        {siteConfig.email}
+                        {contact.email}
                       </a>
                     </div>
                   </div>
@@ -45,7 +47,7 @@ export function ContactBody() {
                     <div>
                       <p className="text-[12px] font-medium uppercase tracking-[0.1em] text-ink-subtle">{t.contactPage.whatsapp}</p>
                       <a
-                        href={siteConfig.whatsapp.href}
+                        href={contact.whatsappHref}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="tap focus-ring text-[15px] font-semibold text-ink transition-colors hover:text-accent"
