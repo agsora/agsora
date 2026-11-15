@@ -56,7 +56,7 @@ export function AiAssistant() {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="no-print fixed bottom-5 left-5 z-40 flex items-center gap-2 rounded-full bg-[#5b5cf0] px-4 py-3 text-sm font-semibold text-white shadow-lg hover:opacity-95"
+        className="no-print fixed bottom-[6.5rem] right-5 z-40 flex items-center gap-2 rounded-full bg-[#5b5cf0] px-4 py-3 text-sm font-semibold text-white shadow-lg hover:opacity-95"
       >
         <Bot size={18} /> {t.open}
       </button>
@@ -64,7 +64,7 @@ export function AiAssistant() {
   }
 
   return (
-    <div role="dialog" aria-label={t.title} className="no-print fixed bottom-5 left-5 z-50 flex h-[32rem] max-h-[80vh] w-[22rem] max-w-[calc(100vw-2.5rem)] flex-col overflow-hidden rounded-2xl border border-line bg-surface-0 shadow-2xl">
+    <div role="dialog" aria-label={t.title} className="no-print fixed bottom-[6.5rem] right-5 z-50 flex h-[32rem] max-h-[calc(100vh-9rem)] w-[22rem] max-w-[calc(100vw-2.5rem)] flex-col overflow-hidden rounded-2xl border border-line bg-surface-0 shadow-2xl">
       <div className="flex items-center justify-between bg-[#5b5cf0] px-4 py-3 text-white">
         <strong className="flex items-center gap-2 text-sm">
           <Bot size={16} /> {t.title}
