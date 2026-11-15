@@ -512,3 +512,18 @@
 }
 .sn-timing.slow { background: rgba(255, 171, 0, 0.16); color: #b37800; }
 .sn-timing.very-slow { background: rgba(255, 62, 29, 0.14); color: #d6301a; }
+
+/* Loading placeholders (app/admin/loading.tsx). */
+.sn-skeleton {
+  border-radius: 0.4rem;
+  background: linear-gradient(90deg, #eceef1 25%, #f6f7f9 37%, #eceef1 63%);
+  background-size: 400% 100%;
+  animation: sn-shimmer 1.2s ease-in-out infinite;
+}
+@keyframes sn-shimmer {
+  0% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sn-skeleton { animation: none; }
+}
