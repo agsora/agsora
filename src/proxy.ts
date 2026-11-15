@@ -44,8 +44,13 @@ export function proxy(request: NextRequest) {
     url.pathname = "/";
     return NextResponse.redirect(url, 307);
   }
-  if (process.env.NODE_ENV !== "production" && (pathname === "/admin" || pathname.startsWith("/admin/"))) {
-    return NextResponse.next();
+  if (pathname === "/admin" || pathname.startsWith("/admin/")) {
+    // The Vercel address (*.vercel.app) also serves the dashboard at /admin; the public domain never does.
+    if (process.env.NODE_ENV !== "production" || host.endsWith(".vercel.app")) {
+      const res = NextResponse.next();
+      res.headers.set("X-Robots-Tag", "noindex, nofollow");
+      return res;
+    }
   }
   const first = pathname.split("/")[1];
 
