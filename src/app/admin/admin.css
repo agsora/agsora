@@ -400,3 +400,29 @@
   .sn-menu .sn-brand { padding: 0.75rem 1rem; }
   .sn-menu-item.active::after { display: none; }
 }
+
+/* Sales worksheet + quotes + content calendar. */
+.sn-fu-log { list-style: none; margin: 0.7rem 0 0; padding: 0.6rem 0.8rem; background: var(--sn-bg); border-radius: 0.4rem; font-size: 0.8125rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.sn-notice { padding: 0.75rem 1rem; border-radius: var(--sn-radius); margin-bottom: 1rem; background: var(--sn-primary-soft); color: var(--sn-primary); font-size: 0.875rem; }
+.sn-notice.err { background: rgba(255, 62, 29, 0.12); color: var(--sn-danger); }
+.sn-pending { background: rgba(255, 171, 0, 0.16); color: var(--sn-warning); }
+.sn-approved { background: rgba(113, 221, 55, 0.16); color: #5fc22d; }
+.sn-rejected { background: rgba(255, 62, 29, 0.16); color: var(--sn-danger); }
+.sn-sent { background: rgba(3, 195, 236, 0.16); color: var(--sn-info); }
+.sn-draft { background: rgba(133, 146, 163, 0.16); color: var(--sn-secondary); }
+.sn-items { width: 100%; border-collapse: collapse; }
+.sn-items td { padding: 0.3rem 0.35rem 0.3rem 0; vertical-align: top; }
+.sn-totals { margin-left: auto; min-width: 16rem; display: grid; grid-template-columns: 1fr auto; gap: 0.3rem 1.5rem; font-size: 0.9375rem; }
+.sn-cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 1px; background: var(--sn-border); border: 1px solid var(--sn-border); border-radius: var(--sn-radius); overflow: hidden; }
+.sn-cal-head { background: var(--sn-bg); padding: 0.5rem; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; color: var(--sn-heading); text-align: center; }
+.sn-cal-day { background: #fff; min-height: 6.5rem; padding: 0.35rem; display: flex; flex-direction: column; gap: 0.25rem; }
+.sn-cal-day.out { background: #fafafc; opacity: 0.55; }
+.sn-cal-day.today { box-shadow: inset 0 0 0 2px var(--sn-primary); }
+.sn-cal-num { font-size: 0.78rem; color: var(--sn-muted); }
+.sn-chip { display: block; font-size: 0.72rem; line-height: 1.25; padding: 0.2rem 0.4rem; border-radius: 0.3rem; background: var(--sn-primary-soft); color: var(--sn-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sn-chip.s-draft { background: rgba(133, 146, 163, 0.18); color: var(--sn-secondary); }
+.sn-chip.s-review { background: rgba(255, 171, 0, 0.18); color: #b87a00; }
+.sn-chip.s-approved { background: rgba(3, 195, 236, 0.16); color: var(--sn-info); }
+.sn-chip.s-published { background: rgba(113, 221, 55, 0.18); color: #4aa01f; }
+@media (max-width: 900px) { .sn-cal-day { min-height: 4.5rem; } .sn-chip { font-size: 0.65rem; } }
+.sn-field { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.8125rem; color: var(--sn-heading); }

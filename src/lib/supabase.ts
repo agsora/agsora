@@ -34,3 +34,27 @@ export async function sbWrite(
   });
   return res.ok;
 }
+
+/** INSERT and return the created rows (null on failure). */
+export async function sbInsert<T>(table: string, body: unknown): Promise<T[] | null> {
+  const db = config();
+  if (!db) return null;
+  const res = await fetch(`${db.url}/rest/v1/${table}`, {
+    method: "POST",
+    headers: { apikey: db.key, "Content-Type": "application/json", Prefer: "return=representation" },
+    body: JSON.stringify(body),
+  });
+  return res.ok ? ((await res.json()) as T[]) : null;
+}
+
+/** PATCH and return the updated rows, so callers can tell whether a conditional filter matched anything. */
+export async function sbUpdate<T>(table: string, body: unknown, query: string): Promise<T[] | null> {
+  const db = config();
+  if (!db) return null;
+  const res = await fetch(`${db.url}/rest/v1/${table}?${query}`, {
+    method: "PATCH",
+    headers: { apikey: db.key, "Content-Type": "application/json", Prefer: "return=representation" },
+    body: JSON.stringify(body),
+  });
+  return res.ok ? ((await res.json()) as T[]) : null;
+}

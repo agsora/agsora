@@ -10,6 +10,9 @@ const publicSans = Public_Sans({
   display: "swap",
 });
 
+// Every admin page depends on the visitor's cookies and live data: never prerender or cache it.
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Admin | AG·SORA",
   robots: { index: false, follow: false },

@@ -25,6 +25,10 @@ export type Lead = {
   lost_reason: string | null;
   notes: string | null;
   followups: Followup[];
+  /** Sales agent working the lead (sales_users.id). */
+  assigned_to: number | null;
+  /** What the client wants, as written by the sales agent. */
+  wishes: string | null;
 };
 
 export const statusLabel: Record<LeadStatus, string> = {

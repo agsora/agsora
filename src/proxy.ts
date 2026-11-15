@@ -18,6 +18,14 @@ export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   const host = (request.headers.get("host") ?? "").toLowerCase();
+  // www.dashboard.* is not a separate site: send it to the one canonical address.
+  if (host.startsWith("www.dashboard.")) {
+    const url = request.nextUrl.clone();
+    url.host = host.slice(4);
+    url.protocol = "https:";
+    url.port = "";
+    return NextResponse.redirect(url, 308);
+  }
   if (host.startsWith("dashboard.")) {
     const isAdminPath = pathname === "/admin" || pathname.startsWith("/admin/");
     if (isAdminPath) {

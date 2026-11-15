@@ -5,7 +5,7 @@ import { Eye, EyeOff } from "lucide-react";
 import { AdminBrand } from "../brand";
 import { login } from "./actions";
 
-/** Modelled on Sneat's "auth-login-basic": one centred card on the grey canvas. */
+/** Modelled on Sneat's "auth-login-basic". One form for the owner and for sales agents. */
 export function LoginForm() {
   const [error, action, pending] = useActionState(login, null);
   const [show, setShow] = useState(false);
@@ -16,8 +16,24 @@ export function LoginForm() {
           <AdminBrand center />
         </div>
         <h2 className="sn-auth-title">Selamat datang di AG·SORA! 👋</h2>
-        <p style={{ marginBottom: "1.5rem" }}>Masuk ke dashboard untuk mengelola leads, iklan, dan rekrutmen.</p>
+        <p style={{ marginBottom: "1.5rem" }}>Masuk sebagai owner atau sales untuk membuka dashboard.</p>
         <form action={action} style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+          <div>
+            <label htmlFor="username" className="sn-label">
+              Username
+            </label>
+            <input
+              id="username"
+              className="sn-input"
+              name="username"
+              autoFocus
+              autoCapitalize="none"
+              autoCorrect="off"
+              spellCheck={false}
+              autoComplete="username"
+              placeholder="owner atau username sales"
+            />
+          </div>
           <div>
             <label htmlFor="password" className="sn-label">
               Password
@@ -29,7 +45,6 @@ export function LoginForm() {
                 type={show ? "text" : "password"}
                 name="password"
                 required
-                autoFocus
                 autoComplete="current-password"
                 placeholder="············"
               />

@@ -9,6 +9,8 @@ import {
 } from "@/lib/lead-status";
 import { queryLeads } from "@/lib/leads-db";
 import { AdminShell, adminGate } from "../shell";
+import { sbSelect } from "@/lib/supabase";
+import { assignLead } from "../sales/actions";
 import { setStatus, updateLead } from "./actions";
 
 const actionLabel: Record<LeadStatus, string> = {
@@ -29,6 +31,8 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
   const q = (qParam ?? "").replace(/[^\p{L}\p{N}@. +-]/gu, "").trim().slice(0, 60);
   const search = q ? `&or=(${["name", "email", "company", "phone", "need"].map((c) => `${c}.ilike.*${encodeURIComponent(q)}*`).join(",")})` : "";
   const active = status && LEAD_STATUSES.includes(status as LeadStatus) ? (status as LeadStatus) : undefined;
+  const salesList = (await sbSelect<{ id: number; name: string; active: boolean }>("sales_users", "select=id,name,active&order=name.asc")) ?? [];
+  const salesName = new Map(salesList.map((u) => [u.id, u.name]));
   const leads = await queryLeads(`select=*&order=created_at.desc&limit=200${active ? `&status=eq.${active}` : ""}${search}`);
 
   return (
@@ -88,12 +92,14 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
                     <td style={{ minWidth: "16rem", maxWidth: "26rem", whiteSpace: "pre-wrap" }}>
                       {lead.description}
                       {lead.notes ? <div className="sn-note">Catatan: {lead.notes}</div> : null}
+                      {lead.wishes ? <div className="sn-note">Keinginan klien: {lead.wishes}</div> : null}
                     </td>
                     <td style={{ minWidth: "11rem" }}>
                       {lead.need ? <div>Kebutuhan: {lead.need}</div> : null}
                       {lead.budget ? <div>Budget: {lead.budget}</div> : null}
                       {lead.plan ? <div>Paket: {lead.plan}</div> : null}
                       {lead.deal_value ? <div>Nilai deal: {idr(lead.deal_value)}</div> : null}
+                      {lead.assigned_to ? <div>Sales: {salesName.get(lead.assigned_to) ?? `#${lead.assigned_to}`}</div> : null}
                       {lead.status === "lost" && lead.lost_reason ? <div>Alasan batal: {lead.lost_reason}</div> : null}
                       <div className="sn-muted">
                         {new Date(lead.created_at).toLocaleString("id-ID", { timeZone: "Asia/Jakarta" })} · {lead.locale}
@@ -111,6 +117,18 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
                             {actionLabel[s]}
                           </button>
                         ))}
+                      </form>
+                      <form action={assignLead} style={{ display: "flex", gap: "0.35rem", marginTop: "0.5rem" }}>
+                        <input type="hidden" name="id" value={lead.id} />
+                        <select name="sales_id" className="sn-input" defaultValue={lead.assigned_to ?? ""} aria-label="Tugaskan ke sales">
+                          <option value="">Belum ditugaskan</option>
+                          {salesList.filter((u) => u.active || u.id === lead.assigned_to).map((u) => (
+                            <option key={u.id} value={u.id}>
+                              {u.name}
+                            </option>
+                          ))}
+                        </select>
+                        <button className="sn-btn sn-btn-sm">Tugaskan</button>
                       </form>
                       <details className="sn-edit">
                         <summary>Segmen, nilai &amp; catatan</summary>
