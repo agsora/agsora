@@ -46,7 +46,7 @@ const PAGE_UPDATED: Record<string, string> = {
   "/contact": "2026-10-06",
   "/checklist": "2026-10-06",
   "/karier": "2026-11-15",
-  "/template": "2026-11-15",
+  "/contoh": "2026-11-15",
   "/privacy-policy": "2026-10-06",
   "/terms-conditions": "2026-09-26",
 };
@@ -63,7 +63,7 @@ const routes = [
   "/contact",
   "/checklist",
   "/karier",
-  "/template",
+  "/contoh",
   "/privacy-policy",
   "/terms-conditions",
 ];
@@ -105,7 +105,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // One live demo page per template.
   const templatePages = TEMPLATES.flatMap((t) =>
-    localized(`/template/${t.slug}`, { lastModified: new Date("2026-11-15"), changeFrequency: "monthly", priority: 0.7 })
+    localized(`/contoh/${t.slug}`, { lastModified: new Date("2026-11-15"), changeFrequency: "monthly", priority: 0.7 })
   );
 
   // Each post only in the languages it's been translated into.

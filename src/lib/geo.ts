@@ -9,6 +9,7 @@ import {
 } from "@/config/blog";
 import { getPostBlocks } from "@/config/blog-content";
 import { industries } from "@/config/industries";
+import { TEMPLATES } from "@/config/templates";
 import { services } from "@/config/services";
 import { WARRANTY_DAYS } from "@/config/guarantees";
 import { siteConfig } from "@/config/site";
@@ -75,9 +76,23 @@ function industriesSection(locale: Locale): string[] {
   ];
 }
 
+/** Live, clickable demos with their starting price and delivery time. */
+function demosSection(locale: Locale): string[] {
+  const days = { id: "hari kerja", en: "working days", zh: "个工作日" }[locale];
+  return [
+    "## Live demos (website and app examples)",
+    "",
+    ...TEMPLATES.map(
+      (t) =>
+        `- [${t.seoName[locale]}](${absoluteUrl(`/contoh/${t.slug}`, locale)}): ${oneLine(t.summary[locale])} (${startingAt[locale]} ${rupiah(t.priceFrom)}, ${t.days} ${days})`
+    ),
+  ];
+}
+
 const corePages = (locale: Locale): [string, string, string][] => [
   ["About", "/about", "Company profile, approach and values"],
   ["Pricing", "/pricing", "Pricing packages and what each includes"],
+  ["Examples & demos", "/contoh", "Clickable website and app demos with starting prices"],
   ["Blog", "/blog", "Practical guides on ERP, POS, HRIS, CRM, websites and AI for business"],
   ["Contact", "/contact", "Talk to the team"],
 ].map(([name, path, note]) => [name, absoluteUrl(path, locale), note]);
@@ -90,6 +105,8 @@ export function buildLlmsTxt(): string {
     ...servicesSection("en"),
     "",
     ...industriesSection("en"),
+    "",
+    ...demosSection("en"),
     "",
     "## Key pages",
     "",
@@ -109,7 +126,7 @@ export function buildLlmsFullTxt(): string {
 
   for (const locale of locales) {
     const name = { id: "Bahasa Indonesia", en: "English", zh: "中文" }[locale];
-    lines.push("", `# ${name}`, "", ...servicesSection(locale), "", ...industriesSection(locale));
+    lines.push("", `# ${name}`, "", ...servicesSection(locale), "", ...industriesSection(locale), "", ...demosSection(locale));
 
     lines.push("", "## Articles", "");
     for (const post of newestPosts()) {

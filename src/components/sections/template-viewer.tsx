@@ -16,55 +16,55 @@ type Lang = "id" | "en" | "zh";
 
 const COPY = {
   id: {
-    crumb: "Template",
+    crumb: "Contoh & Demo",
     hint: "Demo ini bisa diklik dan dicoba. Data di dalamnya hanya contoh.",
     full: "Layar penuh",
     devices: { desktop: "Desktop", tablet: "Tablet", phone: "HP" },
     forWho: "Cocok untuk",
-    includes: "Yang ada di template ini",
+    includes: "Yang bisa dicoba di demo ini",
     from: "Mulai dari",
     note: "Belum termasuk PPN. Harga akhir mengikuti fitur yang Anda pilih.",
     days: "hari kerja",
-    use: "Pakai template ini",
+    use: "Buat yang seperti ini",
     quote: "Minta penawaran",
     custom: ["Logo, warna, dan foto diganti sesuai merek Anda", "Konten dan menu disesuaikan", "Fitur bisa ditambah (pembayaran, login, laporan)", "Source code menjadi milik Anda"],
     customTitle: "Bisa disesuaikan",
-    more: "Template lain",
-    wa: (n: string) => `Halo AG·SORA, saya tertarik dengan template "${n}". Bisa dibantu penawarannya?`,
+    more: "Contoh lainnya",
+    wa: (n: string) => `Halo AG·SORA, saya sudah mencoba demo "${n}" dan ingin dibuatkan yang seperti ini. Bisa dibantu penawarannya?`,
   },
   en: {
-    crumb: "Templates",
+    crumb: "Examples & Demos",
     hint: "This demo is clickable. The data in it is sample data.",
     full: "Full screen",
     devices: { desktop: "Desktop", tablet: "Tablet", phone: "Phone" },
     forWho: "Good for",
-    includes: "What this template includes",
+    includes: "What you can try in this demo",
     from: "From",
     note: "Excludes VAT. The final price depends on the features you choose.",
     days: "working days",
-    use: "Use this template",
+    use: "Build one like this",
     quote: "Request a quote",
     custom: ["Your logo, colours and photos", "Content and menus tailored", "Add features (payments, login, reports)", "You own the source code"],
     customTitle: "Customisable",
-    more: "More templates",
-    wa: (n: string) => `Hello AG·SORA, I'm interested in the "${n}" template. Could you send me a quote?`,
+    more: "More examples",
+    wa: (n: string) => `Hello AG·SORA, I tried the "${n}" demo and would like one like it. Could you send me a quote?`,
   },
   zh: {
-    crumb: "模板",
+    crumb: "示例与演示",
     hint: "此演示可直接点击体验，其中数据仅为示例。",
     full: "全屏",
     devices: { desktop: "电脑", tablet: "平板", phone: "手机" },
     forWho: "适合",
-    includes: "模板包含",
+    includes: "演示中可体验",
     from: "起价",
     note: "不含增值税，最终价格取决于所选功能。",
     days: "个工作日",
-    use: "使用此模板",
+    use: "做一个类似的",
     quote: "获取报价",
     custom: ["替换为您的标志、颜色与图片", "内容与菜单按需调整", "可增加功能（支付、登录、报表）", "源代码归您所有"],
     customTitle: "可定制",
-    more: "更多模板",
-    wa: (n: string) => `您好 AG·SORA，我对"${n}"模板感兴趣，可以提供报价吗？`,
+    more: "更多示例",
+    wa: (n: string) => `您好 AG·SORA，我体验了"${n}"演示，想做一个类似的，可以提供报价吗？`,
   },
 } as const;
 
@@ -90,13 +90,13 @@ export function TemplateViewer({ tpl }: { tpl: Template }) {
             label={t.breadcrumbLabel}
             items={[
               { name: t.breadcrumbHome, href: "/" },
-              { name: c.crumb, href: "/template" },
-              { name: tpl.name[lang], href: `/template/${tpl.slug}` },
+              { name: c.crumb, href: "/contoh" },
+              { name: tpl.name[lang], href: `/contoh/${tpl.slug}` },
             ]}
           />
           <div className="mt-6 flex flex-wrap items-end justify-between gap-4">
             <div>
-              <h1 className="text-[30px] font-extrabold tracking-tight text-ink md:text-[40px]">{tpl.name[lang]}</h1>
+              <h1 className="text-[30px] font-extrabold tracking-tight text-ink md:text-[40px]">{tpl.seoName[lang]}</h1>
               <p className="mt-2 max-w-2xl text-[16px] text-ink-muted">{tpl.summary[lang]}</p>
             </div>
             <div className="flex items-center gap-2">

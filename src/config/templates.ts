@@ -1,5 +1,5 @@
 /**
- * The template gallery (/template): ready-made designs a prospect can try before ordering. Each one has a live,
+ * The demo gallery (/contoh): ready-made designs a prospect can try before ordering. Each one has a live,
  * clickable demo at /demo/<slug> (see src/components/demos). Prices come from the service price list, so a price
  * changed in the dashboard shows here too.
  */
@@ -17,6 +17,8 @@ export type TemplateCategory = Exclude<(typeof TEMPLATE_CATEGORIES)[number]["key
 export type Template = {
   slug: string;
   name: L;
+  /** The page heading and title, phrased the way people search ("contoh website …"). */
+  seoName: L;
   category: TemplateCategory;
   /** Who it suits. */
   forWho: L;
@@ -36,6 +38,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "korporat",
     name: L("Company Profile Korporat", "Corporate Company Profile", "企业形象官网"),
+    seoName: L("Contoh Website Company Profile", "Company Profile Website Example", "企业官网示例"),
     category: "website",
     forWho: L("Kontraktor, konsultan, jasa B2B", "Contractors, consultants, B2B services", "承包商、顾问、B2B 服务"),
     summary: L(
@@ -52,6 +55,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "toko-online",
     name: L("Toko Online", "Online Store", "网上商店"),
+    seoName: L("Contoh Website Toko Online", "Online Store Website Example", "网上商店网站示例"),
     category: "shop",
     forWho: L("UMKM fashion, kerajinan, produk kemasan", "Fashion, craft and packaged-goods brands", "服饰、手工艺与包装商品品牌"),
     summary: L(
@@ -68,6 +72,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "restoran",
     name: L("Restoran & Kafe", "Restaurant & Café", "餐厅与咖啡馆"),
+    seoName: L("Contoh Website Restoran & Kafe", "Restaurant & Café Website Example", "餐厅与咖啡馆网站示例"),
     category: "shop",
     forWho: L("Restoran, kafe, katering", "Restaurants, cafés, caterers", "餐厅、咖啡馆、餐饮服务"),
     summary: L(
@@ -84,6 +89,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "klinik",
     name: L("Klinik & Booking Dokter", "Clinic & Doctor Booking", "诊所与医生预约"),
+    seoName: L("Contoh Website Klinik & Booking Dokter", "Clinic & Doctor Booking Website Example", "诊所网站与在线预约示例"),
     category: "website",
     forWho: L("Klinik, praktik dokter, dokter gigi, salon", "Clinics, practices, dentists, salons", "诊所、私人诊室、牙科、美容院"),
     summary: L(
@@ -100,6 +106,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "sekolah",
     name: L("Sekolah & Pendaftaran Siswa", "School & Admissions", "学校与招生"),
+    seoName: L("Contoh Website Sekolah & PPDB Online", "School & Admissions Website Example", "学校网站与在线招生示例"),
     category: "website",
     forWho: L("Sekolah, kursus, bimbel, pesantren", "Schools, courses, tutoring centres", "学校、培训班、补习机构"),
     summary: L(
@@ -116,6 +123,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "kasir",
     name: L("Aplikasi Kasir (POS)", "Point of Sale (POS)", "收银系统 (POS)"),
+    seoName: L("Contoh Aplikasi Kasir (POS)", "Point of Sale (POS) App Example", "收银系统 (POS) 示例"),
     category: "app",
     forWho: L("Toko, minimarket, kafe, outlet", "Shops, minimarts, cafés, outlets", "商店、便利店、咖啡馆、门店"),
     summary: L(
@@ -132,6 +140,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "dashboard",
     name: L("Dashboard Bisnis (ERP)", "Business Dashboard (ERP)", "业务仪表盘 (ERP)"),
+    seoName: L("Contoh Dashboard ERP & Laporan Bisnis", "ERP Business Dashboard Example", "ERP 与业务报表仪表盘示例"),
     category: "app",
     forWho: L("Distributor, manufaktur, multi cabang", "Distributors, manufacturers, multi-branch", "分销商、制造商、多门店"),
     summary: L(
@@ -148,6 +157,7 @@ export const TEMPLATES: Template[] = [
   {
     slug: "landing",
     name: L("Landing Page Promosi", "Promo Landing Page", "推广落地页"),
+    seoName: L("Contoh Landing Page Promosi", "Promo Landing Page Example", "推广落地页示例"),
     category: "website",
     forWho: L("Peluncuran produk, event, kelas online", "Product launches, events, online classes", "新品发布、活动、在线课程"),
     summary: L(

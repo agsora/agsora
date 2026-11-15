@@ -48,7 +48,7 @@ export function ContactForm() {
     .filter((n): n is string => Boolean(n));
   // ?template=klinik comes from the template gallery.
   const template = templateBySlug(params.get("template") ?? "");
-  if (template) planNames.push(`Template ${template.name[locale]}`);
+  if (template) planNames.push(`Demo: ${template.name[locale]}`);
   const plan = planNames.join(", ");
   const industry = params.get("industry");
   const sourcePage = `${params.get("from") ?? pathname}${industry ? ` (${industry})` : ""}`;
