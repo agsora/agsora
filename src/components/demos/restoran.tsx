@@ -4,17 +4,17 @@ import { useState, type FormEvent } from "react";
 import { CalendarDays, Clock, Flame, Leaf, MapPin, Minus, Plus, Users } from "lucide-react";
 import { Photo, Toast, rp } from "./shared";
 
-type Item = { id: number; n: string; d: string; p: number; c: string; hot?: boolean; veg?: boolean; g: [string, string] };
+type Item = { id: number; n: string; d: string; p: number; c: string; hot?: boolean; veg?: boolean; img: string; g: [string, string] };
 const MENU: Item[] = [
-  { id: 1, n: "Rendang Daging Sapi", d: "Dimasak 8 jam dengan rempah Minang", p: 58_000, c: "Utama", hot: true, g: ["#5a2a12", "#a2531e"] },
-  { id: 2, n: "Ayam Bakar Taliwang", d: "Pedas manis khas Lombok, nasi hangat", p: 45_000, c: "Utama", hot: true, g: ["#7a2e12", "#d9682a"] },
-  { id: 3, n: "Gulai Ikan Kakap", d: "Kuah santan kuning, daun kunyit", p: 52_000, c: "Utama", g: ["#7a5a12", "#d9b02a"] },
-  { id: 4, n: "Gado-gado Jakarta", d: "Sayur rebus, tahu, telur, saus kacang", p: 32_000, c: "Utama", veg: true, g: ["#3a5a12", "#8ab02a"] },
-  { id: 5, n: "Tahu Telur Surabaya", d: "Renyah, petis, tauge", p: 24_000, c: "Pembuka", veg: true, g: ["#7a6a3a", "#d9c07a"] },
-  { id: 6, n: "Sate Lilit Bali (5 tusuk)", d: "Ikan tenggiri, sambal matah", p: 35_000, c: "Pembuka", g: ["#6a3a1a", "#c47a3a"] },
-  { id: 7, n: "Es Teh Serai", d: "Teh melati, serai segar", p: 15_000, c: "Minuman", g: ["#5a4a12", "#c4a02a"] },
-  { id: 8, n: "Es Kopi Gula Aren", d: "Robusta Lampung, gula aren cair", p: 25_000, c: "Minuman", g: ["#3a2a1a", "#8a6a4a"] },
-  { id: 9, n: "Klepon Pandan", d: "Isi gula merah, kelapa parut", p: 18_000, c: "Penutup", veg: true, g: ["#2a5a2a", "#6ab06a"] },
+  { id: 1, n: "Rendang Daging Sapi", d: "Dimasak 8 jam dengan rempah Minang", p: 58_000, c: "Utama", hot: true, img: "rendang", g: ["#5a2a12", "#a2531e"] },
+  { id: 2, n: "Ayam Bakar Taliwang", d: "Pedas manis khas Lombok, nasi hangat", p: 45_000, c: "Utama", hot: true, img: "ayam-bakar", g: ["#7a2e12", "#d9682a"] },
+  { id: 3, n: "Gulai Ikan Kakap", d: "Kuah santan kuning, daun kunyit", p: 52_000, c: "Utama", img: "gulai-ikan", g: ["#7a5a12", "#d9b02a"] },
+  { id: 4, n: "Gado-gado Jakarta", d: "Sayur rebus, tahu, telur, saus kacang", p: 32_000, c: "Utama", veg: true, img: "gado-gado", g: ["#3a5a12", "#8ab02a"] },
+  { id: 5, n: "Tahu Telur Surabaya", d: "Renyah, petis, tauge", p: 24_000, c: "Pembuka", veg: true, img: "tahu", g: ["#7a6a3a", "#d9c07a"] },
+  { id: 6, n: "Sate Ayam (10 tusuk)", d: "Bumbu kacang, lontong, acar", p: 35_000, c: "Pembuka", img: "sate", g: ["#6a3a1a", "#c47a3a"] },
+  { id: 7, n: "Es Teh Jeruk Nipis", d: "Teh melati, jeruk nipis segar", p: 15_000, c: "Minuman", img: "es-teh", g: ["#5a4a12", "#c4a02a"] },
+  { id: 8, n: "Es Kopi Gula Aren", d: "Robusta Lampung, gula aren cair", p: 25_000, c: "Minuman", img: "es-kopi", g: ["#3a2a1a", "#8a6a4a"] },
+  { id: 9, n: "Pisang Goreng Madu", d: "Pisang kepok, madu hutan, keju", p: 18_000, c: "Penutup", veg: true, img: "pisang", g: ["#2a5a2a", "#6ab06a"] },
 ];
 const CATS = ["Utama", "Pembuka", "Minuman", "Penutup"];
 const TIMES = ["11.00", "12.00", "13.00", "18.00", "19.00", "20.00"];
@@ -50,7 +50,7 @@ export default function RestoranDemo() {
           </nav>
         </div>
       </header>
-      <Photo from="#2f4a2a" to="#a2531e" className="min-h-[460px]">
+      <Photo from="#2f4a2a" to="#a2531e" src="restoran/hero" alt="Ruang makan restoran" eager shade={0.55} className="min-h-[460px]">
         <div className="mx-auto max-w-3xl px-5 pt-16 text-center text-white">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-200">Masakan Nusantara</p>
           <h1 className="mt-4 font-serif text-4xl font-bold leading-tight md:text-6xl">Rasa rumah, resep warisan.</h1>
@@ -78,7 +78,7 @@ export default function RestoranDemo() {
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {MENU.filter((m) => m.c === cat).map((m) => (
               <div key={m.id} className="flex gap-4 rounded-2xl bg-white p-3">
-                <Photo from={m.g[0]} to={m.g[1]} className="h-24 w-24 shrink-0 rounded-xl" />
+                <Photo from={m.g[0]} to={m.g[1]} src={`restoran/${m.img}`} alt={m.n} className="h-24 w-24 shrink-0 rounded-xl" />
                 <div className="flex flex-1 flex-col">
                   <div className="flex items-center gap-1.5 font-semibold">
                     {m.n}

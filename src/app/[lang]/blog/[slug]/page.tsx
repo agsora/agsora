@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // Full title/excerpt stay on the page and in the schema; the tags that
   // search results display are trimmed to fit.
-  const title = seoTitle(getPostTitle(post, locale));
+  const title = post.seoTitles?.[locale] ?? seoTitle(getPostTitle(post, locale));
   const description = seoDescription(getPostExcerpt(post, locale));
   const path = `/blog/${post.slug}`;
   const available = postLocales(post);

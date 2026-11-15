@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { BookOpen, Calculator, CalendarDays, CheckCircle2, Cpu, GraduationCap, Palette, Wrench } from "lucide-react";
+import { Calculator, CalendarDays, CheckCircle2, Cpu, GraduationCap, Palette, Wrench } from "lucide-react";
 import { Photo, rp } from "./shared";
 
 const PROGRAMS = [
@@ -57,9 +57,7 @@ export default function SekolahDemo() {
               Daftar Sekarang
             </a>
           </div>
-          <Photo from="#2a52b0" to="#7fa6f0" className="aspect-[4/3] rounded-3xl">
-            <BookOpen className="h-20 w-20 text-white/70" />
-          </Photo>
+          <Photo from="#2a52b0" to="#7fa6f0" src="sekolah/hero" alt="Siswa berseragam di depan sekolah" eager className="aspect-[4/3] rounded-3xl" />
         </div>
       </section>
 
@@ -79,6 +77,7 @@ export default function SekolahDemo() {
       <section className="bg-slate-50 py-16">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-2">
           <div id="agenda">
+            <Photo from="#1d3f8f" to="#7fa6f0" src="sekolah/bengkel" alt="Siswa praktik di bengkel sekolah" className="mb-6 aspect-[16/9] rounded-2xl" />
             <h2 className="text-2xl font-bold text-[#1d3f8f]">Agenda PPDB</h2>
             <ol className="mt-6 space-y-4">
               {AGENDA.map(([d, t]) => (

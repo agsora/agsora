@@ -365,6 +365,7 @@ export const meta: PostMeta[] = [
   {
     slug: "google-tag-manager-server-side-tagging-dan-consent-mode-untuk-pengukuran-yang-patuh",
     title: "Google Tag Manager, Server-Side Tagging, dan Consent Mode: Pengukuran Website yang Patuh dan Akurat",
+    seoTitles: { id: "Panduan GTM, Server-Side Tagging & Consent Mode", en: "GTM, Server-Side Tagging & Consent Mode Guide" },
     excerpt: "Cara menata pengukuran website bisnis: rencana pengukuran, Google Tag Manager dan data layer, consent mode, server-side tagging, penamaan event, pengujian, dan tata kelola agar data konversi akurat tanpa melanggar privasi pengunjung.",
     category: "Website & Digital",
     publishedAt: "2026-11-10",
@@ -1368,6 +1369,7 @@ export const meta: PostMeta[] = [
   {
     slug: "core-web-vitals-lcp-inp-cls-panduan-untuk-website-bisnis",
     title: "Core Web Vitals (LCP, INP, CLS): Panduan Praktis Memperbaiki Kecepatan Website Bisnis",
+    seoTitles: { en: "Core Web Vitals (LCP, INP, CLS): A Practical Guide" },
     excerpt: "Arti tiga metrik Core Web Vitals, cara mengecek skor di Search Console dan PageSpeed Insights, penyebab nilai buruk, dan urutan perbaikan yang memberi hasil terbesar.",
     category: "Teknologi",
     publishedAt: "2026-10-23",

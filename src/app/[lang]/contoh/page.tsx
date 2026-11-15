@@ -11,7 +11,7 @@ const META = {
   id: {
     title: "Contoh Website & Aplikasi Bisnis: Coba Demo Gratis",
     description:
-      "Coba langsung contoh website company profile, toko online, restoran, klinik, sekolah, aplikasi kasir (POS), dan dashboard ERP. Lengkap dengan harga mulai dan lama pengerjaan.",
+      "Coba demo contoh website company profile, toko online, restoran, klinik, sekolah, aplikasi kasir (POS), dan dashboard ERP, lengkap dengan harganya.",
   },
   en: {
     title: "Website & Business App Examples: Try Free Demos",

@@ -155,7 +155,7 @@ export const pageMeta = {
     },
     en: {
       title: "Privacy Policy",
-      description: `How ${brand} collects, uses, and protects user data.`,
+      description: `How ${brand} collects, uses, stores and protects the personal data of website visitors and clients, and how to request access or deletion.`,
     },
     zh: {
       title: "隐私政策",

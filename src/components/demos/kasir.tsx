@@ -1,21 +1,21 @@
 "use client";
 
 import { useState } from "react";
-import { Banknote, Coffee, CookingPot, Minus, Plus, Printer, QrCode, Search, Trash2, X } from "lucide-react";
-import { rp } from "./shared";
+import { Banknote, Minus, Plus, Printer, QrCode, Search, Trash2, X } from "lucide-react";
+import { Photo, rp } from "./shared";
 
-type Prod = { id: number; n: string; c: string; p: number; stock: number };
+type Prod = { id: number; n: string; c: string; p: number; stock: number; img: string };
 const PRODUCTS: Prod[] = [
-  { id: 1, n: "Kopi Susu Aren", c: "Minuman", p: 22_000, stock: 48 },
-  { id: 2, n: "Americano", c: "Minuman", p: 20_000, stock: 60 },
-  { id: 3, n: "Matcha Latte", c: "Minuman", p: 28_000, stock: 22 },
-  { id: 4, n: "Teh Tarik", c: "Minuman", p: 18_000, stock: 35 },
-  { id: 5, n: "Croissant Butter", c: "Makanan", p: 24_000, stock: 9 },
-  { id: 6, n: "Roti Bakar Coklat", c: "Makanan", p: 20_000, stock: 15 },
-  { id: 7, n: "Nasi Goreng Kampung", c: "Makanan", p: 32_000, stock: 18 },
-  { id: 8, n: "Mie Goreng Spesial", c: "Makanan", p: 30_000, stock: 3 },
-  { id: 9, n: "Kentang Goreng", c: "Snack", p: 18_000, stock: 40 },
-  { id: 10, n: "Pisang Goreng Keju", c: "Snack", p: 20_000, stock: 12 },
+  { id: 1, n: "Kopi Susu Aren", c: "Minuman", p: 22_000, stock: 48, img: "restoran/es-kopi" },
+  { id: 2, n: "Americano", c: "Minuman", p: 20_000, stock: 60, img: "kasir/americano" },
+  { id: 3, n: "Matcha Latte", c: "Minuman", p: 28_000, stock: 22, img: "kasir/matcha" },
+  { id: 4, n: "Es Teh Lemon", c: "Minuman", p: 18_000, stock: 35, img: "restoran/es-teh" },
+  { id: 5, n: "Croissant Butter", c: "Makanan", p: 24_000, stock: 9, img: "kasir/croissant" },
+  { id: 6, n: "Sate Ayam", c: "Makanan", p: 30_000, stock: 15, img: "restoran/sate" },
+  { id: 7, n: "Nasi Goreng Kampung", c: "Makanan", p: 32_000, stock: 18, img: "kasir/nasi-goreng" },
+  { id: 8, n: "Mie Goreng Spesial", c: "Makanan", p: 30_000, stock: 3, img: "kasir/mie-goreng" },
+  { id: 9, n: "Kentang Goreng", c: "Snack", p: 18_000, stock: 40, img: "kasir/kentang" },
+  { id: 10, n: "Pisang Goreng Keju", c: "Snack", p: 20_000, stock: 12, img: "restoran/pisang" },
 ];
 const CATS = ["Semua", "Minuman", "Makanan", "Snack"];
 const TAX = 0.1;
@@ -66,7 +66,7 @@ export default function KasirDemo() {
         <div className="mt-4 grid flex-1 auto-rows-min grid-cols-2 gap-3 overflow-y-auto sm:grid-cols-3 xl:grid-cols-4">
           {shown.map((p) => (
             <button key={p.id} onClick={() => add(p.id, 1)} className="rounded-2xl bg-white p-4 text-left transition hover:ring-2 hover:ring-[#3b2a6b]">
-              <div className="grid h-16 place-items-center rounded-xl bg-[#ece8f8] text-[#3b2a6b]">{p.c === "Minuman" ? <Coffee /> : <CookingPot />}</div>
+              <Photo from="#ece8f8" to="#c9bff0" src={p.img} alt={p.n} className="h-24 rounded-xl" />
               <div className="mt-3 text-sm font-semibold leading-tight">{p.n}</div>
               <div className="mt-1 flex items-center justify-between text-sm">
                 <span className="font-bold text-[#3b2a6b]">{rp(p.p)}</span>

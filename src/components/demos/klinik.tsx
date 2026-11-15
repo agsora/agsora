@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Photo } from "./shared";
 import { Baby, Bone, CalendarCheck, CheckCircle2, ChevronLeft, HeartPulse, Smile, Stethoscope } from "lucide-react";
 
 const POLI = [
@@ -65,6 +66,7 @@ export default function KlinikDemo() {
               </div>
             ))}
           </div>
+          <Photo from="#0e5c63" to="#7fc4c4" src="klinik/hero" alt="Ruang tunggu klinik yang bersih" eager className="mt-6 aspect-[16/9] rounded-2xl" />
         </div>
 
         <div id="booking" className="rounded-3xl bg-white p-6 shadow-xl">
@@ -96,7 +98,11 @@ export default function KlinikDemo() {
               <div className="mt-4 grid gap-2">
                 {DOCTORS[poli].map((d) => (
                   <button key={d.n} onClick={() => setDoc(d.n)} className={`flex items-center gap-3 rounded-xl p-3 text-left ring-2 ${doc === d.n ? "ring-[#0e5c63]" : "ring-transparent bg-slate-50"}`}>
-                    <span className="grid h-11 w-11 place-items-center rounded-full bg-[#d6eeee] font-bold text-[#0e5c63]">{d.n.replace(/^drg?\. /, "")[0]}</span>
+                    {d.n === "dr. Rina Pratiwi" ? (
+                      <Photo from="#d6eeee" to="#0e5c63" src="klinik/dokter" alt={d.n} className="h-11 w-11 shrink-0 rounded-full" />
+                    ) : (
+                      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-[#d6eeee] font-bold text-[#0e5c63]">{d.n.replace(/^drg?\. /, "")[0]}</span>
+                    )}
                     <span>
                       <span className="block font-semibold">{d.n}</span>
                       <span className="text-xs text-slate-500">

@@ -104,6 +104,8 @@ export type PostMeta = {
    * existed — the site's default and only fully-supported content language.
    */
   titleTranslations?: PostTextTranslations;
+  /** Hand-written <title> per language for posts whose automatic shortening reads badly (the <h1> keeps the full title). */
+  seoTitles?: Partial<Record<Locale, string>>;
   excerptTranslations?: PostTextTranslations;
 };
 

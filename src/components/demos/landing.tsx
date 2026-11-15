@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { BarChart3, Check, ChevronDown, Clock, Sparkles, Star, Users, Zap } from "lucide-react";
+import { Check, ChevronDown, Clock, Sparkles, Star, Users, Zap } from "lucide-react";
 import { Photo, rp } from "./shared";
 
 const PLANS = [
@@ -56,9 +56,7 @@ export default function LandingDemo() {
             <button className="rounded-full bg-gradient-to-r from-fuchsia-500 to-amber-400 px-6 py-3 font-semibold">Mulai 14 Hari Gratis</button>
           </form>
         )}
-        <Photo from="#3b1452" to="#7c2d6b" className="relative mx-auto mt-14 aspect-[16/9] max-w-3xl rounded-2xl ring-1 ring-white/10">
-          <BarChart3 className="h-20 w-20 text-white/60" />
-        </Photo>
+        <Photo from="#3b1452" to="#7c2d6b" src="landing/hero" alt="Pemilik usaha mencatat penjualan di laptop" eager className="relative mx-auto mt-14 aspect-[16/9] max-w-3xl rounded-2xl ring-1 ring-white/10" />
       </section>
 
       <section className="mx-auto grid max-w-6xl gap-5 px-5 py-16 md:grid-cols-3">

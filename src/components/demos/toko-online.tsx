@@ -4,18 +4,18 @@ import { useState } from "react";
 import { Heart, Minus, Plus, Search, ShoppingBag, Truck, X } from "lucide-react";
 import { Photo, rp } from "./shared";
 
-type P = { id: number; n: string; c: string; p: number; was?: number; tag?: string; g: [string, string] };
+type P = { id: number; n: string; c: string; p: number; was?: number; tag?: string; img: string; g: [string, string] };
 const PRODUCTS: P[] = [
-  { id: 1, n: "Kemeja Batik Parang Slim", c: "Pria", p: 289_000, was: 349_000, tag: "Diskon", g: ["#6b3a1f", "#c98b4a"] },
-  { id: 2, n: "Dress Batik Kawung Midi", c: "Wanita", p: 399_000, tag: "Terlaris", g: ["#3a2a1f", "#a4744a"] },
-  { id: 3, n: "Kain Batik Tulis Lasem", c: "Kain", p: 750_000, g: ["#5a1f1f", "#c45a4a"] },
-  { id: 4, n: "Outer Batik Mega Mendung", c: "Wanita", p: 329_000, g: ["#1f3a5a", "#4a8ac4"] },
-  { id: 5, n: "Kemeja Batik Sogan Klasik", c: "Pria", p: 259_000, g: ["#4a3a1f", "#b49a5a"] },
-  { id: 6, n: "Selendang Sutra Batik", c: "Aksesori", p: 189_000, tag: "Baru", g: ["#5a1f4a", "#c45aa4"] },
-  { id: 7, n: "Masker Batik (isi 3)", c: "Aksesori", p: 59_000, g: ["#1f4a3a", "#5ab48a"] },
-  { id: 8, n: "Kain Batik Cap Pekalongan", c: "Kain", p: 220_000, g: ["#3a1f5a", "#8a5ac4"] },
+  { id: 1, n: "Kemeja Batik Biru Modern", c: "Kemeja", p: 289_000, was: 349_000, tag: "Diskon", img: "kemeja-biru", g: ["#1f3a5a", "#4a8ac4"] },
+  { id: 2, n: "Kemeja Batik Seragam Kantor", c: "Kemeja", p: 259_000, tag: "Terlaris", img: "kemeja-seragam", g: ["#3a2a1f", "#a4744a"] },
+  { id: 3, n: "Kain Batik Tulis Lasem", c: "Kain", p: 750_000, img: "kain-lasem", g: ["#5a1f1f", "#c45a4a"] },
+  { id: 4, n: "Kain Batik Parang Rusak", c: "Kain", p: 320_000, img: "kain-parang", g: ["#4a3a1f", "#b49a5a"] },
+  { id: 5, n: "Kain Batik Kawung", c: "Kain", p: 295_000, img: "kain-kawung", g: ["#6b3a1f", "#c98b4a"] },
+  { id: 6, n: "Selendang Sutra Warna", c: "Aksesori", p: 189_000, tag: "Baru", img: "selendang", g: ["#5a1f4a", "#c45aa4"] },
+  { id: 7, n: "Kain Batik Cap Pekalongan", c: "Kain", p: 220_000, img: "kain-pekalongan", g: ["#3a1f5a", "#8a5ac4"] },
+  { id: 8, n: "Kain Batik Sogan Klasik", c: "Kain", p: 410_000, img: "kain-sogan", g: ["#3a2a1f", "#8a6a4a"] },
 ];
-const CATS = ["Semua", "Pria", "Wanita", "Kain", "Aksesori"];
+const CATS = ["Semua", "Kemeja", "Kain", "Aksesori"];
 const FREE_SHIP = 500_000;
 
 export default function TokoOnlineDemo() {
@@ -59,7 +59,7 @@ export default function TokoOnlineDemo() {
             Belanja Sekarang
           </a>
         </div>
-        <Photo from="#7a3b1d" to="#e0b072" className="aspect-[5/4] rounded-3xl" />
+        <Photo from="#7a3b1d" to="#e0b072" src="toko-online/hero" alt="Pengrajin membuat batik tulis" eager className="aspect-[5/4] rounded-3xl" />
       </section>
 
       <section id="produk" className="mx-auto max-w-6xl px-5 pb-20">
@@ -74,7 +74,7 @@ export default function TokoOnlineDemo() {
           {shown.map((p) => (
             <article key={p.id} className="group">
               <div className="relative">
-                <Photo from={p.g[0]} to={p.g[1]} className="aspect-[3/4] rounded-2xl" />
+                <Photo from={p.g[0]} to={p.g[1]} src={`toko-online/${p.img}`} alt={p.n} className="aspect-[3/4] rounded-2xl" />
                 {p.tag ? <span className="absolute left-3 top-3 rounded-full bg-white px-2.5 py-1 text-[11px] font-bold text-[#7a3b1d]">{p.tag}</span> : null}
                 <button
                   onClick={() => setLiked((l) => (l.includes(p.id) ? l.filter((x) => x !== p.id) : [...l, p.id]))}
@@ -119,7 +119,7 @@ export default function TokoOnlineDemo() {
                   {lines.length === 0 ? <p className="text-center text-stone-500">Keranjang masih kosong.</p> : null}
                   {lines.map((l) => (
                     <div key={l.id} className="flex gap-3">
-                      <Photo from={l.g[0]} to={l.g[1]} className="h-20 w-16 shrink-0 rounded-lg" />
+                      <Photo from={l.g[0]} to={l.g[1]} src={`toko-online/${l.img}`} alt={l.n} className="h-20 w-16 shrink-0 rounded-lg" />
                       <div className="flex-1">
                         <div className="text-sm font-medium">{l.n}</div>
                         <div className="text-sm font-bold">{rp(l.p)}</div>

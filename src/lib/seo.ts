@@ -118,8 +118,17 @@ export function seoTitle(title: string, suffix = ` | ${siteConfig.brandMark}`) {
   if (head && head !== title && weight(head) >= max * 0.6 && weight(head) <= max) return head;
   const cut = clip(title, max);
   const space = cut.lastIndexOf(" ");
-  // Never end on a dangling joining word ("... Server and").
-  return (space > max * 0.6 ? cut.slice(0, space) : cut).replace(/[\s,;:–-]+$/, "").replace(/\s+(and|or|for|of|the|to|with|dan|atau|untuk|dengan|di|ke|yang)$/i, "");
+  return tidyEnd(space > max * 0.6 ? cut.slice(0, space) : cut);
+}
+
+/** Never end on punctuation or a dangling joining word ("... Tagging, dan" → "... Tagging"). */
+function tidyEnd(text: string) {
+  let out = text;
+  for (;;) {
+    const next = out.replace(/[\s,;:–(-]+$/, "").replace(/\s+(and|or|for|of|the|to|with|in|on|dan|atau|untuk|dengan|di|ke|yang|serta|dari)$/i, "");
+    if (next === out) return out;
+    out = next;
+  }
 }
 
 /** A meta description trimmed to ~155 characters at a sentence or word boundary. */

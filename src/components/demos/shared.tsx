@@ -4,15 +4,42 @@ import type { ReactNode } from "react";
 
 export const rp = (n: number) => `Rp${Math.round(n).toLocaleString("id-ID")}`;
 
-/** Gradient tile standing in for a photo, so demos stay light and need no stock images. */
-export function Photo({ from, to, children, className = "" }: { from: string; to: string; children?: ReactNode; className?: string }) {
+/**
+ * A photo (Unsplash, self-hosted under /public/demos, see SOURCES.txt) over a gradient that shows while it loads.
+ * Without `src` the gradient alone stands in. `shade` darkens the photo so text on top stays readable.
+ */
+export function Photo({
+  from,
+  to,
+  src,
+  alt = "",
+  shade = 0,
+  eager,
+  children,
+  className = "",
+}: {
+  from: string;
+  to: string;
+  src?: string;
+  alt?: string;
+  shade?: number;
+  eager?: boolean;
+  children?: ReactNode;
+  className?: string;
+}) {
   return (
     <div className={`relative overflow-hidden ${className}`} style={{ background: `linear-gradient(135deg, ${from}, ${to})` }}>
-      <div
-        aria-hidden
-        className="absolute inset-0 opacity-25"
-        style={{ backgroundImage: "radial-gradient(circle at 20% 20%, rgba(255,255,255,.55) 0, transparent 40%), radial-gradient(circle at 85% 75%, rgba(255,255,255,.35) 0, transparent 45%)" }}
-      />
+      {src ? (
+        // eslint-disable-next-line @next/next/no-img-element -- demos are plain pages shown in an iframe; files are pre-sized WebP
+        <img src={`/demos/${src}.webp`} alt={alt} loading={eager ? "eager" : "lazy"} decoding="async" className="absolute inset-0 h-full w-full object-cover" />
+      ) : (
+        <div
+          aria-hidden
+          className="absolute inset-0 opacity-25"
+          style={{ backgroundImage: "radial-gradient(circle at 20% 20%, rgba(255,255,255,.55) 0, transparent 40%), radial-gradient(circle at 85% 75%, rgba(255,255,255,.35) 0, transparent 45%)" }}
+        />
+      )}
+      {shade ? <div aria-hidden className="absolute inset-0" style={{ background: `rgba(0,0,0,${shade})` }} /> : null}
       {children ? <div className="relative flex h-full w-full items-center justify-center">{children}</div> : null}
     </div>
   );

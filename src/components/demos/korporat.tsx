@@ -11,12 +11,12 @@ const SERVICES = [
   { icon: ClipboardCheck, t: "Manajemen Proyek", d: "Pengawasan mutu, jadwal, dan biaya dengan laporan mingguan." },
 ];
 const PROJECTS = [
-  { t: "Gudang Logistik 4.000 m²", c: "Industri", y: "2025", g: ["#1e3a5f", "#4b6a8f"] },
-  { t: "Kantor Cabang Bank", c: "Komersial", y: "2025", g: ["#3d4a5c", "#8a96a8"] },
-  { t: "Ruko 3 Lantai (12 unit)", c: "Komersial", y: "2024", g: ["#5c4a2e", "#b08d57"] },
-  { t: "Pabrik Pengolahan Sawit", c: "Industri", y: "2024", g: ["#2e4a3d", "#6f9a7d"] },
-  { t: "Sekolah Dasar Swasta", c: "Publik", y: "2023", g: ["#4a2e3d", "#a07890"] },
-  { t: "Puskesmas Rawat Inap", c: "Publik", y: "2023", g: ["#2e3d4a", "#7090a8"] },
+  { t: "Gudang Logistik 4.000 m²", c: "Industri", y: "2025", img: "gudang", g: ["#1e3a5f", "#4b6a8f"] },
+  { t: "Gedung Kantor Cabang", c: "Komersial", y: "2025", img: "bank", g: ["#3d4a5c", "#8a96a8"] },
+  { t: "Ruko 3 Lantai (12 unit)", c: "Komersial", y: "2024", img: "ruko", g: ["#5c4a2e", "#b08d57"] },
+  { t: "Pabrik Pengolahan Sawit", c: "Industri", y: "2024", img: "pabrik", g: ["#2e4a3d", "#6f9a7d"] },
+  { t: "Gedung Sekolah Swasta", c: "Publik", y: "2023", img: "sekolah", g: ["#4a2e3d", "#a07890"] },
+  { t: "Rumah Sakit Daerah", c: "Publik", y: "2023", img: "puskesmas", g: ["#2e3d4a", "#7090a8"] },
 ];
 const FILTERS = ["Semua", "Industri", "Komersial", "Publik"];
 
@@ -84,9 +84,7 @@ export default function KorporatDemo() {
               </a>
             </div>
           </div>
-          <Photo from="#284a72" to="#c08a2d" className="aspect-[4/3] rounded-2xl shadow-2xl">
-            <Building2 className="h-24 w-24 text-white/70" />
-          </Photo>
+          <Photo from="#284a72" to="#c08a2d" src="korporat/hero" alt="Pengawas proyek dengan helm dan rompi keselamatan" eager className="aspect-[4/3] rounded-2xl shadow-2xl" />
         </div>
       </section>
 
@@ -134,7 +132,7 @@ export default function KorporatDemo() {
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {shown.map((p) => (
               <article key={p.t} className="overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-slate-200">
-                <Photo from={p.g[0]} to={p.g[1]} className="aspect-video" />
+                <Photo from={p.g[0]} to={p.g[1]} src={`korporat/${p.img}`} alt={p.t} className="aspect-video" />
                 <div className="p-5">
                   <div className="text-xs font-semibold uppercase tracking-wide text-amber-600">
                     {p.c} · {p.y}

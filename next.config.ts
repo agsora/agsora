@@ -56,8 +56,10 @@ const nextConfig: NextConfig = {
       { source: "/portofolio/:path*", destination: "/services", permanent: true },
       { source: "/portfolio/:path*", destination: "/services", permanent: true },
       // The demo gallery started at /template; it now lives at /contoh ("contoh website ..." is what people search).
-      { source: "/:lang(en|zh)/template/:path*", destination: "/:lang/contoh/:path*", permanent: true },
-      { source: "/template/:path*", destination: "/contoh/:path*", permanent: true },
+      { source: "/:lang(en|zh)/template", destination: "/:lang/contoh", permanent: true },
+      { source: "/:lang(en|zh)/template/:path+", destination: "/:lang/contoh/:path+", permanent: true },
+      { source: "/template", destination: "/contoh", permanent: true },
+      { source: "/template/:path+", destination: "/contoh/:path+", permanent: true },
     ];
   },
 };
