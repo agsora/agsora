@@ -47,7 +47,7 @@ function wrap(text: string, font: PDFFont, size: number, width: number) {
   return lines;
 }
 
-async function frame(docNo: string) {
+export async function frame(docNo: string) {
   const pdf = await PDFDocument.create();
   const font = await pdf.embedFont(StandardFonts.Helvetica);
   const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
@@ -78,7 +78,7 @@ async function frame(docNo: string) {
     }
     y -= 8;
   };
-  const signatures = (client: string, clientRep: string) => {
+  const signatures = (client: string, clientRep: string, role = "Perwakilan / Representative") => {
     ensure(150);
     y -= 10;
     const half = (W - 2 * M - 40) / 2;
@@ -99,7 +99,7 @@ async function frame(docNo: string) {
     text(clientRep, xB, 10, bold, INK);
     y -= 12;
     text("Direktur / Director", M, 8.5, font, MUTED);
-    text("Perwakilan / Representative", xB, 8.5, font, MUTED);
+    text(role, xB, 8.5, font, MUTED);
   };
   const finish = () => {
     const pages = pdf.getPages();

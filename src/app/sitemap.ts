@@ -44,6 +44,7 @@ const PAGE_UPDATED: Record<string, string> = {
   "/about": "2026-10-06",
   "/contact": "2026-10-06",
   "/checklist": "2026-10-06",
+  "/karier": "2026-11-15",
   "/privacy-policy": "2026-10-06",
   "/terms-conditions": "2026-09-26",
 };
@@ -59,6 +60,7 @@ const routes = [
   "/about",
   "/contact",
   "/checklist",
+  "/karier",
   "/privacy-policy",
   "/terms-conditions",
 ];

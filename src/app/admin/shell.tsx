@@ -18,6 +18,7 @@ import {
   Settings,
   ShieldCheck,
   Users,
+  Handshake,
 } from "lucide-react";
 import { adminEnabled, getSession, type Session } from "@/lib/admin-auth";
 import { elapsedMs, requestStart } from "@/lib/request-timer";
@@ -69,6 +70,7 @@ const NAV = [
   { href: "/admin/content", key: "content", label: "Kalender Konten", icon: CalendarDays, group: "Pemasaran", roles: ["owner"] },
   { href: "/admin/ads", key: "ads", label: "Analisa Iklan", icon: Megaphone, group: "Pemasaran", roles: ["owner"] },
   { href: "/admin/website", key: "website", label: "Atur Website", icon: Settings, group: "Pemasaran", roles: ["owner"] },
+  { href: "/admin/agents", key: "agents", label: "Agen Sales", icon: Handshake, group: "Tim & pengaturan", roles: ["owner"] },
   { href: "/admin/recruitment", key: "recruitment", label: "Rekrutmen", icon: Briefcase, group: "Tim & pengaturan", roles: ["owner"] },
   { href: "/admin/security", key: "security", label: "Keamanan", icon: ShieldCheck, group: "Tim & pengaturan", roles: ["owner"] },
   { href: "/admin/sales", key: "sales", label: "Tim Sales", icon: Users, group: "Tim & pengaturan", roles: ["owner"] },

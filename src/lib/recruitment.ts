@@ -33,3 +33,21 @@ export function nextStage(stage: CandidateStage): CandidateStage | null {
   const i = flow.indexOf(stage);
   return i >= 0 && i < flow.length - 1 ? flow[i + 1] : null;
 }
+
+/** Cache tag for the public careers page; job changes in the dashboard refresh it. */
+export const JOBS_TAG = "jobs";
+
+export type JobPost = Job & {
+  kind: "employee" | "agent";
+  location: string | null;
+  summary: string | null;
+  description: string | null;
+  published: boolean;
+};
+
+export type CandidateDetail = Candidate & {
+  city: string | null;
+  experience: string | null;
+  network: string | null;
+  applied_via: "manual" | "web";
+};

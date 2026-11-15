@@ -2,7 +2,8 @@
 
 import { Container } from "@/components/ui/container";
 import { Section, SectionHeading } from "@/components/ui/section";
-import { PageHero } from "@/components/sections/page-hero";
+import { PricingHero } from "@/components/sections/pricing-hero";
+import { PricingTiers } from "@/components/sections/pricing-tiers";
 import { CustomDevPricing } from "@/components/sections/custom-dev-pricing";
 import { ChecklistBanner } from "@/components/sections/checklist-banner";
 import { PriceEstimator } from "@/components/sections/price-estimator";
@@ -16,12 +17,8 @@ export function PricingBody() {
   const { t } = useLocale();
   return (
     <>
-      <PageHero
-        breadcrumb={{ name: t.nav.pricing, href: "/pricing" }}
-        eyebrow={t.pageEyebrows.pricing}
-        title={t.pricingPage.heroTitle}
-        description={t.pricingPage.heroDescription}
-      />
+      <PricingHero />
+      <PricingTiers />
 
       <Section>
         <Container>
@@ -39,7 +36,9 @@ export function PricingBody() {
 
       <Section className="pt-0">
         <Container className="max-w-6xl">
-          <PriceEstimator />
+          <div id="estimasi" className="scroll-mt-24">
+            <PriceEstimator />
+          </div>
         </Container>
       </Section>
 
