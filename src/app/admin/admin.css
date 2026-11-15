@@ -426,3 +426,89 @@
 .sn-chip.s-published { background: rgba(113, 221, 55, 0.18); color: #4aa01f; }
 @media (max-width: 900px) { .sn-cal-day { min-height: 4.5rem; } .sn-chip { font-size: 0.65rem; } }
 .sn-field { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.8125rem; color: var(--sn-heading); }
+
+/* ---- Compact KPI tiles (finance, invoices, pipeline) ---- */
+.sn-kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.sn-kpi {
+  background: var(--sn-card);
+  border-radius: var(--sn-radius);
+  box-shadow: var(--sn-shadow);
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--sn-primary);
+}
+.sn-kpi.good { border-left-color: var(--sn-success); }
+.sn-kpi.warn { border-left-color: var(--sn-warning); }
+.sn-kpi.bad { border-left-color: var(--sn-danger); }
+.sn-kpi.muted { border-left-color: var(--sn-border); }
+.sn-kpi-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--sn-muted);
+}
+.sn-kpi-value {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--sn-heading);
+  margin-top: 0.15rem;
+  line-height: 1.25;
+}
+.sn-kpi.bad .sn-kpi-value { color: var(--sn-danger); }
+.sn-kpi-hint {
+  font-size: 0.75rem;
+  color: var(--sn-muted);
+  margin-top: 0.2rem;
+}
+
+/* Toolbar row above a page: tabs left, actions right. */
+.sn-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.sn-toolbar .spacer { flex: 1; }
+.sn-btn-xs { padding: 0.3rem 0.6rem; font-size: 0.8rem; }
+
+/* Two panes side by side on wide screens. */
+.sn-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: start;
+}
+@media (max-width: 960px) {
+  .sn-split { grid-template-columns: 1fr; }
+}
+.sn-mini-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.sn-mini-table th, .sn-mini-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--sn-row); text-align: right; }
+.sn-mini-table th:first-child, .sn-mini-table td:first-child { text-align: left; }
+.sn-mini-table thead th { font-size: 0.7rem; text-transform: uppercase; color: var(--sn-muted); font-weight: 500; }
+.sn-mini-table tfoot td { font-weight: 600; color: var(--sn-heading); border-bottom: 0; }
+.sn-mini-table .neg { color: var(--sn-danger); }
+.sn-mini-table .pos { color: #3e9a1f; }
+.sn-mini-table tr.empty td { color: var(--sn-border); }
+
+/* Sidebar: compact items and grouped headers; the menu scrolls on short screens. */
+.sn-menu { overflow-y: auto; }
+.sn-menu .sn-menu-header { padding: 0.85rem 1.5rem 0.25rem; }
+.sn-menu .sn-menu-item { padding: 0.45rem 0.9rem; margin: 0.1rem 0.75rem; font-size: 0.9rem; }
+
+/* Server time chip in the navbar. */
+.sn-timing {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(113, 221, 55, 0.16);
+  color: #3e9a1f;
+  white-space: nowrap;
+}
+.sn-timing.slow { background: rgba(255, 171, 0, 0.16); color: #b37800; }
+.sn-timing.very-slow { background: rgba(255, 62, 29, 0.14); color: #d6301a; }

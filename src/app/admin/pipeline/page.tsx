@@ -17,12 +17,19 @@ export default async function PipelinePage() {
   if (gate) return gate;
   const now = nowMs();
 
-  const quotes = (await sbSelect<Quote>("quotes", "select=*&order=created_at.desc&limit=300")) ?? [];
-  const invoices = (await sbSelect<Invoice>("invoices", "select=*&status=neq.void&limit=1000")) ?? [];
-  const leads = (await queryLeads("select=*&status=in.(new,contacted)&order=created_at.desc&limit=200")) ?? [];
   // Lead sources over the last 180 days: how many leads each channel brought and how many were won.
   const since = new Date(now - 180 * 86_400_000).toISOString();
-  const recent = ((await queryLeads(`select=id,status,attribution&created_at=gte.${since}&limit=2000`)) ?? []) as unknown as { id: number; status: string; attribution?: Attribution | null }[];
+  // All four reads are independent: run them together instead of one after another.
+  const [quotesRaw, invoicesRaw, leadsRaw, recentRaw] = await Promise.all([
+    sbSelect<Quote>("quotes", "select=*&order=created_at.desc&limit=300"),
+    sbSelect<Invoice>("invoices", "select=id,quote_id,seq,status&status=neq.void&limit=1000"),
+    queryLeads("select=id,name,company,phone,need,deal_value,created_at,status,followups&status=in.(new,contacted)&order=created_at.desc&limit=200"),
+    queryLeads(`select=id,status,attribution&created_at=gte.${since}&limit=2000`),
+  ]);
+  const quotes = quotesRaw ?? [];
+  const invoices = invoicesRaw ?? [];
+  const leads = leadsRaw ?? [];
+  const recent = (recentRaw ?? []) as unknown as { id: number; status: string; attribution?: Attribution | null }[];
   const wonLeadIds = new Set<number>();
   const sources = new Map<string, { leads: number; won: number }>();
   const quotedLeadIds = new Set(quotes.map((q) => q.lead_id).filter((x): x is number => x !== null));
@@ -81,14 +88,26 @@ export default async function PipelinePage() {
 
   return (
     <AdminShell active="pipeline" title="Pipeline Penjualan" subtitle="Dari lead sampai lunas, otomatis dari data lead, penawaran, dan invoice">
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(14rem, 1fr))", gap: "1rem", marginBottom: "1.25rem" }}>
-        <div className="sn-card" style={{ padding: "1rem 1.25rem" }}>
-          <span className="sn-muted">Nilai pipeline berjalan</span>
-          <h3>{idr(open)}</h3>
+      <div className="sn-kpis">
+        <div className="sn-kpi">
+          <div className="sn-kpi-label">Nilai pipeline berjalan</div>
+          <div className="sn-kpi-value">{idr(open)}</div>
+          <div className="sn-kpi-hint">penawaran sampai proyek berjalan</div>
         </div>
-        <div className="sn-card" style={{ padding: "1rem 1.25rem" }}>
-          <span className="sn-muted">Sudah lunas</span>
-          <h3>{idr(won)}</h3>
+        <div className="sn-kpi good">
+          <div className="sn-kpi-label">Sudah lunas</div>
+          <div className="sn-kpi-value">{idr(won)}</div>
+          <div className="sn-kpi-hint">{cols[5].cards.length} proyek</div>
+        </div>
+        <div className="sn-kpi muted">
+          <div className="sn-kpi-label">Lead terbuka</div>
+          <div className="sn-kpi-value">{cols[0].cards.length}</div>
+          <div className="sn-kpi-hint">belum ada penawaran</div>
+        </div>
+        <div className={`sn-kpi ${cols[2].cards.some((c) => c.flag) ? "warn" : "muted"}`}>
+          <div className="sn-kpi-label">Menunggu klien</div>
+          <div className="sn-kpi-value">{cols[2].cards.length}</div>
+          <div className="sn-kpi-hint">{cols[2].cards.filter((c) => c.flag).length} perlu follow up</div>
         </div>
       </div>
       {sourceRows.length ? (

@@ -14,8 +14,12 @@ export default async function InvoicesPage({ searchParams }: { searchParams: Pro
   const { notice, type, s } = await searchParams;
   const filter = s === "paid" ? "paid" : s === "all" ? "all" : "unpaid";
 
-  const rows = (await sbSelect<Invoice>("invoices", `select=*&status=neq.void${filter === "all" ? "" : `&status=eq.${filter}`}&order=due_date.asc&limit=300`)) ?? [];
-  const quotes = new Map(((await sbSelect<Quote>("quotes", "select=id,client_name,client_company,client_email,created_at")) ?? []).map((q) => [q.id, q]));
+  const [rowsRaw, quotesRaw] = await Promise.all([
+    sbSelect<Invoice>("invoices", `select=*&status=neq.void${filter === "all" ? "" : `&status=eq.${filter}`}&order=due_date.asc&limit=300`),
+    sbSelect<Quote>("quotes", "select=id,client_name,client_company,client_email,created_at"),
+  ]);
+  const rows = rowsRaw ?? [];
+  const quotes = new Map((quotesRaw ?? []).map((q) => [q.id, q]));
 
   const now = today();
   const open = rows.filter((r) => r.status === "unpaid");
@@ -23,7 +27,7 @@ export default async function InvoicesPage({ searchParams }: { searchParams: Pro
   const sum = (l: Invoice[]) => l.reduce((a, r) => a + Number(r.amount), 0);
 
   const tab = (key: string, label: string) => (
-    <Link href={`/admin/invoices?s=${key}`} className={`sn-btn ${filter === key ? "sn-btn-primary" : ""}`}>
+    <Link href={`/admin/invoices?s=${key}`} className={`sn-btn sn-btn-xs ${filter === key ? "sn-btn-primary" : ""}`}>
       {label}
     </Link>
   );
@@ -31,19 +35,19 @@ export default async function InvoicesPage({ searchParams }: { searchParams: Pro
   return (
     <AdminShell active="invoices" title="Invoice & Pembayaran" subtitle="Tagihan per termin dari penawaran yang disetujui. Pengingat jatuh tempo dikirim otomatis tiap hari.">
       {notice ? <p className={`sn-notice ${type === "err" ? "err" : ""}`}>{notice}</p> : null}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(14rem, 1fr))", gap: "1rem", marginBottom: "1.25rem" }}>
-        <div className="sn-card" style={{ padding: "1rem 1.25rem" }}>
-          <span className="sn-muted">Belum dibayar</span>
-          <h3>{idr(sum(open))}</h3>
+      <div className="sn-kpis">
+        <div className="sn-kpi warn">
+          <div className="sn-kpi-label">Belum dibayar</div>
+          <div className="sn-kpi-value">{idr(sum(open))}</div>
+          <div className="sn-kpi-hint">{open.length} invoice</div>
         </div>
-        <div className="sn-card" style={{ padding: "1rem 1.25rem" }}>
-          <span className="sn-muted">Lewat jatuh tempo</span>
-          <h3 style={{ color: overdue.length ? "var(--sn-danger)" : undefined }}>
-            {idr(sum(overdue))} ({overdue.length})
-          </h3>
+        <div className={`sn-kpi ${overdue.length ? "bad" : "good"}`}>
+          <div className="sn-kpi-label">Lewat jatuh tempo</div>
+          <div className="sn-kpi-value">{idr(sum(overdue))}</div>
+          <div className="sn-kpi-hint">{overdue.length ? `${overdue.length} invoice, pengingat dikirim otomatis` : "tidak ada"}</div>
         </div>
       </div>
-      <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1rem" }}>
+      <div className="sn-toolbar">
         {tab("unpaid", "Belum dibayar")}
         {tab("paid", "Lunas")}
         {tab("all", "Semua")}

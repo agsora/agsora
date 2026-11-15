@@ -9,11 +9,10 @@ export default async function SalesTeamPage() {
   const gate = await adminGate();
   if (gate) return gate;
 
-  const users = await sbSelect<SalesUser>("sales_users", "select=id,name,username,active,created_at&order=created_at.asc");
-  const assigned = await sbSelect<{ assigned_to: number | null; status: string }>(
-    "leads",
-    "select=assigned_to,status&assigned_to=not.is.null&status=in.(new,contacted)&limit=10000"
-  );
+  const [users, assigned] = await Promise.all([
+    sbSelect<SalesUser>("sales_users", "select=id,name,username,active,created_at&order=created_at.asc"),
+    sbSelect<{ assigned_to: number | null; status: string }>("leads", "select=assigned_to,status&assigned_to=not.is.null&status=in.(new,contacted)&limit=10000"),
+  ]);
   const openCount = new Map<number, number>();
   for (const l of assigned ?? []) if (l.assigned_to) openCount.set(l.assigned_to, (openCount.get(l.assigned_to) ?? 0) + 1);
 

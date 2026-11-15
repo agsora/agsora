@@ -34,15 +34,20 @@ export default async function QuotePage({
   if (!q || (session.role === "sales" && q.sales_id !== session.id)) notFound();
 
   const { notice, type, edit } = await searchParams;
-  const site = await getSiteData();
   const totals = computeTotals(q.items, Number(q.discount_pct), Number(q.tax_pct));
   const owner = session.role === "owner";
   const editable = q.status === "draft" || q.status === "rejected" || (edit === "1" && q.status !== "pending");
   const released = q.status === "approved" || q.status === "sent";
-  const invoices = owner && released ? ((await sbSelect<Invoice>("invoices", `select=*&quote_id=eq.${q.id}`)) ?? []) : [];
+  // Site settings, invoices, documents and subscriptions do not depend on each other: fetch them together.
+  const [site, invoicesRaw, docs, subsRaw] = await Promise.all([
+    getSiteData(),
+    owner && released ? sbSelect<Invoice>("invoices", `select=*&quote_id=eq.${q.id}`) : Promise.resolve([] as Invoice[]),
+    released && q.accepted_at ? documentsOf(q.id) : Promise.resolve([]),
+    owner && released && q.accepted_at ? sbSelect<Subscription>("subscriptions", `select=*&quote_id=eq.${q.id}&order=created_at.asc`) : Promise.resolve([] as Subscription[]),
+  ]);
+  const invoices = invoicesRaw ?? [];
+  const subs = subsRaw ?? [];
   const parts = released ? billableParts(q) : [];
-  const docs = released && q.accepted_at ? await documentsOf(q.id) : [];
-  const subs = owner && released && q.accepted_at ? ((await sbSelect<Subscription>("subscriptions", `select=*&quote_id=eq.${q.id}&order=created_at.asc`)) ?? []) : [];
 
   return (
     <AdminShell active="quotes" title={`Penawaran ${quoteNumber(q)}`} subtitle={`${q.client_name}${q.client_company ? ` · ${q.client_company}` : ""}`}>

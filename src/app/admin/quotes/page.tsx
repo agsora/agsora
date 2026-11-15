@@ -14,10 +14,11 @@ export default async function QuotesPage({ searchParams }: { searchParams: Promi
   const { status } = await searchParams;
   const active = QUOTE_STATUSES.includes(status as QuoteStatus) ? (status as QuoteStatus) : undefined;
   const scope = session.role === "sales" ? `&sales_id=eq.${session.id}` : "";
-  const quotes = await sbSelect<Quote>("quotes", `select=*&order=updated_at.desc&limit=300${scope}${active ? `&status=eq.${active}` : ""}`);
-  const salesNames = new Map(
-    ((await sbSelect<{ id: number; name: string }>("sales_users", "select=id,name")) ?? []).map((u) => [u.id, u.name])
-  );
+  const [quotes, salesUsers] = await Promise.all([
+    sbSelect<Quote>("quotes", `select=*&order=updated_at.desc&limit=300${scope}${active ? `&status=eq.${active}` : ""}`),
+    sbSelect<{ id: number; name: string }>("sales_users", "select=id,name"),
+  ]);
+  const salesNames = new Map((salesUsers ?? []).map((u) => [u.id, u.name]));
   const pending = (quotes ?? []).filter((q) => q.status === "pending").length;
 
   return (

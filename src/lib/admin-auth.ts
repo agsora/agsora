@@ -1,5 +1,6 @@
 import { createHmac, randomBytes, scrypt as scryptCb, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
+import { cache } from "react";
 import { sbSelect } from "@/lib/supabase";
 
 /**
@@ -92,8 +93,10 @@ function readSalesToken(token: string | undefined): number | null {
   return Number.isInteger(n) && n > 0 ? n : null;
 }
 
-/** Who is signed in, or null. */
-export async function getSession(): Promise<Session | null> {
+/** Who is signed in, or null. Memoised per request, so the gate, the shell and the page share one lookup. */
+export const getSession = cache(readSession);
+
+async function readSession(): Promise<Session | null> {
   if (!adminEnabled()) return null;
   if (await isAdmin()) return { role: "owner" };
   const id = readSalesToken((await cookies()).get(SALES_COOKIE)?.value);

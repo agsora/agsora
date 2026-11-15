@@ -20,6 +20,7 @@ import {
   Users,
 } from "lucide-react";
 import { adminEnabled, getSession, type Session } from "@/lib/admin-auth";
+import { elapsedMs, requestStart } from "@/lib/request-timer";
 import { AdminBrand } from "./brand";
 import { logout } from "./leads/actions";
 import { LoginForm } from "./leads/login-form";
@@ -34,6 +35,7 @@ export const homeFor = (role: Role) => (role === "owner" ? "/admin" : "/admin/wo
  * A signed-in visitor of the wrong role is sent to their own home page.
  */
 export async function adminGate(roles: Role[] = ["owner"]) {
+  requestStart();
   if (!adminEnabled()) {
     return (
       <div className="sn-auth">
@@ -56,20 +58,20 @@ export async function adminGate(roles: Role[] = ["owner"]) {
 }
 
 const NAV = [
-  { href: "/admin", key: "overview", label: "Ringkasan", icon: BarChart3, roles: ["owner"] },
-  { href: "/admin/worksheet", key: "worksheet", label: "Lembar Kerja", icon: ClipboardList, roles: ["sales"] },
-  { href: "/admin/leads", key: "leads", label: "Leads", icon: Inbox, roles: ["owner"] },
-  { href: "/admin/followup", key: "followup", label: "Follow Up Customer", icon: Repeat, roles: ["owner"] },
-  { href: "/admin/quotes", key: "quotes", label: "Proposal Penawaran", icon: FileText, roles: ["owner", "sales"] },
-  { href: "/admin/pipeline", key: "pipeline", label: "Pipeline", icon: Workflow, roles: ["owner"] },
-  { href: "/admin/invoices", key: "invoices", label: "Invoice", icon: Receipt, roles: ["owner"] },
-  { href: "/admin/finance", key: "finance", label: "Keuangan", icon: Wallet, roles: ["owner"] },
-  { href: "/admin/content", key: "content", label: "Kalender Konten", icon: CalendarDays, roles: ["owner"] },
-  { href: "/admin/ads", key: "ads", label: "Analisa Iklan", icon: Megaphone, roles: ["owner"] },
-  { href: "/admin/recruitment", key: "recruitment", label: "Rekrutmen", icon: Briefcase, roles: ["owner"] },
-  { href: "/admin/website", key: "website", label: "Atur Website", icon: Settings, roles: ["owner"] },
-  { href: "/admin/security", key: "security", label: "Keamanan", icon: ShieldCheck, roles: ["owner"] },
-  { href: "/admin/sales", key: "sales", label: "Tim Sales", icon: Users, roles: ["owner"] },
+  { href: "/admin", key: "overview", label: "Ringkasan", icon: BarChart3, group: "Penjualan", roles: ["owner"] },
+  { href: "/admin/worksheet", key: "worksheet", label: "Lembar Kerja", icon: ClipboardList, group: "Penjualan", roles: ["sales"] },
+  { href: "/admin/leads", key: "leads", label: "Leads", icon: Inbox, group: "Penjualan", roles: ["owner"] },
+  { href: "/admin/followup", key: "followup", label: "Follow Up Customer", icon: Repeat, group: "Penjualan", roles: ["owner"] },
+  { href: "/admin/quotes", key: "quotes", label: "Proposal Penawaran", icon: FileText, group: "Penjualan", roles: ["owner", "sales"] },
+  { href: "/admin/pipeline", key: "pipeline", label: "Pipeline", icon: Workflow, group: "Penjualan", roles: ["owner"] },
+  { href: "/admin/invoices", key: "invoices", label: "Invoice", icon: Receipt, group: "Keuangan", roles: ["owner"] },
+  { href: "/admin/finance", key: "finance", label: "Keuangan", icon: Wallet, group: "Keuangan", roles: ["owner"] },
+  { href: "/admin/content", key: "content", label: "Kalender Konten", icon: CalendarDays, group: "Pemasaran", roles: ["owner"] },
+  { href: "/admin/ads", key: "ads", label: "Analisa Iklan", icon: Megaphone, group: "Pemasaran", roles: ["owner"] },
+  { href: "/admin/website", key: "website", label: "Atur Website", icon: Settings, group: "Pemasaran", roles: ["owner"] },
+  { href: "/admin/recruitment", key: "recruitment", label: "Rekrutmen", icon: Briefcase, group: "Tim & pengaturan", roles: ["owner"] },
+  { href: "/admin/security", key: "security", label: "Keamanan", icon: ShieldCheck, group: "Tim & pengaturan", roles: ["owner"] },
+  { href: "/admin/sales", key: "sales", label: "Tim Sales", icon: Users, group: "Tim & pengaturan", roles: ["owner"] },
 ] as const;
 
 export type NavKey = (typeof NAV)[number]["key"];
@@ -89,6 +91,7 @@ export async function AdminShell({
   const role: Role = session?.role ?? "owner";
   const name = session?.role === "sales" ? session.name : "Owner";
   const items = NAV.filter((n) => (n.roles as readonly Role[]).includes(role));
+  const ms = elapsedMs();
 
   return (
     <div className="sn-layout">
@@ -96,11 +99,13 @@ export async function AdminShell({
         <div className="sn-brand">
           <AdminBrand />
         </div>
-        <div className="sn-menu-header">Menu</div>
-        {items.map(({ href, key, label, icon: Icon }) => (
-          <Link key={key} href={href} className={`sn-menu-item ${active === key ? "active" : ""}`}>
-            <Icon size={18} /> {label}
-          </Link>
+        {items.map(({ href, key, label, icon: Icon, group }, i) => (
+          <div key={key}>
+            {i === 0 || items[i - 1].group !== group ? <div className="sn-menu-header">{group}</div> : null}
+            <Link href={href} className={`sn-menu-item ${active === key ? "active" : ""}`}>
+              <Icon size={17} /> {label}
+            </Link>
+          </div>
         ))}
         {role === "owner" ? (
           <>
@@ -126,6 +131,12 @@ export async function AdminShell({
           ) : (
             <strong>{title}</strong>
           )}
+          <span
+            className={`sn-timing ${ms > 1500 ? "very-slow" : ms > 600 ? "slow" : ""}`}
+            title="Waktu server menyiapkan halaman ini (ambil data + render)"
+          >
+            {ms} ms
+          </span>
           <div className="sn-user">
             <div className="sn-user-text">
               <strong>{name}</strong>

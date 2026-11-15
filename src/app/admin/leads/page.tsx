@@ -31,9 +31,12 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
   const q = (qParam ?? "").replace(/[^\p{L}\p{N}@. +-]/gu, "").trim().slice(0, 60);
   const search = q ? `&or=(${["name", "email", "company", "phone", "need"].map((c) => `${c}.ilike.*${encodeURIComponent(q)}*`).join(",")})` : "";
   const active = status && LEAD_STATUSES.includes(status as LeadStatus) ? (status as LeadStatus) : undefined;
-  const salesList = (await sbSelect<{ id: number; name: string; active: boolean }>("sales_users", "select=id,name,active&order=name.asc")) ?? [];
+  const [salesRaw, leads] = await Promise.all([
+    sbSelect<{ id: number; name: string; active: boolean }>("sales_users", "select=id,name,active&order=name.asc"),
+    queryLeads(`select=*&order=created_at.desc&limit=200${active ? `&status=eq.${active}` : ""}${search}`),
+  ]);
+  const salesList = salesRaw ?? [];
   const salesName = new Map(salesList.map((u) => [u.id, u.name]));
-  const leads = await queryLeads(`select=*&order=created_at.desc&limit=200${active ? `&status=eq.${active}` : ""}${search}`);
 
   return (
     <AdminShell active="leads" title="Leads" subtitle="Pesan masuk dari form kontak">
