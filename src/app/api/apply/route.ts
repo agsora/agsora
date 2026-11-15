@@ -1,6 +1,7 @@
 import { answerLabel, answersSummary, cleanAnswers } from "@/config/application-form";
 import { notifyOwner } from "@/lib/mail";
 import { clientIp, rateLimit } from "@/lib/rate-limit";
+import { APPLY_MAX_FILES, MAX_UPLOAD, checkApplicationFile, saveApplicationFile } from "@/lib/storage";
 
 /** Job application from the careers page: stored as a candidate on the chosen open, published job. */
 const clean = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice(0, max) : "");
@@ -8,11 +9,25 @@ const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export async function POST(request: Request) {
   if (!rateLimit(`apply:${clientIp(request)}`, 4, 30 * 60_000)) return Response.json({ error: "rate" }, { status: 429 });
+  // Multipart (with documents) or plain JSON. The fields travel as one JSON string named "data".
   let body: Record<string, unknown>;
+  let files: File[] = [];
   try {
-    body = await request.json();
+    if ((request.headers.get("content-type") ?? "").startsWith("multipart/form-data")) {
+      const form = await request.formData();
+      body = JSON.parse(String(form.get("data") ?? "{}"));
+      files = form.getAll("files").filter((f): f is File => f instanceof File && f.size > 0);
+    } else {
+      body = await request.json();
+    }
   } catch {
     return Response.json({ error: "bad" }, { status: 400 });
+  }
+  // Vercel accepts request bodies up to 4.5 MB, so all files together stay within 4 MB.
+  if (files.length > APPLY_MAX_FILES || files.reduce((s, f) => s + f.size, 0) > MAX_UPLOAD) return Response.json({ error: "files" }, { status: 400 });
+  for (const f of files) {
+    const bad = await checkApplicationFile(f);
+    if (bad) return Response.json({ error: `file-${bad}` }, { status: 400 });
   }
   if (clean(body.website, 50)) return new Response(null, { status: 204 }); // honeypot
 
@@ -48,6 +63,11 @@ export async function POST(request: Request) {
   if (!job) return Response.json({ error: "closed" }, { status: 404 });
   // Agents work for commission only: they must say they understand that.
   if (job.kind === "agent" && !answers.commissionOk) return Response.json({ error: "invalid" }, { status: 400 });
+
+  // Documents go to Google Drive when connected (otherwise the private Supabase bucket).
+  const saved = (await Promise.all(files.map((f) => saveApplicationFile(f, name, job.title)))).filter((f) => f !== null);
+  if (saved.length < files.length) return Response.json({ error: "upload" }, { status: 502 });
+  if (saved.length) answers.files = saved;
 
   const heard = answerLabel("heardFrom", answers.heardFrom);
   const source = clean(body.source, 120) || "Website";

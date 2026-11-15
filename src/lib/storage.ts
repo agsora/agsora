@@ -1,4 +1,5 @@
 import "server-only";
+import { uploadToDrive } from "@/lib/gdrive";
 import { sbInsert, sbSelect } from "@/lib/supabase";
 
 /** Private Supabase Storage bucket for signed agreements, handover certificates and other project files. */
@@ -65,4 +66,55 @@ export async function documentResponse(doc: DocumentRow): Promise<Response> {
       "X-Robots-Tag": "noindex",
     },
   });
+}
+
+/* ------------------------------------------------------------------ */
+/* Job application files (CV, certificates, portfolio).                */
+/* ------------------------------------------------------------------ */
+
+export type ApplicationFile = { name: string; url?: string; path?: string; size: number };
+
+const APPLY_TYPES: Record<string, { ext: string; magic: number[] }> = {
+  "application/pdf": { ext: "pdf", magic: [0x25, 0x50, 0x44, 0x46] },
+  "image/png": { ext: "png", magic: [0x89, 0x50, 0x4e, 0x47] },
+  "image/jpeg": { ext: "jpg", magic: [0xff, 0xd8, 0xff] },
+  "application/msword": { ext: "doc", magic: [0xd0, 0xcf, 0x11, 0xe0] },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document": { ext: "docx", magic: [0x50, 0x4b, 0x03, 0x04] },
+};
+export const APPLY_MAX_FILES = 3;
+
+/** Check type, size and the file's first bytes (so a renamed file is refused). Returns an error code or null. */
+export async function checkApplicationFile(file: File): Promise<string | null> {
+  const t = APPLY_TYPES[file.type];
+  if (!t) return "type";
+  if (file.size === 0 || file.size > MAX_UPLOAD) return "size";
+  const head = new Uint8Array(await file.slice(0, 4).arrayBuffer());
+  return t.magic.every((b, i) => head[i] === b) ? null : "type";
+}
+
+/** Store one checked file: Google Drive when connected, otherwise the private Supabase bucket. */
+export async function saveApplicationFile(file: File, applicant: string, job: string): Promise<ApplicationFile | null> {
+  const t = APPLY_TYPES[file.type];
+  const base = file.name.replace(/\.[^.]+$/, "").replace(/[^\w.\- ]/g, "_").slice(0, 80) || "dokumen";
+  const name = `${new Date().toISOString().slice(0, 10)} ${applicant.replace(/[^\w.\- ]/g, "_").slice(0, 60)} - ${base}.${t.ext}`;
+  const data = Buffer.from(await file.arrayBuffer());
+
+  const drive = await uploadToDrive(name, file.type, data, `Lamaran ${job} dari ${applicant} (website)`);
+  if (drive) return { name, url: drive.url, size: file.size };
+
+  const db = config();
+  if (!db) return null;
+  const path = `applications/${Date.now()}-${crypto.randomUUID().slice(0, 8)}.${t.ext}`;
+  const res = await fetch(`${db.url}/storage/v1/object/${BUCKET}/${path}`, {
+    method: "POST",
+    headers: { apikey: db.key, Authorization: `Bearer ${db.key}`, "Content-Type": file.type, "x-upsert": "false" },
+    body: data,
+  });
+  return res.ok ? { name, path, size: file.size } : null;
+}
+
+/** Download an application file kept in Supabase (owner only; the caller checks). */
+export async function applicationFileResponse(path: string): Promise<Response> {
+  if (!/^applications\/[\w-]+\.(pdf|png|jpg|doc|docx)$/.test(path)) return new Response("Not found", { status: 404 });
+  return documentResponse({ id: 0, quote_id: 0, kind: "other", uploaded_by: "client", filename: path.split("/")[1], path, size_bytes: null, created_at: "" });
 }

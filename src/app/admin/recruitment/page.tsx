@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, ExternalLink, Globe, UserPlus, XCircle } from "lucide-react";
+import { ArrowRight, ExternalLink, FileText, Globe, UserPlus, XCircle } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { answerLabel } from "@/config/application-form";
 import { CANDIDATE_STAGES, nextStage, stageLabel, type CandidateDetail, type JobPost } from "@/lib/recruitment";
@@ -214,6 +214,20 @@ export default async function RecruitmentPage({ searchParams }: { searchParams: 
                         {c.answers?.motivation ? <div className="sn-note">Motivasi: {c.answers.motivation}</div> : null}
                         {c.interview_at ? <div className="sn-note">Interview: {whenLocal(c.interview_at)}</div> : null}
                         {c.notes ? <div className="sn-note" style={{ whiteSpace: "pre-line" }}>{c.notes}</div> : null}
+                        {c.answers?.files?.map((file) => (
+                          <a
+                            key={file.url ?? file.path}
+                            className="sn-link"
+                            href={file.url ?? `/admin/recruitment/file?path=${encodeURIComponent(file.path ?? "")}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ fontSize: "0.8125rem", display: "block" }}
+                            title={file.url ? "Buka di Google Drive" : "Unduh"}
+                          >
+                            <FileText size={12} style={{ display: "inline" }} /> {file.name.replace(/^\d{4}-\d{2}-\d{2} [^-]+ - /, "")}
+                            {file.url ? " · Drive" : ""}
+                          </a>
+                        ))}
                         {c.cv_url ? (
                           <a className="sn-link" href={c.cv_url} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.8125rem" }}>
                             <ExternalLink size={12} style={{ display: "inline" }} /> CV / profil

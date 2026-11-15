@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent, type ReactNode } from "react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, FileText, Upload, X } from "lucide-react";
 import { APPLY_OPTIONS, type Choice } from "@/config/application-form";
 import { readAttribution } from "@/lib/attribution";
 import type { JobPost } from "@/lib/recruitment";
@@ -35,7 +35,12 @@ const T = {
     npwp: "NPWP",
     heardFrom: "Tahu lowongan ini dari",
     motivation: "Mengapa Anda tertarik menjadi agen AG·SORA?",
-    cv: "Link CV / LinkedIn / Instagram",
+    cv: "Link LinkedIn / Instagram / portofolio",
+    files: "Unggah dokumen (CV, sertifikat, portofolio)",
+    filesHint: "PDF, Word, JPG, atau PNG. Maksimal 3 file, total 4 MB.",
+    filesPick: "Pilih file",
+    remove: "Hapus",
+    fileErr: "File harus PDF, Word, JPG, atau PNG, maksimal 3 file dengan total 4 MB.",
     choose: "Pilih…",
     commissionOk: "Saya memahami ini kemitraan berbasis komisi tanpa gaji tetap, dan semua pembayaran klien langsung ke rekening PT. *",
     consent: "Saya menyetujui data ini dipakai AG·SORA hanya untuk proses rekrutmen. *",
@@ -70,7 +75,12 @@ const T = {
     npwp: "Tax ID (NPWP, for commission tax)",
     heardFrom: "Where did you hear about this role",
     motivation: "Why do you want to be an AG·SORA agent?",
-    cv: "CV / LinkedIn / Instagram link",
+    cv: "LinkedIn / Instagram / portfolio link",
+    files: "Upload documents (CV, certificates, portfolio)",
+    filesHint: "PDF, Word, JPG or PNG. Up to 3 files, 4 MB in total.",
+    filesPick: "Choose files",
+    remove: "Remove",
+    fileErr: "Files must be PDF, Word, JPG or PNG, up to 3 files and 4 MB in total.",
     choose: "Choose…",
     commissionOk: "I understand this is a commission-only partnership with no fixed salary, and all client payments go directly to the company. *",
     consent: "I agree that AG·SORA uses this data only for recruitment. *",
@@ -105,7 +115,12 @@ const T = {
     npwp: "税号（NPWP）",
     heardFrom: "从何得知此职位",
     motivation: "为什么想成为 AG·SORA 代理？",
-    cv: "简历 / LinkedIn / Instagram 链接",
+    cv: "LinkedIn / Instagram / 作品集链接",
+    files: "上传文件（简历、证书、作品集）",
+    filesHint: "PDF、Word、JPG 或 PNG，最多 3 个文件，合计 4 MB。",
+    filesPick: "选择文件",
+    remove: "删除",
+    fileErr: "文件须为 PDF、Word、JPG 或 PNG，最多 3 个，合计 4 MB。",
     choose: "请选择…",
     commissionOk: "我理解这是纯佣金合作，没有固定工资，客户款项直接付至公司账户。*",
     consent: "我同意 AG·SORA 仅将资料用于招聘。*",
@@ -115,6 +130,12 @@ const T = {
     error: "提交失败，请检查必填项与 WhatsApp 号码，或通过 WhatsApp 联系我们。",
   },
 } as const;
+
+const MAX_FILES = 3;
+const MAX_BYTES = 4 * 1024 * 1024;
+const ACCEPT = ".pdf,.doc,.docx,.jpg,.jpeg,.png,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/jpeg,image/png";
+const ALLOWED = ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "image/jpeg", "image/png"];
+const kb = (n: number) => (n >= 1024 * 1024 ? `${(n / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`);
 
 const field = "w-full rounded-xl border border-line bg-surface-0 px-4 py-3 text-[15px] text-ink outline-none transition-colors focus:border-accent";
 const labelCls = "grid gap-1 text-[13px] font-semibold text-ink-muted";
@@ -150,7 +171,16 @@ export function ApplyForm({ jobs, jobId, setJobId, lang }: { jobs: JobPost[]; jo
   const t = T[lang];
   const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [segments, setSegments] = useState<string[]>([]);
+  const [files, setFiles] = useState<File[]>([]);
+  const [fileError, setFileError] = useState(false);
   const isAgent = jobs.find((j) => j.id === jobId)?.kind === "agent";
+
+  function pick(list: FileList | null) {
+    const next = [...files, ...Array.from(list ?? [])];
+    const ok = next.length <= MAX_FILES && next.every((x) => ALLOWED.includes(x.type)) && next.reduce((n, x) => n + x.size, 0) <= MAX_BYTES;
+    setFileError(!ok);
+    if (ok) setFiles(next);
+  }
 
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -158,10 +188,7 @@ export function ApplyForm({ jobs, jobId, setJobId, lang }: { jobs: JobPost[]; jo
     const get = (k: string) => String(f.get(k) ?? "").trim();
     setState("sending");
     const attr = readAttribution();
-    const res = await fetch("/api/apply", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
+    const payload = {
         jobId,
         name: get("name"),
         phone: get("phone"),
@@ -186,8 +213,15 @@ export function ApplyForm({ jobs, jobId, setJobId, lang }: { jobs: JobPost[]; jo
           npwp: get("npwp"),
           commissionOk: f.get("commissionOk") === "on",
         },
-      }),
-    }).catch(() => null);
+    };
+    const body = new FormData();
+    body.set("data", JSON.stringify(payload));
+    for (const file of files) body.append("files", file);
+    const res = await fetch("/api/apply", { method: "POST", body }).catch(() => null);
+    if (res && !res.ok) {
+      const err = String(((await res.json().catch(() => ({}))) as { error?: string }).error ?? "");
+      setFileError(err.startsWith("file"));
+    }
     setState(res?.ok ? "done" : "error");
   }
 
@@ -282,6 +316,39 @@ export function ApplyForm({ jobs, jobId, setJobId, lang }: { jobs: JobPost[]; jo
           {t.cv}
           <input name="cv" type="url" maxLength={500} placeholder="https://" className={field} />
         </label>
+        <div className={labelCls}>
+          {t.files}
+          <label className="flex cursor-pointer flex-col items-center gap-1 rounded-xl border border-dashed border-line px-4 py-5 text-center transition-colors hover:border-accent">
+            <Upload className="h-5 w-5 text-accent" aria-hidden />
+            <span className="text-[14px] font-semibold text-ink">{t.filesPick}</span>
+            <span className="text-[12px] font-normal text-ink-subtle">{t.filesHint}</span>
+            <input
+              type="file"
+              multiple
+              accept={ACCEPT}
+              className="sr-only"
+              onChange={(e) => {
+                pick(e.target.files);
+                e.target.value = "";
+              }}
+            />
+          </label>
+          {files.length ? (
+            <ul className="grid gap-1.5">
+              {files.map((x, i) => (
+                <li key={`${x.name}-${i}`} className="flex items-center gap-2 rounded-lg bg-surface-1 px-3 py-2 text-[13px] font-normal text-ink">
+                  <FileText className="h-4 w-4 shrink-0 text-accent" aria-hidden />
+                  <span className="min-w-0 flex-1 truncate">{x.name}</span>
+                  <span className="text-ink-subtle">{kb(x.size)}</span>
+                  <button type="button" onClick={() => setFiles(files.filter((_, j) => j !== i))} aria-label={`${t.remove} ${x.name}`} className="rounded p-0.5 text-ink-subtle hover:text-red-600">
+                    <X className="h-4 w-4" />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          ) : null}
+          {fileError ? <p className="text-[12px] font-normal text-red-600">{t.fileErr}</p> : null}
+        </div>
       </Group>
 
       <div className="grid gap-2 text-[14px] text-ink">

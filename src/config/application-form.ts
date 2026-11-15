@@ -75,6 +75,8 @@ export type ApplyAnswers = {
   heardFrom?: string;
   npwp?: string;
   commissionOk?: boolean;
+  /** Uploaded documents (set by the server, never taken from the request). url = Google Drive, path = Supabase. */
+  files?: { name: string; url?: string; path?: string; size: number }[];
 };
 
 type OptionKey = keyof typeof APPLY_OPTIONS;
@@ -116,6 +118,7 @@ export function answersSummary(a: ApplyAnswers) {
     a.npwp && `NPWP: ${answerLabel("npwp", a.npwp)}`,
     a.heardFrom && `Tahu dari: ${answerLabel("heardFrom", a.heardFrom)}`,
     a.motivation && `Motivasi: ${a.motivation}`,
+    a.files?.length && `Dokumen: ${a.files.map((f) => `${f.name}${f.url ? ` (${f.url})` : " (tersimpan di dashboard)"}`).join("; ")}`,
   ]
     .filter(Boolean)
     .join("\n");
