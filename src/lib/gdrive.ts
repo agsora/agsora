@@ -5,7 +5,9 @@ import "server-only";
  * unlike a service account, which has no storage of its own). Scope "drive.file": the app only sees files it created.
  *
  * Env: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, optional GDRIVE_FOLDER_ID.
- * Without GDRIVE_FOLDER_ID the app creates (once) and reuses a folder named FOLDER_NAME in that Drive.
+ * Without GDRIVE_FOLDER_ID the app creates (once) and reuses a folder named FOLDER_NAME in that Drive; the owner may
+ * move that folder anywhere afterwards. GDRIVE_FOLDER_ID only works for a folder the app itself created, because
+ * "drive.file" cannot write into folders made by hand.
  */
 const FOLDER_NAME = "AG·SORA - Lamaran Kerja";
 

@@ -50,3 +50,7 @@ supabase/.temp/
 
 # Company legal documents (contain ID numbers); never commit
 /akte/
+
+# Local notes with Google API secrets
+/api gdrive.txt
+*.secret.txt
