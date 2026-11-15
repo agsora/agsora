@@ -28,6 +28,7 @@ export function Header() {
     { label: t.nav.pricing, href: "/pricing" },
     { label: t.nav.blog, href: "/blog" },
     { label: t.nav.about, href: "/about" },
+    { label: t.nav.careers, href: "/karier" },
     { label: t.nav.contact, href: "/contact" },
   ];
   // The desktop bar leaves out Contact — the CTA button already opens it.

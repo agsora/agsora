@@ -114,7 +114,7 @@ export function Footer() {
               { label: t.nav.blog, href: "/blog" },
               { label: checklistStrings[locale].navLabel, href: "/checklist" },
               { label: t.nav.about, href: "/about" },
-              { label: locale === "zh" ? "职业" : locale === "en" ? "Careers" : "Karier", href: "/karier" },
+              { label: t.nav.careers, href: "/karier" },
               { label: t.nav.contact, href: "/contact" },
             ]}
           />
