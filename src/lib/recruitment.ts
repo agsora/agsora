@@ -1,3 +1,5 @@
+import type { ApplyAnswers } from "@/config/application-form";
+
 export const CANDIDATE_STAGES = ["applied", "screening", "interview", "test", "offer", "hired", "rejected"] as const;
 export type CandidateStage = (typeof CANDIDATE_STAGES)[number];
 
@@ -50,4 +52,6 @@ export type CandidateDetail = Candidate & {
   experience: string | null;
   network: string | null;
   applied_via: "manual" | "web";
+  /** Structured answers from the careers form (null for candidates added by hand). */
+  answers?: ApplyAnswers | null;
 };

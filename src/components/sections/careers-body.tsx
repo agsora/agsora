@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState } from "react";
 import { ArrowRight, BadgeCheck, Banknote, CalendarCheck, CheckCircle2, Clock, Handshake, MapPin, Target, TrendingUp, Users } from "lucide-react";
 import { Container } from "@/components/ui/container";
+import { ApplyForm } from "@/components/sections/apply-form";
 import { useContact } from "@/components/site-data";
 import { AGENT_PROGRAM, commissionFor } from "@/config/agent-program";
 import { useLocale } from "@/i18n/locale-context";
-import { readAttribution } from "@/lib/attribution";
 import type { JobPost } from "@/lib/recruitment";
 import { formatRupiah } from "@/lib/utils";
 
@@ -37,19 +37,6 @@ const COPY = {
     jobsTitle: "Lowongan terbuka",
     noJobs: "Belum ada lowongan yang dibuka. Hubungi kami lewat WhatsApp bila tertarik menjadi agen.",
     formTitle: "Formulir lamaran",
-    position: "Posisi",
-    name: "Nama lengkap",
-    phone: "WhatsApp",
-    email: "Email (opsional)",
-    city: "Kota",
-    experience: "Pengalaman berjualan (singkat)",
-    network: "Jaringan atau calon klien yang Anda miliki",
-    cv: "Link CV / LinkedIn / Instagram (opsional)",
-    submit: "Kirim lamaran",
-    sending: "Mengirim…",
-    done: "Lamaran terkirim. Tim kami akan menghubungi Anda lewat WhatsApp dalam 2 hari kerja.",
-    error: "Lamaran gagal dikirim. Periksa nama dan nomor WhatsApp, atau hubungi kami lewat WhatsApp.",
-    consent: "Data Anda hanya dipakai untuk proses rekrutmen.",
     faqTitle: "Pertanyaan umum",
     faq: [
       ["Apakah ini pekerjaan tetap bergaji?", "Bukan. Ini kemitraan independen berbasis komisi: tidak ada gaji tetap, tidak ada jam kerja, dan Anda boleh punya pekerjaan lain."],
@@ -81,19 +68,6 @@ const COPY = {
     jobsTitle: "Open positions",
     noJobs: "No positions are open right now. Reach us on WhatsApp if you are interested in becoming an agent.",
     formTitle: "Application form",
-    position: "Position",
-    name: "Full name",
-    phone: "WhatsApp",
-    email: "Email (optional)",
-    city: "City",
-    experience: "Sales experience (brief)",
-    network: "Your network or prospects",
-    cv: "CV / LinkedIn / Instagram link (optional)",
-    submit: "Send application",
-    sending: "Sending…",
-    done: "Application sent. Our team will contact you on WhatsApp within 2 working days.",
-    error: "The application could not be sent. Check your name and WhatsApp number, or contact us on WhatsApp.",
-    consent: "Your data is used only for recruitment.",
     faqTitle: "FAQ",
     faq: [
       ["Is this a salaried job?", "No. It is an independent, commission-only partnership: no fixed salary or hours, and you may keep other work."],
@@ -125,19 +99,6 @@ const COPY = {
     jobsTitle: "开放职位",
     noJobs: "目前暂无开放职位，如有兴趣请通过 WhatsApp 联系我们。",
     formTitle: "申请表",
-    position: "职位",
-    name: "姓名",
-    phone: "WhatsApp",
-    email: "邮箱（可选）",
-    city: "城市",
-    experience: "销售经验（简述）",
-    network: "您的人脉或潜在客户",
-    cv: "简历 / LinkedIn / Instagram 链接（可选）",
-    submit: "提交申请",
-    sending: "提交中…",
-    done: "申请已提交，我们将在 2 个工作日内通过 WhatsApp 联系您。",
-    error: "提交失败，请检查姓名与 WhatsApp 号码，或通过 WhatsApp 联系我们。",
-    consent: "您的资料仅用于招聘。",
     faqTitle: "常见问题",
     faq: [
       ["这是有固定工资的工作吗？", "不是。这是独立的纯佣金合作，没有固定工资和工作时间。"],
@@ -157,34 +118,6 @@ export function CareersBody({ jobs }: { jobs: JobPost[] }) {
   const c = COPY[lang];
   const contact = useContact();
   const [jobId, setJobId] = useState<number | null>(jobs.find((j) => j.kind === "agent")?.id ?? jobs[0]?.id ?? null);
-  const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
-
-  async function submit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    const f = new FormData(e.currentTarget);
-    const get = (k: string) => String(f.get(k) ?? "").trim();
-    setState("sending");
-    const a = readAttribution();
-    const res = await fetch("/api/apply", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        jobId,
-        name: get("name"),
-        phone: get("phone"),
-        email: get("email"),
-        city: get("city"),
-        experience: get("experience"),
-        network: get("network"),
-        cvUrl: get("cv"),
-        website: get("website"),
-        source: a?.source ? `Website (${a.source})` : "Website",
-      }),
-    }).catch(() => null);
-    setState(res?.ok ? "done" : "error");
-  }
-
-  const field = "w-full rounded-xl border border-line bg-surface-0 px-4 py-3 text-[15px] text-ink outline-none transition-colors focus:border-accent";
 
   return (
     <>
@@ -358,38 +291,7 @@ export function CareersBody({ jobs }: { jobs: JobPost[] }) {
           {jobs.length ? (
             <div className="rounded-[28px] border border-line bg-surface-0 p-7 shadow-elev md:p-8">
               <h2 className="text-[22px] font-bold text-ink">{c.formTitle}</h2>
-              {state === "done" ? (
-                <p className="mt-6 rounded-2xl bg-gold/10 p-5 text-[15px] text-ink">{c.done}</p>
-              ) : (
-                <form onSubmit={submit} className="mt-6 grid gap-3">
-                  <label className="text-[13px] font-semibold text-ink-muted">
-                    {c.position}
-                    <select value={jobId ?? ""} onChange={(e) => setJobId(Number(e.target.value))} className={`${field} mt-1`}>
-                      {jobs.map((j) => (
-                        <option key={j.id} value={j.id}>
-                          {j.title}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                  <input name="name" required minLength={2} maxLength={160} placeholder={c.name} className={field} />
-                  <div className="grid gap-3 sm:grid-cols-2">
-                    <input name="phone" required inputMode="tel" maxLength={40} placeholder={c.phone} className={field} />
-                    <input name="city" maxLength={120} placeholder={c.city} className={field} />
-                  </div>
-                  <input name="email" type="email" maxLength={200} placeholder={c.email} className={field} />
-                  <textarea name="experience" rows={3} maxLength={2000} placeholder={c.experience} className={field} />
-                  <textarea name="network" rows={3} maxLength={2000} placeholder={c.network} className={field} />
-                  <input name="cv" maxLength={500} placeholder={c.cv} className={field} />
-                  <input name="website" tabIndex={-1} autoComplete="off" aria-hidden className="absolute -left-[9999px] h-0 w-0" />
-                  {state === "error" ? <p className="text-[13px] text-red-600">{c.error}</p> : null}
-                  <button disabled={state === "sending" || !jobId} className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-ink px-6 py-3 text-[15px] font-bold text-surface-0 disabled:opacity-60">
-                    {state === "sending" ? c.sending : c.submit}
-                    <ArrowRight className="h-4 w-4" />
-                  </button>
-                  <p className="text-[12px] text-ink-subtle">{c.consent}</p>
-                </form>
-              )}
+              <ApplyForm jobs={jobs} jobId={jobId} setJobId={setJobId} lang={lang} />
             </div>
           ) : null}
         </Container>

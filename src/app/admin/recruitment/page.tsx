@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, ExternalLink, Globe, UserPlus, XCircle } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import { answerLabel } from "@/config/application-form";
 import { CANDIDATE_STAGES, nextStage, stageLabel, type CandidateDetail, type JobPost } from "@/lib/recruitment";
 import { sbSelect } from "@/lib/supabase";
 import { AdminShell, adminGate } from "../shell";
@@ -188,10 +189,31 @@ export default async function RecruitmentPage({ searchParams }: { searchParams: 
                           {c.applied_via === "web" ? <span className="sn-badge sn-approved">web</span> : null}
                         </div>
                         <div className="sn-muted">{[c.city, c.phone, c.email, c.source].filter(Boolean).join(" · ") || "–"}</div>
-                        {c.experience ? <div className="sn-note">Pengalaman: {c.experience}</div> : null}
-                        {c.network ? <div className="sn-note">Jaringan: {c.network}</div> : null}
+                        {c.answers ? (
+                          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.25rem", marginTop: "0.4rem" }}>
+                            {[
+                              ["Jualan", answerLabel("salesYears", c.answers.salesYears)],
+                              ["Waktu", answerLabel("hours", c.answers.hours)],
+                              ["Kontak", answerLabel("contacts", c.answers.contacts)],
+                              ["Status", answerLabel("status", c.answers.status)],
+                              ["Pend.", answerLabel("education", c.answers.education)],
+                              ["NPWP", answerLabel("npwp", c.answers.npwp)],
+                            ]
+                              .filter(([, v]) => v)
+                              .map(([k, v]) => (
+                                <span key={k} className="sn-badge" title={k}>
+                                  {k}: {v}
+                                </span>
+                              ))}
+                          </div>
+                        ) : null}
+                        {c.answers?.segments?.length ? <div className="sn-note">Segmen: {c.answers.segments.map((s) => answerLabel("segments", s)).join(", ")}</div> : null}
+                        {c.answers?.products ? <div className="sn-note">Pernah menjual: {c.answers.products}</div> : null}
+                        {c.experience ? <div className="sn-note">Pencapaian: {c.experience}</div> : null}
+                        {c.network ? <div className="sn-note">Calon klien: {c.network}</div> : null}
+                        {c.answers?.motivation ? <div className="sn-note">Motivasi: {c.answers.motivation}</div> : null}
                         {c.interview_at ? <div className="sn-note">Interview: {whenLocal(c.interview_at)}</div> : null}
-                        {c.notes ? <div className="sn-note">{c.notes}</div> : null}
+                        {c.notes ? <div className="sn-note" style={{ whiteSpace: "pre-line" }}>{c.notes}</div> : null}
                         {c.cv_url ? (
                           <a className="sn-link" href={c.cv_url} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.8125rem" }}>
                             <ExternalLink size={12} style={{ display: "inline" }} /> CV / profil

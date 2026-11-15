@@ -38,7 +38,9 @@ alter table public.candidates
   add column if not exists city text check (char_length(city) <= 120),
   add column if not exists experience text check (char_length(experience) <= 2000),
   add column if not exists network text check (char_length(network) <= 2000),
-  add column if not exists applied_via text not null default 'manual' check (applied_via in ('manual', 'web'));
+  add column if not exists applied_via text not null default 'manual' check (applied_via in ('manual', 'web')),
+  -- Structured answers from the careers form (education, availability, sales experience, segments...).
+  add column if not exists answers jsonb;
 
 -- Sales agents: independent partners paid by commission only.
 create table if not exists public.agents (
