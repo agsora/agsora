@@ -363,7 +363,7 @@ export const industryDetails: Record<string, IndustryDetail> = {
   transportasi: {
     metaTitle: {
       id: "Sistem Manajemen Armada & Order untuk Transportasi | AG·SORA",
-      en: "Fleet & Order Management Systems for Transport Companies | AG·SORA",
+      en: "Fleet & Order Management for Transport Firms | AG·SORA",
       zh: "运输企业车队与订单管理系统 | AG·SORA",
     },
     metaDescription: {
@@ -455,7 +455,7 @@ export const industryDetails: Record<string, IndustryDetail> = {
 
   sekolah: {
     metaTitle: {
-      id: "Sistem Informasi Sekolah: Akademik, Keuangan & Administrasi | AG·SORA",
+      id: "Sistem Informasi Sekolah: Akademik & Keuangan | AG·SORA",
       en: "School Information Systems: Academics, Finance & Admin | AG·SORA",
       zh: "学校信息系统：教务、财务与行政 | AG·SORA",
     },
@@ -638,8 +638,8 @@ export const industryDetails: Record<string, IndustryDetail> = {
 
   koperasi: {
     metaTitle: {
-      id: "Sistem Informasi Koperasi: Anggota, Simpan Pinjam & Laporan | AG·SORA",
-      en: "Cooperative Management Systems: Members, Savings & Loans | AG·SORA",
+      id: "Sistem Koperasi: Anggota, Simpan Pinjam & Laporan | AG·SORA",
+      en: "Cooperative Systems: Members, Savings & Loans | AG·SORA",
       zh: "合作社管理系统：社员、储蓄与贷款 | AG·SORA",
     },
     metaDescription: {
@@ -1103,8 +1103,8 @@ export const industryDetails: Record<string, IndustryDetail> = {
 
   korporasi: {
     metaTitle: {
-      id: "Sistem Enterprise Terintegrasi untuk Perusahaan Multidivisi | AG·SORA",
-      en: "Integrated Enterprise Systems for Multidivision Companies | AG·SORA",
+      id: "Sistem Enterprise Terintegrasi Multidivisi | AG·SORA",
+      en: "Integrated Systems for Multidivision Companies | AG·SORA",
       zh: "多部门企业一体化系统 | AG·SORA",
     },
     metaDescription: {

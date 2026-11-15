@@ -108,17 +108,18 @@ function clip(text: string, max: number) {
 /**
  * A <title> that survives Google's ~60-character cut-off. `suffix` is the
  * template's " | AG·SORA". Long article titles are shortened at the colon
- * ("Topic: long subtitle" → "Topic") or, failing that, at a word boundary;
+ * ("Topic: long subtitle" → "Topic") when the topic alone is long enough to be specific, otherwise at a word boundary;
  * the visible <h1> keeps the full title.
  */
 export function seoTitle(title: string, suffix = ` | ${siteConfig.brandMark}`) {
   const max = 60 - weight(suffix);
   if (weight(title) <= max) return title;
   const head = title.split(/[:：]/)[0].trim();
-  if (head && head !== title && weight(head) >= 20 && weight(head) <= max) return head;
+  if (head && head !== title && weight(head) >= max * 0.6 && weight(head) <= max) return head;
   const cut = clip(title, max);
   const space = cut.lastIndexOf(" ");
-  return (space > max * 0.6 ? cut.slice(0, space) : cut).replace(/[\s,;:–-]+$/, "");
+  // Never end on a dangling joining word ("... Server and").
+  return (space > max * 0.6 ? cut.slice(0, space) : cut).replace(/[\s,;:–-]+$/, "").replace(/\s+(and|or|for|of|the|to|with|dan|atau|untuk|dengan|di|ke|yang)$/i, "");
 }
 
 /** A meta description trimmed to ~155 characters at a sentence or word boundary. */

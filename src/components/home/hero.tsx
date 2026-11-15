@@ -4,14 +4,14 @@ import { ArrowRight, BadgeCheck, CheckCircle2 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { HeroVisual } from "@/components/home/hero-visual";
-import { clients } from "@/config/clients";
-import { services } from "@/config/services";
+import { useProofCounts } from "@/components/site-data";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
 
 export function Hero() {
   const { t, locale } = useLocale();
   const proof = growth[locale].proof;
+  const counts = useProofCounts();
 
   return (
     <section className="relative overflow-hidden">
@@ -25,14 +25,16 @@ export function Hero() {
       <Container className="relative max-w-6xl pb-16 pt-14 text-center md:pb-24 md:pt-24">
         <div className="rise inline-flex items-center gap-2 rounded-full border border-line bg-surface-0/80 px-4 py-1.5 text-[13px] font-medium text-ink-muted shadow-card backdrop-blur">
           <BadgeCheck className="h-4 w-4 text-accent" />
-          {clients.length} {proof.clients}
+          {counts.clients} {proof.clients}
           <span className="text-line-strong">·</span>
-          {services.length} {proof.services}
+          {counts.services} {proof.services}
         </div>
 
         {/* LCP element, deliberately not animated. */}
         <h1 className="headline zh-phrases mx-auto mt-7 max-w-4xl text-balance text-[40px] font-extrabold text-ink sm:text-[56px] lg:text-[72px]">
-          {t.hero.titleLead} <span className="text-gradient">{t.hero.titleHighlight}</span>
+          {t.hero.titleLead}
+          {locale === "zh" ? "" : " "}
+          <span className="text-gradient">{t.hero.titleHighlight}</span>
         </h1>
 
         <p className="rise mx-auto mt-7 max-w-2xl text-pretty text-[17px] leading-relaxed text-ink-muted [animation-delay:80ms] md:text-[19px]">

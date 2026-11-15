@@ -58,7 +58,7 @@ export const pageMeta = {
     en: {
       title: "Software Solutions by Industry",
       description:
-        "Business systems for retail, F&B, distribution, transport, schools, clinics, cooperatives, laundries, manufacturing, professional services, SMEs, and enterprises.",
+        "Business systems for retail, F&B, distribution, transport, schools, clinics, cooperatives, laundries, manufacturing, services, SMEs and enterprises.",
     },
     zh: {
       title: "行业软件解决方案",
