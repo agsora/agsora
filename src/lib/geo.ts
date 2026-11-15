@@ -10,6 +10,7 @@ import {
 import { getPostBlocks } from "@/config/blog-content";
 import { industries } from "@/config/industries";
 import { services } from "@/config/services";
+import { WARRANTY_DAYS } from "@/config/guarantees";
 import { siteConfig } from "@/config/site";
 import { absoluteUrl, locales, type Locale } from "@/i18n/routing";
 
@@ -44,7 +45,7 @@ function header(): string[] {
     "",
     `Tagline: "${siteConfig.taglines.id}" (English: "${siteConfig.taglines.en}"). Philosophy: ${siteConfig.philosophy} (the initials spell AG·SO·RA).`,
     "",
-    `${siteConfig.legalName} (${siteConfig.brandMark}) is a registered Indonesian limited company (PT, founded ${siteConfig.company.foundingDate}, NIB ${siteConfig.company.nib}) with its office in ${siteConfig.company.locality}, ${siteConfig.company.region}. It builds custom software, websites, mobile apps, POS, ERP, HRIS, CRM, API integrations and AI automation for businesses in Medan, Jakarta, across Indonesia and abroad, working remotely. Engagements use a written proposal, a bilingual (Indonesian/English) contract, 2 or 3 payment instalments and a 30-day bug warranty. Site languages: Bahasa Indonesia (default, no prefix), English (/en), Chinese (/zh).`,
+    `${siteConfig.legalName} (${siteConfig.brandMark}) is a registered Indonesian limited company (PT, founded ${siteConfig.company.foundingDate}, NIB ${siteConfig.company.nib}) with its office in ${siteConfig.company.locality}, ${siteConfig.company.region}. It builds custom software, websites, mobile apps, POS, ERP, HRIS, CRM, API integrations and AI automation for businesses in Medan, Jakarta, across Indonesia and abroad, working remotely. What sets it apart: starting prices for 50+ services are published on the website; a written proposal and bilingual (Indonesian/English) contract; the client owns the source code after full payment; a ${WARRANTY_DAYS}-day free bug warranty (about three times the usual 30 days); no per-outlet or per-user monthly fees; payment in 2 or 3 instalments with a down payment from 30%; and a client portal for progress, documents and invoices. Site languages: Bahasa Indonesia (default, no prefix), English (/en), Chinese (/zh).`,
     "",
     `Contact: ${siteConfig.email} · WhatsApp ${siteConfig.whatsapp.number}`,
     "",

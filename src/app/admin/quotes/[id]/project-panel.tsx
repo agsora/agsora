@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Download } from "lucide-react";
+import { WARRANTY_DAYS } from "@/config/guarantees";
 import { PROJECT_STAGES, idr, type Quote } from "@/lib/quote";
 import { docKindLabel, type DocumentRow } from "@/lib/storage";
 import { periodLabel, type Subscription } from "@/lib/subscriptions";
@@ -78,7 +79,7 @@ export function ProjectPanel({ q, owner, docs, subs }: { q: Quote; owner: boolea
           <form action={issueBast}>
             {hidden}
             <p className="sn-muted" style={{ marginBottom: "0.5rem" }}>
-              Terbitkan setelah UAT selesai. Tahap proyek otomatis menjadi &quot;Selesai&quot; dan garansi 30 hari dimulai.
+              Terbitkan setelah UAT selesai. Tahap proyek otomatis menjadi &quot;Selesai&quot; dan garansi {WARRANTY_DAYS} hari dimulai.
             </p>
             <button className="sn-btn">Terbitkan BAST</button>
           </form>

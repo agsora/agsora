@@ -231,9 +231,9 @@ export const commitments: Commitment[] = [
       zh: "源代码归属",
     },
     description: {
-      id: "Skema kepemilikan source code untuk project custom dinyatakan tertulis dalam kontrak sejak awal, tidak disamarkan di belakang jargon lisensi.",
-      en: "The source code ownership arrangement for custom projects is stated in writing in the contract from the start, never disguised behind licensing jargon.",
-      zh: "定制项目的源代码归属方案会在合同中从一开始就以书面形式明确约定，绝不会被授权术语所掩盖。",
+      id: "Untuk project custom, hak cipta kode sumber berpindah ke Anda setelah lunas, dan kode sumber, akses repositori, serta dokumentasinya diserahkan. Tertulis di kontrak, tanpa jargon lisensi.",
+      en: "For custom projects, the copyright in the source code passes to you once paid, and the source code, repository access and documentation are handed over. Written in the contract, without licensing jargon.",
+      zh: "定制项目付清款项后，源代码著作权转归您所有，并移交源代码、代码仓库权限与文档。写入合同，没有授权术语。",
     },
   },
   {
@@ -330,17 +330,17 @@ export const faqsTranslated: FaqTranslated[] = [
     id: {
       question: "Apakah source code menjadi milik kami?",
       answer:
-        "Untuk proyek pengembangan custom, skema kepemilikan source code mengikuti kesepakatan tertulis di kontrak masing-masing proyek.",
+        "Ya. Untuk proyek custom, setelah pembayaran lunas hak cipta kode sumber dialihkan kepada Anda dan kami menyerahkan source code, akses repositori, dan dokumentasi paling lambat 14 hari. Ini tertulis di perjanjian, jadi Anda tidak terkunci pada kami. Pustaka open source dan komponen umum tetap mengikuti lisensinya masing-masing.",
     },
     en: {
       question: "Do we own the source code?",
       answer:
-        "For custom development projects, source code ownership follows the written agreement in each project's contract.",
+        "Yes. For custom projects, once paid in full the copyright in the source code passes to you and we hand over the source code, repository access and documentation within 14 days. It is written in the agreement, so you are never locked in. Open-source libraries and general components keep their own licences.",
     },
     zh: {
       question: "源代码归我们所有吗？",
       answer:
-        "对于定制开发项目，源代码归属方案以每个项目合同中的书面约定为准。",
+        "是的。定制项目付清款项后，源代码著作权转归您所有，我们会在 14 天内移交源代码、代码仓库权限与文档。这一点写入合同，您不会被我们锁定。开源库与通用组件仍遵循各自的许可协议。",
     },
   },
   {

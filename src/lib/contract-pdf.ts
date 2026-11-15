@@ -2,6 +2,7 @@ import "server-only";
 import { PDFDocument, StandardFonts, rgb, type PDFFont } from "pdf-lib";
 import { siteConfig } from "@/config/site";
 import type { SiteData } from "@/config/site-data";
+import { WARRANTY_DAYS, WARRANTY_WORDS } from "@/config/guarantees";
 import { detect, type B } from "@/lib/service-categories";
 import { idr, paymentSchedule, planOf, quoteNumber, splitTotals, type Quote } from "@/lib/quote";
 
@@ -178,7 +179,7 @@ function articles(q: Quote, ppn: number, pph23: boolean): Article[] {
     {
       title: { id: "Garansi dan Pemeliharaan", en: "Warranty and Maintenance" },
       clauses: [
-        { id: "PIHAK PERTAMA memberi garansi perbaikan kesalahan (bug) selama 30 (tiga puluh) hari kalender sejak Serah Terima, kecuali Lampiran II menyatakan masa lain.", en: "The FIRST PARTY warrants the fixing of errors (bugs) for 30 (thirty) calendar days from Handover unless Appendix II states another period." },
+        { id: `PIHAK PERTAMA memberi garansi perbaikan kesalahan (bug) tanpa biaya selama ${WARRANTY_DAYS} (${WARRANTY_WORDS.id}) hari kalender sejak Serah Terima, kecuali Lampiran II menyatakan masa lain.`, en: `The FIRST PARTY fixes errors (bugs) free of charge for ${WARRANTY_DAYS} (${WARRANTY_WORDS.en}) calendar days from Handover unless Appendix II states another period.` },
         { id: "Garansi tidak mencakup kerusakan akibat perubahan oleh pihak lain, penyalahgunaan, serangan siber di luar kendali wajar, gangguan Layanan Pihak Ketiga, atau kebutuhan baru.", en: "The warranty excludes damage caused by changes made by others, misuse, cyber attacks beyond reasonable control, Third-Party Service disruption or new requirements." },
         { id: "Setelah masa garansi, pemeliharaan dan dukungan dapat dilanjutkan melalui paket berlangganan yang disepakati terpisah.", en: "After the warranty period, maintenance and support can continue through a subscription package agreed separately." },
       ],
@@ -205,7 +206,7 @@ function articles(q: Quote, ppn: number, pph23: boolean): Article[] {
     {
       title: { id: "Hak Kekayaan Intelektual", en: "Intellectual Property" },
       clauses: [
-        { id: "Setelah PIHAK KEDUA melunasi seluruh pembayaran proyek, hak penggunaan atas Hasil Pekerjaan khusus yang dibuat untuk PIHAK KEDUA diberikan kepadanya secara permanen untuk keperluan usahanya.", en: "Once the SECOND PARTY has paid the project fee in full, the right to use the bespoke Deliverables created for it is granted to it permanently for its business." },
+        { id: "Setelah PIHAK KEDUA melunasi seluruh pembayaran proyek, hak cipta atas kode sumber dan desain yang dibuat khusus untuk PIHAK KEDUA dialihkan kepada PIHAK KEDUA, dan PIHAK PERTAMA menyerahkan kode sumber (source code), akses repositori, dan dokumentasi teknisnya paling lambat 14 (empat belas) hari kalender setelah pelunasan.", en: "Once the SECOND PARTY has paid the project fee in full, the copyright in the source code and designs created specifically for the SECOND PARTY passes to the SECOND PARTY, and the FIRST PARTY hands over the source code, repository access and technical documentation within 14 (fourteen) calendar days of full payment." },
         { id: "Pustaka, kerangka kerja, komponen, alat, metode, dan pengetahuan umum milik PIHAK PERTAMA atau pihak ketiga (termasuk perangkat lunak sumber terbuka) tetap milik pemiliknya; PIHAK KEDUA mendapat lisensi tidak eksklusif untuk memakainya sebagai bagian Hasil Pekerjaan.", en: "Libraries, frameworks, components, tools, methods and general know-how owned by the FIRST PARTY or third parties (including open-source software) remain with their owners; the SECOND PARTY receives a non-exclusive licence to use them as part of the Deliverables." },
         { id: "Data Klien, merek, dan logo tetap milik PIHAK KEDUA.", en: "Client Data, brands and logos remain the property of the SECOND PARTY." },
         { id: "PIHAK PERTAMA boleh mencantumkan nama, logo PIHAK KEDUA, dan tampilan umum Hasil Pekerjaan sebagai portofolio, kecuali PIHAK KEDUA menyatakan keberatan tertulis sebelum peluncuran.", en: "The FIRST PARTY may show the SECOND PARTY's name, logo and the general appearance of the Deliverables in its portfolio unless the SECOND PARTY objects in writing before launch." },
@@ -518,7 +519,7 @@ export async function buildContractPdf(q: Quote, site: SiteData): Promise<Uint8A
   y -= 6;
   sub({ id: "Jadwal, garansi, dan ketentuan khusus", en: "Schedule, warranty and special terms" });
   kv({ id: "Estimasi pengerjaan", en: "Estimated duration" }, "........ hari kerja sejak kick-off / working days from kick-off");
-  kv({ id: "Garansi perbaikan bug", en: "Bug-fix warranty" }, "30 hari kalender sejak Serah Terima / calendar days from Handover");
+  kv({ id: "Garansi perbaikan bug", en: "Bug-fix warranty" }, `${WARRANTY_DAYS} hari kalender sejak Serah Terima / calendar days from Handover`);
   kv({ id: "Putaran revisi", en: "Revision rounds" }, "2 putaran per tahap / 2 rounds per stage");
   if (q.terms) {
     y -= 8;

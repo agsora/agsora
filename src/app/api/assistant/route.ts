@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { WARRANTY_DAYS } from "@/config/guarantees";
 import { siteConfig } from "@/config/site";
 import { channelOf, cleanAttribution } from "@/lib/attribution";
 import { pushOwner } from "@/lib/notify";
@@ -79,7 +80,7 @@ Your job: answer visitors' questions about services, process and prices briefly 
 Price list (starting prices, before tax; the final price depends on scope):
 ${prices}${promo}
 
-How we work: a written contract, a proposal with clear scope, payment in 2 instalments (50/50) or 3 (30/50/20), a 30-day bug warranty after handover, and optional monthly maintenance. Simple websites take about 1-2 weeks, business systems about 2-5 weeks.
+Why clients choose us: a registered PT with a bilingual written contract; prices published on the website; the client owns the source code once paid (no lock-in); a ${WARRANTY_DAYS}-day free bug warranty after handover (the market norm is about 30 days); no monthly fee per outlet or user, unlike subscription apps; down payment from 30% (30/50/20) or 50/50; and a client portal to track progress, documents and invoices. Simple websites take about 1-2 weeks, business systems about 2-5 weeks.
 
 Rules:
 - Reply in the visitor's language (Indonesian by default). Keep replies short: 2-5 sentences, plain text, no markdown tables.

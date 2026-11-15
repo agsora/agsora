@@ -2,6 +2,7 @@ import "server-only";
 import { PDFDocument, StandardFonts, rgb, type PDFFont } from "pdf-lib";
 import { siteConfig } from "@/config/site";
 import type { SiteData } from "@/config/site-data";
+import { WARRANTY_DAYS, WARRANTY_WORDS } from "@/config/guarantees";
 import { PAYMENT_PLANS, idr, planOf, quoteNumber, splitTotals, type Quote } from "@/lib/quote";
 
 /**
@@ -166,8 +167,8 @@ export async function buildBastPdf(q: Quote, site: SiteData): Promise<Uint8Array
   );
   d.table(work.length ? work.map((i) => ({ name: i.name, note: i.note })) : q.items.map((i) => ({ name: i.name, note: i.note })), false);
   d.bi(
-    "Dengan ditandatanganinya berita acara ini: (a) pekerjaan dinyatakan selesai dan diterima; (b) masa garansi perbaikan bug selama 30 (tiga puluh) hari kalender dimulai sejak tanggal tersebut di atas; (c) pembayaran termin terakhir jatuh tempo sesuai Perjanjian; dan (d) akses, kredensial, dan dokumentasi telah diserahkan kepada PIHAK KEDUA.",
-    "By signing this certificate: (a) the work is declared complete and accepted; (b) the 30 (thirty) calendar-day bug-fix warranty starts on the date above; (c) the final instalment falls due under the Agreement; and (d) access, credentials and documentation have been handed to the SECOND PARTY.",
+    `Dengan ditandatanganinya berita acara ini: (a) pekerjaan dinyatakan selesai dan diterima; (b) masa garansi perbaikan bug tanpa biaya selama ${WARRANTY_DAYS} (${WARRANTY_WORDS.id}) hari kalender dimulai sejak tanggal tersebut di atas; (c) pembayaran termin terakhir jatuh tempo sesuai Perjanjian; dan (d) akses, kredensial, dan dokumentasi telah diserahkan kepada PIHAK KEDUA, serta kode sumber diserahkan setelah pelunasan sesuai Perjanjian.`,
+    `By signing this certificate: (a) the work is declared complete and accepted; (b) the ${WARRANTY_DAYS} (${WARRANTY_WORDS.en}) calendar-day free bug-fix warranty starts on the date above; (c) the final instalment falls due under the Agreement; and (d) access, credentials and documentation have been handed to the SECOND PARTY, with the source code handed over after full payment under the Agreement.`,
   );
   d.bi("Demikian berita acara ini dibuat untuk dipergunakan sebagaimana mestinya.", "This certificate is made to be used as appropriate.");
   d.signatures(client, q.client_name);
@@ -206,8 +207,8 @@ export async function buildAddendumPdf(q: Quote, parent: Quote, site: SiteData):
     `Article 2. The additional fee is paid in ${plan.length} instalments (${plan.map((s) => `${s.pct}%`).join(" - ")}) on the same terms as the Agreement's instalments. ${Number(q.tax_pct) > 0 ? `The amount includes VAT at ${Number(q.tax_pct)}%.` : "The FIRST PARTY does not yet collect VAT."}`,
   );
   d.bi(
-    "Pasal 3. Jadwal pekerjaan menyesuaikan dengan tambahan lingkup ini. Garansi untuk pekerjaan tambahan berlaku 30 (tiga puluh) hari kalender sejak serah terimanya.",
-    "Article 3. The schedule adjusts to this additional scope. The warranty for the additional work is 30 (thirty) calendar days from its handover.",
+    `Pasal 3. Jadwal pekerjaan menyesuaikan dengan tambahan lingkup ini. Garansi untuk pekerjaan tambahan berlaku ${WARRANTY_DAYS} (${WARRANTY_WORDS.id}) hari kalender sejak serah terimanya.`,
+    `Article 3. The schedule adjusts to this additional scope. The warranty for the additional work is ${WARRANTY_DAYS} (${WARRANTY_WORDS.en}) calendar days from its handover.`,
   );
   d.bi(
     "Pasal 4. Ketentuan lain dalam Perjanjian tetap berlaku dan tidak berubah. Addendum ini merupakan bagian tidak terpisahkan dari Perjanjian; jika terdapat perbedaan penafsiran, versi bahasa Indonesia yang berlaku.",

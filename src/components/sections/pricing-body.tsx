@@ -6,6 +6,7 @@ import { PageHero } from "@/components/sections/page-hero";
 import { CustomDevPricing } from "@/components/sections/custom-dev-pricing";
 import { ChecklistBanner } from "@/components/sections/checklist-banner";
 import { PriceEstimator } from "@/components/sections/price-estimator";
+import { WhyAgsora } from "@/components/sections/why-agsora";
 import { PricingDisclaimer } from "@/components/sections/pricing-disclaimer";
 import { ContactCta } from "@/components/sections/contact-cta";
 import { Faq } from "@/components/sections/faq";
@@ -33,6 +34,8 @@ export function PricingBody() {
           </div>
         </Container>
       </Section>
+
+      <WhyAgsora className="pt-0 pb-16 md:pb-24" />
 
       <Section className="pt-0">
         <Container className="max-w-6xl">

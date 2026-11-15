@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site";
 import type { SiteData } from "@/config/site-data";
 import { PAYMENT_PLANS, computeTotals, idr, paymentSchedule, planOf, quoteNumber, splitTotals, type Quote } from "@/lib/quote";
 import { CATEGORY_EXTRAS, detect, proposalTimeline } from "@/lib/service-categories";
+import { WARRANTY_DAYS } from "@/config/guarantees";
 
 /** Standard PDF fonts only cover Latin-1; anything else is replaced so drawText cannot throw. */
 const safe = (s: string) => s.replace(/[\r\t]/g, " ").replace(/[^\n -~ -ÿ]/g, "?");
@@ -384,7 +385,8 @@ export async function buildQuotePdf(q: Quote, site: SiteData): Promise<Uint8Arra
     const terms: [string, string][] = [
       ["Pembayaran", `Proyek dibayar ${PAYMENT_PLANS[plan].length} kali: ${PAYMENT_PLANS[plan].map((s) => `${s.pct}%`).join(" - ")} (rincian pada bagian investasi). Layanan berlangganan ditagih di muka per periode.`],
       ["Revisi", "Termasuk 2 putaran revisi minor per tahap, selama tidak mengubah alur utama yang sudah disepakati."],
-      ["Garansi", "Perbaikan bug 30 hari kalender sejak serah terima untuk lingkup yang kami kerjakan."],
+      ["Garansi", `Perbaikan bug gratis ${WARRANTY_DAYS} hari kalender sejak serah terima untuk lingkup yang kami kerjakan.`],
+      ["Kepemilikan", "Setelah lunas, kode sumber, akses repositori, dan dokumentasi diserahkan kepada Anda. Tidak ada biaya bulanan per outlet atau per pengguna."],
       ["Perubahan lingkup", "Fitur tambahan, perubahan besar desain, perubahan alur bisnis, atau integrasi baru dibuatkan penawaran terpisah."],
       ["Tidak termasuk", "Biaya domain, hosting, server, lisensi, API, payment gateway, dan layanan pihak ketiga lain kecuali disebutkan pada rincian."],
       ["Akses & data", "Anda menyediakan akses, data, dan materi yang dibutuhkan. Keterlambatan akses dapat menggeser jadwal."],

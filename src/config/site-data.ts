@@ -102,7 +102,9 @@ export const defaultProposal: ProposalContent = {
   ],
   commitments: [
     "Komunikasi progres yang jelas di setiap tahap",
-    "Kode dan data Anda adalah milik Anda",
+    "Kode sumber dan data menjadi milik Anda setelah lunas",
+    "Garansi perbaikan bug gratis 90 hari setelah serah terima",
+    "Harga transparan, tanpa biaya bulanan per outlet atau pengguna",
     "Dokumentasi dan serah terima yang rapi",
     "Dukungan purna jual setelah peluncuran",
   ],

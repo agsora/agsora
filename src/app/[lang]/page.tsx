@@ -4,6 +4,7 @@ import { LogoStrip } from "@/components/home/logo-strip";
 import { ProofStrip } from "@/components/home/proof-strip";
 import { ServicesIndex } from "@/components/home/services-index";
 import { CaseStudies } from "@/components/home/case-studies";
+import { WhyAgsora } from "@/components/sections/why-agsora";
 import { LatestArticles, type HomeArticle } from "@/components/home/latest-articles";
 import { HomeFaq } from "@/components/home/home-faq";
 import { FinalCta } from "@/components/home/final-cta";
@@ -119,6 +120,7 @@ export default async function Home({ params }: LangParams) {
       <Section className="py-20 md:py-28">
         <ServicesIndex />
       </Section>
+      <WhyAgsora />
       <CaseStudies />
       <Section className="bg-surface-1 py-20 md:py-28">
         <HowWeWork align="center" />
