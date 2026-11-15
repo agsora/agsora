@@ -65,7 +65,7 @@ export async function buildQuotePdf(q: Quote, site: SiteData): Promise<Uint8Arra
   const pdf = await PDFDocument.create();
   const font = await pdf.embedFont(StandardFonts.Helvetica);
   const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
-  const { proposal, contact } = site;
+  const { proposal, contact, tax } = site;
   const number = quoteNumber(q);
   const issued = dateId(q.approved_at ?? q.created_at);
 
@@ -135,6 +135,10 @@ export async function buildQuotePdf(q: Quote, site: SiteData): Promise<Uint8Arra
   y = 92;
   text(siteConfig.legalName, M, 10, bold, WHITE);
   y -= 14;
+  if (tax.npwp) {
+    text(`NPWP ${tax.npwp}`, M, 9, font, rgb(0.72, 0.75, 0.86));
+    y -= 14;
+  }
   text(`${contact.email}  ·  WhatsApp ${contact.whatsappNumber}  ·  ${siteConfig.domain}`, M, 9, font, rgb(0.72, 0.75, 0.86));
 
   // ── 2. Philosophy
@@ -228,6 +232,7 @@ export async function buildQuotePdf(q: Quote, site: SiteData): Promise<Uint8Arra
   const t = computeTotals(q.items, Number(q.discount_pct), Number(q.tax_pct));
   ensure(120);
   y -= 6;
+  const taxNotes: string[] = [];
   const row = (label: string, value: string) => {
     right(label, W - M - 130, 10, font, MUTED);
     right(value, W - M - 8, 10);
@@ -235,12 +240,28 @@ export async function buildQuotePdf(q: Quote, site: SiteData): Promise<Uint8Arra
   };
   row("Subtotal", idr(t.subtotal));
   if (t.discount) row(`Diskon ${Number(q.discount_pct)}%`, `-${idr(t.discount)}`);
-  if (t.tax) row(`PPN ${Number(q.tax_pct)}%`, idr(t.tax));
+  if (t.tax) {
+    row(`PPN ${Number(q.tax_pct)}%`, idr(t.tax));
+    taxNotes.push(`PPN dihitung 12% atas Dasar Pengenaan Pajak Nilai Lain (11/12 dari harga), setara ${Number(q.tax_pct)}% efektif, sesuai PMK 131/2024.`);
+  }
+  if (tax.pph23Note) taxNotes.push("Jika klien merupakan pemotong pajak, PPh Pasal 23 dipotong atas jasa ini dari nilai sebelum PPN, dan bukti potong mohon diserahkan kepada kami.");
   y -= 30;
   page.drawRectangle({ x: W - M - 250, y: y - 10, width: 250, height: 34, color: NAVY });
   text("TOTAL INVESTASI", W - M - 238, 9, bold, rgb(0.72, 0.75, 0.86));
   right(idr(t.total), W - M - 12, 15, bold, WHITE);
   y -= 46;
+
+  if (taxNotes.length) {
+    const lines = taxNotes.flatMap((n) => wrap(n, font, 8.5, W - 2 * M));
+    ensure(lines.length * 11 + 24);
+    text("Catatan perpajakan", M, 10, bold, NAVY);
+    y -= 14;
+    for (const l of lines) {
+      text(l, M, 8.5, font, MUTED);
+      y -= 11;
+    }
+    y -= 12;
+  }
 
   if (q.terms) {
     const lines = wrap(q.terms, font, 9.5, W - 2 * M);

@@ -20,13 +20,16 @@ export default async function NewQuotePage({ searchParams }: { searchParams: Pro
       ? (await queryLeads(`select=*&id=eq.${leadId}${session.role === "sales" ? `&assigned_to=eq.${session.id}` : ""}`))?.[0]
       : undefined;
 
+  const site = await getSiteData();
   const validUntil = new Date(nowMs() + 14 * 86_400_000).toISOString().slice(0, 10);
 
   return (
     <AdminShell active="quotes" title="Penawaran baru" subtitle={lead ? `Untuk ${lead.name}` : undefined}>
       {notice ? <p className={`sn-notice ${type === "err" ? "err" : ""}`}>{notice}</p> : null}
       <QuoteEditor
-        pricing={(await getSiteData()).pricing}
+        pricing={site.pricing}
+        ppn={site.tax.pkp ? site.tax.ppnRate : 0}
+        pph23={site.tax.pph23Note}
         initial={{
           lead_id: lead?.id ?? null,
           client_name: lead?.name ?? "",

@@ -23,12 +23,24 @@ export type ProposalContent = {
   closing: string;
 };
 
+/** Indonesian tax settings that drive PPN on quotes and the legal lines on the proposal. */
+export type TaxSettings = {
+  /** Pengusaha Kena Pajak: only a PKP may charge PPN. */
+  pkp: boolean;
+  /** Effective PPN in percent: 12% x DPP nilai lain (11/12) = 11%. */
+  ppnRate: number;
+  npwp: string;
+  /** Mention PPh 23 withholding (2%) on proposals. */
+  pph23Note: boolean;
+};
+
 export type SiteData = {
   pricing: PricingItem[];
   /** "Mulai dari" price per service id (home, services pages). */
   servicePrices: Record<string, number>;
   contact: ContactInfo;
   proposal: ProposalContent;
+  tax: TaxSettings;
 };
 
 export const defaultContact: ContactInfo = {
@@ -67,6 +79,8 @@ export const defaultProposal: ProposalContent = {
   closing: "Terima kasih atas kesempatan yang diberikan. Kami siap berdiskusi untuk menyesuaikan ruang lingkup dan jadwal dengan kebutuhan Anda.",
 };
 
+export const defaultTax: TaxSettings = { pkp: true, ppnRate: 11, npwp: "", pph23Note: true };
+
 export const defaultServicePrices: Record<string, number> = Object.fromEntries(services.map((s) => [s.id, s.startingFrom]));
 
 export const defaultSiteData: SiteData = {
@@ -74,4 +88,5 @@ export const defaultSiteData: SiteData = {
   servicePrices: defaultServicePrices,
   contact: defaultContact,
   proposal: defaultProposal,
+  tax: defaultTax,
 };

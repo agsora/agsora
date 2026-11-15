@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { usePricing } from "@/components/site-data";
+import { isMonthly } from "@/config/pricing";
 import { growth } from "@/i18n/growth";
 import { useLocale } from "@/i18n/locale-context";
 import { Eyebrow } from "@/components/ui/section";
@@ -19,8 +20,8 @@ export function PriceEstimator() {
 
   const chosen = selectable.filter((item) => picked.includes(item.id));
   // Items with a unit of "/ month" are recurring; the rest are one-time.
-  const monthly = chosen.filter((i) => i.id === "maintenance").reduce((sum, i) => sum + (i.price ?? 0), 0);
-  const oneTime = chosen.filter((i) => i.id !== "maintenance").reduce((sum, i) => sum + (i.price ?? 0), 0);
+  const monthly = chosen.filter((i) => isMonthly(i)).reduce((sum, i) => sum + (i.price ?? 0), 0);
+  const oneTime = chosen.filter((i) => !isMonthly(i)).reduce((sum, i) => sum + (i.price ?? 0), 0);
 
   function toggle(id: string) {
     setPicked((prev) => (prev.includes(id) ? prev.filter((p) => p !== id) : [...prev, id]));

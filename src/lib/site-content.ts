@@ -27,6 +27,7 @@ export async function getSiteData(): Promise<SiteData> {
       if (k === "pricing" && Array.isArray(value)) data.pricing = value as SiteData["pricing"];
       else if (k === "service_prices" && value && typeof value === "object") data.servicePrices = { ...data.servicePrices, ...(value as Record<string, number>) };
       else if (k === "contact" && value && typeof value === "object") data.contact = { ...data.contact, ...(value as object) };
+      else if (k === "tax" && value && typeof value === "object") data.tax = { ...data.tax, ...(value as object) };
       else if (k === "proposal" && value && typeof value === "object") data.proposal = { ...data.proposal, ...(value as object) };
     }
     return data;

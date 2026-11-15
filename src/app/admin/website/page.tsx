@@ -1,7 +1,7 @@
 import { services } from "@/config/services";
 import { getSiteData } from "@/lib/site-content";
 import { AdminShell, adminGate } from "../shell";
-import { ContactForm, PricingEditor, ProposalForm, ServicePricesForm } from "./forms";
+import { ContactForm, PricingEditor, ProposalForm, ServicePricesForm, TaxForm } from "./forms";
 
 export default async function WebsiteSettingsPage() {
   const gate = await adminGate();
@@ -33,6 +33,11 @@ export default async function WebsiteSettingsPage() {
         <ServicePricesForm services={services.map((s) => ({ id: s.id, title: s.title.id }))} prices={data.servicePrices} />
       )}
       {card("Kontak & media sosial", "Tampil di footer, header, halaman kontak, dan data terstruktur Google.", <ContactForm contact={data.contact} />)}
+      {card(
+        "Pajak (PPN)",
+        "Tarif 12% atas DPP Nilai Lain (11/12) berarti beban efektif 11%. Hanya PKP yang boleh memungut PPN.",
+        <TaxForm tax={data.tax} />
+      )}
       {card("Isi proposal (filosofi AG·SORA)", "Bagian filosofi, pilar, tahapan kerja, dan komitmen pada PDF proposal.", <ProposalForm proposal={data.proposal} />)}
     </AdminShell>
   );

@@ -43,6 +43,7 @@ export async function saveQuote(formData: FormData) {
 
   const existingId = numField(formData, "id");
   const intent = formData.get("intent") === "submit" ? "submit" : "save";
+  const { tax } = await getSiteData();
   const items = parseItems(formData.get("items"));
   const clientName = text(formData, "client_name", 160);
   const clientEmail = text(formData, "client_email", 200);
@@ -52,7 +53,8 @@ export async function saveQuote(formData: FormData) {
     client_company: text(formData, "client_company", 160),
     items,
     discount_pct: pct(formData, "discount_pct"),
-    tax_pct: pct(formData, "tax_pct"),
+    // PPN is automatic: the effective rate for a PKP company, nothing otherwise. Never taken from the form.
+    tax_pct: tax.pkp ? tax.ppnRate : 0,
     valid_until: /^\d{4}-\d{2}-\d{2}$/.test(String(formData.get("valid_until"))) ? String(formData.get("valid_until")) : null,
     terms: text(formData, "terms", 3000),
   };

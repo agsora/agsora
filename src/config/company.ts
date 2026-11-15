@@ -382,17 +382,17 @@ export const faqsTranslated: FaqTranslated[] = [
     id: {
       question: "Apakah ada biaya setelah sistem selesai?",
       answer:
-        "Sistem yang sudah berjalan tetap membutuhkan pemeliharaan. Paket maintenance mulai dari Rp750.000 per bulan, mencakup perbaikan bug dan dukungan teknis. Biaya pihak ketiga seperti domain, hosting, atau lisensi API berada di luar itu kecuali dinyatakan lain.",
+        "Sistem yang sudah berjalan tetap membutuhkan pemeliharaan. Paket maintenance mulai dari Rp2.000.000 per bulan, mencakup perbaikan bug dan dukungan teknis. Biaya pihak ketiga seperti domain, hosting, atau lisensi API berada di luar itu kecuali dinyatakan lain.",
     },
     en: {
       question: "Are there costs after the system is delivered?",
       answer:
-        "A running system still needs upkeep. Maintenance packages start from Rp750,000/month, covering bug fixes and technical support. Third party costs like domain, hosting, or API licensing sit outside that unless stated otherwise.",
+        "A running system still needs upkeep. Maintenance packages start from Rp2,000,000/month, covering bug fixes and technical support. Third party costs like domain, hosting, or API licensing sit outside that unless stated otherwise.",
     },
     zh: {
       question: "系统交付后还需要付费吗？",
       answer:
-        "系统上线后仍需要维护。维护套餐起价为每月 Rp750,000，涵盖错误修复与技术支持。域名、主机、API 授权等第三方费用不包含在内，除非另有说明。",
+        "系统上线后仍需要维护。维护套餐起价为每月 Rp2,000,000，涵盖错误修复与技术支持。域名、主机、API 授权等第三方费用不包含在内，除非另有说明。",
     },
   },
   {

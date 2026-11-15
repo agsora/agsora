@@ -4,16 +4,11 @@ import { revalidatePath, updateTag } from "next/cache";
 import { isAdmin } from "@/lib/admin-auth";
 import { sbWrite } from "@/lib/supabase";
 import { SITE_CONTENT_TAG } from "@/lib/site-content";
-import { defaultContact, defaultProposal, defaultServicePrices } from "@/config/site-data";
+import { defaultContact, defaultProposal, defaultServicePrices, defaultTax } from "@/config/site-data";
 import { services } from "@/config/services";
-import type { PricingItem } from "@/config/pricing";
+import { PRICING_CATEGORIES, PRICING_UNITS, type PricingItem } from "@/config/pricing";
 
-const CATEGORIES: PricingItem["category"][] = ["Website & Digital", "Sistem Bisnis", "Automation & Integrasi", "Support & Enterprise"];
-const UNITS = {
-  "": undefined,
-  platform: { id: "/ platform", en: "/ platform", zh: "/ 每平台" },
-  month: { id: "/ bulan", en: "/ month", zh: "/ 月" },
-} as const;
+const CATEGORIES: readonly string[] = PRICING_CATEGORIES;
 
 export type SaveResult = { ok: boolean; message: string } | null;
 
@@ -59,8 +54,8 @@ export async function savePricing(_: SaveResult, formData: FormData): Promise<Sa
     while (seen.has(id)) id += "-2";
     seen.add(id);
     const priceRaw = String(r.price ?? "").replace(/\D/g, "");
-    const unit = UNITS[String(r.unit ?? "") as keyof typeof UNITS];
-    const category = CATEGORIES.includes(r.category as PricingItem["category"]) ? (r.category as PricingItem["category"]) : "Website & Digital";
+    const unit = (PRICING_UNITS as Record<string, PricingItem["unit"]>)[String(r.unit ?? "")];
+    const category = CATEGORIES.includes(String(r.category)) ? (r.category as PricingItem["category"]) : "Website & Digital";
     items.push({
       id,
       name: {
@@ -104,6 +99,17 @@ export async function saveContact(_: SaveResult, formData: FormData): Promise<Sa
     facebook: url("facebook"),
     linkedin: url("linkedin"),
     tiktok: url("tiktok"),
+  });
+}
+
+export async function saveTax(_: SaveResult, formData: FormData): Promise<SaveResult> {
+  const rate = Number(String(formData.get("ppnRate") ?? "").replace(",", "."));
+  const npwp = str(formData, "npwp", 30).replace(/[^\d.\-]/g, "");
+  return put("tax", {
+    pkp: formData.get("pkp") === "on",
+    ppnRate: Number.isFinite(rate) && rate >= 0 && rate <= 25 ? rate : defaultTax.ppnRate,
+    npwp,
+    pph23Note: formData.get("pph23Note") === "on",
   });
 }
 

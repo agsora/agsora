@@ -29,6 +29,7 @@ export default async function QuotePage({
   if (!q || (session.role === "sales" && q.sales_id !== session.id)) notFound();
 
   const { notice, type, edit } = await searchParams;
+  const site = await getSiteData();
   const totals = computeTotals(q.items, Number(q.discount_pct), Number(q.tax_pct));
   const owner = session.role === "owner";
   const editable = q.status === "draft" || q.status === "rejected" || (edit === "1" && q.status !== "pending");
@@ -101,7 +102,9 @@ export default async function QuotePage({
 
       {editable ? (
         <QuoteEditor
-          pricing={(await getSiteData()).pricing}
+          pricing={site.pricing}
+          ppn={site.tax.pkp ? site.tax.ppnRate : 0}
+          pph23={site.tax.pph23Note}
           initial={{
             id: q.id,
             lead_id: q.lead_id,

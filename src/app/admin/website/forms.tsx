@@ -2,9 +2,9 @@
 
 import { useActionState, useState } from "react";
 import { Plus, Trash2 } from "lucide-react";
-import type { PricingItem } from "@/config/pricing";
-import type { ContactInfo, ProposalContent } from "@/config/site-data";
-import { saveContact, savePricing, saveProposal, saveServicePrices, type SaveResult } from "./actions";
+import { PRICING_CATEGORIES, PRICING_UNITS, type PricingItem } from "@/config/pricing";
+import type { ContactInfo, ProposalContent, TaxSettings } from "@/config/site-data";
+import { saveContact, savePricing, saveProposal, saveServicePrices, saveTax, type SaveResult } from "./actions";
 
 function Result({ state, pending }: { state: SaveResult; pending: boolean }) {
   if (pending) return <span className="sn-muted">Menyimpan…</span>;
@@ -12,7 +12,7 @@ function Result({ state, pending }: { state: SaveResult; pending: boolean }) {
   return <span style={{ color: state.ok ? "var(--sn-success)" : "var(--sn-danger)", fontSize: "0.875rem" }}>{state.message}</span>;
 }
 
-const CATEGORIES: PricingItem["category"][] = ["Website & Digital", "Sistem Bisnis", "Automation & Integrasi", "Support & Enterprise"];
+const CATEGORIES = PRICING_CATEGORIES;
 
 type Row = { id: string; name_id: string; name_en: string; name_zh: string; price: string; unit: string; category: PricingItem["category"] };
 
@@ -22,7 +22,7 @@ const toRow = (p: PricingItem): Row => ({
   name_en: p.name.en,
   name_zh: p.name.zh,
   price: p.price === null ? "" : String(p.price),
-  unit: !p.unit ? "" : p.unit.id.includes("bulan") ? "month" : "platform",
+  unit: Object.entries(PRICING_UNITS).find(([, u]) => u.id === p.unit?.id)?.[0] ?? "",
   category: p.category,
 });
 
@@ -73,8 +73,11 @@ export function PricingEditor({ items }: { items: PricingItem[] }) {
                 <td>
                   <select className="sn-input" value={r.unit} onChange={(e) => set(i, { unit: e.target.value })} aria-label="Satuan">
                     <option value="">–</option>
-                    <option value="platform">/ platform</option>
-                    <option value="month">/ bulan</option>
+                    {Object.entries(PRICING_UNITS).map(([key, u]) => (
+                      <option key={key} value={key}>
+                        {u.id}
+                      </option>
+                    ))}
                   </select>
                 </td>
                 <td>
@@ -166,6 +169,40 @@ export function ContactForm({ contact }: { contact: ContactInfo }) {
       <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", marginTop: "1rem" }}>
         <button className="sn-btn sn-btn-primary" disabled={pending}>
           Simpan kontak
+        </button>
+        <Result state={state} pending={pending} />
+      </div>
+    </form>
+  );
+}
+
+export function TaxForm({ tax }: { tax: TaxSettings }) {
+  const [state, action, pending] = useActionState(saveTax, null);
+  return (
+    <form action={action} style={{ padding: "0 1.5rem 1.5rem", display: "grid", gap: "0.85rem" }}>
+      <label style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+        <input type="checkbox" name="pkp" defaultChecked={tax.pkp} />
+        <span>
+          Perusahaan sudah <strong>PKP</strong> (Pengusaha Kena Pajak). PPN otomatis ditambahkan ke setiap proposal. Matikan kalau belum PKP.
+        </span>
+      </label>
+      <div className="sn-form-grid" style={{ marginTop: 0 }}>
+        <label className="sn-field">
+          Tarif PPN efektif (%)
+          <input name="ppnRate" inputMode="decimal" className="sn-input" defaultValue={tax.ppnRate} />
+        </label>
+        <label className="sn-field">
+          NPWP perusahaan (tampil di proposal)
+          <input name="npwp" className="sn-input" maxLength={30} placeholder="00.000.000.0-000.000" defaultValue={tax.npwp} />
+        </label>
+      </div>
+      <label style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+        <input type="checkbox" name="pph23Note" defaultChecked={tax.pph23Note} />
+        <span>Cantumkan catatan PPh 23 (klien badan memotong 2% dan memberi bukti potong) di proposal</span>
+      </label>
+      <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
+        <button className="sn-btn sn-btn-primary" disabled={pending}>
+          Simpan pengaturan pajak
         </button>
         <Result state={state} pending={pending} />
       </div>

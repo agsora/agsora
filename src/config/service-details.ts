@@ -42,11 +42,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "印尼定制软件开发服务 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan custom software untuk perusahaan di Indonesia. Sistem dibangun mengikuti proses bisnis Anda. Mulai dari Rp8.000.000.",
+      id: "Jasa pembuatan custom software untuk perusahaan di Indonesia. Sistem dibangun mengikuti proses bisnis Anda. Mulai dari Rp30.000.000.",
       en:
-        "Custom software development for companies in Indonesia and abroad. Systems built around your business processes. From Rp8,000,000.",
+        "Custom software development for companies in Indonesia and abroad. Systems built around your business processes. From Rp30,000,000.",
       zh:
-        "为印尼及海外企业提供定制软件开发，系统完全贴合您的业务流程。Rp8,000,000 起。",
+        "为印尼及海外企业提供定制软件开发，系统完全贴合您的业务流程。Rp30,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Custom Software untuk Bisnis Indonesia",
@@ -106,9 +106,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "定制软件开发费用是多少？",
         },
         answer: {
-          id: "Mulai dari Rp8.000.000, bergantung pada jumlah modul, kompleksitas alur kerja, dan integrasi yang dibutuhkan. Angka pastinya disampaikan dalam proposal setelah kebutuhan dipetakan.",
-          en: "Starting from Rp8,000,000, depending on the number of modules, workflow complexity, and integrations required. The exact figure is shared in a proposal once requirements are mapped out.",
-          zh: "起价为 Rp8,000,000，具体取决于模块数量、工作流程复杂度及所需对接的系统。准确报价将在需求梳理完成后于提案中提供。",
+          id: "Mulai dari Rp30.000.000, bergantung pada jumlah modul, kompleksitas alur kerja, dan integrasi yang dibutuhkan. Angka pastinya disampaikan dalam proposal setelah kebutuhan dipetakan.",
+          en: "Starting from Rp30,000,000, depending on the number of modules, workflow complexity, and integrations required. The exact figure is shared in a proposal once requirements are mapped out.",
+          zh: "起价为 Rp30,000,000，具体取决于模块数量、工作流程复杂度及所需对接的系统。准确报价将在需求梳理完成后于提案中提供。",
         },
       },
       {
@@ -154,11 +154,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "企业网站建设服务 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan website company profile, e-commerce, dan website dengan admin dashboard. Cepat, SEO friendly. Mulai dari Rp3.500.000.",
+      id: "Jasa pembuatan website company profile, e-commerce, dan website dengan admin dashboard. Cepat, SEO friendly. Mulai dari Rp4.500.000.",
       en:
-        "Company profile, e-commerce, and admin dashboard websites. Fast and SEO friendly. From Rp3,500,000.",
+        "Company profile, e-commerce, and admin dashboard websites. Fast and SEO friendly. From Rp4,500,000.",
       zh:
-        "企业官网、电商网站及带管理后台的网站开发，速度快、利于 SEO。Rp3,500,000 起。",
+        "企业官网、电商网站及带管理后台的网站开发，速度快、利于 SEO。Rp4,500,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Website Perusahaan",
@@ -218,9 +218,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "企业网站建设费用是多少？",
         },
         answer: {
-          id: "Landing page mulai dari Rp2.500.000, company profile mulai dari Rp3.500.000, website dengan admin dashboard mulai dari Rp5.000.000, dan e-commerce mulai dari Rp7.500.000.",
-          en: "Landing pages start from Rp2,500,000, company profile sites from Rp3,500,000, websites with an admin dashboard from Rp5,000,000, and e-commerce from Rp7,500,000.",
-          zh: "落地页起价 Rp2,500,000，企业官网起价 Rp3,500,000，带后台管理的网站起价 Rp5,000,000，电商网站起价 Rp7,500,000。",
+          id: "Landing page mulai dari Rp4.500.000, company profile mulai dari Rp8.500.000, website dengan admin dashboard mulai dari Rp15.000.000, dan e-commerce mulai dari Rp20.000.000.",
+          en: "Landing pages start from Rp4,500,000, company profile sites from Rp8,500,000, websites with an admin dashboard from Rp15,000,000, and e-commerce from Rp20,000,000.",
+          zh: "落地页起价 Rp4,500,000，企业官网起价 Rp8,500,000，带后台管理的网站起价 Rp15,000,000，电商网站起价 Rp20,000,000。",
         },
       },
       {
@@ -265,11 +265,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "Android 与 iOS 移动应用开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan aplikasi mobile Android dan iOS untuk bisnis. Dari aplikasi pelanggan hingga aplikasi operasional lapangan. Mulai Rp10.000.000.",
+      id: "Jasa pembuatan aplikasi mobile Android dan iOS untuk bisnis. Dari aplikasi pelanggan hingga aplikasi operasional lapangan. Mulai Rp25.000.000.",
       en:
-        "Android and iOS app development for businesses, from customer facing apps to field operations apps. From Rp10,000,000.",
+        "Android and iOS app development for businesses, from customer facing apps to field operations apps. From Rp25,000,000.",
       zh:
-        "为企业开发 Android 与 iOS 应用，从客户端应用到现场作业应用。Rp10,000,000 起。",
+        "为企业开发 Android 与 iOS 应用，从客户端应用到现场作业应用。Rp25,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Aplikasi Mobile Android & iOS",
@@ -329,9 +329,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "移动应用开发费用是多少？",
         },
         answer: {
-          id: "Mulai dari Rp10.000.000 per platform. Biaya bergantung pada jumlah fitur, kebutuhan integrasi, dan apakah aplikasi harus bekerja saat offline.",
-          en: "Starting from Rp10,000,000 per platform. Cost depends on the number of features, integration needs, and whether the app must work offline.",
-          zh: "每个平台起价 Rp10,000,000。费用取决于功能数量、对接需求以及应用是否需要支持离线使用。",
+          id: "Mulai dari Rp25.000.000 per platform. Biaya bergantung pada jumlah fitur, kebutuhan integrasi, dan apakah aplikasi harus bekerja saat offline.",
+          en: "Starting from Rp25,000,000 per platform. Cost depends on the number of features, integration needs, and whether the app must work offline.",
+          zh: "每个平台起价 Rp25,000,000。费用取决于功能数量、对接需求以及应用是否需要支持离线使用。",
         },
       },
       {
@@ -374,11 +374,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "印尼 ERP 系统开发服务 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan sistem ERP untuk perusahaan Indonesia. Integrasi keuangan, inventori, produksi, dan pembelian. ERP Basic mulai Rp15.000.000.",
+      id: "Jasa pembuatan sistem ERP untuk perusahaan Indonesia. Integrasi keuangan, inventori, produksi, dan pembelian. ERP Basic mulai Rp60.000.000.",
       en:
-        "Custom ERP development integrating finance, inventory, production, and purchasing in one system. ERP Basic from Rp15,000,000.",
+        "Custom ERP development integrating finance, inventory, production, and purchasing in one system. ERP Basic from Rp60,000,000.",
       zh:
-        "定制 ERP 系统开发，将财务、库存、生产与采购整合在一个系统中。ERP 基础版 Rp15,000,000 起。",
+        "定制 ERP 系统开发，将财务、库存、生产与采购整合在一个系统中。ERP 基础版 Rp60,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Sistem ERP untuk Perusahaan Indonesia",
@@ -438,9 +438,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "ERP 实施费用是多少？",
         },
         answer: {
-          id: "ERP Basic mulai dari Rp15.000.000 dan ERP Advanced mulai dari Rp25.000.000. Untuk kebutuhan enterprise atau multicabang, biaya disusun berdasarkan ruang lingkup.",
-          en: "ERP Basic starts from Rp15,000,000 and ERP Advanced from Rp25,000,000. For enterprise or multibranch needs, cost is scoped based on requirements.",
-          zh: "ERP 基础版起价 Rp15,000,000，进阶版起价 Rp25,000,000。企业级或多分店需求将根据具体范围另行报价。",
+          id: "ERP Basic mulai dari Rp60.000.000 dan ERP Advanced mulai dari Rp150.000.000. Untuk kebutuhan enterprise atau multicabang, biaya disusun berdasarkan ruang lingkup.",
+          en: "ERP Basic starts from Rp60,000,000 and ERP Advanced from Rp150,000,000. For enterprise or multibranch needs, cost is scoped based on requirements.",
+          zh: "ERP 基础版起价 Rp60,000,000，进阶版起价 Rp150,000,000。企业级或多分店需求将根据具体范围另行报价。",
         },
       },
       {
@@ -484,11 +484,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "POS 收银系统开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan sistem POS dan aplikasi kasir untuk retail dan F&B. Multioutlet, stok real time, laporan otomatis. Mulai Rp6.000.000.",
+      id: "Jasa pembuatan sistem POS dan aplikasi kasir untuk retail dan F&B. Multioutlet, stok real time, laporan otomatis. Mulai Rp15.000.000.",
       en:
-        "POS and cashier system development for retail and F&B. Multioutlet, real time stock, automated reports. From Rp6,000,000.",
+        "POS and cashier system development for retail and F&B. Multioutlet, real time stock, automated reports. From Rp15,000,000.",
       zh:
-        "为零售与餐饮开发 POS 收银系统：多门店、库存实时同步、自动报表。Rp6,000,000 起。",
+        "为零售与餐饮开发 POS 收银系统：多门店、库存实时同步、自动报表。Rp15,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Sistem POS & Aplikasi Kasir",
@@ -548,9 +548,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "POS 系统开发费用是多少？",
         },
         answer: {
-          id: "POS custom mulai dari Rp6.000.000. Harga final mengikuti fitur, jumlah outlet, dan integrasi yang Anda butuhkan.",
-          en: "Custom POS starts from Rp6,000,000. The final price depends on the features, number of outlets, and integrations you need.",
-          zh: "定制 POS 起价 Rp6,000,000。最终价格取决于所需功能、门店数量与集成需求。",
+          id: "POS custom mulai dari Rp15.000.000. Harga final mengikuti fitur, jumlah outlet, dan integrasi yang Anda butuhkan.",
+          en: "Custom POS starts from Rp15,000,000. The final price depends on the features, number of outlets, and integrations you need.",
+          zh: "定制 POS 起价 Rp15,000,000。最终价格取决于所需功能、门店数量与集成需求。",
         },
       },
       {
@@ -588,11 +588,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "印尼 HRIS 人事系统开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan HRIS untuk perusahaan Indonesia. Absensi, payroll, cuti, dan manajemen karyawan dalam satu sistem. Mulai Rp7.500.000.",
+      id: "Jasa pembuatan HRIS untuk perusahaan Indonesia. Absensi, payroll, cuti, dan manajemen karyawan dalam satu sistem. Mulai Rp25.000.000.",
       en:
-        "Custom HRIS development: attendance, payroll, leave, and employee management in one system. From Rp7,500,000.",
+        "Custom HRIS development: attendance, payroll, leave, and employee management in one system. From Rp25,000,000.",
       zh:
-        "定制 HRIS 人事系统：考勤、薪资、请假与员工管理集于一体。Rp7,500,000 起。",
+        "定制 HRIS 人事系统：考勤、薪资、请假与员工管理集于一体。Rp25,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Sistem HRIS untuk Perusahaan",
@@ -652,9 +652,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "HRIS 开发费用是多少？",
         },
         answer: {
-          id: "HRIS custom mulai dari Rp7.500.000. Harga final mengikuti fitur, jumlah karyawan, dan integrasi yang Anda butuhkan.",
-          en: "Custom HRIS starts from Rp7,500,000. The final price depends on the features, number of employees, and integrations you need.",
-          zh: "定制 HRIS 起价 Rp7,500,000。最终价格取决于所需功能、员工人数与集成需求。",
+          id: "HRIS custom mulai dari Rp25.000.000. Harga final mengikuti fitur, jumlah karyawan, dan integrasi yang Anda butuhkan.",
+          en: "Custom HRIS starts from Rp25,000,000. The final price depends on the features, number of employees, and integrations you need.",
+          zh: "定制 HRIS 起价 Rp25,000,000。最终价格取决于所需功能、员工人数与集成需求。",
         },
       },
       {
@@ -692,11 +692,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "印尼 CRM 客户管理系统开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan sistem CRM untuk tim sales. Pipeline penjualan, follow up otomatis, dan laporan performa. Mulai dari Rp7.500.000.",
+      id: "Jasa pembuatan sistem CRM untuk tim sales. Pipeline penjualan, follow up otomatis, dan laporan performa. Mulai dari Rp25.000.000.",
       en:
-        "Custom CRM development for sales teams: sales pipeline, automated follow ups, and performance reports. From Rp7,500,000.",
+        "Custom CRM development for sales teams: sales pipeline, automated follow ups, and performance reports. From Rp25,000,000.",
       zh:
-        "为销售团队定制 CRM：销售漏斗、自动跟进与业绩报表。Rp7,500,000 起。",
+        "为销售团队定制 CRM：销售漏斗、自动跟进与业绩报表。Rp25,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Sistem CRM untuk Tim Sales",
@@ -756,9 +756,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "CRM 开发费用是多少？",
         },
         answer: {
-          id: "CRM custom mulai dari Rp7.500.000. Harga final mengikuti fitur, jumlah pengguna, dan integrasi yang Anda butuhkan.",
-          en: "Custom CRM starts from Rp7,500,000. The final price depends on the features, number of users, and integrations you need.",
-          zh: "定制 CRM 起价 Rp7,500,000。最终价格取决于所需功能、用户数量与集成需求。",
+          id: "CRM custom mulai dari Rp25.000.000. Harga final mengikuti fitur, jumlah pengguna, dan integrasi yang Anda butuhkan.",
+          en: "Custom CRM starts from Rp25,000,000. The final price depends on the features, number of users, and integrations you need.",
+          zh: "定制 CRM 起价 Rp25,000,000。最终价格取决于所需功能、用户数量与集成需求。",
         },
       },
       {
@@ -796,11 +796,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "商业仪表盘与报表系统开发 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa pembuatan dashboard bisnis dan sistem pelaporan real time. Data operasional jadi dasar keputusan. Mulai dari Rp4.000.000.",
+      id: "Jasa pembuatan dashboard bisnis dan sistem pelaporan real time. Data operasional jadi dasar keputusan. Mulai dari Rp12.000.000.",
       en:
-        "Business dashboards and real time reporting systems that turn operational data into decisions. From Rp4,000,000.",
+        "Business dashboards and real time reporting systems that turn operational data into decisions. From Rp12,000,000.",
       zh:
-        "商业仪表盘与实时报表系统开发，让运营数据成为决策依据。Rp4,000,000 起。",
+        "商业仪表盘与实时报表系统开发，让运营数据成为决策依据。Rp12,000,000 起。",
     },
     h1: {
       id: "Jasa Pembuatan Dashboard & Sistem Reporting",
@@ -860,9 +860,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "业务仪表盘开发费用是多少？",
         },
         answer: {
-          id: "Mulai dari Rp4.000.000, bergantung pada jumlah sumber data yang perlu digabungkan dan kompleksitas perhitungan metriknya.",
-          en: "Starting from Rp4,000,000, depending on the number of data sources to combine and the complexity of the metric calculations.",
-          zh: "起价 Rp4,000,000，具体取决于需要整合的数据源数量及指标计算的复杂程度。",
+          id: "Mulai dari Rp12.000.000, bergantung pada jumlah sumber data yang perlu digabungkan dan kompleksitas perhitungan metriknya.",
+          en: "Starting from Rp12,000,000, depending on the number of data sources to combine and the complexity of the metric calculations.",
+          zh: "起价 Rp12,000,000，具体取决于需要整合的数据源数量及指标计算的复杂程度。",
         },
       },
       {
@@ -900,11 +900,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "企业运营 AI 自动化服务 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa AI automation untuk mengotomatiskan pekerjaan operasional yang berulang. Mulai dari Rp5.000.000.",
+      id: "Jasa AI automation untuk mengotomatiskan pekerjaan operasional yang berulang. Mulai dari Rp12.000.000.",
       en:
-        "AI automation that takes repetitive operational work off your team's plate. From Rp5,000,000.",
+        "AI automation that takes repetitive operational work off your team's plate. From Rp12,000,000.",
       zh:
-        "用 AI 自动化处理重复性的运营工作，释放团队精力。Rp5,000,000 起。",
+        "用 AI 自动化处理重复性的运营工作，释放团队精力。Rp12,000,000 起。",
     },
     h1: {
       id: "Jasa AI Automation untuk Operasional Bisnis",
@@ -964,9 +964,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "AI 自动化服务费用是多少？",
         },
         answer: {
-          id: "Mulai dari Rp5.000.000, bergantung pada jumlah proses yang diotomatiskan dan integrasi yang dibutuhkan. Biaya layanan AI pihak ketiga berada di luar itu kecuali dinyatakan lain.",
-          en: "Starting from Rp5,000,000, depending on the number of processes automated and integrations required. Third party AI service costs sit outside that unless stated otherwise.",
-          zh: "起价 Rp5,000,000，具体取决于自动化流程数量及所需对接。除非另有说明，第三方 AI 服务费用不包含在内。",
+          id: "Mulai dari Rp12.000.000, bergantung pada jumlah proses yang diotomatiskan dan integrasi yang dibutuhkan. Biaya layanan AI pihak ketiga berada di luar itu kecuali dinyatakan lain.",
+          en: "Starting from Rp12,000,000, depending on the number of processes automated and integrations required. Third party AI service costs sit outside that unless stated otherwise.",
+          zh: "起价 Rp12,000,000，具体取决于自动化流程数量及所需对接。除非另有说明，第三方 AI 服务费用不包含在内。",
         },
       },
       {
@@ -1004,11 +1004,11 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       zh: "API 与业务系统集成服务 | AG·SORA",
     },
     metaDescription: {
-      id: "Jasa integrasi API untuk menghubungkan sistem internal dengan payment gateway, marketplace, dan layanan pihak ketiga. Mulai Rp3.000.000.",
+      id: "Jasa integrasi API untuk menghubungkan sistem internal dengan payment gateway, marketplace, dan layanan pihak ketiga. Mulai Rp7.500.000.",
       en:
-        "API integration connecting your internal systems with payment gateways, marketplaces, and third party services. From Rp3,000,000.",
+        "API integration connecting your internal systems with payment gateways, marketplaces, and third party services. From Rp7,500,000.",
       zh:
-        "API 集成服务，将内部系统与支付网关、电商平台及第三方服务打通。Rp3,000,000 起。",
+        "API 集成服务，将内部系统与支付网关、电商平台及第三方服务打通。Rp7,500,000 起。",
     },
     h1: {
       id: "Jasa Integrasi API & Penghubung Antar Sistem",
@@ -1068,9 +1068,9 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           zh: "API 集成费用是多少？",
         },
         answer: {
-          id: "Mulai dari Rp3.000.000 per integrasi, bergantung pada kompleksitas sistem yang dihubungkan dan seberapa lengkap dokumentasi teknisnya.",
-          en: "Starting from Rp3,000,000 per integration, depending on the complexity of the connected systems and how complete their technical documentation is.",
-          zh: "每项集成起价 Rp3,000,000，具体取决于对接系统的复杂度及技术文档的完整程度。",
+          id: "Mulai dari Rp7.500.000 per integrasi, bergantung pada kompleksitas sistem yang dihubungkan dan seberapa lengkap dokumentasi teknisnya.",
+          en: "Starting from Rp7,500,000 per integration, depending on the complexity of the connected systems and how complete their technical documentation is.",
+          zh: "每项集成起价 Rp7,500,000，具体取决于对接系统的复杂度及技术文档的完整程度。",
         },
       },
       {

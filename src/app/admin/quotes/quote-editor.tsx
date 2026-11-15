@@ -20,13 +20,12 @@ export type EditorInitial = {
 };
 
 /** Line-item editor with live totals. Prices start from the website price list and can be changed. */
-export function QuoteEditor({ initial, pricing }: { initial: EditorInitial; pricing: PricingItem[] }) {
+export function QuoteEditor({ initial, pricing, ppn, pph23 }: { initial: EditorInitial; pricing: PricingItem[]; ppn: number; pph23: boolean }) {
   const [items, setItems] = useState<QuoteItem[]>(initial.items.length ? initial.items : []);
   const [discount, setDiscount] = useState(String(initial.discount_pct || 0));
-  const [tax, setTax] = useState(String(initial.tax_pct || 0));
 
   const num = (v: string) => Math.min(100, Math.max(0, Number(v.replace(",", ".")) || 0));
-  const totals = computeTotals(items, num(discount), num(tax));
+  const totals = computeTotals(items, num(discount), ppn);
 
   const update = (i: number, patch: Partial<QuoteItem>) => setItems((list) => list.map((it, n) => (n === i ? { ...it, ...patch } : it)));
   const addFromList = (id: string) => {
@@ -125,10 +124,10 @@ export function QuoteEditor({ initial, pricing }: { initial: EditorInitial; pric
           Diskon (%)
           <input name="discount_pct" inputMode="decimal" className="sn-input" value={discount} onChange={(e) => setDiscount(e.target.value)} />
         </label>
-        <label className="sn-field">
-          PPN (%)
-          <input name="tax_pct" inputMode="decimal" className="sn-input" value={tax} onChange={(e) => setTax(e.target.value)} />
-        </label>
+        <div className="sn-field">
+          PPN
+          <div className="sn-input">{ppn > 0 ? `${ppn}% otomatis (perusahaan PKP)` : "Tidak dipungut (belum PKP)"}</div>
+        </div>
       </div>
 
       <div className="sn-totals" style={{ margin: "1.25rem 0 1.25rem auto" }}>
@@ -148,6 +147,14 @@ export function QuoteEditor({ initial, pricing }: { initial: EditorInitial; pric
         ) : null}
         <strong>Total</strong>
         <strong style={{ textAlign: "right", fontSize: "1.15rem" }}>{idr(totals.total)}</strong>
+        {pph23 ? (
+          <>
+            <span className="sn-muted">Bila klien memotong PPh 23 (2%)</span>
+            <span style={{ textAlign: "right" }}>-{idr(Math.round(totals.taxable * 0.02))}</span>
+            <span className="sn-muted">Yang kamu terima</span>
+            <span style={{ textAlign: "right" }}>{idr(totals.total - Math.round(totals.taxable * 0.02))}</span>
+          </>
+        ) : null}
       </div>
 
       <label className="sn-field">

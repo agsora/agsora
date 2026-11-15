@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "@/i18n/link";
-import { ArrowRight, Globe, Layers, Zap, ShieldCheck, type LucideIcon } from "lucide-react";
-import type { PricingCategory } from "@/config/pricing";
+import { ArrowRight, Globe, Layers, Zap, ShieldCheck, Palette, Server, GraduationCap, type LucideIcon } from "lucide-react";
+import { PRICING_CATEGORIES, type PricingCategory } from "@/config/pricing";
 import { usePricing } from "@/components/site-data";
 import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { growth } from "@/i18n/growth";
@@ -15,17 +15,24 @@ const categoryIcons: Record<PricingCategory, LucideIcon> = {
   "Sistem Bisnis": Layers,
   "Automation & Integrasi": Zap,
   "Support & Enterprise": ShieldCheck,
+  "Desain & Konten": Palette,
+  "Infrastruktur & Keamanan": Server,
+  "Konsultasi & Pelatihan": GraduationCap,
 };
 
 export function CustomDevPricing() {
   const { t, locale } = useLocale();
   const customDevPricing = usePricing();
-  const categories = Array.from(new Set(customDevPricing.map((item) => item.category)));
+  // Fixed display order; categories with no items are hidden.
+  const categories = PRICING_CATEGORIES.filter((c) => customDevPricing.some((item) => item.category === c));
   const categoryLabels: Record<PricingCategory, string> = {
     "Website & Digital": t.pricingCategories.websiteDigital,
     "Sistem Bisnis": t.pricingCategories.businessSystems,
     "Automation & Integrasi": t.pricingCategories.automationIntegration,
     "Support & Enterprise": t.pricingCategories.supportEnterprise,
+    "Desain & Konten": t.pricingCategories.designContent,
+    "Infrastruktur & Keamanan": t.pricingCategories.infrastructureSecurity,
+    "Konsultasi & Pelatihan": t.pricingCategories.consultingTraining,
   };
 
   return (
