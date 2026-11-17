@@ -192,6 +192,7 @@ export const body: Block[] = [
     type: "p",
     text: "Pelanggan yang mencari secara lokal biasanya sudah dekat dengan keputusan membeli. Mereka tidak sedang mencari inspirasi; mereka mencari tempat yang bisa didatangi atau dihubungi hari ini. Bisnis yang informasinya lengkap, konsisten, dan didukung ulasan nyata punya peluang besar untuk dipilih. Mulailah dari profil bisnis Anda, rapikan data di semua tempat, perkuat website, lalu rawat semuanya secara rutin. Hasilnya tidak instan, tetapi akumulasinya sulit dikejar pesaing yang hanya mengandalkan iklan.",
   },
+  { type: "p", text: "Untuk bisnis B2B yang melayani banyak wilayah dan industri, lihat [halaman layanan per kota dan industri tanpa konten tipis](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)." },
   {
     type: "cta",
     title: "Ingin bisnis Anda lebih mudah ditemukan pelanggan sekitar?",

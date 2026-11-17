@@ -106,6 +106,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Kendali mutu yang terhubung dengan ERP mengubah pemeriksaan dari formalitas menjadi sumber pembelajaran dan penghematan. Dengan titik pemeriksaan yang jelas, status karantina yang menahan barang bermasalah, tindakan korektif yang dilacak, dan penelusuran lot dari bahan hingga pelanggan, produsen dapat mengurangi cacat, menekan biaya, dan menjawab keluhan lebih cepat. Mulailah dari satu lini dan karakteristik kritis saja, pastikan pencatatan mudah, lalu perluas secara bertahap berdasarkan data." },
   { type: "p", text: "Untuk laboratorium pengujian, pengendalian mutu mencakup sampel dan metode; baca [sistem informasi laboratorium (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
+  { type: "p", text: "Pemeriksaan mutu di lantai produksi dapat dipermudah dengan [checklist inspeksi digital](/blog/checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile)." },
   {
     type: "cta",
     title: "Ingin kendali mutu terhubung dengan ERP produksi Anda?",

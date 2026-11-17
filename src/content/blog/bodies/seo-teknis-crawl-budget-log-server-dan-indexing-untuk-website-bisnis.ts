@@ -85,5 +85,6 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "SEO teknis bukan sihir; ia adalah pekerjaan merapikan jalan agar mesin pencari bisa sampai ke halaman terbaik Anda tanpa tersesat di ribuan URL tak berguna. Mulailah dari yang murah dan berdampak: baca laporan indeks, bersihkan sitemap, perbaiki redirect, dan perkuat tautan internal. Bila situs Anda besar atau baru bermigrasi, tambahkan analisis log untuk melihat perilaku bot yang sebenarnya." },
   { type: "p", text: "Agsora membantu bisnis membangun website dan toko online yang cepat, terstruktur, dan siap dirayapi, termasuk audit SEO teknis dan perbaikan arsitektur. Bila Anda ingin mengetahui mengapa halaman penting belum terindeks, kami siap membantu menelusurinya." },
+  { type: "p", text: "Halaman skala besar perlu dikelola agar tidak menjadi konten tipis; lihat [halaman layanan per kota dan industri](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)." },
   { type: "cta", title: "Audit SEO teknis untuk website Anda",text: "Ceritakan jumlah halaman dan kendala indeks yang Anda alami. Tim Agsora akan membantu memetakan prioritas perbaikan yang realistis.",href: "/services/website",label: "Konsultasi gratis" },
 ];

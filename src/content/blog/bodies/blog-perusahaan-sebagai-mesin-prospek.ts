@@ -103,6 +103,7 @@ export const body: Block[] = [
   { type: "p", text: "Mulailah dari yang kecil dan jalankan dengan tekun. Beberapa artikel yang benar-benar membantu pembaca lebih bernilai daripada puluhan tulisan asal-asalan. Seiring waktu, kumpulan artikel itu menjadi perpustakaan pengetahuan yang membangun kepercayaan bahkan sebelum calon pelanggan pertama kali menghubungi Anda." },
   { type: "p", text: "Agar artikel dipercaya mesin pencari dan calon klien, lihat [E-E-A-T dan kredibilitas konten SEO](/blog/eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b)." },
   { type: "p", text: "Format video juga dapat memperkuat blog; lihat [SEO video dan YouTube untuk website jasa B2B](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
+  { type: "p", text: "Tautkan artikel blog ke [studi kasus B2B](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien) yang relevan." },
   {
     type: "cta",
     title: "Ingin website dan blog yang benar-benar mendatangkan prospek?",

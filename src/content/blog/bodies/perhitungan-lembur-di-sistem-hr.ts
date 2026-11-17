@@ -146,6 +146,7 @@ export const body: Block[] = [
     text: "Perhitungan lembur yang akurat dan transparan bukan hanya soal kepatuhan terhadap regulasi, melainkan juga soal menjaga kepercayaan karyawan terhadap keadilan sistem penggajian perusahaan. Dengan kebijakan yang jelas, alur persetujuan yang tertib, dan pengujian yang teliti sebelum diterapkan penuh, perhitungan lembur bisa menjadi proses yang bisa diandalkan oleh kedua belah pihak.",
   },
   { type: "p", text: "Bila lembur juga harus ditagihkan ke klien, lihat [ERP untuk perusahaan alih daya: penagihan, absensi, dan payroll](/blog/erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll)." },
+  { type: "p", text: "Aturan lembur untuk pekerja harian dan borongan dibahas di [penggajian harian dan borongan](/blog/penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek)." },
   {
     type: "cta",
     title: "Masih menghitung lembur karyawan dengan kalkulator manual?",

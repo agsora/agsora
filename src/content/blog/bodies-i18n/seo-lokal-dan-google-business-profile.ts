@@ -192,6 +192,7 @@ const en: Block[] = [
     type: "p",
     text: "Customers searching locally are usually close to a buying decision. They aren't looking for inspiration; they're looking for a place they can visit or contact today. A business whose information is complete, consistent, and backed by real reviews has a strong chance of being chosen. Start with your business profile, tidy up the data everywhere, strengthen the website, then maintain it all routinely. The results aren't instant, but the accumulation is hard for competitors who rely only on ads to catch up with.",
   },
+  { type: "p", text: "For B2B businesses serving many regions and industries, see [service pages by city and industry without thin content](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)." },
   {
     type: "cta",
     title: "Want your business to be easier for nearby customers to find?",
@@ -393,6 +394,7 @@ const zh: Block[] = [
     type: "p",
     text: "在本地搜索的客户通常已经接近购买决定。他们不是在找灵感;他们在找今天就能到访或联系的地方。信息完整、一致并有真实评价支撑的企业,被选中的机会很大。从你的商家资料开始,整理各处的数据,强化网站,然后持续维护这一切。效果不会立竿见影,但这种积累是只依赖广告的竞争对手难以追上的。",
   },
+  { type: "p", text: "对于服务多个地区和行业的 B2B 企业，请参阅[不产生薄内容的城市与行业服务页](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)。" },
   {
     type: "cta",
     title: "想让附近的客户更容易找到你的企业吗?",

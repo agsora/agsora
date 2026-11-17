@@ -106,6 +106,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Quality control connected to the ERP turns inspection from a formality into a source of learning and savings. With clear inspection points, a quarantine status that holds problem goods, tracked corrective actions, and lot traceability from material to customer, manufacturers can reduce defects, cut costs, and answer complaints faster. Start with one line and critical characteristics only, make recording easy, then expand step by step based on data." },
   { type: "p", text: "For testing laboratories, quality control covers samples and methods; read [laboratory information management systems (LIMS)](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)." },
+  { type: "p", text: "Quality checks on the shop floor can be made easier with [digital inspection checklists](/blog/checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile)." },
   {
     type: "cta",
     title: "Want quality control connected to your production ERP?",
@@ -221,6 +222,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "与 ERP 相连的质量控制，把检验从形式变成学习和节约的来源。凭借清晰的检验点、冻结问题货物的隔离状态、可追踪的纠正措施，以及从物料到客户的批次追溯，制造企业可以减少缺陷、降低成本，并更快地回应投诉。先从一条生产线和关键特性开始，让记录变得简单，再根据数据逐步扩展。" },
   { type: "p", text: "对于检测实验室，质量控制涵盖样品和方法；请阅读[实验室信息管理系统（LIMS）](/blog/sistem-informasi-laboratorium-lims-sampel-metode-uji-dan-laporan-hasil)。" },
+  { type: "p", text: "车间的质量检查可以借助[数字化检查清单](/blog/checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile)变得更简单。" },
   {
     type: "cta",
     title: "希望质量控制与您的生产 ERP 相连？",

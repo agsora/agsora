@@ -106,6 +106,7 @@ export const body: Block[] = [
   { type: "p", text: "Penagihan yang rapi bukan soal menekan pelanggan, melainkan soal memastikan setiap pekerjaan yang sudah Anda selesaikan berubah menjadi uang pada waktunya. Faktur yang benar, pengiriman yang jelas, pengingat yang konsisten, dan pencocokan yang teliti adalah rangkaian kebiasaan yang bersama-sama menjaga kas bisnis." },
   { type: "p", text: "Otomasi membantu menjalankan kebiasaan itu setiap hari tanpa bergantung pada ingatan orang. Mulailah dari bagian yang paling bermasalah, ukur umur piutang secara rutin, dan perbaiki bertahap. Hasilnya adalah kas yang lebih dapat diprediksi dan hubungan pelanggan yang lebih profesional." },
   { type: "p", text: "Penagihan langsung oleh salesman di toko dibahas di [aplikasi sales kanvas dan taking order untuk distributor](/blog/aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan)." },
+  { type: "p", text: "Virtual account membantu mengenali pembayaran otomatis; lihat [integrasi bank dari ERP](/blog/integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp)." },
   {
     type: "cta",
     title: "Piutang sering tertahan karena faktur dan penagihan manual?",

@@ -154,6 +154,7 @@ export const body: Block[] = [
   { type: "p", text: "Rekonsiliasi bank otomatis tidak mengubah tujuan pekerjaan, yaitu memastikan angka di buku sama dengan kenyataan di bank. Yang berubah adalah caranya: mesin mengerjakan kecocokan rutin, manusia fokus pada pengecualian, dan seluruh proses meninggalkan jejak yang bisa diaudit. Dengan data referensi yang rapi, aturan berlapis, dan penerapan bertahap, tutup buku menjadi lebih cepat, kas lebih akurat, dan risiko kesalahan atau kecurangan lebih mudah terdeteksi." },
   { type: "p", text: "Agsora membantu bisnis menyiapkan ERP dengan alur keuangan yang terintegrasi, mulai dari pemetaan proses, perapian data, hingga aturan rekonsiliasi yang sesuai pola transaksi Anda. Bila tim keuangan Anda masih menghabiskan berhari-hari setiap akhir bulan, mari diskusikan solusinya." },
   { type: "p", text: "Rekonsiliasi kas tunai di cabang dibahas di [kas kecil dan uang muka operasional dengan ERP](/blog/kas-kecil-petty-cash-dan-uang-muka-operasional-dengan-erp-kontrol-dan-rekonsiliasi)." },
+  { type: "p", text: "Sumber data mutasi dibahas di [integrasi bank dari ERP](/blog/integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp)." },
   {
     type: "cta",
     title: "Percepat tutup buku dengan ERP",

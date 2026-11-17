@@ -97,6 +97,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah perlu ERP baru? Belum tentu. Banyak ERP sudah memiliki fitur pencocokan, tetapi belum dikonfigurasi. Langkah pertama adalah memeriksa kemampuan sistem yang ada dan menutup celah dengan integrasi atau modul tambahan bila perlu." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Otomatisasi utang usaha dengan pencocokan tiga arah mengubah peran bagian keuangan dari pengejar dokumen menjadi pengendali pengecualian. Sebagian besar tagihan yang sesuai pesanan dan penerimaan dapat disetujui cepat, sementara selisih harga, jumlah, dan tagihan mencurigakan mendapat perhatian yang layak. Kuncinya adalah data pemasok yang rapi, penerimaan barang yang disiplin, toleransi yang tertulis, dan alur pengecualian yang punya pemilik. Mulailah dari pemasok bervolume tinggi, ukur hasilnya, lalu perluas secara bertahap." },
+  { type: "p", text: "Pembayaran massal ke pemasok dibahas di [integrasi bank dari ERP](/blog/integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp)." },
   {
     type: "cta",
     title: "Ingin proses tagihan pemasok yang lebih cepat dan terkendali?",

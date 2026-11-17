@@ -158,6 +158,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Untuk membangun kepercayaan pada konten, baca [E-E-A-T dan kredibilitas konten SEO untuk website jasa B2B](/blog/eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b)." },
   { type: "p", text: "Setelah dasar-dasarnya beres, lanjutkan ke sisi teknis: [SEO teknis, crawl budget, dan masalah indexing](/blog/seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis)." },
+  { type: "p", text: "Setelah dasar SEO beres, pertimbangkan [halaman layanan per kota dan industri](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)." },
   {
     type: "cta",
     title: "Website Anda sulit ditemukan di Google?",

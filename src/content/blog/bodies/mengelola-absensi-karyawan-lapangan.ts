@@ -200,6 +200,7 @@ export const body: Block[] = [
     text: "Absensi karyawan lapangan tidak harus berarti menggulir riwayat chat setiap akhir bulan. Dengan mencatat data yang benar-benar dibutuhkan, memilih pendekatan yang sesuai kondisi lapangan, dan menjaga keterbukaan dengan karyawan, kehadiran tim lapangan bisa tercatat rapi, dan admin HR bisa kembali mengerjakan hal yang lebih penting.",
   },
   { type: "p", text: "Absensi di lokasi klien yang menjadi dasar penagihan dibahas di [ERP untuk perusahaan alih daya](/blog/erp-untuk-perusahaan-alih-daya-outsourcing-tenaga-kerja-penagihan-per-kepala-dan-payroll)." },
+  { type: "p", text: "Data kehadiran lapangan menjadi dasar [penggajian harian dan upah per hasil](/blog/penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek)." },
   {
     type: "cta",
     title: "Masih merekap absensi dari riwayat chat?",

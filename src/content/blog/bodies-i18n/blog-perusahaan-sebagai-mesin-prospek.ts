@@ -103,6 +103,7 @@ const en: Block[] = [
   { type: "p", text: "Start small and carry it out diligently. A few articles that genuinely help readers are worth more than dozens of careless pieces. Over time, that collection of articles becomes a knowledge library that builds trust even before the first prospect contacts you." },
   { type: "p", text: "For articles that search engines and prospects trust, see [E-E-A-T and content credibility](/blog/eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b)." },
   { type: "p", text: "Video can also strengthen a blog; see [video SEO and YouTube for B2B service websites](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
+  { type: "p", text: "Link blog articles to relevant [B2B case studies](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)." },
   {
     type: "cta",
     title: "Want a website and blog that truly bring in leads?",
@@ -215,6 +216,7 @@ const zh: Block[] = [
   { type: "p", text: "从小处开始,并勤勉地执行。几篇真正帮助读者的文章,比几十篇敷衍的文章更有价值。随着时间推移,这批文章会成为一座知识库,在第一位潜在客户联系你之前就已建立起信任。" },
   { type: "p", text: "要让文章获得搜索引擎和潜在客户的信任，请参阅[E-E-A-T 与内容可信度](/blog/eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b)。" },
   { type: "p", text: "视频也可以增强博客；请参阅[B2B 服务网站的视频 SEO 与 YouTube](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)。" },
+  { type: "p", text: "请把博客文章链接到相关的[B2B 案例](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)。" },
   {
     type: "cta",
     title: "想要真正带来线索的网站和博客吗?",

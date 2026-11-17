@@ -71,5 +71,6 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Kredibilitas konten tidak bisa dibangun dengan trik. Ia lahir dari pengalaman yang nyata, penjelasan yang jujur, penulis yang jelas, bukti yang bisa diperiksa, dan perawatan yang konsisten. Bagi bisnis jasa B2B, itu juga yang membuat calon klien merasa yakin untuk menghubungi. Mulailah dari yang paling mudah: lengkapi profil penulis, perbaiki halaman tentang kami dan kontak, tinjau artikel terpenting, lalu tambahkan contoh dan studi kasus yang jujur secara bertahap." },
   { type: "p", text: "Video yang menampilkan pakar langsung menambah sinyal kredibilitas; lihat [SEO video dan YouTube untuk website jasa B2B](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
+  { type: "p", text: "Pengalaman nyata ditunjukkan lewat [halaman studi kasus B2B](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)." },
   { type: "cta", title: "Bangun website jasa yang dipercaya calon klien",text: "Diskusikan struktur konten, profil, dan SEO website bisnis Anda bersama tim Agsora. Kami bantu merancang website yang kredibel dan menghasilkan prospek.",href: "/services/website",label: "Konsultasi gratis" },
 ];

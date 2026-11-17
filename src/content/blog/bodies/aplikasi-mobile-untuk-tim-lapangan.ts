@@ -125,6 +125,7 @@ export const body: Block[] = [
   { type: "p", text: "Kuncinya adalah merancang dari sudut pandang orang yang memegang ponsel itu: sederhana, tahan terhadap sinyal buruk, dan terasa membantu. Bila mereka merasakan manfaatnya, data yang baik akan mengikuti dengan sendirinya." },
   { type: "p", text: "Contoh penerapan checklist digital untuk petugas kebersihan dan pemeliharaan gedung dibahas di [ERP untuk facility management dan jasa kebersihan](/blog/erp-untuk-facility-management-dan-jasa-kebersihan-jadwal-checklist-dan-sla)." },
   { type: "p", text: "Contoh khusus untuk salesman distributor dibahas di [aplikasi sales kanvas dan taking order](/blog/aplikasi-sales-kanvas-dan-taking-order-untuk-distributor-rute-kunjungan-dan-penagihan)." },
+  { type: "p", text: "Contoh aplikasi lapangan lain: [checklist inspeksi digital untuk K3 dan audit mutu](/blog/checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile)." },
   {
     type: "cta",
     title: "Tim lapangan Anda masih melapor lewat kertas dan grup obrolan?",

@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek",
+    title: "Penggajian Harian dan Borongan: Upah Per Hasil di HRIS untuk Pabrik dan Proyek",
+    excerpt: "Panduan menghitung upah pekerja harian, borongan, dan per hasil di sistem HRIS: beda skema upah, pencatatan kehadiran dan output, tarif per satuan, lembur, potongan, pembayaran mingguan, BPJS untuk pekerja non-tetap, serta kontrol agar angka bisa diaudit.",
+    category: "HR & Tim",
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["hris","payroll","karyawan"],
+    titleTranslations: {
+      en: "Daily-Wage and Piece-Rate Payroll: Paying Factory and Project Workers in HRIS",
+      zh: "日薪与计件工资的核算方法：在 HRIS 中管理工厂与项目工人薪酬",
+    },
+    excerptTranslations: {
+      en: "A guide to calculating daily-wage, contract, and piece-rate pay in an HRIS: how the pay schemes differ, recording attendance and output, per-unit rates, overtime, deductions, weekly payouts, social security for non-permanent workers, and the controls that keep the numbers auditable.",
+      zh: "在 HRIS 中核算日薪、承包与计件工资的指南：各种工资方案的区别，出勤与产量记录，单件费率，加班，扣款，每周发放，非正式员工的社保，以及让数字可审计的控制措施。",
+    },
+  },
+  {
+    slug: "checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile",
+    title: "Checklist Inspeksi Digital: K3 dan Audit Mutu di Lapangan dengan Aplikasi Mobile",
+    excerpt: "Cara mengganti formulir inspeksi kertas dengan checklist digital di aplikasi mobile: template yang bisa diubah, foto bukti, tanda tangan, mode offline, temuan yang otomatis menjadi tindakan korektif, jadwal inspeksi berulang, dan dasbor kepatuhan untuk manajemen dan auditor.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["operasional","mobile","industri"],
+    titleTranslations: {
+      en: "Digital Inspection Checklists: Field Safety and Quality Audits on Mobile",
+      zh: "现场数字化检查清单与审核管理：用移动应用做安全与质量检查",
+    },
+    excerptTranslations: {
+      en: "How to replace paper inspection forms with digital checklists in a mobile app: editable templates, photo evidence, signatures, offline mode, findings that automatically become corrective actions, recurring inspection schedules, and a compliance dashboard for management and auditors.",
+      zh: "如何用移动应用中的数字化检查清单取代纸质检查表：可编辑模板，照片证据，签名，离线模式，自动转为纠正措施的发现项，周期性检查计划，以及面向管理层和审核员的合规看板。",
+    },
+  },
+  {
+    slug: "halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis",
+    title: "Halaman Layanan per Kota dan Industri: SEO Skala Besar Tanpa Konten Tipis",
+    excerpt: "Panduan membuat halaman layanan per kota dan per industri untuk website jasa B2B tanpa terjerat konten tipis: kapan halaman semacam ini layak dibuat, apa yang harus unik di setiap halaman, struktur URL, internal link, schema, data nyata yang bisa dipakai, dan cara mengukur apakah halaman benar-benar mendatangkan prospek.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["seo","website","pelanggan"],
+    titleTranslations: {
+      en: "Service Pages by City and Industry: Scalable SEO Without Thin Content",
+      zh: "按城市与行业拆分服务页：不产生薄内容的规模化 SEO",
+    },
+    excerptTranslations: {
+      en: "A guide to building city and industry service pages for a B2B services website without falling into thin content: when such pages are worth creating, what must be unique on each page, URL structure, internal links, schema, the real data you can use, and how to measure whether the pages bring in leads.",
+      zh: "为 B2B 服务网站按城市和行业建立服务页而不落入薄内容的指南：何时值得创建这类页面，每个页面必须独有的内容，URL 结构，内部链接，结构化数据，可用的真实数据，以及如何衡量页面是否带来线索。",
+    },
+  },
+  {
+    slug: "integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp",
+    title: "Integrasi Bank dari ERP: Host-to-Host, Virtual Account, dan Pembayaran Massal",
+    excerpt: "Panduan menghubungkan ERP dengan bank: perbedaan host-to-host, API bank, dan upload file; virtual account untuk penagihan otomatis; pembayaran massal untuk pemasok dan gaji; alur persetujuan dan pemisahan tugas; keamanan kunci dan sertifikat; penanganan gagal bayar; serta rekonsiliasi hasilnya.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["erp","keuangan","integrasi"],
+    titleTranslations: {
+      en: "Bank Integration from ERP: Host-to-Host, Virtual Accounts, and Bulk Payments",
+      zh: "ERP 与银行系统对接的几种方式：直连、虚拟账户与批量付款",
+    },
+    excerptTranslations: {
+      en: "A guide to connecting an ERP to your bank: host-to-host versus bank APIs versus file upload, virtual accounts for automated collection, bulk payments for suppliers and payroll, approval flows and segregation of duties, key and certificate security, handling failed payments, and reconciling the results.",
+      zh: "将 ERP 连接到银行的指南：直连、银行 API 与文件上传的区别，用于自动收款的虚拟账户，面向供应商和工资的批量付款，审批流程与职责分离，密钥与证书安全，付款失败的处理，以及结果对账。",
+    },
+  },
+  {
+    slug: "halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien",
+    title: "Halaman Studi Kasus B2B yang Meyakinkan: Struktur, Bukti, dan Izin Klien",
+    excerpt: "Cara menulis studi kasus untuk website jasa B2B yang benar-benar dibaca calon klien: struktur masalah-solusi-hasil, angka yang jujur, izin dan anonimisasi klien, kutipan testimoni, visual, schema, penempatan di situs, serta cara mengukur pengaruhnya terhadap permintaan penawaran.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    tags: ["website","sales","pelanggan"],
+    titleTranslations: {
+      en: "B2B Case Study Pages That Convince: Structure, Proof, and Client Approval",
+      zh: "有说服力的 B2B 案例页面：结构、证据与客户授权",
+    },
+    excerptTranslations: {
+      en: "How to write case studies for a B2B services website that prospects actually read: the problem-solution-result structure, honest numbers, client permission and anonymization, testimonial quotes, visuals, schema, placement on the site, and how to measure the effect on quote requests.",
+      zh: "如何为 B2B 服务网站撰写潜在客户真正会读的案例：问题、方案、结果的结构，诚实的数字，客户授权与匿名化，客户评价引用，视觉元素，结构化数据，在网站中的位置，以及如何衡量对询价的影响。",
+    },
+  },
+  {
     slug: "digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia",
     title: "Digital Product Passport (DPP) Uni Eropa: Persiapan Data dan Ketertelusuran Produk untuk Eksportir Indonesia",
     excerpt: "Apa itu Digital Product Passport dalam regulasi ESPR Uni Eropa, jadwal penerapannya mulai dari baterai pada 2027, data apa saja yang perlu disiapkan pemasok dari Indonesia, serta bagaimana ERP, kode produk, dan pelacakan lot membantu eksportir tetap memenuhi syarat pembeli Eropa.",
@@ -607,7 +692,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan SEO teknis untuk bisnis: cara kerja crawling dan indexing, kapan crawl budget penting, membaca laporan Search Console, analisis log server, robots.txt, canonical, sitemap, dan rencana audit 30 hari.",
     category: "Website & Digital",
     publishedAt: "2026-11-05",
-    updatedAt: "2026-11-05",
+    updatedAt: "2026-11-17",
     tags: ["seo","website","infrastruktur"],
     titleTranslations: {
       en: "Technical SEO for Business Websites: Crawl Budget, Server Log Analysis, and Indexing Problems",
@@ -760,7 +845,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara membuat konten website jasa dan B2B yang dipercaya mesin pencari dan calon klien: bukti pengalaman, profil penulis, studi kasus, transparansi, pembaruan konten, dan kesalahan yang merusak kepercayaan.",
     category: "Website & Digital",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-17",
     tags: ["seo","website","pelanggan"],
     titleTranslations: {
       en: "E-E-A-T and Content Credibility for B2B Service Websites: Experience, Expertise, and Real Proof",
@@ -1049,7 +1134,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja rekonsiliasi bank otomatis di ERP: impor mutasi, aturan pencocokan berlapis, data yang perlu disiapkan, kasus khusus, dan langkah penerapan bertahap.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-27",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-17",
     tags: ["erp","keuangan","pelaporan"],
     titleTranslations: {
       en: "Automated Bank Reconciliation with ERP: Matching Bank Statements Without Month-End Overtime",
@@ -1066,7 +1151,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen payroll, konfigurasi PPh 21 dan BPJS, alur bulanan yang disiplin, integrasi absensi, pengendalian data gaji, dan cara beralih dari lembar kerja ke HRIS.",
     category: "HR & Tim",
     publishedAt: "2026-10-27",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-17",
     tags: ["hris","keuangan","operasional"],
     titleTranslations: {
       en: "Payroll, Article 21 Income Tax, and BPJS with an HRIS: From Spreadsheets to an Auditable System",
@@ -1543,7 +1628,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara pencocokan dua, tiga, dan empat arah bekerja, menetapkan toleransi selisih, menangani pengecualian, peran AI dan OCR, serta langkah menerapkan otomatisasi AP di ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-17",
     tags: ["erp","keuangan","otomasi"],
     titleTranslations: {
       en: "Accounts Payable Automation and Three Way Matching in ERP: Paying Supplier Invoices Without Errors",
@@ -1696,7 +1781,7 @@ export const meta: PostMeta[] = [
     excerpt: "Titik pemeriksaan bahan masuk, proses, dan produk jadi, menangani produk tidak sesuai, tindakan korektif, penelusuran lot, dan langkah menerapkan QC di ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-17",
     tags: ["erp","industri","operasional"],
     titleTranslations: {
       en: "Quality Control (QC) in Manufacturing with ERP: From Inspection to Lot Traceability",
@@ -2716,7 +2801,7 @@ export const meta: PostMeta[] = [
     excerpt: "Merapikan siklus pesanan sampai kas: faktur yang benar dari data pesanan, pemicu dan kanal pengiriman, syarat pembayaran, pengingat yang sopan, pencocokan pembayaran otomatis, sengketa tagihan, umur piutang, dan kontrol internal.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-17",
     tags: ["erp","keuangan","otomasi","pembayaran"],
     titleTranslations: {
       en: "Automating Invoicing and B2B Receivables Collection: From Order to Cash Received on Time",
@@ -2937,7 +3022,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merancang aplikasi lapangan yang benar-benar dipakai: pekerjaan yang didahulukan, rancangan untuk sinyal lemah, bukti di tempat, penggunaan lokasi yang wajar, hubungan dengan ERP dan CRM, keamanan perangkat, dan adopsi.",
     category: "Teknologi",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-17",
     tags: ["mobile","operasional","sales","integrasi","karyawan"],
     titleTranslations: {
       en: "Mobile Apps for Field Teams: Connecting Sales Reps, Technicians, and Delivery Staff with Office Systems",
@@ -3175,7 +3260,7 @@ export const meta: PostMeta[] = [
     excerpt: "Blog yang dikelola dengan benar mendatangkan calon pelanggan yang sudah siap dipercaya. Cara memilih topik dari pertanyaan pelanggan, menulis untuk niat pencarian, menata kalender konten, dan mengukur hasilnya tanpa angka rekaan.",
     category: "Website & Digital",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-17",
     tags: ["website","seo","sales"],
     titleTranslations: {
       en: "The Company Blog as a Lead Engine: Writing Content Prospects Actually Search For",
@@ -3430,7 +3515,7 @@ export const meta: PostMeta[] = [
     excerpt: "Banyak keputusan membeli terjadi di peta Google sebelum orang membuka website. Cara melengkapi Google Business Profile, menjaga konsistensi data, mengelola ulasan, dan menguatkan sinyal lokal lewat website.",
     category: "Website & Digital",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-06",
+    updatedAt: "2026-11-17",
     tags: ["seo", "website", "pelanggan"],
     titleTranslations: {
       en: "Local SEO and Google Business Profile: Be Found by Customers Nearby",
@@ -3884,7 +3969,7 @@ export const meta: PostMeta[] = [
     excerpt: "Sales, kurir, dan teknisi tidak bekerja di satu lokasi. Absensi mereka butuh pendekatan yang berbeda dari mesin sidik jari di kantor.",
     category: "HR & Tim",
     publishedAt: "2026-09-02",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-17",
     tags: [
       "hris",
       "karyawan",
@@ -3925,7 +4010,7 @@ export const meta: PostMeta[] = [
     excerpt: "Website perusahaan yang hanya berisi sejarah dan visi misi jarang menghasilkan pertanyaan dari calon klien. Ini yang membedakan website yang bekerja.",
     category: "Website & Digital",
     publishedAt: "2026-08-27",
-    updatedAt: "2026-11-14",
+    updatedAt: "2026-11-17",
     tags: [
       "website",
       "seo",
@@ -4046,7 +4131,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
-    updatedAt: "2026-11-05",
+    updatedAt: "2026-11-17",
     tags: [
       "seo",
       "website"
@@ -4355,7 +4440,7 @@ export const meta: PostMeta[] = [
     excerpt: "Perhitungan lembur yang dilakukan manual rawan selisih dan perselisihan. Memindahkannya ke sistem butuh aturan yang jelas sebelum rumusnya dibuat.",
     category: "HR & Tim",
     publishedAt: "2026-06-18",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-17",
     tags: [
       "hris",
       "payroll",
@@ -4482,7 +4567,7 @@ export const meta: PostMeta[] = [
     excerpt: "Tidak semua aplikasi perlu mode offline, tapi untuk operasional di lapangan dan di kasir, koneksi yang putus bisa berarti pekerjaan yang berhenti.",
     category: "Teknologi",
     publishedAt: "2026-05-29",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-17",
     tags: [
       "mobile",
       "operasional",

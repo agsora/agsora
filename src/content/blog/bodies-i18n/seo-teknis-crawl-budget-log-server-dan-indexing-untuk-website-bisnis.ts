@@ -85,6 +85,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Technical SEO is not magic; it is the work of tidying the road so search engines can reach your best pages without getting lost among thousands of useless URLs. Start with what is cheap and effective: read the index report, clean the sitemap, fix redirects, and strengthen internal links. If your site is large or recently migrated, add log analysis to see real bot behavior." },
   { type: "p", text: "Agsora helps businesses build websites and online stores that are fast, well structured, and ready to be crawled, including technical SEO audits and architecture fixes. If you want to find out why important pages are not indexed, we are ready to help trace it." },
+  { type: "p", text: "Large-scale pages need managing so they do not become thin content; see [service pages by city and industry](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)." },
   { type: "cta", title: "Technical SEO audit for your website",text: "Tell us your page count and the indexing problems you face. The Agsora team will help map realistic fix priorities.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -173,6 +174,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "技术 SEO 不是魔法，而是把道路修整好，让搜索引擎能够到达你最好的页面，而不会迷失在成千上万个无用的 URL 之中。从廉价而有效的事情开始：阅读索引报告、清理站点地图、修复重定向、加强内部链接。如果你的网站规模较大或刚刚迁移，再加上日志分析，观察机器人的真实行为。" },
   { type: "p", text: "Agsora 帮助企业构建快速、结构清晰、便于抓取的网站和网上商店，包括技术 SEO 审计与架构修复。如果你想知道重要页面为什么没有被收录，我们乐意协助排查。" },
+  { type: "p", text: "大规模页面需要妥善管理，避免成为薄内容；参见[按城市与行业拆分的服务页](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)。" },
   { type: "cta", title: "为你的网站做技术 SEO 审计",text: "告诉我们页面数量和你遇到的索引问题，Agsora 团队将帮助梳理切实可行的修复优先级。",href: "/services/website",label: "免费咨询" },
 ];
 

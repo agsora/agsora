@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_penggajian_harian_borongan_dan_upah_per_hasil_di_hris_untuk_pabrik_dan_proyek } from "./penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek";
+import { translations as t_checklist_inspeksi_digital_k3_dan_audit_mutu_lapangan_dengan_aplikasi_mobile } from "./checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile";
+import { translations as t_halaman_layanan_per_kota_dan_per_industri_seo_tanpa_konten_tipis } from "./halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis";
+import { translations as t_integrasi_bank_host_to_host_virtual_account_dan_pembayaran_massal_dari_erp } from "./integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp";
+import { translations as t_halaman_studi_kasus_b2b_yang_meyakinkan_struktur_bukti_dan_izin_klien } from "./halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien";
 import { translations as t_digital_product_passport_dpp_uni_eropa_dan_ketertelusuran_produk_untuk_eksportir_indonesia } from "./digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia";
 import { translations as t_predictive_maintenance_dengan_iot_dan_ai_untuk_pabrik_skala_menengah } from "./predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah";
 import { translations as t_e_kyc_dan_verifikasi_identitas_digital_untuk_onboarding_pelanggan_di_aplikasi_bisnis } from "./e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis";
@@ -224,6 +229,11 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek": t_penggajian_harian_borongan_dan_upah_per_hasil_di_hris_untuk_pabrik_dan_proyek,
+  "checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile": t_checklist_inspeksi_digital_k3_dan_audit_mutu_lapangan_dengan_aplikasi_mobile,
+  "halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis": t_halaman_layanan_per_kota_dan_per_industri_seo_tanpa_konten_tipis,
+  "integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp": t_integrasi_bank_host_to_host_virtual_account_dan_pembayaran_massal_dari_erp,
+  "halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien": t_halaman_studi_kasus_b2b_yang_meyakinkan_struktur_bukti_dan_izin_klien,
   "digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia": t_digital_product_passport_dpp_uni_eropa_dan_ketertelusuran_produk_untuk_eksportir_indonesia,
   "predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah": t_predictive_maintenance_dengan_iot_dan_ai_untuk_pabrik_skala_menengah,
   "e-kyc-dan-verifikasi-identitas-digital-untuk-onboarding-pelanggan-di-aplikasi-bisnis": t_e_kyc_dan_verifikasi_identitas_digital_untuk_onboarding_pelanggan_di_aplikasi_bisnis,
