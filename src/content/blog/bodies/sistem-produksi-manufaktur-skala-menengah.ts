@@ -157,6 +157,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Untuk pembahasan pemeriksaan bahan masuk, karantina, dan penelusuran lot di lantai produksi, baca [kendali mutu (QC) di manufaktur dengan ERP](/blog/kendali-mutu-qc-di-manufaktur-dengan-erp)." },
   { type: "p", text: "Untuk mengurangi henti mesin mendadak, lihat [predictive maintenance untuk pabrik skala menengah](/blog/predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah)." },
+  { type: "p", text: "Perencanaan bahan secara rinci dibahas di [MRP untuk manufaktur](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)." },
   {
     type: "cta",
     title: "Tahu berapa biaya produksi sebenarnya dari setiap produk Anda?",

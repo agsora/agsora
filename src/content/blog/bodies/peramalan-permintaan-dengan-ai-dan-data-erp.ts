@@ -93,6 +93,7 @@ export const body: Block[] = [
   },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Peramalan permintaan dengan AI bukan sihir, tetapi juga bukan sekadar tren. Dengan data ERP yang bersih, metode yang dipilih berdasarkan bukti, pengukuran akurasi yang jujur, dan integrasi ke proses pembelian dan produksi, perusahaan menengah dapat mengurangi stok berlebih dan stok kosong secara bersamaan. Mulailah dari satu kategori, ukur hasilnya, dan perluas secara bertahap. Hasil yang konsisten dan terukur jauh lebih berharga daripada model paling canggih yang tidak dipercaya timnya sendiri." },
+  { type: "p", text: "Hasil peramalan menjadi input [perencanaan kebutuhan material (MRP)](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)." },
   {
     type: "cta",
     title: "Ingin ramalan permintaan yang terhubung ke ERP Anda?",

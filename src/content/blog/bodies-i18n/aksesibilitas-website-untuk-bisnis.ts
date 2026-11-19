@@ -214,6 +214,7 @@ const en: Block[] = [
     type: "p",
     text: "Accessibility is not a luxury feature and not a concern of a small group of users. It is a measure of how ready your website is to welcome everyone who wants to deal with your business. Start with small steps: check contrast, complete alt text, tidy forms, and try exploring the website with a keyboard. From there, make accessibility part of how your team designs, builds, and fills the website. The result is a website that is friendlier, easier to find, and better prepared to generate customers.",
   },
+  { type: "p", text: "Building accessible components from the start is covered in [design systems for business apps](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Want a website that is friendly to every visitor?",
@@ -437,6 +438,7 @@ const zh: Block[] = [
     type: "p",
     text: "无障碍不是奢侈的功能,也不是一小群用户的事。它衡量的是你的网站在多大程度上准备好迎接每一位想与你的企业打交道的人。从小步开始:检查对比度、补全替代文本、整理表单,并试着用键盘浏览网站。然后让无障碍成为团队设计、构建和填充网站方式的一部分。结果是一个更友好、更容易被找到、更有能力带来客户的网站。",
   },
+  { type: "p", text: "从一开始就构建无障碍组件，参见[业务应用的设计系统](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "想要对每位访客都友好的网站?",

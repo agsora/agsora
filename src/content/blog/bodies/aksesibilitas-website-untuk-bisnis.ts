@@ -214,6 +214,7 @@ export const body: Block[] = [
     type: "p",
     text: "Aksesibilitas bukan fitur mewah dan bukan urusan sekelompok kecil pengguna. Ia adalah ukuran seberapa siap website Anda menyambut semua orang yang ingin berurusan dengan bisnis Anda. Mulailah dari langkah kecil: periksa kontras, lengkapi teks alternatif, rapikan formulir, dan coba jelajahi website dengan papan ketik. Dari sana, jadikan aksesibilitas bagian dari cara tim Anda merancang, membangun, dan mengisi website. Hasilnya adalah website yang lebih ramah, lebih mudah ditemukan, dan lebih siap menghasilkan pelanggan.",
   },
+  { type: "p", text: "Komponen yang aksesibel sejak awal dibahas di [design system untuk aplikasi bisnis](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Ingin website yang ramah bagi semua pengunjung?",

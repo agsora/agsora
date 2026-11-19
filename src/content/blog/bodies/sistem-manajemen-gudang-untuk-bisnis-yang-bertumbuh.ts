@@ -110,6 +110,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Gudang yang tertata membuat seluruh bisnis lebih tenang: pesanan keluar tepat waktu, stok bisa dipercaya, dan pembelian dapat direncanakan dengan data. Sebaliknya, gudang yang berantakan merembes ke penjualan, layanan pelanggan, dan keuangan." },
   { type: "p", text: "Mulailah dari yang mendasar: lokasi yang jelas, kode yang konsisten, dan kebiasaan mencatat saat terjadi. Tambahkan pemindaian dan sistem yang lebih canggih sesuai pertumbuhan. Peningkatan bertahap yang disiplin hampir selalu mengungguli proyek besar yang terburu-buru." },
+  { type: "p", text: "Untuk strategi lokasi, putaway, picking, dan slotting yang lebih rinci, lihat [picking, putaway, dan slotting gudang](/blog/strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp)." },
   {
     type: "cta",
     title: "Gudang makin penuh dan stok sulit dipercaya?",

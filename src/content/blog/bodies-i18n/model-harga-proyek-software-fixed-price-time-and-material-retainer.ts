@@ -144,6 +144,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "No pricing model is always best. Fixed price gives certainty when scope is clear, time and material gives flexibility when requirements evolve, and a retainer keeps the system healthy after launch. Many projects run best with a phased combination of all three. Choose a model based on scope clarity, budget tolerance, and how involved your team can be, then make sure the contract sets out scope, acceptance criteria, and the change mechanism clearly." },
   { type: "p", text: "How the pricing model affects handling of change is discussed in [scope change and change request management](/blog/manajemen-perubahan-lingkup-dan-change-request-di-proyek-software)." },
+  { type: "p", text: "To make quotes comparable, see [software project briefs and RFPs](/blog/brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan)." },
   {
     type: "cta",
     title: "Confused comparing software project quotes?",
@@ -297,6 +298,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "没有哪种定价模式永远最好。固定价格在范围清晰时提供确定性，按实际投入计费在需求演变时提供灵活性，包月服务则在上线后保持系统健康。许多项目以三者分阶段组合的方式运行得最好。请根据范围的清晰度、预算容忍度和团队的参与程度选择模式，并确保合同清楚写明范围、验收标准和变更机制。" },
   { type: "p", text: "定价模式如何影响变更处理，参见[范围变更与变更请求管理](/blog/manajemen-perubahan-lingkup-dan-change-request-di-proyek-software)。" },
+  { type: "p", text: "要让报价具有可比性，请参阅[软件项目简报与 RFP](/blog/brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan)。" },
   {
     type: "cta",
     title: "对比较软件项目报价感到困惑？",

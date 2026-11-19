@@ -93,6 +93,7 @@ const en: Block[] = [
   },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "AI demand forecasting is not magic, but it is not just a trend either. With clean ERP data, methods chosen on evidence, honest accuracy measurement, and integration into purchasing and production, mid sized companies can reduce both overstock and stockouts at the same time. Start with one category, measure the results, and expand step by step. Consistent, measurable results are worth far more than the most sophisticated model that the team itself does not trust." },
+  { type: "p", text: "Forecasts become input to [material requirements planning (MRP)](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)." },
   {
     type: "cta",
     title: "Want demand forecasts connected to your ERP?",
@@ -195,6 +196,7 @@ const zh: Block[] = [
   },
   { type: "h2", text: "结语" },
   { type: "p", text: "AI 需求预测不是魔法，但也不只是潮流。凭借干净的 ERP 数据、以证据为依据选择的方法、诚实的准确度衡量，以及与采购和生产流程的整合，中型企业可以同时减少库存积压和缺货。从一个类别开始，衡量结果，再逐步推广。持续且可衡量的成果，远比团队自己都不信任的最先进模型更有价值。" },
+  { type: "p", text: "预测结果是[物料需求计划（MRP）](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)的输入。" },
   {
     type: "cta",
     title: "希望需求预测与您的 ERP 相连？",

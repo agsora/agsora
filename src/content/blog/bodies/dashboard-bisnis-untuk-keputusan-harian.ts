@@ -193,6 +193,7 @@ export const body: Block[] = [
     type: "p",
     text: "Dashboard terbaik adalah yang dibuka setiap pagi tanpa perlu disuruh, karena menjawab pertanyaan yang memang sedang dipikirkan pemiliknya. Untuk sampai di sana, mulailah dari keputusan, pilih sedikit metrik yang bermakna, pastikan datanya dapat dipercaya, dan rancang tampilan sesuai orang yang memakainya. Dengan pendekatan bertahap, dashboard bukan proyek besar yang menakutkan, melainkan alat yang tumbuh bersama bisnis Anda.",
   },
+  { type: "p", text: "Agar tampilan dasbor konsisten, lihat [design system untuk aplikasi bisnis](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Ingin melihat kondisi bisnis Anda dalam satu layar?",

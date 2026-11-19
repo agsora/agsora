@@ -153,6 +153,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Untuk membandingkan model penagihan vendor, baca [fixed price, time and material, atau retainer](/blog/model-harga-proyek-software-fixed-price-time-and-material-retainer)." },
   { type: "p", text: "Kontrak sebaiknya mengatur proses perubahan; lihat [manajemen perubahan lingkup dan change request](/blog/manajemen-perubahan-lingkup-dan-change-request-di-proyek-software)." },
+  { type: "p", text: "Sebelum kontrak, siapkan permintaan yang jelas; lihat [brief proyek dan RFP software](/blog/brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan)." },
   {
     type: "cta",
     title: "Akan menandatangani kontrak pengembangan software?",

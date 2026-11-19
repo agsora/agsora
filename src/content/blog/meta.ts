@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp",
+    title: "Picking, Putaway, dan Slotting Gudang: Strategi dengan WMS dan ERP",
+    excerpt: "Panduan merancang tiga gerakan utama gudang dengan WMS atau modul gudang ERP: struktur lokasi, putaway terarah, strategi picking per pesanan, batch, zona, dan gelombang, analisis slotting ABC, pengisian ulang, penghitungan siklus, serta indikator akurasi dan produktivitas.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    tags: ["inventori","operasional","erp"],
+    titleTranslations: {
+      en: "Warehouse Picking, Putaway, and Slotting: Strategies with WMS and ERP",
+      zh: "仓库拣选、上架与库位规划：用 WMS 和 ERP 提升效率",
+    },
+    excerptTranslations: {
+      en: "A guide to designing the three main warehouse movements with a WMS or an ERP warehouse module: location structure, directed putaway, discrete, batch, zone, and wave picking, ABC slotting analysis, replenishment, cycle counting, and accuracy and productivity indicators.",
+      zh: "借助 WMS 或 ERP 仓库模块设计仓库三大动作的指南：库位结构，系统指引上架，按单、批量、分区与波次拣选，ABC 库位分析，补货，循环盘点，以及准确率和效率指标。",
+    },
+  },
+  {
+    slug: "manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris",
+    title: "Cuti dan Offboarding di HRIS: Hari Libur, Persetujuan, dan Karyawan Keluar",
+    excerpt: "Cara merancang kebijakan cuti, kalender kerja, alur persetujuan, dan proses karyawan keluar di HRIS: jenis dan akrual cuti, delegasi persetujuan, integrasi absensi dan gaji, daftar tugas offboarding, pencabutan akses, hak akhir, serta pengelolaan data pribadi.",
+    category: "HR & Tim",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    tags: ["hris","karyawan","operasional"],
+    titleTranslations: {
+      en: "HRIS Leave and Offboarding: Holidays, Approvals, and Employee Exits",
+      zh: "在 HRIS 中管理休假、节假日与员工离职流程",
+    },
+    excerptTranslations: {
+      en: "How to design leave policies, work calendars, approval flows, and the employee exit process in an HRIS: leave types and accrual, approval delegation, attendance and payroll integration, offboarding task lists, access revocation, final entitlements, and personal data handling.",
+      zh: "如何在 HRIS 中设计休假政策、工作日历、审批流程和员工离职流程：假期类型与累计，审批代理，与考勤和薪资的集成，离职任务清单，权限回收，最终结算，以及个人数据处理。",
+    },
+  },
+  {
+    slug: "brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan",
+    title: "Brief Proyek dan RFP Software: Meminta Penawaran yang Bisa Dibandingkan",
+    excerpt: "Cara menulis brief dan RFP untuk proyek software: beda brief, RFI, dan RFP, mulai dari masalah bisnis, lingkup wajib dan opsional, kebutuhan non-fungsional, anggaran dan jadwal, format penawaran seragam, kriteria evaluasi, serta proses setelah RFP dikirim.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    tags: ["vendor","custom-software","kontrak"],
+    titleTranslations: {
+      en: "Software Project Briefs and RFPs: Getting Quotes You Can Actually Compare",
+      zh: "软件项目简报与 RFP：如何获得真正可比较的报价",
+    },
+    excerptTranslations: {
+      en: "How to write a brief and RFP for a software project: brief versus RFI versus RFP, starting from the business problem, must-have and optional scope, non-functional requirements, budget and schedule, a uniform proposal format, evaluation criteria, and the process after sending the RFP.",
+      zh: "如何为软件项目撰写简报和 RFP：简报、RFI 与 RFP 的区别，从业务问题出发，必须有与可选范围，非功能需求，预算与进度，统一的报价格式，评估标准，以及发出 RFP 之后的流程。",
+    },
+  },
+  {
+    slug: "mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp",
+    title: "MRP: Perencanaan Material Manufaktur dengan ERP",
+    excerpt: "Panduan menerapkan material requirements planning (MRP) di ERP untuk pabrik skala menengah: data BOM dan stok yang harus akurat, cara kerja perhitungan kebutuhan bersih, waktu tunggu, stok pengaman, ukuran lot, pesan pengecualian, serta indikator efektivitasnya.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    tags: ["erp","industri","inventori"],
+    titleTranslations: {
+      en: "MRP: Material Planning for Manufacturing with ERP",
+      zh: "MRP 物料需求计划：用 ERP 为制造企业规划物料",
+    },
+    excerptTranslations: {
+      en: "A guide to applying material requirements planning (MRP) in an ERP for mid-sized factories: the BOM and stock data that must be accurate, how net requirement calculation works, lead times, safety stock, lot sizes, exception messages, and effectiveness indicators.",
+      zh: "在 ERP 中为中型工厂应用物料需求计划（MRP）的指南：必须准确的 BOM 和库存数据，净需求计算的原理，提前期，安全库存，批量，例外消息，以及有效性指标。",
+    },
+  },
+  {
+    slug: "design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis",
+    title: "Design System untuk Aplikasi Bisnis: Komponen UI yang Konsisten",
+    excerpt: "Panduan membangun design system bertahap untuk aplikasi bisnis: apa isinya, kapan perusahaan menengah membutuhkannya, token desain, komponen inti, pola dan perilaku, penyatuan desain dan kode, aksesibilitas, tata kelola, serta kesalahan yang sering terjadi.",
+    category: "Teknologi",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    tags: ["custom-software","website","mobile"],
+    titleTranslations: {
+      en: "Design Systems for Business Apps: Consistent UI Components",
+      zh: "设计系统：为业务应用打造一致的界面组件",
+    },
+    excerptTranslations: {
+      en: "A guide to building a design system step by step for business applications: what it contains, when a mid-sized company needs one, design tokens, core components, patterns and behavior, uniting design and code, accessibility, governance, and common mistakes.",
+      zh: "为业务应用逐步构建设计系统的指南：包含什么，中型企业何时需要，设计令牌，核心组件，模式与行为，设计与代码统一，无障碍，治理，以及常见错误。",
+    },
+  },
+  {
     slug: "penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek",
     title: "Penggajian Harian dan Borongan: Upah Per Hasil di HRIS untuk Pabrik dan Proyek",
     excerpt: "Panduan menghitung upah pekerja harian, borongan, dan per hasil di sistem HRIS: beda skema upah, pencatatan kehadiran dan output, tarif per satuan, lembur, potongan, pembayaran mingguan, BPJS untuk pekerja non-tetap, serta kontrol agar angka bisa diaudit.",
@@ -1151,7 +1236,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen payroll, konfigurasi PPh 21 dan BPJS, alur bulanan yang disiplin, integrasi absensi, pengendalian data gaji, dan cara beralih dari lembar kerja ke HRIS.",
     category: "HR & Tim",
     publishedAt: "2026-10-27",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-19",
     tags: ["hris","keuangan","operasional"],
     titleTranslations: {
       en: "Payroll, Article 21 Income Tax, and BPJS with an HRIS: From Spreadsheets to an Auditable System",
@@ -1338,7 +1423,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kebutuhan sistem 3PL: data multi-pemilik barang, alur penerimaan sampai pengiriman, tarif dan penagihan berbasis aktivitas, pengukuran SLA, portal klien, dan profitabilitas.",
     category: "Panduan Industri",
     publishedAt: "2026-10-25",
-    updatedAt: "2026-11-05",
+    updatedAt: "2026-11-19",
     tags: ["erp","industri","inventori"],
     titleTranslations: {
       en: "ERP for Third-Party Logistics (3PL): Multi-Client Stock, Activity-Based Billing, and Warehouse SLAs",
@@ -1764,7 +1849,7 @@ export const meta: PostMeta[] = [
     excerpt: "Membandingkan tiga model harga proyek software, risiko dan kecocokannya, model campuran, serta hal yang harus tertulis di kontrak sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-19",
     tags: ["vendor","biaya","kontrak"],
     titleTranslations: {
       en: "Fixed Price, Time and Material, or Retainer? Choosing a Software Project Pricing Model",
@@ -1849,7 +1934,7 @@ export const meta: PostMeta[] = [
     excerpt: "Data ERP yang dibutuhkan, metode statistik hingga machine learning, mengukur akurasi dan bias ramalan, serta menghubungkannya ke stok pengaman dan pesanan pembelian.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-20",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-19",
     tags: ["ai","inventori","data"],
     titleTranslations: {
       en: "Demand Forecasting with AI and ERP Data: A Realistic Guide for Stock and Purchasing",
@@ -1917,7 +2002,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja pelacakan lot di ERP, aturan FEFO, ketertelusuran dua arah, pemindaian barcode, kesiapan penarikan produk, dan langkah penerapan tanpa memperlambat gudang.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-19",
-    updatedAt: "2026-11-14",
+    updatedAt: "2026-11-19",
     tags: ["erp","inventori","industri"],
     titleTranslations: {
       en: "Lot, Batch, and Expiry Date Tracking with ERP: From FEFO to Product Recalls",
@@ -2512,7 +2597,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun jadwal kerja dari kebutuhan layanan: aturan yang adil dan sah, ketersediaan karyawan, tukar shift, hubungan dengan absensi dan penggajian, biaya tenaga kerja, dan retensi.",
     category: "HR & Tim",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-19",
     tags: ["hris","karyawan","operasional"],
     titleTranslations: {
       en: "Shift Scheduling and Workforce Management: Fair Schedules, Controlled Costs",
@@ -2733,7 +2818,7 @@ export const meta: PostMeta[] = [
     excerpt: "Headless commerce dan arsitektur composable sering ditawarkan sebagai kemajuan. Penjelasan sederhana, keuntungan dan harga yang harus dibayar, kapan layak dipertimbangkan, jalan tengah bertahap, dan cara memutuskan tanpa terbawa tren.",
     category: "Teknologi",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-11-19",
     tags: ["website","api","integrasi","custom-software"],
     titleTranslations: {
       en: "Headless Website Architecture for Business: When It Makes Sense and When It Doesn't",
@@ -2750,7 +2835,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola pemasok secara terstruktur: data induk tunggal, alur pengadaan dengan pemisahan tugas, pencocokan tiga arah, kontrak dan harga, penilaian kinerja dengan indikator sederhana, serta pengelolaan risiko ketergantungan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-11-19",
     tags: ["erp","operasional","keuangan","inventori"],
     titleTranslations: {
       en: "Supplier Management and Vendor Evaluation with ERP: From Tidy Data to Controlled Purchasing",
@@ -2818,7 +2903,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan pencatatan stok tidak lagi cukup: tata letak dan kode lokasi, alur terima simpan ambil kirim, kode batang, penghitungan bergilir, lot dan kedaluwarsa, area retur, integrasi kanal penjualan, serta memilih tingkat sistem yang sesuai.",
     category: "POS & Retail",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-11-19",
     tags: ["inventori","operasional","retail","erp"],
     titleTranslations: {
       en: "Warehouse Management for a Growing Business: From Messy Shelves to Stock You Can Trust",
@@ -3430,7 +3515,7 @@ export const meta: PostMeta[] = [
     excerpt: "Website yang sulit dipakai kehilangan pelanggan tanpa disadari. Prinsip dasar aksesibilitas, perbaikan paling berdampak, cara memeriksa, dan mengapa semuanya sejalan dengan SEO.",
     category: "Website & Digital",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-06",
+    updatedAt: "2026-11-19",
     tags: ["website","seo","pelanggan"],
     titleTranslations: {
       en: "Website Accessibility: Welcoming Every Visitor and Customer",
@@ -3532,7 +3617,7 @@ export const meta: PostMeta[] = [
     excerpt: "Laporan bulanan sampai ke meja pemilik saat kejadiannya sudah lewat. Cara memilih metrik, menyatukan sumber data, dan merancang dashboard yang benar-benar dibuka setiap pagi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-06",
+    updatedAt: "2026-11-19",
     tags: ["pelaporan", "data", "keuangan", "integrasi"],
     titleTranslations: {
       en: "Business Dashboards: From Piles of Reports to Faster Daily Decisions",
@@ -3604,7 +3689,7 @@ export const meta: PostMeta[] = [
     excerpt: "Ide aplikasi yang terlalu besar sering tidak pernah dimulai. Pendekatan MVP membantu bisnis membangun versi terkecil yang sudah bermanfaat, lalu mengembangkannya berdasarkan bukti, bukan asumsi.",
     category: "Strategi Bisnis",
     publishedAt: "2026-09-27",
-    updatedAt: "2026-09-27",
+    updatedAt: "2026-11-19",
     tags: [
       "custom-software",
       "mobile",
@@ -4211,7 +4296,7 @@ export const meta: PostMeta[] = [
     excerpt: "Minggu pertama karyawan baru sering habis untuk menunggu akun, perangkat, dan penjelasan yang tercecer. Onboarding yang terstruktur mempercepat mereka produktif.",
     category: "HR & Tim",
     publishedAt: "2026-07-24",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-19",
     tags: [
       "hris",
       "karyawan",
@@ -4376,7 +4461,7 @@ export const meta: PostMeta[] = [
     excerpt: "Manufaktur skala menengah sering terjebak di antara spreadsheet yang sudah tidak cukup dan sistem besar yang terlalu rumit. Ini kebutuhan yang biasanya paling mendesak.",
     category: "Panduan Industri",
     publishedAt: "2026-06-28",
-    updatedAt: "2026-11-14",
+    updatedAt: "2026-11-19",
     tags: [
       "industri",
       "inventori",
@@ -4389,7 +4474,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kontrak yang jelas melindungi kedua pihak ketika project tidak berjalan sesuai rencana. Ini bagian-bagian yang layak diperhatikan sebelum menandatangani.",
     category: "Panduan Memilih",
     publishedAt: "2026-06-26",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-19",
     tags: [
       "kontrak",
       "vendor",

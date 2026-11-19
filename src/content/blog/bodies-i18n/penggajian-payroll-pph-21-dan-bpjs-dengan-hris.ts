@@ -152,6 +152,7 @@ const en: Block[] = [
   { type: "p", text: "Agsora helps companies implement an HRIS and payroll that fit your policies, from mapping pay components and integrating attendance to parallel testing before the switch. If your payroll still depends on spreadsheets, let us discuss the first step." },
   { type: "p", text: "Automatically calculated sales commission can be sent straight to payroll; see [sales commission and incentive systems](/blog/sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan)." },
   { type: "p", text: "For daily-wage, contract, and piece-rate workers, see [daily-wage and piece-rate payroll in an HRIS](/blog/penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek)." },
+  { type: "p", text: "Unpaid leave and final entitlements affect pay; see [leave and offboarding in an HRIS](/blog/manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris)." },
   {
     type: "cta",
     title: "Tidy up payroll with an HRIS",
@@ -313,6 +314,7 @@ const zh: Block[] = [
   { type: "p", text: "Agsora 帮助公司实施符合您政策的 HRIS 和薪资系统，从梳理薪酬项目、集成考勤到切换前的并行测试。如果您的薪资核算仍依赖电子表格，欢迎与我们探讨第一步。" },
   { type: "p", text: "自动计算的销售佣金可以直接发送到薪资系统；请参阅[销售佣金与激励系统](/blog/sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan)。" },
   { type: "p", text: "日薪、承包和计件工人的核算，请参阅[HRIS 中的日薪与计件工资核算](/blog/penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek)。" },
+  { type: "p", text: "无薪假和最终结算会影响薪资；参见[HRIS 中的休假与离职管理](/blog/manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris)。" },
   {
     type: "cta",
     title: "用 HRIS 理顺薪资核算",

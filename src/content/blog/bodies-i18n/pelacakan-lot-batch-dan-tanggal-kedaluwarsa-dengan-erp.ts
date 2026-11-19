@@ -104,6 +104,7 @@ const en: Block[] = [
   { type: "p", text: "The key is not just an ERP feature but recording discipline at every stock movement, backed by barcode scanning and rules enforced by the system. Start at receiving, enforce FEFO at picking, connect production, then test regularly." },
   { type: "p", text: "For frozen and fresh products, lot tracking needs to be combined with temperature data; read [ERP for cold chain distribution](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)." },
   { type: "p", text: "European buyers now also ask for traceability data for product passports; see [the EU Digital Product Passport for Indonesian exporters](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)." },
+  { type: "p", text: "FEFO rules also affect putaway and picking; see [picking, putaway, and slotting strategies](/blog/strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp)." },
   {
     type: "cta",
     title: "Need lot and expiry tracking connected from warehouse to customer?",
@@ -217,6 +218,7 @@ const zh: Block[] = [
   { type: "p", text: "关键不只是 ERP 的功能，而是在每一次库存移动时坚持记录，并辅以条码扫描和系统强制执行的规则。从收货开始，在拣货中落实 FEFO，打通生产环节，然后定期测试。" },
   { type: "p", text: "对于冷冻和生鲜产品，批次跟踪需要与温度数据结合；请阅读[冷链分销 ERP](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)。" },
   { type: "p", text: "欧洲买家如今也会为产品护照索取可追溯数据；请参阅[面向印尼出口商的欧盟数字产品护照](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)。" },
+  { type: "p", text: "先到期先出规则也会影响上架和拣选；参见[拣选、上架与库位规划策略](/blog/strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp)。" },
   {
     type: "cta",
     title: "需要从仓库一路连接到客户的批次与到期追踪吗？",

@@ -152,6 +152,7 @@ export const body: Block[] = [
   { type: "p", text: "Agsora membantu perusahaan menerapkan HRIS dan payroll yang sesuai dengan kebijakan Anda, mulai dari pemetaan komponen gaji, integrasi absensi, hingga uji paralel sebelum beralih. Bila proses penggajian Anda masih bergantung pada lembar kerja, mari diskusikan langkah pertamanya." },
   { type: "p", text: "Komisi sales yang dihitung otomatis dapat dikirim langsung ke payroll; lihat [sistem komisi dan insentif sales](/blog/sistem-komisi-dan-insentif-sales-perhitungan-otomatis-yang-transparan)." },
   { type: "p", text: "Untuk pekerja harian, borongan, dan upah per hasil, lihat [penggajian harian dan borongan di HRIS](/blog/penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek)." },
+  { type: "p", text: "Cuti tidak berbayar dan hak akhir memengaruhi gaji; lihat [cuti dan offboarding di HRIS](/blog/manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris)." },
   {
     type: "cta",
     title: "Rapikan penggajian dengan HRIS",

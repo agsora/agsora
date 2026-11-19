@@ -100,6 +100,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Headless architecture is a powerful tool for businesses that truly need it: many channels, highly specific experiences, or deep integrations. But it is not a sign of progress in itself. Many businesses run very well on a carefully configured all in one platform." },
   { type: "p", text: "Good decisions come from a clear problem, a long term cost calculation, and readiness to maintain what is built. When all three are present, the architecture choice usually becomes clear on its own." },
+  { type: "p", text: "Consistent interface components are covered in [design systems for business apps](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Unsure which website architecture suits your business?",
@@ -209,6 +210,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "对于确实需要它的企业，无头架构是一个强大的工具：多个渠道、高度特定的体验或深度集成。但它本身并不代表进步。许多企业在精心配置的一体化平台上运行得非常好。" },
   { type: "p", text: "好的决定来自清晰的问题、长期成本的计算，以及维护所建之物的准备。当三者都具备时，架构的选择通常会自然变得清晰。" },
+  { type: "p", text: "一致的界面组件参见[业务应用的设计系统](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "不确定哪种网站架构适合你的企业？",

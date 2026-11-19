@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_strategi_picking_putaway_dan_slotting_gudang_dengan_wms_dan_erp } from "./strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp";
+import { body as b_manajemen_cuti_hari_libur_dan_offboarding_karyawan_di_hris } from "./manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris";
+import { body as b_brief_proyek_dan_rfp_software_meminta_penawaran_yang_bisa_dibandingkan } from "./brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan";
+import { body as b_mrp_perencanaan_kebutuhan_material_manufaktur_dengan_erp } from "./mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp";
+import { body as b_design_system_dan_komponen_ui_konsisten_untuk_aplikasi_bisnis } from "./design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis";
 import { body as b_penggajian_harian_borongan_dan_upah_per_hasil_di_hris_untuk_pabrik_dan_proyek } from "./penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek";
 import { body as b_checklist_inspeksi_digital_k3_dan_audit_mutu_lapangan_dengan_aplikasi_mobile } from "./checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile";
 import { body as b_halaman_layanan_per_kota_dan_per_industri_seo_tanpa_konten_tipis } from "./halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis";
@@ -283,6 +288,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp": b_strategi_picking_putaway_dan_slotting_gudang_dengan_wms_dan_erp,
+  "manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris": b_manajemen_cuti_hari_libur_dan_offboarding_karyawan_di_hris,
+  "brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan": b_brief_proyek_dan_rfp_software_meminta_penawaran_yang_bisa_dibandingkan,
+  "mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp": b_mrp_perencanaan_kebutuhan_material_manufaktur_dengan_erp,
+  "design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis": b_design_system_dan_komponen_ui_konsisten_untuk_aplikasi_bisnis,
   "penggajian-harian-borongan-dan-upah-per-hasil-di-hris-untuk-pabrik-dan-proyek": b_penggajian_harian_borongan_dan_upah_per_hasil_di_hris_untuk_pabrik_dan_proyek,
   "checklist-inspeksi-digital-k3-dan-audit-mutu-lapangan-dengan-aplikasi-mobile": b_checklist_inspeksi_digital_k3_dan_audit_mutu_lapangan_dengan_aplikasi_mobile,
   "halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis": b_halaman_layanan_per_kota_dan_per_industri_seo_tanpa_konten_tipis,

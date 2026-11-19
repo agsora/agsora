@@ -100,6 +100,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Arsitektur headless adalah alat yang kuat untuk bisnis yang memang membutuhkannya: banyak kanal, pengalaman yang sangat khusus, atau integrasi yang mendalam. Namun ia bukan tanda kemajuan dengan sendirinya. Banyak bisnis berjalan sangat baik dengan platform terpadu yang dikonfigurasi dengan cermat." },
   { type: "p", text: "Keputusan yang baik lahir dari masalah yang jelas, perhitungan biaya jangka panjang, dan kesiapan merawat apa yang dibangun. Bila ketiganya ada, pilihan arsitektur biasanya menjadi jelas dengan sendirinya." },
+  { type: "p", text: "Komponen antarmuka yang konsisten dibahas di [design system untuk aplikasi bisnis](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Bingung memilih arsitektur website untuk bisnis Anda?",

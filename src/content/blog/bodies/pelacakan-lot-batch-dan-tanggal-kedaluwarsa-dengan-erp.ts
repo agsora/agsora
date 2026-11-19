@@ -104,6 +104,7 @@ export const body: Block[] = [
   { type: "p", text: "Kuncinya bukan hanya fitur ERP, melainkan disiplin pencatatan di setiap perpindahan barang, didukung pemindaian barcode dan aturan yang diterapkan sistem. Mulailah dari penerimaan, tegakkan FEFO di pengambilan, sambungkan produksi, lalu uji secara berkala." },
   { type: "p", text: "Untuk produk beku dan segar, pelacakan lot perlu dipadukan dengan data suhu; baca [ERP untuk distribusi rantai dingin](/blog/erp-untuk-distribusi-rantai-dingin-cold-chain-suhu-fefo-dan-pelacakan)." },
   { type: "p", text: "Pembeli Eropa kini juga meminta data ketertelusuran untuk paspor produk; lihat [Digital Product Passport Uni Eropa untuk eksportir Indonesia](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)." },
+  { type: "p", text: "Aturan FEFO juga memengaruhi putaway dan picking; lihat [strategi picking, putaway, dan slotting](/blog/strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp)." },
   {
     type: "cta",
     title: "Butuh pelacakan lot dan kedaluwarsa yang terhubung dari gudang hingga pelanggan?",

@@ -193,6 +193,7 @@ const en: Block[] = [
     type: "p",
     text: "The best dashboard is the one opened every morning without being told to, because it answers the questions the owner is already thinking about. To get there, start from decisions, choose a few meaningful metrics, make sure the data can be trusted, and design the display for the people who use it. With a staged approach, a dashboard isn't a daunting big project but a tool that grows with your business.",
   },
+  { type: "p", text: "For consistent dashboard visuals, see [design systems for business apps](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Want to see your business's condition on a single screen?",
@@ -395,6 +396,7 @@ const zh: Block[] = [
     type: "p",
     text: "最好的仪表板是每天早上不用被提醒就会打开的那个,因为它回答了老板本来就在思考的问题。要做到这一点,从决策出发,选择少数有意义的指标,确保数据值得信赖,并根据使用者来设计界面。采用分阶段的方法,仪表板就不是令人生畏的大项目,而是与你的企业一起成长的工具。",
   },
+  { type: "p", text: "要让看板外观一致，请参阅[业务应用的设计系统](/blog/design-system-dan-komponen-ui-konsisten-untuk-aplikasi-bisnis)。" },
   {
     type: "cta",
     title: "想在一个屏幕上看到企业的状况吗?",

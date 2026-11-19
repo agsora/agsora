@@ -162,6 +162,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Untuk menjalankan orientasi dan pelatihan awal secara konsisten di banyak lokasi, lihat [LMS dan pelatihan karyawan](/blog/lms-dan-pelatihan-karyawan-jalur-belajar-sertifikasi-kompetensi-dan-kepatuhan)." },
   { type: "p", text: "Dokumen prosedur yang rapi mempercepat karyawan baru mandiri; lihat [knowledge base internal dan wiki perusahaan](/blog/knowledge-base-internal-dan-wiki-perusahaan-agar-pengetahuan-tidak-hilang-saat-karyawan-pergi)." },
+  { type: "p", text: "Sisi sebaliknya dari onboarding dibahas di [cuti dan offboarding di HRIS](/blog/manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris)." },
   {
     type: "cta",
     title: "Onboarding karyawan baru masih berantakan?",
