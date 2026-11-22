@@ -154,6 +154,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Portal pelanggan dan pemasok yang dirancang dengan baik menghemat waktu kedua pihak, mengurangi kesalahan, dan menunjukkan keseriusan perusahaan dalam melayani mitra. Kuncinya ada pada fokus pada pertanyaan yang benar-benar berulang, data yang bersumber dari sistem inti, hak akses yang ketat, pengalaman yang sederhana, dan upaya serius agar mitra mau memakainya." },
   { type: "p", text: "Mulailah dari yang kecil dan bernilai tinggi, ukur penggunaannya, dan kembangkan berdasarkan umpan balik nyata. Dengan begitu portal bukan sekadar proyek teknologi, melainkan cara kerja baru yang menguatkan hubungan bisnis Anda." },
+  { type: "p", text: "Portal juga membantu pelanggan melihat saldo dan faktur; lihat [batas kredit dan umur piutang pelanggan B2B](/blog/manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp)." },
   {
     type: "cta",
     title: "Ingin portal untuk pelanggan atau pemasok yang terhubung langsung ke ERP dan CRM Anda?",

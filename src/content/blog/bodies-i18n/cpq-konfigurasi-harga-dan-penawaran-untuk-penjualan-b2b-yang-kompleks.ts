@@ -59,6 +59,7 @@ const en: Block[] = [
   { type: "p", text: "No. CRM manages relationships and the pipeline, while CPQ manages configuration, pricing, and quote documents. They complement each other." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "CPQ turns quoting from error-prone administrative work into a consistent process: valid configuration, prices from one source, approvals according to authority, and data that flows into orders and billing. Its value shows in shorter sales cycles, better-protected margins, and customers getting faster answers. Start with one product line and well-documented rules. If you want to design a quoting flow connected to your CRM and ERP, the Agsora team can help map the rules and build the solution." },
+  { type: "p", text: "The pricing foundation is covered in [B2B price lists and price contracts in ERP](/blog/manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp)." },
   { type: "cta", title: "Design a B2B quoting flow connected to your CRM and ERP",text: "Discuss configuration rules, pricing, margin approval, and integration with the Agsora team.",href: "/services/crm",label: "Free consultation" },
 ];
 
@@ -121,6 +122,7 @@ const zh: Block[] = [
   { type: "p", text: "不会。CRM 管理客户关系和销售漏斗，而 CPQ 管理配置、定价和报价文件。二者互补。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "CPQ 把报价从容易出错的行政工作变成一致的流程：有效的配置、来自单一来源的价格、按权限的审批，以及流向订单和开票的数据。其价值体现在更短的销售周期、更有保障的毛利以及客户更快得到答复。请从一条产品线和记录良好的规则开始。如果您想设计与 CRM 和 ERP 连接的报价流程，Agsora 团队可以协助梳理规则并构建解决方案。" },
+  { type: "p", text: "定价基础参见[ERP 中的 B2B 价目表与价格合同](/blog/manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp)。" },
   { type: "cta", title: "设计与 CRM 和 ERP 连接的 B2B 报价流程",text: "与 Agsora 团队讨论配置规则、定价、毛利审批和集成。",href: "/services/crm",label: "免费咨询" },
 ];
 

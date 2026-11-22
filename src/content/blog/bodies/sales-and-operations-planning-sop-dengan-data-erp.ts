@@ -99,6 +99,7 @@ export const body: Block[] = [
   { type: "p", text: "Berapa lama sampai S&OP memberi hasil? Biasanya perbaikan pertama terlihat dalam tiga sampai enam bulan, terutama pada stok berlebih dan barang kosong. Proses yang matang biasanya butuh sekitar satu tahun." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "S&OP mengubah perencanaan dari kumpulan tebakan departemen menjadi satu rencana yang disepakati dan diperbarui setiap bulan. ERP menyediakan data yang sama untuk semua pihak, AI membantu membuat titik awal ramalan yang lebih baik, tetapi nilai sebenarnya datang dari disiplin rapat dan keputusan pimpinan. Mulailah dari cakupan kecil, ukur akurasi dan bias ramalan, dan biarkan proses ini matang dari siklus ke siklus. Hasilnya adalah stok yang lebih sehat, pelanggan yang lebih jarang kecewa, dan kas yang lebih terkendali." },
+  { type: "p", text: "Rencana S&OP diterjemahkan ke jadwal harian lewat [penjadwalan produksi kapasitas terbatas](/blog/penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah)." },
   {
     type: "cta",
     title: "Ingin menyatukan rencana penjualan, stok, dan keuangan?",

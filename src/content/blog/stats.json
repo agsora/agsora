@@ -92,7 +92,7 @@
   0
  ],
  "blog-perusahaan-sebagai-mesin-prospek": [
-  2359,
+  2373,
   1
  ],
  "brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan": [
@@ -144,7 +144,7 @@
   1
  ],
  "cpq-konfigurasi-harga-dan-penawaran-untuk-penjualan-b2b-yang-kompleks": [
-  1695,
+  1707,
   1
  ],
  "custom-software-vs-software-jadi": [
@@ -208,7 +208,7 @@
   1
  ],
  "eeat-dan-kredibilitas-konten-seo-untuk-website-jasa-b2b": [
-  1963,
+  1976,
   1
  ],
  "email-marketing-dan-otomasi-untuk-toko-online": [
@@ -220,11 +220,11 @@
   0
  ],
  "erp-dan-visibilitas-arus-kas": [
-  1587,
+  1600,
   1
  ],
  "erp-make-to-order-job-costing-untuk-percetakan-dan-fabrikasi": [
-  1643,
+  1654,
   1
  ],
  "erp-multi-mata-uang-dan-multi-entitas-untuk-ekspansi-regional": [
@@ -495,8 +495,16 @@
   2129,
   1
  ],
+ "manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp": [
+  1691,
+  1
+ ],
  "manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris": [
   1626,
+  1
+ ],
+ "manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp": [
+  1502,
   1
  ],
  "manajemen-dokumen-dan-arsip-digital-dengan-erp": [
@@ -516,7 +524,7 @@
   1
  ],
  "manajemen-pemasok-dan-penilaian-vendor-dengan-erp": [
-  2092,
+  2106,
   1
  ],
  "manajemen-perubahan-lingkup-dan-change-request-di-proyek-software": [
@@ -572,7 +580,7 @@
   0
  ],
  "mengelola-promo-dan-diskon": [
-  1574,
+  1589,
   0
  ],
  "mengelola-resistensi-tim-saat-ganti-sistem": [
@@ -688,7 +696,7 @@
   1
  ],
  "otomatisasi-faktur-dan-penagihan-piutang-b2b": [
-  2093,
+  2107,
   1
  ],
  "otomatisasi-input-data-dari-dokumen": [
@@ -700,7 +708,7 @@
   0
  ],
  "otomatisasi-utang-usaha-dan-pencocokan-tiga-arah-di-erp": [
-  1737,
+  1751,
   1
  ],
  "outsourcing-pengembangan-software-ke-indonesia": [
@@ -755,6 +763,10 @@
   2059,
   1
  ],
+ "penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih": [
+  1756,
+  1
+ ],
  "pengembangan-software-dengan-bantuan-ai-peluang-risiko-dan-kendali-mutu": [
   1672,
   1
@@ -778,6 +790,10 @@
  "penilaian-kinerja-yang-bisa-dipertanggungjawabkan": [
   1546,
   0
+ ],
+ "penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah": [
+  1649,
+  1
  ],
  "penjadwalan-shift-dan-manajemen-tenaga-kerja": [
   2082,
@@ -828,7 +844,7 @@
   0
  ],
  "portal-pelanggan-dan-pemasok-b2b": [
-  2288,
+  2304,
   1
  ],
  "predictive-maintenance-dengan-iot-dan-ai-untuk-pabrik-skala-menengah": [
@@ -904,7 +920,7 @@
   0
  ],
  "sales-and-operations-planning-sop-dengan-data-erp": [
-  1504,
+  1515,
   1
  ],
  "schema-markup-dan-data-terstruktur-untuk-seo-website-bisnis": [
@@ -916,7 +932,7 @@
   1
  ],
  "seo-dasar-website-perusahaan": [
-  1652,
+  1665,
   0
  ],
  "seo-internasional-hreflang-struktur-url-dan-lokalisasi-konten": [
@@ -996,7 +1012,7 @@
   1
  ],
  "sistem-manajemen-gudang-untuk-bisnis-yang-bertumbuh": [
-  2148,
+  2162,
   1
  ],
  "sistem-manajemen-klinik": [
@@ -1016,7 +1032,7 @@
   0
  ],
  "sistem-produksi-manufaktur-skala-menengah": [
-  1648,
+  1661,
   0
  ],
  "sistem-tiket-dukungan-pelanggan-dan-sla": [
@@ -1048,7 +1064,7 @@
   0
  ],
  "strategi-harga-dan-penetapan-harga-toko-online": [
-  2051,
+  2067,
   1
  ],
  "strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp": [
@@ -1074,6 +1090,10 @@
  "toko-online-sendiri-atau-marketplace": [
   1512,
   0
+ ],
+ "topical-authority-dan-internal-linking-untuk-blog-seo-b2b": [
+  1669,
+  1
  ],
  "tren-teknologi-bisnis-tahun-ini": [
   1512,

@@ -99,6 +99,7 @@ const en: Block[] = [
   { type: "p", text: "How long until S&OP delivers results? The first improvements are usually visible within three to six months, especially in excess stock and stockouts. A mature process usually takes around a year." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "S&OP turns planning from a collection of departmental guesses into one agreed plan updated every month. The ERP provides the same data to everyone, AI helps create a better forecasting starting point, but the real value comes from meeting discipline and executive decisions. Start with a small scope, measure forecast accuracy and bias, and let the process mature from cycle to cycle. The result is healthier stock, fewer disappointed customers, and better controlled cash." },
+  { type: "p", text: "S&OP plans are turned into daily schedules through [finite-capacity production scheduling](/blog/penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah)." },
   {
     type: "cta",
     title: "Want to unify your sales, stock, and financial plans?",
@@ -207,6 +208,7 @@ const zh: Block[] = [
   { type: "p", text: "S&OP 多久能见效？通常在三到六个月内就能看到初步改善，尤其是在库存过剩和缺货方面。成熟的流程一般需要一年左右。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "S&OP 把计划从各部门的猜测集合，转变为每月更新、共同认可的一份计划。ERP 为所有人提供同一份数据，AI 帮助形成更好的预测起点，但真正的价值来自会议纪律和管理层的决策。从小范围开始，衡量预测准确度和偏差，让流程在一轮轮循环中走向成熟。其结果是更健康的库存、更少失望的客户，以及更可控的现金流。" },
+  { type: "p", text: "S&OP 计划通过[有限产能生产排程](/blog/penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah)转化为日排程。" },
   {
     type: "cta",
     title: "想把销售、库存和财务计划统一起来？",

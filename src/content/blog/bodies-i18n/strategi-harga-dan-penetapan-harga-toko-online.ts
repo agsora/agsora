@@ -134,6 +134,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Pricing is not a one time decision but a learning process that keeps running. Markets change, costs change, and customers change. The winning store is not the one that is always cheapest, but the one that understands its costs, is honest about its value, and dares to test carefully." },
   { type: "p", text: "Start by calculating real margin, tidy the price structure, and manage discounts as a tool with a purpose. With reliable data and measured experiments, price turns from a source of anxiety into one of the most dependable growth levers." },
+  { type: "p", text: "For B2B sales with many price tiers, see [B2B price lists and price contracts in ERP](/blog/manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp)." },
   {
     type: "cta",
     title: "Want to see real margin per product and manage prices more neatly?",
@@ -277,6 +278,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "定价不是一次性的决定，而是不断进行的学习过程。市场在变，成本在变，顾客也在变。赢家不是总是最便宜的店铺，而是理解自己成本、诚实面对自身价值并敢于谨慎测试的店铺。" },
   { type: "p", text: "从计算真实利润率开始，整理价格结构，把折扣当作有目的的工具来管理。有了可靠的数据和可衡量的实验，价格就从焦虑的来源，变成最可靠的增长杠杆之一。" },
+  { type: "p", text: "对于有多个价格层级的 B2B 销售，参见[ERP 中的 B2B 价目表与价格合同](/blog/manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp)。" },
   {
     type: "cta",
     title: "想看到每个产品的真实利润率，并更有条理地管理价格？",

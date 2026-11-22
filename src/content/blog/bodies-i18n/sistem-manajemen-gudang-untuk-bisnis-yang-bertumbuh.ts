@@ -111,6 +111,7 @@ const en: Block[] = [
   { type: "p", text: "A well ordered warehouse makes the whole business calmer: orders go out on time, stock can be trusted, and purchasing can be planned with data. A messy warehouse, conversely, seeps into sales, customer service, and finance." },
   { type: "p", text: "Start from the basics: clear locations, consistent codes, and the habit of recording as things happen. Add scanning and more sophisticated systems as you grow. Disciplined gradual improvement almost always beats a big rushed project." },
   { type: "p", text: "For more detail on locations, putaway, picking, and slotting, see [warehouse picking, putaway, and slotting](/blog/strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp)." },
+  { type: "p", text: "Inbound processes are covered in detail in [goods receipt and inbound inspection with an ERP](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)." },
   {
     type: "cta",
     title: "Is the warehouse getting fuller and stock harder to trust?",
@@ -231,6 +232,7 @@ const zh: Block[] = [
   { type: "p", text: "井然有序的仓库让整个企业更从容：订单按时发出，库存值得信赖，采购可以用数据来规划。反之，混乱的仓库会渗透到销售、客户服务和财务中。" },
   { type: "p", text: "从基础开始：清晰的货位、一致的编码，以及在事情发生时记录的习惯。随着增长再加入扫描和更先进的系统。有纪律的渐进改进，几乎总是胜过仓促的大项目。" },
   { type: "p", text: "关于库位、上架、拣选和库位规划的更多细节，请参阅[仓库拣选、上架与库位规划](/blog/strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp)。" },
+  { type: "p", text: "入库流程的详细内容参见[用 ERP 管理收货与来料检验](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)。" },
   {
     type: "cta",
     title: "仓库越来越满，库存越来越难以信赖？",

@@ -6,6 +6,91 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih",
+    title: "Penerimaan Barang dan Inspeksi Barang Masuk: GRN, Retur, dan Selisih di ERP",
+    excerpt: "Cara merancang penerimaan barang dan inspeksi barang masuk dengan ERP: alur PO ke GRN, status karantina, inspeksi berbasis risiko, penanganan barang kurang, lebih, atau rusak, retur ke pemasok dan nota debit, barcode, serta indikator yang perlu dipantau.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    tags: ["inventori","operasional","erp"],
+    titleTranslations: {
+      en: "Goods Receipt and Inbound Inspection: GRN, Returns, and Variances in ERP",
+      zh: "用 ERP 管理收货与来料检验：GRN、退货与差异",
+    },
+    excerptTranslations: {
+      en: "How to design goods receipt and inbound inspection with an ERP: the PO-to-GRN flow, quarantine status, risk-based inspection, handling short, over, or damaged goods, supplier returns and debit notes, barcodes, and the indicators worth monitoring.",
+      zh: "如何用 ERP 设计收货与来料检验：从 PO 到 GRN 的流程、隔离状态、基于风险的检验、短少超出与破损的处理、供应商退货与借项通知单、条码，以及值得监控的指标。",
+    },
+  },
+  {
+    slug: "manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp",
+    title: "Batas Kredit dan Umur Piutang Pelanggan B2B: Cara Mengelolanya dengan ERP",
+    excerpt: "Panduan mengelola kredit pelanggan B2B dengan ERP: menetapkan batas kredit dan syarat pembayaran, menahan pesanan otomatis, membaca aging piutang dan DSO, alur penagihan bertahap, portal pelanggan, cadangan kerugian, serta integrasi dengan CRM dan komisi sales.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    tags: ["keuangan","erp","pelaporan"],
+    titleTranslations: {
+      en: "B2B Customer Credit Limits and Receivables Aging: Managing Them with ERP",
+      zh: "用 ERP 管理 B2B 客户信用额度与应收账龄",
+    },
+    excerptTranslations: {
+      en: "A guide to managing B2B customer credit with an ERP: setting credit limits and payment terms, holding orders automatically, reading receivables aging and DSO, staged collection flows, customer portals, loss provisions, and integration with CRM and sales commissions.",
+      zh: "用 ERP 管理 B2B 客户信用的指南：设定信用额度和付款条件、自动搁置订单、解读应收账龄和 DSO、分阶段催收流程、客户门户、损失准备，以及与 CRM 和销售佣金的整合。",
+    },
+  },
+  {
+    slug: "penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah",
+    title: "Penjadwalan Produksi Kapasitas Terbatas (APS) untuk Pabrik Skala Menengah",
+    excerpt: "Penjelasan penjadwalan produksi kapasitas terbatas (APS) untuk pabrik skala menengah: beda MRP dan penjadwalan kapasitas, data pusat kerja dan rute, penjadwalan maju dan mundur, aturan prioritas, mengelola kemacetan, pesanan mendesak, dan penerapan bertahap.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    tags: ["operasional","erp","industri"],
+    titleTranslations: {
+      en: "Finite-Capacity Production Scheduling (APS) for Mid-Sized Factories",
+      zh: "中型工厂的有限产能排程（APS）：从瓶颈开始",
+    },
+    excerptTranslations: {
+      en: "An explanation of finite-capacity production scheduling (APS) for mid-sized factories: MRP versus capacity scheduling, work center and routing data, forward and backward scheduling, priority rules, managing bottlenecks, urgent orders, and staged implementation.",
+      zh: "面向中型工厂的有限产能生产排程（APS）说明：MRP 与产能排程的区别、工作中心与工艺路线数据、正排与倒排、优先级规则、瓶颈管理、紧急订单以及分阶段实施。",
+    },
+  },
+  {
+    slug: "topical-authority-dan-internal-linking-untuk-blog-seo-b2b",
+    title: "Topical Authority dan Internal Linking untuk Blog SEO B2B",
+    excerpt: "Cara membangun otoritas topikal untuk blog perusahaan B2B: memilih pilar topik, menyusun klaster konten, riset kata kunci berbasis niat, merancang tautan internal yang bermakna, audit halaman yatim dan tautan rusak, serta mengukur hasil secara jujur.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    tags: ["seo","website","data"],
+    titleTranslations: {
+      en: "Topical Authority and Internal Linking for B2B SEO Blogs",
+      zh: "B2B 博客的主题权威与内部链接策略",
+    },
+    excerptTranslations: {
+      en: "How to build topical authority for a B2B company blog: choosing topic pillars, building content clusters, intent-based keyword research, designing meaningful internal links, auditing orphan pages and broken links, and measuring results honestly.",
+      zh: "如何为 B2B 公司博客建立主题权威：选择主题支柱、构建内容集群、基于意图的关键词研究、设计有意义的内部链接、审计孤立页面和失效链接，并诚实地衡量成果。",
+    },
+  },
+  {
+    slug: "manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp",
+    title: "Daftar Harga B2B, Harga Bertingkat, dan Kontrak Harga di ERP",
+    excerpt: "Panduan mengelola harga B2B di ERP: daftar harga per segmen, harga bertingkat jumlah, harga kontrak pelanggan, aturan prioritas harga, batas diskon dan margin minimum, perubahan harga dengan tanggal berlaku, serta indikator margin yang perlu dipantau.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    tags: ["erp","biaya","operasional"],
+    titleTranslations: {
+      en: "B2B Price Lists, Tiered Pricing, and Price Contracts in ERP",
+      zh: "ERP 中的 B2B 价目表、阶梯价格与价格合同",
+    },
+    excerptTranslations: {
+      en: "A guide to managing B2B pricing in an ERP: price lists by segment, quantity-tiered prices, customer price contracts, price priority rules, discount limits and minimum margins, price changes with effective dates, and the margin indicators worth monitoring.",
+      zh: "在 ERP 中管理 B2B 定价的指南：按细分的价目表、按数量的阶梯价格、客户价格合同、价格优先级规则、折扣上限与最低毛利、带生效日期的价格变更，以及值得监控的毛利指标。",
+    },
+  },
+  {
     slug: "strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp",
     title: "Picking, Putaway, dan Slotting Gudang: Strategi dengan WMS dan ERP",
     excerpt: "Panduan merancang tiga gerakan utama gudang dengan WMS atau modul gudang ERP: struktur lokasi, putaway terarah, strategi picking per pesanan, batch, zona, dan gelombang, analisis slotting ABC, pengisian ulang, penghitungan siklus, serta indikator akurasi dan produktivitas.",
@@ -590,7 +675,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan bisnis B2B membutuhkan CPQ (configure, price, quote): aturan konfigurasi produk, daftar harga dan diskon bertingkat, persetujuan margin, templat penawaran, versi revisi, konversi ke pesanan, dan integrasi dengan CRM serta ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-10",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-22",
     tags: ["crm","integrasi","sales"],
     titleTranslations: {
       en: "CPQ: Configuration, Pricing, and Quoting for Complex B2B Sales",
@@ -930,7 +1015,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara membuat konten website jasa dan B2B yang dipercaya mesin pencari dan calon klien: bukti pengalaman, profil penulis, studi kasus, transparansi, pembaruan konten, dan kesalahan yang merusak kepercayaan.",
     category: "Website & Digital",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-22",
     tags: ["seo","website","pelanggan"],
     titleTranslations: {
       en: "E-E-A-T and Content Credibility for B2B Service Websites: Experience, Expertise, and Real Proof",
@@ -1594,7 +1679,7 @@ export const meta: PostMeta[] = [
     excerpt: "Alur dari estimasi sampai penagihan, job costing per pesanan, alokasi overhead, pengelolaan revisi, penjadwalan kapasitas, dan indikator margin untuk bisnis make-to-order.",
     category: "Panduan Industri",
     publishedAt: "2026-10-23",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-11-22",
     tags: ["erp","industri","biaya"],
     titleTranslations: {
       en: "ERP for Make-to-Order Production: Job Costing for Print Shops and Fabrication",
@@ -1662,7 +1747,7 @@ export const meta: PostMeta[] = [
     excerpt: "Siklus S&OP bulanan, data ERP yang dibutuhkan, peran ramalan permintaan dan AI, menyeimbangkan permintaan dan pasokan, kesalahan umum, dan cara memulainya di perusahaan menengah.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-22",
     tags: ["erp","inventori","pelaporan"],
     titleTranslations: {
       en: "Sales and Operations Planning (S&OP) with ERP Data: One Plan for Sales, Stock, and Finance",
@@ -1713,7 +1798,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara pencocokan dua, tiga, dan empat arah bekerja, menetapkan toleransi selisih, menangani pengecualian, peran AI dan OCR, serta langkah menerapkan otomatisasi AP di ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-22",
     tags: ["erp","keuangan","otomasi"],
     titleTranslations: {
       en: "Accounts Payable Automation and Three Way Matching in ERP: Paying Supplier Invoices Without Errors",
@@ -2733,7 +2818,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kerangka berpikir menetapkan harga toko online: menghitung biaya sebenarnya, pendekatan berbasis biaya, pesaing, dan nilai, struktur harga, harga produk baru, diskon, biaya pengiriman, menguji perubahan, dan kapan menaikkan harga.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-11-22",
     tags: ["ecommerce","sales","biaya","data"],
     titleTranslations: {
       en: "Pricing Strategy for Online Stores: From True Costs to Testing Price Changes",
@@ -2835,7 +2920,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola pemasok secara terstruktur: data induk tunggal, alur pengadaan dengan pemisahan tugas, pencocokan tiga arah, kontrak dan harga, penilaian kinerja dengan indikator sederhana, serta pengelolaan risiko ketergantungan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-22",
     tags: ["erp","operasional","keuangan","inventori"],
     titleTranslations: {
       en: "Supplier Management and Vendor Evaluation with ERP: From Tidy Data to Controlled Purchasing",
@@ -2886,7 +2971,7 @@ export const meta: PostMeta[] = [
     excerpt: "Merapikan siklus pesanan sampai kas: faktur yang benar dari data pesanan, pemicu dan kanal pengiriman, syarat pembayaran, pengingat yang sopan, pencocokan pembayaran otomatis, sengketa tagihan, umur piutang, dan kontrol internal.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-22",
     tags: ["erp","keuangan","otomasi","pembayaran"],
     titleTranslations: {
       en: "Automating Invoicing and B2B Receivables Collection: From Order to Cash Received on Time",
@@ -2903,7 +2988,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan pencatatan stok tidak lagi cukup: tata letak dan kode lokasi, alur terima simpan ambil kirim, kode batang, penghitungan bergilir, lot dan kedaluwarsa, area retur, integrasi kanal penjualan, serta memilih tingkat sistem yang sesuai.",
     category: "POS & Retail",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-22",
     tags: ["inventori","operasional","retail","erp"],
     titleTranslations: {
       en: "Warehouse Management for a Growing Business: From Messy Shelves to Stock You Can Trust",
@@ -3243,7 +3328,7 @@ export const meta: PostMeta[] = [
     excerpt: "Portal B2B yang benar-benar dipakai: fitur yang didahulukan, hubungan dengan ERP dan CRM, hak akses dan keamanan, pengalaman pengguna, adopsi oleh mitra, dan cara mengukur keberhasilan.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-08",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-11-22",
     tags: ["crm","erp","integrasi","sales"],
     titleTranslations: {
       en: "B2B Customer and Supplier Portals: Cutting Repeated Questions and Speeding Up Transactions",
@@ -3345,7 +3430,7 @@ export const meta: PostMeta[] = [
     excerpt: "Blog yang dikelola dengan benar mendatangkan calon pelanggan yang sudah siap dipercaya. Cara memilih topik dari pertanyaan pelanggan, menulis untuk niat pencarian, menata kalender konten, dan mengukur hasilnya tanpa angka rekaan.",
     category: "Website & Digital",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-22",
     tags: ["website","seo","sales"],
     titleTranslations: {
       en: "The Company Blog as a Lead Engine: Writing Content Prospects Actually Search For",
@@ -3711,7 +3796,7 @@ export const meta: PostMeta[] = [
     excerpt: "Laporan laba rugi sehat, tapi kas menipis. ERP menghubungkan piutang, utang, dan persediaan sehingga posisi kas terlihat lebih awal, asalkan datanya dicatat dengan disiplin.",
     category: "ERP & Operasional",
     publishedAt: "2026-09-27",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-22",
     tags: [
       "erp",
       "keuangan",
@@ -4216,7 +4301,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-22",
     tags: [
       "seo",
       "website"
@@ -4386,7 +4471,7 @@ export const meta: PostMeta[] = [
     excerpt: "Promo yang diatur manual di kasir sulit diukur dan mudah disalahgunakan. Mengaturnya di sistem membuat hasil promo bisa dinilai dengan jujur.",
     category: "POS & Retail",
     publishedAt: "2026-07-10",
-    updatedAt: "2026-11-14",
+    updatedAt: "2026-11-22",
     tags: [
       "pos",
       "retail",
@@ -4461,7 +4546,7 @@ export const meta: PostMeta[] = [
     excerpt: "Manufaktur skala menengah sering terjebak di antara spreadsheet yang sudah tidak cukup dan sistem besar yang terlalu rumit. Ini kebutuhan yang biasanya paling mendesak.",
     category: "Panduan Industri",
     publishedAt: "2026-06-28",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-22",
     tags: [
       "industri",
       "inventori",

@@ -154,6 +154,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "A well designed customer and supplier portal saves both parties' time, reduces errors, and shows the company's seriousness about serving its partners. The key lies in focusing on truly repeated questions, data sourced from core systems, strict access rights, a simple experience, and a serious effort to get partners to use it." },
   { type: "p", text: "Start small and high value, measure usage, and develop based on real feedback. That way the portal is not merely a technology project but a new way of working that strengthens your business relationships." },
+  { type: "p", text: "A portal also lets customers see balances and invoices; see [B2B customer credit limits and receivables aging](/blog/manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp)." },
   {
     type: "cta",
     title: "Want a customer or supplier portal connected directly to your ERP and CRM?",
@@ -317,6 +318,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "设计良好的客户与供应商门户,为双方节省时间,减少错误,并表明公司认真服务伙伴。关键在于聚焦真正反复出现的问题、来自核心系统的数据、严格的访问权限、简单的体验,以及让伙伴愿意使用的认真努力。" },
   { type: "p", text: "从小而高价值的部分开始,衡量使用情况,并根据真实反馈发展。这样门户就不只是一个技术项目,而是一种强化你商业关系的新工作方式。" },
+  { type: "p", text: "门户还能让客户查看余额和发票；参见[B2B 客户信用额度与应收账龄](/blog/manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp)。" },
   {
     type: "cta",
     title: "想要一个与你的 ERP 和 CRM 直接相连的客户或供应商门户吗?",

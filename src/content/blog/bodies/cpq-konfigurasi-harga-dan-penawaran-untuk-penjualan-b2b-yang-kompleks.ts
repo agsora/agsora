@@ -59,5 +59,6 @@ export const body: Block[] = [
   { type: "p", text: "Tidak. CRM mengelola hubungan dan pipeline, sedangkan CPQ mengelola konfigurasi, harga, dan dokumen penawaran. Keduanya saling melengkapi." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "CPQ mengubah penawaran dari pekerjaan administratif yang rawan salah menjadi proses yang konsisten: konfigurasi yang valid, harga dari satu sumber, persetujuan sesuai kewenangan, dan data yang mengalir ke pesanan serta penagihan. Nilainya terlihat pada siklus penjualan yang lebih singkat, margin yang lebih terjaga, dan pelanggan yang mendapat jawaban lebih cepat. Mulailah dari satu lini produk dan aturan yang terdokumentasi dengan baik. Bila Anda ingin merancang alur penawaran yang terhubung dengan CRM dan ERP, tim Agsora dapat membantu memetakan aturan dan membangun solusinya." },
+  { type: "p", text: "Fondasi harganya dibahas di [daftar harga B2B dan kontrak harga di ERP](/blog/manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp)." },
   { type: "cta", title: "Rancang alur penawaran B2B yang terhubung dengan CRM dan ERP",text: "Diskusikan aturan konfigurasi, harga, persetujuan margin, dan integrasi dengan tim Agsora.",href: "/services/crm",label: "Konsultasi gratis" },
 ];

@@ -134,6 +134,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Penetapan harga bukan keputusan satu kali, melainkan proses belajar yang berjalan terus. Pasar berubah, biaya berubah, dan pelanggan berubah. Toko yang menang bukan yang selalu termurah, melainkan yang memahami biayanya, jujur tentang nilainya, dan berani menguji dengan hati-hati." },
   { type: "p", text: "Mulailah dengan menghitung margin sebenarnya, rapikan struktur harga, dan kelola diskon sebagai alat dengan tujuan. Dengan data yang andal dan eksperimen yang terukur, harga berubah dari sumber kecemasan menjadi salah satu pengungkit pertumbuhan yang paling dapat diandalkan." },
+  { type: "p", text: "Untuk penjualan B2B dengan banyak tingkat harga, lihat [daftar harga B2B dan kontrak harga di ERP](/blog/manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp)." },
   {
     type: "cta",
     title: "Ingin melihat margin sebenarnya per produk dan mengelola harga dengan lebih rapi?",

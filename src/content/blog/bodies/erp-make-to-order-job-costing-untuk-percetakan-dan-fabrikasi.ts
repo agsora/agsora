@@ -108,6 +108,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah data biaya bisa membantu menolak pesanan yang rugi? Ya, itu salah satu manfaat terbesarnya. Dengan data margin per jenis pekerjaan, Anda bisa menaikkan harga, menetapkan pesanan minimum, atau menolak pekerjaan yang konsisten merugi." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Bisnis make-to-order tidak sekadar versi kecil dari pabrik massal. Variasi yang tinggi menuntut estimasi yang disiplin, penjadwalan yang realistis, dan pencatatan biaya per pesanan. Dengan job costing yang akurat, pemilik usaha tahu pesanan mana yang benar-benar menguntungkan, belajar dari selisih estimasi, dan menetapkan harga dengan percaya diri. ERP yang tepat mengubah data lantai produksi menjadi keputusan harga dan kapasitas yang lebih baik." },
+  { type: "p", text: "Untuk menjanjikan tanggal selesai yang realistis, lihat [penjadwalan produksi kapasitas terbatas](/blog/penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah)." },
   {
     type: "cta",
     title: "Produksi Anda berbasis pesanan dan margin sulit dipastikan?",

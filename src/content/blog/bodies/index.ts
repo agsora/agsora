@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_penerimaan_barang_dan_inspeksi_barang_masuk_dengan_erp_grn_retur_pemasok_dan_selisih } from "./penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih";
+import { body as b_manajemen_batas_kredit_dan_umur_piutang_pelanggan_b2b_dengan_erp } from "./manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp";
+import { body as b_penjadwalan_produksi_kapasitas_terbatas_aps_untuk_pabrik_skala_menengah } from "./penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah";
+import { body as b_topical_authority_dan_internal_linking_untuk_blog_seo_b2b } from "./topical-authority-dan-internal-linking-untuk-blog-seo-b2b";
+import { body as b_manajemen_daftar_harga_b2b_harga_bertingkat_dan_kontrak_harga_di_erp } from "./manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp";
 import { body as b_strategi_picking_putaway_dan_slotting_gudang_dengan_wms_dan_erp } from "./strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp";
 import { body as b_manajemen_cuti_hari_libur_dan_offboarding_karyawan_di_hris } from "./manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris";
 import { body as b_brief_proyek_dan_rfp_software_meminta_penawaran_yang_bisa_dibandingkan } from "./brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan";
@@ -288,6 +293,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih": b_penerimaan_barang_dan_inspeksi_barang_masuk_dengan_erp_grn_retur_pemasok_dan_selisih,
+  "manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp": b_manajemen_batas_kredit_dan_umur_piutang_pelanggan_b2b_dengan_erp,
+  "penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah": b_penjadwalan_produksi_kapasitas_terbatas_aps_untuk_pabrik_skala_menengah,
+  "topical-authority-dan-internal-linking-untuk-blog-seo-b2b": b_topical_authority_dan_internal_linking_untuk_blog_seo_b2b,
+  "manajemen-daftar-harga-b2b-harga-bertingkat-dan-kontrak-harga-di-erp": b_manajemen_daftar_harga_b2b_harga_bertingkat_dan_kontrak_harga_di_erp,
   "strategi-picking-putaway-dan-slotting-gudang-dengan-wms-dan-erp": b_strategi_picking_putaway_dan_slotting_gudang_dengan_wms_dan_erp,
   "manajemen-cuti-hari-libur-dan-offboarding-karyawan-di-hris": b_manajemen_cuti_hari_libur_dan_offboarding_karyawan_di_hris,
   "brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan": b_brief_proyek_dan_rfp_software_meminta_penawaran_yang_bisa_dibandingkan,

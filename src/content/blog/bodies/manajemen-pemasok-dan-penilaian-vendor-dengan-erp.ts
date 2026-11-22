@@ -106,6 +106,7 @@ export const body: Block[] = [
   { type: "p", text: "Pemasok yang dikelola dengan baik membuat bisnis lebih tenang: pesanan datang tepat waktu, tagihan benar, dan harga bisa diprediksi. Pemasok yang dibiarkan tanpa pengelolaan membuat bisnis terus memadamkan api yang sebenarnya bisa dicegah." },
   { type: "p", text: "Mulailah dari data yang rapi dan alur yang jelas, lalu tambahkan penilaian dan pengelolaan risiko secara bertahap. ERP membantu menyatukan semuanya, tetapi nilainya baru terasa ketika kebiasaan tim ikut berubah." },
   { type: "p", text: "Waktu tunggu pemasok memengaruhi [perencanaan material MRP](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)." },
+  { type: "p", text: "Data penerimaan dan inspeksi menjadi bahan penilaian; lihat [penerimaan barang dan inspeksi barang masuk](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)." },
   {
     type: "cta",
     title: "Pembelian dan pemasok masih dikelola lewat catatan terpisah?",

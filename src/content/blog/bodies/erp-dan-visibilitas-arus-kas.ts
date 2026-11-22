@@ -158,6 +158,7 @@ export const body: Block[] = [
     type: "p",
     text: "Kesulitan kas jarang datang tiba-tiba. Tanda-tandanya biasanya sudah ada di data, piutang yang mulai menua, stok yang tidak bergerak, jadwal pembayaran yang menumpuk di minggu yang sama. Masalahnya, data itu tersebar di tempat yang berbeda dan baru disatukan ketika sudah terlambat. ERP yang diterapkan dengan disiplin membuat tanda-tanda itu terlihat lebih awal, sehingga keputusan bisa diambil ketika pilihannya masih banyak, bukan ketika hanya tersisa langkah darurat.",
   },
+  { type: "p", text: "Piutang yang terlambat menahan kas; lihat [batas kredit dan umur piutang pelanggan B2B](/blog/manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp)." },
   {
     type: "cta",
     title: "Sering kaget dengan posisi kas di akhir bulan?",

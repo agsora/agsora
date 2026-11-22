@@ -108,6 +108,7 @@ const en: Block[] = [
   { type: "p", text: "Can cost data help refuse loss-making orders? Yes, that is one of its biggest benefits. With margin data per type of work, you can raise prices, set a minimum order, or decline work that consistently loses money." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A make-to-order business is not just a small version of a mass-production factory. High variation demands disciplined estimating, realistic scheduling, and cost recording per order. With accurate job costing, owners know which orders are truly profitable, learn from estimate variances, and price with confidence. The right ERP turns shop floor data into better pricing and capacity decisions." },
+  { type: "p", text: "To promise realistic completion dates, see [finite-capacity production scheduling](/blog/penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah)." },
   {
     type: "cta",
     title: "Is your production order-based and margins hard to pin down?",
@@ -225,6 +226,7 @@ const zh: Block[] = [
   { type: "p", text: "成本数据能帮助拒绝亏损订单吗？能，这是它最大的好处之一。有了每类工作的利润率数据，你可以提价、设定最低订单量，或拒绝持续亏损的活儿。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "按订单生产的企业不只是大批量工厂的缩小版。高度多样化要求规范的估算、现实可行的排程以及按订单记录成本。有了准确的工单成本核算，老板就知道哪些订单真正赚钱，从估算差异中学习，并自信地定价。合适的 ERP 能把车间数据转化为更好的定价和产能决策。" },
+  { type: "p", text: "要承诺现实的完工日期，参见[有限产能生产排程](/blog/penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah)。" },
   {
     type: "cta",
     title: "您的生产按订单进行，利润率难以确定？",

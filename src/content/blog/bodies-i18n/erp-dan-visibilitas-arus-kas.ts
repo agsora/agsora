@@ -158,6 +158,7 @@ const en: Block[] = [
     type: "p",
     text: "Cash trouble rarely arrives out of nowhere. The signs are usually already in the data, receivables starting to age, stock that isn't moving, payment schedules bunching up in the same week. The problem is that this data is scattered in different places and only brought together when it's too late. An ERP implemented with discipline makes those signs visible earlier, so decisions can be made while there are still plenty of options, not when only emergency measures remain.",
   },
+  { type: "p", text: "Late receivables tie up cash; see [B2B customer credit limits and receivables aging](/blog/manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp)." },
   {
     type: "cta",
     title: "Often surprised by your cash position at month end?",
@@ -325,6 +326,7 @@ const zh: Block[] = [
     type: "p",
     text: "现金困难很少突然降临。迹象通常早已存在于数据之中，开始老化的应收账款、不动的库存、集中在同一周的付款计划。问题在于,这些数据分散在不同的地方,等到被汇总在一起时已经太晚。以纪律推行的 ERP 能让这些迹象更早显现,使决策可以在选择仍然很多的时候作出,而不是只剩下应急措施的时候。",
   },
+  { type: "p", text: "逾期应收款会占用现金；参见[B2B 客户信用额度与应收账龄](/blog/manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp)。" },
   {
     type: "cta",
     title: "月底时经常被现金状况吓一跳?",

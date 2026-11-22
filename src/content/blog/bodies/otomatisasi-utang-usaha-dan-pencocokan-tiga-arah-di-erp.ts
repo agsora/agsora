@@ -98,6 +98,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Otomatisasi utang usaha dengan pencocokan tiga arah mengubah peran bagian keuangan dari pengejar dokumen menjadi pengendali pengecualian. Sebagian besar tagihan yang sesuai pesanan dan penerimaan dapat disetujui cepat, sementara selisih harga, jumlah, dan tagihan mencurigakan mendapat perhatian yang layak. Kuncinya adalah data pemasok yang rapi, penerimaan barang yang disiplin, toleransi yang tertulis, dan alur pengecualian yang punya pemilik. Mulailah dari pemasok bervolume tinggi, ukur hasilnya, lalu perluas secara bertahap." },
   { type: "p", text: "Pembayaran massal ke pemasok dibahas di [integrasi bank dari ERP](/blog/integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp)." },
+  { type: "p", text: "Dokumen penerimaan yang rapi menjadi dasar pencocokan; lihat [penerimaan barang dan inspeksi barang masuk](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)." },
   {
     type: "cta",
     title: "Ingin proses tagihan pemasok yang lebih cepat dan terkendali?",
