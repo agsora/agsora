@@ -73,5 +73,6 @@ export const body: Block[] = [
   { type: "p", text: "Video yang menampilkan pakar langsung menambah sinyal kredibilitas; lihat [SEO video dan YouTube untuk website jasa B2B](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
   { type: "p", text: "Pengalaman nyata ditunjukkan lewat [halaman studi kasus B2B](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)." },
   { type: "p", text: "Struktur konten yang rapi memperkuat sinyal ini; lihat [topical authority dan internal linking](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)." },
+  { type: "p", text: "Kredibilitas juga dibangun dari tautan masuk; lihat [backlink etis dan digital PR untuk website B2B](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)." },
   { type: "cta", title: "Bangun website jasa yang dipercaya calon klien",text: "Diskusikan struktur konten, profil, dan SEO website bisnis Anda bersama tim Agsora. Kami bantu merancang website yang kredibel dan menghasilkan prospek.",href: "/services/website",label: "Konsultasi gratis" },
 ];

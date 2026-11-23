@@ -108,6 +108,7 @@ const en: Block[] = [
   { type: "p", text: "Start with the processes that are riskiest and most related to money. Improve little by little, measure the results, and involve the team. Before long, your business will have a system that not only records transactions but also keeps the trust of everyone who depends on it." },
   { type: "p", text: "Its application in nonprofits is discussed in [ERP for foundations and nonprofits](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)." },
   { type: "p", text: "System controls work best when paired with a reporting channel; see [whistleblowing systems and internal complaint channels](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)." },
+  { type: "p", text: "Good logs enable further analysis; see [detecting anomalies and transaction fraud with AI on ERP data](/blog/deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp)." },
   {
     type: "cta",
     title: "Want your ERP system to have tidy controls and audit trails?",
@@ -225,6 +226,7 @@ const zh: Block[] = [
   { type: "p", text: "从风险最高、与资金关系最密切的流程开始。一点一点改进，衡量成果，并让团队参与。不久之后，您的企业将拥有这样一个系统：它不仅记录交易，还守护所有依赖它的各方的信任。" },
   { type: "p", text: "其在非营利组织中的应用见[基金会与非营利组织的 ERP](/blog/erp-untuk-yayasan-dan-lembaga-nirlaba-donasi-dana-terikat-dan-pelaporan-donor)。" },
   { type: "p", text: "系统控制与举报渠道相结合时效果最佳；请参阅[举报系统与内部投诉渠道](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)。" },
+  { type: "p", text: "完善的日志支持进一步分析；参见[用 AI 在 ERP 数据中发现异常与交易舞弊](/blog/deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp)。" },
   {
     type: "cta",
     title: "希望您的 ERP 系统拥有完善的控制与审计轨迹吗？",

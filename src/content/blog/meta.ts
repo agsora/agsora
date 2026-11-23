@@ -6,6 +6,95 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur",
+    title: "BOM, Revisi Produk, dan Perubahan Teknik (ECN) di ERP Manufaktur",
+    seoTitles: { id: "BOM dan Perubahan Teknik (ECN) di ERP Manufaktur", en: "BOMs and Engineering Changes (ECN) in ERP" },
+    excerpt: "Panduan mengelola bill of materials (BOM) di ERP manufaktur: struktur multi-level, versi dan tanggal berlaku, perubahan teknik (ECN) dengan persetujuan, bahan pengganti, penanganan sisa stok versi lama, serta dampaknya pada biaya, MRP, dan produksi.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    tags: ["operasional","erp","industri"],
+    titleTranslations: {
+      en: "BOMs, Product Revisions, and Engineering Change Notices (ECN) in Manufacturing ERP",
+      zh: "制造业 ERP 中的 BOM、产品版本与工程变更（ECN）管理",
+    },
+    excerptTranslations: {
+      en: "A guide to managing bills of materials (BOMs) in a manufacturing ERP: multi-level structures, versions and effective dates, engineering change notices (ECN) with approval, substitute materials, handling old-version stock, and the effect on costing, MRP, and production.",
+      zh: "制造业 ERP 中物料清单（BOM）管理指南：多层结构、版本与生效日期、带审批的工程变更通知（ECN）、替代物料、旧版本库存处理，以及对成本、MRP 和生产的影响。",
+    },
+  },
+  {
+    slug: "rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan",
+    title: "RFQ dan Perbandingan Penawaran Pemasok di ERP untuk Pengadaan yang Terukur",
+    seoTitles: { id: "RFQ dan Perbandingan Penawaran Pemasok di ERP", en: "RFQ and Supplier Quote Comparison in ERP" },
+    excerpt: "Cara menjalankan permintaan penawaran (RFQ) di ERP: menyusun spesifikasi, mengundang pemasok, membandingkan penawaran secara adil, menimbang harga dan nilai total, negosiasi, persetujuan pemenang, serta mengubah penawaran menjadi PO dengan jejak audit.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    tags: ["erp","operasional","biaya"],
+    titleTranslations: {
+      en: "RFQs and Supplier Quote Comparison in ERP for Measurable Procurement",
+      zh: "在 ERP 中管理 RFQ 与供应商报价比较，让采购更可衡量",
+    },
+    excerptTranslations: {
+      en: "How to run requests for quotation (RFQ) in an ERP: writing specifications, inviting suppliers, comparing quotes fairly, weighing price and total value, negotiation, approving the winner, and turning the quote into a PO with an audit trail.",
+      zh: "如何在 ERP 中开展询价（RFQ）：撰写规格、邀请供应商、公平比较报价、权衡价格与总体价值、谈判、批准中标者，并将报价转为带审计轨迹的采购订单。",
+    },
+  },
+  {
+    slug: "analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp",
+    title: "Analisis ABC-XYZ dan Stok Pengaman untuk Persediaan yang Sehat",
+    seoTitles: { id: "Analisis ABC-XYZ dan Stok Pengaman Persediaan", en: "ABC-XYZ Analysis and Safety Stock with ERP" },
+    excerpt: "Cara mengelompokkan barang dengan analisis ABC (nilai) dan XYZ (kestabilan permintaan), menentukan stok pengaman dan titik pesan ulang, menetapkan target layanan per kelompok, menangani barang lambat, serta memantau perputaran stok di ERP.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    tags: ["inventori","erp","data"],
+    titleTranslations: {
+      en: "ABC-XYZ Analysis and Safety Stock for Healthy Inventory with ERP",
+      zh: "ABC-XYZ 分类与安全库存：用 ERP 打造健康库存",
+    },
+    excerptTranslations: {
+      en: "How to group items with ABC (value) and XYZ (demand stability) analysis, set safety stock and reorder points, define service targets per group, handle slow-moving items, and monitor inventory turnover in an ERP.",
+      zh: "如何用 ABC（价值）与 XYZ（需求稳定性）分析对物料分组，设定安全库存与再订货点，按组别确定服务目标，处理呆滞品，并在 ERP 中监控库存周转。",
+    },
+  },
+  {
+    slug: "deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp",
+    title: "Deteksi Anomali dan Kecurangan Transaksi dengan AI pada Data ERP",
+    seoTitles: { id: "Deteksi Anomali dan Kecurangan dengan AI di ERP", en: "Detecting ERP Anomalies and Fraud with AI" },
+    excerpt: "Panduan memakai aturan dan model AI untuk mendeteksi anomali di data ERP: faktur ganda, pemasok fiktif, pecah transaksi, penyesuaian stok janggal, alur peninjauan, pengendalian false positive, dan batas yang jujur tentang apa yang bisa dibuktikan model.",
+    category: "Teknologi",
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    tags: ["ai","keamanan","erp"],
+    titleTranslations: {
+      en: "Detecting Anomalies and Transaction Fraud with AI on ERP Data",
+      zh: "用 AI 在 ERP 数据中发现异常与交易舞弊",
+    },
+    excerptTranslations: {
+      en: "A guide to using rules and AI models to detect anomalies in ERP data: duplicate invoices, fictitious suppliers, split transactions, odd stock adjustments, review workflows, controlling false positives, and an honest view of what a model can prove.",
+      zh: "使用规则与 AI 模型发现 ERP 数据异常的指南：重复发票、虚构供应商、拆分交易、异常库存调整、复核流程、控制误报，以及对模型能证明什么的诚实看法。",
+    },
+  },
+  {
+    slug: "backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam",
+    title: "Backlink Etis dan Digital PR untuk Website B2B: Membangun Otoritas Tanpa Spam",
+    excerpt: "Strategi membangun tautan masuk berkualitas untuk website B2B: aset yang layak ditautkan, digital PR, kemitraan dan direktori industri, menulis sebagai narasumber, audit profil tautan, menghindari praktik berisiko, dan mengukur dampaknya secara jujur.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    tags: ["seo","website","data"],
+    titleTranslations: {
+      en: "Ethical Backlinks and Digital PR for B2B Websites: Building Authority Without Spam",
+      zh: "B2B 网站的合规外链与数字公关：不靠垃圾链接建立权威",
+    },
+    excerptTranslations: {
+      en: "A strategy for earning quality inbound links to a B2B website: link-worthy assets, digital PR, partnerships and industry directories, contributing as an expert source, link profile audits, avoiding risky practices, and measuring impact honestly.",
+      zh: "为 B2B 网站获取高质量外部链接的策略：值得被链接的内容资产、数字公关、合作与行业目录、作为专家来源投稿、外链档案审计、避开高风险做法，并诚实衡量影响。",
+    },
+  },
+  {
     slug: "penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih",
     title: "Penerimaan Barang dan Inspeksi Barang Masuk: GRN, Retur, dan Selisih di ERP",
     excerpt: "Cara merancang penerimaan barang dan inspeksi barang masuk dengan ERP: alur PO ke GRN, status karantina, inspeksi berbasis risiko, penanganan barang kurang, lebih, atau rusak, retur ke pemasok dan nota debit, barcode, serta indikator yang perlu dipantau.",
@@ -147,7 +236,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan menerapkan material requirements planning (MRP) di ERP untuk pabrik skala menengah: data BOM dan stok yang harus akurat, cara kerja perhitungan kebutuhan bersih, waktu tunggu, stok pengaman, ukuran lot, pesan pengecualian, serta indikator efektivitasnya.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-19",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-23",
     tags: ["erp","industri","inventori"],
     titleTranslations: {
       en: "MRP: Material Planning for Manufacturing with ERP",
@@ -249,7 +338,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara menulis studi kasus untuk website jasa B2B yang benar-benar dibaca calon klien: struktur masalah-solusi-hasil, angka yang jujur, izin dan anonimisasi klien, kutipan testimoni, visual, schema, penempatan di situs, serta cara mengukur pengaruhnya terhadap permintaan penawaran.",
     category: "Website & Digital",
     publishedAt: "2026-11-17",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-23",
     tags: ["website","sales","pelanggan"],
     titleTranslations: {
       en: "B2B Case Study Pages That Convince: Structure, Proof, and Client Approval",
@@ -419,7 +508,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola kas kecil dan uang muka karyawan secara tertib: sistem imprest, batas dan kategori pengeluaran, bukti digital, persetujuan, pengisian ulang, pertanggungjawaban uang muka, rekonsiliasi dan opname kas, serta pencatatan otomatis ke jurnal ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-13",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-23",
     tags: ["erp","keuangan","operasional"],
     titleTranslations: {
       en: "Petty Cash and Operational Cash Advances with ERP: Controls, Receipts, and Reconciliation",
@@ -1015,7 +1104,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara membuat konten website jasa dan B2B yang dipercaya mesin pencari dan calon klien: bukti pengalaman, profil penulis, studi kasus, transparansi, pembaruan konten, dan kesalahan yang merusak kepercayaan.",
     category: "Website & Digital",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-23",
     tags: ["seo","website","pelanggan"],
     titleTranslations: {
       en: "E-E-A-T and Content Credibility for B2B Service Websites: Experience, Expertise, and Real Proof",
@@ -1389,7 +1478,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan SEO internasional untuk website bisnis: memilih struktur URL, hreflang timbal balik, kanonikal, peta situs, pengalih bahasa, lokalisasi konten, dan pengukuran hasil.",
     category: "Website & Digital",
     publishedAt: "2026-10-26",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-23",
     tags: ["seo","website","ecommerce"],
     titleTranslations: {
       en: "International SEO: Hreflang, URL Structure, Canonicals, and Content Localization for Reaching Overseas Markets",
@@ -1866,7 +1955,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen landed cost, perlakuan bea masuk dan pajak impor, dasar alokasi biaya per barang, pengaruh kurs, estimasi biaya yang datang belakangan, dan cara ERP mengotomatiskannya.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-11-05",
+    updatedAt: "2026-11-23",
     tags: ["erp","inventori","biaya"],
     titleTranslations: {
       en: "Landed Cost: Calculating the True Cost of Imported Goods in an ERP",
@@ -1951,7 +2040,7 @@ export const meta: PostMeta[] = [
     excerpt: "Titik pemeriksaan bahan masuk, proses, dan produk jadi, menangani produk tidak sesuai, tindakan korektif, penelusuran lot, dan langkah menerapkan QC di ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-21",
-    updatedAt: "2026-11-17",
+    updatedAt: "2026-11-23",
     tags: ["erp","industri","operasional"],
     titleTranslations: {
       en: "Quality Control (QC) in Manufacturing with ERP: From Inspection to Lot Traceability",
@@ -2019,7 +2108,7 @@ export const meta: PostMeta[] = [
     excerpt: "Data ERP yang dibutuhkan, metode statistik hingga machine learning, mengukur akurasi dan bias ramalan, serta menghubungkannya ke stok pengaman dan pesanan pembelian.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-20",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-23",
     tags: ["ai","inventori","data"],
     titleTranslations: {
       en: "Demand Forecasting with AI and ERP Data: A Realistic Guide for Stock and Purchasing",
@@ -2257,7 +2346,7 @@ export const meta: PostMeta[] = [
     excerpt: "Komponen HPP, metode penilaian persediaan, pembebanan overhead, biaya standar dan varians, serta cara ERP menghitung dan memantau margin per produk.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-11-23",
     tags: ["erp","keuangan","inventori"],
     titleTranslations: {
       en: "COGS and Product Cost Accounting in an ERP: Knowing Your True Margin",
@@ -2461,7 +2550,7 @@ export const meta: PostMeta[] = [
     excerpt: "Apa itu jejak audit, apa yang layak dicatat, pemisahan tugas, alur persetujuan, laporan pengecualian, dan persiapan audit eksternal pada sistem ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-15",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-23",
     tags: ["erp","keamanan","keuangan"],
     titleTranslations: {
       en: "Audit Trails and Internal Control in ERP Systems: Growing Without Losing Control",
@@ -2920,7 +3009,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola pemasok secara terstruktur: data induk tunggal, alur pengadaan dengan pemisahan tugas, pencocokan tiga arah, kontrak dan harga, penilaian kinerja dengan indikator sederhana, serta pengelolaan risiko ketergantungan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-23",
     tags: ["erp","operasional","keuangan","inventori"],
     titleTranslations: {
       en: "Supplier Management and Vendor Evaluation with ERP: From Tidy Data to Controlled Purchasing",
@@ -3617,7 +3706,7 @@ export const meta: PostMeta[] = [
     excerpt: "Stok terlalu sedikit membuat pelanggan kecewa, terlalu banyak menahan modal. Konsep stok pengaman dan titik pemesanan ulang, pengelompokan barang, dan peran ERP dalam menjalankannya.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-10-23",
+    updatedAt: "2026-11-23",
     tags: ["inventori","erp","operasional","keuangan"],
     titleTranslations: {
       en: "Inventory Planning and Reordering: When to Order and How Much",
@@ -4233,7 +4322,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kebanyakan kecurangan kasir memanfaatkan celah yang sama: transaksi yang bisa dihapus tanpa jejak. Sistem yang tepat menutup celah itu tanpa mencurigai semua orang.",
     category: "POS & Retail",
     publishedAt: "2026-08-17",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-23",
     tags: [
       "pos",
       "retail",
@@ -4247,7 +4336,7 @@ export const meta: PostMeta[] = [
     excerpt: "Alur persetujuan pembelian dibuat untuk mengendalikan pengeluaran, tapi yang terlalu berlapis justru membuat operasional menunggu. Ini cara menyeimbangkannya.",
     category: "ERP & Operasional",
     publishedAt: "2026-08-15",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-23",
     tags: [
       "erp",
       "keuangan",
@@ -4368,7 +4457,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menutup gudang seharian untuk menghitung stok memang sederhana, tapi mahal. Hitung siklus membuat stok tetap akurat tanpa menghentikan penjualan.",
     category: "ERP & Operasional",
     publishedAt: "2026-07-26",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-23",
     tags: [
       "inventori",
       "erp",

@@ -77,5 +77,6 @@ export const body: Block[] = [
   { type: "p", text: "Orang selain pemegang kas, misalnya staf keuangan atau atasan lokasi, dengan pemegang kas hadir saat penghitungan." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Kas kecil dan uang muka operasional bernilai kecil per transaksi, tetapi dampaknya terhadap kerapian laporan dan risiko kebocoran cukup besar. Dengan sistem imprest, kebijakan tertulis, bukti digital saat transaksi, persetujuan berjenjang, batas waktu pertanggungjawaban, opname berkala, dan jurnal otomatis di ERP, perusahaan mendapat kontrol yang kuat tanpa membebani karyawan. Mulailah dari satu atau dua cabang, ukur selisih dan waktu rekap, lalu perluas." },
+  { type: "p", text: "Pola janggal pada pengeluaran kecil dapat disaring otomatis; lihat [deteksi anomali dan kecurangan transaksi dengan AI](/blog/deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp)." },
   { type: "cta", title: "Ingin kas kecil dan uang muka tercatat rapi tanpa rekap manual?",text: "Agsora membantu menerapkan modul kas kecil, uang muka, dan persetujuan di ERP, lengkap dengan aplikasi unggah bukti untuk setiap cabang.",href: "/services/erp",label: "Konsultasi gratis" },
 ];

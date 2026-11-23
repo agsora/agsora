@@ -202,6 +202,7 @@ export const body: Block[] = [
     type: "p",
     text: "Perencanaan stok yang baik membuat bisnis tenang: pelanggan jarang kecewa karena barang kosong, gudang tidak sesak oleh barang yang tidak laku, dan kas tidak tertahan di tempat yang salah. Kuncinya bukan rumus rumit, melainkan data yang akurat, aturan yang jelas, perhatian yang difokuskan pada barang terpenting, dan kebiasaan meninjau hasilnya. Sistem yang tepat memperkuat semua itu, tetapi dasar-dasarnya dapat Anda mulai hari ini.",
   },
+  { type: "p", text: "Cara menentukan stok pengaman dan kelompok barang dibahas di [analisis ABC-XYZ dan stok pengaman](/blog/analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp)." },
   {
     type: "cta",
     title: "Ingin stok dan pembelian lebih terkendali?",

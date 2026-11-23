@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_bom_struktur_produk_dan_perubahan_teknik_ecn_di_erp_manufaktur } from "./bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur";
+import { body as b_rfq_dan_perbandingan_penawaran_pemasok_di_erp_sourcing_pengadaan } from "./rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan";
+import { body as b_analisis_abc_xyz_dan_stok_pengaman_untuk_persediaan_yang_sehat_dengan_erp } from "./analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp";
+import { body as b_deteksi_anomali_dan_kecurangan_transaksi_dengan_ai_pada_data_erp } from "./deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp";
+import { body as b_backlink_etis_dan_digital_pr_untuk_website_b2b_membangun_otoritas_tanpa_spam } from "./backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam";
 import { body as b_penerimaan_barang_dan_inspeksi_barang_masuk_dengan_erp_grn_retur_pemasok_dan_selisih } from "./penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih";
 import { body as b_manajemen_batas_kredit_dan_umur_piutang_pelanggan_b2b_dengan_erp } from "./manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp";
 import { body as b_penjadwalan_produksi_kapasitas_terbatas_aps_untuk_pabrik_skala_menengah } from "./penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah";
@@ -293,6 +298,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur": b_bom_struktur_produk_dan_perubahan_teknik_ecn_di_erp_manufaktur,
+  "rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan": b_rfq_dan_perbandingan_penawaran_pemasok_di_erp_sourcing_pengadaan,
+  "analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp": b_analisis_abc_xyz_dan_stok_pengaman_untuk_persediaan_yang_sehat_dengan_erp,
+  "deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp": b_deteksi_anomali_dan_kecurangan_transaksi_dengan_ai_pada_data_erp,
+  "backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam": b_backlink_etis_dan_digital_pr_untuk_website_b2b_membangun_otoritas_tanpa_spam,
   "penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih": b_penerimaan_barang_dan_inspeksi_barang_masuk_dengan_erp_grn_retur_pemasok_dan_selisih,
   "manajemen-batas-kredit-dan-umur-piutang-pelanggan-b2b-dengan-erp": b_manajemen_batas_kredit_dan_umur_piutang_pelanggan_b2b_dengan_erp,
   "penjadwalan-produksi-kapasitas-terbatas-aps-untuk-pabrik-skala-menengah": b_penjadwalan_produksi_kapasitas_terbatas_aps_untuk_pabrik_skala_menengah,

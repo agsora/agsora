@@ -103,6 +103,7 @@ const en: Block[] = [
   { type: "p", text: "Start from tidy data and a clear flow, then add evaluation and risk management step by step. ERP helps bring everything together, but its value is only felt when the team's habits change too." },
   { type: "p", text: "Supplier lead times affect [MRP material planning](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)." },
   { type: "p", text: "Receipt and inspection data feed into scoring; see [goods receipt and inbound inspection](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)." },
+  { type: "p", text: "Selecting suppliers through quotes is covered in [RFQs and supplier quote comparison in ERP](/blog/rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan)." },
   {
     type: "cta",
     title: "Are purchasing and suppliers still managed through separate records?",
@@ -215,6 +216,7 @@ const zh: Block[] = [
   { type: "p", text: "从整洁的数据和清晰的流程开始，再逐步加入评估和风险管理。ERP 有助于把一切整合起来，但只有当团队的习惯也随之改变时，它的价值才会显现。" },
   { type: "p", text: "供应商提前期会影响 [MRP 物料计划](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)。" },
   { type: "p", text: "收货和检验数据可用于评分；参见[收货与来料检验](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)。" },
+  { type: "p", text: "通过报价选择供应商，参见[在 ERP 中管理 RFQ 与供应商报价比较](/blog/rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan)。" },
   {
     type: "cta",
     title: "采购和供应商仍然靠分散的记录来管理吗？",

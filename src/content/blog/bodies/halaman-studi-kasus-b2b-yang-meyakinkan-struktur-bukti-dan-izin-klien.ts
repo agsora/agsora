@@ -62,5 +62,6 @@ export const body: Block[] = [
   { type: "p", text: "Ya, jika spesifik. Cerita tentang masalah, keputusan, dan perubahan cara kerja yang konkret tetap meyakinkan. Lebih baik jujur tentang apa yang diketahui daripada memaksa angka." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Studi kasus B2B yang baik adalah bukti yang terorganisasi: masalah yang jelas, pendekatan yang bisa dipahami, hasil yang diukur dengan jujur, dan izin yang beres. Bangun prosesnya sejak proyek berjalan, tulis agar mudah dipindai, tempatkan di jalur yang dilalui calon klien, dan ukur pengaruhnya pada percakapan penjualan. Sedikit studi kasus yang kuat dan akurat lebih bernilai daripada banyak halaman pujian yang kosong." },
+  { type: "p", text: "Studi kasus yang kuat juga layak ditautkan pihak lain; lihat [backlink etis dan digital PR untuk website B2B](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)." },
   { type: "cta", title: "Ubah pengalaman proyek menjadi bukti yang meyakinkan",text: "Agsora membantu merancang website dengan halaman studi kasus, struktur SEO, dan jalur prospek yang jelas untuk perusahaan jasa B2B. Diskusikan website Anda dengan kami.",href: "/services/website",label: "Konsultasi gratis" },
 ];

@@ -90,6 +90,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Landed cost bridges the supplier price and the true cost of goods ready for sale. By recording every cost component per shipment, separating taxes that are a cost from those that can be credited, allocating costs on a sensible basis, and adjusting estimates when invoices arrive, importers and distributors get a cost of goods sold they can trust. The result is more accurate selling prices, fairer supplier assessment, and margins that are truly visible." },
   { type: "p", text: "For companies that handle export-import services, see also [ERP for freight forwarding and import-export](/blog/erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman)." },
+  { type: "p", text: "Total cost must be compared when choosing suppliers; see [RFQs and supplier quote comparison in ERP](/blog/rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan)." },
   {
     type: "cta",
     title: "Want to know the true cost of every imported item?",
@@ -189,6 +190,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "到岸成本连接了供应商价格与可销售货物的真实成本。通过按批次记录所有费用项目、区分构成成本的税费与可抵扣的税费、按合理基础分摊费用，并在发票到达时调整估算，进口商和分销商就能得到值得信赖的销货成本。其结果是更准确的售价、更公平的供应商评估，以及真正清晰可见的利润。" },
   { type: "p", text: "对于提供进出口服务的公司，另请参阅[货运代理与进出口 ERP](/blog/erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman)。" },
+  { type: "p", text: "选择供应商时需要比较总成本；参见[在 ERP 中管理 RFQ 与供应商报价比较](/blog/rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan)。" },
   {
     type: "cta",
     title: "想知道每件进口商品的真实成本？",

@@ -83,6 +83,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "HPP yang akurat bukan urusan akuntan semata. Ia adalah dasar keputusan harga, produk, dan pembelian. Mulailah dengan memahami komponen biaya, memilih metode penilaian yang konsisten, membebankan overhead secara wajar, dan meninjau varians secara rutin." },
   { type: "p", text: "Bila volume transaksi dan jumlah produk sudah membuat perhitungan manual rapuh, ERP yang menyatukan pembelian, produksi, persediaan, dan keuangan akan menghemat waktu sekaligus memberi gambaran margin yang lebih jujur. Dengan begitu pertumbuhan omzet benar-benar berarti pertumbuhan laba." },
+  { type: "p", text: "Biaya standar mengikuti versi BOM; lihat [BOM, revisi produk, dan ECN di ERP manufaktur](/blog/bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur)." },
   {
     type: "cta",
     title: "Ingin tahu margin sebenarnya setiap produk Anda?",

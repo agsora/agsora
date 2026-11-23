@@ -77,6 +77,7 @@ const en: Block[] = [
   { type: "p", text: "Someone other than the custodian, such as finance staff or the location supervisor, with the custodian present during the count." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Petty cash and operational advances are small per transaction, but their impact on report quality and leakage risk is significant. With an imprest system, written policy, digital receipts at the time of the transaction, tiered approvals, settlement deadlines, regular cash counts, and automatic ERP journals, a company gains strong control without burdening employees. Start with one or two branches, measure differences and reconciliation time, then expand." },
+  { type: "p", text: "Odd patterns in small expenses can be filtered automatically; see [detecting anomalies and transaction fraud with AI](/blog/deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp)." },
   { type: "cta", title: "Want petty cash and advances recorded properly without manual consolidation?",text: "Agsora helps implement petty cash, advance, and approval modules in your ERP, complete with a receipt upload app for every branch.",href: "/services/erp",label: "Free consultation" },
 ];
 
@@ -157,6 +158,7 @@ const zh: Block[] = [
   { type: "p", text: "由保管人以外的人员负责，例如财务人员或地点主管，盘点时保管人在场。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "备用金和业务预支款每笔金额虽小，但对报表质量和资金流失风险的影响却不小。通过定额备用金制度、书面政策、交易时的数字凭证、分级审批、核销期限、定期盘点以及 ERP 自动日记账，企业可以在不增加员工负担的情况下实现有力的控制。先从一两个分支机构开始，衡量差异和对账时间，再逐步推广。" },
+  { type: "p", text: "小额支出中的异常模式可以自动筛选；参见[用 AI 发现异常与交易舞弊](/blog/deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp)。" },
   { type: "cta", title: "想让备用金和预支款记录规范、无需手工汇总吗？",text: "Agsora 帮助在 ERP 中实施备用金、预支款和审批模块，并为每个分支机构提供凭证上传应用。",href: "/services/erp",label: "免费咨询" },
 ];
 

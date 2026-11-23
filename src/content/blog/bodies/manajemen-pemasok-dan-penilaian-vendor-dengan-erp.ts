@@ -107,6 +107,7 @@ export const body: Block[] = [
   { type: "p", text: "Mulailah dari data yang rapi dan alur yang jelas, lalu tambahkan penilaian dan pengelolaan risiko secara bertahap. ERP membantu menyatukan semuanya, tetapi nilainya baru terasa ketika kebiasaan tim ikut berubah." },
   { type: "p", text: "Waktu tunggu pemasok memengaruhi [perencanaan material MRP](/blog/mrp-perencanaan-kebutuhan-material-manufaktur-dengan-erp)." },
   { type: "p", text: "Data penerimaan dan inspeksi menjadi bahan penilaian; lihat [penerimaan barang dan inspeksi barang masuk](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)." },
+  { type: "p", text: "Pemilihan pemasok lewat penawaran dibahas di [RFQ dan perbandingan penawaran pemasok di ERP](/blog/rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan)." },
   {
     type: "cta",
     title: "Pembelian dan pemasok masih dikelola lewat catatan terpisah?",

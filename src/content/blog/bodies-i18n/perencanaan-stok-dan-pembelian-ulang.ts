@@ -202,6 +202,7 @@ const en: Block[] = [
     type: "p",
     text: "Good inventory planning makes a business calm: customers are rarely disappointed by empty shelves, the warehouse isn't crowded with goods that don't sell, and cash isn't tied up in the wrong places. The key isn't complicated formulas but accurate data, clear rules, attention focused on the most important items, and the habit of reviewing results. The right system reinforces all of this, but the basics you can start today.",
   },
+  { type: "p", text: "How to set safety stock and item groups is covered in [ABC-XYZ analysis and safety stock](/blog/analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp)." },
   {
     type: "cta",
     title: "Want stock and purchasing under better control?",
@@ -413,6 +414,7 @@ const zh: Block[] = [
     type: "p",
     text: "良好的库存计划让企业从容:客户很少因货架空了而失望,仓库不会被卖不动的货物挤满,现金也不会被困在错误的地方。关键不在于复杂的公式,而在于准确的数据、清晰的规则、集中在最重要商品上的注意力,以及复核结果的习惯。合适的系统会强化这一切,但基础工作你今天就可以开始。",
   },
+  { type: "p", text: "如何设定安全库存和物料分组，参见[ABC-XYZ 分类与安全库存](/blog/analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp)。" },
   {
     type: "cta",
     title: "想让库存与采购更受控?",

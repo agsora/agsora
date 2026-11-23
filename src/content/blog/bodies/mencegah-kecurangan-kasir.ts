@@ -165,6 +165,7 @@ export const body: Block[] = [
   },
   { type: "p", text: "Contoh bisnis dengan banyak transaksi kecil dan risiko kebocoran tunai ada di [sistem laundry dan dry cleaning](/blog/sistem-laundry-dan-dry-cleaning-order-status-cucian-dan-tagihan-pelanggan)." },
   { type: "p", text: "Kecurangan internal sering terungkap dari laporan karyawan; kanalnya dibahas di [whistleblowing system dan kanal pengaduan internal](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)." },
+  { type: "p", text: "Untuk transaksi di luar kasir, lihat [deteksi anomali dan kecurangan transaksi dengan AI pada data ERP](/blog/deteksi-anomali-dan-kecurangan-transaksi-dengan-ai-pada-data-erp)." },
   {
     type: "cta",
     title: "Selisih kas masih jadi misteri setiap bulan?",

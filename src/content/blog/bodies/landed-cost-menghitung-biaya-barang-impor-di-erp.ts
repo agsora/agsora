@@ -90,6 +90,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Landed cost menjembatani harga pemasok dan biaya sebenarnya barang yang siap dijual. Dengan mencatat semua komponen biaya per kiriman, memisahkan pajak yang menjadi biaya dari yang dapat dikreditkan, mengalokasikan biaya dengan dasar yang masuk akal, dan menyesuaikan estimasi saat tagihan datang, importir dan distributor mendapatkan HPP yang dapat dipercaya. Hasilnya adalah harga jual yang lebih tepat, penilaian pemasok yang lebih adil, dan margin yang benar-benar terlihat." },
   { type: "p", text: "Bagi perusahaan yang melayani pengurusan ekspor-impor, lihat juga [ERP untuk freight forwarding dan ekspor-impor](/blog/erp-untuk-freight-forwarding-dan-ekspor-impor-dokumen-biaya-dan-pelacakan-kiriman)." },
+  { type: "p", text: "Biaya total perlu dibandingkan saat memilih pemasok; lihat [RFQ dan perbandingan penawaran pemasok di ERP](/blog/rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan)." },
   {
     type: "cta",
     title: "Ingin tahu biaya sebenarnya setiap barang impor?",

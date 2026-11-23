@@ -83,6 +83,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Accurate COGS is not the accountant's business alone. It is the basis of pricing, product, and purchasing decisions. Start by understanding the cost components, choosing a consistent valuation method, allocating overhead reasonably, and reviewing variances routinely." },
   { type: "p", text: "When transaction volume and product count make manual calculation fragile, an ERP that unites purchasing, production, inventory, and finance saves time while giving a more honest picture of margin. That way, revenue growth truly means profit growth." },
+  { type: "p", text: "Standard cost follows the BOM version; see [BOMs, product revisions, and ECNs in manufacturing ERP](/blog/bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur)." },
   {
     type: "cta",
     title: "Want to know the real margin of each of your products?",
@@ -175,6 +176,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "准确的销货成本不只是会计师的事。它是定价、产品和采购决策的基础。先从理解成本构成、选择一致的计价方法、合理分摊制造费用、定期复盘差异做起。" },
   { type: "p", text: "当交易量和产品数量使手工计算变得脆弱时，整合采购、生产、库存和财务的 ERP 既节省时间，又能呈现更真实的利润率。这样，营业额的增长才真正意味着利润的增长。" },
+  { type: "p", text: "标准成本随 BOM 版本而变；参见[制造业 ERP 中的 BOM、产品版本与 ECN 管理](/blog/bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur)。" },
   {
     type: "cta",
     title: "想知道每个产品的真实利润率吗？",

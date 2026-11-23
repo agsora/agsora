@@ -62,6 +62,7 @@ const en: Block[] = [
   { type: "p", text: "Yes, if it is specific. A story about the problem, the decisions, and a concrete change in how people work is still convincing. It is better to be honest about what you know than to force numbers." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A good B2B case study is organized proof: a clear problem, an understandable approach, honestly measured results, and permissions in order. Build the process while the project runs, write it to be scannable, place it on the paths prospects actually take, and measure its effect on sales conversations. A few strong, accurate case studies are worth more than many pages of empty praise." },
+  { type: "p", text: "A strong case study is also worth linking to from other sites; see [ethical backlinks and digital PR for B2B websites](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)." },
   { type: "cta", title: "Turn project experience into convincing proof",text: "Agsora helps design websites with case study pages, SEO structure, and clear lead paths for B2B service companies. Discuss your website with us.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -127,6 +128,7 @@ const zh: Block[] = [
   { type: "p", text: "有用，只要足够具体。关于问题、决策以及工作方式具体变化的故事依然有说服力。与其硬凑数字，不如诚实地说明你所知道的。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "好的 B2B 案例研究是有组织的证据：清晰的问题、可理解的方法、诚实衡量的结果，以及妥善处理的授权。在项目进行期间就建立流程，写得便于浏览，放在潜在客户实际会经过的路径上，并衡量它对销售对话的影响。少量扎实而准确的案例，胜过大量空洞的赞美页面。" },
+  { type: "p", text: "出色的案例研究也值得其他网站链接；参见[B2B 网站的合规外链与数字公关](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)。" },
   { type: "cta", title: "把项目经验变成有说服力的证据",text: "Agsora 可帮助 B2B 服务公司设计包含案例页面、SEO 结构和清晰线索路径的网站。欢迎与我们讨论您的网站。",href: "/services/website",label: "免费咨询" },
 ];
 
