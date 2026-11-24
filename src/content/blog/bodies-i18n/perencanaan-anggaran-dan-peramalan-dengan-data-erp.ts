@@ -103,6 +103,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Good financial planning does not demand a perfect prediction. It demands honest data, written assumptions, the habit of checking reality routinely, and willingness to adjust the plan. With an ERP that holds tidy operational records, all of this becomes far easier." },
   { type: "p", text: "Start simple, review monthly, and improve over time. The result is a business better prepared for change, with an owner who decides on numbers, not feelings." },
+  { type: "p", text: "Targets and their derived indicators are covered in [operational KPIs and OKRs with ERP data](/blog/kpi-dan-okr-operasional-dari-target-ke-dashboard-dengan-data-erp)." },
   {
     type: "cta",
     title: "Want a data based budget and forecast for your business?",
@@ -215,6 +216,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "良好的财务规划并不要求完美的预测。它要求诚实的数据、写下来的假设、定期核对现实的习惯，以及调整计划的意愿。有了保存整洁运营记录的 ERP，这一切都会容易得多。" },
   { type: "p", text: "从简单开始，每月复查，并随时间改进。结果是一个更有准备应对变化的企业，以及一位依据数字而不是感觉做决定的老板。" },
+  { type: "p", text: "目标及其衍生指标，参见[基于 ERP 数据的运营 KPI 与 OKR](/blog/kpi-dan-okr-operasional-dari-target-ke-dashboard-dengan-data-erp)。" },
   {
     type: "cta",
     title: "想要基于数据的企业预算和预测？",

@@ -6,6 +6,93 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan",
+    title: "Pemrosesan Dokumen Cerdas (IDP): OCR dan AI untuk Faktur, PO, dan Surat Jalan",
+    seoTitles: { zh: "智能文档处理（IDP）：OCR 与 AI 处理发票" },
+    excerpt: "Panduan memakai OCR dan AI untuk membaca faktur, PO, dan surat jalan: klasifikasi, ekstraksi field, validasi aturan bisnis, pencocokan data master, peninjauan manusia, ambang otomatisasi yang jujur, serta risiko keamanan dan dokumen palsu.",
+    category: "Teknologi",
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    tags: ["ai","otomasi","erp"],
+    titleTranslations: {
+      en: "Intelligent Document Processing (IDP): OCR and AI for Invoices, POs, and Delivery Notes",
+      zh: "智能文档处理（IDP）：用 OCR 与 AI 处理发票、采购订单和送货单",
+    },
+    excerptTranslations: {
+      en: "A guide to using OCR and AI to read invoices, POs, and delivery notes: classification, field extraction, business-rule validation, master data matching, human review, honest automation thresholds, and security and forged-document risks.",
+      zh: "使用 OCR 与 AI 读取发票、采购订单和送货单的指南：分类、字段提取、业务规则校验、主数据匹配、人工复核、诚实的自动化阈值，以及安全与伪造文档风险。",
+    },
+  },
+  {
+    slug: "disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis",
+    title: "Disaster Recovery dan Kesinambungan Bisnis: RTO, RPO, dan Rencana Pemulihan",
+    excerpt: "Cara menyusun rencana pemulihan bencana untuk ERP, kasir, dan website: analisis dampak bisnis, RTO dan RPO, tingkat pemulihan, strategi teknis, perlindungan dari ransomware, runbook, prosedur manual, dan pengujian restore yang rutin.",
+    category: "Teknologi",
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    tags: ["keamanan","infrastruktur","operasional"],
+    titleTranslations: {
+      en: "Disaster Recovery and Business Continuity: RTO, RPO, and Recovery Planning",
+      zh: "灾难恢复与业务连续性：RTO、RPO 与恢复计划",
+    },
+    excerptTranslations: {
+      en: "How to build a disaster recovery plan for ERP, POS, and websites: business impact analysis, RTO and RPO, recovery tiers, technical strategies, ransomware protection, runbooks, manual procedures, and routine restore testing.",
+      zh: "如何为 ERP、收银系统和网站制定灾难恢复计划：业务影响分析、RTO 与 RPO、恢复等级、技术策略、勒索软件防护、运行手册、手工流程以及例行恢复测试。",
+    },
+  },
+  {
+    slug: "audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b",
+    title: "Audit Konten dan Pembaruan Artikel Lama untuk SEO Blog B2B",
+    seoTitles: { id: "Audit Konten dan Pembaruan Artikel Lama", en: "Content Audits and Refreshing Old Articles" },
+    excerpt: "Cara mengaudit blog B2B: membuat inventaris, menilai artikel, memutuskan pertahankan, perbarui, gabungkan, atau pangkas, menangani kanibalisasi kata kunci, menjaga tanggal tetap jujur, memprioritaskan, dan mengukur hasil tanpa melebih-lebihkan.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    tags: ["seo","website","data"],
+    titleTranslations: {
+      en: "Content Audits and Refreshing Old Articles for B2B Blog SEO",
+      zh: "B2B 博客 SEO：内容审计与旧文章更新",
+    },
+    excerptTranslations: {
+      en: "How to audit a B2B blog: build an inventory, assess articles, decide to keep, update, merge, or prune, handle keyword cannibalization, keep dates honest, prioritize, and measure results without exaggeration.",
+      zh: "如何审计 B2B 博客：建立清单、评估文章、决定保留、更新、合并或删减、处理关键词自相蚕食、保持日期诚实、排定优先级，并不夸大地衡量结果。",
+    },
+  },
+  {
+    slug: "kpi-dan-okr-operasional-dari-target-ke-dashboard-dengan-data-erp",
+    title: "KPI dan OKR Operasional: dari Target ke Dashboard dengan Data ERP",
+    excerpt: "Panduan memilih KPI dan menyusun OKR dari data ERP: perbedaan keduanya, indikator utama dan hasil, contoh per fungsi, menurunkan target ke tim, kamus indikator, desain dasbor, ritme tinjauan, dan kesalahan yang membuat angka tidak dipercaya.",
+    category: "Strategi Bisnis",
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    tags: ["pelaporan","data","erp"],
+    titleTranslations: {
+      en: "Operational KPIs and OKRs: From Targets to Dashboards with ERP Data",
+      zh: "运营 KPI 与 OKR：用 ERP 数据从目标到仪表板",
+    },
+    excerptTranslations: {
+      en: "A guide to choosing KPIs and writing OKRs from ERP data: how they differ, leading and lagging indicators, examples per function, cascading targets, an indicator dictionary, dashboard design, review rhythm, and mistakes that erode trust in the numbers.",
+      zh: "基于 ERP 数据选择 KPI 并撰写 OKR 的指南：两者的区别、先行与滞后指标、各职能示例、目标分解、指标词典、仪表板设计、复盘节奏，以及削弱数字可信度的常见错误。",
+    },
+  },
+  {
+    slug: "helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software",
+    title: "Helpdesk IT Internal dan Manajemen Aset IT: Tiket, SLA, dan Lisensi Software",
+    excerpt: "Cara menata layanan IT internal: alur tiket, prioritas dan SLA yang realistis, katalog layanan, basis pengetahuan, inventaris perangkat, manajemen lisensi software, alur karyawan masuk dan keluar, keamanan perangkat, serta metrik yang berguna.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    tags: ["operasional","karyawan","keamanan"],
+    titleTranslations: {
+      en: "Internal IT Helpdesk and IT Asset Management: Tickets, SLAs, and Software Licenses",
+      zh: "内部 IT 服务台与 IT 资产管理：工单、SLA 与软件许可证",
+    },
+    excerptTranslations: {
+      en: "How to organize internal IT service: ticket flow, realistic priorities and SLAs, a service catalog, a knowledge base, device inventory, software license management, joiner and leaver flows, device security, and useful metrics.",
+      zh: "如何组织内部 IT 服务：工单流程、现实的优先级与 SLA、服务目录、知识库、设备清单、软件许可证管理、入职与离职流程、设备安全以及有用的指标。",
+    },
+  },
+  {
     slug: "bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur",
     title: "BOM, Revisi Produk, dan Perubahan Teknik (ECN) di ERP Manufaktur",
     seoTitles: { id: "BOM dan Perubahan Teknik (ECN) di ERP Manufaktur", en: "BOMs and Engineering Changes (ECN) in ERP" },
@@ -100,7 +187,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merancang penerimaan barang dan inspeksi barang masuk dengan ERP: alur PO ke GRN, status karantina, inspeksi berbasis risiko, penanganan barang kurang, lebih, atau rusak, retur ke pemasok dan nota debit, barcode, serta indikator yang perlu dipantau.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-22",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-24",
     tags: ["inventori","operasional","erp"],
     titleTranslations: {
       en: "Goods Receipt and Inbound Inspection: GRN, Returns, and Variances in ERP",
@@ -151,7 +238,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara membangun otoritas topikal untuk blog perusahaan B2B: memilih pilar topik, menyusun klaster konten, riset kata kunci berbasis niat, merancang tautan internal yang bermakna, audit halaman yatim dan tautan rusak, serta mengukur hasil secara jujur.",
     category: "Website & Digital",
     publishedAt: "2026-11-22",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-24",
     tags: ["seo","website","data"],
     titleTranslations: {
       en: "Topical Authority and Internal Linking for B2B SEO Blogs",
@@ -202,7 +289,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara merancang kebijakan cuti, kalender kerja, alur persetujuan, dan proses karyawan keluar di HRIS: jenis dan akrual cuti, delegasi persetujuan, integrasi absensi dan gaji, daftar tugas offboarding, pencabutan akses, hak akhir, serta pengelolaan data pribadi.",
     category: "HR & Tim",
     publishedAt: "2026-11-19",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-24",
     tags: ["hris","karyawan","operasional"],
     titleTranslations: {
       en: "HRIS Leave and Offboarding: Holidays, Approvals, and Employee Exits",
@@ -542,7 +629,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan membangun basis pengetahuan internal yang benar-benar dipakai: jenis dokumen, struktur, pemilik konten, siklus tinjau, pencarian, integrasi dengan chat dan onboarding, hak akses, serta cara menjaga isi tetap mutakhir tanpa membebani tim.",
     category: "Strategi Bisnis",
     publishedAt: "2026-11-12",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-24",
     tags: ["operasional","data","implementasi"],
     titleTranslations: {
       en: "Internal Knowledge Bases and Company Wikis: Keeping Knowledge When People Leave",
@@ -815,7 +902,7 @@ export const meta: PostMeta[] = [
     excerpt: "Pengantar zero trust yang praktis untuk bisnis menengah: identitas dan MFA, kondisi perangkat, segmentasi jaringan, hak akses minimum, akses vendor, visibilitas log, dan rencana penerapan bertahap tanpa produk mahal.",
     category: "Teknologi",
     publishedAt: "2026-11-09",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-24",
     tags: ["keamanan","infrastruktur","operasional"],
     titleTranslations: {
       en: "Zero Trust for Mid-Sized Businesses: Access Security Without Overreliance on VPNs",
@@ -1104,7 +1191,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara membuat konten website jasa dan B2B yang dipercaya mesin pencari dan calon klien: bukti pengalaman, profil penulis, studi kasus, transparansi, pembaruan konten, dan kesalahan yang merusak kepercayaan.",
     category: "Website & Digital",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-23",
+    updatedAt: "2026-11-24",
     tags: ["seo","website","pelanggan"],
     titleTranslations: {
       en: "E-E-A-T and Content Credibility for B2B Service Websites: Experience, Expertise, and Real Proof",
@@ -1785,7 +1872,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun rencana respons insiden: peran tim, persiapan cadangan dan log, enam fase respons, skenario umum, kewajiban pemberitahuan data pribadi, dan latihan simulasi.",
     category: "Teknologi",
     publishedAt: "2026-10-23",
-    updatedAt: "2026-11-12",
+    updatedAt: "2026-11-24",
     tags: ["keamanan","infrastruktur","operasional"],
     titleTranslations: {
       en: "Cybersecurity Incident Response Plan for Business: Steps from Detection to Recovery",
@@ -1887,7 +1974,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara pencocokan dua, tiga, dan empat arah bekerja, menetapkan toleransi selisih, menangani pengecualian, peran AI dan OCR, serta langkah menerapkan otomatisasi AP di ERP.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-24",
     tags: ["erp","keuangan","otomasi"],
     titleTranslations: {
       en: "Accounts Payable Automation and Three Way Matching in ERP: Paying Supplier Invoices Without Errors",
@@ -3145,7 +3232,7 @@ export const meta: PostMeta[] = [
     excerpt: "Membedakan anggaran dan peramalan, memulai dari data historis, menetapkan asumsi eksplisit, skenario sederhana, tanggung jawab per bagian, memantau selisih, peramalan bergulir, perencanaan kas, dan keputusan investasi untuk bisnis kecil dan menengah.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-11-24",
     tags: ["erp","keuangan","pelaporan","data"],
     titleTranslations: {
       en: "Budgeting and Forecasting with ERP Data: From Annual Guesswork to a Monthly Habit",
@@ -3791,7 +3878,7 @@ export const meta: PostMeta[] = [
     excerpt: "Laporan bulanan sampai ke meja pemilik saat kejadiannya sudah lewat. Cara memilih metrik, menyatukan sumber data, dan merancang dashboard yang benar-benar dibuka setiap pagi.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-06",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-24",
     tags: ["pelaporan", "data", "keuangan", "integrasi"],
     titleTranslations: {
       en: "Business Dashboards: From Piles of Reports to Faster Daily Decisions",
@@ -4377,7 +4464,7 @@ export const meta: PostMeta[] = [
     excerpt: "Backup baru terasa penting saat data sudah hilang. Strategi yang baik bukan sekadar menyalin data, tapi memastikan data itu benar-benar bisa dipulihkan.",
     category: "Teknologi",
     publishedAt: "2026-08-07",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-24",
     tags: [
       "infrastruktur",
       "keamanan",

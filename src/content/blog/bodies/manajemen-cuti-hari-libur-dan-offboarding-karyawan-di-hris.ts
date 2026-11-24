@@ -71,5 +71,6 @@ export const body: Block[] = [
   { type: "p", text: "Pada saat jam efektif keluar, atau lebih awal untuk kasus yang berisiko. Gunakan penonaktifan terjadwal agar tidak bergantung pada ingatan manusia." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Cuti dan offboarding adalah proses yang jarang disorot, tetapi menyentuh keadilan, keamanan, dan reputasi perusahaan. Dengan kebijakan yang tertulis jelas, alur persetujuan yang tidak bergantung pada satu orang, daftar tugas keluar yang otomatis, dan jejak audit yang lengkap, HR dapat berhenti memadamkan masalah dan mulai mengelola proses secara tenang. Mulailah dari kebijakan yang rapi, uji dengan kasus nyata, lalu sambungkan ke absensi, penggajian, dan keamanan akses." },
+  { type: "p", text: "Penonaktifan akun dan pengembalian perangkat saat karyawan keluar dibahas di [helpdesk IT internal dan manajemen aset IT](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)." },
   { type: "cta", title: "Satukan cuti, absensi, dan penggajian dalam satu HRIS",text: "Agsora membantu merancang HRIS dengan alur cuti, offboarding, dan integrasi penggajian yang sesuai kebijakan perusahaan Anda. Diskusikan kebutuhan HR Anda dengan kami.",href: "/services/hris",label: "Konsultasi gratis" },
 ];

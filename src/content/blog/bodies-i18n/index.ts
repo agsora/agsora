@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_pemrosesan_dokumen_cerdas_idp_ocr_dan_ai_untuk_faktur_po_dan_surat_jalan } from "./pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan";
+import { translations as t_disaster_recovery_dan_kesinambungan_bisnis_rto_rpo_untuk_aplikasi_bisnis } from "./disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis";
+import { translations as t_audit_konten_dan_pembaruan_artikel_lama_untuk_seo_blog_b2b } from "./audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b";
+import { translations as t_kpi_dan_okr_operasional_dari_target_ke_dashboard_dengan_data_erp } from "./kpi-dan-okr-operasional-dari-target-ke-dashboard-dengan-data-erp";
+import { translations as t_helpdesk_it_internal_dan_manajemen_aset_it_tiket_sla_dan_lisensi_software } from "./helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software";
 import { translations as t_bom_struktur_produk_dan_perubahan_teknik_ecn_di_erp_manufaktur } from "./bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur";
 import { translations as t_rfq_dan_perbandingan_penawaran_pemasok_di_erp_sourcing_pengadaan } from "./rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan";
 import { translations as t_analisis_abc_xyz_dan_stok_pengaman_untuk_persediaan_yang_sehat_dengan_erp } from "./analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp";
@@ -244,6 +249,11 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan": t_pemrosesan_dokumen_cerdas_idp_ocr_dan_ai_untuk_faktur_po_dan_surat_jalan,
+  "disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis": t_disaster_recovery_dan_kesinambungan_bisnis_rto_rpo_untuk_aplikasi_bisnis,
+  "audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b": t_audit_konten_dan_pembaruan_artikel_lama_untuk_seo_blog_b2b,
+  "kpi-dan-okr-operasional-dari-target-ke-dashboard-dengan-data-erp": t_kpi_dan_okr_operasional_dari_target_ke_dashboard_dengan_data_erp,
+  "helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software": t_helpdesk_it_internal_dan_manajemen_aset_it_tiket_sla_dan_lisensi_software,
   "bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur": t_bom_struktur_produk_dan_perubahan_teknik_ecn_di_erp_manufaktur,
   "rfq-dan-perbandingan-penawaran-pemasok-di-erp-sourcing-pengadaan": t_rfq_dan_perbandingan_penawaran_pemasok_di_erp_sourcing_pengadaan,
   "analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp": t_analisis_abc_xyz_dan_stok_pengaman_untuk_persediaan_yang_sehat_dengan_erp,

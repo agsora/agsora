@@ -71,5 +71,6 @@ export const body: Block[] = [
   { type: "p", text: "Tergantung seberapa cepat prosesnya berubah. Prosedur yang stabil cukup setahun sekali, sedangkan panduan sistem yang sering diperbarui perlu tiga sampai enam bulan." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Knowledge base internal mengubah pengetahuan pribadi menjadi aset perusahaan. Mulailah dari proses yang paling sering ditanyakan dan paling berisiko, gunakan struktur sederhana dengan templat, tetapkan pemilik dan tanggal tinjau, pastikan pencarian bekerja, lalu sambungkan dengan chat, tiket, dan onboarding. Yang terpenting, bangun kebiasaan menulis sebagai bagian dari pekerjaan, bukan proyek sekali jadi." },
+  { type: "p", text: "Basis pengetahuan juga mengurangi tiket IT; lihat [helpdesk IT internal dan manajemen aset IT](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)." },
   { type: "cta", title: "Ingin pengetahuan perusahaan tersimpan rapi dan mudah dicari?",text: "Agsora membantu membangun portal pengetahuan internal yang terhubung dengan sistem kerja, hak akses, dan asisten AI Anda.",href: "/services/custom-software",label: "Konsultasi gratis" },
 ];

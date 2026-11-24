@@ -99,6 +99,7 @@ const en: Block[] = [
   { type: "p", text: "Accounts payable automation with three way matching changes the finance role from document chaser to exception controller. Most invoices that match the order and receipt can be approved quickly, while price and quantity variances and suspicious invoices get the attention they deserve. The keys are clean supplier data, disciplined goods receipt, written tolerances, and an exception workflow with clear owners. Start with high volume suppliers, measure the results, then expand step by step." },
   { type: "p", text: "Bulk payments to suppliers are covered in [bank integration from an ERP](/blog/integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp)." },
   { type: "p", text: "A tidy receipt document is the basis for matching; see [goods receipt and inbound inspection](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)." },
+  { type: "p", text: "To reduce manual invoice entry, see [intelligent document processing (IDP): OCR and AI for invoices, POs, and delivery notes](/blog/pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan)." },
   {
     type: "cta",
     title: "Want a faster and better controlled supplier invoice process?",
@@ -207,6 +208,7 @@ const zh: Block[] = [
   { type: "p", text: "借助三单匹配实现应付账款自动化，能把财务的角色从追文件的人转变为管控例外的人。与订单和收货一致的大部分发票可以快速获批，而价格差异、数量差异和可疑发票则能得到应有的关注。关键在于干净的供应商数据、严格的收货纪律、书面化的容差，以及责任明确的例外处理流程。从交易量大的供应商入手，衡量效果，再逐步推广。" },
   { type: "p", text: "向供应商的批量付款，参见[ERP 与银行系统对接](/blog/integrasi-bank-host-to-host-virtual-account-dan-pembayaran-massal-dari-erp)。" },
   { type: "p", text: "规范的收货单据是匹配的基础；参见[收货与来料检验](/blog/penerimaan-barang-dan-inspeksi-barang-masuk-dengan-erp-grn-retur-pemasok-dan-selisih)。" },
+  { type: "p", text: "要减少手工录入发票，参见[智能文档处理（IDP）：用 OCR 与 AI 处理发票、采购订单和送货单](/blog/pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan)。" },
   {
     type: "cta",
     title: "希望供应商发票处理更快、更可控？",

@@ -62,5 +62,6 @@ export const body: Block[] = [
   { type: "p", text: "Mulai dari MFA untuk akun surel dan admin, lalu inventarisasi akun dan akses. Dua langkah ini mengurangi risiko paling banyak dengan upaya yang relatif kecil." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Zero trust menggeser fokus keamanan dari menjaga tembok ke memverifikasi setiap akses. Dengan identitas yang kuat, hak akses minimum, perangkat yang terjaga, segmentasi, dan visibilitas, satu akun yang jebol tidak otomatis berarti seluruh bisnis terbuka. Terapkan bertahap, mulai dari akun dan aplikasi yang paling kritis, dan ukur kemajuan lewat inventaris akses yang semakin rapi." },
+  { type: "p", text: "Pengelolaan hak akses sehari-hari lewat tiket dibahas di [helpdesk IT internal dan manajemen aset IT](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)." },
   { type: "cta", title: "Perkuat keamanan akses sistem bisnis Anda",text: "Tim Agsora membantu merancang autentikasi, hak akses, dan arsitektur keamanan untuk ERP, aplikasi, dan integrasi khusus bisnis Anda.",href: "/services/custom-software",label: "Konsultasi gratis" },
 ];

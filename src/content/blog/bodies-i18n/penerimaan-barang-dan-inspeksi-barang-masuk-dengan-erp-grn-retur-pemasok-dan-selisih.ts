@@ -68,6 +68,7 @@ const en: Block[] = [
   { type: "p", text: "The scale can be simpler, but the principles remain useful: record receipts the same day, reference an order, and keep evidence when goods are short or damaged. Details such as quarantine and sample inspection are only needed when material quality affects your product." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A controlled receiving process protects three things at once: stock accuracy, correct payment to suppliers, and the quality of material entering operations. The key is to reference the order, record on the same day, separate goods that have not passed inspection, handle variances with rules and evidence, and close the loop through returns and debit notes. With a properly configured ERP, this becomes a light daily habit rather than an administrative burden." },
+  { type: "p", text: "Supplier delivery notes can be read automatically; see [intelligent document processing (IDP)](/blog/pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan)." },
   { type: "cta", title: "Design the goods receipt process in your ERP",text: "Agsora helps configure POs, GRNs, quarantine, inspection, and supplier returns to match your warehouse flow. Discuss your needs at no cost.",href: "/services/erp",label: "Free consultation" },
 ];
 
@@ -139,6 +140,7 @@ const zh: Block[] = [
   { type: "p", text: "规模可以更简单，但原则依然有用：当天记录收货、引用订单、在货物短少或破损时保留证据。隔离和抽样检验等细节，只有在物料质量影响您的产品时才需要。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "受控的收货流程同时保护三件事：库存准确性、对供应商的正确付款，以及进入运营的物料质量。关键在于引用订单、当天记录、隔离未通过检验的货物、用规则和证据处理差异，并通过退货和借项通知单闭环。有了正确配置的 ERP，这会成为轻松的日常习惯，而不是行政负担。" },
+  { type: "p", text: "供应商送货单可以自动读取；参见[智能文档处理（IDP）](/blog/pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan)。" },
   { type: "cta", title: "在您的 ERP 中设计收货流程",text: "Agsora 可帮助配置 PO、GRN、隔离、检验和供应商退货，使其匹配您的仓库流程。免费讨论您的需求。",href: "/services/erp",label: "免费咨询" },
 ];
 

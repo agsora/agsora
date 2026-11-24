@@ -69,6 +69,7 @@ const en: Block[] = [
   { type: "p", text: "It is very helpful because it gives the cluster a hub and an entry point for new readers, but its content must be valuable, not just a list of links." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Topical authority is built by choosing the fields you truly master, building content clusters, connecting them with meaningful internal links, maintaining older articles, and measuring results honestly. This approach makes your blog easier to understand for readers, search engines, and AI-based summaries, while guiding prospects from their first question toward a conversation with your team." },
+  { type: "p", text: "Old articles need care too; see [content audits and refreshing old articles for B2B blog SEO](/blog/audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b)." },
   { type: "cta", title: "Build a content architecture and SEO setup that generates leads",text: "Agsora helps map topic clusters, site structure, schema, and internal links for your business website. Discuss your needs at no cost.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -141,6 +142,7 @@ const zh: Block[] = [
   { type: "p", text: "它非常有帮助，因为它为集群提供中心，也为新读者提供入口，但其内容必须有价值，而不只是一份链接列表。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "主题权威的建立方式是：选择您真正精通的领域，构建内容集群，用有意义的内部链接把它们连起来，维护旧文章，并诚实地衡量成果。这种方法使您的博客更容易被读者、搜索引擎和基于 AI 的摘要理解，同时引导潜在客户从第一个问题走向与您团队的对话。" },
+  { type: "p", text: "旧文章同样需要维护；参见[B2B 博客 SEO：内容审计与旧文章更新](/blog/audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b)。" },
   { type: "cta", title: "构建能带来线索的内容架构与 SEO",text: "Agsora 可帮助为您的企业网站梳理主题集群、网站结构、schema 和内部链接。免费讨论您的需求。",href: "/services/website",label: "免费咨询" },
 ];
 

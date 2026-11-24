@@ -69,6 +69,7 @@ const en: Block[] = [
   { type: "p", text: "It depends on how fast the process changes. Stable procedures need review once a year, while frequently updated system guides need three to six months." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "An internal knowledge base turns personal knowledge into a company asset. Start with the most-asked and highest-risk processes, use a simple structure with templates, assign owners and review dates, make sure search works, then connect it to chat, tickets, and onboarding. Above all, build the habit of writing as part of the job, not a one-time project." },
+  { type: "p", text: "A knowledge base also reduces IT tickets; see [internal IT helpdesk and IT asset management](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)." },
   { type: "cta", title: "Want company knowledge stored neatly and easy to find?",text: "Agsora helps build internal knowledge portals connected to your work systems, access rights, and AI assistants.",href: "/services/custom-software",label: "Free consultation" },
 ];
 
@@ -141,6 +142,7 @@ const zh: Block[] = [
   { type: "p", text: "取决于流程变化的速度。稳定的程序每年审阅一次即可，而经常更新的系统指南需要三到六个月一次。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "内部知识库把个人知识变成公司资产。从最常被问到、风险最高的流程开始，使用带模板的简单结构，指定负责人和审阅日期，确保搜索可用，再与聊天、工单和入职连接。最重要的是，把写作培养成工作的一部分，而不是一次性项目。" },
+  { type: "p", text: "知识库同样能减少 IT 工单；参见[内部 IT 服务台与 IT 资产管理](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)。" },
   { type: "cta", title: "想让公司知识井然有序且容易查找吗？",text: "Agsora 可帮助搭建与您的工作系统、访问权限和 AI 助手相连的内部知识门户。",href: "/services/custom-software",label: "免费咨询" },
 ];
 

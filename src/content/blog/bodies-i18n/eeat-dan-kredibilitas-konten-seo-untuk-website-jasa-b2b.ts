@@ -74,6 +74,7 @@ const en: Block[] = [
   { type: "p", text: "Real experience is demonstrated through [B2B case study pages](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)." },
   { type: "p", text: "A tidy content structure reinforces these signals; see [topical authority and internal linking](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)." },
   { type: "p", text: "Credibility is also built through inbound links; see [ethical backlinks and digital PR for B2B websites](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)." },
+  { type: "p", text: "Keeping older articles credible is covered in [content audits and refreshing old articles](/blog/audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b)." },
   { type: "cta", title: "Build a service website prospects trust",text: "Discuss your content structure, profiles, and business website SEO with the Agsora team. We help design credible websites that generate leads.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -151,6 +152,7 @@ const zh: Block[] = [
   { type: "p", text: "真实经验可通过[B2B 案例页面](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)来展示。" },
   { type: "p", text: "规范的内容结构会强化这些信号；参见[主题权威与内部链接](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)。" },
   { type: "p", text: "可信度也来自外部链接；参见[B2B 网站的合规外链与数字公关](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)。" },
+  { type: "p", text: "如何保持旧文章的可信度，参见[内容审计与旧文章更新](/blog/audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b)。" },
   { type: "cta", title: "打造潜在客户信赖的服务网站",text: "与 Agsora 团队讨论您的内容结构、档案和企业网站 SEO。我们帮助设计可信且能带来潜在客户的网站。",href: "/services/website",label: "免费咨询" },
 ];
 

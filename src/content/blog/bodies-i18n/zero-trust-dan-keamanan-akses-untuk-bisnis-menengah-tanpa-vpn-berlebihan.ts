@@ -62,6 +62,7 @@ const en: Block[] = [
   { type: "p", text: "Start with MFA for email and admin accounts, then inventory accounts and access. These two steps reduce the most risk with relatively little effort." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Zero trust shifts the focus of security from guarding the wall to verifying every access. With strong identity, least privilege, well-kept devices, segmentation, and visibility, one compromised account does not automatically mean the whole business is exposed. Apply it in stages, starting with the most critical accounts and applications, and measure progress through an access inventory that grows tidier." },
+  { type: "p", text: "Day-to-day access management through tickets is covered in [internal IT helpdesk and IT asset management](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)." },
   { type: "cta", title: "Strengthen access security for your business systems",text: "The Agsora team helps design authentication, permissions, and security architecture for your ERP, applications, and custom integrations.",href: "/services/custom-software",label: "Free consultation" },
 ];
 
@@ -127,6 +128,7 @@ const zh: Block[] = [
   { type: "p", text: "先为邮箱和管理员账号启用多因素认证，然后盘点账号和访问。这两步以相对较小的投入降低最多的风险。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "零信任把安全的重心从守住围墙转向验证每一次访问。有了强身份、最小权限、受到维护的设备、分段和可见性，单个账号被攻破并不自动意味着整个业务暴露。分阶段实施，从最关键的账号和应用开始，并通过日益整洁的访问清单来衡量进展。" },
+  { type: "p", text: "通过工单进行日常权限管理，参见[内部 IT 服务台与 IT 资产管理](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)。" },
   { type: "cta", title: "加强你的业务系统访问安全",text: "Agsora 团队帮助为你的 ERP、应用和定制集成设计认证、权限与安全架构。",href: "/services/custom-software",label: "免费咨询" },
 ];
 

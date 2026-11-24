@@ -103,6 +103,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Perencanaan keuangan yang baik tidak menuntut ramalan yang sempurna. Ia menuntut data yang jujur, asumsi yang tertulis, kebiasaan memeriksa kenyataan secara rutin, dan kesediaan menyesuaikan rencana. Dengan ERP yang menyimpan catatan operasional yang rapi, semua itu menjadi jauh lebih mudah." },
   { type: "p", text: "Mulailah dengan sederhana, tinjau setiap bulan, dan perbaiki seiring waktu. Hasilnya adalah bisnis yang lebih siap menghadapi perubahan, dengan pemilik yang memutuskan berdasarkan angka, bukan perasaan." },
+  { type: "p", text: "Target dan indikator turunannya dibahas di [KPI dan OKR operasional dengan data ERP](/blog/kpi-dan-okr-operasional-dari-target-ke-dashboard-dengan-data-erp)." },
   {
     type: "cta",
     title: "Ingin anggaran dan peramalan bisnis berbasis data yang rapi?",

@@ -69,5 +69,6 @@ export const body: Block[] = [
   { type: "p", text: "Sangat membantu karena memberi pusat bagi klaster dan titik masuk bagi pembaca baru, tetapi isinya harus bernilai, bukan sekadar daftar tautan." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Otoritas topikal dibangun dengan memilih bidang yang benar-benar Anda kuasai, menyusun klaster konten, menghubungkannya dengan tautan internal yang bermakna, merawat artikel lama, dan mengukur hasil dengan jujur. Pendekatan ini membuat blog Anda lebih mudah dipahami oleh pembaca, mesin pencari, dan ringkasan berbasis AI, sekaligus mengarahkan calon klien dari pertanyaan pertama menuju percakapan dengan tim Anda." },
+  { type: "p", text: "Artikel lama juga perlu dirawat; lihat [audit konten dan pembaruan artikel lama untuk SEO blog B2B](/blog/audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b)." },
   { type: "cta", title: "Bangun arsitektur konten dan SEO yang menghasilkan prospek",text: "Agsora membantu memetakan klaster topik, struktur situs, schema, dan tautan internal untuk website bisnis Anda. Konsultasikan kebutuhan Anda tanpa biaya.",href: "/services/website",label: "Konsultasi gratis" },
 ];

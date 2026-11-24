@@ -165,6 +165,7 @@ export const body: Block[] = [
     text: "Backup yang baik bukan sekadar rutinitas yang berjalan di latar belakang tanpa diperhatikan, melainkan strategi yang direncanakan, diuji, dan dipertanggungjawabkan. Ketika insiden benar-benar terjadi, dan cepat atau lambat akan terjadi, perbedaan antara bisnis yang pulih dalam hitungan jam dan yang kehilangan data selamanya sering kali hanya soal seberapa serius backup ini disiapkan sebelumnya.",
   },
   { type: "p", text: "Cadangan juga perlu masuk aturan masa simpan; lihat [kebijakan retensi data](/blog/kebijakan-retensi-data-dan-penghapusan-data-pelanggan-di-aplikasi-bisnis)." },
+  { type: "p", text: "Setelah backup berjalan, tetapkan target pemulihan di [disaster recovery dan kesinambungan bisnis: RTO, RPO, dan rencana pemulihan](/blog/disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Kapan terakhir kali backup Anda benar-benar diuji?",

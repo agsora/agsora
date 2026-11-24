@@ -74,5 +74,6 @@ export const body: Block[] = [
   { type: "p", text: "Pengalaman nyata ditunjukkan lewat [halaman studi kasus B2B](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)." },
   { type: "p", text: "Struktur konten yang rapi memperkuat sinyal ini; lihat [topical authority dan internal linking](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)." },
   { type: "p", text: "Kredibilitas juga dibangun dari tautan masuk; lihat [backlink etis dan digital PR untuk website B2B](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)." },
+  { type: "p", text: "Cara menjaga kredibilitas artikel lama dibahas di [audit konten dan pembaruan artikel lama](/blog/audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b)." },
   { type: "cta", title: "Bangun website jasa yang dipercaya calon klien",text: "Diskusikan struktur konten, profil, dan SEO website bisnis Anda bersama tim Agsora. Kami bantu merancang website yang kredibel dan menghasilkan prospek.",href: "/services/website",label: "Konsultasi gratis" },
 ];

@@ -68,5 +68,6 @@ export const body: Block[] = [
   { type: "p", text: "Skalanya boleh lebih sederhana, tetapi prinsipnya tetap berguna: catat penerimaan pada hari yang sama, acu ke pesanan, dan simpan bukti bila ada barang kurang atau rusak. Detail seperti karantina dan inspeksi sampel baru perlu bila mutu bahan memengaruhi produk Anda." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Penerimaan barang yang terkontrol menjaga tiga hal sekaligus: akurasi stok, ketepatan pembayaran ke pemasok, dan kualitas bahan yang masuk ke operasional. Kuncinya adalah mengacu ke pesanan, mencatat pada hari yang sama, memisahkan barang yang belum lolos periksa, menangani selisih dengan aturan dan bukti, serta menutup lingkaran lewat retur dan nota debit. Dengan ERP yang dikonfigurasi benar, proses ini menjadi kebiasaan harian yang ringan, bukan beban administrasi." },
+  { type: "p", text: "Surat jalan dari pemasok dapat dibaca otomatis; lihat [pemrosesan dokumen cerdas (IDP)](/blog/pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan)." },
   { type: "cta", title: "Rancang proses penerimaan barang di ERP Anda",text: "Agsora membantu mengonfigurasi PO, GRN, karantina, inspeksi, dan retur pemasok sesuai alur gudang Anda. Diskusikan kebutuhan Anda tanpa biaya.",href: "/services/erp",label: "Konsultasi gratis" },
 ];

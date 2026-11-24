@@ -71,6 +71,7 @@ const en: Block[] = [
   { type: "p", text: "At the effective exit time, or earlier for risky cases. Use scheduled deactivation so it does not depend on human memory." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Leave and offboarding are rarely in the spotlight, yet they touch fairness, security, and company reputation. With a clearly written policy, an approval flow that does not depend on one person, an automatic exit task list, and a complete audit trail, HR can stop firefighting and manage the processes calmly. Start with a tidy policy, test it with real cases, then connect it to attendance, payroll, and access security." },
+  { type: "p", text: "Account deactivation and device return when staff leave are covered in [internal IT helpdesk and IT asset management](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)." },
   { type: "cta", title: "Bring leave, attendance, and payroll into one HRIS",text: "Agsora helps design an HRIS with leave flows, offboarding, and payroll integration that match your company's policies. Discuss your HR needs with us.",href: "/services/hris",label: "Free consultation" },
 ];
 
@@ -145,6 +146,7 @@ const zh: Block[] = [
   { type: "p", text: "在离职生效时间，风险较高的情况则应更早。使用定时停用，避免依赖人的记忆。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "休假和离职很少成为焦点，却关系到公平、安全和公司声誉。有了书写清晰的政策、不依赖单个人的审批流程、自动的离职任务清单和完整的审计痕迹，HR 就可以不再疲于救火，而是从容地管理这些流程。先整理好政策，用真实案例测试，再与考勤、薪资和访问安全连接起来。" },
+  { type: "p", text: "员工离职时的账号停用与设备归还，参见[内部 IT 服务台与 IT 资产管理](/blog/helpdesk-it-internal-dan-manajemen-aset-it-tiket-sla-dan-lisensi-software)。" },
   { type: "cta", title: "把休假、考勤和薪资整合到一个 HRIS",text: "Agsora 帮助设计符合贵公司政策的 HRIS，包括休假流程、离职管理和薪资集成。欢迎与我们讨论您的 HR 需求。",href: "/services/hris",label: "免费咨询" },
 ];
 
