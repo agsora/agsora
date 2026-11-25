@@ -70,6 +70,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "For exporters and manufacturers, the website is both showroom and first factory visit. A website that answers procurement questions honestly, shows real evidence, is available in the languages of markets you actually serve, is structured for international SEO, and is backed by fast follow-up will attract the right buyers and shorten the path to the first order." },
   { type: "p", text: "Beyond the website, European buyers will ask for structured product data; see [the EU Digital Product Passport](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)." },
+  { type: "p", text: "For Mandarin-speaking buyers, see also [SEO for the Chinese market: Baidu, WeChat, and Mandarin-language sites](/blog/seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin)." },
   { type: "cta", title: "Build an export website that generates quotation requests",text: "The Agsora team helps manufacturers and exporters build multilingual websites with technical catalogs, international SEO, and CRM integration to follow up every lead.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -143,6 +144,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "对于出口商和制造商来说，网站既是展厅，也是第一次验厂。一个诚实回答采购问题、展示真实证据、提供你真正服务的市场语言、按国际 SEO 构建并有快速跟进流程支持的网站，将吸引合适的买家，缩短通往首单的路径。" },
   { type: "p", text: "除了网站之外，欧洲买家还会要求结构化的产品数据；请参阅[欧盟数字产品护照](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)。" },
+  { type: "p", text: "针对中文买家，另请参见[面向中国市场的 SEO：百度、微信与中文网站](/blog/seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin)。" },
   { type: "cta", title: "打造能带来询价的出口网站",text: "Agsora 团队帮助制造商和出口商构建多语言网站，配备技术型产品目录、国际 SEO 以及用于跟进每一条线索的 CRM 集成。",href: "/services/website",label: "免费咨询" },
 ];
 

@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { translations as t_riset_kata_kunci_b2b_dan_pemetaan_intent_pembeli_untuk_website_jasa } from "./riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa";
+import { translations as t_transfer_stok_antar_gudang_dan_barang_dalam_perjalanan_in_transit_di_erp } from "./transfer-stok-antar-gudang-dan-barang-dalam-perjalanan-in-transit-di-erp";
+import { translations as t_seo_dan_kehadiran_digital_untuk_pasar_tiongkok_baidu_wechat_dan_situs_bahasa_mandarin } from "./seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin";
+import { translations as t_customer_success_dan_health_score_pelanggan_b2b_untuk_bisnis_langganan } from "./customer-success-dan-health-score-pelanggan-b2b-untuk-bisnis-langganan";
+import { translations as t_pipeline_data_etl_elt_dan_data_contract_dari_erp_ke_bi_yang_bisa_dipercaya } from "./pipeline-data-etl-elt-dan-data-contract-dari-erp-ke-bi-yang-bisa-dipercaya";
 import { translations as t_pemrosesan_dokumen_cerdas_idp_ocr_dan_ai_untuk_faktur_po_dan_surat_jalan } from "./pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan";
 import { translations as t_disaster_recovery_dan_kesinambungan_bisnis_rto_rpo_untuk_aplikasi_bisnis } from "./disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis";
 import { translations as t_audit_konten_dan_pembaruan_artikel_lama_untuk_seo_blog_b2b } from "./audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b";
@@ -249,6 +254,11 @@ export type BodyTranslations = { en: Block[]; zh: Block[] };
  * existed.
  */
 export const bodiesI18n: Record<string, BodyTranslations> = {
+  "riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa": t_riset_kata_kunci_b2b_dan_pemetaan_intent_pembeli_untuk_website_jasa,
+  "transfer-stok-antar-gudang-dan-barang-dalam-perjalanan-in-transit-di-erp": t_transfer_stok_antar_gudang_dan_barang_dalam_perjalanan_in_transit_di_erp,
+  "seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin": t_seo_dan_kehadiran_digital_untuk_pasar_tiongkok_baidu_wechat_dan_situs_bahasa_mandarin,
+  "customer-success-dan-health-score-pelanggan-b2b-untuk-bisnis-langganan": t_customer_success_dan_health_score_pelanggan_b2b_untuk_bisnis_langganan,
+  "pipeline-data-etl-elt-dan-data-contract-dari-erp-ke-bi-yang-bisa-dipercaya": t_pipeline_data_etl_elt_dan_data_contract_dari_erp_ke_bi_yang_bisa_dipercaya,
   "pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan": t_pemrosesan_dokumen_cerdas_idp_ocr_dan_ai_untuk_faktur_po_dan_surat_jalan,
   "disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis": t_disaster_recovery_dan_kesinambungan_bisnis_rto_rpo_untuk_aplikasi_bisnis,
   "audit-konten-dan-pembaruan-artikel-lama-untuk-seo-blog-b2b": t_audit_konten_dan_pembaruan_artikel_lama_untuk_seo_blog_b2b,

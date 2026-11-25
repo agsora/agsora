@@ -137,6 +137,7 @@ export const body: Block[] = [
   { type: "p", text: "Penandatanganan kontrak dapat dipercepat dengan [tanda tangan elektronik dan e-meterai](/blog/tanda-tangan-elektronik-dan-e-meterai-untuk-alur-dokumen-bisnis)." },
   { type: "p", text: "Untuk penyedia yang menjual ke instansi pemerintah, kontrak dan termin punya kekhasan; lihat [sistem untuk vendor proyek pemerintah](/blog/sistem-untuk-vendor-proyek-pemerintah-e-katalog-tender-dan-penagihan-termin)." },
   { type: "p", text: "Untuk mempercepat pembacaan dan ekstraksi data kontrak dengan pengawasan manusia, baca [AI untuk tinjauan kontrak](/blog/ai-untuk-tinjauan-kontrak-ekstraksi-klausul-dan-penandaan-risiko-dengan-pengawasan-manusia)." },
+  { type: "p", text: "Sinyal risiko sebelum perpanjangan dibahas di [customer success dan health score pelanggan B2B](/blog/customer-success-dan-health-score-pelanggan-b2b-untuk-bisnis-langganan)." },
   {
     type: "cta",
     title: "Ingin merapikan kontrak pelanggan dan perpanjangannya di sistem bisnis Anda?",

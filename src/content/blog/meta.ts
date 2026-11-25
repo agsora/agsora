@@ -6,6 +6,93 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa",
+    title: "Riset Kata Kunci B2B: Pemetaan Intent Pembeli untuk Website Jasa",
+    excerpt: "Cara melakukan riset kata kunci untuk bisnis B2B: memahami intent pembeli di setiap tahap, mengelompokkan kata kunci, menilai nilai bisnis dan bukan hanya volume, membaca halaman hasil pencarian, memetakan ke halaman dan artikel, serta mengukur prospek yang nyata.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    tags: ["seo","website","data"],
+    titleTranslations: {
+      en: "B2B Keyword Research: Mapping Buyer Intent for Service Websites",
+      zh: "B2B 关键词研究：为服务型网站映射买家意图",
+    },
+    excerptTranslations: {
+      en: "How to do keyword research for B2B: understand buyer intent at each stage, cluster keywords, judge business value instead of volume alone, read search result pages, map terms to pages and articles, and measure real leads.",
+      zh: "如何做 B2B 关键词研究：理解各阶段的买家意图、对关键词聚类、按业务价值而非仅看搜索量来判断、解读搜索结果页、把词映射到页面与文章，并衡量真实线索。",
+    },
+  },
+  {
+    slug: "transfer-stok-antar-gudang-dan-barang-dalam-perjalanan-in-transit-di-erp",
+    seoTitles: { id: "Transfer Stok Antar Gudang dan In-Transit", en: "Inter-Warehouse Stock Transfers in ERP" },
+    title: "Transfer Stok Antar Gudang dan Barang dalam Perjalanan (In-Transit) di ERP",
+    excerpt: "Cara mengelola perpindahan stok antar gudang dan cabang di ERP: permintaan transfer, pengiriman, status in-transit, penerimaan dan selisih, valuasi, serial dan batch, kontrol akses, serta laporan yang mencegah stok hilang di perjalanan.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    tags: ["erp","inventori","operasional"],
+    titleTranslations: {
+      en: "Inter-Warehouse Stock Transfers and In-Transit Inventory in ERP",
+      zh: "ERP 中的仓库间调拨与在途库存管理",
+    },
+    excerptTranslations: {
+      en: "How to manage stock moves between warehouses and branches in ERP: transfer requests, shipping, the in-transit status, receipt and variances, valuation, serial and batch tracking, access control, and reports that stop stock vanishing en route.",
+      zh: "如何在 ERP 中管理仓库与分店之间的库存调拨：调拨申请、发运、在途状态、收货与差异、估值、序列号与批次、权限控制，以及防止库存在途中消失的报表。",
+    },
+  },
+  {
+    slug: "seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin",
+    title: "SEO untuk Pasar Tiongkok: Baidu, WeChat, dan Situs Bahasa Mandarin",
+    excerpt: "Panduan realistis menjangkau pembeli berbahasa Mandarin: perbedaan Baidu dan Google, terjemahan yang wajar, struktur URL dan hreflang, kecepatan akses dari Tiongkok, WeChat, kepatuhan dan lisensi, serta cara menyusun ekspektasi dan pengukuran.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    tags: ["seo","website","ecommerce"],
+    titleTranslations: {
+      en: "SEO for the Chinese Market: Baidu, WeChat, and Mandarin-Language Sites",
+      zh: "面向中国市场的 SEO：百度、微信与中文网站",
+    },
+    excerptTranslations: {
+      en: "A realistic guide to reaching Mandarin-speaking buyers: Baidu versus Google, sensible translation, URL structure and hreflang, access speed from mainland China, WeChat, compliance and licensing, and how to set expectations and measurement.",
+      zh: "触达中文买家的务实指南：百度与谷歌的差异、合理的翻译、URL 结构与 hreflang、中国大陆的访问速度、微信、合规与许可，以及如何设定预期与衡量方式。",
+    },
+  },
+  {
+    slug: "customer-success-dan-health-score-pelanggan-b2b-untuk-bisnis-langganan",
+    title: "Customer Success dan Health Score Pelanggan B2B untuk Bisnis Langganan",
+    excerpt: "Cara membangun fungsi customer success untuk bisnis langganan dan layanan berulang: onboarding, sinyal kesehatan pelanggan, health score yang jujur, ritme pertemuan, penanganan risiko churn, peluang perluasan, dan batas dari angka yang terlalu dipercaya.",
+    category: "Penjualan & CRM",
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    tags: ["crm","pelanggan","saas"],
+    titleTranslations: {
+      en: "Customer Success and B2B Customer Health Scores for Subscription Businesses",
+      zh: "订阅型业务的客户成功与 B2B 客户健康评分",
+    },
+    excerptTranslations: {
+      en: "How to build a customer success function for subscription and recurring-service businesses: onboarding, health signals, an honest health score, meeting cadence, churn risk handling, expansion opportunities, and the limits of over-trusted numbers.",
+      zh: "如何为订阅与持续服务型业务建立客户成功职能：上线引导、健康信号、诚实的健康评分、沟通节奏、流失风险处理、扩展机会，以及过度信任数字的局限。",
+    },
+  },
+  {
+    slug: "pipeline-data-etl-elt-dan-data-contract-dari-erp-ke-bi-yang-bisa-dipercaya",
+    seoTitles: { id: "Pipeline Data ETL/ELT dan Data Contract", en: "ETL/ELT Pipelines and Data Contracts" },
+    title: "Pipeline Data ETL/ELT dan Data Contract dari ERP ke BI yang Bisa Dipercaya",
+    excerpt: "Cara membangun alur data dari ERP ke dashboard: perbedaan ETL dan ELT, pemuatan inkremental, data contract, pengujian kualitas, penanganan perubahan skema, pemantauan, biaya, dan kapan tidak perlu membangun pipeline sendiri.",
+    category: "Teknologi",
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    tags: ["data","integrasi","pelaporan"],
+    titleTranslations: {
+      en: "ETL/ELT Data Pipelines and Data Contracts from ERP to Trustworthy BI",
+      zh: "从 ERP 到可信 BI：ETL/ELT 数据管道与数据契约",
+    },
+    excerptTranslations: {
+      en: "How to build data flows from ERP to dashboards: ETL versus ELT, incremental loading, data contracts, quality testing, handling schema changes, monitoring, cost, and when you should not build your own pipeline.",
+      zh: "如何构建从 ERP 到仪表板的数据流：ETL 与 ELT 的区别、增量加载、数据契约、质量测试、应对表结构变更、监控、成本，以及何时不该自建管道。",
+    },
+  },
+  {
     slug: "pemrosesan-dokumen-cerdas-idp-ocr-dan-ai-untuk-faktur-po-dan-surat-jalan",
     title: "Pemrosesan Dokumen Cerdas (IDP): OCR dan AI untuk Faktur, PO, dan Surat Jalan",
     seoTitles: { zh: "智能文档处理（IDP）：OCR 与 AI 处理发票" },
@@ -1004,7 +1091,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara produsen dan eksportir membangun website yang dipercaya pembeli luar negeri: struktur halaman, spesifikasi produk, bukti kepercayaan, bahasa dan SEO internasional, permintaan penawaran, dan tindak lanjut.",
     category: "Website & Digital",
     publishedAt: "2026-11-06",
-    updatedAt: "2026-11-14",
+    updatedAt: "2026-11-25",
     tags: ["website","seo","sales"],
     titleTranslations: {
       en: "B2B Websites for Exporters and Manufacturers: Attracting International Buyers",
@@ -1565,7 +1652,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan SEO internasional untuk website bisnis: memilih struktur URL, hreflang timbal balik, kanonikal, peta situs, pengalih bahasa, lokalisasi konten, dan pengukuran hasil.",
     category: "Website & Digital",
     publishedAt: "2026-10-26",
-    updatedAt: "2026-11-23",
+    updatedAt: "2026-11-25",
     tags: ["seo","website","ecommerce"],
     titleTranslations: {
       en: "International SEO: Hreflang, URL Structure, Canonicals, and Content Localization for Reaching Overseas Markets",
@@ -2824,7 +2911,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengelola kontrak pelanggan secara terstruktur: data kunci, siklus hidup kontrak, proses perpanjangan, kenaikan harga, hubungan dengan penagihan dan layanan, serta tinjauan portofolio.",
     category: "Penjualan & CRM",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-11-10",
+    updatedAt: "2026-11-25",
     tags: ["crm","sales","pelanggan"],
     titleTranslations: {
       en: "Customer Contract and Renewal Management: So No Revenue Quietly Expires",
@@ -3062,7 +3149,7 @@ export const meta: PostMeta[] = [
     excerpt: "Memahami gudang data dan BI untuk nonteknisi: mengapa laporan sistem operasional tidak cukup, tanda membutuhkannya, mulai dari pertanyaan bisnis, definisi angka, kualitas data, pilihan teknis, dasbor yang dipakai, dan budaya data.",
     category: "Teknologi",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-25",
     tags: ["data","pelaporan","integrasi"],
     titleTranslations: {
       en: "Data Warehouse and Business Intelligence for Mid Sized Businesses: One Source of Truth for Decisions",
@@ -3164,7 +3251,7 @@ export const meta: PostMeta[] = [
     excerpt: "Kapan pencatatan stok tidak lagi cukup: tata letak dan kode lokasi, alur terima simpan ambil kirim, kode batang, penghitungan bergilir, lot dan kedaluwarsa, area retur, integrasi kanal penjualan, serta memilih tingkat sistem yang sesuai.",
     category: "POS & Retail",
     publishedAt: "2026-10-10",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-25",
     tags: ["inventori","operasional","retail","erp"],
     titleTranslations: {
       en: "Warehouse Management for a Growing Business: From Messy Shelves to Stock You Can Trust",
@@ -3385,7 +3472,7 @@ export const meta: PostMeta[] = [
     excerpt: "Langganan mengubah cara menagih, mencatat, dan melayani. Kecocokan model, rancangan paket dan harga, mesin tagihan berulang, pembayaran gagal, pembatalan yang jujur, pencatatan pendapatan, dan ukuran retensi.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-25",
     tags: ["pembayaran","pelanggan","saas","keuangan","ecommerce"],
     titleTranslations: {
       en: "The Subscription Business Model and Recurring Billing: More Predictable Revenue and How to Manage It",
@@ -3606,7 +3693,7 @@ export const meta: PostMeta[] = [
     excerpt: "Blog yang dikelola dengan benar mendatangkan calon pelanggan yang sudah siap dipercaya. Cara memilih topik dari pertanyaan pelanggan, menulis untuk niat pencarian, menata kalender konten, dan mengukur hasilnya tanpa angka rekaan.",
     category: "Website & Digital",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-25",
     tags: ["website","seo","sales"],
     titleTranslations: {
       en: "The Company Blog as a Lead Engine: Writing Content Prospects Actually Search For",
@@ -4477,7 +4564,7 @@ export const meta: PostMeta[] = [
     excerpt: "SEO bukan trik untuk mengelabui mesin pencari. Untuk website perusahaan, dasarnya adalah halaman yang jelas, cepat, dan menjawab pertanyaan calon klien.",
     category: "Website & Digital",
     publishedAt: "2026-08-05",
-    updatedAt: "2026-11-22",
+    updatedAt: "2026-11-25",
     tags: [
       "seo",
       "website"
@@ -4544,7 +4631,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menutup gudang seharian untuk menghitung stok memang sederhana, tapi mahal. Hitung siklus membuat stok tetap akurat tanpa menghentikan penjualan.",
     category: "ERP & Operasional",
     publishedAt: "2026-07-26",
-    updatedAt: "2026-11-23",
+    updatedAt: "2026-11-25",
     tags: [
       "inventori",
       "erp",
@@ -4748,6 +4835,7 @@ export const meta: PostMeta[] = [
     excerpt: "Laporan yang disusun ulang setiap minggu dari data yang sama adalah kandidat otomatisasi paling mudah. Waktunya bisa dipakai untuk membaca laporan, bukan menyusunnya.",
     category: "Teknologi",
     publishedAt: "2026-06-24",
+    updatedAt: "2026-11-25",
     tags: [
       "otomasi",
       "pelaporan",

@@ -136,6 +136,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Gudang data dan BI bukan tentang teknologi mewah, melainkan tentang memberi organisasi kemampuan menjawab pertanyaannya sendiri dengan cepat dan dapat dipercaya. Ketika data dari berbagai sistem bertemu di satu tempat dengan definisi yang disepakati, keputusan menjadi lebih cepat dan lebih tenang." },
   { type: "p", text: "Mulailah dari pertanyaan yang paling penting, bangun secukupnya, dan biarkan manfaat nyata menentukan langkah berikutnya. Bisnis menengah yang membiasakan diri memakai data sejak dini akan lebih siap menghadapi pertumbuhan, karena keputusannya bertumpu pada gambaran yang utuh, bukan potongan-potongan. Dan yang terpenting, jangan menunggu kondisi sempurna: tahap pertama yang kecil tetapi nyata hampir selalu lebih bernilai daripada rencana besar yang belum juga dimulai. Setiap pertanyaan yang akhirnya terjawab dengan cepat dan dapat dipercaya adalah bukti nyata bahwa investasi ini bermanfaat." },
+  { type: "p", text: "Cara memindahkan data dari ERP ke gudang data dibahas di [pipeline data ETL/ELT dan data contract](/blog/pipeline-data-etl-elt-dan-data-contract-dari-erp-ke-bi-yang-bisa-dipercaya)." },
   {
     type: "cta",
     title: "Data tersebar di banyak sistem dan laporan sulit dipercaya?",

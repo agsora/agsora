@@ -136,6 +136,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "A data warehouse and BI are not about fancy technology, but about giving an organisation the ability to answer its own questions quickly and reliably. When data from various systems meets in one place with agreed definitions, decisions become faster and calmer." },
   { type: "p", text: "Start from the most important questions, build just enough, and let real benefits determine the next step. A midsized business that gets used to using data early will be better prepared for growth, because its decisions rest on a whole picture, not on fragments." },
+  { type: "p", text: "How to move data from the ERP into the warehouse is covered in [ETL/ELT data pipelines and data contracts](/blog/pipeline-data-etl-elt-dan-data-contract-dari-erp-ke-bi-yang-bisa-dipercaya)." },
   {
     type: "cta",
     title: "Is data scattered across many systems and reports hard to trust?",
@@ -281,6 +282,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "数据仓库与 BI 并不在于炫目的技术，而在于让组织有能力迅速而可靠地回答自己的问题。当来自各个系统的数据以约定的定义汇集一处，决策就变得更快、更从容。" },
   { type: "p", text: "从最重要的问题开始，适度构建，让真实的益处决定下一步。及早养成使用数据习惯的中型企业，会更好地应对增长，因为它们的决策建立在完整的图景之上，而不是碎片。" },
+  { type: "p", text: "如何把数据从 ERP 搬进数据仓库，参见[从 ERP 到可信 BI：ETL/ELT 数据管道与数据契约](/blog/pipeline-data-etl-elt-dan-data-contract-dari-erp-ke-bi-yang-bisa-dipercaya)。" },
   {
     type: "cta",
     title: "数据分散在许多系统中，报表难以让人信任？",

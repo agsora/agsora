@@ -160,6 +160,7 @@ export const body: Block[] = [
   { type: "p", text: "Setelah dasar-dasarnya beres, lanjutkan ke sisi teknis: [SEO teknis, crawl budget, dan masalah indexing](/blog/seo-teknis-crawl-budget-log-server-dan-indexing-untuk-website-bisnis)." },
   { type: "p", text: "Setelah dasar SEO beres, pertimbangkan [halaman layanan per kota dan industri](/blog/halaman-layanan-per-kota-dan-per-industri-seo-tanpa-konten-tipis)." },
   { type: "p", text: "Setelah dasar SEO beres, langkah berikutnya ada di [topical authority dan internal linking](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)." },
+  { type: "p", text: "Setelah dasar-dasar SEO beres, lanjutkan dengan [riset kata kunci B2B dan pemetaan intent pembeli](/blog/riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa)." },
   {
     type: "cta",
     title: "Website Anda sulit ditemukan di Google?",

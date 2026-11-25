@@ -179,6 +179,7 @@ export const body: Block[] = [
     text: "Stock opname tidak harus menjadi peristiwa besar yang menghentikan operasional dan melelahkan seluruh tim setahun sekali. Dengan hitung siklus yang rutin dan terjadwal, stok menjadi lebih akurat, selisih ditemukan lebih cepat, dan operasional bisnis tetap berjalan normal setiap harinya.",
   },
   { type: "p", text: "Frekuensi penghitungan dapat mengikuti kelompok barang; lihat [analisis ABC-XYZ dan stok pengaman](/blog/analisis-abc-xyz-dan-stok-pengaman-untuk-persediaan-yang-sehat-dengan-erp)." },
+  { type: "p", text: "Barang yang sedang dalam perjalanan antar lokasi perlu diperlakukan khusus saat penghitungan; lihat [transfer stok antar gudang dan status in-transit](/blog/transfer-stok-antar-gudang-dan-barang-dalam-perjalanan-in-transit-di-erp)." },
   {
     type: "cta",
     title: "Lelah menutup toko setiap kali stock opname?",

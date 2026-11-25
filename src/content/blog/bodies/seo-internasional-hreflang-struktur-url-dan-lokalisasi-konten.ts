@@ -104,6 +104,7 @@ export const body: Block[] = [
   { type: "p", text: "SEO internasional adalah gabungan keputusan struktur dan komitmen isi. Pilih struktur URL yang bisa Anda rawat, pasang hreflang timbal balik dengan kanonikal yang konsisten, masukkan semua versi ke peta situs, dan lokalisasi isi berdasarkan riset kata kunci per bahasa. Lalu ukur hasilnya per negara dan bahasa serta audit berkala. Bisnis yang disiplin pada hal-hal dasar ini jauh lebih mungkin muncul di depan calon klien internasional dibandingkan bisnis yang hanya menambah menu bahasa." },
   { type: "p", text: "Contoh penerapannya untuk produsen yang mencari pembeli luar negeri ada di [website B2B untuk eksportir dan manufaktur](/blog/website-b2b-untuk-eksportir-dan-manufaktur-menarik-pembeli-internasional)." },
   { type: "p", text: "Setelah struktur beres, langkah berikutnya adalah otoritas dari luar situs; lihat [backlink etis dan digital PR](/blog/backlink-etis-dan-digital-pr-untuk-website-b2b-membangun-otoritas-tanpa-spam)." },
+  { type: "p", text: "Contoh penerapan untuk pasar tertentu ada di [SEO untuk pasar Tiongkok: Baidu, WeChat, dan situs bahasa Mandarin](/blog/seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin)." },
   {
     type: "cta",
     title: "Ingin website Anda tampil benar di Google untuk pasar internasional?",

@@ -105,6 +105,7 @@ const en: Block[] = [
   { type: "p", text: "Video can also strengthen a blog; see [video SEO and YouTube for B2B service websites](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
   { type: "p", text: "Link blog articles to relevant [B2B case studies](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)." },
   { type: "p", text: "How to build topic clusters and links between articles is covered in [topical authority and internal linking](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)." },
+  { type: "p", text: "Choosing article topics close to buyer decisions is covered in [B2B keyword research and buyer intent mapping](/blog/riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa)." },
   {
     type: "cta",
     title: "Want a website and blog that truly bring in leads?",
@@ -219,6 +220,7 @@ const zh: Block[] = [
   { type: "p", text: "视频也可以增强博客；请参阅[B2B 服务网站的视频 SEO 与 YouTube](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)。" },
   { type: "p", text: "请把博客文章链接到相关的[B2B 案例](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien)。" },
   { type: "p", text: "如何构建主题集群和文章之间的链接，参见[主题权威与内部链接](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)。" },
+  { type: "p", text: "如何选择贴近买家决策的文章主题，参见[B2B 关键词研究：为服务型网站映射买家意图](/blog/riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa)。" },
   {
     type: "cta",
     title: "想要真正带来线索的网站和博客吗?",

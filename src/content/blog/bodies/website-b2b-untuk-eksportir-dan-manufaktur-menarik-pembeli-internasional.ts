@@ -70,5 +70,6 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Bagi eksportir dan produsen, website adalah ruang pamer dan kunjungan pabrik pertama sekaligus. Website yang menjawab pertanyaan pengadaan secara jujur, menampilkan bukti nyata, tersedia dalam bahasa pasar yang benar-benar dilayani, terstruktur untuk SEO internasional, dan didukung proses tindak lanjut yang cepat akan menarik pembeli yang tepat dan mempersingkat jalan menuju pesanan pertama." },
   { type: "p", text: "Selain website, pembeli Eropa akan meminta data produk yang terstruktur; lihat [Digital Product Passport Uni Eropa](/blog/digital-product-passport-dpp-uni-eropa-dan-ketertelusuran-produk-untuk-eksportir-indonesia)." },
+  { type: "p", text: "Untuk pembeli berbahasa Mandarin, lihat juga [SEO untuk pasar Tiongkok: Baidu, WeChat, dan situs bahasa Mandarin](/blog/seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin)." },
   { type: "cta", title: "Bangun website ekspor yang menghasilkan permintaan penawaran",text: "Tim Agsora membantu produsen dan eksportir menyusun website multibahasa dengan katalog teknis, SEO internasional, dan integrasi CRM untuk menindaklanjuti setiap prospek.",href: "/services/website",label: "Konsultasi gratis" },
 ];

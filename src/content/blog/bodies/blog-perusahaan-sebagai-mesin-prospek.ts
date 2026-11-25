@@ -105,6 +105,7 @@ export const body: Block[] = [
   { type: "p", text: "Format video juga dapat memperkuat blog; lihat [SEO video dan YouTube untuk website jasa B2B](/blog/seo-video-dan-youtube-untuk-website-jasa-b2b-transkrip-chapter-dan-schema)." },
   { type: "p", text: "Tautkan artikel blog ke [studi kasus B2B](/blog/halaman-studi-kasus-b2b-yang-meyakinkan-struktur-bukti-dan-izin-klien) yang relevan." },
   { type: "p", text: "Cara menyusun klaster topik dan tautan antarartikel dibahas di [topical authority dan internal linking](/blog/topical-authority-dan-internal-linking-untuk-blog-seo-b2b)." },
+  { type: "p", text: "Memilih topik artikel yang dekat dengan keputusan pembeli dibahas di [riset kata kunci B2B dan pemetaan intent pembeli](/blog/riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa)." },
   {
     type: "cta",
     title: "Ingin website dan blog yang benar-benar mendatangkan prospek?",

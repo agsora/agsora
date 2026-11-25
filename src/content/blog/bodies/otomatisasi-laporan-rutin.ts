@@ -162,6 +162,7 @@ export const body: Block[] = [
     type: "p",
     text: "Mengotomatiskan laporan rutin adalah salah satu perbaikan dengan usaha relatif kecil tapi dampaknya terasa langsung, mengembalikan waktu tim untuk benar-benar menganalisis data, bukan sekadar menyusunnya berulang kali dengan cara yang sama setiap periode. Mulai dari laporan yang paling memakan waktu, sepakati definisinya, dan biarkan sistem yang mengerjakan bagian yang berulang.",
   },
+  { type: "p", text: "Bila sumber data banyak, pertimbangkan [pipeline data ETL/ELT dan data contract](/blog/pipeline-data-etl-elt-dan-data-contract-dari-erp-ke-bi-yang-bisa-dipercaya)." },
   {
     type: "cta",
     title: "Berapa jam tim Anda habiskan menyusun laporan setiap minggu?",
