@@ -124,6 +124,7 @@ export const body: Block[] = [
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Keamanan rantai pasok perangkat lunak bukan masalah yang dapat diselesaikan sekali dan dilupakan. Ia adalah disiplin berkelanjutan: mengetahui apa yang Anda pakai, memantau kerentanan, memperbarui secara rutin, memilih komponen dengan hati-hati, dan mengamankan proses pembangunan." },
   { type: "p", text: "Bagi pemilik bisnis, langkah terpenting adalah mengajukan pertanyaan yang tepat dan memastikan ada pemilik yang bertanggung jawab. Dengan beberapa kebiasaan dasar yang konsisten, Anda dapat memanfaatkan manfaat komponen pihak ketiga tanpa menanggung risiko yang tidak terkendali." },
+  { type: "p", text: "Bila produk Anda dijual ke Eropa, baca [kewajiban pelaporan Cyber Resilience Act bagi pembuat software](/blog/cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software)." },
   {
     type: "cta",
     title: "Ingin menilai dan memperkuat keamanan dependensi aplikasi bisnis Anda?",

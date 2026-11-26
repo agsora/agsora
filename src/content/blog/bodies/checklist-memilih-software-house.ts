@@ -207,6 +207,7 @@ export const body: Block[] = [
     text: "Software house terbaik untuk Anda bukan yang paling murah atau paling terkenal, tetapi yang paling memahami masalah Anda, paling jelas dalam kesepakatan, dan paling jujur ketika ada yang tidak berjalan sesuai rencana. Gunakan checklist ini, ajukan pertanyaan yang tepat, dan dengarkan baik-baik, bukan hanya jawaban mereka, tetapi juga cara mereka menjawab.",
   },
   { type: "p", text: "Untuk membandingkan model penagihan vendor, baca [fixed price, time and material, atau retainer](/blog/model-harga-proyek-software-fixed-price-time-and-material-retainer)." },
+  { type: "p", text: "Sebelum kontrak penuh, uji kerja sama lewat [proof of concept atau pilot berbayar](/blog/proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai)." },
   {
     type: "cta",
     title: "Uji kami dengan checklist ini",

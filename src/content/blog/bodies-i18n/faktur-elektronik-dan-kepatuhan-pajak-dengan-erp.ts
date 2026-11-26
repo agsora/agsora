@@ -117,6 +117,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Tax compliance is often seen as a cost, but a tidy process actually saves time and reduces risk. With clean master data, a connected flow, and automatic audit trails, month end work changes from a scramble to a calm review." },
   { type: "p", text: "Start with the most basic: tidy the data, connect orders with invoices and payments, and set clear responsibilities. ERP is not a guarantee of compliance, but it gives the foundation so that compliance becomes the result of good habits, not overtime work before the deadline." },
+  { type: "p", text: "For overseas buyers, continue with [Peppol and cross-border e-invoicing](/blog/peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional)." },
   {
     type: "cta",
     title: "Does invoicing and tax reporting still take a lot of time at month end?",
@@ -243,6 +244,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "税务合规常被视为成本，但整齐的流程实际上节省时间并降低风险。有了干净的主数据、连通的流程和自动的审计线索，月末工作从手忙脚乱变成了从容的回顾。" },
   { type: "p", text: "从最基本的开始：整理数据，把订单与发票和付款连接起来，并确立明确的职责。ERP 并不保证合规，但它提供了基础，使合规成为良好习惯的结果，而不是截止日前加班的结果。" },
+  { type: "p", text: "面向海外买家时，请继续阅读[Peppol 与跨境电子发票](/blog/peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional)。" },
   {
     type: "cta",
     title: "开票和税务申报在月末仍要花费大量时间？",

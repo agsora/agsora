@@ -121,6 +121,7 @@ const en: Block[] = [
   { type: "p", text: "Start from a customer need that genuinely recurs, test with a simple offer, and build the system as the evidence accumulates. Businesses that run it honestly will find that recurring revenue is the result of customers who keep feeling helped." },
   { type: "p", text: "Monthly invoices and meeting packages for students are discussed in [systems for course and tutoring centers](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)." },
   { type: "p", text: "Once subscriptions are running, retain customers through [customer success and B2B customer health scores](/blog/customer-success-dan-health-score-pelanggan-b2b-untuk-bisnis-langganan)." },
+  { type: "p", text: "When bills follow volume, study [metering and rating for usage-based billing](/blog/penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital)." },
   {
     type: "cta",
     title: "Want to add subscriptions and recurring billing to your business?",
@@ -251,6 +252,7 @@ const zh: Block[] = [
   { type: "p", text: "从顾客确实会重复的需求出发，用简单的方案进行测试，并随着证据的积累逐步搭建系统。诚实经营的企业会发现，经常性收入正是顾客持续感到被帮助的结果。" },
   { type: "p", text: "面向学员的月度账单和课时包，参见[培训与补习机构系统](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)。" },
   { type: "p", text: "订阅开始运行之后，通过[订阅型业务的客户成功与 B2B 客户健康评分](/blog/customer-success-dan-health-score-pelanggan-b2b-untuk-bisnis-langganan)留住客户。" },
+  { type: "p", text: "当账单随用量变化时，请了解[按量计费的计量与定价计算](/blog/penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital)。" },
   {
     type: "cta",
     title: "想为你的业务加入订阅和周期性计费吗？",

@@ -124,6 +124,7 @@ const en: Block[] = [
   { type: "h2", text: "Closing" },
   { type: "p", text: "Software supply chain security is not a problem to be solved once and forgotten. It is an ongoing discipline: knowing what you use, monitoring vulnerabilities, updating routinely, choosing components carefully, and securing the build process." },
   { type: "p", text: "For business owners, the most important step is asking the right questions and making sure there is an accountable owner. With a few consistent basic habits, you can enjoy the benefits of third party components without carrying uncontrolled risk." },
+  { type: "p", text: "If your product is sold into Europe, read about [Cyber Resilience Act reporting duties for software makers](/blog/cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software)." },
   {
     type: "cta",
     title: "Want to assess and strengthen the dependency security of your business applications?",
@@ -257,6 +258,7 @@ const zh: Block[] = [
   { type: "h2", text: "结语" },
   { type: "p", text: "软件供应链安全不是解决一次就可以忘记的问题。它是一种持续的纪律：知道自己用了什么、监控漏洞、例行更新、谨慎选择组件，并保护构建流程。" },
   { type: "p", text: "对企业主而言，最重要的一步是提出正确的问题，并确保有负责任的负责人。有了几个一贯的基本习惯，您就能享受第三方组件的好处，而不必承担失控的风险。" },
+  { type: "p", text: "如果产品销往欧洲，请阅读[网络韧性法案下软件开发商的报告义务](/blog/cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software)。" },
   {
     type: "cta",
     title: "想评估并加强业务应用的依赖项安全吗？",

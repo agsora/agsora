@@ -106,6 +106,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "AI cost can be controlled when treated as a product metric rather than an accounting surprise. Map the cost sources, estimate with real data, apply measurable savings such as model selection, context trimming, caching, and batching, then install monitoring, budgets, and rate limits from day one. Always weigh savings against quality. That way AI remains an investment with clear value, not a bill that grows quietly." },
   { type: "p", text: "Moving routine tasks to a small model is one way to cut costs; see [small language models and on-device AI](/blog/small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis)." },
+  { type: "p", text: "Passing variable costs to customers requires [accurate usage-based billing](/blog/penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital)." },
   {
     type: "cta",
     title: "Want your AI features to run economically and measurably?",
@@ -221,6 +222,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "把 AI 成本当作产品指标而不是会计意外，成本就能被控制。梳理成本来源，用真实数据估算，实施可衡量的节省措施，如模型选择、上下文削减、缓存和批处理，并从第一天起设置监控、预算和速率限制。始终把节省与质量对照权衡。这样，AI 仍是价值清晰的投资，而不是悄悄增长的账单。" },
   { type: "p", text: "将常规任务转移到小模型是降低成本的方法之一；请参阅[小型语言模型与端侧 AI](/blog/small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis)。" },
+  { type: "p", text: "把可变成本传导给客户，需要[准确的按量计费](/blog/penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital)。" },
   {
     type: "cta",
     title: "希望您的 AI 功能经济高效且可衡量？",

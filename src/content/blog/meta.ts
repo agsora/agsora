@@ -6,6 +6,93 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software",
+    title: "Cyber Resilience Act (CRA) Uni Eropa: Kewajiban Pelaporan untuk Pembuat Software",
+    excerpt: "Panduan Cyber Resilience Act bagi pembuat software dan eksportir: siapa yang terdampak, pelaporan kerentanan 24 dan 72 jam sejak 11 September 2026, daftar komponen (SBOM), dan persiapan menuju Desember 2027.",
+    category: "Teknologi",
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    tags: ["keamanan","custom-software","industri"],
+    seoTitles: { id: "Cyber Resilience Act (CRA) untuk Software", en: "EU Cyber Resilience Act (CRA) Reporting Duties" },
+    titleTranslations: {
+      en: "EU Cyber Resilience Act (CRA): Reporting Duties for Software Makers",
+      zh: "欧盟网络韧性法案（CRA）：软件开发商的漏洞报告义务",
+    },
+    excerptTranslations: {
+      en: "A Cyber Resilience Act guide for software makers and exporters: who is affected, 24 and 72-hour vulnerability reporting since 11 September 2026, SBOMs, and preparing for December 2027.",
+      zh: "面向软件开发商和出口商的网络韧性法案指南：谁受影响、自 2026 年 9 月 11 日起的 24 与 72 小时漏洞报告、软件物料清单，以及为 2027 年 12 月做准备。",
+    },
+  },
+  {
+    slug: "peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional",
+    title: "Peppol dan E-Invoicing Lintas Negara: Menyiapkan ERP untuk Pembeli Internasional",
+    excerpt: "Cara menyiapkan ERP untuk e-invoicing lintas negara: dasar jaringan Peppol, pemetaan kewajiban per pasar, pembersihan data induk, arsitektur integrasi, pemilihan penyedia, penanganan penolakan, arsip, dan pengujian.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    tags: ["erp","integrasi","keuangan"],
+    titleTranslations: {
+      en: "Peppol and Cross-Border E-Invoicing: Preparing Your ERP for International Buyers",
+      zh: "Peppol 与跨境电子发票：让 ERP 为国际买家做好准备",
+    },
+    excerptTranslations: {
+      en: "How to prepare an ERP for cross-border e-invoicing: Peppol basics, mapping obligations by market, master data cleanup, integration architecture, provider selection, rejections, archiving, and testing.",
+      zh: "如何让 ERP 适应跨境电子发票：Peppol 基础、按市场梳理义务、清理主数据、集成架构、选择服务商、处理拒收、存档与测试。",
+    },
+  },
+  {
+    slug: "halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien",
+    title: "Halaman Kepercayaan (Trust Center) B2B: Menjawab Kuesioner Keamanan Calon Klien",
+    excerpt: "Cara membangun trust center untuk website B2B: isi minimum soal data, keamanan, dan ketersediaan, klaim yang jujur tanpa sertifikasi, bank jawaban kuesioner, akses dokumen, SEO multibahasa, dan pemeliharaan.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    tags: ["website","keamanan","sales"],
+    titleTranslations: {
+      en: "B2B Trust Center Pages: Answering Prospects' Security Questionnaires",
+      zh: "B2B 信任中心页面：从容应对潜在客户的安全问卷",
+    },
+    excerptTranslations: {
+      en: "How to build a B2B trust center: minimum content on data, security, and availability, honest claims without certification, a questionnaire answer bank, document access, multilingual SEO, and upkeep.",
+      zh: "如何搭建 B2B 信任中心：数据、安全与可用性的最低内容、无认证时的诚实表述、问卷答案库、文档访问控制、多语言 SEO 与维护。",
+    },
+  },
+  {
+    slug: "penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital",
+    title: "Penagihan Berbasis Pemakaian: Metering dan Rating untuk SaaS dan Jasa Digital",
+    excerpt: "Cara membangun usage-based billing: memilih satuan, memisahkan metering, rating, dan penagihan, mencegah peristiwa ganda, rekonsiliasi, transparansi pelanggan, menjaga margin, integrasi keuangan, dan masa peralihan.",
+    category: "Teknologi",
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    tags: ["saas","pembayaran","api"],
+    titleTranslations: {
+      en: "Usage-Based Billing: Metering and Rating for SaaS and Digital Services",
+      zh: "按使用量计费：SaaS 与数字服务的计量与定价计算",
+    },
+    excerptTranslations: {
+      en: "How to build usage-based billing: choosing units, separating metering, rating, and billing, deduplicating events, reconciliation, customer transparency, margin, finance integration, and transition.",
+      zh: "如何搭建按量计费：选择计量单位、分离计量与计价和开票、事件去重、对账、客户透明度、利润率、财务集成与过渡。",
+    },
+  },
+  {
+    slug: "proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai",
+    title: "Proof of Concept dan Pilot Berbayar Sebelum Kontrak Software atau AI",
+    excerpt: "Cara merancang proof of concept dan pilot berbayar yang menghasilkan keputusan: pertanyaan dan ukuran keberhasilan, data nyata, evaluasi AI, lingkup sempit, isi perjanjian, lembar skor, dan rapat keputusan.",
+    category: "Panduan Memilih",
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    tags: ["vendor","implementasi","ai"],
+    seoTitles: { id: "Proof of Concept dan Pilot Berbayar", en: "Proof of Concept and Paid Pilots" },
+    titleTranslations: {
+      en: "Proof of Concept and Paid Pilots Before a Software or AI Contract",
+      zh: "签订软件或 AI 合同之前：概念验证与付费试点",
+    },
+    excerptTranslations: {
+      en: "How to design a proof of concept and paid pilot that ends in a decision: questions and success measures, real data, AI evaluation, narrow scope, agreement terms, scorecards, and the decision meeting.",
+      zh: "如何设计能得出决策的概念验证与付费试点：问题与成功指标、真实数据、AI 评估、窄范围、协议条款、评分表与决策会议。",
+    },
+  },
+  {
     slug: "riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa",
     title: "Riset Kata Kunci B2B: Pemetaan Intent Pembeli untuk Website Jasa",
     excerpt: "Cara melakukan riset kata kunci untuk bisnis B2B: memahami intent pembeli di setiap tahap, mengelompokkan kata kunci, menilai nilai bisnis dan bukan hanya volume, membaca halaman hasil pencarian, memetakan ke halaman dan artikel, serta mengukur prospek yang nyata.",
@@ -1278,7 +1365,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara membuat konten website jasa dan B2B yang dipercaya mesin pencari dan calon klien: bukti pengalaman, profil penulis, studi kasus, transparansi, pembaruan konten, dan kesalahan yang merusak kepercayaan.",
     category: "Website & Digital",
     publishedAt: "2026-11-04",
-    updatedAt: "2026-11-24",
+    updatedAt: "2026-11-26",
     tags: ["seo","website","pelanggan"],
     titleTranslations: {
       en: "E-E-A-T and Content Credibility for B2B Service Websites: Experience, Expertise, and Real Proof",
@@ -1550,7 +1637,7 @@ export const meta: PostMeta[] = [
     excerpt: "Beda uji penetrasi dan pemindaian otomatis, kapan perlu dilakukan, cakupan pengujian, persiapan, memilih penyedia, membaca laporan, dan menindaklanjuti temuan.",
     category: "Teknologi",
     publishedAt: "2026-10-27",
-    updatedAt: "2026-10-27",
+    updatedAt: "2026-11-26",
     tags: ["keamanan","website","operasional"],
     titleTranslations: {
       en: "Penetration Testing and Security Audits for Business Applications: When You Need Them, What Gets Tested, and How to Act on Findings",
@@ -1737,7 +1824,7 @@ export const meta: PostMeta[] = [
     excerpt: "Sumber biaya AI, cara memperkirakannya sebelum membangun, teknik penghematan tanpa menurunkan kualitas, pemantauan anggaran di produksi, dan kesalahan yang sering terjadi.",
     category: "Teknologi",
     publishedAt: "2026-10-25",
-    updatedAt: "2026-11-13",
+    updatedAt: "2026-11-26",
     tags: ["ai","biaya","operasional"],
     titleTranslations: {
       en: "Controlling AI Costs: Tokens, Inference, and Budgets for Chatbots and Agents in Business Apps",
@@ -1959,7 +2046,7 @@ export const meta: PostMeta[] = [
     excerpt: "Menyusun rencana respons insiden: peran tim, persiapan cadangan dan log, enam fase respons, skenario umum, kewajiban pemberitahuan data pribadi, dan latihan simulasi.",
     category: "Teknologi",
     publishedAt: "2026-10-23",
-    updatedAt: "2026-11-24",
+    updatedAt: "2026-11-26",
     tags: ["keamanan","infrastruktur","operasional"],
     titleTranslations: {
       en: "Cybersecurity Incident Response Plan for Business: Steps from Detection to Recovery",
@@ -2299,7 +2386,7 @@ export const meta: PostMeta[] = [
     excerpt: "Mengapa data menentukan hasil AI, enam dimensi kesiapan data, pekerjaan persiapan paling berdampak, memilih kasus penggunaan pertama, dan daftar periksa sebelum mulai.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-20",
-    updatedAt: "2026-10-28",
+    updatedAt: "2026-11-26",
     tags: ["ai","data","integrasi"],
     titleTranslations: {
       en: "AI Data Readiness: How to Assess and Prepare Company Data Before an AI Project",
@@ -2452,7 +2539,7 @@ export const meta: PostMeta[] = [
     excerpt: "Konsep mata uang fungsional, selisih kurs, transaksi antarperusahaan, konsolidasi laporan, pajak lintas negara, serta cara merancang dan menerapkan ERP untuk grup usaha.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-26",
     tags: ["erp","keuangan","multi-cabang"],
     titleTranslations: {
       en: "Multi Currency and Multi Entity ERP: A Regional Expansion Guide",
@@ -2962,7 +3049,7 @@ export const meta: PostMeta[] = [
     excerpt: "Memahami risiko komponen pihak ketiga: jenis serangan rantai pasok, daftar komponen, pemindaian kerentanan, pembaruan rutin, lisensi, pengamanan proses rilis, dan pertanyaan untuk vendor.",
     category: "Teknologi",
     publishedAt: "2026-10-13",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-26",
     tags: ["keamanan","custom-software","api"],
     titleTranslations: {
       en: "Dependency and Software Supply Chain Security: Watching for Risk in the Code You Use",
@@ -3115,7 +3202,7 @@ export const meta: PostMeta[] = [
     excerpt: "Bagaimana ERP membantu menerbitkan faktur elektronik yang rapi dan menjaga kepatuhan: data induk, alur terhubung dari pesanan ke faktur, penomoran dan jejak audit, rekonsiliasi pembayaran, pembelian, dan menghadapi perubahan aturan.",
     category: "ERP & Operasional",
     publishedAt: "2026-10-11",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-11-26",
     tags: ["erp","keuangan","otomasi","pelaporan"],
     titleTranslations: {
       en: "Electronic Invoicing and Tax Compliance with ERP: Tidying the Flow from Order to Reporting",
@@ -3472,7 +3559,7 @@ export const meta: PostMeta[] = [
     excerpt: "Langganan mengubah cara menagih, mencatat, dan melayani. Kecocokan model, rancangan paket dan harga, mesin tagihan berulang, pembayaran gagal, pembatalan yang jujur, pencatatan pendapatan, dan ukuran retensi.",
     category: "Strategi Bisnis",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-25",
+    updatedAt: "2026-11-26",
     tags: ["pembayaran","pelanggan","saas","keuangan","ecommerce"],
     titleTranslations: {
       en: "The Subscription Business Model and Recurring Billing: More Predictable Revenue and How to Manage It",
@@ -4037,7 +4124,7 @@ export const meta: PostMeta[] = [
     excerpt: "Ide aplikasi yang terlalu besar sering tidak pernah dimulai. Pendekatan MVP membantu bisnis membangun versi terkecil yang sudah bermanfaat, lalu mengembangkannya berdasarkan bukti, bukan asumsi.",
     category: "Strategi Bisnis",
     publishedAt: "2026-09-27",
-    updatedAt: "2026-11-19",
+    updatedAt: "2026-11-26",
     tags: [
       "custom-software",
       "mobile",
@@ -4337,7 +4424,7 @@ export const meta: PostMeta[] = [
     excerpt: "Yang membedakan vendor bukan portofolio yang paling banyak, tapi kejelasan cara mereka bekerja dan jujur soal batasannya.",
     category: "Panduan Memilih",
     publishedAt: "2026-07-31",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-11-26",
     tags: [
       "vendor",
       "custom-software",

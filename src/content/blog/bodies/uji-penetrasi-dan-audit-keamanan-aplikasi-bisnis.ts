@@ -157,6 +157,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Uji penetrasi bukan tanda bahwa aplikasi Anda buruk, melainkan tanda bahwa Anda ingin menemukan masalah sebelum orang lain. Hasilnya paling bernilai bila cakupan jelas, penguji berpengalaman, temuan diprioritaskan dengan pertimbangan bisnis, dan perbaikan diverifikasi lewat uji ulang. Dipadukan dengan pemindaian rutin dan kebiasaan pengembangan yang aman, uji berkala membuat keamanan menjadi proses yang berjalan terus, bukan proyek sekali jadi." },
   { type: "p", text: "Agsora membantu bisnis membangun aplikasi dengan praktik keamanan sejak awal, menyiapkan aplikasi menghadapi pengujian, dan menindaklanjuti temuan hingga tuntas. Bila Anda ingin menilai kesiapan keamanan aplikasi bisnis Anda, kami siap berdiskusi." },
+  { type: "p", text: "Cara membagikan ringkasan hasil kepada calon klien dibahas di [trust center dan kuesioner keamanan](/blog/halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien)." },
   {
     type: "cta",
     title: "Diskusikan keamanan aplikasi bisnis Anda",

@@ -98,6 +98,7 @@ export const body: Block[] = [
   { type: "p", text: "Langkah perbaikan praktisnya dibahas di [kualitas data dan tata kelola data untuk bisnis menengah](/blog/kualitas-data-dan-tata-kelola-data-untuk-bisnis-menengah)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Proyek AI yang berhasil jarang dimulai dari model, melainkan dari data yang dipahami dengan baik. Nilailah kesiapan data per kasus penggunaan, kerjakan persiapan yang paling berdampak, dan pilih proyek pertama yang datanya cukup baik untuk memberi hasil nyata. Dengan cara itu, AI tidak hanya menghasilkan demo yang mengesankan, tetapi juga sistem yang dipercaya dan dipakai setiap hari, sekaligus mendorong perusahaan merapikan data yang selama ini terabaikan." },
+  { type: "p", text: "Setelah data cukup siap, uji manfaatnya lewat [proof of concept dan pilot](/blog/proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai)." },
   {
     type: "cta",
     title: "Ingin tahu seberapa siap data Anda untuk AI?",

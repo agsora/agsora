@@ -121,6 +121,7 @@ export const body: Block[] = [
   { type: "p", text: "Mulailah dari kebutuhan pelanggan yang memang berulang, uji dengan penawaran sederhana, dan bangun sistemnya seiring bukti yang terkumpul. Bisnis yang menjalankannya dengan jujur akan menemukan bahwa pendapatan berulang adalah hasil dari pelanggan yang terus merasa terbantu." },
   { type: "p", text: "Tagihan bulanan dan paket pertemuan untuk siswa dibahas di [sistem lembaga kursus dan bimbel](/blog/sistem-lembaga-kursus-dan-bimbel-pendaftaran-jadwal-kelas-dan-tagihan-spp)." },
   { type: "p", text: "Setelah langganan berjalan, pertahankan pelanggan lewat [customer success dan health score pelanggan B2B](/blog/customer-success-dan-health-score-pelanggan-b2b-untuk-bisnis-langganan)." },
+  { type: "p", text: "Bila tagihan mengikuti volume, pelajari [metering dan rating untuk penagihan berbasis pemakaian](/blog/penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital)." },
   {
     type: "cta",
     title: "Ingin menambahkan langganan dan tagihan berulang ke bisnis Anda?",

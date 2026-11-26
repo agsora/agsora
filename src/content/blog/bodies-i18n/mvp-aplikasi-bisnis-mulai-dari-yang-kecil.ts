@@ -156,6 +156,7 @@ const en: Block[] = [
     text: "Successful business apps are rarely born perfect on day one. Most grow from a simple version that solves one problem well, then get extended bit by bit based on how people really use them. If your app idea feels too big to start, the problem may not be the idea but the size of the first step. Find the one workflow that matters most, build it well, and let real usage show you where to go next.",
   },
   { type: "p", text: "How to frame scope for vendors is covered in [software project briefs and RFPs](/blog/brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan)." },
+  { type: "p", text: "If you are still unsure the idea will work, start with [a proof of concept and paid pilot](/blog/proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai)." },
   {
     type: "cta",
     title: "Have an app idea but not sure where to start?",
@@ -321,6 +322,7 @@ const zh: Block[] = [
     text: "成功的企业应用很少在第一天就以完美的形态诞生。大多数都是从一个能很好解决某个问题的简单版本成长起来,再根据人们的实际使用方式一点点扩展。如果你的应用构想看起来大得无从下手,问题也许不在构想本身,而在于第一步迈得太大。找到最重要的那一条流程,把它做好,让真实的使用情况告诉你下一步该往哪里走。",
   },
   { type: "p", text: "如何为供应商界定范围，参见[软件项目简报与 RFP](/blog/brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan)。" },
+  { type: "p", text: "如果还不确定想法能否行得通，可以从[概念验证与付费试点](/blog/proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai)开始。" },
   {
     type: "cta",
     title: "有应用构想,却不知道从哪里开始?",

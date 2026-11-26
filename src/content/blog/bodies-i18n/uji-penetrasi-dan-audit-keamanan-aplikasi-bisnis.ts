@@ -157,6 +157,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "A penetration test is not a sign that your application is bad; it is a sign that you want to find problems before someone else does. The results are most valuable when the scope is clear, the tester is experienced, findings are prioritized with business judgment, and fixes are verified by a retest. Combined with routine scanning and secure development habits, periodic testing turns security into an ongoing process rather than a one-off project." },
   { type: "p", text: "Agsora helps businesses build applications with security practices from the start, prepare applications for testing, and follow up on findings until they are resolved. If you want to assess the security readiness of your business application, we are ready to talk." },
+  { type: "p", text: "How to share a results summary with prospects is covered in [trust centers and security questionnaires](/blog/halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien)." },
   {
     type: "cta",
     title: "Discuss your business application security",
@@ -323,6 +324,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "渗透测试并不意味着您的应用很糟糕，而是表明您希望在别人之前发现问题。当范围清晰、测试人员经验丰富、发现结合业务判断确定优先级、修复经复测验证时，成果价值最大。与例行扫描和安全开发习惯相结合，定期测试可使安全成为持续的过程，而不是一次性的项目。" },
   { type: "p", text: "Agsora 帮助企业从一开始就以安全实践构建应用、为测试做好准备，并跟进发现直至解决。如果您想评估企业应用的安全就绪程度，欢迎与我们交流。" },
+  { type: "p", text: "如何向潜在客户分享结果摘要，参见[信任中心与安全问卷](/blog/halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien)。" },
   {
     type: "cta",
     title: "探讨您的企业应用安全",

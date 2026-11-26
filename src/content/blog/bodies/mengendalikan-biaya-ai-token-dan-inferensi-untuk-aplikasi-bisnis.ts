@@ -106,6 +106,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Biaya AI dapat dikendalikan bila diperlakukan sebagai metrik produk, bukan kejutan akuntansi. Petakan sumber biaya, perkirakan dengan data nyata, terapkan penghematan yang terukur seperti pemilihan model, pemangkasan konteks, cache, dan batch, lalu pasang pemantauan, anggaran, dan batas laju sejak hari pertama. Selalu timbang penghematan terhadap kualitas. Dengan cara itu, AI tetap menjadi investasi yang nilainya jelas, bukan tagihan yang tumbuh diam-diam." },
   { type: "p", text: "Memindahkan tugas rutin ke model kecil adalah salah satu cara menekan biaya; lihat [small language model dan AI on-device](/blog/small-language-model-slm-dan-ai-on-device-untuk-aplikasi-bisnis)." },
+  { type: "p", text: "Meneruskan biaya variabel kepada pelanggan memerlukan [penagihan berbasis pemakaian yang akurat](/blog/penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital)." },
   {
     type: "cta",
     title: "Ingin fitur AI Anda berjalan hemat dan terukur?",

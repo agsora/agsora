@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_cyber_resilience_act_cra_uni_eropa_kewajiban_pelaporan_kerentanan_untuk_pembuat_software } from "./cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software";
+import { body as b_peppol_dan_e_invoicing_lintas_negara_menyiapkan_erp_untuk_pembeli_internasional } from "./peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional";
+import { body as b_halaman_kepercayaan_trust_center_b2b_menjawab_kuesioner_keamanan_calon_klien } from "./halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien";
+import { body as b_penagihan_berbasis_pemakaian_metering_dan_rating_untuk_produk_saas_dan_jasa_digital } from "./penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital";
+import { body as b_proof_of_concept_dan_pilot_berbayar_sebelum_kontrak_penuh_software_dan_ai } from "./proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai";
 import { body as b_riset_kata_kunci_b2b_dan_pemetaan_intent_pembeli_untuk_website_jasa } from "./riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa";
 import { body as b_transfer_stok_antar_gudang_dan_barang_dalam_perjalanan_in_transit_di_erp } from "./transfer-stok-antar-gudang-dan-barang-dalam-perjalanan-in-transit-di-erp";
 import { body as b_seo_dan_kehadiran_digital_untuk_pasar_tiongkok_baidu_wechat_dan_situs_bahasa_mandarin } from "./seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin";
@@ -308,6 +313,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software": b_cyber_resilience_act_cra_uni_eropa_kewajiban_pelaporan_kerentanan_untuk_pembuat_software,
+  "peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional": b_peppol_dan_e_invoicing_lintas_negara_menyiapkan_erp_untuk_pembeli_internasional,
+  "halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien": b_halaman_kepercayaan_trust_center_b2b_menjawab_kuesioner_keamanan_calon_klien,
+  "penagihan-berbasis-pemakaian-metering-dan-rating-untuk-produk-saas-dan-jasa-digital": b_penagihan_berbasis_pemakaian_metering_dan_rating_untuk_produk_saas_dan_jasa_digital,
+  "proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai": b_proof_of_concept_dan_pilot_berbayar_sebelum_kontrak_penuh_software_dan_ai,
   "riset-kata-kunci-b2b-dan-pemetaan-intent-pembeli-untuk-website-jasa": b_riset_kata_kunci_b2b_dan_pemetaan_intent_pembeli_untuk_website_jasa,
   "transfer-stok-antar-gudang-dan-barang-dalam-perjalanan-in-transit-di-erp": b_transfer_stok_antar_gudang_dan_barang_dalam_perjalanan_in_transit_di_erp,
   "seo-dan-kehadiran-digital-untuk-pasar-tiongkok-baidu-wechat-dan-situs-bahasa-mandarin": b_seo_dan_kehadiran_digital_untuk_pasar_tiongkok_baidu_wechat_dan_situs_bahasa_mandarin,

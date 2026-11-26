@@ -156,6 +156,7 @@ export const body: Block[] = [
     text: "Aplikasi bisnis yang berhasil jarang lahir dalam bentuk sempurna di hari pertama. Kebanyakan tumbuh dari versi sederhana yang menyelesaikan satu masalah dengan baik, lalu dikembangkan sedikit demi sedikit berdasarkan cara orang benar-benar memakainya. Jika ide aplikasi Anda terasa terlalu besar untuk dimulai, mungkin masalahnya bukan pada idenya, tapi pada ukuran langkah pertamanya. Temukan satu alur yang paling penting, bangun dengan baik, dan biarkan penggunaan nyata menunjukkan arah selanjutnya.",
   },
   { type: "p", text: "Cara merumuskan lingkup untuk vendor dibahas di [brief proyek dan RFP software](/blog/brief-proyek-dan-rfp-software-meminta-penawaran-yang-bisa-dibandingkan)." },
+  { type: "p", text: "Bila masih ragu apakah idenya bisa jalan, mulai dari [proof of concept dan pilot berbayar](/blog/proof-of-concept-dan-pilot-berbayar-sebelum-kontrak-penuh-software-dan-ai)." },
   {
     type: "cta",
     title: "Punya ide aplikasi, tapi bingung harus mulai dari mana?",

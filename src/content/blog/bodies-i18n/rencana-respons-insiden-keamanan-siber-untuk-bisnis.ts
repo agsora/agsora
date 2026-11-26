@@ -113,6 +113,7 @@ const en: Block[] = [
   { type: "p", text: "An incident response plan is cheap insurance: a little time drafting it today can save days of operations later. Assign roles, inventory critical systems, keep backups separate and tested, write first steps for the most likely scenarios, and practice every year. When an incident comes, a team that already knows what to do will contain the loss, keep customer trust, and recover faster." },
   { type: "p", text: "Internal reports about security violations need a safe route; see [whistleblowing systems and internal complaint channels](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)." },
   { type: "p", text: "Restoring systems after an incident is covered in [disaster recovery and business continuity](/blog/disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis)." },
+  { type: "p", text: "Makers of digital products for the EU market also face external reporting deadlines; see [the Cyber Resilience Act for software makers](/blog/cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software)." },
   {
     type: "cta",
     title: "Want to make sure your business is ready for a cyber incident?",
@@ -235,6 +236,7 @@ const zh: Block[] = [
   { type: "p", text: "事件响应计划是便宜的保险：今天花一点时间起草，将来可能挽救数天的运营。指定角色，梳理关键系统，保持备份隔离且经过测试，为最可能的场景写出第一步，并每年演练。当事件来临时，已经知道该怎么做的团队能够控制损失、保住客户信任并更快恢复。" },
   { type: "p", text: "关于安全违规的内部举报需要安全的途径；请参阅[举报系统与内部投诉渠道](/blog/whistleblowing-system-dan-kanal-pengaduan-internal-untuk-kepatuhan-bisnis)。" },
   { type: "p", text: "事件之后的系统恢复，参见[灾难恢复与业务连续性](/blog/disaster-recovery-dan-kesinambungan-bisnis-rto-rpo-untuk-aplikasi-bisnis)。" },
+  { type: "p", text: "面向欧盟市场的数字产品制造商还需遵守对外报告时限；参见[面向软件开发商的网络韧性法案](/blog/cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software)。" },
   {
     type: "cta",
     title: "想确保您的企业为网络安全事件做好准备？",

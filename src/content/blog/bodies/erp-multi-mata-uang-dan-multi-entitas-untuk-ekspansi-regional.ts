@@ -98,6 +98,7 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Ekspansi regional membawa peluang besar sekaligus kerumitan keuangan yang tidak bisa lagi ditangani dengan spreadsheet. ERP multi mata uang dan multi entitas membantu mencatat transaksi valas dengan benar, menghitung selisih kurs secara otomatis, menjaga transaksi antarperusahaan tetap seimbang, dan menyajikan laporan konsolidasi yang tepat waktu." },
   { type: "p", text: "Kuncinya ada pada desain di awal: struktur entitas, bagan akun grup, kebijakan kurs, dan alur antarperusahaan yang disepakati bersama akuntan dan konsultan pajak. Dengan fondasi itu, menambah entitas atau negara baru di kemudian hari menjadi langkah yang terkendali, bukan proyek darurat." },
+  { type: "p", text: "Ekspansi lintas negara juga menyentuh format faktur; lihat [menyiapkan ERP untuk Peppol dan e-invoicing](/blog/peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional)." },
   {
     type: "cta",
     title: "Bersiap ekspansi ke luar negeri atau menambah anak perusahaan?",

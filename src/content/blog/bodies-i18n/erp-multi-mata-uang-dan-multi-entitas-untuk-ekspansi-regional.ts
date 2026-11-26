@@ -98,6 +98,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Regional expansion brings big opportunities along with financial complexity that spreadsheets can no longer handle. A multi currency, multi entity ERP helps record foreign currency transactions correctly, calculate exchange differences automatically, keep intercompany transactions balanced, and deliver timely consolidated reports." },
   { type: "p", text: "The key is design at the start: the entity structure, group chart of accounts, exchange rate policy, and intercompany flows agreed with your accountant and tax adviser. With that foundation, adding a new entity or country later becomes a controlled step rather than an emergency project." },
+  { type: "p", text: "Cross-border expansion also affects invoice formats; see [preparing your ERP for Peppol and e-invoicing](/blog/peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional)." },
   {
     type: "cta",
     title: "Preparing to expand abroad or add a subsidiary?",
@@ -205,6 +206,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "区域扩张带来巨大机遇，也带来电子表格再也无法应付的财务复杂性。多币种、多实体 ERP 帮助企业正确记录外币交易、自动计算汇兑差额、保持公司间交易平衡，并及时提供合并报表。" },
   { type: "p", text: "关键在于前期设计：与会计师和税务顾问共同商定实体结构、集团会计科目表、汇率政策和公司间流程。有了这样的基础，日后新增实体或国家就会成为可控的一步，而不是紧急项目。" },
+  { type: "p", text: "跨国扩张还会影响发票格式；参见[让 ERP 适应 Peppol 与电子发票](/blog/peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional)。" },
   {
     type: "cta",
     title: "正准备拓展海外或新增子公司？",
