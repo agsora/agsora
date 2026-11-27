@@ -1,4 +1,9 @@
 import type { Block } from "@/config/blog";
+import { body as b_transparansi_ai_act_uni_eropa_pasal_50_chatbot_dan_konten_buatan_ai } from "./transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai";
+import { body as b_mengukur_visibilitas_dan_prospek_dari_ai_search_search_console_dan_atribusi } from "./mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi";
+import { body as b_maklon_dan_subkontrak_produksi_di_erp_bahan_di_mitra_dan_biaya_jasa } from "./maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa";
+import { body as b_kriptografi_pasca_kuantum_inventaris_dan_crypto_agility_untuk_aplikasi_bisnis } from "./kriptografi-pasca-kuantum-inventaris-dan-crypto-agility-untuk-aplikasi-bisnis";
+import { body as b_code_freeze_akhir_tahun_manajemen_rilis_dan_jadwal_siaga_sistem_bisnis } from "./code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis";
 import { body as b_cyber_resilience_act_cra_uni_eropa_kewajiban_pelaporan_kerentanan_untuk_pembuat_software } from "./cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software";
 import { body as b_peppol_dan_e_invoicing_lintas_negara_menyiapkan_erp_untuk_pembeli_internasional } from "./peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional";
 import { body as b_halaman_kepercayaan_trust_center_b2b_menjawab_kuesioner_keamanan_calon_klien } from "./halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien";
@@ -313,6 +318,11 @@ import { body as b_sales_and_operations_planning_sop_dengan_data_erp } from "./s
 import { body as b_sistem_manajemen_rental_dan_penyewaan_peralatan } from "./sistem-manajemen-rental-dan-penyewaan-peralatan";
 import { body as b_pemetaan_proses_bisnis_sebelum_membangun_software } from "./pemetaan-proses-bisnis-sebelum-membangun-software";
 export const bodies: Record<string, Block[]> = {
+  "transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai": b_transparansi_ai_act_uni_eropa_pasal_50_chatbot_dan_konten_buatan_ai,
+  "mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi": b_mengukur_visibilitas_dan_prospek_dari_ai_search_search_console_dan_atribusi,
+  "maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa": b_maklon_dan_subkontrak_produksi_di_erp_bahan_di_mitra_dan_biaya_jasa,
+  "kriptografi-pasca-kuantum-inventaris-dan-crypto-agility-untuk-aplikasi-bisnis": b_kriptografi_pasca_kuantum_inventaris_dan_crypto_agility_untuk_aplikasi_bisnis,
+  "code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis": b_code_freeze_akhir_tahun_manajemen_rilis_dan_jadwal_siaga_sistem_bisnis,
   "cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software": b_cyber_resilience_act_cra_uni_eropa_kewajiban_pelaporan_kerentanan_untuk_pembuat_software,
   "peppol-dan-e-invoicing-lintas-negara-menyiapkan-erp-untuk-pembeli-internasional": b_peppol_dan_e_invoicing_lintas_negara_menyiapkan_erp_untuk_pembeli_internasional,
   "halaman-kepercayaan-trust-center-b2b-menjawab-kuesioner-keamanan-calon-klien": b_halaman_kepercayaan_trust_center_b2b_menjawab_kuesioner_keamanan_calon_klien,

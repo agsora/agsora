@@ -120,6 +120,7 @@ const en: Block[] = [
   { type: "p", text: "There is no need to chase every new term. Strengthen the foundations, watch your own data, and adjust as the picture becomes clearer. Amid so much content produced automatically, clarity and honesty are becoming an ever rarer point of difference." },
   { type: "p", text: "For the technical side behind smart search, see [semantic search and vector search](/blog/pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis)." },
   { type: "p", text: "For online stores, the next step is agent-run transactions; see [agentic commerce: preparing your store for AI shopping agents](/blog/agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai)." },
+  { type: "p", text: "The next step is [measuring visibility and leads from AI search](/blog/mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi)." },
   {
     type: "cta",
     title: "Want a website that is ready for both ordinary search and AI based search?",
@@ -249,6 +250,7 @@ const zh: Block[] = [
   { type: "p", text: "不必追逐每一个新名词。加强基础，观察自己的数据，并随着形势逐渐明朗而调整步伐。在大量自动生成的内容当中，清晰和诚实反而成了越来越稀缺的差异点。" },
   { type: "p", text: "关于智能搜索背后的技术，请参阅[语义搜索与向量搜索](/blog/pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis)。" },
   { type: "p", text: "对于网店而言，下一步是由代理执行的交易；参见[代理式商务：让网店为 AI 购物代理做好准备](/blog/agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai)。" },
+  { type: "p", text: "下一步是[衡量 AI 搜索带来的可见度与线索](/blog/mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi)。" },
   {
     type: "cta",
     title: "想要一个既适应普通搜索、也适应 AI 搜索的网站吗？",

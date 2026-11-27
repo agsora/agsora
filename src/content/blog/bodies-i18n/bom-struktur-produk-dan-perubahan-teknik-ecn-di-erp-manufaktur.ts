@@ -59,6 +59,7 @@ const en: Block[] = [
   { type: "p", text: "These are not universal targets. Use them to compare against your own plant's situation and improve period by period." },
   { type: "h2", text: "Closing" },
   { type: "p", text: "A tidy BOM is more than a list of materials; it is a contract between engineering, purchasing, the warehouse, production, and finance about what is actually being made. Orderly version control and ECNs let changes happen quickly without sacrificing quality or creating obsolete stock. Start with your most important products, assign owners, and make every change go through a recorded process. If you want to organise BOMs, product versions, and engineering changes in an ERP that matches how your plant works, the Agsora team can help assess your needs and design a staged rollout." },
+  { type: "p", text: "If some steps are done outside, see [managing subcontract manufacturing in ERP](/blog/maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa)." },
   { type: "cta", title: "Tidy up BOMs and product changes at your plant",text: "Talk through your product data and change process with the Agsora team to design a staged, realistic ERP rollout.",href: "/services/erp",label: "Free consultation" },
 ];
 
@@ -121,6 +122,7 @@ const zh: Block[] = [
   { type: "p", text: "这些并非通用目标，请与贵厂自身的情况对比，逐期改进。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "整洁的 BOM 不只是一张物料清单，它是工程、采购、仓库、生产和财务之间关于“究竟在制造什么”的约定。有序的版本管理和 ECN，可以让变更快速进行，又不牺牲质量，也不产生呆滞库存。请从最重要的产品开始，指定负责人，并让每次变更都经过有记录的流程。如果您希望在贴合工厂运作方式的 ERP 中整理 BOM、产品版本和工程变更，Agsora 团队乐意协助评估需求并设计分阶段实施方案。" },
+  { type: "p", text: "若部分工序在外部完成，请参阅[在 ERP 中管理委外加工](/blog/maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa)。" },
   { type: "cta", title: "整理您工厂的 BOM 与产品变更",text: "与 Agsora 团队讨论您的产品数据和变更流程，设计分阶段、务实的 ERP 实施方案。",href: "/services/erp",label: "免费咨询" },
 ];
 

@@ -69,5 +69,6 @@ export const body: Block[] = [
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "MRP mengubah pertanyaan \"bahan apa yang harus dibeli dan kapan\" dari tebakan menjadi perhitungan yang dapat ditelusuri. Kuncinya bukan pada logika yang rumit, melainkan pada disiplin data: BOM yang akurat, stok yang dapat dipercaya, waktu tunggu yang nyata, dan parameter yang ditinjau berkala. Mulailah dari percontohan kecil, ukur hasilnya, dan perluas bertahap sehingga tim perencana tumbuh bersama sistem." },
   { type: "p", text: "Akurasi MRP bergantung pada BOM yang rapi; lihat [BOM, revisi produk, dan perubahan teknik (ECN) di ERP manufaktur](/blog/bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur)." },
+  { type: "p", text: "Kebutuhan bahan untuk proses luar memerlukan [alur maklon dengan gudang mitra](/blog/maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa)." },
   { type: "cta", title: "Rencanakan material dan produksi dengan ERP yang tepat",text: "Agsora membantu merancang BOM, perencanaan material, dan laporan produksi di ERP untuk pabrik skala menengah. Diskusikan kebutuhan produksi Anda dengan kami.",href: "/services/erp",label: "Konsultasi gratis" },
 ];

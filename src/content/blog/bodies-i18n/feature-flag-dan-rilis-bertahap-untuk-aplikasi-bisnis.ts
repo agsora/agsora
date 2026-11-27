@@ -124,6 +124,7 @@ const en: Block[] = [
   { type: "p", text: "Does gradual rollout mean users are used as guinea pigs? Not when done well. The aim is to protect users from problems hitting everyone at once, by starting with a small group, monitoring, and switching off if needed. For sensitive changes, choose groups that have been informed." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Feature flags and gradual rollouts turn a release from a big bet into a series of small, reversible steps. By separating code deployment from feature launch, monitoring indicators at each stage, and preparing an emergency switch, teams can release more often with lower risk. Balance it with discipline: give each flag an owner and a removal date so it does not become technical debt. Start with one risky feature and a simple mechanism, then grow as needed." },
+  { type: "p", text: "Ahead of long holidays, combine flags with [year-end code freeze rules](/blog/code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis)." },
   {
     type: "cta",
     title: "Want to release features with lower risk?",
@@ -257,6 +258,7 @@ const zh: Block[] = [
   { type: "p", text: "渐进式发布是否意味着把用户当作小白鼠？做得好就不是。目的是通过从小群体开始、监控并在必要时关闭，保护用户免受同时波及所有人的问题。对于敏感改动，应选择已被告知的群体。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "功能开关与渐进式发布把发布从一次大赌注变成一系列小而可逆的步骤。通过把代码部署与功能上线分开、在每个阶段监控指标，并准备好紧急开关，团队可以更频繁地发布，同时降低风险。用纪律加以平衡：为每个开关指定负责人和删除日期，使其不会变成技术债。从一个高风险功能和一个简单机制开始，再按需发展。" },
+  { type: "p", text: "长假前夕，请将功能开关与[年终代码冻结规则](/blog/code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis)结合使用。" },
   {
     type: "cta",
     title: "希望以更低风险发布功能？",

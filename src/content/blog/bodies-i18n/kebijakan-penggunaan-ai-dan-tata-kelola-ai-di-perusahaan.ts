@@ -95,6 +95,7 @@ const en: Block[] = [
   { type: "p", text: "Start simple, run it consistently, and review periodically. A one page policy that is understood and obeyed is worth more than a thick document never opened. Because regulation keeps developing, follow current rules and involve a legal adviser for high risk uses." },
   { type: "p", text: "AI specific security risks are covered in [AI application security: prompt injection and data leakage](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)." },
   { type: "p", text: "Applying policy at the process level, including autonomy levels and approvals, is covered in [human-in-the-loop for AI agents](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)." },
+  { type: "p", text: "If your service reaches the EU, extend the policy with [the transparency duties of AI Act Article 50](/blog/transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai)." },
   {
     type: "cta",
     title: "Want to apply AI in your business safely and measurably?",
@@ -199,6 +200,7 @@ const zh: Block[] = [
   { type: "p", text: "从简单开始，持续执行，定期复审。一份被理解并遵守的一页纸政策，胜过一份从未被翻开的厚重文件。由于法规持续发展，请关注现行规定，并在高风险使用时请法律顾问参与。" },
   { type: "p", text: "AI 应用特有的安全风险见[AI 应用安全：提示注入与数据泄露](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)。" },
   { type: "p", text: "在流程层面落实政策（包括自主级别和审批）详见[AI 代理的人在回路](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)。" },
+  { type: "p", text: "如果服务覆盖欧盟，请在政策中补充[《人工智能法案》第 50 条的透明度义务](/blog/transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai)。" },
   {
     type: "cta",
     title: "想安全且可衡量地在业务中应用 AI 吗？",

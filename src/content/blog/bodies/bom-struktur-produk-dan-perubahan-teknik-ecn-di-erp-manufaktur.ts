@@ -59,5 +59,6 @@ export const body: Block[] = [
   { type: "p", text: "Angka-angka ini bukan target universal. Gunakan sebagai pembanding terhadap kondisi pabrik Anda sendiri dan perbaiki dari periode ke periode." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "BOM yang rapi bukan sekadar daftar bahan; ia adalah kontrak antara teknik, pembelian, gudang, produksi, dan keuangan tentang apa yang sebenarnya dibuat. Pengelolaan versi dan ECN yang tertib membuat perubahan bisa dilakukan cepat tanpa mengorbankan mutu atau menimbulkan stok usang. Mulailah dari produk terpenting, tetapkan pemilik, dan biasakan setiap perubahan lewat proses yang tercatat. Bila Anda ingin menata BOM, versi produk, dan perubahan teknik di sistem ERP yang sesuai dengan cara kerja pabrik Anda, tim Agsora siap membantu menilai kebutuhan dan merancang penerapan bertahap." },
+  { type: "p", text: "Bila sebagian proses dikerjakan pihak luar, lihat [mengelola maklon dan subkontrak produksi di ERP](/blog/maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa)." },
   { type: "cta", title: "Rapikan BOM dan perubahan produk di pabrik Anda",text: "Diskusikan kondisi data produk dan alur perubahan Anda dengan tim Agsora untuk merancang penerapan ERP yang bertahap dan realistis.",href: "/services/erp",label: "Konsultasi gratis" },
 ];

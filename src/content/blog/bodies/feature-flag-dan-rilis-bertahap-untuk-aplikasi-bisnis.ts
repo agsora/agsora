@@ -124,6 +124,7 @@ export const body: Block[] = [
   { type: "p", text: "Apakah rilis bertahap berarti pengguna dijadikan kelinci percobaan? Tidak bila dilakukan dengan baik. Tujuannya melindungi pengguna dari masalah yang menimpa semua orang sekaligus, dengan memulai dari kelompok kecil, memantau, dan mematikan bila perlu. Untuk perubahan yang sensitif, pilih kelompok yang telah diberi tahu." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Feature flag dan rilis bertahap mengubah rilis dari taruhan besar menjadi serangkaian langkah kecil yang dapat dibalik. Dengan memisahkan pemasangan kode dari peluncuran fitur, memantau indikator di setiap tahap, dan menyiapkan saklar darurat, tim dapat merilis lebih sering dengan risiko lebih rendah. Imbangi dengan disiplin: beri tiap flag pemilik dan tanggal penghapusan agar tidak berubah menjadi utang teknis. Mulailah dari satu fitur berisiko dan mekanisme sederhana, lalu kembangkan sesuai kebutuhan." },
+  { type: "p", text: "Menjelang libur panjang, padukan flag dengan aturan [code freeze akhir tahun](/blog/code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis)." },
   {
     type: "cta",
     title: "Ingin merilis fitur dengan risiko lebih rendah?",

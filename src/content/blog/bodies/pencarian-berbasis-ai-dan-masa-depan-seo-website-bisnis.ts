@@ -120,6 +120,7 @@ export const body: Block[] = [
   { type: "p", text: "Tidak perlu mengejar setiap istilah baru. Perkuat dasarnya, amati data Anda sendiri, dan sesuaikan langkah seiring keadaan menjadi lebih jelas. Di tengah banyaknya konten yang dibuat serba otomatis, kejelasan dan kejujuran justru menjadi pembeda yang makin langka." },
   { type: "p", text: "Untuk sisi teknis di balik pencarian cerdas, lihat [pencarian semantik dan vector search](/blog/pencarian-semantik-dan-vector-search-untuk-website-dan-aplikasi-bisnis)." },
   { type: "p", text: "Untuk toko online, langkah berikutnya adalah transaksi yang dijalankan agen; lihat [agentic commerce: menyiapkan toko untuk agen belanja AI](/blog/agentic-commerce-menyiapkan-toko-online-untuk-agen-belanja-ai)." },
+  { type: "p", text: "Langkah berikutnya adalah [mengukur visibilitas dan prospek dari AI search](/blog/mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi)." },
   {
     type: "cta",
     title: "Ingin website yang siap untuk pencarian biasa maupun pencarian berbasis AI?",

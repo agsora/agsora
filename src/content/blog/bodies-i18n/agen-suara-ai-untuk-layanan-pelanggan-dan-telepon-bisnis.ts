@@ -91,6 +91,7 @@ const en: Block[] = [
   { type: "p", text: "How long does a pilot take? For one call type with simple integration, a pilot can usually be prepared within weeks. Most of the time actually goes into preparing official information and testing real scenarios." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Voice AI agents give businesses a new way to answer every call, whenever customers phone in. Their value is greatest for repetitive calls whose answers live in data: scheduling, order status, and common questions. Success depends on secure integration, correct information sources, friendly conversation design, transparency with customers, and an always available path to a person. Start with one call type, measure honestly, then expand step by step." },
+  { type: "p", text: "For callers in the EU, read about [AI disclosure rules under Article 50](/blog/transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai)." },
   {
     type: "cta",
     title: "Want every customer call answered?",
@@ -191,6 +192,7 @@ const zh: Block[] = [
   { type: "p", text: "试点需要多长时间？对于集成简单的单一来电类型，试点通常几周内即可准备就绪。大部分时间其实花在整理官方信息和测试真实场景上。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "AI 语音代理为企业提供了一种新方式，无论客户何时来电都能得到应答。它在答案存在于数据中的重复性来电上价值最大：预约、订单状态和常见问题。成功取决于安全的集成、正确的信息来源、友好的对话设计、对客户的透明，以及随时可用的转人工途径。从一种来电类型开始，如实衡量，再逐步扩展。" },
+  { type: "p", text: "面向欧盟来电者时，请阅读[第 50 条的 AI 告知规则](/blog/transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai)。" },
   {
     type: "cta",
     title: "希望每一通客户来电都有人接听？",

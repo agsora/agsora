@@ -91,6 +91,7 @@ export const body: Block[] = [
   { type: "p", text: "Berapa lama membangun pilot? Untuk satu jenis panggilan dengan integrasi sederhana, pilot biasanya dapat disiapkan dalam hitungan minggu. Waktu terbanyak justru dipakai untuk menyiapkan informasi resmi dan menguji skenario nyata." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Agen suara AI memberi bisnis cara baru untuk menjawab setiap panggilan, kapan pun pelanggan menelepon. Nilainya paling besar pada panggilan berulang yang jawabannya ada di data: jadwal, status pesanan, dan pertanyaan umum. Keberhasilannya bergantung pada integrasi yang aman, sumber informasi yang benar, desain percakapan yang ramah, transparansi kepada pelanggan, dan jalan keluar ke manusia yang selalu tersedia. Mulailah dari satu jenis panggilan, ukur dengan jujur, lalu perluas secara bertahap." },
+  { type: "p", text: "Untuk penelepon di Uni Eropa, baca [aturan pemberitahuan AI menurut Pasal 50](/blog/transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai)." },
   {
     type: "cta",
     title: "Ingin setiap panggilan pelanggan terjawab?",

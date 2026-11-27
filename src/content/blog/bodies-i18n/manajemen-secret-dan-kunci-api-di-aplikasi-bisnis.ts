@@ -117,6 +117,7 @@ const en: Block[] = [
   { type: "p", text: "Not necessarily at first. Encrypted environment variables on the hosting platform plus a team password manager are often adequate. Consider a dedicated secrets manager when the number of services, environments, and people with access makes manual management hard to audit." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Managing secrets is a habit, not a product. Do not put secrets in code, store them in a place designed for it, separate them per environment and per service, limit who can see them, rotate periodically, and set up detection plus a written emergency procedure. Businesses that apply this discipline close one of the most common incident paths at a far smaller cost than the impact of a single leaked key." },
+  { type: "p", text: "A key inventory also feeds [post-quantum cryptography preparation](/blog/kriptografi-pasca-kuantum-inventaris-dan-crypto-agility-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Want your business applications and integrations built with secure credential management?",
@@ -243,6 +244,7 @@ const zh: Block[] = [
   { type: "p", text: "起初不一定。托管平台上的加密环境变量加上团队密码管理器通常已经足够。当服务、环境和有权访问的人数多到使手动管理难以审计时，再考虑专用密钥管理器。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "管理密钥是一种习惯，而不是一款产品。不要把密钥放进代码，存放在专门设计的地方，按环境和服务分离，限制谁能看到，定期轮换，并建立检测和书面应急流程。践行这种纪律的企业，以远低于一次密钥泄露影响的成本，堵住了最常见的事件路径之一。" },
+  { type: "p", text: "密钥清单也是[后量子密码准备](/blog/kriptografi-pasca-kuantum-inventaris-dan-crypto-agility-untuk-aplikasi-bisnis)的基础。" },
   {
     type: "cta",
     title: "希望您的业务应用和集成以安全的凭据管理方式构建吗？",

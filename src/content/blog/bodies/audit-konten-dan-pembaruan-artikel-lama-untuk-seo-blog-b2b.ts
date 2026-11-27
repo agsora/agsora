@@ -63,5 +63,6 @@ export const body: Block[] = [
   { type: "p", text: "7. Pantau hasil selama beberapa minggu dan catat pelajarannya." },
   { type: "h2", text: "Penutup" },
   { type: "p", text: "Audit konten membantu Anda berhenti memandang blog sebagai tumpukan artikel dan mulai mengelolanya sebagai aset. Hasil terbaik datang dari keputusan yang berbasis data tetapi tetap mempertimbangkan nilai bisnis, pembaruan yang benar-benar substantif, serta kejujuran pada tanggal dan hasil pengukuran. Mulailah dengan sepuluh artikel yang paling dekat dengan layanan Anda dan lihat apa yang dapat diperbaiki." },
+  { type: "p", text: "Pilih halaman yang diperbarui berdasarkan [pengukuran prospek dari AI search dan Search Console](/blog/mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi)." },
   { type: "cta", title: "Rawat blog Anda sebagai aset pemasaran",text: "Minta tim Agsora membantu mengaudit blog, menyusun prioritas pembaruan, dan memperbaiki struktur teknis SEO situs B2B Anda.",href: "/services/website",label: "Konsultasi gratis" },
 ];

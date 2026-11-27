@@ -117,6 +117,7 @@ export const body: Block[] = [
   { type: "p", text: "Tidak selalu di awal. Variabel lingkungan terenkripsi pada platform hosting plus pengelola kata sandi tim sering sudah memadai. Pertimbangkan pengelola secret khusus ketika jumlah layanan, lingkungan, dan orang yang mengakses sudah membuat pengelolaan manual sulit diaudit." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Mengelola secret adalah kebiasaan, bukan produk. Jangan menaruh rahasia di kode, simpan di tempat yang dirancang untuk itu, pisahkan per lingkungan dan per layanan, batasi siapa yang bisa melihat, rotasi secara berkala, dan pasang deteksi serta prosedur darurat tertulis. Bisnis yang menerapkan disiplin ini menutup salah satu jalur insiden paling umum dengan biaya yang jauh lebih kecil dibandingkan dampak satu kunci yang bocor." },
+  { type: "p", text: "Inventaris kunci juga menjadi bekal [persiapan kriptografi pasca-kuantum](/blog/kriptografi-pasca-kuantum-inventaris-dan-crypto-agility-untuk-aplikasi-bisnis)." },
   {
     type: "cta",
     title: "Ingin aplikasi dan integrasi bisnis Anda dibangun dengan pengelolaan kredensial yang aman?",

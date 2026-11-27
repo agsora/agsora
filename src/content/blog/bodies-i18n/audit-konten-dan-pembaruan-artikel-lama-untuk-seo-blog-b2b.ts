@@ -63,6 +63,7 @@ const en: Block[] = [
   { type: "p", text: "7. Monitor results for several weeks and record the lessons." },
   { type: "h2", text: "Closing" },
   { type: "p", text: "A content audit helps you stop seeing a blog as a pile of articles and start managing it as an asset. The best results come from data-based decisions that still weigh business value, genuinely substantive updates, and honesty in dates and measurements. Start with the ten articles closest to your services and see what can be improved." },
+  { type: "p", text: "Choose pages to refresh using [AI search and Search Console lead measurement](/blog/mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi)." },
   { type: "cta", title: "Maintain your blog as a marketing asset",text: "Ask the Agsora team to help audit your blog, set update priorities, and fix the technical SEO structure of your B2B site.",href: "/services/website",label: "Free consultation" },
 ];
 
@@ -129,6 +130,7 @@ const zh: Block[] = [
   { type: "p", text: "7. 监测数周的结果，并记录经验教训。" },
   { type: "h2", text: "结语" },
   { type: "p", text: "内容审计帮助您不再把博客看作一堆文章，而是把它当作资产来管理。最好的结果来自基于数据、同时兼顾业务价值的决策，真正有实质内容的更新，以及对日期和衡量结果的诚实。请从与您的服务最接近的十篇文章开始，看看有哪些可以改进。" },
+  { type: "p", text: "可依据[AI 搜索与 Search Console 线索衡量](/blog/mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi)选择待更新页面。" },
   { type: "cta", title: "把博客当作营销资产来维护",text: "请 Agsora 团队协助审计您的博客、制定更新优先级，并改进 B2B 网站的技术 SEO 结构。",href: "/services/website",label: "免费咨询" },
 ];
 

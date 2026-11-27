@@ -127,6 +127,7 @@ const en: Block[] = [
   { type: "p", text: "Traffic spikes can come from bots; see [bot, scraping, and automated attack protection](/blog/perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis)." },
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "Load testing turns uncertainty into numbers: how many users can be served, where the system first gives up, and what needs fixing. With targets from real data, scenarios resembling customer behavior, measurement at high percentiles, and enough time to fix and repeat, peak day changes from a gamble into a rehearsed event. The investment is small compared with the sales it saves." },
+  { type: "p", text: "After load testing, plan [a year-end code freeze and on-call roster](/blog/code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis)." },
   {
     type: "cta",
     title: "Want to make sure your online store and applications are ready for traffic spikes during big promos?",
@@ -263,6 +264,7 @@ const zh: Block[] = [
   { type: "p", text: "流量高峰可能来自机器人；请参阅[机器人、抓取与自动化攻击防护](/blog/perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis)。" },
   { type: "h2", text: "结论" },
   { type: "p", text: "负载测试把不确定性变成数字：能服务多少用户，系统最先在哪里投降，哪些需要修复。有了来自真实数据的目标、与顾客行为相似的场景、高百分位的测量，以及足够的修复和重复时间，高峰日就从一场赌博变成一场排练过的事件。与它挽救的销售额相比，这项投入很小。" },
+  { type: "p", text: "压力测试之后，请安排[年终代码冻结与值班](/blog/code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis)。" },
   {
     type: "cta",
     title: "想确保您的网店和应用已准备好应对大促期间的流量激增吗？",

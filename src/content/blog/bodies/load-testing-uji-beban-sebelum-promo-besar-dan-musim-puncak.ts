@@ -127,6 +127,7 @@ export const body: Block[] = [
   { type: "p", text: "Lonjakan lalu lintas bisa berasal dari bot; lihat [perlindungan bot, scraping, dan serangan otomatis](/blog/perlindungan-bot-scraping-dan-serangan-otomatis-pada-website-bisnis)." },
   { type: "h2", text: "Kesimpulan" },
   { type: "p", text: "Uji beban mengubah ketidakpastian menjadi angka: berapa pengguna yang sanggup dilayani, di mana sistem pertama kali menyerah, dan apa yang perlu diperbaiki. Dengan target dari data nyata, skenario yang menyerupai perilaku pelanggan, pengukuran pada persentil tinggi, serta waktu cukup untuk memperbaiki dan mengulang, hari puncak berubah dari pertaruhan menjadi peristiwa yang sudah dilatih. Investasinya kecil dibandingkan penjualan yang terselamatkan." },
+  { type: "p", text: "Setelah uji beban, atur [code freeze dan jadwal siaga akhir tahun](/blog/code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis)." },
   {
     type: "cta",
     title: "Ingin memastikan toko online dan aplikasi Anda siap menghadapi lonjakan trafik saat promo besar?",

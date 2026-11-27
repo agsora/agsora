@@ -6,6 +6,96 @@ import type { PostMeta } from "@/config/blog";
  */
 export const meta: PostMeta[] = [
   {
+    slug: "transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai",
+    title: "Transparansi AI Act Pasal 50: Kewajiban untuk Chatbot dan Konten Buatan AI",
+    excerpt: "Panduan praktis Pasal 50 AI Act Uni Eropa: pemberitahuan chatbot, penandaan konten buatan AI, peran penyedia dan pemakai, jadwal 2026, inventaris titik AI, bukti kepatuhan, dan rencana dua minggu.",
+    category: "Teknologi",
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    tags: ["ai","website","industri"],
+    seoTitles: { id: "Transparansi AI Act Pasal 50 untuk Chatbot", en: "EU AI Act Article 50 Transparency Guide", zh: "欧盟 AI 法案第 50 条透明度义务" },
+    titleTranslations: {
+      en: "EU AI Act Article 50: Transparency for Chatbots and AI-Generated Content",
+      zh: "欧盟《人工智能法案》第 50 条：聊天机器人与 AI 内容的透明度义务",
+    },
+    excerptTranslations: {
+      en: "A practical guide to EU AI Act Article 50: chatbot notices, marking AI-generated content, provider and deployer roles, 2026 dates, AI inventory, evidence, and a two-week plan.",
+      zh: "欧盟《人工智能法案》第 50 条实务指南：聊天机器人提示、AI 内容标记、提供者与部署者角色、2026 年时间节点、AI 清单、合规证据与两周计划。",
+    },
+  },
+  {
+    slug: "mengukur-visibilitas-dan-prospek-dari-ai-search-search-console-dan-atribusi",
+    title: "Mengukur Prospek dari AI Search: Laporan Search Console dan Atribusi B2B",
+    excerpt: "Cara mengukur visibilitas dan prospek dari pencarian berbasis AI: laporan AI generatif di Search Console, kanal rujukan asisten AI, log perayap, uji pertanyaan pembeli, atribusi ke CRM, dan laporan satu halaman.",
+    category: "Website & Digital",
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    tags: ["seo","website","sales"],
+    seoTitles: { id: "Mengukur Prospek dari AI Search", en: "Measuring AI Search Leads for B2B", zh: "如何衡量 AI 搜索带来的线索" },
+    titleTranslations: {
+      en: "Measuring AI Search Leads: Search Console Reports and B2B Attribution",
+      zh: "衡量 AI 搜索带来的线索：Search Console 报告与 B2B 归因",
+    },
+    excerptTranslations: {
+      en: "How to measure visibility and leads from AI search: Search Console generative AI reports, assistant referrals, crawler logs, buyer question tests, CRM attribution, and a one-page report.",
+      zh: "如何衡量 AI 搜索的可见度与线索：Search Console 生成式 AI 报告、AI 助手引荐、爬虫日志、买家问题测试、CRM 归因与一页报告。",
+    },
+  },
+  {
+    slug: "maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa",
+    title: "Maklon dan Subkontrak Produksi di ERP: Bahan di Mitra, Mutu, dan HPP",
+    excerpt: "Cara mengelola maklon di ERP: model kerja sama, gudang virtual mitra, order subkontrak, susut dan sisa bahan, ketertelusuran, harga pokok, pencocokan tagihan, dan portal mitra.",
+    category: "ERP & Operasional",
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    tags: ["erp","inventori","industri"],
+    seoTitles: { id: "Maklon dan Subkontrak Produksi di ERP", en: "Subcontract Manufacturing in ERP", zh: "ERP 委外加工管理指南" },
+    titleTranslations: {
+      en: "Subcontract Manufacturing in ERP: Partner Stock, Quality, and Cost",
+      zh: "ERP 中的委外加工管理：外部库存、质量与成本",
+    },
+    excerptTranslations: {
+      en: "How to manage toll manufacturing in ERP: working models, partner virtual warehouses, subcontract orders, loss and leftovers, traceability, product cost, invoice matching, and a partner portal.",
+      zh: "如何在 ERP 中管理委外加工：合作模式、伙伴虚拟仓、委外订单、损耗与余料、追溯、产品成本、发票匹配与伙伴门户。",
+    },
+  },
+  {
+    slug: "kriptografi-pasca-kuantum-inventaris-dan-crypto-agility-untuk-aplikasi-bisnis",
+    title: "Kriptografi Pasca-Kuantum untuk Bisnis: Inventaris dan Crypto-Agility",
+    excerpt: "Persiapan pasca-kuantum yang realistis: standar NIST dan jadwal transisi, risiko data berumur panjang, inventaris kriptografi, prioritas, crypto-agility, pertanyaan vendor, pengujian, dan peta jalan.",
+    category: "Teknologi",
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    tags: ["keamanan","infrastruktur","vendor"],
+    seoTitles: { id: "Kriptografi Pasca-Kuantum untuk Bisnis", en: "Post-Quantum Cryptography for Business", zh: "企业后量子密码准备指南" },
+    titleTranslations: {
+      en: "Post-Quantum Cryptography for Business: Inventory and Crypto-Agility",
+      zh: "企业后量子密码准备：资产盘点与密码敏捷性",
+    },
+    excerptTranslations: {
+      en: "Realistic post-quantum preparation: NIST standards and timelines, long-lived data risk, cryptographic inventory, priorities, crypto-agility, vendor questions, testing, and a roadmap.",
+      zh: "务实的后量子准备：NIST 标准与时间表、长期数据风险、密码资产清单、优先级、密码敏捷性、供应商提问、测试与路线图。",
+    },
+  },
+  {
+    slug: "code-freeze-akhir-tahun-manajemen-rilis-dan-jadwal-siaga-sistem-bisnis",
+    title: "Code Freeze Akhir Tahun: Rilis, Jadwal Siaga, dan Penanganan Darurat",
+    excerpt: "Cara menjalankan code freeze akhir tahun: cakupan pembekuan, jendela waktu, daftar periksa, pengecualian, feature flag, tambalan keamanan, jadwal siaga, pemantauan, insiden, dan pembukaan kembali.",
+    category: "Teknologi",
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    tags: ["implementasi","infrastruktur","ecommerce"],
+    seoTitles: { id: "Code Freeze Akhir Tahun untuk Bisnis", en: "Year-End Code Freeze Guide", zh: "年终代码冻结实务指南" },
+    titleTranslations: {
+      en: "Year-End Code Freeze: Releases, On-Call Rosters, and Emergencies",
+      zh: "年终代码冻结：发布管理、值班安排与应急处理",
+    },
+    excerptTranslations: {
+      en: "How to run a year-end code freeze: scope, timing, checklists, exceptions, feature flags, security patches, on-call rosters, monitoring, incidents, and reopening.",
+      zh: "如何执行年终代码冻结：范围、时间窗口、检查清单、例外审批、功能开关、安全补丁、值班、监控、事故处理与解冻。",
+    },
+  },
+  {
     slug: "cyber-resilience-act-cra-uni-eropa-kewajiban-pelaporan-kerentanan-untuk-pembuat-software",
     title: "Cyber Resilience Act (CRA) Uni Eropa: Kewajiban Pelaporan untuk Pembuat Software",
     excerpt: "Panduan Cyber Resilience Act bagi pembuat software dan eksportir: siapa yang terdampak, pelaporan kerentanan 24 dan 72 jam sejak 11 September 2026, daftar komponen (SBOM), dan persiapan menuju Desember 2027.",
@@ -221,7 +311,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengaudit blog B2B: membuat inventaris, menilai artikel, memutuskan pertahankan, perbarui, gabungkan, atau pangkas, menangani kanibalisasi kata kunci, menjaga tanggal tetap jujur, memprioritaskan, dan mengukur hasil tanpa melebih-lebihkan.",
     category: "Website & Digital",
     publishedAt: "2026-11-24",
-    updatedAt: "2026-11-24",
+    updatedAt: "2026-11-27",
     tags: ["seo","website","data"],
     titleTranslations: {
       en: "Content Audits and Refreshing Old Articles for B2B Blog SEO",
@@ -273,7 +363,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan mengelola bill of materials (BOM) di ERP manufaktur: struktur multi-level, versi dan tanggal berlaku, perubahan teknik (ECN) dengan persetujuan, bahan pengganti, penanganan sisa stok versi lama, serta dampaknya pada biaya, MRP, dan produksi.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-23",
-    updatedAt: "2026-11-23",
+    updatedAt: "2026-11-27",
     tags: ["operasional","erp","industri"],
     titleTranslations: {
       en: "BOMs, Product Revisions, and Engineering Change Notices (ECN) in Manufacturing ERP",
@@ -497,7 +587,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan menerapkan material requirements planning (MRP) di ERP untuk pabrik skala menengah: data BOM dan stok yang harus akurat, cara kerja perhitungan kebutuhan bersih, waktu tunggu, stok pengaman, ukuran lot, pesan pengecualian, serta indikator efektivitasnya.",
     category: "ERP & Operasional",
     publishedAt: "2026-11-19",
-    updatedAt: "2026-11-23",
+    updatedAt: "2026-11-27",
     tags: ["erp","industri","inventori"],
     titleTranslations: {
       en: "MRP: Material Planning for Manufacturing with ERP",
@@ -1076,7 +1166,7 @@ export const meta: PostMeta[] = [
     excerpt: "Pengantar zero trust yang praktis untuk bisnis menengah: identitas dan MFA, kondisi perangkat, segmentasi jaringan, hak akses minimum, akses vendor, visibilitas log, dan rencana penerapan bertahap tanpa produk mahal.",
     category: "Teknologi",
     publishedAt: "2026-11-09",
-    updatedAt: "2026-11-24",
+    updatedAt: "2026-11-27",
     tags: ["keamanan","infrastruktur","operasional"],
     titleTranslations: {
       en: "Zero Trust for Mid-Sized Businesses: Access Security Without Overreliance on VPNs",
@@ -1756,7 +1846,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara mengelola kata sandi, kunci API, dan token aplikasi: tempat penyimpanan yang benar, pemisahan lingkungan, rotasi, deteksi kebocoran, dan prosedur bila secret bocor.",
     category: "Teknologi",
     publishedAt: "2026-10-26",
-    updatedAt: "2026-10-26",
+    updatedAt: "2026-11-27",
     tags: ["keamanan","integrasi","infrastruktur"],
     titleTranslations: {
       en: "Secrets and API Key Management in Business Applications: Storing, Rotating, and Detecting Credential Leaks",
@@ -1790,7 +1880,7 @@ export const meta: PostMeta[] = [
     excerpt: "Panduan uji beban untuk bisnis: jenis uji, menetapkan target dari data, skenario realistis, metrik persentil, perbaikan leher botol, dan rencana hari puncak.",
     category: "Teknologi",
     publishedAt: "2026-10-26",
-    updatedAt: "2026-10-29",
+    updatedAt: "2026-11-27",
     tags: ["infrastruktur","website","operasional"],
     titleTranslations: {
       en: "Load Testing: Stress-Testing Your Online Store and Apps Before Big Promos and Peak Season",
@@ -1960,7 +2050,7 @@ export const meta: PostMeta[] = [
     excerpt: "Konsep feature flag, empat jenisnya, pola rilis bertahap, indikator pemantauan, hubungan dengan pengujian dan aplikasi mobile, risiko, serta langkah memulai.",
     category: "Teknologi",
     publishedAt: "2026-10-24",
-    updatedAt: "2026-10-24",
+    updatedAt: "2026-11-27",
     tags: ["website","infrastruktur","operasional"],
     titleTranslations: {
       en: "Feature Flags and Gradual Rollouts: Releasing New Business App Features with Lower Risk",
@@ -2182,7 +2272,7 @@ export const meta: PostMeta[] = [
     excerpt: "Cara kerja agen suara AI, kasus penggunaan realistis seperti jadwal dan status pesanan, integrasi dengan sistem bisnis, keamanan dan privasi, serta langkah menerapkannya bertahap.",
     category: "Teknologi",
     publishedAt: "2026-10-22",
-    updatedAt: "2026-10-22",
+    updatedAt: "2026-11-27",
     tags: ["ai","pelanggan","otomasi"],
     titleTranslations: {
       en: "Voice AI Agents for Customer Service and Business Phone Lines: Use Cases and How to Implement Them",
@@ -2641,7 +2731,7 @@ export const meta: PostMeta[] = [
     excerpt: "Risiko AI di tempat kerja, unsur kebijakan penggunaan AI, klasifikasi data, penilaian alat, pengawasan manusia, pelatihan, dan peninjauan berkala.",
     category: "Teknologi",
     publishedAt: "2026-10-17",
-    updatedAt: "2026-11-09",
+    updatedAt: "2026-11-27",
     tags: ["ai","keamanan","operasional"],
     titleTranslations: {
       en: "AI Usage Policy and AI Governance in the Company: Safe and Responsible",
@@ -3576,7 +3666,7 @@ export const meta: PostMeta[] = [
     excerpt: "Asisten AI dan ringkasan jawaban mengubah cara orang mencari. Apa yang berubah dan yang tetap, konten yang sulit digantikan, dasar teknis, akses perayap AI, reputasi di luar website, dan cara mengukur yang lebih bermakna.",
     category: "Website & Digital",
     publishedAt: "2026-10-09",
-    updatedAt: "2026-11-06",
+    updatedAt: "2026-11-27",
     tags: ["seo","ai","website","data"],
     titleTranslations: {
       en: "AI Based Search and the Future of SEO: Keeping Your Business Website Found and Trusted",

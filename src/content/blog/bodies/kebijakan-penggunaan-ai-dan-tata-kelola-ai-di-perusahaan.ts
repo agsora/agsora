@@ -95,6 +95,7 @@ export const body: Block[] = [
   { type: "p", text: "Mulailah sederhana, jalankan dengan konsisten, dan tinjau secara berkala. Kebijakan satu halaman yang dipahami dan dipatuhi lebih berharga daripada dokumen tebal yang tak pernah dibuka. Karena regulasi terus berkembang, pantau ketentuan terkini dan libatkan penasihat hukum untuk penggunaan yang berisiko tinggi." },
   { type: "p", text: "Risiko keamanan khusus aplikasi AI dibahas di [keamanan aplikasi AI: prompt injection dan kebocoran data](/blog/keamanan-aplikasi-ai-prompt-injection-dan-kebocoran-data)." },
   { type: "p", text: "Penerapan kebijakan di tingkat proses, termasuk tingkat otonomi dan persetujuan, dibahas di [human-in-the-loop untuk AI agent](/blog/human-in-the-loop-persetujuan-manusia-untuk-ai-agent-di-proses-bisnis)." },
+  { type: "p", text: "Bila layanan Anda menjangkau Uni Eropa, lengkapi kebijakan dengan [kewajiban transparansi Pasal 50 AI Act](/blog/transparansi-ai-act-uni-eropa-pasal-50-chatbot-dan-konten-buatan-ai)." },
   {
     type: "cta",
     title: "Ingin menerapkan AI di bisnis dengan aman dan terukur?",

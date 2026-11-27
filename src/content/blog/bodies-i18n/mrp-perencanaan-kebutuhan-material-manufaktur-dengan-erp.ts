@@ -69,6 +69,7 @@ const en: Block[] = [
   { type: "h2", text: "Conclusion" },
   { type: "p", text: "MRP turns the question \"what materials must we buy and when\" from a guess into a traceable calculation. The key is not complicated logic but data discipline: an accurate BOM, trustworthy stock, real lead times, and parameters reviewed periodically. Start with a small pilot, measure the results, and expand gradually so the planning team grows along with the system." },
   { type: "p", text: "MRP accuracy depends on a tidy BOM; see [BOMs, product revisions, and engineering change notices (ECN) in manufacturing ERP](/blog/bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur)." },
+  { type: "p", text: "Material for outside processing needs [a subcontracting flow with partner warehouses](/blog/maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa)." },
   { type: "cta", title: "Plan materials and production with the right ERP",text: "Agsora helps design BOMs, material planning, and production reports in ERP for mid-sized factories. Discuss your production needs with us.",href: "/services/erp",label: "Free consultation" },
 ];
 
@@ -141,6 +142,7 @@ const zh: Block[] = [
   { type: "h2", text: "结论" },
   { type: "p", text: "MRP 把“该买什么物料、什么时候买”从猜测变成可追溯的计算。关键不在于复杂的逻辑，而在于数据纪律：准确的 BOM、可信的库存、真实的提前期，以及定期复查的参数。从小型试点开始，衡量结果，逐步扩展，让计划团队与系统共同成长。" },
   { type: "p", text: "MRP 的准确性取决于规范的 BOM；参见[制造业 ERP 中的 BOM、产品版本与工程变更（ECN）管理](/blog/bom-struktur-produk-dan-perubahan-teknik-ecn-di-erp-manufaktur)。" },
+  { type: "p", text: "外部加工所需物料应配合[带伙伴仓库的委外流程](/blog/maklon-dan-subkontrak-produksi-di-erp-bahan-di-mitra-dan-biaya-jasa)。" },
   { type: "cta", title: "用合适的 ERP 规划物料与生产",text: "Agsora 帮助中型工厂在 ERP 中设计 BOM、物料计划和生产报表。欢迎与我们讨论您的生产需求。",href: "/services/erp",label: "免费咨询" },
 ];
 
